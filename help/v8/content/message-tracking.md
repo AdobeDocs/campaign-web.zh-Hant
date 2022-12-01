@@ -1,0 +1,126 @@
+---
+audience: end-user
+title: 追蹤您的訊息
+description: 了解如何新增連結及追蹤已傳送的訊息
+source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 1%
+
+---
+
+
+# 新增連結及追蹤訊息 {#tracking}
+
+>[!NOTE]
+>
+>本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+
+使用 [!DNL Journey Optimizer] 新增內容連結並追蹤傳送的訊息，以監控收件者的行為。
+
+## 啟用追蹤 {#enable-tracking}
+
+您可以檢查 **[!UICONTROL 電子郵件開啟]** 和/或 **[!UICONTROL 按一下電子郵件]** 選項。
+
+![](assets/message-tracking.png)
+
+>[!NOTE]
+>
+>預設會啟用這兩個選項。
+
+這可讓您透過以下方式追蹤收件者的行為：
+
+* **[!UICONTROL 電子郵件開啟]**:已開啟的訊息。
+* **[!UICONTROL 按一下電子郵件]**:點按電子郵件中的連結。
+
+## 插入連結 {#insert-links}
+
+設計訊息時，您可以新增連結至內容。
+
+>[!NOTE]
+>
+>當 [追蹤已啟用](#enable-tracking)，則會追蹤訊息內容中包含的所有連結。
+
+若要將連結插入電子郵件內容，請遵循下列步驟：
+
+1. 選取元素並按一下 **[!UICONTROL 插入連結]** 中。
+
+   ![](assets/message-tracking-insert-link.png)
+
+1. 選擇要建立的連結類型：
+
+   * **[!UICONTROL 外部連結]**:插入外部URL的連結。
+
+   * **[!UICONTROL 登陸頁面]**:插入登錄頁面的連結。
+
+   * **[!UICONTROL 按一下「選擇退出」]**:插入連結，讓使用者無需確認選擇退出即可快速取消訂閱您的通訊內容。
+
+   * **[!UICONTROL 外部選擇加入/訂閱]**:插入連結以接受來自您品牌的通訊。
+
+   * **[!UICONTROL 外部選擇退出/取消訂閱]**:插入連結以取消訂閱以免接收來自您品牌的通訊。
+
+   * **[!UICONTROL 鏡像頁面]**:插入連結以在網頁瀏覽器中顯示電子郵件內容。 深入了解 [本節](#mirror-page).
+
+   ![](assets/message-tracking-links.png)
+
+1. 您可以個人化您的連結。
+
+1. 儲存您的變更。
+
+1. 建立連結後，您仍可從 **[!UICONTROL 元件設定]** 窗格。
+
+   * 您可以編輯連結並變更其類型。
+   * 您可以核取對應的選項，選擇是否將連結加底線。
+
+   ![](assets/message-tracking-link-settings.png)
+
+>[!NOTE]
+>
+>行銷類型的電子郵件訊息必須包含選擇退出連結，這對於交易式訊息並非必要。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 交易]**)是在通道表面（即訊息預設集）層級和建立訊息時定義。
+
+## 連結至鏡像頁面 {#mirror-page}
+
+鏡像頁面是可透過網頁瀏覽器線上存取的HTML頁面。 其內容與您的電子郵件內容相同。
+
+若要將連結新增至電子郵件中的鏡像頁面， [插入連結](#insert-links) 選取 **[!UICONTROL 鏡像頁面]** 作為連結的類型。
+
+![](assets/message-tracking-mirror-page.png)
+
+鏡像頁面會自動建立。
+
+>[!IMPORTANT]
+>
+>鏡像頁面連結會自動產生，且無法編輯。 它們包含呈現原始電子郵件所需的所有加密個人化資料。 因此，使用具有大值的個人化屬性可能會產生長的鏡像頁面URL，而這會使連結無法在URL長度上限的網頁瀏覽器中運作。
+
+傳送電子郵件後，當收件者按一下鏡像頁面連結時，電子郵件的內容會顯示在其預設的網頁瀏覽器中。
+
+>[!NOTE]
+>
+>在傳送至測試設定檔的校樣中，鏡像頁面的連結未啟用。 它只會在最終訊息中啟動。
+
+鏡像頁面的保留期為60天。 延遲後，鏡像頁面將不再可用。
+
+## 管理追蹤 {#manage-tracking}
+
+此 [電子郵件設計工具](create-email-content.md) 可讓您管理追蹤的URL，例如編輯每個連結的追蹤類型。
+
+1. 按一下 **[!UICONTROL 連結]** 圖示，顯示將被追蹤之內容的所有URL清單。
+
+   此清單可讓您集中檢視，並找出電子郵件內容中的每個URL。
+
+1. 若要編輯連結，請按一下對應的鉛筆圖示。
+
+   ![](assets/message-tracking-edit-links.png)
+
+1. 您可以修改 **[!UICONTROL 追蹤類型]** 如有需要：
+
+   ![](assets/message-tracking-edit-a-link.png)
+
+   對於每個追蹤的URL，您可以將追蹤模式設為下列其中一個值：
+
+   * **[!UICONTROL 追蹤]**:在此URL上啟用追蹤。
+   * **[!UICONTROL 選擇退出]**:將此URL視為選擇退出或取消訂閱URL。
+   * **[!UICONTROL 鏡像頁面]**:將此URL視為鏡像頁面URL。
+   * **[!UICONTROL 從不]**:切勿啟用此URL的追蹤。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+
+有關開放和點按的報告可在「即時」報表和「全域」報表中使用。
