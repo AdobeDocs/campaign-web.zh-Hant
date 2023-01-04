@@ -2,13 +2,13 @@
 audience: end-user
 title: 個人化您的電子郵件背景
 description: 了解如何個人化您的電子郵件背景
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
+source-git-commit: 6f9816092e4eef12e443ecd49dd1f6ef38e324b0
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # 個人化您的電子郵件背景 {#backgrounds}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 以下是您可使用的可用背景設定。
 
-* 設定 **[!UICONTROL 背景顏色]** 整封電子郵件。 請務必在導覽樹狀結構中選取可從左側浮動視窗存取的內文設定。
+* 設定 **[!UICONTROL 背景顏色]** 整封電子郵件。 請務必在可從左窗格存取的導覽樹中選取內文設定。
 
    ![](assets/background_1.png)
 
@@ -37,26 +37,28 @@ ht-degree: 0%
 
    ![](assets/background_2.png)
 
-* 為每個結構元件設定不同的背景顏色。 在導航樹中選擇一個結構，可從左側調色板訪問，以僅將特定背景顏色應用於該結構。
-
-   請確定您未設定檢視區背景顏色，因為它可能會隱藏結構背景顏色。
+* 為每個結構元件設定不同的背景顏色。 在左窗格的導航樹中選擇一個結構，以僅將特定背景顏色應用於該結構。
 
    ![](assets/background_3.png)
 
+   >[!NOTE]
+   >
+   >請確定您未設定檢視區背景顏色，因為它可能會隱藏結構背景顏色。
+
 * 設定 **[!UICONTROL 背景影像]** （對於結構元件的內容）。
+
+   ![](assets/background_4.png)
 
    >[!NOTE]
    >
    >有些電子郵件程式不支援背景影像。 若不支援，則會改用列背景顏色。 請務必選取適當的後援背景顏色，以備影像無法顯示時使用。
 
-   ![](assets/background_4.png)
-
 * 在列級別設定背景顏色。
+
+   ![](assets/background_5.png)
 
    >[!NOTE]
    >
    >這是最常見的使用案例。 Adobe建議在欄層級設定背景顏色，因為這樣在編輯整個電子郵件內容時可提供更大的彈性。
 
    您也可以在欄層級設定背景影像，但此功能很少使用。
-
-   ![](assets/background_5.png)

@@ -2,10 +2,11 @@
 audience: end-user
 title: 進階設定
 description: Campaign v8網頁檔案
-source-git-commit: c90d8a5eff6169945d381f3250cb3e4d06194d31
+exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
+source-git-commit: 4fbb5e2eb0211712d17f1437986038c40ed15602
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 10%
+source-wordcount: '899'
+ht-degree: 24%
 
 ---
 
@@ -40,24 +41,47 @@ Documentation on this part is targeted for december 2022
 >title="分類"
 >abstract="類型可讓您控制、篩選及監控傳送的傳送。"
 
-### 壓力參數 {#pressure-parameter}
+類型是一組類型規則，在訊息分析階段執行。它們可讓您確定您的電子郵件一律包含特定元素（例如，取消訂閱連結或主旨行）或篩選規則，以排除群組不受您預定目標（如取消訂閱者、競爭者或不忠誠客戶）的影響。
+
+將分類與訊息或訊息範本產生關聯時，將執行包含在類型中的類型規則，以檢查消息是否有效。
+
+### 壓力參數 {#pressure-parameters}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="傳遞權重"
 >abstract="傳遞權重可讓您識別壓力管理框架內的最優先傳送。 權重最高的報文具有優先順序。"
 
+在本節中，壓力參數可讓您定義臨界值。 這是指定期間內可傳送至一個設定檔的訊息數上限。 一旦達到此臨界值時，在考慮到該期間結束之前，將不再進行傳送。此程序可以讓您在訊息超過設定的臨界值時，自動將設定檔排除在傳送之外，以避免過度請求。
+
+臨界值可以是常數或變數。這表示在指定期間，臨界值可能會因某個設定檔而異，甚至會因為相同的設定檔而有所不同。
+
+在 **權重類型** 欄位，有三個可用選項：
+
+此 **傳送重量** 欄位可讓您
+
+此 **傳送模式** 欄位……
+
 ### 容量設定 {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
 >title="收件者的重要性"
->abstract="TBC"
+>abstract="收件者的重要性是一個公式，用於判斷超過容量類型規則時要保留哪些收件者。"
 
+在本節中，您可以選取Adobe Campaign v8主控台中定義的容量規則。 此規則與電子郵件通道相關聯。
+
+此 **收件者的重要性** 欄位是一種公式，用於判斷超過容量類型規則時要保留哪些收件者。
 
 ## 對象 {#audience}
 
+在本節中，您可以選擇Adobe Campaign v8主控台中定義的目標對應。 若您使用的收件者表格不是Adobe Campaign提供的表格，則必須建立目標對應。
+
 ## 傳遞 {#delivery}
+
+測試SMTP傳送：使用此選項可測試透過SMTP的傳送。 會處理傳送，直到連線至SMTP伺服器為止，但不會傳送：對於傳送的每個收件者，Campaign會連線至SMTP提供者伺服器、執行SMTP RCPT TO命令，並在SMTP DATA命令之前關閉連線。
+
+電子郵件密件副本：使用此選項，只需將BCC電子郵件地址新增至訊息目標，即可透過BCC在外部系統上儲存電子郵件。
 
 ### 重試次數 {#retries}
 
@@ -66,7 +90,15 @@ Documentation on this part is targeted for december 2022
 >title="最大重試次數"
 >abstract="如果訊息因暫時錯誤而失敗，則在傳送期間將執行重試。"
 
+由於「軟」或「已忽略」錯誤而暫時未傳送的郵件可能會自動重試。 依預設，會為傳送的第一天排程五次重試，最小間隔為一小時，分散於一天的24小時內。 在此之後，並在「有效性」索引標籤中定義的傳送截止日期之前，每天會寫程式一次重試。
+
 ## 核准 {#approval}
+
+**手動**
+
+**半自動**
+
+**自動**
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
@@ -74,8 +106,6 @@ Documentation on this part is targeted for december 2022
 >abstract="傳送的每個步驟都需經過核准，以確保對各種程式進行完整監控。"
 
 ## 有效性 {#validity}
-
-### 有效期 {#validity-period}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
@@ -88,6 +118,16 @@ Documentation on this part is targeted for december 2022
 >abstract="「有效性限制」欄位是用於上傳的資源，主要用於鏡像頁面和影像。 此頁面上的資源在限定時間內有效。"
 
 
+「傳送持續時間」欄位可讓您輸入全域傳送重試的限制。 這表示Adobe Campaign會傳送從開始日期開始的訊息，然後，對於僅傳回錯誤的訊息，會執行一般、可設定的重試，直到達到有效性限制為止。
+
+您也可以選擇指定日期。 要執行此操作，請選擇「顯式設定有效日期」。 在此情況下，傳送和有效性限制日期也可讓您指定時間。 預設會使用目前時間，但您可以直接在輸入欄位中修改。
+
+資源的有效限制：「有效性限制」欄位是用於上傳的資源，主要用於鏡像頁面和影像。 本頁上的資源在限定時間內有效（以節省磁碟空間）。
+
+### 鏡像頁面管理 {#mirror}
+
+**鏡像頁面管理**
+
 ### 追蹤 {#tracking}
 
 >[!CONTEXTUALHELP]
@@ -95,16 +135,19 @@ Documentation on this part is targeted for december 2022
 >title="有效期"
 >abstract="此選項會定義要在URL上啟動追蹤的持續時間。"
 
+**追蹤有效性限制**:此選項會定義要在URL上啟動追蹤的持續時間。
+
+**過期URL的替代URL**:TBC
 
 
+## 測試設定{#test-setttings}
 
+**保持雙倍**
 
+**保留已加入封鎖清單的地址**
 
+**保留被隔離的地址**
 
+**保留傳遞代碼以作證明**
 
-
-
-
-
-
-
+**標籤前置詞**

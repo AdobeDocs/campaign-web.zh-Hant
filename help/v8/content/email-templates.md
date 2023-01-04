@@ -2,13 +2,13 @@
 audience: end-user
 product: campaign
 title: 使用電子郵件範本
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 114c482f-8291-418a-bd81-667f40267a7d
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 6%
+source-wordcount: '197'
+ht-degree: 5%
 
 ---
-
 
 # 使用電子郵件內容範本 {#email-content-templates}
 
@@ -19,10 +19,6 @@ ht-degree: 6%
 使用 **[!UICONTROL 選取設計範本]** 區段，開始從範本建立內容。
 
 ![](assets/email_designer-templates.png)
-
-您可以選擇：
-* 20個現成可用的電子郵件範本。
-* 已儲存的範本. [了解更多](#save-as-template)
 
 ## 另存為範本 {#save-as-template}
 

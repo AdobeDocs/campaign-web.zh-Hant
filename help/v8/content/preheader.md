@@ -1,14 +1,14 @@
 ---
 audience: end-user
-title: 在Journey Optimizer中新增前置標題
+title: 在電子郵件設計工具中新增預先標題
 description: 了解如何設計您的電子郵件內容
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
-
 
 # 新增前置詞 {#preheader}
 
@@ -21,8 +21,9 @@ ht-degree: 0%
 >title="新增前置詞"
 >abstract="前置詞是摘要文字，在從電子郵件用戶端檢視電子郵件時，會遵循主旨行。 在許多情況下，它會提供電子郵件的簡短摘要，且通常為一句長。"
 
+前置詞是摘要文字，在從電子郵件用戶端檢視電子郵件時，會遵循主旨行。
 
-前置詞是摘要文字，在從電子郵件用戶端檢視電子郵件時，會遵循主旨行。 在許多情況下，它會提供電子郵件的簡短摘要，且通常為一句長。
+在許多情況下，它會提供電子郵件的簡短摘要，且通常為一句長。
 
 >[!NOTE]
 >
@@ -30,13 +31,15 @@ ht-degree: 0%
 
 若要定義電子郵件預先標題，請遵循下列步驟：
 
-1. 從電子郵件設計工具中，新增 **[!UICONTROL 結構元件]** 開始設計電子郵件。
+1. 從電子郵件設計工具中，至少新增 **[!UICONTROL 結構元件]** 開始設計電子郵件。
 
-   ![](assets/preheader_1.png)
+1. 按一下 **[!UICONTROL 導航樹]** 圖示，然後選取 **[!UICONTROL 主體]**.
 
-1. 從 **[!UICONTROL 內文設定]** 右窗格，按一下 **編輯** 旁邊 **[!UICONTROL Preheader]** 欄位來新增內容。
+   ![](assets/preheader_body.png)
 
-   ![](assets/preheader_2.png)
+1. 從 **[!UICONTROL 內文設定]** 右窗格，按一下 **[!UICONTROL Preheader]** 欄位來新增內容。
+
+   ![](assets/preheader_body_settings.png)
 
 1. 新增您的標題。 您可以按一下 **[!UICONTROL 新增個人化]** 表徵圖。
 
@@ -45,8 +48,6 @@ ht-degree: 0%
 1. 從 **[!UICONTROL 編輯個人化]** 視窗中，您可以新增 **[!UICONTROL 內容區塊]**, **[!UICONTROL 動態內容]** 或 **[!UICONTROL 個人化欄位]**.
 
 1. 按一下 **[!UICONTROL 驗證]** 以檢查個人化語法。
-
-   ![](assets/preheader_4.png)
 
 1. 按一下 **[!UICONTROL 儲存]**.
 

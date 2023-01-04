@@ -2,7 +2,8 @@
 audience: end-user
 title: 報告
 description: Campaign v8網頁檔案
-source-git-commit: d8958be5085518fc180959992649684f328053cd
+exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%
@@ -51,9 +52,6 @@ Adobe Campaign提供數種報表類型，可供每次傳送存取。 這些報�
 
 * **開啟次數劃分**:此報表依作業系統、裝置和瀏覽器顯示相關期間的開啟次數劃分。 對於每個類別，會使用兩個圖表。 第一個會顯示有關電腦和行動裝置上開啟的統計資料。 第二個則只顯示與行動裝置上開啟次數相關的統計資料。
 
-**快速點按**
+**Hotclick**
 
 此報表顯示訊息內容(HTML和/或文字)，在每個連結上包含點按連結的百分比。 個人化區塊取消訂閱連結、鏡像頁面連結和選件連結會納入累積點按總數中，但不會顯示在報表中。
-
-
-

@@ -1,37 +1,30 @@
 ---
 audience: end-user
-title: 預覽和測試您的電子郵件
+title: 關於預覽和校樣
 description: Campaign v8網頁檔案
-source-git-commit: fa7baaa7cc75fdb20d4c21f1391edb9aa5dd268c
+exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
+source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 3%
+source-wordcount: '120'
+ht-degree: 0%
 
 ---
 
-# 預覽和測試您的電子郵件 {#preview-test-send}
+# 關於預覽和校樣 {#about-preview-proofs}
 
 >[!NOTE]
 >
 >本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
-## 預覽您的內容
+定義電子郵件內容後，您可以在傳送內容前先檢查內容的顯示方式。 這可讓您測試電子郵件，以偵測內容或個人化設定中可能的錯誤。
 
-<!--
-Diff from AJO: 
-preview: more features than AJO: preview using target population, test profiles or audience
--->
+為此，Adobe Campaign可讓您：
 
-![](assets/preview.png)
+* [預覽電子郵件內容和個人化](#preview) 使用設定檔資料，
 
-1. 選取要測試的設定檔（目標設定檔/測試設定檔/對象）
-1. 預覽內容
+<!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* [傳送校樣](#send-proofs) 來測試及驗證電子郵件。
 
-## 傳送校樣
+這些動作會從 **[!UICONTROL 模擬內容]** 按鈕，可在從電子郵件設計工具建立電子郵件內容時訪問該按鈕：
 
-傳送校樣的詳細步驟
-
-<!--
-Diff from AJO: 
-substitution, test profile
--->
+![](assets/simulate.png)

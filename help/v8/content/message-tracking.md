@@ -2,13 +2,13 @@
 audience: end-user
 title: 追蹤您的訊息
 description: 了解如何新增連結及追蹤已傳送的訊息
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
+source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 0%
 
 ---
-
 
 # 新增連結及追蹤訊息 {#tracking}
 
@@ -16,22 +16,7 @@ ht-degree: 1%
 >
 >本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
-使用 [!DNL Journey Optimizer] 新增內容連結並追蹤傳送的訊息，以監控收件者的行為。
-
-## 啟用追蹤 {#enable-tracking}
-
-您可以檢查 **[!UICONTROL 電子郵件開啟]** 和/或 **[!UICONTROL 按一下電子郵件]** 選項。
-
-![](assets/message-tracking.png)
-
->[!NOTE]
->
->預設會啟用這兩個選項。
-
-這可讓您透過以下方式追蹤收件者的行為：
-
-* **[!UICONTROL 電子郵件開啟]**:已開啟的訊息。
-* **[!UICONTROL 按一下電子郵件]**:點按電子郵件中的連結。
+使用電子郵件設計工具來新增內容的連結並追蹤傳送的訊息，以監控收件者的行為。
 
 ## 插入連結 {#insert-links}
 
@@ -39,7 +24,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->當 [追蹤已啟用](#enable-tracking)，則會追蹤訊息內容中包含的所有連結。
+>啟用追蹤時，會追蹤包含在訊息內容中的所有連結。
 
 若要將連結插入電子郵件內容，請遵循下列步驟：
 
@@ -47,29 +32,13 @@ ht-degree: 1%
 
    ![](assets/message-tracking-insert-link.png)
 
-1. 選擇要建立的連結類型：
-
-   * **[!UICONTROL 外部連結]**:插入外部URL的連結。
-
-   * **[!UICONTROL 登陸頁面]**:插入登錄頁面的連結。
-
-   * **[!UICONTROL 按一下「選擇退出」]**:插入連結，讓使用者無需確認選擇退出即可快速取消訂閱您的通訊內容。
-
-   * **[!UICONTROL 外部選擇加入/訂閱]**:插入連結以接受來自您品牌的通訊。
-
-   * **[!UICONTROL 外部選擇退出/取消訂閱]**:插入連結以取消訂閱以免接收來自您品牌的通訊。
-
-   * **[!UICONTROL 鏡像頁面]**:插入連結以在網頁瀏覽器中顯示電子郵件內容。 深入了解 [本節](#mirror-page).
-
-   ![](assets/message-tracking-links.png)
-
-1. 您可以個人化您的連結。
+1. 新增 **[!UICONTROL 標籤]** 和 **[!UICONTROL 連結]**.
 
 1. 儲存您的變更。
 
 1. 建立連結後，您仍可從 **[!UICONTROL 元件設定]** 窗格。
 
-   * 您可以編輯連結並變更其類型。
+   * 您可以編輯連結並變更其 **[!UICONTROL 目標]**.
    * 您可以核取對應的選項，選擇是否將連結加底線。
 
    ![](assets/message-tracking-link-settings.png)
@@ -82,9 +51,19 @@ ht-degree: 1%
 
 鏡像頁面是可透過網頁瀏覽器線上存取的HTML頁面。 其內容與您的電子郵件內容相同。
 
-若要將連結新增至電子郵件中的鏡像頁面， [插入連結](#insert-links) 選取 **[!UICONTROL 鏡像頁面]** 作為連結的類型。
+若要將連結新增至電子郵件中的鏡像頁面：
 
-![](assets/message-tracking-mirror-page.png)
+1. 選取元素並按一下 **[!UICONTROL 插入連結]** 中。
+
+   ![](assets/message-tracking-mirror-page.png)
+
+1. 選取 **[!UICONTROL 插入連結]** 圖示來存取個人化功能表。
+
+   ![](assets/message-tracking-mirror-page_2.png)
+
+1. 從 **[!UICONTROL 內容區塊]** 菜單，選擇 **[!UICONTROL 鏡像頁面URL]** 按一下 **[!UICONTROL 新增]**.
+
+   ![](assets/message-tracking-mirror-page_3.png)
 
 鏡像頁面會自動建立。
 
@@ -123,4 +102,3 @@ ht-degree: 1%
    * **[!UICONTROL 鏡像頁面]**:將此URL視為鏡像頁面URL。
    * **[!UICONTROL 從不]**:切勿啟用此URL的追蹤。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-有關開放和點按的報告可在「即時」報表和「全域」報表中使用。
