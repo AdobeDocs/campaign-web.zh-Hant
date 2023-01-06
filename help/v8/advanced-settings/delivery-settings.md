@@ -3,7 +3,7 @@ audience: end-user
 title: 進階設定
 description: Campaign v8網頁檔案
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ba6d27bd2c98616be6432aea34afd1eeba37ea55
+source-git-commit: 66a1a324d671bd8ef2847005a3ab75d113110117
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 18%
@@ -137,7 +137,6 @@ Documentation on this part is targeted for december 2022
 
 **鏡像頁面管理** 包含四個選項：
 
-* 
 
 ### 追蹤 {#tracking}
 
