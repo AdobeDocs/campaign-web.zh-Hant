@@ -3,9 +3,9 @@ audience: end-user
 title: 建立您的第一封電子郵件
 description: Campaign v8網頁檔案
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1174'
 ht-degree: 1%
 
 ---
@@ -116,9 +116,11 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >清單中可用的對象來自您的Campaign V8執行個體，或來自Adobe Experience Platform（如果已在執行個體上實作「目的地/來源」整合）。
+   >清單中可用的對象來自您的Campaign V8執行個體，或來自Adobe Experience Platform（如果已在執行個體上設定目的地/來源整合）。
+   >
+   >目的地/來源整合可讓您將Experience Platform區段傳送至Adobe Campaign，以及將促銷活動傳送和追蹤記錄檔傳送至Adobe Experience Platform。 [了解如何搭配Campaign和Adobe Experience Platform使用](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
 
-1. 選取對象後，您就可以視需要編輯其規則。
+1. 選取對象後，您可以使用其他規則來調整目標。
 
    您也可以設定控制組，以比較未鎖定目標之設定檔的行為，分析電子郵件收件者的行為。 [了解如何使用控制組](../audience/control-group.md)
 
@@ -131,7 +133,7 @@ ht-degree: 1%
 
 若要排程電子郵件的傳送，請按一下 **[!UICONTROL 啟用]** 然後指定傳送的所需日期和時間。
 
-依預設， **[!UICONTROL 傳送前確認]** 選項，表示您需要確認在指定日期和時間傳送電子郵件。 停用此選項可允許在排程的日期和時間傳送電子郵件，而不需要確認。
+依預設， **[!UICONTROL 傳送前確認]** 選項，表示您需要確認傳送，以允許在指定的日期和時間傳送電子郵件。 停用此選項可允許在排程的日期和時間傳送電子郵件，而不需要確認。
 
 ![](assets/schedule.png)
 
@@ -139,7 +141,7 @@ ht-degree: 1%
 
 在您的電子郵件準備就緒後，您可以先預覽並測試它，再啟動其傳送。
 
-在此使用案例中，我們將使用現有設定檔預覽電子郵件，並傳送校樣至不屬於目標的測試設定檔。
+在此使用案例中，我們將預覽電子郵件，並使用現有設定檔傳送校樣。
 
 有關如何預覽和測試電子郵件的其他資訊，請參閱 [本節](../preview-test/preview-test.md).
 
@@ -161,7 +163,7 @@ ht-degree: 1%
 
 1. 若要傳送電子郵件的校樣，請按一下 **[!UICONTROL 測試]** 按鈕，然後選取將接收校樣的設定檔。
 
-   在此範例中，我們想將校樣傳送至特定測試設定檔，這是不屬於目標的種子地址。 [了解如何使用種子地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target=&quot;_blank&quot;}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
    ![](assets/proof-test-profile.png)
 
