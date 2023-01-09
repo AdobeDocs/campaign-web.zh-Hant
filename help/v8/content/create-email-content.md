@@ -3,7 +3,7 @@ audience: end-user
 title: 在電子郵件設計工具中設計電子郵件
 description: 了解如何從草稿開始設計您的電子郵件內容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
+source-git-commit: 557a02dc8d24676c5678b2a5d9fc8eef7c228e9f
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 >title="定義範本欄"
 >abstract="電子郵件設計工具可讓您透過定義欄結構來輕鬆定義範本的版面。"
 
-電子郵件設計工具可讓您輕鬆定義電子郵件的結構。 透過新增和移動結構元素並執行簡單的拖放動作，您可以在數秒內設計電子郵件的形狀。
+電子郵件設計工具可讓您輕鬆定義電子郵件的結構。 透過新增和移動結構元素並執行簡單的拖放動作，您可以在數秒內設計電子郵件的內文。
 
 若要開始建立電子郵件內容，請遵循下列步驟：
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 1. 插入個人化欄位，以從設定檔資料自訂您的電子郵件內容。 [深入了解內容個人化](../personalization/personalize.md)
 
-1. 按一下 **[!UICONTROL 連結]** 標籤，以顯示要追蹤之內容的所有URL。 您可以修改其 **[!UICONTROL 追蹤類型]** 或 **[!UICONTROL 標籤]** 新增 **[!UICONTROL 標籤]** 如有需要。 [深入了解連結和訊息追蹤](message-tracking.md)
+1. 按一下 **[!UICONTROL 連結]** 標籤，以顯示要追蹤之內容的所有URL。 您可以修改其 **[!UICONTROL 追蹤類型]** 或 **[!UICONTROL 標籤]** 新增 **[!UICONTROL 類別]** 如有需要。 [深入了解連結和訊息追蹤](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
