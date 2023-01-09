@@ -3,9 +3,9 @@ audience: end-user
 title: 預覽電子郵件內容
 description: Campaign v8網頁檔案
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Campaign可讓您在傳送前使用設定檔來預覽電子郵件內容，
 
 您可以使用下列方式預覽訊息：
 
-* **測試設定檔**:使用種子地址預覽電子郵件，種子地址是資料庫中不屬於電子郵件目標的其他收件人，
+* **測試設定檔**:使用種子地址預覽電子郵件，種子地址是資料庫中其他虛構的收件者，
 * **設定檔**:使用現有設定檔預覽電子郵件。
 
 若要預覽電子郵件的內容，請依照下列步驟操作：
@@ -36,5 +36,7 @@ Adobe Campaign可讓您在傳送前使用設定檔來預覽電子郵件內容，
 1. 選取設定檔後，右側窗格中會顯示電子郵件的預覽。 個人化元素會由左窗格中選取之設定檔的資料取代。
 
    如果您已新增多個設定檔，則可以在清單中的每個設定檔之間切換，以預覽對應的電子郵件。
+
+   您也可以在不同裝置（桌上型電腦、行動裝置、平板電腦……）上預覽內容的呈現。
 
    ![](assets/preview.png)
