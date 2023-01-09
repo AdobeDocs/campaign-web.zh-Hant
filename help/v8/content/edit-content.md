@@ -3,9 +3,9 @@ audience: end-user
 title: 編輯電子郵件內容
 description: Campaign v8網頁檔案
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
+source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,11 @@ ht-degree: 0%
 >
 >本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
-若要開始建立電子郵件內容，請按一下 **[!UICONTROL 編輯內容]** 按鈕。 此畫面可讓您定義電子郵件的內容，並存取電子郵件設計工具來設計。
+若要開始建立電子郵件內容，請按一下 **[!UICONTROL 編輯內容]** 按鈕。
+
+![](assets/edit-content.png)
+
+此畫面可讓您定義電子郵件的內容，並存取電子郵件設計工具來設計。
 
 ![](assets/content-dashboard.png)
 
@@ -44,7 +48,7 @@ ht-degree: 0%
 
 1. 檢查 **[!UICONTROL 從名稱]** 和 **[!UICONTROL 從電子郵件]** 資訊。 這些欄位為唯讀欄位，會在建立電子郵件時在選取的電子郵件範本中設定。
 
-1. 定義電子郵件 **[!UICONTROL 主旨行]**. 若要這麼做，請開啟運算式編輯器以定義其內容，並使用各種屬性和內容區塊或選件來新增個人化。 [了解如何個人化內容](../personalization/personalize.md)
+1. 定義電子郵件 **[!UICONTROL 主旨行]**. 若要這麼做，請直接在專用欄位中輸入您的主題，或開啟運算式編輯器以定義，使用各種屬性和內容區塊或選件來新增個人化內容。 [了解如何個人化內容](../personalization/personalize.md)
 
 1. 如果您想要透過電子郵件傳送優惠方案，請使用 **[!UICONTROL 選件]** 按鈕。 然後，您就能使用個人化欄位，將它們插入電子郵件中。 [了解如何傳送優惠方案](offers.md)
 
