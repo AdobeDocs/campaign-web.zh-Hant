@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 5a5dabdb33893bd94271e0df4e63ddae11f1354e
+source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,4 @@ ht-degree: 0%
 
 將文字類型內容新增至選件的表示時，您也可以存取個人化編輯器。
 
-## 建立個人化URL{#personalize-urls}
 
-個人化URL會根據設定檔屬性，將收件者帶往網站的特定頁面或個人化微網站。 在Adobe Journey Optimizer中，您可以將個人化新增至訊息內容中的URL。 URL個人化可套用至文字和影像，以及使用設定檔資料或內容資料。
