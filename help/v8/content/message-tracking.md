@@ -3,10 +3,10 @@ audience: end-user
 title: 追蹤您的訊息
 description: 了解如何新增連結及追蹤已傳送的訊息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
+source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 0%
+source-wordcount: '568'
+ht-degree: 1%
 
 ---
 
@@ -102,3 +102,8 @@ ht-degree: 0%
    * **[!UICONTROL 鏡像頁面]**:將此URL視為鏡像頁面URL。
    * **[!UICONTROL 從不]**:切勿啟用此URL的追蹤。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
+1. 新增 **[!UICONTROL 類別]** 連結至群組追蹤的連結，然後按一下 **[!UICONTROL 儲存]**.
+
+   ![](assets/message-tracking-edit-a-link_2.png)
+
+1. 傳送您的傳送後，請存取您的傳送報表。 在 **[!UICONTROL 追蹤]** , **[!UICONTROL URL和點按資料流]** 報表會顯示您傳送中最常造訪的URL。 [了解更多](../reporting/reports.md)
