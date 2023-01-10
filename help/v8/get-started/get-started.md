@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用
 description: Campaign v8網頁檔案
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 20%
+source-wordcount: '312'
+ht-degree: 15%
 
 ---
 
@@ -25,11 +25,6 @@ only existing customers
 >id="acw_homepage_card1"
 >title="開始使用"
 >abstract="探索重要功能、使用者介面和全域準則。"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="建立及管理設定檔"
->abstract="Adobe Campaign 可讓您直接在應用程式中建立任務並管理其完整的生命週期."
 
 >[!NOTE]
 >

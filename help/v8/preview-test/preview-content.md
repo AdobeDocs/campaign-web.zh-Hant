@@ -3,14 +3,19 @@ audience: end-user
 title: 預覽電子郵件內容
 description: Campaign v8網頁檔案
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
 # 預覽電子郵件內容 {#preview}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card4"
+>title="智慧型預覽內容"
+>abstract="Adobe Campaign可讓您在傳送前使用設定檔來預覽電子郵件內容，以檢查個人化及收件者如何看到內容。"
 
 >[!NOTE]
 >
