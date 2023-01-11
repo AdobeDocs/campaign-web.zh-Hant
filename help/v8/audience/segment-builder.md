@@ -3,14 +3,14 @@ audience: end-user
 title: 使用區段產生器
 description: Campaign v8網頁檔案
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
-# 使用區段產生器 {#segment-builder}
+# 使用規則產生器定義對象 {#segment-builder}
 
 >[!NOTE]
 >
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本節說明如何在設計新電子郵件時建立對象。 建立的對象只能用於此電子郵件。
 
-區段產生器可讓您透過篩選Adobe Campaign資料庫中包含的資料，定義訊息所定位的母體。 如果您想要選取現有對象，請參閱此 [節](add-audience.md).
+規則產生器可讓您透過篩選資料庫中包含的資料來定義訊息所定位的母體。 如果您想要選取現有對象，請參閱此 [節](add-audience.md).
 
-如需「區段產生器」的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+如需規則產生器的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 若要在設計電子郵件時建立新對象，請遵循下列步驟：
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    ![](assets/segment-builder0.png)
 
-1. 選擇 **建立自己的**. 區段產生器隨即顯示。
+1. 選擇 **建立自己的**. 規則產生器隨即顯示。
 
    ![](assets/segment-builder.png)
 
@@ -40,9 +40,13 @@ ht-degree: 0%
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **對象**:此索引標籤可讓您使用Campaign Classic主控台中定義的其中一個現有對象來篩選。
+* **對象**:此索引標籤可讓您使用Campaign Classic主控台或從Adobe Experience Platform中定義的現有對象之一進行篩選。
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
+
+   >[!NOTE]
+   >
+   >若要運用Adobe Experience Platform對象，您需要設定與Destinations的整合。 請參閱 [目的地檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant).
 
 您可以使用搜尋列快速尋找元素。
 
@@ -87,7 +91,7 @@ ht-degree: 0%
 
    ![](assets/segment-builder10.png)
 
-1. 按一下 **查看結果** 顯示與查詢匹配的收件人的清單和數目。
+1. 按一下 **查看結果** 顯示與查詢匹配的收件人的清單和數目。 您也可以新增欄以視覺化並檢查資料。 在範例中，新增 **城市** 應該看亞特蘭大和西雅圖。
 
    ![](assets/segment-builder11.png)
 

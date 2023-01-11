@@ -3,10 +3,10 @@ audience: end-user
 title: 新增對象
 description: Campaign v8網頁檔案
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 1%
+source-wordcount: '259'
+ht-degree: 3%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 1%
    此畫面會顯示Adobe Campaign Console或Adobe Experience Platform中定義的所有現有對象。
 
    ![](assets/create-audience2.png)
+
+   >[!NOTE]
+   >
+   >若要運用Adobe Experience Platform對象，您需要設定與Destinations的整合。 請參閱 [目的地檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant).
 
 1. 選擇對象並按一下 **選擇**.
 

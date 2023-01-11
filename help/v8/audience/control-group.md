@@ -3,10 +3,10 @@ audience: end-user
 title: 設定控制組
 description: Campaign v8網頁檔案
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: bc076bb4c841dd8e259ac007ecef8e3cb496a08d
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 46%
+source-wordcount: '463'
+ht-degree: 45%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 46%
 
    ![](assets/control-group.png)
 
-* **依屬性排名**:此選項可讓您根據一或多個排序順序定義限制。
+* **依屬性排名**:此選項可讓您根據特定排序順序中的特定屬性來排除一組設定檔。
 
    ![](assets/control-group2.png)
 

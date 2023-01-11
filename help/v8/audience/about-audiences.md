@@ -3,9 +3,9 @@ audience: end-user
 title: 關於對象
 description: 關於對象
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '128'
 ht-degree: 7%
 
 ---
@@ -42,11 +42,11 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-設計內容後，您需要定義電子郵件的對象。 這是您傳送的目標，即將接收電子郵件的收件者。 對象類型取決於目標對應。
+在本節中，您將學習如何定義電子郵件的對象。 這是您傳送的目標，即將接收電子郵件的收件者。 對象類型取決於目標對應。
 
 若要定義對象，您可以：
 
-* 使用Adobe Campaign console中定義的現有對象。 看這個 [節](add-audience.md).
+* 使用現有對象，請參閱 [節](add-audience.md).
 * 建立將用於電子郵件的新對象。 看這個 [節](segment-builder.md).
 
 您也可以定義控制組，以避免傳送訊息給部分對象，以評估行銷活動的影響。 看這個 [節](control-group.md).
