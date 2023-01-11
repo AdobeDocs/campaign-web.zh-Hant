@@ -3,7 +3,7 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: Campaign v8網頁檔案
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -60,7 +60,7 @@ send also KPIs
    * **交付**:要傳送的訊息數
    * **若要排除**:類型規則排除的訊息數
 
-1. 按一下 **記錄檔** 按鈕並檢查是否沒有錯誤。 最後一條日誌消息顯示所有錯誤消息和錯誤數。 如需詳細資訊，請參閱[本區段](#send)。
+1. 按一下 **記錄檔** 按鈕並檢查是否沒有錯誤。 最後一條日誌消息顯示所有錯誤消息和錯誤數。 如需詳細資訊，請參閱[本區段](delivery-logs.md)。
 
    ![](assets/prepare-logs.png)
 
@@ -82,7 +82,7 @@ send also KPIs
 
    ![](assets/send.png)
 
-1. 會顯示傳送進度。 檢查顯示的KPI。 您也可以檢查記錄。 如需詳細資訊，請參閱[本區段](#send)。
+1. 會顯示傳送進度。 檢查顯示的KPI。 您也可以檢查記錄。 如需詳細資訊，請參閱[本區段](delivery-logs.md)。
 
    ![](assets/send2.png)
 

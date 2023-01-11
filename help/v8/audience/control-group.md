@@ -3,10 +3,10 @@ audience: end-user
 title: 設定控制組
 description: Campaign v8網頁檔案
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 45%
+source-wordcount: '545'
+ht-degree: 38%
 
 ---
 
@@ -56,6 +56,28 @@ ht-degree: 45%
 
 然後定義 **大小限制**:您必須設定如何限制從主要目標擷取的設定檔數量。
 
+**範例**
+
+您可以檢視記錄以檢查並識別排除的設定檔。 讓我們以五個設定檔上隨機排除的範例為例。
+
+![](assets/control-group4.png)
+
+傳送準備後，您可以在下列畫面上檢視排除項目：
+
+* 此 **若要排除** 傳送前，傳遞控制面板中的KPI。
+
+   ![](assets/control-group5.png)
+
+* 此 **排除記錄檔** 顯示每個設定檔及相關的擴充功能 **原因**.
+
+   ![](assets/control-group6.png)
+
+* 此 **排除原因** 顯示每個類型規則的已排除設定檔數目。
+
+   ![](assets/control-group7.png)
+
+如需傳送記錄檔的詳細資訊，請參閱 [節](../monitor/delivery-logs.md).
+
 ## 額外族群 {#extra-population}
 
 >[!CONTEXTUALHELP]
@@ -71,6 +93,6 @@ ht-degree: 45%
 
 * 若要使用現有對象，請按一下 **選取對象**. 請參閱 [節](add-audience.md).
 
-* 要定義新查詢，請選擇 **建立自己的** 並使用區段產生器定義排除條件。 請參閱 [節](segment-builder.md).
+* 要定義新查詢，請選擇 **建立自己的** 並使用規則產生器定義排除條件。 請參閱 [節](segment-builder.md).
 
 對象中包含或符合查詢結果的設定檔將從目標中排除。

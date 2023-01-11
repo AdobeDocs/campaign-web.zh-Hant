@@ -3,7 +3,7 @@ audience: end-user
 title: 建立您的第一封電子郵件
 description: Campaign v8網頁檔案
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 1%
@@ -104,7 +104,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="定義對象"
->abstract="選取行銷訊息的最佳對象。 您可以選擇已在Campaign v8例項中定義的現有對象，或從Adobe Experience Platform中選擇，或選擇使用區段產生器建立新對象。"
+>abstract="選取行銷訊息的最佳對象。 您可以選擇已在Campaign v8例項中定義的現有對象，或從Adobe Experience Platform中選擇，或選擇使用規則產生器建立新對象。"
 
 在此使用案例中，我們將傳送電子郵件給現有對象。 有關如何使用對象的其他資訊，請參閱 [本節](../audience/about-audiences.md).
 
