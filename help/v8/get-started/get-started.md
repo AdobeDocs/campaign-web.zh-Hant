@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用
 description: Campaign v8網頁檔案
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 14%
@@ -28,7 +28,7 @@ only existing customers
 
 >[!NOTE]
 >
->Campaign v8網頁目前採用Alpha版。 僅限一小組Alpha客戶存取。 請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
+>Campaign v8 Web目前為Alpha版。 僅限一小組Alpha客戶存取。 請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
 
 Adobe Campaign 為跨頻道客戶體驗設計提供平台，並為視覺行銷活動協調、Real-time Interaction Management 和跨頻道執行提供環境。
 

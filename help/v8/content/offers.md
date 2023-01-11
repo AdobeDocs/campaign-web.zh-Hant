@@ -3,7 +3,7 @@ audience: end-user
 title: 傳送優惠方案
 description: 傳送優惠方案
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
-Adobe Campaign v8 web可讓您透過使用 **[!UICONTROL 互動]** 模組。 如需互動以及如何在主控台中管理優惠方案目錄的詳細資訊，請參閱 [Campaign V8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
+Adobe Campaign v8 Web可讓您使用 **[!UICONTROL 互動]** 模組。 如需互動以及如何在主控台中管理優惠方案目錄的詳細資訊，請參閱 [Campaign V8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
 
 透過電子郵件傳送優惠方案的步驟如下：
 

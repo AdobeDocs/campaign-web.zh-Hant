@@ -5,7 +5,7 @@ description: Campaign v8網頁檔案
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 網頁檔案
 hide: true
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 11%
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Adobe Campaign v8網頁檔案 {#v8}
 
-+ [Campaign v8網頁檔案](campaign-web-home.md)
++ [Campaign Web v8檔案](campaign-web-home.md)
 + 有哪些新增功能？{#whats-new}
    + [最新發行說明](rn/release-notes.md)
    + [文件更新](rn/documentation-updates.md)
