@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用
 description: Campaign v8網頁檔案
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 15%
+source-wordcount: '332'
+ht-degree: 14%
 
 ---
 
@@ -32,7 +32,7 @@ only existing customers
 
 Adobe Campaign 為跨頻道客戶體驗設計提供平台，並為視覺行銷活動協調、Real-time Interaction Management 和跨頻道執行提供環境。
 
-除了主控台提供的所有現有功能外，我們還建置了新的現代化網頁型使用者介面，以簡化行銷活動的設計和傳遞，並與Adobe Experience Platform原生應用程式體驗一致。
+除了主控台提供的所有現有功能外，我們還建立了新的現代網頁型使用者介面，以簡化行銷活動的設計和傳遞，並符合Adobe Experience Platform。
 
 ## Alpha 功能
 
@@ -49,8 +49,8 @@ No search and pulse notifications in Alpha
 
 **建立、啟動和測量您的電子郵件行銷活動**
 
-* 使用電子郵件編輯器設計個人化電子郵件內容
-* 使用區段產生器定義目標對象
+* 使用電子郵件設計工具設計個人化電子郵件內容
+* 使用規則產生器定義目標對象
 * 預覽、測試和傳送您的電子郵件訊息
 * 使用內建報告監視傳送和測量結果
 
@@ -59,6 +59,10 @@ add info somewhere to remind users that
 * they still have access to their console (+ link to v8 console doc)
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
+
+>[!NOTE]
+>
+>請注意，測試版計畫會提供跨通道行銷活動和工作流程管理功能。
 
 ## 用戶端主控台
 
@@ -71,7 +75,7 @@ add info somewhere to remind users that
 ![](assets/connect.png)
 
 1. 連線至 [Adobe Experience Cloud](http://experience.adobe.com).
-1. 使用您的Adobe IMS憑證登入。
+1. 使用您的Adobe憑證登入。
 1. 在 **快速存取** ，按一下 **行銷活動**.
 
 <!--

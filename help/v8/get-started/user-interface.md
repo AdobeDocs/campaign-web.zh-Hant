@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 >title="介面"
 >abstract="新的Campaign v8網頁介面提供整合、直覺且一致的使用者體驗。"
 
-新的Campaign v8網頁介面提供現代化、整合且直覺的使用者體驗，以簡化工作流程、行銷活動設計和傳遞，並與Adobe Experience Platform原生應用程式體驗一致。
+新的Campaign v8網頁介面提供現代且直覺的使用者體驗，以簡化行銷活動的設計和傳遞。 此新介面已與Adobe Experience Platform整合。
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -39,13 +39,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## 左側導覽功能表
 
-瀏覽左側的連結，以存取Campaign v8網頁功能。 有幾個連結顯示可排序和篩選的對象清單。 您也可以設定欄以顯示您需要的所有資訊。 看這個 [節](#list-screens). 除電子郵件傳送清單外，所有清單畫面均為唯讀。 按一下任何清單項目即無法在Alpha中使用版本/檢視功能。
+瀏覽左側的連結，以存取Campaign v8網頁功能。 有幾個連結顯示可排序和篩選的對象清單。 您也可以設定欄以顯示您需要的所有資訊。 看這個 [節](#list-screens). 除電子郵件傳送清單外，所有清單畫面均為唯讀。 按一下任何清單項目即無法在Alpha中使用版本/檢視功能。 所有清單都可在測試版和GA版本中編輯。 左側導覽功能表中顯示的項目取決於您的使用者權限。
 
 ![](assets/home.png)
 
 ### 首頁
 
-此畫麵包含快速存取主要Campaign v8 Web功能的關鍵連結和資源。 此 **收件者** 清單提供最近建立之傳送的捷徑。 此清單顯示其建立和修改日期與狀態。
+此畫麵包含快速存取主要Campaign v8 Web功能的關鍵連結和資源。 此 **收件者** 清單提供最近建立和修改的傳送的捷徑。 此清單顯示其建立和修改日期與狀態。
 
 <!--
 * Banner
@@ -140,8 +140,8 @@ Navtree view depends on permissions (same as console).
 
 介面的頂端列可讓您：
 
-* 以Alpha客戶的身分分享您的意見
-* 在IMS組織之間切換
+* 以Alpha測試者的身分分享您的意見
+* 在組織和實例之間切換
 * 在Adobe Experience Cloud應用程式之間切換
 * 存取說明頁面、聯絡支援及分享意見。 您可以從搜尋欄位搜尋說明文章和影片。
 
