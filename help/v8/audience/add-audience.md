@@ -3,23 +3,21 @@ audience: end-user
 title: 新增對象
 description: Campaign v8網頁檔案
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 選取對象 {#add-audience}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="選取現有對象"
 >abstract="對象是在Adobe Campaign v8 Console中定義。 如果您有可用的Adobe Experience Platform整合，您應該也可以看到平台定義的對象。"
-
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
 本節說明如何定義電子郵件傳送的目標母體時，選取現有對象。 如果您想要建立新對象，請參閱 [節](segment-builder.md).
 

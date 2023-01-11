@@ -3,18 +3,16 @@ audience: end-user
 title: 使用區段產生器
 description: Campaign v8網頁檔案
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 使用規則產生器定義對象 {#segment-builder}
 
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+![](../assets/do-not-localize/badge.png)
 
 本節說明如何在設計新電子郵件時建立對象。 建立的對象只能用於此電子郵件。
 

@@ -3,18 +3,14 @@ keywords: Campaign Web；首頁；熱門主題
 description: Campaign Web v8說明中心
 title: Adobe Campaign Web v8產品檔案
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Adobe Campaign v8網頁檔案 {#campaign-documentation}
-
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
 ![](assets/do-not-localize/banner-documentationv8.png)
 

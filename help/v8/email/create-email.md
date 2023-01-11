@@ -3,18 +3,16 @@ audience: end-user
 title: 建立您的第一封電子郵件
 description: Campaign v8網頁檔案
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 傳送您的第一封電子郵件 {#first-email}
 
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+![](../assets/do-not-localize/badge.png)
 
 此使用案例說明如何建立您的第一封電子郵件。 我們將排程在特定日期傳送電子郵件給銀級和金級忠誠客戶。 此電子郵件將使用預先定義的範本設計，並包含使用設定檔屬性的個人化。
 

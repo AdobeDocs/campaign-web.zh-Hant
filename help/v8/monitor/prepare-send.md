@@ -3,23 +3,21 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: Campaign v8網頁檔案
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 準備並傳送您的電子郵件 {#prepare-send}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="準備並傳送您的電子郵件"
 >abstract="了解如何準備電子郵件，並進一步了解如何傳送KPI。"
-
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
 <!--
 

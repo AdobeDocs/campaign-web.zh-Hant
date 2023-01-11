@@ -3,18 +3,16 @@ audience: end-user
 title: 追蹤您的訊息
 description: 了解如何新增連結及追蹤已傳送的訊息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 新增連結及追蹤訊息 {#tracking}
 
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+![](../assets/do-not-localize/badge.png)
 
 使用電子郵件設計工具來新增內容的連結並追蹤傳送的訊息，以監控收件者的行為。
 

@@ -3,18 +3,14 @@ audience: end-user
 title: 設定控制組
 description: Campaign v8網頁檔案
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 38%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 設定控制組 {#control-group}
-
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
 您可以使用控制組來避免傳送訊息給部分觀眾，以評估行銷活動的影響。
 

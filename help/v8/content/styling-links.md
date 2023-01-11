@@ -3,18 +3,16 @@ audience: end-user
 title: 定義連結的樣式
 description: 了解如何定義連結的樣式
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 定義連結的樣式 {#styling-links}
 
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+![](../assets/do-not-localize/badge.png)
 
 您可以在電子郵件設計工具中為連結加底線，並選取其顏色和目標。
 

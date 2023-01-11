@@ -3,18 +3,16 @@ audience: end-user
 title: 傳送校樣
 description: Campaign v8網頁檔案
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 傳送校樣 {#send-proofs}
 
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+![](../assets/do-not-localize/badge.png)
 
 傳送測試電子郵件可讓您驗證電子郵件，並檢查各種元素，例如連結、選擇退出連結和鏡像頁面、影像，以及偵測可能的錯誤。
 

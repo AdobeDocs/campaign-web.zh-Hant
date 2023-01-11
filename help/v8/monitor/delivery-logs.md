@@ -3,18 +3,16 @@ audience: end-user
 title: 監視傳送記錄
 description: Campaign v8網頁檔案
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 13765b02288ec4682c5d55603c68f8ea1a5758f8
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 監視傳送記錄 {#delivery-logs}
 
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"

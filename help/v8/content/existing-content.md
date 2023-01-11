@@ -3,18 +3,16 @@ audience: end-user
 title: 匯入您的電子郵件內容
 description: 了解如何匯入電子郵件內容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 匯入您的電子郵件內容 {#existing-content}
 
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+![](../assets/do-not-localize/badge.png)
 
 電子郵件設計工具可讓您匯入現有的HTML內容。 此內容可以是：
 

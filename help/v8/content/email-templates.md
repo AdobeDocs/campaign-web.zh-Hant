@@ -3,18 +3,16 @@ audience: end-user
 product: campaign
 title: 使用電子郵件範本
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 使用電子郵件內容範本 {#email-content-templates}
 
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+![](../assets/do-not-localize/badge.png)
 
 使用 **[!UICONTROL 選取設計範本]** 區段，開始從範本建立內容。
 

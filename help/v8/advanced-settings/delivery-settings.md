@@ -3,20 +3,16 @@ audience: end-user
 title: 進階設定
 description: Campaign v8網頁檔案
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 96d5ee712131ba314ef25736e421efe436d5170a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 進階設定 {#advanced-settings}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
 這些設定包括 **技術傳遞參數** 在電子郵件範本中定義。 如果您想要針對特定傳送修改其中任何內容，請小心處理。
 

@@ -3,23 +3,21 @@ audience: end-user
 title: 預覽電子郵件內容
 description: Campaign v8網頁檔案
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 預覽電子郵件內容 {#preview}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="智慧型預覽內容"
 >abstract="Adobe Campaign可讓您在傳送前使用設定檔來預覽電子郵件內容，以檢查個人化及收件者如何看到內容。"
-
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
 Adobe Campaign可讓您在傳送前使用設定檔來預覽電子郵件內容，以檢查個人化及收件者如何看到內容。
 

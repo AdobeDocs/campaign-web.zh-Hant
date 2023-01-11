@@ -3,18 +3,16 @@ audience: end-user
 title: 建立電子郵件的文字版本
 description: 了解如何建立電子郵件的文字版本
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 建立電子郵件的文字版本 {#text-version-email}
 
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+![](../assets/do-not-localize/badge.png)
 
 建議您建立電子郵件內文的文字版本，以用於無法顯示HTML內容時。
 

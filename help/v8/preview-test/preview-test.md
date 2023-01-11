@@ -3,18 +3,16 @@ audience: end-user
 title: 關於預覽和校樣
 description: Campaign v8網頁檔案
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 關於預覽和校樣 {#about-preview-proofs}
 
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+![](../assets/do-not-localize/badge.png)
 
 定義電子郵件內容後，您可以在傳送內容前先檢查內容的顯示方式。 這可讓您測試電子郵件，以偵測內容或個人化設定中可能的錯誤。
 

@@ -3,14 +3,16 @@ audience: end-user
 title: 編輯電子郵件內容
 description: Campaign v8網頁檔案
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 編輯電子郵件內容 {#configure-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
@@ -31,10 +33,6 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="追蹤選項"
 >abstract="TBC"
-
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
 若要開始建立電子郵件內容，請按一下 **[!UICONTROL 編輯內容]** 按鈕。
 

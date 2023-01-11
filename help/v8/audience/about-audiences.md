@@ -3,23 +3,21 @@ audience: end-user
 title: 關於對象
 description: 關於對象
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 關於對象 {#about-audiences}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="開始使用 Audiences"
 >abstract="了解如何管理您電子郵件內容的受眾。"
-
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
 <!--
 Audience only created for the delivery, not available later-->

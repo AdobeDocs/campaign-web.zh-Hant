@@ -3,14 +3,16 @@ audience: end-user
 title: 傳送優惠方案
 description: 傳送優惠方案
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 # 傳送優惠方案 {#offers-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
@@ -21,10 +23,6 @@ ht-degree: 0%
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="選件進階設定"
 >abstract="TBC"
-
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
 
 Adobe Campaign v8 Web可讓您使用 **[!UICONTROL 互動]** 模組。 如需互動以及如何在主控台中管理優惠方案目錄的詳細資訊，請參閱 [Campaign V8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
 

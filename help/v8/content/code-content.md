@@ -3,18 +3,16 @@ audience: end-user
 title: 編寫您自己的電子郵件內容
 description: 了解如何編寫您自己的電子郵件內容
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 編寫您自己的內容 {#code-content}
 
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+![](../assets/do-not-localize/badge.png)
 
 使用 **[!UICONTROL 自行編碼]** 模式匯入原始HTML和/或為電子郵件內容編碼。 此方法需要HTML技能。
 

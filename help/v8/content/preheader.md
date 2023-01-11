@@ -3,18 +3,16 @@ audience: end-user
 title: 在電子郵件設計工具中新增預先標題
 description: 了解如何設計您的電子郵件內容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 新增前置詞 {#preheader}
 
->[!NOTE]
->
->本檔案正在建置中，且經常更新。 此內容的最終版本將於2023年1月推出。
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
