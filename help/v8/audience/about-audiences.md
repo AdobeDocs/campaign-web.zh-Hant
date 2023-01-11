@@ -3,10 +3,10 @@ audience: end-user
 title: 關於對象
 description: 關於對象
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 8%
+source-wordcount: '134'
+ht-degree: 7%
 
 ---
 
@@ -42,7 +42,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-設計內容後，您需要定義電子郵件的對象。 這是您傳送的目標，即將接收電子郵件的設定檔。
+設計內容後，您需要定義電子郵件的對象。 這是您傳送的目標，即將接收電子郵件的收件者。 對象類型取決於目標對應。
 
 若要定義對象，您可以：
 

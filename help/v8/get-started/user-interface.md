@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a9cea928d8c447fbd8435e49928d6328a1209640
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1148'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 >title="介面"
 >abstract="新的Campaign v8網頁介面提供整合、直覺且一致的使用者體驗。"
 
-新的Campaign v8網頁介面提供整合、直覺且一致的使用者體驗。
+新的Campaign v8網頁介面提供現代化、整合且直覺的使用者體驗，以簡化工作流程、行銷活動設計和傳遞，並與Adobe Experience Platform原生應用程式體驗一致。
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
