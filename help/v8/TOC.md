@@ -5,10 +5,10 @@ description: Campaign v8網頁檔案
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 網頁檔案
 hide: true
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 4e29e2e65fff1eac60d4c0c88c2e56b55b7f79c9
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 11%
+source-wordcount: '168'
+ht-degree: 10%
 
 ---
 
@@ -54,5 +54,5 @@ ht-degree: 11%
 + 傳送及監視電子郵件 {#monitor}
    + [準備並傳送電子郵件](monitor/prepare-send.md)
    + [監視傳送記錄](monitor/delivery-logs.md)
+   + [電子郵件傳送設定](advanced-settings/delivery-settings.md)
 + [報告](reporting/reports.md)
-+ [進階設定](advanced-settings/delivery-settings.md)
