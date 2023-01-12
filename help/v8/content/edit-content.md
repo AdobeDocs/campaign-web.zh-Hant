@@ -3,9 +3,9 @@ audience: end-user
 title: 編輯電子郵件內容
 description: Campaign v8網頁檔案
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 72ce0a77704b2592e1186f70ea7aef308989d8c4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    <!--limitation on size + number of files?-->
 
-1. 依預設，會針對開啟和點按啟用電子郵件追蹤。 若要停用這些選項，請從 **[!UICONTROL 選用功能]** 區段。 [了解如何新增連結及管理追蹤](message-tracking.md)
+1. 依預設，會為傳送啟用追蹤。 您可以從 **[!UICONTROL 選用功能]** 區段。 [了解如何新增連結及管理追蹤](message-tracking.md)
 
 定義電子郵件的內容後，請使用 **[!UICONTROL 模擬內容]** 按鈕，以在傳送前檢查其顯示方式。 [了解如何預覽和測試您的電子郵件](../preview-test/preview-test.md)
 
