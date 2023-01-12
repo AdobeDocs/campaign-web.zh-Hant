@@ -3,9 +3,9 @@ audience: end-user
 title: 建立您的第一封電子郵件
 description: Campaign v8網頁檔案
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,9 @@ ht-degree: 0%
 
 1. 若要傳送電子郵件的校樣，請按一下 **[!UICONTROL 測試]** 按鈕，然後選取將接收校樣的設定檔。
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+
+   在此範例中，我們想將校樣傳送至特定測試設定檔，這是不屬於目標的種子地址。 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 
