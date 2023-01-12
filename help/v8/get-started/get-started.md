@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用
 description: Campaign v8網頁檔案
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 12%
 
 ---
 
@@ -30,53 +30,36 @@ only existing customers
 
 Adobe Campaign 為跨頻道客戶體驗設計提供平台，並為視覺行銷活動協調、Real-time Interaction Management 和跨頻道執行提供環境。
 
-除了主控台提供的所有現有功能外，我們還建立了新的現代網頁型使用者介面，以簡化行銷活動的設計和傳遞，並符合Adobe Experience Platform。
+最初只能通過富 [用戶端主控台](#ac-client), Campaign現在提供新的網頁使用者介面，其可增強可用性、協助工具，以及可大幅改善您的使用者體驗的新設計。 這個新的現代化UI簡化了行銷活動的設計和傳遞，並與包括Adobe Experience Platform在內的其他Adobe解決方案保持一致。
 
-## Alpha 功能
 
-此網路介面目前僅供Alpha從業人員使用，具備下列功能：
+![](assets/home.png)
 
-**現代、直覺且統一的體驗**
+這個新UI首先滿足 **業務從業者**  — 第一個版本中不提供所有典型的管理任務，但後續版本將處理這些任務。 請注意，目前新的UI中並未提供用戶端主控台中可用的所有功能或選項。 未來版本將提供新的使用案例、選項和功能。
 
-* 使用單個和共用的用戶會話訪問新介面和其他應用程式
-* 統一殼層整合：使用社群學習、說明中心、解決方案切換器
-<!--
-No search and pulse notifications in Alpha
--->
-* 使用左側功能表和資料夾體驗新導覽
+如果您需要存取Web UI中未提供的Campaign v8功能，可以使用 [用戶端主控台](#ac-client).
 
-**建立、啟動和測量您的電子郵件行銷活動**
+## 關於Campaign用戶端主控台{#ac-client}
 
-* 使用電子郵件設計工具設計個人化電子郵件內容
-* 使用規則產生器定義目標對象
-* 預覽、測試和傳送您的電子郵件訊息
-* 使用內建報告監視傳送和測量結果
+Campaign用戶端主控台是安裝在您系統上的瀏覽器型應用程式。 它使用網站服務API來連線至您的Campaign應用程式伺服器。
 
-<!--
-add info somewhere to remind users that
-* they still have access to their console (+ link to v8 console doc)
-* they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
--->
+了解如何下載和安裝 [本節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
 
->[!NOTE]
->
->請注意，測試版計畫會提供跨通道行銷活動和工作流程管理功能。
+如需如何使用Campaign v8的詳細資訊，請參閱 [檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"}.
 
-## 用戶端主控台
-
-如果您需要使用Web UI中不提供的Campaign v8功能，可以使用用戶端主控台。 如需如何使用Campaign v8的詳細資訊，請參閱 [檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant).
-
-資料會在主控台與Web UI之間共用。 例如，如果您使用主控台建立了傳遞範本，則可在Web介面中使用。
+促銷活動資料儲存在應用程式伺服器中。 資料可從用戶端主控台和Web UI使用。 例如，如果您使用用戶端主控台建立傳送範本，也可在Web UI中使用。 如果您在Web UI中建立電子郵件傳送，也可從用戶端主控台存取此傳送。
 
 ## 連結至 Campaign
 
 ![](assets/connect.png)
 
-1. 連線至 [Adobe Experience Cloud](http://experience.adobe.com).
+1. 連線至 [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. 使用您的Adobe憑證登入。
 1. 在 **快速存取** ，按一下 **行銷活動**.
+1. 在下一頁，按一下 **Launch** 按鈕。
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8
 -> or Campaign v8 web if direct URL
 -->
+
