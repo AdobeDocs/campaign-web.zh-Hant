@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用
 description: Campaign v8網頁檔案
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d654a75c802effbb98844557102d0ec19300cd8d
+source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 12%
@@ -51,11 +51,12 @@ Campaign用戶端主控台是安裝在您系統上的瀏覽器型應用程式。
 
 ## 連結至 Campaign
 
-![](assets/connect.png)
 
 1. 連線至 [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. 使用您的Adobe憑證登入。
 1. 在 **快速存取** ，按一下 **行銷活動**.
+   ![](assets/connect.png)
+
 1. 在下一頁，按一下 **Launch** 按鈕。
 
 <!--
