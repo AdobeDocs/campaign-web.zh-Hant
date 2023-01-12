@@ -3,10 +3,10 @@ audience: end-user
 title: 使用區段產生器
 description: Campaign v8網頁檔案
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '540'
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >若要運用Adobe Experience Platform對象，您需要設定與Destinations的整合。 請參閱 [目的地檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant).
+   >若要運用Adobe Experience Platform對象，您需要設定與Destinations的整合。 請參閱 [目的地檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant){target="_blank"}.
 
 您可以使用搜尋列快速尋找元素。
 

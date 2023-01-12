@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1153'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ Global report not alpha
 
 如同在任何清單畫面中，您可以設定欄以個人化顯示，以檢視您需要的所有資訊。 看這個 [節](#list-screens).
 
-如需Campaign總管的詳細資訊，請參閱 [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
+如需Campaign總管的詳細資訊，請參閱 [檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -96,7 +96,7 @@ Navtree view depends on permissions (same as console).
 
 * **行銷活動**  — 此為促銷活動清單。 依預設，您可以檢視其開始/結束/最後修改日期及其狀態。 您可以依狀態或開始/結束日期篩選清單。 也提供行銷活動範本。 這些清單為唯讀清單。
 
-* **傳遞**  — 瀏覽傳遞清單。 依預設，您可以檢視其狀態、上次修改日期以及關鍵KPI。 您可以依州、聯絡人日期或管道篩選清單。 按一下電子郵件傳送以開啟其控制面板，以取得傳送詳細資料的概觀。 其他通道上的傳送為唯讀。 傳遞範本也以唯讀模式提供。 您可以使用用戶端主控台來編輯。 看這個 [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant).
+* **傳遞**  — 瀏覽傳遞清單。 依預設，您可以檢視其狀態、上次修改日期以及關鍵KPI。 您可以依州、聯絡人日期或管道篩選清單。 按一下電子郵件傳送以開啟其控制面板，以取得傳送詳細資料的概觀。 其他通道上的傳送為唯讀。 傳遞範本也以唯讀模式提供。 您可以使用用戶端主控台來編輯。 看這個 [檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
 ### 客戶管理
 

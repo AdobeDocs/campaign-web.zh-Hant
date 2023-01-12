@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用
 description: Campaign v8網頁檔案
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '391'
 ht-degree: 12%
 
 ---
@@ -58,6 +58,7 @@ Campaign用戶端主控台是安裝在您系統上的瀏覽器型應用程式。
    ![](assets/connect.png)
 
 1. 在下一頁，按一下 **Launch** 按鈕。
+您現在已連線至Campaign。 了解如何開始使用 [本頁](user-interface.md).
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8

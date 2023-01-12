@@ -3,10 +3,10 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: Campaign v8網頁檔案
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '521'
+ht-degree: 4%
 
 ---
 
@@ -34,7 +34,7 @@ send also KPIs
 
 ## 準備傳送{#prepare}
 
-定義內容、對象和排程後，即可準備訊息。 在準備期間，會計算目標母體，並為目標中包含的每個設定檔產生訊息內容。 準備完成後，即可立即發送或在排程的日期和時間發送郵件。 分析期間使用的驗證規則如下 [節](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies).
+定義內容、對象和排程後，即可準備訊息。 在準備期間，會計算目標母體，並為目標中包含的每個設定檔產生訊息內容。 準備完成後，即可立即發送或在排程的日期和時間發送郵件。 分析期間使用的驗證規則如下 [節](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
 請遵循以下步驟：
 
