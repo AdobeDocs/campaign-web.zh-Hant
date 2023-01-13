@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: 使用區段產生器
-description: Campaign v8網頁檔案
+title: 使用規則產生器定義對象
+description: 了解如何使用區段產生器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---

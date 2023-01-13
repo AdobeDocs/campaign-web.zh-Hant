@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 傳送校樣
-description: Campaign v8網頁檔案
+description: 了解如何定義和傳送校樣訊息
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '382'
+ht-degree: 1%
 
 ---
 

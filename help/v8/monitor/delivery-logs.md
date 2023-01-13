@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 監視傳送記錄
-description: Campaign v8網頁檔案
+description: 了解如何監視傳送記錄
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '296'
+ht-degree: 22%
 
 ---
 

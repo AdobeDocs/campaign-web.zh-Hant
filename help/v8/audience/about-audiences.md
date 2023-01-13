@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 關於對象
-description: 關於對象
+title: 開始使用 Audiences
+description: 了解如何在Campaign網頁UI中使用對象
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '128'
+ht-degree: 9%
 
 ---
 
-# 關於對象 {#about-audiences}
+# 開始使用 Audiences {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 
