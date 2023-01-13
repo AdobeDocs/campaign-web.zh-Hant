@@ -3,10 +3,10 @@ keywords: Campaign Web；首頁；熱門主題
 description: Campaign Web v8說明中心
 title: Adobe Campaign Web v8產品檔案
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: e9afb17fc06de45d0557301b1d3e5a205f23836d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '119'
+ht-degree: 9%
 
 ---
 
@@ -16,4 +16,45 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/badge.png)
 
->Campaign v8 Web目前為Alpha版。 僅限一小組Alpha客戶存取。 請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
+
+Campaign現在提供新的網頁使用者介面，其可增強可用性、協助工具，以及可大幅改善您的使用者體驗的新設計。 這個新的現代化UI可簡化行銷活動的設計和傳遞，並與其他Adobe解決方案(包括Adobe Experience Platform)保持一致。 [了解更多](get-started/get-started.md)
+
+>Campaign v8 Web目前為Alpha版。 僅限一小組Alpha客戶存取。 請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。 [了解更多](rn/release-notes.md)
+
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="get-started/user-interface.md">
+<img alt="新UI" src="assets/do-not-localize/email-create.jpeg">
+</a>
+<div><a href="get-started/user-interface.md"><strong>Campaign新UI</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="content/create-email-content.md">
+<img alt="不頻繁" src="assets/do-not-localize/email-design.jpg">
+</a>
+<div>
+<a href="content/create-email-content.md"><strong>設計電子郵件</strong></a>
+</div>
+<p></td>
+<td>
+<a href="audience/about-audiences.md">
+<img alt="對象" src="assets/do-not-localize/email-opt-out.jpg">
+</a>
+<div>
+<a href="audience/about-audiences.md"><strong>選取對象</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="驗證" src="assets/do-not-localize/email-config.jpg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>測試並傳送校樣</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
