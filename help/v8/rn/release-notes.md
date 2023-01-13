@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web v8發行說明
 description: Campaign Web v8發行說明
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
+source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 1%
 
 ---
 
@@ -14,13 +14,11 @@ ht-degree: 2%
 
 ![](../assets/do-not-localize/badge.png)
 
-本頁列出Campaign Web v8的所有新功能和改進項目。 您也可以參閱 [最新檔案更新](documentation-updates.md) 頁面以取得更多變更。
+本頁列出Campaign Web v8的所有最新功能和改進項目。
 
+## Alpha版{#alpha-release}
 
-
-## Alpha 功能
-
-此網路介面目前僅供Alpha從業人員使用，具備下列功能：
+這個新的Campaign網頁介面目前僅適用於 **Alpha練習者** 功能：
 
 **現代、直覺且統一的體驗**
 
@@ -31,12 +29,14 @@ No search and pulse notifications in Alpha
 -->
 * 使用左側功能表和資料夾體驗新導覽
 
+深入了解新UI，請參閱 [本頁](../get-started/user-interface.md).
+
 **建立、啟動和測量您的電子郵件行銷活動**
 
-* 使用電子郵件設計工具設計個人化電子郵件內容
-* 使用規則產生器定義目標對象
-* 預覽、測試和傳送您的電子郵件訊息
-* 使用內建報告監視傳送和測量結果
+* 使用電子郵件設計工具設計個人化電子郵件內容 —  [深入了解](../content/edit-content.md)
+* 使用規則產生器定義目標對象 —  [深入了解](../audience/about-audiences.md)
+* 預覽、測試和傳送您的電子郵件訊息 —  [深入了解](../monitor/prepare-send.md)
+* 使用內建報告監視傳送和測量結果 —  [深入了解](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that
