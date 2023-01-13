@@ -5,10 +5,10 @@ description: Campaign v8網頁檔案
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 網頁檔案
 hide: true
-source-git-commit: 568a86845c19b1df95d55e11f119aa6305b57ca4
+source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 10%
+source-wordcount: '166'
+ht-degree: 12%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 10%
       + [定義連結的樣式](content/styling-links.md)
       + [新增內嵌樣式屬性](content/inline-styling.md)
    + 個人化您的內容 {#personalize}
-      + [開始使用個人化](personalization/personalize.md)
+      + [新增個人化](personalization/personalize.md)
    + [傳送優惠方案](content/offers.md)
 + 選取電子郵件對象 {#audience}
    + [關於對象](audience/about-audiences.md)
