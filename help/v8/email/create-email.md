@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送您的第一封電子郵件
 description: 了解如何使用Campaign網頁UI傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 384c7ac2dd2b1d90ba6ff78f59aacce396de91f0
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 從 **[!UICONTROL 傳遞]** 功能表。
 
-1. 選取 **[!UICONTROL 電子郵件]** 管道和範本，然後按一下 **[!UICONTROL 建立]**.
+1. 選取 **[!UICONTROL 電子郵件]** 管道和範本，然後按一下 **[!UICONTROL 建立傳送]**.
 
    >[!NOTE]
    >
@@ -47,7 +47,6 @@ ht-degree: 0%
    * **[!UICONTROL 傳送代碼]**:使用此欄位，根據您自己的命名慣例來組織傳送，
    * **[!UICONTROL 說明]**:指定傳送的說明，
    * **[!UICONTROL 自然]**:為分類目的指定電子郵件的性質。<!--The content of the list is defined in the delivery template selected when creating the email.-->
-
    >[!NOTE]
    >
    >如果您已使用特定自訂欄位擴充架構，則可從 **[!UICONTROL 自訂選項]** 區段。
@@ -79,7 +78,7 @@ ht-degree: 0%
 
    選擇用來建立電子郵件內容的方法。 在此範例中，我們想使用現有的設計範本。
 
-   ![](assets/import-html.png)
+   ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -93,7 +92,7 @@ ht-degree: 0%
 
    ![](assets/add-perso.png)
 
-1. 內容準備就緒後，請儲存內容，然後按一下箭頭返回電子郵件建立畫面。
+1. 內容準備就緒時，請儲存並關閉您的設計，然後按一下 **[!UICONTROL 儲存]** 返回電子郵件建立畫面。
 
    ![](assets/save-content.png)
 
@@ -122,6 +121,8 @@ ht-degree: 0%
 
    您也可以設定控制組，以比較未鎖定目標之設定檔的行為，分析電子郵件收件者的行為。 [了解如何使用控制組](../audience/control-group.md)
 
+   ![](assets/audience-selected.png)
+
 ## 排程傳送 {#schedule}
 
 >[!CONTEXTUALHELP]
@@ -139,11 +140,11 @@ ht-degree: 0%
 
 在您的電子郵件準備就緒後，您可以先預覽並測試它，再啟動其傳送。
 
-在此使用案例中，我們將預覽電子郵件，並使用現有設定檔傳送校樣。
+在此使用案例中，我們將在模擬部分目標設定檔時預覽電子郵件，並將校樣傳送至特定電子郵件地址。
 
 有關如何預覽和測試電子郵件的其他資訊，請參閱 [本節](../preview-test/preview-test.md).
 
-1. 按一下 **[!UICONTROL 審核以發送]**. 隨即顯示您電子郵件的預覽，以及所有已設定的屬性、對象和排程。 您可以使用修改按鈕來編輯其中的任何元素。
+1. 按一下 **[!UICONTROL 檢閱並傳送]**. 隨即顯示您電子郵件的預覽，以及所有已設定的屬性、對象和排程。 您可以使用修改按鈕來編輯其中的任何元素。
 
 1. 按一下 **[!UICONTROL 模擬內容]** 按鈕來預覽電子郵件並傳送校樣。
 
@@ -159,21 +160,25 @@ ht-degree: 0%
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. 若要傳送電子郵件的校樣，請按一下 **[!UICONTROL 測試]** 按鈕，然後選取將接收校樣的設定檔。
+1. 若要傳送電子郵件的校樣，請按一下 **[!UICONTROL 測試]** 按鈕，然後選擇用於傳送校樣的模式。
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+   在此範例中，我們將使用主要目標模式的「替代」 ，這表示我們將在模擬傳送所定位的部分設定檔時，將校樣傳送至特定電子郵件地址。
 
-   在此範例中，我們想將校樣傳送至特定測試設定檔，這是不屬於目標的種子地址。 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   ![](assets/proof-mode.png)
+
+1. 按一下「新增地址」 ，然後指定將接收校樣的電子郵件地址。
+
+   針對每個電子郵件地址，從目標中選取要模擬的設定檔。 您也可以讓Adobe Campaign從目標中選取隨機設定檔。
 
    ![](assets/proof-test-profile.png)
 
-   >[!NOTE]
-   >
-   >您也可以模擬部分目標設定檔並將證明訊息傳送至您所選擇的電子郵件地址，以測試您的訊息。 [了解如何傳送校樣](../preview-test/preview-test.md)
-
 1. 按一下 **[!UICONTROL 傳送測試電子郵件]** 然後確認傳送。
 
-   傳送校樣後，您就可以按一下 **[!UICONTROL 檢視測試電子郵件記錄]** 按鈕。
+   校樣會使用選取的設定檔，連同 **[校樣x]** 前置詞。
+
+   ![](assets/proof-sent.png)
+
+   您可以按一下 **[!UICONTROL 檢視測試電子郵件記錄]** 按鈕。
 
 ## 傳送及監視電子郵件 {#prepare-send}
 
@@ -183,11 +188,15 @@ ht-degree: 0%
 
    ![](assets/preparation.png)
 
-1. 在您的電子郵件準備就緒後，按一下 **[!UICONTROL 傳送]** 然後確認傳送。
+1. 在您的電子郵件準備就緒後，按一下 **[!UICONTROL 傳送]** 或 **[!UICONTROL 依排程傳送]** 然後確認傳送。
 
-   您可以即時追蹤傳送以及統計資料。 此外， **[!UICONTROL 記錄檔]** 按鈕可讓您存取電子郵件傳送的詳細資訊。 [了解如何監視傳送記錄](../monitor/delivery-logs.md)
-   ![](assets/logs.png)
+1. 開始傳送電子郵件後（立即或在排程日期），您就可以在此畫面中即時追蹤其傳送，並附上統計資料。
 
-1. 傳送電子郵件後，您可以存取專用 [報告](../reporting/reports.md) 供進一步分析之用。
+   ![](assets/sent-mail.png)
 
+   >[!NOTE]
+   >
+   >此外， **[!UICONTROL 記錄檔]** 按鈕可讓您存取電子郵件傳送的詳細資訊。 [了解如何監視傳送記錄](../monitor/delivery-logs.md)
+
+1. 傳送電子郵件後，您可以存取專用的報表以供進一步分析之用。 [了解如何使用報表](../reporting/reports.md)
    ![](assets/reports.png)
