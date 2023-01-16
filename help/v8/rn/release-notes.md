@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web v8發行說明
 description: Campaign Web v8發行說明
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
+source-git-commit: a06e695f9e2942112c2e8d516d26cef8903ca5ff
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 1%
+source-wordcount: '288'
+ht-degree: 0%
 
 ---
 
@@ -22,16 +22,21 @@ ht-degree: 1%
 
 **現代、直覺且統一的體驗**
 
+Campaign新的網頁UI提供新的使用者體驗，與所有Adobe Experience Cloud解決方案和應用程式一致。 它提供：
+
 * 透過單一和共用的使用者工作階段存取新介面和其他Adobe解決方案
-* 統一殼層整合：使用社群學習、說明中心、解決方案切換器
+* 新的導覽體驗，所有功能表和資料夾皆可從左側邊欄取得
+* 從頂端列切換解決方案和組織
+* 統一殼層整合，可直接存取社群、說明中心和支援
 <!--
 No search and pulse notifications in Alpha
 -->
-* 使用左側功能表和資料夾體驗新導覽
 
 深入了解新UI，請參閱 [本頁](../get-started/user-interface.md).
 
 **建立、啟動和測量您的電子郵件行銷活動**
+
+使用新的Campaign網頁UI來：
 
 * 使用電子郵件設計工具設計個人化電子郵件內容 —  [深入了解](../content/edit-content.md)
 * 使用規則產生器定義目標對象 —  [深入了解](../audience/about-audiences.md)
@@ -46,4 +51,13 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->請注意，測試版計畫會提供跨通道行銷活動和工作流程管理功能。
+>請注意，測試版將提供跨通道行銷活動和工作流程管理功能。
+
+## 術語更新
+
+請注意，作為現有的Campaign使用者，有些概念已重新命名，以符合業界最新的術語標準。 這些變更只會套用至Web UI，不會反映在用戶端主控台中。 以下概述。
+
+* 現在提供校樣 **測試電子郵件**. 若要傳送校樣，請使用 **測試** 按鈕
+* 傳遞分析現在是 **傳遞準備**. 當您需要啟動分析時，按一下 **準備** 按鈕
+* 現在可透過 **模擬內容** 按鈕
+* 清單現在 **對象**
