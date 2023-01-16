@@ -3,9 +3,9 @@ audience: end-user
 title: 關於預覽和校樣
 description: 了解如何預覽訊息和傳送校樣
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-定義電子郵件內容後，您可以在傳送內容前先檢查內容的顯示方式。 這可讓您測試電子郵件，以偵測內容或個人化設定中可能的錯誤。
+在傳送電子郵件之前，請務必檢閱並測試其內容，以確保內容準確無誤，且內容或個人化設定中沒有錯誤。
 
 為此，Adobe Campaign可讓您：
 
 * [預覽電子郵件內容和個人化](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [傳送校樣](#send-proofs) 來測試及驗證電子郵件。
+* [傳送校樣](#send-proofs) 特定收件者進行測試和驗證。
 
-這些動作會從 **[!UICONTROL 模擬內容]** 按鈕，可在從電子郵件設計工具建立電子郵件內容時訪問該按鈕：
+這些動作可從 **[!UICONTROL 模擬內容]** 按鈕，可在從電子郵件設計工具建立電子郵件內容時訪問該按鈕：
 
 ![](assets/simulate.png)
 
