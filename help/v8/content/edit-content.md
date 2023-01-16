@@ -3,9 +3,9 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 了解如何在Campaign網頁UI中編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 1. 定義電子郵件 **[!UICONTROL 主旨行]**. 若要這麼做，請直接在專用欄位中輸入您的主題，或開啟運算式編輯器以定義，使用各種屬性和內容區塊或選件來新增個人化內容。 [了解如何個人化內容](../personalization/personalize.md)
 
-1. 如果您想要透過電子郵件傳送優惠方案，請使用 **[!UICONTROL 選件]** 按鈕。 然後，您就能使用個人化欄位，將它們插入電子郵件中。 [了解如何傳送優惠方案](offers.md)
+1. 如果您想要透過電子郵件傳送優惠方案，請使用 **[!UICONTROL 設定優惠方案]** 按鈕。 然後，您就能使用個人化欄位，將它們插入電子郵件中。 [了解如何傳送優惠方案](offers.md)
 
-1. 按一下 **[!UICONTROL 電子郵件設計工具]** 按鈕來建構和設計電子郵件的內容。 有關如何設計電子郵件內容的其他資訊，請參閱以下章節：
+1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕來建構和設計電子郵件的內容。 有關如何設計電子郵件內容的其他資訊，請參閱以下章節：
 
    * [了解如何設計電子郵件](create-email-content.md)
    * [設定內容的樣式](get-started-email-style.md)
@@ -64,5 +64,3 @@ ht-degree: 0%
 1. 依預設，會為傳送啟用追蹤。 您可以從 **[!UICONTROL 選用功能]** 區段。 [了解如何新增連結及管理追蹤](message-tracking.md)
 
 定義電子郵件的內容後，請使用 **[!UICONTROL 模擬內容]** 按鈕，以在傳送前檢查其顯示方式。 [了解如何預覽和測試您的電子郵件](../preview-test/preview-test.md)
-
-<!-- show screenshot showing an email fully configured + highlight the simulate content button-->
