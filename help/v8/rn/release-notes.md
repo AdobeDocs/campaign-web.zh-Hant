@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web v8發行說明
 description: Campaign Web v8發行說明
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: a06e695f9e2942112c2e8d516d26cef8903ca5ff
+source-git-commit: b021a693277ba61a580e1fcaa8ec287f0dbeadb9
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,9 @@ add info somewhere to remind users that
 
 ## 術語更新
 
-請注意，作為現有的Campaign使用者，有些概念已重新命名，以符合業界最新的術語標準。 這些變更只會套用至Web UI，不會反映在用戶端主控台中。 以下概述。
+請注意，作為現有的Campaign使用者，有些概念已重新命名以符合最新的術語標準。 這些變更只會套用至Campaign Web UI，不會反映在用戶端主控台中。 以下概述。
 
-* 現在提供校樣 **測試電子郵件**. 若要傳送校樣，請使用 **測試** 按鈕
+* 現在提供校樣 **測試電子郵件**:若要傳送校樣，請使用 **測試** 按鈕。 校樣目標的目標現在稱為 **測試設定檔**
 * 傳遞分析現在是 **傳遞準備**. 當您需要啟動分析時，按一下 **準備** 按鈕
 * 現在可透過 **模擬內容** 按鈕
 * 清單現在 **對象**
