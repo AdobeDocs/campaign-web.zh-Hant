@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送優惠方案
 description: 傳送優惠方案
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,13 @@ Adobe Campaign v8 Web可讓您使用 **[!UICONTROL 互動]** 模組。 如需互
 
 ## 設定要建議的選件 {#configure}
 
-若要選取要在電子郵件中建議的優惠方案，請按一下 **[!UICONTROL 選件]** 按鈕，然後設定要建議的選件。
+1. 若要選取要在電子郵件中建議的優惠方案，請按一下 **[!UICONTROL 選件]** 按鈕。
 
-![](assets/create-content-offers.png)
+   ![](assets/setup-offers.png)
 
-1. 選取 **[!UICONTROL 優惠方案空間]** 符合您的優惠方案環境。
+1. 設定應向收件者建議哪些優惠方案。 首先，選取 **[!UICONTROL 優惠方案空間]** 符合您的優惠方案環境。
+
+   ![](assets/create-content-offers.png)
 
 1. 若要調整引擎的選件選擇，請選取特定 **[!UICONTROL 選件類別]** 中排序選件。
 
@@ -67,10 +69,10 @@ Adobe Campaign v8 Web可讓您使用 **[!UICONTROL 互動]** 模組。 如需互
 
 ## 將優惠方案插入電子郵件 {#insert}
 
-使用運算式編輯器將選件新增至電子郵件。 可插入下列任一項目：
+您可以使用運算式編輯器將選件新增至電子郵件中。 可插入下列任一項目：
 
 * 在電子郵件主旨行中，
-* 在電子郵件內文中，允許任何內容元件中進行個人化。 [了解如何新增內容元件](content-components.md)
+* 在電子郵件內文中，允許在任何內容元件中進行個人化。 [了解如何新增內容元件](content-components.md)
 
 >[!NOTE]
 >
