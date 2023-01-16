@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送您的第一封電子郵件
 description: 了解如何使用Campaign網頁UI傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 9f33cd1bfcd32fb79b38d2da0ae88cda462b81c8
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="了解如何使用電子郵件設計工具來設計您的電子郵件內容。"
->abstract="了解如何設計您的內容"
+>title="了解如何設計您的電子郵件內容"
+>abstract="了解如何使用電子郵件設計工具。"
 
 在此使用案例中，我們將使用預先定義的範本來設計電子郵件。
 
