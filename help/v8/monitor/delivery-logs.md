@@ -3,9 +3,9 @@ audience: end-user
 title: 監視傳送記錄
 description: 了解如何監視傳送記錄
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '295'
 ht-degree: 22%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 22%
 
 ## 傳遞
 
-此 **傳遞** 索引標籤提供此傳送每次發生的記錄。 已傳送訊息的清單及其狀態會儲存在此處。它可讓您檢視每個收件者的傳送狀態。
+此 **傳送記錄檔** 索引標籤提供此傳送每次發生的記錄。 已傳送訊息的清單及其狀態會儲存在此處。它可讓您檢視每個收件者的傳送狀態。
 
 ![](assets/logs2.png)
 

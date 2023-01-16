@@ -3,9 +3,9 @@ audience: end-user
 title: 預覽電子郵件內容
 description: 了解如何使用Campaign網頁UI預覽您的電子郵件內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Adobe Campaign可讓您在傳送電子郵件前預覽其內容，以檢查個人
 
 1. 存取電子郵件內容建立畫面，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
+   ![](assets/simulate.png)
+
 1. 按一下 **[!UICONTROL 選取設定檔]** 按鈕，然後使用 **[!UICONTROL 測試設定檔]** 和 **[!UICONTROL 設定檔]** 頁簽進行選擇。
 
    您可以結合測試設定檔和設定檔以預覽電子郵件。
@@ -40,6 +42,10 @@ Adobe Campaign可讓您在傳送電子郵件前預覽其內容，以檢查個人
 
    如果您已新增多個設定檔，您可以在清單中的這些設定檔之間切換，以預覽對應的電子郵件。
 
-   您也可以按一下右上角的專用圖示，以在不同裝置（桌上型電腦、行動裝置、平板電腦）上預覽內容的呈現。
+   >[!NOTE]
+   >
+   >您可以按一下右上角的專用圖示，以在不同裝置（桌上型電腦、行動裝置、平板電腦）上預覽內容呈現。
 
    ![](assets/preview.png)
+
+

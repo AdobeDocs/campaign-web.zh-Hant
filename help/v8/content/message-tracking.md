@@ -3,10 +3,10 @@ audience: end-user
 title: 追蹤您的訊息
 description: 了解如何新增連結及追蹤已傳送的訊息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '550'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在傳送至測試設定檔的校樣中，鏡像頁面的連結未啟用。 它只會在最終訊息中啟動。
+>在傳送至測試設定檔的測試電子郵件中，鏡像頁面的連結未作用中。 它只會在最終訊息中啟動。
 
 鏡像頁面的保留期為60天。 延遲後，鏡像頁面將不再可用。
 

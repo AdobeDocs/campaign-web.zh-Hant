@@ -5,10 +5,10 @@ description: Campaign v8網頁檔案
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 網頁檔案
 hide: true
-source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 14%
+source-wordcount: '165'
+ht-degree: 15%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 14%
    + [設定控制組](audience/control-group.md)
    + [使用規則產生器定義對象](audience/segment-builder.md)
 + 預覽和測試您的電子郵件 {#preview-test}
-   + [關於預覽和校樣](preview-test/preview-test.md)
+   + [關於預覽和測試](preview-test/preview-test.md)
    + [預覽電子郵件內容](preview-test/preview-content.md)
-   + [傳送校樣](preview-test/proofs.md)
+   + [傳送測試電子郵件](preview-test/proofs.md)
 + 傳送及監視電子郵件 {#monitor}
    + [準備並傳送電子郵件](monitor/prepare-send.md)
    + [監視傳送記錄](monitor/delivery-logs.md)
