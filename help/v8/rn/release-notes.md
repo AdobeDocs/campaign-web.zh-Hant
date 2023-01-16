@@ -3,7 +3,7 @@ audience: end-user
 title: Campaign Web v8發行說明
 description: Campaign Web v8發行說明
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: b021a693277ba61a580e1fcaa8ec287f0dbeadb9
+source-git-commit: 0f7775d2c079c7d7c228249d81d9cba8e0d9619c
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **現代、直覺且統一的體驗**
 
-Campaign新的網頁UI提供新的使用者體驗，與所有Adobe Experience Cloud解決方案和應用程式一致。 它提供：
+Campaign新的Web UI提供與所有Adobe Experience Cloud解決方案和應用程式一致的新使用者體驗。 它提供：
 
 * 透過單一和共用的使用者工作階段存取新介面和其他Adobe解決方案
 * 新的導覽體驗，所有功能表和資料夾皆可從左側邊欄取得
