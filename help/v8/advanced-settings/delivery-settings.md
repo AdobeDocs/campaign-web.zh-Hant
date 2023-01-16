@@ -3,9 +3,9 @@ audience: end-user
 title: 電子郵件傳送設定
 description: 進一步了解Campaign網頁UI中的電子郵件傳送設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1468'
 ht-degree: 14%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 ![Alpha版](../assets/do-not-localize/badge.png)
 
-這些設定包括 **技術傳遞參數** 在電子郵件範本中定義。
+這些設定包括 **技術傳遞參數** 在電子郵件範本中定義。 可從 **配置傳送設定** 圖示。
 
 ## 電子郵件傳送設定 {#email-delivery-settings}
 

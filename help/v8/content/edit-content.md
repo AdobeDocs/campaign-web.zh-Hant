@@ -3,9 +3,9 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 了解如何在Campaign網頁UI中編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ ht-degree: 0%
    * [設定內容的樣式](get-started-email-style.md)
 
 1. 如果您想要將檔案附加至電子郵件，請按一下 **[!UICONTROL 添加附件]** 按鈕，然後選取一或多個檔案。
+
+   為避免效能問題，建議在每封電子郵件中不要包含多個附件。
 
    <!--limitation on size + number of files?-->
 

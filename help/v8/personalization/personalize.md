@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 0d74cababf2b4d66d3b2ce9b0ae2a0f00cb1cdef
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -67,17 +67,49 @@ ht-degree: 0%
 
    ![](assets/perso-rendering.png)
 
+若要將內容區塊新增至您的電子郵件，請套用相同步驟並從最後一個圖示選取內容區塊：
+
+![](assets/perso-insert-block.png)
+
+插入後，內容區塊會新增至電子郵件內容，如下所示。 在傳送準備步驟產生個人化時，會自動調整為收件者設定檔。
+
+![](assets/perso-content-block-in-email.png)
+
+
+內建內容區塊包括：
+* **[!UICONTROL 由Adobe Campaign啟用]** :插入「Enabled by Adobe Campaign」標誌。
+* **[!UICONTROL 專名的格式功能]** :會產生 **[!UICONTROL toSmartCase]** Javascript函式，可將每個字詞的首字母變更為大寫。
+* **[!UICONTROL 問候]** :插入帶有收件人名稱的問候語。 範例：「你好，無名氏，」
+* **[!UICONTROL 插入徽標]** :插入設定執行個體時已定義的現成可用標誌。
+* **[!UICONTROL 鏡像頁面的連結]** :插入指向鏡像頁面的連結：「如果您無法正確檢視此訊息，請按一下這裡」。
+* **[!UICONTROL 鏡像頁面URL]** :插入鏡像頁面URL，使「傳遞設計人員」能夠檢查連結。
+* **[!UICONTROL 以統一模式提供接受URL]** :插入URL，以便設定互動選件以 **[!UICONTROL 已接受]**.
+* **[!UICONTROL 註冊頁面URL]** :插入訂閱URL。
+* **[!UICONTROL 註冊連結]** :插入訂閱連結。 設定執行個體時，必須定義此連結。 預設內容為：&quot;要註冊，請按一下這裡。&quot;
+* **[!UICONTROL 註冊連結（具有反向連結）]** :插入訂閱連結，以識別訪客和傳送。 設定執行個體時已定義連結。
+* **[!UICONTROL 註冊確認]** :插入啟用以確認訂閱的連結。
+* **[!UICONTROL 社交網路分享連結]** :插入按鈕，使收件者能夠共用鏡像頁面內容的連結。
+* **[!UICONTROL 內容電子郵件的樣式]** 和 **[!UICONTROL 通知樣式]** :產生程式碼，使用預先定義的HTML樣式來格式化電子郵件。
+* **[!UICONTROL 取消訂閱連結]** :插入可從所有傳送（封鎖清單）中取消訂閱的連結。 預設關聯內容為：「你收到這條資訊是因為你與 `<your rganization name>` 或附屬機構。 不再接收來自 `<your rganization name>` 按一下這裡。」
+
 
 ## 個人化電子郵件中的連結 {#personalize-links}
 
 若要個人化 **連結**:
 
 1. 選取文字區塊或影像。
-1. 在內容工具列中，選取 **新增個人化**.
+1. 在內容工具列中，選取 **插入連結**.
 
    ![](assets/perso-link.png)
 
-1. 使用個人化編輯器來定義並個人化連結。
+1. 輸入連結標籤，然後使用 **插入連結** 按鈕來個人化連結。
+
+   ![](assets/perso-link-insert-icon.png)
+
+1. 使用個人化編輯器來定義及個人化連結，並進行確認。
+
+   ![](assets/perso-link-edit.png)
+
 
 ## 個人化您的優惠方案 {#personalize-offers}
 
