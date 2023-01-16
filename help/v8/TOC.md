@@ -5,10 +5,10 @@ description: Campaign v8網頁檔案
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 網頁檔案
 hide: true
-source-git-commit: e67f941d59b38a5dfa5985cacfc7403314e9c71f
+source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 13%
+source-wordcount: '164'
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 + [Campaign v8網頁檔案](campaign-web-home.md)
 + 有哪些新增功能？{#whats-new}
-   + [最新發行說明](rn/release-notes.md)
+   + [發行說明](rn/release-notes.md)
    + [文件更新](rn/documentation-updates.md)
 + [開始使用](get-started/get-started.md)
 + [探索介面](get-started/user-interface.md)
