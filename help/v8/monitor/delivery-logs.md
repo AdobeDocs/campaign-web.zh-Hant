@@ -3,9 +3,9 @@ audience: end-user
 title: 監視傳送記錄
 description: 了解如何監視傳送記錄
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '294'
 ht-degree: 22%
 
 ---
@@ -45,13 +45,13 @@ ht-degree: 22%
 
 ## 排除
 
-此 **排除記錄檔** 索引標籤會列出已從傳送目標排除的所有訊息，並指定傳送失敗的原因。
+此 **排除記錄檔** 索引標籤會列出已從目標中排除的所有訊息，並指定傳送失敗的原因。
 
 ![](assets/logs3.png)
 
 ## 排除原因
 
-此 **排除原因** 索引標籤會顯示已從目標傳送排除的訊息數量（以訊息數計）。
+此 **排除原因** 索引標籤會顯示已從目標中排除的訊息數量（以訊息數計）。
 
 ![](assets/logs4.png)
 

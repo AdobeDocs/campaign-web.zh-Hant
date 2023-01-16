@@ -3,7 +3,7 @@ audience: end-user
 title: 使用規則產生器定義對象
 description: 了解如何使用區段產生器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 1%
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **查看結果：** 顯示對象鎖定的收件者清單
+* **查看結果：** 顯示對象鎖定的收件者清單。
 * **程式碼檢視**:顯示SQL中基於代碼的對象版本。
 * **顯示高級屬性**:如果要在左側浮動視窗中檢視屬性的完整清單，請核取此選項：節點、分組、1-1個連結、1-N個連結。
 * **屬性**:顯示已建立對象的說明。

@@ -3,7 +3,7 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: 了解如何使用Campaign網頁UI準備和傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 4%
@@ -34,7 +34,7 @@ send also KPIs
 
 ## 準備傳送{#prepare}
 
-定義內容、對象和排程後，即可準備訊息。 在準備期間，會計算目標母體，並為目標中包含的每個設定檔產生訊息內容。 準備完成後，即可立即發送或在排程的日期和時間發送郵件。 分析期間使用的驗證規則如下 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+定義內容、對象和排程後，即可準備訊息。 在準備期間，會計算目標母體，並為目標中包含的每個設定檔產生訊息內容。 準備完成後，即可立即發送或在排程的日期和時間發送郵件。 分析期間使用的驗證規則於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
 請遵循以下步驟：
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用Campaign v8 Web
 description: 開始使用Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 10%
@@ -30,12 +30,12 @@ only existing customers
 
 Adobe Campaign 為跨頻道客戶體驗設計提供平台，並為視覺行銷活動協調、Real-time Interaction Management 和跨頻道執行提供環境。
 
-最初只能通過富 [用戶端主控台](#ac-client), Campaign現在提供新的網頁使用者介面，其可增強可用性、協助工具，以及可大幅改善您的使用者體驗的新設計。 這個新的現代化UI可簡化行銷活動的設計和傳遞，並與其他Adobe解決方案(包括Adobe Experience Platform)保持一致。
+最初僅通過富人 [用戶端主控台](#ac-client), Campaign現在提供新的網頁使用者介面，其可增強可用性、協助工具，以及可大幅改善您的使用者體驗的新設計。 這個新的現代化UI可簡化行銷活動的設計和傳遞，並與其他Adobe解決方案(包括Adobe Experience Platform)保持一致。
 
 
 ![](assets/home.png)
 
-這個新UI首先滿足 **業務從業者**  — 第一個版本中不提供所有典型的管理任務，但後續版本將處理這些任務。 請注意，目前新的UI中並未提供用戶端主控台中可用的所有功能或選項。 未來版本將提供新的使用案例、選項和功能。
+這個新的UI會先滿足 **業務從業者**  — 第一個版本中不提供所有典型的管理任務，但後續版本將處理這些任務。 請注意，目前新的UI中並未提供用戶端主控台中可用的所有功能或選項。 未來版本將提供新的使用案例、選項和功能。
 
 如果您需要存取Web UI中未提供的Campaign v8功能，可以使用 [用戶端主控台](#ac-client).
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 設定控制組
 description: 了解如何在Campaign網頁UI中為訊息設定控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 39%
@@ -64,11 +64,11 @@ ht-degree: 39%
 
    ![](assets/control-group5.png)
 
-* 此 **排除記錄檔** 顯示每個設定檔及相關的擴充功能 **原因**.
+* 此 **排除記錄檔** 顯示每個設定檔及相關的排除 **原因**.
 
    ![](assets/control-group6.png)
 
-* 此 **排除原因** 顯示每個類型規則的已排除設定檔數目。
+* 此 **排除原因** 顯示每個類型規則的已排除設定檔數。
 
    ![](assets/control-group7.png)
 

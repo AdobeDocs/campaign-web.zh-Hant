@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1166'
 ht-degree: 1%
 
 ---
@@ -97,6 +97,10 @@ Navtree view depends on permissions (same as console).
 * **行銷活動**  — 此為促銷活動清單。 依預設，您可以檢視其開始/結束/最後修改日期及其狀態。 您可以依狀態或開始/結束日期篩選清單。 也提供行銷活動範本。 這些清單為唯讀清單。
 
 * **傳遞**  — 瀏覽傳遞清單。 依預設，您可以檢視其狀態、上次修改日期以及關鍵KPI。 您可以依州、聯絡人日期或管道篩選清單。 按一下電子郵件傳送以開啟其控制面板，以取得傳送詳細資料的概觀。 其他通道上的傳送為唯讀。 傳遞範本也以唯讀模式提供。 您可以使用用戶端主控台來編輯。 看這個 [檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+
+   使用 **更多動作** 按鈕來刪除或複製傳送。
+
+   ![](assets/more-actions.png){width="70%" align="left"}
 
 ### 客戶管理
 
