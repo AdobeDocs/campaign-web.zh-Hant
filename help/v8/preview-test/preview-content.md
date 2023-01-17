@@ -3,9 +3,9 @@ audience: end-user
 title: 預覽電子郵件內容
 description: 了解如何使用Campaign網頁UI預覽您的電子郵件內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,16 @@ ht-degree: 0%
 
 Adobe Campaign可讓您在傳送電子郵件前預覽其內容，以檢查個人化及其對收件者的顯示方式。
 
-您可以使用下列方式預覽電子郵件：
-
-* **測試設定檔**:使用種子地址預覽電子郵件，這些地址是資料庫中其他虛構的收件者，
-* **設定檔**:使用現有設定檔預覽電子郵件。
-
 若要預覽電子郵件的內容，請依照下列步驟操作：
 
 1. 存取電子郵件內容建立畫面，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
    ![](assets/simulate.png)
 
-1. 按一下 **[!UICONTROL 選取設定檔]** 按鈕，然後使用 **[!UICONTROL 測試設定檔]** 和 **[!UICONTROL 設定檔]** 頁簽進行選擇。
+1. 按一下 **[!UICONTROL 選取設定檔]** 按鈕，然後使用 **[!UICONTROL 測試設定檔]** 和 **[!UICONTROL 設定檔]** 要選擇的頁簽：
+
+   * 此 **測試設定檔** 索引標籤包含種子地址，這些地址是資料庫中其他和虛構的收件者。 可在Adobe Campaign Console中建立這些變數，並放入 **[!UICONTROL 資源]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL 種子地址]** 檔案夾。
+   * 此 **設定檔** 索引標籤會列出儲存在 **[!UICONTROL 設定檔與目標]** 資料夾。
 
    您可以結合測試設定檔和設定檔以預覽電子郵件。
 

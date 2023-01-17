@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送測試電子郵件
 description: 了解如何定義和傳送測試電子郵件
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 測試電子郵件可傳送給兩種收件者：
 
-* **測試設定檔**:將測試電子郵件傳送至種子地址，這些地址是資料庫中額外且虛構的收件者，
+* **測試設定檔**:傳送測試電子郵件至種子地址，這些地址是資料庫中其他虛構的收件者。 可在Adobe Campaign Console中建立這些變數，並放入 **[!UICONTROL 資源]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL 種子地址]** 檔案夾。
 
 * **從主目標替代**:模擬現有設定檔時，傳送測試電子郵件至特定電子郵件地址。 這可讓您以收件者的方式體驗電子郵件，以精確呈現設定檔將收到的訊息。
 
