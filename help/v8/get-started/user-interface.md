@@ -3,7 +3,7 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
+source-git-commit: 09b996db77ab4f7028038cb6904a211cf19650c7
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 1%
@@ -184,16 +184,26 @@ Campaign v8 Web在最新版Google Chrome、Safari和Microsoft Edge中可以最�
 
 Campaign v8 Web目前提供下列語言版本：
 
-* 英語（美國） — EN-US
-* 法語 — FR
-* 德文 — DE
-* 義大利語 — IT
-* 西班牙文 — ES
-* 葡萄牙語（巴西） — PTBR
-* 日文 — JP
-* 韓語 — KR
-* 簡體中文 — CHS
-* 繁體中文 — CHT
+<table style="table-layout:fixed">
+<tr style="border: 1;">
+<td valign="top">
+<p>英語（美國） — EN-US</p>
+<p>法語 — FR</p>
+<p>德文 — DE</p>
+<p>義大利語 — IT</p>
+</td>
+<td valign="top">
+<p>西班牙文 — ES</p>
+<p>葡萄牙語（巴西） — PTBR</p>
+<p>日文 — JP</p>
+</td>
+<td valign="top">
+<p>韓語 — KR</p>
+<p>簡體中文 — CHS</p>
+<p>繁體中文 — CHT</p>
+</td>
+</tr>
+</table>
 
 您的預設介面語言由使用者設定檔中指定的偏好語言決定。
 
