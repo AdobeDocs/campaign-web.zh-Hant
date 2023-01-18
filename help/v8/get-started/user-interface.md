@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: df114a97c80b4ad1fc1fff9f7f34ec42df84c835
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 1%
+source-wordcount: '1282'
+ht-degree: 2%
 
 ---
 
@@ -152,16 +152,6 @@ Navtree view depends on permissions (same as console).
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## 內容說明與入門指南
-
-介面中提供內容說明。 可用時，按一下 **?** 圖示來顯示說明資訊和相關檔案連結。
-
-![](assets/context-help.png){width="70%" align="left"}
-
-也提供上線指南，協助您開始使用Campaign v8 Web。 按一下右下角的圖示，選擇任一可用的逐步案例，然後只需依照指示操作即可。
-
-![](assets/onboarding.png){width="70%" align="left"}
-
 ## 設定清單畫面 {#list-screens}
 
 例如，左側導覽功能表中的數個連結 **傳遞** 或 **行銷活動**，顯示對象清單。 這些清單畫面是唯讀的，但電子郵件傳送清單除外。
@@ -175,6 +165,43 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 ![](assets/columns.png){width="70%" align="left"}
 
 您可以按一下任何欄標題，以排序清單中的項目。 將顯示一個箭頭（向上或向下），指明清單按該列排序。 對於數值或日期欄，向上箭頭表示清單是以升序排序，而向下箭頭表示降序。 對於字串或英數字元列，值按字母順序列出。
+
+## 內容說明與入門指南
+
+介面中提供內容說明。 可用時，按一下 **?** 圖示來顯示說明資訊和相關檔案連結。
+
+![](assets/context-help.png){width="70%" align="left"}
+
+也提供上線指南，協助您開始使用Campaign v8 Web。 按一下右下角的圖示，選擇任一可用的逐步案例，然後只需依照指示操作即可。
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## 支援的瀏覽器 {#browsers}
+
+Campaign v8 Web在最新版Google Chrome、Safari和Microsoft Edge中可以最佳化運作。 您在舊版或其他瀏覽器上使用某些功能時可能遇到問題。
+
+## 語言偏好設定 {#language-pref}
+
+使用者介面目前提供下列語言：
+
+* 英文
+* 法文
+* 德文
+* 義大利文
+* 西班牙文
+* 葡萄牙文（巴西）
+* 日文
+* 韓文
+
+您的預設介面語言由使用者設定檔中指定的偏好語言決定。
+
+若要變更您的語言：
+
+* 按一下 **偏好設定** 從你的頭像，在右上角。
+   ![](assets/preferences.png)
+* 然後按一下您電子郵件地址下方顯示的語言
+* 選取您偏好的語言，然後按一下 **儲存**. 您可以選取第二種語言，以備您使用的元件未以第一種語言本地化時使用。
+   ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}
