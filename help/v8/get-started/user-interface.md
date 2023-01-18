@@ -3,7 +3,7 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 09b996db77ab4f7028038cb6904a211cf19650c7
+source-git-commit: a911bdca4bc83b770ff1c4537c3fc06a5b43026f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 1%
@@ -184,23 +184,47 @@ Campaign v8 Web在最新版Google Chrome、Safari和Microsoft Edge中可以最�
 
 Campaign v8 Web目前提供下列語言版本：
 
-<table style="table-layout:fixed">
-<tr style="border: 1;">
-<td valign="top">
+<table>
+<tr>
+<td>
 <p>英語（美國） — EN-US</p>
-<p>法語 — FR</p>
-<p>德文 — DE</p>
-<p>義大利語 — IT</p>
 </td>
-<td valign="top">
+<td>
 <p>西班牙文 — ES</p>
+</td>
+<td>
+<p>韓語 — KR</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>法語 — FR</p>
+</td>
+<td>
 <p>葡萄牙語（巴西） — PTBR</p>
+</td>
+<td>
+<p>簡體中文 — CHS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>德文 — DE</p>
+</td>
+<td>
 <p>日文 — JP</p>
 </td>
-<td valign="top">
-<p>韓語 — KR</p>
-<p>簡體中文 — CHS</p>
+<td>
 <p>繁體中文 — CHT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>義大利語 — IT</p>
+</td>
+<td>
+</td>
+<td>
 </td>
 </tr>
 </table>
