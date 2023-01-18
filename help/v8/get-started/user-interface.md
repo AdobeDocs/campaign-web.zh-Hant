@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a911bdca4bc83b770ff1c4537c3fc06a5b43026f
+source-git-commit: 3564e6fb400802f8e4b5e3dce93fdf97a0a8571f
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1324'
 ht-degree: 1%
 
 ---
@@ -188,46 +188,25 @@ Campaign v8 Web目前提供下列語言版本：
 <tr>
 <td>
 <p>英語（美國） — EN-US</p>
-</td>
-<td>
-<p>西班牙文 — ES</p>
-</td>
-<td>
-<p>韓語 — KR</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>法語 — FR</p>
-</td>
-<td>
-<p>葡萄牙語（巴西） — PTBR</p>
-</td>
-<td>
-<p>簡體中文 — CHS</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>德文 — DE</p>
-</td>
-<td>
-<p>日文 — JP</p>
-</td>
-<td>
-<p>繁體中文 — CHT</p>
-</td>
-</tr>
-<tr>
-<td>
 <p>義大利語 — IT</p>
 </td>
 <td>
+<p>西班牙文 — ES</p>
+<p>葡萄牙語（巴西） — PTBR</p>
+<p>日文 — JP</p>
 </td>
 <td>
+<p>韓語 — KR</p>
+<p>簡體中文 — CHS</p>
+<p>繁體中文 — CHT</p>
 </td>
 </tr>
 </table>
+
+|--- |--- |--- |
+| 英語（美國）<br>法語 — FR<br>德文 — DE<br>義大利語 — IT | 西班牙文 — ES<br>葡萄牙語（巴西） — PTBR<br>日文 — JP | 韓語 — KR<br>簡體中文 — CHS<br>繁體中文 — CHT |
 
 您的預設介面語言由使用者設定檔中指定的偏好語言決定。
 
