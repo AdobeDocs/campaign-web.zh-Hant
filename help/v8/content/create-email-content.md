@@ -3,9 +3,9 @@ audience: end-user
 title: 在電子郵件設計工具中設計電子郵件
 description: 了解如何從草稿開始設計您的電子郵件內容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 1. 插入個人化欄位，以從設定檔資料自訂您的電子郵件內容。 [深入了解內容個人化](../personalization/personalize.md)
 
-1. 按一下 **[!UICONTROL 連結]** 標籤，以顯示要追蹤之內容的所有URL。 您可以修改其 **[!UICONTROL 追蹤類型]** 或 **[!UICONTROL 標籤]** 新增 **[!UICONTROL 類別]** 如有需要。 [深入了解連結和訊息追蹤](message-tracking.md)
+1. 按一下 **[!UICONTROL 連結]** 標籤，以顯示必須追蹤之內容的所有URL。 您可以修改其 **[!UICONTROL 追蹤類型]** 或 **[!UICONTROL 標籤]** 新增 **[!UICONTROL 類別]** 如有需要。 [深入了解連結和訊息追蹤](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >切換到代碼編輯器後，您將無法回復到此電子郵件的可視設計器。
+   >切換到代碼編輯器後，無法回復到此電子郵件的可視設計器。
 
 1. 內容準備就緒後，按一下 **[!UICONTROL 模擬內容]** 檢查電子郵件呈現。 您可以選擇案頭或行動檢視。 [進一步了解如何預覽您的電子郵件](../preview-test/preview-test.md)
 

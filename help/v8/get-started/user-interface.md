@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1164'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## 左側導覽功能表
 
-瀏覽左側的連結，以存取Campaign v8 Web功能。 有幾個連結顯示可排序和篩選的對象清單。 您也可以設定欄以顯示您需要的所有資訊。 看這個 [節](#list-screens). 除電子郵件傳送清單外，所有清單畫面均為唯讀。 按一下任何清單項目即無法在Alpha中使用版本/檢視功能。 所有清單都可在測試版和GA版本中編輯。 左側導覽功能表中顯示的項目取決於您的使用者權限。
+瀏覽左側的連結，以存取Campaign v8 Web功能。 有幾個連結顯示可排序和篩選的對象清單。 您也可以設定欄以顯示您需要的所有資訊。 看這個 [節](#list-screens). 除電子郵件傳送清單外，所有清單畫面均為唯讀。 按一下任何清單項目即無法在Alpha中使用版本/檢視功能。 所有清單都可在未來版本中編輯。 左側導覽功能表中顯示的項目取決於您的使用者權限。
 
 ![](assets/home.png)
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 使用電子郵件設計工具內容元件
 description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## 容器 {#container}
 
-您可以新增一個簡單容器，在其中新增另一個內容元件。 這可讓您將特定樣式套用至容器，而容器與內使用的元件不同。
+您可以新增一個簡單容器，在其中新增其他內容元件。 這可讓您將特定樣式套用至容器，與內部使用的元件不同。
 
 例如，新增 **[!UICONTROL 容器]** 元件，然後新增 [按鈕](#button) 元件。 您可以為容器使用特定背景，為按鈕使用另一個背景。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL 連結]** 欄位中，新增按一下按鈕時要重新導向的URL。
 
-1. 選擇將對象重新導向至 **[!UICONTROL 目標]** 下拉式清單：
+1. 選擇內容的顯示方式 **[!UICONTROL 目標]** 下拉式清單：
 
    * **[!UICONTROL 無]**:在與點按連結相同的時間格中開啟連結（預設）。
    * **[!UICONTROL 空白]**:在新視窗或索引標籤中開啟連結。

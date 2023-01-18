@@ -3,7 +3,7 @@ audience: end-user
 title: 選取對象
 description: 了解如何選取對象
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 4%
@@ -47,4 +47,4 @@ ht-degree: 4%
 
 1. 按一下 **儲存**.
 
-您也可以設定控制組以測量促銷活動的影響。 控制組將不會接收消息。 這可讓您比較收到訊息的母體行為與未收到訊息的聯絡人行為。 請參閱 [節](control-group.md).
+您也可以設定控制組以測量促銷活動的影響。 控制組未接收消息。 這可讓您比較收到訊息的母體行為與未收到訊息的聯絡人行為。 請參閱 [節](control-group.md).

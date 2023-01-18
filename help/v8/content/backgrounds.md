@@ -3,9 +3,9 @@ audience: end-user
 title: 個人化您的電子郵件背景
 description: 了解如何個人化您的電子郵件背景
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >有些電子郵件程式不支援背景影像。 若不支援，則會改用列背景顏色。 請務必選取適當的後援背景顏色，以備影像無法顯示時使用。
+   >有些電子郵件程式不支援背景影像。 不支援時，會改用列背景顏色。 請務必選取適當的後援背景顏色，以備影像無法顯示時使用。
 
 * 在列級別設定背景顏色。
 

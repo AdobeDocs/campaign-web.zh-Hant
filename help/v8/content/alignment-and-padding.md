@@ -3,10 +3,10 @@ audience: end-user
 title: 在電子郵件設計工具中調整垂直對齊和邊框間距
 description: 了解如何調整垂直對齊和邊框間距
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '170'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-在此示例中，我們將調整由三列組成的結構元件內的邊框間距和垂直對齊方式。
+在此示例中，我們調整由三列組成的結構元件內的邊框間距和垂直對齊方式。
 
 1. 直接在電子郵件中選取結構元件，或使用 **[!UICONTROL 導航樹]** 可在左窗格中使用。
 

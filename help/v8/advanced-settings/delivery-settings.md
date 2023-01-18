@@ -3,9 +3,9 @@ audience: end-user
 title: 電子郵件傳送設定
 description: 進一步了解Campaign網頁UI中的電子郵件傳送設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1471'
 ht-degree: 14%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 14%
 * **取決於收件者**
 * **已定義在每個規則中**
 
-使用 **傳送重量** 欄位來定義傳送優先順序。 每個傳送都有一個權重，代表其優先順序等級。 依預設，傳送的權重會設為5。 壓力規則可讓您定義要套用至的傳送的權重。權重可以透過公式設定或計算，以符合收件者。 例如，您可以根據收件者興趣定義傳送的權重。
+使用 **傳送重量** 欄位來定義傳送優先順序。 每個傳送都有一個權重，代表其優先順序等級。 依預設，傳送的權重會設為5。 壓力規則可讓您定義套用至傳送的重量。 您可以透過公式來設定或計算加權，以適合收件者。 例如，您可以根據收件者興趣定義傳送的權重。
 
 
 使用 **傳送模式** 欄位來選取目標評估模式。 提供三種模式：
@@ -101,7 +101,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="最大重試次數"
->abstract="如果訊息因暫時錯誤而失敗，則在傳送期間將執行重試。"
+>abstract="如果訊息因暫時錯誤而失敗，則會執行重試，直到傳送期間結束為止。"
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
@@ -165,11 +165,11 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="有效期"
->abstract="此選項會定義要在URL上啟動追蹤的持續時間。"
+>abstract="此選項會定義在URL上啟動追蹤的持續時間。"
 
 追蹤參數會在相關區段中定義。 可能的選項包括：
 
-**追蹤有效性限制**:使用此選項可變更要在URL上啟動追蹤的持續時間。
+**追蹤有效性限制**:使用此選項可變更在URL上啟動追蹤的持續時間。
 
 **過期URL的替代URL**:使用此選項可輸入後退網頁的URL:追蹤過期後，就會顯示此訊息。
 

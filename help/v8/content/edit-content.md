@@ -3,9 +3,9 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 了解如何在Campaign網頁UI中編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 定義電子郵件 **[!UICONTROL 主旨行]**. 若要這麼做，請直接在專用欄位中輸入您的主題，或開啟運算式編輯器以定義，使用各種屬性和內容區塊或選件來新增個人化內容。 [了解如何個人化內容](../personalization/personalize.md)
 
-1. 如果您想要透過電子郵件傳送優惠方案，請使用 **[!UICONTROL 設定優惠方案]** 按鈕。 然後，您就能使用個人化欄位，將它們插入電子郵件中。 [了解如何傳送優惠方案](offers.md)
+1. 如果您想要透過電子郵件傳送優惠方案，請使用 **[!UICONTROL 設定優惠方案]** 按鈕。 然後，您就可以使用個人化欄位，將它們插入電子郵件中。 [了解如何傳送優惠方案](offers.md)
 
 1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕來建構和設計電子郵件的內容。 有關如何設計電子郵件內容的其他資訊，請參閱以下章節：
 

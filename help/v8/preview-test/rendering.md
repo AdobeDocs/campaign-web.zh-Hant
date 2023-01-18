@@ -3,9 +3,9 @@ audience: end-user
 title: 測試電子郵件呈現
 description: 了解如何在Campaign網頁UI中測試您的電子郵件呈現
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-在傳送電子郵件之前，請確定您的郵件會以最佳方式顯示在各種Web用戶端、網頁郵件和裝置上給收件者。
+在傳送電子郵件之前，請確定您的郵件以最佳方式顯示給收件者，並可在各種Web用戶端、網頁郵件和裝置上顯示。
 
 為此，Adobe Campaign可讓您在可接收郵件的不同內容中預覽所傳送的郵件，並檢查主要案頭和應用程式（網頁郵件、郵件服務、行動裝置等）的相容性。
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: 了解如何使用Campaign網頁UI準備和傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '546'
 ht-degree: 4%
 
 ---
@@ -92,6 +92,6 @@ send also KPIs
 
    >[!NOTE]
    >
-   >此 **開啟** 和 **點按次數** 5分鐘後將更新指標。
+   >此 **開啟** 和 **點按次數** 指標會在5分鐘後更新。
 
-   您可以隨時暫停傳送，然後繼續。 如果您在傳送時停止傳送，將無法繼續。
+   您可以隨時暫停傳送，然後繼續。 如果您在傳送時停止傳送，則無法繼續。

@@ -3,10 +3,10 @@ audience: end-user
 title: 定義連結的樣式
 description: 了解如何定義連結的樣式
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '140'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    ![](assets/link_1.png)
 
-1. 選擇將對象重新導向至 **[!UICONTROL 目標]** 下拉式清單：
+1. 選擇透過 **[!UICONTROL 目標]** 下拉式清單：
 
    * **[!UICONTROL 無]**:在與點按連結相同的時間格中開啟連結（預設）。
    * **[!UICONTROL 空白]**:在新視窗或索引標籤中開啟連結。

@@ -3,9 +3,9 @@ audience: end-user
 title: 預覽電子郵件內容
 description: 了解如何使用Campaign網頁UI預覽您的電子郵件內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="智慧型預覽內容"
->abstract="Adobe Campaign可讓您在傳送前使用設定檔來預覽電子郵件內容，以檢查個人化及收件者如何看到內容。"
+>abstract="Adobe Campaign可讓您在傳送前，使用設定檔來預覽電子郵件的內容、檢查個人化以及收件者的看法。"
 
-Adobe Campaign可讓您在傳送電子郵件前預覽其內容，以檢查個人化及其對收件者的顯示方式。
+Adobe Campaign可讓您在傳送電子郵件之前先預覽內容、檢查個人化，以及如何向收件者顯示。
 
 若要預覽電子郵件的內容，請依照下列步驟操作：
 
@@ -36,7 +36,7 @@ Adobe Campaign可讓您在傳送電子郵件前預覽其內容，以檢查個人
 
    ![](assets/preview-profile.png)
 
-1. 選取設定檔後，電子郵件的預覽會顯示在右窗格中。 個人化元素將會由左窗格中選取之設定檔的資料取代。
+1. 選取設定檔後，右側窗格中會顯示電子郵件的預覽。 個人化元素會由左窗格中選取之設定檔的資料取代。
 
    如果您已新增多個設定檔，您可以在清單中的這些設定檔之間切換，以預覽對應的電子郵件。
 

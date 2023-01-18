@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送您的第一封電子郵件
 description: 了解如何使用Campaign網頁UI傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-透過此使用案例了解如何建立第一個目標式電子郵件。 我們將排程在特定日期傳送電子郵件給銀級和金級忠誠客戶。
+了解如何建立第一個目標式電子郵件。 在此使用案例中，您會排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
-使用預先定義的設計範本，電子郵件還將根據客戶設定檔屬性提供個人化內容。
+電子郵件還根據預先定義的設計範本，提供根據客戶設定檔屬性的個人化內容。
 
 ![](assets/delivery-list.png)
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="選取電子郵件範本"
->abstract="範本是在Adobe Campaign v8主控台中定義。 這是特定的傳送設定，包含預先定義的參數，例如類型規則、個人化或路由參數。"
+>abstract="電子郵件範本是特定的傳送設定，包含預先定義的設定，例如類型規則、個人化或路由參數。 範本是在Campaign用戶端主控台中定義。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -65,13 +65,13 @@ ht-degree: 0%
 >title="了解如何設計您的電子郵件內容"
 >abstract="了解如何使用電子郵件設計工具。"
 
-在此使用案例中，我們將使用預先定義的範本來設計電子郵件。
+在此使用案例中，您會使用預先定義的範本來設計電子郵件。
 
-將使用預先定義的範本來設計電子郵件。 有關配置電子郵件內容的詳細說明，請參閱 [本節](../content/edit-content.md).
+有關如何配置電子郵件內容的詳細說明，請參閱 [本節](../content/edit-content.md).
 
 1. 若要開始建立電子郵件內容，請按一下 **[!UICONTROL 編輯內容]** 按鈕。
 
-   這會帶您進入專用的介面，您可在其中設定電子郵件內容，並使用電子郵件設計工具進行設計。
+   這可讓您進入專用的介面，您可在其中設定電子郵件內容，並使用電子郵件設計工具進行設計。
 
    ![](assets/edit-content.png)
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 若要設計電子郵件的內文，請按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕。
 
-   選擇用來建立電子郵件內容的方法。 在此範例中，我們將使用預先定義的設計範本。
+   選擇用來建立電子郵件內容的方法。 在此範例中，使用預先定義的設計範本。
 
    ![](assets/select-template.png)
 
@@ -106,9 +106,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="定義對象"
->abstract="選取行銷訊息的最佳對象。 您可以選擇已在Campaign v8例項中定義的現有對象，或從Adobe Experience Platform中選擇，或選擇使用規則產生器建立新對象。"
+>abstract="選取行銷訊息的最佳對象。 您可以選擇已在Campaign v8例項中定義的現有對象，或從Adobe Experience Platform中選擇，或者您可以使用規則產生器建立新對象。"
 
-在此使用案例中，我們會傳送電子郵件給現有對象。 有關如何使用對象的其他指示，請參閱 [本節](../audience/about-audiences.md).
+在此使用案例中，您會傳送電子郵件給現有對象。 有關如何使用對象的其他指示，請參閱 [本節](../audience/about-audiences.md).
 
 1. 若要選取電子郵件的對象，請按一下 **[!UICONTROL 選取對象]** 按鈕，然後從清單中選擇現有對象。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >清單中可用的對象來自您的Campaign V8執行個體，或來自Adobe Experience Platform（如果已在執行個體上設定目的地/來源整合）。
+   >清單中可用的對象來自您的Campaign v8執行個體，或來自Adobe Experience Platform（如果已在執行個體上設定目的地/來源整合）。
    >
    >目的地/來源整合可讓您將Experience Platform區段傳送至Adobe Campaign，以及將促銷活動傳送和追蹤記錄檔傳送至Adobe Experience Platform。 [了解如何搭配Campaign和Adobe Experience Platform使用](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
@@ -145,19 +145,19 @@ ht-degree: 0%
 
 在傳送電子郵件之前，您可以先預覽並測試它，以確保它符合您的期望。
 
-在此使用案例中，我們會在模擬部分目標設定檔時預覽電子郵件，並將測試版本傳送至特定電子郵件地址。
+在此使用案例中，您會在模擬部分目標設定檔時預覽電子郵件，並將測試版本傳送至特定電子郵件地址。
 
 有關如何預覽和測試電子郵件的其他資訊，請參閱 [本節](../preview-test/preview-test.md).
 
 1. 若要檢閱並傳送電子郵件，請按一下 **[!UICONTROL 檢閱並傳送]**. 這會顯示您電子郵件的預覽，以及所有已設定的屬性、對象和排程。 您可以按一下修改按鈕來編輯這些元素中的任何一個。
 
-1. 若要預覽電子郵件並傳送測試版本，請按一下 **[!UICONTROL 模擬內容]** 按鈕。 這會開啟預覽介面。
+1. 若要預覽電子郵件並傳送測試版本，請按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
    ![](assets/review-email.png)
 
 1. 在左側，選取您要用來預覽電子郵件的設定檔。
 
-   右側窗格會根據選取的設定檔顯示電子郵件的預覽。 如果您已新增多個設定檔，則可以在它們之間切換，以預覽對應的電子郵件。
+   右窗格會根據選取的設定檔顯示電子郵件的預覽。 如果您已新增多個設定檔，則可以在它們之間切換，以預覽對應的電子郵件。
 
    ![](assets/preview.png)
 
@@ -167,11 +167,11 @@ ht-degree: 0%
 
 1. 若要傳送電子郵件的測試版本，請按一下 **[!UICONTROL 測試]** 按鈕，然後選擇要使用的模式。
 
-   在此範例中，我們將使用 **[!UICONTROL 從主要目標替代]** 模式，模擬電子郵件鎖定的部分設定檔時，會將測試版本傳送至特定電子郵件地址。
+   在此範例中，使用 **[!UICONTROL 從主要目標替代]** 模式，模擬電子郵件鎖定的部分設定檔時，會將測試版本傳送至特定電子郵件地址。
 
    ![](assets/proof-mode.png)
 
-1. 按一下 **[!UICONTROL 添加地址]** 並指定將接收測試版本的電子郵件地址。
+1. 按一下 **[!UICONTROL 添加地址]** 並指定接收測試版本的電子郵件地址。
 
    針對每個電子郵件地址，選取要模擬的設定檔。 您也可以讓Adobe Campaign從目標中選取隨機設定檔。
 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL 傳送測試電子郵件]** 並確認傳送。
 
-   測試版本將會使用選取的設定檔與 **[校樣x]** 前置詞。
+   測試版本會使用選取的設定檔與 **[校樣x]** 前置詞。
 
    ![](assets/proof-sent.png)
 

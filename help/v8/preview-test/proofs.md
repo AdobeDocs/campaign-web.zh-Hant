@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送測試電子郵件
 description: 了解如何定義和傳送測試電子郵件
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '537'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 * **測試設定檔**:傳送測試電子郵件至種子地址，這些地址是資料庫中其他虛構的收件者。 可在Adobe Campaign Console中建立這些變數，並放入 **[!UICONTROL 資源]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL 種子地址]** 檔案夾。
 
-* **從主目標替代**:模擬現有設定檔時，傳送測試電子郵件至特定電子郵件地址。 這可讓您以收件者的方式體驗電子郵件，以精確呈現設定檔將收到的訊息。
+* **從主目標替代**:模擬現有設定檔時，傳送測試電子郵件至特定電子郵件地址。 這可讓您以收件者的方式體驗電子郵件，以精確呈現設定檔收到的訊息。
 
 ## 選取測試收件者 {#recipients}
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
    ![](assets/test-button.png)
 
-1. 使用 **[!UICONTROL 模式]** 下拉式清單，以選擇將接收測試電子郵件的收件者類型：
+1. 使用 **[!UICONTROL 模式]** 下拉式清單，選擇接收測試電子郵件的收件者類型：
 
    * **測試設定檔**:將測試電子郵件傳送至種子地址，這些地址是資料庫中其他虛構的收件者，
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 1. 若要將測試電子郵件傳送至替代設定檔，請選擇 **[!UICONTROL 目標替代]** 模式，然後遵循下列步驟：
 
-   1. 按一下 **[!UICONTROL 添加地址]** 按鈕，並指定將接收測試電子郵件的電子郵件地址。
+   1. 按一下 **[!UICONTROL 添加地址]** 按鈕，並指定接收測試電子郵件的電子郵件地址。
 
       您可以輸入任何電子郵件地址。 這可讓您傳送測試電子郵件給任何使用者，即使他們不是Adobe Campaign V8的使用者亦然。
 

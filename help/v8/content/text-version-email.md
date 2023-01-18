@@ -3,9 +3,9 @@ audience: end-user
 title: 建立電子郵件的文字版本
 description: 了解如何建立電子郵件的文字版本
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -38,5 +38,5 @@ ht-degree: 0%
 >
 >* 中所做的變更 **[!UICONTROL 純文字]** 檢視不會反映在HTML檢視中。
 >
->* 如果您重新啟用 **[!UICONTROL 與HTML同步]** 選項，您的變更將會遺失，並取代為從HTML版本產生的文字內容。
+>* 如果您重新啟用 **[!UICONTROL 與HTML同步]** 選項，在更新純文字內容後，您的變更會遺失，並取代為從HTML版本產生的文字內容。
 
