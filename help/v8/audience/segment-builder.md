@@ -1,98 +1,92 @@
 ---
 audience: end-user
-title: 使用規則產生器定義對象
-description: 了解如何使用區段產生器
+title: Define an audience with the rule builder
+description: Learn how to work with the Segment Buidler
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 1%
-
 ---
-
-# 使用規則產生器定義對象 {#segment-builder}
+# Define an audience with the rule builder {#segment-builder}
 
 ![](../assets/do-not-localize/badge.png)
 
-本節說明如何在設計新電子郵件時建立對象。 建立的對象只能用於此電子郵件。
+This section describes how to create an audience when designing a new email. The created audience can only be used in this email. 
 
-規則產生器可讓您透過篩選資料庫中包含的資料來定義訊息所定位的母體。 如果您想要選取現有對象，請參閱此 [節](add-audience.md).
+The rule builder allows you to define the population targeted by your message by filtering data contained in the database. If you want to select an existing audience, refer to this [section](add-audience.md). 
 
-如需規則產生器的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+For more information on the rule builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
-若要在設計電子郵件時建立新對象，請遵循下列步驟：
+To create a new audience when designing an email, follow these steps: 
 
-1. 從 **對象** 傳送建立助理的區段，按一下 **[!UICONTROL 選取對象]** 按鈕。
+1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
 
-   ![](assets/segment-builder0.png)
+    ![](assets/segment-builder0.png)
 
-1. 選擇 **建立自己的**. 規則產生器隨即顯示。
+1. Select **Create your own**. The rule builder is displayed.
 
-   ![](assets/segment-builder.png)
+    ![](assets/segment-builder.png)
 
-## 浮動視窗
+## The palette
 
-位於左側的浮動視窗包含您可以篩選的所有元素，以建立您的對象。 浮動視窗中包含的圖磚必須移至中央畫布中，才能進行設定並納入考量。 浮動視窗分為兩個標籤：
+The palette, located on the left side contains all the elements that you can filter on to create your audience. The tiles contained in the palette must be moved into the center canvas in order to be configured and taken into account. The palette is divided into two tabs:
 
-* **屬性**:此索引標籤可讓您存取架構中的所有可用欄位。 欄位清單取決於電子郵件範本中定義的定位結構。
+* **Attributes**: this tab allows you to access all available fields from the schema. The list of fields depends on the targeting schema defined in the email template.
 
-   ![](assets/segment-builder2.png){width="70%" align="left"}
+    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **對象**:此索引標籤可讓您使用Campaign Classic主控台或從Adobe Experience Platform中定義的現有對象之一進行篩選。
+* **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console or from Adobe Experience Platform.
 
-   ![](assets/segment-builder3.png){width="70%" align="left"}
+    ![](assets/segment-builder3.png){width="70%" align="left"}
 
-   >[!NOTE]
-   >
-   >若要運用Adobe Experience Platform對象，您需要設定與Destinations的整合。 請參閱 [目的地檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant){target="_blank"}.
+    >[!NOTE]
+    >
+    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
 
-您可以使用搜尋列快速尋找元素。
+You can use the search bar to find elements quickly.
 
-## 畫布
+## The canvas
 
-畫布是中央區域，您可以在其中根據從浮動視窗新增的元素來設定和結合規則。 若要新增規則，請從浮動視窗拖曳圖磚，並將其拖放至畫布上。 接著，您就可以根據要新增的資料類型，顯示內容特定選項。
+The canvas is the central zone in which you can configure and combine rules based on the elements added from the palette. To add a new rule, drag a tile from the palette and drop it onto the canvas. You can then be presented with context-specific options according to the type of data being added. 
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
-## 規則屬性窗格
+## The rule properties pane
 
-在右側， **規則屬性** 窗格中，您可以執行以下操作：
+On the right side, the **Rule properties** pane allows you to perform the following actions:
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **查看結果：** 顯示對象鎖定的收件者清單。
-* **程式碼檢視**:顯示SQL中基於代碼的對象版本。
-* **顯示高級屬性**:如果要在左側浮動視窗中檢視屬性的完整清單，請核取此選項：節點、分組、1-1個連結、1-N個連結。
-* **屬性**:顯示已建立對象的說明。
+* **View results:** displays the list of recipients targeted by the audience.
+* **Code view**: displays a code-based version of the audience in SQL.
+* **Display advanced attributes**: check this option if you want to view the complete list of attributes in the left palette: nodes, groupings, 1-1 links, 1-N links.
+* **Attributes**: displays a description of the created audience.
 
-## 範例
+## Example
 
-在此範例中，我們建立了一個受眾，以鎖定居住在亞特蘭大或西雅圖且在1980年後出生的所有客戶。
+In this example, we build an audience to target all customers living in Atlanta or Seattle and born after 1980. 
 
-1. 在 **屬性** 頁簽，搜索 **出生日期** 欄位。 將圖磚拖曳至畫布上。
+1. In the **Attributes** tab of the palette, search for the **Date of birth** field. Drag the tile and drop it onto the canvas. 
 
-   ![](assets/segment-builder6.png)
+    ![](assets/segment-builder6.png)
 
-1. 在畫布中，選取 **之後** 運算子，然後輸入所需日期。
+1. In the canvas, choose the **After** operator and enter the desired date.
 
-   ![](assets/segment-builder7.png)
+    ![](assets/segment-builder7.png)
 
-1. 在浮動視窗中，搜尋 **城市** 欄位，並將其新增至第一個規則下方的畫布。
+1. In the palette, search for the **City** field and add it to the canvas below the first rule. 
 
-   ![](assets/segment-builder8.png)
+    ![](assets/segment-builder8.png)
 
-1. 在文字欄位中，輸入第一個城市名稱，然後按Enter鍵。
+1. In the text field, enter the first city name, then press enter. 
 
-   ![](assets/segment-builder9.png)
+    ![](assets/segment-builder9.png)
 
-1. 對第二個城市名稱重複此操作。
+1. Repeat this action for the second city name.
 
-   ![](assets/segment-builder10.png)
+    ![](assets/segment-builder10.png)
 
-1. 按一下 **查看結果** 顯示與查詢匹配的收件人的清單和數目。 您也可以新增欄以視覺化並檢查資料。 在範例中，新增 **城市** 應該看亞特蘭大和西雅圖。
+1. Click **View results** to display the list and number of recipients matching the query. You can also add columns to visualize and check the data. In our example, add the **City** column and should see Atlanta and Seattle.
 
-   ![](assets/segment-builder11.png)
+    ![](assets/segment-builder11.png)
 
-1. 按一下 **確認**.
+1. Click **Confirm**.
 
-您的對象已定義，且已準備好在您的電子郵件中使用。
+Your audience is defined and ready to be used in your email.

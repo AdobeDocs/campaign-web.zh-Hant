@@ -1,59 +1,53 @@
 ---
-keywords: Campaign Web；首頁；熱門主題
-description: Campaign Web v8說明中心
-title: Adobe Campaign Web v8產品檔案
+keywords: Campaign Web;home;popular topics
+description: Campaign Web v8 help center
+title: Adobe Campaign Web v8 product documentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 9%
-
 ---
+# Adobe Campaign v8 Web Documentation {#campaign-documentation}
 
-# Adobe Campaign v8網頁檔案 {#campaign-documentation}
+![](assets/do-not-localize/banner-documentationv8.png) 
 
-![](assets/do-not-localize/banner-documentationv8.png)
-
-![](assets/do-not-localize/badge.png)
+![](assets/do-not-localize/badge.png) 
 
 
-Campaign現在提供新的網頁使用者介面，其可增強可用性、協助工具，以及可大幅改善您的使用者體驗的新設計。 這個新的現代化UI可簡化行銷活動的設計和傳遞，並與其他Adobe解決方案(包括Adobe Experience Platform)保持一致。 [了解更多](get-started/get-started.md)
+Campaign now provides a new web user interface with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform. [Learn more](get-started/get-started.md)
 
->Campaign v8 Web目前為Alpha版。 僅限一小組Alpha客戶存取。 請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。 [了解更多](rn/release-notes.md)
+>Campaign v8 Web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that product interface, capabilities and usage flows can change without notice. [Learn more](rn/release-notes.md)
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="get-started/user-interface.md">
-<img alt="新UI" src="assets/do-not-localize/email-create.jpeg">
+<img alt="new UI" src="assets/do-not-localize/email-create.jpeg">
 </a>
-<div><a href="get-started/user-interface.md"><strong>Campaign新UI</strong>
+<div><a href="get-started/user-interface.md"><strong>Campaign New UI</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="content/create-email-content.md">
-<img alt="不頻繁" src="assets/do-not-localize/email-design.jpg">
+<img alt="Infrequent" src="assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>設計電子郵件</strong></a>
+<a href="content/create-email-content.md"><strong>Design an email</strong></a>
 </div>
 <p></td>
 <td>
 <a href="audience/about-audiences.md">
-<img alt="對象" src="assets/do-not-localize/email-opt-out.jpg">
+<img alt="Audiences" src="assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>選取對象</strong></a>
+<a href="audience/about-audiences.md"><strong>Select an audience</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="preview-test/proofs.md">
-<img alt="驗證" src="assets/do-not-localize/email-config.jpg">
+<img alt="Validation" src="assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>預覽和測試電子郵件</strong></a>
+<a href="preview-test/proofs.md"><strong>Preview and test an email</strong></a>
 </div>
 <p>
 </td>

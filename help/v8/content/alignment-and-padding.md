@@ -1,43 +1,37 @@
 ---
 audience: end-user
-title: 在電子郵件設計工具中調整垂直對齊和邊框間距
-description: 了解如何調整垂直對齊和邊框間距
+title: Adjust vertical alignment and padding in Email Designer
+description: Learn how to adjust vertical alignment and padding
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 1%
-
 ---
-
-# 調整垂直對齊和邊框間距 {#alignment-and-padding}
+# Adjust vertical alignment and padding {#alignment-and-padding}
 
 ![](../assets/do-not-localize/badge.png)
 
-在此示例中，我們調整由三列組成的結構元件內的邊框間距和垂直對齊方式。
+In this example, we adjust padding and vertical alignment inside a structure component composed of three columns.
 
-1. 直接在電子郵件中選取結構元件，或使用 **[!UICONTROL 導航樹]** 可在左窗格中使用。
+1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left pane.
 
    ![](assets/alignment_1.png)
 
-1. 在內容工具列中，按一下 **[!UICONTROL 選取欄]** 並選擇要編輯的。 您也可以從左側的結構樹中選取它。
+1. From the contextual toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree on the left.
 
    ![](assets/alignment_2.png)
 
-1. 該列的可編輯參數顯示在 **[!UICONTROL 欄設定]** 菜單。 調整 **[!UICONTROL 垂直對齊]** 使用專用區段。
+1. The editable parameters for that column are displayed in the **[!UICONTROL Column settings]** menu on the right. Adjust the **[!UICONTROL Vertical alignment]** using the dedicated section.
 
    ![](assets/alignment_3.png)
 
-   例如，選取 **[!UICONTROL 底部]**. 內容元件會移至欄底部。
+   For example, select **[!UICONTROL Bottom]**. The content component moves to the bottom of the column.
 
-1. 在 **[!UICONTROL 邊框間距]**，定義欄內的上邊框間距，並設定該欄的左邊框間距和右邊框間距。
+1. Under **[!UICONTROL Padding]**, define the top padding inside the column, and set the left and right padding for that column.
 
    >[!NOTE]
    >
-   >按一下鎖定圖示可中斷上/下或左/右邊框間距之間的同步。
+   >Click the lock icon to break synchronization between the top/bottom or left/right padding.
 
    ![](assets/alignment_4.png)
 
-1. 以類似方式繼續調整其他列的對齊方式和邊框間距。
+1. Proceed similarly to adjust the other columns' alignment and padding.
 
-1. 儲存您的變更。
+1. Save your changes.

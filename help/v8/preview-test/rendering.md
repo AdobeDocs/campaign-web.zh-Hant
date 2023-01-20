@@ -1,33 +1,27 @@
 ---
 audience: end-user
-title: 測試電子郵件呈現
-description: 了解如何在Campaign網頁UI中測試您的電子郵件呈現
+title: Test email rendering
+description: Learn how to test your email rendering in Campaign Web UI
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 0%
-
 ---
-
-# 測試電子郵件呈現 {#rendering}
+# Test the email rendering {#rendering}
 
 ![](../assets/do-not-localize/badge.png)
 
-在傳送電子郵件之前，請確定您的郵件以最佳方式顯示給收件者，並可在各種Web用戶端、網頁郵件和裝置上顯示。
+Before sending your email, make sure that your message is displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 
-為此，Adobe Campaign可讓您在可接收郵件的不同內容中預覽所傳送的郵件，並檢查主要案頭和應用程式（網頁郵件、郵件服務、行動裝置等）的相容性。
+To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message service, mobile, etc.).
 
-若要測試電子郵件呈現，請遵循下列步驟：
+To test the email rendering, follow these steps:
 
-1. 存取電子郵件內容建立畫面，然後按一下 **[!UICONTROL 模擬內容]**.
+1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
 
-1. 按一下 **[!UICONTROL 呈現電子郵件]** 按鈕。
+1. Click the **[!UICONTROL Render email]** button.
 
-   左窗格提供各種案頭、行動和網頁型電子郵件用戶端。 選取所需的電子郵件用戶端，以在右窗格中顯示電子郵件的預覽。
+    The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
 
-   ![](assets/render-context.png)
+    ![](assets/render-context.png)
 
-   >[!NOTE]
-   >
-   >電子郵件客戶端清單提供主要郵件客戶端的示例。 頂端搜尋列旁的篩選按鈕提供其他電子郵件用戶端。
+    >[!NOTE]
+    >
+    >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.

@@ -1,52 +1,46 @@
 ---
 audience: end-user
-title: 在電子郵件設計工具中新增預先標題
-description: 了解如何設計您的電子郵件內容
+title: Add a preheader in the Email Designer
+description: Learn how to design your emails content
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
-
 ---
-
-# 新增前置詞 {#preheader}
+# Add a preheader {#preheader}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="新增前置詞"
->abstract="前置詞是摘要文字，在從電子郵件用戶端檢視電子郵件時，會遵循主旨行。 在許多情況下，它會提供電子郵件的簡短摘要，且通常為一句長。"
+>title="Adding a preheader"
+>abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
 
-前置詞是摘要文字，在從電子郵件用戶端檢視電子郵件時，會遵循主旨行。
+A preheader is a short summary text that follows the subject line when viewing an email from your email client. 
 
-在許多情況下，它會提供電子郵件的簡短摘要，且通常為一句長。
+In many cases, it provides a short summary of the email, and is typically one sentence long. 
 
 >[!NOTE]
 >
->所有電子郵件用戶端均不支援預先標題。 若不支援，則不會顯示預先標題。
+>Preheaders are not supported by all email clients. When not supported, the preheader does not display.
 
-若要定義電子郵件預先標題，請遵循下列步驟：
+To define the email preheader, follow the steps below:
 
-1. 從電子郵件設計工具中，至少新增 **[!UICONTROL 結構元件]** 開始設計電子郵件。
+1. From the Email Designer, add at least a **[!UICONTROL Structure components]** to start designing your email.
 
-1. 按一下 **[!UICONTROL 導航樹]** 圖示，然後選取 **[!UICONTROL 主體]**.
+1. Click the **[!UICONTROL Navigation tree]** icon from the left pane and select **[!UICONTROL Body]**.
 
-   ![](assets/preheader_body.png)
+    ![](assets/preheader_body.png)
 
-1. 從 **[!UICONTROL 內文設定]** 右窗格，按一下 **[!UICONTROL Preheader]** 欄位來新增內容。
+1. From the **[!UICONTROL Body settings]** right pane, click the edit icon next to the **[!UICONTROL Preheader]** field to add content.
 
-   ![](assets/preheader_body_settings.png)
+    ![](assets/preheader_body_settings.png)
 
-1. 新增您的標題。 您可以按一下 **[!UICONTROL 新增個人化]** 表徵圖。
+1. Add your preheader. You can further personalize it by clicking the **[!UICONTROL Add personalization]** icon.
 
-   ![](assets/preheader_3.png)
+    ![](assets/preheader_3.png)
 
-1. 從 **[!UICONTROL 編輯個人化]** 視窗中，您可以新增 **[!UICONTROL 內容區塊]**, **[!UICONTROL 動態內容]** 或 **[!UICONTROL 個人化欄位]**.
+1. From the **[!UICONTROL Edit Personalization]** window, you can add **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** or **[!UICONTROL Personalization fields]**.
 
-1. 按一下 **[!UICONTROL 驗證]** 以檢查個人化語法。
+1. Click **[!UICONTROL Validate]** to check your personalization syntax.
 
-1. 按一下 **[!UICONTROL 儲存]**.
+1. Click **[!UICONTROL Save]**.
 
-您的電子郵件現在已設定前置標題。
+Your preheader is now configured for your email.

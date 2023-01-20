@@ -1,66 +1,60 @@
 ---
 audience: end-user
-title: 編輯電子郵件內容
-description: 了解如何在Campaign網頁UI中編輯電子郵件內容
+title: Edit the email content
+description: Learn how to edit the email content in Campaign Web UI
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 0%
-
 ---
-
-# 編輯電子郵件內容 {#configure-content}
+# Edit the email content {#configure-content}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="建立電子郵件內容"
->abstract="透過此小節，您可以建立電子郵件的內容，並使用電子郵件設計工具提供精美的外觀。"
+>title="Create the email content"
+>abstract="With this section, you can create the content for your email and use the Email Designer to give it a polished look."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="電子郵件標題"
+>title="Email Header"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="電子郵件附件"
+>title="Email attachment"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="追蹤選項"
+>title="Tracking options"
 >abstract="TBC"
 
-若要開始建立電子郵件內容，請按一下 **[!UICONTROL 編輯內容]** 按鈕。
+To start creating the content of an email, click the **[!UICONTROL Edit content]** button from the email creation screen.
 
 ![](assets/edit-content.png)
 
-此畫面可讓您定義電子郵件的內容，並存取電子郵件設計工具來設計。
+This screen allows you to define the content of your email and access the Email Designer to design it.
 
 ![](assets/content-dashboard.png)
 
-定義電子郵件內容的步驟如下：
+The steps to define the content of your email are as follows:
 
-1. 檢查 **[!UICONTROL 從名稱]** 和 **[!UICONTROL 從電子郵件]** 資訊。 這些欄位為唯讀欄位，會在建立電子郵件時在選取的電子郵件範本中設定。
+1. Check the **[!UICONTROL From name]** and **[!UICONTROL From email]** information. These fields are read-only, they are configured in the email template selected when creating the email.
 
-1. 定義電子郵件 **[!UICONTROL 主旨行]**. 若要這麼做，請直接在專用欄位中輸入您的主題，或開啟運算式編輯器以定義，使用各種屬性和內容區塊或選件來新增個人化內容。 [了解如何個人化內容](../personalization/personalize.md)
+1. Define the email **[!UICONTROL Subject line]**. To do this, type your subject directly into the dedicated field, or open the Expression Editor to define to add personalization using various attributes and content blocks or offers. [Learn how to personalize content](../personalization/personalize.md)
 
-1. 如果您想要透過電子郵件傳送優惠方案，請使用 **[!UICONTROL 設定優惠方案]** 按鈕。 然後，您就可以使用個人化欄位，將它們插入電子郵件中。 [了解如何傳送優惠方案](offers.md)
+1. If you want to send offers with your email, select them using the **[!UICONTROL Set up offers]** button. You are then able to insert them into the email using personalization fields. [Learn how to send offers](offers.md)
 
-1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕來建構和設計電子郵件的內容。 有關如何設計電子郵件內容的其他資訊，請參閱以下章節：
+1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email. Additional information on how to design email content are available in these sections:
 
-   * [了解如何設計電子郵件](create-email-content.md)
-   * [設定內容的樣式](get-started-email-style.md)
+    * [Learn how to design emails](create-email-content.md)
+    * [Style your content](get-started-email-style.md)
 
-1. 如果您想要將檔案附加至電子郵件，請按一下 **[!UICONTROL 添加附件]** 按鈕，然後選取一或多個檔案。
+1. If you want to attach a file to the email, click the **[!UICONTROL Add attachment]** button then select one or multiple file(s).
+    
+    To avoid performance issue, it is recommended not to include more than one attachment per email. 
 
-   為避免效能問題，建議在每封電子郵件中不要包含多個附件。
+    <!--limitation on size + number of files?-->
 
-   <!--limitation on size + number of files?-->
+1. By default, tracking is enabled for the delivery. You can disable this option from from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
 
-1. 依預設，會為傳送啟用追蹤。 您可以從 **[!UICONTROL 選用功能]** 區段。 [了解如何新增連結及管理追蹤](message-tracking.md)
-
-定義電子郵件的內容後，請使用 **[!UICONTROL 模擬內容]** 按鈕，以在傳送前檢查其顯示方式。 [了解如何預覽和測試您的電子郵件](../preview-test/preview-test.md)
+Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it displays before sending it. [Learn how to preview and test your email](../preview-test/preview-test.md)

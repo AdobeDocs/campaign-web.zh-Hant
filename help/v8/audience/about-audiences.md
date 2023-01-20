@@ -1,23 +1,17 @@
 ---
 audience: end-user
-title: 開始使用 Audiences
-description: 了解如何在Campaign網頁UI中使用對象
+title: Get started with audiences
+description: Learn how to use audiences in Campaign Web UI
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 9%
-
 ---
-
-# 開始使用 Audiences {#about-audiences}
+# Get started with audiences {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="開始使用 Audiences"
->abstract="了解如何管理您電子郵件內容的受眾。"
+>title="Get started with audiences"
+>abstract="Learn how to manage audience for your email content."
 
 <!--
 Audience only created for the delivery, not available later-->
@@ -40,13 +34,13 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-在本節中，了解如何定義電子郵件的對象。 對象是您傳送的主要目標：接收電子郵件的收件者。 對象類型取決於傳遞範本中定義的目標對應。 看這個 [節](../email/create-email.md).
+In this section, learn how to define the audience of email. The audience is the main target of your delivery: the recipients who receive the email. The type of audience depends on the target mapping defined in the delivery template. See this [section](../email/create-email.md). 
 
-若要定義對象，您可以：
+To define the audience, you can:
 
-* 使用現有對象，請參閱 [節](add-audience.md).
-* 建立新對象。 看這個 [節](segment-builder.md).
+* use an existing audience, see this [section](add-audience.md).
+* create a new audience. See this [section](segment-builder.md).
 
-您也可以定義控制組，以避免傳送訊息給部分對象，以評估行銷活動的影響。 看這個 [節](control-group.md).
+You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns. See this [section](control-group.md).
 
 ![](assets/about-audience.png)

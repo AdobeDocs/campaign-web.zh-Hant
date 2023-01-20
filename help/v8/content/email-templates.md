@@ -1,61 +1,55 @@
 ---
 audience: end-user
 product: campaign
-title: 使用電子郵件範本
+title: Work with email templates
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
-
 ---
-
-# 使用電子郵件內容範本 {#email-content-templates}
+# Work with email content templates {#email-content-templates}
 
 ![](../assets/do-not-localize/badge.png)
 
-使用 **[!UICONTROL 選取設計範本]** 區段，開始從範本建立內容。
+Use the **[!UICONTROL Select design template]** section to start building your content from a template.
 
 ![](assets/email_designer-templates.png)
 
-## 另存為範本 {#save-as-template}
+## Save as template {#save-as-template}
 
-設計好電子郵件內容後，您就可以儲存它，以供日後重複使用。 請依照下列步驟以執行此操作。
+Once you designed your email content, you can save it for future reuse. To do this, follow the steps below.
 
-1. 按一下螢幕右上方的刪節號。
+1. Click the ellipsis on top right of the screen.
 
-1. 選擇 **[!UICONTROL 儲存設計範本]** 從下拉式功能表。
+1. Select **[!UICONTROL Save design template]** from the drop-down menu.
 
-   ![](assets/email_designer-save-template.png)
+    ![](assets/email_designer-save-template.png)
 
-1. 為此模板添加名稱。
+1. Add a name for this template.
 
-   ![](assets/email_designer-template-name.png)
+    ![](assets/email_designer-template-name.png)
 
-1. 按一下 **[!UICONTROL 儲存]**.
+1. Click **[!UICONTROL Save]**.
 
-下次您建立電子郵件時，可以使用此範本來建置內容。 [了解如何](#use-saved-template)
+Next time you create an email, you can use this template to build your content. [Learn how](#use-saved-template)
 
 ![](assets/email_designer-saved-template.png)
 
-## 使用已儲存的範本 {#use-saved-template}
+## Use a saved template {#use-saved-template}
 
-1. 開啟 [電子郵件設計工具](create-email-content.md).
+1. Open the [email designer](create-email-content.md).
 
-1. 在 **[!UICONTROL 建立您的電子郵件畫面]**, **[!UICONTROL 範本範例]** 標籤。 選取 **[!UICONTROL 已儲存的範本]** 標籤。
+1. On the **[!UICONTROL Create your email screen]**, the **[!UICONTROL Sample templates]** tab is selected by default. Select the **[!UICONTROL Saved templates]** tab.
 
-   ![](assets/email_designer-saved-templates-tab.png)
+    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 先前所有的清單 [已儲存的範本](#save-as-template) 顯示。 你可以對它們進行排序 **[!UICONTROL 依名稱]**, **[!UICONTROL 上次修改時間]** 和 **[!UICONTROL 上次建立時間]**.
+1.  The list of all previously [saved templates](#save-as-template) displays. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]** and **[!UICONTROL Last created]**.
 
-   ![](assets/email_designer-saved-templates.png)
+    ![](assets/email_designer-saved-templates.png)
 
-1. 從清單中選取您選取的範本。
+1. Select the template of your choice from the list.
 
-1. 選取後，您可以使用左右箭頭在所有儲存的範本之間導覽。
+1. Once selected, you can navigate between all the saved templates using the right and left arrrows.
 
-   ![](assets/email_designer-saved-templates-navigate.png)
+    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. 按一下 **[!UICONTROL 使用此電子郵件]** 在螢幕的右上角。
+1. Click **[!UICONTROL Use this email]** on top right of the screen.
 
-1. 使用電子郵件設計工具，視需要編輯內容。
+1. Edit your content as desired using the email designer.

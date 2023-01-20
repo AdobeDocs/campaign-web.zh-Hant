@@ -1,50 +1,44 @@
 ---
 audience: end-user
-title: 選取對象
-description: 了解如何選取對象
+title: Select an audience
+description: Learn how to select an audience
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 4%
-
 ---
-
-# 選取對象 {#add-audience}
+# Select an audience {#add-audience}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="選取現有對象"
->abstract="對象是在Adobe Campaign v8 Console中定義。 如果您有可用的Adobe Experience Platform整合，您應該也可以看到平台定義的對象。"
+>title="Select an existing audience"
+>abstract="The audiences are defined in the Adobe Campaign v8 Console. If you have an Adobe Experience Platform integration available, you should be able to see Platform defined audiences too."
 
-本節說明如何定義電子郵件傳送的目標母體時，選取現有對象。 如果您想要建立新對象，請參閱 [節](segment-builder.md).
+This section explains how to select an existing audience, when defining the target population of an email delivery. If you want to create a new audience, refer to this [section](segment-builder.md).
 
-1. 從 **對象** 傳送建立助理的區段，按一下 **[!UICONTROL 選取對象]** 按鈕。
+1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
 
    ![](assets/create-audience.png)
 
-1. 選擇 **[!UICONTROL 選取對象]** 來使用現有對象。 若要建立要在此電子郵件中使用的新對象，請選擇 **建立自己的**. 請參閱 [節](segment-builder.md).
+1. Choose **[!UICONTROL Select audience]** to use an existing audience. To create a new audience to be used in this email, choose **Create your own**. Refer to this [section](segment-builder.md).
 
-   此畫面會顯示Adobe Campaign Console或Adobe Experience Platform中定義的所有現有對象。
+    This screen displays all existing audiences defined in the Adobe Campaign console or from Adobe Experience Platform.
 
-   ![](assets/create-audience2.png)
+    ![](assets/create-audience2.png)
 
-   >[!NOTE]
-   >
-   >若要運用Adobe Experience Platform對象，您需要設定與Destinations的整合。 請參閱 [目的地檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant){target="_blank"}.
+    >[!NOTE]
+    >
+    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
 
-1. 選擇對象並按一下 **選擇**.
+1. Choose an audience and click **Select**.
 
-1. 按一下 **編輯規則** 如果您想要調整對象。
+1. Click **Edit rules** if you want to refine your audience.
 
    ![](assets/create-audience3.png)
 
-1. 使用規則產生器，您可以透過其他篩選器或結合不同對象，讓您的對象更為豐富。 看這個 [節](segment-builder.md).
+1. Using the rule builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](segment-builder.md).
 
    ![](assets/create-audience4.png)
 
-1. 按一下 **儲存**.
+1. Click **Save**. 
 
-您也可以設定控制組以測量促銷活動的影響。 控制組未接收消息。 這可讓您比較收到訊息的母體行為與未收到訊息的聯絡人行為。 請參閱 [節](control-group.md).
+You can also set a control group to measure the impact of your campaigns. The control group do not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. See [section](control-group.md).

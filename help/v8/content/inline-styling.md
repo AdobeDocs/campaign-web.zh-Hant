@@ -1,36 +1,30 @@
 ---
 audience: end-user
-title: 新增內嵌樣式屬性
-description: 了解如何新增內嵌樣式屬性
+title: Add inline styling attributes
+description: Learn how to add inline styling attributes
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
-
 ---
-
-# 新增內嵌樣式屬性 {#adding-inline-styling-attributes}
+# Add inline styling attributes {#adding-inline-styling-attributes}
 
 ![](../assets/do-not-localize/badge.png)
 
-在電子郵件設計工具介面中，當您選取元素並在右窗格中顯示其設定時，可以自訂該特定元素的內嵌屬性及其值。
+In the Email Designer interface, when you select an element and display its settings on the right pane, you can customize the inline attributes and their value for that specific element.
 
-1. 直接在內容中選取元件，或使用 **[!UICONTROL 導航樹]** 可在左窗格中使用。
+1. Select an component directly in your content or using the **[!UICONTROL Navigation tree]** available in the left pane.
 
-1. 從 **[!UICONTROL 元件設定]** 菜單，查找 **[!UICONTROL 內嵌樣式]** 區段。
+1. From the **[!UICONTROL Component settings]** menu on the right, look for the **[!UICONTROL Styles Inline]** section.
 
    ![](assets/styles_1.png)
 
-1. 修改現有屬性的值。
+1. Modify the values of the existing attributes.
 
-1. 您可以使用 **+** 按鈕。 您可以新增任何與CSS相容的屬性和值。
+1. You can add new properties using the **+** button. You can add any attribute and value that is CSS-compliant.
 
    ![](assets/styles_2.png)
 
-樣式會套用至選取的元素。
+The styling is applied to the selected element.
 
 >[!NOTE]
 >
->如果子元素未定義特定樣式屬性，則會繼承父元素的樣式。
+>If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.
 

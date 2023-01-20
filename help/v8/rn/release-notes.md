@@ -1,47 +1,41 @@
 ---
 audience: end-user
-title: Campaign Web v8發行說明
-description: Campaign Web v8發行說明
+title: Campaign Web v8 Release Notes
+description: Campaign Web v8 Release Notes
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
-workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 0%
-
 ---
-
-# 發行說明 {#release-notes}
+# Release Notes {#release-notes}
 
 ![](../assets/do-not-localize/badge.png)
 
-本頁列出Campaign Web v8的所有最新功能和改進項目。
+This page lists all the latest features and improvements for Campaign Web v8. 
 
-## Alpha版{#alpha-release}
+## Alpha release{#alpha-release}
 
-這個新的Campaign網頁介面目前僅適用於 **Alpha練習者** 功能：
+This new Campaign web interface is currently only available to **Alpha practitioners** with the following capabilities:
 
-**現代、直覺且統一的體驗**
+**Modern, intuitive and unified experience**
 
-Campaign新的Web UI提供與所有Adobe Experience Cloud解決方案和應用程式一致的新使用者體驗。 它提供：
+Campaign new Web UI offers a new user experience, aligned with all Adobe Experience Cloud solutions and apps. It offers:
 
-* 透過單一和共用的使用者工作階段存取新介面和其他Adobe解決方案
-* 新的導覽體驗，所有功能表和資料夾皆可從左側邊欄取得
-* 從頂端列切換解決方案和組織
-* 統一殼層整合，可直接存取社群、說明中心和支援
+* Access to the new interface and other Adobe solutions with a single and shared user session
+* New navigation experience, with all menus and folders available from the left rail
+* Solution and organization switchers from the top bar
+* Unified Shell integration, with a direct access to community, help center, and support
 <!--
 No search and pulse notifications in Alpha
 -->
 
-深入了解新UI，請參閱 [本頁](../get-started/user-interface.md).
+Learn more about the new UI in [this page](../get-started/user-interface.md).
 
-**建立、啟動和測量您的電子郵件行銷活動**
+**Create, launch and measure your email campaign**
 
-使用新的Campaign網頁UI來：
+Use the new Campaign Web UI to:
 
-* 使用電子郵件設計工具設計個人化電子郵件內容 —  [深入了解](../content/edit-content.md)
-* 使用規則產生器定義目標對象 —  [深入了解](../audience/about-audiences.md)
-* 預覽、測試和傳送您的電子郵件訊息 —  [深入了解](../monitor/prepare-send.md)
-* 使用內建報告監視傳送和測量結果 —  [深入了解](../reporting/reports.md)
+* Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
+* Define target audiences with the rule builder - [Learn more](../audience/about-audiences.md)
+* Preview, test and send your email messages - [Learn more](../monitor/prepare-send.md)
+* Monitor send and measure results with built-in reports - [Learn more](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that
@@ -51,14 +45,14 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->請注意，測試版將提供跨通道行銷活動和工作流程管理功能。
+>Please note that cross-channel campaigns and workflow management capabilities will be available with the beta release. 
 
-## 術語更新
+## Terminology updates
 
-請注意，作為現有的Campaign使用者，有些概念已重新命名以符合最新的術語標準。 這些變更只會套用至Campaign Web UI，不會反映在用戶端主控台中。 以下概述。
+As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the Client Console. They are summarized below.
 
-* 現在提供校樣 **測試電子郵件**:若要傳送校樣，請使用 **測試** 按鈕。 校樣目標的目標現在稱為 **測試設定檔**
-* 種子地址現在用作 **測試設定檔**:將測試電子郵件傳送至種子地址，這些地址是資料庫中其他虛構的收件者
-* 傳遞分析現在是 **傳遞準備**. 當您需要啟動分析時，按一下 **準備** 按鈕
-* 現在可透過 **模擬內容** 按鈕
-* 清單現在 **對象**
+* Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The target of the proofs target is now refered as **Test profiles**
+* Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database
+* Delivery analysis is now the **delivery preparation**. When you need to launch the analysis, click the **Prepare** button
+* Email Preview is now available throught the **Simulate content** button
+* Lists are now **Audiences**
