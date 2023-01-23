@@ -1,9 +1,15 @@
 ---
 audience: end-user
-title: Work with the Email Designer
-description: Campaign v8 Web documentation
+title: 使用電子郵件設計工具
+description: Campaign v8網頁檔案
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
+
 ---
-# Work with the Email Designer {#email-designer}
+
+# 使用電子郵件設計工具 {#email-designer}
 
 ![](../assets/do-not-localize/badge.png)
 

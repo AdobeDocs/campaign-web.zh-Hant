@@ -1,33 +1,39 @@
 ---
 audience: end-user
-title: Define a style for links
-description: Learn how to define a style for links
+title: 定義連結的樣式
+description: 了解如何定義連結的樣式
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 2%
+
 ---
-# Define a style for links {#styling-links}
+
+# 定義連結的樣式 {#styling-links}
 
 ![](../assets/do-not-localize/badge.png)
 
-You can underline a link and select its color and target in the Email Designer.
+您可以在電子郵件設計工具中為連結加底線，並選取其顏色和目標。
 
-1. In a **[!UICONTROL Text]** component where a link is inserted, select your link.
+1. 在 **[!UICONTROL 文字]** 插入連結的元件，請選取您的連結。
 
-1. In the **[!UICONTROL Component settings]** menu, check **[!UICONTROL Underline link]** to have the label underlined.
+1. 在 **[!UICONTROL 元件設定]** 菜單，檢查 **[!UICONTROL 底線連結]** 給標籤加下划線。
 
    ![](assets/link_1.png)
 
-1. Choose how your audience is redirected with the **[!UICONTROL Target]** drop-down:
+1. 選擇透過 **[!UICONTROL 目標]** 下拉式清單：
 
-    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
-    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
-    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
-    * **[!UICONTROL Parent]**: opens the link in the parent frame.
-    * **[!UICONTROL Top]**: opens the link in the full body of the window.
+   * **[!UICONTROL 無]**:在與點按連結相同的時間格中開啟連結（預設）。
+   * **[!UICONTROL 空白]**:在新視窗或索引標籤中開啟連結。
+   * **[!UICONTROL Self]**:在按一下連結時的同一幀中開啟連結。
+   * **[!UICONTROL 父級]**:開啟父框架中的連結。
+   * **[!UICONTROL 頂端]**:在窗口的正文中開啟連結。
 
    ![](assets/link_2.png)
 
-1. To change the color of your link, click on **[!UICONTROL Link color]** from the right pane.
+1. 若要變更連結的顏色，請按一下 **[!UICONTROL 連結顏色]** 從右窗格。
 
    ![](assets/link_3.png)
 
-1. Save your changes.
+1. 儲存您的變更。

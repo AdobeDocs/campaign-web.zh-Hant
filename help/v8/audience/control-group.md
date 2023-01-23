@@ -1,88 +1,94 @@
 ---
 audience: end-user
-title: Set a control group
-description: Learn how to set a control group for your messages in Campaign Web UI
+title: 設定控制組
+description: 了解如何在Campaign網頁UI中為訊息設定控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 26%
+
 ---
-# Set a control group {#control-group}
 
-You can use control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.
+# 設定控制組 {#control-group}
 
-To do this, create a control group when defining the audience of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria. You can then compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. 
+您可以使用控制組來避免傳送訊息給部分觀眾，以評估行銷活動的影響。
 
-The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
+若要這麼做，請在定義傳送的對象時建立控制組。 設定檔會隨機新增至控制組、篩選或不篩選，或根據標準。然後，您可以比較收到訊息的目標母體的行為與未定位的聯絡人的行為。
 
-* Extract a number of profiles from the main target.
-* Exclude some profiles based on criteria defined in a query.
+可以從主要目標隨機擷取控制組和/或從特定人口中選取。因此，定義控制組的主要方法有兩種：
 
-You can use both methods when defining a control group.
+* 從主要目標擷取多個設定檔。
+* 根據查詢中定義的條件排除一些設定檔。
 
-All profiles being part of the control group at the delivery preparation step are removed from the main target. They do not receive the message.
+定義控制組時，可以使用這兩種方法。
 
-To create a control group, click the **[!UICONTROL Set Control Group]** button, from the **Audience** section of the delivery creation assistant.
+在傳送準備步驟中屬於控制組的所有設定檔都會從主要目標中移除。 他們沒有收到訊息。
+
+若要建立控制組，請按一下 **[!UICONTROL 設定控制組]** 按鈕，從 **對象** 傳遞建立助理一節。
 
 ![](assets/control-group1.png)
 
-## Extract from target {#extract-target}
+## 從目標中擷取 {#extract-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
->title="Extract from target"
+>title="從目標中擷取"
 >abstract="TBC"
 
-To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population.
+若要定義控制組，您可以選擇從目標人口中隨機或基於排序、百分比或固定數量的設定檔中擷取。
 
-First, define the way the profiles are e extracted from the target: randomly or based on a sorting.
+首先，定義從目標擷取設定檔的方式：隨機或根據排序。
 
-Under the **Extract from target** section, choose an **Exclusion type**:
+在 **從目標擷取** 區段，選擇 **排除類型**:
 
-* **Random**: when preparing the delivery, Adobe Campaign  randomly extracts a number of profiles corresponding to the percentage or to the maximum number that is set as the size limit.
+* **隨機**:準備傳送時，Adobe Campaign會隨機擷取與百分比或設定為大小限制的最大數量相對應的多個設定檔。
 
-    ![](assets/control-group.png)
+   ![](assets/control-group.png)
 
-* **Ranked by attribute(s)**: this option enables you to exclude a set of profiles based on specific attribute(s) in a specific sorting order(s).
+* **依屬性排名**:此選項可讓您根據特定排序順序中的特定屬性來排除一組設定檔。
 
-    ![](assets/control-group2.png)
+   ![](assets/control-group2.png)
 
-Then define the **Size limit**: you must set how you are going to limit the number of profiles that you extract from the main target. 
+然後定義 **大小限制**:您必須設定如何限制從主要目標擷取的設定檔數量。
 
-**Example**
+**範例**
 
-You can view the logs to check and identify the exluded profiles. Let's take the example of a random exclusion on five profiles.
+您可以檢視記錄以檢查並識別排除的設定檔。 讓我們以五個設定檔上隨機排除的範例為例。
 
 ![](assets/control-group4.png)
 
-After the delivery preparation, you can view the exclusions on the following screens:
+傳送準備後，您可以在下列畫面上檢視排除項目：
 
-* The **To exclude** KPI in the delivery dashboard, before the sending.
+* 此 **若要排除** 傳送前，傳遞控制面板中的KPI。
 
-    ![](assets/control-group5.png)
+   ![](assets/control-group5.png)
 
-* The **Exclusion logs** display each profile and the related exclusion **Reason**.
+* 此 **排除記錄檔** 顯示每個設定檔及相關的排除 **原因**.
 
-    ![](assets/control-group6.png)
+   ![](assets/control-group6.png)
 
-* The **Exclusion causes** display the number of excluded profile for each typology rule.
+* 此 **排除原因** 顯示每個類型規則的已排除設定檔數。
 
-    ![](assets/control-group7.png)
+   ![](assets/control-group7.png)
 
-For more information on delivery logs, refer to this [section](../monitor/delivery-logs.md).
+如需傳送記錄檔的詳細資訊，請參閱 [節](../monitor/delivery-logs.md).
 
-## Extra population {#extra-population}
+## 額外族群 {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
->title="Extra population"
+>title="額外族群"
 >abstract="TBC"
 
-Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
+定義控制組的另一種方法是使用現有對象或定義查詢，從目標中排除特定母體。
 
-From the **Extra population** section of the **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
+從 **額外人口** 區段 **控制組** 定義畫面，按一下 **[!UICONTROL 選取對象]** 按鈕。
 
 ![](assets/control-group3.png)
 
-* To use an existing audience, click **Select audience**. Refer to this [section](add-audience.md). 
+* 若要使用現有對象，請按一下 **選取對象**. 請參閱 [節](add-audience.md).
 
-* To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Refer to this [section](segment-builder.md). 
+* 要定義新查詢，請選擇 **建立自己的** 並使用規則產生器定義排除條件。 請參閱 [節](segment-builder.md).
 
-The profiles included in the audience or matching the result of the query are excluded from the target.
+對象中包含或符合查詢結果的設定檔會從目標中排除。

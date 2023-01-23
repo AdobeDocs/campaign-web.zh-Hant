@@ -1,17 +1,23 @@
 ---
 audience: end-user
-title: Prepare and send an email
-description: Learn how to prepare and send an email with Campaign Web UI
+title: 準備並傳送電子郵件
+description: 了解如何使用Campaign網頁UI準備和傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 4%
+
 ---
-# Prepare and send your email {#prepare-send}
+
+# 準備並傳送您的電子郵件 {#prepare-send}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Prepare and send your email"
->abstract="Discover how to prepare your email and learn more about sending KPIs."
+>title="準備並傳送您的電子郵件"
+>abstract="了解如何準備電子郵件，並進一步了解如何傳送KPI。"
 
 <!--
 
@@ -26,66 +32,66 @@ exclusion logs, causes
 send also KPIs
 -->
 
-## Prepare the send{#prepare}
+## 準備傳送{#prepare}
 
-When you have defined your content, audience and schedule, you're ready to prepare your message. During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. The validation rules used during analysis are described in the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+定義內容、對象和排程後，即可準備訊息。 在準備期間，會計算目標母體，並為目標中包含的每個設定檔產生訊息內容。 準備完成後，即可立即發送或在排程的日期和時間發送郵件。 分析期間使用的驗證規則於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
-Follow the steps below: 
+請遵循以下步驟：
 
-1. From the delivery dashboard, click the **Prepare** button located in the top right corner and confirm.
+1. 在傳送控制面板中，按一下 **準備** 按鈕，然後確認。
 
-    ![](assets/prepare.png)
+   ![](assets/prepare.png)
 
-   The preparation progress is displayed. Depending on the size of the targeted population, this operation may take some time.
+   將顯示準備進度。 根據目標母體的大小，此操作可能需要一些時間。
 
-    >[!NOTE]
-    >
-    >You can stop the preparation at any time using the **Stop preparation** button. During the preparation phase, no messages are sent. You can therefore start or stop this without risk of impacting anything.
+   >[!NOTE]
+   >
+   >您隨時可以使用 **停止準備** 按鈕。 在準備階段期間，不會傳送任何訊息。 因此，您可以開始或停止此操作，而不會有影響任何內容的風險。
 
-1. When the preparation is finished, check the KPIs. If the number of messages to send does not match your expectations, modify your audience and restart the preparation. 
+1. 準備完成後，檢查KPI。 如果要傳送的訊息數量不符合您的期望，請修改您的對象並重新開始準備。
 
-    ![](assets/prepare2.png)
-    
-    Here are the different KPIs displayed:
+   ![](assets/prepare2.png)
 
-    * **Targeted**: the number of recipients targeted
-    * **To deliver**: the number of messages that will be sent 
-    * **To exclude**: the number of messages excluded by a typology rule
+   以下是顯示的不同KPI:
 
-1. Click the **Logs** button and check that there is no error. The last log message displays any error messages and the number of errors. For more on this, see this [section](delivery-logs.md).
+   * **已鎖定**:目標收件者人數
+   * **交付**:要傳送的訊息數
+   * **若要排除**:類型規則排除的訊息數
 
-    ![](assets/prepare-logs.png)
+1. 按一下 **記錄檔** 按鈕並檢查是否沒有錯誤。 最後一條日誌消息顯示所有錯誤消息和錯誤數。 如需詳細資訊，請參閱[本區段](delivery-logs.md)。
 
-If the preparation detects a critical error preventing the delivery from being sent, the preparation status appears as failed in the delivery dashboard.
+   ![](assets/prepare-logs.png)
+
+如果準備作業偵測到無法傳送傳送的重大錯誤，準備狀態在傳送控制面板中顯示為失敗。
 
 ![](assets/prepare-error.png)
 
-If you need to make any changes to your delivery after the preparation, you need to restart the preparation for those changes to be taken into account. 
+如果您在準備後需要對傳送進行任何變更，則需要重新開始準備，以便將這些變更納入考量。
 
-Once the preparation is complete with no error, your message is ready to be sent. For more on this, see this [section](#send).
+準備完成且無錯誤後，即可傳送您的訊息。 如需詳細資訊，請參閱[本區段](#send)。
 
-## Send the message{#send}
+## 傳送訊息{#send}
 
-Once the preparation is complete, you can now send your message. This step is only required for messages sent immediately. If the message is scheduled, it is sent at the defined date. 
+準備完成後，您現在可以傳送訊息。 只有立即傳送的訊息才需要此步驟。 如果已排程訊息，則會在定義的日期傳送。
 
-Follow these steps:
+請依照下列步驟操作：
 
-1. From the delivery dashboard, click the **Send** button in the top right corner and confirm.
+1. 在傳送控制面板中，按一下 **傳送** 按鈕並確認。
 
-    ![](assets/send.png)
+   ![](assets/send.png)
 
-1. The sending progress is displayed. Check the KPIs displayed. You can also check the logs. For more on this, see this [section](delivery-logs.md).
+1. 會顯示傳送進度。 檢查顯示的KPI。 您也可以檢查記錄。 如需詳細資訊，請參閱[本區段](delivery-logs.md)。
 
-    ![](assets/send2.png)
+   ![](assets/send2.png)
 
-    Here are the different KPIs displayed:
+   以下是顯示的不同KPI:
 
-    * **Delivered**: the number of messages successfully delivered. The percentage displayed is based on the total number of sent messages.
-    * **Opens**: the number of opened messages. The percentage displayed is the ratio of the number of distinct opens compared with the number of delivered messages.
-    * **Clicks**: the number of recipient who clicked at least once in the email. The percentage displayed is the ratio of the number of distinct clicks compared with the number of delivered messages.
+   * **傳遞**:已成功傳送的郵件數。 顯示的百分比是根據已傳送訊息的總數。
+   * **開啟**:已開啟訊息的數量。 顯示的百分比是不同開啟次數與已傳送訊息數量的比率。
+   * **點按次數**:在電子郵件中至少按一下一次的收件者人數。 顯示的百分比是不同點按次數與已傳送訊息數量的比率。
 
-    >[!NOTE]
-    >
-    >The **Opens** and **Clicks** indicators are updated after 5 minutes.  
+   >[!NOTE]
+   >
+   >此 **開啟** 和 **點按次數** 指標會在5分鐘後更新。
 
-   You can pause the sending at any time and then resume. If you stop the delivery while it is being sent, you cannot resume.
+   您可以隨時暫停傳送，然後繼續。 如果您在傳送時停止傳送，則無法繼續。

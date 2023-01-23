@@ -1,10 +1,16 @@
 ---
 audience: end-user
-title: Delivery reports
-description: Learn how to access and use delivery reports
+title: 傳遞報告
+description: 了解如何存取和使用傳遞報告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
+workflow-type: tm+mt
+source-wordcount: '385'
+ht-degree: 1%
+
 ---
-# Delivery reports {#reports}
+
+# 傳遞報告 {#reports}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -14,60 +20,60 @@ detail delivery reports and how to access them
 same content as in v7 (excepted for the navigation that is similar to AJO
 -->
 
-Adobe Campaign offers several types of reports, accessible for each delivery. These reports allow you to measure and visualize the impact and performances of your messages in a built-in dashboard.
+Adobe Campaign提供數種報表類型，可供每次傳送存取。 這些報表可讓您在內建控制面板中測量並視覺化訊息的影響和效能。
 
-To display reports, follow these steps:
+若要顯示報表，請依照下列步驟操作：
 
-1. Access your email delivery and click the **Report** button.
+1. 存取您的電子郵件傳送，然後按一下 **報表** 按鈕。
 
-    ![](assets/reporting.png)
+   ![](assets/reporting.png)
 
-1. From the left menu, select a report from the list.
+1. 從左側功能表中，從清單中選取報表。
 
-    ![](assets/reporting2.png){width="70%" align="left"}
+   ![](assets/reporting2.png){width="70%" align="left"}
 
-## Sending
+## 傳送中
 
-* **Delivery summary**: This report provides all the main information on the delivery. Target population, Causes of exclusion, Delivery statistics.
+* **傳送摘要**:此報告提供傳送的所有主要資訊。 目標母體、排除原因、傳送統計資料。
 
-    ![](assets/reporting3.png)
+   ![](assets/reporting3.png)
 
-* **Delivery throughput**: This report contains information on the delivery throughput for a given period. To measure the speed at which the messages are delivered, the criteria are the number of messages sent per hour and the size of the messages (in bits per second). In the example below, the first graph shows the successful deliveries in blue, and the number of erroneous deliveries in orange.
+* **傳送總處理能力**:此報表包含指定期間的傳送吞吐量資訊。 為了測量傳送訊息的速度，標準是每小時傳送的訊息數量和訊息的大小（以位元/秒為單位）。 在以下範例中，第一個圖表以藍色顯示成功的傳送，以橘色顯示錯誤傳送的次數。
 
-    ![](assets/reporting3bis.png)
+   ![](assets/reporting3bis.png)
 
-* **Broadcast statistics**: This report shows the breakdown by internet domain, of all messages processed and sent, of hard and soft bounces, opens, clicks and unsubscriptions.
+* **廣播統計**:此報表依網際網路網域、處理及傳送的所有訊息、硬退信、開啟、點按和取消訂閱顯示劃分。
 
-    ![](assets/reporting4.png)
+   ![](assets/reporting4.png)
 
-* **Non-deliverables and bounces**: This report shows the breakdown of non-deliverables as well as a breakdown of bounces per internet domain.
+* **無法交付和退信**:此報表顯示無法交付項的劃分，以及每個網際網路網域的退信的劃分。
 
-    ![](assets/reporting5.png)
+   ![](assets/reporting5.png)
 
-## Tracking
+## 追蹤
 
-* **Tracking indicators**: This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery. It gives access to delivery and reception statistics, open and click-through rates, generated click streams, web tracking as well as sharing activities to social networks.
+* **追蹤指標**:此報表結合了在收到傳遞時追蹤收件者行為的關鍵指標。 它提供傳送和接收統計資料、開啟和點進率、產生的點按資料流、網路追蹤，以及分享活動至社交網路。
 
-    ![](assets/reporting6.png)
+   ![](assets/reporting6.png)
 
-* **URLs and click streams**: This report shows the list of pages visited following a delivery.
+* **URL和點按資料流**:此報表顯示傳送後所造訪的頁面清單。
 
-    ![](assets/reporting7.png)
+   ![](assets/reporting7.png)
 
-* **User Activities**: This report shows the breakdown of opens and clicks per half-hour, hour or day, in the form of a chart.
+* **使用者活動**:此報表以圖表形式顯示每半小時、小時或每天的開啟次數和點按次數的劃分。
 
-    ![](assets/reporting8.png)
+   ![](assets/reporting8.png)
 
-* **Tracking Statistics**: This report provides statistics on opens and clicks.
+* **追蹤統計資料**:此報表提供開啟和點按的統計資料。
 
-    ![](assets/reporting9.png)
+   ![](assets/reporting9.png)
 
-* **Breakdown of opens**: This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
+* **開啟次數劃分**:此報表依作業系統、裝置和瀏覽器顯示相關期間的開啟次數劃分。 對於每個類別，會使用兩個圖表。 第一個會顯示有關電腦和行動裝置上開啟的統計資料。 第二個則只顯示與行動裝置上開啟次數相關的統計資料。
 
-    ![](assets/reporting10.png)
+   ![](assets/reporting10.png)
 
-## Hotclicks
+## Hotclick
 
-This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks unsubscription links, mirror page links and offer links are taken into account in the total cumulated clicks but are not displayed in the report.
+此報表顯示訊息內容(HTML和/或文字)，在每個連結上包含點按連結的百分比。 個人化區塊取消訂閱連結、鏡像頁面連結和選件連結會納入累積點按總數中，但不會顯示在報表中。
 
 ![](assets/reporting11.png)

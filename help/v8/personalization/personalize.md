@@ -1,110 +1,116 @@
 ---
-title: Personalize your content in Campaign
-description: Learn how to personalize your content in Adobe Campaign web UI
+title: 在Campaign中個人化您的內容
+description: 了解如何在Adobe Campaign Web UI中個人化您的內容
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
+source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 0%
+
 ---
-# Personalize your content{#add-personalization}
+
+# 個人化您的內容{#add-personalization}
 
 ![](../assets/do-not-localize/badge.png)
 
-You can personalize the message content by:
+您可以透過以下方式個人化訊息內容：
 
-* Inserting dynamic **personalization fields**
+* 插入動態 **個人化欄位**
 
-    Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages.
+   個人化欄位是用於訊息的第一層級個人化。 您可以從個人化編輯器中選取資料庫中可用的任何欄位。 對於傳遞，您可以選取與收件者、訊息或傳遞相關的任何欄位。 這些個人化屬性可插入主旨行或訊息內文中。
 
-    ![](assets/perso-subject-line.png)
+   ![](assets/perso-subject-line.png)
 
-    The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
-    
-* Inserting pre-defined **content blocks**
-    
-    Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. Content blocks are available from a dedicated entry un the personalization editor.
+   下列語法會將收件者的城市插入內容中：&lt;%= recipient.location.city %>。
 
-    ![](assets/perso-content-blocks.png)
+* 插入預定義 **內容區塊**
+
+   Campaign隨附一組個人化區塊，其中包含您可插入至傳送的特定轉譯。 例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。 內容區塊可從個人化編輯器中的專用項目使用。
+
+   ![](assets/perso-content-blocks.png)
 <!--
 * Create **conditional content**
 
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## Personalize the email subject line {#personalize-subject-line}
+## 個人化電子郵件主旨行 {#personalize-subject-line}
 
-To add personalization in the **[!UICONTROL Subject line]** field of the message, follow the steps below:
+若要在 **[!UICONTROL 主旨行]** 欄位，請遵循下列步驟：
 
-1. Click the **Open personalization dialog** icon on the right of the **Subject line** field.
-1. Enter the subject line content and select the personalization attributes to add.
-1. Click **Confirm** to validate. The personalization attributes are added to the subject line.
+1. 按一下 **開啟個人化對話方塊** 表徵圖 **主旨行** 欄位。
+1. 輸入主旨行內容並選取要新增的個人化屬性。
+1. 按一下 **確認** 以驗證。 個人化屬性會新增至主旨行。
 
 ![](assets/perso-subject.png)
 
-## Personalize your email content {#personalize-emails}
+## 個人化您的電子郵件內容 {#personalize-emails}
 
-To personalize the email content, open the message in the Email designer and:
+若要個人化電子郵件內容，請在電子郵件設計工具中開啟訊息，然後：
 
-1. Click inside a text block.
-1. In the contextual toolbar, select **Add personalization**.
+1. 在文字區塊內按一下。
+1. 在內容工具列中，選取 **新增個人化**.
 
-    ![](assets/perso-add-to-content.png)
+   ![](assets/perso-add-to-content.png)
 
-1. Insert the name of the recipient in the personalization editor and confirm.
+1. 在個人化編輯器中插入收件者的名稱並確認。
 
-    ![](assets/perso-add-name.png)
+   ![](assets/perso-add-name.png)
 
-    The personalization attribute is added to the email content. 
-    
-    You can simulate the content to check rendering. [Learn more](../preview-test/preview-content.md)
+   個人化屬性會新增至電子郵件內容。
 
-    ![](assets/perso-rendering.png)
+   您可以模擬內容以檢查呈現。 [了解更多](../preview-test/preview-content.md)
 
-To add a content block to your email, apply the same steps and select a content block from the last icon:
+   ![](assets/perso-rendering.png)
+
+若要將內容區塊新增至您的電子郵件，請套用相同步驟並從最後一個圖示選取內容區塊：
 
 ![](assets/perso-insert-block.png)
 
-Once inserted, the content block is added to the email content, as shown below. It is automatically adapted to the recipient profile when personalization is generated, at the delivery preparation step.
+插入後，內容區塊會新增至電子郵件內容，如下所示。 在傳送準備步驟產生個人化時，會自動調整為收件者設定檔。
 
 ![](assets/perso-content-block-in-email.png)
 
 
-Built-in content blocks are:
-* **[!UICONTROL Enabled by Adobe Campaign]** : inserts the "Enabled by Adobe Campaign" logo.
-* **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. 
-* **[!UICONTROL Greetings]** : inserts greetings with the recipient's name. Example: "Hello John Doe,".
-* **[!UICONTROL Insert logo]** : inserts a logo which is is defined in the instance settings.
-* **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
-* **[!UICONTROL Mirror page URL]** : inserts the mirror page URL, enabling Delivery Designers to check the link.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** : inserts an URL enabling to set an offer to **[!UICONTROL Accepted]**.
-* **[!UICONTROL Registration page URL]** : inserts a subscription URL.
-* **[!UICONTROL Registration link]** : inserts a subscription link. This link is defined in the instance settings. The default content is: "To register click here."
-* **[!UICONTROL Registration link (with referrer)]** : inserts a subscription link, enabling to identify the visitor and delivery. This link is defined in the instance settings.
-* **[!UICONTROL Registration confirmation]** : inserts a link enabling to confirm subscription.
-* **[!UICONTROL Social network sharing links]** : inserts buttons that enable the recipient to share a link to the mirror page content.
-* **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]** : generate code that format an email with predefined HTML styles. 
-* **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist). The default associated content is: "You are receiving this message because you have been in contact with ***your organization name*** or an affiliate. To no longer receive messages from ***your organization name*** click here."
+內建內容區塊包括：
+* **[!UICONTROL 由Adobe Campaign啟用]** :插入「Enabled by Adobe Campaign」標誌。
+* **[!UICONTROL 專名的格式功能]** :會產生 **[!UICONTROL toSmartCase]** Javascript函式，可將每個字詞的首字母變更為大寫。
+* **[!UICONTROL 問候]** :插入帶有收件人名稱的問候語。 範例：「你好，無名氏，」
+* **[!UICONTROL 插入徽標]** :插入在實例設定中定義的徽標。
+* **[!UICONTROL 鏡像頁面的連結]** :插入指向鏡像頁面的連結：「如果您無法正確檢視此訊息，請按一下這裡」。
+* **[!UICONTROL 鏡像頁面URL]** :插入鏡像頁面URL，使「傳遞設計人員」能夠檢查連結。
+* **[!UICONTROL 以統一模式提供接受URL]** :插入URL，以便將選件設定為 **[!UICONTROL 已接受]**.
+* **[!UICONTROL 註冊頁面URL]** :插入訂閱URL。
+* **[!UICONTROL 註冊連結]** :插入訂閱連結。 此連結會在執行個體設定中定義。 預設內容為：&quot;要註冊，請按一下這裡。&quot;
+* **[!UICONTROL 註冊連結（具有反向連結）]** :插入訂閱連結，以識別訪客和傳送。 此連結會在執行個體設定中定義。
+* **[!UICONTROL 註冊確認]** :插入啟用以確認訂閱的連結。
+* **[!UICONTROL 社交網路分享連結]** :插入按鈕，使收件者能夠共用鏡像頁面內容的連結。
+* **[!UICONTROL 內容電子郵件的樣式]** 和 **[!UICONTROL 通知樣式]** :產生程式碼，使用預先定義的HTML樣式來格式化電子郵件。
+* **[!UICONTROL 取消訂閱連結]** :插入可從所有傳送（封鎖清單）中取消訂閱的連結。 預設關聯內容為：「你收到這條資訊是因為你與 ***您的組織名稱*** 或附屬機構。 不再接收來自 ***您的組織名稱*** 按一下這裡。」
 
 
-## Personalize links in your emails {#personalize-links}
+## 個人化電子郵件中的連結 {#personalize-links}
 
-To personalize a **link**:
+若要個人化 **連結**:
 
-1. Select a text block or an image.
-1. In the contextual toolbar, select **Insert link**.
+1. 選取文字區塊或影像。
+1. 在內容工具列中，選取 **插入連結**.
 
-    ![](assets/perso-link.png)
+   ![](assets/perso-link.png)
 
-1. Enter the link label and use the **Insert link** button to personalize the link.
+1. 輸入連結標籤，然後使用 **插入連結** 按鈕來個人化連結。
 
-    ![](assets/perso-link-insert-icon.png)
+   ![](assets/perso-link-insert-icon.png)
 
-1. Use the personalization editor to define and personalize the link, and confirm.
+1. 使用個人化編輯器來定義及個人化連結，並進行確認。
 
-    ![](assets/perso-link-edit.png)
+   ![](assets/perso-link-edit.png)
 
 
-## Personalize your offers {#personalize-offers}
+## 個人化您的優惠方案 {#personalize-offers}
 
-You can also access the personalization editor when adding text-type content to your offers' representations. Learn more in [this section](../content/offers.md).
+將文字類型內容新增至選件的表示時，您也可以存取個人化編輯器。 深入了解 [本節](../content/offers.md).

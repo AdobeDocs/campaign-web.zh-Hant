@@ -1,101 +1,107 @@
 ---
 audience: end-user
-title: Track your messages
-description: Learn how to add links and track sent messages
+title: 追蹤您的訊息
+description: 了解如何新增連結及追蹤已傳送的訊息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '548'
+ht-degree: 1%
+
 ---
-# Add links and track messages {#tracking}
+
+# 新增連結及追蹤訊息 {#tracking}
 
 ![](../assets/do-not-localize/badge.png)
 
-Use the Email designer to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
+使用電子郵件設計工具來新增內容的連結並追蹤傳送的訊息，以監控收件者的行為。
 
-## Insert links {#insert-links}
+## 插入連結 {#insert-links}
 
-When designing a message, you can add links to your content.
-
->[!NOTE]
->
->When tracking is enabled, all links included in the message content are tracked.
-
-To insert links into your email content, follow the steps below:
-
-1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
-
-    ![](assets/message-tracking-insert-link.png)
-
-1. Add a **[!UICONTROL Label]** and a **[!UICONTROL Link]**.
-
-1. Save your changes.
-
-1. Once the link is created, you can still modify it from the **[!UICONTROL Component settings]** pane on the right. 
-
-    * You can edit the link and change its **[!UICONTROL Target]**.
-    * You can choose to underline the link or not by checking the corresponding option.
-
-    ![](assets/message-tracking-link-settings.png)
+設計訊息時，您可以新增連結至內容。
 
 >[!NOTE]
 >
->Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the channel surface (i.e. message preset) level and when creating the message.
+>啟用追蹤時，會追蹤包含在訊息內容中的所有連結。
 
-## Link to a mirror page {#mirror-page}
+若要將連結插入電子郵件內容，請遵循下列步驟：
 
-The mirror page is an HTML page accessible online via a web browser. Its content is identical to the content of your email.
+1. 選取元素並按一下 **[!UICONTROL 插入連結]** 中。
 
-To add a link to a mirror page in your email:
+   ![](assets/message-tracking-insert-link.png)
 
-1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
+1. 新增 **[!UICONTROL 標籤]** 和 **[!UICONTROL 連結]**.
 
-    ![](assets/message-tracking-mirror-page.png)
+1. 儲存您的變更。
 
-1. Select the **[!UICONTROL Insert link]** icon to access the personalization menu.
+1. 建立連結後，您仍可從 **[!UICONTROL 元件設定]** 窗格。
 
-    ![](assets/message-tracking-mirror-page_2.png)
+   * 您可以編輯連結並變更其 **[!UICONTROL 目標]**.
+   * 您可以核取對應的選項，選擇是否將連結加底線。
 
-1. From the **[!UICONTROL Content block]** menu, select **[!UICONTROL Mirror page URL]** and click **[!UICONTROL Add]**.
+   ![](assets/message-tracking-link-settings.png)
 
-    ![](assets/message-tracking-mirror-page_3.png)
+>[!NOTE]
+>
+>行銷類型的電子郵件訊息必須包含選擇退出連結，這對於交易式訊息並非必要。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 交易]**)是在通道表面（即訊息預設集）層級和建立訊息時定義。
 
-The mirror page is automatically created.
+## 連結至鏡像頁面 {#mirror-page}
+
+鏡像頁面是可透過網頁瀏覽器線上存取的HTML頁面。 其內容與您的電子郵件內容相同。
+
+若要將連結新增至電子郵件中的鏡像頁面：
+
+1. 選取元素並按一下 **[!UICONTROL 插入連結]** 中。
+
+   ![](assets/message-tracking-mirror-page.png)
+
+1. 選取 **[!UICONTROL 插入連結]** 圖示來存取個人化功能表。
+
+   ![](assets/message-tracking-mirror-page_2.png)
+
+1. 從 **[!UICONTROL 內容區塊]** 菜單，選擇 **[!UICONTROL 鏡像頁面URL]** 按一下 **[!UICONTROL 新增]**.
+
+   ![](assets/message-tracking-mirror-page_3.png)
+
+鏡像頁面會自動建立。
 
 >[!IMPORTANT]
 >
->Mirror pages links are auto-generated and cannot be edited. They contain all the encrypted personalized data that is required to render the original email. As a result, using personalised attributes with large values may generate lengthy mirror pages URLs, which can prevent the link from working in web browsers that have a maximum URLs length.
+>鏡像頁面連結會自動產生，且無法編輯。 它們包含呈現原始電子郵件所需的所有加密個人化資料。 因此，使用具有大值的個人化屬性可能會產生長的鏡像頁面URL，而這會使連結無法在URL長度上限的網頁瀏覽器中運作。
 
-Once the email is sent, when the recipients click the mirror page link, the content of the email is displayed in their default web browser.
+傳送電子郵件後，當收件者按一下鏡像頁面連結時，電子郵件的內容會顯示在其預設的網頁瀏覽器中。
 
 >[!NOTE]
 >
->In the test email sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
+>在傳送至測試設定檔的測試電子郵件中，鏡像頁面的連結未作用中。 它只會在最終訊息中啟動。
 
-The retention period for a mirror page is 60 days. After that delay, the mirror page is no longer available.
+鏡像頁面的保留期為60天。 延遲後，鏡像頁面將不再可用。
 
-## Manage tracking {#manage-tracking}
+## 管理追蹤 {#manage-tracking}
 
-The [Email Designer](create-email-content.md) allows you to manage the tracked URLs, such as editing the tracking type for each link.
+此 [電子郵件設計工具](create-email-content.md) 可讓您管理追蹤的URL，例如編輯每個連結的追蹤類型。
 
-1. Click the **[!UICONTROL Links]** icon from the left pane to display the list of all the URLs of your content to be tracked.
+1. 按一下 **[!UICONTROL 連結]** 圖示，顯示要追蹤之內容的所有URL清單。
 
-    This list enables you to have a centralized view and to locate each URL in the email content.
+   此清單可讓您集中檢視，並找出電子郵件內容中的每個URL。
 
-1. To edit a link, click the corresponding pencil icon.
+1. 若要編輯連結，請按一下對應的鉛筆圖示。
 
-    ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png)
 
-1. You can modify the **[!UICONTROL Tracking Type]** if needed:
+1. 您可以修改 **[!UICONTROL 追蹤類型]** 如有需要：
 
    ![](assets/message-tracking-edit-a-link.png)
 
-    For each tracked URL, you can set the tracking mode to one of these values:
+   對於每個追蹤的URL，您可以將追蹤模式設為下列其中一個值：
 
-    * **[!UICONTROL Tracked]**: Activates tracking on this URL.
-    * **[!UICONTROL Opt out]**: Considers this URL as an opt-out or unsubscription URL.
-    * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
-    * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL 追蹤]**:在此URL上啟用追蹤。
+   * **[!UICONTROL 選擇退出]**:將此URL視為選擇退出或取消訂閱URL。
+   * **[!UICONTROL 鏡像頁面]**:將此URL視為鏡像頁面URL。
+   * **[!UICONTROL 從不]**:切勿啟用此URL的追蹤。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-1. Add a **[!UICONTROL Category]** to your link to group tracked links and click **[!UICONTROL Save]**.
+1. 新增 **[!UICONTROL 類別]** 連結至群組追蹤的連結，然後按一下 **[!UICONTROL 儲存]**.
 
-    ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png)
 
-1. After sending your delivery, access your delivery report. Under the **[!UICONTROL Tracking]** menu, the **[!UICONTROL URLs and click streams]** report displays which URLs from your delivery are the most visited. [Learn more](../reporting/reports.md)
+1. 傳送您的傳送後，請存取您的傳送報表。 在 **[!UICONTROL 追蹤]** , **[!UICONTROL URL和點按資料流]** 報表會顯示您傳送中最常造訪的URL。 [了解更多](../reporting/reports.md)

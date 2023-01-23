@@ -1,66 +1,72 @@
 ---
 audience: end-user
-title: Monitor delivery logs
-description: Learn how to monitor delivery logs
+title: 監視傳送記錄
+description: 了解如何監視傳送記錄
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 22%
+
 ---
-# Monitor delivery logs {#delivery-logs}
+
+# 監視傳送記錄 {#delivery-logs}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
->title="Delivery logs"
+>title="傳送記錄檔"
 >abstract="TBC"
 
-After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
+準備和傳送電子郵件後，傳送記錄可讓您確認沒有錯誤。 可直接從訊息控制面板存取這些記錄檔。 其中會顯示傳送的詳細資料、已排除的目標、原因，以及開啟和點按數等追蹤資訊。
 
-To view the logs, access your delivery dashboard and click the **Logs** button.
+若要檢視記錄檔，請存取您的傳送控制面板，然後按一下 **記錄檔** 按鈕。
 
-Several tabs are available:
+有數個索引標籤可供使用：
 
-## Logs
+## 記錄
 
-The **Logs** tab contains all messages relating to the delivery and the proofs. Specific icons allow you to identify errors or warnings. 
+此 **記錄檔** 索引標籤包含與傳送和校樣相關的所有訊息。 特定圖示可讓您識別錯誤或警告。
 
-All the validation steps, warnings and errors are listed. Colored icons show the message type:
+列出所有驗證步驟、警告和錯誤。 彩色表徵圖顯示消息類型：
 
-* The grey icon indicates an informative message.
-* The yellow icon indicates a non-critical processing error.
-* The red icon indicates a critical error that prevents sending the delivery. 
+* 灰色圖示表示資訊性訊息。
+* 黃色表徵圖表示非關鍵處理錯誤。
+* 紅色圖示表示有嚴重錯誤而無法傳送傳遞。
 
 ![](assets/logs.png)
 
-## Deliveries
+## 傳遞
 
-The **Sending logs** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
+此 **傳送記錄檔** 索引標籤提供此傳送每次發生的記錄。 已傳送訊息的清單及其狀態會儲存在此處。它可讓您檢視每個收件者的傳送狀態。
 
 ![](assets/logs2.png)
 
-## Exclusions
+## 排除
 
-The **Exclusion logs** tab lists all the messages that have been excluded from the target and specifies the reason for the send failure.
+此 **排除記錄檔** 索引標籤會列出已從目標中排除的所有訊息，並指定傳送失敗的原因。
 
 ![](assets/logs3.png)
 
-## Exclusion causes
+## 排除原因
 
-The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target.
+此 **排除原因** 索引標籤會顯示已從目標中排除的訊息數量（以訊息數計）。
 
 ![](assets/logs4.png)
 
-## Tracked URLs
+## 被追蹤的 URL
 
-The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
+此 **追蹤的URL** 索引標籤會重新分組已傳送訊息中包含的URL，包括其URL類型和來源URL。
 
 ![](assets/logs5.png)
 
-## Tracking
+## 追蹤
 
-The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
+此 **追蹤** 索引標籤會列出此傳送的追蹤記錄。 此索引標籤會顯示所傳送訊息的追蹤資料，亦即所有須受Adobe Campaign追蹤的URL。
 
 >[!NOTE]
 >
->If tracking is not enabled for a delivery, this tab is not displayed.
+>如果未針對傳送啟用追蹤，則不會顯示此索引標籤。
 
 ![](assets/logs6.png)

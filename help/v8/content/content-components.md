@@ -1,183 +1,189 @@
 ---
 audience: end-user
-title: Use email designer content components
-description: Learn how to use content components in your emails
+title: 使用電子郵件設計工具內容元件
+description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '1079'
+ht-degree: 0%
+
 ---
-# Use the Email designer content components {#content-components}
+
+# 使用電子郵件設計工具內容元件 {#content-components}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of an email."
+>title="關於內容元件"
+>abstract="內容元件是空白的內容預留位置，可用來建立電子郵件版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
+>title="關於內容元件"
+>abstract="內容元件是空白的內容預留位置，可用來建立登錄頁面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
+>title="關於內容元件"
+>abstract="內容元件是空白的內容預留位置，可用來建立片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a template."
+>title="關於內容元件"
+>abstract="內容元件是空白的內容預留位置，可用來建立範本的版面。"
 
-## Add content components {#add-content-components}
+## 新增內容元件 {#add-content-components}
 
-To add content components to your email and adjust them to your needs, follow the steps below.
+若要新增內容元件至您的電子郵件並根據您的需求進行調整，請遵循下列步驟。
 
-1. In the Email Designer, use an existing content or drag and drop **[!UICONTROL Structure components]** into your empty content to define the layout of your email. [Learn how](create-email-content.md)
+1. 在電子郵件設計工具中，使用現有內容或拖放 **[!UICONTROL 結構元件]** 填入空白內容，以定義電子郵件的版面。 [了解如何](create-email-content.md)
 
-1. To access the **[!UICONTROL Content components]** section, select the corresponding button from the Email Designer left pane.
+1. 若要存取 **[!UICONTROL 內容元件]** 節，從「電子郵件設計工具」左窗格中選擇相應的按鈕。
 
-    ![](assets/email_designer_content_components.png)
+   ![](assets/email_designer_content_components.png)
 
-1. Drag and drop the content components of your choice inside the relevant structure components.
+1. 將您選取的內容元件拖放至相關結構元件內。
 
-    ![](assets/email_designer_add_content_components.png)
+   ![](assets/email_designer_add_content_components.png)
 
-    >[!NOTE]
-    >
-    >You can add several components into a single structure component and into each column of a structure component.
+   >[!NOTE]
+   >
+   >可以將多個元件添加到單個結構元件中，並添加到結構元件的每列中。
 
-1. Adjust the styling attributes for each component using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
+1. 使用 **[!UICONTROL 元件設定]** 窗格。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。 [進一步了解對齊方式和邊框間距](alignment-and-padding.md)
 
-    ![](assets/email_designer_content_components_settings.png)
+   ![](assets/email_designer_content_components_settings.png)
 
-When creating your email content from scratch, **[!UICONTROL Content components]** allows you to further personalize your email with raw, empty components that you can use once placed in an email.
-You can add as many **[!UICONTROL Content components]** as you need inside a **[!UICONTROL Structure component]** which defines the layout of your email.
+從頭建立電子郵件內容時， **[!UICONTROL 內容元件]** 可讓您使用原始的空白元件進一步個人化您的電子郵件，放入電子郵件後即可使用這些元件。
+您可以新增 **[!UICONTROL 內容元件]** 你需要內 **[!UICONTROL 結構元件]** 定義電子郵件的版面。
 
-## Container {#container}
+## 容器 {#container}
 
-You can add a simple container inside which you add another content component. This allows you to apply a specific styling to the container, which is different from the component used inside.
+您可以新增一個簡單容器，在其中新增其他內容元件。 這可讓您將特定樣式套用至容器，與內部使用的元件不同。
 
-For example, add a **[!UICONTROL Container]** component and then add a [Button](#button) component inside that container. You can use a specific background for the container, and another one for the button.
+例如，新增 **[!UICONTROL 容器]** 元件，然後新增 [按鈕](#button) 元件。 您可以為容器使用特定背景，為按鈕使用另一個背景。
 
 ![](assets/email_designer_container_component.png)
 
-## Button {#buttons}
+## 按鈕 {#buttons}
 
-Use the **[!UICONTROL Button]** component to insert one or multiple buttons into your email and redirect your email audience to another page.
+使用 **[!UICONTROL 按鈕]** 元件，將一或多個按鈕插入電子郵件中，並將您的電子郵件對象重新導向至其他頁面。
 
-1. From **[!UICONTROL Content components]**, drag and drop the **[!UICONTROL Button]** component into a **[!UICONTROL Structure component]**.
+1. 從 **[!UICONTROL 內容元件]**，拖放 **[!UICONTROL 按鈕]** 元件 **[!UICONTROL 結構元件]**.
 
-    ![](assets/email_designer_13.png)
+   ![](assets/email_designer_13.png)
 
-1. Click your newly added button to personalize the text and to have access to the **[!UICONTROL Components settings]** in the Email Designer right pane.
+1. 按一下您新增的按鈕，以個人化文字並存取 **[!UICONTROL 元件設定]** 在「電子郵件設計工具」右窗格中。
 
-    ![](assets/email_designer_14.png)
+   ![](assets/email_designer_14.png)
 
-1. In the **[!UICONTROL Link]** field, add the URL you want to redirect to when clicking the button.
+1. 在 **[!UICONTROL 連結]** 欄位中，新增按一下按鈕時要重新導向的URL。
 
-1. Choose how your the content is displayed with the **[!UICONTROL Target]** drop-down list:
+1. 選擇內容的顯示方式 **[!UICONTROL 目標]** 下拉式清單：
 
-    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
-    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
-    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
-    * **[!UICONTROL Parent]**: opens the link in the parent frame.
-    * **[!UICONTROL Top]**: opens the link in the full body of the window.
+   * **[!UICONTROL 無]**:在與點按連結相同的時間格中開啟連結（預設）。
+   * **[!UICONTROL 空白]**:在新視窗或索引標籤中開啟連結。
+   * **[!UICONTROL Self]**:在按一下連結時的同一幀中開啟連結。
+   * **[!UICONTROL 父級]**:開啟父框架中的連結。
+   * **[!UICONTROL 頂端]**:在窗口的正文中開啟連結。
 
-    ![](assets/email_designer_15.png)
+   ![](assets/email_designer_15.png)
 
-1. You can further personalize your button by changing styling attributes such as **[!UICONTROL Border]**, **[!UICONTROL Size]**, **[!UICONTROL Margin]**, etc. from the **[!UICONTROL Component settings]** pane.
+1. 您可以透過變更樣式屬性(例如 **[!UICONTROL 邊框]**, **[!UICONTROL 大小]**, **[!UICONTROL 利潤]**、等 從 **[!UICONTROL 元件設定]** 框。
 
-## Text {#text}
+## 文字 {#text}
 
-Use the **[!UICONTROL Text]** component to insert text into your email, and adjust the style (border, size, padding, etc.) using the **[!UICONTROL Component settings]** pane.
+使用 **[!UICONTROL 文字]** 元件，將文字插入電子郵件中，並調整樣式（邊框、大小、邊框間距等） 使用 **[!UICONTROL 元件設定]** 框。
 
-1. From **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL Text]** in a **[!UICONTROL Structure component]**.
+1. 從 **[!UICONTROL 內容元件]**，拖放 **[!UICONTROL 文字]** 在 **[!UICONTROL 結構元件]**.
 
-    ![](assets/email_designer_11.png)
+   ![](assets/email_designer_11.png)
 
-1. Click on your newly added component to personalize the text and to have access to the **[!UICONTROL Components Settings]** in the right pane of the email designer.
+1. 按一下您新新增的元件，以個人化文字並存取 **[!UICONTROL 元件設定]** 在電子郵件設計工具的右窗格中。
 
-1. Change your text with the following options available in the toolbar:
+1. 使用工具列中的下列選項變更文字：
 
-    ![](assets/email_designer_27.png)
+   ![](assets/email_designer_27.png)
 
-    * **[!UICONTROL Change text style]**: apply bold, italic, underline or strike through to your text.
-    * **Change alignment**: choose between left, right, center or justified alignment for your text.
-    * **[!UICONTROL Create list]**: add bullet or number list to your text.
-    * **[!UICONTROL Set heading]**: add up to six heading levels to your text.
-    * **Font size**: select the font size of your text in pixels.
-    * **[!UICONTROL Edit image]**: add an image or an asset to your text component.
-    * **[!UICONTROL Show the source code]**: display the source code of your text. It cannot be modified.
-    * **[!UICONTROL Duplicate]**: add a copy of your text component.
-    * **[!UICONTROL Delete]**: delete the selected text component from your email.
-    * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data.
-    * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles.
+   * **[!UICONTROL 更改文本樣式]**:將粗體、斜體、底線或直線套用至您的文字。
+   * **更改對齊方式**:在文本的左對齊、右對齊、居中對齊或對齊對齊對齊之間進行選擇。
+   * **[!UICONTROL 建立清單]**:將項目符號或數字清單新增至您的文字。
+   * **[!UICONTROL 設定標題]**:在文字中加上最多六個標題層。
+   * **字型大小**:選取文字的字型大小（像素）。
+   * **[!UICONTROL 編輯影像]**:新增影像或資產至文字元件。
+   * **[!UICONTROL 顯示原始碼]**:顯示文本的原始碼。 無法修改。
+   * **[!UICONTROL 複製]**:新增文字元件的復本。
+   * **[!UICONTROL 刪除]**:從電子郵件中刪除選取的文字元件。
+   * **[!UICONTROL 新增個人化]**:新增個人化欄位以自訂來自您設定檔資料的內容。
+   * **[!UICONTROL 啟用條件式內容]**:新增條件式內容，以調整元件的內容與目標設定檔。
 
-1. Adjust the other styling attributes such as text color, font family, border, padding, margin, etc. from the **[!UICONTROL Component settings]** pane.
+1. 調整其他樣式屬性，如文本顏色、字型系列、邊框、邊框間距、邊距等。 從 **[!UICONTROL 元件設定]** 框。
 
-    ![](assets/email_designer_12.png)
+   ![](assets/email_designer_12.png)
 
-## Divider {#divider}
+## 分隔線 {#divider}
 
-Use the **[!UICONTROL Divider]** component to insert a dividing line to organize the layout and content of your email.
+使用 **[!UICONTROL 除法器]** 元件，插入分隔線以組織電子郵件的版面和內容。
 
-You can adjust styling attributes such as the line color, style and height from the **[!UICONTROL Component settings]** pane.
+您可以調整樣式屬性，例如線條顏色、樣式和高度， **[!UICONTROL 元件設定]** 框。
 
 ![](assets/email_designer_16.png)
 
 ## HTML {#HTML}
 
-Use the **[!UICONTROL HTML]** component to copy-paste the different parts of your existing HTML. This enables you to create free modular HTML components to reuse some external content.
+使用 **[!UICONTROL HTML]** 元件來複製並貼上現有HTML的不同部分。 這可讓您建立免費的模組化HTML元件，以重複使用某些外部內容。
 
-1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL HTML]** component into a **[!UICONTROL Structure component]**.
+1. 從 **[!UICONTROL 內容元件]**，拖放 **[!UICONTROL HTML]** 元件 **[!UICONTROL 結構元件]**.
 
-    ![](assets/email_designer_22.png)
+   ![](assets/email_designer_22.png)
 
-1. Click on your newly added component, then select **[!UICONTROL Show the source code]** from the contextual toolbar to add your HTML.
+1. 按一下新增的元件，然後選取 **[!UICONTROL 顯示原始碼]** 來新增HTML。
 
-    ![](assets/email_designer_23.png)
+   ![](assets/email_designer_23.png)
 
 >[!NOTE]
 >
->To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into components.
+>為了讓外部內容與電子郵件設計工具相容，Adobe建議從草稿開始建立訊息，並將內容從您現有的電子郵件複製到元件中。
 
-## Image {#image}
+## 影像 {#image}
 
-Use the **[!UICONTROL Image]** component to insert an image file from your computer in your email.
+使用 **[!UICONTROL 影像]** 元件，從您的電腦在電子郵件中插入影像檔案。
 
-1. In **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL Image]** in a **[!UICONTROL Structure component]**.
+1. 在 **[!UICONTROL 內容元件]**，拖放 **[!UICONTROL 影像]** 在 **[!UICONTROL 結構元件]**.
 
-    ![](assets/email_designer_9.png)
+   ![](assets/email_designer_9.png)
 
-1. Click **[!UICONTROL Browse]** to choose an image file from your assets.
+1. 按一下 **[!UICONTROL 瀏覽]** 從資產中選擇影像檔案。
 
-1. Click your newly added component and set up your image properties using the **[!UICONTROL Components settings]** pane:
+1. 按一下新增的元件，並使用 **[!UICONTROL 元件設定]** 窗格：
 
-    * **[!UICONTROL Image title]** lets you define a title to your image.
-    * **[!UICONTROL Alt text]** lets you define the caption linked to your image. This corresponds to the alt HTML attribute.
+   * **[!UICONTROL 影像標題]** 可讓您定義影像的標題。
+   * **[!UICONTROL 替代文字]** 可讓您定義連結至影像的註解。 這對應於altHTML屬性。
 
-    ![](assets/email_designer_10.png)
+   ![](assets/email_designer_10.png)
 
-1. Adjust the other styling attributes such as margin, border, etc. or adding a link to redirect your audience to another content from the **[!UICONTROL Component settings]** pane.
+1. 調整其他樣式屬性，例如邊界、邊框等。 或新增連結，將您的對象重新導向至 **[!UICONTROL 元件設定]** 框。
 
-## Social {#social}
+## 社交 {#social}
 
-Use the **[!UICONTROL Social]** component to insert links to social media pages into your email content.
+使用 **[!UICONTROL 社交]** 元件，將社交媒體頁面的連結插入您的電子郵件內容中。
 
-1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL Social]** component into a **[!UICONTROL Structure component]**.
+1. 從 **[!UICONTROL 內容元件]**，拖放 **[!UICONTROL 社交]** 元件 **[!UICONTROL 結構元件]**.
 
-1. Click your newly added component.
+1. 按一下您新新增的元件。
 
-1. In the **[!UICONTROL Social]** field of the **[!UICONTROL Components settings]** pane, choose which social media you want to add or remove.
+1. 在 **[!UICONTROL 社交]** 欄位 **[!UICONTROL 元件設定]** ，選擇您要新增或移除的社交媒體。
 
-    ![](assets/email_designer_20.png)
+   ![](assets/email_designer_20.png)
 
-1. Choose the size of your icons in the **[!UICONTROL Size of images]** field.
+1. 在 **[!UICONTROL 影像大小]** 欄位。
 
-1. Click on each of your social media icons to configure the **[!UICONTROL URL]** to which your audience is redirected.
+1. 按一下您的每個社交媒體圖示，以設定 **[!UICONTROL URL]** 系統會將您的對象重新導向至其中。
 
-    ![](assets/email_designer_21.png)
+   ![](assets/email_designer_21.png)
 
-1. You can also change the icons of each of your social media if needed in the **[!UICONTROL Image]** field.
+1. 如有需要，您也可以在 **[!UICONTROL 影像]** 欄位。
 
-1. Adjust the other styling attributes such as style, margin, border, etc. from the **[!UICONTROL Component settings]** pane.
+1. 調整其他樣式屬性，如樣式、邊界、邊框等。 從 **[!UICONTROL 元件設定]** 框。
