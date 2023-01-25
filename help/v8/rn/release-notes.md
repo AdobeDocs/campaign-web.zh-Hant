@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web v8發行說明
 description: Campaign Web v8發行說明
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
+source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,8 @@ add info somewhere to remind users that
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
 
->[!NOTE]
->
->請注意，測試版將提供跨通道行銷活動和工作流程管理功能。
 
-## 術語更新
+## 術語更新{#terminology-updates}
 
 請注意，作為現有的Campaign使用者，有些概念已重新命名以符合最新的術語標準。 這些變更只會套用至Campaign Web UI，不會反映在用戶端主控台中。 以下概述。
 
@@ -62,3 +59,17 @@ add info somewhere to remind users that
 * 傳遞分析現在是 **傳遞準備**. 當您需要啟動分析時，按一下 **準備** 按鈕
 * 現在可透過 **模擬內容** 按鈕
 * 清單現在 **對象**
+
+## 限制{#limitations-alpha}
+
+測試版將提供某些Campaign重要功能，例如跨通道行銷活動和工作流程管理。
+
+以下限制適用於此Alpha版：
+
+* 唯一可編輯的對象是「傳送」。 其他則是唯讀的。 使用篩選器來瀏覽所有項目。
+* 此版本是專為一次電子郵件行銷活動而設計。 尚不支援其他管道。
+* 管理用戶介面不可用。
+* 報告量度（例如開啟和追蹤資料）每小時更新一次。
+* 傳送控制面板KPI每5分鐘更新一次。  — 但傳送準備是即時的。
+* 頂端列中提供的Adobe Experience Cloud通知和統一說明尚未整合。
+
