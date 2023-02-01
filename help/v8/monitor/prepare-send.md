@@ -3,9 +3,9 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: 了解如何使用Campaign網頁UI準備和傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '648'
 ht-degree: 4%
 
 ---
@@ -72,6 +72,22 @@ send also KPIs
 
 ## 傳送訊息{#send}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="已傳遞"
+>abstract="已成功傳送的郵件數。 此指標每5分鐘更新一次。 顯示的百分比是根據已傳送訊息的總數。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="開啟次數"
+>abstract="已開啟的訊息數。 此指標每5分鐘更新一次。 顯示的百分比是不同開啟次數與已傳送訊息數量的比率。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="點按"
+>abstract="在電子郵件中至少按一下一次的收件者人數。 此指標每5分鐘更新一次。 顯示的百分比是不同點按次數與已傳送訊息數量的比率。"
+
+
 準備完成後，您現在可以傳送訊息。 只有立即傳送的訊息才需要此步驟。 如果已排程訊息，則會在定義的日期傳送。
 
 請依照下列步驟操作：
@@ -92,6 +108,6 @@ send also KPIs
 
    >[!NOTE]
    >
-   >此 **開啟** 和 **點按次數** 指標會在5分鐘後更新。
+   >傳送開始後，每5分鐘會更新所有指標。 傳送準備指標為即時。
 
    您可以隨時暫停傳送，然後繼續。 如果您在傳送時停止傳送，則無法繼續。
