@@ -3,7 +3,7 @@ keywords: Campaign Web；首頁；熱門主題
 description: Campaign Web v8說明中心
 title: Adobe Campaign Web v8產品檔案
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 42d28b988444c9a6dc7b816485fa28bbe6cda5ca
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 9%
@@ -41,7 +41,7 @@ Campaign現在提供新的網頁使用者介面，其可增強可用性、協助
 <p></td>
 <td>
 <a href="audience/about-audiences.md">
-<img alt="對象" src="assets/do-not-localize/email-opt-out.jpg">
+<img alt="對象" src="assets/do-not-localize/email-audience.jpg">
 </a>
 <div>
 <a href="audience/about-audiences.md"><strong>選取對象</strong></a>
@@ -50,7 +50,7 @@ Campaign現在提供新的網頁使用者介面，其可增強可用性、協助
 </td>
 <td>
 <a href="preview-test/proofs.md">
-<img alt="驗證" src="assets/do-not-localize/email-config.jpg">
+<img alt="驗證" src="assets/do-not-localize/email-preview.jpg">
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>預覽和測試電子郵件</strong></a>
