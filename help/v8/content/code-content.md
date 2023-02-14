@@ -5,7 +5,7 @@ description: 了解如何編寫您自己的電子郵件內容
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
