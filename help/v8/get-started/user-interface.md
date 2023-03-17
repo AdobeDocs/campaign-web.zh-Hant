@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 050d97695dd2012644af4a35eca3e6cd9f5f02af
+source-git-commit: a61b1322ef277ab1707ef8f81009e3d344b1fd5a
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 36%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="探索介面"
->abstract="新的Campaign v8 Web介面提供整合、直覺且一致的使用者體驗。"
+>abstract="新的 Campaign v8 Web 介面提供了整合、直覺和一致的使用者體驗。"
 
 新的Campaign v8網頁介面提供現代且直覺的使用者體驗，以簡化行銷活動的設計和傳遞。 此新介面已與Adobe Experience Platform整合。
 
@@ -37,7 +37,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## 左側導覽功能表
 
-瀏覽左側的連結，以存取Campaign v8 Web功能。 有幾個連結顯示可排序和篩選的對象清單。 您也可以設定欄以顯示您需要的所有資訊。 看這個 [節](#list-screens). 除電子郵件傳送清單外，所有清單畫面均為唯讀。 按一下任何清單項目即無法在Alpha中使用版本/檢視功能。 所有清單都可在未來版本中編輯。 左側導覽功能表中顯示的項目取決於您的使用者權限。
+瀏覽左側的連結，以存取Campaign v8 Web功能。 有幾個連結顯示可排序和篩選的對象清單。 您也可以設定欄以顯示您需要的所有資訊。 看這個 [節](#list-screens). 所有清單都是唯讀的，電子郵件傳遞清單表除外。按一下任何清單項目即無法在Alpha中使用版本/檢視功能。 所有清單都可在未來版本中編輯。 左側導覽功能表中顯示的項目取決於您的使用者權限。
 
 ![](assets/home.png)
 
@@ -60,14 +60,14 @@ CONTROL PANEL not alpha
 Global report not alpha
 -->
 
-### 探索工具
+### Explorer
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
->title="探索工具"
->abstract="此 **瀏覽器** 菜單顯示與客戶端控制台中的資料夾層次結構相同的資料夾層次結構。 瀏覽您所有的Campaign v8元件、資料夾和結構。 除電子郵件傳送清單外，所有清單畫面均為唯讀。"
+>title="Explorer"
+>abstract="**Explorer** 選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和結構描述。所有清單都是唯讀的，電子郵件傳遞清單表除外。"
 
-此 **瀏覽器** 菜單顯示與客戶端控制台中的資料夾層次結構相同的資料夾層次結構。 瀏覽您所有的Campaign v8元件、資料夾和結構。 除電子郵件傳送清單外，所有清單畫面均為唯讀。
+**Explorer** 選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和結構描述。所有清單都是唯讀的，電子郵件傳遞清單表除外。
 
 瀏覽器中顯示的項目取決於您的使用者權限。
 
@@ -87,16 +87,16 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="行銷活動"
->abstract="這是您的行銷活動清單。 您可以檢視有用的資訊，例如其開始/結束/最後修改日期，以及其狀態。 您可以依狀態或開始/結束日期篩選清單。 也提供行銷活動範本。 這些清單為唯讀清單。"
+>abstract="這是您的行銷活動清單。您可以檢視有用的資訊，例如其開始/結束/最後修改日期，以及其狀態。您可以依狀態或開始/結束日期篩選清單。也提供行銷活動範本。這些清單是唯讀的。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="傳遞"
->abstract="瀏覽傳遞清單。 您可以檢視其狀態、上次修改日期以及關鍵KPI。 您可以依州、聯絡人日期或管道篩選清單。 按一下電子郵件傳送以開啟其控制面板。 其他項目為唯讀。 也提供傳遞範本。"
+>abstract="瀏覽您的傳遞清單。您可以檢視其狀態、最後修改日期，以及 KPI。您可以依狀態、聯絡日期或管道篩選清單。按一下電子郵件傳遞以開啟其儀表板。其他項目是唯讀的。也提供傳遞範本。"
 
-* **行銷活動**  — 此為促銷活動清單。 依預設，您可以檢視其開始/結束/最後修改日期及其狀態。 您可以依狀態或開始/結束日期篩選清單。 也提供行銷活動範本。 這些清單為唯讀清單。
+* **行銷活動**  — 此為促銷活動清單。 依預設，您可以檢視其開始/結束/最後修改日期及其狀態。 您可以依狀態或開始/結束日期篩選清單。也提供行銷活動範本。這些清單是唯讀的。
 
-* **傳遞**  — 瀏覽傳遞清單。 依預設，您可以檢視其狀態、上次修改日期以及關鍵KPI。 您可以依州、聯絡人日期或管道篩選清單。 按一下電子郵件傳送以開啟其控制面板，以取得傳送詳細資料的概觀。 其他通道上的傳送為唯讀。 傳遞範本也以唯讀模式提供。 您可以使用用戶端主控台來編輯。 看這個 [檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **傳遞**  — 瀏覽傳遞清單。 依預設，您可以檢視其狀態、上次修改日期以及關鍵KPI。 您可以依狀態、聯絡日期或管道篩選清單。按一下電子郵件傳送以開啟其控制面板，以取得傳送詳細資料的概觀。 其他通道上的傳送為唯讀。 傳遞範本也以唯讀模式提供。 您可以使用用戶端主控台來編輯。 看這個 [檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
    使用 **更多動作** 按鈕來刪除或複製傳送。
 
@@ -107,36 +107,36 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="收件者"
->abstract="存取收件者資料庫。 您可以檢視實用資訊，例如其電子郵件地址、名字和姓氏。 此清單為唯讀清單。"
+>abstract="存取您的收件者資料庫。您可以檢視有用的資訊，例如其電子郵件地址、名字和姓氏。此清單是唯讀的。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="對象"
->abstract="這是您的對象清單。 您可以檢視其類型、來源、建立/上次修改日期和標籤。 您可以依來源篩選清單。 此清單為唯讀清單。"
+>abstract="這是您的對象清單。您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依來源來篩選清單。此清單是唯讀的。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="訂閱清單"
->abstract="瀏覽訂閱清單。 您可以檢視其類型、模式和標籤。 此清單為唯讀清單。"
+>abstract="瀏覽您的訂閱清單。您可以檢視其類型、模式和標籤。此清單是唯讀的。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="目標定位工作流程"
->abstract="存取Campaign工作流程清單。 您可以檢視其狀態、上次/下次處理日期和環境。 您可以依狀態、上次處理日期和工作流程類型來篩選清單。 也提供工作流程範本。 這些清單為唯讀清單。"
+>abstract="存取您的 Campaign 工作流程清單。您可以檢視其狀態、上次/下次處理日期和環境。您可以依狀態、最後處理日期和工作流程類型來篩選清單。也提供工作流程範本。這些清單是唯讀的。"
 
-* **收件者**  — 訪問您的收件者資料庫。 依預設，您可以檢視其電子郵件地址、名字和姓氏。 此清單為唯讀清單。
-* **對象**  — 此為您的對象清單。 依預設，您可以檢視其類型、來源、建立/上次修改日期和標籤。 您可以依來源篩選清單。 此清單為唯讀清單。
-* **訂閱清單**  — 瀏覽訂閱清單。 依預設，您可以檢視其類型、模式和標籤。 此清單為唯讀清單。
-* **目標工作流程**  — 存取Campaign工作流程清單。 依預設，您可以檢視其狀態、上次/下次處理日期和環境。 您可以依狀態、上次處理日期和工作流程類型來篩選清單。 也提供工作流程範本。 這些清單為唯讀清單。
+* **收件者**  — 訪問您的收件者資料庫。 依預設，您可以檢視其電子郵件地址、名字和姓氏。 此清單是唯讀的。
+* **對象**  — 此為您的對象清單。 依預設，您可以檢視其類型、來源、建立/上次修改日期和標籤。 您可以依來源來篩選清單。此清單是唯讀的。
+* **訂閱清單**  — 瀏覽訂閱清單。 依預設，您可以檢視其類型、模式和標籤。 此清單是唯讀的。
+* **目標工作流程**  — 存取Campaign工作流程清單。 依預設，您可以檢視其狀態、上次/下次處理日期和環境。 您可以依狀態、最後處理日期和工作流程類型來篩選清單。也提供工作流程範本。這些清單是唯讀的。
 
 ### 決策管理
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="優惠"
->abstract="瀏覽您的互動選件清單。 依預設，您可以檢視其狀態、開始/結束日期和環境。 您可以依狀態和開始/結束日期篩選清單。 也提供優惠方案範本。 這些清單為唯讀清單。"
+>abstract="瀏覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些清單是唯讀的。"
 
-* **選件**  — 瀏覽您的互動選件清單。 依預設，您可以檢視其狀態、開始/結束日期和環境。 您可以依狀態和開始/結束日期篩選清單。 也提供優惠方案範本。 這些清單為唯讀清單。
+* **選件**  — 瀏覽您的互動選件清單。 依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些清單是唯讀的。
 
 ## 頂端列
 
@@ -237,17 +237,17 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
->title="簡訊報表摘要"
+>title="SMS 報告摘要"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="推送報表摘要"
+>title="發佈報告摘要"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_import_from_a_file"
->title="從檔案匯入閱聽眾"
+>title="從檔案匯入對象"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -263,4 +263,19 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="推播通知範本"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="促銷活動建立屬性"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="行銷活動建立排程"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="規則產生器進階屬性"
 >abstract="待定"
