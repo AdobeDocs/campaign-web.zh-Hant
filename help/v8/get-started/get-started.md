@@ -6,7 +6,7 @@ exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d3cbac2dfe1f5a0a6f1d79b2671e6c0a07efa156
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ only existing customers
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="開始使用"
->abstract="探索重要功能、使用者介面和全域准則。"
+>abstract="探索重要功能、使用者介面和全域準則。"
 
 >[!NOTE]
 >

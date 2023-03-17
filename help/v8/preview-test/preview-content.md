@@ -6,7 +6,7 @@ exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="智慧型預覽內容"
->abstract="在傳送前，使用設定檔資料來預覽電子郵件的內容、控制個人化屬性，以及檢查收件者如何看到訊息內容。"
+>title="內容智慧預覽"
+>abstract="使用設定檔資料在電子郵件寄送前預覽其內容、控制個人化屬性，並檢查收件者如何查看郵件內容。"
 
 使用Adobe Campaign中的內容模擬功能，在傳送電子郵件之前先預覽內容、控制個人化，以及檢查其對收件者的顯示方式。
 

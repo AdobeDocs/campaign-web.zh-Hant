@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
->title="選取電子郵件範本"
->abstract="電子郵件範本是特定的傳送設定，包含預先定義的設定，例如類型規則、個人化或路由參數。 範本是在Campaign用戶端主控台中定義。"
+>title="選擇電子郵件範本"
+>abstract="電子郵件範本是一種特定的傳遞設定，其中包含預先定義的設定，例如類型規則、個人化或路由參數。範本在 Campaign 用戶端主控台中定義。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="電子郵件屬性"
->abstract="屬性是常見的傳送參數，可協助您為傳送命名並分類。 如果您的傳送是以Adobe Campaign v8主控台中定義的延伸架構為基礎，則某些特定 **自訂選項** 欄位。"
+>abstract="這些屬性是常見的傳遞參數，可幫助您對傳遞進行命名和分類。如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充型結構描述，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
 
 1. 若要建立新傳送，請瀏覽至 **[!UICONTROL 傳遞]** ，然後按一下  **[!UICONTROL 建立傳送]** 按鈕。
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="定義對象"
->abstract="選取行銷訊息的最佳對象。 您可以選擇已在Campaign v8例項中定義的現有對象，或從Adobe Experience Platform中選擇，或者您可以使用規則產生器建立新對象。"
+>abstract="為您的行銷電子郵件選擇最佳對象。您可以選擇已在 Campaign v8 執行個體或從 Adobe Experience Platform 中定義的現有對象，或可以使用規則產生器建立新對象。"
 
 在此使用案例中，您會傳送電子郵件給現有對象。 有關如何使用對象的其他指示，請參閱 [本節](../audience/about-audiences.md).
 
@@ -129,12 +129,12 @@ ht-degree: 0%
 
    ![](assets/audience-selected.png)
 
-## 排程傳送 {#schedule}
+## 排程寄送 {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="排程傳送"
->abstract="定義傳送的日期和確切時間。 選擇最適合您的行銷訊息的時間，即可將開放率最大化。"
+>title="排程寄送"
+>abstract="定義寄送日期和確切時間。為您的行銷電子郵件選擇最合適的時間，可以將開啟率提升至最高。"
 
 若要排程電子郵件的傳送，請開啟您的電子郵件傳送，並瀏覽至 **排程** 區段。 使用 **[!UICONTROL 啟用排程]** 切換以啟動，並設定要傳送的日期和時間。 傳送後，實際傳送將從您定義的聯絡日期開始。
 
