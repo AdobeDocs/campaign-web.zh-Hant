@@ -65,9 +65,9 @@ Global report not alpha
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
->abstract="**Explorer** 選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和結構描述。所有清單都是唯讀的，電子郵件傳遞清單表除外。"
+>abstract="**Explorer** 選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和方案。所有清單都是唯讀的，電子郵件傳遞清單表除外。"
 
-**Explorer** 選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和結構描述。所有清單都是唯讀的，電子郵件傳遞清單表除外。
+**Explorer** 選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和方案。所有清單都是唯讀的，電子郵件傳遞清單表除外。
 
 瀏覽器中顯示的項目取決於您的使用者權限。
 

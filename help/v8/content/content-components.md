@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="關於內容元件"
->abstract="內容元件是空白的內容預留位置，可用來建立電子郵件版面。"
+>abstract="內容元件指可用於建立電子郵件版面的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="關於內容元件"
->abstract="內容元件是空白的內容預留位置，可用來建立登錄頁面的版面。"
+>abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="關於內容元件"
->abstract="內容元件是空白的內容預留位置，可用來建立片段的版面。"
+>abstract="內容元件指可用於建立片段版面的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
 >title="關於內容元件"
->abstract="內容元件是空白的內容預留位置，可用來建立範本的版面。"
+>abstract="內容元件指可用於建立範本版面的空白內容預留位置。"
 
 ## 新增內容元件 {#add-content-components}
 

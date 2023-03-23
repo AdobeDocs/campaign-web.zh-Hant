@@ -30,7 +30,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="電子郵件屬性"
->abstract="這些屬性是常見的傳遞參數，可幫助您對傳遞進行命名和分類。如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充型結構描述，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
+>abstract="這些屬性是常見的傳遞參數，可幫助您對傳遞進行命名和分類。如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充型方案，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
 
 1. 若要建立新傳送，請瀏覽至 **[!UICONTROL 傳遞]** ，然後按一下  **[!UICONTROL 建立傳送]** 按鈕。
 
@@ -59,7 +59,7 @@ ht-degree: 12%
 
    此外，進階設定（例如類型規則和目標對應）可按一下傳送名稱旁的按鈕來存取。 這些設定會在選取的範本中預先設定，但可視需要編輯此特定電子郵件。
 
-## 建立電子郵件內容 {#create-content}
+## 建立該電子郵件內容 {#create-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"

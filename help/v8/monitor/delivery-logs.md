@@ -17,7 +17,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="傳送記錄檔"
->abstract="TBC"
+>abstract="待定"
 
 準備和傳送電子郵件後，傳送記錄可讓您確認沒有錯誤。 可直接從訊息控制面板存取這些記錄檔。 其中會顯示傳送的詳細資料、已排除的目標、原因，以及開啟和點按數等追蹤資訊。
 

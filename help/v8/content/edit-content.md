@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="建立電子郵件內容"
->abstract="透過此小節，您可以建立電子郵件的內容，並使用電子郵件設計工具提供精美的外觀。"
+>title="建立該電子郵件內容"
+>abstract="使用此區段，您可以為電子郵件建立內容並使用電子郵件設計工具賦予其精美的外觀。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="電子郵件標題"
->abstract="TBC"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="電子郵件附件"
->abstract="TBC"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="追蹤選項"
->abstract="TBC"
+>abstract="待定"
 
 若要開始建立電子郵件內容，請按一下 **[!UICONTROL 編輯內容]** 按鈕。
 

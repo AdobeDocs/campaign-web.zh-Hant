@@ -6,7 +6,7 @@ exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景設定"
->abstract="您可以個人化內容的背景顏色或背景影像。 請注意，並非所有電子郵件用戶端都支援背景影像。"
+>abstract="您可以將內容的背景顏色或背景影像個人化。請注意，並非所有的電子郵件用戶端都支援背景影像。"
 
 若是使用電子郵件設計工具來設定背景，Adobe建議使用下列項目：
 

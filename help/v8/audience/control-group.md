@@ -34,7 +34,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="從目標中擷取"
->abstract="TBC"
+>abstract="待定"
 
 若要定義控制組，您可以選擇從目標人口中隨機或基於排序、百分比或固定數量的設定檔中擷取。
 
@@ -74,12 +74,12 @@ ht-degree: 26%
 
 如需傳送記錄檔的詳細資訊，請參閱 [節](../monitor/delivery-logs.md).
 
-## 額外族群 {#extra-population}
+## 額外母體 {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
->title="額外族群"
->abstract="TBC"
+>title="額外母體"
+>abstract="待定"
 
 定義控制組的另一種方法是使用現有對象或定義查詢，從目標中排除特定母體。
 
