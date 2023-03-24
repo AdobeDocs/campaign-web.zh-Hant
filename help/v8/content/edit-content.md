@@ -3,10 +3,10 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 了解如何在Campaign網頁UI中編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 10%
+source-wordcount: '384'
+ht-degree: 8%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="電子郵件標題"
->abstract="待定"
+>abstract="在本節中，您可以控制電子郵件範本中定義的「寄件者名稱」和「寄件者電子郵件」值。 可使用運算式編輯器自訂「主旨行」欄位。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="電子郵件附件"
->abstract="待定"
+>abstract="選取要插入訊息中的一或多個檔案。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="追蹤選項"
->abstract="待定"
+>abstract="依預設，會為傳送啟用追蹤。 您可以在此停用此選項。"
 
 若要開始建立電子郵件內容，請按一下 **[!UICONTROL 編輯內容]** 按鈕。
 

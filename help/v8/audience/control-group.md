@@ -3,10 +3,10 @@ audience: end-user
 title: 設定控制組
 description: 了解如何在Campaign網頁UI中為訊息設定控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 26%
+source-wordcount: '576'
+ht-degree: 28%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="從目標中擷取"
->abstract="待定"
+>abstract="若要定義控制組，您可以選擇從目標人口中隨機或基於排序、百分比或固定數量的設定檔中擷取。"
 
 若要定義控制組，您可以選擇從目標人口中隨機或基於排序、百分比或固定數量的設定檔中擷取。
 
@@ -79,7 +79,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="額外母體"
->abstract="待定"
+>abstract="定義控制組的另一種方法是使用現有對象或定義查詢，從目標中排除特定母體。"
 
 定義控制組的另一種方法是使用現有對象或定義查詢，從目標中排除特定母體。
 

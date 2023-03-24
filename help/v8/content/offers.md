@@ -3,26 +3,16 @@ audience: end-user
 title: 傳送優惠方案
 description: 傳送優惠方案
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 1%
+source-wordcount: '521'
+ht-degree: 0%
 
 ---
 
 # 傳送優惠方案 {#offers-content}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_settings"
->title="優惠設定"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_advanced_settings"
->title="優惠進階設定 "
->abstract="待定"
 
 Adobe Campaign v8 Web可讓您使用 **[!UICONTROL 互動]** 模組。 如需互動以及如何在主控台中管理優惠方案目錄的詳細資訊，請參閱 [Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
@@ -32,6 +22,16 @@ Adobe Campaign v8 Web可讓您使用 **[!UICONTROL 互動]** 模組。 如需互
 1. [將優惠方案插入電子郵件](#insert).
 
 ## 設定要建議的選件 {#configure}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_settings"
+>title="優惠設定"
+>abstract="設定應向收件者建議哪些優惠方案。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_advanced_settings"
+>title="優惠進階設定 "
+>abstract="在選件上設定進階選項。"
 
 1. 若要選取要在電子郵件中建議的優惠方案，請按一下 **[!UICONTROL 選件]** 按鈕。
 

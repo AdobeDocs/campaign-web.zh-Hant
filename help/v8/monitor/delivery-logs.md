@@ -3,10 +3,10 @@ audience: end-user
 title: 監視傳送記錄
 description: 了解如何監視傳送記錄
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 22%
+source-wordcount: '306'
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="傳送記錄檔"
->abstract="待定"
+>abstract="傳送記錄檔可讓您確認沒有錯誤。"
 
 準備和傳送電子郵件後，傳送記錄可讓您確認沒有錯誤。 可直接從訊息控制面板存取這些記錄檔。 其中會顯示傳送的詳細資料、已排除的目標、原因，以及開啟和點按數等追蹤資訊。
 
