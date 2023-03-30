@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
+source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -77,20 +77,21 @@ ht-degree: 0%
 
 
 內建內容區塊包括：
-* **[!UICONTROL 由Adobe Campaign啟用]** :插入「Enabled by Adobe Campaign」標誌。
-* **[!UICONTROL 專名的格式功能]** :會產生 **[!UICONTROL toSmartCase]** Javascript函式，可將每個字詞的首字母變更為大寫。
-* **[!UICONTROL 問候]** :插入帶有收件人名稱的問候語。 範例：「你好，無名氏，」
-* **[!UICONTROL 插入徽標]** :插入在實例設定中定義的徽標。
-* **[!UICONTROL 鏡像頁面的連結]** :插入指向鏡像頁面的連結：「如果您無法正確檢視此訊息，請按一下這裡」。
-* **[!UICONTROL 鏡像頁面URL]** :插入鏡像頁面URL，使「傳遞設計人員」能夠檢查連結。
-* **[!UICONTROL 以統一模式提供接受URL]** :插入URL，以便將選件設定為 **[!UICONTROL 已接受]**.
-* **[!UICONTROL 註冊頁面URL]** :插入訂閱URL。
-* **[!UICONTROL 註冊連結]** :插入訂閱連結。 此連結會在執行個體設定中定義。 預設內容為：&quot;要註冊，請按一下這裡。&quot;
-* **[!UICONTROL 註冊連結（具有反向連結）]** :插入訂閱連結，以識別訪客和傳送。 此連結會在執行個體設定中定義。
-* **[!UICONTROL 註冊確認]** :插入啟用以確認訂閱的連結。
-* **[!UICONTROL 社交網路分享連結]** :插入按鈕，使收件者能夠共用鏡像頁面內容的連結。
-* **[!UICONTROL 內容電子郵件的樣式]** 和 **[!UICONTROL 通知樣式]** :產生程式碼，使用預先定義的HTML樣式來格式化電子郵件。
-* **[!UICONTROL 取消訂閱連結]** :插入可從所有傳送（封鎖清單）中取消訂閱的連結。 預設關聯內容為：「你收到這條資訊是因為你與 ***您的組織名稱*** 或附屬機構。 不再接收來自 ***您的組織名稱*** 按一下這裡。」
+
+* **[!UICONTROL 由Adobe Campaign啟用]**:插入「Enabled by Adobe Campaign」標誌。
+* **[!UICONTROL 專名的格式功能]**:會產生 **[!UICONTROL toSmartCase]** Javascript函式，可將每個字詞的首字母變更為大寫。
+* **[!UICONTROL 問候]**:插入帶有收件人全名的問候語，後面跟逗號。 範例：「你好，無名氏，」
+* **[!UICONTROL 插入徽標]**:插入在實例設定中定義的徽標。
+* **[!UICONTROL 鏡像頁面的連結]**:插入連結至 [鏡像頁面](mirror-page.md). 預設格式為：「如果您無法正確檢視此訊息，請按一下這裡」。
+* **[!UICONTROL 鏡像頁面URL]**:插入鏡像頁面URL，使「傳遞設計人員」能夠檢查連結。
+* **[!UICONTROL 以統一模式提供接受URL]**:插入URL，以便將選件設定為 **[!UICONTROL 已接受]**. （如果已啟用互動模組，便可使用此區塊）
+* **[!UICONTROL 註冊確認]**:插入啟用以確認訂閱的連結。
+* **[!UICONTROL 註冊連結]**:插入訂閱連結。 此連結會在執行個體設定中定義。 預設內容為：&quot;要註冊，請按一下這裡。&quot;
+* **[!UICONTROL 註冊連結（具有反向連結）]**:插入訂閱連結，以識別訪客和傳送。 此連結會在執行個體設定中定義。
+* **[!UICONTROL 註冊頁面URL]**:插入訂閱URL
+* **[!UICONTROL 內容電子郵件的樣式]** 和 **[!UICONTROL 通知樣式]**:產生程式碼，使用預先定義的HTML樣式來格式化電子郵件。
+* **[!UICONTROL 取消訂閱連結]**:插入可從所有傳送（封鎖清單）中取消訂閱的連結。 預設關聯內容為：「你收到這條資訊是因為你與 ***您的組織名稱*** 或附屬機構。 不再接收來自 ***您的組織名稱*** 按一下這裡。」
+
 
 
 ## 個人化電子郵件中的連結 {#personalize-links}
