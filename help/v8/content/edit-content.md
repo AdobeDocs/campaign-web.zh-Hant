@@ -3,9 +3,9 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 了解如何在Campaign網頁UI中編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '376'
 ht-degree: 8%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="電子郵件標題"
->abstract="在本節中，您可以控制電子郵件範本中定義的「寄件者名稱」和「寄件者電子郵件」值。 可使用運算式編輯器自訂「主旨行」欄位。"
+>title="電子郵件參數"
+>abstract="「寄件者名稱」和「寄件者電子郵件」值是在電子郵件範本中定義。 使用運算式編輯器可個人化主旨行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"

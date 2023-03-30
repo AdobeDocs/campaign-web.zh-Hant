@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -82,7 +82,7 @@ ht-degree: 0%
 * **[!UICONTROL 專名的格式功能]**:會產生 **[!UICONTROL toSmartCase]** Javascript函式，可將每個字詞的首字母變更為大寫。
 * **[!UICONTROL 問候]**:插入帶有收件人全名的問候語，後面跟逗號。 範例：「你好，無名氏，」
 * **[!UICONTROL 插入徽標]**:插入在實例設定中定義的徽標。
-* **[!UICONTROL 鏡像頁面的連結]**:插入連結至 [鏡像頁面](mirror-page.md). 預設格式為：「如果您無法正確檢視此訊息，請按一下這裡」。
+* **[!UICONTROL 鏡像頁面的連結]**:插入連結至 [鏡像頁面](../content/mirror-page.md). 預設格式為：「如果您無法正確檢視此訊息，請按一下這裡」。
 * **[!UICONTROL 鏡像頁面URL]**:插入鏡像頁面URL，使「傳遞設計人員」能夠檢查連結。
 * **[!UICONTROL 以統一模式提供接受URL]**:插入URL，以便將選件設定為 **[!UICONTROL 已接受]**. （如果已啟用互動模組，便可使用此區塊）
 * **[!UICONTROL 註冊確認]**:插入啟用以確認訂閱的連結。

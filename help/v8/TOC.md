@@ -5,10 +5,10 @@ description: Campaign v8網頁檔案
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 網頁檔案
 hide: true
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 15%
+source-wordcount: '172'
+ht-degree: 18%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 15%
          + [編寫您自己的內容](content/code-content.md)
       + [使用內容元件](content/content-components.md)
       + [生成文本版本](content/text-version-email.md)
+      + [向鏡像頁面添加連結](content/mirror-page.md)
       + [新增前置詞](content/preheader.md)
       + [新增連結及追蹤訊息](content/message-tracking.md)
    + 設定內容的樣式 {#style}

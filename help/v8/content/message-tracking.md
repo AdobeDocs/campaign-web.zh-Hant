@@ -3,9 +3,9 @@ audience: end-user
 title: 追蹤您的訊息
 description: 了解如何新增連結及追蹤已傳送的訊息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -45,37 +45,7 @@ ht-degree: 1%
 >
 >行銷類型的電子郵件訊息必須包含選擇退出連結，這對於交易式訊息並非必要。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 交易]**)是在通道表面（即訊息預設集）層級和建立訊息時定義。
 
-## 連結至鏡像頁面 {#mirror-page}
-
-鏡像頁面是可透過網頁瀏覽器線上存取的HTML頁面。 其內容與您的電子郵件內容相同。
-
-若要將連結新增至電子郵件中的鏡像頁面：
-
-1. 選取元素並按一下 **[!UICONTROL 插入連結]** 中。
-
-   ![](assets/message-tracking-mirror-page.png)
-
-1. 選取 **[!UICONTROL 插入連結]** 圖示來存取個人化功能表。
-
-   ![](assets/message-tracking-mirror-page_2.png)
-
-1. 從 **[!UICONTROL 內容區塊]** 菜單，選擇 **[!UICONTROL 鏡像頁面URL]** 按一下 **[!UICONTROL 新增]**.
-
-   ![](assets/message-tracking-mirror-page_3.png)
-
-鏡像頁面會自動建立。
-
->[!IMPORTANT]
->
->鏡像頁面連結會自動產生，且無法編輯。 它們包含呈現原始電子郵件所需的所有加密個人化資料。 因此，使用具有大值的個人化屬性可能會產生長的鏡像頁面URL，而這會使連結無法在URL長度上限的網頁瀏覽器中運作。
-
-傳送電子郵件後，當收件者按一下鏡像頁面連結時，電子郵件的內容會顯示在其預設的網頁瀏覽器中。
-
->[!NOTE]
->
->在傳送至測試設定檔的測試電子郵件中，鏡像頁面的連結未作用中。 它只會在最終訊息中啟動。
-
-鏡像頁面的保留期為60天。 延遲後，鏡像頁面將不再可用。
+所有電子郵件訊息中都應新增鏡像頁面的特定連結。 深入了解鏡像頁面，位於 [本節](mirror-page.md).
 
 ## 管理追蹤 {#manage-tracking}
 
