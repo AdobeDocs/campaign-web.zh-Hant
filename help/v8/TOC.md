@@ -5,9 +5,9 @@ description: Campaign v8網頁檔案
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 網頁檔案
 hide: true
-source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '229'
 ht-degree: 23%
 
 ---
@@ -61,9 +61,10 @@ ht-degree: 23%
       + [開始使用SMS傳遞](sms/gs-sms.md)
 + 對象與收件者 {#audiences}
    + [開始使用 Audiences](audience/about-audiences.md)
-   + [選取對象](audience/add-audience.md)
+   + [選取現有對象](audience/add-audience.md)
    + [使用規則產生器建立對象](audience/segment-builder.md)
    + [匯入對象](audience/import-audience.md)
+   + [使用Adobe Experience Platform對象](audience/aep-audience.md)
    + [設定控制組](audience/control-group.md)
 + 跨頻道行銷活動 {#campaigns}
    + [開始使用行銷活動](campaigns/gs-campaigns.md)
