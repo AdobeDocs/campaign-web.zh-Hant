@@ -3,8 +3,8 @@ audience: end-user
 title: 預覽電子郵件內容
 description: 了解如何使用Campaign網頁UI預覽您的電子郵件內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Alpha" type="Infertitive"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 11%

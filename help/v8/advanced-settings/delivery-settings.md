@@ -3,8 +3,8 @@ audience: end-user
 title: 電子郵件傳送設定
 description: 進一步了解Campaign網頁UI中的電子郵件傳送設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alpha" type="Infertitive"
-source-git-commit: 5ae59f72739943a7073e7cbd0d4d8cec0b7eb7ee
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 27%

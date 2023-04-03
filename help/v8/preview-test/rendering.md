@@ -3,8 +3,8 @@ audience: end-user
 title: 測試電子郵件呈現
 description: 了解如何在Campaign網頁UI中測試您的電子郵件呈現
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="Alpha" type="Infertitive"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%

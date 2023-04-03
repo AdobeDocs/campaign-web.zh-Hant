@@ -3,8 +3,8 @@ audience: end-user
 title: 建立電子郵件的文字版本
 description: 了解如何建立電子郵件的文字版本
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Alpha" type="Infertitive"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
