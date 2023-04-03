@@ -5,10 +5,10 @@ description: Campaign v8網頁檔案
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 網頁檔案
 hide: true
-source-git-commit: 694085f49f2722cc8eefb08196503bc210e36ffa
+source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 24%
+source-wordcount: '222'
+ht-degree: 23%
 
 ---
 
@@ -62,8 +62,9 @@ ht-degree: 24%
 + 對象與收件者 {#audiences}
    + [開始使用 Audiences](audience/about-audiences.md)
    + [選取對象](audience/add-audience.md)
+   + [使用規則產生器建立對象](audience/segment-builder.md)
+   + [匯入對象](audience/import-audience.md)
    + [設定控制組](audience/control-group.md)
-   + [使用規則產生器定義對象](audience/segment-builder.md)
 + 跨頻道行銷活動 {#campaigns}
    + [開始使用行銷活動](campaigns/gs-campaigns.md)
    + [建立您的第一個行銷活動](campaigns/create-campaigns.md)
