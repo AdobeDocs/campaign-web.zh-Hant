@@ -4,10 +4,10 @@ title: 開始使用 Audiences
 description: 了解如何在Campaign網頁UI中使用對象
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 16%
+source-wordcount: '137'
+ht-degree: 27%
 
 ---
 
@@ -44,9 +44,11 @@ control groups like acc: exract, random, based on attribute
 
 若要定義對象，您可以：
 
-* 使用現有對象，請參閱 [節](add-audience.md).
-* 建立新對象。 看這個 [節](segment-builder.md).
+* 使用現有對象。 [了解更多](add-audience.md)
+* 建立新對象。 [了解更多](segment-builder.md)
+* 從檔案匯入對象. [了解更多](import-audience.md)
+* 使用Adobe Experience Platform對象。 [了解更多](aep-audience.md)
 
-您也可以定義控制組，以避免傳送訊息給部分對象，以評估行銷活動的影響。 看這個 [節](control-group.md).
+此外，您可以定義控制組，以避免傳送訊息給部分對象，並評估行銷活動的影響。 [了解更多](control-group.md)
 
 ![](assets/about-audience.png)
