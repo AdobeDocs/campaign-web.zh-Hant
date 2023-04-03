@@ -3,16 +3,16 @@ audience: end-user
 title: 定義連結的樣式
 description: 了解如何定義連結的樣式
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Infertitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
 
-# 定義連結的樣式 {#styling-links}
 
-![](../assets/do-not-localize/badge.png)
+# 定義連結的樣式 {#styling-links}
 
 您可以在電子郵件設計工具中為連結加底線，並選取其顏色和目標。
 

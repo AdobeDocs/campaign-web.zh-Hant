@@ -3,16 +3,16 @@ audience: end-user
 title: 傳送您的第一封電子郵件
 description: 了解如何使用Campaign網頁UI傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
+badge: label="Alpha" type="Infertitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1296'
 ht-degree: 12%
 
 ---
 
-# 傳送您的第一封電子郵件 {#first-email}
 
-![](../assets/do-not-localize/badge.png)
+# 傳送您的第一封電子郵件 {#first-email}
 
 了解如何建立第一個目標式電子郵件。 在此使用案例中，您會排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 

@@ -3,9 +3,10 @@ audience: end-user
 title: 設定控制組
 description: 了解如何在Campaign網頁UI中為訊息設定控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+badge: label="Alpha" type="Infertitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '580'
 ht-degree: 28%
 
 ---

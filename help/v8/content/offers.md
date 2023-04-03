@@ -3,16 +3,16 @@ audience: end-user
 title: 傳送優惠方案
 description: 傳送優惠方案
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+badge: label="Alpha" type="Infertitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
 
-# 傳送優惠方案 {#offers-content}
 
-![](../assets/do-not-localize/badge.png)
+# 傳送優惠方案 {#offers-content}
 
 Adobe Campaign v8 Web可讓您使用 **[!UICONTROL 互動]** 模組。 如需互動以及如何在主控台中管理優惠方案目錄的詳細資訊，請參閱 [Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 

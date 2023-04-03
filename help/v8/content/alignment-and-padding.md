@@ -3,16 +3,16 @@ audience: end-user
 title: 在電子郵件設計工具中調整垂直對齊和邊框間距
 description: 了解如何調整垂直對齊和邊框間距
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Infertitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '174'
 ht-degree: 1%
 
 ---
 
-# 調整垂直對齊和邊框間距 {#alignment-and-padding}
 
-![](../assets/do-not-localize/badge.png)
+# 調整垂直對齊和邊框間距 {#alignment-and-padding}
 
 在此示例中，我們調整由三列組成的結構元件內的邊框間距和垂直對齊方式。
 

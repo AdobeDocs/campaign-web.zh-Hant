@@ -3,16 +3,15 @@ audience: end-user
 title: 傳送測試電子郵件
 description: 了解如何定義和傳送測試電子郵件
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Infertitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
 
 # 傳送測試電子郵件 {#send-proofs}
-
-![](../assets/do-not-localize/badge.png)
 
 傳送測試電子郵件是驗證電子郵件行銷活動及識別潛在問題的重要步驟。 透過傳送測試電子郵件，您可以檢查各種元素，例如連結、選擇退出連結、影像和鏡像頁面，並偵測任何錯誤。
 

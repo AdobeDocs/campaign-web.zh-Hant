@@ -3,16 +3,16 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: 了解如何使用Campaign網頁UI準備和傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
+badge: label="Alpha" type="Infertitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '652'
 ht-degree: 28%
 
 ---
 
-# 準備並傳送您的電子郵件 {#prepare-send}
 
-![](../assets/do-not-localize/badge.png)
+# 準備並傳送您的電子郵件 {#prepare-send}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"

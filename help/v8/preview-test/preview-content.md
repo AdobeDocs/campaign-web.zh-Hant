@@ -3,16 +3,16 @@ audience: end-user
 title: 預覽電子郵件內容
 description: 了解如何使用Campaign網頁UI預覽您的電子郵件內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
+badge: label="Alpha" type="Infertitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 12%
+source-wordcount: '252'
+ht-degree: 11%
 
 ---
 
-# 預覽電子郵件內容 {#preview}
 
-![](../assets/do-not-localize/badge.png)
+# 預覽電子郵件內容 {#preview}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"

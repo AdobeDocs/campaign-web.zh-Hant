@@ -3,22 +3,16 @@ audience: end-user
 title: 傳遞報告
 description: 了解如何存取和使用傳遞報告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
+badge: label="Alpha" type="Infertitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
 # 傳遞報告 {#reports}
 
-![](../assets/do-not-localize/badge.png)
-
-<!--
-detail delivery reports and how to access them
-
-same content as in v7 (excepted for the navigation that is similar to AJO
--->
 
 Adobe Campaign提供數種報表類型，可供每次傳送存取。 這些報表可讓您在內建控制面板中測量並視覺化訊息的影響和效能。
 
@@ -72,7 +66,7 @@ Adobe Campaign提供數種報表類型，可供每次傳送存取。 這些報�
 
    ![](assets/reporting10.png)
 
-## Hotclick
+## 熱門點按
 
 此報表顯示訊息內容(HTML和/或文字)，在每個連結上包含點按連結的百分比。 個人化區塊取消訂閱連結、鏡像頁面連結和選件連結會納入累積點按總數中，但不會顯示在報表中。
 

@@ -3,19 +3,17 @@ keywords: Campaign Web；首頁；熱門主題
 description: Campaign Web v8說明中心
 title: Adobe Campaign Web v8產品檔案
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 42d28b988444c9a6dc7b816485fa28bbe6cda5ca
+badge: label="Alpha" type="Infertitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 9%
+source-wordcount: '124'
+ht-degree: 8%
 
 ---
 
 # Adobe Campaign v8網頁檔案 {#campaign-documentation}
 
 ![](assets/do-not-localize/banner-documentationv8.png)
-
-![](assets/do-not-localize/badge.png)
-
 
 Campaign現在提供新的網頁使用者介面，其可增強可用性、協助工具，以及可大幅改善您的使用者體驗的新設計。 這個新的現代化UI可簡化行銷活動的設計和傳遞，並與其他Adobe解決方案(包括Adobe Experience Platform)保持一致。 [了解更多](get-started/get-started.md)
 

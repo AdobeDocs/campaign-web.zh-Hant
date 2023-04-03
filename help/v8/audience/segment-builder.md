@@ -3,16 +3,15 @@ audience: end-user
 title: 使用規則產生器定義對象
 description: 了解如何使用區段產生器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Infertitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
 
 # 使用規則產生器定義對象 {#segment-builder}
-
-![](../assets/do-not-localize/badge.png)
 
 本節說明如何在設計新電子郵件時建立對象。 建立的對象只能用於此電子郵件。
 

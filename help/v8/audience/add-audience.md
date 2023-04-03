@@ -3,16 +3,16 @@ audience: end-user
 title: 選取對象
 description: 了解如何選取對象
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Infertitive"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '246'
 ht-degree: 18%
 
 ---
 
-# 選取對象 {#add-audience}
 
-![](../assets/do-not-localize/badge.png)
+# 選取對象 {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
