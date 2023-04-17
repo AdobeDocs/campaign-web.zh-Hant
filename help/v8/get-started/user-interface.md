@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 7c5ea340eb99b4cbacd5697b7d059f3e9c09f049
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1360'
 ht-degree: 36%
 
 ---
@@ -287,4 +287,19 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="錯誤量度"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_content"
+>title="推播Android內容"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_iOS_content"
+>title="推播iOS內容"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_content"
+>title="SMS內容"
 >abstract="待定"
