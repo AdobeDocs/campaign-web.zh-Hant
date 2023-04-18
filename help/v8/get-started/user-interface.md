@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 7c5ea340eb99b4cbacd5697b7d059f3e9c09f049
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 36%
+source-wordcount: '1319'
+ht-degree: 34%
 
 ---
 
@@ -117,11 +117,6 @@ Navtree view depends on permissions (same as console).
 >id="acw_subscriptions_list"
 >title="訂閱清單"
 >abstract="瀏覽您的訂閱清單。您可以檢視其類型、模式和標籤。此清單是唯讀的。"
-
->[!CONTEXTUALHELP]
->id="acw_targeting_workflow_list"
->title="目標定位工作流程"
->abstract="存取您的 Campaign 工作流程清單。您可以檢視其狀態、上次/下次處理日期和環境。您可以依狀態、最後處理日期和工作流程類型來篩選清單。也提供工作流程範本。這些清單是唯讀的。"
 
 * **收件者**  — 訪問您的收件者資料庫。 依預設，您可以檢視其電子郵件地址、名字和姓氏。 此清單是唯讀的。
 * **對象**  — 此為您的對象清單。 依預設，您可以檢視其類型、來源、建立/上次修改日期和標籤。 您可以依來源來篩選清單。此清單是唯讀的。

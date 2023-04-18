@@ -3,9 +3,10 @@ audience: end-user
 title: 使用工作流程資料管理活動
 description: 了解如何將資料管理活動用於Adobe Campaign網頁工作流程
 badge: label="Alpha" type="Positive"
-source-git-commit: 5efcdf2da104b86bf3ee37ee7162495c2d99fb48
+exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -18,7 +19,12 @@ ht-degree: 1%
 
 ## 擴充 {#enrichment}
 
-擴充活動通常用於目標定位活動後的工作流程中。 它可讓您使用資料庫的其他資訊來增強目標資料。
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="擴充活動"
+>abstract="「擴充」活動可讓您使用資料庫的其他資訊增強目標資料。 它通常用於目標定位活動後的工作流程中。<br/>擴充資料新增至工作流程後，便可用於擴充活動後新增的活動，以根據客戶的行為、偏好和需求，將客戶細分為不同的群組，或建立更可能與目標對象產生迴響的個人化行銷訊息和行銷活動。"
+
+「擴充」活動可讓您使用資料庫的其他資訊增強目標資料。 它通常用於目標定位活動後的工作流程中。
 
 擴充資料可能會出現：
 
