@@ -4,16 +4,16 @@ title: 開始使用工作流程
 description: 了解如何從工作流程開始
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 2%
+source-wordcount: '358'
+ht-degree: 3%
 
 ---
 
 # 開始使用工作流程 {#workflows}
 
-## 什麼是Adobe Campaign工作流程？
+## 什麼是工作流程？
 
 對於任何希望有效觸及客戶的企業來說，跨管道行銷都是不可或缺的。 Adobe Campaign提供全方位的圖形環境，能讓您設計複雜的程式，以協助您輕鬆管理行銷活動。
 
