@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1388'
 ht-degree: 34%
 
 ---
@@ -227,6 +227,8 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
+REFER TO 
+https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -290,11 +292,123 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_iOS_content"
+>id="acw_deliveries_push_ios_content"
 >title="推播iOS內容"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS內容"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="應用程式訂閱者"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="測試填充"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="預覽模式"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="擴充資料"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="個人化"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_select"
+>title="檔案選擇"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_columns"
+>title="欄定義"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_formatting"
+>title="格式化參數"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="報表傳送"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="報表追蹤"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="報表概觀"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="報告目標統計資訊"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_selection"
+>title="匯總報表選取傳送"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="促銷活動屬性"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="行銷活動排程"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="工作流程清單"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="行銷活動建立"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="行銷活動排程"
+>abstract="待定"
+
+
+<!--BETA-->
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_fields"
+>title="重複資料刪除欄位"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="重複資料刪除設定"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="重複資料消除補充"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_dimension_complement"
+>title="Dimension補充"
 >abstract="待定"
