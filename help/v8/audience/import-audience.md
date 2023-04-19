@@ -3,10 +3,11 @@ audience: end-user
 title: 從檔案匯入收件者
 description: 了解如何從外部檔案匯入收件者
 badge: label="Alpha" type="Positive"
-source-git-commit: c44518e6e760fd7afcb90d3aec86e229ae1e2daf
+exl-id: e6e0dd01-5573-4261-aace-fd173827c383
+source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 5%
+source-wordcount: '175'
+ht-degree: 10%
 
 ---
 
@@ -28,3 +29,21 @@ ht-degree: 5%
 1. 按一下 **確認** 一旦設定正確。
 
 建立和個人化訊息內容時，您可以在「個人化」編輯器中從輸入檔案選取欄位。
+
+## 範例檔案 {#sample-file}
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="範例檔案"
+>abstract="支援的檔案格式：txt、csv、xls。 使用第一行作為欄標題."
+
+
+```json
+{
+lastname,firstname,birthdate,email,crmID
+Smith,Hayden,23/05/1989,hayden.smith@example.com,124365
+Mars,Daniel,17/11/1987,dannymars@example.com,123545
+Smith,Clara,08/02/1989,clara.smith@example.com,124567
+Durance,Allison,15/12/1978,allison.durance@example.com,120987
+}
+```
