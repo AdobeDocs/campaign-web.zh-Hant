@@ -4,9 +4,9 @@ title: 編寫您自己的電子郵件內容
 description: 了解如何編寫您自己的電子郵件內容
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,13 @@ ht-degree: 0%
 
 1. 使用左窗格以運用個人化功能。
 
-1. 如果您想要開啟電子郵件設計工具以從新設計啟動電子郵件，請選取 **[!UICONTROL 變更您的設計]** ，從「選項」菜單。
+1. 如果您想要清除電子郵件內容，並從新設計開始啟動電子郵件，請選取 **[!UICONTROL 變更您的設計]** ，從「選項」菜單。
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >此操作將開啟電子郵件設計工具中選定的模板。 從那裡，您可以完成電子郵件的設計，或使用返回代碼編輯器 **[!UICONTROL 切換至程式碼編輯器]** 選項。
 
 1. 按一下 **[!UICONTROL 模擬內容]** 按鈕，使用測試設定檔來檢查訊息設計和個人化。
 

@@ -4,9 +4,9 @@ title: 在電子郵件設計工具中設計電子郵件
 description: 了解如何從草稿開始設計您的電子郵件內容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '522'
 ht-degree: 24%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 24%
 
    ![](assets/email_designer_7.png)
 
-1. 如有需要，您可以按一下 **[!UICONTROL 切換至程式碼編輯器]** 的上界。 [進一步了解程式碼編輯器](code-content.md)
+1. 如有需要，您可以按一下 **[!UICONTROL 切換至程式碼編輯器]** 從進階功能表，直接使用電子郵件的原始碼。 [進一步了解程式碼編輯器](code-content.md)
 
    >[!CAUTION]
    >
