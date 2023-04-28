@@ -1,13 +1,13 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 Web
+title: Adobe Campaign v8網頁檔案
 description: Campaign v8網頁檔案
 breadcrumb-title: Campaign 概覽
-title: Campaign v8 網頁檔案
 hide: true
-source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
+source-git-commit: 370485f8d353d1d9140afbcb1a377db51a23800f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '258'
 ht-degree: 22%
 
 ---
