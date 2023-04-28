@@ -5,10 +5,10 @@ description: Campaign v8網頁檔案
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 網頁檔案
 hide: true
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 23%
+source-wordcount: '262'
+ht-degree: 22%
 
 ---
 
@@ -74,12 +74,13 @@ ht-degree: 23%
    + 建立您的第一個工作流程 {#create-workflow}
       + [建立工作流程的主要原則](workflows/gs-workflow-creation.md)
       + [建立工作流程](workflows/create-workflow.md)
-      + [啟動和監視工作流程執行](workflows/start-monitor-workflows.md)
-   + 設計工作流程 {#design-workflows}
-      + [開始使用工作流程畫布](workflows/gs-canvas.md)
+      + [協調工作流程活動](workflows/build-workflow.md)
+      + [配置工作流設定](workflows/workflow-settings.md)
+      + [啟動和監控工作流程](workflows/start-monitor-workflows.md)
+   + [存取及管理您的工作流程](workflows/access-monitor.md)
+   + 使用工作流程活動 {#design-workflows}
       + [目標定位活動](workflows/targeting-activities.md)
       + [管道活動](workflows/channel-activities.md)
       + [資料管理活動](workflows/data-management-activities.md)
-   + [存取和監控工作流程](workflows/access-monitor.md)
 + [報告](reporting/reports.md)
 
