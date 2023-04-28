@@ -4,15 +4,17 @@ title: 使用Adobe Campaign Web建立工作流程
 description: 了解如何使用Adobe Campaign Web建置工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 
 # 建立工作流程的主要原則 {#gs-workflow-creation}
+
+內容待定
 
 工作流是流程定義：工作流程圖表，用來表示應該發生的事件。 工作流程也是此程式的例項：工作流程例項，代表實際發生的情況。
 
@@ -43,3 +45,5 @@ ht-degree: 0%
 建立工作流程的主要步驟如下：
 
 待定：顯示整個過程的圖形，說明和文檔頁面的參考
+
+建立和定義屬性>在畫布中編排活動>視需要設定>開始執行和監視
