@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 2c5d4c46892ad9fa575e4ed56aa6fa599f1ece7b
+source-git-commit: 5a99d2145bcc4ac1c3cdc00ef745049c728c2a28
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 33%
+source-wordcount: '1372'
+ht-degree: 34%
 
 ---
 
@@ -380,4 +380,14 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="Dimension補充"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_push_permission_for_segment"
+>title="需要權限"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_push_overview_edit"
+>title="需要權限"
 >abstract="待定"
