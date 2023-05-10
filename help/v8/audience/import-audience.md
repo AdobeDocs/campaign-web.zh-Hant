@@ -4,9 +4,9 @@ title: 從檔案匯入收件者
 description: 了解如何從外部檔案匯入收件者
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
+source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '174'
 ht-degree: 10%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="範例檔案"
->abstract="支援的檔案格式：txt、csv、xls。 使用第一行作為欄標題."
+>abstract="支援的檔案格式：txt、csv。 使用第一行作為欄標題."
 
 
 ```json
