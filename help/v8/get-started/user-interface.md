@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 3ab348b26069188048af46e8f3555c4983c4d644
+source-git-commit: dfba72461c4287e2afb1ebfc2697b9c79e98329c
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1394'
 ht-degree: 34%
 
 ---
@@ -409,4 +409,9 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="推送傳送屬性"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_metrics_newquarantines"
+>title="新隔離量度"
 >abstract="待定"
