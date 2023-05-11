@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
+source-git-commit: 3ab348b26069188048af46e8f3555c4983c4d644
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1390'
 ht-degree: 34%
 
 ---
@@ -361,7 +361,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >title="工作流程清單"
 >abstract="待定"
 
-<!--BETA-->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="重複資料刪除欄位"
@@ -400,4 +399,14 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="規則產生器進階欄位"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_properties"
+>title="簡訊傳送屬性"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_properties"
+>title="推送傳送屬性"
 >abstract="待定"
