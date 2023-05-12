@@ -5,26 +5,26 @@ description: 了解如何新增內嵌樣式屬性
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # 新增內嵌樣式屬性 {#adding-inline-styling-attributes}
 
-在電子郵件設計工具介面中，當您選取元素並在右窗格中顯示其設定時，可以自訂該特定元素的內嵌屬性及其值。
+在電子郵件設計工具介面，當您選取一個元素並在右窗格顯示其設定時，您可以自訂該特定元素的內嵌屬性及其值。
 
-1. 直接在內容中選取元件，或使用 **[!UICONTROL 導航樹]** 可在左窗格中使用。
+1. 直接在您的內容或使用左窗格中的&#x200B;**[!UICONTROL 導覽樹狀目錄]**&#x200B;選取元件。
 
-1. 從 **[!UICONTROL 元件設定]** 菜單，查找 **[!UICONTROL 內嵌樣式]** 區段。
+1. 從右側的「**[!UICONTROL 元件設定]**」選單，尋找「**[!UICONTROL 樣式內嵌]**」區段。
 
    ![](assets/styles_1.png)
 
 1. 修改現有屬性的值。
 
-1. 您可以使用 **+** 按鈕。 您可以新增任何與CSS相容的屬性和值。
+1. 您可以使用 **+** 按鈕加入新屬性。您可以新增任何符合 CSS 的屬性和值。
 
    ![](assets/styles_2.png)
 
@@ -32,5 +32,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果子元素未定義特定樣式屬性，則會繼承父元素的樣式。
+>如果子元素沒有定義特定的樣式屬性，則繼承父元素的樣式。
 
