@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 探索介面
-description: Campaign v8 Web使用者介面
+description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
 source-git-commit: 8b29c98e9cc4ca1d9c41fcc92230856bd9d140bb
 workflow-type: tm+mt
 source-wordcount: '1394'
-ht-degree: 34%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 >title="探索介面"
 >abstract="新的 Campaign v8 Web 介面提供了整合、直覺和一致的使用者體驗。"
 
-新的Campaign v8網頁介面提供現代且直覺的使用者體驗，以簡化行銷活動的設計和傳遞。 此新介面已與Adobe Experience Platform整合。
+新的 Campaign v8 Web 介面提供了現代直覺的使用者體驗，可簡化行銷活動的設計和傳遞。這個新介面與 Adobe Experience Platform 整合在一起。
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -26,7 +26,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 >[!NOTE]
 >
->本檔案會經常更新，以反映產品使用者介面的最新變更。 不過，有些螢幕擷取畫面可能會與您的使用者介面稍有不同。
+>本文件會經常更新以反映產品使用者介面最近的變更。不過，有些螢幕擷取畫面可能會與您的使用者介面稍有不同。
 
 
 <!--
@@ -34,15 +34,15 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## 左側導覽功能表
+## 左側導覽選單
 
-瀏覽左側的連結，以存取Campaign v8 Web功能。 有幾個連結顯示可排序和篩選的對象清單。 您也可以設定欄以顯示您需要的所有資訊。 看這個 [節](#list-screens). 所有清單都是唯讀的，電子郵件傳遞清單表除外。按一下任何清單項目即無法在Alpha中使用版本/檢視功能。 所有清單都可在未來版本中編輯。 左側導覽功能表中顯示的項目取決於您的使用者權限。
+瀏覽左側連結可存取 Campaign v8 Web 功能。幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。所有清單都是唯讀的，電子郵件傳遞清單表除外。按一下清單項目以編輯/檢視的這個功能在 Alpha 版本未提供。在未來的版本，所有清單將可編輯。左側導覽選單顯示的項目取決於您的使用者權限。
 
 ![](assets/home.png)
 
 ### 首頁
 
-此畫麵包含快速存取主要Campaign v8 Web功能的關鍵連結和資源。 此 **收件者** 清單提供最近建立和修改的傳送的捷徑。 此清單顯示其建立和修改日期與狀態。
+此畫面包含快速存取主要 Campaign v8 Web 功能的重要連結和資源。「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單顯示其建立和修改日期與狀態。
 
 <!--
 * Banner
@@ -51,7 +51,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * Learning cards
 -->
 
-從首頁的下半部存取Campaign v8網路金鑰說明頁面。
+從首面下方區段存取 Campaign v8 Web 重要說明頁面。
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -59,20 +59,20 @@ CONTROL PANEL not alpha
 Global report not alpha
 -->
 
-### Explorer
+### 總管
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
->title="Explorer"
->abstract="**Explorer** 選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和方案。所有清單都是唯讀的，電子郵件傳遞清單表除外。"
+>title="總管"
+>abstract="**總管**&#x200B;選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和綱要。所有清單都是唯讀的，電子郵件傳遞清單表除外。"
 
-**Explorer** 選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和方案。所有清單都是唯讀的，電子郵件傳遞清單表除外。
+**總管**&#x200B;選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和綱要。所有清單都是唯讀的，電子郵件傳遞清單表除外。
 
-瀏覽器中顯示的項目取決於您的使用者權限。
+總管中顯示的項目取決於您的使用者權限。
 
-如同在任何清單畫面中，您可以設定欄以個人化顯示，以檢視您需要的所有資訊。 看這個 [節](#list-screens).
+如同任何清單畫面，您可以設定欄來個人化顯示以檢視所有您需要的資訊。請參閱本[章節](#list-screens)。
 
-如需Campaign總管的詳細資訊，請參閱 [檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+如需 Campaign 總管的詳細資訊，請參閱本[文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}。
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -81,7 +81,7 @@ If you need to view your lists of recipients (age, gender), transactions or live
 Navtree view depends on permissions (same as console).
 -->
 
-### Campaign Management
+### 行銷活動管理
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
@@ -93,11 +93,11 @@ Navtree view depends on permissions (same as console).
 >title="傳遞"
 >abstract="瀏覽您的傳遞清單。您可以檢視其狀態、最後修改日期，以及 KPI。您可以依狀態、聯絡日期或管道篩選清單。按一下電子郵件傳遞以開啟其儀表板。其他項目是唯讀的。也提供傳遞範本。"
 
-* **行銷活動**  — 此為促銷活動清單。 依預設，您可以檢視其開始/結束/最後修改日期及其狀態。 您可以依狀態或開始/結束日期篩選清單。也提供行銷活動範本。這些清單是唯讀的。
+* **行銷活動** - 這是您的行銷活動清單。依預設，您可以檢視其開始/結束/最後修改日期，以及其狀態。您可以依狀態或開始/結束日期篩選清單。也提供行銷活動範本。這些清單是唯讀的。
 
-* **傳遞**  — 瀏覽傳遞清單。 依預設，您可以檢視其狀態、上次修改日期以及關鍵KPI。 您可以依狀態、聯絡日期或管道篩選清單。按一下電子郵件傳送以開啟其控制面板，以取得傳送詳細資料的概觀。 其他通道上的傳送為唯讀。 傳遞範本也以唯讀模式提供。 您可以使用用戶端主控台來編輯。 看這個 [檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **傳遞** - 瀏覽您的傳遞清單。依預設，您可以檢視其狀態、最後修改日期，以及 KPI。您可以依狀態、聯絡日期或管道篩選清單。按一下電子郵件傳遞來開啟其儀表板以取得傳遞詳細資料概觀。其他管道上的傳遞是唯讀的。傳遞範本也是唯讀模式。您可以使用用戶端主控台來編輯它們。請參閱本[文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}。
 
-   使用 **更多動作** 按鈕來刪除或複製傳送。
+   使用「**更多動作**」按鈕來刪除或複製傳遞。
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
@@ -118,10 +118,10 @@ Navtree view depends on permissions (same as console).
 >title="訂閱清單"
 >abstract="瀏覽您的訂閱清單。您可以檢視其類型、模式和標籤。此清單是唯讀的。"
 
-* **收件者**  — 訪問您的收件者資料庫。 依預設，您可以檢視其電子郵件地址、名字和姓氏。 此清單是唯讀的。
-* **對象**  — 此為您的對象清單。 依預設，您可以檢視其類型、來源、建立/上次修改日期和標籤。 您可以依來源來篩選清單。此清單是唯讀的。
-* **訂閱清單**  — 瀏覽訂閱清單。 依預設，您可以檢視其類型、模式和標籤。 此清單是唯讀的。
-* **目標工作流程**  — 存取Campaign工作流程清單。 依預設，您可以檢視其狀態、上次/下次處理日期和環境。 您可以依狀態、最後處理日期和工作流程類型來篩選清單。也提供工作流程範本。這些清單是唯讀的。
+* **收件者** - 存取您的收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。此清單是唯讀的。
+* **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依來源來篩選清單。此清單是唯讀的。
+* **訂閱清單** - 瀏覽您的訂閱清單。依預設，您可以檢視其類型、模式和標籤。此清單是唯讀的。
+* **目標定位工作流程** - 存取您的行銷活動工作流程清單。依預設，您可以檢視其狀態、上次/下次處理日期和環境。您可以依狀態、上次處理日期和工作流程類型來篩選清單。也提供工作流程範本。這些清單是唯讀的。
 
 ### 決策管理
 
@@ -130,16 +130,16 @@ Navtree view depends on permissions (same as console).
 >title="優惠"
 >abstract="瀏覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些清單是唯讀的。"
 
-* **選件**  — 瀏覽您的互動選件清單。 依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些清單是唯讀的。
+* **優惠** - 覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些清單是唯讀的。
 
 ## 頂端列
 
 介面的頂端列可讓您：
 
-* 以Alpha測試者的身分分享您的意見
+* 以 Alpha 測試人員身份分享您的意見回饋
 * 在組織和實例之間切換
-* 在Adobe Experience Cloud應用程式之間切換
-* 存取說明頁面、聯絡支援及分享意見。 您可以從搜尋欄位搜尋說明文章和影片。
+* 在 Adobe Experience Cloud 應用程式之間切換
+* 存取說明頁面、聯絡支援人員和分享意見回饋。您可以從搜尋欄位搜尋說明文章和影片。
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--
@@ -148,53 +148,53 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ## 設定清單畫面 {#list-screens}
 
-例如，左側導覽功能表中的數個連結 **傳遞** 或 **行銷活動**，顯示對象清單。 這些清單畫面是唯讀的，但電子郵件傳送清單除外。
+左側導覽選單中的幾個連結 (例如 **傳遞**&#x200B;或&#x200B;**行銷活動**) 會顯示物件清單。這些清單畫面都是唯讀的，電子郵件傳遞清單除外。
 
-若要更快找到項目，您可以使用搜尋列，或根據內容條件篩選清單。
+若要更快地找到項目，您可以使用搜尋列或根據內容關聯式條件篩選清單。
 
 ![](assets/filter.png){width="70%" align="left"}
 
-清單會以欄顯示。 您可以變更欄組態以顯示其他資訊。 若要這麼做，請按一下清單右上角的圖示。 您可以新增或移除欄，並變更其顯示順序。
+清單顯示在欄中。您可以變更欄設定來顯示其他資訊。為此，按一下清單右上角的圖示。您可以新增或移除欄並變更其顯示順序。
 
 ![](assets/columns.png){width="70%" align="left"}
 
-您可以按一下任何欄標題，以排序清單中的項目。 將顯示一個箭頭（向上或向下），指明清單按該列排序。 對於數值或日期欄，向上箭頭表示清單是以升序排序，而向下箭頭表示降序。 對於字串或英數字元列，值按字母順序列出。
+您可以按一下任何欄標題來排序清單中的項目。會顯示箭頭 (向上或向下) 表示清單已按該欄排序。對於數字或日期欄，向上箭頭表示清單按遞增順序排序，而向下箭頭表示遞減順序。對於字串或英數字元欄，值按字母順序列出。
 
-## 內容說明與入門指南
+## 內容關聯式說明和入門指南
 
-介面中提供內容說明。 可用時，按一下 **?** 圖示來顯示說明資訊和相關檔案連結。
+介面中提供內容關聯式說明。可用時，按一下 **?**&#x200B;圖示可顯示說明資訊和相關文件連結。
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-也提供上線指南，協助您開始使用Campaign v8 Web。 按一下右下角的圖示，選擇任一可用的逐步案例，然後只需依照指示操作即可。
+也提供入門指南，可協助您開始使用 Campaign v8 Web。按一下右下角的圖示，選擇一個可用的逐步案例，然後按照說明操作即可。
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
 ## 支援的瀏覽器 {#browsers}
 
-Campaign v8 Web在最新版Google Chrome、Safari和Microsoft Edge中可以最佳化運作。 您在舊版或其他瀏覽器上使用某些功能時可能遇到問題。
+Campaign v8 Web 目的是要在最新版本的 Google Chrome、Safari 和 Microsoft Edge 中以最佳方式運作。您可能無法在舊版本或其他瀏覽器上使用某些功能。
 
 ## 語言偏好設定 {#language-pref}
 
-Campaign v8 Web目前提供下列語言版本：
+Campaign v8 Web 目前提供以下語言版本：
 
 <table>
 <tr>
 <td>
-<p>英語（美國） — EN-US</p>
-<p>法語 — FR</p>
-<p>德文 — DE</p>
-<p>義大利語 — IT</p>
+<p>英文 (US) - EN-US</p>
+<p>法文 - FR</p>
+<p>德文 - DE</p>
+<p>義大利文 - IT</p>
 </td>
 <td>
-<p>西班牙文 — ES</p>
-<p>葡萄牙語（巴西） — PTBR</p>
-<p>日文 — JP</p>
+<p>西班牙文 - ES</p>
+<p>葡萄牙文 (巴西) - PTBR</p>
+<p>日文 - JP</p>
 </td>
 <td>
-<p>韓語 — KR</p>
-<p>簡體中文 — CHS</p>
-<p>繁體中文 — CHT</p>
+<p>韓文 - KR</p>
+<p>簡體中文 - CHS</p>
+<p>繁體中文 - CHT</p>
 </td>
 </tr>
 </table>
@@ -203,15 +203,15 @@ Campaign v8 Web目前提供下列語言版本：
 
 若要變更您的語言：
 
-1. 按一下右上方的設定檔圖示，然後選取 **偏好設定**.
+1. 按一下右上角您的設定檔圖示，然後選取「**偏好設定**」。
 
    ![](assets/preferences.png){width="70%" align="left"}
 
-1. 然後按一下您電子郵件地址下方顯示的語言。
+1. 然後，按一下您電子郵件地址下顯示的語言。
 
    ![](assets/preferences2.png)
 
-1. 選取您偏好的語言，然後按一下 **儲存**. 您可以選取第二種語言，以備您使用的元件未以第一種語言本地化時使用。
+1. 選取您偏好的語言，然後按一下「**儲存**」。您可以選取第二語言，以防您使用的元件沒有您第一語言的版本。
 
    ![](assets/select-language.png)
 
@@ -248,12 +248,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
->title="促銷活動建立屬性"
+>title="Campaign 建立屬性"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
->title="行銷活動建立排程"
+>title="Campaign 建立排程"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -263,7 +263,7 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="已傳送量度"
+>title="傳送的量度"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -273,17 +273,17 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
->title="推播Android內容"
+>title="發佈 Android 內容"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
->title="推播iOS內容"
+>title="發佈 iOS 內容"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
->title="SMS內容"
+>title="SMS 內容"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -293,7 +293,7 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="測試填充"
+>title="測試母體"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -313,7 +313,7 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
->title="檔案選擇"
+>title="檔案選取"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -323,37 +323,37 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
->title="格式化參數"
+>title="參數"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
->title="報表傳送"
+>title="報告傳送"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
->title="報表追蹤"
+>title="報告追蹤"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
->title="報表概觀"
+>title="報告概觀"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
->title="報告目標統計資訊"
+>title="報告目標統計資料"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="匯總報表選取傳送"
+>title="報告彙總的選取傳遞"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
->title="促銷活動屬性"
+>title="Campaign 屬性"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -363,22 +363,22 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="重複資料刪除欄位"
+>title="重複資料刪除 - 重複欄位"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
->title="重複資料刪除設定"
+>title="重複資料刪除 - 重複設定"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="重複資料消除補充"
+>title="重複資料刪除 - 重複補充"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Dimension補充"
+>title="維度補充"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
