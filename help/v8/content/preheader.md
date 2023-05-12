@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 在電子郵件設計工具中新增預先標題
+title: 在電子郵件設計工具新增預覽文字
 description: 了解如何設計您的電子郵件內容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
-# 將前置標題新增至電子郵件 {#preheader}
+# 新增預覽文字到電子郵件 {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
@@ -24,28 +24,28 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->所有電子郵件用戶端均不支援預先標題。 若不支援，則不會顯示預先標題。
+>並非所有電子郵件用戶端都支援預覽文字。如果不支援，就不會顯示預覽文字。
 
-若要定義電子郵件預先標題，請遵循下列步驟：
+若要定義電子郵件預覽文字，請依照以下步驟操作：
 
-1. 從電子郵件設計工具中，至少新增 **[!UICONTROL 結構元件]** 開始設計電子郵件。
+1. 從電子郵件設計工具，至少新增一個&#x200B;**[!UICONTROL 結構元件]**&#x200B;以開始設計您的電子郵件。
 
-1. 按一下 **[!UICONTROL 導航樹]** 圖示，然後選取 **[!UICONTROL 主體]**.
+1. 按一下左窗格中的&#x200B;**[!UICONTROL 導覽樹狀目錄]**&#x200B;圖示，然後選取「**[!UICONTROL 內文]**」。
 
    ![](assets/preheader_body.png)
 
-1. 從 **[!UICONTROL 內文設定]** 右窗格，按一下 **[!UICONTROL Preheader]** 欄位來新增內容。
+1. 從「**[!UICONTROL 內文設定]**」右窗格中，按一下「**[!UICONTROL 預覽文字]**」欄位旁邊的編輯圖示來新增內容。
 
    ![](assets/preheader_body_settings.png)
 
-1. 新增您的標題。 您可以按一下 **[!UICONTROL 新增個人化]** 表徵圖。
+1. 新增預覽文字。您可以按一下「**[!UICONTROL 新增個人化]**」圖示來進一步個人化預覽文字。
 
    ![](assets/preheader_3.png)
 
-1. 從 **[!UICONTROL 編輯個人化]** 視窗中，您可以新增 **[!UICONTROL 內容區塊]**, **[!UICONTROL 動態內容]** 或 **[!UICONTROL 個人化欄位]**.
+1. 從「**[!UICONTROL 編輯個人化]**」視窗，您可以新增&#x200B;**[!UICONTROL 內容區塊]**、**[!UICONTROL 動態內容]**&#x200B;或&#x200B;**[!UICONTROL 個人化欄位]**。
 
-1. 按一下 **[!UICONTROL 驗證]** 以檢查個人化語法。
+1. 按一下「**[!UICONTROL 驗證]**」以檢查個人化語法。
 
-1. 按一下 **[!UICONTROL 儲存]**.
+1. 按一下「**[!UICONTROL 儲存]**」。
 
-您的電子郵件現在已設定前置標題。
+電子郵件的預覽文字現在已設定好了。
