@@ -1,21 +1,22 @@
 ---
 audience: end-user
 title: 開始使用工作流程活動
-description: 探索您可用來建立Adobe Campaign Web工作流程的不同活動類型
+description: 探索您可以用來建置 Adobe Campaign Web 工作流程的不同類型活動
 badge: label="Alpha" type="Positive"
-source-git-commit: ee418ea42bc4568f2ff1f0fe9080825764fee65d
-workflow-type: tm+mt
+exl-id: 0c269e63-c861-4e51-b999-2e8d33fec7a0
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
 source-wordcount: '61'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 開始使用工作流程活動 {#get-started-activities}
 
-工作流活動
+什麼是工作流程活動
 
-活動類型，以及您可以利用這些活動達成的目標
+活動類型及其用途
 
-如何使用它們（添加、刪除、複製？...）
+使用方式 (新增、移除、複製？...)
 
-參考至鎖定/頻道/資料管理活動頁面（可點按的像片）
+參考目標定位/管道/資料管理活動頁面 (可點按的相片)
