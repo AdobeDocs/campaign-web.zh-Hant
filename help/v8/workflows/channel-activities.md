@@ -1,25 +1,27 @@
 ---
 audience: end-user
 title: 使用工作流程管道活動
-description: 了解如何將管道活動用於Adobe Campaign網頁工作流程
+description: 了解如何將管道活動用於 Adobe Campaign Web 工作流程
 badge: label="Alpha" type="Positive"
-source-git-commit: ee418ea42bc4568f2ff1f0fe9080825764fee65d
-workflow-type: tm+mt
+exl-id: 6f9be348-6138-470c-8c40-750dc0311424
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
 source-wordcount: '78'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# 頻道活動 {#channel}
+# 管道活動 {#channel}
 
-概述：它們的用途，您可以對它們執行哪些使用案例
+概觀：它們的用途
+它們適用的使用案例
 
-列出可用活動+簡短說明+區段參考
+列出可用的活動 + 簡短說明 + 參考章節
 
 ## 電子郵件 {#email}
 
-說明，您可執行的使用案例（在活動之後您可連結的常見其他活動）
+說明，您可以執行哪個使用案例 (您可以在活動之前或之後連結的其他常見活動)
 
 如何新增和設定活動
 
-工作流程中已設定活動的範例
+工作流程中已設定之活動的範例
