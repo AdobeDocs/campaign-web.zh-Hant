@@ -4,10 +4,10 @@ title: 在電子郵件設計工具新增預覽文字
 description: 了解如何設計您的電子郵件內容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '217'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 96%
 
 ---
 
@@ -34,13 +34,9 @@ ht-degree: 100%
 
    ![](assets/preheader_body.png)
 
-1. 從「**[!UICONTROL 內文設定]**」右窗格中，按一下「**[!UICONTROL 預覽文字]**」欄位旁邊的編輯圖示來新增內容。
+1. 從 **[!UICONTROL 設定]** 頁簽，添加前置詞。 您可以按一下「**[!UICONTROL 新增個人化]**」圖示來進一步個人化預覽文字。
 
    ![](assets/preheader_body_settings.png)
-
-1. 新增預覽文字。您可以按一下「**[!UICONTROL 新增個人化]**」圖示來進一步個人化預覽文字。
-
-   ![](assets/preheader_3.png)
 
 1. 從「**[!UICONTROL 編輯個人化]**」視窗，您可以新增&#x200B;**[!UICONTROL 內容區塊]**、**[!UICONTROL 動態內容]**&#x200B;或&#x200B;**[!UICONTROL 個人化欄位]**。
 

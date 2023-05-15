@@ -4,10 +4,10 @@ title: 定義連結樣式
 description: 了解如何定義連結樣式
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '144'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 1. 在插入連結的&#x200B;**[!UICONTROL 文字]**&#x200B;元件中，選取您的連結。
 
-1. 在「**[!UICONTROL 元件設定]**」選單，勾選「**[!UICONTROL 連結加底線]**」為標籤加底線。
+1. 在 **[!UICONTROL 設定]** 標籤，核取 **[!UICONTROL 底線連結]** 給標籤加下划線。
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
    ![](assets/link_2.png)
 
-1. 若要變更連結的顏色，請從右窗格按一下「**[!UICONTROL 連結顏色]**」。
+1. 若要變更連結的顏色，請按一下 **[!UICONTROL 連結顏色]** 從 **[!UICONTROL 樣式]** 標籤。
 
    ![](assets/link_3.png)
 

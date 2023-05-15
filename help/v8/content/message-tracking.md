@@ -4,10 +4,10 @@ title: 追蹤您的訊息
 description: 了解如何新增連結和追蹤已傳送的訊息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '373'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. 儲存您的變更。
 
-1. 建立連結後，您仍然可以從右側的「**[!UICONTROL 元件設定]**」窗格中修改。
+1. 建立連結後，您仍可從 **[!UICONTROL 設定]** 標籤。
 
    * 您可以編輯連結並變更其&#x200B;**[!UICONTROL 目標]**。
    * 您可以透過勾選對應的選項來選擇是否為連結加底線。
