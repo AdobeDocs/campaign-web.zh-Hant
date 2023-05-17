@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8b29c98e9cc4ca1d9c41fcc92230856bd9d140bb
+source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 98%
+source-wordcount: '1446'
+ht-degree: 94%
 
 ---
 
@@ -228,7 +228,7 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
 REFER TO 
-https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
+https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -249,12 +249,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Campaign 建立屬性"
->abstract="待定"
+>abstract="定義促銷活動的屬性和中繼資料。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Campaign 建立排程"
->abstract="待定"
+>abstract="定義促銷活動的排程。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,12 +264,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="傳送的量度"
->abstract="待定"
+>abstract="已傳送的電子郵件數。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="錯誤量度"
->abstract="待定"
+>abstract="具有錯誤狀態的電子郵件數。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -284,22 +284,22 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS 內容"
->abstract="待定"
+>abstract="定義 SMS 內容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="應用程式訂閱者"
->abstract="待定"
+>abstract="新增應用程式訂閱者至主要目標，以預覽並測試訊息。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="測試母體"
->abstract="待定"
+>abstract="選取測試母體模式。"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="預覽模式"
->abstract="待定"
+>abstract="將測試母體加入主要目標，以預覽並測試訊息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
