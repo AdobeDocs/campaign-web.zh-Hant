@@ -35,7 +35,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="範例檔案"
->abstract="支援的檔案格式：txt、csv。 使用第一行作為欄標題。"
+>abstract="支援的檔案格式：文本。 使用第一行作為欄標題。"
 
 
 ```json
