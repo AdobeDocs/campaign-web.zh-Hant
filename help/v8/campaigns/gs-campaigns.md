@@ -4,9 +4,9 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: b542553ebde67211241bfbcf16b7b608eed275bb
+source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '282'
 ht-degree: 21%
 
 ---
@@ -28,6 +28,11 @@ ht-degree: 21%
 >id="acw_campaign_creation_properties"
 >title="Campaign 建立屬性"
 >abstract="定義市場活動的屬性和元資料。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Campaign 屬性"
+>abstract="定義您的市場活動設定和元資料。"
 
 市場活動屬性隨建立新市場活動一起顯示。
 
