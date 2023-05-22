@@ -4,10 +4,10 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 21%
+source-wordcount: '303'
+ht-degree: 20%
 
 ---
 
@@ -19,6 +19,14 @@ ht-degree: 21%
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> 利用Adobe Campaign細分功能，您可以針對高容量資料庫運行查詢，並輕鬆定義完全針對您的市場活動的動態市場細分。
 
 ## 建立跨渠道市場活動 {#cross-channel-campaign}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="工作流程清單"
+>abstract="市場活動可用的工作流清單。 使用「建立工作流」按鈕在市場活動中添加工作流。"
+
+
 
 在跨頻道行銷活動中，單一行銷通訊使用不同的頻道。 資料會在頻道之間傳遞。 客戶透過多個頻道接收通訊，例如以他們與先前通訊的互動為基礎。
 
