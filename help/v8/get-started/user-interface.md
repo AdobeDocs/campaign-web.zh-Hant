@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
+source-git-commit: 39f59160e3def8f54c61cfab9f872bc692683aa3
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 94%
+source-wordcount: '1458'
+ht-degree: 93%
 
 ---
 
@@ -246,15 +246,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="推播通知範本"
 >abstract="待定"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Campaign 建立屬性"
->abstract="定義促銷活動的屬性和中繼資料。"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Campaign 建立排程"
->abstract="定義促銷活動的排程。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,7 +255,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="傳送的量度"
->abstract="已傳送的電子郵件數。"
+>abstract="已發送的電子郵件數。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
@@ -289,17 +280,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="應用程式訂閱者"
->abstract="新增應用程式訂閱者至主要目標，以預覽並測試訊息。 "
+>abstract="通過向主目標添加應用訂閱者來預覽和test消息。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="測試母體"
->abstract="選取測試母體模式。"
+>title="Test"
+>abstract="選擇test填充模式。"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="預覽模式"
->abstract="將測試母體加入主要目標，以預覽並測試訊息。"
+>abstract="通過將test填充包含到主目標，預覽和test消息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -319,12 +310,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="欄定義"
->abstract="待定"
+>abstract="選擇要從檔案中插入的列。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="參數"
->abstract="待定"
+>abstract="定義檔案的格式參數。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
@@ -393,26 +384,26 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
->title="屬性選擇器高級欄位"
->abstract="待定"
+>title="屬性選取器高級欄位"
+>abstract="使用高級欄位配置列。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
->title="規則產生器進階欄位"
->abstract="待定"
+>title="規則生成器高級欄位"
+>abstract="使用高級欄位配置列。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
->title="簡訊傳送屬性"
->abstract="待定"
+>title="SMS傳遞屬性"
+>abstract="管理SMS傳遞屬性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
->title="推送傳送屬性"
->abstract="待定"
+>title="推送傳遞屬性"
+>abstract="管理推送傳遞屬性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
->title="新隔離量度"
->abstract="待定"
+>title="新建隔離度量"
+>abstract="新建隔離度量。"
 
