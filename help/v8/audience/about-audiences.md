@@ -4,10 +4,10 @@ title: 開始使用對象
 description: 了解如何在 Campaign Web UI 中使用對象
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ control groups like acc: exract, random, based on attribute
 
 * 使用現有對象。[了解更多](add-audience.md)
 * 建立新對象。[了解更多](segment-builder.md)
-* 從檔案匯入對象。[了解更多](import-audience.md)
+* 使用外部檔案中的訪問群體。 [了解更多](file-audience.md)
 * 使用 Adobe Experience Platform 對象。[了解更多](aep-audience.md)
 
 此外，您可以定義控制組來避免傳送訊息給對象的其中一部分，以及測量行銷活動的影響。[了解更多](control-group.md)
