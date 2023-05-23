@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 9ec7870b54c08c86314c19693b783a0a0cfad937
+source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 86%
+source-wordcount: '1513'
+ht-degree: 87%
 
 ---
 
@@ -273,11 +273,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="定義推送iOS內容。"
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_sms_content"
->title="SMS 內容"
->abstract="定義 SMS 內容。"
-
->[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="應用程式訂閱者"
 >abstract="通過向主目標添加應用訂閱者來預覽和test消息。 "
@@ -368,11 +363,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_rulebuilder_advancedfields"
 >title="規則生成器高級欄位"
 >abstract="使用高級欄位配置列。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_properties"
->title="SMS傳遞屬性"
->abstract="管理SMS傳遞屬性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
