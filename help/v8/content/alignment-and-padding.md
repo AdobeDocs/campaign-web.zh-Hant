@@ -24,7 +24,7 @@ ht-degree: 88%
 
    ![](assets/alignment_2.png)
 
-1. 該列的可編輯參數顯示在 **[!UICONTROL 樣式]** 標籤。 調整 **[!UICONTROL 對齊方式]** 使用專用區段。
+1. 該欄的可編輯引數會顯示在 **[!UICONTROL 樣式]** 標籤。 調整 **[!UICONTROL 對齊方式]** 使用專用區段。
 
    ![](assets/alignment_3.png)
 

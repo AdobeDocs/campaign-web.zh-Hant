@@ -60,12 +60,12 @@ ht-degree: 90%
    + 簡訊 {#sms}
       + [開始使用 SMS 傳遞](sms/gs-sms.md)
       + [建立簡訊傳遞](sms/create-sms.md)
-      + [設計SMS交付 ](sms/content-sms.md)
+      + [設計簡訊傳遞 ](sms/content-sms.md)
 + 對象和收件者 {#audiences}
    + [開始使用對象](audience/about-audiences.md)
    + [選取現有對象](audience/add-audience.md)
    + [使用規則產生器建立對象](audience/segment-builder.md)
-   + [從檔案載入受眾](audience/file-audience.md)
+   + [從檔案載入對象](audience/file-audience.md)
    + [使用 Adobe Experience Platform 對象](audience/aep-audience.md)
    + [設定控制組](audience/control-group.md)
 + 跨管道行銷活動 {#campaigns}
@@ -73,11 +73,11 @@ ht-degree: 90%
    + [建立您的第一個行銷活動](campaigns/create-campaigns.md)
 + 工作流程 {#wf}
    + [開始使用工作流程](workflows/gs-workflows.md)
-   + [訪問和管理工作流](workflows/access-monitor.md)
-   + 建立並運行第一個工作流 {#create-workflow}
+   + [存取和管理工作流程](workflows/access-monitor.md)
+   + 建立並執行第一個工作流程 {#create-workflow}
       + [用於建立工作流程的主要原則](workflows/gs-workflow-creation.md)
-      + [建立工作流](workflows/create-workflow.md)
-      + [添加和協調工作流活動](workflows/build-workflow.md)
+      + [建立工作流程](workflows/create-workflow.md)
+      + [新增及協調工作流程活動](workflows/build-workflow.md)
       + [設定工作流程設定](workflows/workflow-settings.md)
       + [開始並監控工作流程](workflows/start-monitor-workflows.md)
    + 使用工作流程活動 {#design-workflows}

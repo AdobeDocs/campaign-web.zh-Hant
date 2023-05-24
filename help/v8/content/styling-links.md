@@ -18,7 +18,7 @@ ht-degree: 81%
 
 1. 在插入連結的&#x200B;**[!UICONTROL 文字]**&#x200B;元件中，選取您的連結。
 
-1. 在 **[!UICONTROL 設定]** 標籤，核取 **[!UICONTROL 底線連結]** 給標籤加下划線。
+1. 在 **[!UICONTROL 設定]** 索引標籤，核取 **[!UICONTROL 為連結加上底線]** 將標籤加底線。
 
    ![](assets/link_1.png)
 

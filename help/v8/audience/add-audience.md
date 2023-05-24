@@ -24,7 +24,7 @@ ht-degree: 97%
 您也可以：
 
 * 建立新對象。[了解更多](segment-builder.md)
-* 使用外部檔案中的訪問群體。 [了解更多](file-audience.md)
+* 使用外部檔案中的對象。 [了解更多](file-audience.md)
 * 使用 Adobe Experience Platform 對象。[了解更多](aep-audience.md)。
 
 

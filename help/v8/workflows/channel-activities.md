@@ -13,13 +13,13 @@ ht-degree: 26%
 
 # 管道活動 {#channel}
 
-Adobe CampaignWeb使您能夠跨多個渠道（如電子郵件、簡訊或推送）自動執行營銷活動。 使用Adobe Campaign工作流，您可以將渠道活動組合到畫布中，以建立跨渠道工作流，這些工作流可以根據客戶行為觸發操作。
+Adobe Campaign Web可讓您跨多個管道（例如電子郵件、簡訊或推播）自動執行行銷活動。 透過Adobe Campaign工作流程，您可以將管道活動結合到畫布中，以建立可根據客戶行為觸發動作的跨管道工作流程。
 
-例如，您可以建立歡迎電子郵件活動，該活動包括跨不同渠道的一系列消息，如電子郵件、簡訊和推送。 您還可以在客戶完成購買後發送電子郵件或通過簡訊向客戶發送個性化生日消息。
+例如，您可以建立歡迎電子郵件行銷活動，其中包括跨不同頻道的一系列訊息，例如電子郵件、簡訊和推播。 客戶完成購買後，您也可以傳送後續追蹤電子郵件，或透過簡訊傳送個人化生日訊息給客戶。
 
-通過使用渠道活動，您可以建立全面、個性化的活動，讓客戶跨多個觸點進行接觸並進行驅動器轉換。
+透過使用管道活動，您可以建立全面、個人化的行銷活動，在多個接觸點吸引客戶並促進轉換。
 
-頻道活動可從螢幕左側的「頻道」部分的調色板獲得。
+頻道活動可從畫面左側的「頻道」區段的浮動視窗中使用。
 
 ## 電子郵件 {#email}
 
@@ -30,7 +30,7 @@ Adobe CampaignWeb使您能夠跨多個渠道（如電子郵件、簡訊或推送
 工作流程中已設定之活動的範例
 
 
-「電子郵件傳遞」活動允許您配置在工作流中發送電子郵件。
+電子郵件傳送活動可讓您在工作流程中設定傳送電子郵件。
 
 <!-- Scheduled emails available?
 
@@ -40,6 +40,6 @@ This can be a single send email and sent just once, or it can be a recurring ema
 
 When linked to a scheduler, you can define recurring emails.-->
 
-電子郵件收件人是通過「受眾目標」活動在同一工作流中活動的上游定義的。
+電子郵件收件者是透過對象鎖定目標活動，在相同工作流程中定義活動上游的活動。
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->

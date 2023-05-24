@@ -46,7 +46,7 @@ control groups like acc: exract, random, based on attribute
 
 * 使用現有對象。[了解更多](add-audience.md)
 * 建立新對象。[了解更多](segment-builder.md)
-* 使用外部檔案中的訪問群體。 [了解更多](file-audience.md)
+* 使用外部檔案中的對象。 [了解更多](file-audience.md)
 * 使用 Adobe Experience Platform 對象。[了解更多](aep-audience.md)
 
 此外，您可以定義控制組來避免傳送訊息給對象的其中一部分，以及測量行銷活動的影響。[了解更多](control-group.md)

@@ -18,7 +18,7 @@ ht-degree: 93%
 
 1. 直接在您的內容或使用左窗格中的&#x200B;**[!UICONTROL 導覽樹狀目錄]**&#x200B;選取元件。
 
-1. 從 **[!UICONTROL 樣式]** ，按一下 **[!UICONTROL 進階]** 下拉式清單。
+1. 從 **[!UICONTROL 樣式]** 索引標籤，按一下 **[!UICONTROL 進階]** 下拉式清單。
 
    ![](assets/styles_1.png)
 

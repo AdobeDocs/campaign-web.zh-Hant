@@ -34,7 +34,7 @@ ht-degree: 96%
 
    ![](assets/preheader_body.png)
 
-1. 從 **[!UICONTROL 設定]** 頁簽，添加前置詞。 您可以按一下「**[!UICONTROL 新增個人化]**」圖示來進一步個人化預覽文字。
+1. 從 **[!UICONTROL 設定]** 索引標籤中，新增您的預覽文字。 您可以按一下「**[!UICONTROL 新增個人化]**」圖示來進一步個人化預覽文字。
 
    ![](assets/preheader_body_settings.png)
 

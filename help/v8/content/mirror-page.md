@@ -33,7 +33,7 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
    ![](assets/message-tracking-mirror-page.png)
 
-1. 選取 **[!UICONTROL 新增個人化]** 圖示來存取個人化功能表。
+1. 選取 **[!UICONTROL 新增個人化]** 圖示以存取個人化功能表。
 
    ![](assets/message-tracking-mirror-page_2.png)
 
