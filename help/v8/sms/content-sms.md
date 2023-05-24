@@ -1,42 +1,42 @@
 ---
 audience: end-user
-title: 設計SMS交付
-description: 瞭解如何設計SMS交付
+title: 設計簡訊傳遞
+description: 瞭解如何設計簡訊傳遞
 badge: label="Alpha" type="Positive"
 source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 設計SMS交付 {#design-sms}
+# 設計簡訊傳遞 {#design-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS 內容"
->abstract="建立SMS遞送的內容，並使用個性化欄位、內容塊和動態內容對其進行個性化。"
+>abstract="建立SMS傳遞的內容，並使用個人化欄位、內容區塊和動態內容來個人化。"
 
-1. 在交貨頁面中，按一下 **[!UICONTROL 編輯內容]** 按鈕來設計SMS內容。
+1. 從您的傳送頁面，按一下 **[!UICONTROL 編輯內容]** 按鈕來設計簡訊內容。
 
-1. 在 **[!UICONTROL 編輯內容]** 頁面中，您可以更改發件人名稱 **[!UICONTROL 發件人欄位]**。 輸入要使用的名稱。 也可以按一下 **[!UICONTROL 開啟個性化對話框]** 添加個性化欄位、內容塊和動態內容。
+1. 在 **[!UICONTROL 編輯內容]** 頁面中，您可以變更寄件者名稱，從 **[!UICONTROL 寄件者欄位]**. 輸入您要使用的名稱。 您也可以按一下 **[!UICONTROL 開啟個人化對話方塊]** 以新增個人化欄位、內容區塊和動態內容。
 
-1. 在 **[!UICONTROL 編輯內容]** 頁，您可以通過訪問 **[!UICONTROL 發件人欄位]** 並輸入首選名稱。
+1. 於 **[!UICONTROL 編輯內容]** 頁面，您可以存取以下網址來自訂寄件者名稱： **[!UICONTROL 寄件者欄位]** 並輸入偏好的名稱。
 
-   另外，通過按一下 **[!UICONTROL 開啟個性化對話框]**，您可以在消息中包括個性化欄位、內容塊和動態內容。
+   此外，按一下 **[!UICONTROL 開啟個人化對話方塊]**，您可以在訊息中包含個人化欄位、內容區塊和動態內容。
 
-1. 在 **[!UICONTROL 消息]** 或按一下 **[!UICONTROL 開啟個性化對話框]** 的子菜單。
+1. 在「 」中輸入文字訊息 **[!UICONTROL 訊息]** 欄位或按一下 **[!UICONTROL 開啟個人化對話方塊]** 定義內容及新增動態內容的選項。
 
-1. 預設情況下，為交貨啟用跟蹤。 您可以從 **[!UICONTROL 可選功能部分]**。
+1. 預設情況下，會為傳遞啟用追蹤。 您可以從以下位置停用此選項： **[!UICONTROL 選擇性功能區段]**.
 
-1. 按一下 **[!UICONTROL 保存]** 並在預覽中查看您的留言。
+1. 按一下 **[!UICONTROL 儲存]** 並在預覽中檢視您的訊息。
 
-1. 您可以使用 **[!UICONTROL 模擬內容]** 預覽個性化內容。
+1. 您可以使用 **[!UICONTROL 模擬內容]** 以預覽您的個人化內容。
 
-1. 按一下 **[!UICONTROL 添加test配置檔案]** 選擇一個或多個test配置檔案或配置檔案。
+1. 按一下 **[!UICONTROL 新增測試設定檔]** 以選取一或多個測試設定檔或設定檔。
 
-1. 選擇test配置檔案後，按一下 **[!UICONTROL 選擇]**。
+1. 選取測試設定檔後，按一下 **[!UICONTROL 選取]**.
 
-1. 在右窗格中，您將找到電子郵件的預覽，其中個性化元素將動態地替換為所選配置檔案中的資料。
+1. 在右窗格中，您會找到電子郵件的預覽，其中個人化元素會以所選設定檔中的資料動態取代。
 
-現在，您可以查看您的SMS消息並將其發送給您的觀眾。
+您現在可以檢閱並傳送簡訊給對象。
