@@ -4,10 +4,10 @@ title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
+source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 33%
+source-wordcount: '959'
+ht-degree: 29%
 
 ---
 
@@ -34,6 +34,9 @@ Adobe Campaign v8 提供下列傳送頻道：
 若要建立獨立傳送，請遵循下列步驟：
 
 1. 瀏覽至 **[!UICONTROL 傳遞]** 功能表，然後按一下 **[!UICONTROL 建立傳遞]** 按鈕。
+
+   ![](assets/create-a-delivery.png)
+
 1. 選擇傳遞的管道。 在以下章節中進一步瞭解傳遞管道以及如何定義傳遞內容：
 
    * [電子郵件通道](../email/create-email.md)
@@ -108,3 +111,21 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[進一�
 ## 傳送和追蹤記錄{#gs-tracking-logs}
 
 傳送傳遞後進行監視是確保行銷活動效率並與客戶溝通的關鍵步驟。 您可以在傳送傳遞後進行監視，並瞭解傳送失敗和隔離的管理方式。
+
+## 複製傳遞{#delivery-duplicate}
+
+您可以從傳遞清單或傳遞控制面板建立現有傳遞的副本。
+
+若要從傳遞清單複製傳遞，請執行下列步驟：
+
+1. 按一下要複製的傳遞名稱旁的右側的三個點按鈕。
+1. 選取  **[!UICONTROL 複製]**.
+1. 確認複製：新的傳送控制面板會在中央畫面中開啟。
+
+
+若要從控制面板複製傳遞，請遵循下列步驟：
+
+1. 開啟傳遞，然後按一下  **[!UICONTROL ...更多]** 按鈕來切換畫面。
+1. 選取  **[!UICONTROL 複製]**.
+1. 確認複製：新傳送會取代中央畫面中的目前傳送。
+
