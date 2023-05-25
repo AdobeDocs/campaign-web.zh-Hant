@@ -4,10 +4,10 @@ title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 14e9ef2a45a1c7a2c8e089c536abd950cdb1b0a3
+source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 35%
+source-wordcount: '604'
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign v8 提供下列傳送頻道：
 
 ## 建立傳遞
 
-您可以從以下位置建立獨立傳送： **傳遞** 主功能表，或在行銷活動內容中建立傳送。
+您可以從以下位置建立獨立傳送： **傳遞** 左側功能表，或在行銷活動內容中建立傳送，可從 **行銷活動** 左側功能表。
 
 >[!BEGINTABS]
 
@@ -54,6 +54,16 @@ Adobe Campaign v8 提供下列傳送頻道：
 若要在行銷活動中建立傳送，請遵循下列步驟：
 
 1. 建立行銷活動或開啟現有的行銷活動。
+1. 建立工作流程或開啟現有工作流程。
+1. 新增並設定 **建立對象** 活動，然後按一下 `+`按鈕。
+   ![](assets/add-delivery-in-wf.png)
+1. 選取傳送活動：電子郵件、簡訊、推播通知(Android)或推播通知(iOS)。 在以下章節中進一步瞭解傳遞管道以及如何定義傳遞內容：
+
+   * [電子郵件通道](../email/create-email.md)
+   * [推播通知頻道](../push/gs-push.md)
+   * [SMS 頻道](../sms/create-sms.md)
+
+1. 啟動工作流程，並檢查記錄。
 
 如需如何設定行銷活動的詳細資訊，
 
