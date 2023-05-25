@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: e3a2c67ceb2be7e1a5735aff6f59f4fb902750bd
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 83%
+source-wordcount: '1624'
+ht-degree: 75%
 
 ---
 
@@ -66,7 +66,7 @@ Global report not alpha
 >title="總管"
 >abstract="**總管**&#x200B;選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和綱要。所有清單都是唯讀的，電子郵件傳遞清單表除外。"
 
-**總管**&#x200B;選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和綱要。所有清單都是唯讀的，電子郵件傳遞清單表除外。
+**總管**&#x200B;選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和綱要。
 
 總管中顯示的項目取決於您的使用者權限。
 
@@ -93,13 +93,18 @@ Navtree view depends on permissions (same as console).
 >title="傳遞"
 >abstract="瀏覽您的傳遞清單。您可以檢視其狀態、聯絡人及修改日期、關鍵KPI。 您可以依狀態、聯絡日期或管道篩選清單。按一下「建立傳遞」按鈕以新增傳遞。 選取傳遞以檢視其內容、對象和詳細資訊。"
 
-* **行銷活動** - 這是您的行銷活動清單。依預設，您可以檢視其開始/結束/最後修改日期，以及其狀態。您可以依狀態或開始/結束日期篩選清單。也提供行銷活動範本。這些清單是唯讀的。
+在CAMPAIGN MANAGEMENT區段中，您可以存取行銷活動、傳遞和工作流程。
+
+* **行銷活動**  — 這是行銷活動和行銷活動範本的清單。 依預設，您可以檢視每個行銷活動的開始/結束/建立/上次修改日期、目前狀態，以及建立該行銷活動的行銷活動運運算元名稱。 您可以依狀態、開始/結束日期、資料夾或建立進階篩選器來篩選清單，以定義您自己的篩選條件。
 
 * **傳遞** - 瀏覽您的傳遞清單。依預設，您可以檢視其狀態、最後修改日期，以及 KPI。您可以依狀態、聯絡日期或管道篩選清單。按一下電子郵件傳遞來開啟其儀表板以取得傳遞詳細資料概觀。其他管道上的傳遞是唯讀的。傳遞範本也是唯讀模式。您可以使用用戶端主控台來編輯它們。請參閱本[文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}。
 
    使用「**更多動作**」按鈕來刪除或複製傳遞。
 
    ![](assets/more-actions.png){width="70%" align="left"}
+
+* **工作流程**  — 在此畫面中，您可以存取工作流程和工作流程範本的完整清單。 您可以檢查其狀態、上次/下次執行日期，並建立新的工作流程或新的工作流程範本。 您可以使用與其他物件相同的條件來篩選清單。 此外，您也可以篩選是否屬於行銷活動的工作流程。
+
 
 ### 客戶管理
 

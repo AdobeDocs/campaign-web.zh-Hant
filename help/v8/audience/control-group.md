@@ -4,10 +4,10 @@ title: 設定控制組
 description: 了解如何在 Campaign Web UI 中為您的訊息設定控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,11 @@ ht-degree: 100%
 若要建立控制組，請在傳遞建立助理的「**對象**」區段中，按一下「**[!UICONTROL 設定控制組]**」按鈕。
 
 ![](assets/control-group1.png)
+
+>[!CAUTION]
+>
+>載入目標母體時，無法使用控制組 [從外部檔案](file-audience.md).
+
 
 ## 從目標中擷取 {#extract-target}
 

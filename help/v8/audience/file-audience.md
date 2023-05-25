@@ -4,10 +4,10 @@ title: 從檔案定位收件者
 description: 瞭解如何使用外部檔案中的收件者來建立您的電子郵件對象
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 21%
+source-wordcount: '288'
+ht-degree: 20%
 
 ---
 
@@ -50,6 +50,10 @@ ht-degree: 21%
 建立和個人化訊息內容時，您可以在個人化編輯器中從輸入檔案選取欄位。
 
 ![](assets/select-external-perso.png)
+
+>[!CAUTION]
+>
+>您無法使用 [控制組](control-group.md) 從外部檔案載入目標母體時。
 
 ## 範例檔案 {#sample-file}
 
