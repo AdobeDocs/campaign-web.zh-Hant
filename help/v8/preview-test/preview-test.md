@@ -4,10 +4,10 @@ title: 關於電子郵件預覽和測試
 description: 了解如何預覽和測試電子郵件
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 100%
+source-wordcount: '125'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 為此，Adobe Campaign 可讓您：
 
 * [預覽電子郵件內容和個人化](preview-content.md)，
-   <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* [檢查電子郵件呈現](#rendering) 在熱門的桌上型電腦、行動裝置和Web型使用者端，
 * [傳送測試電子郵件](proofs.md)給特定的收件者以進行測試和驗證。
 
 這些動作可以從「**[!UICONTROL 模擬內容]**」按鈕執行，在使用電子郵件設計工具建立電子郵件內容時可以存取此按鈕：
