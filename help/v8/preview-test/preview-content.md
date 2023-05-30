@@ -4,9 +4,9 @@ title: 預覽電子郵件內容
 description: 了解如何使用 Campaign Web UI 預覽電子郵件內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # 預覽電子郵件內容 {#preview}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="內容智慧預覽"
->abstract="使用設定檔資料在電子郵件傳送前預覽其內容、控制個人化屬性，並檢查收件者如何查看郵件內容。"
 
 使用 Adobe Campaign 內容模擬功能在傳送電子郵件前預覽電子郵件內容、控制個人化以及檢查訊息內容如何呈現在收件者面前。
 

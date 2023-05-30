@@ -4,7 +4,7 @@ title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 29%
@@ -50,7 +50,7 @@ Adobe Campaign v8 提供下列傳送頻道：
 1. 使用  **[!UICONTROL 模擬內容]** 按鈕以測試您的傳遞和個人化設定。 進一步瞭解中的訊息模擬 [本節](../preview-test/preview-test.md).
 1. 按一下  **[!UICONTROL 準備]** 按鈕以計算目標母體並產生訊息。 準備步驟可能需要幾分鐘的時間。 準備完成後，訊息即可傳送。 發生錯誤時，請瀏覽至 **記錄檔** 以檢查警示和警告。
 1. 檢查結果，然後按一下  **[!UICONTROL 傳送]** 按鈕以開始傳送訊息。
-1. 傳送訊息後，請瀏覽至 **報表** 區段來存取關鍵量度。 進一步瞭解中的傳遞報告 [本節](../reporting/reports.md).
+1. 傳送訊息後，請瀏覽至 **報表** 區段來存取關鍵量度。 進一步瞭解中的傳遞報告 [本節](../reporting/delivery-reports.md).
 
 >[!TAB 在行銷活動中建立傳遞]
 

@@ -4,34 +4,35 @@ title: 開始使用 Campaign v8 Web
 description: 開始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '404'
 ht-degree: 100%
 
 ---
 
-# 開始使用 Campaign v8 Web {#get-started}
+# 開始使用 Campaign Web {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="開始使用"
 >abstract="探索重要功能、使用者介面和全域準則。"
 
->[!NOTE]
->
->Campaign v8 Web 目前為 Alpha 版本。只有一小組 Alpha 客戶可以存取。請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
 
 Adobe Campaign 為跨管道客戶體驗設計提供平台，並為視覺行銷活動協調流程、Real-time Interaction Management 和跨管道執行提供環境。
 
 最初只能透過豐富的[用戶端主控台](#ac-client)使用，Campaign 現在提供新的網頁使用者介面，具有增強的可用性、可存取性和新設計，可顯著提升您的使用者體驗。這個新的現代 UI 簡化了行銷活動的設計和傳遞，並帶來一致性，與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 相符。
-
 
 ![](assets/home.png)
 
 這個新的 UI 首先滿足&#x200B;**商業從業者**&#x200B;的需求 – 這個第一個版本未提供所有典型的管理任務，但將在後續版本中解決。請注意，並非用戶端主控台的每個單一功能或選項現在都可在新的 UI 中使用。新的使用案例、選項和功能將在未來版本中提供。
 
 如果您需要存取未在 Web UI 中提供的 Campaign v8 功能，您可以使用 [用戶端主控台](#ac-client)。
+
+
+>[!NOTE]
+>
+>Campaign v8 Web 目前為 Alpha 版本。只有一小組 Alpha 客戶可以存取。請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
 
 ## 關於 Campaign 用戶端主控台{#ac-client}
 

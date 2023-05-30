@@ -4,10 +4,10 @@ title: Campaign Web v8 發行說明
 description: Campaign Web v8 發行說明
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 80%
 
 ---
 
@@ -24,24 +24,29 @@ ht-degree: 100%
 
 新的 Campaign Web UI 提供全新的使用者體驗，與所有 Adobe Experience Cloud 解決方案和應用程式保持一致。它提供以下功能：
 
-* 使用單一和共用的使用者工作階段，存取新介面和其他 Adobe 解決方案
+* 透過單一和共用使用者工作階段存取新介面以及您的其他Adobe解決方案
 * 新的導覽體驗，左側邊欄提供所有選單和資料夾
 * 頂端列中的解決方案和組織切換器
 * 與 Unified Shell 整合，可直接存取社群、說明中心和支援
-<!--
-No search and pulse notifications in Alpha
--->
+
+**全新強大的功能及順暢的流程**
+
+* 重新想像的工作流程畫布介面以設計和管理您的流程
+* 動態內容，可為您的對象提供極具針對性和個人化的體驗
+* 與Adobe Experience Platform受眾的原生整合
+* 工作流程、傳遞、行銷活動和內容的範本管理
 
 在[此頁面](../get-started/user-interface.md)進一步了解新的 UI。
 
-**建立、啟動和測量您的電子郵件行銷活動**
+**建立、啟動和測量您的行銷活動**
 
 使用新的 Campaign Web UI 可以：
 
 * 使用電子郵件設計工具設計個人化的電子郵件內容 - [了解更多](../content/edit-content.md)
+* 傳送跨管道行銷活動，包括簡訊和推播通知。
 * 使用規則產生器定義目標對象 - [了解更多](../audience/about-audiences.md)
 * 預覽、測試和傳送您的電子郵件訊息 - [了解更多](../monitor/prepare-send.md)
-* 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/reports.md)
+* 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/delivery-reports.md)
 
 <!--
 add info somewhere to remind users that
@@ -62,12 +67,9 @@ add info somewhere to remind users that
 
 ## 限制{#limitations-alpha}
 
-一些 Campaign 關鍵功能，例如跨管道行銷活動和工作流程管理將在 Beta 版本提供。
-
 此 Alpha 版本有以下限制：
 
-* 唯一可編輯的物件是傳遞。其他物件是唯讀的。使用篩選器來瀏覽全部物件。
-* 此版本專為一次性電子郵件行銷活動所設計。尚未支援其他管道。
+* 唯一可編輯的物件是傳送、行銷活動、工作流程、對象和範本。 其他物件是唯讀的。使用篩選器來瀏覽全部物件。
 * 尚未提供管理使用者介面。
 * 報告量度 (例如開啟和追蹤資料) 每小時更新一次。
 * 傳遞儀表板 KPIs 每 5 分鐘更新一次。- 但傳遞準備是即時的。
