@@ -4,15 +4,20 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 傳送您的第一個電子郵件 {#first-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="使用Adobe Campaign傳送您的第一封電子郵件"
+>abstract="瞭解如何使用電子郵件設計工具來建立內容、預覽和測試，以及在端對端使用案例中傳送電子郵件給現有對象。"
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
@@ -20,7 +25,7 @@ ht-degree: 99%
 
 ![](assets/delivery-list.png)
 
-## 建立電子郵件 {#create-email}
+## 建立電子郵件 傳遞 {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -32,7 +37,9 @@ ht-degree: 99%
 >title="電子郵件屬性"
 >abstract="這些屬性是常見的傳遞參數，可幫助您對傳遞進行命名和分類。如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充綱要，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
 
-1. 若要建立新的傳遞，請瀏覽至左側邊欄上的「**[!UICONTROL 傳遞]**」選單，然後按一下「**[!UICONTROL 建立傳遞]**」按鈕。
+若要建立新傳送，請遵循下列步驟：
+
+1. 瀏覽至 **[!UICONTROL 傳遞]** 功能表，然後按一下  **[!UICONTROL 建立傳遞]** 按鈕。
 
 1. 選取「**[!UICONTROL 電子郵件]**」作為管道並選擇範本。
 
@@ -60,11 +67,6 @@ ht-degree: 99%
    此外，進階設定 (例如類型規則和目標對應) 可以透過按一下傳遞名稱旁邊的按鈕存取。這些設定是預先設定在選取的範本中，可以根據需要為此特定電子郵件進行編輯。
 
 ## 建立電子郵件內容 {#create-content}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="了解如何設計您的電子郵件內容"
->abstract="了解如何使用電子郵件設計工具。"
 
 有關如何設定電子郵件內容的詳細說明，請參閱[本章節](../content/edit-content.md)。
 

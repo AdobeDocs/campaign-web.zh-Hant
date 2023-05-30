@@ -4,16 +4,21 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 20%
+source-wordcount: '340'
+ht-degree: 18%
 
 ---
 
 # 開始使用行銷活動 {#campaigns}
 
-使用Adobe Campaign建立跨頻道行銷活動。 透過其行銷活動協調功能，您可以管理和集中客戶資料、設計客戶通訊和行銷活動，以建立不同管道的個人化體驗。 電子郵件、推播和簡訊頻道可供使用。
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="設計和傳送跨頻道行銷活動"
+>abstract="透過其行銷活動協調功能，您可以管理及集中客戶資料、設計客戶通訊與行銷活動，以及跨不同管道建立個人化體驗。 電子郵件、推播和簡訊頻道可供使用。"
+
+使用Adobe Campaign建立跨頻道行銷活動。 透過其行銷活動協調功能，您可以管理及集中客戶資料、設計客戶通訊與行銷活動，以及跨不同管道建立個人化體驗。 電子郵件、推播和簡訊頻道可供使用。
 
 針對所有平台和熒幕大小，設計和執行非大量電子郵件行銷活動，以傳遞個人化訊息。
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> 透過Adobe Campaign細分功能，您可以針對大量資料庫執行查詢，並輕鬆定義動態行銷區段，以完美鎖定您的行銷活動。
@@ -25,8 +30,6 @@ ht-degree: 20%
 >id="acw_campaign_creation_workflow"
 >title="工作流程清單"
 >abstract="您的行銷活動可用的工作流程清單。 使用「建立工作流程」按鈕，在行銷活動中新增工作流程。"
-
-
 
 在跨頻道行銷活動中，單一行銷通訊使用不同的頻道。 資料會在頻道之間傳遞。 客戶透過多個頻道接收通訊，例如以他們與先前通訊的互動為基礎。
 
