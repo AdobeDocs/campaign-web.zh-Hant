@@ -4,10 +4,10 @@ title: 開始使用對象
 description: 了解如何在 Campaign Web UI 中使用對象
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 94%
+source-wordcount: '146'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="開始使用對象"
->abstract="了解如何管理電子郵件內容的對象。"
+>abstract="瞭解如何使用Campaign規則產生器並定義篩選條件，以建立訊息的對象。"
 
 <!--
 Audience only created for the delivery, not available later-->
