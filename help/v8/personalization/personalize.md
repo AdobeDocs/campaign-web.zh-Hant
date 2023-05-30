@@ -7,15 +7,19 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: 48d5684201f006add0ceb467129dbbcf98465c5b
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 90%
+source-wordcount: '824'
+ht-degree: 67%
 
 ---
 
 
 # 個人化您的內容{#add-personalization}
+
+為了充分運用每一次行銷活動，Adobe Campaign可讓您提供自訂內容，以與客戶層級溝通。 根據設定檔資料，使用個人化功能建立不同群組和個人的自訂體驗：您可以運用您擁有的關於特定收件者的資料和資訊，根據他們來調整您的訊息。 這可以是他們的名字、興趣、居住地、購買內容等等。
+
+使用Campaign建立動態內容並傳送個人化訊息。 可結合個人化功能來改善您的訊息並建立自訂使用者體驗。
 
 您可以透過以下方式個人化訊息內容：
 
@@ -29,26 +33,27 @@ ht-degree: 90%
 
 * 插入預先定義的&#x200B;**內容區塊**
 
-   Campaign 隨附一組個人化區塊，其中包含您可以插入到傳遞中的特定轉譯。例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。內容區塊可從個人化編輯器的專屬項目取得。
+   Campaign 隨附一組個人化區塊，其中包含您可以插入到傳遞中的特定轉譯。例如，您可以新增標誌、問候語訊息，或電子郵件訊息映象頁面的連結。 可從個人化編輯器中的專用專案取得內容區塊。
 
    ![](assets/perso-content-blocks.png)
 
 * 建立 **條件式內容**
 
-   例如，設定條件式內容，以根據收件者的設定檔新增動態個人化。 當特定條件為true時，會插入文字區塊和/或影像。
+   例如，設定條件式內容，以根據收件者的設定檔新增動態個人化。 當特定條件為true時，會插入文字區塊和/或影像。 當條件不是true時，您可以定義內容的替代版本。
 
 
-## 個人化電子郵件主旨行 {#personalize-subject-line}
+## 個人化訊息的主旨列 {#personalize-subject-line}
 
 若要在訊息的&#x200B;**[!UICONTROL 主旨行]**&#x200B;欄位新增個人化，請依照以下步驟操作：
 
-1. 按一下「**[!UICONTROL 主旨行]**」欄位右側的「**[!UICONTROL 開啟個人化對話框]**」圖示。
+1. 開啟傳遞，然後按一下 **[!UICONTROL 編輯內容]**.
+1. 按一下 **[!UICONTROL 開啟個人化對話方塊]** 圖示右側 **[!UICONTROL 主旨列]** 電子郵件欄位，或 **[!UICONTROL 標題]** 推播/簡訊傳遞的欄位。
 
    ![](assets/perso-subject.png){width="600"}
 
-1. 輸入主旨行內容，然後選取要新增的個人化屬性。
+1. 輸入主旨行或標題，然後選取要新增的個人化屬性。
 
-1. 按一下 **[!UICONTROL 確認]**&#x200B;要驗證的**數。 個人化屬性已新增到主旨行。
+1. 按一下「**[!UICONTROL 確認]**」以驗證。個人化屬性會新增至內容。
 
 ## 個人化您的電子郵件內容 {#personalize-emails}
 
