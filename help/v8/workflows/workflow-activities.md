@@ -4,10 +4,10 @@ title: 使用工作流程活動
 description: 瞭解如何工作流程活動
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c134f930b253a8d4463f438176fc54e09ea21a48
+source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 74%
+source-wordcount: '853'
+ht-degree: 60%
 
 ---
 
@@ -16,13 +16,30 @@ ht-degree: 74%
 
 ## 目標定位活動 {#targeting}
 
-內容待定
-
-<!--à reformuler-->這些活動可讓您使用交集、聯合或執行運算來定義組合和分割或結合這些組合，藉此建置一個或多個目標。
+這些活動可讓您使用交集、聯合或執行運算來定義組合和分割或結合這些組合，藉此建置一個或多個目標。
 
 ### 建置對象 {#build-audience}
 
+此活動可讓您定義對象。 您可以選取現有的Campaign對象，或使用規則產生器來定義自己的查詢。
+
+此 **建立對象** 活動可放置在工作流程的開頭或任何其他活動之後。 任何活動都可以放在 **建立對象**.
+
+若要建立自己的查詢：
+
+1. 選取 **建立您自己的（查詢）**.
+1. 選擇 **目標維度**. 目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。依預設，會從收件者中選取目標。 請參閱 [v8檔案](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. 按一下 **繼續**.
+1. 使用規則產生器來定義您的查詢，就像在設計新電子郵件時建立對象一樣。 請參閱本[章節](../audience/segment-builder.md)。
+
+若要選取現有對象，
+
+1. 選取 **讀取對象**.
+1. 按一下 **繼續**.
+1. 選取您的對象，就像在設計新電子郵件時使用對象一樣。 請參閱本[章節](../audience/add-audience.md)。
+
 ### 組合 {#combine}
+
+此 **合併** 活動可放在任何其他活動之後，但不可放在工作流程的開頭。 任何活動都可以放在 **合併**.
 
 ### 擴充 {#enrichment}
 
