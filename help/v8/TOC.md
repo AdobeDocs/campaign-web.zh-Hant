@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: Campaign 概覽
 hide: true
-source-git-commit: b07d30f93f100f97e972b933710a7850c55f8d70
+source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 91%
+source-wordcount: '287'
+ht-degree: 90%
 
 ---
 
@@ -81,7 +81,18 @@ ht-degree: 91%
       + [建立工作流程](workflows/create-workflow.md)
       + [設定工作流程設定](workflows/workflow-settings.md)
       + [開始並監控工作流程](workflows/start-monitor-workflows.md)
-   + [工作流程活動](workflows/workflow-activities.md)
+   + 使用工作流程活動 {#design-workflows}
+      + [關於工作流程活動](workflows/activities/about-activities.md)
+      + [合併連結](workflows/activities/and-join.md)
+      + [建置對象](workflows/activities/build-audience.md)
+      + [組合](workflows/activities/combine.md)
+      + [電子郵件](workflows/activities/email.md)
+      + [結束](workflows/activities/end.md)
+      + [擴充](workflows/activities/enrichment.md)
+      + [分支](workflows/activities/fork.md)
+      + [推播](workflows/activities/push.md)
+      + [SMS](workflows/activities/sms.md)
+      + [等待](workflows/activities/wait.md)
 + 報告 {#reports}
    + [開始使用報告](reporting/gs-reports.md)
    + [存取傳遞報告](reporting/delivery-reports.md)
