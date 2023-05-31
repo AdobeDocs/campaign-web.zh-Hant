@@ -3,21 +3,24 @@ audience: end-user
 title: 使用電子郵件工作流程活動
 description: 瞭解如何使用電子郵件工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 46%
+source-wordcount: '50'
+ht-degree: 10%
 
 ---
 
 
 # 電子郵件 {#email}
 
-說明，您可以執行哪個使用案例 (您可以在活動之前或之後連結的其他常見活動)
+<!--
+description, which use case you can perform (common other activities that you can link before of after the activity)
 
-如何新增和設定活動
+how to add and configure the activity
 
-工作流程中已設定之活動的範例
+example of a configured activity within a workflow
+
+-->
 
 
 電子郵件傳送活動可讓您在工作流程中設定傳送電子郵件。

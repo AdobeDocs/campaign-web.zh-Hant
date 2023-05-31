@@ -4,9 +4,9 @@ title: 使用工作流程活動
 description: 瞭解如何工作流程活動
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
+source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '369'
 ht-degree: 5%
 
 ---
@@ -47,7 +47,7 @@ Adobe Campaign Web可讓您跨多個管道（例如電子郵件、簡訊或推�
 以下活動專用於組織和執行工作流程。 他們的主要工作是協調其他活動：
 
 * 此 [合併連結](and-join.md) 活動可讓您同步工作流程的多個執行分支。
-* 此 [結束](end.md) 活動為選用。 您可以使用
+* 此 [結束](end.md) 活動可讓您以圖形方式標示工作流程的結尾。 此活動沒有功能影響，因此是選用的。
 * 此 [分支](fork.md) 活動可讓您建立出站轉變，以同時開始多個活動。
 * 此 [等待](wait.md) 活動會暫時暫停執行工作流程的一部分。
 
