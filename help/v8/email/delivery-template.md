@@ -5,7 +5,8 @@ description: 瞭解如何在Campaign中建立和使用傳遞範本
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 3%
@@ -70,5 +71,3 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 1. 定義範本名稱和設定。
 1. 按一下 **[!UICONTROL 檢閱]** 按鈕來定義範本內容及變更其屬性。
 1. 儲存新範本。
-
-

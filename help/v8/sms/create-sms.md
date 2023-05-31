@@ -3,7 +3,8 @@ audience: end-user
 title: 建立簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送 SMS
 badge: label="Alpha" type="Positive"
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 12%
@@ -42,4 +43,3 @@ ht-degree: 12%
 1. 按一下 **[!UICONTROL 編輯內容]** 開始設計SMS訊息的內容。
 
 1. 若要將傳送排程至特定日期和時間，請開啟 **[!UICONTROL 啟用排程]** 選項。 在您啟動傳遞後，訊息將在您為收件者定義的確切日期和時間自動傳送。
-
