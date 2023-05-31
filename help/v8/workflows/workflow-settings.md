@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: ad5a995563c3192a73e1658878eeb58ce55fc24c
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '867'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,9 @@ ht-degree: 100%
 * 內部名稱
 * 資料夾
 * 連結的行銷活動 > 可以變更。若是如此，工作流程將從目前的行銷活動中消失並出現在新連結的行銷活動中
+
+   在行銷活動中建立工作流程時，您會找到其他行銷活動欄位，可讓您輕鬆識別及存取與工作流程關聯的行銷活動。
+
 * 時區：定義工作流程的所有活動中預設使用的特定時區。依預設，工作流程的時區是為目前的 Campaign 操作者定義的時區。
 * 監督員：當工作流程發生錯誤，工作流程監督群組的操作者會收到電子郵件通知，只要他們的電子郵件地址有列在他們的設定檔中即可。工作流程屬性的「**[!UICONTROL 監督員]**」欄位中已選取此群組。
 * 說明

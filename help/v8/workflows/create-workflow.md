@@ -4,9 +4,9 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: b47e64fc876b38c7ce59690b7a1ce162eee89cbf
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '635'
 ht-degree: 4%
 
 ---
@@ -32,15 +32,11 @@ ht-degree: 4%
 
    工作流程範本包含預先設定的活動和整體屬性設定，可重複用於建立新工作流程。 從使用者端主控台建立。 [瞭解如何使用範本](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
 
+   ![](assets/workflow-create.png)
+
 1. 在其他選項區段中，設定工作流程的特定設定，例如儲存資料夾和時區。 [瞭解如何設定工作流程屬性](workflow-settings.md)
 
-   >[!NOTE]
-   >
-   >在行銷活動中建立工作流程時，您會找到其他行銷活動欄位，可讓您輕鬆識別及存取與工作流程關聯的行銷活動。
-
 1. 按一下「建立工作流程」按鈕以確認建立工作流程。
-
-   ![](assets/workflow-create.png)
 
 建立工作流程後，您現在就可以開始使用專用的視覺畫布來協調將執行的各種任務。 [瞭解如何協調工作流程活動](#build)
 
