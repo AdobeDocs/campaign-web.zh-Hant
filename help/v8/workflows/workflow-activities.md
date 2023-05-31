@@ -4,10 +4,10 @@ title: 使用工作流程活動
 description: 瞭解如何工作流程活動
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
+source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 60%
+source-wordcount: '904'
+ht-degree: 57%
 
 ---
 
@@ -40,6 +40,12 @@ ht-degree: 60%
 ### 組合 {#combine}
 
 此 **合併** 活動可放在任何其他活動之後，但不可放在工作流程的開頭。 任何活動都可以放在 **合併**.
+
+聯合：可讓您將數個活動的結果群組至單一目標。 請參閱聯合區段。
+
+交集：可讓您僅擷取具有相同入站活動結果的母體
+
+排除：可讓您根據擷取一或多個其他目標的主要目標建立目標。
 
 ### 擴充 {#enrichment}
 
