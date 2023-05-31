@@ -4,10 +4,10 @@ title: 開始使用 Campaign v8 Web
 description: 開始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 100%
+source-wordcount: '418'
+ht-degree: 94%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
->title="開始使用"
->abstract="探索重要功能、使用者介面和全域準則。"
+>title="新增功能"
+>abstract="探索Campaign Web新的使用者介面、最新改善專案、重要功能，以及如何使用它們為您的對象建立跨管道行銷活動。"
 
 
 Adobe Campaign 為跨管道客戶體驗設計提供平台，並為視覺行銷活動協調流程、Real-time Interaction Management 和跨管道執行提供環境。
