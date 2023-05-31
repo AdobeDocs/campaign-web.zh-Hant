@@ -4,7 +4,7 @@ title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: acc3f2cdc50fc8727a472d427c2f8077775a8744
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 29%
@@ -63,9 +63,9 @@ Adobe Campaign v8 提供下列傳送頻道：
 
    ![](assets/add-delivery-in-wf.png)
 
-   此 **[!UICONTROL 建立對象]** 活動的詳細資訊，請參閱 [本節](../workflows/targeting-activities.md).
+   此 **[!UICONTROL 建立對象]** 活動的詳細資訊，請參閱 [本節](../workflows/workflow-activities.md#targeting).
 
-1. 選取傳遞活動： **[!UICONTROL 電子郵件]**， **[!UICONTROL 簡訊]**， **[!UICONTROL 推播通知(Android)]** 或 **[!UICONTROL 推播通知(iOS)]**. 進一步瞭解工作流程中的傳遞管道活動，以及如何在此定義傳遞內容 [區段](../workflows/channel-activities.md).
+1. 選取傳遞活動： **[!UICONTROL 電子郵件]**， **[!UICONTROL 簡訊]**， **[!UICONTROL 推播通知(Android)]** 或 **[!UICONTROL 推播通知(iOS)]**. 進一步瞭解工作流程中的傳遞管道活動，以及如何在此定義傳遞內容 [區段](../workflows/workflow-activities.md#channel).
 1. 啟動工作流程，並檢查記錄。
 
 您也可以在行銷活動中新增傳遞，而不需要建立工作流程。 若要完成此操作，請瀏覽至 **[!UICONTROL 傳遞]** 標籤，然後按一下 **[!UICONTROL 建立傳遞]** 按鈕。
