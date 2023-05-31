@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+source-git-commit: 8032c16b20c0c6754b81be856e3053f1d90f8635
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 72%
+source-wordcount: '1613'
+ht-degree: 71%
 
 ---
 
@@ -392,3 +392,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_sms_template_selection"
 >title="簡訊範本選擇"
 >abstract="選取預先定義的範本以開始您的SMS傳送。"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="已傳遞"
+>abstract="傳遞的KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="開啟次數"
+>abstract="開啟KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="點按次數"
+>abstract="點按KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="取消訂閱"
+>abstract="取消訂閱KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="垃圾訊息"
+>abstract="垃圾訊息KPI"
