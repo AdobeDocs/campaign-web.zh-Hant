@@ -3,9 +3,9 @@ audience: end-user
 title: 使用建立對象工作流程活動
 description: 瞭解如何使用建立對象工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 16%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 16%
 
 # 建置對象 {#build-audience}
 
-此活動可讓您定義對象。 您可以選取現有的Campaign對象，或使用規則產生器來定義自己的查詢。
+此活動可讓您定義對象。 您可以選取現有對象，或使用規則產生器來定義自己的查詢。
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
