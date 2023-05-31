@@ -4,7 +4,7 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 9ff1d71e3d9c3107f8213b4d614000ec7f336a47
+source-git-commit: 3730c628fe2d0d04332f1d0eb7d2b69f60682cab
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 4%
@@ -71,7 +71,7 @@ ht-degree: 4%
 
 可新增至圖表的活動清單隨即顯示。 可用的活動取決於您在工作流程圖表中的位置。 例如，新增第一個活動時，您可以透過鎖定受眾、分割工作流程路徑或設定等待活動以延遲工作流程執行來啟動工作流程。 另一方面，如果在「建立對象」活動後新增活動，您可以利用鎖定目標活動來調整目標、透過管道活動傳送傳送內容給對象，或透過流量控制活動來組織工作流程程式。
 
-將活動新增到圖表後，會出現右側窗格，可讓您使用特定設定來設定新新增的活動。 有關如何設定每個活動的詳細資訊，請參閱 [本節](get-started-activities.md).
+將活動新增到圖表後，會出現右側窗格，可讓您使用特定設定來設定新新增的活動。 有關如何設定每個活動的詳細資訊，請參閱 [本節](workflow-activities.md).
 
 ![](assets/workflow-configure-activities.png)
 
