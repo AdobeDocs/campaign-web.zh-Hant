@@ -4,10 +4,10 @@ title: 使用工作流程活動
 description: 瞭解如何工作流程活動
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 92444d4ee324f64a35f4cca0b40907bdf453732c
+source-git-commit: c134f930b253a8d4463f438176fc54e09ea21a48
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 98%
+source-wordcount: '665'
+ht-degree: 74%
 
 ---
 
@@ -20,21 +20,9 @@ ht-degree: 98%
 
 <!--à reformuler-->這些活動可讓您使用交集、聯合或執行運算來定義組合和分割或結合這些組合，藉此建置一個或多個目標。
 
+### 建置對象 {#build-audience}
 
-## 流程控制活動 {#flow-control}
-
-內容待定
-
-<!--à reformuler-->這些活動可讓您使用交集、聯合或執行運算來定義組合和分割或結合這些組合，藉此建置一個或多個目標。
-
-流程控制活動用於協調工作流程活動。
-
-## 資料管理活動 {#data-management}
-
-概觀：它們的用途
-它們適用的使用案例
-
-列出可用的活動 + 簡短說明 + 參考章節
+### 組合 {#combine}
 
 ### 擴充 {#enrichment}
 
@@ -82,3 +70,69 @@ i 按鈕
 在行銷活動中利用擴充資料
 
 可以在哪裡使用擴充資料：個人化電子郵件或其他使用案例？
+
+
+## 管道活動 {#channel}
+
+Adobe Campaign Web可讓您跨多個管道（例如電子郵件、簡訊或推播）自動執行行銷活動。 透過Adobe Campaign工作流程，您可以將管道活動結合到畫布中，以建立可根據客戶行為觸發動作的跨管道工作流程。
+
+例如，您可以建立歡迎電子郵件行銷活動，其中包括跨不同頻道的一系列訊息，例如電子郵件、簡訊和推播。 客戶完成購買後，您也可以傳送後續追蹤電子郵件，或透過簡訊傳送個人化生日訊息給客戶。
+
+透過使用管道活動，您可以建立全面、個人化的行銷活動，在多個接觸點吸引客戶並促進轉換。
+
+頻道活動可從畫面左側的「頻道」區段的浮動視窗中使用。
+
+### 電子郵件 {#email}
+
+說明，您可以執行哪個使用案例 (您可以在活動之前或之後連結的其他常見活動)
+
+如何新增和設定活動
+
+工作流程中已設定之活動的範例
+
+
+電子郵件傳送活動可讓您在工作流程中設定傳送電子郵件。
+
+<!-- Scheduled emails available?
+
+This can be a single send email and sent just once, or it can be a recurring email.
+* Single send emails are standard emails, sent once.
+* Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
+
+When linked to a scheduler, you can define recurring emails.-->
+
+電子郵件收件者是透過對象鎖定目標活動，在相同工作流程中定義活動上游的活動。
+
+<!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
+
+
+### SMS {#sms}
+
+### 推播通知 (Android) {#push-android}
+
+### 推播通知 (iOS) {#push-ios}
+
+## 流程控制活動 {#flow-control}
+
+內容待定
+
+<!--à reformuler-->這些活動可讓您使用交集、聯合或執行運算來定義組合和分割或結合這些組合，藉此建置一個或多個目標。
+
+流程控制活動用於協調工作流程活動。
+
+### 分支 {#fork}
+
+### AND-join {#join}
+
+
+### 等待 {#wait}
+
+### 結束 {#end}
+
+## 資料管理活動 {#data-management}
+
+概觀：它們的用途
+它們適用的使用案例
+
+列出可用的活動 + 簡短說明 + 參考章節
+
