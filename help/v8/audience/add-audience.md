@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: 選取對象
+title: 選取現有對象
 description: 了解如何選取對象
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 97%
 
 您也可以：
 
-* 建立新對象。[了解更多](segment-builder.md)
-* 使用外部檔案中的對象。 [了解更多](file-audience.md)
+* 建立新對象。 [了解更多](segment-builder.md)
+* 從外部檔案載入對象。 [了解更多](file-audience.md)
 * 使用 Adobe Experience Platform 對象。[了解更多](aep-audience.md)。
 
 
