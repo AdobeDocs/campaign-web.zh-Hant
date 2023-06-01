@@ -4,7 +4,7 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: f3474086eb3b44f07ab1020f1ddc6cad394c50c4
+source-git-commit: c842829915784654b7130563d36dea188e84ff3d
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 4%
@@ -52,7 +52,7 @@ ht-degree: 4%
 
 ![](assets/workflow-start.png)
 
-將活動新增到圖表後，會出現右側窗格，可讓您使用特定設定來設定新新增的活動。 有關如何設定每個活動的詳細資訊，請參閱 [本節](workflow-activities.md).
+將活動新增到圖表後，會出現右側窗格，可讓您使用特定設定來設定新新增的活動。 有關如何設定每個活動的詳細資訊，請參閱 [本節](activities/about-activities.md).
 
 ![](assets/workflow-configure-activities.png)
 
