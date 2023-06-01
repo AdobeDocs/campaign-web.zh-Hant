@@ -3,9 +3,9 @@ audience: end-user
 title: 使用等待工作流程活動
 description: 瞭解如何使用等待工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 12d87baff81298583fac12fdf04d39997e875954
+source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '147'
 ht-degree: 42%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 42%
 
 此 **等待** activity （活動）可用來在兩個執行之活動之間傳遞的特定時間。 例如，若要在電子郵件傳送活動後等候數天，請先分析此期間產生的開啟次數和點按次數，再執行任何後續操作（提醒電子郵件、建立閱聽眾等）。
 
+## 設定
+
 請依照下列步驟設定 **等待** 活動：
 
 1. 新增 **等待** 活動放入您的工作流程。
@@ -25,7 +27,6 @@ ht-degree: 42%
 
 1. 選取時間單位 **期間**：秒、分鐘、小時。
 
-
-
+## 範例
 
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用建立對象工作流程活動
 description: 瞭解如何使用建立對象工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
+source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 16%
+source-wordcount: '193'
+ht-degree: 17%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 16%
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
+
+## 設定
 
 請依照下列步驟設定 **建立對象** 活動：
 
@@ -37,3 +39,5 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 選取 **讀取對象**.
 1. 按一下 **繼續**.
 1. 選取您的對象，就像在設計新電子郵件時使用對象一樣。 請參閱本[章節](../../audience/add-audience.md)。
+
+## 範例

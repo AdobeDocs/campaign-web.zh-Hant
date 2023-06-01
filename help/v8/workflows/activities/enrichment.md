@@ -3,10 +3,10 @@ audience: end-user
 title: 使用擴充工作流程活動
 description: 瞭解如何使用擴充工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 96%
+source-wordcount: '364'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="擴充活動"
->abstract="擴充活動可讓您使用資料庫中的其他資訊來增強目標資料。它通常在目標定位活動之後用於工作流程。<br/>將擴充資料新增到工作流程後，它可以用於在擴充活動之後新增的活動中，根據客戶的行為、偏好和需求將客戶分成不同群組，或是用於建立最有可能讓目標對象產生共鳴的個人化行銷訊息和行銷活動。"
+>abstract="擴充活動可讓您使用資料庫中的其他資訊來增強目標資料。它通常用於目標定位活動之後的工作流程。<br/>將擴充資料新增到工作流程後，它可以用於在擴充活動之後新增的活動中，根據客戶的行為、偏好和需求將客戶分成不同群組，或是用於建立最有可能讓目標對象產生共鳴的個人化行銷訊息和行銷活動。"
 
 擴充活動可讓您使用資料庫中的其他資訊來增強目標資料。它通常在目標定位活動之後用於工作流程。
 
