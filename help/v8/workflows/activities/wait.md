@@ -3,10 +3,10 @@ audience: end-user
 title: 使用等待工作流程活動
 description: 瞭解如何使用等待工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 42%
+source-wordcount: '181'
+ht-degree: 39%
 
 ---
 
@@ -29,4 +29,6 @@ ht-degree: 42%
 
 ## 範例
 
+下列範例說明 **等待** 活動。 已傳送活動的電子郵件邀請。SMS傳送會在傳送24小時後傳送給相同母體。
 
+![](../assets/workflow-wait-example.png)
