@@ -4,10 +4,10 @@ title: 開始使用工作流程
 description: 了解如何開始使用工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 82%
+source-wordcount: '403'
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="重新設計的工作流程畫布介面"
->abstract="我們全方位的圖形畫布可讓您輕鬆設計流程，例如細分、行銷活動執行等。"
+>abstract="我們全方位的圖形畫布可讓您輕鬆設計流程，例如細分、行銷活動執行等。 此進階工具觸手可及，讓您精簡工作流程並提升行銷活動。"
 
 
 ## 什麼是工作流程？

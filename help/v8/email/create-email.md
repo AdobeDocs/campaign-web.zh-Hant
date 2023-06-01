@@ -4,10 +4,10 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 94%
+source-wordcount: '1356'
+ht-degree: 93%
 
 ---
 
@@ -15,9 +15,10 @@ ht-degree: 94%
 # 傳送您的第一個電子郵件 {#first-email}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
+>id="acw_homepage_card2"
 >title="使用Adobe Campaign傳送您的第一封電子郵件"
->abstract="瞭解如何使用電子郵件設計工具來建立內容、預覽和測試，以及在端對端使用案例中傳送電子郵件給現有對象。"
+>abstract="從範本開始，或使用Adobe Campaign的全新電子郵件設計工具來建立電子郵件，不必撰寫一行程式碼。 瞭解如何使用電子郵件設計工具來建立您的內容、預覽和測試，以及在端對端使用案例中傳送電子郵件給現有對象。"
+
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
