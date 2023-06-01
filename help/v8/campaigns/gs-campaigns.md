@@ -4,10 +4,10 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 18%
+source-wordcount: '353'
+ht-degree: 17%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="設計和傳送跨頻道行銷活動"
->abstract="透過其行銷活動協調功能，您可以管理及集中客戶資料、設計客戶通訊與行銷活動，以及跨不同管道建立個人化體驗。 電子郵件、推播和簡訊頻道可供使用。"
+>abstract="Adobe Campaign功能可協助您管理集中式客戶資料、設計客戶通訊和行銷活動，以及跨不同管道建立個人化體驗：電子郵件、推播和簡訊。"
 
-使用Adobe Campaign建立跨頻道行銷活動。 透過其行銷活動協調功能，您可以管理及集中客戶資料、設計客戶通訊與行銷活動，以及跨不同管道建立個人化體驗。 電子郵件、推播和簡訊頻道可供使用。
+使用Adobe Campaign建立跨頻道行銷活動。 透過其行銷活動協調功能，您可以管理及集中客戶資料、設計客戶通訊與行銷活動，以及跨不同管道建立個人化體驗。 在此版本中，可使用電子郵件、推播和簡訊頻道。
 
 針對所有平台和熒幕大小，設計和執行非大量電子郵件行銷活動，以傳遞個人化訊息。
-<!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> 透過Adobe Campaign細分功能，您可以針對大量資料庫執行查詢，並輕鬆定義動態行銷區段，以完美鎖定您的行銷活動。
+使用詳細報告衡量傳送的成效，包括開啟、點按、轉送等計數。 透過Adobe Campaign細分功能，您可以針對大量資料庫執行查詢，並輕鬆定義動態行銷區段，以完美鎖定您的行銷活動。
 
 ## 建立跨頻道行銷活動 {#cross-channel-campaign}
 

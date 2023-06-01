@@ -4,9 +4,9 @@ title: 開始使用 Campaign v8 Web
 description: 開始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '439'
 ht-degree: 90%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="新增功能?"
->abstract="探索Campaign Web新的使用者介面、最新改善專案、重要功能，以及如何使用它們為您的對象建立跨管道行銷活動。 Campaign提供簡單易用的功能，可協助您簡化個人化的跨頻道行銷活動建立流程、推動成果並取得競爭優勢。 "
+>abstract="探索Campaign網頁版的新使用者介面、最新改善專案、重要功能，並瞭解如何使用它們為受眾建立跨管道行銷活動。 Campaign提供簡單易用的功能，可協助您簡化個人化的跨頻道行銷活動建立流程、推動成果並取得競爭優勢。 "
 
 
 
