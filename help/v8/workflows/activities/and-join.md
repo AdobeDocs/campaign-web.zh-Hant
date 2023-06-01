@@ -3,9 +3,9 @@ audience: end-user
 title: 使用AND聯結工作流程活動
 description: 瞭解如何使用「與」結合工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 12d87baff81298583fac12fdf04d39997e875954
+source-git-commit: 6ed2c73a5348871348ec4cbdd89fc8119fdbc718
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '152'
 ht-degree: 4%
 
 ---
@@ -17,9 +17,17 @@ ht-degree: 4%
 
 AND-join活動只會在所有入站轉變啟動後，才會觸發其出站轉變，換句話說，會在所有先前活動完成後觸發。
 
+## 設定
+
 請依照下列步驟設定 **合併連結** 活動：
 
 1. 新增多個活動，例如 **合併** 至少形成兩個不同執行分支的活動。
 1. 新增 **合併連結** 活動至任何分支。
 1. 在 **合併選項** 區段，勾選所有您欲加入的先前活動。
 1. 選取 **主要集** 要保留在出站轉變中。
+
+## 範例
+
+以下範例顯示兩個工作流程分支，其中包含電子郵件和簡訊傳送。 兩個入站轉變均啟用時，AND-join會觸發。 然後，推播通知將僅在兩個傳送完成後傳送。
+
+![](../assets/workflow-andjoin-example.png)
