@@ -4,22 +4,20 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: b75d6efecc8d154817dee3c26d87b31f44e78c7e
+source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 4%
+source-wordcount: '256'
+ht-degree: 8%
 
 ---
 
 
-# 建立您的第一個工作流程 {#create-first-workflow}
+# 建立工作流程 {#create-first-workflow}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="工作流程屬性"
 >abstract="待定"
-
-## 建立工作流程 {#create}
 
 在Campaign v8網路中建立工作流程的第一步，是將其建立為獨立工作流程或直接在行銷活動中並定義其一般屬性。 若要這麼做，請遵循下列步驟：
 
@@ -40,30 +38,4 @@ ht-degree: 4%
 
 1. 按一下「建立工作流程」按鈕以確認建立工作流程。
 
-建立工作流程後，您現在就可以開始使用專用的視覺畫布來協調將執行的各種任務。 [瞭解如何協調工作流程活動](#build)
-
-## 協調工作流程活動 {#build}
-
-一旦您擁有 [已建立工作流程](create-workflow.md)從工作流程選單或行銷活動內，您可以開始協調將執行的不同任務。 為此，提供了視覺畫布，可讓您建構工作流程圖表。 在此圖表中，您可以新增各種活動，並依序連線它們。
-
-在設定的這個階段，圖表會顯示起始圖示，代表工作流程的開始。 若要新增第一個活動，請按一下連線到開始圖示的+按鈕。
-
-可新增至圖表的活動清單隨即顯示。 可用的活動取決於您在工作流程圖表中的位置。 例如，新增第一個活動時，您可以透過鎖定受眾、分割工作流程路徑或設定等待活動以延遲工作流程執行來啟動工作流程。 另一方面，在「建立對象」活動後，您可以利用目標定位活動來調整目標、利用頻道活動傳送傳送內容給對象，或利用流量控制活動來組織工作流程程式。
-
-![](assets/workflow-start.png)
-
-將活動新增到圖表後，會出現右側窗格，可讓您使用特定設定來設定新新增的活動。 有關如何設定每個活動的詳細資訊，請參閱 [本節](activities/about-activities.md).
-
-![](assets/workflow-configure-activities.png)
-
-根據您希望工作流程執行的任務，重複此程式，視需要新增活動。 請注意，您也可以在兩個活動之間插入新活動。 若要這麼做，請按一下活動之間轉變上的+按鈕，選取所需活動並在右側窗格中設定它。
-
-若要移除活動，請在畫布中選取該活動，然後按一下活動屬性中的「刪除」圖示。
-
->[!TIP]
->
->您可以選擇個人化每個活動之間的轉變名稱。 要執行此操作，請選取轉變並在右窗格中變更其標籤。
-
-完成工作流程後，在圖表結尾新增結束活動。 此活動可讓您以視覺化方式標示工作流程的結尾，而不會對功能造成影響。
-
-成功設計工作流程圖表後，您可以執行工作流程並追蹤其各種任務的進度。 [瞭解如何啟動工作流程並監視其執行](start-monitor-workflows.md)
+建立工作流程後，您現在就可以開始使用專用的視覺畫布來協調將執行的各種任務。 [瞭解如何協調工作流程活動](orchestrate-activities.md)

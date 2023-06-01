@@ -4,10 +4,10 @@ title: 開始使用工作流程
 description: 了解如何開始使用工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
+source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 83%
+source-wordcount: '387'
+ht-degree: 82%
 
 ---
 
@@ -41,12 +41,6 @@ ht-degree: 83%
 ## 讓我們深入探討
 
 現在您已瞭解什麼是工作流程，以及可以在Adobe Campaign中執行哪些工作，您可以更深入地研究這些檔案區段，以開始使用功能。
-
-* 建立您的第一個工作流程
-* 設計工作流程
-* 存取和監控
-
-(連結到小節待定)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
