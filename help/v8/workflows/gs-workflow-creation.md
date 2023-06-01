@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 748fef18a91a61f5ed956f65762a979e7dacabf3
+source-git-commit: 3b193cf7116859f31ce04ba89773ef388b7916c7
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 33%
+source-wordcount: '230'
+ht-degree: 36%
 
 ---
 
@@ -38,39 +38,4 @@ ht-degree: 33%
 
 建立工作流程的主要步驟如下所示：
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="create-workflow.md#create">
-<img alt="銷售機會" src="assets/do-not-localize/workflow-process-1 .jpeg">
-</a>
-<div><a href="create-workflow.md#create"><strong>建立工作流程</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="create-workflow.md#build">
-<img alt="不常使用" src="assets/do-not-localize/workflow-process-2.jpeg">
-</a>
-<div>
-<a href="create-workflow.md#build"><strong>協調活動</strong></a>
-</div>
-<p></td>
-<td>
-<a href="workflow-settings.md">
-<img alt="驗證" src="assets/do-not-localize/workflow-process-3.jpeg">
-</a>
-<div>
-<a href="workflow-settings.md"><strong>設定進階設定（選擇性）</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="start-monitor-workflows.md">
-<img alt="開始和監視工作流程" src="assets/do-not-localize/workflow-process-4.jpeg">
-</a>
-<div>
-<a href="start-monitor-workflows.md"><strong>開始和監視工作流程執行</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
+![](assets/workflow-creation-process.png)
