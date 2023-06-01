@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: Campaign 概覽
 hide: true
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '307'
+ht-degree: 82%
 
 ---
 
@@ -59,10 +59,14 @@ ht-degree: 0%
          + [電子郵件傳遞設定](advanced-settings/delivery-settings.md)
    + 推播通知 {#push}
       + [開始使用推播通知](push/gs-push.md)
+      + [建立推播通知傳遞](push/create-push.md)
+      + [設計推播傳遞](push/content-push.md)
+      + [傳送推播通知傳遞](push/send-push.md)
    + 簡訊 {#sms}
       + [開始使用 SMS 傳遞](sms/gs-sms.md)
-      + [建立簡訊傳遞](sms/create-sms.md)
+      + [建立 SMS 傳送](sms/create-sms.md)
       + [設計簡訊傳遞 ](sms/content-sms.md)
+      + [傳送簡訊傳遞 ](sms/send-sms.md)
 + 對象和收件者 {#audiences}
    + [開始使用對象](audience/about-audiences.md)
    + [選取現有對象](audience/add-audience.md)
