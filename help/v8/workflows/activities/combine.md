@@ -3,10 +3,10 @@ audience: end-user
 title: 使用合併工作流程活動
 description: 瞭解如何使用合併工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 23%
+source-wordcount: '439'
+ht-degree: 17%
 
 ---
 
@@ -23,9 +23,12 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * 此 **交集** 可讓您僅保留活動中不同入站母體的共同元素。
 * 此 **排除** 可讓您根據特定條件從一個母體中排除元素。
 
+## 設定
+
 請依照下列步驟設定 **合併** 活動：
 
-1. 新增您的 **合併** 活動到任何先前的區段轉變。
+1. 新增多個活動，例如 **建立對象** 至少形成兩個不同執行分支的活動。
+1. 新增 **合併** 活動到任何先前的區段轉變。
 1. 選取分段型別：聯合、交集或排除。
 1. 按一下 **繼續**.
 1. 在 **要聯結的集合** 區段，勾選所有您欲加入的先前活動。
@@ -38,3 +41,22 @@ The **Combine** activity can be placed after any other activity, but not at the 
 對於 **交集** 和 **排除**，您可以檢查 **產生補充** 選項（如果要處理剩餘母體）。 補碼將包含所有入站活動結果減去交集的聯合。 然後，會將額外的出站轉變新增至活動。
 
 對於 **排除**，選取 **主要集** 從入站轉變，在 **要聯結的集合** 區段。 這是從中排除元素的集。其他集會先設定相符的元素，然後才會從主要集予以排除。
+
+## 範例
+
+在以下範例中，我們新增了 **聯合** 這會擷取這兩個查詢的所有設定檔：18至27歲的人和34至40歲的人。
+
+![](../assets/workflow-union-example.png)
+
+下列範例顯示 **交集** 介於兩個查詢活動之間。 此處用於擷取18至27歲之間且已提供其電子郵件地址的設定檔。
+
+![](../assets/workflow-intersection-example.png)
+
+下列專案 **排除** 範例顯示兩個查詢，其設定為篩選年齡介於18至27歲且具有adobe電子郵件網域的設定檔。 隨後，具有Adobe電子郵件網域的設定檔將從第一個集合中排除。
+
+![](../assets/workflow-exclusion-example.png)
+
+
+
+
+

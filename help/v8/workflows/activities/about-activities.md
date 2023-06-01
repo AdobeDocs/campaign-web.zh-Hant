@@ -4,7 +4,7 @@ title: 使用工作流程活動
 description: 瞭解如何工作流程活動
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c842829915784654b7130563d36dea188e84ff3d
+source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 * [管道活動](#channel)
 * [流程控制活動](#flow-control)
 
-![](../assets/wokflow-activities.png)
+![](../assets/workflow-activities.png)
 
 ## 目標定位活動 {#targeting}
 
