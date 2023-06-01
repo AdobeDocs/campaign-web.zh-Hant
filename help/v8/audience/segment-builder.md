@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 使用規則產生器建立對象
-description: 了解如何使用區段產生器
+title: 使用Campaign規則產生器建立對象
+description: 瞭解如何使用規則產生器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positive"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '549'
+ht-degree: 97%
 
 ---
 
-# 使用規則產生器建立對象 {#segment-builder}
+# 使用規則產生器定義對象 {#segment-builder}
 
 本章節說明如何在設計新電子郵件時建立對象。建立的對象只能在此電子郵件中使用。
 
