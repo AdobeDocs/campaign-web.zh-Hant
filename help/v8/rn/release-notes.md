@@ -4,10 +4,10 @@ title: Campaign Web v8 發行說明
 description: Campaign Web v8 發行說明
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 8a6d5d0144d3efd5bcf7f6a20fa4d5a6bc13d12d
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 80%
+source-wordcount: '447'
+ht-degree: 79%
 
 ---
 
@@ -70,6 +70,7 @@ add info somewhere to remind users that
 此 Alpha 版本有以下限制：
 
 * 唯一可編輯的物件是傳送、行銷活動、工作流程、對象和範本。 其他物件是唯讀的。使用篩選器來瀏覽全部物件。
+* 無法儲存對象以供日後使用。
 * 尚未提供管理使用者介面。
 * 報告量度 (例如開啟和追蹤資料) 每小時更新一次。
 * 傳遞儀表板 KPIs 每 5 分鐘更新一次。- 但傳遞準備是即時的。
