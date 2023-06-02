@@ -4,10 +4,10 @@ title: 開始使用工作流程
 description: 了解如何開始使用工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 79%
+source-wordcount: '390'
+ht-degree: 70%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 79%
 >id="acw_homepage_card4"
 >title="重新設計的工作流程畫布介面"
 >abstract="我們全方位的圖形畫布可讓您輕鬆設計流程，例如細分、行銷活動執行等。 此進階工具觸手可及，讓您精簡工作流程並提升行銷活動。"
-
 
 ## 什麼是工作流程？
 
@@ -35,8 +34,9 @@ ht-degree: 79%
 
 以下是有關如何將工作流程搭配 Adobe Campaign 使用的一些範例：
 
-* 從伺服器下載檔案，解壓縮檔案，然後將其中包含的記錄匯入 Adobe Campaign 資料庫。
-* 建立傳遞動作、將任務指派給一或多個操作者來處理內容、指定目標、在開始傳遞之前核准校訂。
+* 為非作用中客戶啟動後續行銷活動，
+* 傳送歡迎電子郵件給服務的所有新訂閱者，
+* 根據客戶的忠誠度計畫狀態或興趣點，個人化跨管道傳遞。
 
 ## 讓我們深入探討
 

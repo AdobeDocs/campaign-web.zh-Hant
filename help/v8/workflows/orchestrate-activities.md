@@ -3,10 +3,10 @@ audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Alpha" type="Positive"
-source-git-commit: 422f2d2cbef424a95540f359c4a5e978eace6c9f
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 4%
+source-wordcount: '518'
+ht-degree: 3%
 
 ---
 
@@ -33,6 +33,23 @@ ht-degree: 4%
 >
 >您可以選擇個人化每個活動之間的轉變名稱。 要執行此操作，請選取轉變並在右窗格中變更其標籤。
 
-完成工作流程後，在圖表結尾新增結束活動。 此活動可讓您以視覺化方式標示工作流程的結尾，而不會對功能造成影響。
+以下是工作流程範例，其設計旨在透過電子郵件傳送電子郵件給所有對咖啡機感興趣的客戶(VIP客戶除外)。
+
+![](assets/workflow-example.png)
+
+為達成此目的，已新增下列活動：
+
+* A **[!UICONTROL 分支]** 活動將工作流程劃分為三個路徑（每組客戶各一個），
+* **[!UICONTROL 建立對象]** 以三組客戶為目標的活動：
+
+   * 有電子郵件的客戶，
+   * 屬於既有「對咖啡機感興趣」對象的客戶，
+   * 屬於既有「VIP或獎勵」對象的客戶。
+
+* A **[!UICONTROL 合併]** 活動，透過電子郵件將客戶和對咖啡機感興趣的客戶分組，
+* A **[!UICONTROL 合併]** 排除VIP客戶的活動，
+* 一個 **[!UICONTROL 電子郵件傳遞]** 傳送電子郵件給所產生客戶的活動。
+
+完成工作流程後，請新增 **[!UICONTROL 結束]** 活動在圖表結尾。 此活動可讓您以視覺化方式標示工作流程的結尾，而不會對功能造成影響。
 
 成功設計工作流程圖表後，您可以執行工作流程並追蹤其各種任務的進度。 [瞭解如何啟動工作流程並監視其執行](start-monitor-workflows.md)
