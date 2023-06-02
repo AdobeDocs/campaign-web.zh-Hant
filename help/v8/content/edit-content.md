@@ -4,10 +4,10 @@ title: 編輯電子郵件內容
 description: 了解如何在 Campaign Web UI 編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: f04e8aa5ecb12fca02da640b0037441d4cd7d4d3
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 69%
 
 ---
 
@@ -33,33 +33,46 @@ ht-degree: 100%
 >title="追蹤選項"
 >abstract="依預設，傳遞追蹤會啟用。您可以從此處停用此選項。"
 
-若要開始建立電子郵件的內容，請在電子郵件建立畫面中，按一下「**[!UICONTROL 編輯內容]**」按鈕。
+若要開始建立電子郵件的內容，請在電子郵件建立畫面中，按一下「**[!UICONTROL 編輯內容]**」按鈕。[](../email/create-email.md)
 
-![](assets/edit-content.png)
+![](assets/email-edit-content.png)
 
-此畫面可讓您定義電子郵件內容和存取電子郵件設計工具進行設計。
+開啟的畫面可讓您定義基本詳細資訊、執行一些其他動作（例如新增附件或設定優惠方案），以及存取電子郵件設計工具以建置您的內容。
 
-![](assets/content-dashboard.png)
+![](assets/email-edit-content-dashboard.png)
 
-定義電子郵件內容的步驟如下所示：
+編輯電子郵件內容的步驟如下：
 
-1. 檢查&#x200B;**[!UICONTROL 寄件者姓名]**&#x200B;和&#x200B;**[!UICONTROL 寄件者電子郵件]**&#x200B;資訊。這些欄位是唯讀的，在建立電子郵件時於所選電子郵件範本中設定。
+1. 在 **[!UICONTROL 發件人名稱]** 欄位中，使用收件人可輕鬆識別的名稱（例如您的品牌名稱）來增加傳遞的開頭率。
 
 1. 定義電子郵件 **[!UICONTROL 主旨行]**。為此，請直接在專屬欄位中輸入您的主旨，或開啟運算式編輯器以使用各種屬性和內容區塊或優惠來定義以新增個人化。[了解如何個人化內容](../personalization/personalize.md)
+若要進一步改善收件者的體驗，您可以新增個人名稱，例如「Emma from Megastore」。
 
-1. 如果您想要透過電子郵件傳送優惠，請使用「**[!UICONTROL 設定優惠]**」按鈕。然後您可以使用個人化欄位將它們插入到電子郵件中。[了解如何傳送優惠](offers.md)
+1. 在 **[!UICONTROL 從電子郵件]** 位址欄位，確認位址網域與您委派給Adobe的子網域相同。
+
+   您可以變更&#39;@&#39;之前的部分，但不能變更網域位址。
+
+   <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+
+1. 定義電子郵件 **[!UICONTROL 主旨行]**。在專用欄位中直接鍵入您的主題，或開啟運算式編輯器，使用各種屬性和內容區塊或選件來新增個人化。 [了解如何個人化內容](../personalization/personalize.md)
+
+1. 如果想要將檔案附加到電子郵件，請按一下「**[!UICONTROL 新增附件]**」按鈕然後選取一個或多個檔案。
+
+   >[!NOTE]
+   >
+   >    為避免出現效能問題，建議每封電子郵件不要包含多個附件。
+
+   <!--limitation on size + number of files?-->
+
+1. 如果您想要透過電子郵件傳送優惠，請使用「**[!UICONTROL 設定優惠]**」按鈕。
+
+   然後您可以使用個人化欄位將它們插入到電子郵件中。[了解如何傳送優惠](offers.md)
 
 1. 按一下「**[!UICONTROL 編輯電子郵件內文]**」按鈕以建構和設計電子郵件的內容。以下章節提供如何設計電子郵件內容的詳細資訊：
 
    * [了解如何設計電子郵件](create-email-content.md)
    * [建立內容樣式](get-started-email-style.md)
 
-1. 如果想要將檔案附加到電子郵件，請按一下「**[!UICONTROL 新增附件]**」按鈕然後選取一個或多個檔案。
-
-   為避免出現效能問題，建議每封電子郵件不要包含多個附件。
-
-   <!--limitation on size + number of files?-->
-
 1. 依預設，傳遞追蹤會啟用。您可以從「**[!UICONTROL 選擇性功能]**」區段停用此選項。[了解如何新增連結和管理追蹤](message-tracking.md)
 
-定義好電子郵件內容後，請使用「**[!UICONTROL 模擬內容]**」按鈕在傳送前檢查其如何顯示。[了解如何預覽和測試您的電子郵件](../preview-test/preview-test.md)
+1. 定義好電子郵件內容後，請使用「**[!UICONTROL 模擬內容]**」按鈕在傳送前檢查其如何顯示。[了解如何預覽和測試您的電子郵件](../preview-test/preview-test.md)
