@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
+source-git-commit: eed308685edc00c61d59f1529f363ac9b57d25cf
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 20%
+source-wordcount: '858'
+ht-degree: 17%
 
 ---
 
@@ -65,9 +65,7 @@ ht-degree: 20%
 
 * **[!UICONTROL 預設相似性]**：如果您的安裝包含數個工作流程伺服器，請使用此欄位來選擇要執行工作流程的電腦。 如果此欄位中定義的值不存在於任何伺服器上，工作流程將維持擱置狀態。
 
-* **[!UICONTROL 將SQL查詢儲存在記錄檔中]**：可讓您從工作流程將SQL查詢儲存至記錄中。 此功能保留給進階使用者使用。它適用於包含目標定位活動的工作流程，例如 **[!UICONTROL 建立對象]**. 啟用此選項後，工作流程執行期間傳送到資料庫的SQL查詢會顯示在Adobe Campaign中，讓您能夠分析這些查詢以最佳化查詢或診斷問題。
-
-   如果啟用選項，在新增至工作流程 (行銷活動工作流程除外) 和&#x200B;**[!UICONTROL 屬性]**&#x200B;活動的「**[!UICONTROL SQL 記錄]**」索引標籤中會顯示查詢。<!-- where?-->
+* **[!UICONTROL 將SQL查詢儲存在記錄檔中]**：可讓您從工作流程將SQL查詢儲存至記錄中。 此功能保留給進階使用者使用。它適用於包含目標定位活動的工作流程，例如 **[!UICONTROL 建立對象]**. 啟用此選項時，工作流程執行期間傳送到資料庫的SQL查詢會顯示在工作流程的記錄中，讓您能夠分析這些查詢以最佳化查詢或診斷問題。
 
 ## 錯誤管理設定
 
