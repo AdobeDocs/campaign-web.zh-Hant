@@ -4,14 +4,14 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
+source-git-commit: cc9566d1781d5a190b488182a8b05a99d396ac8c
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 7%
 
 ---
 
-# 開始並監控工作流程執行 {#start-monitor}
+# 開始和監視工作流程 {#start-monitor}
 
 建立工作流程並設計要在畫布中執行的任務後，您就可以啟動它並監視其執行方式。
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 | ![](assets/activity-status-red.png) | 活動發生錯誤。 若要解決此問題，請開啟工作流程記錄檔以取得詳細資訊。 |
 | ![](assets/activity-status-green.png) | 活動已成功執行。 |
 
-## 監視日誌和任務
+## 監視日誌和任務 {#logs-tasks}
 
 監視工作流程記錄和任務是分析工作流程並確保其正常執行的關鍵步驟。 這些區段可從 **[!UICONTROL 記錄檔]** 圖示（可在動作工具列和每個活動的屬性窗格中使用）。
 
