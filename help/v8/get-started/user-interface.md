@@ -4,7 +4,7 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 72%
@@ -325,7 +325,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_reporting_deliveries_selection"
 >title="傳遞的彙總報告"
 >abstract="至少選取兩個傳遞來顯示彙總資料報表。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"

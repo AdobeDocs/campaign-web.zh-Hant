@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 1a608d2042ae257d89acbd67d99a0ce05d89f382
+source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 24%
+source-wordcount: '884'
+ht-degree: 20%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
 >title="工作流程屬性"
->abstract="待定"
+>abstract="本節提供一般工作流程屬性，在建立工作流程時也可以存取。 您可以選擇要用來建立工作流程的範本並指定標籤。 展開「其他選項」區段以設定特定設定，例如儲存資料夾或時區的工作流程。"
 
 此 **[!UICONTROL 屬性]** 區段提供一般設定，可在建立工作流程時存取。
 
@@ -43,7 +43,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="細分設定"
->abstract="待定"
+>abstract="在此區段中，您可以選取目標維度，以定位工作流程中的設定檔，並選擇在兩個執行之間保留工作流程結果。 此選項僅能用於測試目的，絕不可在生產工作流程中啟用。
 
 * **[!UICONTROL 目標維度]**：選取用來鎖定設定檔的目標維度：收件者、合約受益者、操作員、訂閱者等。
 * **[!UICONTROL 保留兩次執行之間的中期母體結果]**：依預設，只會保留上次執行工作流程的工作表。 技術工作流程會清除先前執行的工作表，每天都會執行。
@@ -55,7 +55,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
 >title="執行設定"
->abstract="待定"
+>abstract="您可以在此段落中設定與工作流程執行相關的設定，例如工作流程歷程記錄的保留天數。"
 
 * **[!UICONTROL 歷史記錄（天）]**：指定必須清除歷程記錄的天數。 歷史記錄包含與工作流程相關的元素：記錄、任務、事件（連結至工作流程操作的技術物件）。 立即可用工作流程範本的預設值為 30 天。歷史記錄的清除工作是由資料庫清除技術工作流程執行，預設每天執行
 
@@ -74,7 +74,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="錯誤管理設定"
->abstract="待定"
+>abstract="在此區段中，您可以管理工作流程在執行期間發生錯誤（暫停/停止執行或忽略錯誤）時的行為方式。
 
 * **[!UICONTROL 錯誤管理]**：此欄位可讓您定義工作流程任務發生錯誤時應採取的動作。 您有兩個選擇：
 
