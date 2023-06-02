@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 3e06271c15db24c24aa9f0ee19113d52ffa1a19a
+source-git-commit: e4a667f81c1d95c12003c2d93fb9f5fd9239a2eb
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 2%
+source-wordcount: '921'
+ht-degree: 3%
 
 ---
 
@@ -29,6 +29,13 @@ Sender and reply-to addresses?-->
 <!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
 
 ## 存取和管理範本 {#access-manage-templates}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_templates"
+>title="利用傳送範本"
+>abstract="使用傳遞範本，輕鬆建立並儲存現有傳遞內容，以供日後使用。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="複製現有範本"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="將傳遞轉換為範本"
 
 若要存取內容範本清單，請選取 **[!UICONTROL Campaign Management]** > **[!UICONTROL 傳遞]** 從左側功能表，並瀏覽至 **範本** 標籤。
 
