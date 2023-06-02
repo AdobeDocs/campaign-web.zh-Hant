@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: Campaign 概覽
 hide: true
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: ec6a9f604c0ce06c503da36b6d8fbccd3557aded
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 82%
       + [用於建立工作流程的主要原則](workflows/gs-workflow-creation.md)
       + [建立工作流程](workflows/create-workflow.md)
       + [協調活動](workflows/orchestrate-activities.md)
-      + [設定進階設定](workflows/workflow-settings.md)
+      + [設定工作流程設定](workflows/workflow-settings.md)
       + [開始和監視工作流程](workflows/start-monitor-workflows.md)
    + 使用工作流程活動 {#design-workflows}
       + [關於工作流程活動](workflows/activities/about-activities.md)
