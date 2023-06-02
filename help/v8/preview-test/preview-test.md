@@ -4,14 +4,21 @@ title: 關於電子郵件預覽和測試
 description: 了解如何預覽和測試電子郵件
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: 012dd948dafd6f25b544ad5977979403e7dbdc01
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 91%
+source-wordcount: '175'
+ht-degree: 81%
 
 ---
 
 # 關於電子郵件預覽和測試 {#about-preview-proofs}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate"
+>title="預覽和測試您的訊息"
+>abstract="定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。 "
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="預覽電子郵件內容"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="傳送測試電子郵件"
 
 傳送電子郵件之前，重要的是要檢查和測試其內容，以確保內容準確，並且在內容或個人化設定方面沒有錯誤。
 
