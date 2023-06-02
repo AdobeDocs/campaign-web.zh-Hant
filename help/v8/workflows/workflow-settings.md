@@ -4,7 +4,7 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
+source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 20%
@@ -43,7 +43,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="細分設定"
->abstract="在此區段中，您可以選取目標維度，以定位工作流程中的設定檔，並選擇在兩個執行之間保留工作流程結果。 此選項僅能用於測試目的，絕不可在生產工作流程中啟用。
+>abstract="在此區段中，您可以選取目標維度，以定位工作流程中的設定檔，並選擇在兩個執行之間保留工作流程結果。 此選項僅能用於測試目的，絕不可在生產工作流程中啟用。"
 
 * **[!UICONTROL 目標維度]**：選取用來鎖定設定檔的目標維度：收件者、合約受益者、操作員、訂閱者等。
 * **[!UICONTROL 保留兩次執行之間的中期母體結果]**：依預設，只會保留上次執行工作流程的工作表。 技術工作流程會清除先前執行的工作表，每天都會執行。
@@ -74,7 +74,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="錯誤管理設定"
->abstract="在此區段中，您可以管理工作流程在執行期間發生錯誤（暫停/停止執行或忽略錯誤）時的行為方式。
+>abstract="在此區段中，您可以管理工作流程在執行期間發生錯誤（暫停/停止執行或忽略錯誤）時的行為方式。"
 
 * **[!UICONTROL 錯誤管理]**：此欄位可讓您定義工作流程任務發生錯誤時應採取的動作。 您有兩個選擇：
 
