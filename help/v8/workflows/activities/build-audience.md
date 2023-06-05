@@ -3,17 +3,27 @@ audience: end-user
 title: 使用建立對象工作流程活動
 description: 瞭解如何使用建立對象工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 14%
+source-wordcount: '314'
+ht-degree: 11%
 
 ---
 
 
 # 建置對象 {#build-audience}
 
-此活動可讓您定義對象。 您可以選取現有對象，或使用規則產生器來定義自己的查詢。
+此 **建立對象** 活動是 **目標定位** 活動。 此活動可讓您定義將進入工作流程的對象。 在行銷活動工作流程的內容中傳送訊息時，訊息對象不會定義在管道活動中，而是定義在 **建立對象** 活動。
+
+若要定義對象母體，您可以：
+
+* 選取在使用者端主控台中建立為清單的現有對象。
+* 選取Adobe Experience Platform對象。
+* 定義並結合篩選條件，以使用規則產生器建立新對象。
+
+>[!NOTE]
+>
+>在此內容中，您無法從檔案載入對象。 為此，您需要建立獨立傳送。 [了解更多](../../audience/about-audience.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -23,7 +33,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 請依照下列步驟設定 **建立對象** 活動：
 
-1. 新增「建置」對象活動。
+1. 新增 **建立對象** 活動。
 1. 定義標籤。
 1. 定義對象型別： **建立您自己的** 或 **讀取對象**.
 
