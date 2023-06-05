@@ -3,10 +3,10 @@ audience: end-user
 title: 使用電子郵件工作流程活動
 description: 瞭解如何使用電子郵件工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: fc920737aa336bbb92b2d2ef03f997ca2eefa0bb
+source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,12 +27,12 @@ Adobe Campaign Web可讓您跨多個管道（例如電子郵件、簡訊或推�
 
 1. 選取傳遞活動：**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL 推播通知 (Android)]** 或&#x200B;**[!UICONTROL 推播通知 (iOS)]**。
 
+1. 選取 **範本**. 範本是預先設定的傳遞設定，儲存供未來使用。[了解更多](../../msg/delivery-template.md)
+
+1. 按一下 **建立傳遞** 和定義訊息的方式，與建立獨立傳送的方式相同。 [了解更多](../../msg/gs-message.md)
+
+
 1. 啟動工作流程，並檢查記錄檔。
-
-
-
-
-
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
