@@ -4,7 +4,7 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
+source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 72%
@@ -97,7 +97,7 @@ Navtree view depends on permissions (same as console).
 
 * **行銷活動**  — 這是行銷活動和行銷活動範本的清單。 依預設，您可以檢視每個行銷活動的開始/結束/建立/上次修改日期、目前狀態，以及建立該行銷活動的行銷活動運運算元名稱。 您可以依狀態、開始/結束日期、資料夾或建立進階篩選器來篩選清單，以定義您自己的篩選條件。 進一步瞭解行銷活動 [在本節中](../campaigns/gs-campaigns.md).
 
-* **傳遞** - 瀏覽您的傳遞清單。依預設，您可以檢視其狀態、最後修改日期，以及 KPI。您可以依狀態、聯絡日期或管道篩選清單。按一下電子郵件傳遞來開啟其儀表板以取得傳遞詳細資料概觀。其他管道上的傳遞是唯讀的。進一步瞭解傳遞 [在本節中](../email/gs-messages.md).
+* **傳遞** - 瀏覽您的傳遞清單。依預設，您可以檢視其狀態、最後修改日期，以及 KPI。您可以依狀態、聯絡日期或管道篩選清單。按一下電子郵件傳遞來開啟其儀表板以取得傳遞詳細資料概觀。其他管道上的傳遞是唯讀的。進一步瞭解傳遞 [在本節中](../msg/gs-messages.md).
 
    使用「**更多動作**」按鈕來刪除或複製傳遞。
 

@@ -4,10 +4,10 @@ title: 開始使用對象
 description: 了解如何在 Campaign Web UI 中使用對象
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '156'
+ht-degree: 53%
 
 ---
 
@@ -35,14 +35,16 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
+
+對象是傳遞的主要目標：接收訊息的收件者。 對象類型取決傳遞範本中定義的目標對應。請參閱本[章節](../msg/delivery-template.md)。
+
 瞭解如何使用Campaign規則產生器並定義篩選條件來選取訊息的對象。 您可以輕鬆使用外部檔案中的資料，或鎖定Adobe Experience Platform對象。
 
-對象是傳遞的主要目標：收到電子郵件的收件者。對象類型取決傳遞範本中定義的目標對應。請參閱本[章節](../email/create-email.md)。
 
 若要定義對象，您可以：
 
-* 使用現有對象。[了解更多](add-audience.md)
-* 建立新對象。 [了解更多](segment-builder.md)
+* 選取在使用者端主控台中建立的現有對象。 [了解更多](add-audience.md)
+* 使用規則產生器建立新的對象。 [了解更多](segment-builder.md)
 * 使用外部檔案中的對象。 [了解更多](file-audience.md)
 * 使用 Adobe Experience Platform 對象。[了解更多](aep-audience.md)
 
