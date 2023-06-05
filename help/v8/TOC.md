@@ -3,12 +3,12 @@ audience: end-user
 user-guide-title: Campaign v8 Web
 title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
-breadcrumb-title: Campaign 概覽
+breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: f53fce6ee89e5b384e5385304c54c4898f21c63f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 83%
+source-wordcount: '316'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 83%
    + [探索介面](get-started/user-interface.md)
 + 訊息和傳遞 {#msg}
    + [開始使用訊息](msg/gs-messages.md)
-   + [利用傳送範本](msg/delivery-template.md)
+   + [使用傳遞範本](msg/delivery-template.md)
    + 電子郵件 {#email}
       + [建立您的第一個電子郵件](email/create-email.md)
       + 建立電子郵件內容 {#content}
@@ -46,8 +46,6 @@ ht-degree: 83%
             + [調整垂直對齊方式和邊框間距](content/alignment-and-padding.md)
             + [定義連結樣式](content/styling-links.md)
             + [新增內嵌樣式屬性](content/inline-styling.md)
-         + [新增個人化](personalization/personalize.md)
-         + [新增條件內容](personalization/conditions.md)
          + [傳送優惠](content/offers.md)
       + 預覽和測試您的電子郵件 {#preview-test}
          + [關於預覽和測試](preview-test/preview-test.md)
@@ -63,10 +61,14 @@ ht-degree: 83%
       + [設計推播傳遞](push/content-push.md)
       + [傳送推播通知傳遞](push/send-push.md)
    + 簡訊 {#sms}
-      + [開始使用 SMS 傳遞](sms/gs-sms.md)
+      + [開始使用簡訊傳遞](sms/gs-sms.md)
       + [建立 SMS 傳送](sms/create-sms.md)
       + [設計簡訊傳遞 ](sms/content-sms.md)
       + [傳送簡訊傳遞 ](sms/send-sms.md)
+   + 讓您的內容成為動態的 {#dynamic-content}
+      + [開始使用動態內容](personalization/gs-personalization.md)
+      + [新增個人化](personalization/personalize.md)
+      + [新增條件式內容](personalization/conditions.md)
 + 對象和收件者 {#audiences}
    + [開始使用對象](audience/about-audiences.md)
    + [選取現有對象](audience/add-audience.md)
@@ -80,7 +82,7 @@ ht-degree: 83%
 + 工作流程 {#wf}
    + [開始使用工作流程](workflows/gs-workflows.md)
    + [存取和管理工作流程](workflows/access-monitor.md)
-   + 建立並執行第一個工作流程 {#create-workflow}
+   + 建立和執行您的第一個工作流程 {#create-workflow}
       + [用於建立工作流程的主要原則](workflows/gs-workflow-creation.md)
       + [建立工作流程](workflows/create-workflow.md)
       + [協調活動](workflows/orchestrate-activities.md)
