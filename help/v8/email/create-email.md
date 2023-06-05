@@ -4,10 +4,10 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 94%
+source-wordcount: '1326'
+ht-degree: 86%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 94%
 
 1. 瀏覽至 **[!UICONTROL 傳遞]** 功能表，然後按一下  **[!UICONTROL 建立傳遞]** 按鈕。
 
-1. 選取「**[!UICONTROL 電子郵件]**」作為管道並選擇範本。
+1. 選取 **[!UICONTROL 電子郵件]** 作為頻道，並從清單中選擇電子郵件傳遞範本。
 
    >[!NOTE]
    >
@@ -67,15 +67,19 @@ ht-degree: 94%
 
    此外，進階設定 (例如類型規則和目標對應) 可以透過按一下傳遞名稱旁邊的按鈕存取。這些設定是預先設定在選取的範本中，可以根據需要為此特定電子郵件進行編輯。
 
-## 建立電子郵件內容 {#create-content}
+## 定義電子郵件內容 {#create-content}
 
-有關如何設定電子郵件內容的詳細說明，請參閱[本章節](../content/edit-content.md)。
+若要開始建立您的電子郵件內容，請遵循下列步驟。
 
-在此使用案例，您使用預先定義的範本來設計我們的電子郵件。
+<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
 
-1. 若要開始建立電子郵件內容，請開啟電子郵件傳遞，然後按一下「**[!UICONTROL 編輯內容]**」按鈕。
+在此使用案例中，您會使用預先定義的電子郵件 [傳遞範本](../msg/delivery-template.md) 以設計您的電子郵件。
 
-   這會將您帶到專屬介面，您可以在其中設定電子郵件內容，並使用電子郵件設計工具進行設計。
+1. 在電子郵件傳遞控制面板中，按一下 **[!UICONTROL 編輯內容]** 按鈕。
+
+   ![](assets/email-edit-content.png)
+
+   這會將您帶到專用介面，您可以在其中設定電子郵件內容並存取電子郵件設計工具。 [了解更多](../content/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -85,7 +89,7 @@ ht-degree: 94%
 
 1. 若要設計電子郵件的內容，按一下「**[!UICONTROL 編輯電子郵件內文]**」按鈕。
 
-   選擇用於建立電子郵件內容的方法。在此範例中，使用預先定義的設計範本。
+   選擇用於建立電子郵件內容的方法。在此範例中，使用 [預先定義的內容範本](../msg/delivery-template.md).
 
    ![](assets/select-template.png)
 
@@ -95,7 +99,7 @@ ht-degree: 94%
 
     ![](assets/import-folder.png)-->
 
-1. 選取範本，它會顯示在電子郵件設計工具中，您可以在其中進行任何必要的編輯和新增個人化。
+1. 選取範本後，範本會顯示在 [電子郵件設計工具](../content/create-email-content.md)，您可在此進行任何必要的編輯並新增個人化。
 
    例如，若要為電子郵件標題新增個人化，請選取元件區塊，然後按一下「**[!UICONTROL 新增個人化]**」。
 

@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 72%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## 左側導覽選單
 
-瀏覽左側連結可存取 Campaign v8 Web 功能。幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。所有清單都是唯讀的，電子郵件傳遞清單表除外。按一下清單項目以編輯/檢視的這個功能在 Alpha 版本未提供。在未來的版本，所有清單將可編輯。左側導覽選單顯示的項目取決於您的使用者權限。
+瀏覽左側連結可存取 Campaign v8 Web 功能。幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。所有清單畫面都是唯讀的，電子郵件傳遞清單除外。按一下清單項目以編輯/檢視的這個功能在 Alpha 版本未提供。在未來的版本，所有清單將可編輯。左側導覽選單顯示的項目取決於您的使用者權限。
 
 ![](assets/home.png)
 
@@ -64,9 +64,9 @@ Global report not alpha
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="總管"
->abstract="**總管**&#x200B;選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和綱要。所有清單都是唯讀的，電子郵件傳遞清單表除外。"
+>abstract="**總管**&#x200B;選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有的 Campaign v8 元件、資料夾和結構描述。所有清單畫面都是唯讀的，電子郵件傳遞清單除外。"
 
-**總管**&#x200B;選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有 Campaign v8 元件、資料夾和綱要。
+**總管**&#x200B;選單顯示與用戶端主控台相同的資料夾階層結構。瀏覽所有的 Campaign v8 元件、資料夾和結構描述。
 
 總管中顯示的項目取決於您的使用者權限。
 
@@ -86,24 +86,24 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="行銷活動"
->abstract="這是您的行銷活動清單。您可以檢視有用的資訊，例如其開始/結束/最後修改日期，以及其狀態。您可以依狀態或開始/結束日期篩選清單。按一下「建立行銷活動」按鈕以新增行銷活動。 選取行銷活動以檢視其內容、傳遞和詳細資訊。 瀏覽至「範本」標籤以檢視和建立範本。"
+>abstract="這是您的行銷活動清單。您可以檢視有用的資訊，例如其開始/結束/最後修改日期，以及其狀態。您可以依狀態或開始/結束日期篩選清單。按一下「建立行銷活動」按鈕，即可新增行銷活動。選取行銷活動，檢視其內容、傳遞和詳細資料。瀏覽到「範本」索引標籤，檢視和建立範本。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="傳遞"
->abstract="瀏覽您的傳遞清單。您可以檢視其狀態、聯絡人及修改日期、關鍵KPI。 您可以依狀態、聯絡日期或管道篩選清單。按一下「建立傳遞」按鈕以新增傳遞。 選取傳遞以檢視其內容、對象和詳細資訊。"
+>abstract="瀏覽您的傳遞清單。您可以檢視其狀態、聯絡和修改日期、關鍵 KPI。您可以依狀態、聯絡日期或管道篩選清單。按一下「建立傳遞」按鈕，即可新增傳遞。選取傳遞，檢視其內容、對象和詳細資料。"
 
-在CAMPAIGN MANAGEMENT區段中，您可以存取行銷活動、傳遞和工作流程。
+在「行銷活動管理」章節中，您可以存取行銷活動、傳遞和工作流程。
 
-* **行銷活動**  — 這是行銷活動和行銷活動範本的清單。 依預設，您可以檢視每個行銷活動的開始/結束/建立/上次修改日期、目前狀態，以及建立該行銷活動的行銷活動運運算元名稱。 您可以依狀態、開始/結束日期、資料夾或建立進階篩選器來篩選清單，以定義您自己的篩選條件。 進一步瞭解行銷活動 [在本節中](../campaigns/gs-campaigns.md).
+* **行銷活動** - 這是您的行銷活動清單以及行銷活動範本。預設情況下，您可以針對每個行銷活動檢視開始/結束/建立/最後修改日期、目前狀態以及建立該活動之行銷活動操作人員的姓名。您可以依狀態、開始/結束日期、資料夾篩選清單，或建立進階篩選以定義您自己的篩選標準。若要了解行銷活動的詳細資訊，請參閱[本章節](../campaigns/gs-campaigns.md)。
 
-* **傳遞** - 瀏覽您的傳遞清單。依預設，您可以檢視其狀態、最後修改日期，以及 KPI。您可以依狀態、聯絡日期或管道篩選清單。按一下電子郵件傳遞來開啟其儀表板以取得傳遞詳細資料概觀。其他管道上的傳遞是唯讀的。進一步瞭解傳遞 [在本節中](../msg/gs-messages.md).
+* **傳遞** - 瀏覽您的傳遞清單。依預設，您可以檢視其狀態、最後修改日期，以及 KPI。您可以依狀態、聯絡日期或管道篩選清單。按一下電子郵件傳遞來開啟其儀表板以取得傳遞詳細資料概觀。其他管道上的傳遞是唯讀的。若要了解傳遞的詳細資訊，請參閱[本章節](../msg/gs-messages.md)。
 
    使用「**更多動作**」按鈕來刪除或複製傳遞。
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **工作流程**  — 在此畫面中，您可以存取工作流程和工作流程範本的完整清單。 您可以檢查其狀態、上次/下次執行日期，並建立新的工作流程或新的工作流程範本。 您可以使用與其他物件相同的條件來篩選清單。 此外，您也可以篩選是否屬於行銷活動的工作流程。 進一步瞭解工作流程 [在本節中](../workflows/gs-workflows.md).
+* **工作流程**- 在此畫面中，您可以存取工作流程和工作流程範本的完整清單。您可以檢查其狀態、上次/下次執行日期，並建立新的工作流程或新的工作流程範本。您可以使用和其他物件相同的標準篩選清單。此外，您可以篩選工作流程，無論其是否屬於行銷活動。若要了解工作流程的詳細資訊，請參閱[本章節](../workflows/gs-workflows.md)。
 
 
 ### 客戶管理
@@ -111,30 +111,30 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="收件者"
->abstract="存取您的收件者資料庫。您可以檢視有用的資訊，例如其電子郵件地址、名字和姓氏。此清單是唯讀的。"
+>abstract="存取您的收件者資料庫。您可以檢視有用的資訊，例如其電子郵件地址、名字和姓氏。此為唯讀清單。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="對象"
->abstract="這是您的對象清單。您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依來源來篩選清單。此清單是唯讀的。"
+>abstract="這是您的對象清單。您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依來源來篩選清單。此為唯讀清單。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="訂閱清單"
->abstract="瀏覽您的訂閱清單。您可以檢視其類型、模式和標籤。此清單是唯讀的。"
+>abstract="瀏覽您的訂閱清單。您可以檢視其類型、模式和標籤。此為唯讀清單。"
 
-* **收件者** - 存取您的收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。此清單是唯讀的。
-* **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依來源來篩選清單。此清單是唯讀的。
-* **訂閱清單** - 瀏覽您的訂閱清單。依預設，您可以檢視其類型、模式和標籤。此清單是唯讀的。
+* **收件者** - 存取您的收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。此為唯讀清單。
+* **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依來源來篩選清單。此為唯讀清單。
+* **訂閱清單** - 瀏覽您的訂閱清單。依預設，您可以檢視其類型、模式和標籤。此為唯讀清單。
 
 ### 決策管理
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="優惠"
->abstract="瀏覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些清單是唯讀的。"
+>abstract="瀏覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些是唯讀清單。"
 
-* **優惠** - 覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些清單是唯讀的。
+* **優惠** - 覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些是唯讀清單。
 
 ## 頂端列
 
@@ -238,47 +238,47 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="定義簡訊對象"
->abstract="選取SMS訊息的最佳對象。"
+>abstract="選取簡訊訊息的最佳對象。"
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
->title="SMS 報告摘要"
+>title="簡訊報告摘要"
 >abstract="探索簡訊傳遞的報告量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="發佈報告摘要"
->abstract="探索推送傳遞的報告量度。"
+>title="推播報告摘要"
+>abstract="探索推播傳遞的報告量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="規則產生器進階屬性"
->abstract="使用進階屬性來定義規則。"
+>abstract="使用進階屬性定義規則。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="傳送的量度"
->abstract="傳遞的電子郵件數目。"
+>abstract="已傳遞的電子郵件數量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="錯誤量度"
->abstract="具有錯誤狀態的電子郵件數目。"
+>abstract="具有錯誤狀態的電子郵件數量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
->title="發佈 Android 內容"
->abstract="定義推播Android內容。"
+>title="推播 Android 內容"
+>abstract="定義推播 Android 內容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
->title="發佈 iOS 內容"
->abstract="定義推播iOS內容。"
+>title="推播 iOS 內容"
+>abstract="定義推播 iOS 內容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="應用程式訂閱者"
->abstract="將應用程式訂閱者新增至主要目標，以預覽和測試訊息。 "
+>abstract="將應用程式訂閱者新增到主要目標，以預覽和測試訊息。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -288,7 +288,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="預覽模式"
->abstract="將測試母體包含至主要目標以預覽和測試訊息。"
+>abstract="將測試母體納入主要目標，以預覽和測試訊息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -304,12 +304,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="報告傳送"
->abstract="請參閱傳送指標，以取得行銷活動報告。"
+>abstract="參閱行銷活動報告的傳送指標。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="報告追蹤"
->abstract="請參閱行銷活動報告的追蹤指標。"
+>abstract="參閱行銷活動報告的追蹤指標。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
@@ -319,12 +319,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="報告目標統計資料"
->abstract="此區段會根據對象顯示特定量度。"
+>abstract="本章節會根據對象顯示特定的量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="傳遞的彙總報告"
->abstract="至少選取兩個傳遞來顯示彙總資料報表。"
+>abstract="選取至少兩個傳遞，以顯示彙總的資料報告。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -349,12 +349,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="需要權限"
->abstract="您的管理員必須先授予您許可權，您才能建立區段。"
+>abstract="您的管理員必須先授予您權限，然後您才能建立區段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="需要權限"
->abstract="您的管理員必須先授予您許可權，您才能建立區段。"
+>abstract="您的管理員必須先授予您權限，然後您才能建立區段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -369,17 +369,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="推播傳遞屬性"
->abstract="管理推送傳遞屬性。"
+>abstract="管理推播傳遞屬性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
->title="新增隔離量度"
->abstract="新增隔離量度。"
+>title="新的隔離量度"
+>abstract="新的隔離量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
->title="簡訊範本選擇"
->abstract="選取預先定義的範本以開始您的SMS傳送。"
+>title="簡訊範本選取"
+>abstract="選取預先定義的範本，以開始進行簡訊傳遞。"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

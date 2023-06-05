@@ -1,38 +1,37 @@
 ---
 product: campaign
-title: 利用傳送範本
-description: 瞭解如何在Campaign中建立和使用傳遞範本
+title: 使用傳遞範本
+description: 了解如何在 Campaign 中建立和使用傳遞範本
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 3%
+source-wordcount: '937'
+ht-degree: 21%
 
 ---
 
-# 利用傳送範本 {#work-with-delivery-templates}
+# 使用傳遞範本 {#work-with-delivery-templates}
 
 為了加快並改善設計流程，您可以建立傳遞範本，以在行銷活動中輕鬆重複使用自訂內容。 此功能可讓您標準化創意外觀和風格，以更快執行和啟動行銷活動。
 
-範本可包含：
+範本可能包括：
 
-<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
-Sender and reply-to addresses?-->
+* [類型](../advanced-settings/delivery-settings.md#typology)
+* 寄件者地址
 * 一個 [對象](../audience/about-audiences.md)，包括 [控制組](../audience/control-group.md)
-* 自訂 [內容](../content/edit-content.md)<!--company logo, or signature-->
-* [個人化欄位](../personalization/personalize.md) 和 [條件式內容](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* 自訂 [內容](../content/edit-content.md)
+* [個人化欄位](../personalization/personalize.md) 和 [條件式內容](../personalization/conditions.md)
 * 連結至 [映象頁面](../content/mirror-page.md) 和取消訂閱 [連結](../content/message-tracking.md)
-
-<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
+* 其他傳遞屬性，例如資源有效性、重試參數或隔離設定。
 
 ## 存取和管理範本 {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
->title="利用傳送範本"
+>title="使用傳遞範本"
 >abstract="使用傳遞範本，輕鬆建立並儲存現有傳遞內容，以供日後使用。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="複製現有範本"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="將傳遞轉換為範本"
@@ -71,15 +70,15 @@ Sender and reply-to addresses?-->
 
 ### 複製現有範本 {#copy-an-existing-template}
 
-Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊。 建立傳遞範本的最簡單方法是複製和自訂內建範本。
+Campaign 為每種管道提供了一組內建範本：電子郵件、推播、簡訊。建立傳遞範本最簡單的方法是複製和自訂內建範本。
 
 >[!NOTE]
 >
 >您也可以複製任何自訂範本。
 
-若要複製傳遞範本，請遵循下列步驟：
+若要複製傳遞範本，請依照以下步驟進行：
 
-1. 瀏覽至 **範本** 標籤，從 **傳遞** 左側功能表。 [了解更多](#access-manage-templates)
+1. 瀏覽到「**範本**」索引標籤 (位於左側功能表的「**傳遞**」中)。[了解更多](#access-manage-templates)
 1. 按一下 **[!UICONTROL 更多動作]** 按鈕，然後選取「 」  **[!UICONTROL 複製]**.
 
    您也可以從清單中選取範本，然後從範本版本畫面中選取此選項。
@@ -98,7 +97,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 1. 視需要測試範本呈現。 [了解更多](#test-template)
 
-新範本會新增至 [**範本** 清單](#access-manage-templates). 您現在可以在建立新傳送時選取它。
+新範本會新增至 [**範本** 清單](#access-manage-templates). 您現在建立新傳遞時即可以選取該範本。
 
 ### 將傳遞轉換為範本 {#convert-an-existing-delivery}
 
@@ -119,18 +118,18 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 1. 視需要測試範本呈現。 [了解更多](#test-template)
 
-新範本會新增至 [**範本** 清單](#access-manage-templates). 您現在可以在建立新傳送時選取它。
+新範本會新增至 [**範本** 清單](#access-manage-templates). 您現在建立新傳遞時即可以選取該範本。
 
-### 建立新範本 {#create-a-new-template}
+### 建立新的範本 {#create-a-new-template}
 
 >[!NOTE]
 >
->為避免設定錯誤，Adobe建議您 [複製內建範本](#copy-an-existing-template) 並自訂其屬性，而非建立新範本。
+>為避免發生設定錯誤，Adobe 建議您[複製內建範本](#copy-an-existing-template)並自訂其屬性，而不是建立新範本。
 
-若要從頭開始設定傳送範本，請遵循下列步驟：
+若要從頭設定傳遞範本，請依照以下步驟進行：
 
-1. 瀏覽至 **範本** 標籤，從 **傳遞** 左側功能表。 [了解更多](#access-manage-templates)
-1. 按一下 **[!UICONTROL 建立範本]** 按鈕。
+1. 瀏覽到「**範本**」索引標籤 (位於左側功能表的「**傳遞**」中)。[了解更多](#access-manage-templates)
+1. 按一下「**[!UICONTROL 建立範本]**」按鈕。
 
    ![](assets/templates-create-button.png)
 
@@ -148,7 +147,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
    >請在以下章節中進一步瞭解傳遞管道以及如何設計相關內容：
    >
    > * [電子郵件通道](../email/create-email.md)
-   > * [推播通知頻道](../push/gs-push.md)
+   > * [推播通知管道](../push/gs-push.md)
    > * [SMS 頻道](../sms/create-sms.md)
 
 
@@ -156,7 +155,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 1. 視需要測試範本呈現。 [了解更多](#test-template)
 
-新範本會新增至 [**範本** 清單](#access-manage-templates). 您現在可以在建立新傳送時選取它。
+新範本會新增至 [**範本** 清單](#access-manage-templates). 您現在建立新傳遞時即可以選取該範本。
 
 ## 測試傳遞範本 {#test-template}
 
