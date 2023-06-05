@@ -4,10 +4,10 @@ title: 使用工作流程活動
 description: 瞭解如何工作流程活動
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 19%
+source-wordcount: '303'
+ht-degree: 6%
 
 ---
 
@@ -36,9 +36,7 @@ ht-degree: 19%
 
 Adobe Campaign Web可讓您跨多個管道（例如電子郵件、簡訊或推播）自動執行行銷活動。 您可以將管道活動結合到畫布中，以建立跨管道工作流程，其可根據客戶行為觸發動作。
 
-例如，您可以建立一個歡迎電子郵件活動，其中包括跨不同管道的一系列訊息，例如電子郵件、簡訊和推播。您還可以在客戶完成購買後傳送後續追蹤電子郵件，或透過簡訊向客戶傳送個人化的生日祝賀訊息。
-
-透過使用管道活動，您可以建立全面且個人化的行銷活動，吸引多個接觸點的客戶並促進轉換。
+下列專案 **頻道** 活動可用：
 
 * [電子郵件](email.md)
 * [推播](push.md)
