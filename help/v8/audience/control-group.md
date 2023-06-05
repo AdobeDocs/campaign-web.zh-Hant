@@ -4,10 +4,10 @@ title: 設定控制組
 description: 了解如何在 Campaign Web UI 中為您的訊息設定控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 56%
+source-wordcount: '743'
+ht-degree: 44%
 
 ---
 
@@ -53,9 +53,21 @@ ht-degree: 56%
 
 * **按屬性排名**：此選項可讓您根據特定排序順序中的特定屬性排除一組設定檔。
 
+
+然後使用 **大小限制** 區段，以設定您需要從主要目標擷取的設定檔數量。 可以是原始數字（例如要排除的50個設定檔）或初始對象的百分比（例如主要目標的5%）。
+
+
+### 控制組範例
+
+例如，若要建立包含100個最新收件者的控制組，請遵循下列步驟：
+
+1. 選取 **年齡** 欄位作為排序標準。 離開 **升序** 排序選項。
+1. 新增 **建立日期** 欄位。 變更為 **降序** 排序選項。
+1. 在中將100定義為臨界值 **大小限制** 區段。
+
    ![](assets/control-group2.png)
 
-然後使用 **大小限制** 區段，以設定您需要從主要目標擷取的設定檔數量。 可以是原始數字或初始對象的百分比。
+然後，這100個最年輕的收件者會從主要目標中排除。
 
 ### 檢查您的控制組 {#check-extract-target}
 
@@ -89,7 +101,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="額外母體"
->abstract="定義控制組的另一種方法是使用現有對象或定義查詢從目標中排除特定母體。"
+>abstract="您可以選取現有對象，或定義查詢，以從目標中排除特定母體。"
 
 定義控制組的另一種方法是使用現有對象或定義查詢從目標中排除特定母體。
 
@@ -102,3 +114,8 @@ ht-degree: 56%
 * 若要定義新查詢，請選取「**建立您自己的**」並使用規則產生器定義排除標準。請參閱本[章節](segment-builder.md)。
 
 包含在對象中或與查詢結果相符的設定檔將從目標中排除。
+
+## 比較結果{#control-group-results}
+
+傳送後，您可以擷取傳送記錄檔，以比較未接收通訊的設定檔與有效目標之間的行為。 您也可以使用傳送記錄來建置新的目標定位。
+
