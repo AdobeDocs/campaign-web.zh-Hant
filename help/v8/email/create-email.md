@@ -4,10 +4,10 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 93%
+source-wordcount: '1329'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="電子郵件屬性"
->abstract="這些屬性是常見的傳遞參數，可幫助您對傳遞進行命名和分類。如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充綱要，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
+>abstract="這些屬性是常見的傳遞參數，可幫助您對傳遞進行命名和分類。如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充結構描述，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
 
 若要建立新傳送，請遵循下列步驟：
 
@@ -46,7 +46,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >範本是預先設定的傳遞設定，儲存供未來使用。管理員使用者可以在 Adobe Campaign 主控台中建立範本。[了解如何使用傳遞範本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}。
+   >範本是預先設定的傳遞設定，儲存供未來使用。[了解更多](../msg/delivery-template.md)
 
    ![](assets/channel-template.png)
 
@@ -61,7 +61,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >如果您使用特定自訂欄位擴展綱要，則可以在「**[!UICONTROL 自訂選項]**」區段存取它們。
+   >如果您使用特定自訂欄位擴展結構描述，則可以在「**[!UICONTROL 自訂選項]**」區段存取它們。
 
    ![](assets/email-properties.png)
 
@@ -89,7 +89,7 @@ ht-degree: 93%
 
    ![](assets/select-template.png)
 
-<!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
+   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
     If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
@@ -110,7 +110,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="定義對象"
->abstract="為您的行銷電子郵件選擇最佳對象。您可以選擇已在 Campaign v8 執行個體或從 Adobe Experience Platform 中定義的現有對象，或可以使用規則產生器建立新對象。「從檔案選取」不會啟用控制組，反之亦然。"
+>abstract="為您的行銷電子郵件選擇最佳對象。您可以選擇已在 Campaign v8 執行個體或從 Adobe Experience Platform 中定義的現有對象，或可以使用規則產生器建立新對象。「從檔案中選取」未啟用控制組，反之亦然。"
 
 在此使用案例，您傳送電子郵件給現有的對象。有關如何使用對象的其他說明，請參閱[本章節](../audience/about-audiences.md)。
 
