@@ -3,9 +3,9 @@ audience: end-user
 title: 使用電子郵件工作流程活動
 description: 瞭解如何使用電子郵件工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '316'
 ht-degree: 31%
 
 ---
@@ -29,7 +29,7 @@ Adobe Campaign Web可讓您跨多個管道（例如電子郵件、簡訊或推�
 
 1. 選取 **範本**. 範本是預先設定的傳遞設定，儲存供未來使用。[了解更多](../../msg/delivery-template.md)
 
-1. 按一下 **建立傳遞** 和定義訊息的方式，與建立獨立傳送的方式相同。 這也是您定義傳送設定、排程和模擬內容的地方。 [了解更多](../../msg/gs-message.md)
+1. 按一下 **建立傳遞** 和定義訊息的方式，與建立獨立傳送的方式相同。 這也是您定義傳送設定、排程和模擬內容的地方。 [了解更多](../../msg/gs-messages.md)
 
 1. 導覽回您的工作流程，然後按一下 **開始** 以啟動工作流程。
 
@@ -38,6 +38,9 @@ Adobe Campaign Web可讓您跨多個管道（例如電子郵件、簡訊或推�
 1. 按一下 **檢閱並傳送** ，以確認傳送。
 
 1. 從您的傳送控制面板，按一下 **傳送**.
+
+## 範例
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
