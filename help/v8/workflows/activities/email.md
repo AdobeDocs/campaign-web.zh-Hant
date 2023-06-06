@@ -3,10 +3,10 @@ audience: end-user
 title: 使用電子郵件工作流程活動
 description: 瞭解如何使用電子郵件工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
+source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 31%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,9 @@ Adobe Campaign Web可讓您跨多個管道（例如電子郵件、簡訊或推�
 
 ## 範例
 
+以下是跨管道工作流程範例，其中包含細分和兩個傳送。 工作流程會鎖定擁有電子郵件地址並對咖啡機感興趣的所有客戶。 在此群體中，會傳送電子郵件給一般客戶，並傳送簡訊給VIP使用者端。
 
+![](../assets/workflow-channel-example.png)
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
