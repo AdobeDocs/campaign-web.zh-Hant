@@ -4,16 +4,18 @@ title: 設定控制組
 description: 了解如何在 Campaign Web UI 中為您的訊息設定控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 44%
+source-wordcount: '764'
+ht-degree: 45%
 
 ---
 
 # 設定控制組 {#control-group}
 
 控制組是從傳送中排除的子母體。 您可以定義控制組以避免傳送訊息給部分對象，並比較傳送後的行為與主要目標。 此選項可協助您測量行銷活動的影響。
+
+## 啟用控制組{#add-a-control-group}
 
 若要新增控制組，請在定義傳送對象時啟用選項。 可以從主要目標隨機擷取控制組和/或從特定母體中選取。因此，定義控制組的主要方法有兩種：
 
@@ -26,7 +28,7 @@ ht-degree: 44%
 
 >[!CAUTION]
 >
->載入目標母體時，無法使用控制組 [從外部檔案](file-audience.md).
+>[從外部檔案](file-audience.md)載入目標母體時，您不能使用控制組。
 
 若要將控制組新增至傳遞，請啟動 **[!UICONTROL 啟用控制組]** 切換，從 **對象** 傳遞建立畫面的一節。
 
@@ -57,7 +59,7 @@ ht-degree: 44%
 然後使用 **大小限制** 區段，以設定您需要從主要目標擷取的設定檔數量。 可以是原始數字（例如要排除的50個設定檔）或初始對象的百分比（例如主要目標的5%）。
 
 
-### 控制組範例
+### 控制組範例{#control-group-sample}
 
 例如，若要建立包含100個最新收件者的控制組，請遵循下列步驟：
 
@@ -69,7 +71,7 @@ ht-degree: 44%
 
 然後，這100個最年輕的收件者會從主要目標中排除。
 
-### 檢查您的控制組 {#check-extract-target}
+### 檢查您的控制組 {#check-control-group}
 
 您可以檢視記錄以檢查和識別排除的設定檔。讓我們以隨機排除五個設定檔為範例。
 
@@ -118,4 +120,7 @@ ht-degree: 44%
 ## 比較結果{#control-group-results}
 
 傳送後，您可以擷取傳送記錄檔，以比較未接收通訊的設定檔與有效目標之間的行為。 您也可以使用傳送記錄來建置新的目標定位。
+
+若要檢視已從目標移除的設定檔，請檢查 **傳遞記錄**. 瞭解更多 [在本節中](#check-control-group).
+
 

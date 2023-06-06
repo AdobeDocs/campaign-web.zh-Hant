@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: f53fce6ee89e5b384e5385304c54c4898f21c63f
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 86%
+source-wordcount: '323'
+ht-degree: 79%
 
 ---
 
@@ -27,14 +27,15 @@ ht-degree: 86%
    + [使用傳遞範本](msg/delivery-template.md)
    + 電子郵件 {#email}
       + [建立您的第一個電子郵件](email/create-email.md)
-      + 建立電子郵件內容 {#content}
-         + [編輯電子郵件內容](content/edit-content.md)
-         + 設計您的電子郵件 {#design-content}
-            + 開始設計您的內容 {#start-design}
-               + [從頭開始 ](content/create-email-content.md)
-               + [匯入您的電子郵件內容](content/existing-content.md)
-               + [為自己的內容撰寫程式碼](content/code-content.md)
-               + [使用電子郵件內容範本](content/email-templates.md)
+      + 定義電子郵件內容 {#content}
+         + [設定您的電子郵件內容](content/edit-content.md)
+         + 開始打造您的電子郵件 {#start-design}
+            + [開始使用電子郵件設計工具](content/get-started-email-designer.md)
+            + [從頭開始 ](content/create-email-content.md)
+            + [匯入您的電子郵件內容](content/existing-content.md)
+            + [為自己的內容撰寫程式碼](content/code-content.md)
+            + [使用電子郵件內容範本](content/email-templates.md)
+         + 設計您的內容 {#design-content}
             + [使用內容元件](content/content-components.md)
             + [產生文字版本](content/text-version-email.md)
             + [新增鏡像頁面連結](content/mirror-page.md)
@@ -73,7 +74,7 @@ ht-degree: 86%
    + [開始使用對象](audience/about-audiences.md)
    + [選取現有對象](audience/add-audience.md)
    + [使用規則產生器定義對象](audience/segment-builder.md)
-   + [從檔案載入對象](audience/file-audience.md)
+   + [從檔案載入電子郵件對象](audience/file-audience.md)
    + [使用 Adobe Experience Platform 對象](audience/aep-audience.md)
    + [設定控制組](audience/control-group.md)
 + 跨管道行銷活動 {#campaigns}
