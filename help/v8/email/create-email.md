@@ -128,7 +128,7 @@ ht-degree: 86%
    >
    >清單中的對象源自於您的 Campaign v8 執行個體或 Adobe Experience Platform (如果已在您的執行個體上設定目的地/來源)。
    >
-   >目的地/來源整合可讓您傳送 Experience Platform 區段至 Adobe Campaign，並將 Campaign 傳遞和追蹤記錄傳送到 Adobe Experience Platform。[了解如何使用 Campaign 和 Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}。
+   >目的地/來源整合可讓您傳送 Experience Platform 區段至 Adobe Campaign，並將 Campaign 傳遞和追蹤記錄傳送到 Adobe Experience Platform。[了解如何使用 Campaign 和 Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=zh-Hant){target="_blank"}。
 
 1. 選取對象後，您可以套用其他規則進一步調整目標。
 
