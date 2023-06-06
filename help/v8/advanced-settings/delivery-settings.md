@@ -4,10 +4,10 @@ title: 電子郵件傳遞設定
 description: 進一步了解 Campaign Web UI 中的電子郵件傳遞設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -188,4 +188,4 @@ ht-degree: 100%
 
 使用「**保留傳遞程式碼用於校訂**」將測試電子郵件與傳遞程式碼相關聯，此傳遞程式碼與其相關之傳遞的傳遞程式碼相同。
 
-依預設，測試電子郵件主旨的前置詞為「PROOF #」，其中 # 是測試電子郵件的編號。您可以在「**標籤前置詞**」欄位變更此前置詞。
+依預設，測試電子郵件的主旨會以「PROOF #」為前置詞，其中#是測試電子郵件的編號。 您可以在「**標籤前置詞**」欄位變更此前置詞。
