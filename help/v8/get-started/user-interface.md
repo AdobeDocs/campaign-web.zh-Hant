@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1506'
 ht-degree: 99%
 
 ---
@@ -235,20 +235,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_audience"
->title="定義簡訊對象"
->abstract="選取簡訊訊息的最佳對象。"
-
->[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="簡訊報告摘要"
->abstract="探索簡訊傳遞的報告量度。"
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="推播報告摘要"
->abstract="探索推播傳遞的報告量度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,21 +250,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_email_metrics_errors"
 >title="錯誤量度"
 >abstract="具有錯誤狀態的電子郵件數量。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_android_content"
->title="推播 Android 內容"
->abstract="定義推播 Android 內容。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_ios_content"
->title="推播 iOS 內容"
->abstract="定義推播 iOS 內容。"
-
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="應用程式訂閱者"
->abstract="將應用程式訂閱者新增到主要目標，以預覽和測試訊息。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -366,20 +337,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="規則產生器進階欄位"
 >abstract="使用進階欄位設定欄。"
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_properties"
->title="推播傳遞屬性"
->abstract="管理推播傳遞屬性。"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="新的隔離量度"
 >abstract="新的隔離量度。"
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_template_selection"
->title="簡訊範本選取"
->abstract="選取預先定義的範本，以開始進行簡訊傳遞。"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

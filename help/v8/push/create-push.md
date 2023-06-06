@@ -3,10 +3,10 @@ audience: end-user
 title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 69%
+source-wordcount: '308'
+ht-degree: 70%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 69%
 >id="acw_push_notification_template"
 >title="推播通知範本"
 >abstract="選取推播通知範本以開始進行推播傳遞。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_properties"
+>title="推播傳遞屬性"
+>abstract="管理推播傳遞屬性。"
 
 1. 可從「**[!UICONTROL 傳遞]**」首頁，按一下「**[!UICONTROL 建立傳遞]**」。
 

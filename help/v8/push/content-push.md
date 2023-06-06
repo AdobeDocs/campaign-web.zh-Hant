@@ -3,14 +3,24 @@ audience: end-user
 title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 badge: label="Alpha" type="Positive"
-source-git-commit: 965c2d72d81233c98beb4e4bc3c76692c7bf3990
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 7%
+source-wordcount: '785'
+ht-degree: 9%
 
 ---
 
 # 設計推播傳遞 {#content-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_content"
+>title="推播 Android 內容"
+>abstract="定義推播 Android 內容。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_content"
+>title="推播 iOS 內容"
+>abstract="定義推播 iOS 內容。"
 
 ## 訊息 {#push-message}
 

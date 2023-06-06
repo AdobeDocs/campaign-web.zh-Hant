@@ -4,9 +4,9 @@ title: 設計簡訊傳遞
 description: 了解如何設計您的簡訊傳遞
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '264'
 ht-degree: 98%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 98%
 >id="acw_deliveries_sms_content"
 >title="簡訊內容"
 >abstract="建立簡訊傳遞的內容，並使用個人化欄位、內容區塊和動態內容對其進行個人化設定。"
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="應用程式訂閱者"
+>abstract="將應用程式訂閱者新增到主要目標，以預覽和測試訊息。"
 
 1. 在您的傳遞頁面上，按一下「**[!UICONTROL 編輯內容]**」按鈕，以設計簡訊內容。
 
