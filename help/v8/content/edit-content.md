@@ -4,10 +4,10 @@ title: 編輯電子郵件內容
 description: 了解如何在 Campaign Web UI 編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: 46f2f42f724232b15f826f01c5957c0295c61f26
+source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 50%
+source-wordcount: '495'
+ht-degree: 44%
 
 ---
 
@@ -33,21 +33,28 @@ ht-degree: 50%
 >title="追蹤選項"
 >abstract="依預設，傳遞追蹤會啟用。您可以從此處停用此選項。"
 
-若要開始建立電子郵件的內容，請按一下 **[!UICONTROL 編輯內容]** 按鈕來自 [電子郵件傳遞儀表板](../email/create-email.md) 畫面。
+電子郵件 **[!UICONTROL 編輯內容]** 熒幕可讓您：
+* 定義訊息的基本元素，例如寄件者的地址和主旨行
+* 執行其他動作，例如新增附件或設定優惠方案
+* 存取 [電子郵件設計工具](get-started-email-designer.md) 以開始建立電子郵件的適當內容
 
-![](assets/email-edit-content.png)
+若要設定或編輯電子郵件內容，請遵循下列步驟。
 
-開啟的畫面可讓您定義基本詳細資訊、執行一些其他動作，例如新增附件或設定優惠方案，以及存取 [電子郵件設計工具](#start-authoring) 以建置您的內容。
+1. 按一下 **[!UICONTROL 編輯內容]** 按鈕來自 [電子郵件傳遞儀表板](../email/create-email.md) 畫面。
 
-![](assets/email-edit-content-dashboard.png)
+   ![](assets/email-edit-content.png)
 
-編輯電子郵件內容的步驟如下：
+1. 電子郵件內容版本畫面隨即開啟。 如果您要設定新電子郵件，請 **[!UICONTROL 發件人名稱]** 和 **[!UICONTROL 從電子郵件]** 欄位已填入。
 
-1. 在 **[!UICONTROL 發件人名稱]** 欄位中，使用收件人可輕鬆識別的名稱（例如您的品牌名稱）來增加傳遞的開頭率。
+   ![](assets/email-edit-content-dashboard.png)
 
-   若要進一步改善收件者的體驗，您可以新增個人名稱，例如「Emma from Megastore」。
+1. 此 **[!UICONTROL 發件人名稱]** 欄位定義於電子郵件範本中。 若要修改此名稱，請使用收件者可輕鬆辨識的名稱（例如您的品牌名稱），以提高傳遞的開放率。
 
-1. 在 **[!UICONTROL 從電子郵件]** 位址欄位，確認位址網域與您委派給Adobe的子網域相同。
+   >[!NOTE]
+   >
+   >    若要進一步改善收件者的體驗，您可以新增個人名稱，例如「Emma from Megastore」。
+
+1. 此 **[!UICONTROL 從電子郵件]** 位址列位也定義在電子郵件範本中。 請確定位址網域與您委派給Adobe的子網域相同。
 
    >[!NOTE]
    >
@@ -71,7 +78,7 @@ ht-degree: 50%
 
 1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕，以使用來建構及設計電子郵件內容 [電子郵件設計工具](#start-authoring). 以下章節提供如何設計電子郵件內容的詳細資訊：
 
-   * [了解如何設計電子郵件](create-email-content.md)
+   * [從頭開始編寫電子郵件](create-email-content.md)
    * [建立內容樣式](get-started-email-style.md)
 
 1. 依預設，傳遞追蹤會啟用。您可以從「**[!UICONTROL 選擇性功能]**」區段停用此選項。[了解如何新增連結和管理追蹤](message-tracking.md)
