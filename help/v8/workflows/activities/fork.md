@@ -3,9 +3,9 @@ audience: end-user
 title: 使用取用工作流程活動
 description: 瞭解如何使用復本工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
@@ -13,9 +13,7 @@ ht-degree: 5%
 
 # 分支 {#fork}
 
-此 **分支** 活動可讓您建立出站轉變，以同時開始多個活動。
-
-此 **分支** 活動可讓您在同一個工作流程中獨立執行數個不同的活動。
+此 **分支** 活動是 **流量控制** 活動。 它可讓您建立出站轉變，以同時開始多個活動。
 
 ## 設定
 
