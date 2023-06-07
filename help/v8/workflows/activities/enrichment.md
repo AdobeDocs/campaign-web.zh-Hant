@@ -3,7 +3,7 @@ audience: end-user
 title: 使用擴充工作流程活動
 description: 瞭解如何使用擴充工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 28%
@@ -48,7 +48,7 @@ ht-degree: 28%
 
 ## 單一屬性
 
-在此處，我們只是新增單一擴充屬性，例如出生資料。 請按照以下步驟操作：
+在此處，我們只是新增單一擴充屬性，例如，出生日期。 請按照以下步驟操作：
 
 1. 按一下 **屬性** 欄位。
 1. 從目標維度選取簡單欄位，在我們的範例中是出生日期。

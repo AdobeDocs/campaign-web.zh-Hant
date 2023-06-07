@@ -3,9 +3,9 @@ audience: end-user
 title: 使用合併工作流程活動
 description: 瞭解如何使用合併工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 14%
 
 ---
@@ -65,11 +65,8 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ![](../assets/workflow-intersection-example.png)
 
-下列專案 **排除** 範例顯示兩個查詢，其設定為篩選年齡介於18至27歲且具有adobe電子郵件網域的設定檔。 隨後，具有Adobe電子郵件網域的設定檔將從第一個集合中排除。
+下列專案 **排除** 範例顯示兩個查詢，其設定為篩選年齡介於18到27歲之間且具有Adobe電子郵件網域的設定檔。 之後，會從第一個集合中排除具有Adobe電子郵件網域的設定檔。
 
 ![](../assets/workflow-exclusion-example.png)
-
-
-
 
 
