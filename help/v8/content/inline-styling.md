@@ -5,9 +5,9 @@ description: 了解如何新增內嵌樣式屬性
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 1. 直接在您的內容或使用左窗格中的&#x200B;**[!UICONTROL 導覽樹狀目錄]**&#x200B;選取元件。
 
-1. 從 **[!UICONTROL 樣式]** 索引標籤，按一下 **[!UICONTROL 進階]** 下拉式清單。
+1. 從「**[!UICONTROL 樣式]**」索引標籤，按一下「**[!UICONTROL 進階]**」下拉式清單。
 
    ![](assets/styles_1.png)
 
