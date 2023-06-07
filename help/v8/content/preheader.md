@@ -5,9 +5,9 @@ description: 了解如何設計您的電子郵件內容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 >
 >並非所有電子郵件用戶端都支援預覽文字。如果不支援，就不會顯示預覽文字。
 
-若要定義電子郵件預覽文字，請依照以下步驟操作：
+若要定義電子郵件預覽文字，請依照以下步驟進行：
 
 1. 從電子郵件設計工具，至少新增一個&#x200B;**[!UICONTROL 結構元件]**&#x200B;以開始設計您的電子郵件。
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
    ![](assets/preheader_body.png)
 
-1. 從 **[!UICONTROL 設定]** 索引標籤中，新增您的預覽文字。 您可以按一下「**[!UICONTROL 新增個人化]**」圖示來進一步個人化預覽文字。
+1. 從「**[!UICONTROL 設定]**」索引標籤，新增您的預覽文字。您可以按一下「**[!UICONTROL 新增個人化]**」圖示來進一步個人化預覽文字。
 
    ![](assets/preheader_body_settings.png)
 
