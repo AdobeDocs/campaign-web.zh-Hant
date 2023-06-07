@@ -6,8 +6,8 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
 source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '274'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 * 使用 Adobe Experience Platform 對象。[了解更多](aep-audience.md)。
 
 
-若要為您的訊息選取現有對象，請依照以下步驟操作：
+若要為您的訊息選取現有對象，請依照以下步驟進行：
 
 1. 從傳遞建立助理的「**對象**」區段，按一下「**[!UICONTROL 選取對象]**」按鈕。
 

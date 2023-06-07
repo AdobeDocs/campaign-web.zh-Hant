@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 70%
+ht-degree: 81%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 70%
 
 ## 讓我們深入探討
 
-現在您已瞭解什麼是工作流程，以及可以在Adobe Campaign中執行哪些工作，您可以更深入地研究這些檔案區段，以開始使用功能。
+由於您已經了解什麼是工作流程以及在 Adobe Campaign 中能如何使用工作流程，您現在可以深入了解這些文件章節，以開始使用該功能。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -56,7 +56,7 @@ ht-degree: 70%
 <a href="create-workflow.md">
 <img alt="銷售機會" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-workflow.md"><strong>建立並執行第一個工作流程</strong>
+<div><a href="create-workflow.md"><strong>建立和執行您的第一個工作流程</strong>
 </div>
 <p>
 </td>
