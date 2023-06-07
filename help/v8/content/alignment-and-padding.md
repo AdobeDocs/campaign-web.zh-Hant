@@ -5,9 +5,9 @@ description: 了解如何調整垂直對齊方式和邊框間距
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
    ![](assets/alignment_2.png)
 
-1. 該欄的可編輯引數會顯示在 **[!UICONTROL 樣式]** 標籤。 調整 **[!UICONTROL 對齊方式]** 使用專用區段。
+1. 該欄的可編輯參數會顯示在「**[!UICONTROL 樣式]**」索引標籤中。使用專屬區段調整&#x200B;**[!UICONTROL 對齊方式]**。
 
    ![](assets/alignment_3.png)
 
