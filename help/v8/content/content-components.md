@@ -5,9 +5,9 @@ description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1060'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 70%
 
 ## 新增內容元件 {#add-content-components}
 
-若要將內容元件新增到電子郵件並根據您的需要進行調整，請依照以下步驟操作。
+若要將內容元件新增到電子郵件並根據您的需要進行調整，請依照以下步驟進行。
 
-1. 在電子郵件設計工具中，使用現有內容或拖放 **[!UICONTROL 結構]** 放入您的空白內容，以定義電子郵件的版面。 [了解作法](create-email-content.md)
+1. 在電子郵件設計工具中，可使用現有內容或將&#x200B;**[!UICONTROL 結構]**&#x200B;拖放到您的空白內容中，即可定義電子郵件的版面。[了解做法](create-email-content.md)
 
-1. 拖放 **[!UICONTROL 內容]** 在相關結構元件內選擇。
+1. 將您選擇的&#x200B;**[!UICONTROL 內容]**&#x200B;拖放到相關的結構元件內部。
 
    ![](assets/email_designer_add_content_components.png)
 
@@ -47,12 +47,12 @@ ht-degree: 70%
    >
    >您可以將多個元件新增到單一結構元件和結構元件的每個欄中。
 
-1. 使用調整每個元件的樣式屬性 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[進一步了解對齊方式和邊框間距](alignment-and-padding.md)
+1. 使用「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤調整每個元件的樣式屬性。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
-從頭開始建立電子郵件內容時， **[!UICONTROL 內容]**  元件可讓您使用原始的空白元件來進一步個人化您的電子郵件，這些元件一旦放入電子郵件中即可使用。
-您可以新增儘可能多的 **[!UICONTROL 內容]** 內含您需要的元件 **[!UICONTROL 結構]** 定義電子郵件配置的元件。
+從頭開始建立電子郵件內容時，**[!UICONTROL 內容]**元件可讓您使用原始的空白元件進一步個人化您的電子郵件，這些元件一放入電子郵件中就可以使用。
+您可以在定義您電子郵件版面的**[!UICONTROL 結構]**&#x200B;元件內新增所需數量的&#x200B;**[!UICONTROL 內容]**&#x200B;元件。
 
 ## 容器 {#container}
 
@@ -66,15 +66,15 @@ ht-degree: 70%
 
 使用&#x200B;**[!UICONTROL 按鈕]**&#x200B;元件將一個或多個按鈕插入您的電子郵件，並將您的電子郵件對象重新導向到另一個頁面。
 
-1. 從 **[!UICONTROL 內容]** 清單，拖放 **[!UICONTROL 按鈕]** 元件移入 **[!UICONTROL 結構]** 元件。
+1. 從&#x200B;**[!UICONTROL 內容]**&#x200B;清單，將&#x200B;**[!UICONTROL 按鈕]**&#x200B;元件拖放到&#x200B;**[!UICONTROL 結構]**&#x200B;元件中。
 
    ![](assets/email_designer_13.png)
 
-1. 按一下您新新增的按鈕，個人化文字並存取 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤。
+1. 按一下您新增的按鈕，將文字個人化，並存取「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
 
    ![](assets/email_designer_14.png)
 
-1. 從 **[!UICONTROL 設定]** 標籤，在 **[!UICONTROL URL]** 欄位中，新增您按一下按鈕時想要重新導向的URL。
+1. 從「**[!UICONTROL 設定]**」索引標籤 (位於 **[!UICONTROL URL]** 欄位中) 新增按下按鈕時會重新導向到的 URL。
 
 1. 使用&#x200B;**[!UICONTROL 目標]**&#x200B;下拉式清單選擇內容的顯示方式：
 
@@ -86,17 +86,17 @@ ht-degree: 70%
 
    ![](assets/email_designer_15.png)
 
-1. 您可以變更樣式屬性 (例如&#x200B;**[!UICONTROL 邊框]**、**[!UICONTROL 大小]**、**[!UICONTROL 邊界]**&#x200B;等) 來進一步個人化您的按鈕。從 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤。
+1. 您可以變更樣式屬性 (例如&#x200B;**[!UICONTROL 邊框]**、**[!UICONTROL 大小]**、**[!UICONTROL 邊界]**&#x200B;等) 來進一步個人化您的按鈕。從「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
 
 ## 文字 {#text}
 
-使用&#x200B;**[!UICONTROL 文字]**&#x200B;元件將文字插入電子郵件，並調整樣式 (邊框、大小、邊框間距等。)使用 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤。
+使用&#x200B;**[!UICONTROL 文字]**&#x200B;元件將文字插入電子郵件，並調整樣式 (邊框、大小、邊框間距等。)使用「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
 
-1. 從 **[!UICONTROL 內容]** 功能表，拖放 **[!UICONTROL 文字]** 在 **[!UICONTROL 結構]** 元件。
+1. 從「**[!UICONTROL 內容]**」選單，將&#x200B;**[!UICONTROL 文字]**&#x200B;拖放到&#x200B;**[!UICONTROL 結構]**&#x200B;元件中。
 
    ![](assets/email_designer_11.png)
 
-1. 按一下您新新增的元件，以個人化文字並存取 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤。
+1. 按一下您新增的元件，將文字個人化，並存取「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
 
 1. 使用以下工具列的選項變更文字：
 
@@ -114,7 +114,7 @@ ht-degree: 70%
    * **[!UICONTROL 新增個人化]**：新增個人化欄位以從設定檔資料自訂內容。
    * **[!UICONTROL 啟用條件式內容]**：新增條件式內容以使元件內容適應目標設定檔。
 
-1. 調整其他樣式屬性，例如文字顏色、字型系列、邊框、邊框間距、邊界等。從 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤。
+1. 調整其他樣式屬性，例如文字顏色、字型系列、邊框、邊框間距、邊界等。從該「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
 
    ![](assets/email_designer_12.png)
 
@@ -122,7 +122,7 @@ ht-degree: 70%
 
 使用&#x200B;**[!UICONTROL 分隔線]**&#x200B;元件以插入分隔線來組織電子郵件的版面和內容。
 
-您可以從以下位置調整樣式屬性，例如線條的顏色、樣式和高度： **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤。
+您可以從「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤調整樣式屬性，例如線條顏色、樣式和高度。
 
 ![](assets/email_designer_16.png)
 
@@ -130,7 +130,7 @@ ht-degree: 70%
 
 使用 **[!UICONTROL HTML]**&#x200B;元件將現有 HTML 的不同部分進行複製貼上。這可讓您建立免費的模組化 HTML 元件以重複使用一些外部內容。
 
-1. 從 **[!UICONTROL 元件]**，拖放 **[!UICONTROL HTML]** 元件移入 **[!UICONTROL 結構]** 元件。
+1. 從&#x200B;**[!UICONTROL 元件]**，將 **[!UICONTROL HTML]** 元件拖放到&#x200B;**[!UICONTROL 結構]**&#x200B;元件中。
 
    ![](assets/email_designer_22.png)
 
@@ -146,30 +146,30 @@ ht-degree: 70%
 
 使用&#x200B;**[!UICONTROL 影像]**&#x200B;元件將電腦中的影像檔案插入到電子郵件中。
 
-1. 從 **[!UICONTROL 內容]** 功能表，拖放 **[!UICONTROL 影像]** 在 **[!UICONTROL 結構]** 元件。
+1. 從「**[!UICONTROL 內容]**」選單，將&#x200B;**[!UICONTROL 影像]**&#x200B;拖放到&#x200B;**[!UICONTROL 結構]**&#x200B;元件中。
 
    ![](assets/email_designer_9.png)
 
-1. 按一下「**[!UICONTROL 瀏覽]**」從您的資產中選擇影像檔案。
+1. 按一下「**[!UICONTROL 瀏覽]**」，從您的資產中選擇影像檔案。
 
-1. 按一下新新增的元件，然後使用 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤：
+1. 按一下您新增的元件，然後使用「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤設定影像屬性：
 
    * **[!UICONTROL 影像標題]**&#x200B;可讓您定義影像的標題。
    * **[!UICONTROL 替代文字]**&#x200B;可讓您定義連結到影像的註解。這對應於替代 HTML 屬性。
 
    ![](assets/email_designer_10.png)
 
-1. 調整其他樣式屬性，例如邊界、邊框等。或新增連結以將您的對象重新導向至其他內容。
+1. 調整其他樣式屬性，例如邊界、邊框等。或新增連結以將對象重新導向到另一個內容。
 
 ## 社交 {#social}
 
 使用&#x200B;**[!UICONTROL 社交]**&#x200B;元件將社交媒體頁面連結插入到電子郵件內容中。
 
-1. 從 **[!UICONTROL 元件]** 功能表，拖放 **[!UICONTROL 社交]** 元件移入 **[!UICONTROL 結構]** 元件。
+1. 從「**[!UICONTROL 元件]**」選單，將&#x200B;**[!UICONTROL 社交]**&#x200B;元件拖放到&#x200B;**[!UICONTROL 結構]**&#x200B;元件中。
 
 1. 按一下您新增的元件。
 
-1. 在 **[!UICONTROL 社交]** 的欄位 **[!UICONTROL 設定]** 標籤中，選擇要新增或移除的社群媒體。
+1. 在「**[!UICONTROL 設定]**」索引標籤的「**[!UICONTROL 社交]**」欄位中，選擇要新增或移除的社交媒體。
 
    ![](assets/email_designer_20.png)
 
@@ -181,4 +181,4 @@ ht-degree: 70%
 
 1. 您也可以在「**[!UICONTROL 影像]**」欄位中變更每個社交媒體的圖示 (如果需要)。
 
-1. 調整其他樣式屬性，例如樣式、邊界、邊框等。從 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤。
+1. 調整其他樣式屬性，例如樣式、邊界、邊框等。從該「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
