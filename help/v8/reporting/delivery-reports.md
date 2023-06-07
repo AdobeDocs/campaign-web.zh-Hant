@@ -5,7 +5,7 @@ description: 了解如何存取和使用傳遞報告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Alpha" type="Positive"
 source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
 ht-degree: 100%
 
