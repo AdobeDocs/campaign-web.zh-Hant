@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: 0b50c0d136bb5e9a7074d570cafe69a7b5ae061b
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 33%
+source-wordcount: '471'
+ht-degree: 22%
 
 ---
 
@@ -24,37 +24,37 @@ ht-degree: 33%
 
 您可以插入以下內容，讓訊息內容成為動態的：
 
-* **個人化欄位**
-
-   個人化欄位用於訊息的第一層個人化。您可以從個人化編輯器選取資料庫中的任何欄位。對於傳遞，您可以選取與收件者、訊息或傳遞相關的任何欄位。這些個人化屬性可以插入訊息的主旨行或內文中。
-
-   ![](assets/perso-subject-line.png)
+* **個人化欄位**：個人化欄位用於訊息的第一層級個人化。 您可以從個人化編輯器選取資料庫中的任何欄位。對於傳遞，您可以選取與收件者、訊息或傳遞相關的任何欄位。這些個人化屬性可以插入訊息的主旨行或內文中。
 
    以下語法將收件者城市插入您的內容：&lt;%= recipient.location.city %>。
 
-* **條件式內容**
+   ![](assets/perso-subject-line.png)
 
-   例如，設定條件式內容，以根據收件者的設定檔新增內容。 特定條件為真時，即可插入文字區塊及/或影像。當條件不是true時，您可以定義內容的替代版本。
+* **條件式內容**：設定條件式內容，以根據收件者的設定檔新增內容，例如。 特定條件為真時，即可插入文字區塊及/或影像。當條件不是true時，您可以定義內容的替代版本。
 
-* **內建的內容區塊**
-
-   Campaign 隨附一組個人化區塊，其中包含您可以插入到傳遞中的特定轉譯。例如，您可以新增標誌、問候語訊息，或電子郵件訊息映象頁面的連結。 可從個人化編輯器中的專用專案取得內容區塊。
+* **內建內容區塊**：Campaign隨附一組個人化區塊，其中包含您可以插入傳送中的特定呈現。 例如，您可以新增標誌、問候語訊息，或電子郵件訊息映象頁面的連結。 可從個人化編輯器中的專用專案取得內容區塊。
 
    ![](assets/perso-content-blocks.png)
 
 ## 我可以在哪裡新增動態內容？
 
-Adobe Campaign V8 Web提供運算式編輯器，您可在其中選取、排列、自訂及驗證所有資料，以建立內容的自訂體驗。
+Adobe Campaign V8 Web提供運算式編輯器，您可在其中選取、排列、自訂及驗證所有資料，以建立內容的自訂體驗。 運算式編輯器適用於所有管道，在每個欄位中具有 **[!UICONTROL 開啟個人化對話方塊]** 圖示，例如主旨行欄位，或電子郵件連結和文字/按鈕內容元件。
 
-運算式編輯器適用於所有管道，在每個具有「開啟個人化」對話方塊圖示的欄位中（例如主旨行欄位）或電子郵件連結和文字/按鈕內容元件。
+>[!NOTE]
+>
+>除了運算式編輯器之外，在設計電子郵件時，您還可以運用專用的條件式內容產生器。 [瞭解如何在電子郵件中建立條件式內容](conditions.md)
+
+*從「寄件者名稱」欄位存取運算式編輯器*
 
 ![](assets/expression-editor-access.png)
 
+*從電子郵件文字元件存取運算式編輯器*
+
 ![](assets/expression-editor-access-email.png)
 
-![](assets/perso-link-insert-icon.png)
+*從電子郵件中的連結存取運算式編輯器*
 
-此外，在設計電子郵件時可存取專用的條件式內容產生器。 [瞭解如何在電子郵件中建立條件式內容](conditions.md)
+![](assets/perso-link-insert-icon.png)
 
 ## 讓我們深入探討
 
