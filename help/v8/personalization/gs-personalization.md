@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 0b50c0d136bb5e9a7074d570cafe69a7b5ae061b
+source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '475'
 ht-degree: 22%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 22%
 為了充分運用每一次行銷活動，Adobe Campaign可讓您提供自訂動態內容，以與客戶就其層級溝通。 根據設定檔資料，使用個人化功能建立不同群組和個人的自訂體驗：您可以運用您擁有的關於特定收件者的資料和資訊，根據他們來調整您的訊息。 這可以是他們的名字、興趣、居住地、購買內容等等。
 
 使用 Campaign 建立動態內容並傳送個人化訊息。可合併個人化功能以改善您的訊息並建立自訂的使用者體驗。
+
+## 如何讓您的內容成為動態內容？
 
 您可以插入以下內容，讓訊息內容成為動態的：
 
@@ -36,7 +38,7 @@ ht-degree: 22%
 
    ![](assets/perso-content-blocks.png)
 
-## 我可以在哪裡新增動態內容？
+## 存取運算式編輯器 {#access}
 
 Adobe Campaign V8 Web提供運算式編輯器，您可在其中選取、排列、自訂及驗證所有資料，以建立內容的自訂體驗。 運算式編輯器適用於所有管道，在每個欄位中具有 **[!UICONTROL 開啟個人化對話方塊]** 圖示，例如主旨行欄位，或電子郵件連結和文字/按鈕內容元件。
 
