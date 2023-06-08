@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: d12c3019fb47164864259ecc40225fcb04de0e6c
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 36%
+source-wordcount: '298'
+ht-degree: 8%
 
 ---
 
@@ -42,36 +42,3 @@ ht-degree: 36%
 若要新增個人化欄位，請將游標置於內容內的所需位置，然後按一下+按鈕以插入該欄位。
 
 ![](assets/perso-insert-field.png)
-
-## 個人化您的電子郵件內容 {#personalize-emails}
-
-若要個人化電子郵件內容，請在電子郵件設計工具中開啟訊息，然後：
-
-1. 在文字區塊內按一下。
-1. 在內容關聯式工具列中，選取「**[!UICONTROL 新增個人化]**」。
-
-   ![](assets/perso-add-to-content.png)
-
-1. 在個人化編輯器中插入收件者名稱並確認。
-
-   ![](assets/perso-add-name.png)
-
-   個人化屬性已新增到電子郵件內容。
-
-   您可以模擬內容以檢查轉譯。[了解更多](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-1. 若要在電子郵件中新增內容區塊，請執行相同的步驟，然後從最後一個圖示選取內容區塊：
-
-   ![](assets/perso-insert-block.png)
-
-1. 插入後，即將內容區塊新增到電子郵件內容。在傳遞準備步驟中，個人化產生時，它會自動適應收件者設定檔。
-
-   ![](assets/perso-content-block-in-email.png)
-
-
-## 個人化您的優惠 {#personalize-offers}
-
-您也可以在將文字類型的內容新增到優惠的表示時存取個人化編輯器。在[本章節](../content/offers.md)了解更多資訊。
-
