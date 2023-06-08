@@ -3,14 +3,30 @@ audience: end-user
 title: 傳送推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送推播通知傳遞
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 3%
+source-wordcount: '269'
+ht-degree: 23%
 
 ---
 
-# 傳送推播通知傳遞 {#send-push}
+# 預覽和傳送推播通知傳遞 {#send-push}
+
+## 預覽推播通知傳遞 {#preview-push}
+
+定義訊息內容後，您可以利用測試設定檔來預覽和測試訊息。 如果您已包含個人化內容，則可運用測試設定檔資料，檢查此內容在訊息中的顯示方式。 這可讓您確保訊息正確轉譯，且個人化元素正確合併。
+
+1. 從您的傳遞內容頁面，您可以使用 **[!UICONTROL 模擬內容]** 以預覽您的個人化內容。
+
+1. 按一下「**[!UICONTROL 新增測試設定檔]**」，選取一個或多個測試設定檔或設定檔。
+
+1. 選取測試設定檔後，按一下「**[!UICONTROL 選取]**」。
+
+1. 在右側窗格中，您會看到電子郵件的預覽，其中個人化元素會動態地由選取的設定檔中的資料取代。
+
+您現在可以檢閱您的簡訊訊息並將其傳送給您的對象。
+
+## 傳送推播通知傳遞 {#preview-send-push}
 
 1. 個人化您的推播通知內容後，請按一下 **[!UICONTROL 檢閱並傳送]** 從您的 **[!UICONTROL 傳遞]** 頁面。
 

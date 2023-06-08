@@ -3,14 +3,30 @@ audience: end-user
 title: 傳送簡訊傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送簡訊
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 24%
 
 ---
 
-# 傳送簡訊傳遞 {#send-sms}
+# 預覽和傳送簡訊傳遞 {#send-sms}
+
+## 預覽您的SMS傳送{#preview-push}
+
+定義訊息內容後，您可以利用測試設定檔來預覽和測試。 如果您已包含個人化內容，則可運用測試設定檔資料，檢查此內容在訊息中的顯示方式。 這可讓您確保訊息如預期顯示，且任何個人化資訊皆正確顯示。
+
+1. 從您的傳遞內容頁面，您可以使用 **[!UICONTROL 模擬內容]** 以預覽您的個人化內容。
+
+1. 按一下「**[!UICONTROL 新增測試設定檔]**」，選取一個或多個測試設定檔或設定檔。
+
+1. 選取測試設定檔後，按一下「**[!UICONTROL 選取]**」。
+
+1. 在右側窗格中，您會看到電子郵件的預覽，其中個人化元素會動態地由選取的設定檔中的資料取代。
+
+您現在可以檢閱您的簡訊訊息並將其傳送給您的對象。
+
+## 傳送簡訊傳遞 {#preview-send-push}
 
 1. 個人化SMS內容後，按一下 **[!UICONTROL 檢閱並傳送]** 從您的 **[!UICONTROL 傳遞]** 頁面。
 

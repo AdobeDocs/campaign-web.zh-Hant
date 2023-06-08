@@ -4,10 +4,10 @@ title: 設計簡訊傳遞
 description: 了解如何設計您的簡訊傳遞
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 98%
+source-wordcount: '218'
+ht-degree: 93%
 
 ---
 
@@ -35,14 +35,8 @@ ht-degree: 98%
 
 1. 依預設，傳遞會啟用追蹤。您可以從&#x200B;**[!UICONTROL 選擇性功能區段]**」停用此選項。
 
+1. 存取 **[!UICONTROL 模擬內容]** 功能表以預覽您的個人化內容。
+
 1. 按一下「**[!UICONTROL 儲存]**」並在預覽中查看您的訊息。
-
-1. 您可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;預覽您的個人化內容。
-
-1. 按一下「**[!UICONTROL 新增測試設定檔]**」，選取一個或多個測試設定檔或設定檔。
-
-1. 選取測試設定檔後，按一下「**[!UICONTROL 選取]**」。
-
-1. 在右側窗格中，您會看到電子郵件的預覽，其中個人化元素會動態地由選取的設定檔中的資料取代。
 
 您現在可以檢閱您的簡訊訊息並將其傳送給您的對象。
