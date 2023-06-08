@@ -4,10 +4,10 @@ title: 設定控制組
 description: 了解如何在 Campaign Web UI 中為您的訊息設定控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 45%
+source-wordcount: '752'
+ht-degree: 46%
 
 ---
 
@@ -86,11 +86,12 @@ ht-degree: 45%
 * 在傳送記錄檔中，「記錄檔」索引標籤會顯示排除步驟。
 
    ![](assets/control-group-sample-logs.png)
+<!--
 
+ * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-* 此 **排除記錄** 索引標籤會顯示每個設定檔及相關排除專案 **原因**.
-
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
+-->
 
 * 此 **排除原因** 索引標籤會顯示每個型別規則的已排除設定檔數目。
 
