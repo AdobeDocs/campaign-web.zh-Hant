@@ -7,28 +7,41 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 79%
+source-wordcount: '430'
+ht-degree: 36%
 
 ---
 
 
 # 個人化您的內容{#add-personalization}
 
-## 個人化訊息的主旨列 {#personalize-subject-line}
+可以使用運算式編輯器將個人化新增到任何傳送中。
 
-若要在訊息的&#x200B;**[!UICONTROL 主旨行]**&#x200B;欄位新增個人化，請依照以下步驟進行：
+個人化標籤一律會使用以下語法： `<%=table.field%>`例如，若要插入儲存在收件者表格中的收件者名稱，個人化標籤會使用&lt;%= recipient.lastName %>語法。
 
-1. 開啟傳遞，然後按一下 **[!UICONTROL 編輯內容]**.
-1. 按一下 **[!UICONTROL 開啟個人化對話方塊]** 圖示右側 **[!UICONTROL 主旨列]** 電子郵件欄位，或 **[!UICONTROL 標題]** 推播/簡訊傳遞的欄位。
+準備傳送時，Adobe Campaign會自動解譯這些標籤，並以指定收件者的欄位值取代。 然後在模擬您的內容時，可以檢視實體取代。
 
-   ![](assets/perso-subject.png){width="600"}
+若要將個人化標籤新增至傳遞，請按一下可從文字型別編輯欄位（例如主旨行或簡訊內文）存取的開啟個人化對話方塊圖示。
 
-1. 輸入主旨行或標題，然後選取要新增的個人化屬性。
+![](assets/perso-access.png)
 
-1. 按一下「**[!UICONTROL 確認]**」以驗證。個人化屬性會新增至內容。
+運算式編輯器隨即顯示。 個人化欄位會整理成三個選單，位於畫面左側。 這些功能表可讓您存取Adobe Campaign資料庫中的所有欄位。
+
+| 選單 | 說明 |
+|-----|------------|
+| ![](assets/do-not-localize/perso-recipients-menu.png) | 此 **[!UICONTROL 收件者]** 功能表會列出在收件者表格中定義的所有欄位，例如收件者的名稱、年齡或地址。 |
+| ![](assets/do-not-localize/perso-message-menu.png) | 此 **[!UICONTROL 訊息]** 功能表會列出與傳送記錄檔相關的所有欄位，也就是跨所有管道傳送給收件者或裝置的所有訊息，例如與指定收件者的最後一個事件日期 |
+| ![](assets/do-not-localize/perso-delivery-menu.png) | 此 **[!UICONTROL 傳遞]** 功能表會列出與執行傳送所需的引數相關的所有欄位，例如傳送頻道、標籤等。 |
+
+>[!NOTE]
+>
+>依預設，清單會顯示所選表格中的所有欄位（「收件者」、「/訊息/傳送」）。 如果要包含連結至所選表格的表格欄位，請啟用 **[!UICONTROL 顯示進階屬性]** 選項的位置。
+
+若要新增個人化欄位，請將游標置於內容內的所需位置，然後按一下+按鈕以插入該欄位。
+
+![](assets/perso-insert-field.png)
 
 ## 個人化您的電子郵件內容 {#personalize-emails}
 
@@ -56,23 +69,6 @@ ht-degree: 79%
 1. 插入後，即將內容區塊新增到電子郵件內容。在傳遞準備步驟中，個人化產生時，它會自動適應收件者設定檔。
 
    ![](assets/perso-content-block-in-email.png)
-
-## 個人化電子郵件中的連結 {#personalize-links}
-
-若要個人化&#x200B;**連結**：
-
-1. 選取文字區塊或影像。
-1. 在內容關聯式工具列中，選取「**插入連結**」。
-
-   ![](assets/perso-link.png)
-
-1. 輸入連結標籤並使用「**插入連結**」按鈕來個人化連結。
-
-   ![](assets/perso-link-insert-icon.png)
-
-1. 使用個人化編輯器來定義和個人化連結，並確認。
-
-   ![](assets/perso-link-edit.png)
 
 
 ## 個人化您的優惠 {#personalize-offers}

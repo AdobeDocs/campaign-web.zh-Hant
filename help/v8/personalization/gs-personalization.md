@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 36%
+source-wordcount: '437'
+ht-degree: 33%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 36%
 
 * **條件式內容**
 
-   例如，設定條件式內容以根據收件者的設定檔新增動態個人化。特定條件為真時，即可插入文字區塊及/或影像。當條件不是true時，您可以定義內容的替代版本。
+   例如，設定條件式內容，以根據收件者的設定檔新增內容。 特定條件為真時，即可插入文字區塊及/或影像。當條件不是true時，您可以定義內容的替代版本。
 
 * **內建的內容區塊**
 
@@ -46,11 +46,13 @@ ht-degree: 36%
 
 Adobe Campaign V8 Web提供運算式編輯器，您可在其中選取、排列、自訂及驗證所有資料，以建立內容的自訂體驗。
 
-運算式編輯器適用於所有管道，在每個具有「開啟個人化」對話方塊圖示的欄位中，例如主旨行欄位，或電子郵件中的文字和按鈕內容元件。
+運算式編輯器適用於所有管道，在每個具有「開啟個人化」對話方塊圖示的欄位中（例如主旨行欄位）或電子郵件連結和文字/按鈕內容元件。
 
 ![](assets/expression-editor-access.png)
 
 ![](assets/expression-editor-access-email.png)
+
+![](assets/perso-link-insert-icon.png)
 
 此外，在設計電子郵件時可存取專用的條件式內容產生器。 [瞭解如何在電子郵件中建立條件式內容](conditions.md)
 
