@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: e40c0b04ab985133de2d2d40e5fcb6a734ff42e9
+source-git-commit: a5d492cc43b73e365579c3f825d85671eb0b6da5
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 22%
@@ -30,13 +30,13 @@ ht-degree: 22%
 
    以下語法將收件者城市插入您的內容：&lt;%= recipient.location.city %>。
 
-   ![](assets/perso-subject-line.png)
+   ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **條件式內容**：設定條件式內容，以根據收件者的設定檔新增內容，例如。 特定條件為真時，即可插入文字區塊及/或影像。當條件不是true時，您可以定義內容的替代版本。
 
 * **內建內容區塊**：Campaign隨附一組個人化區塊，其中包含您可以插入傳送中的特定呈現。 例如，您可以新增標誌、問候語訊息，或電子郵件訊息映象頁面的連結。 可從個人化編輯器中的專用專案取得內容區塊。
 
-   ![](assets/perso-content-blocks.png)
+   ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## 存取運算式編輯器 {#access}
 
@@ -48,15 +48,15 @@ Adobe Campaign V8 Web提供運算式編輯器，您可在其中選取、排列�
 
 *從「寄件者名稱」欄位存取運算式編輯器*
 
-![](assets/expression-editor-access.png)
+![](assets/expression-editor-access.png){width="800" align="center"}
 
 *從電子郵件文字元件存取運算式編輯器*
 
-![](assets/expression-editor-access-email.png)
+![](assets/expression-editor-access-email.png){width="800" align="center"}
 
 *從電子郵件中的連結存取運算式編輯器*
 
-![](assets/perso-link-insert-icon.png){width="500" align="center"}
+![](assets/perso-link-insert-icon.png){width="800" align="center"}
 
 
 ## 讓我們深入探討
