@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
+source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 6%
+source-wordcount: '432'
+ht-degree: 5%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 6%
 
 | 選單 | 說明 |
 |-----|------------|
+| ![](assets/do-not-localize/perso-subscribers-menu.png) | 此 **[!UICONTROL 訂閱者應用程式]** 功能表會列出與應用程式訂閱者相關的所有欄位，例如使用的終端機或作業系統。 *此功能表僅供推播通知使用* |
 | ![](assets/do-not-localize/perso-recipients-menu.png) | 此 **[!UICONTROL 收件者]** 功能表會列出在收件者表格中定義的所有欄位，例如收件者的名稱、年齡或地址。 |
 | ![](assets/do-not-localize/perso-message-menu.png) | 此 **[!UICONTROL 訊息]** 功能表會列出與傳送記錄檔相關的所有欄位，也就是跨所有管道傳送給收件者或裝置的所有訊息，例如與指定收件者的最後一個事件日期 |
 | ![](assets/do-not-localize/perso-delivery-menu.png) | 此 **[!UICONTROL 傳遞]** 功能表會列出與執行傳送所需的引數相關的所有欄位，例如傳送頻道、標籤等。 |
