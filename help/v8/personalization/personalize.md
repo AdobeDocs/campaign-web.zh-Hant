@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
+source-git-commit: 551e6b9efa8b29475bd2f0a71ce016681bf70289
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 5%
@@ -31,7 +31,7 @@ ht-degree: 5%
 
 ![](assets/perso-access.png)
 
-運算式編輯器隨即顯示。 個人化欄位會整理成三個選單，位於畫面左側。 這些功能表可讓您存取Adobe Campaign資料庫中的所有欄位。
+運算式編輯器隨即顯示。 個人化欄位會整理成數個選單，位於畫面左側。 這些功能表可讓您存取Adobe Campaign資料庫中的所有欄位。
 
 ![](assets/perso-insert-field.png)
 
