@@ -4,55 +4,60 @@ title: 使用電子郵件設計工具內容元件
 description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Alpha" type="Positive"
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: ht
-source-wordcount: '1060'
-ht-degree: 100%
+source-git-commit: 905ff46cac03d0db276c3eb487a4d66815c6ed0b
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 69%
 
 ---
 
-# 使用電子郵件設計工具內容元件 {#content-components}
+# 使用電子郵件設計工具內容 {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="關於內容元件"
->abstract="內容元件指可用於建立電子郵件版面的空白內容預留位置。"
+>title="關於內容"
+>abstract="內容元件是空的內容預留位置，可用來建立電子郵件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="關於內容元件"
+>title="關於內容"
 >abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="關於內容元件"
+>title="關於內容"
 >abstract="內容元件指可用於建立片段版面的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="關於內容元件"
+>title="關於內容"
 >abstract="內容元件指可用於建立範本版面的空白內容預留位置。"
+
+建立電子郵件內容時， **[!UICONTROL 內容]** 元件可讓您使用原始的空白元件來進一步個人化您的電子郵件，這些元件一旦放入電子郵件中即可使用。
+
+您可以新增儘可能多的 **[!UICONTROL 內容]** 視需要在 **[!UICONTROL 結構]**，定義電子郵件的版面。
 
 ## 新增內容元件 {#add-content-components}
 
 若要將內容元件新增到電子郵件並根據您的需要進行調整，請依照以下步驟進行。
 
-1. 在電子郵件設計工具中，可使用現有內容或將&#x200B;**[!UICONTROL 結構]**&#x200B;拖放到您的空白內容中，即可定義電子郵件的版面。[了解做法](create-email-content.md)
+1. 在電子郵件設計工具中，使用 [現有內容](existing-content.md) 或拖放 **[!UICONTROL 結構]** 放入您的空白內容，以定義電子郵件的版面。 [了解做法](create-email-content.md)
 
-1. 將您選擇的&#x200B;**[!UICONTROL 內容]**&#x200B;拖放到相關的結構元件內部。
+1. 拖放 **[!UICONTROL 內容]** 在相關結構內選擇的。
 
    ![](assets/email_designer_add_content_components.png)
 
    >[!NOTE]
    >
-   >您可以將多個元件新增到單一結構元件和結構元件的每個欄中。
+   >您可以將數個元件新增至單一結構以及結構的每個欄中。
 
-1. 使用「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤調整每個元件的樣式屬性。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
+1. 使用內容調整每個元件的選項 **[!UICONTROL 設定]** 標籤。 例如，您可以選擇僅在桌上型電腦或行動裝置上顯示，或兩者都顯示。 您也可以從此索引標籤管理連結選項。 [進一步瞭解管理連結](message-tracking.md)
+
+1. 使用調整每個元件的樣式屬性 **[!UICONTROL 樣式]** 標籤。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
-從頭開始建立電子郵件內容時，**[!UICONTROL 內容]**元件可讓您使用原始的空白元件進一步個人化您的電子郵件，這些元件一放入電子郵件中就可以使用。
-您可以在定義您電子郵件版面的**[!UICONTROL 結構]**&#x200B;元件內新增所需數量的&#x200B;**[!UICONTROL 內容]**&#x200B;元件。
+1. 從的進階功能表 **[!UICONTROL 內容]** 在右側窗格中，您可以視需要輕鬆刪除或複製任何內容元件。
 
 ## 容器 {#container}
 
@@ -86,19 +91,19 @@ ht-degree: 100%
 
    ![](assets/email_designer_15.png)
 
-1. 您可以變更樣式屬性 (例如&#x200B;**[!UICONTROL 邊框]**、**[!UICONTROL 大小]**、**[!UICONTROL 邊界]**&#x200B;等) 來進一步個人化您的按鈕。從「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
+1. 您可以變更樣式屬性 (例如&#x200B;**[!UICONTROL 邊框]**、**[!UICONTROL 大小]**、**[!UICONTROL 邊界]**&#x200B;等) 來進一步個人化您的按鈕。從 **[!UICONTROL 樣式]** 標籤。
 
 ## 文字 {#text}
 
 使用&#x200B;**[!UICONTROL 文字]**&#x200B;元件將文字插入電子郵件，並調整樣式 (邊框、大小、邊框間距等。)使用「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
 
-1. 從「**[!UICONTROL 內容]**」選單，將&#x200B;**[!UICONTROL 文字]**&#x200B;拖放到&#x200B;**[!UICONTROL 結構]**&#x200B;元件中。
+1. 從 **[!UICONTROL 內容]** 功能表，拖放 **[!UICONTROL 文字]** 變成 **[!UICONTROL 結構]** 元件。
 
    ![](assets/email_designer_11.png)
 
 1. 按一下您新增的元件，將文字個人化，並存取「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
 
-1. 使用以下工具列的選項變更文字：
+1. 使用內容工具列中的下列選項變更文字：
 
    ![](assets/email_designer_27.png)
 
@@ -114,7 +119,7 @@ ht-degree: 100%
    * **[!UICONTROL 新增個人化]**：新增個人化欄位以從設定檔資料自訂內容。
    * **[!UICONTROL 啟用條件式內容]**：新增條件式內容以使元件內容適應目標設定檔。
 
-1. 調整其他樣式屬性，例如文字顏色、字型系列、邊框、邊框間距、邊界等。從該「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
+1. 調整其他樣式屬性，例如文字顏色、字型系列、邊框、邊框間距、邊界等。從 **[!UICONTROL 樣式]** 標籤。
 
    ![](assets/email_designer_12.png)
 
@@ -122,7 +127,7 @@ ht-degree: 100%
 
 使用&#x200B;**[!UICONTROL 分隔線]**&#x200B;元件以插入分隔線來組織電子郵件的版面和內容。
 
-您可以從「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤調整樣式屬性，例如線條顏色、樣式和高度。
+您可以從以下位置調整樣式屬性，例如線條的顏色、樣式和高度： **[!UICONTROL 樣式]** 標籤。
 
 ![](assets/email_designer_16.png)
 
@@ -140,7 +145,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->為了簡單地使外部內容與電子郵件設計工具相容，Adobe 建議從頭開始建立訊息，然後將現有電子郵件的內容複製到元件中。
+>若要讓外部內容符合電子郵件設計工具，Adobe建議 [從頭開始建立訊息](create-email-content.md) 並將現有電子郵件的內容複製到元件中。
 
 ## 影像 {#image}
 
@@ -152,14 +157,16 @@ ht-degree: 100%
 
 1. 按一下「**[!UICONTROL 瀏覽]**」，從您的資產中選擇影像檔案。
 
-1. 按一下您新增的元件，然後使用「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤設定影像屬性：
+1. 按一下新新增的元件，然後使用 **[!UICONTROL 設定]** 標籤：
 
    * **[!UICONTROL 影像標題]**&#x200B;可讓您定義影像的標題。
    * **[!UICONTROL 替代文字]**&#x200B;可讓您定義連結到影像的註解。這對應於替代 HTML 屬性。
 
    ![](assets/email_designer_10.png)
 
-1. 調整其他樣式屬性，例如邊界、邊框等。或新增連結以將對象重新導向到另一個內容。
+1. 您可以新增連結，將您的對象重新導向至其他內容。 [了解更多](message-tracking.md)
+
+1. 調整其他樣式屬性，例如邊界、邊框等。使用 **[!UICONTROL 樣式]** 標籤。
 
 ## 社交 {#social}
 
@@ -179,6 +186,6 @@ ht-degree: 100%
 
    ![](assets/email_designer_21.png)
 
-1. 您也可以在「**[!UICONTROL 影像]**」欄位中變更每個社交媒體的圖示 (如果需要)。
+1. 您也可以視需要在「 」中變更每個社群媒體的圖示 **[!UICONTROL 來源]** 欄位。
 
-1. 調整其他樣式屬性，例如樣式、邊界、邊框等。從該「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
+1. 調整其他樣式屬性，例如樣式、邊界、邊框等。從 **[!UICONTROL 樣式]** 標籤。

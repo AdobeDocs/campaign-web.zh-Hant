@@ -5,7 +5,7 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 0944c19e75aa7f074aff3898b66fec1f253ecbdc
+source-git-commit: 8d558e39f30c21cd64ab89d14020076232c6b567
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 75%
@@ -28,19 +28,19 @@ ht-degree: 75%
    + 電子郵件 {#email}
       + [建立您的第一個電子郵件](email/create-email.md)
       + 定義電子郵件內容 {#content}
-         + [設定您的電子郵件內容](content/edit-content.md)
+         + [設定電子郵件內容](content/edit-content.md)
          + 開始打造您的電子郵件 {#start-design}
             + [開始使用電子郵件設計工具](content/get-started-email-designer.md)
-            + [從頭開始 ](content/create-email-content.md)
+            + [從頭開始](content/create-email-content.md)
             + [匯入您的電子郵件內容](content/existing-content.md)
             + [為自己的內容撰寫程式碼](content/code-content.md)
             + [使用電子郵件內容範本](content/email-templates.md)
          + 設計您的內容 {#design-content}
             + [使用內容元件](content/content-components.md)
-            + [產生文字版本](content/text-version-email.md)
+            + [新增連結和追蹤訊息](content/message-tracking.md)
             + [新增鏡像頁面連結](content/mirror-page.md)
             + [新增預覽文字](content/preheader.md)
-            + [新增連結並追蹤訊息](content/message-tracking.md)
+            + [產生文字版本](content/text-version-email.md)
          + 建立內容樣式 {#style}
             + [開始使用電子郵件樣式](content/get-started-email-style.md)
             + [編輯背景設定](content/backgrounds.md)
@@ -65,8 +65,8 @@ ht-degree: 75%
    + 簡訊 {#sms}
       + [開始使用簡訊傳遞](sms/gs-sms.md)
       + [建立 SMS 傳送](sms/create-sms.md)
-      + [設計簡訊傳遞 ](sms/content-sms.md)
-      + [傳送簡訊傳遞 ](sms/send-sms.md)
+      + [設計簡訊傳遞](sms/content-sms.md)
+      + [傳送簡訊傳遞](sms/send-sms.md)
    + 讓您的內容成為動態的 {#dynamic-content}
       + [開始使用動態內容](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)

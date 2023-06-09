@@ -4,7 +4,7 @@ product: campaign
 title: 使用電子郵件範本
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 29%
@@ -13,7 +13,7 @@ ht-degree: 29%
 
 # 使用電子郵件範本 {#email-content-templates}
 
-時間 [建立電子郵件](#create-email)，使用 **[!UICONTROL 選取設計範本]** 部分 **[!UICONTROL 建立您的電子郵件]** 介面以開始從範本建立您的內容。
+時間 [建立電子郵件](../email/create-email.md)，使用 **[!UICONTROL 選取設計範本]** 部分 **[!UICONTROL 建立您的電子郵件]** 介面以開始從範本建立您的內容。
 
 ![](assets/email_designer-templates.png)
 
