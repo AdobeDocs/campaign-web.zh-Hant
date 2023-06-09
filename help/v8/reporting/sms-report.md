@@ -3,7 +3,7 @@ audience: end-user
 title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -18,8 +18,6 @@ ht-degree: 6%
 >abstract="探索簡訊傳遞的報告量度。"
 
 ## 傳遞摘要 {#delivery-summary}
-
-![](assets/reporting_sms.png)
 
 * **[!UICONTROL 傳遞概覽]** 提供關鍵績效指標(KPI)，用於提供有關訪客如何與您的SMS訊息互動的詳細資訊。
 
