@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 3%
@@ -59,11 +59,11 @@ ht-degree: 3%
 
    1. Replace `Ìnsert content here` ，其中包含您要顯示給不符合if函式條件的設定檔。
 
-      ![](assets/condition-sample2.png){width="800" align="center"}
+   ![](assets/condition-sample2.png){width="800" align="center"}
 
-      您也可以使用 **否則，如果** 協助程式函式，可建立包含多個內容變體的條件。 例如，下方的運算式會根據收件者的語言顯示訊息的三種變體：
+   您也可以使用 **否則，如果** 協助程式函式，可建立包含多個內容變體的條件。 例如，下方的運算式會根據收件者的語言顯示訊息的三種變體：
 
-      ![](assets/condition-sample3.png){width="800" align="center"}
+   ![](assets/condition-sample3.png){width="800" align="center"}
 
    >[!NOTE]
    >
