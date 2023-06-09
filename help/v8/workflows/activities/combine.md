@@ -3,10 +3,10 @@ audience: end-user
 title: 使用合併工作流程活動
 description: 瞭解如何使用合併工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 14%
+source-wordcount: '690'
+ht-degree: 12%
 
 ---
 
@@ -25,6 +25,16 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ## 一般設定 {#general}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_merging_options"
+>title="交集合併選項"
+>abstract="交集可讓您僅保留活動中不同入站母體的共同元素。 在「要加入的集合」區段中，勾選所有先前要加入的活動。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_merging_options"
+>title="排除合併選項"
+>abstract="排除可讓您根據特定條件從一個母體中排除元素。 在「要加入的集合」區段中，勾選所有先前要加入的活動。"
+
 請依照下列常見步驟開始設定 **合併** 活動：
 
 1. 新增多個活動，例如 **建立對象** 至少形成兩個不同執行分支的活動。
@@ -34,6 +44,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 1. 在 **要聯結的集合** 區段，勾選所有您欲加入的先前活動。
 
 ## 聯合 {#union}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="交集 調解選項"
+>abstract="選取調解型別以定義如何處理重複專案。"
 
 對於 **聯集**，您必須選取 **調解型別** 若要定義如何處理重複專案，請執行下列動作：
 
@@ -48,6 +63,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 1. 您可以檢查 **產生補充** 選項（如果要處理剩餘母體）。 補碼將包含所有入站活動結果減去交集的聯合。 然後，會將額外的出站轉變新增至活動。
 
 ## 排除 {#exclusion}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_options"
+>title="排除規則"
+>abstract="必要時，您可以操作傳入表格。 事實上，若要從其他維度排除目標，此目標必須傳回至與主要目標相同的目標維度。 若要這麼做，請按一下「排除規則」區段中的「新增規則」 ，並指定維度變更條件。 資料調解可透過屬性或聯結來執行。"
 
 對於 **排除**，您需要依照以下額外步驟操作：
 
