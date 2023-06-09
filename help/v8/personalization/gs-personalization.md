@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 45f4d070c95861f5f96038df82ae7100860159e0
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 22%
+source-wordcount: '495'
+ht-degree: 21%
 
 ---
 
@@ -26,38 +26,37 @@ ht-degree: 22%
 
 您可以插入以下內容，讓訊息內容成為動態的：
 
-* **個人化欄位**：個人化欄位用於訊息的第一層級個人化。 您可以從個人化編輯器選取資料庫中的任何欄位。對於傳遞，您可以選取與收件者、訊息或傳遞相關的任何欄位。這些個人化屬性可以插入訊息的主旨行或內文中。
+* **個人化欄位**：個人化欄位用於訊息的第一層級個人化。 您可以從個人化編輯器選取資料庫中的任何欄位。對於傳遞，您可以選取與收件者、訊息或傳遞相關的任何欄位。這些個人化屬性可以插入訊息的主旨行或內文中。以下語法將收件者城市插入您的內容：&lt;%= recipient.location.city %>。
 
-   以下語法將收件者城市插入您的內容：&lt;%= recipient.location.city %>。
-
-   ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **條件式內容**：設定條件式內容，以根據收件者的設定檔新增內容，例如。 特定條件為真時，即可插入文字區塊及/或影像。當條件不是true時，您可以定義內容的替代版本。
 
 * **內建內容區塊**：Campaign隨附一組個人化區塊，其中包含您可以插入傳送中的特定呈現。 例如，您可以新增標誌、問候語訊息，或電子郵件訊息映象頁面的連結。 可從個人化編輯器中的專用專案取得內容區塊。
 
-   ![](assets/perso-content-blocks.png){width="800" align="center"}
+  ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## 存取運算式編輯器 {#access}
 
 Adobe Campaign V8 Web提供運算式編輯器，您可在其中選取、排列、自訂及驗證所有資料，以建立內容的自訂體驗。 運算式編輯器適用於所有管道，在每個欄位中具有 **[!UICONTROL 開啟個人化對話方塊]** 圖示，例如主旨行欄位，或電子郵件連結和文字/按鈕內容元件。
 
+以下是如何根據您要建立動態的內容來存取運算式編輯器的部分範例
+
+* *從「寄件者名稱」欄位存取運算式編輯器*
+
+  ![](assets/expression-editor-access.png){width="800" align="center"}
+
+* *從電子郵件文字元件存取運算式編輯器*
+
+  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+
+* *從電子郵件中的連結存取運算式編輯器*
+
+  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+
 >[!NOTE]
 >
 >除了運算式編輯器之外，在設計電子郵件時，您還可以運用專用的條件式內容產生器。 [瞭解如何在電子郵件中建立條件式內容](conditions.md)
-
-*從「寄件者名稱」欄位存取運算式編輯器*
-
-![](assets/expression-editor-access.png){width="800" align="center"}
-
-*從電子郵件文字元件存取運算式編輯器*
-
-![](assets/expression-editor-access-email.png){width="800" align="center"}
-
-*從電子郵件中的連結存取運算式編輯器*
-
-![](assets/perso-link-insert-icon.png){width="800" align="center"}
-
 
 ## 讓我們深入探討
 

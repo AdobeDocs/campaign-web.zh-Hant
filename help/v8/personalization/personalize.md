@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 1e5bc39adfeae4f956fc208ef9763eb020552364
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '384'
 ht-degree: 6%
 
 ---
@@ -31,31 +31,27 @@ ht-degree: 6%
 
 1. 使用開啟運算式編輯器 **[!UICONTROL 開啟個人化對話方塊]** 圖示可從文字型別編輯欄位存取，例如主旨行或SMS內文。 [瞭解如何存取運算式編輯器](gs-personalization.md/#access)
 
-   ![](assets/perso-access.png)
+   ![](assets/perso-access.png){width="800" align="center"}
 
 1. 運算式編輯器隨即開啟。 Adobe Campaign資料庫中可用的個人化欄位會整理成畫面左側的幾個功能表：
 
-![](assets/perso-insert-field.png)
+   ![](assets/perso-insert-field.png){width="800" align="center"}
 
-| 選單 | 說明 |
-|-----|------------|
-| ![](assets/do-not-localize/perso-subscribers-menu.png) | 此 **[!UICONTROL 訂閱者應用程式]** 功能表會列出與應用程式訂閱者相關的欄位，例如使用的終端機或作業系統。 *此功能表僅供推播通知使用* |
-| ![](assets/do-not-localize/perso-recipients-menu.png) | 此 **[!UICONTROL 收件者]** 功能表會列出在收件者表格中定義的欄位，例如收件者的名稱、年齡或地址。 |
-| ![](assets/do-not-localize/perso-message-menu.png) | 此 **[!UICONTROL 訊息]** 功能表會列出與傳送記錄檔相關的欄位，包括跨所有通道傳送給收件者或裝置的所有訊息，例如與指定收件者的最後一個事件的日期 |
-| ![](assets/do-not-localize/perso-delivery-menu.png) | 此 **[!UICONTROL 傳遞]** 功能表會列出與執行傳送所需的引數相關的欄位，例如傳送通道或標籤。 |
+   | 選單 | 說明 |
+   |-----|------------|
+   | ![](assets/do-not-localize/perso-subscribers-menu.png) | 此 **[!UICONTROL 訂閱者應用程式]** 功能表會列出與應用程式訂閱者相關的欄位，例如使用的終端機或作業系統。 *此功能表僅供推播通知使用* |
+   | ![](assets/do-not-localize/perso-recipients-menu.png) | 此 **[!UICONTROL 收件者]** 功能表會列出在收件者表格中定義的欄位，例如收件者的名稱、年齡或地址。 |
+   | ![](assets/do-not-localize/perso-message-menu.png) | 此 **[!UICONTROL 訊息]** 功能表會列出與傳送記錄檔相關的欄位，包括跨所有通道傳送給收件者或裝置的所有訊息，例如與指定收件者的最後一個事件的日期 |
+   | ![](assets/do-not-localize/perso-delivery-menu.png) | 此 **[!UICONTROL 傳遞]** 功能表會列出與執行傳送所需的引數相關的欄位，例如傳送通道或標籤。 |
 
->[!NOTE]
->
->依預設，每個功能表都會列出所選表格中的所有欄位（收件者、/訊息/傳送）。 如果要包含連結至所選表格的表格欄位，請啟用 **[!UICONTROL 顯示進階屬性]** 選項的位置。
+   >[!NOTE]
+   >
+   >依預設，每個功能表都會列出所選表格中的所有欄位（收件者、/訊息/傳送）。 如果要包含連結至所選表格的表格欄位，請啟用 **[!UICONTROL 顯示進階屬性]** 選項的位置。
 
 1. 若要新增個人化欄位，請將游標置於內容內的所需位置，然後按一下 `+` 按鈕以插入它。
 
 1. 內容準備就緒後，您可以儲存內容，並透過模擬內容來測試個人化的呈現。 以下範例顯示具有收件者名字的SMS訊息個人化。
 
-   *在訊息內容中新增個人化標籤*
+   ![](assets/perso-preview1.png){width="800" align="center"}
 
-   ![](assets/perso-preview1.png)
-
-   *模擬特定測試設定檔的個人化呈現*
-
-   ![](assets/perso-preview2.png)
+   ![](assets/perso-preview2.png){width="800" align="center"}

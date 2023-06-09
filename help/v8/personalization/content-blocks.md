@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: c1ee83b456f47424f8032aaaca52a5e7c68a4077
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 60%
@@ -24,13 +24,13 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
 1. 找到您要新增內容區塊的欄位，然後按一下 **[!UICONTROL 開啟個人化對話方塊]** 圖示以開啟運算式編輯器。
 
-   ![](assets/content-block-access.png)
+   ![](assets/content-block-access.png){width="800" align="center"}
 
 1. 在運算式編輯器中，瀏覽至 **[!UICONTROL 內容區塊]** 左側功能表。
 
 1. 若要新增內容區塊，請將游標置於內容內所需的位置，然後按一下「+」按鈕以插入該區塊。
 
-   ![](assets/content-blocks.png)
+   ![](assets/content-blocks.png){width="800" align="center"}
 
 內建的內容區塊包括：
 
