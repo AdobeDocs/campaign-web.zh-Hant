@@ -4,10 +4,10 @@ title: 開始使用推播通知
 description: 了解如何使用 Adobe Campaign Web 建立和傳送推播通知
 badge: label="Alpha" type="Positive"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 15%
+source-wordcount: '203'
+ht-degree: 14%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 15%
 * 行銷活動：建立行銷活動後，您可以建立推播通知傳送。 如需設定行銷活動的詳細資訊，請參閱本頁面。
 
 * 獨立傳送：透過個別推播通知傳送，直接且立即吸引客戶，而不需要工作流程或行銷活動。
+
+![](../assets/do-not-localize/book.png) 瞭解如何透過此頁面設定推播通知頻道 [頁面](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=en).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

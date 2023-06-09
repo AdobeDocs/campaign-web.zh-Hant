@@ -4,10 +4,10 @@ title: 開始使用簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
 badge: label="Alpha" type="Positive"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 91%
+source-wordcount: '159'
+ht-degree: 80%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 91%
 * 行銷活動：將簡訊傳遞納入專屬行銷活動，設定目標對象和傳遞排程等參數。
 
 * 獨立傳遞：建立個別的簡訊傳遞，不需要工作流程或行銷活動即可和您的客戶進行快速而直接的通訊。
+
+![](../assets/do-not-localize/book.png) 瞭解如何透過此頁面設定簡訊頻道 [頁面](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=en).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
