@@ -3,9 +3,9 @@ audience: end-user
 title: 使用擴充工作流程活動
 description: 瞭解如何使用擴充工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 6da733b8eaf9244d98e8f52c02635554dc5257c3
+source-git-commit: 3fb46f0535c8511f21b62949e7604bd54f9993f7
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '628'
 ht-degree: 27%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 27%
 
 ![](../assets/workflow-enrichment1.png)
 
-您可以選取兩種擴充資料：a [單一擴充屬性](#single-attribute) 從目標維度，或 [集合連結](collection-link).
+您可以選取兩種擴充資料：a [單一擴充屬性](#single-attribute) 從目標維度，或 [集合連結](#collection-link).
 
 ## 單一擴充屬性 {#single-attribute}
 
@@ -110,11 +110,12 @@ ht-degree: 27%
 
 ![](../assets/workflow-enrichment7.png)
 
-
-
-新增其他欄位以在傳送中使用
-
 <!--
+
+Add other fields
+use it in delivery
+
+
 cardinality between the tables (1-N)
 1. select attribute to use as enrichment data
 
