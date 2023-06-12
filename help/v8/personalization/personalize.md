@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 6%
+source-wordcount: '433'
+ht-degree: 5%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 6%
 
 ## 個人化語法 {#syntax}
 
-個人化標籤會遵循特定語法： `<%=table.field%>`. 例如，若要從收件者表格插入收件者的姓氏，請使用 `<%= recipient.lastName %>` 語法。
+個人化標籤會遵循特定語法： `<%= table.field %>`. 例如，若要從收件者表格插入收件者的姓氏，請使用 `<%= recipient.lastName %>` 語法。
 
 在傳送準備過程中，Adobe Campaign會自動解譯這些標籤，並以每個收件者的對應欄位值取代。 您可以藉由模擬內容來檢視實際取代。
+
+從外部檔案上傳連絡人以進行獨立電子郵件傳遞時，輸入檔案中的所有欄位都可用於個人化。 語法如下： `<%= dataSource.field %>`.
 
 ## 新增個人化標籤 {#add}
 
@@ -40,7 +42,7 @@ ht-degree: 6%
    | 選單 | 說明 |
    |-----|------------|
    | ![](assets/do-not-localize/perso-subscribers-menu.png) | 此 **[!UICONTROL 訂閱者應用程式]** 功能表會列出與應用程式訂閱者相關的欄位，例如使用的終端機或作業系統。 *此功能表僅供推播通知使用* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | 此 **[!UICONTROL 收件者]** 功能表會列出在收件者表格中定義的欄位，例如收件者的名稱、年齡或地址。 |
+   | ![](assets/do-not-localize/perso-recipients-menu.png) | 此 **[!UICONTROL 收件者]** 功能表會列出在收件者表格中定義的欄位，例如收件者的名稱、年齡或地址。 時間 [從外部檔案上傳連絡人](../audience/file-audience.md) 對於獨立電子郵件傳送，此功能表會列出輸入檔案中可用的所有欄位。 |
    | ![](assets/do-not-localize/perso-message-menu.png) | 此 **[!UICONTROL 訊息]** 功能表會列出與傳送記錄檔相關的欄位，包括跨所有通道傳送給收件者或裝置的所有訊息，例如與指定收件者的最後一個事件的日期 |
    | ![](assets/do-not-localize/perso-delivery-menu.png) | 此 **[!UICONTROL 傳遞]** 功能表會列出與執行傳送所需的引數相關的欄位，例如傳送通道或標籤。 |
 
