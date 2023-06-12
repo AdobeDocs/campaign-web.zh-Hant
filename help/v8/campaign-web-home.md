@@ -4,7 +4,7 @@ description: Campaign Web v8 說明中心
 title: Adobe Campaign Web v8 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 45f56870bc823b4f620063cd1a64d69e91c4e0a8
+source-git-commit: 1db4a082e215ef2d0de4f0c8bc527d24e47268f7
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 30%
@@ -68,19 +68,19 @@ Campaign現在提供全新的網頁使用者介面(UI)，其易用性、協助�
 -->
 
 <table style="table-layout:fixed">
-<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
 <img alt="新 UI" src="assets/do-not-localize/menu-ui.jpeg" width="150px">
 </a></td><td>探索Campaign網頁版的新使用者介面、最新改進專案、重要功能。 瞭解如何使用它們為您的對象建立跨管道行銷活動。 Campaign提供簡單易用的功能，可協助您簡化個人化的跨頻道行銷活動建立流程、推動成果並取得競爭優勢。</td></tr>
-<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
 <img alt="新 UI" src="assets/do-not-localize/menu-workflows.jpeg" width="150px">
 </a></td><td>我們全方位的圖形畫布可讓您輕鬆設計流程，例如細分、行銷活動執行等。 此進階工具觸手可及，讓您精簡工作流程並提升行銷活動。</td></tr>
-<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
 <img alt="新 UI" src="assets/do-not-localize/menu-design.jpg" width="150px">
 </a></td><td>從範本開始，或使用Adobe Campaign的全新電子郵件設計工具來建立電子郵件，不必撰寫一行程式碼。 瞭解如何使用電子郵件設計工具來建立您的內容、預覽和測試，以及在端對端使用案例中傳送電子郵件給現有對象。</td></tr>
-<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
 <img alt="新 UI" src="assets/do-not-localize/menu-dynamic.jpg" width="150px">
 </a></td><td>建立條件式內容，以根據收件者的設定檔定義動態個人化，在滿足某些條件時自動取代文字區塊和影像。 此功能可將您的行銷活動提升到新的高度，並為您的受眾提供極具針對性的個人化體驗</td></tr>
-<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
 <img alt="新 UI" src="assets/do-not-localize/menu-campaign.jpeg" width="150px">
 </a></td><td>Adobe Campaign功能可協助您管理集中式客戶資料、設計客戶通訊和行銷活動，以及跨不同管道建立個人化體驗：電子郵件、推播和簡訊。</td></tr>
 </table>
