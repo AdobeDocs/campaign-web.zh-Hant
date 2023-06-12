@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 60%
+source-wordcount: '445'
+ht-degree: 59%
 
 ---
 
@@ -55,4 +55,5 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
 >[!NOTE]
 >
->您可以從Adobe Campaign V8主控台定義新區塊，讓您最佳化傳送個人化。 [在主控台檔案中瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=zh-Hant)
+>您可以從Adobe Campaign v8主控台定義新區塊，以讓您將傳送個人化最佳化。 進一步瞭解 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+

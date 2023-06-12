@@ -4,10 +4,10 @@ title: 準備並傳送電子郵件
 description: 了解如何使用 Campaign Web UI 準備並傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha" type="Positive"
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,9 @@ send also KPIs
 
 ## 準備傳送{#prepare}
 
-當您定義好內容、對象和排程後，您就可以準備您的訊息。在準備期間，將計算目標母體，並為目標包含的每個設定檔產生訊息內容。準備作業完成後，就可以立即或在排程的日期和時間傳送訊息。分析期間使用之驗證規則的說明位在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}。
+當您定義好內容、對象和排程後，您就可以準備您的訊息。在準備期間，將計算目標母體，並為目標包含的每個設定檔產生訊息內容。準備作業完成後，就可以立即或在排程的日期和時間傳送訊息。
+
+傳遞準備期間使用的驗證規則在 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
 請遵循以下步驟：
 
