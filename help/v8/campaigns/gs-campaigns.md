@@ -4,9 +4,9 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7324098ba401f471b988e2df33022f0f898833b4
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 12%
 
 ---
@@ -56,7 +56,7 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 此 **設定行銷活動設定** 圖示可讓您修改建立行銷活動時定義的行銷活動屬性。 檢視此 [區段](create-campaigns.md#create-campaigns)
 
-## 監控與追蹤時長{#campaign-monitoring}
+## 監控及追蹤記錄{#campaign-monitoring}
 
 行銷活動監控是分析行銷活動的關鍵步驟。 這些區段可從 **記錄檔** 按鈕。
 
