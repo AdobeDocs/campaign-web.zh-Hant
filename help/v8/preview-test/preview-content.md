@@ -4,7 +4,7 @@ title: 預覽電子郵件內容
 description: 了解如何使用 Campaign Web UI 預覽電子郵件內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
+source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 28%
@@ -32,7 +32,7 @@ ht-degree: 28%
 
      >[!NOTE]
      >
-     >測試設定檔可在 [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+     >測試設定檔可在 [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （主控台）檔案](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    * 「**[!UICONTROL 設定檔]**」索引標籤會列出儲存在 主控台「**[!UICONTROL 設定檔和目標]**」資料夾中的所有收件者。[!DNL Campaign][了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 
