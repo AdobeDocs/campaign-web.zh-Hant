@@ -4,10 +4,10 @@ title: 設定控制組
 description: 了解如何在 Campaign Web UI 中為您的訊息設定控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 46%
+source-wordcount: '759'
+ht-degree: 40%
 
 ---
 
@@ -81,11 +81,11 @@ ht-degree: 46%
 
 * 在傳送前，在傳送控制面板中，檢查 **要排除** KPI。
 
-   ![](assets/control-group5.png)
+  ![](assets/control-group5.png)
 
 * 在傳送記錄檔中，「記錄檔」索引標籤會顯示排除步驟。
 
-   ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png)
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -95,7 +95,7 @@ ht-degree: 46%
 
 * 此 **排除原因** 索引標籤會顯示每個型別規則的已排除設定檔數目。
 
-   ![](assets/control-group7.png)
+  ![](assets/control-group7.png)
 
 如需傳遞記錄的詳細資訊，請參閱本[章節](../monitor/delivery-logs.md)。
 
@@ -104,19 +104,19 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="額外母體"
->abstract="您可以選取現有對象，或定義查詢，以從目標中排除特定母體。"
+>abstract="您可以選取現有對象，或定義查詢，以從傳送對象中排除特定母體。"
 
-定義控制組的另一種方法是使用現有對象或定義查詢從目標中排除特定母體。
+定義控制組的另一種方式是選取現有對象中的特定母體，或藉由定義查詢來進行。
 
 從&#x200B;**控制組**&#x200B;定義畫面的「**額外母體**」區段，按一下「**[!UICONTROL 選取對象]**」按鈕。
 
 ![](assets/control-group3.png)
 
-* 若要使用現有對象，按一下「**選取對象**」。請參閱本[章節](add-audience.md)。
+* 若要使用現有對象，按一下「**選取對象**」。在[本章節](add-audience.md)了解更多資訊。
 
-* 若要定義新查詢，請選取「**建立您自己的**」並使用規則產生器定義排除標準。請參閱本[章節](segment-builder.md)。
+* 若要定義新查詢，請選取「**建立您自己的**」並使用規則產生器定義排除標準。在[本章節](segment-builder.md)了解更多資訊。
 
-包含在對象中或與查詢結果相符的設定檔將從目標中排除。
+對象中包含或與查詢結果相符的設定檔包括 **已排除** 來自傳遞目標：他們未收到任何訊息。
 
 ## 比較結果{#control-group-results}
 

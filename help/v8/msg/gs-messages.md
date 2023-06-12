@@ -4,25 +4,52 @@ title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 98%
+source-wordcount: '1072'
+ht-degree: 83%
 
 ---
 
 # 開始使用訊息{#gs-messages}
 
+透過 Adobe Campaign，您可以傳送跨管道行銷活動，包括電子郵件、簡訊、LINE 訊息、推播通知，並使用各種專屬報告來評估行銷成效。 
 
-透過 Adobe Campaign，您可以傳送跨管道行銷活動，包括電子郵件、簡訊、LINE 訊息、推播通知，並使用各種專屬報告來評估行銷成效。 這些訊息會透過傳遞進行設計和傳送，並可針對每位收件者進行個人化。這些傳遞可以是獨立的，也可以納入行銷活動的內容中。
+這些訊息會透過傳遞進行設計和傳送，並可針對每位收件者進行個人化。這些傳遞可以是獨立的，也可以納入行銷活動的內容中。
 
-Adobe Campaign v8 提供下列傳遞管道：
+Adobe Campaign v8 提供下列傳遞管道： 電子郵件、簡訊和行動應用程式。
 
-* **電子郵件管道**：電子郵件傳遞功能可讓您傳送個人化電子郵件給目標群體。若要了解如何建立和傳送電子郵件，請參閱[本頁面](../email/create-email.md)。
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+    <td>
+    <a href="../email/create-email.md">
+    <img alt="電子郵件" src="assets/do-not-localize/email.jpg">
+    </a>
+    <div><a href="../email/create-email.md"><strong>建立電子郵件</strong>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../push/create-push.md">
+      <img alt="推播" src="assets/do-not-localize/push.jpg">
+    </a>
+    <div>
+    <a href="../push/gs-push.md"><strong>建立推播通知</strong></a>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../sms/create-sms.md">
+      <img alt="SMS" src="assets/do-not-localize/sms.jpg">
+    </a>
+    <div>
+    <a href="../sms/create-sms.md"><strong>建立簡訊訊息</strong></a>
+    </div>
+    <p>
+    </td>
+    </tr>
+    </table>
 
-* **簡訊管道**：行動裝置管道上的傳遞可讓您傳送個人化簡訊給目標母體。若要了解如何建立和傳送簡訊，請參閱[本頁面](../sms/create-sms.md)。
-
-* **行動應用程式管道**：行動應用程式傳遞可讓您傳送通知至 iOS 和 Android 系統。若要了解如何建立和傳送推播通知，請參閱[本頁面](../push/gs-push.md)。
 
 ## 建立傳遞 {#create-delivery}
 
@@ -83,7 +110,7 @@ Adobe Campaign v8 提供下列傳遞管道：
 
 ## 新增個人化{#personalization}
 
-Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[了解個人化功能的詳細資訊](../personalization/personalize.md)。
+Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[了解個人化功能的詳細資訊](../personalization/gs-personalization.md)。
 
 使用 Campaign 建立動態內容並傳送個人化訊息。可合併個人化功能以改善您的訊息並建立自訂的使用者體驗。
 
@@ -91,19 +118,19 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[了解�
 
 * 插入動態&#x200B;**個人化欄位**
 
-   個人化欄位用於訊息的第一層個人化。您可以從個人化編輯器選取資料庫中的任何欄位。對於傳遞，您可以選取與收件者、訊息或傳遞相關的任何欄位。這些個人化屬性可以插入訊息的主旨行或內文中。[了解更多](../personalization/personalize.md)
+  個人化欄位用於訊息的第一層個人化。您可以從個人化編輯器選取資料庫中的任何欄位。對於傳遞，您可以選取與收件者、訊息或傳遞相關的任何欄位。這些個人化屬性可以插入訊息的主旨行或內文中。[了解更多](../personalization/personalize.md)
 
 * 插入預先定義的&#x200B;**內容區塊**
 
-   Campaign 隨附一組個人化區塊，其中包含您可以插入到傳遞中的特定轉譯。例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。內容區塊可從個人化編輯器的專屬項目取得。[了解更多](../personalization/personalize.md#ootb-content-blocks)
+  Campaign 隨附一組個人化區塊，其中包含您可以插入到傳遞中的特定轉譯。例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。內容區塊可從個人化編輯器的專屬項目取得。[了解更多](../personalization/personalize.md#ootb-content-blocks)
 
 * 建立&#x200B;**條件式內容**
 
-   例如，設定條件式內容以根據收件者的設定檔新增動態個人化。特定條件為真時，即可插入文字區塊及/或影像。[了解更多](../personalization/conditions.md)
+  例如，設定條件式內容以根據收件者的設定檔新增動態個人化。特定條件為真時，即可插入文字區塊及/或影像。[了解更多](../personalization/conditions.md)
 
 * 新增&#x200B;**個人化優惠方案**
 
-   可根據收件者位置、目前的天氣或上次的採購訂單，在您的訊息內容中插入個人化優惠方案。
+  可根據收件者位置、目前的天氣或上次的採購訂單，在您的訊息內容中插入個人化優惠方案。
 
 
 ## 預覽和測試您的傳遞 
@@ -111,9 +138,13 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[了解�
 定義訊息內容後，即可進行預覽以控制訊息的轉譯，並使用測試設定檔檢查個人化設定。[了解更多](../preview-test/preview-test.md)
 
 
-## 傳送和追蹤記錄{#gs-tracking-logs}
+## 監控及追蹤記錄{#gs-tracking-logs}
 
-傳送傳遞後進行監視是確保行銷活動效率並與客戶溝通的關鍵步驟。 您可以在傳送傳遞後進行監視，並瞭解傳送失敗和隔離的管理方式。
+傳送傳遞後進行監視是確保行銷活動效率並與客戶溝通的關鍵步驟。 
+
+您可以在傳送傳遞後進行監視，並瞭解傳送失敗和隔離的管理方式。
+
+進一步瞭解中的監控和追蹤功能 [本節](../reporting/gs-reports.md).
 
 ## 複製傳遞 {#delivery-duplicate}
 
@@ -125,12 +156,30 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[了解�
 1. 選取「**[!UICONTROL 複製]**」。
 1. 確認複製：新的傳遞儀表板隨即在畫面中央開啟。
 
-
 若要從儀表板複製傳遞，請依照以下步驟進行：
 
 1. 開啟傳遞並在螢幕頂端區段按一下「**[!UICONTROL ...更多]**」按鈕。
 1. 選取「**[!UICONTROL 複製]**」。
 1. 確認複製：新的傳遞隨即取代畫面中央的現有傳遞。
 
+## 刪除傳遞 {#delivery-delete}
 
+傳遞會從傳遞清單中刪除 — 從左側邊欄中的主要傳遞專案刪除，或從行銷活動的傳遞清單中刪除。
 
+若要從傳遞清單中刪除傳遞，請遵循下列步驟：
+
+1. 按一下要複製的傳遞名稱右側的三個點按鈕。
+1. 選取 **[!UICONTROL Delete]**。
+1. 確認刪除。
+
+![從傳遞清單中刪除傳遞](assets/delete-delivery-from-list.png)
+
+這些清單中的所有傳遞都可用，但在工作流程中建立的傳遞無法從中刪除。 若要刪除在工作流程內容中建立的傳遞，您必須從工作流程中刪除傳遞活動。
+
+若要從工作流程刪除傳遞，請遵循下列步驟：
+
+1. 選取傳送活動。
+1. 按一下  **[!UICONTROL 刪除]** 圖示進行修改。
+1. 確認刪除。 如果傳送有子節點，您也可以選擇刪除或保留它們。
+
+![刪除工作流程中的傳遞](assets/delete-delivery-from-wf.png)
