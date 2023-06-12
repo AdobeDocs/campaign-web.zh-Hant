@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
+source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 83%
+source-wordcount: '1772'
+ht-degree: 66%
 
 ---
 
@@ -129,29 +129,75 @@ ht-degree: 83%
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## 設定清單畫面 {#list-screens}
+## 瀏覽和篩選清單 {#list-screens}
 
-左側導覽選單中的幾個連結 (例如 **傳遞**&#x200B;或&#x200B;**行銷活動**) 會顯示物件清單。這些清單畫面都是唯讀的，電子郵件傳遞清單除外。
+左側導覽選單的大部分連結會顯示物件清單，例如 **傳遞** 或 **行銷活動**. 這些清單畫面中有些是唯讀的。 您可以自訂清單顯示，並篩選這些清單，如下所述。
 
-若要更快地找到項目，您可以使用搜尋列或根據內容關聯式條件篩選清單。
+若要移除篩選器，請按一下 **全部清除** 按鈕。
 
-![](assets/filter.png){width="70%" align="left"}
+### 自訂清單畫面 {#custom-lists}
 
-清單顯示在欄中。您可以變更欄設定來顯示其他資訊。為此，按一下清單右上角的圖示。您可以新增或移除欄並變更其顯示順序。
+清單顯示在欄中。您可以變更欄設定來顯示其他資訊。若要這麼做，請按一下 **設定自訂配置的欄** 圖示填入清單。
+
+![](assets/config-columns.png){width="70%" align="left"}
+
+在 **設定欄** 畫面、新增或移除欄，以及變更欄的顯示順序。
+
+例如，對於這些設定：
 
 ![](assets/columns.png){width="70%" align="left"}
 
-您可以按一下任何欄標題來排序清單中的項目。會顯示箭頭 (向上或向下) 表示清單已按該欄排序。對於數字或日期欄，向上箭頭表示清單按遞增順序排序，而向下箭頭表示遞減順序。對於字串或英數字元欄，值按字母順序列出。
+清單會顯示下列各欄：
 
-## 內容關聯式說明和入門指南 {#contextual-help}
+![](assets/column-sample.png){width="70%" align="left"}
 
-介面中提供內容關聯式說明。可用時，按一下 **?**&#x200B;圖示可顯示說明資訊和相關文件連結。
+使用 **顯示進階屬性** 切換即可檢視目前清單的所有屬性。 [了解更多](#adv-attributes)
+
+### 排序資料 {#sort-lists}
+
+您也可以按一下任何欄標題來排序清單中的專案。 會顯示箭頭 (向上或向下) 表示清單已按該欄排序。
+
+若為數值或日期欄，則 **上** 箭頭表示清單會依遞增順序排序，而 **向下** 箭頭表示遞減順序。 對於字串或英數字元欄，值按字母順序列出。
+
+### 內建篩選器 {#list-built-in-filters}
+
+若要更快速地尋找專案，您可以使用搜尋列，或根據內容條件篩選清單。
+
+![](assets/filter.png){width="70%" align="left"}
+
+例如，您可以根據傳送的狀態、頻道、聯絡日期或資料夾來篩選傳送。 您也可以隱藏測試。
+
+### 自訂篩選器{#list-custom-filters}
+
+若要建立資料的自訂篩選器，請瀏覽至篩選器底部，然後按一下 **新增規則** 按鈕。
+
+拖放屬性以在 **進階篩選** 畫面。
+
+![](assets/custom-filter.png){width="70%" align="left"}
+
+使用 **顯示進階屬性** 切換即可檢視目前清單的所有屬性。 [了解更多](#adv-attributes)
+
+### 使用進階屬性 {#adv-attributes}
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="顯示進階屬性"
+>abstract="依預設，只有最常見的屬性會顯示在屬性清單中。 使用此切換來建立具有進階屬性的篩選器。"
+
+依預設，只有最常見的屬性會顯示在屬性清單和篩選設定畫面中。
+
+使用 **顯示進階屬性** 在清單下方切換以檢視目前清單的所有可用屬性。
+
+
+## 內容說明 {#contextual-help}
+
+介面中提供內容關聯式說明。可用時，按一下 `?` 圖示來顯示說明資訊和相關檔案連結。
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-也提供入門指南，可協助您開始使用 Campaign v8 Web。按一下右下角的圖示，選擇一個可用的逐步案例，然後按照說明操作即可。
+<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
-![](assets/onboarding.png){width="70%" align="left"}
+![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## 支援的瀏覽器 {#browsers}
 
@@ -187,17 +233,8 @@ Campaign v8 Web 目前提供以下語言版本：
 若要變更您的語言：
 
 1. 按一下右上角您的設定檔圖示，然後選取「**偏好設定**」。
-
-   ![](assets/preferences.png){width="70%" align="left"}
-
-1. 然後，按一下您電子郵件地址下顯示的語言。
-
-   ![](assets/preferences2.png)
-
+1. 然後按一下您電子郵件地址下方顯示的語言連結。
 1. 選取您偏好的語言，然後按一下「**儲存**」。您可以選取第二語言，以防您使用的元件沒有您第一語言的版本。
-
-   ![](assets/select-language.png)
-
 
 
 <!--
@@ -208,6 +245,11 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="規則產生器進階欄位"
+>abstract="使用進階欄位設定欄。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -300,15 +342,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="需要權限"
 >abstract="您的管理員必須先授予您權限，然後您才能建立區段。"
 
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="屬性選擇器進階欄位"
->abstract="使用進階欄位設定欄。"
 
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="規則產生器進階欄位"
->abstract="使用進階欄位設定欄。"
+
 
 
 
