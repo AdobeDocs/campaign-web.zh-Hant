@@ -3,10 +3,10 @@ audience: end-user
 title: 行銷活動報表
 description: 瞭解如何存取及使用行銷活動報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 5%
+source-wordcount: '1520'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 5%
 ### 傳遞摘要 {#delivery-summary-email}
 
 * **[!UICONTROL 傳遞概述]** 提供關鍵績效指標(KPI)，用於提供有關訪客如何參與電子郵件傳送的詳細資訊。
+
+  ![](assets/campaign_report_email_1.png)
 
   +++進一步瞭解電子郵件行銷活動報告量度。
 
@@ -32,9 +34,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_1.png)
+* **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料：
 
-* **[!UICONTROL 初始目標對象統計資料]**
+  ![](assets/campaign_report_email_2.png)
 
   +++進一步瞭解電子郵件行銷活動報告量度。
 
@@ -46,9 +48,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_2.png)
+* **[!UICONTROL 執行統計資料]** 表格詳細說明您的傳送是否成功。
 
-* **[!UICONTROL 執行統計資料]**
+  ![](assets/campaign_report_email_3.png)
 
   +++進一步瞭解電子郵件行銷活動報告量度。
 
@@ -62,9 +64,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_3.png)
+* **[!UICONTROL 反應統計資料]** 表格包含您傳送之收件者活動的可用資料。
 
-* **[!UICONTROL 反應統計資料]**
+  ![](assets/campaign_report_email_4.png)
 
   +++進一步瞭解電子郵件行銷活動報告量度。
 
@@ -77,11 +79,9 @@ ht-degree: 5%
    * **[!UICONTROL 映象頁面]**：點按映象頁面連結的收件者人數。
 
    * **[!UICONTROL 轉寄]**：點按後轉寄電子郵件的收件者人數。
-
-  ![](assets/campaign_report_email_4.png)
 +++
 
-* **[!UICONTROL 產生的點按資料流]**
+* **[!UICONTROL 產生的點按資料流]** 表格會顯示收件者與傳遞互動的相關資料。
 
   ![](assets/campaign_report_email_5.png)
 
@@ -97,7 +97,9 @@ ht-degree: 5%
 
 ### 無法傳遞的項目 {#non-deliverables-email}
 
-* **[!UICONTROL 每種型別的錯誤劃分]** 和 **[!UICONTROL 每個瀏覽器的錯誤劃分]**
+* **[!UICONTROL 每種型別的錯誤劃分]** 和 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖形包含每個網域可能遇到的錯誤的可用資料。
+
+  ![](assets/campaign_report_email_6.png)
 
   +++進一步瞭解電子郵件行銷活動報告量度。
 
@@ -109,11 +111,11 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_6.png)
-
 ### 追蹤指標 {#tracking-indicators-email}
 
-* **[!UICONTROL 傳遞統計資料]**
+* **[!UICONTROL 傳遞統計資料]** 提供關鍵績效指標(KPI)，用於提供關於已傳送電子郵件可用資料的詳細資訊。
+
+  ![](assets/campaign_report_email_7.png)
 
   +++進一步瞭解電子郵件行銷活動報告量度。
 
@@ -130,9 +132,9 @@ ht-degree: 5%
    * **[!UICONTROL 轉送次數估計]**：目標收件者轉寄的電子郵件預估數量。
 +++
 
-  ![](assets/campaign_report_email_7.png)
+* **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料。
 
-* **[!UICONTROL 開啟及點進率]**
+  ![](assets/campaign_report_email_8.png)
 
   +++進一步瞭解電子郵件行銷活動報告量度。
 
@@ -147,11 +149,11 @@ ht-degree: 5%
    * **[!UICONTROL 原始反應性]**：與開啟傳遞至少一次的收件者人數相比，已至少點按一次傳遞的收件者人數的百分比。
 +++
 
-  ![](assets/campaign_report_email_8.png)
-
 ### URL 和點擊流量 {#url-email}
 
-* **[!UICONTROL URL 和點按流]**
+* **[!UICONTROL URL和點按資料流]** 提供關鍵績效指標(KPI)，可針對傳送期間點選次數最多的URL提供詳細資訊。
+
+  ![](assets/campaign_report_email_9.png)
 
   +++進一步瞭解電子郵件行銷活動報告量度。
 
@@ -163,9 +165,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_9.png)
+* **[!UICONTROL 前10個最常造訪的連結]** 圖表和表格包含每個連結的收件者行為可用資料。
 
-* **[!UICONTROL 造訪量最高的前 10 個連結]**
+  ![](assets/campaign_report_email_10.png)
 
   +++進一步瞭解電子郵件行銷活動報告量度。
 
@@ -175,23 +177,23 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_10.png)
-
-* **[!UICONTROL 一段時間內點選的劃分]**，點按次數
+* **[!UICONTROL 一段時間內點選的劃分]** 圖表包含每個連結的收件者行為可用資料。
 
   ![](assets/campaign_report_email_11.png)
 
 ### 使用者活動 {#user-activities-email}
 
-* **[!UICONTROL 使用者活動]**
+* **[!UICONTROL 使用者活動]** 以圖表的形式顯示開啟和點按的劃分。
+
+  ![](assets/campaign_report_email_12.png)
+
+  +++進一步瞭解電子郵件行銷活動報告量度。
 
    * **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
 
    * **[!UICONTROL 開啟次數]**：此網域中至少開啟過一次訊息的不同目標收件者人數。
 
 +++
-
-  ![](assets/campaign_report_email_12.png)
 
 ## 簡訊管道 {#sms-channel}
 
@@ -211,7 +213,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 初始目標對象統計資料]**
+* **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料：
 
   +++進一步瞭解簡訊行銷活動報告量度。
 
@@ -223,7 +225,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 執行統計資料]**
+* **[!UICONTROL 執行統計資料]** 表格詳細說明您的傳送是否成功：
 
   +++進一步瞭解簡訊行銷活動報告量度。
 
@@ -237,7 +239,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 產生的點按資料流]**
+* **[!UICONTROL 產生的點按資料流]** 表格會顯示收件者與傳遞互動的相關資料：
 
   +++進一步瞭解簡訊行銷活動報告量度。
 
@@ -267,7 +269,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 初始目標對象統計資料]**
+* **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料：
 
   +++進一步瞭解推播行銷活動報告量度。
 
@@ -279,7 +281,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 執行統計資料]**
+* **[!UICONTROL 執行統計資料]** 表格詳細說明您的傳送是否成功：
 
   +++進一步瞭解推播行銷活動報告量度。
 
@@ -293,7 +295,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 產生的點按資料流]**
+* **[!UICONTROL 產生的點按資料流]** 表格會顯示收件者與傳遞互動的相關資料：
 
   +++進一步瞭解推播行銷活動報告量度。
 
