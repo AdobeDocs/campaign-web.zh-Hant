@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
+source-git-commit: fe1afdc3995d09058bcffe85a54af6ccfea93bb8
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1769'
 ht-degree: 66%
 
 ---
@@ -186,8 +186,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 依預設，只有最常見的屬性會顯示在屬性清單和篩選設定畫面中。
 
-使用 **顯示進階屬性** 在清單下方切換以檢視目前清單的所有可用屬性。
-
+使用 **顯示進階屬性** 切換即可檢視目前清單的所有可用屬性。
 
 ## 內容說明 {#contextual-help}
 
