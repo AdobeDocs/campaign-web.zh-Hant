@@ -4,7 +4,7 @@ title: 傳送測試電子郵件
 description: 了解如何定義和傳送測試電子郵件
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
-source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
+source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 40%
@@ -23,7 +23,7 @@ ht-degree: 40%
 
 測試電子郵件可以傳送給兩種收件者類型：
 
-* **測試設定檔**  — 將測試電子郵件傳送至種子地址，這些地址是資料庫中其他虛構的收件者。 它們可以在以下位置建立： [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （主控台）檔案](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* **測試設定檔**  — 將測試電子郵件傳送至種子地址，這些地址是資料庫中其他虛構的收件者。 它們可以在以下位置建立： [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 * **從主要目標替代**  — 模擬現有設定檔時，將測試電子郵件傳送至特定電子郵件地址。 這可讓您如同收件者一樣體驗電子郵件，可精準呈現設定檔所接收的訊息。
 
