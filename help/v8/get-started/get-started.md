@@ -4,10 +4,10 @@ title: 開始使用 Campaign v8 Web
 description: 開始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 72%
+source-wordcount: '469'
+ht-degree: 71%
 
 ---
 
@@ -34,19 +34,6 @@ Adobe Campaign 為跨管道客戶體驗設計提供平台，並為視覺行銷�
 >
 >Campaign v8 Web 目前為 Alpha 版本。只有一小組 Alpha 客戶可以存取。請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
 
-## 關於 Campaign 用戶端主控台{#ac-client}
-
-Campaign 用戶端主控台是以瀏覽器為基礎的應用程式，安裝在您的系統上。它使用 Web 服務 API 連接到您的 Campaign 應用程式伺服器。
-
-如需了解如何下載和安裝用戶端主控台，請參閱[本章節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}。
-
-如需如何使用Campaign v8的詳細資訊，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"}.
-
-Campaign 資料儲存在應用程式伺服器中。資料可從用戶端主控台和 Web UI 取得。例如，如果您使用用戶端主控台建立傳遞範本，它也可以在 Web UI 中取用。如果您在 Web UI 中建立電子郵件傳遞，也可以從用戶端主控台存取此傳遞。
-
-
-某些物件只能在使用者端主控台中建立和管理。 它們可以在Campaign Web UI中顯示和使用，但無法從此環境建立或修改它們。 所有Campaign物件和元件都可從瀏覽器檢視（可從左側導覽取得）取得。
-
 ## 連接至 Campaign
 
 
@@ -63,3 +50,13 @@ Campaign 資料儲存在應用程式伺服器中。資料可從用戶端主控�
 -> or Campaign v8 web if direct URL
 -->
 
+
+## 關於 Campaign 用戶端主控台{#ac-client}
+
+Campaign 用戶端主控台是以瀏覽器為基礎的應用程式，安裝在您的系統上。它使用 Web 服務 API 連接到您的 Campaign 應用程式伺服器。
+
+Campaign 資料儲存在應用程式伺服器中。資料可從用戶端主控台和 Web UI 取得。例如，如果您使用用戶端主控台建立傳遞範本，它也可以在 Web UI 中取用。如果您在 Web UI 中建立電子郵件傳遞，也可以從用戶端主控台存取此傳遞。
+
+某些物件只能在使用者端主控台中建立和管理。 它們可以在Campaign Web UI中顯示和使用，但無法從此環境建立或修改它們。 所有Campaign物件和元件都可從瀏覽器檢視（可從左側導覽取得）取得。
+
+如需如何使用Campaign v8的詳細資訊，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"}.
