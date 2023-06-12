@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送推播通知傳遞
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 22%
+source-wordcount: '275'
+ht-degree: 23%
 
 ---
 
@@ -50,4 +50,4 @@ ht-degree: 22%
 
 傳送後，您可以從傳送頁面追蹤KPI （關鍵績效指標）資料，以及從「記錄」選單追蹤資料。
 
-您現在可以使用內建報告來開始衡量訊息的影響。
+您現在可以使用內建報告來開始衡量訊息的影響。 [了解更多](../reporting/push-report.md)
