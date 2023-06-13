@@ -4,7 +4,7 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 7%
@@ -49,7 +49,7 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 * 此 **瀏覽** 索引標籤會列出所有現有的行銷活動。 您可以按一下行銷活動以開啟其控制面板，或按一下 **建立行銷活動** 按鈕。 請參閱本[章節](create-campaigns.md#create-campaigns)。
 
-* 此 **範本** 索引標籤會列出所有可用的行銷活動範本。 行銷活動範本已預先設定，以便重複用於建立新的行銷活動。 從使用者端主控台建立。 [深入了解](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)
+* 此 **範本** 索引標籤會列出所有可用的行銷活動範本。 行銷活動範本已預先設定，以便在建立新行銷活動時重複使用。 從使用者端主控台建立。 [深入了解](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)
 
 清單中的每個行銷活動會顯示其目前狀態、建立日期、上次修改時間等資訊。
 
@@ -70,5 +70,6 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 有兩個索引標籤可供使用：
 
 * 此 **工作流程** 索引標籤會列出連結至行銷活動的所有工作流程。 此索引標籤也可讓您在行銷活動內建立新的工作流程。 檢視此 [區段](create-campaigns.md#create-campaigns)
+
 * 此 **傳遞** 索引標籤會列出連結至行銷活動的所有傳遞。 您也可以在行銷活動內建立新的傳送。 檢視此 [區段](create-campaigns.md#create-campaigns)
 

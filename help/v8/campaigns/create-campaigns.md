@@ -4,7 +4,7 @@ title: 使用 Adobe Campaign Web 建立行銷活動
 description: 了解如何使用 Adobe Campaign Web 建置跨管道行銷活動
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 17%
@@ -41,12 +41,12 @@ ht-degree: 17%
    >您稍後一律可以修改這些屬性，從 **設定行銷活動設定** 圖示，位於行銷活動標籤旁。 檢視此 [區段](gs-campaigns.md#campaign-dashboard)
 
 1. 按一下 **建立**。
-1. 新增工作流程與傳遞至您的行銷活動。
+1. 新增工作流程與傳遞至您的行銷活動：
 
    * 從 **工作流程** 標籤，按一下 **建立工作流程**. 當您建立行銷活動時，會自動新增預設工作流程。 進一步瞭解如何 [建立工作流程](../workflows/create-workflow.md)
    * 從 **傳遞** 標籤，按一下 **建立傳遞**. [了解更多](../msg/gs-messages.md)
 
-1. 使用 **記錄檔** 和 **報告** 按鈕來分析您的行銷活動。
+1. 使用 **記錄檔** 和 **報告** 按鈕來分析行銷活動的績效。
 
 ## 監控及追蹤記錄{#campaign-monitoring}
 
