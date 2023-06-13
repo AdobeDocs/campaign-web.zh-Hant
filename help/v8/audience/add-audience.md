@@ -4,10 +4,10 @@ title: 選取現有對象
 description: 了解如何選取對象
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
 
 1. 選擇「**[!UICONTROL 選取對象]**」以使用現有對象。若要建立新對象用於此電子郵件，請選擇「**建立您自己的**」。請參閱本[章節](segment-builder.md)。
 
-   此畫面顯示在 Adobe Campaign 主控台中定義或來自 Adobe Experience Platform 的所有現有對象。
+   此畫面會針對目前的資料夾顯示Adobe Campaign使用者端主控台中定義的所有現有對象。
 
    ![](assets/create-audience2.png)
 
