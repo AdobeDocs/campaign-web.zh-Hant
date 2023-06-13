@@ -8,15 +8,20 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: e241226cacbc366aa884eb7781ce60188913d7b1
+source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 10%
+source-wordcount: '660'
+ht-degree: 9%
 
 ---
 
 
 # 開始使用動態內容
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="個人化"
+>abstract="運算式編輯器可讓您選取、排列、自訂及驗證所有資料，以針對您的內容建立自訂體驗。 您可以運用設定檔資料，對每位收件者個人化您的訊息，並建立條件式內容來根據每位收件者調整訊息，並僅顯示相關內容。 此外，個人化區塊可用於將預先定義的個人化內容新增至您的傳送。"
 
 身為行銷人員，鎖定對您的產品真正感興趣的客戶並透過提供有效且相關的內容與他們互動非常重要。 由於您遇到的收件者種類繁多，因此建立多個行銷內容以吸引不同人士可能會很耗時且浪費。 這就是動態內容發揮作用的地方。
 
