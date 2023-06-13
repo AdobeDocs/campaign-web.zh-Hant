@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: dea30dcf033306e90f5838370e3970a0d833ecd9
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 73%
+source-wordcount: '350'
+ht-degree: 72%
 
 ---
 
@@ -61,12 +61,12 @@ ht-degree: 73%
       + [開始使用推播通知](push/gs-push.md)
       + [建立推播通知傳遞](push/create-push.md)
       + [設計推播傳遞](push/content-push.md)
-      + [傳送推播通知傳遞](push/send-push.md)
+      + [預覽和傳送推播通知傳遞](push/send-push.md)
    + 簡訊 {#sms}
       + [開始使用簡訊傳遞](sms/gs-sms.md)
       + [建立 SMS 傳送](sms/create-sms.md)
       + [設計簡訊傳遞](sms/content-sms.md)
-      + [傳送簡訊傳遞](sms/send-sms.md)
+      + [預覽和傳送簡訊傳遞](sms/send-sms.md)
    + 讓您的內容成為動態的 {#dynamic-content}
       + [開始使用動態內容](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
