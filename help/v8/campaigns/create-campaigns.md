@@ -4,15 +4,15 @@ title: 使用 Adobe Campaign Web 建立行銷活動
 description: 了解如何使用 Adobe Campaign Web 建置跨管道行銷活動
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
 
-# 建立您的第一個行銷活動 {#create-campaigns}
+# 建立您的第一個行銷活動 {#create-first-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,9 +24,9 @@ ht-degree: 21%
 >title="Campaign 屬性"
 >abstract="定義您的行銷活動設定和中繼資料。"
 
-行銷活動可包含工作流程和獨立傳送。 屬性、排程、工作、傳遞以及設定公平排程
+若要建立新的行銷活動，您需要定義其屬性、排程並包含工作流程和傳遞。
 
-## 建立行銷活動
+## 建立行銷活動{#campaign-create}
 
 若要建立新的行銷活動，請遵循下列步驟：
 
@@ -40,25 +40,27 @@ ht-degree: 21%
 
    >[!NOTE]
    >
-   >您稍後一律可以修改這些屬性，從 **設定行銷活動設定** 圖示，位於行銷活動標籤旁。 檢視此 [區段](gs-campaigns.md#campaign-dashboard)
+   >您稍後一律可以修改這些屬性，從 **設定行銷活動設定** 圖示，位於行銷活動標籤旁。 請參閱本[章節](gs-campaigns.md#campaign-dashboard)。
 
 1. 按一下 **建立**。
 1. 新增工作流程與傳遞至您的行銷活動：
 
-   * 從 **工作流程** 標籤，按一下 **建立工作流程**. 當您建立行銷活動時，會自動新增預設工作流程。 進一步瞭解如何 [建立工作流程](../workflows/create-workflow.md)
+   * 從 **工作流程** 標籤，按一下 **建立工作流程**. 當您建立行銷活動時，會自動新增預設工作流程。 進一步瞭解如何 [建立工作流程](../workflows/create-workflow.md).
    * 從 **傳遞** 標籤，按一下 **建立傳遞**. [了解更多](../msg/gs-messages.md)
 
 1. 使用 **記錄檔** 和 **報告** 按鈕來分析行銷活動的績效。
 
 ## 監視和追蹤您的行銷活動{#campaign-monitoring}
 
-行銷活動監控是分析行銷活動的關鍵步驟。 開啟您的行銷活動，然後按一下 **記錄檔** 按鈕。
+行銷活動監控是分析行銷活動成效的關鍵步驟。 開啟您的行銷活動，然後按一下 **記錄檔** 按鈕。
 
 您也可以按一下 **報表** 按鈕。 請參閱本[章節](../reporting/campaign-reports.md)。
 
-+++WORKF ++畫面
+
 
 <!--
+	+++WORKF
+++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
 

@@ -4,10 +4,10 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 9%
+source-wordcount: '165'
+ht-degree: 11%
 
 ---
 
@@ -26,6 +26,12 @@ Adobe Campaign可讓您使用內建的行銷活動管理功能，輕鬆協調目
 行銷活動提供專用的報告量度，可全面深入瞭解整個行銷活動的效能，讓您能夠評估其成效、識別趨勢，並做出資料導向式決策，以將未來的工作最佳化。
 
 ![行銷活動流程](assets/campaign-flow.png)
+
+請參閱下列章節：
+
+* [存取及管理您的行銷活動](manage-campaigns.md)
+* [建立您的第一個行銷活動](create-campaigns.md)
+
 
 
 <!--
