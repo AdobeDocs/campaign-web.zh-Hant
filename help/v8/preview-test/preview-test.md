@@ -3,11 +3,11 @@ audience: end-user
 title: 關於電子郵件預覽和測試
 description: 了解如何預覽和測試電子郵件
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="Alpha" type="Positive"
-source-git-commit: 7bbc0ddec7792c270d47f6d3e8a39e75f74c1451
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 26%
+source-wordcount: '184'
+ht-degree: 24%
 
 ---
 

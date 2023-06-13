@@ -3,10 +3,10 @@ audience: end-user
 title: 使用電子郵件設計工具內容元件
 description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="Alpha" type="Positive"
-source-git-commit: 905ff46cac03d0db276c3eb487a4d66815c6ed0b
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1106'
 ht-degree: 69%
 
 ---

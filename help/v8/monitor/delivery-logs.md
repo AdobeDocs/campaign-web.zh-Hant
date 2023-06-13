@@ -3,11 +3,11 @@ audience: end-user
 title: 監控傳遞記錄
 description: 了解如何監控傳遞記錄
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 99%
 
 ---
 

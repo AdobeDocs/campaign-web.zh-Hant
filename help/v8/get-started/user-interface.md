@@ -3,11 +3,11 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha" type="Positive"
-source-git-commit: e7ca27215434be94d5db252afb9e4fe0b04f0139
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 79%
+source-wordcount: '1390'
+ht-degree: 78%
 
 ---
 
@@ -185,16 +185,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="規則產生器進階欄位"
->abstract="使用進階欄位設定欄。"
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="規則產生器進階屬性"
->abstract="使用進階屬性定義規則。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"

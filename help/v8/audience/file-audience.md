@@ -2,11 +2,11 @@
 audience: end-user
 title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 64%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 64%
 >* 此功能僅適用於 **獨立電子郵件傳遞**. 它不能用於工作流程，也不能用於SMS或推播傳遞。
 >
 >* 從外部檔案載入目標母體時，您不能使用[控制組](control-group.md)。
-
 
 
 若要直接從電子郵件介面從本機檔案定位設定檔，請遵循下列步驟：

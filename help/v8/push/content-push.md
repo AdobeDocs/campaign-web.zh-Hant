@@ -2,10 +2,10 @@
 audience: end-user
 title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
-badge: label="Alpha" type="Positive"
-source-git-commit: a9c9079a64dd7113aa7da1040aa30cef2c9c0aec
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1068'
 ht-degree: 7%
 
 ---

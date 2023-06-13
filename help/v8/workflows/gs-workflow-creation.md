@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 3b193cf7116859f31ce04ba89773ef388b7916c7
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 77%
+source-wordcount: '228'
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 77%
 
 * **活動**：活動指要執行的任務。各種活動在圖表中會以圖示表示。每種活動都有特定屬性和所有活動共有的其他屬性。
 
-   在工作流程圖表中，一個特定活動可以產生多個任務，尤其是存在迴圈或週期性動作時。
+  在工作流程圖表中，一個特定活動可以產生多個任務，尤其是存在迴圈或週期性動作時。
 
 * **轉變**：轉變會將來源活動連結到目標活動並定義其序列。
 

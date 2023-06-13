@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
-badge: label="Alpha" type="Positive"
-source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 3%
+source-wordcount: '516'
+ht-degree: 4%
 
 ---
 
@@ -52,4 +52,4 @@ ht-degree: 3%
 
 完成工作流程後，請新增 **[!UICONTROL 結束]** 活動在圖表結尾。 此活動可讓您以視覺化方式標示工作流程的結尾，而不會對功能造成影響。
 
-成功設計工作流程圖表後，您可以執行工作流程並追蹤其各種任務的進度。 [瞭解如何啟動工作流程並監視其執行](start-monitor-workflows.md)
+成功設計工作流程圖表後，您可以執行工作流程並追蹤其各種任務的進度。 [了解如何啟動工作流程並監視其執行](start-monitor-workflows.md)

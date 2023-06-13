@@ -3,11 +3,11 @@ audience: end-user
 title: 使用Campaign規則產生器建立對象
 description: 瞭解如何使用規則產生器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha" type="Positive"
-source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 97%
+source-wordcount: '547'
+ht-degree: 96%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 97%
 
 * **屬性**：此索引標籤可讓您存取綱要中的所有可用欄位。欄位清單取決於電子郵件範本中定義的目標定位綱要。
 
-   ![](assets/segment-builder2.png){width="70%" align="left"}
+  ![](assets/segment-builder2.png){width="70%" align="left"}
 
 * **對象**：此索引標籤可讓您使用在 Campaign Classic 主控台或 Adobe Experience Platform 定義的現有對象進行篩選。
 
-   ![](assets/segment-builder3.png){width="70%" align="left"}
+  ![](assets/segment-builder3.png){width="70%" align="left"}
 
-   >[!NOTE]
-   >
-   >若要利用 Adobe Experience Platform 對象，您需要設定與目的地的整合。請參閱[目的地文件](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant){target="_blank"}。
+  >[!NOTE]
+  >
+  >若要利用 Adobe Experience Platform 對象，您需要設定與目的地的整合。請參閱[目的地文件](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant){target="_blank"}。
 
 您可以使用搜尋列快速查找元素。
 

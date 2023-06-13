@@ -2,12 +2,12 @@
 audience: end-user
 title: 開始使用推播通知
 description: 了解如何使用 Adobe Campaign Web 建立和傳送推播通知
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 14%
+source-wordcount: '199'
+ht-degree: 12%
 
 ---
 
