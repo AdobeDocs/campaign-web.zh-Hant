@@ -4,10 +4,10 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 12%
+source-wordcount: '543'
+ht-degree: 6%
 
 ---
 
@@ -19,10 +19,18 @@ ht-degree: 12%
 >title="設計和傳送跨頻道行銷活動"
 >abstract="Adobe Campaign功能可協助您管理集中式客戶資料、設計客戶通訊和行銷活動，以及跨不同管道建立個人化體驗：電子郵件、推播和簡訊。"
 
-使用 Adob&#x200B;&#x200B;e Campaign 建立跨管道行銷活動。透過其行銷活動協調功能，您可以管理及集中客戶資料、設計客戶通訊與行銷活動，以及跨不同管道建立個人化體驗。 在此版本中，可使用電子郵件、推播和簡訊頻道。
+Adobe Campaign可讓您使用內建的行銷活動管理功能，輕鬆協調目標式行銷活動。 透過定義排程的功能，您可以規劃行銷活動的持續期間和時間，以符合策略目標並最大化受眾參與。
 
-針對所有平台和熒幕大小，設計和執行大量電子郵件行銷活動，以傳遞個人化訊息。
-使用詳細報告衡量傳送的成效，包括開啟、點按、轉送等計數。 透過 Adob&#x200B;&#x200B;e Campaign 分段功能，您可以針對大量資料庫執行查詢，並輕鬆定義動態行銷區段，從而完美地鎖定您的行銷活動。
+透過新增行銷活動特定的多個工作流程與傳送，您可以跨各種管道建立個人化體驗，確保每個接觸點都能與預期對象產生共鳴。
+
+行銷活動提供專用的報告量度，可全面深入瞭解整個行銷活動的效能，讓您能夠評估其成效、識別趨勢，並做出資料導向式決策，以將未來的工作最佳化。
+
+<!--
+Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
+
+Design and execute high-volume email campaigns to deliver personalized messages, for all platforms and screen sizes. 
+Measure the effectiveness of your deliveries with detailed reports including the counts of opens, clicks, forwards, and more. With Adobe Campaign segmentation capabilities, you can run queries against a high-volume database, and easily define dynamic marketing segments which perfectly target your campaigns.
+-->
 
 <!--
 Get Started with campaigns
@@ -39,13 +47,13 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 * 此 **範本** 索引標籤會列出所有可用的行銷活動範本。 行銷活動範本已預先設定，以便重複用於建立新的行銷活動。 從使用者端主控台建立。 [顯示全文](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)。
 
+清單中的每個行銷活動會顯示其目前狀態、建立日期、上次修改時間等資訊。
+
 您可以按一下 **設定自訂配置的欄** 圖示加以顯示。 這可讓您新增其他資訊至清單。 此外，還提供搜尋列和篩選器，以便於在清單中輕鬆搜尋。 [了解更多](../get-started/user-interface.md#list-screens)
 
 例如，您可以篩選行銷活動排程。 開啟篩選器面板並使用 **開始 — 結束日期** 區段：
 
 ![行銷活動清單](assets/campaign-filter-on-dates.png)
-
-清單中的每個行銷活動會顯示其目前狀態、建立日期、上次修改時間等資訊。
 
 ## 行銷活動控制面板{#campaign-dashboard}
 
@@ -58,15 +66,18 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 ## 監控及追蹤記錄{#campaign-monitoring}
 
-行銷活動監控是分析行銷活動的關鍵步驟。 這些區段可從 **記錄檔** 按鈕。
+行銷活動監控是分析行銷活動的關鍵步驟。 開啟您的行銷活動，然後按一下 **記錄檔** 按鈕。
 
-您也可以按一下 **報表** 按鈕。 檢視此 [區段](../reporting/campaign-reports.md)
+您也可以按一下 **報表** 按鈕。 請參閱本[章節](../reporting/campaign-reports.md)。
 
 ## 複製並刪除
 
-若要複製或刪除行銷活動，請按一下省略符號按鈕，然後選取 **複製** 或 **刪除**. 您也可以從行銷活動的控制面板複製或刪除工作流程或傳遞。
+您可以複製或刪除行銷活動：
+
+* 從行銷活動清單中，按一下省略符號按鈕，然後選取 **複製** 或 **刪除**.
+* 從行銷活動本身，按一下 **更多** 按鈕，然後選取 **複製** 或 **刪除**.
 
 >[!NOTE]
 >
->若要刪除工作流程內的傳遞，您需要從工作流程中刪除它。
+>此 **傳遞** 索引標籤會顯示連結至行銷活動的所有傳送，但在工作流程中建立的傳送無法從此處刪除。 若要刪除在工作流程內容中建立的傳遞，您必須從工作流程中刪除傳遞活動。
 

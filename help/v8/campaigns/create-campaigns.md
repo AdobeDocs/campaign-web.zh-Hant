@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立行銷活動
 description: 了解如何使用 Adobe Campaign Web 建置跨管道行銷活動
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 33%
+source-wordcount: '229'
+ht-degree: 26%
 
 ---
 
@@ -24,36 +24,27 @@ ht-degree: 33%
 >title="Campaign 屬性"
 >abstract="定義您的行銷活動設定和中繼資料。"
 
+行銷活動可包含工作流程和獨立傳送。
+
 若要建立新的行銷活動，請遵循下列步驟：
 
 1. 按一下 **[!UICONTROL 行銷活動]** 功能表，然後按一下 **[!UICONTROL 建立行銷活動]** 按鈕。
 1. 選取 **範本** ，以使用並提供促銷活動的標籤。 行銷活動範本已預先設定，以便重複用於建立新的行銷活動。 從使用者端主控台建立。
    [顯示全文](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)。
-1. 如有需要，您可以變更 **其他選項**. 請參閱本[章節](#campaign-options)。
+1. 如有需要，您可以變更下列專案 **其他選項**：內部名稱、資料夾、受託人、說明和性質。
 1. 定義 **排程** 您行銷活動的資訊。 行銷活動在到達開始日期時開始。 開始和結束日期會顯示在行銷活動清單中，並可作為篩選條件使用。 請參閱本[章節](gs-campaigns.md#access-campaigns)。
 
    ![定義您的行銷活動屬性](assets/campaign-properties.png)
 
    >[!NOTE]
    >
-   >您還可以從行銷活動標籤旁的「**設定行銷活動設定**」圖示存取行銷活動屬性。檢視此 [區段](gs-campaigns.md#campaign-dashboard)
+   >您稍後一律可以修改這些屬性，從 **設定行銷活動設定** 圖示，位於行銷活動標籤旁。 檢視此 [區段](gs-campaigns.md#campaign-dashboard)
 
 1. 按一下 **建立**。
-1. 將工作流程或獨立傳遞新增至行銷活動。
+1. 新增工作流程與傳遞至您的行銷活動。
+
    * 從 **工作流程** 標籤，按一下 **建立工作流程**. 當您建立行銷活動時，會自動新增預設工作流程。 進一步瞭解如何 [建立工作流程](../workflows/create-workflow.md)
    * 從 **傳遞** 標籤，按一下 **建立傳遞**. [了解更多](../msg/gs-messages.md)
-
-## 其他選項 {#campaign-options}
-
-行銷活動屬性會在建立新行銷活動時顯示。
-
-下 **其他選項**，您可以進行下列設定：
-
-* 內部名稱:
-* 資料夾：選取要儲存行銷活動的資料夾
-* 指派給:
-* 說明:
-* 性質：針對分類用途指定行銷活動的性質
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
