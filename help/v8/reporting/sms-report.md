@@ -3,7 +3,7 @@ audience: end-user
 title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -60,6 +60,8 @@ ht-degree: 6%
 +++
 
 * **[!UICONTROL 排除專案]** 圖表和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。
+
+  ![](assets/reporting_sms_6.png)
 
 ## 傳遞總處理能力 {#delivery-throughput}
 

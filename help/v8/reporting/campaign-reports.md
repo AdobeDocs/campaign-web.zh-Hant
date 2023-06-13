@@ -3,10 +3,10 @@ audience: end-user
 title: 行銷活動報表
 description: 瞭解如何存取及使用行銷活動報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 2%
+source-wordcount: '1682'
+ht-degree: 1%
 
 ---
 
@@ -115,11 +115,19 @@ Campaign報告頁面會顯示以下標籤：
 
   +++進一步瞭解電子郵件行銷活動報告量度。
 
-   * **[!UICONTROL 錯誤]**：在傳送和自動反彈處理期間累計的錯誤總數，與要傳送的訊息數量相關。
+   * **[!UICONTROL 使用者不明]**：傳送期間產生的錯誤型別，表示電子郵件地址無效。
 
-   * **[!UICONTROL 貢獻]**：
+   * **[!UICONTROL 無效的網域]**：傳送傳遞時產生的錯誤型別，指出電子郵件地址的網域錯誤或不存在。
 
-   * **[!UICONTROL 劃分]**:
+   * **[!UICONTROL 郵箱已滿]**：在嘗試傳送五次後產生的錯誤型別，以指出收件者的收件匣包含太多郵件。
+
+   * **[!UICONTROL 帳戶已停用]**：傳送傳遞時產生的錯誤型別，用以指出地址已不存在。
+
+   * **[!UICONTROL 已拒絕]**：當IAP （網際網路存取提供者）拒絕位址時產生的錯誤型別，例如在套用安全性規則（反垃圾郵件軟體）之後。
+
+   * **[!UICONTROL 無法聯絡]**：訊息發佈字串中發生的錯誤型別：SMTP轉送上的事件、暫時無法連線網域等
+
+   * **[!UICONTROL 未連線]**：錯誤型別，表示收件者的行動電話在傳送時已關閉或已中斷與網路的連線。
 
 +++
 
@@ -213,6 +221,8 @@ Campaign報告頁面會顯示以下標籤：
 
 * **[!UICONTROL 傳遞概述]** 提供關鍵績效指標(KPI)，用於提供有關訪客如何參與您的SMS傳送的詳細資訊。
 
+  ![](assets/campaign_report_sms_1.png)
+
   +++進一步瞭解簡訊行銷活動報告量度。
 
    * **[!UICONTROL 已傳送總數]**：傳遞分析期間處理的訊息總數。
@@ -227,6 +237,8 @@ Campaign報告頁面會顯示以下標籤：
 
 * **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料：
 
+  ![](assets/campaign_report_sms_2.png)
+
   +++進一步瞭解簡訊行銷活動報告量度。
 
    * **[!UICONTROL 初始對象]**：目標收件者總數。
@@ -238,6 +250,8 @@ Campaign報告頁面會顯示以下標籤：
 +++
 
 * **[!UICONTROL 執行統計資料]** 表格詳細說明您的傳送是否成功：
+
+  ![](assets/campaign_report_sms_3.png)
 
   +++進一步瞭解簡訊行銷活動報告量度。
 
@@ -252,6 +266,8 @@ Campaign報告頁面會顯示以下標籤：
 +++
 
 * **[!UICONTROL 產生的點按資料流]** 表格會顯示收件者與傳遞互動的相關資料：
+
+  ![](assets/campaign_report_sms_4.png)
 
   +++進一步瞭解簡訊行銷活動報告量度。
 

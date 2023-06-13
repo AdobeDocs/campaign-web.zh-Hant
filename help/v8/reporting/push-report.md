@@ -3,7 +3,7 @@ audience: end-user
 title: 推播傳遞報告
 description: 瞭解如何存取及使用推播傳遞報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 7%
@@ -46,8 +46,6 @@ ht-degree: 7%
    * **[!UICONTROL 排除專案]**：已從分析中排除的設定檔數。
 
 +++
-
-
 
 * **整體統計資料** 會針對已傳送的推播通知顯示資料，包括：
 

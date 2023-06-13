@@ -3,10 +3,10 @@ audience: end-user
 title: 電子郵件傳遞報告
 description: 瞭解如何存取和使用電子郵件傳遞報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 10%
+source-wordcount: '1256'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 * **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料：
 
-  ![](assets/reporting_email_1.png){align="center"}
+  ![](assets/reporting_email_1.png){align="left"}
 
   +++進一步瞭解電子郵件傳遞報告量度。
 
@@ -29,7 +29,7 @@ ht-degree: 10%
 
 * **[!UICONTROL 傳遞統計資料]** 表格詳細說明您的傳送是否成功。
 
-  ![](assets/reporting_email_2.png){align="center"}
+  ![](assets/reporting_email_2.png){align="left"}
 
   +++進一步瞭解電子郵件行銷活動報告量度。
 
@@ -46,6 +46,24 @@ ht-degree: 10%
 * **[!UICONTROL 排除的原因]** 圖表和表格會依分析期間拒絕的訊息規則來顯示劃分。
 
   ![](assets/reporting_email_3.png){align="center"}
+
+  +++進一步瞭解電子郵件傳遞報告量度。
+
+   * **[!UICONTROL 使用者不明]**：傳送期間產生的錯誤型別，表示電子郵件地址無效。
+
+   * **[!UICONTROL 無效的網域]**：傳送傳遞時產生的錯誤型別，指出電子郵件地址的網域錯誤或不存在。
+
+   * **[!UICONTROL 郵箱已滿]**：在嘗試傳送五次後產生的錯誤型別，以指出收件者的收件匣包含太多郵件。
+
+   * **[!UICONTROL 帳戶已停用]**：傳送傳遞時產生的錯誤型別，用以指出地址已不存在。
+
+   * **[!UICONTROL 已拒絕]**：當IAP （網際網路存取提供者）拒絕位址時產生的錯誤型別，例如在套用安全性規則（反垃圾郵件軟體）之後。
+
+   * **[!UICONTROL 無法聯絡]**：訊息發佈字串中發生的錯誤型別：SMTP轉送上的事件、暫時無法連線網域等
+
+   * **[!UICONTROL 未連線]**：錯誤型別，表示收件者的行動電話在傳送時已關閉或已中斷與網路的連線。
+
++++
 
 ## 傳遞總處理能力 {#delivery-throughtput}
 
@@ -78,13 +96,23 @@ ht-degree: 10%
 
 * **[!UICONTROL 每種型別的錯誤劃分]** 和 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖形包含每個網域可能遇到的錯誤的可用資料。
 
+  ![](assets/campaign_report_email_6.png)
+
   +++進一步瞭解電子郵件傳遞報告量度。
 
-   * **[!UICONTROL 錯誤]**：在傳送和自動反彈處理期間累計的錯誤總數，與要傳送的訊息數量相關。
+   * **[!UICONTROL 使用者不明]**：傳送期間產生的錯誤型別，表示電子郵件地址無效。
 
-   * **[!UICONTROL 貢獻]**：
+   * **[!UICONTROL 無效的網域]**：傳送傳遞時產生的錯誤型別，指出電子郵件地址的網域錯誤或不存在。
 
-   * **[!UICONTROL 劃分]**:
+   * **[!UICONTROL 郵箱已滿]**：在嘗試傳送五次後產生的錯誤型別，以指出收件者的收件匣包含太多郵件。
+
+   * **[!UICONTROL 帳戶已停用]**：傳送傳遞時產生的錯誤型別，用以指出地址已不存在。
+
+   * **[!UICONTROL 已拒絕]**：當IAP （網際網路存取提供者）拒絕位址時產生的錯誤型別，例如在套用安全性規則（反垃圾郵件軟體）之後。
+
+   * **[!UICONTROL 無法聯絡]**：訊息發佈字串中發生的錯誤型別：SMTP轉送上的事件、暫時無法連線網域等
+
+   * **[!UICONTROL 未連線]**：錯誤型別，表示收件者的行動電話在傳送時已關閉或已中斷與網路的連線。
 
 +++
 

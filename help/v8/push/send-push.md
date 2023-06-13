@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送推播通知傳遞
 badge: label="Alpha" type="Positive"
-source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 23%
+source-wordcount: '354'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +28,16 @@ ht-degree: 23%
 
 1. 在右側窗格中，您會看到電子郵件的預覽，其中個人化元素會動態地由選取的設定檔中的資料取代。
 
-您現在可以檢閱您的簡訊訊息並將其傳送給您的對象。
+您現在可以檢閱並傳送推播通知給對象。
+
+## 測試您的推播通知傳遞 {#test-send-sms}
+
+使用 **Adobe Campaign**，您便能夠在將推播通知傳送給主要對象之前先測試這些通知。 此步驟對於驗證您的傳送和識別任何問題非常重要。
+測試收件者可檢閱連結、影像和個人化設定等元素，確保最佳效能並偵測任何錯誤。 此程式可協助您在到達主要受眾之前調整及最佳化推播通知。
+
+![](../assets/do-not-localize/book.png) 在此瞭解如何傳送測試推播通知 [頁面](../preview-test/proofs.md).
+
+![](assets/push_send_6.png)
 
 ## 傳送推播通知傳遞 {#preview-send-push}
 
