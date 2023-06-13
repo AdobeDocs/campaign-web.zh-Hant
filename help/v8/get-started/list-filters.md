@@ -3,7 +3,7 @@ audience: end-user
 title: 瀏覽、搜尋和篩選清單
 description: 瞭解如何瀏覽和篩選清單Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 13%
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 清單顯示在欄中。您可以變更欄設定來顯示其他資訊。若要這麼做，請按一下 **設定自訂配置的欄** 圖示填入清單。
 
-![](assets/config-columns.png){width="70%" align="left"}
+![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
 在 **設定欄** 畫面、新增或移除欄，以及變更欄的顯示順序。
 
