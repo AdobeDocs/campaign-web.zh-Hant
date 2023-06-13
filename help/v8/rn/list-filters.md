@@ -4,10 +4,10 @@ title: Campaign Web v8的新增功能
 description: 探索Campaign Web v8的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 65%
+ht-degree: 62%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 65%
 
 ## 術語更新 {#terminology-updates}
 
-您身為現有 Campaign 使用者，請注意一些概念已重新命名以符合最新的術語標準。這些變更僅適用於 Campaign Web UI，不會反映在用戶端主控台。它們總結如下。
+您身為現有 Campaign 使用者，請注意一些概念已重新命名以符合最新的術語標準。這些變更只會套用至Campaign Web UI，而不會反映在使用者端主控台中。 它們總結如下。
 
 * 校訂現在是&#x200B;**測試電子郵件**：若要傳送校訂，請使用電子郵件傳遞 UI 中的「**測試**」按鈕。校訂目標的目標現在稱為&#x200B;**測試設定檔**
 * 種子地址現在是&#x200B;**測試設定檔**：傳送測試電子郵件到種子地址，這些地址是資料庫中額外和虛構的收件者

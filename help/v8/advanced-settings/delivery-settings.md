@@ -4,10 +4,10 @@ title: 電子郵件傳遞設定
 description: 進一步了解 Campaign Web UI 中的電子郵件傳遞設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -158,7 +158,7 @@ ht-degree: 98%
 
 * **[!UICONTROL 強制產生鏡像頁面]**：使用此模式產生鏡像頁面，即使無鏡像頁面連結插入到傳遞中。
 * **[!UICONTROL 不要產生鏡像頁面]**：使用此模式可以避免產生鏡像頁面，即使傳遞有連結存在。
-* **[!UICONTROL 產生只能使用訊息識別碼進行存取的鏡像頁面]**：當電子郵件內容無鏡像頁面連結，使用此選項可在傳遞記錄視窗中從用戶端主控台存取鏡像頁面的內容。
+* **[!UICONTROL 產生僅可使用訊息識別碼存取的映象頁面]**：當電子郵件內容中不存在映象頁面連結時，使用此選項可啟用從使用者端主控台在傳送記錄視窗中存取映象頁面內容。
 
 
 ### 追蹤 {#tracking}

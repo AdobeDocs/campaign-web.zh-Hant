@@ -3,7 +3,7 @@ audience: end-user
 title: 使用建立對象工作流程活動
 description: 瞭解如何使用建立對象工作流程活動
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 11%

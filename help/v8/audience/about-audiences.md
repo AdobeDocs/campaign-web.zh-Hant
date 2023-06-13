@@ -4,7 +4,7 @@ title: 開始使用對象
 description: 了解如何在 Campaign Web UI 中使用對象
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 31%
