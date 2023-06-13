@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
+source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 ---
 
 
-# 開始使用動態內容
+# 開始使用動態內容 {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 Adobe Campaign網頁動態內容功能可讓您根據所收集收件者的相關資訊來自訂內容。 運用動態內容，可確保行銷工作更切合實際，避免行銷不需要或不必要的產品或服務。 此方法可讓您的內容更具吸引力，並增加內容被閱讀的可能性。 此外，它可讓您個人化您的內容，讓收件者覺得他們是從人員而不是機器接收資訊。
 
-## 如何讓您的內容成為動態內容？
+## 如何讓您的內容更具動態性？ {#make-content-dyn}
 
 您可以在Campaign網頁運算式編輯器中插入JavaScript建構，讓訊息內容成為動態內容。 在傳送訊息時，Adobe Campaign會解譯這些運算式，以將正確內容傳遞給每個收件者：
 
@@ -65,7 +65,7 @@ Adobe Campaign V8 Web提供運算式編輯器，您可在其中選取、排列�
 >
 >除了運算式編輯器之外，在設計電子郵件時，您還可以運用專用的條件式內容產生器。 [瞭解如何在電子郵件中建立條件式內容](conditions.md)
 
-## 讓我們深入探討
+## 讓我們深入探討 {#dive-deeper}
 
 現在您已瞭解如何讓內容充滿活力，是時候深入探討這些檔案區段來開始使用功能了。
 

@@ -4,10 +4,10 @@ title: 使用 Adobe Experience Platform 對象
 description: 了解如何使用 Adobe Experience Platform 對象
 badge: label="Alpha" type="Positive"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
+source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 50%
+source-wordcount: '291'
+ht-degree: 40%
 
 ---
 
@@ -22,13 +22,13 @@ Adobe Campaign受管理的Cloud Service目標和來源聯結器可讓Adobe Campa
 >若要在Campaign中使用Adobe Experience Platform對象，您需要設定與Adobe來源和目標的整合。 請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 
-您也可以：
+若要選取傳送的對象，您也可以：
 
 * 建立新對象。 [了解更多](segment-builder.md)
 * 從外部檔案載入對象。 [了解更多](file-audience.md)
 * 使用現有的Campaign對象。 [了解更多](add-audience.md)。
 
-若要選取訊息的Adobe Experience Platform對象，請遵循下列步驟：
+若要選取要傳送的Adobe Experience Platform對象，請遵循下列步驟：
 
 1. 從傳遞建立助理的「**對象**」區段，按一下「**[!UICONTROL 選取對象]**」按鈕。
 
@@ -54,5 +54,4 @@ Adobe Campaign受管理的Cloud Service目標和來源聯結器可讓Adobe Campa
 
 1. 按一下「**儲存**」。
 
-您也可以設定控制組來測量行銷活動的影響。控制組不會收到訊息。可讓您將收到訊息之母體的行為與未收到訊息之聯絡人的行為進行比較。請參閱[章節](control-group.md)。
 
