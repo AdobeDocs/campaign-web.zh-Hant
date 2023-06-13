@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立行銷活動
 description: 了解如何使用 Adobe Campaign Web 建置跨管道行銷活動
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 26%
+source-wordcount: '356'
+ht-degree: 17%
 
 ---
 
@@ -45,6 +45,25 @@ ht-degree: 26%
 
    * 從 **工作流程** 標籤，按一下 **建立工作流程**. 當您建立行銷活動時，會自動新增預設工作流程。 進一步瞭解如何 [建立工作流程](../workflows/create-workflow.md)
    * 從 **傳遞** 標籤，按一下 **建立傳遞**. [了解更多](../msg/gs-messages.md)
+1. 使用 **記錄檔** 和 **報告** 按鈕來分析您的行銷活動。
+
+## 監控及追蹤記錄{#campaign-monitoring}
+
+行銷活動監控是分析行銷活動的關鍵步驟。 開啟您的行銷活動，然後按一下 **記錄檔** 按鈕。
+
+您也可以按一下 **報表** 按鈕。 請參閱本[章節](../reporting/campaign-reports.md)。
+
+## 複製和刪除行銷活動
+
+您可以複製或刪除行銷活動：
+
+* 從行銷活動清單中，按一下省略符號按鈕，然後選取 **複製** 或 **刪除**.
+* 從行銷活動本身，按一下 **更多** 按鈕，然後選取 **複製** 或 **刪除**.
+
+>[!NOTE]
+>
+>此 **傳遞** 索引標籤會顯示連結至行銷活動的所有傳送，但在工作流程中建立的傳送無法從那裡刪除。 若要刪除在工作流程內容中建立的傳遞，您必須從工作流程中刪除傳遞活動。
+
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}

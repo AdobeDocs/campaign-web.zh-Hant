@@ -4,10 +4,10 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 6%
+source-wordcount: '429'
+ht-degree: 7%
 
 ---
 
@@ -57,27 +57,10 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 ## 行銷活動控制面板{#campaign-dashboard}
 
-在 **瀏覽** 索引標籤上，按一下行銷活動以顯示其控制面板。 有兩個索引標籤可供使用：
+在 **瀏覽** 標籤中，按一下某個行銷活動以顯示其控制面板。 有兩個索引標籤可供使用：
 
 * 此 **工作流程** 索引標籤會列出連結至行銷活動的所有工作流程。 此索引標籤也可讓您在行銷活動內建立新的工作流程。 檢視此 [區段](create-campaigns.md#create-campaigns)
-* 此 **傳遞** 索引標籤會列出連結至行銷活動的所有傳遞。 此索引標籤也可讓您在行銷活動內建立新的傳送。 檢視此 [區段](create-campaigns.md#create-campaigns)
+* 此 **傳遞** 索引標籤會列出連結至行銷活動的所有傳遞。 您也可以在行銷活動內建立新的傳送。 檢視此 [區段](create-campaigns.md#create-campaigns)
 
 此 **設定行銷活動設定** 圖示可讓您修改建立行銷活動時定義的行銷活動屬性。 檢視此 [區段](create-campaigns.md#create-campaigns)
-
-## 監控及追蹤記錄{#campaign-monitoring}
-
-行銷活動監控是分析行銷活動的關鍵步驟。 開啟您的行銷活動，然後按一下 **記錄檔** 按鈕。
-
-您也可以按一下 **報表** 按鈕。 請參閱本[章節](../reporting/campaign-reports.md)。
-
-## 複製並刪除
-
-您可以複製或刪除行銷活動：
-
-* 從行銷活動清單中，按一下省略符號按鈕，然後選取 **複製** 或 **刪除**.
-* 從行銷活動本身，按一下 **更多** 按鈕，然後選取 **複製** 或 **刪除**.
-
->[!NOTE]
->
->此 **傳遞** 索引標籤會顯示連結至行銷活動的所有傳送，但在工作流程中建立的傳送無法從此處刪除。 若要刪除在工作流程內容中建立的傳遞，您必須從工作流程中刪除傳遞活動。
 
