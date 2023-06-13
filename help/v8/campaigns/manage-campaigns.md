@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 6%
 
 行銷活動清單中有兩個索引標籤可供使用：
 
-![行銷活動清單](assets/campaign-list.png)
-
 * 此 **瀏覽** 索引標籤會列出所有現有的行銷活動。 您可以按一下行銷活動以開啟其控制面板，或按一下 **建立行銷活動** 按鈕。 請參閱本[章節](create-campaigns.md#create-campaigns)。
 
 * 此 **範本** 索引標籤會列出所有可用的行銷活動範本。 行銷活動範本已預先設定，以便在建立新行銷活動時重複使用。 從使用者端主控台建立。 [深入了解](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)
+
+![行銷活動清單](assets/campaign-list.png)
 
 清單中的每個行銷活動會顯示其目前狀態、建立日期、上次修改時間等資訊。
 
@@ -43,9 +43,9 @@ ht-degree: 6%
 
 有兩個索引標籤可供使用：
 
-* 此 **工作流程** 索引標籤會列出連結至行銷活動的所有工作流程。 此索引標籤也可讓您在行銷活動內建立新的工作流程。 檢視此 [區段](create-campaigns.md#create-campaigns)
+* 此 **工作流程** 索引標籤會列出連結至行銷活動的所有工作流程。 此索引標籤也可讓您在行銷活動內建立新的工作流程。 請參閱本[章節](create-campaigns.md#create-campaigns)。
 
-* 此 **傳遞** 索引標籤會列出連結至行銷活動的所有傳遞。 您也可以在行銷活動內建立新的傳送。 檢視此 [區段](create-campaigns.md#create-campaigns)
+* 此 **傳遞** 索引標籤會列出連結至行銷活動的所有傳遞。 您也可以在行銷活動內建立新的傳送。 請參閱本[章節](create-campaigns.md#create-campaigns)。
 
 ## 複製和刪除行銷活動
 
