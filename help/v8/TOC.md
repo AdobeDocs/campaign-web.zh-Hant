@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 00f937e189494c6bcf023c49254bfd8ddc5bfa51
+source-git-commit: 995655c0d34489ad84b7e65eed7a9855e809d784
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '341'
 ht-degree: 74%
 
 ---
@@ -16,9 +16,8 @@ ht-degree: 74%
 # Adobe Campaign v8 Web 文件 {#v8}
 
 + [Campaign v8 Web 文件](campaign-web-home.md)
-+ 有哪些新增功能？{#whats-new}
-   + [發行說明](rn/release-notes.md)
-   + [文件更新](rn/documentation-updates.md)
++ [新增功能?](rn/whats-new.md)
++ [文件更新](rn/documentation-updates.md)
 + 開始使用 Adobe Campaign {#start}
    + [開始使用](get-started/get-started.md)
    + [探索介面](get-started/user-interface.md)
