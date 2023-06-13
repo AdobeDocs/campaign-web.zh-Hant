@@ -3,20 +3,22 @@ audience: end-user
 title: 電子郵件傳遞報告
 description: 瞭解如何存取和使用電子郵件傳遞報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 8%
+source-wordcount: '1407'
+ht-degree: 7%
 
 ---
 
 # 電子郵件傳遞報告 {#email-report}
 
+此 **電子郵件傳遞報告** 提供電子郵件管道的完整見解和特定資料。 它提供有關您個別傳送的效能、成效和結果的詳細資訊，為您提供全面的總覽。
+
 ## 傳遞摘要 {#delivery-summary-email}
 
 * **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料：
 
-  ![](assets/reporting_email_1.png){align="left"}
+  ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
   +++進一步瞭解電子郵件傳遞報告量度。
 
@@ -96,6 +98,8 @@ ht-degree: 8%
 
 * **[!UICONTROL 每種型別的錯誤劃分]** 和 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖形包含每個網域可能遇到的錯誤的可用資料。
 
+  此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱 [隔離管理](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html)
+
   ![](assets/campaign_report_email_6.png)
 
   +++進一步瞭解電子郵件傳遞報告量度。
@@ -168,6 +172,8 @@ ht-degree: 8%
 
    * **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
 
+   * **[!UICONTROL 平台平均值]** ：此平均比率顯示在每個比率（反應性、不同點按和累計點按）下，是針對過去六個月傳送的傳送進行計算。 系統只會考慮具有相同型別及相同管道的傳送。 校訂已排除。
+
 +++
 
 * **[!UICONTROL 前10個最常造訪的連結]** 圖表和表格包含每個連結的收件者行為可用資料。
@@ -188,7 +194,7 @@ ht-degree: 8%
 
 ## 使用者活動 {#user-activities-email}
 
-* **[!UICONTROL 使用者活動]** 以圖表的形式顯示開啟和點按的劃分。
+* **[!UICONTROL 使用者活動]** 以圖表的形式顯示開啟和點按的劃分。 您可以選擇要將資料設為目標的時間段：前一天、一小時或30分鐘。
 
   ![](assets/reporting_email_10.png){align="center"}
 
@@ -202,7 +208,7 @@ ht-degree: 8%
 
 ## 追蹤統計資料 {#tracking-statistics}
 
-* **[!UICONTROL 追蹤統計資料]** graph提供開啟和點按的統計資料。
+* **[!UICONTROL 追蹤統計資料]** graph提供開啟和點按的統計資料。 您可以選擇選取目標定位資料的特定時間範圍。
 
   ![](assets/reporting_email_11.png){align="center"}
 
@@ -216,11 +222,11 @@ ht-degree: 8%
 
 ## 開啟次數的劃分 {#breakdown-opens}
 
-此報表顯示相關期間內依作業系統、裝置和瀏覽器劃分的開啟次數。 每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表僅顯示在行動裝置上的開啟數統計資料。
+此報表顯示相關期間內依作業系統、裝置和瀏覽器劃分的開啟次數。 每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表僅顯示在行動裝置上的開啟數統計資料。您可以靈活地從 **[!UICONTROL 修正和行動]** 至專屬目標 **[!UICONTROL 僅限行動裝置]** 以取得更精確的目標定位。
 
 ![](assets/reporting_email_13.png){align="center"}
 
-## 熱門點按
+## 熱門點按 {#hotclicks}
 
 此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。個人化區塊取消訂閱連結、鏡像頁面連結和優惠連結有計入總累計點按數，但不顯示在報告中。
 
