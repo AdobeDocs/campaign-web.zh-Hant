@@ -3,10 +3,10 @@ audience: end-user
 title: 推播傳遞報告
 description: 瞭解如何存取及使用推播傳遞報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 7%
+source-wordcount: '300'
+ht-degree: 6%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 7%
 >id="acw_push_report_overview"
 >title="推播報告摘要"
 >abstract="探索推播傳遞的報告量度。"
+
+此 **推播傳遞報告** 提供推送管道的完整概觀，提供廣泛的深入分析和特定資料。 它提供關於每個傳送的效能、有效性和結果的全面資訊。
 
 ## 推播摘要 {#push-summary}
 

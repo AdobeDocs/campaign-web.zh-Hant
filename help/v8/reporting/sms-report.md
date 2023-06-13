@@ -3,9 +3,9 @@ audience: end-user
 title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '303'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 6%
 >id="acw_sms_report_overview"
 >title="簡訊報告摘要"
 >abstract="探索簡訊傳遞的報告量度。"
+
+此 **簡訊傳遞報告** 提供SMS頻道的全面概述，提供廣泛的見解和特定資料。 它提供每個傳送的效能、有效性和結果的全面資訊。
 
 ## 傳遞摘要 {#delivery-summary}
 
