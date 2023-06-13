@@ -3,10 +3,10 @@ audience: end-user
 title: 行銷活動報表
 description: 瞭解如何存取及使用行銷活動報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 1%
+source-wordcount: '1753'
+ht-degree: 2%
 
 ---
 
@@ -111,6 +111,8 @@ Campaign報告頁面會顯示以下標籤：
 
 * **[!UICONTROL 每種型別的錯誤劃分]** 和 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖形包含每個網域可能遇到的錯誤的可用資料。
 
+  此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱 [隔離管理](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html).
+
   ![](assets/campaign_report_email_6.png)
 
   +++進一步瞭解電子郵件行銷活動報告量度。
@@ -183,6 +185,7 @@ Campaign報告頁面會顯示以下標籤：
 
    * **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
 
+   * **[!UICONTROL 平台平均值]** ：此平均比率顯示在每個比率（反應性、不同點按和累計點按）下，是針對過去六個月傳送的傳送進行計算。 系統只會考慮具有相同型別及相同管道的傳送。 校訂已排除。
 +++
 
 * **[!UICONTROL 前10個最常造訪的連結]** 圖表和表格包含每個連結的收件者行為可用資料。
