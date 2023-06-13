@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
+source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 72%
+source-wordcount: '351'
+ht-degree: 71%
 
 ---
 
@@ -79,8 +79,9 @@ ht-degree: 72%
    + [從檔案載入電子郵件對象](audience/file-audience.md)
    + [使用 Adobe Experience Platform 對象](audience/aep-audience.md)
    + [設定控制組](audience/control-group.md)
-+ 跨管道行銷活動 {#campaigns}
++ 跨頻道行銷活動 {#campaigns}
    + [開始使用行銷活動](campaigns/gs-campaigns.md)
+   + [管理您的行銷活動](campaigns/manage-campaigns.md)
    + [建立您的第一個行銷活動](campaigns/create-campaigns.md)
 + 工作流程 {#wf}
    + [開始使用工作流程](workflows/gs-workflows.md)
@@ -97,7 +98,6 @@ ht-degree: 72%
       + [建置對象](workflows/activities/build-audience.md)
       + [組合](workflows/activities/combine.md)
       + [電子郵件、簡訊、推播](workflows/activities/email.md)
-      + [結束](workflows/activities/end.md)
       + [擴充](workflows/activities/enrichment.md)
       + [分支](workflows/activities/fork.md)
       + [等待](workflows/activities/wait.md)
