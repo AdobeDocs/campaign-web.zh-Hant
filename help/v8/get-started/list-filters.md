@@ -2,11 +2,11 @@
 audience: end-user
 title: 瀏覽、搜尋和篩選清單
 description: 瞭解如何瀏覽和篩選清單Campaign Web v8
-badge: label="Alpha" type="Positive"
-source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 13%
+source-wordcount: '415'
+ht-degree: 17%
 
 ---
 
@@ -66,6 +66,20 @@ ht-degree: 13%
 >title="顯示進階屬性"
 >abstract="依預設，只有最常見的屬性會顯示在屬性清單中。 使用此切換來建立具有進階屬性的篩選器。"
 
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="規則產生器進階欄位"
+>abstract="使用進階欄位設定欄。"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="規則產生器進階屬性"
+>abstract="使用進階屬性定義規則。"
+
+
 依預設，只有最常見的屬性會顯示在屬性清單和篩選設定畫面中。 設定為的屬性 `advanced` 資料結構描述中的屬性會在設定畫面中隱藏。
 
 啟動 **顯示進階屬性** 切換即可檢視目前清單的所有可用屬性：屬性清單會立即更新。
+
+
+![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
