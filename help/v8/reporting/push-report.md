@@ -3,7 +3,7 @@ audience: end-user
 title: 推播傳遞報告
 description: 瞭解如何存取及使用推播傳遞報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 7%
@@ -21,6 +21,8 @@ ht-degree: 7%
 
 * **[!UICONTROL 傳遞概覽]** 提供關鍵績效指標(KPI)，用於提供有關訪客如何與您的推送訊息互動的詳細資訊。
 
+  ![](assets/reporting_push_3.png)
+
   +++進一步瞭解推播傳送報告量度。
 
    * **[!UICONTROL 已傳送總數]**：傳遞分析期間處理的訊息總數。
@@ -33,9 +35,9 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/reporting_push_3.png)
-
 * **目標母體** 圖表和表格會顯示與您的對象相關的資料：
+
+  ![](assets/reporting_push_4.png)
 
   +++進一步瞭解推播傳送報告量度。
 
@@ -45,9 +47,11 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/reporting_push_4.png)
+
 
 * **整體統計資料** 會針對已傳送的推播通知顯示資料，包括：
+
+  ![](assets/reporting_push_5.png)
 
   +++進一步瞭解推播傳送報告量度。
 
@@ -58,8 +62,6 @@ ht-degree: 7%
    * **[!UICONTROL 新隔離]**：已排除並新增至隔離的設定檔數目。
 
 +++
-
-  ![](assets/reporting_push_5.png)
 
 * **[!UICONTROL 排除專案]** 圖表和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。
 

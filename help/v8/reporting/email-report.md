@@ -3,7 +3,7 @@ audience: end-user
 title: 電子郵件傳遞報告
 description: 瞭解如何存取和使用電子郵件傳遞報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 10%
@@ -16,6 +16,8 @@ ht-degree: 10%
 
 * **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料：
 
+  ![](assets/reporting_email_1.png){align="center"}
+
   +++進一步瞭解電子郵件傳遞報告量度。
 
    * **[!UICONTROL 初始對象]**：目標收件者總數。
@@ -26,6 +28,8 @@ ht-degree: 10%
 +++
 
 * **[!UICONTROL 傳遞統計資料]** 表格詳細說明您的傳送是否成功。
+
+  ![](assets/reporting_email_2.png){align="center"}
 
   +++進一步瞭解電子郵件行銷活動報告量度。
 
@@ -41,6 +45,8 @@ ht-degree: 10%
 
 * **[!UICONTROL 排除的原因]** 圖表和表格會依分析期間拒絕的訊息規則來顯示劃分。
 
+  ![](assets/reporting_email_3.png){align="center"}
+
 ## 傳遞總處理能力 {#delivery-throughtput}
 
 此報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。
@@ -48,6 +54,8 @@ ht-degree: 10%
 ## 廣播統計資料 {#broadcast-statistics}
 
 * **[!UICONTROL 廣播統計資料]** 表格包含每個網域可能遇到的錯誤的可用資料。
+
+  ![](assets/reporting_email_4.png){align="center"}
 
   +++進一步瞭解電子郵件傳遞報告量度。
 
@@ -84,6 +92,8 @@ ht-degree: 10%
 
 * **[!UICONTROL 傳遞統計資料]** 提供關鍵績效指標(KPI)，用於提供關於已傳送電子郵件可用資料的詳細資訊。
 
+  ![](assets/reporting_email_5.png){align="center"}
+
   +++進一步瞭解電子郵件傳遞報告量度。
 
    * **[!UICONTROL 成功]**：成功處理的訊息數與要傳送的訊息數相關。
@@ -100,6 +110,8 @@ ht-degree: 10%
 +++
 
 * **[!UICONTROL 開啟和點進率]** 表格會顯示與收件者相關的資料。
+
+  ![](assets/reporting_email_6.png){align="center"}
 
   +++進一步瞭解電子郵件傳遞報告量度。
 
@@ -118,6 +130,8 @@ ht-degree: 10%
 
 * **[!UICONTROL URL和點按資料流]** 提供關鍵績效指標(KPI)，可針對傳送期間點選次數最多的URL提供詳細資訊。
 
+  ![](assets/reporting_email_7.png){align="center"}
+
   +++進一步瞭解電子郵件傳遞報告量度。
 
    * **[!UICONTROL 反應性]**：已點按傳送的目標收件者人數與已開啟傳送的目標收件者估計人數的比率。
@@ -130,6 +144,8 @@ ht-degree: 10%
 
 * **[!UICONTROL 前10個最常造訪的連結]** 圖表和表格包含每個連結的收件者行為可用資料。
 
+  ![](assets/reporting_email_8.png){align="center"}
+
   +++進一步瞭解電子郵件傳遞報告量度。
 
    * **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
@@ -140,9 +156,13 @@ ht-degree: 10%
 
 * **[!UICONTROL 一段時間內點選的劃分]** 圖表包含每個連結的收件者行為可用資料。
 
+  ![](assets/reporting_email_9.png){align="center"}
+
 ## 使用者活動 {#user-activities-email}
 
 * **[!UICONTROL 使用者活動]** 以圖表的形式顯示開啟和點按的劃分。
+
+  ![](assets/reporting_email_10.png){align="center"}
 
   +++進一步瞭解電子郵件傳遞報告量度。
 
@@ -156,6 +176,8 @@ ht-degree: 10%
 
 * **[!UICONTROL 追蹤統計資料]** graph提供開啟和點按的統計資料。
 
+  ![](assets/reporting_email_11.png){align="center"}
+
   +++進一步瞭解電子郵件傳遞報告量度。
 
    * **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
@@ -167,6 +189,8 @@ ht-degree: 10%
 ## 開啟次數的劃分 {#breakdown-opens}
 
 此報表顯示相關期間內依作業系統、裝置和瀏覽器劃分的開啟次數。 每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表僅顯示在行動裝置上的開啟數統計資料。
+
+![](assets/reporting_email_13.png){align="center"}
 
 ## 熱門點按
 

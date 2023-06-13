@@ -3,14 +3,26 @@ audience: end-user
 title: 行銷活動報表
 description: 瞭解如何存取及使用行銷活動報告
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
-source-wordcount: '1520'
-ht-degree: 1%
+source-wordcount: '1562'
+ht-degree: 2%
 
 ---
 
 # 行銷活動報表 {#campaign-reports}
+
+行銷活動報告分為不同的Widget，詳細說明行銷活動的成功與錯誤。
+
+Campaign報告頁面會顯示以下標籤：
+
+* [電子郵件通道](#email-channel)
+* [簡訊管道](#sms-channel)
+* [推播管道](#push-channel)
+
+若要存取您的Campaign報表，請從您的行銷活動控制面板按一下「報表」 。
+
+![](assets/campaign_report_email_13.png)
 
 ## 電子郵件管道 {#email-channel}
 

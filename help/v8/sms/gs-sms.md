@@ -4,10 +4,10 @@ title: 開始使用簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
 badge: label="Alpha" type="Positive"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 80%
+ht-degree: 45%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 80%
 
 簡訊管道提供了三種建立簡訊傳遞的方法：
 
-* 工作流程：新增簡訊活動，定義基本設定，並在更大的自動化序列中撰寫您的簡訊內容。
+* **[!UICONTROL 工作流程]**：新增SMS活動、定義基本設定，並在較大的自動化序列中撰寫SMS內容。
 
-* 行銷活動：將簡訊傳遞納入專屬行銷活動，設定目標對象和傳遞排程等參數。
+* **[!UICONTROL 行銷活動]**：將SMS傳送併入專用行銷活動，設定目標對象和傳送排程等引數。
 
-* 獨立傳遞：建立個別的簡訊傳遞，不需要工作流程或行銷活動即可和您的客戶進行快速而直接的通訊。
+* **獨立傳送**：建立個別SMS傳送，以便與客戶快速且直接的通訊，而不需要工作流程或行銷活動。
 
 ![](../assets/do-not-localize/book.png) 瞭解如何透過此頁面設定簡訊頻道 [頁面](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=en).
 

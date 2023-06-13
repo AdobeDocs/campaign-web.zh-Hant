@@ -3,7 +3,7 @@ audience: end-user
 title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
 badge: label="Alpha" type="Positive"
-source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -21,6 +21,8 @@ ht-degree: 6%
 
 * **[!UICONTROL 傳遞概覽]** 提供關鍵績效指標(KPI)，用於提供有關訪客如何與您的SMS訊息互動的詳細資訊。
 
+  ![](assets/reporting_sms_3.png)
+
   +++進一步瞭解SMS傳送報告量度。
 
    * **[!UICONTROL 已傳送總數]**：傳遞分析期間處理的訊息總數。
@@ -32,9 +34,9 @@ ht-degree: 6%
    * **[!UICONTROL 錯誤]**：傳送期間發生且無法傳送至設定檔的錯誤總數。
 +++
 
-  ![](assets/reporting_sms_3.png)
-
 * **目標母體** 圖表和表格會顯示與您的對象相關的資料。
+
+  ![](assets/reporting_sms_4.png)
 
   +++進一步瞭解SMS傳送報告量度。
 
@@ -43,9 +45,10 @@ ht-degree: 6%
    * **[!UICONTROL 排除專案]**：已從分析中排除的設定檔數。
 +++
 
-  ![](assets/reporting_sms_4.png)
 
 * **整體統計資料** 針對已傳送的SMS訊息顯示資料，包括：
+
+  ![](assets/reporting_sms_5.png)
 
   +++進一步瞭解SMS傳送報告量度。
 
@@ -55,8 +58,6 @@ ht-degree: 6%
 
    * **[!UICONTROL 新隔離]**：已排除並新增至隔離的設定檔數目。
 +++
-
-  ![](assets/reporting_sms_5.png)
 
 * **[!UICONTROL 排除專案]** 圖表和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。
 
