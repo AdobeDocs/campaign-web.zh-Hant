@@ -3,7 +3,7 @@ audience: end-user
 title: 瀏覽、搜尋和篩選清單
 description: 瞭解如何瀏覽和篩選清單Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
+source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 13%
@@ -27,11 +27,11 @@ ht-degree: 13%
 
 例如，對於這些設定：
 
-![](assets/columns.png){width="70%" align="left"}
+![](assets/columns.png){width="70%" align="left" zoomable="yes"}
 
 清單會顯示下列各欄：
 
-![](assets/column-sample.png){width="70%" align="left"}
+![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
 使用 **顯示進階屬性** 切換即可檢視目前清單的所有屬性。 [了解更多](#adv-attributes)
 
@@ -45,7 +45,7 @@ ht-degree: 13%
 
 若要更快速地尋找專案，您可以使用搜尋列，或根據內容條件篩選清單。
 
-![](assets/filter.png){width="70%" align="left"}
+![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
 例如，您可以根據傳送的狀態、頻道、聯絡日期或資料夾來篩選傳送。 您也可以隱藏測試。
 
@@ -55,7 +55,7 @@ ht-degree: 13%
 
 拖放屬性以在 **進階篩選** 畫面。
 
-![](assets/custom-filter.png){width="70%" align="left"}
+![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 使用 **顯示進階屬性** 切換即可檢視目前清單的所有屬性。 [了解更多](#adv-attributes)
 
