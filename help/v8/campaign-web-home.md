@@ -4,9 +4,9 @@ description: Campaign Web v8 說明中心
 title: Adobe Campaign Web v8 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 8c3d379152188bedae97d50cdf774b6937b54884
+source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 34%
 
 ---
@@ -29,7 +29,7 @@ Campaign現在提供全新的網頁使用者介面(UI)，其易用性、協助�
 
 我們全方位的圖形畫布可讓您輕鬆設計流程，例如細分、行銷活動執行等。 此進階工具觸手可及，讓您精簡工作流程並提升行銷活動。
 
-**設計電子郵件**
+**認識電子郵件設計工具**
 
 從範本開始，或使用Adobe Campaign的全新電子郵件設計工具來建立電子郵件，不必撰寫一行程式碼。 瞭解如何使用電子郵件設計工具來建立您的內容、預覽和測試，以及在端對端使用案例中傳送電子郵件給現有對象。
 
@@ -51,6 +51,15 @@ Adobe Campaign功能可協助您管理集中式客戶資料、設計客戶通訊
 <img alt="新 UI" src="assets/do-not-localize/menu-ui.jpeg">
 </a>
 <div><a href="get-started/user-interface.md"><strong>探索新的使用者介面</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="驗證" src="assets/do-not-localize/menu-workflows.jpeg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>重新設計的工作流程畫布介面</strong></a>
 </div>
 <p>
 </td>
@@ -77,15 +86,6 @@ Adobe Campaign功能可協助您管理集中式客戶資料、設計客戶通訊
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>傳送跨頻道傳遞</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="preview-test/proofs.md">
-<img alt="驗證" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="preview-test/proofs.md"><strong>重新設計的工作流程畫布介面</strong></a>
 </div>
 <p>
 </td>
