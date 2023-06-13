@@ -3,9 +3,9 @@ audience: end-user
 title: 瀏覽、搜尋和篩選清單
 description: 瞭解如何瀏覽和篩選清單Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
+source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '396'
 ht-degree: 13%
 
 ---
@@ -68,4 +68,4 @@ ht-degree: 13%
 
 依預設，只有最常見的屬性會顯示在屬性清單和篩選設定畫面中。 設定為的屬性 `advanced` 資料結構描述中的屬性會在設定畫面中隱藏。
 
-使用 **顯示進階屬性** 切換即可檢視目前清單的所有可用屬性。
+啟動 **顯示進階屬性** 切換即可檢視目前清單的所有可用屬性：屬性清單會立即更新。
