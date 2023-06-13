@@ -4,10 +4,10 @@ description: Campaign Web v8 說明中心
 title: Adobe Campaign Web v8 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 795e9ae41ac7f021e30262985240bb43dbb52e54
+source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign現在提供全新的網頁使用者介面(UI)，其易用性、協助�
 
 根據您收集到的收件者相關資訊來自訂內容。 使用動態內容可讓您的內容更吸引人，並提高其被讀取的可能性。 利用設定檔資料，例如收件者的名字、興趣、居住地、購買內容等，將您的訊息個人化給每個特定收件者。 建立條件式內容，以將您的傳送調整為適合每個收件者，並僅根據您擁有的相關資訊顯示與指定客戶相關的內容。
 
-**傳送跨頻道傳遞**
+**建立跨頻道行銷活動**
 
 使用 Adob&#x200B;&#x200B;e Campaign 建立跨管道行銷活動。透過其行銷活動協調功能，您可以管理及集中客戶資料、設計客戶通訊與行銷活動，以及跨不同管道建立個人化體驗。 在此版本中，可使用電子郵件、推播和簡訊頻道。 使用詳細報告衡量傳送的成效，包括開啟、點按、轉送等計數。
 
@@ -55,37 +55,37 @@ Campaign現在提供全新的網頁使用者介面(UI)，其易用性、協助�
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="workflows/gs-workflows.md">
 <img alt="驗證" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>重新設計的工作流程畫布介面</strong></a>
+<a href="workflows/gs-workflows.md"><strong>重新設計的工作流程畫布介面</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="content/create-email-content.md">
+<a href="content/get-started-email-designer.md">
 <img alt="不常使用" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>認識電子郵件設計工具</strong></a>
+<a href="content/get-started-email-designer.md"><strong>認識電子郵件設計工具</strong></a>
 </div>
 <p></td>
 <td>
-<a href="audience/about-audiences.md">
+<a href="personalization/gs-personalization.md">
 <img alt="對象" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>讓您的內容成為動態的</strong></a>
+<a href="personalization/gs-personalization.md"><strong>讓您的內容成為動態的</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="campaigns/gs-campaigns.md">
 <img alt="驗證" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>傳送跨頻道傳遞</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>建立跨頻道行銷活動</strong></a>
 </div>
 <p>
 </td>
