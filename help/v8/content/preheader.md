@@ -3,11 +3,11 @@ audience: end-user
 title: 在電子郵件設計工具新增預覽文字
 description: 了解如何設計您的電子郵件內容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Alpha" type="Positive"
-source-git-commit: 0272475635bb1376b62e3904551e02a5f86d4046
+badge: label="Alpha"
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 62%
+source-wordcount: '209'
+ht-degree: 46%
 
 ---
 
@@ -28,20 +28,22 @@ ht-degree: 62%
 
 若要定義電子郵件預覽文字，請遵循下列步驟。
 
-1. 在電子郵件設計工具中，至少新增 **[!UICONTROL 結構]** 元件以開始設計電子郵件。
+1. 從 [電子郵件設計工具](create-email-content.md)，至少新增 **[!UICONTROL 結構]** 元件以開始設計電子郵件。
 
 1. 按一下左窗格中的&#x200B;**[!UICONTROL 導覽樹狀目錄]**&#x200B;圖示，然後選取「**[!UICONTROL 內文]**」。
 
    ![](assets/preheader_body.png)
 
-1. 從「**[!UICONTROL 設定]**」索引標籤，新增您的預覽文字。您可以按一下「**[!UICONTROL 新增個人化]**」圖示來進一步個人化預覽文字。
+1. 從 **[!UICONTROL 設定]** 索引標籤中，為您的預覽文字輸入一些文字。
+
+1. 若要進一步個人化，請按一下 **[!UICONTROL 新增個人化]** 圖示加以選取 **[!UICONTROL Preheader]** 欄位。
 
    ![](assets/preheader_body_settings.png)
 
-1. 從 **[!UICONTROL 編輯個人化]** 視窗，您可以新增 **[!UICONTROL 內容區塊]**， **[!UICONTROL 動態內容]** 或 **[!UICONTROL 個人化欄位]**.
+1. 從 **[!UICONTROL 編輯個人化]** 視窗，您可以新增 [個人化欄位](../personalization/personalize.md)， [內容區塊](../personalization/content-blocks.md) 和 [條件式內容](../personalization/conditions.md) 使用左側的專用專案。
 
-1. 按一下「**[!UICONTROL 驗證]**」以檢查個人化語法。
+   ![](assets/preheader_body_personalization.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下「**[!UICONTROL 確認]**」。
 
 電子郵件的預覽文字現在已設定好了。

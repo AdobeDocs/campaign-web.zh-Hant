@@ -2,11 +2,11 @@
 audience: end-user
 product: campaign
 title: 使用電子郵件範本
-badge: label="Alpha" type="Positive"
-source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
+badge: label="Alpha"
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 11%
+source-wordcount: '120'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ Campaign隨附一組內建範本，供您選擇。
 
 若要使用其中一個範本開始建立您的內容，請遵循下列步驟。
 
-1. 開啟 [電子郵件設計工具](create-email-content.md).
+1. 開啟 [電子郵件設計工具](get-started-email-designer.md).
 
 1. 於 **[!UICONTROL 建立您的電子郵件]** 畫面，清單 **[!UICONTROL 範例範本]**  顯示。
 
