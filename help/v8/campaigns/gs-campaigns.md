@@ -4,9 +4,9 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '465'
 ht-degree: 7%
 
 ---
@@ -41,11 +41,15 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 ## 存取及管理您的行銷活動{#access-campaigns}
 
-若要建立新行銷活動或管理現有行銷活動，請按一下 **[!UICONTROL 行銷活動]** 功能表。 有兩個索引標籤可供使用：
+若要建立新行銷活動或管理現有行銷活動，請按一下 **[!UICONTROL 行銷活動]** 功能表。
 
-* 此 **瀏覽** 索引標籤會列出所有現有的行銷活動。 您可以按一下行銷活動以開啟其控制面板，或按一下 **建立行銷活動** 按鈕。 檢視此 [區段](create-campaigns.md#create-campaigns)
+![行銷活動清單](assets/campaign-list.png)
 
-* 此 **範本** 索引標籤會列出所有可用的行銷活動範本。 行銷活動範本已預先設定，以便重複用於建立新的行銷活動。 從使用者端主控台建立。 [顯示全文](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)。
+有兩個索引標籤可供使用：
+
+* 此 **瀏覽** 索引標籤會列出所有現有的行銷活動。 您可以按一下行銷活動以開啟其控制面板，或按一下 **建立行銷活動** 按鈕。 請參閱本[章節](create-campaigns.md#create-campaigns)。
+
+* 此 **範本** 索引標籤會列出所有可用的行銷活動範本。 行銷活動範本已預先設定，以便重複用於建立新的行銷活動。 從使用者端主控台建立。 [深入了解](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)
 
 清單中的每個行銷活動會顯示其目前狀態、建立日期、上次修改時間等資訊。
 
@@ -53,14 +57,18 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 例如，您可以篩選行銷活動排程。 開啟篩選器面板並使用 **開始 — 結束日期** 區段：
 
-![行銷活動清單](assets/campaign-filter-on-dates.png)
+![行銷活動篩選器](assets/campaign-filter-on-dates.png)
 
 ## 行銷活動控制面板{#campaign-dashboard}
 
-在 **瀏覽** 標籤中，按一下某個行銷活動以顯示其控制面板。 有兩個索引標籤可供使用：
+在 **瀏覽** 標籤中，按一下某個行銷活動以顯示其控制面板。
+
+![Campaign控制面板](assets/campaign-dashboard.png)
+
+行銷活動的狀態和排程會顯示在畫面頂端。 您可以使用 **設定行銷活動設定** 圖示可修改建立行銷活動時定義的行銷活動屬性。 有三個按鈕可供您檢視記錄、報告、複製或刪除行銷活動。 檢視此 [區段](create-campaigns.md#create-campaigns)
+
+有兩個索引標籤可供使用：
 
 * 此 **工作流程** 索引標籤會列出連結至行銷活動的所有工作流程。 此索引標籤也可讓您在行銷活動內建立新的工作流程。 檢視此 [區段](create-campaigns.md#create-campaigns)
 * 此 **傳遞** 索引標籤會列出連結至行銷活動的所有傳遞。 您也可以在行銷活動內建立新的傳送。 檢視此 [區段](create-campaigns.md#create-campaigns)
-
-此 **設定行銷活動設定** 圖示可讓您修改建立行銷活動時定義的行銷活動屬性。 檢視此 [區段](create-campaigns.md#create-campaigns)
 
