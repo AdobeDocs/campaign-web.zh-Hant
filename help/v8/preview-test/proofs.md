@@ -4,7 +4,7 @@ title: 傳送測試傳遞
 description: 瞭解如何定義和傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 1%
@@ -27,11 +27,11 @@ ht-degree: 1%
 
   它們可以在以下位置建立： [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-* **[從主要目標替代](#substitution-profiles)**  — 傳送 **測試電子郵件和簡訊** 至特定電子郵件地址或電話號碼，同時模擬現有設定檔。
+* [從主要目標替代](#substitution-profiles)  — 傳送 **測試電子郵件和簡訊** 至特定電子郵件地址或電話號碼，同時模擬現有設定檔。
 
   這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
 
-* **[訂閱者](#subscribers)**  — 傳送 **測試推播通知** 新增至資料庫的虛擬訂閱者。
+* [訂閱者](#subscribers)  — 傳送 **測試推播通知** 新增至資料庫的虛擬訂閱者。
 
   就像測試設定檔一樣，它們也可以在 [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
