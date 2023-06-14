@@ -4,9 +4,9 @@ title: 預覽傳遞內容
 description: 瞭解如何使用Campaign Web UI預覽您的傳遞內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 10%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 10%
 
 1. 若要選取將用來預覽個人化內容的設定檔，請使用：
 
-   * **[!UICONTROL 新增測試設定檔]** 預覽電子郵件和簡訊訊息
+   * **[!UICONTROL 新增測試設定檔]** 用於預覽電子郵件和簡訊傳遞
 
-   * **[!UICONTROL 新增訂閱者]** 用於預覽推播傳遞
+   * **[!UICONTROL 新增訂閱者]** 用於預覽推播通知
 
 1. 您可以合併測試設定檔和設定檔，以預覽您的電子郵件或簡訊訊息。
 
