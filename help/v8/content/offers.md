@@ -4,10 +4,10 @@ title: 傳送優惠
 description: 傳送優惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: 4fbab5ddf2f1c69fbe27d214aa3e349075054c10
+source-git-commit: 3de1ff02f095abf49a5ac23ad291408a81f80b51
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 95%
+source-wordcount: '552'
+ht-degree: 94%
 
 ---
 
@@ -45,9 +45,7 @@ Adobe Campaign v8 Web 允許您使用&#x200B;**[!UICONTROL 互動]**&#x200B;模�
 
    如果未指定類別，則優惠引擎會將環境包含的所有優惠考慮在內，除非有選取&#x200B;**[!UICONTROL 優惠主題]**。
 
-   >[!NOTE]
-   >
-   >主題是在類別上游定義的關鍵詞。主題做為篩選器，在一組類別中選擇主題即可讓您調整要顯示的優惠數量。
+1. （選用）輸入主題以篩選類別。 主題是在類別上游定義的關鍵詞。主題做為篩選器，在一組類別中選擇主題即可讓您調整要顯示的優惠數量。
 
 1. 使用&#x200B;**[!UICONTROL 提議]**&#x200B;欄位可指定要插入電子郵件的優惠數量。
 
