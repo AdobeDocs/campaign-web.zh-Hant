@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
+source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 71%
+source-wordcount: '352'
+ht-degree: 68%
 
 ---
 
@@ -48,11 +48,6 @@ ht-degree: 71%
             + [定義連結樣式](content/styling-links.md)
             + [新增內嵌樣式屬性](content/inline-styling.md)
          + [傳送優惠](content/offers.md)
-      + 預覽和測試您的電子郵件 {#preview-test}
-         + [關於預覽和測試](preview-test/preview-test.md)
-         + [預覽電子郵件內容](preview-test/preview-content.md)
-         + [演算您的電子郵件](preview-test/email-rendering.md)
-         + [傳送測試電子郵件](preview-test/proofs.md)
       + 傳送並監控電子郵件 {#monitor}
          + [準備並傳送電子郵件](monitor/prepare-send.md)
          + [監控傳遞記錄](monitor/delivery-logs.md)
@@ -72,6 +67,11 @@ ht-degree: 71%
       + [新增個人化](personalization/personalize.md)
       + [新增條件式內容](personalization/conditions.md)
       + [新增內建內容區塊](personalization/content-blocks.md)
+   + 預覽和測試您的傳遞 {#preview-test}
+      + [關於預覽和測試](preview-test/preview-test.md)
+      + [預覽訊息內容](preview-test/preview-content.md)
+      + [傳送測試傳遞](preview-test/proofs.md)
+      + [演算您的電子郵件](preview-test/email-rendering.md)
 + 對象和收件者 {#audiences}
    + [開始使用對象](audience/about-audiences.md)
    + [選取現有對象](audience/add-audience.md)
