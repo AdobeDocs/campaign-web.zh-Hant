@@ -4,10 +4,10 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 86%
+source-wordcount: '1329'
+ht-degree: 85%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 86%
    >
    >清單中的對象源自於您的 Campaign v8 執行個體或 Adobe Experience Platform (如果已在您的執行個體上設定目的地/來源)。
    >
-   >目的地/來源整合可讓您傳送 Experience Platform 區段至 Adobe Campaign，並將 Campaign 傳遞和追蹤記錄傳送到 Adobe Experience Platform。[了解如何使用 Campaign 和 Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}。
+   >目的地/來源整合可讓您傳送 Experience Platform 區段至 Adobe Campaign，並將 Campaign 傳遞和追蹤記錄傳送到 Adobe Experience Platform。瞭解如何在中使用Campaign和Adobe Experience Platform [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. 選取對象後，您可以套用其他規則進一步調整目標。
 

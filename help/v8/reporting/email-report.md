@@ -3,9 +3,9 @@ audience: end-user
 title: 電子郵件傳遞報告
 description: 瞭解如何存取和使用電子郵件傳遞報告
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1407'
 ht-degree: 7%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 7%
 
 * **[!UICONTROL 每種型別的錯誤劃分]** 和 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖形包含每個網域可能遇到的錯誤的可用資料。
 
-  此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱 [隔離管理](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html)
+  此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
   ![](assets/campaign_report_email_6.png)
 

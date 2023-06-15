@@ -4,10 +4,10 @@ title: 電子郵件傳遞設定
 description: 進一步了解 Campaign Web UI 中的電子郵件傳遞設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 95%
+source-wordcount: '1475'
+ht-degree: 92%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 95%
 
 在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。
 
-如需進一步了解目標對應，請參閱 [Campaign v8 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
+進一步瞭解中的目標對應 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 ## 傳遞 {#delivery}
 
@@ -92,7 +92,7 @@ ht-degree: 95%
 
 * **測試 SMTP 傳遞**：此選項用於測試透過 SMTP 傳送。處理傳遞直到連線到 SMTP 伺服器，但不傳送：對於傳遞的每個收件者，Campaign 會連線到 SMTP 提供者伺服器，執行 SMTP RCPT TO 命令，並在 SMTP DATA 命令之前關閉連線。
 
-* **電子郵件 BCC**：此選項用於透過 BCC 將電子郵件儲存在外部系統上，只需將 BCC 電子郵件地址新增到您的訊息目標即可。如需進一步了解電子郵件 BCC，請參閱 [Campaign v8 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}。
+* **電子郵件 BCC**：此選項用於透過 BCC 將電子郵件儲存在外部系統上，只需將 BCC 電子郵件地址新增到您的訊息目標即可。進一步瞭解中的電子郵件密件副本 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 
@@ -105,7 +105,7 @@ ht-degree: 95%
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-如需進一步了解重試管理，請參閱 [Campaign v8 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}。
+進一步瞭解重試管理，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## 核准 {#approval}
 
@@ -147,7 +147,7 @@ ht-degree: 95%
 ![](assets/delivery-settings-2.png)
 
 
-如需進一步了解傳遞有效期限，請參閱 [Campaign v8 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}。
+進一步瞭解中的傳遞有效期 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
 ### 鏡像頁面管理 {#mirror}
 
