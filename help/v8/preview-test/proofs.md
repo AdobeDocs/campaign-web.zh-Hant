@@ -4,9 +4,9 @@ title: 傳送測試傳遞
 description: 瞭解如何定義和傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
+source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,9 @@ ht-degree: 1%
 
    ![](assets/simulate-test-button-email.png)
 
-1. 使用 **[!UICONTROL 模式]** 用於選擇接收測試電子郵件或簡訊傳送的收件者型別的下拉式清單：
+1. 從 **[!UICONTROL 模式]** 下拉式清單，選擇 **測試設定檔** 將目標鎖定於將接收測試電子郵件或簡訊傳遞的虛構收件者。
 
-   * **測試設定檔** 將目標定位為虛構的收件者
-
-   如果您已選取設定檔至 [預覽訊息](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔作為測試收件者。 您可以使用「 」清除選擇和/或新增其他收件者 **[!UICONTROL 新增測試設定檔]** 按鈕。
-
-   * **從主要目標替代** 顯示現有設定檔中的資料時，將測試傳送至特定電子郵件地址或電話號碼。 [了解更多](#substitution-profiles)
+1. 如果您已選取設定檔至 [預覽訊息](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔作為測試收件者。 您可以使用「 」清除選擇和/或新增其他收件者 **[!UICONTROL 新增測試設定檔]** 按鈕。
 
    ![](assets/simulate-profile-mode.png)
 
@@ -69,9 +65,21 @@ ht-degree: 1%
 
 ### 替代設定檔 {#substitution-profiles}
 
-若要在顯示來自Campaign資料庫現有設定檔的資料時，將測試電子郵件或簡訊傳送至特定的電子郵件地址或電話號碼，請使用替代設定檔。
+若要在顯示資料時從的現有設定檔傳送測試電子郵件或簡訊至特定的電子郵件地址或電話號碼，請 [!DNL Campaign] 資料庫，使用替代設定檔。
 
-要執行此操作，第一個步驟與選取時相同 [測試設定檔](#test-profiles)，但請選擇 **[!UICONTROL 從目標替代]** 模式，並遵循下列步驟。
+1. 在傳送測試之前，請務必定義要傳送的對象。 [了解更多](../audience/about-audiences.md)
+
+1. 瀏覽至電子郵件或簡訊傳送的編輯內容畫面，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。
+
+1. 按一下 **[!UICONTROL 測試]** 按鈕。
+
+   >[!NOTE]
+   >
+   >如果您已選取設定檔至 [預覽您的傳遞](preview-content.md)，即會列在左窗格中。
+
+   ![](assets/simulate-test-button-email.png)
+
+1. 從 **[!UICONTROL 模式]** 下拉式清單，選擇 **從主要目標替代** 顯示現有設定檔中的資料時，將測試傳送至特定電子郵件地址或電話號碼。
 
 1. 按一下 **[!UICONTROL 新增地址]** 按鈕並指定要接收測試傳送的電子郵件地址或電話號碼。
 
