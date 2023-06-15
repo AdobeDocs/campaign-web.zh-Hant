@@ -4,9 +4,9 @@ title: 關於電子郵件預覽和測試
 description: 了解如何預覽和測試電子郵件
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '179'
 ht-degree: 18%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 18%
 >id="acw_deliveries_simulate"
 >title="預覽和測試您的訊息"
 >abstract="定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。 "
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="預覽傳遞內容"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="傳送測試訊息"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="預覽傳遞內容"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="傳送測試訊息"
 
 定義傳遞內容後，您可以使用測試設定檔在傳送訊息前進行預覽和測試。
 
