@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha"
-source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
+source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 7%
+source-wordcount: '416'
+ht-degree: 8%
 
 ---
 
@@ -56,4 +56,4 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->此 **傳遞** 索引標籤會顯示連結至行銷活動的所有傳遞。 不過，您無法從工作流程中刪除建立的傳送。 若要刪除在工作流程內容中建立的傳遞，您必須從工作流程中刪除傳遞活動。
+>此 **傳遞** 索引標籤會顯示連結至行銷活動的所有傳遞。 不過，您無法從工作流程中刪除建立的傳送。 若要刪除在工作流程內容中建立的傳遞，您必須從工作流程中刪除傳遞活動。 [了解更多](../msg/gs-messages.md#delivery-delete)。
