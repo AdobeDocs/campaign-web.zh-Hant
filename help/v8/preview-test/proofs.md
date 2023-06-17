@@ -4,9 +4,9 @@ title: 傳送測試傳遞
 description: 瞭解如何定義和傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
+source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 1%
 
    ![](assets/simulate-test-button-email.png)
 
-1. 從 **[!UICONTROL 模式]** 下拉式清單，選擇 **測試設定檔** 將目標鎖定於將接收測試電子郵件或簡訊傳遞的虛構收件者。
-
-1. 如果您已選取設定檔至 [預覽訊息](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔作為測試收件者。 您可以使用「 」清除選擇和/或新增其他收件者 **[!UICONTROL 新增測試設定檔]** 按鈕。
+1. 從 **[!UICONTROL 模式]** 下拉式清單，選擇 **[!UICONTROL 測試設定檔]** 將目標鎖定於將接收測試電子郵件或簡訊傳遞的虛構收件者。
 
    ![](assets/simulate-profile-mode.png)
+
+1. 如果您已選取設定檔至 [預覽訊息](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔作為測試收件者。 您可以使用「 」清除選擇和/或新增其他收件者 **[!UICONTROL 新增測試設定檔]** 按鈕。
 
    >[!NOTE]
    >
@@ -73,17 +73,21 @@ ht-degree: 1%
 
 1. 按一下 **[!UICONTROL 測試]** 按鈕。
 
-   >[!NOTE]
-   >
-   >如果您已選取設定檔至 [預覽您的傳遞](preview-content.md)，即會列在左窗格中。
-
    ![](assets/simulate-test-button-email.png)
 
-1. 從 **[!UICONTROL 模式]** 下拉式清單，選擇 **從主要目標替代** 顯示現有設定檔中的資料時，將測試傳送至特定電子郵件地址或電話號碼。
+1. 從 **[!UICONTROL 模式]** 下拉式清單，選擇 **[!UICONTROL 從主要目標替代]** 顯示現有設定檔中的資料時，將測試傳送至特定電子郵件地址或電話號碼。
+
+   >[!CAUTION]
+   >
+   >如果您尚未選取 [對象](../audience/about-audiences.md) 對於您的傳遞， **[!UICONTROL 從主要目標替代]** 選項將會呈現灰色，且您將無法選取替代設定檔。
 
 1. 按一下 **[!UICONTROL 新增地址]** 按鈕並指定要接收測試傳送的電子郵件地址或電話號碼。
 
-   您可以輸入任何電子郵件地址或電話號碼。 這可讓您傳送測試傳遞給任何收件者，即使他們不是的使用者 [!DNL Adobe Campaign].
+   ![](assets/simulate-add-substitution-address.png)
+
+   >[!NOTE]
+   >
+   >您可以輸入任何電子郵件地址或電話號碼。 這可讓您傳送測試傳遞給任何收件者，即使他們不是的使用者 [!DNL Adobe Campaign].
 
 1. 從資料庫中選取要作為替代的設定檔。 您也可以讓 [!DNL Adobe Campaign] 選取隨機設定檔。 來自所選設定檔的設定檔資料將顯示在測試傳送中。
 
@@ -105,7 +109,9 @@ ht-degree: 1%
 
    ![](assets/simulate-test-button-push.png)
 
-1. 如果您已選取訂閱者至 [預覽傳遞](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔作為測試訂閱者。 您可以使用專用按鈕清除選擇和/或新增其他訂閱者。
+1. 如果您已選取訂閱者至 [預覽傳遞](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔作為測試訂閱者。
+
+   您可以使用專用按鈕清除選擇和/或新增其他訂閱者。
 
    ![](assets/simulate-test-subscribers.png)
 
