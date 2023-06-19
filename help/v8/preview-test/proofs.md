@@ -4,14 +4,19 @@ title: 傳送測試傳遞
 description: 瞭解如何定義和傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 4%
 
 ---
 
 # 傳送測試傳遞 {#send-test-deliveries}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="預覽模式"
+>abstract="將測試母體納入主要目標，以預覽和測試訊息。"
 
 **[!UICONTROL Adobe Campaign]** 可讓您在將訊息傳送給主要對象之前先測試訊息。
 
@@ -20,6 +25,15 @@ ht-degree: 1%
 測試的收件者可檢查各種元素，例如連結、選擇退出連結、影像或映象頁面，並偵測轉譯、內容、個人化設定和傳遞設定中的任何錯誤。
 
 ## 選取測試收件者 {#test-recipients}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="測試母體"
+>abstract="選取測試母體模式。"
+
+
 
 根據您使用的頻道，測試訊息可以傳送給三種型別的收件者：
 
@@ -38,6 +52,7 @@ ht-degree: 1%
 若要選取測試傳送的收件者，請根據您要使用的設定檔型別，遵循下列步驟。
 
 ### 測試設定檔 {#test-profiles}
+
 
 1. 瀏覽至電子郵件或簡訊傳送的編輯內容畫面，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。
 

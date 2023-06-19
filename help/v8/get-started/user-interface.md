@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 78%
+source-wordcount: '1318'
+ht-degree: 77%
 
 ---
 
@@ -62,10 +62,7 @@ ht-degree: 78%
 >title="行銷活動"
 >abstract="這是您的行銷活動清單。您可以檢視有用的資訊，例如其開始/結束/最後修改日期，以及其狀態。您可以依狀態或開始/結束日期篩選清單。按一下「建立行銷活動」按鈕，即可新增行銷活動。選取行銷活動，檢視其內容、傳遞和詳細資料。瀏覽到「範本」索引標籤，檢視和建立範本。"
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_list"
->title="傳遞"
->abstract="瀏覽您的傳遞清單。您可以檢視其狀態、聯絡和修改日期、關鍵 KPI。您可以依狀態、聯絡日期或管道篩選清單。按一下「建立傳遞」按鈕，即可新增傳遞。選取傳遞，檢視其內容、對象和詳細資料。"
+
 
 在CAMPAIGN MANAGEMENT區段中，您可以存取行銷活動、傳遞和工作流程。
 
@@ -196,15 +193,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="錯誤量度"
 >abstract="具有錯誤狀態的電子郵件數量。"
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_option_test_target"
->title="測試母體"
->abstract="選取測試母體模式。"
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_mode"
->title="預覽模式"
->abstract="將測試母體納入主要目標，以預覽和測試訊息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
