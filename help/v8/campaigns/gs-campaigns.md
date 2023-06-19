@@ -4,10 +4,10 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 11%
+source-wordcount: '182'
+ht-degree: 85%
 
 ---
 
@@ -16,20 +16,20 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="設計和傳送跨頻道行銷活動"
->abstract="Adobe Campaign功能可協助您管理集中式客戶資料、設計客戶通訊和行銷活動，以及跨不同管道建立個人化體驗：電子郵件、推播和簡訊。"
+>title="設計和傳送跨管道行銷活動"
+>abstract="Adobe Campaign 功能可協助您管理集中化的客戶資料、設計客戶通訊和行銷活動，並建立跨越不同管道 (電子郵件、推播和簡訊) 的個人化體驗。"
 
-Adobe Campaign可讓您使用內建的行銷活動管理功能，輕鬆協調目標式行銷活動。 透過定義排程的功能，您可以規劃行銷活動的持續期間和時間，以符合策略目標並最大化受眾參與。
+Adobe Campaign 讓您可使用內建的行銷活動管理功能輕鬆協調設定目標的行銷計畫。透過定義排程的能力，您可以規劃行銷活動的持續時間和時機，以和策略目標保持一致性並將對象參與度擴展至最大。
 
-透過新增行銷活動特定的多個工作流程與傳送，您可以跨各種管道建立個人化體驗，確保每個接觸點都能與預期對象產生共鳴。
+針對行銷活動新增多個工作流程和傳遞後，您即可建立跨越各種管道的個人化體驗，確保每個接觸點都能引起目標對象的共鳴。
 
-行銷活動提供專用的報告量度，可全面深入瞭解整個行銷活動的效能，讓您能夠評估其成效、識別趨勢，並做出資料導向式決策，以將未來的工作最佳化。
+「行銷活動」會提供專用報告量度，讓您對整個行銷活動的效能取得全方位的深入解析，讓您能夠評估其效益、識別趨勢並根據資料做出能將未來工作最佳化的決策。瞭解如何存取和瞭解中的行銷活動報告 [本節](../reporting/campaign-reports.md).
 
 ![行銷活動流程](assets/campaign-flow.png)
 
-請參閱下列章節：
+在以下章節中瞭解如何建立和管理行銷活動：
 
-* [存取及管理您的行銷活動](manage-campaigns.md)
+* [存取並管理您的行銷活動](manage-campaigns.md)
 * [建立您的第一個行銷活動](create-campaigns.md)
 
 
