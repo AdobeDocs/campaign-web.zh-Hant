@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 38%
+ht-degree: 99%
 
 ---
 
@@ -15,35 +15,35 @@ ht-degree: 38%
 
 ![](assets/do-not-localize/banner-documentationv8.png)
 
-Campaign現在提供全新的網頁使用者介面(UI)，其易用性、協助工具及全新設計大幅改善您的使用者體驗。 這個新的現代 UI 簡化了行銷活動的設計和傳遞，並帶來一致性，與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 相符。[了解更多](get-started/get-started.md)
+Campaign 現在會提供新的 Web 使用者介面 (UI)，具有增強的可用性、可存取性和新設計，可大幅提升您的使用者體驗。這個新的現代 UI 簡化了行銷活動的設計和傳遞，並帶來一致性，與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 相符。[了解更多](get-started/get-started.md)
 
 >Campaign v8 Web 目前為 Alpha 版本。只有一小組 Alpha 客戶可以存取。請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。[了解更多](rn/whats-new.md)
 
-## Campaign Web新功能
+## Campaign Web 的新增功能
 
-**探索Campaign v8網路新使用者介面**
+**探索 Campaign v8 Web 的新使用者介面**
 
 新的 Campaign v8 Web 介面提供了現代直覺的使用者體驗，可簡化行銷活動的設計和傳遞。這個新介面與 Adobe Experience Platform 整合在一起。
 
-**重新設計的工作流程畫布介面**
+**重新想像的工作流程畫布介面**
 
-我們全方位的圖形化環境，可讓您設計複雜的流程，協助您輕鬆管理行銷活動。 借助工作流程，您可以協調整個範圍的程序和任務，提高行銷活動各個方面的速度和規模，從建立區段和準備訊息到傳遞。此外，您可以讓您的管道與一個易於使用的單一介面同步，用於行銷活動協調流程。
+我們的全方位圖形環境使您能夠設計複雜的流程，從而協助您輕鬆管理行銷活動。借助工作流程，您可以協調整個範圍的程序和任務，提高行銷活動各個方面的速度和規模，從建立區段和準備訊息到傳遞。此外，您可以讓您的管道與一個易於使用的單一介面同步，用於行銷活動協調流程。
 
-**認識電子郵件設計工具**
+**認識電子郵件設計工具**。
 
-從範本開始，或使用Adobe Campaign的全新電子郵件設計工具來建立電子郵件，不必撰寫一行程式碼。 瞭解如何使用電子郵件設計工具來建立您的內容、預覽和測試，以及在端對端使用案例中傳送電子郵件給現有對象。
+從範本開始，或使用 Adob&#x200B;&#x200B;e Campaign 的新電子郵件設計工具，無須編寫任何程式碼即可建立電子郵件。了解如何使用電子郵件設計工具建立您的內容、預覽和測試內容，並在端到端使用案例中傳送電子郵件給現有對象。
 
-**讓您的內容成為動態的**
+**製作您的動態內容** 
 
-根據您收集到的收件者相關資訊來自訂內容。 使用動態內容可讓您的內容更吸引人，並提高其被讀取的可能性。 利用設定檔資料，例如收件者的名字、興趣、居住地、購買內容等，將您的訊息個人化給每個特定收件者。 建立條件式內容，以將您的傳送調整為適合每個收件者，並僅根據您擁有的相關資訊顯示與指定客戶相關的內容。
+根據您已經收集的有關收件者的資訊自訂內容。利用動態內容使您的內容更具吸引力並增加了讀取內容的可能性。利用每個特定收件者的名字、興趣、居住地、購買的商品等設定檔資料傳送個人化訊息給他們。建立條件式內容以針對每個收件者調整傳遞，並僅顯示根據所掌握的客戶資訊和特定客戶相關的內容。
 
 **建立跨頻道行銷活動**
 
-使用 Adob&#x200B;&#x200B;e Campaign 建立跨管道行銷活動。透過其行銷活動協調功能，您可以管理及集中客戶資料、設計客戶通訊與行銷活動，以及跨不同管道建立個人化體驗。 在此版本中，可使用電子郵件、推播和簡訊頻道。 使用詳細報告衡量傳送的成效，包括開啟、點按、轉送等計數。
+使用 Adob&#x200B;&#x200B;e Campaign 建立跨管道行銷活動。透過其行銷活動協調流程功能，您可以管理並集中處理客戶資料、設計客戶通訊和行銷活動，並建立跨越不同管道的個人化體驗。此版本可提供電子郵件、推播和簡訊管道。使用包括開啟次數、點擊次數、轉寄次數等在內的詳細報告來測量傳遞的效益。
 
 ## 讓我們深入探討
 
-現在您已瞭解您可以使用Adobe Campaign Web做什麼，您可以開始深入瞭解這些檔案的章節。
+由於您已經了解在 Adobe Campaign Web 中能做什麼，您現在可以深入了解這些文件章節，以開始使用。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -59,7 +59,7 @@ Campaign現在提供全新的網頁使用者介面(UI)，其易用性、協助�
 <img alt="驗證" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="workflows/gs-workflows.md"><strong>重新設計的工作流程畫布介面</strong></a>
+<a href="workflows/gs-workflows.md"><strong>重新想像的工作流程畫布介面</strong></a>
 </div>
 <p>
 </td>
@@ -68,7 +68,7 @@ Campaign現在提供全新的網頁使用者介面(UI)，其易用性、協助�
 <img alt="不常使用" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/get-started-email-designer.md"><strong>認識電子郵件設計工具</strong></a>
+<a href="content/get-started-email-designer.md"><strong>認識電子郵件設計工具</strong></a>。
 </div>
 <p></td>
 <td>
@@ -76,7 +76,7 @@ Campaign現在提供全新的網頁使用者介面(UI)，其易用性、協助�
 <img alt="對象" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
-<a href="personalization/gs-personalization.md"><strong>讓您的內容成為動態的</strong></a>
+<a href="personalization/gs-personalization.md"><strong>製作您的動態內容</strong></a> 
 </div>
 <p>
 </td>

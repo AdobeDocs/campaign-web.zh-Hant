@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
 source-wordcount: '1318'
-ht-degree: 77%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="探索介面"
->abstract="全新的Campaign v8網頁介面提供整合、直覺式且一致的使用者體驗。"
+>abstract="新的 Campaign v8 Web 介面提供了整合、直覺和一致性的使用者體驗。"
 
 新的 Campaign v8 Web 介面提供了現代直覺的使用者體驗，可簡化行銷活動的設計和傳遞。這個新介面與 Adobe Experience Platform 整合在一起。
 
@@ -26,9 +26,9 @@ ht-degree: 77%
 >本文件會經常更新以反映產品使用者介面最近的變更。不過，有些螢幕擷取畫面可能會與您的使用者介面稍有不同。
 
 
-## 左側導覽選單 {#user-interface-left-nav}
+## 左側導覽功能表 {#user-interface-left-nav}
 
-瀏覽左側連結可存取 Campaign v8 Web 功能。幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。所有清單畫面都是唯讀的，電子郵件傳遞清單除外。按一下清單項目以編輯/檢視的這個功能在 Alpha 版本未提供。在未來的版本，所有清單將可編輯。左側導覽選單顯示的項目取決於您的使用者權限。
+瀏覽左側連結可存取 Campaign v8 Web 功能。幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。所有清單畫面都是唯讀的，電子郵件傳遞清單除外。按一下清單項目以編輯/檢視的這個功能在 Alpha 版本未提供。在未來的版本，所有清單將可編輯。左側導覽功能表顯示的項目取決於您的使用者權限。
 
 ![](assets/home.png)
 
@@ -36,24 +36,24 @@ ht-degree: 77%
 
 此畫面包含快速存取主要 Campaign v8 Web 功能的重要連結和資源。
 
-「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單顯示其頻道、狀態、擁有者、建立和修改日期。
+「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。
 
-從存取Campaign v8網頁金鑰說明頁面 **學習** 首頁的區段。
+從首頁的&#x200B;**學習**&#x200B;章節存取 Campaign v8 Web 重要說明頁面。
 
 ### 總管 {#user-interface-explorer}
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="總管"
->abstract="此 **總管** 功能表會顯示所有Campaign元件和物件，其資料夾階層與使用者端主控台中的元件和物件相同。 瀏覽您的所有Campaign v8元件、資料夾和結構描述，並建立傳送、工作流程和行銷活動。 所有其他清單都是唯讀的。"
+>abstract="**總管**&#x200B;選單會顯示所有 Campaign 元件以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。所有其他清單都是唯讀。"
 
-此 **總管** 功能表會顯示所有Campaign資源和物件，其資料夾階層與客戶端主控台中的資料夾階層相同。 瀏覽您的所有Campaign v8元件、資料夾和結構描述，並建立傳送、工作流程和行銷活動。 所有其他清單都是唯讀的。
+**總管**&#x200B;選單會顯示所有 Campaign 資源以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。所有其他清單都是唯讀。
 
 總管中顯示的項目取決於您的使用者權限。
 
 如同任何清單畫面，您可以設定欄來個人化顯示以檢視所有您需要的資訊。請參閱本[章節](#list-screens)。
 
-如需Campaign檔案總管、資料夾階層和資源的詳細資訊，請參閱此 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+如需 Campaign 總管、資料夾階層和資源的詳細資訊，請參閱此 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}。
 
 ### 行銷活動管理 {#user-interface-campaign-management}
 
@@ -64,7 +64,7 @@ ht-degree: 77%
 
 
 
-在CAMPAIGN MANAGEMENT區段中，您可以存取行銷活動、傳遞和工作流程。
+在「行銷活動管理」章節中，您可以存取行銷活動、傳遞以及工作流程。
 
 * **行銷活動** - 這是您的行銷活動清單以及行銷活動範本。預設情況下，您可以針對每個行銷活動檢視開始/結束/建立/最後修改日期、目前狀態以及建立該活動之行銷活動操作人員的姓名。您可以依狀態、開始/結束日期、資料夾篩選清單，或建立進階篩選以定義您自己的篩選標準。若要了解行銷活動的詳細資訊，請參閱[本章節](../campaigns/gs-campaigns.md)。
 
@@ -87,7 +87,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="對象"
->abstract="這是您的對象清單。您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依來源來篩選清單。此為唯讀清單。"
+>abstract="這是您的對象清單。您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。此為唯讀清單。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
@@ -95,11 +95,11 @@ ht-degree: 77%
 >abstract="瀏覽您的訂閱清單。您可以檢視其類型、模式和標籤。此為唯讀清單。"
 
 
-在客戶管理區段中，您可以檢視收件者、對象和訂閱。 這些清單是唯讀清單。
+在「客戶管理」章節中，您可以檢視您的收件者、對象和訂閱。這些是唯讀清單。
 
-* **收件者** - 存取您的收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。進一步瞭解中的收件者 [Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
-* **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依來源來篩選清單。進一步瞭解中的對象和清單 [Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
-* **訂閱**  — 瀏覽您的訂閱清單。 依預設，您可以檢視其類型、模式和標籤。瞭解如何在中管理訂閱和取消訂閱 [Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
+* **收件者** - 存取您的收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。若要了解收件者的詳細資訊，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}。
+* **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。若要了解對象和清單的詳細資訊，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}。
+* **訂閱** - 瀏覽您的訂閱清單。預設情況下，您可以檢視其類型、模式和標籤。若要了解如何管理訂閱和取消訂閱，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}。
 
 ### 決策管理
 
@@ -110,11 +110,11 @@ ht-degree: 77%
 
 * **優惠** - 覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些是唯讀清單。
 
-瞭解如何在中建立管理優惠方案 [Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+若要了解如何建立管理優惠方案，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}。
 
 ## 頂端列
 
-使用介面的頂端列可以：
+使用介面的頂端列進行以下作業：
 
 * 以 Alpha 測試人員身份分享您的意見回饋
 * 在組織和實例之間切換
@@ -128,7 +128,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ## 內容說明 {#contextual-help}
 
-介面中提供內容關聯式說明。可用時，按一下 `?` 圖示來顯示說明資訊和相關檔案連結。
+介面中會提供內容關聯式說明。若有提供，請按一下 `?` 圖示以顯示說明資訊和相關文件的連結。
 
 ![](assets/context-help.png){width="40%" align="left"}
 
@@ -170,7 +170,7 @@ Campaign v8 Web 目前提供以下語言版本：
 若要變更您的語言：
 
 1. 按一下右上角您的設定檔圖示，然後選取「**偏好設定**」。
-1. 然後按一下您電子郵件地址下方顯示的語言連結。
+1. 然後，按一下您電子郵件地址下顯示的語言連結。
 1. 選取您偏好的語言，然後按一下「**儲存**」。您可以選取第二語言，以防您使用的元件沒有您第一語言的版本。
 
 
@@ -269,29 +269,29 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="已傳遞"
->abstract="傳遞的KPI"
+>abstract="已傳遞的 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="開啟次數"
->abstract="開啟KPI"
+>abstract="開啟次數 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
->title="點按次數"
->abstract="點按KPI"
+>title="點擊數"
+>abstract="點擊數 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
 >title="取消訂閱"
->abstract="取消訂閱KPI"
+>abstract="取消訂閱 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
->title="垃圾訊息"
->abstract="垃圾訊息KPI"
+>title="垃圾郵件"
+>abstract="垃圾郵件 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
 >title="錯誤"
->abstract="錯誤KPI"
+>abstract="錯誤 KPI"

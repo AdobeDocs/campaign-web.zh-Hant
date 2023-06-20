@@ -7,7 +7,7 @@ exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 30%
+ht-degree: 99%
 
 ---
 
@@ -36,16 +36,16 @@ control groups like acc: exract, random, based on attribute
 -->
 
 
-對象是傳遞的主要目標：接收訊息的收件者。 對象類型取決傳遞範本中定義的目標對應。瞭解什麼是傳遞範本 [在本節中](../msg/delivery-template.md).
+對象是傳遞的主要目標：收到訊息的收件者。對象類型會依據傳遞範本中定義的目標對應而不同。若要了解什麼是傳遞範本，請參閱[本章節](../msg/delivery-template.md)。
 
-若要定義對象母體，您可以：
+若要定義對象族群，您可以：
 
-* 選取在使用者端主控台中建立為清單的現有對象。 [了解更多](add-audience.md)
-* 選取Adobe Experience Platform對象。 [了解更多](aep-audience.md)
-* 定義並結合篩選條件，以使用規則產生器建立新對象。 [了解更多](segment-builder.md)
-* 使用外部檔案中的對象：此選項僅適用於獨立電子郵件傳送，無法用於行銷活動傳送。 [了解更多](file-audience.md)
+* 選取現有對象，在用戶端主控台中建立成清單。[了解更多](add-audience.md)
+* 選取 Adobe Experience Platform 對象。[了解更多](aep-audience.md)
+* 定義篩選條件並將其合併，以使用規則產生器建置新的對象。[了解更多](segment-builder.md)
+* 使用來自外部檔案的對象：此選項僅適用於獨立的電子郵件傳遞，不能用於行銷活動傳遞。[了解更多](file-audience.md)
 
-在行銷活動工作流程內容中傳送訊息時，對象會定義於特定的 **讀取對象** 工作流程活動。 在此內容中，您無法從檔案載入對象以進行電子郵件傳送，而且對象僅定義在此專用活動中。 瞭解如何在行銷活動工作流程中定義傳送的對象 [在本節中](../workflows/orchestrate-activities.md).
+在行銷活動工作流程中傳送訊息時，會在特定的&#x200B;**讀取對象**&#x200B;工作流程活動中定義對象。在此特定情況下，您無法從檔案載入對象以進行電子郵件傳遞，並且該對象的定義僅適用於此專用活動。若要了解如何在行銷活動工作流程中定義傳遞的對象，請參閱[本章節](../workflows/orchestrate-activities.md)。
 
 此外，您可以定義控制組來避免傳送訊息給對象的其中一部分，以及測量行銷活動的影響。[了解更多](control-group.md)
 

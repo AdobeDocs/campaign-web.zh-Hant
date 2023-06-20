@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 81%
+ht-degree: 99%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="重新設計的工作流程畫布介面"
->abstract="我們全方位的圖形畫布可讓您輕鬆設計流程，例如細分、行銷活動執行等。 此進階工具觸手可及，讓您精簡工作流程並提升行銷活動。"
+>title="重新想像的工作流程畫布介面"
+>abstract="我們的全方位圖形畫布使得您可輕鬆設計分段、行銷活動執行等流程。透過此垂手可得的進階工具，您可以簡化工作流程並提升行銷活動。"
 
 ## 什麼是工作流程？
 
@@ -34,9 +34,9 @@ ht-degree: 81%
 
 以下是有關如何將工作流程搭配 Adobe Campaign 使用的一些範例：
 
-* 為非作用中客戶啟動後續行銷活動，
-* 傳送歡迎電子郵件給服務的所有新訂閱者，
-* 根據客戶的忠誠度計畫狀態或興趣點，個人化跨管道傳遞。
+* 為非使用中的客戶推出後續行銷活動，
+* 向服務的所有新訂閱者傳送歡迎電子郵件，
+* 根據客戶的忠誠計劃狀態或興趣點量身打造跨管道傳遞。
 
 ## 讓我們深入探討
 
@@ -45,7 +45,7 @@ ht-degree: 81%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="access-monitor.md">
-<img alt="存取和管理工作流程" src="assets/do-not-localize/workflow-access.jpeg">
+<img alt="存取並管理工作流程" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
 <a href="access-monitor.md"><strong>存取和管理工作流程</strong></a>
@@ -56,7 +56,7 @@ ht-degree: 81%
 <a href="create-workflow.md">
 <img alt="銷售機會" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-workflow.md"><strong>建立和執行您的第一個工作流程</strong>
+<div><a href="create-workflow.md"><strong>建立並執行您的第一個工作流程</strong>
 </div>
 <p>
 </td>

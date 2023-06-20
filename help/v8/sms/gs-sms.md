@@ -7,7 +7,7 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 43%
+ht-degree: 86%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 43%
 
 簡訊管道提供了三種建立簡訊傳遞的方法：
 
-* **[!UICONTROL 工作流程]**：新增SMS活動、定義基本設定，並在較大的自動化序列中撰寫SMS內容。
+* **[!UICONTROL 工作流程]**：新增簡訊活動，定義基本設定，並在更大的自動化序列中撰寫您的簡訊內容。
 
-* **[!UICONTROL 行銷活動]**：將SMS傳送併入專用行銷活動，設定目標對象和傳送排程等引數。
+* **[!UICONTROL 行銷活動]**：將簡訊傳遞納入專用行銷活動，設定目標對象和傳遞排程等參數。
 
-* **獨立傳送**：建立個別SMS傳送，以便與客戶快速且直接的通訊，而不需要工作流程或行銷活動。
+* **獨立傳遞**：建立個別的簡訊傳遞，不需要工作流程或行銷活動即可和您的客戶進行快速而直接的通訊。
 
 ![](../assets/do-not-localize/book.png) 瞭解如何在中設定簡訊頻道 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
@@ -30,7 +30,7 @@ ht-degree: 43%
 <a href="create-sms.md">
 <img alt="銷售機會" src="assets/do-not-localize/create_sms.png">
 </a>
-<div><a href="create-sms.md"><strong>建立 SMS 傳送</strong>
+<div><a href="create-sms.md"><strong>建立簡訊傳遞</strong>
 </div>
 <p>
 </td>
@@ -56,7 +56,7 @@ ht-degree: 43%
 <img alt="驗證" src="assets/do-not-localize/report_sms.jpeg">
 </a>
 <div>
-<a href="send-sms.md"><strong>簡訊傳遞報告</strong></a>
+<a href="send-sms.md"><strong>以簡訊傳送傳遞報告</strong></a>
 </div>
 <p>
 </td>

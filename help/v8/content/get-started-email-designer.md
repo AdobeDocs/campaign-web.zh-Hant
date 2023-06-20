@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 編輯電子郵件內容
-description: 瞭解如何在Campaign Web UI中使用電子郵件設計工具開始建立內容
+description: 了解如何使用 Campaign Web UI 中的電子郵件設計工具開始建置您的內容
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 8%
+ht-degree: 99%
 
 ---
 
@@ -14,35 +14,35 @@ ht-degree: 8%
 
 在 Adobe Campaign 中建立電子郵件後，您必須定義其內容。
 
-電子郵件設計工具可讓您透過直覺式的拖放介面，建立吸引人、個人訂做的電子郵件。 無論您是從空白顯示窗開始、匯入現有內容或運用現有範本，針對每封電子郵件（無論是促銷或異動）設計和調整所有內容。
+電子郵件設計工具讓您能夠透過直覺式的拖放介面建立引人入勝、量身打造的客製化電子郵件。無論您是從空白顯示窗開始，匯入現有的內容或利用現有的範本，都可針對每封電子郵件 (不論是促銷或交易) 設計和精煉所有內容。
 
 <!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
 
 The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
-* 使用 [!DNL Campaign] 電子郵件設計功能，可輕鬆建立回應式電子郵件。 [了解更多](create-email-content.md)
+* 使用[!DNL Campaign]電子郵件設計功能，可輕鬆建置回應式電子郵件。[了解更多](create-email-content.md)
 
-* 根據客戶的設定檔屬性建立個人化，以增強客戶體驗。 [了解更多](../personalization/personalize.md)
+* 根據客戶的設定檔屬性建立增強的個人化客戶體驗。[了解更多](../personalization/personalize.md)
 
-* 設定條件式內容欄位，以根據收件者的設定檔建立動態個人化。 [了解更多](../personalization/conditions.md)
+* 設定條件式內容欄位以根據收件者的設定檔建立動態個人化。[了解更多](../personalization/conditions.md)
 
-## 電子郵件設計最佳實務 {#best-practices}
+## 電子郵件設計最佳做法 {#best-practices}
 
-傳送電子郵件時，請務必考慮收件者可能會轉寄電子郵件，這有時會導致電子郵件的轉譯發生問題。 使用電子郵件提供者不支援轉送的CSS類別時，尤其如此，例如，如果您使用「is-desktop-hidden」CSS類別來隱藏行動裝置上的影像。
+傳送電子郵件時，務必考慮到收件者有可能轉寄郵件，這有時可能會導致電子郵件呈現的問題。使用用於轉寄的電子郵件提供商可能不支援的 CSS 類別時尤其如此，例如，如果您使用「is-desktop-hidden」CSS 類別來隱藏行動裝置上的影像。
 
-若要將這些轉譯問題降至最低，建議您儘可能簡化電子郵件設計結構。 請嘗試使用適用於案頭和行動裝置的單一設計，並避免使用複雜的CSS類別或其他設計元素，因為並非所有電子郵件使用者端都完全支援這些元素。 透過遵循這些最佳實務，您可以協助確保您的電子郵件可一致地正確呈現，無論收件者如何檢視或轉寄電子郵件。
+為了盡量減少這些呈現問題，我們建議保持您的電子郵件設計結構盡可能簡單。可嘗試使用同時適用於桌上型電腦和行動裝置的單一設計，並且避免使用複雜的 CSS 類別或其他並非所有電子郵件用戶端都可完全支援的設計元素。若能按照這些最佳做法進行，即有助於確保電子郵件會始終如一地正確呈現，無論收件者以什麼方式檢視或轉寄。
 
-## 開始編寫您的內容 {#start-authoring}
+## 開始編寫您的內容  {#start-authoring}
 
-從電子郵件傳遞控制面板，前往 [編輯內容](edit-content.md) 畫面以開啟「電子郵件設計工具」首頁。 從那裡，從下列選項中選擇您要如何設計電子郵件：
+從電子郵件傳遞儀表板，經過[編輯內容](edit-content.md)畫面，以開啟電子郵件設計工具首頁。從那裡，可由下列選項中選擇您要如何設計您的電子郵件：
 
-* **從頭開始設計您的電子郵件** 透過電子郵件設計工具的介面。 瞭解如何在中設計您的電子郵件內容 [本節](create-email-content.md).
+* 透過電子郵件設計工具的介面&#x200B;**從頭開始設計您的電子郵件**。若要了解如何設計您的電子郵件內容，請參閱[本章節](create-email-content.md)。
 
-* **程式碼或貼上原始HTML** 直接在電子郵件設計工具中建立。 瞭解如何在中編寫您自己的內容 [本節](code-content.md).
+* 直接在電子郵件設計工具中&#x200B;**編寫程式碼或貼上原始 HTML**。若要了解如何將您自己的內容編寫程式碼，請參閱[本章節](code-content.md)。
 
-* **匯入現有HTML內容** 從檔案或.zip資料夾。 瞭解如何在中匯入電子郵件內容 [本節](existing-content.md).
+* 從檔案或 .zip 資料夾&#x200B;**匯入現有的 HTML 內容**。若要了解如何匯入電子郵件內容，請參閱[本章節](existing-content.md)。
 
-* **選取現有內容** 內建或自訂範本清單中的。 瞭解如何使用電子郵件範本 [本節](email-sample-templates.md).
+* 從內建或自訂範本清單中&#x200B;**選取現有內容**。若要了解如何使用電子郵件範本，請參閱[本章節](email-sample-templates.md)。
 
   ![](assets/email_designer_create_options.png)
 
