@@ -3,7 +3,7 @@ audience: end-user
 title: 傳送推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送推播通知傳遞
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 2%
@@ -49,7 +49,7 @@ ht-degree: 2%
 
    ![](assets/push_send_2.png)
 
-1. 按一下**[!UICONTROL 準備]**並監控提供的進度和統計資料。
+1. 按一下 **[!UICONTROL 準備]** 並監視提供的進度和統計資料。
 
    如果發生任何錯誤，請參考記錄檔功能表以取得有關失敗的詳細資訊。
 

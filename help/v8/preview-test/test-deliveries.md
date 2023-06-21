@@ -4,9 +4,9 @@ title: 傳送測試傳遞
 description: 瞭解如何定義和傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '941'
 ht-degree: 4%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 4%
 
 若要在顯示資料時從的現有設定檔傳送測試電子郵件或簡訊至特定的電子郵件地址或電話號碼，請 [!DNL Campaign] 資料庫，使用替代設定檔。
 
-1. 在傳送測試之前，請務必定義要傳送的對象。 [了解更多](../audience/about-audiences.md)
+1. 在傳送測試之前，請務必定義傳送的目標對象。 [了解更多](../audience/about-audiences.md)
 
 1. 瀏覽至電子郵件或簡訊傳送的編輯內容畫面，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
@@ -104,7 +104,7 @@ ht-degree: 4%
    >
    >您可以輸入任何電子郵件地址或電話號碼。 這可讓您傳送測試傳遞給任何收件者，即使他們不是的使用者 [!DNL Adobe Campaign].
 
-1. 從資料庫中選取要作為替代的設定檔。 您也可以讓 [!DNL Adobe Campaign] 選取隨機設定檔。 來自所選設定檔的設定檔資料將顯示在測試傳送中。
+1. 從您為傳送定義的目標中選取設定檔，以用作替代。 您也可以讓 [!DNL Adobe Campaign] 從目標中選取隨機設定檔。 來自所選設定檔的設定檔資料將顯示在測試傳送中。
 
 1. 確認收件者並重複操作，視需要新增電子郵件地址或電話號碼。
 

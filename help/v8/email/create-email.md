@@ -4,7 +4,7 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 89%
@@ -18,7 +18,6 @@ ht-degree: 89%
 >id="acw_homepage_card2"
 >title="開始使用電子郵件"
 >abstract="從範本開始，或使用 Adob&#x200B;&#x200B;e Campaign 的新電子郵件設計工具，無須編寫任何程式碼即可建立電子郵件。了解如何使用電子郵件設計工具建立您的內容、預覽和測試內容，並在端到端使用案例中傳送電子郵件給現有對象。"
-
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
@@ -93,12 +92,6 @@ ht-degree: 89%
 
    ![](assets/select-template.png)
 
-   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
-
-    If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
-
-    ![](assets/import-folder.png)-->
-
 1. 選取範本後，範本會顯示在 [電子郵件設計工具](../content/create-email-content.md)，您可在此進行任何必要的編輯並新增個人化。
 
    例如，若要為電子郵件標題新增個人化，請選取元件區塊，然後按一下「**[!UICONTROL 新增個人化]**」。
@@ -169,9 +162,8 @@ ht-degree: 89%
 
    ![](assets/preview.png)
 
-   <!-- !NOTE
-    >
-    >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
+    -->
 
 1. 若要傳送電子郵件的測試版本，請按一下「**[!UICONTROL 測試]**」按鈕，然後選擇您要使用的模式。
 
