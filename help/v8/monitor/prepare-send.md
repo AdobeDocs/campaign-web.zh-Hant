@@ -4,71 +4,71 @@ title: 準備並傳送電子郵件
 description: 了解如何使用 Campaign Web UI 準備並傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 95%
+source-wordcount: '840'
+ht-degree: 48%
 
 ---
 
 
 # 準備並傳送您的電子郵件 {#prepare-send}
 
+## 準備傳送 {#prepare}
 
-<!--
+當您已定義 [內容](../content/edit-content.md)， [對象](../audience/add-audience.md) 和排程，您就可以準備電子郵件傳遞了。
 
-	show how to prepare and send the email + the live kpis in the dashboard
-
-like acc when preparation, target calculated then send
-real time KPIs, not in AJO. similar to ACS.
-exclusion logs, causes
--->
-
-<!--
-send also KPIs
--->
-
-## 準備傳送{#prepare}
-
-當您定義好內容、對象和排程後，您就可以準備您的訊息。在準備期間，將計算目標母體，並為目標包含的每個設定檔產生訊息內容。準備作業完成後，就可以立即或在排程的日期和時間傳送訊息。
+在準備期間，將計算目標母體，並為目標包含的每個設定檔產生訊息內容。準備作業完成後，就可以立即或在排程的日期和時間傳送訊息。
 
 傳遞準備期間使用的驗證規則在 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
-請遵循以下步驟：
+準備傳送的主要步驟如下。
 
-1. 按一下傳遞儀表板右上角的「**準備**」按鈕並確認。
+1. 在傳遞控制面板中，按一下 **[!UICONTROL 檢閱並傳送]**.
 
-   ![](assets/prepare.png)
+   ![](assets/email-review-and-send.png)
 
-   畫面會顯示準備進度。根據目標母體的大小，此操作可能需要一些時間。
+
+1. 按一下 **[!UICONTROL 準備]** 按鈕並確認。
+
+   ![](assets/email-prepare.png)
 
    >[!NOTE]
    >
-   >您可以隨時使用「**停止準備**」按鈕來停止準備作業。在準備階段，不傳送任何訊息。因此，您可以開始或停止準備而不會影響任何東西。
+   >如果您已排程傳送並停用 **[!UICONTROL 傳送前啟用確認]** 選項，準備和傳送步驟會分組在 **[!UICONTROL 準備並傳送]** 按鈕。 [進一步瞭解排程](../email/create-email.md#schedule)
+
+1. 畫面會顯示準備進度。根據目標母體的大小，此操作可能需要一些時間。
+
+   您可以隨時使用「**[!UICONTROL 停止準備]**」按鈕來停止準備作業。
+
+   ![](assets/email-stop-preparation.png)
+
+   >[!NOTE]
+   >在準備階段，不傳送任何訊息。因此，您可以開始或停止準備而不會影響任何東西。
 
 1. 準備作業完成後，請檢查 KPI。如果要傳送的訊息數與您的預期不符，請修改您的對象並重新開始準備。
 
-   ![](assets/prepare2.png)
+   ![](assets/email-preparation-complete.png)
 
    以下是顯示的不同 KPI：
 
-   * **目標**：目標收件者數量
-   * **要傳遞**：將傳送的訊息數
-   * **要排除**：類型規則排除的訊息數
+   * **[!UICONTROL 目標]**：目標收件者數量。
+   * **[!UICONTROL 要傳遞]**：將傳送的訊息數.
+   * **[!UICONTROL 要排除]**[：類型規則排除的訊息數](../advanced-settings/delivery-settings.md#typology).
 
-1. 按一下「**記錄**」按鈕並檢查沒有錯誤。最後的記錄訊息顯示所有錯誤訊息和錯誤數量。如需詳細資訊，請參閱本[章節](delivery-logs.md)。
+1. 按一下「**[!UICONTROL 記錄]**」按鈕並檢查沒有錯誤。最後的記錄訊息顯示所有錯誤訊息和錯誤數量。[了解更多](delivery-logs.md)
 
-   ![](assets/prepare-logs.png)
+   ![](assets/email-prepare-logs.png)
 
-如果準備作業偵測到阻止傳送傳遞的嚴重錯誤，則在傳遞儀表板中準備狀態顯示為失敗。
+1. 如果準備作業偵測到阻止傳送傳遞的嚴重錯誤，則在傳遞儀表板中準備狀態顯示為失敗。
 
-![](assets/prepare-error.png)
+   ![](assets/email-prepare-error.png)
 
-如果在準備作業後您需要對傳遞進行任何變更，則需要重新開始準備作業以使這些變更生效。
+1. 如果您在準備後對傳送進行任何變更，則必須重新開始準備，才能將這些變更納入考量。
 
-準備作業完成且沒有錯誤後，您的訊息就可以傳送了。如需詳細資訊，請參閱[本章節](#send)。
+準備作業完成且沒有錯誤後，您的訊息就可以傳送了。
 
-## 傳送訊息{#send}
+## 傳送訊息 {#send}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
@@ -85,27 +85,66 @@ send also KPIs
 >title="點按次數"
 >abstract="在電子郵件中至少點按一次的收件者數量。此指標每 5 分鐘會更新一次。顯示的百分比為相異點按次數相較於已傳遞訊息數的比率。"
 
+一旦 [準備](#prepare) 完成，您現在可以傳送電子郵件。
 
-準備作業完成後，您現在可以傳送訊息。只有立即傳送的訊息才需要執行此步驟。如果訊息已排程，就會在定義的日期傳送。
+如果訊息已排程，則會在定義的日期和時間傳送。 [了解更多](#schedule-the-send)
 
-請按照以下步驟操作：
+### 立即傳送 {#send-immediately}
 
-1. 從傳遞儀表板，按一下右上角的「**傳送**」按鈕並確認。
+若要立即傳送電子郵件，請遵循下列步驟。
 
-   ![](assets/send.png)
+1. 在傳遞控制面板中，按一下 **[!UICONTROL 傳送]** 按鈕。
 
-1. 傳送進度隨即顯示。檢查顯示的 KPI。您也可以檢查記錄。如需詳細資訊，請參閱本[章節](delivery-logs.md)。
+   ![](assets/email-send.png)
 
-   ![](assets/send2.png)
+1. 確認此動作以立即將訊息傳送至主要目標。
 
-   以下是顯示的不同 KPI：
+1. 傳送進度隨即顯示。
 
-   * **已傳遞**：已成功傳遞的訊息數。會根據已傳送訊息的總數顯示百分比。
-   * **開啟**：已開啟的訊息數。顯示的百分比為相異開啟次數相較於已傳遞訊息數的比率。
-   * **點按數**：在電子郵件中至少點按一次的收件者數量。顯示的百分比為相異點按次數相較於已傳遞訊息數的比率。
+### 排程傳送 {#schedule-the-send}
+
+如果您已排程在稍後日期和時間傳送電子郵件，請遵循下列步驟。
+
+1. 在您點選 **[!UICONTROL 檢閱並傳送]** 按鈕，確定您已為電子郵件定義排程。 [了解更多](../email/create-email.md#schedule)
+
+1. 在傳遞控制面板中，按一下 **[!UICONTROL 依排程傳送按鈕]** 按鈕。
+
+   ![](assets/email-send-as-scheduled.png)
+
+1. 按一下 **[!UICONTROL 確認傳送]**. 傳遞將在排程日期傳送至主要目標。
 
    >[!NOTE]
    >
-   >所有指標在傳遞開始後每 5 分鐘更新一次。傳遞準備指標是即時的。
+   >如果您已停用 **[!UICONTROL 傳送前啟用確認]** 選項，準備和傳送步驟會分組在 **[!UICONTROL 準備並傳送]** 按鈕。 [進一步瞭解排程](../email/create-email.md#schedule)
 
-   您可以隨時暫停傳送，然後恢復傳送。如果您在傳送傳遞期間停止傳遞，則無法恢復傳送。
+## 暫停或停止傳送 {#pause-stop-sending}
+
+無論您的傳送是否已排程，在傳送程式期間隨時可以執行兩個動作：
+
+* 按一下 **[!UICONTROL 暫停傳送]** 中斷訊息的傳送。 您可以隨時恢復傳送。
+
+* 按一下 **[!UICONTROL 停止傳送]** 立即中斷傳送。 一旦停止，準備和傳送作業將無法恢復。
+
+![](assets/email-send-pause-or-stop.png)
+
+## 檢查KPI {#check-kpis}
+
+傳送完成後，您可以檢查顯示的KPI：
+
+![](assets/email-send-kpis.png)
+
+* **[!UICONTROL 已傳送]**：傳送的訊息數。 顯示的百分比是根據要傳送的訊息總數。
+
+* **[!UICONTROL 已傳遞]**：已成功傳遞的訊息數。會根據已傳送訊息的總數顯示百分比。
+
+* **[!UICONTROL 開啟]**：已開啟的訊息數。顯示的百分比是不同開啟次數與已傳遞訊息數的比較。
+
+* **[!UICONTROL 點按次數]**：在電子郵件中按一下至少一次的收件者人數。 顯示的百分比是相較於已傳遞訊息數的不同點按次數。
+
+* **[!UICONTROL 錯誤]**：具有錯誤狀態的電子郵件數量。 會根據已傳送訊息的總數顯示百分比。
+
+>[!NOTE]
+>
+>所有指標在傳遞開始後每 5 分鐘更新一次。傳遞準備指標為即時。
+
+您也可以檢查記錄。[了解更多](delivery-logs.md)
