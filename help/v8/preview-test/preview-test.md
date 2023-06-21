@@ -4,9 +4,9 @@ title: 關於電子郵件預覽和測試
 description: 了解如何預覽和測試電子郵件
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '180'
 ht-degree: 18%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 18%
 若要這麼做， [!DNL Adobe Campaign] 可讓您：
 
 * [預覽訊息內容與個人化](preview-content.md)
-* [傳送測試傳遞](proofs.md) 至特定收件者或訂閱者，以進行測試和驗證
+* [傳送測試傳遞](test-deliveries.md) （校樣）給特定收件者或訂閱者，以進行測試和驗證
 * [檢查電子郵件呈現](email-rendering.md) 在熱門的桌上型電腦、行動裝置和Web型使用者端
 
 這些動作可使用 **[!UICONTROL 模擬內容]** 按鈕，可從傳送的編輯內容畫面存取。

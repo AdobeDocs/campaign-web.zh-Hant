@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 21%
@@ -150,7 +150,6 @@ Campaign 為每種管道提供了一組內建範本：電子郵件、推播、�
    > * [推播通知管道](../push/gs-push.md)
    > * [SMS 頻道](../sms/create-sms.md)
 
-
 1. 按一下 **[!UICONTROL 檢閱]** 按鈕來儲存及檢閱您的範本。 您仍然可以編輯其所有設定、刪除及複製它。
 
 1. 視需要測試範本呈現。 [了解更多](#test-template)
@@ -171,7 +170,7 @@ Campaign 為每種管道提供了一組內建範本：電子郵件、推播、�
 
 1. 在不同的設定檔之間切換，以根據選取的設定檔取得訊息的個人化表示。
 
-   <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    您也可以調整縮放等級，並選擇案頭或行動檢視。
 

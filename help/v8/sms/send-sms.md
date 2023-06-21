@@ -3,14 +3,14 @@ audience: end-user
 title: 傳送簡訊傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送簡訊
 badge: label="Alpha"
-source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
-# 預覽和傳送簡訊傳遞 {#send-sms-delivery}
+# 預覽並傳送簡訊傳遞 {#send-sms-delivery}
 
 ## 預覽您的SMS傳送{#preview-sms}
 
@@ -41,7 +41,7 @@ ht-degree: 7%
 
 傳送測試SMS是確保傳送品質和有效性的重要步驟。 測試收件者可檢閱連結、選擇退出連結和影像等各種元素，並識別轉譯、內容、個人化設定和簡訊設定中的任何錯誤。 此程式可協助您在觸及主要對象之前，徹底評估並最佳化SMS。
 
-![](../assets/do-not-localize/book.png) 瞭解如何在中傳送測試簡訊 [本節](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) 瞭解如何在中傳送測試簡訊 [本節](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png)
 

@@ -3,14 +3,14 @@ audience: end-user
 title: 傳送推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送推播通知傳遞
 badge: label="Alpha"
-source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 預覽和傳送推播通知傳遞 {#send-push-delivery}
+# 預覽並傳送推播通知傳遞 {#send-push-delivery}
 
 ## 預覽推播通知傳遞 {#preview-push}
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 使用 **Adobe Campaign**，您便能夠在將推播通知傳送給主要對象之前先測試這些通知。 此步驟對於驗證您的傳送和識別任何問題非常重要。
 測試收件者可檢閱連結、影像和個人化設定等元素，確保最佳效能並偵測任何錯誤。 此程式可協助您在到達主要受眾之前調整及最佳化推播通知。
 
-![](../assets/do-not-localize/book.png) 瞭解如何在中傳送測試推播通知 [本節](../preview-test/proofs.md#subscribers).
+![](../assets/do-not-localize/book.png) 瞭解如何在中傳送測試推播通知 [本節](../preview-test/test-deliveries.md#subscribers).
 
 ![](assets/push_send_6.png)
 
