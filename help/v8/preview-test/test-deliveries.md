@@ -4,9 +4,9 @@ title: 傳送測試傳遞
 description: 瞭解如何定義和傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '932'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 根據您使用的頻道，測試訊息可以傳送給三種型別的收件者：
 
-* [測試設定檔](#test-profiles)  — 傳送 **測試電子郵件和簡訊** 種子地址，即資料庫中其他虛構的收件者。
+* [測試設定檔](#test-profiles)  — 傳送 **測試電子郵件和簡訊** 種子地址，即資料庫中的其他收件者。
 
   它們可以在以下位置建立： [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 

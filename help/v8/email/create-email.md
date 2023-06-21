@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
 source-wordcount: '1329'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="開始使用電子郵件"
->abstract="從範本開始，或使用Adobe Campaign的全新電子郵件設計工具來建立電子郵件，不必撰寫一行程式碼。 瞭解如何使用電子郵件設計工具來建立您的內容、預覽和測試，以及在端對端使用案例中傳送電子郵件給現有對象。"
+>abstract="從範本開始，或使用 Adob&#x200B;&#x200B;e Campaign 的新電子郵件設計工具，無須編寫任何程式碼即可建立電子郵件。了解如何使用電子郵件設計工具建立您的內容、預覽和測試內容，並在端到端使用案例中傳送電子郵件給現有對象。"
 
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
