@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 58%
+source-wordcount: '437'
+ht-degree: 59%
 
 ---
 
@@ -34,10 +34,8 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
 內建的內容區塊包括：
 
-* **[!UICONTROL 核准Purl個人化]**
 * **[!UICONTROL 預設選擇退出橫幅]**
 * **[!UICONTROL 由 Adobe Campaign 啟用]**：插入「由 Adobe Campaign 啟用」標誌。
-* **[!UICONTROL facebook預先輸入]**
 * **[!UICONTROL 專有名詞的格式化函數]**：產生 **[!UICONTROL toSmartCase]** Javascript 函數，它將每個單詞的第一個字母變更為大寫。
 * **[!UICONTROL 問候語]**：插入帶有收件人全名的問候語，後面跟著一個逗號。範例：「你好 John Doe，」。
 * **[!UICONTROL 插入標誌]**：插入執行個體設定中定義的標誌。
