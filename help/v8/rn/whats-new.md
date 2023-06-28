@@ -5,9 +5,9 @@ description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha"
 source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -58,10 +58,10 @@ ht-degree: 93%
 
 您身為現有 Campaign 使用者，請注意一些概念已重新命名以符合最新的術語標準。這些變更僅適用於 Campaign Web UI，不會反映在用戶端主控台。它們總結如下。
 
-* 校訂現在是&#x200B;**測試電子郵件**：若要傳送校訂，請使用電子郵件傳遞 UI 中的「**測試**」按鈕。校樣的目標現在稱為 **測試設定檔**. [了解更多](../preview-test/test-deliveries.md)。
-* 種子地址現在用作 **測試設定檔**：將測試電子郵件傳送至種子地址，這些地址是資料庫中的其他收件者。 [了解更多](../preview-test/test-deliveries.md)。
+* 證明現在是&#x200B;**測試電子郵件**：若要傳送證明，請使用電子郵件傳遞 UI 中的「**測試**」按鈕。證明的目標現在稱為&#x200B;**測試設定檔**。[了解更多](../preview-test/test-deliveries.md)。
+* 種子地址現在是用作&#x200B;**測試設定檔**：將測試電子郵件傳送到種子地址，這些地址是資料庫中額外的收件者。[了解更多](../preview-test/test-deliveries.md)。
 * 傳遞分析現在是&#x200B;**傳遞準備**。當您需要啟動分析時，按一下「**準備**」按鈕.[了解更多](../monitor/prepare-send.md)。
-* 電子郵件預覽現在會透過「**模擬內容**」按鈕提供. [了解更多](../preview-test/preview-test.md)
+* 電子郵件預覽現在可透過「**模擬內容**」按鈕取得。[了解更多](../preview-test/preview-test.md)
 * 清單現在是&#x200B;**對象**。[了解更多](../audience/about-audiences.md)。
 
 ## 限制{#limitations-alpha}
