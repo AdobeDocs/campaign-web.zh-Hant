@@ -5,9 +5,9 @@ description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Alpha"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1119'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe Campaign v8 提供下列傳遞管道： 電子郵件、簡訊和行動應�
 
 您可以從左側功能表的「**[!UICONTROL 傳遞]**」建立獨立的傳遞，或是從左側功能表的「**[!UICONTROL 行銷活動]**」在行銷活動的內容中建立傳遞。
 
-瀏覽下面的索引標籤以了解如何建立傳遞：
+瀏覽下面的標籤以了解如何建立傳遞：
 
 >[!BEGINTABS]
 
@@ -104,7 +104,7 @@ Adobe Campaign v8 提供下列傳遞管道： 電子郵件、簡訊和行動應�
 1. 選取傳遞活動：**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL 推播通知 (Android)]** 或&#x200B;**[!UICONTROL 推播通知 (iOS)]**。若要了解工作流程中的傳遞管道活動以及如何定義傳遞內容的詳細資訊，請參閱本[章節](../workflows/activities/about-activities.md#channel)。
 1. 啟動工作流程，並檢查記錄檔。
 
-您還可以在不建立工作流程的情況下在行銷活動中新增傳遞。若要這麼做，請瀏覽到行銷活動的「**[!UICONTROL 傳遞]**」索引標籤，然後按一下「**[!UICONTROL 建立傳遞]**」按鈕。
+您還可以在不建立工作流程的情況下在行銷活動中新增傳遞。若要這麼做，請瀏覽到行銷活動的「**[!UICONTROL 傳遞]**」標籤，然後按一下「**[!UICONTROL 建立傳遞]**」按鈕。
 
 ![](assets/new-campaign-delivery.png)
 
