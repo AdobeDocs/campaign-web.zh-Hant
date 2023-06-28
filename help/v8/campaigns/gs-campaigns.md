@@ -5,9 +5,9 @@ description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Adobe Campaign 讓您可使用內建的行銷活動管理功能輕鬆協調設�
 
 針對行銷活動新增多個工作流程和傳遞後，您即可建立跨越各種管道的個人化體驗，確保每個接觸點都能引起目標對象的共鳴。
 
-「行銷活動」會提供專用報告量度，讓您對整個行銷活動的效能取得全方位的深入解析，讓您能夠評估其效益、識別趨勢並根據資料做出能將未來工作最佳化的決策。瞭解如何存取和瞭解中的行銷活動報告 [本節](../reporting/campaign-reports.md).
+「行銷活動」會提供專用報告量度，讓您對整個行銷活動的效能取得全方位的深入分析，以便評估其效益、識別趨勢並根據資料做出能將未來工作最佳化的決策。若要探索如何存取和了解行銷活動報告，請參閱[本章節](../reporting/campaign-reports.md)。
 
 ![行銷活動流程](assets/campaign-flow.png)
 
-在以下章節中瞭解如何建立和管理行銷活動：
+若要了解如何建立和管理行銷活動，請參閱下方章節：
 
-* [存取並管理您的行銷活動](manage-campaigns.md)
+* [存取和管理您的行銷活動](manage-campaigns.md)
 * [建立您的第一個行銷活動](create-campaigns.md)
 
 
