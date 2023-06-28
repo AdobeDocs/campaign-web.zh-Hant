@@ -4,9 +4,9 @@ title: 瀏覽、搜尋和篩選清單
 description: 探索如何瀏覽和篩選清單 Campaign Web v8
 badge: label="Alpha"
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 91%
 
 ![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
-使用「**顯示進階屬性**」切換，即可查看最新清單的所有屬性。[了解更多](#adv-attributes)
+使用「**顯示進階屬性**」開關，即可查看最新清單的所有屬性。[了解更多](#adv-attributes)
 
 ## 排序資料 {#sort-lists}
 
@@ -57,7 +57,7 @@ ht-degree: 91%
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
-使用「**顯示進階屬性**」切換，即可查看最新清單的所有屬性。[了解更多](#adv-attributes)
+使用「**顯示進階屬性**」開關，即可查看最新清單的所有屬性。[了解更多](#adv-attributes)
 
 ## 使用進階屬性 {#adv-attributes}
 
@@ -69,7 +69,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="規則產生器進階欄位"
->abstract="使用進階欄位設定進階篩選。"
+>abstract="使用進階欄位來設定進階篩選器。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -79,7 +79,7 @@ ht-degree: 91%
 
 預設情況下，屬性清單和篩選器設定畫面中只會顯示最常見的屬性。屬性若在資料結構描述中設定為 `advanced` 屬性，在設定畫面中會隱藏。
 
-啟動 **顯示進階屬性** 切換即可檢視目前清單的所有可用屬性：屬性清單會立即更新。
+啟用「**顯示進階屬性**」開關，即可查看目前清單的所有可用屬性：屬性清單會立即更新。
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
