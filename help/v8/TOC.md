@@ -6,9 +6,9 @@ description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 93%
    + [傳送優惠](content/offers.md)
    + 預覽和測試您的傳遞 {#preview-test}
       + [關於預覽和測試](preview-test/preview-test.md)
-      + [預覽訊息內容](preview-test/preview-content.md)
+      + [預覽訊息內容。](preview-test/preview-content.md)
       + [傳送測試傳遞](preview-test/test-deliveries.md)
       + [呈現您的電子郵件](preview-test/email-rendering.md)
 + 對象和收件者 {#audiences}
@@ -79,9 +79,9 @@ ht-degree: 93%
    + [從檔案載入電子郵件對象](audience/file-audience.md)
    + [使用 Adobe Experience Platform 對象](audience/aep-audience.md)
    + [設定控制組](audience/control-group.md)
-+ 跨頻道行銷活動 {#campaigns}
++ 跨管道行銷活動 {#campaigns}
    + [開始使用行銷活動](campaigns/gs-campaigns.md)
-   + [存取及管理行銷活動](campaigns/manage-campaigns.md)
+   + [存取和管理行銷活動](campaigns/manage-campaigns.md)
    + [建立您的第一個行銷活動](campaigns/create-campaigns.md)
 + 工作流程 {#wf}
    + [開始使用工作流程](workflows/gs-workflows.md)
