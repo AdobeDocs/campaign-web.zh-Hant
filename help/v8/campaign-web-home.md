@@ -5,9 +5,9 @@ title: Adobe Campaign Web v8 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign 現在會提供新的 Web 使用者介面 (UI)，具有增強的可用�
 
 根據您已經收集的有關收件者的資訊自訂內容。利用動態內容使您的內容更具吸引力並增加了讀取內容的可能性。利用每個特定收件者的名字、興趣、居住地、購買的商品等設定檔資料傳送個人化訊息給他們。建立條件式內容以針對每個收件者調整傳遞，並僅顯示根據所掌握的客戶資訊和特定客戶相關的內容。
 
-**建立跨頻道行銷活動**
+**建立跨管道行銷活動**
 
 使用 Adob&#x200B;&#x200B;e Campaign 建立跨管道行銷活動。透過其行銷活動協調流程功能，您可以管理並集中處理客戶資料、設計客戶通訊和行銷活動，並建立跨越不同管道的個人化體驗。此版本可提供電子郵件、推播和簡訊管道。使用包括開啟次數、點擊次數、轉寄次數等在內的詳細報告來測量傳遞的效益。
 
@@ -85,7 +85,7 @@ Campaign 現在會提供新的 Web 使用者介面 (UI)，具有增強的可用�
 <img alt="驗證" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>建立跨頻道行銷活動</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>建立跨管道行銷活動</strong></a>
 </div>
 <p>
 </td>
