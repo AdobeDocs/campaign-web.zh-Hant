@@ -4,8 +4,8 @@ title: 瀏覽、搜尋和篩選清單
 description: 探索如何瀏覽和篩選清單 Campaign Web v8
 badge: label="Alpha"
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '416'
 ht-degree: 100%
 
 ---
