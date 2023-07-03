@@ -3,7 +3,7 @@ audience: end-user
 title: 傳送推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送推播通知傳遞
 badge: label="Alpha"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
+source-git-commit: 8bb189837a2d9c7134188e39efa47ce2ccbe12db
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 定義訊息內容後，您可以利用測試訂閱者來預覽和測試訊息。 如果您已包含個人化內容，則可使用測試設定檔資料來檢查此內容在訊息中的顯示方式。 這可讓您確保訊息正確轉譯，且個人化元素正確合併。
 
-預覽SMS傳送的主要步驟如下。 如需如何預覽傳送的詳細資訊，請參閱 [本節](../preview-test/preview-content.md).
+預覽推播通知的主要步驟如下。 如需如何預覽傳送的詳細資訊，請參閱 [本節](../preview-test/preview-content.md).
 
 1. 從您的傳遞內容頁面，使用 **[!UICONTROL 模擬內容]** 以預覽您的個人化內容。
 
