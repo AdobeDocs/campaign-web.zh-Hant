@@ -3,15 +3,20 @@ audience: end-user
 title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Alpha"
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 98%
 
 ---
 
 
 # 存取和管理您的行銷活動{#manage-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="行銷活動排程"
+>abstract="設定或修改您的行銷活動排程。"
 
 若要建立新的行銷活動，或管理您現有的行銷活動，請在左側導覽上按一下「**[!UICONTROL 行銷活動]**」選單。
 

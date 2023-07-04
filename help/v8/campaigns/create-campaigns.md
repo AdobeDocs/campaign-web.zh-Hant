@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立行銷活動
 description: 了解如何使用 Adobe Campaign Web 建置跨管道行銷活動
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 22%
+source-wordcount: '299'
+ht-degree: 25%
 
 ---
 
@@ -28,10 +28,15 @@ ht-degree: 22%
 
 ## 建立行銷活動{#campaign-create}
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="行銷活動排程"
+>abstract="在建立行銷活動期間定義您的行銷活動排程。"
+
 若要建立新的行銷活動，請遵循下列步驟：
 
 1. 按一下 **[!UICONTROL 行銷活動]** 功能表，然後按一下 **[!UICONTROL 建立行銷活動]** 按鈕。
-1. 選取 **範本** ，以使用並提供促銷活動的標籤。 行銷活動範本已預先設定，以便重複用於建立新的行銷活動。 從使用者端主控台建立。
+1. 選取 **範本** ，以使用並提供促銷活動的標籤。 行銷活動範本已預先設定，以便重複用於建立新的行銷活動。 這些範本從用戶端主控台建立的。
    [顯示全文](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)。
 1. 如有需要，您可以變更下列專案 **其他選項**：內部名稱、資料夾、受託人、說明和性質。
 1. 定義 **排程** 您行銷活動的資訊。 行銷活動在到達開始日期時開始。 開始和結束日期會顯示在行銷活動清單中，並可作為篩選條件使用。 請參閱本[章節](manage-campaigns.md#access-campaigns)。
@@ -59,7 +64,7 @@ ht-degree: 22%
 
 
 <!--
-	+++WORKF
+    +++WORKF
 ++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
