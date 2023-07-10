@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 4a3591d917aedd028666eca99b8cf1c4aeb45e8f
+source-git-commit: de4aab11b858925617cdac782d537a746fb507d4
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 100%
+source-wordcount: '1552'
+ht-degree: 99%
 
 ---
 
@@ -301,6 +301,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_creation_workflow"
 >title="工作流程清單"
 >abstract="您的行銷活動可使用的工作流程清單。使用「建立工作流程」按鈕在您的行銷活動中新增工作流程。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="儲存對象的出站轉變"
+>abstract="tbc"
+
 
 <!-- delivery template settings-->
 
