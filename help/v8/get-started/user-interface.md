@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
+source-git-commit: 99e66a77c3451a4a43fa3e29f080191b2b51c074
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1525'
 ht-degree: 100%
 
 ---
@@ -295,3 +295,48 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="錯誤"
 >abstract="錯誤 KPI"
+
+
+
+
+<!-- delivery template settings-->
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="有效期限"
+>abstract="此選項會定義在 URL 上啟動追蹤的期間。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="傳遞期間"
+>abstract="「傳遞期間」欄位可讓您輸入全域傳遞重試的限制。這表示 Adobe Campaign 會從開始日期開始傳送訊息，然後，僅對於傳回錯誤的訊息，執行定期、可設定的重試，直到達到有效期限制。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="資源有效期限制"
+>abstract="「有效期限制」欄位用於上傳的資源，例如鏡像頁面或影像。這些資源在有限的時間內有效：一旦達到限制，資源將不再可用。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="核准模式"
+>abstract="傳遞的每個步驟可能都需要經過核准，以確保對各個流程進行全面監視。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="最多重試次數"
+>abstract="如果訊息由於臨時錯誤而失敗，則會重試到傳遞期間結束為止。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="收件者的重要性"
+>abstract="收件者的重要性是一種公式，用於確定在超出產能類型規則時要保留哪些收件者。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="傳遞權重"
+>abstract="傳遞權重可讓您確認壓力管理架構內最優先的傳遞。權重最高的訊息具有優先順序。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_typology"
+>title="類型"
+>abstract="分類可讓您控制、篩選及監視傳遞的傳送。 "
