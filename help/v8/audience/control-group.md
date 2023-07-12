@@ -6,7 +6,7 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '756'
 ht-degree: 40%
 
 ---
@@ -103,12 +103,12 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
->title="額外母體"
+>title="額外族群"
 >abstract="您可以選取現有對象，或定義查詢，以從傳送對象中排除特定母體。"
 
 定義控制組的另一種方式是選取現有對象中的特定母體，或藉由定義查詢來進行。
 
-從&#x200B;**控制組**&#x200B;定義畫面的「**額外母體**」區段，按一下「**[!UICONTROL 選取對象]**」按鈕。
+從&#x200B;**控制組**&#x200B;定義畫面的「**額外族群**」區段，按一下「**[!UICONTROL 選取對象]**」按鈕。
 
 ![](assets/control-group3.png)
 
