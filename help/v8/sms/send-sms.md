@@ -3,14 +3,19 @@ audience: end-user
 title: 傳送簡訊傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送簡訊
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '400'
 ht-degree: 10%
 
 ---
 
 # 預覽並傳送簡訊傳遞 {#send-sms-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_metrics_newquarantines"
+>title="新的隔離量度"
+>abstract="在傳送失敗（使用者不明、網域無效）後被隔離的地址總數，與要傳送的訊息數量有關。"
 
 ## 預覽您的SMS傳送{#preview-sms}
 

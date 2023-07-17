@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1530'
 ht-degree: 99%
 
 ---
@@ -245,17 +245,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="需要權限"
 >abstract="您的管理員必須先授予您權限，然後您才能建立區段。"
-
-
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_metrics_newquarantines"
->title="新的隔離量度"
->abstract="新的隔離量度。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
