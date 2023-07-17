@@ -4,10 +4,10 @@ title: 準備並傳送電子郵件
 description: 了解如何使用 Campaign Web UI 準備並傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha"
-source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 48%
+source-wordcount: '871'
+ht-degree: 46%
 
 ---
 
@@ -128,6 +128,16 @@ ht-degree: 48%
 ![](assets/email-send-pause-or-stop.png)
 
 ## 檢查KPI {#check-kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="傳送的量度"
+>abstract="傳遞分析期間處理的訊息總數。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="錯誤量度"
+>abstract="傳遞和自動傳回處理期間累計的錯誤總數（與已傳送訊息總數相關）。"
 
 傳送完成後，您可以檢查顯示的KPI：
 
