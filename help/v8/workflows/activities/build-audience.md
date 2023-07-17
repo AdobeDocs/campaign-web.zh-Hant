@@ -1,29 +1,29 @@
 ---
 audience: end-user
-title: 使用建立對象工作流程活動
-description: 瞭解如何使用建立對象工作流程活動
+title: 使用「建置對象」工作流程活動
+description: 了解如何使用「建置對象」工作流程活動
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 
 # 建置對象 {#build-audience}
 
-此 **建立對象** 活動是 **目標定位** 活動。 此活動可讓您定義將進入工作流程的對象。 在行銷活動工作流程的內容中傳送訊息時，訊息對象不會定義在管道活動中，而是定義在 **建立對象** 活動。
+「**建置對象**」活動是一種「**目標定位**」活動。此活動可讓您定義會進入工作流程的對象。在行銷活動工作流程中傳送訊息時，訊息對象不會在管道活動中定義，而是在「**建置對象**」活動中定義。
 
-若要定義對象母體，您可以：
+若要定義對象族群，您可以：
 
-* 選取在使用者端主控台中建立為清單的現有對象。
-* 選取Adobe Experience Platform對象。
-* 定義並結合篩選條件，以使用規則產生器建立新對象。
+* 選取現有對象，在用戶端主控台中建立成清單。
+* 選取 Adobe Experience Platform 對象。
+* 定義篩選條件並將其合併，以使用規則產生器建置新的對象。
 
 >[!NOTE]
 >
->在此內容中，您無法從檔案載入對象。 為此，您需要建立獨立傳送。 [了解更多](../../audience/about-audiences.md)
+>在此情況下，您無法從檔案載入對象。若要這麼做，您需要建立獨立傳遞。[了解更多](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -31,27 +31,27 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ## 設定
 
-請依照下列步驟設定 **建立對象** 活動：
+請按照以下步驟設定「**建置對象**」活動：
 
-1. 新增 **建立對象** 活動。
+1. 新增「**建置對象**」活動。
 1. 定義標籤。
-1. 定義對象型別： **建立您自己的** 或 **讀取對象**.
+1. 定義對象類型：「**建立您自己的**」或是「**讀取對象**」。
 
-若要建立自己的查詢，請遵循下列額外步驟：
+若要建立您自己的查詢，請依照以下額外步驟進行：
 
-1. 選取 **建立您自己的（查詢）**.
-1. 選擇 **目標維度**. 目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。依預設，會從收件者中選取目標。 請參閱 [v8檔案](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
-1. 按一下 **繼續**.
-1. 使用規則產生器來定義您的查詢，就像在設計新電子郵件時建立對象一樣。 請參閱本[章節](../../audience/segment-builder.md)。
+1. 選取「**建立您自己的 (查詢)**」。
+1. 選擇「**目標定位維度**」。目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。請參閱 [v8 文件](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}。
+1. 按一下&#x200B;**「繼續」**。
+1. 使用規則產生器定義您的查詢，以您設計新電子郵件時建立對象的相同方式。請參閱本[章節](../../audience/segment-builder.md)。
 
-若要選取現有對象，請遵循下列步驟：
+若要選取現有對象，請依照以下步驟進行：
 
-1. 選取 **讀取對象**.
-1. 按一下 **繼續**.
-1. 選取您的對象，就像在設計新電子郵件時使用對象一樣。 請參閱本[章節](../../audience/add-audience.md)。
+1. 選取「**讀取對象**」。
+1. 按一下&#x200B;**「繼續」**。
+1. 選取您的對象，以您設計新電子郵件時使用對象的相同方式。請參閱本[章節](../../audience/add-audience.md)。
 
 ## 範例
 
-以下是包含兩個的工作流程範例 **建立對象** 活動。 第一個目標是撲克玩家受眾，然後是電子郵件傳送。 第二個是以VIP使用者端對象為目標，然後是SMS傳送。
+以下範例是一個包含兩個「**建置對象**」活動的工作流程。第一個目標是撲克牌遊戲玩家對象，然後是電子郵件傳遞。第二個目標是 VIP 用戶端對象，然後是簡訊傳遞。
 
 ![](../assets/workflow-audience-example.png)
