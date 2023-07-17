@@ -4,8 +4,8 @@ title: 使用「分支」工作流程活動
 description: 了解如何使用「分支」工作流程活動
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '111'
+workflow-type: tm+mt
+source-wordcount: '110'
 ht-degree: 100%
 
 ---
