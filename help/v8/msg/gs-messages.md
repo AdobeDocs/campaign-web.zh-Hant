@@ -4,10 +4,10 @@ title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Alpha"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
-workflow-type: ht
-source-wordcount: '1119'
-ht-degree: 100%
+source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="傳遞"
->abstract="瀏覽您的傳遞清單。您可以檢視其狀態、聯絡和修改日期、關鍵 KPI。您可以依狀態、聯絡日期或管道篩選清單。按一下「建立傳遞」按鈕，即可新增傳遞。選取傳遞，檢視其內容、對象和詳細資料。"
+>abstract="瀏覽您的傳遞清單。您可以檢視其狀態、聯絡和修改日期、關鍵 KPI。您可以依狀態、聯絡日期或管道來篩選清單。 按一下「建立傳遞」按鈕，即可新增傳遞。選取傳遞，檢視其內容、對象和詳細資料。"
 
 
 透過 Adobe Campaign，您可以傳送跨管道行銷活動，包括電子郵件、簡訊、LINE 訊息、推播通知，並使用各種專屬報告來評估行銷效益。 
@@ -133,7 +133,7 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[了解�
 
 * 建立&#x200B;**條件式內容**
 
-  例如，設定條件式內容以根據收件者的設定檔新增動態個人化。特定條件為真時，即可插入文字區塊及/或影像。[了解更多](../personalization/conditions.md)
+  例如，設定條件式內容，以根據收件者的設定檔新增動態個人化。 特定條件為真時，即可插入文字區塊及/或影像。[了解更多](../personalization/conditions.md)
 
 * 新增&#x200B;**個人化優惠方案**
 
