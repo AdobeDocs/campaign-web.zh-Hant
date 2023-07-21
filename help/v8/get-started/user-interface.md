@@ -293,7 +293,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="有效期限"
->abstract="此選項會定義在 URL 上啟動追蹤的期間。"
+>abstract="此選項會定義在 URL 上啟動追蹤的持續時間。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"

@@ -6,8 +6,8 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 92%
+source-wordcount: '1474'
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 92%
 
 在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。
 
-進一步瞭解中的目標對應 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+若要了解目標對應的詳細資訊，請參閱 [ Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
 
 ## 傳遞 {#delivery}
 
@@ -166,7 +166,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="有效期限"
->abstract="此選項會定義在 URL 上啟動追蹤的期間。"
+>abstract="此選項會定義在 URL 上啟動追蹤的持續時間。"
 
 追蹤參數是在相關區段中定義。可能的選項包括：
 
