@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「分支」工作流程活動
 description: 了解如何使用「分支」工作流程活動
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 範例
 
-在下面的範例中，我們會使用兩種&#x200B;**分支**&#x200B;活動：
+在下列範例中，我們使用 **分支** 活動：
 
 * 一個在兩個查詢之前，以同時執行查詢。
 * 一個在交集之後，以同時傳送電子郵件和簡訊給目標母體。
