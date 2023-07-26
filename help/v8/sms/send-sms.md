@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 傳送簡訊傳遞
-description: 瞭解如何使用Adobe Campaign Web傳送簡訊
+description: 瞭解如何使用Adobe Campaign網頁版傳送簡訊
 badge: label="Alpha"
 source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="新的隔離量度"
->abstract="在傳送失敗（使用者不明、網域無效）後被隔離的地址總數，與要傳送的訊息數量有關。"
+>abstract="傳遞失敗 (使用者未知、網域無效) 後被隔離的地址總數與要傳遞之訊息數量的關係。"
 
 ## 預覽您的SMS傳送{#preview-sms}
 
-定義訊息內容後，您可以利用測試設定檔來預覽和測試。 如果您已包含個人化內容，則可使用測試設定檔資料來檢查此內容在訊息中的顯示方式。 這可讓您確保訊息如預期顯示，且任何個人化資訊皆正確顯示。
+定義訊息內容後，您就可以使用測試設定檔來預覽及測試。 如果您已包含個人化內容，則可使用測試設定檔資料來檢查此內容在訊息中的顯示方式。 這可讓您確保訊息如預期顯示，且任何個人化資訊皆正確顯示。
 
 預覽SMS傳送的主要步驟如下。 如需如何預覽傳送的詳細資訊，請參閱 [本節](../preview-test/preview-content.md).
 
@@ -42,9 +42,9 @@ ht-degree: 10%
 
 ## 測試您的SMS傳送 {#test-sms}
 
-替換為 **Adobe Campaign**，您就能夠在將訊息傳送給主要對象之前測試訊息，這是驗證電子郵件行銷活動和識別潛在問題的必要步驟。
+替換為 **Adobe Campaign**，您能夠先測試訊息，再將其傳送給主要對象，這是驗證電子郵件促銷活動及識別潛在問題的重要步驟。
 
-傳送測試SMS是確保傳送品質和有效性的重要步驟。 測試收件者可檢閱連結、選擇退出連結和影像等各種元素，並識別轉譯、內容、個人化設定和簡訊設定中的任何錯誤。 此程式可協助您在觸及主要對象之前，徹底評估並最佳化SMS。
+傳送測試SMS是確保傳送品質和有效性的重要步驟。 測試收件者可檢閱連結、退出連結和影像等各種元素，並識別轉譯、內容、個人化設定和簡訊組態中的任何錯誤。 此程式可協助您在到達主要受眾之前完整評估及最佳化簡訊。
 
 ![](../assets/do-not-localize/book.png) 瞭解如何在中傳送測試簡訊 [本節](../preview-test/test-deliveries.md).
 
@@ -52,7 +52,7 @@ ht-degree: 10%
 
 ## 傳送簡訊傳遞 {#send-sms}
 
-1. 個人化SMS內容後，按一下 **[!UICONTROL 檢閱並傳送]** 從您的 **[!UICONTROL 傳遞]** 頁面。
+1. 個人化SMS內容後，請按一下 **[!UICONTROL 檢閱並傳送]** 從您的 **[!UICONTROL 傳遞]** 頁面。
 
    ![](assets/sms_send_4.png)
 
@@ -60,7 +60,7 @@ ht-degree: 10%
 
    如果發生任何錯誤，請參考記錄檔功能表以取得有關失敗的詳細資訊。
 
-1. 按一下以傳送訊息 **[!UICONTROL 傳送]** 以繼續最終的傳送程式。
+1. 按一下以傳送訊息 **[!UICONTROL 傳送]** 以繼續進行最終的傳送程式。
 
    ![](assets/sms_send_5.png)
 

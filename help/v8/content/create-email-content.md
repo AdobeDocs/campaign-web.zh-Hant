@@ -6,8 +6,8 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 60%
+source-wordcount: '583'
+ht-degree: 74%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="新增結構"
->abstract="結構會定義電子郵件的版面。 將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的電子郵件內容。"
+>abstract="結構會定義電子郵件的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的電子郵件內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="新增結構"
->abstract="結構會定義登入頁面的版面。 拖放 **結構** 元件放入畫布以開始設計登陸頁面。"
+>abstract="結構會定義登陸頁面的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的登陸頁面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="新增結構"
->abstract="結構會定義片段的配置。 拖放 **結構** 元件放入畫布以開始設計片段內容。"
+>abstract="結構會定義片段的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的片段內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="新增結構"
->abstract="結構會定義範本的版面。 拖放 **結構** 元件放入畫布以開始設計範本內容。"
+>abstract="結構會定義範本的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的範本內容。"
 
 
 >[!CONTEXTUALHELP]
@@ -62,33 +62,33 @@ ht-degree: 60%
 
    ![](assets/email_designer-from-scratch.png)
 
-1. 透過拖放方式開始設計您的電子郵件內容 **[!UICONTROL 結構]** 放入畫布以定義電子郵件的版面。
+1. 透過拖放方式開始設計電子郵件內容 **[!UICONTROL 結構]** 放入畫布以定義電子郵件的版面。
 
    >[!NOTE]
    >
    >堆疊欄與所有電子郵件程式都不相容。不支援時，不會堆疊欄。
 
-1. 新增任意數量 **[!UICONTROL 結構]** 視需要並在右側的專用窗格中編輯其設定。
+1. 新增相同數量 **[!UICONTROL 結構]** 視需要在右側的專用窗格中編輯其設定。
 
    ![](assets/email_designer_structure_components.png)
 
-1. 您可以選取 **[!UICONTROL n：n欄]** 元件以定義所選欄數（3到10之間）。 您也可以移動每個欄底部的箭頭來定義其寬度。
+1. 您可以選取 **[!UICONTROL n：n欄]** 元件以定義您選取的欄數（介於3到10之間）。 您也可以移動每個欄底部的箭頭來定義其寬度。
 
    >[!NOTE]
    >
    >每個欄的大小不能小於結構元件總寬度的 10%。如果欄不是空的，則無法移除。
 
-1. 從 **[!UICONTROL 元件]** 區段，視需要拖放多個元素至一或多個結構中。 [進一步了解內容元件](content-components.md)
+1. 從 **[!UICONTROL 元件]** 區段，將您需要的元素拖放至一或多個結構中。 [進一步了解內容元件](content-components.md)
 
-1. 每個元件都可進一步透過以下方式自訂： **[!UICONTROL 設定]** 或 **[!UICONTROL 樣式]** 索引標籤在右側。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
+1. 每個元件都可進一步使用進行自訂 **[!UICONTROL 設定]** 或 **[!UICONTROL 樣式]** 索引標籤在右側。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
 
    ![](assets/email_designer-styles.png)
 
 1. 插入個人化欄位，以根據設定檔資料自訂您的電子郵件內容。 [進一步了解內容個人化](../personalization/personalize.md)
 
-1. 新增內容連結。
+1. 將連結新增至您的內容。
 
-   按一下 **[!UICONTROL 連結]** 標籤，以顯示您要追蹤之內容的所有URL。 您可以修改其&#x200B;**[!UICONTROL 追蹤類型]**&#x200B;或&#x200B;**[!UICONTROL 標籤]**&#x200B;和新增&#x200B;**[!UICONTROL 類別]** (如果需要)。
+   按一下 **[!UICONTROL 連結]** 標籤來顯示您的內容中將要追蹤的所有URL。 您可以修改其&#x200B;**[!UICONTROL 追蹤類型]**&#x200B;或&#x200B;**[!UICONTROL 標籤]**&#x200B;和新增&#x200B;**[!UICONTROL 類別]** (如果需要)。
 
 [進一步了解連結和訊息追蹤](message-tracking.md)
 

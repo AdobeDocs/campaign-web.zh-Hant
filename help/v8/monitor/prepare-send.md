@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 46%
+ht-degree: 50%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 46%
 
 ## 準備傳送 {#prepare}
 
-當您已定義 [內容](../content/edit-content.md)， [對象](../audience/add-audience.md) 和排程，您就可以準備電子郵件傳遞了。
+當您定義 [內容](../content/edit-content.md)， [對象](../audience/add-audience.md) 排程時，您已準備好準備電子郵件傳遞。
 
 在準備期間，將計算目標母體，並為目標包含的每個設定檔產生訊息內容。準備作業完成後，就可以立即或在排程的日期和時間傳送訊息。
 
@@ -24,12 +24,12 @@ ht-degree: 46%
 
 準備傳送的主要步驟如下。
 
-1. 在傳遞控制面板中，按一下 **[!UICONTROL 檢閱並傳送]**.
+1. 從傳遞控制面板，按一下 **[!UICONTROL 檢閱並傳送]**.
 
    ![](assets/email-review-and-send.png)
 
 
-1. 按一下 **[!UICONTROL 準備]** 按鈕並確認。
+1. 按一下 **[!UICONTROL 準備]** 按鈕進行確認。
 
    ![](assets/email-prepare.png)
 
@@ -87,13 +87,13 @@ ht-degree: 46%
 
 一旦 [準備](#prepare) 完成，您現在可以傳送電子郵件。
 
-如果訊息已排程，則會在定義的日期和時間傳送。 [了解更多](#schedule-the-send)
+如果已排程訊息，則會在定義的日期和時間傳送訊息。 [了解更多](#schedule-the-send)
 
 ### 立即傳送 {#send-immediately}
 
 若要立即傳送電子郵件，請遵循下列步驟。
 
-1. 在傳遞控制面板中，按一下 **[!UICONTROL 傳送]** 按鈕。
+1. 在傳遞控制面板中，按一下 **[!UICONTROL 傳送]** 按鈕進行標籤。
 
    ![](assets/email-send.png)
 
@@ -103,15 +103,15 @@ ht-degree: 46%
 
 ### 排程傳送 {#schedule-the-send}
 
-如果您已排程在稍後日期和時間傳送電子郵件，請遵循下列步驟。
+如果您已排程在稍後日期及時間傳送電子郵件，請遵循下列步驟。
 
-1. 在您點選 **[!UICONTROL 檢閱並傳送]** 按鈕，確定您已為電子郵件定義排程。 [了解更多](../email/create-email.md#schedule)
+1. 在您點選 **[!UICONTROL 檢閱並傳送]** 按鈕，確定您已定義電子郵件的排程。 [了解更多](../email/create-email.md#schedule)
 
-1. 在傳遞控制面板中，按一下 **[!UICONTROL 依排程傳送按鈕]** 按鈕。
+1. 在傳遞控制面板中，按一下 **[!UICONTROL 依排程傳送按鈕]** 按鈕進行標籤。
 
    ![](assets/email-send-as-scheduled.png)
 
-1. 按一下 **[!UICONTROL 確認傳送]**. 傳遞將在排程日期傳送至主要目標。
+1. 按一下 **[!UICONTROL 確認傳送]**. 系統會在排程日期將傳遞傳送至主要目標。
 
    >[!NOTE]
    >
@@ -121,7 +121,7 @@ ht-degree: 46%
 
 無論您的傳送是否已排程，在傳送程式期間隨時可以執行兩個動作：
 
-* 按一下 **[!UICONTROL 暫停傳送]** 中斷訊息的傳送。 您可以隨時恢復傳送。
+* 按一下 **[!UICONTROL 暫停傳送]** 以中斷訊息的傳送。 您可以隨時恢復傳送。
 
 * 按一下 **[!UICONTROL 停止傳送]** 立即中斷傳送。 一旦停止，準備和傳送作業將無法恢復。
 
@@ -137,21 +137,21 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="錯誤量度"
->abstract="傳遞和自動傳回處理期間累計的錯誤總數（與已傳送訊息總數相關）。"
+>abstract="傳遞和自動傳回處理期間累積的錯誤總數與已傳送之訊息總數的關係。"
 
 傳送完成後，您可以檢查顯示的KPI：
 
 ![](assets/email-send-kpis.png)
 
-* **[!UICONTROL 已傳送]**：傳送的訊息數。 顯示的百分比是根據要傳送的訊息總數。
+* **[!UICONTROL 已傳送]**：傳送的訊息數。 顯示的百分比是以要傳送的訊息總數為基礎。
 
 * **[!UICONTROL 已傳遞]**：已成功傳遞的訊息數。會根據已傳送訊息的總數顯示百分比。
 
-* **[!UICONTROL 開啟]**：已開啟的訊息數。顯示的百分比是不同開啟次數與已傳遞訊息數的比較。
+* **[!UICONTROL 開啟]**：已開啟的訊息數。顯示的百分比是不同開啟次數與已傳送訊息次數的比較。
 
-* **[!UICONTROL 點按次數]**：在電子郵件中按一下至少一次的收件者人數。 顯示的百分比是相較於已傳遞訊息數的不同點按次數。
+* **[!UICONTROL 點按次數]**：在電子郵件中至少點按一次的收件者人數。 顯示的百分比是相較於已傳遞訊息數量的不同點按次數。
 
-* **[!UICONTROL 錯誤]**：具有錯誤狀態的電子郵件數量。 會根據已傳送訊息的總數顯示百分比。
+* **[!UICONTROL 錯誤]**：包含錯誤狀態的電子郵件數量。 會根據已傳送訊息的總數顯示百分比。
 
 >[!NOTE]
 >

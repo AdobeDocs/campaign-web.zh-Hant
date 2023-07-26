@@ -284,8 +284,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
->title="儲存對象的出站轉變"
->abstract="tbc"
+>title="為儲存對象傳出轉變"
+>abstract="待定"
 
 
 <!-- delivery template settings-->
