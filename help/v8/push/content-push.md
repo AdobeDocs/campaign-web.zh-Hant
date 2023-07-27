@@ -3,9 +3,9 @@ audience: end-user
 title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 badge: label="Alpha"
-source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
+source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1309'
 ht-degree: 5%
 
 ---
@@ -70,6 +70,13 @@ ht-degree: 5%
 >[!ENDTABS]
 
 ## 推播通知進階設定 {#push-advanced}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings"
+>title="推播通知的進階設定"
+>abstract="定義推播通知的進階設定，例如其優先順序、關聯的通知計數、應用程式變數等。"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
