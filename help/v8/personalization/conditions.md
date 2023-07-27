@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: c977f8e3567a478fa46dc8914c329ca4e8dd3274
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '953'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,13 @@ ht-degree: 9%
 >id="acw_homepage_card3"
 >title="建立條件式內容"
 >abstract="建立條件式內容以根據收件者的設定檔建立動態個人化，在符合特定條件時自動取代文字區塊和影像。此功能可以將您的行銷活動提升到新的高度，並為您的對象提供目標明確的個人化體驗。"
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditional_content"
+>title="新增條件式內容"
+>abstract="設定條件內容欄位，以根據收件者的設定檔資料建立進階動態個人化。 當滿足特定條件時，會在訊息內容中取代文字區塊、連結、主旨行和/或影像。"
 
 條件式內容是一項強大的功能，可讓您根據收件者的設定檔建立動態個人化，在滿足某些條件時自動取代文字區塊和影像。 此功能可以將您的行銷活動提升到新的高度，並為您的對象提供目標明確的個人化體驗。
 
