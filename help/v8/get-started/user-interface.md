@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: d98c7d9edce5971e01ec983f0d1d3e0a55004c1b
+source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 97%
+source-wordcount: '1582'
+ht-degree: 94%
 
 ---
 
@@ -174,6 +174,11 @@ Campaign v8 Web 目前提供以下語言版本：
 1. 選取您偏好的語言，然後按一下「**儲存**」。您可以選取第二語言，以防您使用的元件沒有您第一語言的版本。
 
 
+## 了解更多 {#learn-more}
+
+瞭解如何瀏覽、搜尋和篩選您的Campaign環境中可用的清單 [在此頁面中](list-filters.md).
+
+
 <!--
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
@@ -181,9 +186,6 @@ Campaign v8 Web 目前提供以下語言版本：
 REFER TO 
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
-
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -276,6 +278,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="錯誤"
 >abstract="錯誤 KPI"
 
+<!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
@@ -292,6 +295,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="儲存對象"
 >abstract="使用此活動來儲存工作流程對象。"
 
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="此工作流程為唯讀"
+>abstract="您沒有編輯此工作流程的許可權。 如有需要，請聯絡您的管理員以授予您存取權。"
 
 <!-- delivery template settings-->
 
