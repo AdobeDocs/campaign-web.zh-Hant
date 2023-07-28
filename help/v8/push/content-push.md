@@ -3,14 +3,14 @@ audience: end-user
 title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 badge: label="Alpha"
-source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
+source-git-commit: c6cbb60086d159103a7a28f10eb2874a6dd20a9c
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1347'
 ht-degree: 5%
 
 ---
 
-# 設計推播傳遞 {#content-push}
+# 設計推播訊息傳送 {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -106,6 +106,11 @@ ht-degree: 5%
 >title="iOS的應用程式變數"
 >abstract="使用應用程式變數來定義通知行為。 這些變數可完全自訂，並包含在傳送至行動裝置的訊息裝載中。"
 
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_category"
+>title="iOS的類別ID"
+>abstract="指定與通知相關聯的類別ID名稱。 如此可顯示動作按鈕，讓使用者直接從通知執行各種工作，而不需開啟應用程式。"
 
 
 >[!BEGINTABS]
