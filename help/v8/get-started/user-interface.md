@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
 workflow-type: tm+mt
 source-wordcount: '1582'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -106,9 +106,9 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="優惠"
->abstract="瀏覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期篩選清單。 也提供優惠範本。這些是唯讀清單。"
+>abstract="瀏覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些是唯讀清單。"
 
-* **優惠** - 覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期篩選清單。 也提供優惠範本。這些是唯讀清單。
+* **優惠** - 覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些是唯讀清單。
 
 若要了解如何建立管理優惠方案，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}。
 
