@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
+source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 93%
+source-wordcount: '1667'
+ht-degree: 91%
 
 ---
 
@@ -288,6 +288,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="此傳遞為唯讀"
 >abstract="您沒有編輯此傳送的許可權。 如有需要，請聯絡您的管理員以授予您存取權。"
 
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="此服務是唯讀的"
+>abstract="您沒有編輯此服務的許可權。 如有需要，請聯絡您的管理員以授予您存取權。"
+
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
@@ -310,6 +315,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_wf_read_only"
 >title="此工作流程為唯讀"
 >abstract="您沒有編輯此工作流程的許可權。 如有需要，請聯絡您的管理員以授予您存取權。"
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="此工作流程為唯讀"
+>abstract="由於不支援或不相容的畫布，您無法編輯此工作流程。"
 
 <!-- delivery template settings-->
 
