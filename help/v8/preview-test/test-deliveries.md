@@ -4,10 +4,10 @@ title: 傳送測試傳遞
 description: 瞭解如何定義並傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
+source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '1030'
+ht-degree: 5%
 
 ---
 
@@ -58,6 +58,11 @@ ht-degree: 4%
 >id="acw_deliveries_simulate_test_upload"
 >title="上傳設定檔"
 >abstract="如果您想要使用與主要目標所用集合不同的集合來測試您的傳送，則可以上傳包含其他設定檔的第二個檔案。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_sample"
+>title="範本檔案"
+>abstract="檔案的格式必須與原始檔案相同。<br/>支援的檔案格式：txt、csv。檔案大小上限： 15MB。 使用第一行作為欄標題。"
 
 1. 瀏覽至電子郵件或簡訊傳送的編輯內容畫面，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
