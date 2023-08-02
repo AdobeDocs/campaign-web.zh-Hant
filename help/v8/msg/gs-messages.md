@@ -7,7 +7,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[了解�
 
 * 建立&#x200B;**條件式內容**
 
-  例如，設定條件式內容，以根據收件者的設定檔新增動態個人化。 特定條件為真時，即可插入文字區塊及/或影像。[了解更多](../personalization/conditions.md)
+  例如，設定條件式內容以根據收件者的設定檔新增動態個人化。特定條件為真時，即可插入文字區塊及/或影像。[了解更多](../personalization/conditions.md)
 
 * 新增&#x200B;**個人化優惠方案**
 
