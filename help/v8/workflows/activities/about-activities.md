@@ -5,9 +5,9 @@ description: 了解如何使用工作流程活動
 badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 * 「[建置對象](build-audience.md)」活動可讓您定義目標母體。您可以選取現有對象或使用規則產生器定義自己的查詢。
 * 「[組合](combine.md)」活動則可讓您對傳入母體執行分段。您可以使用聯合、交集或排除。
 * 「[擴充](enrichment.md)」活動可讓您定義要在工作流程中處理的其他資料。透過此活動，您可以利用傳入轉變並設定活動，以使用其他資料完成傳出轉變。
-* 此 [Split](split.md) 活動可讓您將傳入母體分段為數個子集。
+* [分割](split.md)活動可讓您將傳入母體分割到幾個子集。
 
 ## 管道活動 {#channel}
 
