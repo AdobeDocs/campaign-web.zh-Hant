@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -51,13 +51,13 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
->title="證明的目標"
->abstract="如果您要在傳送至主要目標之前測試您的傳遞，可以上傳第二個檔案作為「校樣的目標」。"
+>title="校訂的目標"
+>abstract="如果想要在發送到主要目標之前測試您的傳遞，可以上傳第二個檔案做為「校訂的目標」。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
 >title="上傳設定檔"
->abstract="如果您想要使用與主要目標所用集合不同的集合來測試您的傳送，則可以上傳包含其他設定檔的第二個檔案。"
+>abstract="如果想要透過和已經用於主要目標不同的集合測試您的傳遞，則可以上傳包含其他設定檔的第二個檔案。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"

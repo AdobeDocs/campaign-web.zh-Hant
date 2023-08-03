@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 91%
 
 * **行銷活動** - 這是您的行銷活動清單以及行銷活動範本。預設情況下，您可以針對每個行銷活動檢視開始/結束/建立/最後修改日期、目前狀態以及建立該活動之行銷活動操作人員的姓名。您可以依狀態、開始/結束日期、資料夾篩選清單，或建立進階篩選以定義您自己的篩選標準。若要了解行銷活動的詳細資訊，請參閱[本章節](../campaigns/gs-campaigns.md)。
 
-* **傳遞** - 瀏覽您的傳遞清單。依預設，您可以檢視其狀態、最後修改日期，以及 KPI。您可以依狀態、聯絡日期或管道來篩選清單。 按一下電子郵件傳遞來開啟其儀表板以取得傳遞詳細資料概觀。其他管道上的傳遞是唯讀的。若要了解傳遞的詳細資訊，請參閱[本章節](../msg/gs-messages.md)。
+* **傳遞** - 瀏覽您的傳遞清單。依預設，您可以檢視其狀態、最後修改日期，以及 KPI。您可以依狀態、聯絡日期或管道篩選清單。按一下電子郵件傳遞來開啟其儀表板以取得傳遞詳細資料概觀。其他管道上的傳遞是唯讀的。若要了解傳遞的詳細資訊，請參閱[本章節](../msg/gs-messages.md)。
 
   使用「**更多動作**」按鈕來刪除或複製傳遞。
 
@@ -281,17 +281,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
 >title="此行銷活動為唯讀"
->abstract="您沒有編輯此行銷活動的許可權。 如有需要，請聯絡您的管理員以授予您存取權。"
+>abstract="您沒有編輯此行銷活動的許可權。 如果需要，請聯絡管理員授予您存取的權限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_read_only"
 >title="此傳遞為唯讀"
->abstract="您沒有編輯此傳送的許可權。 如有需要，請聯絡您的管理員以授予您存取權。"
+>abstract="您沒有編輯此傳送的許可權。 如果需要，請聯絡管理員授予您存取的權限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="此服務是唯讀的"
->abstract="您沒有編輯此服務的許可權。 如有需要，請聯絡您的管理員以授予您存取權。"
+>abstract="您沒有編輯此服務的許可權。 如果需要，請聯絡管理員授予您存取的權限。"
 
 <!-- Workflows-->
 
@@ -314,7 +314,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
 >title="此工作流程為唯讀"
->abstract="您沒有編輯此工作流程的許可權。 如有需要，請聯絡您的管理員以授予您存取權。"
+>abstract="您沒有編輯此工作流程的權限。如果需要，請聯絡管理員授予您存取的權限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"

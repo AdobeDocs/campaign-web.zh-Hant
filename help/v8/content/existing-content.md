@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 01f6becfdfbdbb071f4ddc275d9b0907e42143ce
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 56%
+ht-degree: 85%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="使用現有的電子郵件內容"
->abstract="電子郵件設計工具可讓您匯入現有的HTML內容。 此內容可以是包含合併樣式表的HTML檔案，或包含HTML檔案、樣式表(.css)和影像的.zip資料夾。"
+>abstract="電子郵件設計工具可讓您匯入現有的 HTML 內容。 此內容可以是附有整合樣式表的 HTML 檔案，或是附有 HTML 檔案、樣式表 (.css) 和影像的 .zip 資料夾。"
 
-電子郵件設計工具可讓您匯入現有的HTML內容。 此內容可以是：
+電子郵件設計工具可讓您匯入現有的 HTML 內容。 此內容可以是：
 
 * **HTML 檔案**，內含整合的樣式表，
 * **.zip 資料夾**，內含 HTML 檔案、樣式表 (.css) 和影像。
