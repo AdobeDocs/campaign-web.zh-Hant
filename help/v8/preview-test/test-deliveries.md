@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
 >title="範本檔案"
->abstract="檔案的格式必須與原始檔案相同。<br/>支援的檔案格式：txt、csv。檔案大小上限： 15MB。 使用第一行作為欄標題。"
+>abstract="檔案格式必須與原始檔案相同。<br/>支援的檔案格式：txt、csv。檔案大小上限：15MB。使用第一行作為欄標題。"
 
 1. 瀏覽至電子郵件或簡訊傳送的編輯內容畫面，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
