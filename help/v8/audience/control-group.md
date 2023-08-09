@@ -104,7 +104,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="額外族群"
->abstract="您可以透過選取現有對象或定義查詢，將特定族群從傳遞對象中排除。"
+>abstract="定義控制組的另一種方法是使用現有對象或定義查詢從目標中排除特定族群。"
 
 定義控制組的另一種方式是選取現有對象中的特定母體，或藉由定義查詢來進行。
 
