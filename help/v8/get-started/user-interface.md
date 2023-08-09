@@ -260,13 +260,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
->title="點擊數"
->abstract="點擊數 KPI"
+>title="點按次數"
+>abstract="點按次數 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
->title="取消訂閱"
->abstract="取消訂閱 KPI"
+>title="取消訂閱次數"
+>abstract="取消訂閱次數 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -275,8 +275,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
->title="錯誤"
->abstract="錯誤 KPI"
+>title="錯誤次數"
+>abstract="錯誤次數 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
