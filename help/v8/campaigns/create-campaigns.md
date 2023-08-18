@@ -21,7 +21,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
->title="Campaign 屬性"
+>title="行銷活動屬性"
 >abstract="定義您的行銷活動設定和中繼資料。"
 
 若要建立新行銷活動，您必須定義其屬性、排程並包含工作流程和傳遞。
