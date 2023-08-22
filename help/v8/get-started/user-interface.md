@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
+source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 98%
+source-wordcount: '2263'
+ht-degree: 72%
 
 ---
 
@@ -39,6 +39,98 @@ ht-degree: 98%
 「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。
 
 從首頁的&#x200B;**學習**&#x200B;章節存取 Campaign v8 Web 重要說明頁面。
+
+
+#### 關鍵績效指標 {#user-interface-key-indicators}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="垃圾郵件"
+>abstract="垃圾郵件 KPI"
+
+瀏覽至首頁，檢查平台的關鍵績效指標。 這些指標顯示已傳遞、已開啟、已點按、取消訂閱和錯誤率的訊息數目和百分比。
+
+系統依預設會針對過去7天內傳送的傳遞計算量度。 您可以從卡片右上方的下拉式清單中變更期間。 已排除傳送至測試設定檔的訊息。
+
+您可以選取要顯示的管道。 依預設，這些指標會反映電子郵件通道的量度。
+
+![](assets/kpi.png)
+
+#### 訊息已傳遞 {#ui-delivered-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="已傳遞"
+>abstract="此量度針對選取的管道顯示成功處理的所有訊息總數，以及成功傳遞的訊息佔已傳送訊息總數的百分比。"
+
+
+此 **已傳遞** 指標針對每個管道顯示下列KPI：
+
+* 成功傳遞的訊息數與要傳送的訊息總數相比的百分比。
+
+* 成功處理的所有訊息總數。
+
+在Adobe Campaign中，將訊息標示為「已傳遞」的規則為：
+
+「種子地址」欄位等於「否」且狀態等於「服務提供者已考慮」（適用於簡訊）、「已傳送」（適用於電子郵件）或「在行動裝置上接收」（適用於推播通知）的訊息計數。
+
+
+#### 總開啟次數 {#ui-open-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="開啟次數"
+>abstract="此量度針對選取的管道顯示所有開啟的訊息總數，以及開啟的訊息佔成功傳送之訊息總數的百分比。"
+
+此 **開啟次數** 指標針對每個管道顯示下列KPI：
+
+* 開啟的訊息數與成功傳遞的訊息總數相比的百分比。
+
+* 每個頻道所有開啟的訊息總數。
+
+當收件者下載電子郵件中的影像時，Adobe Campaign會偵測訊息開啟。 HTML和多部分/替代電子郵件包含0畫素影像，可讓您偵測已開啟的訊息。 由於文字格式的訊息不含任何影像，因此無法偵測其是否已開啟。 由於連結至影像顯示的錯誤邊界，根據訊息開啟計算出的值一律為預估值。
+
+#### 點按率 {#ui-click-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="點按次數"
+>abstract="此量度針對選取的管道顯示訊息中所有URL點按量的總和，以及與成功傳遞的訊息總數相比的點按百分比。"
+
+此 **點按次數** 指標針對每個管道顯示下列KPI：
+
+* 與成功傳送的訊息總數相比較的點按次數百分比。
+
+* 在傳遞中按一下至少一次的不同人數。 會排除取消訂閱連結和映象頁面的連結。
+
+此量度是根據整合的追蹤表格(`nms:trackingStats`)。 基於效能原因，在顯示報表時，此彙總表格會用來取代收件者追蹤記錄表格(`nms:trackingLogRcp`)且不會即時計算。 表格會在擷取追蹤記錄後的幾分鐘內產生。
+
+
+#### 取消訂閱率 {#ui-unsub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="取消訂閱次數"
+>abstract="此量度針對選取的管道顯示服務的所有取消訂閱總數，以及取消訂閱相對於成功傳送之訊息總數的百分比。"
+
+此 **取消訂閱** 指標針對每個管道顯示下列KPI：
+
+* 取消訂閱數與成功傳遞的訊息總數相比的百分比。
+
+* 對取消訂閱連結的所有點按總和，亦即URL類別等於「選擇退出」。
+
+
+#### 錯誤率 {#ui-error-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="錯誤次數"
+>abstract="傳遞和自動退回處理期間累計的錯誤總數。 相關比率是指要傳送之訊息數量的比率。"
+
+* 錯誤數與要傳遞的訊息總數相比的百分比。
+
+* 傳遞和自動復原處理期間累計的錯誤總數。
+
 
 ### 總管 {#user-interface-explorer}
 
@@ -248,35 +340,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="需要權限"
 >abstract="您的管理員必須先授予您權限，然後您才能建立區段。"
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="已傳遞"
->abstract="已傳遞的 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="開啟次數"
->abstract="開啟次數 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="點按次數"
->abstract="點按次數 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="取消訂閱次數"
->abstract="取消訂閱次數 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="垃圾郵件"
->abstract="垃圾郵件 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="錯誤次數"
->abstract="錯誤次數 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"

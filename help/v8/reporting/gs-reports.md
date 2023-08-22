@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用報告
 description: 了解如何在 Campaign Web 中存取和管理報告
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '173'
+source-git-commit: 12578ed208ba9261b69ba5907c0083e483248a49
+workflow-type: tm+mt
+source-wordcount: '172'
 ht-degree: 100%
 
 ---
