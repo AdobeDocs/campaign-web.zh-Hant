@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
+source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2286'
 ht-degree: 72%
 
 ---
@@ -38,10 +38,12 @@ ht-degree: 72%
 
 「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。
 
+此 **關鍵績效指標** 可讓您透過常見KPI檢查平台效益。
+
 從首頁的&#x200B;**學習**&#x200B;章節存取 Campaign v8 Web 重要說明頁面。
 
 
-#### 關鍵績效指標 {#user-interface-key-indicators}
+### 關鍵績效指標 {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -126,6 +128,8 @@ ht-degree: 72%
 >id="acw_keyindicators_errors"
 >title="錯誤次數"
 >abstract="傳遞和自動退回處理期間累計的錯誤總數。 相關比率是指要傳送之訊息數量的比率。"
+
+此 **錯誤** 指標針對每個管道顯示下列KPI：
 
 * 錯誤數與要傳遞的訊息總數相比的百分比。
 
