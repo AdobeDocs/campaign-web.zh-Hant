@@ -4,10 +4,10 @@ title: 電子郵件傳遞設定
 description: 進一步了解 Campaign Web UI 中的電子郵件傳遞設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 761a6d318ccb8b4075d5a25e2c9de573b998d424
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 93%
+source-wordcount: '1392'
+ht-degree: 88%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 93%
 
 
 ### 壓力參數 {#pressure-parameters}
-
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
->title="傳遞權重"
->abstract="傳遞權重可讓您確認壓力管理架構內最優先的傳遞。權重最高的訊息具有優先順序。"
-
+>title="Delivery weight"
+>abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
+-->
 在此區段中，壓力參數可讓您定義&#x200B;**臨界值**。這是在一段時間內可以傳送到一個設定檔的訊息數上限。一旦達到此臨界值時，在考慮到該期間結束之前，將不再進行傳送。此程序可以讓您在訊息超過設定的臨界值時，自動將設定檔排除在傳送之外，以避免過度請求。
 
 臨界值可以是常數或變數。這表示在指定期間，臨界值可能會因某個設定檔而異，甚至會因為相同的設定檔而有所不同。
@@ -67,9 +67,9 @@ ht-degree: 93%
 ### 產能設定 {#capacity-settings}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_recipient_importance"
->title="收件者的重要性"
->abstract="收件者的重要性是一種公式，用於確定在超出產能類型規則時要保留哪些收件者。"
+>id="acw_email_settings_capacity_settings"
+>title="產能設定"
+>abstract="選取Adobe Campaign v8主控台中定義的容量規則。 此規則與電子郵件管道相關聯。"
 
 在此區段中，您可以選取在 Adobe Campaign v8 主控台中定義的產能規則。此規則與電子郵件管道相關聯。
 
@@ -86,6 +86,11 @@ ht-degree: 93%
 
 ## 傳遞 {#delivery}
 
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_delivery"
+>title="傳遞設定"
+>abstract="傳遞參數是套用到傳遞的技術設定。"
+
 傳遞參數是套用到傳遞的技術設定。
 
 * **路由**：預設提供整合的電子郵件路由外部帳戶。其包含可讓應用程式傳送電子郵件的技術參數。
@@ -98,21 +103,18 @@ ht-degree: 93%
 
 ### 重試次數 {#retries}
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_retries"
->title="最多重試次數"
->abstract="如果訊息由於臨時錯誤而失敗，則會重試到傳遞期間結束為止。"
-
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
 進一步瞭解重試管理，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## 核准 {#approval}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="核准模式"
->abstract="傳遞的每個步驟可能都需要經過核准，以確保對各個流程進行全面監視。"
+>title="Approval mode"
+>abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
+-->
 
 如果在傳遞準備期間產生警告，您可以設定傳遞以定義它是否仍應執行。依預設，使用者必須在分析階段結束時確認傳送訊息：這是&#x200B;**手動**&#x200B;驗證。
 
@@ -128,15 +130,16 @@ ht-degree: 93%
 ## 有效期 {#validity}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_duration"
->title="傳遞期間"
->abstract="「傳遞期間」欄位可讓您輸入全域傳遞重試的限制。這表示 Adobe Campaign 會傳送從開始日期開始的訊息，然後，對於僅傳回錯誤的訊息，會執行一般、可設定的重試，直到達到效度限制為止。"
+>id="acw_email_settings_validity"
+>title="設定有效性"
+>abstract="「傳遞期間」欄位可讓您輸入全域傳遞重試的限制。這表示Adobe Campaign會從開始日期開始傳送訊息，然後針對傳回錯誤的訊息，執行一般、可設定的重試，直到達到有效性限製為止。有效性限制欄位用於上傳的資源，例如映象頁面或影像。 這些資源在有限的時間內有效：一旦達到限制，資源將不再可用。"
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
->title="資源有效期限制"
->abstract="「效度限制」欄位是用於上傳的資源，主要用於鏡像頁面和影像。這些資源在有限的時間內有效：一旦達到限制，資源將不再可用。"
-
+>title="Resources validity limit"
+>abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
+-->
 
 「**傳遞期間**」欄位可讓您輸入全域傳遞重試的限制。這表示 Adobe Campaign 會傳送從開始日期開始的訊息，然後，對於僅傳回錯誤的訊息，會執行一般、可設定的重試，直到達到效度限制為止。
 
@@ -163,10 +166,12 @@ ht-degree: 93%
 
 ### 追蹤 {#tracking}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
->title="有效期限"
->abstract="此選項會定義在 URL 上啟動追蹤的持續時間。"
+>title="Validity period"
+>abstract="This option defines the duration for which the tracking is activated on the URLs."
+-->
 
 追蹤參數是在相關區段中定義。可能的選項包括：
 
