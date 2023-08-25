@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: f4d72c5dfb1aa4fbc73ab8ffc13d42396d9a1136
+source-git-commit: bbe4ed0ce05048cf22a18a36967b9a4c0422d93f
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2567'
 ht-degree: 64%
 
 ---
@@ -457,3 +457,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_workflow_list"
 >title="行銷活動中的工作流程清單"
 >abstract="行銷活動中的工作流程清單"
+
+<!-- delivery settings-->
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="傳遞設定對象"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_approval"
+>title="傳遞設定核准"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="傳遞設定測試設定"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="傳遞設定網站分析"
+>abstract="待定"
