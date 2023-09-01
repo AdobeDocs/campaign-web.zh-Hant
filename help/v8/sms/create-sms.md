@@ -2,16 +2,16 @@
 audience: end-user
 title: 建立簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '312'
 ht-degree: 91%
 
 ---
 
-# 建立 SMS 傳送 {#create-sms}
+# 建立簡訊傳遞 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"

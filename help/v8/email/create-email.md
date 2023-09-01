@@ -3,8 +3,8 @@ audience: end-user
 title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Alpha"
-source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 89%
@@ -41,7 +41,7 @@ ht-degree: 89%
 
 1. 瀏覽至 **[!UICONTROL 傳遞]** 功能表，然後按一下  **[!UICONTROL 建立傳遞]** 按鈕。
 
-1. 選取 **[!UICONTROL 電子郵件]** 作為頻道，並從清單中選擇電子郵件傳遞範本。
+1. 選取 **[!UICONTROL 電子郵件]** 做為頻道，並從清單中選擇電子郵件傳遞範本。
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ ht-degree: 89%
 
    ![](assets/select-template.png)
 
-1. 選取範本後，範本會顯示在 [電子郵件設計工具](../content/create-email-content.md)，您可在此進行任何必要的編輯並新增個人化。
+1. 選取範本後，它會顯示在 [電子郵件設計工具](../content/create-email-content.md)，您可在此進行任何必要的編輯並新增個人化。
 
    例如，若要為電子郵件標題新增個人化，請選取元件區塊，然後按一下「**[!UICONTROL 新增個人化]**」。
 
@@ -121,7 +121,7 @@ ht-degree: 89%
    >
    >清單中的對象源自於您的 Campaign v8 執行個體或 Adobe Experience Platform (如果已在您的執行個體上設定目的地/來源)。
    >
-   >目的地/來源整合可讓您傳送 Experience Platform 區段至 Adobe Campaign，並將 Campaign 傳遞和追蹤記錄傳送到 Adobe Experience Platform。瞭解如何在中使用Campaign和Adobe Experience Platform [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+   >目的地/來源整合可讓您傳送 Experience Platform 區段至 Adobe Campaign，並將 Campaign 傳遞和追蹤記錄傳送到 Adobe Experience Platform。瞭解如何在中使用Campaign和Adobe Experience Platform [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. 選取對象後，您可以套用其他規則進一步調整目標。
 

@@ -2,8 +2,8 @@
 audience: end-user
 title: 傳送簡訊傳遞
 description: 瞭解如何使用Adobe Campaign網頁版傳送簡訊
-badge: label="Alpha"
-source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 16%

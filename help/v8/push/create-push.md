@@ -2,11 +2,11 @@
 audience: end-user
 title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
-badge: label="Alpha"
-source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 65%
+source-wordcount: '329'
+ht-degree: 68%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 65%
 
 1. 可從「**[!UICONTROL 傳遞]**」首頁，按一下「**[!UICONTROL 建立傳遞]**」。
 
-1. 在 **[!UICONTROL 頻道]** 區段，選擇推播通知作為頻道，並根據選擇的作業系統選擇範本：Android或iOS。 [了解範本的詳細資訊](../msg/delivery-template.md)
+1. 在 **[!UICONTROL 頻道]** 區段，選擇推播通知作為頻道，並根據選擇的作業系統選取範本：Android或iOS。 [了解範本的詳細資訊](../msg/delivery-template.md)
 
 1. 按一下「**[!UICONTROL 建立傳遞]**」按鈕以確認。
 

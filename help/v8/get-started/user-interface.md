@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: cc3209d8aba62ff4492e71eaaa641e77f5a27e93
+source-git-commit: 970a7c7af8b94e96d33ef2e41f8ddcfda322252c
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '1726'
 ht-degree: 99%
 
 ---
@@ -42,127 +42,20 @@ ht-degree: 99%
 
 從首頁的「**學習**」區段存取 Campaign v8 Web 重要說明頁面。
 
-
-### 關鍵績效指標 {#user-interface-key-indicators}
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="垃圾郵件"
->abstract="垃圾郵件 KPI"
-
-瀏覽至首頁，查看您平台的關鍵績效指標。這些指標可顯示已傳遞、已開啟、已點擊的訊息、取消訂閱和發生錯誤率的數量和百分比。
-
-量度是針對過去 7 天內 (依預設) 發送的傳遞資料來計算。您可以從卡右上角的下拉式清單中變更時段。發送以測試設定檔的訊息不包括在內。
-
-您可以選取要顯示的管道。依預設，這些指標可反映電子郵件管道的度量。
-
-![](assets/kpi.png)
-
-#### 已傳遞的訊息 {#ui-delivered-kpi}
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="已傳遞"
->abstract="此量度可顯示對於所選管道，所有已成功處理訊息的總計以及已成功傳遞訊息佔已發送訊息總數的百分比。"
-
-已傳遞訊息數量可反映您的傳遞率。由於以下原因，傳遞率絕不可能是 100%：有些位址或電話號碼可能是錯誤的，電子郵件提供者的垃圾郵件攔截器可能會拒絕您的郵件，或者傳遞能力可能會發生問題。
-
-**傳遞**&#x200B;指標會顯示每個管道的以下 KPI 值：
-
-* 已成功傳遞訊息的數量佔已發送訊息總數的百分比。
-
-* 所有已成功處理訊息的總計。
-
-在Adobe Campaign 中，將郵件標記為「已傳遞」的規則是：
-
-以下訊息的計數：「種子地址」欄位等於「否」且狀態等於「服務提供者已考慮」(關於 SMS) 或「已發送」(關於電子郵件) 或「在行動裝置上收到」(關於推播通知)。
-
-
-#### 總開啟次數 {#ui-open-kpi}
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="開啟次數"
->abstract="此量度可顯示 (關於所選管道) 所有已開啟訊息的總計以及已開啟訊息佔已成功傳遞訊息總數的百分比。"
-
-總開啟次數是以追蹤一封訊息被開啟的總次數來計算，無論這些訊息的開啟次數是由多少位個人收件者生成。這個指標僅適用於電子郵件。
-
-**開啟次數**&#x200B;指標會顯示每個管道的以下 KPI 值：
-
-* 已開啟訊息的數量佔已成功傳遞訊息總數的百分比。
-
-* 每個管道所有已開啟訊息的總計。
-
-當收件人下載電子郵件中的影像時，Adobe Campaign 會檢測到訊息開啟。HTML 和多重部分/替代的電子郵件包含一個 0 像素影像，讓您能夠檢測那些已開啟的訊息。由於文字格式的訊息不包含任何影像，因此無法檢測這類訊息是否已被開啟。由於與影像顯示相關的誤差範圍，根據訊息開啟次數計算的數值一定是估計值。
-
-
-
-#### 點進率 {#ui-click-kpi}
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="點按次數"
->abstract="此量度可顯示 (關於所選管道) 訊息中所有已點擊 URL 的總計以及點擊佔已成功傳遞訊息總數的百分比。"
-
-您可以在訊息內容中新增 URL，這可將收件人重定導向至特定頁面。點進率會衡量已點擊訊息內連結的收件人數量和百分比。
-
-**點擊**&#x200B;指標會顯示每個管道的以下 KPI 值：
-
-* 點擊的數量佔已成功傳遞訊息總數的百分比。
-
-* 在一次傳遞中至少點擊一次的不同人的數量。取消訂閱連結和電子郵件鏡像頁面的連結不包括在內。
-
-該量度是根據綜合追蹤表 (`nms:trackingStats`) 來計算。此彙總表格是顯示報告時為了績效原因而使用，用來代替收件人追蹤記錄表 (`nms:trackingLogRcp`)，且這不是即時計算的值。此表會在擷取追蹤記錄後幾分鐘生成。
-
-
-#### 取消訂閱率 {#ui-unsub-kpi}
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="取消訂閱次數"
->abstract="此量度可顯示 (所選管道) 一項服務所有取消訂閱的總計，以及取消訂閱佔已成功傳遞訊息總數的百分比。"
-
-收件人必須能夠通過電子郵件內容中的專用取消訂閱鏈接或通過回复 SMS 停止來選擇退出電子郵件和 SMS。
-
-**取消訂閱**&#x200B;指標會顯示每個管道的以下 KPI 值：
-
-* 取消訂閱數量佔已成功傳遞訊息總數的百分比。
-
-* 所有在取消訂閱連結上的點擊數，即等於「選擇退出」的 URL 類別。
-
-
-#### 錯誤率 {#ui-error-kpi}
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="錯誤次數"
->abstract="傳遞和自動退回處理期間累積的錯誤總數。關聯率是要傳遞訊息數量的比率。"
-
-Adobe Campaign 平台發送的部份訊息可能無法到達目的地。當使用者位址或電話號碼寫錯、收件人已變更電子郵件地址或者郵箱已滿時，可能會發生這種情況。如果無法將訊息發送到設定檔，遠端伺服器會自動向Adobe Campaign 發送錯誤消息。這項錯誤能確定是否應隔離電子郵件地址、電話號碼或裝置。
-
-因此，您應該隨時檢查和更新資料庫，並確保所有設定檔均有效且真實。傳遞錯誤可能是暫時性或永久性 (軟退回或硬退回)，具體取決於訊息未傳遞的原因。
-
-**錯誤**&#x200B;指標會顯示每個管道的以下 KPI 值：
-
-* 錯誤數量佔要傳遞訊息總數的百分比。
-
-* 傳遞和自動退回處理期間累積的錯誤總數。
-
-
-### 總管 {#user-interface-explorer}
+### 探索工具 {#user-interface-explorer}
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
->title="總管"
->abstract="**總管**&#x200B;選單會顯示所有 Campaign 元件以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。所有其他清單都是唯讀。"
+>title="探索工具"
+>abstract="**探索工具**&#x200B;選單會顯示所有 Campaign 元件以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。所有其他清單都是唯讀。"
 
-**總管**&#x200B;選單會顯示所有 Campaign 資源以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。所有其他清單都是唯讀。
+**探索工具**&#x200B;選單會顯示所有 Campaign 資源以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。所有其他清單都是唯讀。
 
-總管中顯示的項目取決於您的使用者權限。
+探索工具中顯示的項目取決於您的使用者權限。
 
 如同任何清單畫面，您可以設定欄來個人化顯示以檢視所有您需要的資訊。請參閱本[章節](#list-screens)。
 
-如需 Campaign 總管、資料夾階層和資源的詳細資訊，請參閱此 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}。
+如需 Campaign 探索工具、資料夾階層和資源的詳細資訊，請參閱此 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}。
 
 ### 行銷活動管理 {#user-interface-campaign-management}
 
@@ -415,7 +308,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
->title="資源有效期限制"
+>title="資源效度限制"
 >abstract="「效度限制」欄位是用於上傳的資源，主要用於鏡像頁面和影像。這些資源在有限的時間內有效：一旦達到限制，資源將不再可用。"
 
 >[!CONTEXTUALHELP]
@@ -447,6 +340,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_reporting_email_exportation"
 >title="匯出"
 >abstract="您只能匯出選取的頁面。"
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sending"
+>title="全域報告傳送"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_tracking"
+>title="全域報表追蹤"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
@@ -482,10 +385,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
->title="Campaign中的傳遞範本"
+>title="Campaign 中的傳遞範本"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_for_campaign"
->title="Campaign中的工作流程範本"
+>title="Campaign 中的工作流程範本"
 >abstract="待定"

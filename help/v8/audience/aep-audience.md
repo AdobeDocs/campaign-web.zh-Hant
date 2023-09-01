@@ -2,9 +2,9 @@
 audience: end-user
 title: 使用 Adobe Experience Platform 對象
 description: 了解如何使用 Adobe Experience Platform 對象
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 39%
@@ -13,13 +13,13 @@ ht-degree: 39%
 
 # 使用 Adobe Experience Platform 對象{#aep-audience}
 
-Adobe Campaign受管理的Cloud Service目標和來源聯結器可讓Adobe Campaign與Adobe Experience Platform之間無縫整合。
+Adobe Campaign受管理的Cloud Service目標和來源聯結器可緊密整合Adobe Campaign和Adobe Experience Platform。
 
-建立Adobe Experience Platform受眾並可在使用者端主控台使用後，您可使用與Campaign受眾個人化和傳送訊息相同的方式來使用它。
+建立Adobe Experience Platform受眾並可在使用者端主控台中使用後，您就可以像使用Campaign受眾一樣使用該受眾，以個人化及傳送訊息。
 
 >[!NOTE]
 >
->若要在Campaign中使用Adobe Experience Platform對象，您需要設定與Adobe來源和目標的整合。 請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+>若要在Campaign中使用Adobe Experience Platform受眾，您需要設定與Adobe來源和目標的整合。 請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 
 若要選取傳送的對象，您也可以：
@@ -36,11 +36,11 @@ Adobe Campaign受管理的Cloud Service目標和來源聯結器可讓Adobe Campa
 
 1. 選擇「**[!UICONTROL 選取對象]**」以使用現有對象。若要建立新對象用於此電子郵件，請選擇「**建立您自己的**」。請參閱本[章節](segment-builder.md)。
 
-   此畫面會針對目前的資料夾顯示Adobe Campaign使用者端主控台中定義的所有現有對象。 若要從Adobe Experience Platform選擇對象，請瀏覽至 `AEP Audiences folder` 從熒幕的篩選區段。
+   此畫面會顯示目前資料夾在Adobe Campaign使用者端主控台中定義的所有現有對象。 若要從Adobe Experience Platform選擇對象，請瀏覽至 `AEP Audiences folder` 從熒幕的篩選區段中。
 
    ![](assets/select-audience-folder.png)
 
-   您也可以定義規則以篩選對象的來源，如下所示：
+   您也可以定義規則以根據對象的來源進行篩選，如下所示：
 
    ![](assets/filter-on-aep-audience.png)
 

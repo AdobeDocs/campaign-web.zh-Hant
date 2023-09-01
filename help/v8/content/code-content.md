@@ -3,11 +3,11 @@ audience: end-user
 title: 撰寫您自己電子郵件內容的程式碼
 description: 了解如何撰寫您自己電子郵件內容的程式碼
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Alpha"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 60%
+source-wordcount: '108'
+ht-degree: 62%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 60%
 >
 >此方法需要 HTML 技能。
 
-1. 於 [電子郵件設計工具](get-started-email-designer.md) 首頁，選取 **[!UICONTROL 自行撰寫程式碼]**.
+1. 在 [電子郵件設計工具](get-started-email-designer.md) 首頁，選取 **[!UICONTROL 自行撰寫程式碼]**.
 
    ![](assets/code-your-own.png)
 

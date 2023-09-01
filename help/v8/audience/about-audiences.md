@@ -2,11 +2,11 @@
 audience: end-user
 title: 開始使用對象
 description: 了解如何在 Campaign Web UI 中使用對象
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '215'
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---

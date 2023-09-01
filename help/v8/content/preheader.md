@@ -3,11 +3,11 @@ audience: end-user
 title: 在電子郵件設計工具新增預覽文字
 description: 了解如何設計您的電子郵件內容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Alpha"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 46%
+source-wordcount: '208'
+ht-degree: 47%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 46%
 >title="新增預覽文字"
 >abstract="預覽文字指在檢視來自您的電子郵件用戶端的電子郵件時接在主旨行後面的簡短摘要文字。在許多情況下，這段文字會提供電子郵件的簡短摘要，並且長度通常只有一個句子。"
 
-預覽文字是主旨行之後的簡短文字，在從任何主要電子郵件使用者端檢視電子郵件時便會如此。
+預覽文字是主旨行之後的簡短文字，在從任何主要電子郵件使用者端檢視電子郵件時便會顯示。
 
 在許多情況下，它提供內容的簡短摘要，通常為一個句子長。
 
@@ -34,9 +34,9 @@ ht-degree: 46%
 
    ![](assets/preheader_body.png)
 
-1. 從 **[!UICONTROL 設定]** 索引標籤中，為您的預覽文字輸入一些文字。
+1. 從 **[!UICONTROL 設定]** 定位字元，輸入一些文字作為預覽文字。
 
-1. 若要進一步個人化，請按一下 **[!UICONTROL 新增個人化]** 圖示加以選取 **[!UICONTROL Preheader]** 欄位。
+1. 若要進一步個人化，請按一下 **[!UICONTROL 新增個人化]** 圖示左側 **[!UICONTROL 預覽文字]** 欄位。
 
    ![](assets/preheader_body_settings.png)
 

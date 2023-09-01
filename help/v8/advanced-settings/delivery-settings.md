@@ -3,11 +3,11 @@ audience: end-user
 title: 電子郵件傳遞設定
 description: 進一步了解 Campaign Web UI 中的電子郵件傳遞設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alpha"
-source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
+badge: label="Beta"
+source-git-commit: c2f26d1dc7d8804672de25076a0355b734a0b335
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 88%
+source-wordcount: '1494'
+ht-degree: 83%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="類型"
->abstract="分類可讓您控制、篩選及監視傳遞的傳送。 "
+>abstract="型別是在訊息準備期間執行的一組規則。 它們可讓您控制、篩選及監控傳送的傳送。"
 
 類型是一組&#x200B;**類型規則**，在訊息分析階段執行。它們可讓您確定您的電子郵件一律包含特定元素（例如，取消訂閱連結或主旨行）或篩選規則，以排除群組不受您預定目標（如取消訂閱者、競爭者或不忠誠客戶）的影響。
 
@@ -38,12 +38,12 @@ ht-degree: 88%
 
 ### 壓力參數 {#pressure-parameters}
 
-<!--
+
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_weight"
->title="Delivery weight"
->abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
--->
+>id="acw_email_settings_pressure_parameters"
+>title="壓力參數"
+>abstract="傳遞權重可讓您確認壓力管理架構內最優先的傳遞。權重最高的訊息具有優先順序。"
+
 
 在此區段中，壓力參數可讓您定義&#x200B;**臨界值**。這是在一段時間內可以傳送到一個設定檔的訊息數上限。一旦達到此臨界值時，在考慮到該期間結束之前，將不再進行傳送。此程序可以讓您在訊息超過設定的臨界值時，自動將設定檔排除在傳送之外，以避免過度請求。
 
@@ -64,34 +64,34 @@ ht-degree: 88%
 * **臨時目標的評估和核准**
 * **目標評估**
 
-**行銷活動最佳化** 附加元件隨附疲勞管理。如需進一步了解壓力規則以及如何設定疲勞管理，請參閱 [Campaign v8 文件](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant){target="_blank"}。
+**行銷活動最佳化** 附加元件隨附疲勞管理。進一步了解壓力規則以及如何在中設定疲勞管理 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant){target="_blank"}.
 
 ### 產能設定 {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="產能設定"
->abstract="選取Adobe Campaign v8主控台中定義的容量規則。 此規則與電子郵件管道相關聯。"
+>abstract="例如，在傳遞訊息之前，請使用容量規則以確保您的組織可以處理傳遞、傳遞可能產生的傳入訊息，以及要聯絡訂閱者的通話次數。 容量規則是在Adobe Campaign v8主控台中定義。 在此畫面中，選取與電子郵件通道關聯的規則。"
 
 在此區段中，您可以選取在 Adobe Campaign v8 主控台中定義的產能規則。此規則與電子郵件管道相關聯。
 
 「**收件者的重要性**」欄位是一種公式，用於確定在超出產能類型規則時要保留哪些收件者。
 
-如需進一步了解一致性與產能規則以及如何設定它們，請參閱 [Campaign v8 文件](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}。
+進一步瞭解一致性和容量規則，以及如何在中設定它們 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
 ## 對象 {#audience}
 
 在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。
 
-若要了解目標對應的詳細資訊，請參閱 [ Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
+進一步瞭解中的目標對應 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 ## 傳遞 {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="傳遞設定"
->abstract="傳遞參數是套用到傳遞的技術設定。"
+>abstract="傳遞參數是套用到傳遞的技術設定。您可以針對傳遞啟用密件副本，並變更傳遞和常式模式。 這些選項僅限專家使用者使用。"
 
 傳遞參數是套用到傳遞的技術設定。
 
@@ -99,7 +99,7 @@ ht-degree: 88%
 
 * **測試 SMTP 傳遞**：此選項用於測試透過 SMTP 傳送。處理傳遞直到連線到 SMTP 伺服器，但不傳送：對於傳遞的每個收件者，Campaign 會連線到 SMTP 提供者伺服器，執行 SMTP RCPT TO 命令，並在 SMTP DATA 命令之前關閉連線。
 
-* **電子郵件 BCC**：此選項用於透過 BCC 將電子郵件儲存在外部系統上，只需將 BCC 電子郵件地址新增到您的訊息目標即可。進一步瞭解中的電子郵件密件副本 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+* **電子郵件 BCC**：此選項用於透過 BCC 將電子郵件儲存在外部系統上，只需將 BCC 電子郵件地址新增到您的訊息目標即可。進一步瞭解中的電子郵件密件副本 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 
@@ -107,7 +107,7 @@ ht-degree: 88%
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-進一步瞭解重試管理，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+進一步瞭解重試管理，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## 核准 {#approval}
 
@@ -133,8 +133,8 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
->title="設定有效性"
->abstract="「傳遞期間」欄位可讓您輸入全域傳遞重試的限制。這表示Adobe Campaign會從開始日期開始傳送訊息，然後針對傳回錯誤的訊息，執行一般、可設定的重試，直到達到有效性限製為止。有效性限制欄位用於上傳的資源，例如映象頁面或影像。 這些資源在有限的時間內有效：一旦達到限制，資源將不再可用。"
+>title="設定有效期"
+>abstract="「傳遞期間」欄位可讓您輸入全域傳遞重試的限制。這表示 Adobe Campaign 會從開始日期開始發送訊息，然後，僅對於傳回錯誤的訊息，系統將執行定期、可配置的重試，直至達到效度限制為止。效度限制欄位可用於上傳的資源，例如鏡像頁面或影像。這些資源在有限的時間內有效：一旦達到限制，資源將不再可用。"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -152,7 +152,7 @@ ht-degree: 88%
 ![](assets/delivery-settings-2.png)
 
 
-進一步瞭解中的傳遞有效期 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+進一步瞭解中的傳遞有效期 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
 ### 鏡像頁面管理 {#mirror}
 

@@ -3,27 +3,27 @@ audience: end-user
 product: campaign
 title: 使用電子郵件範本
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '304'
 ht-degree: 28%
 
 ---
 
 # 使用電子郵件範本 {#email-content-templates}
 
-時間 [建立電子郵件](../email/create-email.md)，使用 **[!UICONTROL 選取設計範本]** 部分 **[!UICONTROL 建立您的電子郵件]** 介面以開始從範本建立您的內容。
+時間 [建立電子郵件](../email/create-email.md)，使用 **[!UICONTROL 選取設計範本]** 的區段 **[!UICONTROL 建立您的電子郵件]** 介面以開始從範本建立您的內容。
 
 ![](assets/email_designer-templates.png)
 
-您可以選擇：
+您可以選擇以下選項：
 
 * **範例範本**. Campaign隨附一組內建範本，供您選擇。
 
 * **已儲存的範本**. 您也可以使用從現有內容另存為範本的自訂範本。
 
-在以下各節中瞭解如何使用範本以及如何將電子郵件內容另存為範本。
+在以下各節中瞭解如何使用範本，以及如何將電子郵件內容儲存為範本。
 
 ## 使用範本 {#use-templates}
 
@@ -43,11 +43,11 @@ ht-degree: 28%
 
 1. 從清單中選取範本以顯示其內容。
 
-1. 使用向右和向左箭頭在範本之間導覽（範例或儲存取決於您的選擇）。
+1. 使用向右和向左箭頭在範本之間導覽（根據您的選取範圍選擇範例或儲存）。
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. 按一下 **[!UICONTROL 使用此範本]** 在畫面的右上方。
+1. 按一下 **[!UICONTROL 使用此範本]** 在熒幕的右上方。
 
 1. 使用電子郵件設計工具依需要編輯您的內容。[了解更多](create-email-content.md)
 
@@ -59,7 +59,7 @@ ht-degree: 28%
 
 1. 在電子郵件設計工具中，按一下畫面右上方的省略符號。
 
-1. 選取 **[!UICONTROL 另存為內容範本]** 從下拉式功能表。
+1. 選取 **[!UICONTROL 另存為內容範本]** （從下拉式功能表）。
 
    ![](assets/email_designer-save-template.png)
 
@@ -67,6 +67,6 @@ ht-degree: 28%
 
    ![](assets/email_designer-template-name.png)
 
-您現在可以 [使用此範本](#use-templates) 若要建立新內容：此頁面位於 **[!UICONTROL 已儲存的範本]** 電子郵件設計工具的索引標籤。
+您現在可以 [使用此範本](#use-templates) 建立新內容：此頁面位於 **[!UICONTROL 已儲存的範本]** 電子郵件設計工具的索引標籤。
 
 ![](assets/email_designer-saved-template.png)

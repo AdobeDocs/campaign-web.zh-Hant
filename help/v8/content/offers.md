@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送優惠
 description: 傳送優惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 44%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 44%
 
 # 傳送優惠 {#offers-content}
 
-Adobe Campaign v8網頁版可讓您使用在主控台中建立的傳送選件，連同傳送給使用者。 **[!UICONTROL 互動]** 模組。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Adobe Campaign v8網頁版可讓您使用在主控台中建立的傳送選件，連同傳送給使用者。 **[!UICONTROL 互動]** 模組。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 透過傳送傳送優惠方案的步驟如下：
 
@@ -39,7 +39,7 @@ Adobe Campaign v8網頁版可讓您使用在主控台中建立的傳送選件，
 
 1. 設定應向收件者提出的優惠。
 
-   首先選取與您的優惠環境相符的&#x200B;**[!UICONTROL 優惠空間]**。瞭解如何在中建立優惠空間 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+   首先選取與您的優惠環境相符的&#x200B;**[!UICONTROL 優惠空間]**。瞭解如何在中建立優惠空間 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
 
    ![](assets/create-content-offers.png)
 

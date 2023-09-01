@@ -2,15 +2,15 @@
 audience: end-user
 title: 推播傳遞報告
 description: 瞭解如何存取及使用推播傳遞報告
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 5%
+source-wordcount: '297'
+ht-degree: 6%
 
 ---
 
-# 推播傳遞報告 {#push-report}
+# 推播傳遞報告  {#push-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 ## 推播摘要 {#push-summary}
 
-* **[!UICONTROL 傳遞概覽]** 提供關鍵績效指標(KPI)，用於提供有關訪客如何與您的推送訊息互動的詳細資訊。
+* **[!UICONTROL 傳遞概覽]** 提供關鍵績效指標(KPI)，用於提供關於訪客如何與您的推送訊息互動的詳細資訊。
 
   ![](assets/reporting_push_3.png)
 
@@ -33,11 +33,11 @@ ht-degree: 5%
 
    * **[!UICONTROL 點按次數]**：與推送訊息互動的收件者總數。
 
-   * **[!UICONTROL 錯誤]**：傳送期間發生且無法傳送至設定檔的錯誤總數。
+   * **[!UICONTROL 錯誤]**：在傳送期間發生且無法傳送至設定檔的錯誤總數。
 
 +++
 
-* **目標母體** 圖表和表格會顯示與您的對象相關的資料：
+* **目標母體** 圖表和表格顯示與對象相關的資料：
 
   ![](assets/reporting_push_4.png)
 
@@ -57,13 +57,13 @@ ht-degree: 5%
 
    * **[!UICONTROL 成功]**：成功處理的訊息數。
 
-   * **[!UICONTROL 錯誤]**：傳送期間發生導致訊息無法傳送至特定設定檔的錯誤總數。
+   * **[!UICONTROL 錯誤]**：傳送期間發生且無法傳送訊息至特定設定檔的錯誤總數。
 
    * **[!UICONTROL 新隔離]**：已排除並新增至隔離的設定檔數。
 
 +++
 
-* **[!UICONTROL 排除專案]** 圖表和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。
+* **[!UICONTROL 排除專案]** 圖形和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。
 
   ![](assets/reporting_push_6.png)
 

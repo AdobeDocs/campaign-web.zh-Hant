@@ -3,11 +3,11 @@ audience: end-user
 title: 傳遞報告
 description: 了解如何存取和使用傳遞報告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 62%
+source-wordcount: '88'
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Campaign 提供多種報告類型，每個傳遞均可存取。這些報�
 
 若要顯示報告，請依照以下步驟操作：
 
-1. 若要產生特定傳遞的報告，請導覽至 **[!UICONTROL 傳遞]** 功能表，並選取您要報告的傳遞。
+1. 若要產生特定傳遞的報告，請導覽至 **[!UICONTROL 傳遞]** 功能表，並選取您要報告的傳送。
 
 1. 從您的 **[!UICONTROL 傳遞]** 儀表板，按一下 **[!UICONTROL 報表]**.
 

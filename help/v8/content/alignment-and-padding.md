@@ -3,11 +3,11 @@ audience: end-user
 title: 在電子郵件設計工具中調整垂直對齊方式和邊框間距
 description: 了解如何調整垂直對齊方式和邊框間距
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 98%
+source-wordcount: '166'
+ht-degree: 100%
 
 ---
 

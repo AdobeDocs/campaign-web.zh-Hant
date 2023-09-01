@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 關於傳遞預覽和測試
-description: 瞭解如何預覽和測試傳遞
+description: 瞭解如何預覽和測試傳送
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="Alpha"
-source-git-commit: 8ab2324bdc7b5c56a8b9f5369db24c5c32272707
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 19%
+source-wordcount: '178'
+ht-degree: 28%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 19%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="預覽訊息內容。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="傳送測試傳遞"
 
-定義傳遞內容後，您可以使用測試設定檔在傳送訊息前進行預覽和測試。
+定義您的傳送內容後，您可以使用測試設定檔，在傳送訊息之前進行預覽和測試。
 
 這是確保正確性的重要步驟，但也不會在內容和個人化設定中發生錯誤。
 
 若要這麼做， [!DNL Adobe Campaign] 可讓您：
 
-* [預覽訊息內容與個人化](preview-content.md)
+* [預覽訊息內容及個人化](preview-content.md)
 * [傳送測試傳遞](test-deliveries.md) （校樣）給特定收件者或訂閱者，以進行測試和驗證
 * [檢查電子郵件呈現](email-rendering.md) 在熱門的桌上型電腦、行動裝置和Web型使用者端
 
-這些動作可使用 **[!UICONTROL 模擬內容]** 按鈕，可從傳送的編輯內容畫面存取。
+這些動作可使用 **[!UICONTROL 模擬內容]** 按鈕，可從您傳送的編輯內容畫面存取。
 
 <!-- from the [Edit content](../content/edit-content.md) screen or from the [Email Designer](../content/get-started-email-designer.md).-->
 

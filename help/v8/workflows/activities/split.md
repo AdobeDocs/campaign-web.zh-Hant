@@ -2,9 +2,9 @@
 audience: end-user
 title: 使用分割工作流程活動
 description: 了解如何使用分割工作流程活動
-badge: label="Alpha"
-source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
-workflow-type: ht
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 

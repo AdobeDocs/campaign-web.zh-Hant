@@ -3,8 +3,8 @@ audience: end-user
 title: 在電子郵件設計工具中設計電子郵件
 description: 了解如何從頭開始設計您的電子郵件內容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 74%

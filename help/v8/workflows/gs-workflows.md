@@ -2,11 +2,11 @@
 audience: end-user
 title: 開始使用工作流程
 description: 了解如何開始使用工作流程
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '388'
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+workflow-type: tm+mt
+source-wordcount: '387'
 ht-degree: 100%
 
 ---

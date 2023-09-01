@@ -2,12 +2,12 @@
 audience: end-user
 title: 開始使用簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: ht
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 * **獨立傳遞**：建立個別的簡訊傳遞，不需要工作流程或行銷活動即可和您的客戶進行快速而直接的通訊。
 
-![](../assets/do-not-localize/book.png) 若要了解如何設定簡訊管道，請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}。
+![](../assets/do-not-localize/book.png) 瞭解如何在中設定簡訊頻道 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

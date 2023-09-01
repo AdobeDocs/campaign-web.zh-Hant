@@ -2,9 +2,9 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 23%

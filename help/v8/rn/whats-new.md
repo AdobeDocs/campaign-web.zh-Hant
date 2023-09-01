@@ -3,20 +3,20 @@ audience: end-user
 title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 90%
 
 ---
 
 
 # 新增功能？ {#new}
 
-## Alpha 2.0 版{#alpha-release}
+## 測試版本{#beta-release}
 
-這個新的 Campaign Web 介面目前僅提供給 **Alpha 實作者**，具有以下功能：
+這個新的Campaign網頁介面目前僅適用於 **Beta測試人員** 並具備下列功能：
 
 **現代、直覺和統一的體驗**
 
@@ -51,8 +51,9 @@ ht-degree: 100%
 
 由於您是 Campaign 使用者，因此仍然可以存取用戶端主控台，以建置和管理 Campaign 的資源與元件。資料和設定則會從一個環境同步至另一個環境。若要了解詳細資訊，請參閱[本章節](../get-started/get-started.md#about-campaign-client-consoleac-client)。
 
-此外，您在用戶端主控台中已經可以使用的所有資料和設定都會從總管左側導覽顯示在 Campaign Web UI 中。若要了解總管檢視的詳細資訊，請參閱[本章節](../get-started/user-interface.md#explorer-user-interface-explorer)。
+此外，您在用戶端主控台中已經可以使用的所有資料和設定都會從探索工具左側導覽顯示在 Campaign Web UI 中。若要了解探索工具檢視的詳細資訊，請參閱[本章節](../get-started/user-interface.md#explorer-user-interface-explorer)。
 
+在Campaign Web測試版中，使用者介面會反映使用者的許可權。 進一步瞭解中的許可權 [此頁面](../get-started/permissions.md)
 
 ## 術語更新 {#terminology-updates}
 
@@ -68,7 +69,7 @@ ht-degree: 100%
 
 此 Alpha 版本有以下限制：
 
-* 唯一可編輯的物件是傳遞、行銷活動、工作流程、對象和範本。其他物件是唯讀的。使用篩選器來瀏覽全部物件。
+* 可編輯的物件包括：傳送、行銷活動、工作流程、對象、訂閱服務、預先定義的篩選器和範本。 其他物件是唯讀的。使用篩選器來瀏覽全部物件。
 * 無法將對象儲存以供未來使用。
 * 尚未提供管理使用者介面。
 * 報告量度 (例如開啟和追蹤資料) 每小時更新一次。

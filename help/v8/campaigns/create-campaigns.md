@@ -2,9 +2,9 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 建立行銷活動
 description: 了解如何使用 Adobe Campaign Web 建置跨管道行銷活動
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 27%

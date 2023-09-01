@@ -3,11 +3,11 @@ audience: end-user
 title: 開始使用 Campaign v8 Web
 description: 開始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 96%
 
 ---
 
@@ -56,6 +56,6 @@ Campaign 用戶端主控台是以瀏覽器為基礎的應用程式，安裝在�
 
 Campaign 資料儲存在應用程式伺服器中。資料可從用戶端主控台和 Web UI 取得。例如，如果您使用用戶端主控台建立傳遞範本，它也可以在 Web UI 中取用。如果您在 Web UI 中建立電子郵件傳遞，也可以從用戶端主控台存取此傳遞。
 
-某些物件只能在用戶端主控台中建立和管理。它們可以在 Campaign Web UI 中顯示並供使用，但不能從該環境中建立或修改。所有的 Campaign 物件和元件都可從左側導覽的總管檢視中取得。
+某些物件只能在用戶端主控台中建立和管理。它們可以在 Campaign Web UI 中顯示並供使用，但不能從該環境中建立或修改。所有的 Campaign 物件和元件都可從左側導覽的探索工具檢視中取得。
 
-如需如何使用 Campaign v8 的詳細資訊，請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"}。
+如需如何使用Campaign v8的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"}.
