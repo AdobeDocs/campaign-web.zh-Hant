@@ -5,10 +5,10 @@ description: Campaign Web UI中不支援的功能清單
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: f5e60740ea6f0434a3c06a8c4fd35ad7453bb665
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 9%
+source-wordcount: '346'
+ht-degree: 10%
 
 ---
 
@@ -66,16 +66,16 @@ ht-degree: 9%
 
 * 來自公用資源的內容
 * 回圈/集合管理
-* 將HTML內容儲存為範本（無法在使用者端主控台中使用）
+* 將HTML內容儲存為範本 `*`
 * 從Adobe Experience Manager同步電子郵件範本
 * 電子郵件內容中Adobe Experience Manager 6.5的資產
 * 內容區塊建立
 * 自訂表單的內容
-* 來自URL的內容（無法在使用者端主控台中使用）
+* 來自URL的內容 `*`
 * 電子郵件片段
 * 電子郵件AMP
-* 電子郵件片段（在使用者端主控台中無法使用）
-* 多變數/多語言使用案例（無法在使用者端主控台中使用）
+* 電子郵件片段 `*`
+* 多變數/多語言使用案例 `*`
 
 **類型規則**
 
@@ -125,3 +125,4 @@ ht-degree: 9%
 * 目標核准
 
 
+`*` 在使用者端主控台中無法使用
