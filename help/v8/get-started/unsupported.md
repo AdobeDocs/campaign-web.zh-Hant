@@ -5,15 +5,15 @@ description: Campaign Web UI中不支援的功能清單
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: f5e60740ea6f0434a3c06a8c4fd35ad7453bb665
+source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 10%
+source-wordcount: '350'
+ht-degree: 9%
 
 ---
 
 
-# Campaign Web UI中不支援的功能 {#unsupported-capabilities}
+# Campaign Web不支援的功能 {#unsupported-capabilities}
 
 下列功能可在Campaign使用者端主控台中存取，但尚未在網頁使用者介面中使用。 有些將在較新版本中提供，但有些則不提供。
 
@@ -22,17 +22,13 @@ ht-degree: 10%
 * 首頁控制面板
 * 首頁自訂
 
-
 **行銷活動管理**
 
 * 行銷行事曆/時間表
 * 預算與成本管理
 * 任務管理
-* 分散式行銷
+* 分散式行銷（中央/地方行銷）
 * 回應管理
-
-**Campaign 最佳化**
-
 * A/B 測試
 * 行銷資源管理(MRM)、目標、模擬、預算和成本
 
@@ -46,6 +42,7 @@ ht-degree: 10%
 **網頁內容**
 
 * 建立及發佈登入頁面
+* 網頁應用程式、網路表單
 * 調查管理
 
 **設定檔與收件者**
@@ -66,16 +63,16 @@ ht-degree: 10%
 
 * 來自公用資源的內容
 * 回圈/集合管理
-* 將HTML內容儲存為範本 `*`
+* 將HTML內容儲存為範本`*`
 * 從Adobe Experience Manager同步電子郵件範本
 * 電子郵件內容中Adobe Experience Manager 6.5的資產
 * 內容區塊建立
 * 自訂表單的內容
-* 來自URL的內容 `*`
+* 來自URL的內容`*`
 * 電子郵件片段
 * 電子郵件AMP
-* 電子郵件片段 `*`
-* 多變數/多語言使用案例 `*`
+* 電子郵件片段`*`
+* 多變數/多語言使用案例`*`
 
 **類型規則**
 
