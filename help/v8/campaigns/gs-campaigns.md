@@ -4,9 +4,9 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # 開始使用行銷活動 {#campaigns}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="設計和傳送跨管道行銷活動"
->abstract="Adobe Campaign 功能可協助您管理集中化的客戶資料、設計客戶通訊和行銷活動，並建立跨越不同管道 (電子郵件、推播和簡訊) 的個人化體驗。"
 
 Adobe Campaign 讓您可使用內建的行銷活動管理功能輕鬆協調設定目標的行銷計畫。透過定義排程的能力，您可以規劃行銷活動的持續時間和時機，以和策略目標保持一致性並將對象參與度擴展至最大。
 

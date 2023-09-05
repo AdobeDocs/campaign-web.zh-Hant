@@ -4,10 +4,10 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 89%
+source-wordcount: '1324'
+ht-degree: 85%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="開始使用電子郵件"
->abstract="從範本開始，或使用 Adob&#x200B;&#x200B;e Campaign 的新電子郵件設計工具，無須編寫任何程式碼即可建立電子郵件。了解如何使用電子郵件設計工具建立您的內容、預覽和測試內容，並在端到端使用案例中傳送電子郵件給現有對象。"
+>title="電子郵件內容的Gen AI"
+>abstract="我們的Gen AI技術運用進階演演算法，以產生極具吸引力的個人化內容。 透過Gen AI的智慧型內容產生功能，提高開啟率、點進率和轉換率。 使用Gen AI處理電子郵件內容，在競爭中保持領先地位，並提升您的電子郵件行銷遊戲。"
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
