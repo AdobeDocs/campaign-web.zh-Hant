@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 970a7c7af8b94e96d33ef2e41f8ddcfda322252c
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 99%
+source-wordcount: '1724'
+ht-degree: 98%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 99%
 
 「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。
 
-「**關鍵績效指標**」可讓您使用常見的 KPI 值來檢查平台的服務效率。
+「**關鍵績效指標**」可讓您使用常見的 KPI 值來檢查平台的服務效率。若要深入瞭解這些KPI，請參閱 [此頁面](../reporting/kpis.md).
 
-從首頁的「**學習**」區段存取 Campaign v8 Web 重要說明頁面。
+從首頁的&#x200B;**學習**&#x200B;章節存取 Campaign v8 Web 重要說明頁面。
 
 ### 探索工具 {#user-interface-explorer}
 
@@ -299,7 +299,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="有效期限"
->abstract="此選項會定義在 URL 上啟動追蹤的持續時間。"
+>abstract="有效期間會設定在訊息URL上啟用追蹤的持續時間。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -330,11 +330,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_template_settings_delivery_weight"
 >title="傳遞權重"
 >abstract="傳遞權重可讓您確認壓力管理架構內最優先的傳遞。權重最高的訊息具有優先順序。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_typology"
->title="類型"
->abstract="分類可讓您控制、篩選及監視傳遞的傳送。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"

@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立行銷活動
 description: 了解如何使用 Adobe Campaign Web 建置跨管道行銷活動
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 27%
+source-wordcount: '478'
+ht-degree: 12%
 
 ---
 
@@ -17,21 +17,16 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Campaign 建立屬性"
->abstract="定義行銷活動的屬性和中繼資料。"
+>abstract="在此畫面中，定義您的行銷活動設定：選取範本，然後輸入行銷活動的標籤。 瀏覽至其他設定以變更預設內部名稱、資料夾、新增說明，並選取受指派人。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="行銷活動屬性"
->abstract="定義您的行銷活動設定和中繼資料。"
+>abstract="在此畫面中，您可以檢查並更新行銷活動設定：其標籤、內部名稱、資料夾及說明。 您也可以檢視其獲指派給哪位使用者。"
 
 若要建立新行銷活動，您必須定義其屬性、排程並包含工作流程和傳遞。
 
 ## 建立行銷活動{#campaign-create}
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="行銷活動排程"
->abstract="在行銷活動建立期間定義您的行銷活動排程。"
 
 若要建立新的行銷活動，請遵循下列步驟：
 
@@ -39,14 +34,7 @@ ht-degree: 27%
 1. 選取 **範本** 以使用並提供促銷活動的標籤。 行銷活動範本已預先設定，因此可重複用於建立新的行銷活動。 這些範本從用戶端主控台建立的。
    [顯示全文](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)。
 1. 如有需要，您可以變更下列專案 **其他選項**：內部名稱、資料夾、工作負責人、說明和性質。
-1. 定義 **排程** 您的行銷活動中的。 行銷活動在到達開始日期時開始。 開始和結束日期會顯示在行銷活動清單中，並作為篩選條件使用。 請參閱本[章節](manage-campaigns.md#access-campaigns)。
-
-   ![定義您的行銷活動屬性](assets/campaign-properties.png)
-
-   >[!NOTE]
-   >
-   >您稍後一律可以從 **設定行銷活動設定** 圖示，位於行銷活動標籤旁。 請參閱本[章節](gs-campaigns.md#campaign-dashboard)。
-
+1. 定義 **排程** 您的行銷活動中的。 瞭解如何在中設定您的行銷活動排程 [本節](#campaign-schedule)
 1. 按一下 **建立**。
 1. 將工作流程與傳遞新增至行銷活動：
 
@@ -61,6 +49,29 @@ ht-degree: 27%
 
 您也可以按一下 **報表** 按鈕。 請參閱本[章節](../reporting/campaign-reports.md)。
 
+
+## 定義行銷活動排程 {#campaign-schedule}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="行銷活動排程"
+>abstract="選取行銷活動排程。 您可以建立行銷活動，並於到達開始日期時開始。 依預設，行銷活動開始日期是建立日期，持續5天。 開始和結束日期會顯示在行銷活動清單中，並作為篩選條件使用。"
+
+
+行銷活動在到達開始日期時開始。 只要未到達開始日期，行銷活動就會具有 **[!UICONTROL 草稿]** 狀態。 然後，當達到開始日期時，它會變成 **[!UICONTROL 進行中]**. 達到結束日期後，行銷活動會設為 **[!UICONTROL 已完成]**.
+
+開始和結束日期會顯示在行銷活動清單中，並作為篩選條件使用。 請參閱本[章節](manage-campaigns.md#access-campaigns)。
+
+![定義您的行銷活動屬性](assets/campaign-properties.png)
+
+>[!NOTE]
+>
+>您稍後一律可以從 **設定行銷活動設定** 圖示，位於行銷活動標籤旁。 請參閱本[章節](gs-campaigns.md#campaign-dashboard)。
+
+
+
+一旦到達日期，在已準備好傳送的工作流程內容中，在該行銷活動中建立的傳送實際上會傳送。 為此，工作流程必須已啟動。
 
 
 <!--
