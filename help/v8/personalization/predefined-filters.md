@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 60362fadc63546158a6a6e7f7067f3dd520993a4
+source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >title="預先定義的篩選"
 >abstract="Campaign網頁版現在提供使用者易記的介面，讓您輕鬆管理及自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供日後使用。"
 
-預先定義的篩選器是可供日後使用的自訂篩選器。 在使用規則產生器的篩選作業期間，它們可以當做捷徑使用。
+預先定義的篩選器是可供日後使用的自訂篩選器。 在使用規則產生器的篩選作業期間，它們可以當做捷徑使用。 您可以使用現有的內建篩選器來存取資料的特定子集，或建立您自己的預先定義篩選器。
 
 
 ## 建立預先定義的篩選器 {#create-predefined-filter}
@@ -65,3 +65,5 @@ ht-degree: 0%
 
 ## 管理預先定義的篩選器 {#manage-predefined-filter}
 
+
+## 內建預先定義的篩選器 {#ootb-predefined-filter}
