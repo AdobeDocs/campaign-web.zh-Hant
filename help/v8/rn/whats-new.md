@@ -4,9 +4,9 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '962'
 ht-degree: 50%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 50%
 
 * 預先定義的篩選器管理
 
-  引入預先定義的篩選器管理。 Campaign網頁UI現在提供使用者易記的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供日後使用。
+  引入預先定義的篩選器管理。 Campaign網頁UI現在提供使用者易記的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供日後使用。 [了解更多](../personalization/predefined-filters.md)
 
 
 * 目標對象

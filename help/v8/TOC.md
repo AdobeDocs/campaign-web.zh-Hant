@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 97%
+source-wordcount: '365'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
    + [開始使用](get-started/get-started.md)
    + [探索介面](get-started/user-interface.md)
    + [瀏覽、搜尋和篩選清單](get-started/list-filters.md)
-   + [存取權和許可權](get-started/permissions.md)
+   + [存取權與權限](get-started/permissions.md)
    + [不支援的功能](get-started/unsupported.md)
 + 訊息和傳遞 {#msg}
    + [開始使用訊息](msg/gs-messages.md)
@@ -68,7 +68,7 @@ ht-degree: 97%
       + [新增個人化](personalization/personalize.md)
       + [新增條件式內容](personalization/conditions.md)
       + [新增內建的內容區塊](personalization/content-blocks.md)
-      + [建立並使用預先定義的篩選器](personalization/predefined-filters.md)
+      + [使用預先定義的篩選器](personalization/predefined-filters.md)
    + [傳送優惠](content/offers.md)
    + 預覽和測試您的傳遞 {#preview-test}
       + [關於預覽和測試](preview-test/preview-test.md)
