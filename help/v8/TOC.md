@@ -16,7 +16,7 @@ ht-degree: 98%
 # Adobe Campaign v8 Web 文件 {#v8}
 
 + [Campaign v8 Web 文件](campaign-web-home.md)
-+ [新增功能？](rn/whats-new.md)
++ [新增功能](rn/whats-new.md)
 + [文件更新](rn/documentation-updates.md)
 + 開始使用 Adobe Campaign {#start}
    + [開始使用](get-started/get-started.md)
