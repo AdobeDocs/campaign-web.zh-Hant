@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 3e57815403274df8e164c21270d0fcd916623d6d
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 98%
+source-wordcount: '1747'
+ht-degree: 97%
 
 ---
 
@@ -266,6 +266,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="此服務為唯讀資料"
 >abstract="您沒有編輯此服務的權限。如果需要，請聯絡管理員為您授予存取權限。"
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="此對象為唯讀"
+>abstract="您沒有編輯此對象的許可權。 如果需要，請聯絡管理員為您授予存取權限。"
+
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
@@ -338,12 +343,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
->title="全域報告傳送"
+>title="全球報告傳送"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
->title="全域報表追蹤"
+>title="全球報告追蹤"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
