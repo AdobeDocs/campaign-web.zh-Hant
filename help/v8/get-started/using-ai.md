@@ -4,14 +4,14 @@ description: 在Campaign網頁中使用AI支援的知識助理
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 11ebb88d44733d3bebddd4d28268a77c2489e867
+source-git-commit: c110c118cc45da0fa0db4249f4f24ebf7c3c21a8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '273'
 ht-degree: 2%
 
 ---
 
-# 在Campaign網頁中使用AI支援的知識助理 {#using-ai}
+# 使用AI支援的知識助理 {#using-ai}
 
 透過產品內容說明方塊中提供的AI支援知識助理，根據產品檔案和您目前的產品內容，取得由AI產生的快速答案。
 
