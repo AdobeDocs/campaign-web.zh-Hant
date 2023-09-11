@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 16%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 16%
 
 您可以使用現有的內建篩選器來存取資料的特定子集，或建立您自己的預先定義篩選器並儲存。
 
+![](assets/predefined-filters-menu.png)
+
 
 ## 建立預先定義的篩選器 {#create-predefined-filter}
 
@@ -37,9 +39,12 @@ ht-degree: 16%
 >title="建立預先定義的篩選器"
 >abstract="為預先定義的篩選器輸入標籤，然後選取其適用的表格。 開啟其他選項以新增說明並將此篩選器設定為我的最愛。 然後使用「建立規則」按鈕定義篩選條件。"
 
-使用規則產生器建立篩選器時，您可以儲存以供日後使用。 儲存為自訂篩選器時，可供日後使用。 您也可以從左側導覽的專用功能表建立和編輯預先定義的篩選器。
 
-![](assets/predefined-filters-menu.png)
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-rules"
+>title="建立預先定義的篩選規則"
+>abstract="若要定義自訂篩選的篩選條件，請按一下「建立規則」按鈕。"
+
 
 若要在規則產生器中儲存自訂篩選器，請遵循下列步驟：
 
@@ -83,7 +88,6 @@ ht-degree: 16%
 
 您也可以使用下列專案所提供的篩選捷徑： **我的最愛篩選器** 區段。
 
-
 例如，若要從預先定義的篩選器建立對象，請遵循下列步驟：
 
 1. 瀏覽 **受眾** 左側功能表中的專案。
@@ -120,6 +124,8 @@ ht-degree: 16%
 * 編輯現有篩選器，並變更其規則和屬性
 * 複製預先定義的篩選器
 * 刪除預先定義的篩選器
+
+您可以將預先定義的篩選器新增為我的最愛，以便在建立規則時快速存取。 此功能的說明請參閱 [本節](#create-predefined-filter).
 
 ## 內建預先定義的篩選器 {#ootb-predefined-filter}
 
