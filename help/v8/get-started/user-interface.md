@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 3e57815403274df8e164c21270d0fcd916623d6d
+source-git-commit: 25513fb699e7e9fb2503b78cd9d92b6cc1204d3d
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 97%
+source-wordcount: '1761'
+ht-degree: 98%
 
 ---
 
@@ -269,7 +269,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="此對象為唯讀"
->abstract="您沒有編輯此對象的許可權。 如果需要，請聯絡管理員為您授予存取權限。"
+>abstract="您沒有編輯此對象的權限。 如果需要，請聯絡管理員為您授予存取權限。"
 
 <!-- Workflows-->
 
@@ -280,7 +280,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
->title="為儲存對象傳出轉變"
+>title="儲存對象的傳出轉變"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -304,7 +304,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="有效期限"
->abstract="有效期間會設定在訊息URL上啟用追蹤的持續時間。"
+>abstract="有效期會設定在訊息 URL 上啟動追蹤的持續時間。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -334,7 +334,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_weight"
 >title="傳遞權重"
->abstract="傳遞權重可讓您確認壓力管理架構內最優先的傳遞。權重最高的訊息具有優先順序。"
+>abstract="傳遞權重可讓您確認壓力管理架構內最優先的傳遞。權重最高的訊息具有最高優先。"
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
@@ -392,3 +392,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_template_for_campaign"
 >title="Campaign 中的工作流程範本"
 >abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="需要權限"
+>abstract="您的管理員必須先授予您許可權，您才能建立此物件。"
+
