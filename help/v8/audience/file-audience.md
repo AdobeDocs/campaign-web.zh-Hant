@@ -4,10 +4,10 @@ title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 66%
+source-wordcount: '344'
+ht-degree: 62%
 
 ---
 
@@ -59,8 +59,8 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="範例檔案"
->abstract="支援的檔案格式：txt、csv。使用第一行作為欄標題。"
+>title="從檔案載入對象"
+>abstract="支援的檔案格式為TXT和CSV。 使用第一行作為欄標題。將您的檔案格式與下列連結中提供的範例檔案對齊。"
 
 支援的格式為 TXT 和 CSV。第一行是欄標題。
 
