@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 33%
+source-wordcount: '907'
+ht-degree: 31%
 
 ---
 
@@ -34,8 +34,13 @@ ht-degree: 33%
 * **[!UICONTROL 名稱]**：工作流程的內部名稱。
 * **[!UICONTROL 資料夾]**：應儲存工作流程的資料夾。
 * **[!UICONTROL 連結的行銷活動]**：如果工作流程是在行銷活動中建立，則會顯示此欄位。 它可讓您開啟相關聯的行銷活動。
-* **[!UICONTROL 時區]**：定義預設用於工作流程所有活動的特定時區。 依預設，工作流程的時區是為目前的 Campaign 操作者定義的時區。
-* **[!UICONTROL 監督員]**：當工作流程發生錯誤時，只要屬於工作流程監督群組的操作員的電子郵件地址列在其設定檔中，就會透過電子郵件通知他們。
+* **[!UICONTROL 時區]**：定義預設用於工作流程所有活動的特定時區。 依預設，工作流程的時區是為目前的 Campaign 操作者定義的時區。其他可能的值包括：
+   * **伺服器時區** 使用Adobe Campaign應用程式伺服器的時區
+   * **運運算元時區** 用於使用在使用者端主控台中執行工作流程之Adobe Campaign運運算元的時區（如運運算元的設定檔所定義）
+   * **資料庫的時區** 使用資料庫伺服器的時區
+   * 特定時區
+
+* **[!UICONTROL 監督員]**：當工作流程失敗時，屬於在此欄位中選取之操作者群組的操作者會收到電子郵件通知。
 * **[!UICONTROL 說明]**：使用此欄位來提供工作流程的說明。
 
 ## 細分設定
