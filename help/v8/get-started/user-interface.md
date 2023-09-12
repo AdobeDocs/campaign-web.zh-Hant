@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 25513fb699e7e9fb2503b78cd9d92b6cc1204d3d
+source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 98%
+source-wordcount: '1701'
+ht-degree: 93%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 ## 左側導覽功能表 {#user-interface-left-nav}
 
-瀏覽左側連結可存取 Campaign v8 Web 功能。幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。所有清單畫面都是唯讀的，電子郵件傳遞清單除外。按一下清單項目以編輯/檢視的這個功能在 Alpha 版本未提供。在未來的版本，所有清單將可編輯。左側導覽功能表顯示的項目取決於您的使用者權限。
+瀏覽左側連結可存取 Campaign v8 Web 功能。幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。有些清單畫面是唯讀的。 左側導覽選單和清單中顯示的專案取決於您的使用者許可權。 進一步瞭解中的許可權 [本節](permissions.md).
 
 ![](assets/home.png)
 
@@ -47,11 +47,11 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="探索工具"
->abstract="**探索工具**&#x200B;選單會顯示所有 Campaign 元件以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。所有其他清單都是唯讀。"
+>abstract="**探索工具**&#x200B;選單會顯示所有 Campaign 元件以及和用戶端主控台中的物件有相同資料夾階層的物件。從此功能表瀏覽所有Campaign v8元件、資料夾和結構描述、檢查相關許可權，以及建立資料夾和子資料夾。"
 
-**探索工具**&#x200B;選單會顯示所有 Campaign 資源以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。所有其他清單都是唯讀。
+**探索工具**&#x200B;選單會顯示所有 Campaign 資源以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。
 
-探索工具中顯示的項目取決於您的使用者權限。
+顯示在中的專案 **瀏覽器** 視您的使用者許可權而定。  如果您有適當的許可權，也可以新增檔案夾和子檔案夾。 進一步瞭解中的許可權 [本節](permissions.md).
 
 如同任何清單畫面，您可以設定欄來個人化顯示以檢視所有您需要的資訊。請參閱本[章節](#list-screens)。
 
@@ -81,10 +81,6 @@ ht-degree: 98%
 
 ### 客戶管理 {#user-interface-customer-management}
 
->[!CONTEXTUALHELP]
->id="acw_recipients_list"
->title="收件者"
->abstract="存取您的收件者資料庫。您可以檢視有用的資訊，例如其電子郵件地址、名字和姓氏。此為唯讀清單。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
@@ -99,8 +95,8 @@ ht-degree: 98%
 
 在「客戶管理」區段中，您可以檢視您的收件者、對象和訂閱。這些是唯讀清單。
 
-* **收件者** - 存取您的收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。若要了解收件者的詳細資訊，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}。
-* **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。若要了解對象和清單的詳細資訊，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}。
+* **收件者** - 存取您的收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。進一步瞭解中的收件者 [本節](../audience/about-recipients.md).
+* **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。進一步瞭解中的對象和清單 [本節](../audience/about-audiences.md).
 * **訂閱** - 瀏覽您的訂閱清單。預設情況下，您可以檢視其類型、模式和標籤。若要了解如何管理訂閱和取消訂閱，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}。
 
 ### 決策管理
@@ -392,9 +388,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_template_for_campaign"
 >title="Campaign 中的工作流程範本"
 >abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_explorer_permissions_create"
->title="需要權限"
->abstract="您的管理員必須先授予您許可權，您才能建立此物件。"
-
