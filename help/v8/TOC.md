@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 11ebb88d44733d3bebddd4d28268a77c2489e867
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 98%
+source-wordcount: '370'
+ht-degree: 97%
 
 ---
 
@@ -78,6 +78,7 @@ ht-degree: 98%
       + [呈現您的電子郵件](preview-test/email-rendering.md)
 + 對象和收件者 {#audiences}
    + [開始使用對象](audience/about-audiences.md)
+   + [與收件者合作](audience/about-recipients.md)
    + [選取現有對象](audience/add-audience.md)
    + [使用規則產生器定義對象](audience/segment-builder.md)
    + [從檔案載入電子郵件對象](audience/file-audience.md)
