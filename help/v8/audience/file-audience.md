@@ -4,10 +4,10 @@ title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 62%
+source-wordcount: '442'
+ht-degree: 50%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 62%
 >
 >* 從外部檔案載入目標母體時，您不能使用[控制組](control-group.md)。
 
+## 上傳檔案 {#upload}
 
 若要直接從電子郵件介面從本機檔案定位設定檔，請遵循下列步驟：
 
@@ -54,6 +55,22 @@ ht-degree: 62%
 
 ![](assets/select-external-perso.png)
 
+## 預覽和測試您的電子郵件 {#test}
+
+使用從檔案上傳的對象時，Campaign Web可讓您預覽和傳送測試電子郵件。 要執行此操作，請依照下列步驟執行：
+
+1. 模擬內容
+1. 開啟預覽。 按一下選取設定檔：從要使用的檔案中選取設定檔
+1. 若要傳送測試電子郵件，請按一下測試
+1. 測試模式：定義校樣目標
+1. 從第二個檔案上傳測試電子郵件的目標（或使用相同的檔案）。 檔案格式設定遵循與上傳的檔案相同的方式
+1. 對檔案格式執行的檢查
+1. 按一下傳送
+
++ 預覽和測試區段的連結
+
+**問題：**
+* 沒有可用的檔案替代？
 
 ## 範例檔案 {#sample-file}
 

@@ -4,7 +4,7 @@ title: 傳送測試傳遞
 description: 瞭解如何定義並傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 13%
@@ -33,17 +33,11 @@ ht-degree: 13%
 
 根據您使用的頻道，測試訊息可以傳送給三種型別的收件者：
 
-* [測試設定檔](#test-profiles)  — 傳送 **測試電子郵件和簡訊** 種子地址，資料庫中的其他收件者。
+* [測試設定檔](#test-profiles)  — 傳送 **測試電子郵件和簡訊** 種子地址，資料庫中的其他收件者。 它們可在以下位置建立： [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-  它們可在以下位置建立： [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* [從主要目標替代](#substitution-profiles)  — 傳送 **測試電子郵件和簡訊** 模擬現有設定檔時，轉換為特定電子郵件地址或電話號碼。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
 
-* [從主要目標替代](#substitution-profiles)  — 傳送 **測試電子郵件和簡訊** 模擬現有設定檔時，轉換為特定電子郵件地址或電話號碼。
-
-  這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
-
-* [訂閱者](#subscribers)  — 傳送 **測試推播通知** 新增至資料庫的虛擬訂閱者。
-
-  就像測試設定檔一樣，它們可以在以下位置建立： [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* [訂閱者](#subscribers)  — 傳送 **測試推播通知** 新增至資料庫的虛擬訂閱者。 就像測試設定檔一樣，它們可以在以下位置建立： [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 若要選取測試傳送的收件者，請根據您要使用的設定檔型別，依照下列步驟操作。
 
