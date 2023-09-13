@@ -4,10 +4,10 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 70%
+source-wordcount: '895'
+ht-degree: 71%
 
 ---
 
@@ -77,18 +77,18 @@ ht-degree: 70%
 
 * 預先定義的篩選器管理
 
-  引入預先定義的篩選器管理。 Campaign網頁UI現在提供使用者易記的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供未來使用。[了解更多](../personalization/predefined-filters.md)
+  引入預先定義的篩選器管理。 Campaign網頁UI現在提供使用者易記的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供未來使用。[了解更多](predefined-filters.md)
 
 
 * 目標對象
 
   制定傳遞目標再簡單不過了！ 借助我們最新的規則產生器，您現在可以為收件者或資料庫中的任何其他目標定位維度定義篩選條件。 此外，您可以善用AEP (Adobe Experience Platform)對象，進一步調整目標對象，讓行銷活動發揮最大影響力。
 
-* 包含SMS和推播的優惠方案
+* 包含SMS的優惠
 
-  除了電子郵件之外，新的Web UI現在可讓您將優惠方案與簡訊和推播通知整合。 透過行動裝置觸及您的受眾，提供促銷活動和及時通知。
+  除了電子郵件之外，新的Web UI現在可讓您將優惠方案與簡訊整合。 透過受眾的行動裝置觸及受眾，提供促銷活動和及時通知。
 
-  透過我們的進階Web平台上的SMS和推播通知，運用整合式優惠方案的強大功能，提升您的行銷成效。
+  透過我們進階網路平台上的SMS運用整合式優惠方案的強大功能，提升您的行銷成效。
 
 <!--
 * Adobe Experience Manager (AEM) Integration

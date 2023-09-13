@@ -3,11 +3,11 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+badge: label="Beta"
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 90%
+source-wordcount: '1758'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 >title="探索介面"
 >abstract="新的 Campaign v8 Web 介面提供了整合、直覺和一致性的使用者體驗。"
 
-新的 Campaign v8 Web 介面提供了現代直覺的使用者體驗，可簡化行銷活動的設計和傳遞。這個新介面與 Adobe Experience Platform 整合在一起。
+新的 Campaign v8 Web 介面提供了現代直覺的使用者體驗，可簡化行銷活動的設計和傳遞。此新介面已與Adobe Experience Cloud應用程式和解決方案整合。
 
 
 >[!NOTE]
@@ -114,13 +114,13 @@ ht-degree: 90%
 
 * **優惠** - 覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些是唯讀清單。
 
-若要了解如何建立管理優惠方案，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}。
+瞭解如何在電子郵件和簡訊中建立和傳送優惠方案 [本節](../content/offers.md).
 
 ## 頂端列
 
 使用介面的頂端列進行以下作業：
 
-* 以 Alpha 測試人員身份分享您的意見回饋
+* 以Beta測試者身分分享您的意見回饋
 * 在組織和實例之間切換
 * 在 Adobe Experience Cloud 應用程式之間切換
 * 存取說明頁面、聯絡支援人員和分享意見回饋。您可以從搜尋欄位搜尋說明文章和影片。
