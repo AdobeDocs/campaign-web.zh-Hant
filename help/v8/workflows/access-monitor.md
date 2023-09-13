@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Beta"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2cd46f37ed59d252c2c39da46274d970c9aaf5cf
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 23%
+ht-degree: 29%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 23%
 
 清單中的每個工作流程都會顯示其目前的相關資訊 [狀態](#status)、上次執行或修改的時間，以及下一個排程的執行日期和時間。
 
-您可以按一下 **[!UICONTROL 設定自訂配置的欄]** 圖示位於清單的右上角。 這可讓您新增其他資訊至清單，例如每個工作流程出現錯誤的最後一個活動，或套用的目標維度。
+按一下清單右上角的「**[!UICONTROL 設定自訂版面的欄]**」圖示，即可自訂要顯示的欄。這可讓您新增其他資訊至清單，例如每個工作流程出現錯誤的最後一個活動，或套用的目標維度。
 
 此外，還可使用搜尋列和篩選器，以便於在清單中輕鬆搜尋。例如，您可以篩選工作流程，以僅顯示屬於某個促銷活動的工作流程，或顯示在特定日期範圍內處理的工作流程。
 
