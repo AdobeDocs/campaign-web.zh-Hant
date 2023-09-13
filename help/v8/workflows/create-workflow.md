@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 瞭解如何使用Adobe Campaign Web建立工作流程
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: a3cc0a65d6016c28cfe65b025bb971245720b181
+source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 6%
+source-wordcount: '693'
+ht-degree: 7%
 
 ---
 
@@ -64,6 +64,12 @@ ht-degree: 6%
 1. 在快顯視窗中，確認範本建立。
 1. 在工作流程範本畫布中，視需要檢查、新增及設定活動。
 1. 瀏覽至設定以變更工作流程範本的名稱，並輸入說明。
+1. 選取範本的資料夾和執行資料夾。 資料夾是工作流程範本的儲存位置。 執行資料夾是儲存根據此範本建立的工作流程的資料夾。
+
+   ![](assets/wf-settings-template.png)
+
+   其他屬性與工作流程相同。 在[本頁](workflow-settings.md#properties)中了解更多
+
 1. 儲存您的變更。
 
 範本清單現在提供工作流程範本。 您可以根據此範本建立工作流程。 此工作流程將使用範本中定義的設定和活動進行預先設定。
@@ -79,9 +85,9 @@ ht-degree: 6%
 1. 輸入標籤並開啟其他選項，以輸入工作流程範本的說明。
 1. 選取範本的資料夾和執行資料夾。 資料夾是工作流程範本的儲存位置。 執行資料夾是儲存根據此範本建立的工作流程的資料夾。
 
-   其他屬性與工作流程相同。 在[本頁](workflow-settings.md#properties)中了解更多
-
    ![](assets/new-wf-template.png)
+
+   其他屬性與工作流程相同。 在[本頁](workflow-settings.md#properties)中了解更多
 
 1. 按一下 **建立** 按鈕以確認您的設定。
 1. 在工作流程範本畫布中，視需要新增並設定活動。
