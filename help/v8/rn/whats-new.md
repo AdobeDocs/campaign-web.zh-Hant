@@ -4,18 +4,18 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 50%
+source-wordcount: '903'
+ht-degree: 70%
 
 ---
 
 
-# 新增功能？ {#new}
+# 新增功能 {#new}
 
 
-我們很高興為您介紹Adobe Campaign Web UI的BETA版。 我們的最新版本包含許多直覺式功能，這些功能旨在簡化個人化跨頻道行銷活動的建立、推動卓越的成效，並為您提供跨所有頻道的競爭優勢。
+我們很高興為您介紹Adobe Campaign Web UI的BETA版。 我們的最新版本包含直觀的功能，旨在簡化個人化跨頻道行銷活動的建立，推動卓越的成果，並為您提供跨所有頻道的競爭優勢。
 
 ## 測試版本{#beta-release}
 
@@ -52,39 +52,37 @@ ht-degree: 50%
 
 ## 最新更新
 
-
 **Beta摘要**
 
-* 啟用Audiences和Personalization的資料組成（同盟）。
-* 利用AI技術強化電子郵件內容的產生。
-* 流暢同步資產和完整HTML範本。
-* 有效率地組織和管理您的資料夾和資源。
-* 建立吸引人且有效的登陸頁面。
-* 更多工作流程活動：存取變更維度、重複資料刪除和循環傳送等其他活動，以增強行銷活動工作流程。
+* 啟用Audiences &amp; Personalization的資料組成（同盟）
+* 利用AI技術強化電子郵件內容的產生
+* 流暢同步資產和完整HTML範本
+* 有效率地組織和管理您的資料夾和資源
+* 存取變更維度、重複資料刪除和循環傳送等其他活動，以增強行銷活動工作流程
 
 **重要新功能**
 
 * 更多行銷活動工作流程活動
 
-  使用我們擴充的工作流程活動集，為您的行銷活動提供充足電力。 解鎖自動化和最佳化的新可能性，讓您建立更動態和個人化的客戶歷程。
+  使用我們擴充的工作流程活動集，為您的行銷活動提供充足電力。 發掘自動化和最佳化的新可能性，讓您能夠建立更加動態和個人化的客戶歷程。 
 
-  從進階細分到條件式觸發器，我們額外的工作流程活動可讓您傳送目標式訊息，並提升行銷活動績效。
+  從進階細分到條件式觸發器，我們的附加工作流程活動能讓您傳遞針對性訊息並提高行銷活動績效。
 
 * 適用於電子郵件內容的Gen AI
 
-  告別手動內容建立作業，歡迎使用Gen AI的強大功能，進行高效率、資料導向的行銷活動。  我們的Gen AI技術運用進階演演算法，以產生極具吸引力的個人化內容。 透過Gen AI的智慧型內容產生功能，提高開啟率、點進率和轉換率。
+  告別手動內容建立作業，歡迎使用Gen AI的強大功能，進行高效率、資料導向的行銷活動。  我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。 透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。
 
-  使用Gen AI處理電子郵件內容，在競爭中保持領先地位，並提升您的電子郵件行銷遊戲。
+  在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水平。
 
 
 * 預先定義的篩選器管理
 
-  引入預先定義的篩選器管理。 Campaign網頁UI現在提供使用者易記的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供日後使用。 [了解更多](../personalization/predefined-filters.md)
+  引入預先定義的篩選器管理。 Campaign網頁UI現在提供使用者易記的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供未來使用。[了解更多](../personalization/predefined-filters.md)
 
 
 * 目標對象
 
-  建立傳遞目標變得前所未有的簡單！ 使用我們最新的規則產生器，您現在可以從資料庫定義收件者的篩選條件或任何其他目標維度。 此外，您可以善用AEP (Adobe Experience Platform)對象，進一步調整目標對象，讓行銷活動發揮最大影響力。
+  制定傳遞目標再簡單不過了！ 借助我們最新的規則產生器，您現在可以為收件者或資料庫中的任何其他目標定位維度定義篩選條件。 此外，您可以善用AEP (Adobe Experience Platform)對象，進一步調整目標對象，讓行銷活動發揮最大影響力。
 
 * 包含SMS和推播的優惠方案
 
@@ -92,11 +90,14 @@ ht-degree: 50%
 
   透過我們的進階Web平台上的SMS和推播通知，運用整合式優惠方案的強大功能，提升您的行銷成效。
 
-* Adobe Experience Manager (AEM)整合
+<!--
+* Adobe Experience Manager (AEM) Integration
+    
+    With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
+    
+    Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
 
-  我們的AEM整合已擴充至網頁UI，您可以輕鬆管理資產並同步完整HTML範本，讓您能夠輕鬆建立吸引人的數位體驗。
-
-  透過這項整合提升並簡化Web UI上的內容管理功能，以提高生產力。
 
 ## 轉換到 Campaign Web UI
 

@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 93%
+source-wordcount: '1760'
+ht-degree: 90%
 
 ---
 
@@ -56,6 +56,12 @@ ht-degree: 93%
 如同任何清單畫面，您可以設定欄來個人化顯示以檢視所有您需要的資訊。請參閱本[章節](#list-screens)。
 
 如需 Campaign 探索工具、資料夾階層和資源的詳細資訊，請參閱此 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}。
+
+
+### 內容說明 {#user-interface-help}
+
+直接從產品使用者介面提出問題並尋找指引。 全新AI支援的知識助理內嵌於情境式說明彈出視窗，可協助您學習及發展新Campaign功能的專業知識。 它會根據最新的產品檔案，協助您在建立使用案例時尋找說明並立即取得逐步指引。
+
 
 ### 行銷活動管理 {#user-interface-campaign-management}
 
