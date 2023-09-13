@@ -4,7 +4,7 @@ title: 準備並傳送電子郵件
 description: 了解如何使用 Campaign Web UI 準備並傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 50%
@@ -35,7 +35,7 @@ ht-degree: 50%
 
    >[!NOTE]
    >
-   >如果您已排程傳送並停用 **[!UICONTROL 傳送前啟用確認]** 選項，準備和傳送步驟會分組在 **[!UICONTROL 準備並傳送]** 按鈕。 [進一步瞭解排程](../email/create-email.md#schedule)
+   >如果您已排程傳送並停用 **[!UICONTROL 傳送前啟用確認]** 選項，準備和傳送步驟會分組在 **[!UICONTROL 準備並傳送]** 按鈕。 [進一步瞭解排程](../msg/gs-messages.md#gs-schedule)
 
 1. 畫面會顯示準備進度。根據目標母體的大小，此操作可能需要一些時間。
 
@@ -87,7 +87,7 @@ ht-degree: 50%
 
 一旦 [準備](#prepare) 完成，您現在可以傳送電子郵件。
 
-如果已排程訊息，則會在定義的日期和時間傳送訊息。 [了解更多](#schedule-the-send)
+如果已排程訊息，則會在定義的日期和時間傳送訊息。 [了解更多](../msg/gs-messages.md#gs-schedule)
 
 ### 立即傳送 {#send-immediately}
 
@@ -105,7 +105,7 @@ ht-degree: 50%
 
 如果您已排程在稍後日期及時間傳送電子郵件，請遵循下列步驟。
 
-1. 在您點選 **[!UICONTROL 檢閱並傳送]** 按鈕，確定您已定義電子郵件的排程。 [了解更多](../email/create-email.md#schedule)
+1. 在您點選 **[!UICONTROL 檢閱並傳送]** 按鈕，確定您已定義電子郵件的排程。 [了解更多](../msg/gs-messages.md#gs-schedule)
 
 1. 在傳遞控制面板中，按一下 **[!UICONTROL 依排程傳送按鈕]** 按鈕進行標籤。
 
@@ -115,7 +115,7 @@ ht-degree: 50%
 
    >[!NOTE]
    >
-   >如果您已停用 **[!UICONTROL 傳送前啟用確認]** 選項，準備和傳送步驟會分組在 **[!UICONTROL 準備並傳送]** 按鈕。 [進一步瞭解排程](../email/create-email.md#schedule)
+   >如果您已停用 **[!UICONTROL 傳送前啟用確認]** 選項，準備和傳送步驟會分組在 **[!UICONTROL 準備並傳送]** 按鈕。 [進一步瞭解排程](../msg/gs-messages.md#gs-schedule)
 
 ## 暫停或停止傳送 {#pause-stop-sending}
 

@@ -4,10 +4,10 @@ title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 95%
+source-wordcount: '1300'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="傳遞"
->abstract="傳送是一種行銷通訊，會傳送給特定頻道的對象：電子郵件、簡訊或推播通知。 在傳遞清單中，您可以編輯現有傳遞，並檢查其狀態、聯絡人及修改日期、KPI。 按一下「建立傳遞」按鈕，即可新增傳遞。選取傳遞以檢視其內容、排程、對象和詳細資訊。"
+>abstract="傳遞是透過特定頻道傳送給對象的行銷通訊：電子郵件、SMS 或推播通知。在傳遞清單中，您可以編輯現有的傳遞，並檢查其狀態、聯絡和修改日期、KPI。按一下「建立傳遞」按鈕，即可新增傳遞。選取傳遞以檢視其內容、排程、對象和詳細資料。"
 
 
 透過 Adobe Campaign，您可以傳送跨管道行銷活動，包括電子郵件、簡訊、LINE 訊息、推播通知，並使用各種專屬報告來評估行銷效益。 
@@ -82,7 +82,7 @@ Adobe Campaign v8 提供下列傳遞管道： 電子郵件、簡訊和行動應�
 
 1. 定義主要目標和控制組的傳遞對象。若要了解對象的詳細資訊，請參閱[本章節](../audience/about-audiences.md)。
 1. 定義訊息內容。
-1. (選擇性) 定義傳遞排程。如果未定義排程，在按一下「**[!UICONTROL 傳送]**」按鈕後，訊息會立即傳送。
+1. （選用）定義傳遞 [排程](#gs-schedule). 如果未定義排程，在按一下「**[!UICONTROL 傳送]**」按鈕後，訊息會立即傳送。
 1. 按一下「**[!UICONTROL 檢閱並傳送]**」按鈕，以檢查您的設定。
 1. 使用「**[!UICONTROL 模擬內容]**」按鈕，以測試您的傳遞和個性化設定。若要了解訊息模擬的詳細資訊，請參閱[本章節](../preview-test/preview-test.md)。
 1. 按一下「**[!UICONTROL 準備]**」按鈕，以計算目標母體並產生訊息。準備步驟可能需要幾分鐘的時間才能完成。準備完成後，訊息即可用於傳送。萬一出現錯誤，請瀏覽到「**記錄檔**」，檢查警示和警告。
@@ -144,8 +144,24 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[了解�
 
 定義訊息內容後，即可進行預覽以控制訊息的呈現，並使用測試設定檔檢查個人化設定。[了解更多](../preview-test/preview-test.md)
 
+## 排程傳遞傳送 {#gs-schedule}
 
-## 監視和追蹤記錄{#gs-tracking-logs}
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_schedule"
+>title="排程傳送"
+>abstract="定義傳送訊息的日期和時間。 為您的行銷電子郵件選擇最合適的時間，可以將開啟率提升至最高。"
+
+您可以設定傳送訊息的日期和確切時間。 為您的行銷電子郵件選擇最合適的時間，可以將開啟率提升至最高。
+
+若要排程傳送作業，請開啟您的傳送作業，並瀏覽至 **排程** 區段。 使用 **[!UICONTROL 啟用排程]** 切換以啟用它，並設定傳送所需的日期和時間。 傳送傳遞後，將在您定義的聯絡日期開始實際傳送。
+
+![](assets/schedule.png)
+
+預設會選取「**[!UICONTROL 啟用傳送前確認]**」選項。此選項需要您在排程的日期和時間傳送傳遞前，先確認傳送。 如果您需要在排程的日期和時間自動傳送傳遞，可以停用此選項。
+
+瞭解在中傳送排程傳送的步驟 [本節](../monitor/prepare-send.md#schedule-the-send).
+
+## 監視和追蹤記錄 {#gs-tracking-logs}
 
 傳送傳遞後進行監視是確保行銷活動效率並和客戶保持聯繫的關鍵步驟。 
 

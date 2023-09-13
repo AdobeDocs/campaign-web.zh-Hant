@@ -3,10 +3,10 @@ audience: end-user
 title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 68%
+source-wordcount: '337'
+ht-degree: 67%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 68%
 
    在此畫面中，您也可以 [模擬您的內容](../preview-test/preview-test.md) 和 [設定優惠方案](../content/offers.md).
 
-1. 若要將您的傳遞安排在特定的日期和時間，請開啟「**[!UICONTROL 啟用排程]**」選項。在您開始進行傳遞後，訊息將在您為收件者定義的確切日期和時間自動傳送。
+1. 若要將您的傳遞安排在特定的日期和時間，請開啟「**[!UICONTROL 啟用排程]**」選項。在您開始進行傳遞後，訊息將在您為收件者定義的確切日期和時間自動傳送。進一步瞭解中的傳送排程 [本節](../msg/gs-messages.md#gs-schedule)
 
    ![](assets/push_create_3.png)
 

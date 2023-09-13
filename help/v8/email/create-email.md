@@ -4,10 +4,10 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 85%
+source-wordcount: '1224'
+ht-degree: 87%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 85%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="電子郵件內容的Gen AI"
->abstract="我們的Gen AI技術運用進階演演算法，以產生極具吸引力的個人化內容。 透過Gen AI的智慧型內容產生功能，提高開啟率、點進率和轉換率。 使用Gen AI處理電子郵件內容，在競爭中保持領先地位，並提升您的電子郵件行銷遊戲。"
+>title="適用於電子郵件內容的 Gen AI"
+>abstract="我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。 透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水平。"
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
@@ -131,16 +131,11 @@ ht-degree: 85%
 
 ## 排程傳送 {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="排程傳送"
->abstract="定義傳送日期和確切時間。為您的行銷電子郵件選擇最合適的時間，可以將開啟率提升至最高。"
-
-若要排程電子郵件傳送，請開啟電子郵件傳遞並瀏覽至「**排程**」區段。使用&#x200B;**[!UICONTROL 啟用排程]**&#x200B;切換以啟動它，並設定所需的傳送日期和時間。傳送傳遞後，將在您定義的聯絡日期開始實際傳送。
-
-預設會選取「**[!UICONTROL 啟用傳送前確認]**」選項。此選項要求您在排程的日期和時間傳送電子郵件之前確認。如果您需要在排程的日期和時間自動傳送電子郵件，您可以停用此選項。
+若要排程電子郵件傳送，請開啟電子郵件傳遞並瀏覽至「**排程**」區段。
 
 ![](assets/schedule.png)
+
+瞭解如何排程傳遞傳送 [本節](../msg/gs-messages.md#gs-schedule)
 
 ## 預覽和測試電子郵件 {#preview-test}
 
