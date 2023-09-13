@@ -4,10 +4,10 @@ title: 使用 Adobe Experience Platform 對象
 description: 了解如何使用 Adobe Experience Platform 對象
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 39%
+source-wordcount: '290'
+ht-degree: 37%
 
 ---
 
@@ -19,8 +19,7 @@ Adobe Campaign受管理的Cloud Service目標和來源聯結器可緊密整合Ad
 
 >[!NOTE]
 >
->若要在Campaign中使用Adobe Experience Platform受眾，您需要設定與Adobe來源和目標的整合。 請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
-
+>若要在Campaign中使用Adobe Experience Platform受眾，您需要設定與Adobe來源和目標的整合。 請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 若要選取傳送的對象，您也可以：
 
