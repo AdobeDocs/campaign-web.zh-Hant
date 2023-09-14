@@ -3,9 +3,9 @@ audience: end-user
 title: 使用排程器工作流程活動
 description: 瞭解如何使用排程器工作流程活動
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '333'
 ht-degree: 15%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 15%
 
 # 排程器 {#scheduler}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="排程器活動"
->abstract="排程器活動可讓您……"
+>title="Scheduler activity"
+>abstract="The Scheduler activity allows you..."
+-->
 
 此 **排程器** 活動是 **流量控制** 活動。 它可讓您排程工作流程何時開始。 此活動應視為已排程的開始。 它只能用作工作流程的第一個活動。
 

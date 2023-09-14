@@ -3,9 +3,9 @@ audience: end-user
 title: 使用儲存對象工作流程活動
 description: 了解如何使用「分支」工作流程活動
 badge: label="Beta"
-source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '323'
 ht-degree: 9%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 9%
 
 # 儲存對象 {#save-audience}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="???"
->title="儲存對象活動"
->abstract="「儲存對象」活動可讓您……"
+>title="Save audience activity"
+>abstract="The Save audience activity allows you to..."
+-->
 
 此 **儲存對象** 活動是 **目標定位** 活動。 此活動可讓您更新現有的對象，或是從工作流程中的母體運算上游建立新的對象。 建立的對象會新增至應用程式對象清單，並可透過 **受眾** 功能表。
 
