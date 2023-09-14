@@ -4,10 +4,10 @@ title: 準備並傳送電子郵件
 description: 了解如何使用 Campaign Web UI 準備並傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 50%
+source-wordcount: '924'
+ht-degree: 47%
 
 ---
 
@@ -70,20 +70,6 @@ ht-degree: 50%
 
 ## 傳送訊息 {#send}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_delivered"
->title="已傳遞"
->abstract="已成功傳遞的訊息數。此指標每 5 分鐘會更新一次。會根據已傳送訊息的總數顯示百分比。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_opens"
->title="開啟次數"
->abstract="開啟的訊息數。此指標每 5 分鐘會更新一次。顯示的百分比為相異開啟次數相較於已傳遞訊息數的比率。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_clicks"
->title="點按次數"
->abstract="在電子郵件中至少點按一次的收件者數量。此指標每 5 分鐘會更新一次。顯示的百分比為相異點按次數相較於已傳遞訊息數的比率。"
 
 一旦 [準備](#prepare) 完成，您現在可以傳送電子郵件。
 
@@ -130,14 +116,38 @@ ht-degree: 50%
 ## 檢查KPI {#check-kpis}
 
 >[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="已傳遞"
+>abstract="已成功傳遞的訊息數。此指標每 5 分鐘會更新一次。會根據已傳送訊息的總數顯示百分比。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="瞭解KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="開啟次數"
+>abstract="開啟的訊息數。此指標每 5 分鐘會更新一次。顯示的百分比為相異開啟次數相較於已傳遞訊息數的比率。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="瞭解KPI"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="點按次數"
+>abstract="在電子郵件中至少點按一次的收件者數量。此指標每 5 分鐘會更新一次。顯示的百分比為相異點按次數相較於已傳遞訊息數的比率。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="瞭解KPI"
+
+
+>[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="傳送的量度"
 >abstract="傳遞分析期間處理的訊息總數。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="瞭解KPI"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="錯誤量度"
 >abstract="傳遞和自動傳回處理期間累積的錯誤總數與已傳送之訊息總數的關係。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="瞭解KPI"
+
 
 傳送完成後，您可以檢查顯示的KPI：
 
@@ -156,5 +166,7 @@ ht-degree: 50%
 >[!NOTE]
 >
 >所有指標在傳遞開始後每 5 分鐘更新一次。傳遞準備指標為即時。
+
+進一步瞭解KPI，請參閱 [此頁面](../reporting/kpis.md).
 
 您也可以檢查記錄。[了解更多](delivery-logs.md)
