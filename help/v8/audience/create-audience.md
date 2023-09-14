@@ -3,9 +3,9 @@ audience: end-user
 title: 建立對象
 description: 瞭解如何在Adobe Campaign Web中建立對象
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -13,30 +13,30 @@ ht-degree: 1%
 
 # 建立對象 {#create-audiences}
 
-Campaign Web可讓您建立工作流程，其中您可以將現有對象合併到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。
+Campaign Web可讓您建立工作流程，將現有對象合併到視覺畫布中。 藉由合併各種工作流程活動（例如「分割」或「排除」），您可以產生新的和完善的對象。
 
-完成後，產生的受眾會連同現有受眾一併儲存至Campaign Web中，並可在獨立傳遞或行銷活動中運用以鎖定個人。
+當您完成工作流程後，產生的對象會自動與您現有的對象一起儲存在Campaign網頁中。 然後便可在行銷活動或獨立傳送中鎖定這些對象。
 
 ## 建立您的第一個對象 {#create}
 
 若要建立對象，請遵循下列步驟：
 
-1. 導覽至 **[!UICONTROL 受眾]** 功能表並按一下 **[!UICONTROL 建立對象]** 按鈕。
+1. 導覽至 **[!UICONTROL 受眾]** 功能表，然後按一下 **[!UICONTROL 建立對象]** 按鈕的位置。
 1. 為對象提供標籤。
-1. 展開其他選項區段，設定對象的進階器引數。
+1. 展開 **[!UICONTROL 其他選項]** 區段來設定進階對象引數。
 
-   >[!NOTE]
-   >
-   >依預設，會在「設定檔和目標/清單探索者」選單中建立對象。 您可以變更中的預設儲存位置 **[!UICONTROL 資料夾]** 欄位。
+   依預設，對象會建立到 **[!UICONTROL 設定檔和目標]** / **[!UICONTROL 清單]** explorer功能表。 您可以使用變更預設儲存位置 **[!UICONTROL 資料夾]** 欄位。
 
-1. 設定對象設定後，按一下 **[!UICONTROL 建立對象]** 按鈕。
+   ![](assets/audiences-settings.png)
+
+1. 設定對象設定後，請按一下 **[!UICONTROL 建立對象]** 按鈕。
 
 1. 工作流程畫布隨即顯示，其中包含兩個預設活動：
 
-   * **[!UICONTROL 建立對象]**：工作流程的起點。 此活動可讓您選取一或多個對象作為工作流程的基礎。
-   * **[!UICONTROL 儲存對象]**：工作流程的最後一步。 此活動可讓您將工作流程的結果儲存至新受眾。
+   * **[!UICONTROL 建立對象]**：這是工作流程的起點，可讓您建立受眾，並將其用作工作流程的基礎。
+   * **[!UICONTROL 儲存對象]**：這代表工作流程的最後一步，可讓您將結果儲存為新對象。
 
-1. 視需要新增儘可能多的活動以設定工作流程。 有關如何設定各種活動的詳細資訊，請參閱 [工作流程檔案](../workflows/activities/about-activities.md).
+1. 視需要新增任意數量的活動，以自訂您的工作流程。 有關如何設定工作流程活動的詳細資訊，請參閱 [工作流程檔案](../workflows/activities/about-activities.md).
 
    >[!NOTE]
    >
@@ -46,4 +46,4 @@ Campaign Web可讓您建立工作流程，其中您可以將現有對象合併�
 
 1. 當工作流程準備就緒時，按一下 **[!UICONTROL 開始]** 以執行。
 
-1. 工作流程會儲存至 **[!UICONTROL 工作流程]** 清單以及產生的對象移入 **[!UICONTROL 受眾]** 清單。 [瞭解如何監視和管理對象](access-audiences.md)
+1. 工作流程會儲存在 **[!UICONTROL 工作流程]** 清單，而可在中存取產生的對象 **[!UICONTROL 受眾]** 清單。 [瞭解如何監視和管理對象](access-audiences.md)
