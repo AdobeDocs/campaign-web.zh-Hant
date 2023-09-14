@@ -3,10 +3,10 @@ audience: end-user
 title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 67%
+source-wordcount: '406'
+ht-degree: 53%
 
 ---
 
@@ -27,9 +27,14 @@ ht-degree: 67%
 >title="推播傳遞屬性"
 >abstract="管理推播傳遞屬性。"
 
-1. 可從「**[!UICONTROL 傳遞]**」首頁，按一下「**[!UICONTROL 建立傳遞]**」。
+您可以建立獨立的推播通知傳送，或在行銷活動工作流程的內容中建立推播通知。 以下步驟詳細說明獨立（一次性）推播傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟為中的詳細資訊 [本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-1. 在 **[!UICONTROL 頻道]** 區段，選擇推播通知作為頻道，並根據選擇的作業系統選取範本：Android或iOS。 [了解範本的詳細資訊](../msg/delivery-template.md)
+
+若要建立新的獨立推送傳送，請遵循下列步驟：
+
+1. 瀏覽至 **[!UICONTROL 傳遞]** 功能表，然後按一下  **[!UICONTROL 建立傳遞]** 按鈕。
+
+1. 在 **[!UICONTROL 頻道]** 區段，選擇 **推播通知** 做為頻道，並根據選擇的裝置作業系統選取範本：Android或iOS。 [了解範本的詳細資訊](../msg/delivery-template.md)
 
 1. 按一下「**[!UICONTROL 建立傳遞]**」按鈕以確認。
 

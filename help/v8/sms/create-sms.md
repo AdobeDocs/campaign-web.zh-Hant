@@ -4,10 +4,10 @@ title: 建立簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 89%
+source-wordcount: '386'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,12 @@ ht-degree: 89%
 >title="簡訊範本選取"
 >abstract="選取預先定義的範本，以開始進行簡訊傳遞。"
 
-1. 可從「**[!UICONTROL 傳遞]**」首頁，按一下「**[!UICONTROL 建立傳遞]**」。
+您可以建立獨立的SMS傳送，或在行銷活動工作流程的內容中建立SMS。 以下步驟詳細說明獨立（一次性） SMS傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟為中的詳細資訊 [本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+
+若要建立新的獨立SMS傳送，請遵循下列步驟：
+
+1. 瀏覽至 **[!UICONTROL 傳遞]** 功能表，然後按一下  **[!UICONTROL 建立傳遞]** 按鈕。
 
 1. 在「**[!UICONTROL 管道]**」區段下方，選擇簡訊作為管道並選取範本。[了解範本的詳細資訊](../msg/delivery-template.md)
 

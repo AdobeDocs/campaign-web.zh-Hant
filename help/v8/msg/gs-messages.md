@@ -4,10 +4,10 @@ title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 91%
+source-wordcount: '1303'
+ht-degree: 88%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 91%
 
 透過 Adobe Campaign，您可以傳送跨管道行銷活動，包括電子郵件、簡訊、LINE 訊息、推播通知，並使用各種專屬報告來評估行銷效益。 
 
-這些訊息會透過傳遞進行設計和傳送，並可針對每位收件者進行個人化。這些傳遞可以是獨立的，也可以納入行銷活動的內容中。
+這些訊息會透過傳遞進行設計和傳送，並可針對每位收件者進行個人化。這些傳送可以是獨立傳送，或包含在行銷活動內容中的工作流程。
 
-Adobe Campaign v8 提供下列傳遞管道： 電子郵件、簡訊和行動應用程式。
+Adobe Campaign v8提供下列傳送頻道：電子郵件、簡訊和行動應用程式。
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -59,7 +59,6 @@ Adobe Campaign v8 提供下列傳遞管道： 電子郵件、簡訊和行動應�
 
 ## 建立傳遞 {#create-delivery}
 
-
 您可以從左側功能表的「**[!UICONTROL 傳遞]**」建立獨立的傳遞，或是從左側功能表的「**[!UICONTROL 行銷活動]**」在行銷活動的內容中建立傳遞。
 
 瀏覽下面的標籤以了解如何建立傳遞：
@@ -89,7 +88,7 @@ Adobe Campaign v8 提供下列傳遞管道： 電子郵件、簡訊和行動應�
 1. 檢查結果，然後按一下「**[!UICONTROL 傳送]**」按鈕，開始傳送訊息。
 1. 傳送訊息後，請瀏覽到「**報告**」章節，以存取關鍵量度。若要了解傳遞報告的詳細資訊，請參閱[本章節](../reporting/delivery-reports.md)。
 
->[!TAB 在行銷活動中建立傳遞。]
+>[!TAB 在行銷活動工作流程中建立傳遞]
 
 若要在行銷活動中建立傳遞，請依照以下步驟進行：
 
