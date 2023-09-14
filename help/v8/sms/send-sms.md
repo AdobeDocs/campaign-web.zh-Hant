@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送簡訊傳遞
 description: 瞭解如何使用Adobe Campaign網頁版傳送簡訊
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 16%
+source-wordcount: '421'
+ht-degree: 15%
 
 ---
 
@@ -63,6 +63,9 @@ ht-degree: 16%
 1. 按一下以傳送訊息 **[!UICONTROL 傳送]** 以繼續進行最終的傳送程式。
 
    ![](assets/sms_send_5.png)
+
+   如果簡訊傳送已排程，請按一下 **[!UICONTROL 依排程傳送]** 按鈕。 進一步瞭解中的傳送排程 [本節](../msg/gs-messages.md#schedule-the-delivery-sending).
+
 
 1. 按一下「 」以確認傳送動作 **[!UICONTROL 傳送]** 按鈕。
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送推播通知傳遞
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '386'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,9 @@ ht-degree: 2%
 
 1. 按一下以傳送訊息 **[!UICONTROL 傳送]** 以繼續進行最終的傳送程式。
 
-1. 按一下「 」以確認傳送動作 **[!UICONTROL 傳送]** 或 **[!UICONTROL 依排程傳送]** 按鈕。
+1. 按一下「 」以確認傳送動作 **[!UICONTROL 傳送]**.
+
+   如果已排程推送傳送，請按一下 **[!UICONTROL 依排程傳送]** 按鈕。 進一步瞭解中的傳送排程 [本節](../msg/gs-messages.md#schedule-the-delivery-sending).
 
    ![](assets/push_send_4.png)
 
