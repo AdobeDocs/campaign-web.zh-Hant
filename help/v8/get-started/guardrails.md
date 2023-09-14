@@ -2,10 +2,10 @@
 title: Campaign Web UI中的護欄和限制
 description: Campaign Web UI中的護欄和限制
 badge: label="Beta"
-source-git-commit: ff95b563784ae507245e6690feedda33ea6a111b
+source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '443'
+ht-degree: 5%
 
 ---
 
@@ -47,7 +47,48 @@ ht-degree: 2%
 
 ## 預先定義的篩選 {#filters-guardrails-limitations}
 
-
 選取傳送的對象或在工作流程中建立對象時，某些預先定義的篩選器無法使用。 此時會顯示特定錯誤訊息。 您仍可以使用查詢並檢視：篩選條件和結果，但不能在規則產生器中檢視確切的查詢，也無法編輯篩選器。
 
-![](assets/filter-unavailable.png)
+![](assets/filter-unavailable.png){width="70%" align="left"}
+
+
+### 不支援的資料型別 {#unsupported-data-type}
+
+在Web介面中顯示篩選器或規則時，不支援使用者端主控台中可用的下列資料型別：
+
+* 日期時間
+* 時間
+* 時間跨度
+* 兩次
+* 浮點數
+
+### 不支援的篩選功能 {#unsupported-filtering-capabilities}
+
+若篩選是在使用者端主控台中以複雜的運算式和函式建立，則無法在Web介面中進行編輯。
+
+此外，不支援下列運運算元：
+
+* 數值型別
+   * 包含在
+   * no in
+
+* 字串型別
+   * 大於
+   * 小於
+   * 大於或等於
+   * 小於或等於
+   * 按讚
+   * 不相似
+
+* 日期型別
+   * 在或晚於
+   * 在或早於
+   * 不等於
+   * 是空的
+   * 不是空的
+   * 包含在
+   * 不在
+   * 最近
+
+* 1-N連結
+   * COUNT， SUM， AVG， MIN， MAX

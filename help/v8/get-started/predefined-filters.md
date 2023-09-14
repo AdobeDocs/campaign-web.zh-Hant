@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: ccae13b0105b0c662cb513bb12d7bc43a3881819
+source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 17%
@@ -89,7 +89,7 @@ ht-degree: 17%
 
 篩選器儲存成我的最愛時，此篩選器將可供中的所有使用者使用。 **我的最愛篩選器** 篩選器建立清單的區段，如下所示：
 
-![](assets/predefined-filters-favorite.png)
+![](assets/predefined-filters-favorite.png){width="70%" align="left"}
 
 
 ## 使用預先定義的篩選器 {#use-predefined-filter}
