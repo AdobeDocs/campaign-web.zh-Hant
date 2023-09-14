@@ -4,7 +4,7 @@ title: 使用工作流程活動
 description: 了解如何使用工作流程活動
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Adobe Campaign Web 讓您能夠跨多個管道 (例如電子郵件、簡訊或�
 * 推播
 * 簡訊
 
-請參閱本[章節](enrichment.md)。
+請參閱本[章節](channels.md)。
 
 ## 流程控制活動 {#flow-control}
 
