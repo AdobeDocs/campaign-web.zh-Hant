@@ -1,37 +1,35 @@
 ---
 audience: end-user
-title: 使用「分支」工作流程活動
-description: 了解如何使用「分支」工作流程活動
+title: 使用變更維度工作流程活動
+description: 瞭解如何使用變更維度工作流程活動
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
 
-# 分支 {#fork}
+# 變更維度 {#change-dimension}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_fork_transitions"
->title="分支活動"
->abstract="「分支」活動可讓您建立傳出轉變，以同時啟動多個活動。"
+>id="acw_orchestration_dimension_complement"
+>title="變更維度活動"
+>abstract="「變更」維度活動可讓您……"
+
+此 **變更維度** 活動是 **目標定位** 活動。 此活動可讓您在建立對象時變更目標維度。 此活動會根據資料範本和輸入維度移動軸。 例如，您可以從「合約」維度切換至「客戶」維度。
+
+您也可以使用此活動來定義新目標的其他欄，並定義重複資料刪除的條件。
 
 ## 設定
 
-請按照以下步驟設定「**分支**」活動：
+請依照下列步驟設定 **變更維度** 活動：
 
-1. 在您的工作流程中新增一個「**分支**」活動。
-1. 若要新增傳出轉變，請按一下「**新增轉變**」。預設情況下，會定義兩種轉變。
-1. 對每種轉變新增標籤。
+1. 新增 **變更維度** 活動至您的工作流程。
 
-## 範例
+       &lt;!—！[](../assets/workflow-change-dimension.png)—>
+   
+1. 透過「變更維度」欄位選取新的目標維度。
 
-在下面的範例中，我們會使用兩種&#x200B;**分支**&#x200B;活動：
-
-* 一個在兩個查詢之前，以同時執行查詢。
-* 一個在交集之後，以同時傳送電子郵件和簡訊給目標母體。
-
-![](../assets/workflow-fork-example.png)
-
+沒有其他資訊??
