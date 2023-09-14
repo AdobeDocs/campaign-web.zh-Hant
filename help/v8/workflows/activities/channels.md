@@ -3,10 +3,10 @@ audience: end-user
 title: 使用傳遞工作流程活動
 description: 了解如何新增傳遞工作流程活動 (電子郵件、推播、簡訊)
 badge: label="Beta"
-source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 78%
+source-wordcount: '491'
+ht-degree: 79%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 >* [建立獨立推送傳送](../../push/create-push.md)
 >
 
-## 在行銷活動工作流程中建立傳遞{#create-a-delivery-in-a-workflow}
+## 在工作流程中建立傳遞{#create-a-delivery-in-a-workflow}
 
-若要在行銷活動工作流程內容中建立電子郵件、簡訊或推播傳送，請遵循下列步驟：
+若要在工作流程內容中建立電子郵件、簡訊或推播傳送，請遵循下列步驟：
 
 1. 請確保您已新增「**建置對象**」活動。對象是傳遞的主要目標：收到訊息的收件者。在行銷活動工作流程中傳送訊息時，訊息對象不會在管道活動中定義，而是在「**建置對象**」活動中定義。請參閱[本節](build-audience.md)。
 
@@ -56,7 +56,7 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 
 1. 在您的傳遞儀表板中，按一下「**傳送**」。
 
-## 範例{#cross-channel-workflow-sample}
+## 範例 {#cross-channel-workflow-sample}
 
 以下是一個具有分段和兩個傳遞的跨管道工作流程範例。此工作流程會以所有居住在巴黎且對咖啡機感興趣的客戶為目標。針對此母體，會傳送電子郵件給普通客戶，並傳送簡訊給 VIP 用戶端。
 
