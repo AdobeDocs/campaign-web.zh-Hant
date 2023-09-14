@@ -3,10 +3,10 @@ audience: end-user
 title: 使用排程器工作流程活動
 description: 瞭解如何使用排程器工作流程活動
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 15%
+source-wordcount: '367'
+ht-degree: 14%
 
 ---
 
@@ -55,6 +55,13 @@ ht-degree: 15%
    * **永久（永不過期）**：工作流程會根據指定的頻率執行，對時間範圍或迭代次數沒有任何限制。
 
    * **有效期**：工作流程會根據指定的頻率執行，直到特定日期為止。 您必須指定開始和結束日期。
+
+>[!NOTE]
+>
+>如果您想要立即開始工作流程，可以按一下 **執行擱置中的工作** 排程器頂端動作列中的。 此按鈕僅在您啟動工作流程時可用。
+
+注意:
+
 
 ## 範例
 
