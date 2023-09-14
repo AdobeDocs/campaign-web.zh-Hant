@@ -4,10 +4,10 @@ title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
+source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 50%
+source-wordcount: '548'
+ht-degree: 40%
 
 ---
 
@@ -55,23 +55,6 @@ ht-degree: 50%
 
 ![](assets/select-external-perso.png)
 
-## 預覽和測試您的電子郵件 {#test}
-
-使用從檔案上傳的對象時，Campaign Web可讓您預覽和傳送測試電子郵件。 要執行此操作，請依照下列步驟執行：
-
-1. 模擬內容
-1. 開啟預覽。 按一下選取設定檔：從要使用的檔案中選取設定檔
-1. 若要傳送測試電子郵件，請按一下測試
-1. 測試模式：定義校樣目標
-1. 從第二個檔案上傳測試電子郵件的目標（或使用相同的檔案）。 檔案格式設定遵循與上傳的檔案相同的方式
-1. 對檔案格式執行的檢查
-1. 按一下傳送
-
-新增預覽和測試區段的連結
-
-**問題：**
-* 沒有可用的檔案替代？
-
 ## 範例檔案 {#sample-file}
 
 >[!CONTEXTUALHELP]
@@ -92,3 +75,29 @@ Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
+
+## 預覽和測試您的電子郵件 {#test}
+
+使用從檔案上傳的對象時，Campaign Web可讓您預覽和傳送測試電子郵件。 要執行此操作，請依照下列步驟執行：
+
+1. 按一下 **[!UICONTROL 模擬內容按鈕]** 在傳遞內容編輯畫面中按一下 **[!UICONTROL 新增測試設定檔]** 按鈕。
+
+1. 上傳的檔案中包含的設定檔隨即顯示。 選取要用於預覽內容的設定檔，然後按一下 **[!UICONTROL 選取]**.
+
+1. 傳遞內容的預覽會顯示在畫面的右側窗格中。 個人化元素會取代為左側窗格中選取之設定檔的資料。 [進一步瞭解傳遞內容預覽](../preview-test/preview-content.md)
+
+   ![](assets/file-upload-preview.png)
+
+1. 若要傳送測試電子郵件，請按一下 **[!UICONTROL 測試]** 按鈕。
+
+1. 按一下 **[!UICONTROL 上傳校訂設定檔]** 按鈕並選取包含校樣收件者的.txt或.csv檔案。
+
+   >[!CAUTION]
+   >
+   >確保檔案格式符合用來上傳對象的格式。 任何格式錯誤都會顯示警報。
+
+1. 當校樣收件者新增且您已準備好傳送校樣時，請按一下 **[!UICONTROL 傳送測試電子郵件]** 按鈕並確認傳送。
+
+   ![](assets/file-upload-test.png)
+
+1. 您可以隨時使用檢視測試電子郵件記錄按鈕來監視測試電子郵件的傳送。 [進一步瞭解測試電子郵件監控](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
