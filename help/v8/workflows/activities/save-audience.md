@@ -3,10 +3,10 @@ audience: end-user
 title: 使用儲存對象工作流程活動
 description: 了解如何使用「分支」工作流程活動
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 11%
+source-wordcount: '333'
+ht-degree: 9%
 
 ---
 
@@ -18,16 +18,6 @@ ht-degree: 11%
 >title="儲存對象活動"
 >abstract="「儲存對象」活動可讓您……"
 
-模式對象標籤Adobe Campaign會將此標籤與現有對象比對。 如果找到相符專案，系統會更新該對象，否則會建立新對象。
-更新方法
-
-用新資料取代對象
-
-使用新資料夾清單(/Profiles and Targets/Lists/)完成對象
-
-產生傳出轉變
-
-
 此 **儲存對象** 活動是 **目標定位** 活動。 此活動可讓您更新現有的對象，或是從工作流程中的母體運算上游建立新的對象。 建立的對象會新增至應用程式對象清單，並可透過 **受眾** 功能表。
 
 此活動主要用於將母體族群轉換為可重複使用的對象，讓母體族群可繼續在相同工作流程中運算。 將其連線到其他目標定位活動，例如 **建立對象** 或 **合併** 活動。
@@ -38,7 +28,7 @@ ht-degree: 11%
 
 1. 新增 **儲存對象** 活動至您的工作流程。
 
-   <!--![](../assets/workflow-save-audience.png)-->
+   ![](../assets/workflow-save-audience.png)
 
 1. 在 **模式** 在下拉式清單中，選取您要執行的動作：
 
