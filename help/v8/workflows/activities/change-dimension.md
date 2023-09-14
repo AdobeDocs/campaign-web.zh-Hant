@@ -3,7 +3,7 @@ audience: end-user
 title: 使用變更維度工作流程活動
 description: 瞭解如何使用變更維度工作流程活動
 badge: label="Beta"
-source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 1. 新增 **變更維度** 活動至您的工作流程。
 
-       &lt;!—！[](../assets/workflow-change-dimension.png)—>
+       ！[](../assets/workflow-change-dimension.png)
    
 1. 透過「變更維度」欄位選取新的目標維度。
 

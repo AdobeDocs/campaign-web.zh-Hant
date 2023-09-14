@@ -3,7 +3,7 @@ audience: end-user
 title: 使用重複資料刪除工作流程活動
 description: 瞭解如何使用重複資料刪除工作流程活動
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 1. 新增 **重複資料刪除** 活動至您的工作流程。
 
-   <!--![](../assets/workflow-deduplication.png)-->
+   ![](../assets/workflow-deduplication.png)
 
 1. 在 **識別重複專案的欄位** 區段，按一下 **新增屬性** 按鈕來指定相同值可識別重複專案的欄位：電子郵件地址、名字、姓氏等。 欄位順序可讓您指定要先處理的欄位。
 

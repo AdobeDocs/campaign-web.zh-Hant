@@ -3,7 +3,7 @@ audience: end-user
 title: 使用排程器工作流程活動
 description: 瞭解如何使用排程器工作流程活動
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 15%
@@ -30,7 +30,7 @@ ht-degree: 15%
 
 1. 新增 **排程器** 活動至您的工作流程。
 
-   <!--![](../assets/workflow-scheduler.png)-->
+   ![](../assets/workflow-scheduler.png)
 
 1. 設定 **執行頻率**：
 
@@ -58,7 +58,7 @@ ht-degree: 15%
 
 在下列範例中，活動已設定為每天早上9點和12點（從2023年10月1日到2024年1月1日）開始工作流程數次。
 
-<!--![](../assets/workflow-scheduler2.png)-->
+![](../assets/workflow-scheduler2.png)
 
 
 
