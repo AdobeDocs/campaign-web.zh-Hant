@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1683'
 ht-degree: 88%
 
 ---
@@ -223,16 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="選取至少兩個傳遞，以顯示彙總的資料報告。"
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_settings"
->title="重複資料刪除 - 重複設定"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_complement"
->title="重複資料刪除 - 重複補充"
->abstract="待定"
-
->[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="需要權限"
 >abstract="您的管理員必須先授予您權限，然後您才能建立區段。"
@@ -241,7 +231,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="需要權限"
 >abstract="您的管理員必須先授予您權限，然後您才能建立區段。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
@@ -253,33 +242,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="此傳遞為唯讀資料"
 >abstract="您沒有編輯此傳遞的權限。如果需要，請聯絡管理員為您授予存取權限。"
 
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="此服務為唯讀資料"
->abstract="您沒有編輯此服務的權限。如果需要，請聯絡管理員為您授予存取權限。"
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="此對象為唯讀"
->abstract="您沒有編輯此對象的權限。 如果需要，請聯絡管理員為您授予存取權限。"
-
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="工作流程清單"
 >abstract="您的行銷活動可使用的工作流程清單。使用「建立工作流程」按鈕在您的行銷活動中新增工作流程。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="儲存對象的傳出轉變"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="儲存對象"
->abstract="使用此活動來儲存工作流程對象。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"

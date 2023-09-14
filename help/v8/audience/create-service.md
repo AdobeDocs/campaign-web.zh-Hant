@@ -3,15 +3,20 @@ audience: end-user
 title: 建立服務
 description: 瞭解如何在Adobe Campaign Web中建立服務
 badge: label="Beta"
-source-git-commit: 6a8556dd531484a99d153a2aaf2058dc7e8b3a62
+source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 0%
+source-wordcount: '189'
+ht-degree: 12%
 
 ---
 
 
 # 建立服務 {#create-services}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="此服務為唯讀資料"
+>abstract="您沒有編輯此服務的權限。如果需要，請聯絡管理員為您授予存取權限。"
 
 使用Adobe Campaign建立及監控您的資訊服務（例如電子報），並檢查這些服務的訂閱/取消訂閱。
 

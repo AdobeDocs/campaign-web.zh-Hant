@@ -3,10 +3,10 @@ audience: end-user
 title: 使用儲存對象工作流程活動
 description: 了解如何使用「分支」工作流程活動
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 9%
+source-wordcount: '17'
+ht-degree: 64%
 
 ---
 
@@ -15,41 +15,60 @@ ht-degree: 9%
 
 <!--
 >[!CONTEXTUALHELP]
->id="???"
->title="Save audience activity"
->abstract="The Save audience activity allows you to..."
--->
+>id="acw_orchestration_saveaudience_activity"
+>title="Save an audience"
+>abstract="Use this activity to save the workflow audience."
 
-此 **儲存對象** 活動是 **目標定位** 活動。 此活動可讓您更新現有的對象，或是從工作流程中的母體運算上游建立新的對象。 建立的對象會新增至應用程式對象清單，並可透過 **受眾** 功能表。
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="Outbound transition for save audience"
+>abstract="tbc"
 
-此活動主要用於將母體族群轉換為可重複使用的對象，讓母體族群可繼續在相同工作流程中運算。 將其連線到其他目標定位活動，例如 **建立對象** 或 **合併** 活動。
+Mode
+Audience label
+Adobe Campaign is going to match this label against existing audiences. If it finds a match, it will update that audience, otherwise it will create a new audience.
+Update method
 
-## 設定
+Replace audience with new data
 
-請依照下列步驟設定 **儲存對象** 活動：
+Complete audience with new data
+Folder
+Lists (/Profiles and Targets/Lists/)
 
-1. 新增 **儲存對象** 活動至您的工作流程。
+Generate an outbound transition
+
+
+The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
+
+This activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
+
+## Configuration
+
+Follow these steps to configure the **Save audience** activity:
+
+1. Add a **Save audience** activity to your workflow.
 
    ![](../assets/workflow-save-audience.png)
 
-1. 在 **模式** 在下拉式清單中，選取您要執行的動作：
+1. In the **Mode** drop-down, select the action that you would like to carry out:
 
-   * **建立或更新現有對象**：定義 **對象標籤**. 如果對象已存在，則會更新，否則將建立新對象。
+    * **Create or update an existing audience**: define an **Audience label**. If the audience already exists, it will be updated, otherwise a new audience will be created.
 
-   * **更新現有的對象**：選擇 **對象** 您要在現有對象清單中進行更新。
+    * **Update an existing audience**: choose the **Audience** you wish to update among the list of existing audiences. 
 
-1. 選取 **更新模式** 將套用至現有受眾：
+1. Select the **Update mode** which will apply for existing audiences:
 
-   * **以新資料取代受眾內容**：所有對象內容都會被取代。 遺失舊資料。僅保留儲存對象活動之入站轉變的資料。此選項會清除更新對象的對象型別和目標定位維度。
+    * **Replace audience content with new data**: all audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept. This option erases the audience type and the targeting dimension of the updated audience.
 
-   * **使用新資料完成對象**：保留舊的對象內容，並新增儲存對象活動入站轉變的資料。
+    * **Complete audience with new data**: the old audience content is kept and the data from the save audience activity's inbound transition is added to it.
 
-1. 檢查 **產生補充** 選項，以利用剩餘母體。 隨後會將其他轉變新增至活動。
+1. Check the **Generate complement** option if you wish to exploit the remaining population. An additional transition will then be added to the activity.
 
-之後著，儲存的對象內容便可在對象的詳細資料檢視中使用，您可從以下位置存取： **受眾** 功能表。 此檢視中可用的欄對應於工作流程之入站轉變的欄 **儲存對象** 活動。
-
-
-## 範例
+The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **SAve audience** activity. 
 
 
+## Example
 
+
+
+-->
