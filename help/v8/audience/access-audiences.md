@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 存取對象
-description: 瞭解如何存取Adobe Campaign網站中的受眾
+title: 監視和管理對象
+description: 瞭解如何在Adobe Campaign Web中監視和管理對象
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 
-# 存取對象 {#create-audiences}
+# 監視和管理對象 {#create-audiences}
 
 Campaign網頁適用的對象清單可從 **[!UICONTROL 受眾]** 功能表。
 

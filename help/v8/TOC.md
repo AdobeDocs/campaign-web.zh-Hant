@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '389'
 ht-degree: 96%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 96%
    + [開始使用對象](audience/about-audiences.md)
    + [與收件者合作](audience/about-recipients.md)
    + [建立對象](audience/create-audience.md)
+   + [監視和管理對象](audience/access-audiences.md)
    + 目標對象 {#target-audiences}
       + [選取現有對象](audience/add-audience.md)
       + [使用規則產生器定義對象](audience/segment-builder.md)
@@ -105,10 +106,14 @@ ht-degree: 96%
       + [關於工作流程活動](workflows/activities/about-activities.md)
       + [合併連結](workflows/activities/and-join.md)
       + [建置對象](workflows/activities/build-audience.md)
-      + [合併](workflows/activities/combine.md)
+      + [變更維度](workflows/activities/change-dimension.md)
+      + [組合](workflows/activities/combine.md)
+      + [去重複化](workflows/activities/deduplication.md)
       + [電子郵件、簡訊、推播](workflows/activities/channels.md)
       + [擴充](workflows/activities/enrichment.md)
       + [分支](workflows/activities/fork.md)
+      + [儲存對象](workflows/activities/save-audience.md)
+      + [排程器](workflows/activities/scheduler.md)
       + [分割](workflows/activities/split.md)
       + [等待](workflows/activities/wait.md)
 + 報告 {#reports}

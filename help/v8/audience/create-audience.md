@@ -3,9 +3,9 @@ audience: end-user
 title: 建立對象
 description: 瞭解如何在Adobe Campaign Web中建立對象
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -46,4 +46,4 @@ Campaign Web可讓您建立工作流程，其中您可以將現有對象合併�
 
 1. 當工作流程準備就緒時，按一下 **[!UICONTROL 開始]** 以執行。
 
-1. 工作流程會儲存至 **[!UICONTROL 工作流程]** 清單以及產生的對象移入 **[!UICONTROL 受眾]** 清單。 [瞭解如何存取對象](access-audiences.md)
+1. 工作流程會儲存至 **[!UICONTROL 工作流程]** 清單以及產生的對象移入 **[!UICONTROL 受眾]** 清單。 [瞭解如何監視和管理對象](access-audiences.md)
