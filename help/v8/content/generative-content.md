@@ -3,9 +3,9 @@ audience: end-user
 title: 使用內容助理的文字
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '327'
 ht-degree: 3%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # 使用內容助理產生文字 {#generative-content}
 
-建立電子郵件並將其個人化後，請使用內容助理將您的內容提升到新的境界。
+建立電子郵件並將其個人化後，請使用創作AI所支援的內容助理將您的內容提升到新的境界。
 
 內容助理可以建議更可能引起觀眾共鳴的不同內容，協助您最佳化傳送的影響。
 
