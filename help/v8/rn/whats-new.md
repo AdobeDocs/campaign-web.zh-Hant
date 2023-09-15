@@ -4,10 +4,10 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 67%
+source-wordcount: '991'
+ht-degree: 64%
 
 ---
 
@@ -102,6 +102,12 @@ ht-degree: 67%
   直接從產品使用者介面提出問題並尋找指引。 全新AI支援的知識助理內嵌於情境式說明彈出視窗，可協助您學習及發展新Campaign功能的專業知識。 它會根據最新的產品檔案，協助您在建立使用案例時尋找說明並立即取得逐步指引。
 
   若要了解詳細資訊，請參閱[本章節](../get-started/using-ai.md)。
+
+* **適用於電子郵件設計的HTML轉換工具**
+
+  您現在可以在Campaign的電子郵件編輯器中匯入及轉換任何HTML內容。 內容區塊會自動識別，並可在電子郵件設計工具中使用：利用其強大的設計功能來更新及個人化內容！
+
+  若要了解詳細資訊，請參閱[本章節](../content/existing-content.md)。
 
 
 ## 轉換到 Campaign Web UI

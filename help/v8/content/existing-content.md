@@ -4,22 +4,21 @@ title: 匯入您的電子郵件內容
 description: 了解如何匯入電子郵件內容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
-source-git-commit: f83bdea5c051bfec52e6df71f0edd0258827815a
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 52%
+ht-degree: 48%
 
 ---
 
 # 匯入您的電子郵件內容 {#existing-content}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="使用現有的電子郵件內容"
 >abstract="電子郵件設計工具可讓您匯入現有的 HTML 內容。 此內容可以是附有整合樣式表的 HTML 檔案，或是附有 HTML 檔案、樣式表 (.css) 和影像的 .zip 資料夾。"
 
-電子郵件設計工具可讓您匯入現有的 HTML 內容。 此內容可以是：
+您可以在電子郵件設計工具中匯入現有的HTML內容。 此內容可以是：
 
 * **HTML 檔案**，內含整合的樣式表，
 * **.zip 資料夾**，內含 HTML 檔案、樣式表 (.css) 和影像。
