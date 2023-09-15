@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 16%
 
 ![](assets/predefined-filters-menu.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >在該版本的產品中，當建置規則、選取傳送的對象，或在工作流程中建置對象時，使用者介面中無法使用某些預先定義的篩選器。 您仍可使用它們。 [了解更多](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
@@ -46,7 +46,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
 >title="建立預先定義的篩選規則"
->abstract="若要定義自訂篩選的篩選條件，請按一下「建立規則」按鈕。"
+>abstract="要定義自訂篩選器的篩選條件，請按一下「建立規則」按鈕。"
 
 ### 從規則產生器建立篩選器 {#create-from-rule-builder}
 

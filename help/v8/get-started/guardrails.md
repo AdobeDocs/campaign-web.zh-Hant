@@ -2,10 +2,10 @@
 title: Campaign Web UI中的護欄和限制
 description: Campaign Web UI中的護欄和限制
 badge: label="Beta"
-source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 5%
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
@@ -60,10 +60,21 @@ Web UI中尚未支援的工作流程活動為唯讀，且會顯示為不相容�
 
 選取傳送的對象時，或是在工作流程中建立對象時，該版本產品的使用者介面中無法使用某些預先定義的篩選器。
 
-此時會顯示特定錯誤訊息。 即使您無法在規則產生器中檢視查詢的圖形表示，也無法編輯篩選，您仍可以使用它，並檢視篩選條件和結果。 您也可以存取SQL查詢以檢查確切的設定。
+此時會顯示特定錯誤訊息。
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+即使您無法在規則產生器中檢視查詢的圖形表示，也無法編輯篩選器，您仍可以使用它，並檢視 **屬性** 區段。
+
+![](assets/rule-view-results.png){width="70%" align="left"}
+
+您也可以存取SQL查詢以檢查確切的設定。 若要這麼做，請按一下 **程式碼檢視** 按鈕。
+
+![](assets/rule-code-view.png){width="70%" align="left"}
+
+按一下 **計算** 按鈕以檢查符合篩選條件的專案數。 使用 **檢視結果** 按鈕以顯示這些專案。
+
+![](assets/rule-view-results.png){width="70%" align="left"}
 
 請注意，如果您在Web介面中建立篩選器，並在主控台中使用不支援的屬性來修改篩選器，Web介面中將無法再使用圖形表示。 在任何情況下，您仍可使用篩選器。
 
