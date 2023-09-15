@@ -2,9 +2,9 @@
 title: Campaign Web UI中的護欄和限制
 description: Campaign Web UI中的護欄和限制
 badge: label="Beta"
-source-git-commit: 68eb1529f6780682256f4b36bd77d336cf560d21
+source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 4%
 
 ---
@@ -16,11 +16,13 @@ ht-degree: 4%
 
 ## 工作流程 {#wf-guardrails-limitations}
 
-主控台和Web UI中皆可存取相同的工作流程。 但是，請注意，某些限制適用。
-
 **活動版本**
 
-* 在Web UI中存取主控台工作流程時，您只能修改相容的活動。
+* Web UI中尚未支援的工作流程活動是唯讀的。 您仍然可以執行工作流程、傳送訊息、檢查記錄檔等。
+
+| 主控台 | Web UI |
+| --- | --- |
+| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
 
 **畫布版本**
 
@@ -41,17 +43,6 @@ ht-degree: 4%
 | 主控台 | Web UI |
 | --- | --- |
 | ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
-
-<table>
-<tr>
-<th>主控台</th>
-<th>Web UI</th>
-</tr>
-<tr>
-<td><img src="assets/limitations-loops-console.png"></td>
-<td><img src="assets/limitations-loops-web.png"></td>
-</tr>
-</table>
 
 **調解與擴充**
 
