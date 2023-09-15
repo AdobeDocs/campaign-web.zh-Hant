@@ -3,10 +3,10 @@ audience: end-user
 title: 使用傳遞工作流程活動
 description: 了解如何新增傳遞工作流程活動 (電子郵件、推播、簡訊)
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 79%
+source-wordcount: '642'
+ht-degree: 58%
 
 ---
 
@@ -25,17 +25,27 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 >* [建立獨立的電子郵件傳遞](../../email/create-email.md)
 >* [建立獨立簡訊傳遞](../../sms/create-sms.md)
 >* [建立獨立推送傳送](../../push/create-push.md)
->
 
-## 在工作流程中建立傳遞{#create-a-delivery-in-a-workflow}
+## 建立您的工作流程{#build-your-workflow}
 
-若要在工作流程內容中建立電子郵件、簡訊或推播傳送，請遵循下列步驟：
+在放置傳遞之前，先使用相關活動開始建立您的工作流程：
 
-1. 請確保您已新增「**建置對象**」活動。對象是傳遞的主要目標：收到訊息的收件者。在行銷活動工作流程中傳送訊息時，訊息對象不會在管道活動中定義，而是在「**建置對象**」活動中定義。請參閱[本節](build-audience.md)。
+* 如果您想要傳送重新導向傳送，請使用開始您的工作流程 **排程器** 活動。 如果您想要傳送單次傳送，可以使用定義聯絡日期 **排程器** 活動或在傳送的設定中定義排程。 請參閱[本節](scheduler.md)。
 
-   ![](../../msg/assets/add-delivery-in-wf.png)
+* 新增「**建置對象**」活動。對象是傳遞的主要目標：收到訊息的收件者。在行銷活動工作流程中傳送訊息時，訊息對象不會在管道活動中定義，而是在「**建置對象**」活動中定義。請參閱[本節](build-audience.md)。
 
-1. 選取傳遞活動：**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL 推播通知 (Android)]** 或&#x200B;**[!UICONTROL 推播通知 (iOS)]**。
+  ![](../../msg/assets/add-delivery-in-wf.png)
+
+## 設定傳遞 {#create-a-delivery-in-a-workflow}
+
+若要在工作流程內容中設定傳送，請遵循下列步驟：
+
+1. 新增管道活動： **[!UICONTROL 電子郵件]**， **[!UICONTROL 簡訊]**， **[!UICONTROL 推播通知(Android)]** 或 **[!UICONTROL 推播通知(iOS)]**.
+
+1. 選取 **傳遞型別**：單一或週期性。
+
+   * **單一傳遞**：這是單次傳送，只會傳送一次，例如「黑色星期五」電子郵件。
+   * **循環傳遞**：對於這類傳送，您可使用來設定執行頻率 [排程器活動](scheduler.md). 每次執行工作流程時，都會重新計算對象，並傳送包含更新內容的傳送。 這可以是每週電子報或循環生日電子郵件。
 
 1. 選取傳遞&#x200B;**範本**。範本是預先設定的傳遞設定 (特定於管道)。每個管道都會有一個內建範本，並且在預設情況下會預先填寫。[了解更多](../../msg/delivery-template.md)
 
@@ -71,7 +81,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-
+您也可以建立循環工作流程，以根據訂閱者的時區，在每月第一天晚上8點將個人化推播通知傳送至行動應用程式。
 
 <!-- Scheduled emails available?
 
