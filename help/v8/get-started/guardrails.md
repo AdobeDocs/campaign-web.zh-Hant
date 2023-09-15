@@ -2,10 +2,10 @@
 title: Campaign Web UI中的護欄和限制
 description: Campaign Web UI中的護欄和限制
 badge: label="Beta"
-source-git-commit: 86d87e9a3ac9028634a08c2c0969cd232dff15f5
+source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 4%
+source-wordcount: '550'
+ht-degree: 5%
 
 ---
 
@@ -16,60 +16,54 @@ ht-degree: 4%
 
 ## 工作流程 {#wf-guardrails-limitations}
 
-**活動**
+### 活動
 
-* Web UI中尚未支援的工作流程活動是唯讀的。 您仍然可以執行工作流程、傳送訊息、檢查記錄檔等。 Web UI和使用者端主控台中可用的工作流程活動皆可編輯。
-
-| 主控台 | Web UI |
-| --- | --- |
-| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
-
-**畫布**
-
-* 在Web UI中建立新工作流程時，畫布僅支援一個進入點。 不過，如果您在主控台中建立了包含多個進入點的工作流程，
-
-不過，即使您的工作流程是在具有多個進入點的使用者端主控台畫布中建立，也可以在Web UI中編輯。 您仍然可以開啟和編輯
-
-
-
-若要嘗試此案例，請從具有多個入口點的使用者端主控台建立工作流程，然後從Web UI開啟該工作流程來檢視結果。
-
-
-
-當然，您可以編輯活動，照常啟動及執行工作流程。
-
-
-
-**活動定位**
-
-* 節點的位置只有在活動已新增或移除時（並非總是如此），才會重新計算（因此會修改活動的初始位置）。
-
-**未公開選項**
-
-* 不相容的選項不會顯示在Web UI中。
-
-**回圈**
-
-* 網頁UI中尚未提供回圈。 如果您使用主控台建立了包含回圈的工作流程，則無法從Web UI存取它。 畫面會顯示錯誤訊息。
+Web UI中尚未支援的工作流程活動為唯讀，且會顯示為不相容的活動。 您仍然可以執行工作流程、傳送訊息、檢查記錄檔等。 Web UI和使用者端主控台中可用的工作流程活動皆可編輯。
 
 | 主控台 | Web UI |
 | --- | --- |
-| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-**調解與擴充**
+不會顯示Web UI中尚未支援的工作流程活動設定。 但是，執行工作流程時，這些設定會套用。
 
-在Campaign使用者端主控台中， **擴充** 活動可同時執行調解和擴充。 在Campaign Web UI中，尚未提供調解功能。 如果您在主控台活動中設定了調解，則在Web UI中會顯示為不相容活動。
+| 主控台 | Web UI |
+| --- | --- |
+| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-* 如果 **擴充** 主控台中的活動只會執行 **擴充** 活動會顯示在網頁中。
-* 如果 **擴充** 主控台中的活動只會執行調解，不相容的活動會顯示。
+在主控台中， **擴充** 活動可同時執行調解和擴充。 在Web UI中，尚未提供調解功能。 如果您已在主控台中定義 **擴充** 活動，則會在Web UI中顯示為不相容的唯讀活動。
+
+| 主控台 | Web UI |
+| --- | --- |
+| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+
+### 畫布
+
+在Web UI中建立新工作流程時，畫布僅支援一個進入點。 不過，如果您在主控台中建立了具有多個進入點的工作流程，則可以在網頁UI中開啟及編輯該工作流程。
+
+| 主控台 | Web UI |
+| --- | --- |
+| ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
+
+網頁UI中尚未提供回圈。 如果您使用主控台建立了包含回圈的工作流程，則無法從Web UI存取它。 畫面會顯示錯誤訊息。
+
+| 主控台 | Web UI |
+| --- | --- |
+| ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
+
+每次新增或移除活動時，都會重新整理節點位置。 如果您在主控台中建立工作流程，並使用Web UI修改它，然後在主控台中重新開啟，您可能會注意到一些細微的定位不完美。 這對工作流程的
+
+| 初始工作流程 | 位置變更 |
+| --- | --- |
+| ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
 
 ## 預先定義的篩選 {#filters-guardrails-limitations}
 
-在該版本的產品中，當選取傳送的對象時，或在工作流程中建立對象時，使用者介面中無法使用某些預先定義的篩選器。
+選取傳送的對象時，或是在工作流程中建立對象時，該版本產品的使用者介面中無法使用某些預先定義的篩選器。
 
 此時會顯示特定錯誤訊息。 即使您無法在規則產生器中檢視查詢的圖形表示，也無法編輯篩選，您仍可以使用它，並檢視篩選條件和結果。 您也可以存取SQL查詢以檢查確切的設定。
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
+
 
 請注意，如果您在Web介面中建立篩選器，並在主控台中使用不支援的屬性來修改篩選器，Web介面中將無法再使用圖形表示。 在任何情況下，您仍可使用篩選器。
 
