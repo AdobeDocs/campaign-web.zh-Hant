@@ -3,17 +3,23 @@ audience: end-user
 title: 建立對象
 description: 瞭解如何在Adobe Campaign Web中建立對象
 badge: label="Beta"
-source-git-commit: 1b17dcbdaadcbf45b2c26d9099e6d139143d253c
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 1%
+source-wordcount: '285'
+ht-degree: 2%
 
 ---
 
 
 # 建立對象 {#create-audiences}
 
-Campaign Web可讓您建立工作流程，將現有對象合併到視覺畫布中。 透過合併各種工作流程活動（例如分割或排除），您可以產生新的和完善的對象。
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_create_settings"
+>title="對象設定"
+>abstract="輸入對象名稱和其他選項。"
+
+Campaign Web可讓您建立工作流程，將現有對象合併到視覺畫布中。 藉由合併各種工作流程活動，例如 **Split** 或 **排除**，即可產生新的和完善的對象。
 
 當您完成工作流程後，產生的對象會自動與您現有的對象一起儲存在Campaign網頁中。 然後便可在行銷活動或獨立傳送中鎖定這些對象。
 

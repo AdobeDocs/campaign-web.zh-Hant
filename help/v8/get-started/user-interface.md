@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1490'
 ht-degree: 82%
 
 ---
@@ -88,11 +88,6 @@ ht-degree: 82%
 >id="acw_audiences_list"
 >title="對象"
 >abstract="這是您的對象清單。您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。此為唯讀清單。"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_list"
->title="訂閱清單"
->abstract="瀏覽您的訂閱清單。您可以檢視其類型、模式和標籤。此為唯讀清單。"
 
 
 在「客戶管理」區段中，您可以檢視您的收件者、對象和訂閱。這些是唯讀清單。

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何在Adobe Campaign Web中建立服務
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 10%
+source-wordcount: '312'
+ht-degree: 8%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 10%
 >id="acw_subscription_services_read_only"
 >title="此服務為唯讀資料"
 >abstract="您沒有編輯此服務的權限。如果需要，請聯絡管理員為您授予存取權限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list"
+>title="訂閱服務"
+>abstract="使用Adobe Campaign建立及監控您的服務（例如電子報），並檢查這些服務的訂閱/取消訂閱。 訂閱僅適用於電子郵件和簡訊傳遞。"
 
 使用Adobe Campaign建立及監控您的服務（例如電子報），並檢查這些服務的訂閱/取消訂閱。 訂閱僅適用於電子郵件和簡訊傳遞。
 
@@ -36,22 +41,33 @@ ht-degree: 10%
 
 ## 建立您的第一個訂閱服務 {#create-service}
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list_properties"
+>title="訂閱服務屬性"
+>abstract="輸入訂閱服務的標籤，並定義其他選項。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list_confirm"
+>title="訂閱服務確認訊息"
+>abstract="當使用者訂閱服務或取消訂閱服務時，您可以傳送確認訊息。 選取要用於這些訊息的範本。"
+
+
 若要建立訂閱服務，請遵循下列步驟：
 
 1. 選取 **[!UICONTROL 建立訂閱服務]** 按鈕。
 
    ![](assets/service-create-button.png)
 
-1. 選取管道。 **[!UICONTROL 電子郵件]** 和 **[!UICONTROL 簡訊]** 可用。
+1. 選取頻道： **[!UICONTROL 電子郵件]** 或 **[!UICONTROL 簡訊]**.
 
 1. 在服務屬性中，輸入標籤，並視需要定義其他選項。
 
    ![](assets/service-create-properties.png)
 
-1. 選取確認訊息。
+1. 當使用者訂閱服務或取消訂閱服務時，您可以傳送確認訊息。 選取要用於這些訊息的範本。
 
    ![](assets/service-create-confirmation-msg.png)
 
-1. 按一下 **[!UICONTROL 儲存並檢閱]**.
+1. 按一下「**[!UICONTROL 儲存]**」。
 
 

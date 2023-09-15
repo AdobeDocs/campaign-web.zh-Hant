@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「組合」工作流程活動
 description: 了解如何使用「組合」工作流程活動
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 80%
+source-wordcount: '891'
+ht-degree: 82%
 
 ---
 
@@ -89,6 +89,12 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >id="acw_orchestration_combine_sets"
 >title="選取要合併的集合"
 >abstract="在「**要加入的集合**」一節中，從傳入轉變中選取「**主要集合**」。這是從中排除元素的集。其他集會先設定相符的元素，然後才會從主要集予以排除。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_exclusion"
+>title="排除規則"
+>abstract="如有必要，您可以操控傳入表格。事實上，若要從另一個維度排除目標，必須將此目標傳回主要目標的同一目標定位維度。為了進行此步驟，請按一下「排除規則」一節中的「新增規則」，並指定維度變更條件。資料調節會透過屬性或加入執行。"
+
 
 
 在 **合併** 活動，您可以設定 **排除**. 為此，您需要遵循以下額外步驟：

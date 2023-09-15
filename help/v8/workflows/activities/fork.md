@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「分支」工作流程活動
 description: 了解如何使用「分支」工作流程活動
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 71%
 
 ---
 
@@ -14,11 +14,17 @@ ht-degree: 100%
 # 分支 {#fork}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_fork"
+>title="分支活動"
+>abstract="此 **分支** 活動是 **流量控制** 活動。 它可讓您建立出站轉變，以同時啟動多個活動。"
+
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
 >title="分支活動"
 >abstract="「分支」活動可讓您建立傳出轉變，以同時啟動多個活動。"
 
-「分支」活動可讓您建立傳出轉變，以同時啟動多個活動。
+此 **分支** 活動是 **流量控制** 活動。 它可讓您建立出站轉變，以同時啟動多個活動。
 
 ## 設定
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 使用分割工作流程活動
 description: 了解如何使用分割工作流程活動
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '654'
 ht-degree: 98%
 
 ---
@@ -34,6 +34,12 @@ ht-degree: 98%
 >abstract="若要限制子集所選設定檔的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的母體數量或百分比。"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_sorting"
+>title="分割活動排序"
+>abstract="為子集設定母體限制時，您可以根據特定設定檔屬性按升序或降序順序來排列所選設定檔。為此，請開啟「**啟用排序**」選項。例如，您可以限制子集僅包含購買金額最高的前 50 個設定檔。"
+
+
 請按照以下步驟設定&#x200B;**分割**&#x200B;活動：
 
 1. 在您的工作流程中新增一個&#x200B;**分割**&#x200B;活動。
@@ -58,11 +64,13 @@ ht-degree: 98%
 
    1. 若要限制子集所選設定檔的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的母體數量或百分比。
 
+      ![](../assets/workflow-split-subset.png)
+
+
       >[!NOTE]
       >
       >為子集設定母體限制時，您可以根據特定設定檔屬性按升序或降序順序來排列所選設定檔。為此，請開啟「**[!UICONTROL 啟用排序]**」選項。例如，您可以限制子集僅包含購買金額最高的前 50 個設定檔。
 
-   ![](../assets/workflow-split-subset.png)
 
 1. 設定完所有子集後，您可以選擇與任何子集都不相符的剩餘母體，並將其包含在額外的輸出轉變中。為此，請開啟「**[!UICONTROL 產生補充集]**」選項。
 
