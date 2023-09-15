@@ -3,7 +3,7 @@ audience: end-user
 title: 使用重複資料刪除工作流程活動
 description: 瞭解如何使用重複資料刪除工作流程活動
 badge: label="Beta"
-source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
+source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 9%
@@ -34,7 +34,7 @@ ht-degree: 9%
 
 ## 設定
 
-請依照下列步驟設定 **排程器** 活動：
+請依照下列步驟設定 **重複資料刪除** 活動：
 
 1. 新增 **重複資料刪除** 活動至您的工作流程。
 
