@@ -4,9 +4,9 @@ title: 選取現有對象
 description: 了解如何選取對象
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '334'
 ht-degree: 57%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="選取現有對象"
->abstract="瀏覽清單以選取現有對象。 使用「顯示篩選器」圖示來篩選清單，或選取特定資料夾。"
+>abstract="瀏覽清單以選取現有對象。使用「顯示篩選器」圖示篩選清單，或選取特定資料夾。"
 
 本章節說明如何在定義電子郵件傳遞的目標母體時選取現有對象。
 
@@ -43,6 +43,10 @@ ht-degree: 57%
    建立對象是從 **對象** 左側功能表。 也可在使用者端主控台中建立。
 
    若要使用Adobe Experience Platform受眾，您需要設定與目的地的整合。 請參閱 [Adobe Experience Platform目標檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant){target="_blank"}.
+
+   >[!IMPORTANT]
+   >
+   >在該版本的產品中，當建置規則、選取傳送的對象，或在工作流程中建置對象時，使用者介面中無法使用某些預先定義的篩選器。 您仍可使用它們。 [了解更多](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 1. 選擇對象，然後按一下「**選取**」。
 1. 使用 **顯示篩選器** 圖示來顯示篩選選項。 按一下 **新增規則** 若要存取規則產生器：使用規則產生器，可讓您為對象清單建立進階篩選器。 在此瞭解如何使用規則產生器 [區段](segment-builder.md).
