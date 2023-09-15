@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 88%
+source-wordcount: '1661'
+ht-degree: 87%
 
 ---
 
@@ -60,7 +60,11 @@ ht-degree: 88%
 
 ### 內容說明 {#user-interface-help}
 
-直接從產品使用者介面提出問題並尋找指引。 全新AI支援的知識助理內嵌於情境式說明彈出視窗，可協助您學習及發展新Campaign功能的專業知識。 它會根據最新的產品檔案，協助您在建立使用案例時尋找說明並立即取得逐步指引。
+此 **具有Gen AI的知識助理** 內嵌在內容說明中的內容，革新了檔案搜尋和回答操作方法問題，讓您能夠輕鬆地在龐大的檔案存放庫中篩選，立即找到您需要的精確資訊。
+
+有了Campaign Gen AI的功能，此助理將改變您的體驗，讓資訊擷取和問題解決變得輕而易舉。 無論您是在複雜的工作中尋找指引，或是瀏覽廣泛的檔案，我們的Knowledge Assistant搭配Gen AI，是您最重要的夥伴，每次互動都能提供無與倫比的效率和準確性。
+
+若要了解詳細資訊，請參閱[本章節](using-ai.md)。
 
 
 ### 行銷活動管理 {#user-interface-campaign-management}
@@ -244,14 +248,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- Workflows-->
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="工作流程清單"
->abstract="您的行銷活動可使用的工作流程清單。使用「建立工作流程」按鈕在您的行銷活動中新增工作流程。"
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
->title="此工作流程為唯讀"
+>title="此工作流程為唯讀資料"
 >abstract="您沒有編輯此工作流程的權限。如果需要，請聯絡管理員授予您存取的權限。"
 
 >[!CONTEXTUALHELP]
@@ -311,10 +311,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="全球報告追蹤"
 >abstract="待定"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_delivery_list"
->title="Campaign 中的傳遞清單"
->abstract="Campaign 中的傳遞清單"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
@@ -323,25 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery settings-->
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_audience"
->title="傳遞設定對象"
->abstract="待定"
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_approval"
->title="傳遞設定核准"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_testsettings"
->title="傳遞設定測試設定"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_webanalytics"
->title="傳遞設定網站分析"
->abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"

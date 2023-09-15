@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 瞭解如何使用Adobe Campaign Web建立工作流程
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 7%
+source-wordcount: '736'
+ht-degree: 6%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 7%
 >id="acw_workflow_creation_properties"
 >title="工作流程屬性"
 >abstract="在此畫面中，選擇用於建立工作流程的範本並指定標籤。展開「其他OPTIONS」區段以設定更多設定，例如工作流程內部名稱、其資料夾、時區和主管群組。 強烈建議您選取主管群組，以便在發生錯誤時提醒操作者。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="行銷活動中的工作流程清單"
+>abstract="此 **傳遞** 索引標籤會列出連結至目前行銷活動的所有工作流程。 按一下工作流程的名稱即可進行編輯。 使用「建立工作流程」按鈕，為此行銷活動新增工作流程。"
+
 
 您可以在行銷活動中建立獨立的工作流程或工作流程。 第一步是選取範本並定義其一般屬性。 之後，您可以視需要設定其他設定。
 
@@ -63,8 +70,8 @@ ht-degree: 7%
 
 1. 在快顯視窗中，確認範本建立。
 1. 在工作流程範本畫布中，視需要檢查、新增及設定活動。
-1. 瀏覽至設定以變更工作流程範本的名稱，並輸入說明。
-1. 選取範本的資料夾和執行資料夾。 資料夾是工作流程範本的儲存位置。 執行資料夾是儲存根據此範本建立的工作流程的資料夾。
+1. 瀏覽至設定，從 **設定** 按鈕，以變更工作流程範本的名稱，並輸入說明。
+1. 選取 **資料夾** 和 **執行資料夾** 範本的。 資料夾是工作流程範本的儲存位置。 執行資料夾是儲存根據此範本建立的工作流程的資料夾。
 
    ![](assets/wf-settings-template.png)
 

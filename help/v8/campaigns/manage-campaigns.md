@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 100%
 
 若要建立新的行銷活動，或管理您現有的行銷活動，請在左側導覽上按一下「**[!UICONTROL 行銷活動]**」選單。
 
-## 行銷活動清單{#access-campaigns}
+## 行銷活動清單 {#access-campaigns}
+
 
 在行銷活動清單中，有兩個可用標籤：
 
@@ -39,6 +40,12 @@ ht-degree: 100%
 ![行銷活動篩選器](assets/campaign-filter-on-dates.png)
 
 ## 行銷活動儀表板{#campaign-dashboard}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="行銷活動中的傳遞清單"
+>abstract="「**傳遞**」標籤會列出連結至目前行銷活動的所有傳遞。按一下傳遞的名稱以進行編輯。 使用「建立傳送」按鈕為此行銷活動新增傳送。"
 
 在行銷活動清單的「**瀏覽**」標籤中，按一下任一行銷活動即可顯示其詳細資料。
 

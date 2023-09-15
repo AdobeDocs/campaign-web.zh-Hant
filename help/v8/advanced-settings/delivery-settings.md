@@ -4,10 +4,10 @@ title: 電子郵件傳遞設定
 description: 進一步了解 Campaign Web UI 中的電子郵件傳遞設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 73%
+source-wordcount: '1829'
+ht-degree: 80%
 
 ---
 
@@ -22,21 +22,21 @@ ht-degree: 73%
 >
 > 這些設定僅供您參考。其中一些取決於您的設定和權限。不可在此版本的產品中修改它們。
 
-## 類型 {#typology}
+## 類型 設定 {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="類型"
->abstract="型別規則可讓行銷人員標準化所有傳遞的業務實務。 型別是型別規則的集合，可讓您控制、篩選傳遞並設定其優先順序。 在準備階段，符合型別規則中之條件的設定檔會從傳送對象中排除。"
+>abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。 類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。 在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="類型"
->abstract="型別規則可讓行銷人員標準化所有傳遞的業務實務。 型別是型別規則的集合，可讓您控制、篩選傳遞並設定其優先順序。 在準備階段，符合型別規則中之條件的設定檔會從傳送對象中排除。"
+>title="類型 傳遞的設定"
+>abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。 類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。 在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。"
 
 
-型別是一組 **型別規則**，會在準備階段期間執行。 型別規則可讓行銷人員標準化所有傳遞的業務實務。 型別是型別規則的集合，可讓您控制、篩選傳遞並設定其優先順序。 在傳送準備階段，符合型別規則中之條件的設定檔會從傳送對象中排除。  它們可讓您確定您的電子郵件一律包含特定元素（例如，取消訂閱連結或主旨行）或篩選規則，以排除群組不受您預定目標（如取消訂閱者、競爭者或不忠誠客戶）的影響。
+型別是一組 **型別規則**，會在準備階段期間執行。 類型規則允許行銷人員將所有傳遞的業務實務標準化。 類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。 在傳送準備階段，符合型別規則中之條件的設定檔會從傳送對象中排除。  它們可讓您確定您的電子郵件一律包含特定元素（例如，取消訂閱連結或主旨行）或篩選規則，以排除群組不受您預定目標（如取消訂閱者、競爭者或不忠誠客戶）的影響。
 
 型別規則會在型別中分組，以便一次輕鬆將多個篩選規則套用至傳遞。
 
@@ -52,8 +52,8 @@ ht-degree: 73%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="壓力參數"
->abstract="傳遞權重可讓您在疲勞管理的框架內識別優先順序最高的傳遞。 權重最高的訊息具有優先順序。"
+>title="傳遞的壓力引數"
+>abstract="傳遞權重可讓您確認疲勞管理架構內最優先的傳遞。 權重最高的訊息具有最高優先。"
 
 
 在本節中，壓力引數可讓您定義 **臨界值** 以設定疲勞管理規則。 這是在一段時間內可以傳送到一個設定檔的訊息數上限。一旦達到此臨界值時，在考慮到該期間結束之前，將不再進行傳送。此程序可以讓您在訊息超過設定的臨界值時，自動將設定檔排除在傳送之外，以避免過度請求。
@@ -81,8 +81,8 @@ ht-degree: 73%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="產能設定"
->abstract="例如，在傳遞訊息之前，請使用容量規則以確保您的組織可以處理傳遞、傳遞可能產生的傳入訊息，以及要聯絡訂閱者的通話次數。 容量規則是在Adobe Campaign v8主控台中定義。 在此畫面中，選取與電子郵件通道關聯的規則。"
+>title="傳遞的容量設定"
+>abstract="在傳遞訊息之前，請使用產能規則以確保您的組織可以處理傳遞、傳遞可能生成的傳入訊息，以及用於聯絡訂閱者的呼叫次數等。產能規則是在 Adobe Campaign v8 Console 定義。在此畫面中，選取與電子郵件頻道關聯的規則。"
 
 在此區段中，您可以選取在 Adobe Campaign v8 主控台中定義的產能規則。此規則與電子郵件管道相關聯。
 
@@ -91,7 +91,14 @@ ht-degree: 73%
 進一步瞭解一致性和容量規則，以及如何在中設定它們 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
-## 對象 {#audience}
+## 對象設定 {#audience}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="傳遞的對象設定"
+>abstract="選取 **目標對應** 在眾多可用選項中。 目標對應是在 Adobe Campaign v8 主控台中定義的。您也可以設定傳送的排除引數。 "
+
 
 在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。
 
@@ -101,8 +108,8 @@ ht-degree: 73%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="傳遞設定"
->abstract="傳遞參數是套用到傳遞的技術設定。您可以針對傳遞啟用密件副本，並變更傳遞和常式模式。 這些選項僅限專家使用者使用。"
+>title="傳遞的傳遞設定"
+>abstract="傳遞參數是套用到傳遞的技術設定。您可以啟用密件副本進行傳遞，並更改傳遞和例行模式。這些選項僅限於專業使用者。"
 
 傳遞參數是套用到傳遞的技術設定。
 
@@ -112,6 +119,19 @@ ht-degree: 73%
 
 * **電子郵件 BCC**：此選項用於透過 BCC 將電子郵件儲存在外部系統上，只需將 BCC 電子郵件地址新增到您的訊息目標即可。進一步瞭解中的電子郵件密件副本 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
+### 網站分析 {#web-analytics}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="傳遞的網站分析設定"
+>abstract="選取網站分析帳戶。 此帳戶是在Campaign使用者端主控台中設定。 您也可以定義與您使用的分析工具共用的標籤。"
+
+您可以在此區段中選取網站分析帳戶。 此帳戶是在Campaign使用者端主控台中設定。
+
+您也可以定義與您使用的分析工具共用的標籤。
+
+進一步瞭解中的網站分析和行銷活動 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 ### 重試次數 {#retries}
@@ -122,12 +142,10 @@ ht-degree: 73%
 
 ## 核准 {#approval}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
--->
+>title="傳遞的核准模式"
+>abstract="選取核准模式。 如果在傳遞準備期間產生警告，您可以設定傳遞以定義它是否仍應執行。 "
 
 如果在傳遞準備期間產生警告，您可以設定傳遞以定義它是否仍應執行。依預設，使用者必須在分析階段結束時確認傳送訊息：這是&#x200B;**手動**&#x200B;驗證。
 
@@ -193,6 +211,11 @@ ht-degree: 73%
 **過期 URL 的替代 URL**：使用此選項輸入後備網頁的 URL：追蹤過期後顯示。
 
 ## 測試設定 {#test-setttings}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="傳遞的測試設定"
+>abstract="選取排除引數並自訂測試電子郵件的標籤。"
 
 您可以設定在此區段設定排除參數。可使用的選項包括：
 
