@@ -3,7 +3,7 @@ audience: end-user
 title: 以電子郵件傳送報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 9%
@@ -122,6 +122,8 @@ ht-degree: 9%
 
 ## 追蹤指標 {#tracking-indicators-email}
 
+
+
 * **[!UICONTROL 傳遞統計資料]** 提供關鍵績效指標(KPI)，用於提供關於已傳送電子郵件可用資料的詳細資訊。
 
   ![](assets/reporting_email_5.png){align="center"}
@@ -207,6 +209,7 @@ ht-degree: 9%
 +++
 
 ## 追蹤統計資料 {#tracking-statistics}
+
 
 * **[!UICONTROL 追蹤統計資料]** 圖表提供開啟和點按的統計資料。 您可以選擇選取目標資料的特定時間範圍。
 

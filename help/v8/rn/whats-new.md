@@ -4,20 +4,19 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: dc8c43868b932d956ccb8693ba2152a32c3b4011
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 71%
+source-wordcount: '947'
+ht-degree: 67%
 
 ---
 
 
 # 新增功能 {#new}
 
-
 我們很高興為您介紹Adobe Campaign Web UI的BETA版。 我們的最新版本包含直觀的功能，旨在簡化個人化跨頻道行銷活動的建立，推動卓越的成果，並為您提供跨所有頻道的競爭優勢。
 
-## 測試版本{#beta-release}
+## 主要功能 {#key-features}
 
 這個新的Campaign網頁介面目前僅適用於 **Beta測試人員** 並具備下列功能：
 
@@ -44,51 +43,51 @@ ht-degree: 71%
 使用新的 Campaign Web UI 可以：
 
 * 使用電子郵件設計工具設計個人化的電子郵件內容 - [了解更多](../content/edit-content.md)
-* 傳送跨管道的行銷活動，包括簡訊和推播通知。
+* 傳送跨通道行銷活動，包括簡訊和推播通知 —  [瞭解更多](../workflows/activities/channels.md)
 * 使用規則產生器定義目標對象 - [了解更多](../audience/about-audiences.md)
 * 預覽、測試和傳送您的電子郵件訊息 - [了解更多](../monitor/prepare-send.md)
 * 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/delivery-reports.md)
 
 
-## 最新更新
+## 測試版更新 {#beta-release}
 
-**Beta摘要**
+以下列出Campaign Web Beta的主要功能。
 
-* 啟用Audiences &amp; Personalization的資料組成（同盟）
-* 利用AI技術強化電子郵件內容的產生
-* 流暢同步資產和完整HTML範本
-* 有效率地組織和管理您的資料夾和資源
-* 存取變更維度、重複資料刪除和循環傳送等其他活動，以增強行銷活動工作流程
-
-**重要新功能**
-
-* 更多行銷活動工作流程活動
+* **更多行銷活動工作流程活動**
 
   使用我們擴充的工作流程活動集，為您的行銷活動提供充足電力。 發掘自動化和最佳化的新可能性，讓您能夠建立更加動態和個人化的客戶歷程。 
 
   從進階細分到條件式觸發器，我們的附加工作流程活動能讓您傳遞針對性訊息並提高行銷活動績效。
 
-* 適用於電子郵件內容的Gen AI
+  若要了解詳細資訊，請參閱[本章節](../workflows/gs-workflows.md)。
+
+* **適用於電子郵件內容的Gen AI**
 
   告別手動內容建立作業，歡迎使用Gen AI的強大功能，進行高效率、資料導向的行銷活動。  我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。 透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。
 
   在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水平。
 
+  若要了解詳細資訊，請參閱[本章節](../content/generative-gs.md)。
 
-* 預先定義的篩選器管理
+* **預先定義的篩選器**
 
-  引入預先定義的篩選器管理。 Campaign網頁UI現在提供使用者易記的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供未來使用。[了解更多](../get-started/predefined-filters.md)
+  引入預先定義的篩選器管理。 Campaign網頁UI現在提供使用者易記的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供未來使用。
 
+  若要了解詳細資訊，請參閱[本章節](../get-started/predefined-filters.md)。
 
-* 目標對象
+* **使用規則產生器鎖定對象**
 
   制定傳遞目標再簡單不過了！ 借助我們最新的規則產生器，您現在可以為收件者或資料庫中的任何其他目標定位維度定義篩選條件。 此外，您可以善用AEP (Adobe Experience Platform)對象，進一步調整目標對象，讓行銷活動發揮最大影響力。
 
-* 包含SMS的優惠
+  若要了解詳細資訊，請參閱[本章節](../audience/segment-builder.md)。
+
+* **包含優惠方案的簡訊**
 
   除了電子郵件之外，新的Web UI現在可讓您將優惠方案與簡訊整合。 透過受眾的行動裝置觸及受眾，提供促銷活動和及時通知。
 
   透過我們進階網路平台上的SMS運用整合式優惠方案的強大功能，提升您的行銷成效。
+
+  若要了解詳細資訊，請參閱[本章節](../content/offers.md)。
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -97,6 +96,12 @@ ht-degree: 71%
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
+
+* **具有Gen AI的知識助理**
+
+  直接從產品使用者介面提出問題並尋找指引。 全新AI支援的知識助理內嵌於情境式說明彈出視窗，可協助您學習及發展新Campaign功能的專業知識。 它會根據最新的產品檔案，協助您在建立使用案例時尋找說明並立即取得逐步指引。
+
+  若要了解詳細資訊，請參閱[本章節](../get-started/using-ai.md)。
 
 
 ## 轉換到 Campaign Web UI
@@ -117,12 +122,11 @@ ht-degree: 71%
 * 電子郵件預覽現在可透過「**模擬內容**」按鈕取得。[了解更多](../preview-test/preview-test.md)
 * 清單現在是&#x200B;**對象**。[了解更多](../audience/about-audiences.md)。
 
-## 限制{#limitations-alpha}
+## 限制{#limitations-beta}
 
-此 Alpha 版本有以下限制：
+以下限制適用於此Beta版：
 
-* 可編輯的物件包括：傳送、行銷活動、工作流程、對象、訂閱服務、預先定義的篩選器和範本。 其他物件是唯讀的。使用篩選器來瀏覽全部物件。
-* 無法將對象儲存以供未來使用。
+* 可編輯的物件包括：傳送、行銷活動、工作流程、對象、訂閱服務、預先定義的篩選器和範本。 其他物件是唯讀的。使用篩選器並建立規則來瀏覽所有篩選器。
 * 尚未提供管理使用者介面。
 * 報告量度 (例如開啟和追蹤資料) 每小時更新一次。
 * 傳遞儀表板 KPIs 每 5 分鐘更新一次。- 但傳遞準備是即時的。

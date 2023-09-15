@@ -4,10 +4,10 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,9 @@ ht-degree: 100%
 * 電子郵件預覽現在可透過「**模擬內容**」按鈕取得
 * 清單現在是&#x200B;**對象**
 
-## 限制{#limitations-alpha}
+## 限制{#limitations-beta}
 
-此 Alpha 版本有以下限制：
+以下限制適用於此Beta版：
 
 * 唯一可編輯的物件是傳遞、行銷活動、工作流程、對象和範本。其他物件是唯讀的。使用篩選器來瀏覽全部物件。
 * 無法將對象儲存以供未來使用。

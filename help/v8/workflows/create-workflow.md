@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 瞭解如何使用Adobe Campaign Web建立工作流程
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 6%
+source-wordcount: '753'
+ht-degree: 12%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="工作流程屬性"
->abstract="在此畫面中，選擇用於建立工作流程的範本並指定標籤。展開「其他OPTIONS」區段以設定更多設定，例如工作流程內部名稱、其資料夾、時區和主管群組。 強烈建議您選取主管群組，以便在發生錯誤時提醒操作者。"
+>abstract="在此畫面中，選擇用於建立工作流程的範本並指定標籤。展開「其他選項」區段以設定更多設定，例如工作流程內部名稱、其資料夾、時區和主管群組。 強烈建議選取一個主管群組，以便在發生錯誤時警告操作員。"
 
 
 >[!CONTEXTUALHELP]
@@ -51,6 +51,12 @@ ht-degree: 6%
 您的工作流程現已建立，並可在工作流程清單中使用。 您現在可以存取其視覺畫布，並開始新增、設定和協調其將執行的任務。 瞭解如何在中協調工作流程活動 [此頁面](orchestrate-activities.md).
 
 ## 使用工作流程範本 {#workflow-templates}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_template_for_campaign"
+>title="工作流程範本"
+>abstract="工作流程範本包含預先設定的設定和活動，可重複用於建立新工作流程。"
 
 工作流程範本包含預先設定的設定和活動，可重複用於建立新工作流程。 建立工作流程時，您可以從工作流程屬性中選取工作流程的範本。 預設會提供空白範本。
 

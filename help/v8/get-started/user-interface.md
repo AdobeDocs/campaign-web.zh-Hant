@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 87%
+source-wordcount: '1468'
+ht-degree: 85%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="探索工具"
->abstract="**探索工具**&#x200B;選單會顯示所有 Campaign 元件以及和用戶端主控台中的物件有相同資料夾階層的物件。從此功能表瀏覽所有Campaign v8元件、資料夾和結構描述、檢查相關許可權，以及建立資料夾和子資料夾。"
+>abstract="**探索工具**&#x200B;選單會顯示所有 Campaign 元件以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽所有 Campaign v8 元件、資料夾和方案，檢查相關聯的權限，並從此選單建立資料夾和子資料夾。"
 
 **探索工具**&#x200B;選單會顯示所有 Campaign 資源以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。
 
@@ -261,40 +261,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery template settings-->
 
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_tracking_validity"
->title="有效期限"
->abstract="有效期會設定在訊息 URL 上啟動追蹤的持續時間。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_delivery_duration"
->title="傳遞期間"
->abstract="「傳遞期間」欄位可讓您輸入全域傳遞重試的限制。這表示 Adobe Campaign 會傳送從開始日期開始的訊息，然後，對於僅傳回錯誤的訊息，會執行一般、可設定的重試，直到達到效度限制為止。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_resources_validity"
->title="資源效度限制"
->abstract="「效度限制」欄位是用於上傳的資源，主要用於鏡像頁面和影像。這些資源在有限的時間內有效：一旦達到限制，資源將不再可用。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_approval"
->title="核准模式"
->abstract="傳遞的每個步驟可能都需要經過核准，以確保對各個流程進行全面監視。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_retries"
->title="最多重試次數"
->abstract="如果訊息由於臨時錯誤而失敗，則會重試到傳遞期間結束為止。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_recipient_importance"
->title="收件者的重要性"
->abstract="收件者的重要性是一種公式，用於確定在超出產能類型規則時要保留哪些收件者。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_delivery_weight"
->title="傳遞權重"
->abstract="傳遞權重可讓您確認壓力管理架構內最優先的傳遞。權重最高的訊息具有最高優先。"
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
@@ -304,12 +270,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="全球報告傳送"
->abstract="待定"
+>abstract="在此畫面中顯示追蹤報告量度"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="全球報告追蹤"
->abstract="待定"
+>abstract="在此畫面中顯示追蹤報告量度"
+
 
 
 >[!CONTEXTUALHELP]
@@ -320,13 +287,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_for_campaign"
->title="Campaign 中的傳遞範本"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_workflow_template_for_campaign"
->title="Campaign 中的工作流程範本"
->abstract="待定"
