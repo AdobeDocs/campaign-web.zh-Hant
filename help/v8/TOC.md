@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
+source-git-commit: 18fc6233582fc0bfe0aeb682dfa90ba4f7ce85ce
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 90%
+source-wordcount: '417'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
    + [存取權與權限](get-started/permissions.md)
    + [護欄和限制](get-started/guardrails.md)
    + [不支援的功能](get-started/unsupported.md)
-   + [使用AI](get-started/using-ai.md)
+   + [尋找說明和指引](get-started/using-ai.md)
 + 訊息和傳遞 {#msg}
    + [開始使用訊息](msg/gs-messages.md)
    + [使用傳遞範本](msg/delivery-template.md)

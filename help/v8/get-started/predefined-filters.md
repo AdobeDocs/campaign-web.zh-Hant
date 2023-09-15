@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 17%
+source-wordcount: '786'
+ht-degree: 16%
 
 ---
 
@@ -30,6 +30,10 @@ ht-degree: 17%
 您可以使用現有的內建篩選器來存取資料的特定子集，或建立您自己的預先定義篩選器並儲存。
 
 ![](assets/predefined-filters-menu.png)
+
+>[!CAUTION]
+>
+>在該版本的產品中，當建置規則、選取傳送的對象，或在工作流程中建置對象時，使用者介面中無法使用某些預先定義的篩選器。 您仍可使用它們。 [了解更多](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 
 ## 建立預先定義的篩選器 {#create-predefined-filter}
@@ -55,7 +59,7 @@ ht-degree: 17%
 
 1. 選取 **建立新的篩選器**，並輸入該篩選器的名稱和說明。
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
 
    您可以視需要將篩選器儲存為我的最愛。 若要了解詳細資訊，請參閱[本章節](#fav-filter)。
 
@@ -89,7 +93,7 @@ ht-degree: 17%
 
 篩選器儲存成我的最愛時，此篩選器將可供中的所有使用者使用。 **我的最愛篩選器** 篩選器建立清單的區段，如下所示：
 
-![](assets/predefined-filters-favorite.png){width="70%" align="left"}
+![](assets/predefined-filters-favorite.png){width="30%" align="left"}
 
 
 ## 使用預先定義的篩選器 {#use-predefined-filter}
@@ -139,6 +143,8 @@ ht-degree: 17%
 
 您可以將預先定義的篩選器新增為我的最愛，以便在建立規則時快速存取。 若要了解詳細資訊，請參閱[本章節](#fav-filter)。
 
-## 內建預先定義的篩選器 {#ootb-predefined-filter}
+<!--
+## Built-in predefined filters {#ootb-predefined-filter}
 
-Campaign隨附一組預先定義的篩選器，這些篩選器是從使用者端主控台建立的。 這些篩選器可用來定義您的對象和規則。 不得更改它們。
+Campaign comes with a set of predefined filters, built from the client console. These filters can be used to define your audiences, and rules. They must not be modified.
+-->

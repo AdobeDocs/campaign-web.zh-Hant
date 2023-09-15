@@ -2,9 +2,9 @@
 title: Campaign Web UI中的護欄和限制
 description: Campaign Web UI中的護欄和限制
 badge: label="Beta"
-source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
+source-git-commit: 86d87e9a3ac9028634a08c2c0969cd232dff15f5
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '605'
 ht-degree: 4%
 
 ---
@@ -16,17 +16,29 @@ ht-degree: 4%
 
 ## 工作流程 {#wf-guardrails-limitations}
 
-**活動版本**
+**活動**
 
-* Web UI中尚未支援的工作流程活動是唯讀的。 您仍然可以執行工作流程、傳送訊息、檢查記錄檔等。
+* Web UI中尚未支援的工作流程活動是唯讀的。 您仍然可以執行工作流程、傳送訊息、檢查記錄檔等。 Web UI和使用者端主控台中可用的工作流程活動皆可編輯。
 
 | 主控台 | Web UI |
 | --- | --- |
-| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
+| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
 
-**畫布版本**
+**畫布**
 
-* 如果主控台工作流程有多個啟動節點/分支或浮動活動，您需要新增啟動活動和分支，以將啟動節點連線到主節點。 您也需要移除浮動活動。
+* 在Web UI中建立新工作流程時，畫布僅支援一個進入點。 不過，如果您在主控台中建立了包含多個進入點的工作流程，
+
+不過，即使您的工作流程是在具有多個進入點的使用者端主控台畫布中建立，也可以在Web UI中編輯。 您仍然可以開啟和編輯
+
+
+
+若要嘗試此案例，請從具有多個入口點的使用者端主控台建立工作流程，然後從Web UI開啟該工作流程來檢視結果。
+
+
+
+當然，您可以編輯活動，照常啟動及執行工作流程。
+
+
 
 **活動定位**
 
@@ -38,11 +50,11 @@ ht-degree: 4%
 
 **回圈**
 
-* 網頁UI中尚未提供回圈。 如果您使用主控台建立了包含回圈的工作流程，將無法在Web UI中存取。 畫面會顯示錯誤訊息。
+* 網頁UI中尚未提供回圈。 如果您使用主控台建立了包含回圈的工作流程，則無法從Web UI存取它。 畫面會顯示錯誤訊息。
 
 | 主控台 | Web UI |
 | --- | --- |
-| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
+| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
 
 **調解與擴充**
 
@@ -53,12 +65,11 @@ ht-degree: 4%
 
 ## 預先定義的篩選 {#filters-guardrails-limitations}
 
-選取傳送的對象時，或是在工作流程中建立對象時，該版本產品的使用者介面中無法使用某些預先定義的篩選器。
+在該版本的產品中，當選取傳送的對象時，或在工作流程中建立對象時，使用者介面中無法使用某些預先定義的篩選器。
 
 此時會顯示特定錯誤訊息。 即使您無法在規則產生器中檢視查詢的圖形表示，也無法編輯篩選，您仍可以使用它，並檢視篩選條件和結果。 您也可以存取SQL查詢以檢查確切的設定。
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
-
 
 請注意，如果您在Web介面中建立篩選器，並在主控台中使用不支援的屬性來修改篩選器，Web介面中將無法再使用圖形表示。 在任何情況下，您仍可使用篩選器。
 

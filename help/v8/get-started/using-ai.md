@@ -2,18 +2,20 @@
 title: 在Campaign網頁中使用AI支援的知識助理
 description: 在Campaign網頁中使用AI支援的知識助理
 badge: label="Beta"
-hide: true
-hidefromtoc: true
-source-git-commit: 368f716e72abfe9ac22893798cf11f6fd90f2cd4
+source-git-commit: 18fc6233582fc0bfe0aeb682dfa90ba4f7ce85ce
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 2%
+source-wordcount: '478'
+ht-degree: 1%
 
 ---
 
 # 使用AI支援的知識助理 {#using-ai}
 
 透過產品內容說明方塊中提供的AI支援知識助理，根據產品檔案和您目前的產品內容，取得由AI產生的快速答案。
+
+此 **具有Gen AI的知識助理** 內嵌在內容說明中的內容，革新了檔案搜尋和回答操作方法問題，讓您能夠輕鬆地在龐大的檔案存放庫中篩選，立即找到您需要的精確資訊。
+
+有了Campaign Gen AI的功能，此助理將改變您的體驗，讓資訊擷取和問題解決變得輕而易舉。 無論您是在複雜的工作中尋找指引，或是瀏覽廣泛的檔案，我們的Knowledge Assistant搭配Gen AI，是您最重要的夥伴，每次互動都能提供無與倫比的效率和準確性。
 
 ## 同意 {#consent-ai}
 
