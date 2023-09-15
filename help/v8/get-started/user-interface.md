@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a6d3f7dccbf862017d7dde61ac138ef6a59f05f8
+source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 85%
+source-wordcount: '1487'
+ht-degree: 83%
 
 ---
 
@@ -57,21 +57,6 @@ ht-degree: 85%
 
 如需 Campaign 探索工具、資料夾階層和資源的詳細資訊，請參閱此 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}。
 
-
-### 內容說明 {#user-interface-help}
-
-介面中會提供內容關聯式說明。若有提供，請按一下 `?` 圖示以顯示說明資訊和相關文件的連結。
-
-![](assets/context-help.png){width="40%" align="left"}
-
-透過新的Beta版， **具有Gen AI的知識助理** 內嵌在內容說明中的內容，革新了檔案搜尋和回答操作方法問題，讓您能夠輕鬆地在龐大的檔案存放庫中篩選，立即找到您需要的精確資訊。
-
-![](assets/ask-a-question.png)
-
-
-有了Campaign Gen AI的功能，此助理將改變您的體驗，讓資訊擷取和問題解決變得輕而易舉。 無論您是在複雜的工作中尋找指引，或是瀏覽廣泛的檔案，我們的Knowledge Assistant搭配Gen AI，是您最重要的夥伴，每次互動都能提供無與倫比的效率和準確性。
-
-若要了解詳細資訊，請參閱[本章節](using-ai.md)。
 
 
 ### 行銷活動管理 {#user-interface-campaign-management}
@@ -141,6 +126,22 @@ ht-degree: 85%
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
+
+### 內容說明 {#user-interface-help}
+
+介面中會提供內容關聯式說明。若有提供，請按一下 `?` 圖示以顯示說明資訊和相關文件的連結。
+
+![](assets/context-help.png){width="40%" align="left"}
+
+透過新的Beta版， **具有Gen AI的知識助理** 內嵌在內容說明中的內容，革新了檔案搜尋和回答操作方法問題，讓您能夠輕鬆地在龐大的檔案存放庫中篩選，立即找到您需要的精確資訊。
+
+![](assets/ask-a-question.png)
+
+
+有了Campaign Gen AI的功能，此助理將改變您的體驗，讓資訊擷取和問題解決變得輕而易舉。 無論您是在複雜的工作中尋找指引，或是瀏覽廣泛的檔案，我們的Knowledge Assistant搭配Gen AI，是您最重要的夥伴，每次互動都能提供無與倫比的效率和準確性。
+
+若要了解詳細資訊，請參閱[本章節](using-ai.md)。
+
 ## 支援的瀏覽器 {#browsers}
 
 Campaign v8 Web 目的是要在最新版本的 Google Chrome、Safari 和 Microsoft Edge 中以最佳方式運作。您可能無法在舊版本或其他瀏覽器上使用某些功能。
@@ -149,28 +150,19 @@ Campaign v8 Web 目的是要在最新版本的 Google Chrome、Safari 和 Micros
 
 Campaign v8 Web 目前提供以下語言版本：
 
-<table>
-<tr>
-<td>
-<p>英文 (US) - EN-US</p>
-<p>法文 - FR</p>
-<p>德文 - DE</p>
-<p>義大利文 - IT</p>
-</td>
-<td>
-<p>西班牙文 - ES</p>
-<p>葡萄牙文 (巴西) - PTBR</p>
-<p>日文 - JP</p>
-</td>
-<td>
-<p>韓文 - KR</p>
-<p>簡體中文 - CHS</p>
-<p>繁體中文 - CHT</p>
-</td>
-</tr>
-</table>
+* 英文 (US) - EN-US
+* 法文 - FR
+* 德文 - DE
+* 義大利文 - IT
+* 西班牙文 - ES
+* 葡萄牙文 (巴西) - PTBR
+* 日文 - JP
+* 韓文 - KR
+* 簡體中文 - CHS
+* 繁體中文 - CHT
 
-您的預設介面語言由使用者設定檔中指定的偏好語言決定。
+
+您的Campaign Web預設語言由使用者設定檔中指定的偏好語言決定。 此語言與Campaign伺服器和使用者端主控台的語言無關。
 
 若要變更您的語言：
 
