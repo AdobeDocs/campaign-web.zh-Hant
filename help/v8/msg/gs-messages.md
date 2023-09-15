@@ -4,10 +4,10 @@ title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 87%
+source-wordcount: '1296'
+ht-degree: 85%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign v8提供下列傳送頻道：電子郵件、簡訊和行動應用
 
 ## 建立傳遞 {#create-delivery}
 
-您可以從左側功能表的「**[!UICONTROL 傳遞]**」建立獨立的傳遞，或是從左側功能表的「**[!UICONTROL 行銷活動]**」在行銷活動的內容中建立傳遞。
+您可以從以下位置建立獨立傳送： **[!UICONTROL 傳遞]** 左側功能表，或在工作流程內容中建立傳送，無論是否包含在行銷活動中。
 
 瀏覽下面的標籤以了解如何建立傳遞：
 
@@ -92,7 +92,7 @@ Adobe Campaign v8提供下列傳送頻道：電子郵件、簡訊和行動應用
 
 若要在工作流程中建立傳送，請遵循下列步驟：
 
-1. 建立一個工作流程或開啟一個現有的工作流程。
+1. 建立一個工作流程或開啟一個現有的工作流程。進一步瞭解中的工作流程 [此頁面](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. 新增並設定&#x200B;**[!UICONTROL 建置對象]**&#x200B;活動，然後按一下`+`按鈕。
 
    ![](assets/add-delivery-in-wf.png)
