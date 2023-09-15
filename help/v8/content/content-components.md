@@ -4,10 +4,10 @@ title: 使用電子郵件設計工具內容元件
 description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 813bf43fc67b98a1bb32d5ae63cc94ba6a4a581c
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 71%
+source-wordcount: '1170'
+ht-degree: 67%
 
 ---
 
@@ -155,7 +155,18 @@ ht-degree: 71%
 
    ![](assets/email_designer_9.png)
 
-1. 按一下「**[!UICONTROL 瀏覽]**」，從您的資產中選擇影像檔案。
+1. 按一下「**[!UICONTROL 瀏覽]**」，從您的資產中選擇影像檔案。您也可以選擇 **[!UICONTROL 匯入您的媒體]**.
+
+   要瞭解有關如何在Assets Essentials中上傳和新增資產的詳細資訊，請參閱 [Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
+
+   ![](assets/email_designer_28.png)
+
+1. 瀏覽資料夾以找出所需的特定資產，或使用搜尋列有效率地尋找資產。
+
+   找到您要尋找的資產後，請按一下 **[!UICONTROL 選取]**.
+
+   ![](assets/email_designer_29.png)
+
 
 1. 按一下您新增的元件，然後使用 **[!UICONTROL 設定]** 標籤：
 
