@@ -4,10 +4,10 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 84%
+source-wordcount: '1350'
+ht-degree: 66%
 
 ---
 
@@ -21,11 +21,9 @@ ht-degree: 84%
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
-根據預先定義的設計範本，電子郵件也具有依據客戶設定檔屬性的個人化內容。
+根據預先定義的 [設計範本](../content/email-templates.md)，該電子郵件也會根據客戶設定檔屬性提供個人化內容。
 
-![](assets/delivery-list.png)
-
-## 建立電子郵件 傳遞 {#create-email}
+## 建立電子郵件傳遞 {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -34,14 +32,16 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="電子郵件屬性"
->abstract="這些屬性是常見的傳遞參數，可幫助您對傳遞進行命名和分類。如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充結構描述，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
+>title="定義您的電子郵件屬性"
+>abstract="這些屬性是常見的傳遞參數，可幫助您對傳遞進行命名和分類。其他設定是選用的。 如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充結構描述，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
 
 您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的內容中建立電子郵件。 以下步驟詳細說明獨立（一次性）電子郵件傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟為中的詳細資訊 [本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-若要建立新的獨立電子郵件傳送，請遵循下列步驟：
+若要建立新的獨立電子郵件傳送，請遵循下列步驟。
 
 1. 瀏覽至 **[!UICONTROL 傳遞]** 功能表，然後按一下  **[!UICONTROL 建立傳遞]** 按鈕。
+
+   ![](assets/delivery-list.png)
 
 1. 選取 **[!UICONTROL 電子郵件]** 做為頻道，並從清單中選擇電子郵件傳遞範本。
 
@@ -54,10 +54,10 @@ ht-degree: 84%
 1. 按一下「**[!UICONTROL 建立傳遞]**」按鈕以確認。
 1. 輸入傳遞的標籤並根據您的需要設定其他選項：
 
-   * **[!UICONTROL 內部名稱]**：指派唯一識別碼給傳遞，
-   * **[!UICONTROL 資料夾]**：將傳遞儲存在特定資料夾中，
-   * **[!UICONTROL 傳遞程式碼]**：使用此欄位根據您自己的命名慣例組織您的傳遞，
-   * **[!UICONTROL 說明]**：指定傳遞的說明，
+   * **[!UICONTROL 內部名稱]**：指派唯一識別碼給傳遞。
+   * **[!UICONTROL 資料夾]**：將傳送儲存在特定資料夾。
+   * **[!UICONTROL 傳遞代碼]**：使用此欄位可根據您自己的命名慣例來組織傳送。
+   * **[!UICONTROL 說明]**：指定傳送的說明。
    * **[!UICONTROL 性質]**：指定電子郵件的性質以進行分類。<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
@@ -66,15 +66,42 @@ ht-degree: 84%
 
    ![](assets/email-properties.png)
 
-   此外，進階設定 (例如類型規則和目標對應) 可以透過按一下傳遞名稱旁邊的按鈕存取。這些設定是預先設定在選取的範本中，可以根據需要為此特定電子郵件進行編輯。
+5. 此外，進階設定（例如型別規則和目標對應）可透過以下方式存取： **[!UICONTROL 設定]** 按鈕的位置。 這些設定是預先設定在選取的範本中，可以根據需要為此特定電子郵件進行編輯。
+
+## 定義對象 {#define-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_audience"
+>title="選取傳送的對象"
+>abstract="為您的行銷電子郵件選擇最佳對象。您可以選擇現有對象(已在Campaign v8執行個體中或從Adobe Experience Platform中定義)，使用規則產生器建立新對象，或上傳包含對象的檔案。 未針對以下專案啟用控制組： **從檔案選取** 選項，反之亦然。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="目標對象"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="設定控制組"
+
+在此使用案例，您傳送電子郵件給現有的對象。
+
+有關如何使用對象的其他說明，請參閱[本章節](../audience/about-audiences.md)。
+
+1. 若要選取電子郵件的對象，請按一下「**[!UICONTROL 選取對象]**」按鈕，然後從清單選擇一個現有對象。
+
+   在此範例中，我們希望使用的現有對象其目標定位為銀級和金級忠誠積分層級的客戶。
+
+   ![](assets/create-audience.png)
+
+   >[!NOTE]
+   >
+   >清單中可用的對象源自您的Campaign v8執行個體，或若已在您的執行個體上設定目的地/來源整合，則源自Adobe Experience Platform。 此整合可讓您將Experience Platform區段傳送至Adobe Campaign，並將Campaign傳送和追蹤記錄傳送至Adobe Experience Platform。 瞭解如何在中使用Campaign和Adobe Experience Platform [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+
+1. 選取對象後，您可以套用其他規則進一步調整目標。
+
+   ![](assets/audience-selected.png)
+
+1. 您也可以設定控制組來分析電子郵件收件者與非目標收件者相比的行為。[了解如何使用控制組](../audience/control-group.md)
 
 ## 定義電子郵件內容 {#create-content}
 
-若要開始建立您的電子郵件內容，請遵循下列步驟。
+若要開始建立您的電子郵件內容，請遵循下列步驟。 在此使用案例中，您會使用預先定義的電子郵件 [傳遞範本](../msg/delivery-template.md) 以設計您的電子郵件。<!--TBC delivery template or email content template?-->
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
-
-在此使用案例中，您會使用預先定義的電子郵件 [傳遞範本](../msg/delivery-template.md) 以設計您的電子郵件。
 
 1. 在電子郵件傳遞控制面板中，按一下 **[!UICONTROL 編輯內容]** 按鈕。
 
@@ -104,40 +131,21 @@ ht-degree: 84%
 
    ![](assets/save-content.png)
 
-## 定義對象 {#define-audience}
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience"
->title="定義對象"
->abstract="為您的行銷電子郵件選擇最佳對象。您可以選擇已在 Campaign v8 執行個體或從 Adobe Experience Platform 中定義的現有對象，或可以使用規則產生器建立新對象。「從檔案中選取」未啟用控制組，反之亦然。"
-
-在此使用案例，您傳送電子郵件給現有的對象。有關如何使用對象的其他說明，請參閱[本章節](../audience/about-audiences.md)。
-
-1. 若要選取電子郵件的對象，請按一下「**[!UICONTROL 選取對象]**」按鈕，然後從清單選擇一個現有對象。
-
-   在此範例中，我們希望使用的現有對象其目標定位為銀級和金級忠誠積分層級的客戶。
-
-   ![](assets/create-audience.png)
-
-   >[!NOTE]
-   >
-   >清單中的對象源自於您的 Campaign v8 執行個體或 Adobe Experience Platform (如果已在您的執行個體上設定目的地/來源)。
-   >
-   >目的地/來源整合可讓您傳送 Experience Platform 區段至 Adobe Campaign，並將 Campaign 傳遞和追蹤記錄傳送到 Adobe Experience Platform。瞭解如何在中使用Campaign和Adobe Experience Platform [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
-
-1. 選取對象後，您可以套用其他規則進一步調整目標。
-
-   您也可以設定控制組來分析電子郵件收件者與非目標收件者相比的行為。[了解如何使用控制組](../audience/control-group.md)
-
-   ![](assets/audience-selected.png)
-
 ## 排程傳送 {#schedule}
 
-若要排程電子郵件傳送，請開啟電子郵件傳遞並瀏覽至「**排程**」區段。
+若要排程電子郵件的傳送，請遵循下列步驟。
 
-![](assets/schedule.png)
+有關如何排程傳遞傳送的其他指示，請參閱 [本節](../msg/gs-messages.md#gs-schedule).
 
-瞭解如何排程傳遞傳送 [本節](../msg/gs-messages.md#gs-schedule)
+1. 瀏覽至 **[!UICONTROL 排程]** 區段。
+
+1. 使用 **[!UICONTROL 啟用排程]** 切換即可啟用。
+
+1. 設定所要的傳送日期和時間。
+
+   ![](assets/schedule.png)
+
+傳送傳遞後，將在您定義的聯絡日期開始實際傳送。
 
 ## 預覽和測試電子郵件 {#preview-test}
 

@@ -4,10 +4,10 @@ title: 編輯電子郵件內容
 description: 了解如何在 Campaign Web UI 編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 50%
+source-wordcount: '570'
+ht-degree: 40%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 50%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="建立電子郵件內容"
->abstract="使用此區段，您可以為電子郵件建立內容並使用電子郵件設計工具賦予其精美的外觀。"
+>title="定義電子郵件內容"
+>abstract="此 **編輯內容** 熒幕可讓您定義訊息的基本元素，例如寄件者地址和主旨列，執行新增附件或優惠方案等其他動作，並存取電子郵件設計工具，為您的訊息提供完美的外觀。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -64,7 +64,9 @@ ht-degree: 50%
    >
    >您可以變更&#39;@&#39;之前的部分，但無法變更網域位址。
 
-   <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+1. 展開 **[!UICONTROL 回覆欄位]** 區段。 預設會使用寄件者的地址進行回覆。 不過，Adobe建議使用現有的實際地址，例如您品牌的客戶服務。 在此情況下，如果收件者傳送回覆，客戶服務將能夠處理。
+
+   ![](assets/email-edit-content-reply-to.png)
 
 1. 定義電子郵件 **[!UICONTROL 主旨行]**。在專用欄位中直接輸入您的主題，或開啟運算式編輯器，使用各種屬性和內容區塊或選件來新增個人化。 [了解如何個人化內容](../personalization/personalize.md)
 

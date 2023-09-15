@@ -6,16 +6,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 25%
+source-wordcount: '962'
+ht-degree: 24%
 
 ---
 
 # 使用傳遞範本 {#work-with-delivery-templates}
 
-為了加快並改善設計流程，您可以建立傳遞範本，以在行銷活動中輕鬆重複使用自訂內容。 此功能可讓您標準化創意外觀和風格，以便更快速地執行和啟動行銷活動。
+為了加快並改善設計流程，您可以建立傳遞範本，以在行銷活動中輕鬆重複使用自訂內容和設定。 此功能可讓您標準化創意外觀和風格，以便更快速地執行和啟動行銷活動。
 
 範本可能包括：
 
@@ -26,6 +26,10 @@ ht-degree: 25%
 * [個人化欄位](../personalization/personalize.md) 和 [條件式內容](../personalization/conditions.md)
 * 連結至 [映象頁面](../content/mirror-page.md) 和取消訂閱 [連結](../content/message-tracking.md)
 * 其他傳遞屬性，例如資源有效性、重試參數或隔離設定。
+
+>[!NOTE]
+>
+>傳遞範本與不同 [電子郵件內容範本](../content/email-templates.md)，可讓您僅重複使用訊息的內容。
 
 ## 存取及管理傳遞範本 {#access-manage-templates}
 
@@ -170,7 +174,7 @@ Campaign 為每種管道提供了一組內建範本：電子郵件、推播、�
 
 1. 在不同的設定檔之間切換，以根據選取的設定檔取得訊息的個人化表示。
 
-   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    您也可以調整縮放等級，並選擇案頭或行動檢視。
 

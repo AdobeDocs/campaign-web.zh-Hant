@@ -4,10 +4,10 @@ title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 85%
+source-wordcount: '1302'
+ht-degree: 84%
 
 ---
 
@@ -113,7 +113,7 @@ Adobe Campaign v8提供下列傳送頻道：電子郵件、簡訊和行動應用
 >[!ENDTABS]
 
 
-## 新增個人化{#personalization}
+## 新增個人化 {#personalization}
 
 Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[了解個人化功能的詳細資訊](../personalization/gs-personalization.md)。
 
@@ -135,8 +135,7 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[了解�
 
 * 新增&#x200B;**個人化優惠方案**
 
-  可根據收件者位置、目前的天氣或上次的採購訂單，在您的訊息內容中插入個人化優惠方案。
-
+  可根據收件者位置、目前的天氣或上次的採購訂單，在您的訊息內容中插入個人化優惠方案。[了解更多](../content/offers.md)
 
 ## 預覽和測試您的傳遞 
 
@@ -146,12 +145,12 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[了解�
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="排程傳送"
->abstract="定義傳送訊息的日期和時間。 為您的行銷電子郵件選擇最合適的時間，可以將開啟率提升至最高。"
+>title="設定聯絡日期和時間"
+>abstract="定義傳送傳送的日期和確切時間。 為您的行銷電子郵件選擇最合適的時間，可以將開啟率提升至最高。"
 
 您可以設定傳送訊息的日期和確切時間。 為您的行銷電子郵件選擇最合適的時間，可以將開啟率提升至最高。
 
-若要排程傳送作業，請開啟您的傳送作業，並瀏覽至 **排程** 區段。 使用 **[!UICONTROL 啟用排程]** 切換以啟用它，並設定傳送所需的日期和時間。 傳送傳遞後，將在您定義的聯絡日期開始實際傳送。
+若要排程傳送作業，請開啟您的傳送作業，並瀏覽至 **[!UICONTROL 排程]** 區段。 使用 **[!UICONTROL 啟用排程]** 切換以啟用它，並設定傳送所需的日期和時間。 傳送傳遞後，將在您定義的聯絡日期開始實際傳送。
 
 ![](assets/schedule.png)
 

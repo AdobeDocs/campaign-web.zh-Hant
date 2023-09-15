@@ -3,9 +3,9 @@ audience: end-user
 product: campaign
 title: 使用電子郵件範本
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 ![](assets/email_designer-sample-templates.png)
 
-Campaign隨附一組內建範本，供您選擇。
+Campaign隨附一組內建電子郵件內容範本，供您選擇。
 
 若要使用其中一個範本開始建立您的內容，請遵循下列步驟。
 
