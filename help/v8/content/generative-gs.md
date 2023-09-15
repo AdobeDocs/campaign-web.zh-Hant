@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用內容助理
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 9e47edb0b38390a9afd7a1ad2d4b25050d0b1306
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 3%
@@ -37,7 +37,7 @@ ht-degree: 3%
 <a href="generative-image.md">
 <img alt="影像產生" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image"><strong>使用內容助理產生影像</strong>
+<div><a href="generative-image.md"><strong>使用內容助理產生影像</strong>
 </div>
 <p>
 </td>
