@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 5c4ace1fc8d299048c398fcce14900c797ef6207
+source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 62%
+source-wordcount: '281'
+ht-degree: 57%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 62%
 
 透過 Campaign v8 Web，您可以將工作流程建置到視覺化畫布中，以設計跨管道流程，例如分段、行銷活動執行、檔案處理。
 
-工作流程可以獨立工作流程的形式建立，可從 **工作流程** 選單或直接在行銷活動中顯示，在這種情況下，工作流程將連結至行銷活動並與所有其他行銷活動的工作流程一起執行。
 
 ## 工作流程內部有什麼？ {#gs-workflow-inside}
 
@@ -35,6 +34,18 @@ ht-degree: 62%
 * **工作表**：工作表包含轉變攜帶的所有資訊。每個工作流程會使用多個工作表。這些表格中傳送的資料可在整個工作流程生命週期中使用。
 
 ## 建立工作流程的關鍵步驟 {#gs-workflow-steps}
+
+
+行銷活動提供兩種建立工作流程的方式：
+
+1. 工作流程可以建立為獨立的工作流程，從 **工作流程** 功能表。
+
+   ![](assets/create-a-standalone-wf.png)
+
+1. 工作流程可直接在行銷活動中建立，從 **工作流程** 行銷活動的索引標籤。 納入行銷活動時，工作流程會與其他所有行銷活動的工作流程一起執行，而報告量度都會在行銷活動層級分組。
+
+   ![](assets/create-a-wf-from-a-campaign.png)
+
 
 建立工作流程的關鍵步驟如下：
 
