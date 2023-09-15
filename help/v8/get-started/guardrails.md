@@ -2,10 +2,10 @@
 title: Campaign Web UI中的護欄和限制
 description: Campaign Web UI中的護欄和限制
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 5%
+source-wordcount: '514'
+ht-degree: 4%
 
 ---
 
@@ -47,10 +47,16 @@ ht-degree: 5%
 
 ## 預先定義的篩選 {#filters-guardrails-limitations}
 
-選取傳送的對象或在工作流程中建立對象時，某些預先定義的篩選器無法使用。 此時會顯示特定錯誤訊息。 您仍可以使用查詢並檢視：篩選條件和結果，但不能在規則產生器中檢視確切的查詢，也無法編輯篩選器。
+選取傳送的對象時，或是在工作流程中建立對象時，該版本產品的使用者介面中無法使用某些預先定義的篩選器。
+
+此時會顯示特定錯誤訊息。 即使您無法在規則產生器中檢視查詢的圖形表示，也無法編輯篩選，您仍可以使用它，並檢視篩選條件和結果。 您也可以存取SQL查詢以檢查確切的設定。
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+
+請注意，如果您在Web介面中建立篩選器，並在主控台中使用不支援的屬性來修改篩選器，Web介面中將無法再使用圖形表示。 在任何情況下，您仍可使用篩選器。
+
+以下列出不支援的屬性。
 
 ### 不支援的資料型別 {#unsupported-data-type}
 
