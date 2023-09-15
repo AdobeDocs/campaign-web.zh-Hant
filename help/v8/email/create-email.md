@@ -4,7 +4,7 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 883463ef70bfd908ae0ec66863fa61ec2334442b
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 66%
@@ -66,7 +66,7 @@ ht-degree: 66%
 
    ![](assets/email-properties.png)
 
-5. 此外，進階設定（例如型別規則和目標對應）可透過以下方式存取： **[!UICONTROL 設定]** 按鈕的位置。 這些設定是預先設定在選取的範本中，可以根據需要為此特定電子郵件進行編輯。
+1. 此外，進階設定（例如型別規則和目標對應）可透過以下方式存取： **[!UICONTROL 設定]** 按鈕的位置。 這些設定是預先設定在選取的範本中，可以根據需要為此特定電子郵件進行編輯。
 
 ## 定義對象 {#define-audience}
 
