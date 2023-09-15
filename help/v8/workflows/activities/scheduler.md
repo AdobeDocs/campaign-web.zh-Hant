@@ -3,9 +3,9 @@ audience: end-user
 title: 使用排程器工作流程活動
 description: 瞭解如何使用排程器工作流程活動
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '499'
 ht-degree: 11%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 11%
 
 ## 設定
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="排程器有效性"
+>abstract="您可以為排程器定義有效期間。 可為永久性，或直到特定日期前有效。"
 
 請依照下列步驟設定 **排程器** 活動：
 
