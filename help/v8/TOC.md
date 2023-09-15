@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 1c90630ecff177e402dfb049c1952de22bd9bdb4
+source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 91%
+source-wordcount: '415'
+ht-degree: 90%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 91%
             + [新增預覽文字](content/preheader.md)
             + [產生文字版本](content/text-version-email.md)
          + 內容助理 {#content-assistant}
+            + [開始使用內容助理](content/generative-gs.md)
             + [使用內容助理產生文字](content/generative-content.md)
             + [使用內容助理產生影像](content/generative-image.md)
             + [使用內容助理產生電子郵件](content/generative-email.md)
