@@ -2,9 +2,9 @@
 title: Campaign Web UI中的護欄和限制
 description: Campaign Web UI中的護欄和限制
 badge: label="Beta"
-source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
+source-git-commit: 492d49c37c8d63d3e3867f897b76a54ebe8bdb11
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '537'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,18 @@ ht-degree: 4%
 
 **回圈**
 
-* 包含回圈的工作流程不會顯示在Web UI中。 畫面會顯示錯誤訊息。
+* 網頁UI中尚未提供回圈。 如果您使用主控台建立了包含回圈的工作流程，將無法在Web UI中存取。 畫面會顯示錯誤訊息。
+
+<table>
+<tr>
+<th>主控台</th>
+<th>Web UI</th>
+</tr>
+<tr>
+<td><img src="assets/limitations-loops-console.png"></td>
+<td><img src="assets/limitations-loops-web.png"></td>
+</tr>
+</table>
 
 **調解與擴充**
 
