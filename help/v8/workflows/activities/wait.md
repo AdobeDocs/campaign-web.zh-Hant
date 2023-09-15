@@ -3,15 +3,22 @@ audience: end-user
 title: 使用等待工作流程活動
 description: 了解如何使用等待工作流程活動
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '172'
 ht-degree: 100%
 
 ---
 
 
 # 等待 {#wait}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_wait"
+>title="等待"
+>abstract="「**等待**」活動是一種&#x200B;**流程控制**&#x200B;活動。此活動用於允許正在執行的兩個活動之間經過一定的時間。"
+
 
 「**等待**」活動是一種&#x200B;**流程控制**&#x200B;活動。此活動用於允許正在執行的兩個活動之間經過一定的時間。例如，若要在電子郵件傳送活動後等候數天，請先分析此期間產生的開啟次數和點按次數，再執行任何後續操作 (提醒電子郵件、建立對象等)。
 

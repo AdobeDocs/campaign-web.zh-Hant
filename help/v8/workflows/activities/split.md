@@ -3,19 +3,36 @@ audience: end-user
 title: 使用分割工作流程活動
 description: 了解如何使用分割工作流程活動
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '599'
+ht-degree: 98%
 
 ---
 
 
 # 分割 {#split}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split"
+>title="分割活動"
+>abstract="**分割**&#x200B;活動是一種&#x200B;**目標定位**&#x200B;活動，可讓您根據不同選擇標準 (例如篩選規則或母體大小) 將傳入母體分割到多個子集。"
+
+
 **分割**&#x200B;活動是一種&#x200B;**目標定位**&#x200B;活動，可讓您根據不同選擇標準 (例如篩選規則或母體大小) 將傳入母體分割到多個子集。
 
 ## 設定 {#general}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_filter"
+>title="分割活動篩選器"
+>abstract="若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並設定所需的篩選規則。例如，將電子郵件地址存在於資料庫之傳入母體的設定檔包含在內。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_limit"
+>title="分割活動限制"
+>abstract="若要限制子集所選設定檔的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的母體數量或百分比。"
+
 
 請按照以下步驟設定&#x200B;**分割**&#x200B;活動：
 

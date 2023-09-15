@@ -3,15 +3,21 @@ audience: end-user
 title: 使用「組合」工作流程活動
 description: 了解如何使用「組合」工作流程活動
 badge: label="Beta"
-source-git-commit: d5b0777ba51f595733c6b7e366d0a9a21a13d84a
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 85%
+source-wordcount: '829'
+ht-degree: 80%
 
 ---
 
 
 # 組合 {#combine}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine"
+>title="合併活動"
+>abstract="此 **合併** 活動是 **目標定位** 活動。 此活動則可讓您對傳入母體執行分段。因此，您可以合併多個母體、排除部分母體，或僅保留數個目標通用的資料。"
+
 
 此 **合併** 活動是 **目標定位** 活動。 此活動則可讓您對傳入母體執行分段。您因此可以組合好幾個母體、排除其中的一部分或僅保留幾個目標通用資料。以下是可用的分段類型：
 
@@ -35,6 +41,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="排除合併選項"
 >abstract="「排除」可讓您根據特定條件從一個母體中排除元素。在「要加入的集合」一節中，勾選您之前希望加入的所有活動。"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_options"
+>title="選取分段型別"
+>abstract="選取如何合併對象：聯合、交集或排除。"
+
 請按照以下常見步驟開始設定「**組合**」活動：
 
 1. 新增多個活動，例如「**建置對象**」活動，以形成至少兩個不同的執行分支。
@@ -49,6 +60,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="交集 調解選項"
 >abstract="選取調節類型，以定義處理重複項目的方式。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_reconciliation"
+>title="調解選項"
+>abstract="選取 **調解型別** 以定義如何處理重複專案。"
 
 在 **合併** 活動，您可以設定 **聯集**. 為此，您需要選取 **調解型別** 若要定義重複專案的處理方式，請執行下列步驟：
 
@@ -68,6 +84,12 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >id="acw_orchestration_exclusion_options"
 >title="排除規則"
 >abstract="如有必要，您可以操控傳入表格。事實上，若要從另一個維度排除目標，必須將此目標傳回主要目標的同一目標定位維度。為了進行此步驟，請按一下「排除規則」一節中的「新增規則」，並指定維度變更條件。資料調節會透過屬性或加入執行。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_sets"
+>title="選取要合併的集合"
+>abstract="在「**要加入的集合**」一節中，從傳入轉變中選取「**主要集合**」。這是從中排除元素的集。其他集會先設定相符的元素，然後才會從主要集予以排除。"
+
 
 在 **合併** 活動，您可以設定 **排除**. 為此，您需要遵循以下額外步驟：
 

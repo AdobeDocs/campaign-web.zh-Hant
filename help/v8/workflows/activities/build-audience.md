@@ -3,15 +3,21 @@ audience: end-user
 title: 使用「建置對象」工作流程活動
 description: 了解如何使用「建置對象」工作流程活動
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 97%
 
 ---
 
 
 # 建置對象 {#build-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience"
+>title="建置對象"
+>abstract="「**建置對象**」活動是一種「**目標定位**」活動。此活動可讓您定義會進入工作流程的對象。"
+
 
 「**建置對象**」活動是一種「**目標定位**」活動。此活動可讓您定義會進入工作流程的對象。在行銷活動工作流程中傳送訊息時，訊息對象不會在管道活動中定義，而是在「**建置對象**」活動中定義。
 
@@ -29,7 +35,13 @@ ht-degree: 100%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 設定
+## 設定建置對象活動
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="選取目標維度"
+>abstract="目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。"
+
 
 請按照以下步驟設定「**建置對象**」活動：
 

@@ -3,22 +3,22 @@ audience: end-user
 title: 使用排程器工作流程活動
 description: 瞭解如何使用排程器工作流程活動
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 12%
+source-wordcount: '476'
+ht-degree: 11%
 
 ---
 
 
 # 排程器 {#scheduler}
 
-<!--
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Scheduler activity"
->abstract="The Scheduler activity allows you..."
--->
+>title="排程器活動"
+>abstract="此 **排程器** 活動是 **流量控制** 活動。 它可讓您排程工作流程何時開始。 此活動應視為已排程的開始。 它只能用作工作流程的第一個活動。"
+
 
 此 **排程器** 活動是 **流量控制** 活動。 它可讓您排程工作流程何時開始。 此活動應視為已排程的開始。 它只能用作工作流程的第一個活動。
 
@@ -29,6 +29,7 @@ ht-degree: 12%
 * 如果您想要在工作流程中傳送循環傳送，您需要使用 **排程器** 並設定執行頻率。 循環傳遞活動不允許您定義排程。
 
 ## 設定
+
 
 請依照下列步驟設定 **排程器** 活動：
 
