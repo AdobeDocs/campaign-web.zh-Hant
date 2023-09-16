@@ -4,10 +4,10 @@ title: 開始使用對象
 description: 了解如何在 Campaign Web UI 中使用對象
 badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 98%
 
 ---
 
@@ -40,6 +40,7 @@ control groups like acc: exract, random, based on attribute
 
 若要定義對象族群，您可以：
 
+* 建立和結合對象。 [了解更多](create-audience.md)
 * 選取現有對象，在用戶端主控台中建立成清單。[了解更多](add-audience.md)
 * 選取 Adobe Experience Platform 對象。[了解更多](aep-audience.md)
 * 定義篩選條件並將其合併，以使用規則產生器建置新的對象。[了解更多](segment-builder.md)
