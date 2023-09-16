@@ -3,10 +3,10 @@ audience: end-user
 title: 瀏覽、搜尋和篩選清單
 description: 探索如何瀏覽和篩選清單 Campaign Web v8
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="顯示進階屬性"
->abstract="預設情況下，屬性清單中只會顯示最常見的屬性。使用此切換即可建置具有進階屬性的篩選器。"
+>abstract="預設情況下，屬性清單中只會顯示最常見的屬性。使用此切換檢視進階屬性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
