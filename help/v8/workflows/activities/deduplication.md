@@ -3,10 +3,10 @@ audience: end-user
 title: 使用重複資料刪除工作流程活動
 description: 瞭解如何使用重複資料刪除工作流程活動
 badge: label="Beta"
-source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
+source-git-commit: bf98ca98510f51fb7496a380f6547b0d3e954006
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 9%
+source-wordcount: '353'
+ht-degree: 6%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="重複資料刪除 - 重複補充"
->abstract="待定"
+>title="產生補充"
+>abstract="您可以產生具有剩餘母體的其他出站轉變，該母體已排除為重複。 若要這麼做，請開啟 **產生補充** 選項"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="重複資料刪除 - 重複設定"
->abstract="待定"
+>abstract="若要刪除傳入資料中的重複專案，請在下列欄位中定義重複資料刪除方法。 依預設，僅保留一個記錄。 您也應該根據運算式或屬性來選取重複資料刪除模式。 依預設，會隨機選取要排除在重複專案外的記錄。"
 
 此 **重複資料刪除** 活動是 **目標定位** 活動。 此活動可讓您刪除入站活動結果中的重複專案。 此 **重複資料刪除** 活動通常用於目標定位活動之後，以及允許使用目標定位資料之活動之前。
 
