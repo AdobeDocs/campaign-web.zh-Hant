@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 76e8de4398c06e088d412e5033c063d1e6e891df
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 82%
+source-wordcount: '1321'
+ht-degree: 78%
 
 ---
 
@@ -61,13 +61,6 @@ ht-degree: 82%
 
 ### 行銷活動管理 {#user-interface-campaign-management}
 
->[!CONTEXTUALHELP]
->id="acw_campaigns_list"
->title="行銷活動"
->abstract="這是您的行銷活動清單。您可以檢視有用的資訊，例如其開始/結束/最後修改日期，以及其狀態。您可以依狀態或開始/結束日期篩選清單。按一下「建立行銷活動」按鈕，即可新增行銷活動。選取行銷活動，檢視其內容、傳遞和詳細資料。瀏覽到「範本」標籤，檢視和建立範本。"
-
-
-
 在「行銷活動管理」區段中，您可以存取行銷活動、傳遞以及工作流程。
 
 * **行銷活動** - 這是您的行銷活動清單以及行銷活動範本。預設情況下，您可以針對每個行銷活動檢視開始/結束/建立/最後修改日期、目前狀態以及建立該活動之行銷活動操作人員的姓名。您可以依狀態、開始/結束日期、資料夾篩選清單，或建立進階篩選以定義您自己的篩選標準。若要了解行銷活動的詳細資訊，請參閱[本章節](../campaigns/gs-campaigns.md)。
@@ -83,13 +76,6 @@ ht-degree: 82%
 
 ### 客戶管理 {#user-interface-customer-management}
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_list"
->title="對象"
->abstract="這是您的對象清單。您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。此為唯讀清單。"
-
-
 在「客戶管理」區段中，您可以檢視您的收件者、對象和訂閱。這些是唯讀清單。
 
 * **收件者** - 存取您的收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。進一步瞭解中的收件者 [本節](../audience/about-recipients.md).
@@ -102,6 +88,7 @@ ht-degree: 82%
 >id="acw_offers_list"
 >title="優惠"
 >abstract="瀏覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些是唯讀清單。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="在傳遞中新增選件"
 
 * **優惠** - 覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些是唯讀清單。
 
@@ -122,16 +109,13 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 -->
 
 
-### 內容說明 {#user-interface-help}
+## 內容說明 {#user-interface-help}
 
 介面中會提供內容關聯式說明。若有提供，請按一下 `?` 圖示以顯示說明資訊和相關文件的連結。
 
 ![](assets/context-help.png){width="40%" align="left"}
 
 透過新的Beta版， **具有Gen AI的知識助理** 內嵌在內容說明中的內容，革新了檔案搜尋和回答操作方法問題，讓您能夠輕鬆地在龐大的檔案存放庫中篩選，立即找到您需要的精確資訊。
-
-![](assets/ask-a-question.png)
-
 
 有了Campaign Gen AI的功能，此助理將改變您的體驗，讓資訊擷取和問題解決變得輕而易舉。 無論您是在複雜的工作中尋找指引，或是瀏覽廣泛的檔案，我們的Knowledge Assistant搭配Gen AI，是您最重要的夥伴，每次互動都能提供無與倫比的效率和準確性。
 
@@ -223,28 +207,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="需要權限"
 >abstract="您的管理員必須先授予您權限，然後您才能建立區段。"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_read_only"
->title="此行銷活動為唯讀資料"
->abstract="您沒有編輯此行銷活動的權限。如果需要，請聯絡管理員為您授予存取權限。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_read_only"
->title="此傳遞為唯讀資料"
->abstract="您沒有編輯此傳遞的權限。如果需要，請聯絡管理員為您授予存取權限。"
-
 <!-- Workflows-->
 
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only"
->title="此工作流程為唯讀資料"
->abstract="您沒有編輯此工作流程的權限。如果需要，請聯絡管理員授予您存取的權限。"
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="此工作流程為唯讀資料"
->abstract="由於畫布不受支援或不相容，您無法編輯此工作流程。"
 
 <!-- delivery template settings-->
 
