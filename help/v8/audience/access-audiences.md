@@ -3,20 +3,15 @@ audience: end-user
 title: 監視和管理對象
 description: 瞭解如何在Adobe Campaign Web中監視和管理對象
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 12%
+source-wordcount: '239'
+ht-degree: 3%
 
 ---
 
 
 # 監視和管理對象 {#create-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="此對象為唯讀"
->abstract="您沒有編輯此對象的權限。 如果需要，請聯絡管理員為您授予存取權限。"
 
 Campaign網頁適用的對象清單可從 **[!UICONTROL 受眾]** 功能表。
 

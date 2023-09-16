@@ -3,23 +3,54 @@ audience: end-user
 title: Campaign網站中的許可權管理
 description: 進一步瞭解Campaign網頁v8中的許可權
 badge: label="Beta"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 1%
+source-wordcount: '604'
+ht-degree: 24%
 
 ---
 
 
 # 存取權與權限 {#access-and-permissions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
 >title="需要權限"
->abstract="您的管理員必須先授予您許可權，您才能建立此物件。"
+>abstract="您的管理員必須先授予您權限，然後您才能建立此物件。"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="此對象為唯讀"
+>abstract="您沒有編輯此對象的權限。 如果需要，請聯絡管理員為您授予存取權限。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="此服務為唯讀資料"
+>abstract="您沒有編輯此服務的權限。如果需要，請聯絡管理員為您授予存取權限。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="此行銷活動為唯讀資料"
+>abstract="您沒有編輯此行銷活動的權限。如果需要，請聯絡管理員為您授予存取權限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="此傳遞為唯讀資料"
+>abstract="您沒有編輯此傳遞的權限。如果需要，請聯絡管理員為您授予存取權限。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="此工作流程為唯讀資料"
+>abstract="您沒有編輯此工作流程的權限。如果需要，請聯絡管理員授予您存取的權限。"
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="此工作流程為唯讀資料"
+>abstract="由於畫布不受支援或不相容，您無法編輯此工作流程。"
 
 存取控制可限制存取主要清單中的物件和資料，例如傳遞、收件者或工作流程。 這些限制也會套用在Explorer導覽樹狀結構中。 此外，您需要許可權才能從使用者介面建立、刪除、複製及編輯物件。
 
@@ -30,7 +61,6 @@ ht-degree: 1%
 ## 檢視許可權 {#view-permissions}
 
 從 **瀏覽器**，您可以瀏覽每個檔案夾的許可權。 這些許可權是在使用者端主控台中設定，用於組織和控制Campaign資料的存取。
-
 
 若要檢視檔案夾的許可權，請執行下列步驟：
 
