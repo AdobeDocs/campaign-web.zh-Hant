@@ -4,9 +4,9 @@ title: 編輯電子郵件內容
 description: 了解如何在 Campaign Web UI 編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '572'
 ht-degree: 40%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 40%
    >
    >您可以變更&#39;@&#39;之前的部分，但無法變更網域位址。
 
-1. 展開 **[!UICONTROL 回覆欄位]** 區段。 預設會使用寄件者的地址進行回覆。 不過，Adobe建議使用現有的實際地址，例如您品牌的客戶服務。 在此情況下，如果收件者傳送回覆，客戶服務將能夠處理。
+1. 展開 **[!UICONTROL 回覆欄位]** 區段。 預設會使用寄件者的姓名和地址進行回覆。 不過，Adobe建議使用現有的實際地址，例如您品牌的客戶服務。 在此情況下，如果收件者傳送回覆，客戶服務將能夠處理。
 
    ![](assets/email-edit-content-reply-to.png)
 

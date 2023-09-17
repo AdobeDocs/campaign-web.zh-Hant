@@ -4,10 +4,10 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 65%
+source-wordcount: '1354'
+ht-degree: 64%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 65%
 
    ![](assets/email-properties.png)
 
-1. 此外，進階設定（例如型別規則和目標對應）可透過以下方式存取： **[!UICONTROL 設定]** 按鈕的位置。 這些設定是預先設定在選取的範本中，可以根據需要為此特定電子郵件進行編輯。
+1. 此外，進階設定（例如型別規則和目標對應）可透過以下方式存取： **[!UICONTROL 設定]** 按鈕的位置。 這些設定是預先設定在選取的範本中，可以根據需要為此特定電子郵件進行編輯。[了解更多](../advanced-settings/delivery-settings.md)
 
 ## 定義對象 {#define-audience}
 
@@ -157,7 +157,7 @@ ht-degree: 65%
 
 1. 若要檢閱您的電子郵件，請按一下「**[!UICONTROL 檢閱並傳送]**」。這將顯示您的電子郵件的預覽，以及所有已設定的屬性、對象和排程。您可以按一下修改按鈕來編輯任何其中一個元素。
 
-1. 若要預覽電子郵件和已傳送的測試版本，請按一下「**[!UICONTROL 模擬內容]**」按鈕。
+1. 若要預覽電子郵件並傳送測試版本，請按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
    ![](assets/review-email.png)
 

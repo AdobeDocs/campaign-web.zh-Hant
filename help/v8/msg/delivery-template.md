@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 24%
+source-wordcount: '1014'
+ht-degree: 23%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 24%
 
 範本可能包括：
 
-* [類型](../advanced-settings/delivery-settings.md#typology)
-* 寄件者地址
-* 一個 [對象](../audience/about-audiences.md)，包括 [控制組](../audience/control-group.md)
-* 自訂 [內容](../content/edit-content.md)
-* [個人化欄位](../personalization/personalize.md) 和 [條件式內容](../personalization/conditions.md)
-* 連結至 [映象頁面](../content/mirror-page.md) 和取消訂閱 [連結](../content/message-tracking.md)
+* [類型](../advanced-settings/delivery-settings.md#typology),
+* 寄件者地址，
+* 一個 [對象](../audience/about-audiences.md)，包括 [控制組](../audience/control-group.md)，
+* 自訂 [內容](../content/edit-content.md)，
+* [個人化欄位](../personalization/personalize.md) 和 [條件式內容](../personalization/conditions.md)，
+* 連結至 [映象頁面](../content/mirror-page.md) 和取消訂閱 [連結](../content/message-tracking.md)，
 * 其他傳遞屬性，例如資源有效性、重試參數或隔離設定。
 
 >[!NOTE]
@@ -159,6 +159,8 @@ Campaign 為每種管道提供了一組內建範本：電子郵件、推播、�
    > * [電子郵件通道](../email/create-email.md)
    > * [推播通知管道](../push/gs-push.md)
    > * [SMS 頻道](../sms/create-sms.md)
+
+1. 此外，對於電子郵件範本，進階設定（例如型別規則和目標對應）可透過以下方式存取： **[!UICONTROL 設定]** 按鈕的位置。 [了解更多](../advanced-settings/delivery-settings.md)
 
 1. 按一下 **[!UICONTROL 檢閱]** 按鈕以儲存並檢閱您的範本。 您仍然可以編輯其所有設定、刪除及複製它。
 
