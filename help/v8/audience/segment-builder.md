@@ -4,20 +4,19 @@ title: 使用Campaign規則產生器建立對象
 description: 瞭解如何使用規則產生器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
 # 使用規則產生器定義對象 {#segment-builder}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Target對象"
->abstract="建立傳遞目標變得前所未有的簡單！ 使用我們最新的規則產生器，您現在可以從資料庫定義收件者的篩選條件或任何其他目標維度。 善用Adobe Experience Platform對象，進一步調整目標對象並最大化行銷活動的影響。"
+>title="目標對象"
+>abstract="制定傳遞目標再簡單不過了！ 借助我們最新的規則產生器，您現在可以為收件者或資料庫中的任何其他目標定位維度定義篩選條件。 利用 Adobe Experience Platform 對象進一步縮小目標對象範圍並充分發揮行銷活動的影響力。"
 
 本章節說明如何在設計新電子郵件時建立對象。建立的對象只能在此電子郵件中使用。
 
