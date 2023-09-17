@@ -3,10 +3,10 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何在Adobe Campaign Web中建立服務
 badge: label="Beta"
-source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
+source-git-commit: dd8e8acb37cf9a68768c5da48335275c09d67cc8
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 1%
+source-wordcount: '335'
+ht-degree: 0%
 
 ---
 
@@ -15,10 +15,14 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
->title="訂閱服務"
+>title="建立並管理您的服務"
 >abstract="使用Adobe Campaign建立及監控您的服務（例如電子報），並檢查這些服務的訂閱/取消訂閱。 訂閱僅適用於電子郵件和簡訊傳遞。"
 
-使用Adobe Campaign建立及監控您的服務（例如電子報），並檢查這些服務的訂閱/取消訂閱。 訂閱僅適用於電子郵件和簡訊傳遞。
+使用Adobe Campaign網頁管理及建立您的服務（例如電子報），並檢查這些服務的訂閱/取消訂閱。
+
+>[!NOTE]
+>
+>訂閱僅適用於電子郵件和簡訊傳遞。
 
 數個服務可並行定義，例如：特定產品類別、網站主題或區域的電子報、各種警報訊息型別的訂閱以及即時通知。
 
@@ -33,6 +37,8 @@ ht-degree: 1%
 此時會顯示所有現有訂閱服務的清單。 您可以搜尋服務並在頻道、資料夾上篩選，或使用進階篩選。
 
 ![](assets/service-filters.png)
+
+若要編輯現有服務，請按一下其名稱。
 
 ## 建立您的第一個訂閱服務 {#create-service}
 
@@ -59,10 +65,33 @@ ht-degree: 1%
 
    ![](assets/service-create-properties.png)
 
-1. 當使用者訂閱服務或取消訂閱服務時，您可以傳送確認訊息。 選取要用於這些訊息的範本。
+1. 依預設，訂閱沒有限制。 您可以停用 **[!UICONTROL 有效期無限制]** 定義服務有效持續時間的選項。 <!--The duration can be specified in days or months.TBC-->
+
+   ![](assets/service-create-validity-period.png)
+
+1. 當使用者訂閱或取消訂閱服務時，您可以傳送確認訊息。 根據您的使用案例，選取要用於該訊息的範本。
 
    ![](assets/service-create-confirmation-msg.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下「**[!UICONTROL 儲存]**」。新服務將新增至 **[!UICONTROL 訂閱服務]** 清單。
+
+<!--
+## Reporting
+
+You can measure the effectiveness of your subscription services for SMS and email channels.
+
+1. Select an existing service from the **[!UICONTROL Subscription services]** list.
+
+1. From the service dashboard, click More > Reports?
+
+1. Check the following indicators:
+
+* Total numbers of subscribers
+
+* Area graph with subscriptions and unsubscriptions. Use the dropwdown to change the time range. (24h, 48h, 1 week, 2 weeks, 1 month, 6 months)
+
+* The breakdown by period. including subs, unsub, evolution in numbers and % and loyalty.
+* Last updated / Next refresh time: these values are retrieved from the execution and schedule of the tracking workflow
+-->
 
 
