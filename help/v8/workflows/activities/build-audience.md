@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「建置對象」工作流程活動
 description: 了解如何使用「建置對象」工作流程活動
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 78%
+source-wordcount: '389'
+ht-degree: 77%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="建置對象"
+>title="建立對象活動"
 >abstract="此 **建立對象** 活動可讓您定義將進入工作流程的對象。 在工作流程內容中傳送訊息時，訊息對象未定義於頻道活動中，但定義於 **建立對象** 活動。"
 
 
