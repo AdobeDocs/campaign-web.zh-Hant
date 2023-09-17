@@ -4,10 +4,10 @@ title: 設計簡訊傳遞
 description: 了解如何設計您的簡訊傳遞
 badge: label="Beta"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74fd0a7d68491b2c0522943c5e078721013fece9
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 94%
+source-wordcount: '190'
+ht-degree: 88%
 
 ---
 
@@ -22,6 +22,9 @@ ht-degree: 94%
 >id="acw_sms_preview_option_app_target"
 >title="應用程式訂閱者"
 >abstract="將應用程式訂閱者新增到主要目標，以預覽和測試訊息。"
+
+
+若要設計SMS傳送的內容，請遵循下列步驟：
 
 1. 在您的傳遞頁面上，按一下「**[!UICONTROL 編輯內容]**」按鈕，以設計簡訊內容。
 
