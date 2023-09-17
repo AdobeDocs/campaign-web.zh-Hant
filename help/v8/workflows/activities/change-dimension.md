@@ -3,10 +3,10 @@ audience: end-user
 title: 使用變更維度工作流程活動
 description: 瞭解如何使用變更維度工作流程活動
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 3%
+source-wordcount: '162'
+ht-degree: 2%
 
 ---
 
@@ -16,9 +16,15 @@ ht-degree: 3%
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Change dimension activity"
->abstract="The Change dimension activity allows you to..."
+>title="Generate Complement"
+>abstract="TBD"
 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_change_dimension"
+>title="變更維度活動"
+>abstract="此活動可讓您在建立對象時變更目標維度。 它會根據資料範本和輸入維度來移動軸。 例如，您可以從「合約」維度切換至「客戶」維度。"
+
 
 此 **變更維度** 活動是 **目標定位** 活動。 此活動可讓您在建立對象時變更目標維度。 此活動會根據資料範本和輸入維度移動軸。 例如，您可以從「合約」維度切換至「客戶」維度。
 
@@ -32,6 +38,6 @@ ht-degree: 3%
 
    ![](../assets/workflow-change-dimension.png)
 
-1. 透過「變更維度」欄位選取新的目標維度。
+1. 定義 **新增目標維度**.
 
-沒有其他資訊??
+在維度變更期間，會保留所有記錄。

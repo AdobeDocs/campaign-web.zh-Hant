@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「建置對象」工作流程活動
 description: 了解如何使用「建置對象」工作流程活動
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 97%
+source-wordcount: '388'
+ht-degree: 78%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="建置對象"
->abstract="「**建置對象**」活動是一種「**目標定位**」活動。此活動可讓您定義會進入工作流程的對象。"
+>abstract="此 **建立對象** 活動可讓您定義將進入工作流程的對象。 在工作流程內容中傳送訊息時，訊息對象未定義於頻道活動中，但定義於 **建立對象** 活動。"
 
 
-「**建置對象**」活動是一種「**目標定位**」活動。此活動可讓您定義會進入工作流程的對象。在行銷活動工作流程中傳送訊息時，訊息對象不會在管道活動中定義，而是在「**建置對象**」活動中定義。
+「**建置對象**」活動是一種「**目標定位**」活動。此活動可讓您定義會進入工作流程的對象。在工作流程內容中傳送訊息時，訊息對象未定義於頻道活動中，但定義於 **建立對象** 活動。
 
 若要定義對象族群，您可以：
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->在此情況下，您無法從檔案載入對象。若要這麼做，您需要建立獨立傳遞。[了解更多](../../audience/about-audiences.md)
+>在此情況下，您無法從檔案載入對象。為此，您需要建立獨立的電子郵件傳送。 [了解更多](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

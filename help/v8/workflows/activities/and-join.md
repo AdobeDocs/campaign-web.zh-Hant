@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「合併連結」工作流程活動
 description: 了解如何使用「合併連結」工作流程活動
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 94%
+source-wordcount: '254'
+ht-degree: 83%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="合併連結活動"
->abstract="「**合併連結**」活動是一種&#x200B;**流程控制**&#x200B;活動。此活動可讓您同步處理工作流程的多個執行分支。"
-
-
+>abstract="**合併連結**&#x200B;活動可讓您同步處理工作流程的多個執行分支。一旦所有前述活動完成後，就會觸發此動作。 這可讓您在繼續執行工作流程之前，先確定某些活動已完成。"
 
 「**合併連結**」活動是一種&#x200B;**流程控制**&#x200B;活動。此活動可讓您同步處理工作流程的多個執行分支。
 
