@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「組合」工作流程活動
 description: 了解如何使用「組合」工作流程活動
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: b81fb2bf4cc0accadce47627865379e564c8bd94
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 82%
+source-wordcount: '885'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="合併活動"
->abstract="此 **合併** 活動是 **目標定位** 活動。 此活動則可讓您對傳入母體執行分段。因此，您可以合併多個母體、排除部分母體，或僅保留數個目標通用的資料。"
+>abstract="此 **合併** 活動可讓您對入站母體執行分段。 因此，您可以合併多個母體、排除部分母體，或僅保留數個目標通用的資料。"
 
 
 此 **合併** 活動是 **目標定位** 活動。 此活動則可讓您對傳入母體執行分段。您因此可以組合好幾個母體、排除其中的一部分或僅保留幾個目標通用資料。以下是可用的分段類型：
