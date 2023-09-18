@@ -4,7 +4,7 @@ product: campaign
 title: 使用電子郵件範本
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 25%
@@ -28,7 +28,6 @@ ht-degree: 25%
 >[!NOTE]
 >
 >電子郵件內容範本與不同 [傳遞範本](../msg/delivery-template.md). 它們允許您僅重複使用電子郵件內容，而傳遞範本允許您重複使用傳遞內容，包括所有傳遞設定和屬性，例如型別、寄件者地址、對象等。
-
 
 ## 使用範本 {#use-templates}
 

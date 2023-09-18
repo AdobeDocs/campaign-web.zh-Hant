@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '418'
 ht-degree: 89%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 89%
             + [匯入您的電子郵件內容](content/existing-content.md)
             + [為自己的內容撰寫程式碼](content/code-content.md)
             + [使用電子郵件內容範本](content/email-sample-templates.md)
-            + [使用電子郵件範本](content/email-templates.md)
          + 設計內容 {#design-content}
             + [使用內容元件](content/content-components.md)
             + [新增連結和追蹤訊息](content/message-tracking.md)

@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1020'
 ht-degree: 23%
 
 ---
@@ -32,9 +32,15 @@ ht-degree: 23%
 * 連結至 [映象頁面](../content/mirror-page.md) 和取消訂閱 [連結](../content/message-tracking.md)，
 * 其他傳遞屬性，例如資源有效性、重試參數或隔離設定。
 
+<!--
 >[!NOTE]
 >
->傳遞範本與不同 [電子郵件內容範本](../content/email-templates.md)，可讓您僅重複使用訊息的內容。
+>Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
+
+>[!NOTE]
+>
+>傳遞範本與不同 [內容範本](../content/email-sample-templates.md)，可讓您使用提供的現成可用範例電子郵件範本之一開始建立內容。
+
 
 ## 存取及管理傳遞範本 {#access-manage-templates}
 
