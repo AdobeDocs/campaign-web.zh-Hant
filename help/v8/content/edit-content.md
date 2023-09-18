@@ -4,10 +4,10 @@ title: 編輯電子郵件內容
 description: 了解如何在 Campaign Web UI 編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 35%
+source-wordcount: '633'
+ht-degree: 34%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 35%
 * 執行其他動作，例如新增附件或設定優惠方案
 * 存取 [電子郵件設計工具](get-started-email-designer.md#start-authoring) 以開始建立電子郵件的適當內容
 
+>[!NOTE]
+>
+>此畫面的所有可編輯文字欄位都可使用個人化欄位填入。 [了解如何個人化內容](../personalization/personalize.md)
+
 若要設定或編輯電子郵件內容，請遵循下列步驟。
 
 1. 按一下 **[!UICONTROL 編輯內容]** 按鈕來自 [電子郵件傳遞儀表板](../email/create-email.md) 畫面。
@@ -69,7 +73,7 @@ ht-degree: 35%
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. 定義電子郵件 **[!UICONTROL 主旨行]**。在專用欄位中直接輸入您的主題，或開啟運算式編輯器，使用各種屬性和內容區塊或選件來新增個人化。 [了解如何個人化內容](../personalization/personalize.md)
+1. 定義電子郵件 **[!UICONTROL 主旨行]**。在專用欄位中直接輸入主旨，或開啟運算式編輯器以新增 [個人化](../personalization/personalize.md) 使用各種屬性和內容區塊或選件。
 
 1. 如果想要將檔案附加到電子郵件，請按一下「**[!UICONTROL 新增附件]**」按鈕然後選取一個或多個檔案。
 
