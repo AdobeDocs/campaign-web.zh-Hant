@@ -4,7 +4,7 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 64%
@@ -21,7 +21,7 @@ ht-degree: 64%
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
-根據預先定義的 [設計範本](../content/email-templates.md)，該電子郵件也會根據客戶設定檔屬性提供個人化內容。
+根據預先定義的 [設計範本](../content/email-sample-templates.md)，該電子郵件也會根據客戶設定檔屬性提供個人化內容。
 
 ## 建立電子郵件傳遞 {#create-email}
 
