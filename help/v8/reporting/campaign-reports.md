@@ -3,14 +3,34 @@ audience: end-user
 title: 行銷活動報告
 description: 瞭解如何存取及使用行銷活動報告
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1853'
 ht-degree: 2%
 
 ---
 
 # 行銷活動報告 {#campaign-reports}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="報告傳送"
+>abstract="報表中的「傳送」索引標籤可讓您深入分析訪客與您傳送的互動，以及他們可能遇到的任何潛在錯誤。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="報告追蹤"
+>abstract="報表中的「傳送」標籤提供寶貴資料，包括每個連結的收件者行為、開啟和點按的劃分，以及有關傳送期間最常點按URL的詳細資訊。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="傳遞總覽"
+>abstract="傳遞概述提供關鍵績效指標(KPI)，用於提供有關訪客如何與您的電子郵件傳遞互動的詳細資訊。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="初始目標對象統計資料"
+>abstract="初始目標對象統計資料表會顯示與收件者相關的資料"
 
 行銷活動報告分為不同的Widget，詳細說明行銷活動的成功和錯誤。
 

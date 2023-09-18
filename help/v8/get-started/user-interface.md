@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 74%
+source-wordcount: '1278'
+ht-degree: 73%
 
 ---
 
@@ -172,30 +172,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="擴充資料"
 >abstract="待定"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="報告傳送"
->abstract="參閱行銷活動報告的傳送指標。"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="報告追蹤"
->abstract="參閱行銷活動報告的追蹤指標。"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="報告概觀"
->abstract="傳遞的關鍵量度。"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title="報告目標統計資料"
->abstract="本章節會根據對象顯示特定的量度。"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="傳遞的彙總報告"
->abstract="選取至少兩個傳遞，以顯示彙總的資料報告。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
@@ -227,8 +204,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_global_reporting_tracking"
 >title="全球報告追蹤"
 >abstract="在此畫面中顯示追蹤報告量度"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
