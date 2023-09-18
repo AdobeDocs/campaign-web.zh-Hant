@@ -3,10 +3,10 @@ audience: end-user
 title: 使用儲存對象工作流程活動
 description: 了解如何使用「分支」工作流程活動
 badge: label="Beta"
-source-git-commit: 7c8acd17fec3f6aa3d12346c2daaac9f64755098
+source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 9%
+source-wordcount: '319'
+ht-degree: 10%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 9%
 
    * **使用新資料完成對象**：保留舊的對象內容，並新增儲存對象活動入站轉變的資料。
 
-1. 檢查 **產生補充** 選項，以利用剩餘母體。 隨後會將其他轉變新增至活動。
+1. 檢查 **產生出站轉變** 選項(如果您想要在 **儲存對象** 活動。
 
 之後著，儲存的對象內容便可在對象的詳細資料檢視中使用，您可從以下位置存取： **受眾** 功能表。 此檢視中可用的欄對應於工作流程之入站轉變的欄 **儲存對象** 活動。
 
