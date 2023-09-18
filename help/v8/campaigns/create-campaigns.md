@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立行銷活動
 description: 了解如何使用 Adobe Campaign Web 建置跨管道行銷活動
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: ef459ca97bbe327128d790f77029521ed12cc6c9
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 40%
+source-wordcount: '450'
+ht-degree: 39%
 
 ---
 
@@ -31,8 +31,7 @@ ht-degree: 40%
 若要建立新的行銷活動，請遵循下列步驟：
 
 1. 按一下 **[!UICONTROL 行銷活動]** 功能表，然後按一下 **[!UICONTROL 建立行銷活動]** 按鈕。
-1. 選取 **範本** 以使用並提供促銷活動的標籤。 行銷活動範本已預先設定，因此可重複用於建立新的行銷活動。 這些範本從用戶端主控台建立的。
-   [顯示全文](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)。
+1. 選取 **範本** 以使用並提供促銷活動的標籤。 [顯示全文](manage-campaign-templates.md)。
 1. 如有需要，您可以變更下列專案 **其他選項**：內部名稱、資料夾、工作負責人、說明和性質。
 1. 定義 **排程** 您的行銷活動中的。 瞭解如何在中設定您的行銷活動排程 [本節](#campaign-schedule)
 1. 按一下 **建立**。

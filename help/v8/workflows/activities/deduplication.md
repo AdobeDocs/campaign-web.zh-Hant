@@ -3,9 +3,9 @@ audience: end-user
 title: 使用重複資料刪除工作流程活動
 description: 瞭解如何使用重複資料刪除工作流程活動
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '427'
 ht-degree: 5%
 
 ---
@@ -13,13 +13,10 @@ ht-degree: 5%
 
 # 去重複化 {#deduplication}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Fork activity"
->abstract="The Deduplication activity allows you to..."
--->
-
+>title="重複資料刪除屬性"
+>abstract="這可讓您指定具有完全相同值的欄位，以便識別重複專案：電子郵件地址、名字、姓氏等。 欄位順序可讓您指定要先處理的欄位。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"

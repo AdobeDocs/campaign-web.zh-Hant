@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 93%
+source-wordcount: '451'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 * 「**瀏覽**」標籤會列出所有現有的行銷活動。按一下任一行銷活動，即可開啟其儀表板，按一下「**建立行銷活動**」按鈕，即可建立新的行銷活動。請參閱本[章節](create-campaigns.md#create-campaigns)。
 
-* 「**範本**」標籤會列出所有可用的行銷活動範本。行銷活動範本已預先設定，以便在建立新的行銷活動時可重複使用。這些範本從用戶端主控台建立的。[深入了解](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)
+* 「**範本**」標籤會列出所有可用的行銷活動範本。您可以檢視現有範本或建立新範本。 [顯示全文](manage-campaign-templates.md)。
 
 ![行銷活動清單](assets/campaign-list.png)
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 使用變更維度工作流程活動
 description: 瞭解如何使用變更維度工作流程活動
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '191'
 ht-degree: 2%
 
 ---
@@ -13,12 +13,10 @@ ht-degree: 2%
 
 # 變更維度 {#change-dimension}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Generate Complement"
->abstract="TBD"
--->
+>title="產生補充"
+>abstract="您可以產生具有剩餘母體的其他出站轉變，該母體已排除為重複。 若要這麼做，請開啟 **產生補充** 選項"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
