@@ -3,9 +3,9 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何在Adobe Campaign Web中建立和管理服務
 badge: label="Beta"
-source-git-commit: 6e48c44b7c192b0d401d75dedbac24f21ee2e78f
+source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '931'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,15 @@ ht-degree: 2%
 
    ![](assets/service-audience-subscribers.png)
 
-1. 建立行銷活動並鎖定您建立的對象。
+1. [建立傳遞](../msg/gs-messages.md) 並選取您在上方建立的對象。
+
+   ![](assets/service-delivery-targeting-subscribers.png)
+
+1. 依需要編輯您的訊息內容並傳送傳遞。
+
+   ![](assets/service-delivery-ready.png)
+
+您的傳遞只會傳送給該服務的訂閱者。
 
 
 
