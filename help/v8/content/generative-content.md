@@ -3,10 +3,10 @@ audience: end-user
 title: 使用內容助理的文字
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 3%
+source-wordcount: '344'
+ht-degree: 2%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 3%
 
 1. 描述您要產生的內容，以微調內容。
 
-   啟用 **[!UICONTROL 使用目前的內容增強]** 內容助理的選項，用來根據您的傳遞、傳遞名稱和選取的對象來個人化新內容。
+   啟用 **[!UICONTROL 使用目前內容增強]** 內容助理的選項，用來根據您的傳遞、傳遞名稱和選取的對象來個人化新內容。
 
    ![](assets/text-genai-3.png)
 
-1. 選取 **[!UICONTROL 上傳檔案]** 如果您想要新增行銷簡報，為內容助理提供更多內容。
+1. 選取 **[!UICONTROL 上傳檔案]** 如果您想要新增任何品牌資產，其中包含的內容可向內容助理提供其他內容。
 
-   您也可以按一下 **[!UICONTROL 上傳的內容]** 以尋找先前更新的檔案。
+   您也可以按一下 **[!UICONTROL 上傳的內容]** 以尋找先前更新的檔案。 請注意，上傳的內容僅供目前使用者重複使用。
 
 1. 選取 **[!UICONTROL 溝通策略]** 最符合您需求的產品。 這會影響產生文字的色調和樣式。
 

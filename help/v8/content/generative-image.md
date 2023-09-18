@@ -3,9 +3,9 @@ audience: end-user
 title: 使用內容助理產生影像
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,9 @@ ht-degree: 2%
 
    ![](assets/image-genai-2.png)
 
-1. 選取 **[!UICONTROL 上傳檔案]** 如果您想要新增行銷簡報，為內容助理提供更多內容。
+1. 選取 **[!UICONTROL 上傳檔案]** 如果您想要新增任何品牌資產，其中包含的內容可向內容助理提供其他內容。
 
-   您也可以按一下 **[!UICONTROL 上傳的內容]** 以尋找先前更新的檔案。
+   您也可以按一下 **[!UICONTROL 上傳的內容]** 以尋找先前更新的檔案。 請注意，上傳的內容僅供目前使用者重複使用。
 
 1. 選取 **[!UICONTROL 外觀比例]** ，則不會產生任何影響。 這會決定資產的寬度和高度。
 
