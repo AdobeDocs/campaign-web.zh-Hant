@@ -4,10 +4,10 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 7%
+source-wordcount: '588'
+ht-degree: 6%
 
 ---
 
@@ -29,16 +29,27 @@ ht-degree: 7%
 >
 >您可以使用以下專案停用視覺流程： **[!UICONTROL 隱藏進度]** 畫布頂端動作列中的按鈕。
 
+## 工作流程轉換 {#transitions}
+
+在工作流程中，透過轉變從一個活動傳輸到另一個活動的資料會儲存在臨時工作表中。
+
+此資料可針對每個轉變顯示。 要執行此操作，請選取轉變以在熒幕右側開啟其屬性。
+
+* 按一下 **[!UICONTROL 預覽結構描述]** 顯示工作表的綱要。
+* 按一下 **[!UICONTROL 預覽結果]** 以視覺化方式呈現所選轉變中傳輸的資料。
+
+![](assets/transition.png)
+
 ## 監視活動執行 {#activities}
 
 每個活動方塊右上角的視覺指示器可讓您檢查其執行：
 
 | 視覺指示器 | 說明 |
 |-----|------------|
-| ![](assets/activity-status-pending.png) | 活動目前正在執行。 |
-| ![](assets/activity-status-orange.png) | 活動需要您注意。 這可能涉及確認傳遞的傳送或採取必要行動。 |
-| ![](assets/activity-status-red.png) | 活動發生錯誤。 若要解決此問題，請開啟工作流程記錄檔以取得詳細資訊。 |
-| ![](assets/activity-status-green.png) | 已成功執行活動。 |
+| ![](assets/activity-status-pending.png){width="70%"} | 活動目前正在執行。 |
+| ![](assets/activity-status-orange.png){width="70%"} | 活動需要您注意。 這可能涉及確認傳遞的傳送或採取必要行動。 |
+| ![](assets/activity-status-red.png){width="70%"} | 活動發生錯誤。 若要解決此問題，請開啟工作流程記錄檔以取得詳細資訊。 |
+| ![](assets/activity-status-green.png){width="70%"} | 已成功執行活動。 |
 
 ## 監視日誌和任務 {#logs-tasks}
 
