@@ -4,7 +4,7 @@ title: 使用 Adobe Experience Platform 對象
 description: 了解如何使用 Adobe Experience Platform 對象
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
+source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 37%
@@ -52,5 +52,3 @@ Adobe Campaign受管理的Cloud Service目標和來源聯結器可緊密整合Ad
 1. 使用規則產生器，您可以使用額外的篩選器或結合不同的對象來擴充您的對象。請參閱本[章節](segment-builder.md)。
 
 1. 按一下「**儲存**」。
-
-
