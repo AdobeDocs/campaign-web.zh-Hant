@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 使用訂閱服務
-description: 瞭解如何在Adobe Campaign Web中建立服務
+description: 瞭解如何在Adobe Campaign Web中建立和管理服務
 badge: label="Beta"
-source-git-commit: dd8e8acb37cf9a68768c5da48335275c09d67cc8
+source-git-commit: 307d1e65850fcbdb51ca0016e4f3f30ca74997be
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -44,14 +44,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="訂閱服務屬性"
->abstract="輸入訂閱服務的標籤，並定義其他選項。"
+>title="定義您的服務屬性"
+>abstract="輸入訂閱服務的標籤，並定義其他選項，例如服務的有效期間。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="訂閱服務確認訊息"
->abstract="當使用者訂閱服務或取消訂閱服務時，您可以傳送確認訊息。 選取要用於這些訊息的範本。"
-
+>title="選取確認訊息"
+>abstract="當使用者訂閱或取消訂閱服務時，您可以傳送確認訊息。 選取要用於該訊息的範本。"
 
 若要建立訂閱服務，請遵循下列步驟：
 
