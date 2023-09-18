@@ -3,9 +3,9 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何在Adobe Campaign Web中建立和管理服務
 badge: label="Beta"
-source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
+source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1019'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,9 @@ ht-degree: 2%
 
 ## 存取訂閱服務 {#access-services}
 
-1. 若要存取您的平台所提供的訂閱服務，請瀏覽至 **[!UICONTROL 訂閱服務]** 功能表位於左側導覽邊欄中。
+若要存取您的平台所提供的訂閱服務，請遵循下列步驟。
+
+1. 瀏覽至 **[!UICONTROL 訂閱服務]** 功能表位於左側導覽邊欄中。
 
    ![](assets/service-list.png)
 
@@ -54,7 +56,7 @@ ht-degree: 2%
 >title="選取確認訊息"
 >abstract="當使用者訂閱或取消訂閱服務時，您可以傳送確認訊息。 選取要用於該訊息的範本。"
 
-若要建立訂閱服務，請遵循下列步驟：
+若要建立訂閱服務，請遵循下列步驟。
 
 1. 選取 **[!UICONTROL 建立訂閱服務]** 按鈕。
 
@@ -66,7 +68,7 @@ ht-degree: 2%
 
    ![](assets/service-create-properties.png)
 
-1. 依預設，訂閱沒有限制。 您可以停用 **[!UICONTROL 有效期無限制]** 定義服務有效持續時間的選項。 在下列範例中，20天後，沒有人能再訂閱此服務。
+1. 依預設，訂閱沒有限制。 您可以停用 **[!UICONTROL 有效期無限制]** 定義服務有效持續時間的選項。 在下列範例中，20天後，沒有任何使用者能夠再訂閱此服務。
 
    ![](assets/service-create-validity-period.png)
 
@@ -76,13 +78,13 @@ ht-degree: 2%
 
 1. 按一下 **[!UICONTROL 儲存並檢閱]**. 新服務將新增至 **[!UICONTROL 訂閱服務]** 清單。
 
-### 建立確認訊息 {#create-confirmation-message}
+## 建立確認訊息 {#create-confirmation-message}
 
 若要傳送確認訊息給訂閱或取消訂閱服務的使用者，您必須使用建立傳遞範本 **[!UICONTROL 訂閱]** 目標對應，無已定義目標。 請依照下列步驟以執行此操作。
 
 1. 建立訂閱確認的傳遞範本。 [了解做法](../msg/delivery-template.md)
 
-1. 請勿選取此傳遞的對象。 請改為存取 **[!UICONTROL 傳遞設定]**，前往 [對象](../advanced-settings/delivery-settings.md#audience) 標籤並選取 **[!UICONTROL 訂閱]** 目標對應。
+1. 請勿選取此傳遞的對象。 請改為存取 **[!UICONTROL 傳遞設定]**，前往 [對象](../advanced-settings/delivery-settings.md#audience) 標籤並選取 **[!UICONTROL 訂閱]** 清單中的目標對應。
 
    ![](assets/service-confirmation-template-mapping.png)
 
@@ -100,9 +102,9 @@ ht-degree: 2%
 
 1. 重複上述步驟，建立取消訂閱確認的傳遞範本。
 
-您現在可以在以下情況下選取這些訊息： [建立訂閱服務](#create-service). 訂閱或取消訂閱該服務的使用者將收到所選的確認訊息。
+您現在可以在以下情況下選取這些訊息： [建立訂閱服務](#create-service). 訂閱或取消訂閱該服務的使用者會收到所選的確認訊息。
 
-## 新增訂閱者至您的服務
+## 新增訂閱者至您的服務 {#add-subscribers}
 
 建立服務後，您可以手動新增訂閱者。 請遵循下列步驟。
 
@@ -116,11 +118,27 @@ ht-degree: 2%
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. 選取的收件者將收到訂閱 [確認訊息](#create-confirmation-message) 您選擇的時機 [建立服務](#create-service). 按一下 **[!UICONTROL 傳送]**.
+1. 按一下 **[!UICONTROL 傳送]**. 選取的收件者將收到訂閱 [確認訊息](#create-confirmation-message) 您選擇的時機 [建立服務](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
 新增的設定檔會顯示在 **[!UICONTROL 訂閱者]** 清單。 他們現在已訂閱您的服務。
+
+## 從您的服務移除訂閱者 {#remove-subscribers}
+
+將訂閱者新增至服務後，您就可以將其移除。 請遵循下列步驟。
+
+1. 從中選擇現有服務 **[!UICONTROL 訂閱服務]** 清單。
+
+1. 按一下所需收件者名稱旁的三點圖示，然後選取 **[!UICONTROL 刪除]**.
+
+   ![](assets/service-subscribers-delete.png)
+
+1. 確認刪除並按一下 **[!UICONTROL 傳送]**. 選取的收件者將會收到取消訂閱 [確認訊息](#create-confirmation-message) 您選擇的時機 [建立服務](#create-service).
+
+   ![](assets/service-subscribers-delete-confirmation.png)
+
+收件者會從 **[!UICONTROL 訂閱者]** 清單且不再訂閱您的服務。
 
 ## 訂閱服務記錄檔及報告 {#logs-and-reports}
 
@@ -142,7 +160,7 @@ ht-degree: 2%
 
      ![](assets/service-reports.png)
 
-   * 此 **[!UICONTROL 訂閱的整體演化]** 圖表會依期間顯示劃分，包括訂閱、取消訂閱、人數的演化以及忠誠度百分比。
+   * 此 **[!UICONTROL 訂閱的整體演化]** 圖表會依期間顯示劃分，包括訂閱、取消訂閱、人數的演化以及忠誠度百分比。<!--what is Registered?-->
 
    * 使用 **[!UICONTROL 重新載入]** 按鈕以擷取追蹤工作流程執行和排程的最後值。
 
