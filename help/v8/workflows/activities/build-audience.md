@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「建置對象」工作流程活動
 description: 了解如何使用「建置對象」工作流程活動
 badge: label="Beta"
-source-git-commit: ff3e93a6c8e66c8160f132772ea1a8bfd769ec5b
+source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 62%
+source-wordcount: '488'
+ht-degree: 61%
 
 ---
 
@@ -72,6 +72,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ![](../assets/workflow-audience-example.png)
 
-這是另一個範例，說明Adobe Experience Platform對象與Adobe Campaign對象的結合位置。 若要允許結合這些對象，請 **[iUICONTROL變更維度]** 具有「收件者」目標維度的活動會新增至Adobe Experience Platform對象之後。
+這是另一個工作流程範例，其中Adobe Experience Platform對象與Adobe Campaign對象結合。 若要允許結合這些對象，請 **[!UICONTROL 變更維度]** 具有「收件者」目標維度的活動會新增至Adobe Experience Platform對象之後。 [瞭解如何設定變更維度活動](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)
