@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「建置對象」工作流程活動
 description: 了解如何使用「建置對象」工作流程活動
 badge: label="Beta"
-source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
+source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 61%
+source-wordcount: '485'
+ht-degree: 62%
 
 ---
 
@@ -64,7 +64,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 >[!IMPORTANT]
 >
->如果要合併多個 **[!UICONTROL 建立對象]** 包含Experience Platform對象的工作流程中的活動，您需要新增 **[!UICONTROL 變更維度]** 活動後，確保所有對象都屬於「收件者」目標維度。 此頁面底部提供工作流程範例。
+>如果您想使用 **[!UICONTROL 建立對象]** 以Experience Platform對象為目標的活動，您需要新增 **[!UICONTROL 變更維度]** 活動後，確保受眾的目標維度設為「收件者」。 此頁面底部提供工作流程範例。
 
 ## 範例
 
