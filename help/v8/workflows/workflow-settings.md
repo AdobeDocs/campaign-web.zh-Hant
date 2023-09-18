@@ -4,9 +4,9 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
+source-git-commit: 140c12fbfb40ec2df2c25aacc762f344f78d9a5a
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '903'
 ht-degree: 31%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 31%
 
 這些設定在建立工作流程時，會在選取的範本中預先設定，但可視需要為此特定工作流程進行編輯。
 
-若要這麼做，請按一下 **[!UICONTROL 工作流程設定]** 圖示加以存取，位於畫布左上角、工作流程標籤旁。
+若要這麼做，請按一下 **[!UICONTROL 設定]** 按鈕在工作流程畫布上方的動作列中。
 
 ![](assets/workflow-settings.png)
 
