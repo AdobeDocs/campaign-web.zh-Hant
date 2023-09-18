@@ -3,9 +3,9 @@ audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Beta"
-source-git-commit: 72faa94a1a63042f6a275ca3252ad0fa5b57e51c
+source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '633'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 4%
 新增活動時，屬性窗格中會有動作按鈕，可讓您執行多項作業。 您可以：
 
 * **刪除** 畫布中的活動。
-* **停用/啟用** 活動。 執行工作流程時，停用的活動將不會執行，工作流程將會暫停嗎？
+* **停用/啟用** 活動。 執行工作流程時，不會執行已停用的活動以及相同路徑上的下列活動，且工作流程會停止。
 * **複製** 活動。 然後，您可以按一下轉變上的「+」按鈕，並選取「貼上1活動」，將其貼到任何工作流程中。
 * 存取活動的 **記錄檔與任務**.
 * **暫停/繼續** 活動。 執行工作流程時，它會在暫停的活動中暫停。 系統不會執行對應的任務，以及在相同路徑中跟隨著該任務的所有任務。
