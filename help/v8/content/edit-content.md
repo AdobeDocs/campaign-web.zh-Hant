@@ -4,9 +4,9 @@ title: 編輯電子郵件內容
 description: 了解如何在 Campaign Web UI 編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
+source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '618'
 ht-degree: 35%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 35%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="設定您的電子郵件基本屬性"
+>title="設定電子郵件屬性"
 >abstract="此 **基本詳細資訊** 區段可讓您更新寄件者的地址和回覆地址，並使用運算式編輯器定義主旨行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="將檔案附加至電子郵件"
->abstract="選取一個或多個檔案插入您的郵件中。"
+>abstract="選取一個或多個檔案插入您的郵件中。為避免出現效能問題，建議每封電子郵件不要包含多個附件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="編輯追蹤"
->abstract="依預設，傳遞追蹤會啟用。您可以從此處停用此選項。"
+>abstract="預設會啟用傳送的追蹤，這表示會追蹤訊息內容中包含的所有連結。 您可以從此處停用此選項。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="新增連結和追蹤訊息"
 
 電子郵件 **[!UICONTROL 編輯內容]** 畫面可讓您：
