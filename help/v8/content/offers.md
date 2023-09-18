@@ -4,10 +4,10 @@ title: 傳送優惠
 description: 傳送優惠
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 44%
+source-wordcount: '771'
+ht-degree: 34%
 
 ---
 
@@ -25,15 +25,19 @@ Adobe Campaign v8網頁版可讓您使用在主控台中建立的傳送選件，
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="優惠設定"
->abstract="設定應向收件者提出的優惠。"
+>title="定義優惠引數"
+>abstract="透過定義優惠空間（可選擇類別和主題），設定應向收件者建議的優惠，並指定要插入傳遞中的優惠方案數量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="優惠進階設定"
->abstract="設定優惠進階選項。"
+>title="設定優惠方案進階設定"
+>abstract="您可以啟用排除沒有足夠合格優惠的收件者，並選擇當其中一個主張不存在時如何處理訊息。"
 
-1. 若要選取要在傳送中建議的優惠方案，請按一下 **[!UICONTROL 設定優惠方案]** 傳遞內容版本畫面中的按鈕。
+Adobe Campaign可讓您向指定連絡人建議一或多個特定優惠方案。 互動模組，可讓您在互動期間透過建議單一或數個特定優惠方案，即時回應指定的聯絡人。 這些優惠方案可以是簡單的通訊訊息、一或多個產品或服務的特別優惠方案。
+
+若要選取要新增至傳送的優惠方案，請遵循下列步驟。
+
+1. 按一下 **[!UICONTROL 設定優惠方案]** 傳遞內容版本畫面中的按鈕。
 
    ![](assets/setup-offers.png)
 
@@ -99,7 +103,7 @@ Adobe Campaign v8網頁版可讓您使用在主控台中建立的傳送選件，
 
    >[!NOTE]
    >
-   >可用的主張數量取決於引擎呼叫的設定方式，而其順序則取決於優惠方案的優先順序。
+   >可用的主張數量取決於引擎呼叫的設定方式，而其順序則取決於優惠方案的優先順序。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. 儲存您的變更。
 

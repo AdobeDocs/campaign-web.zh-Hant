@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 82cefed06353ce91ab75128bc4e0459570a95617
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 78%
+source-wordcount: '1331'
+ht-degree: 74%
 
 ---
 
@@ -85,10 +85,12 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="優惠"
->abstract="瀏覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些是唯讀清單。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="在傳遞中新增選件"
+>abstract="瀏覽已在主控台中使用「 」建立的選件和選件範本清單。 **互動** 模組。 這些是唯讀清單。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="將優惠新增至傳遞"
 
-* **優惠** - 覽您的互動優惠清單。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。這些是唯讀清單。
+在客戶管理區段中，您可以檢視優惠方案和優惠方案範本。 這些是唯讀清單。
+
+* **選件**  — 瀏覽已在主控台中使用「 」建立的優惠方案和優惠方案範本清單。 **互動** 模組。 依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。
 
 瞭解如何在電子郵件和簡訊中建立和傳送優惠方案 [本節](../content/offers.md).
 
