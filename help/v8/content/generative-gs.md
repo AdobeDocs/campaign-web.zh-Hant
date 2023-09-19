@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用內容助理
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: 9e47edb0b38390a9afd7a1ad2d4b25050d0b1306
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 3%
 內容助理由創作AI提供技術支援，是改善電子郵件內容的寶貴工具。 它簡化個人化和內容增強，將您的電子郵件傳遞最佳化，以便與您的對象產生更好的共鳴。
 
 此功能可自動產生完整的電子郵件內容，以節省時間並確保一致的品質。 使用Generative AI，您可以輕鬆建立吸引人的電子郵件，提高溝通的效率和效益。
+
+>[!AVAILABILITY]
+>
+>此功能將於10月初推出。
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">

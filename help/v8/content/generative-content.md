@@ -3,9 +3,9 @@ audience: end-user
 title: 使用內容助理的文字
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '351'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 2%
 建立電子郵件並將其個人化後，請使用創作AI所支援的內容助理將您的內容提升到新的境界。
 
 內容助理可以建議更可能引起觀眾共鳴的不同內容，協助您最佳化傳送的影響。
+
+
+>[!AVAILABILITY]
+>
+>此功能將於10月初推出。
 
 1. 建立及設定電子郵件傳遞後，請按一下 **[!UICONTROL 編輯內容]**.
 
