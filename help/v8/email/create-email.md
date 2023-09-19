@@ -4,7 +4,7 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 64%
@@ -79,7 +79,7 @@ ht-degree: 64%
 
 在此使用案例，您傳送電子郵件給現有的對象。
 
-有關如何使用對象的其他說明，請參閱[本章節](../audience/about-audiences.md)。
+有關如何使用對象的其他說明，請參閱[本章節](../audience/about-recipients.md)。
 
 1. 若要選取電子郵件的對象，請按一下「**[!UICONTROL 選取對象]**」按鈕，然後從清單選擇一個現有對象。
 

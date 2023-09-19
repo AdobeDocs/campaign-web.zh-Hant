@@ -4,7 +4,7 @@ title: 傳送測試傳遞
 description: 瞭解如何定義並傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 13%
@@ -86,7 +86,7 @@ ht-degree: 13%
 
 若要在顯示資料時傳送測試電子郵件或簡訊至特定的電子郵件地址或電話號碼，資料來源為 [!DNL Campaign] 資料庫，使用替代設定檔。
 
-1. 在傳送測試之前，請務必定義傳送的目標對象。 [了解更多](../audience/about-audiences.md)
+1. 在傳送測試之前，請務必定義傳送的目標對象。 [了解更多](../audience/about-recipients.md)
 
 1. 瀏覽至電子郵件或簡訊傳送的編輯內容畫面，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
@@ -98,7 +98,7 @@ ht-degree: 13%
 
    >[!CAUTION]
    >
-   >如果您尚未選取 [對象](../audience/about-audiences.md) 對於您的傳遞， **[!UICONTROL 從主要目標替代]** 選項將會呈現灰色，且您將無法選取替代設定檔。
+   >如果您尚未選取 [對象](../audience/about-recipients.md) 對於您的傳遞， **[!UICONTROL 從主要目標替代]** 選項將會呈現灰色，且您將無法選取替代設定檔。
 
 1. 按一下 **[!UICONTROL 新增地址]** 按鈕並指定要接收測試傳送的電子郵件地址或電話號碼。
 

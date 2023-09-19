@@ -4,7 +4,7 @@ title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 84%
@@ -79,7 +79,7 @@ Adobe Campaign v8提供下列傳送頻道：電子郵件、簡訊和行動應用
    * [推播通知管道](../push/gs-push.md)
    * [簡訊管道](../sms/create-sms.md)
 
-1. 定義主要目標和控制組的傳遞對象。若要了解對象的詳細資訊，請參閱[本章節](../audience/about-audiences.md)。
+1. 定義主要目標和控制組的傳遞對象。若要了解對象的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
 1. 定義訊息內容。
 1. （選用）定義傳遞 [排程](#gs-schedule). 如果未定義排程，在按一下「**[!UICONTROL 傳送]**」按鈕後，訊息會立即傳送。
 1. 按一下「**[!UICONTROL 檢閱並傳送]**」按鈕，以檢查您的設定。

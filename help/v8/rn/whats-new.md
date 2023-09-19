@@ -4,7 +4,7 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 61%
@@ -44,7 +44,7 @@ ht-degree: 61%
 
 * 使用電子郵件設計工具設計個人化的電子郵件內容 - [了解更多](../content/edit-content.md)
 * 傳送跨通道行銷活動，包括簡訊和推播通知 —  [瞭解更多](../workflows/activities/channels.md)
-* 使用規則產生器定義目標對象 - [了解更多](../audience/about-audiences.md)
+* 使用規則產生器定義目標對象 - [了解更多](../audience/about-recipients.md)
 * 預覽、測試和傳送您的訊息 —  [瞭解更多](../monitor/prepare-send.md)
 * 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/delivery-reports.md)
 
@@ -124,7 +124,7 @@ ht-degree: 61%
 * 種子地址現在是用作&#x200B;**測試設定檔**：將測試電子郵件傳送到種子地址，這些地址是資料庫中額外的收件者。[了解更多](../preview-test/test-deliveries.md)。
 * 傳遞分析現在是&#x200B;**傳遞準備**。當您需要啟動訊息準備時，請按一下 **準備** 按鈕。 [了解更多](../monitor/prepare-send.md)。
 * 電子郵件預覽現在可透過「**模擬內容**」按鈕取得。[了解更多](../preview-test/preview-test.md)
-* 清單現在是&#x200B;**對象**。[了解更多](../audience/about-audiences.md)。
+* 清單現在是&#x200B;**對象**。[了解更多](../audience/about-recipients.md)。
 
 ## 限制{#limitations-beta}
 

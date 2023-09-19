@@ -3,7 +3,7 @@ audience: end-user
 title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 53%
@@ -52,7 +52,7 @@ ht-degree: 53%
 
 1. 從 **[!UICONTROL 對象]** 功能表，選取您要用於此傳遞的應用程式。
 
-1. 按一下「**[!UICONTROL 選取對象]**」按鈕，以鎖定現有對象或建立您自己的對象。[了解更多](../audience/about-audiences.md)
+1. 按一下「**[!UICONTROL 選取對象]**」按鈕，以鎖定現有對象或建立您自己的對象。[了解更多](../audience/about-recipients.md)
 
    請注意，依預設，您的推播通知將會傳送給應用程式的所有訂閱者。
 

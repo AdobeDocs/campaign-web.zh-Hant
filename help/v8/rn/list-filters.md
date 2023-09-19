@@ -4,7 +4,7 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 98%
@@ -42,7 +42,7 @@ ht-degree: 98%
 
 * 使用電子郵件設計工具設計個人化的電子郵件內容 - [了解更多](../content/edit-content.md)
 * 傳送跨管道的行銷活動，包括簡訊和推播通知。
-* 使用規則產生器定義目標對象 - [了解更多](../audience/about-audiences.md)
+* 使用規則產生器定義目標對象 - [了解更多](../audience/about-recipients.md)
 * 預覽、測試和傳送您的電子郵件訊息 - [了解更多](../monitor/prepare-send.md)
 * 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/delivery-reports.md)
 

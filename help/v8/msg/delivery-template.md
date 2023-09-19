@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 23%
@@ -26,7 +26,7 @@ ht-degree: 23%
 
 * [類型](../advanced-settings/delivery-settings.md#typology),
 * 寄件者地址，
-* 一個 [對象](../audience/about-audiences.md)，包括 [控制組](../audience/control-group.md)，
+* 一個 [對象](../audience/about-recipients.md)，包括 [控制組](../audience/control-group.md)，
 * 自訂 [內容](../content/edit-content.md)，
 * [個人化欄位](../personalization/personalize.md) 和 [條件式內容](../personalization/conditions.md)，
 * 連結至 [映象頁面](../content/mirror-page.md) 和取消訂閱 [連結](../content/message-tracking.md)，
@@ -48,8 +48,8 @@ ht-degree: 23%
 >id="acw_delivery_templates"
 >title="使用傳遞範本"
 >abstract="使用傳遞範本輕鬆建立並儲存現有傳遞以供未來使用。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="複製現有範本"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="將傳遞轉換為範本"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-Hant#copy-an-existing-template" text="複製現有範本"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-Hant#convert-an-existing-delivery" text="將傳遞轉換為範本"
 
 若要存取內容範本清單，請選取 **[!UICONTROL Campaign Management]** > **[!UICONTROL 傳遞]** 從左側功能表，並瀏覽至 **範本** 標籤。
 
