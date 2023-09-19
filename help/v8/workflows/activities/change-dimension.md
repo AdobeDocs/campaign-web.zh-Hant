@@ -3,7 +3,7 @@ audience: end-user
 title: 使用變更維度工作流程活動
 description: 瞭解如何使用變更維度工作流程活動
 badge: label="Beta"
-source-git-commit: 524d690ad5dbaa1d63c53cece05207eb0d745540
+source-git-commit: dbe1bc0653c5c486b6277384a9cb7dddda51ee82
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 1%
@@ -46,4 +46,7 @@ ht-degree: 1%
 
 然後我們使用 **[!UICONTROL 變更維度]** 活動以將工作流程目標維度切換為「收件者」。 這可讓我們鎖定符合查詢的收件者。
 
+<!--
 ![](assets/workflow-change-dimension-example.png)
+-->
+
