@@ -3,10 +3,10 @@ audience: end-user
 title: 使用儲存對象工作流程活動
 description: 了解如何使用「分支」工作流程活動
 badge: label="Beta"
-source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
+source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 10%
+source-wordcount: '385'
+ht-degree: 8%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 10%
 
 此活動主要用於將母體族群轉換為可重複使用的對象，讓母體族群可繼續在相同工作流程中運算。 將其連線到其他目標定位活動，例如 **建立對象** 或 **合併** 活動。
 
-## 設定
+## 設定「儲存對象」活動{#save-audience-configuration}
 
 請依照下列步驟設定 **儲存對象** 活動：
 
-1. 新增 **儲存對象** 活動至您的工作流程。
+![](../assets/workflow-save-audience.png)
 
-   ![](../assets/workflow-save-audience.png)
+1. 新增 **儲存對象** 活動至您的工作流程。
 
 1. 在 **模式** 在下拉式清單中，選取您要執行的動作：
 
@@ -49,6 +49,8 @@ ht-degree: 10%
 之後著，儲存的對象內容便可在對象的詳細資料檢視中使用，您可從以下位置存取： **受眾** 功能表。 此檢視中可用的欄對應於工作流程之入站轉變的欄 **儲存對象** 活動。
 
 
-## 範例
+## 範例{#save-audience-example}
+
+以下範例說明如何從目標定位進行簡單的對象更新。 會新增排程器，以每月執行工作流程一次。 查詢會復原訂閱了不同可用應用程式服務的所有設定檔。 此 **儲存對象** 活動會刪除自上次工作流程執行以來從服務取消訂閱的設定檔，並新增新訂閱的設定檔，以更新對象。
 
 

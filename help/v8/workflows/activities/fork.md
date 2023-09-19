@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「分支」工作流程活動
 description: 了解如何使用「分支」工作流程活動
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 68%
+source-wordcount: '165'
+ht-degree: 66%
 
 ---
 
@@ -26,15 +26,17 @@ ht-degree: 68%
 
 此 **分支** 活動是 **流量控制** 活動。 它可讓您建立出站轉變，以同時啟動多個活動。
 
-## 設定
+## 設定分叉活動{#fork-configuration}
 
 請按照以下步驟設定「**分支**」活動：
+
+![](../assets/workflow-fork.png)
 
 1. 在您的工作流程中新增一個「**分支**」活動。
 1. 若要新增傳出轉變，請按一下「**新增轉變**」。預設情況下，會定義兩種轉變。
 1. 對每種轉變新增標籤。
 
-## 範例
+## 範例{#fork-example}
 
 在下面的範例中，我們會使用兩種&#x200B;**分支**&#x200B;活動：
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 使用重複資料刪除工作流程活動
 description: 瞭解如何使用重複資料刪除工作流程活動
 badge: label="Beta"
-source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 4%
 
 ---
@@ -65,8 +65,8 @@ ht-degree: 4%
 
 1. 檢查 **產生補充** 選項，以利用剩餘母體。 補充包含所有重複專案。 隨後會將其他轉變新增至活動。
 
-## 範例{#example}
+## 範例{#deduplication-example}
 
-在下列範例中，我們使用重複資料刪除活動，在傳送傳遞之前從目標中排除重複專案。 已識別的重複專案會新增到專用的重複專案對象中，以便視需要重複使用。 我們使用 **電子郵件** 用於識別重複專案的欄位。 我們選取保留1個專案，然後選取 **Random** 重複資料刪除方法。
+在下列範例中，我們使用重複資料刪除活動，在傳送傳遞之前從目標中排除重複專案。 識別的重複專案會新增到專用受眾，必要時可重複使用。 我們使用 **電子郵件** 用於識別重複專案的欄位。 我們選取保留1個專案，然後選取 **Random** 重複資料刪除方法。
 
 ![](../assets/workflow-deduplication-example.png)

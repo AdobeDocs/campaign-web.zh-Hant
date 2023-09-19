@@ -3,9 +3,9 @@ audience: end-user
 title: 使用排程器工作流程活動
 description: 瞭解如何使用排程器工作流程活動
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 10%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 10%
 
 此 **排程器** 活動是 **流量控制** 活動。 它可讓您排程工作流程何時開始。 此活動應視為已排程的開始。 它只能用作工作流程的第一個活動。
 
-## 最佳實務
+## 最佳實務{#scheduler-best-practices}
 
 * 請勿將工作流程排程為每15分鐘執行一次，因為這樣可能會阻礙整體系統效能並在資料庫中建立區塊。
 * 如果您想要在工作流程中傳送一次性傳遞，可以新增排程器活動並將其設定為執行 **一次**. 您也可以定義 **排程** 在傳送的設定中。
 * 如果您想要在工作流程中傳送循環傳送，您需要使用 **排程器** 並設定執行頻率。 循環傳遞活動不允許您定義排程。
 
-## 設定
+## 設定{#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
@@ -43,9 +43,9 @@ ht-degree: 10%
 
 請依照下列步驟設定 **排程器** 活動：
 
-1. 新增 **排程器** 活動至您的工作流程。
+![](../assets/workflow-scheduler.png)
 
-   ![](../assets/workflow-scheduler.png)
+1. 新增 **排程器** 活動至您的工作流程。
 
 1. 設定 **執行頻率**：
 
@@ -73,9 +73,7 @@ ht-degree: 10%
 >
 >如果您想要立即開始工作流程，可以按一下 **執行擱置中的工作** 排程器頂端動作列中的。 此按鈕僅在您啟動工作流程時可用。
 
-注意:
-
-## 範例
+## 範例{#scheduler-example}
 
 在下列範例中，活動已設定為工作流程在2023年10月1日至2024年1月1日這週每天早上9點和12點執行數次。
 

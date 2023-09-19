@@ -3,9 +3,9 @@ audience: end-user
 title: 使用分割工作流程活動
 description: 了解如何使用分割工作流程活動
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '652'
 ht-degree: 94%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 **分割**&#x200B;活動是一種&#x200B;**目標定位**&#x200B;活動，可讓您根據不同選擇標準 (例如篩選規則或母體大小) 將傳入母體分割到多個子集。
 
-## 設定 {#general}
+## 設定分割活動 {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
@@ -78,7 +78,7 @@ ht-degree: 94%
 
 該活動現已完成設定。在工作流程執行時，系統會依照子集新增至活動的順序，將母體分割到不同的子集。
 
-## 範例
+## 範例{#split-example}
 
 在以下範例下，我們將利用&#x200B;**[!UICONTROL 分割]**&#x200B;活動根據要使用的通訊管道將對象分割到不同的子集：
 

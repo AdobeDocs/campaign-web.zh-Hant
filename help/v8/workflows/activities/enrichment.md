@@ -3,9 +3,9 @@ audience: end-user
 title: 使用「擴充」工作流程活動
 description: 了解如何使用「擴充」工作流程活動
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 91%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 例如，您可以將與客戶購買行為相關資訊新增到工作流程的工作表中，並使用此資料根據客戶上次購買行為或消費金額量身訂製電子郵件。
 
-## 一般設定 {#general}
+## 設定擴充活動 {#enrichment-configuration}
 
 請按照以下步驟設定&#x200B;**擴充**&#x200B;活動：
 
@@ -76,7 +76,7 @@ ht-degree: 91%
 * 篩選：篩除大於 100 美元的項目
 * 排序：「**訂購日期**」欄位的遞減排序。
 
-### 新增此屬性
+### 新增此屬性 {#add-attribute}
 
 您可以在此處選取用作擴充資料的集合連結。
 
@@ -86,7 +86,7 @@ ht-degree: 91%
 
 ![](../assets/workflow-enrichment3.png)
 
-### 定義集合設定
+### 定義集合設定{#collection-settings}
 
 然後，定義收集資料的方式以及要擷取的記錄數。
 
@@ -99,7 +99,7 @@ ht-degree: 91%
 
 ![](../assets/workflow-enrichment5.png)
 
-### 定義篩選條件
+### 定義篩選條件{#collection-filters}
 
 在這裡，我們可定義擴充屬性的最大值。我們會篩除大於 100 美元的項目。
 
@@ -109,7 +109,7 @@ ht-degree: 91%
 
 ![](../assets/workflow-enrichment6.png)
 
-### 定義排序
+### 定義排序{#collection-sorting}
 
 我們現在需要套用排序，以擷取三筆&#x200B;**最近的**&#x200B;購買。
 
