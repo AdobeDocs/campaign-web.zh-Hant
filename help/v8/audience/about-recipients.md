@@ -2,17 +2,17 @@
 title: 與收件者和受眾合作
 description: 瞭解如何使用收件者Campaign Web
 badge: label="Beta"
-source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
+source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 25%
+source-wordcount: '883'
+ht-degree: 18%
 
 ---
 
 
 # 與收件者和受眾合作 {#about-recipients}
 
-## 收件者 {#recipients}
+## 什麼是收件者？ {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -47,7 +47,7 @@ ht-degree: 25%
 
 此外，您可以管理收件者對電子報等服務的訂閱和取消訂閱。 [瞭解如何使用訂閱服務](create-service.md)
 
-## 對象 {#audiences}
+## 什麼是對象？ {#audiences}
 
 對象是傳遞的主要目標：收到訊息的收件者。對象類型會依據傳遞範本中定義的目標對應而不同。[瞭解什麼是傳遞範本](../msg/delivery-template.md).
 
@@ -64,3 +64,27 @@ ht-degree: 25%
 >[!NOTE]
 >
 >在行銷活動工作流程內容中傳送訊息時，會在特定中定義對象 **建立對象** 工作流程活動。 在此特定情況下，您無法從檔案載入對象以進行電子郵件傳遞，並且該對象的定義僅適用於此專用活動。瞭解如何在行銷活動工作流程中定義傳送的對象 [在本節中](../workflows/activities/build-audience.md)
+
+## 鎖定維度 {#targeting-dimensions}
+
+目標維度是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。
+
+工作流程的目標維度是由第一個維度定義 **[!UICONTROL 建立對象]** 活動，並用於所有後續活動，直到工作流程結束為止。 例如，如果您對資料庫中的收件者執行查詢，出站轉變將包含收件者型別的資料，並將傳輸至下一個活動。
+
+請注意，您可以使用在工作流程中切換目標維度 **[!UICONTROL 變更維度]** 活動。 [了解更多](../workflows/activities/change-dimension.md)
+
+依預設，電子郵件和簡訊傳遞範本的目標為 **[!UICONTROL 收件者]**. 因此，其目標維度會使用 **nms：recipient** 表格。 對於推播通知，預設目標維度為 **訂閱者應用程式nms：appSubscriptionRcp**，此資訊會連結至收件者表格。
+
+您也可以針對下列傳遞使用其他內建的目標對應：
+
+| 名稱 | 使用至 | 結構描述 |
+|---|---|---|
+| 收件者 | 傳遞給收件者（內建收件者表格） | nms：recipient |
+| 訪客 | 傳遞給已透過轉介（病毒式行銷）針對例如收集設定檔的訪客。 | mns：visitor |
+| 訂閱 | 傳遞給已訂閱資訊服務（例如電子報）的收件者 | nms：subscription |
+| 訪客訂閱 | 傳遞給訂閱資訊服務的訪客 | nms：visitorSub |
+| 運算子 | 傳遞給Adobe Campaign操作者 | nms：operator |
+| 外部檔案 | 透過包含傳遞所需所有資訊的檔案傳遞 | 沒有連結的結構描述，沒有輸入目標 |
+| 訂閱者應用程式 | 傳遞給已訂閱應用程式的收件者 | nms：appSubscriptionRcp |
+
+此外，您可以根據需求建立新的目標對應。 這是從使用者端主控台執行。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

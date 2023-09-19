@@ -3,9 +3,9 @@ audience: end-user
 title: 使用變更維度工作流程活動
 description: 瞭解如何使用變更維度工作流程活動
 badge: label="Beta"
-source-git-commit: 9bb80d10f20bb36162b74982d51ed67c1600f831
+source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,7 @@ ht-degree: 1%
 >title="變更維度活動"
 >abstract="此活動可讓您在建立對象時變更目標維度。 它會根據資料範本和輸入維度來移動軸。 例如，您可以從「合約」維度切換至「客戶」維度。"
 
-此 **變更維度** 活動是 **目標定位** 活動。 此活動可讓您在建立工作流程時變更目標維度。
-此活動會根據資料範本和輸入維度移動軸。
+此 **變更維度** 活動是 **目標定位** 活動。 此活動可讓您在建立工作流程時變更目標維度。 它會根據資料範本和輸入維度來移動軸。 [進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)
 
 例如，您可以將工作流程的目標維度從「收件者」切換至「訂閱者應用程式」，以傳送推播通知給目標收件者。
 
@@ -47,4 +46,3 @@ ht-degree: 1%
 然後我們使用 **[!UICONTROL 變更維度]** 活動以將工作流程目標維度切換為「收件者」。 這可讓我們鎖定符合查詢的收件者。
 
 ![](../assets/workflow-change-dimension-example.png)
-
