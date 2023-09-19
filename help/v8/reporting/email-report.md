@@ -3,7 +3,7 @@ audience: end-user
 title: 以電子郵件傳送報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 初始對象]**：目標收件者總數。
 
-   * **[!UICONTROL 要傳遞]**：傳遞分析後要傳遞的訊息總數。
+   * **[!UICONTROL 要傳遞]**：準備傳送後要傳送的訊息總數。
 
    * **[!UICONTROL 排除]**：從傳送的目標排除的訊息總數。
 +++
@@ -35,7 +35,7 @@ ht-degree: 9%
 
   +++進一步瞭解電子郵件促銷活動報告量度。
 
-   * **[!UICONTROL 已傳送訊息]**：傳遞分析後要傳遞的訊息總數。
+   * **[!UICONTROL 已傳送訊息]**：準備傳送後要傳送的訊息總數。
 
    * **[!UICONTROL 成功]**：成功處理的訊息數與要傳送的訊息數相關。
 

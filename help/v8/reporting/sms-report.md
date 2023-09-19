@@ -3,7 +3,7 @@ audience: end-user
 title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 6%
@@ -27,7 +27,7 @@ ht-degree: 6%
 
   +++進一步瞭解SMS傳送報告量度。
 
-   * **[!UICONTROL 已傳送總數]**：傳遞分析期間處理的訊息總數。
+   * **[!UICONTROL 已傳送總數]**：在傳送準備期間處理的訊息總數。
 
    * **[!UICONTROL 成功]**：成功傳送的訊息數，與已傳送訊息總數相關。
 
@@ -42,7 +42,7 @@ ht-degree: 6%
 
   +++進一步瞭解SMS傳送報告量度。
 
-   * **[!UICONTROL 要傳遞]**：傳遞分析期間處理的訊息總數。
+   * **[!UICONTROL 要傳遞]**：在傳送準備期間處理的訊息總數。
 
    * **[!UICONTROL 排除專案]**：已從分析中排除的設定檔數。
 +++
