@@ -4,10 +4,10 @@ title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: e28b39c391259a06002506410d88245195d0ee8e
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 84%
+source-wordcount: '1289'
+ht-degree: 80%
 
 ---
 
@@ -16,8 +16,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="傳遞"
->abstract="傳遞是透過特定頻道傳送給對象的行銷通訊：電子郵件、SMS 或推播通知。在傳遞清單中，您可以編輯現有的傳遞，並檢查其狀態、聯絡和修改日期、KPI。按一下「建立傳遞」按鈕，即可新增傳遞。選取傳遞以檢視其內容、排程、對象和詳細資料。"
-
+>abstract="傳送是指透過特定通道傳送給閱聽眾的通訊：電子郵件、簡訊或推播。 在此畫面中，您可以編輯、複製和刪除現有傳遞。 您也可以檢視已完成傳遞的報告。 按一下 **建立傳遞** 按鈕以新增傳遞。"
 
 透過 Adobe Campaign，您可以傳送跨管道行銷活動，包括電子郵件、簡訊、LINE 訊息、推播通知，並使用各種專屬報告來評估行銷效益。 
 
