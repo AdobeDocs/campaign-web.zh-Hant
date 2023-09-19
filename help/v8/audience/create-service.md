@@ -3,9 +3,9 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何在Adobe Campaign Web中建立和管理服務
 badge: label="Beta"
-source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
+source-git-commit: 7a8057a0d57b28092711ca2d7f47fffefdc06df3
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1099'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 1. 若要編輯現有服務，請按一下其名稱。
 
-1. 您可以使用此服務名稱旁邊的三個點圖示，刪除或複製任何服務。
+1. 您可以使用此服務名稱旁邊的三個點圖示，刪除或複製任何服務。<!--so all subscribers are unsuibscribed - need to mention?-->
 
 ## 建立您的第一個訂閱服務 {#create-service}
 
@@ -68,7 +68,11 @@ ht-degree: 2%
 
    ![](assets/service-create-properties.png)
 
-1. 依預設，訂閱沒有限制。 您可以停用 **[!UICONTROL 有效期無限制]** 定義服務有效持續時間的選項。 在下列範例中，20天後，沒有任何使用者能夠再訂閱此服務。
+1. 依預設，訂閱沒有限制。 您可以停用 **[!UICONTROL 有效期無限制]** 定義服務有效持續時間的選項。
+
+   在以下範例中，20天後：
+   * 再也沒有收件者能夠訂閱此服務。
+   * 此服務的所有訂閱者將在20天後自動取消訂閱。 [了解更多](#automatic-unsubscription)
 
    ![](assets/service-create-validity-period.png)
 
@@ -102,7 +106,7 @@ ht-degree: 2%
 
 1. 重複上述步驟，建立取消訂閱確認的傳遞範本。
 
-您現在可以在以下情況下選取這些訊息： [建立訂閱服務](#create-service). 訂閱或取消訂閱該服務的使用者會收到所選的確認訊息。
+您現在可以在以下情況下選取這些訊息： [建立訂閱服務](#create-service). 訂閱或取消訂閱該服務的使用者將收到所選的確認訊息。
 
 ## 新增訂閱者至您的服務 {#add-subscribers}
 
@@ -118,7 +122,7 @@ ht-degree: 2%
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. 按一下 **[!UICONTROL 傳送]**. 選取的收件者將收到訂閱 [確認訊息](#create-confirmation-message) 您選擇的時機 [建立服務](#create-service).
+1. 按一下 **[!UICONTROL 傳送]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> 選取的收件者將收到訂閱 [確認訊息](#create-confirmation-message) 您選擇的時機 [建立服務](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
@@ -126,7 +130,9 @@ ht-degree: 2%
 
 ## 從您的服務移除訂閱者 {#remove-subscribers}
 
-將訂閱者新增至服務後，您就可以將其移除。 請遵循下列步驟。
+### 手動取消訂閱收件者 {#manual-unsubscription}
+
+將訂閱者新增至服務後，您可以手動取消訂閱每一項服務。 請遵循下列步驟。
 
 1. 從中選擇現有服務 **[!UICONTROL 訂閱服務]** 清單。
 
@@ -134,11 +140,21 @@ ht-degree: 2%
 
    ![](assets/service-subscribers-delete.png)
 
-1. 確認刪除並按一下 **[!UICONTROL 傳送]**. 選取的收件者將會收到取消訂閱 [確認訊息](#create-confirmation-message) 您選擇的時機 [建立服務](#create-service).
+1. 確認刪除並按一下 **[!UICONTROL 傳送]**. 選取的收件者將收到取消訂閱 [確認訊息](#create-confirmation-message) 您選擇的時機 [建立服務](#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 
 收件者會從 **[!UICONTROL 訂閱者]** 清單且不再訂閱您的服務。
+
+### 自動取消訂閱收件者 {#automatic-unsubscription}
+
+訂閱服務的持續時間有限。 當有效期到期時，收件者會自動取消訂閱。
+
+指定此期間的條件為 [建立服務](#create-service). 從 **[!UICONTROL 其他選項]**，停用 **[!UICONTROL 有效期無限制]** 選項並定義服務的有效期。
+
+![](assets/service-create-validity-period.png)
+
+指定的期間過期後，所有訂閱者都會自動取消訂閱該服務。
 
 ## 訂閱服務記錄檔及報告 {#logs-and-reports}
 
@@ -162,7 +178,7 @@ ht-degree: 2%
 
    * 此 **[!UICONTROL 訂閱的整體演化]** 圖表會依期間顯示劃分，包括訂閱、取消訂閱、人數的演化以及忠誠度百分比。<!--what is Registered?-->
 
-   * 使用 **[!UICONTROL 重新載入]** 按鈕以擷取追蹤工作流程執行和排程的最後值。
+1. 使用 **[!UICONTROL 重新載入]** 按鈕以擷取追蹤工作流程執行和排程的最後值。
 
 ## 傳遞給服務的訂閱者
 
