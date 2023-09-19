@@ -2,7 +2,7 @@
 title: Campaign Web UI中的護欄和限制
 description: Campaign Web UI中的護欄和限制
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 4%
@@ -66,13 +66,17 @@ Web UI中尚未支援的工作流程活動為唯讀，且會顯示為不相容�
 
 即使您無法在規則產生器中檢視查詢的圖形表示，也無法編輯篩選器，您仍可以使用它，並檢視 **屬性** 區段。
 
-![](assets/rule-view-results.png){width="70%" align="left"}
+![](assets/rule-edit.png){width="70%" align="left"}
 
 您也可以存取SQL查詢以檢查確切的設定。 若要這麼做，請按一下 **程式碼檢視** 按鈕。
 
 ![](assets/rule-code-view.png){width="70%" align="left"}
 
-按一下 **計算** 按鈕以檢查符合篩選條件的專案數。 使用 **檢視結果** 按鈕以顯示這些專案。
+按一下 **計算** 按鈕以檢查符合篩選條件的專案數。
+
+![](assets/rule-calculate.png){width="70%" align="left"}
+
+使用 **檢視結果** 按鈕以顯示這些專案。
 
 ![](assets/rule-view-results.png){width="70%" align="left"}
 
