@@ -2,16 +2,16 @@
 title: 在Campaign網頁中使用AI支援的知識助理
 description: 在Campaign網頁中使用AI支援的知識助理
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # 使用AI支援的知識助理 {#using-ai}
 
-透過產品內容說明方塊中提供的AI支援知識助理，根據產品檔案和您目前的產品內容，取得由AI產生的快速答案。
+透過產品內容說明方塊中提供的AI支援知識助理，根據產品檔案和您目前的產品內容取得AI產生的快速答案。
 
 >[!AVAILABILITY]
 >
@@ -45,12 +45,12 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 建議  {#recommendations-ai}
 
-在內容說明中提出問題時，會考慮目前產品內容。
+在AI支援的知識助理中提出問題時，會考慮目前的產品內容（即您所在的Campaign畫面）。
 
-為發揮助理的最佳效能，我們建議您：
+若要充分利用AI支援的知識小幫手，我們建議您：
 
 * 儘可能精確和具體，並避免模稜兩可。 答案將更為準確且實用。
-* 為協助知識助理尋找正確的資訊，請儘量新增您想要瞭解的詳細資訊。
+* 為協助AI支援的知識小幫手找到正確的資訊，請儘量新增您想要瞭解的詳細資訊。
 * 重新措辭並調整您的問題以取得更好的答案。 如果答案不準確或不實用，請嘗試不同方法並新增內容，以獲得更好的結果。
 * 使用適當的字詞和措辭，加上中性色調。
 * 請為答案評分，並提供意見回饋，以便我們的工程師能從您的經驗中學習，並改善結果。
