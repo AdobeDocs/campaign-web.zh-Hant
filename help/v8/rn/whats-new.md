@@ -4,10 +4,10 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
+source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 63%
+source-wordcount: '1007'
+ht-degree: 61%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 63%
 
 * 證明現在是&#x200B;**測試電子郵件**：若要傳送證明，請使用電子郵件傳遞 UI 中的「**測試**」按鈕。證明的目標現在稱為&#x200B;**測試設定檔**。[了解更多](../preview-test/test-deliveries.md)。
 * 種子地址現在是用作&#x200B;**測試設定檔**：將測試電子郵件傳送到種子地址，這些地址是資料庫中額外的收件者。[了解更多](../preview-test/test-deliveries.md)。
-* 傳遞分析現在是&#x200B;**傳遞準備**。當您需要啟動分析時，按一下「**準備**」按鈕.[了解更多](../monitor/prepare-send.md)。
+* 傳遞分析現在是&#x200B;**傳遞準備**。當您需要啟動訊息準備時，請按一下 **準備** 按鈕。 [了解更多](../monitor/prepare-send.md)。
 * 電子郵件預覽現在可透過「**模擬內容**」按鈕取得。[了解更多](../preview-test/preview-test.md)
 * 清單現在是&#x200B;**對象**。[了解更多](../audience/about-audiences.md)。
 

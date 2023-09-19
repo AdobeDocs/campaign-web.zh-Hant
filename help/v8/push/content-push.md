@@ -3,7 +3,7 @@ audience: end-user
 title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 37%
@@ -51,7 +51,7 @@ ht-degree: 37%
 
 * 此 **[!UICONTROL 通知訊息]**，會由FCM SDK自動處理。 FCM會自動代表使用者端應用程式在使用者裝置上顯示訊息。 通知訊息包含預先定義的一組引數和選項，但仍可使用自訂應用程式變數進一步個人化。
 
-  若要撰寫訊息，請按一下 **[!UICONTROL 標題]** 和 **[!UICONTROL 內文]** 欄位。 使用運算式編輯器來定義內容、個人化資料及新增動態內容。
+  若要撰寫訊息，請按一下 **[!UICONTROL 標題]** 和 **[!UICONTROL 訊息]** 欄位。 使用運算式編輯器來定義內容、個人化資料及新增動態內容。
 
   若要進一步個人化您的推播通知，您可以選擇要新增至推播通知的影像，通知的圖示會顯示在您的設定檔的裝置上及其顏色。
 
@@ -59,7 +59,7 @@ ht-degree: 37%
 
 >[!TAB iOS]
 
-若要撰寫訊息，請按一下 **[!UICONTROL 標題]** 和 **[!UICONTROL 內文]** 欄位。 使用運算式編輯器來定義內容、個人化資料及新增動態內容。
+若要撰寫訊息，請按一下 **[!UICONTROL 標題]** 和 **[!UICONTROL 訊息]** 欄位。 使用運算式編輯器來定義內容、個人化資料及新增動態內容。
 
 您可以新增 **[!UICONTROL 子標題]**，iOS通知承載之子標題引數的值。 請參閱本區段。
 
