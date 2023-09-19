@@ -3,10 +3,10 @@ audience: end-user
 title: 使用變更維度工作流程活動
 description: 瞭解如何使用變更維度工作流程活動
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 2%
+source-wordcount: '205'
+ht-degree: 1%
 
 ---
 
@@ -23,10 +23,7 @@ ht-degree: 2%
 >title="變更維度活動"
 >abstract="此活動可讓您在建立對象時變更目標維度。 它會根據資料範本和輸入維度來移動軸。 例如，您可以從「合約」維度切換至「客戶」維度。"
 
-
 此 **變更維度** 活動是 **目標定位** 活動。 此活動可讓您在建立對象時變更目標維度。 此活動會根據資料範本和輸入維度移動軸。 例如，您可以從「合約」維度切換至「客戶」維度。
-
-您也可以使用此活動來定義新目標的其他欄，並定義重複資料刪除的條件。
 
 ## 設定
 
@@ -36,6 +33,9 @@ ht-degree: 2%
 
    ![](../assets/workflow-change-dimension.png)
 
-1. 定義 **新增目標維度**.
+1. 定義 **新增目標維度**. 在維度變更期間，會保留所有記錄。 尚未提供其他選項。
 
-在維度變更期間，會保留所有記錄。
+1. 執行工作流程以檢視結果。 比較變更維度活動前後表格中的資料，並比較工作流程表格的結構。
+
+
+
