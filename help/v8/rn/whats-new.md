@@ -4,10 +4,10 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
+source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 64%
+source-wordcount: '1006'
+ht-degree: 63%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 64%
 * 使用電子郵件設計工具設計個人化的電子郵件內容 - [了解更多](../content/edit-content.md)
 * 傳送跨通道行銷活動，包括簡訊和推播通知 —  [瞭解更多](../workflows/activities/channels.md)
 * 使用規則產生器定義目標對象 - [了解更多](../audience/about-audiences.md)
-* 預覽、測試和傳送您的電子郵件訊息 - [了解更多](../monitor/prepare-send.md)
+* 預覽、測試和傳送您的訊息 —  [瞭解更多](../monitor/prepare-send.md)
 * 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/delivery-reports.md)
 
 
@@ -63,9 +63,7 @@ ht-degree: 64%
 
 * **適用於電子郵件內容的Gen AI**
 
-  告別手動內容建立作業，歡迎使用Gen AI的強大功能，進行高效率、資料導向的行銷活動。  我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。 透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。
-
-  在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水平。
+  告別手動內容建立作業，歡迎使用Gen AI的強大功能，進行高效率、資料導向的行銷活動。  我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。 透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水平。此功能將從10月初開始提供。
 
   若要了解詳細資訊，請參閱[本章節](../content/generative-gs.md)。
 
@@ -99,7 +97,7 @@ ht-degree: 64%
 
 * **具有Gen AI的知識助理**
 
-  直接從產品使用者介面提出問題並尋找指引。 全新AI支援的知識助理內嵌於情境式說明彈出視窗，可協助您學習及發展新Campaign功能的專業知識。 它會根據最新的產品檔案，協助您在建立使用案例時尋找說明並立即取得逐步指引。
+  直接從產品使用者介面提出問題並尋找指引。 全新AI支援的知識助理內嵌於情境式說明彈出視窗，可協助您學習及發展新Campaign功能的專業知識。 它會根據最新的產品檔案，協助您在建立使用案例時尋找說明並立即取得逐步指引。 此功能將從10月初開始提供。
 
   若要了解詳細資訊，請參閱[本章節](../get-started/using-ai.md)。
 
