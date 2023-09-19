@@ -4,9 +4,9 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 64%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 64%
 >title="選取傳送的對象"
 >abstract="為您的行銷電子郵件選擇最佳對象。您可以選擇現有對象(已在Campaign v8執行個體中或從Adobe Experience Platform中定義)，使用規則產生器建立新對象，或上傳包含對象的檔案。 未針對以下專案啟用控制組： **從檔案選取** 選項，反之亦然。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="選取主要對象"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="設定控制組"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="設定控制組"
 
 在此使用案例，您傳送電子郵件給現有的對象。
 
