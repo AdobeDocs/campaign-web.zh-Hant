@@ -2,9 +2,9 @@
 title: 在Campaign網頁中使用AI支援的知識助理
 description: 在Campaign網頁中使用AI支援的知識助理
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 建議  {#recommendations-ai}
 
-在AI支援的知識助理中提出問題時，會考慮目前的產品內容（即您所在的Campaign畫面）。
+在AI支援的知識助理中提出問題時，會考慮目前的產品內容（即您目前所在的Campaign畫面以及目前說明方塊的內容）。
 
 若要充分利用AI支援的知識小幫手，我們建議您：
 
