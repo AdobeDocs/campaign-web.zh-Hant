@@ -3,10 +3,10 @@ audience: end-user
 title: 使用分割工作流程活動
 description: 了解如何使用分割工作流程活動
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 94%
    >
    > 在設定子集之前，務必以正確順序新增子集，因為無法更改它們的位置。
 
-1. 新增子集後，活動將顯示與子集一樣多的輸出轉變。我們強烈建議變更每個子集的標籤，以便輕鬆在工作流程畫布中識別各子集。
+1. 新增子集後，活動將顯示與子集一樣多的輸出轉變。我們強烈建議變更每個子集的標籤，以便在工作流程畫布中輕鬆識別它們。
 
 1. 設定每個子集應如何篩選傳入母體。要執行此操作，請依照下列步驟執行：
 
