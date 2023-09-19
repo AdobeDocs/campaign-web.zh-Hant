@@ -2,10 +2,10 @@
 title: 在Campaign網頁中使用AI支援的知識助理
 description: 在Campaign網頁中使用AI支援的知識助理
 badge: label="Beta"
-source-git-commit: 4062288a3e215a9d178cdc20099180ad77374d4f
+source-git-commit: f5132968d041b82b88dbc62a8c8678be2cdd0e0c
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
@@ -19,18 +19,19 @@ ht-degree: 1%
 
 ![](assets/ask-a-question.png)
 
+<!--
+## Consent {#consent-ai}
 
-## 同意 {#consent-ai}
+Campaign knowledge assistant embeeded in the contextual help boxes uses AI. Your use of this capability constitutes consent that the information you provide in your session will be collected, used, disclosed, and retained by Adobe in accordance with the terms of Adobe's Customer Feedback Program. Please do not provide any personal information about yourself or other parties (including your name or contact information) in the knowledge assistant.
 
-內嵌於內容說明方塊中的Campaign知識助理使用AI。 您使用此功能即表示同意，Adobe會根據Adobe客戶回饋計畫的條款，收集、使用、公開及保留您在工作階段中提供的資訊。 請勿在知識助理中提供您或其他各方的任何個人資訊（包括您的姓名或聯絡資訊）。
+## Privacy {#privacy-ai}
 
-## 隱私權 {#privacy-ai}
+Your data is encrypted and private following our standard data protection practices. Learn more about [Adobe Privacy Policies](https://www.adobe.com/privacy/policy.html){target="_blank"}.
 
-您的資料會依照我們的標準資料保護實務進行加密和私密。 進一步瞭解 [Adobe隱私權原則](https://www.adobe.com/tw/privacy/policy.html){target="_blank"}.
+The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or 3rd parties to use your data for training their models or any other purpose.
 
-知識助理人工智慧功能不會使用您的資料來訓練我們的模型。 我們不允許任何合作夥伴或第三方將您的資料用於訓練其模型或任何其他目的。
-
-如需Experience Cloud應用程式和解決方案中AdobeAI政策的特定資訊，請參閱 [此頁面](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+-->
 
 ## 答案 {#answers-ai}
 
