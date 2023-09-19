@@ -4,7 +4,7 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 73%
@@ -80,7 +80,7 @@ ht-degree: 73%
 * **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。進一步瞭解中的對象和清單 [本節](../audience/about-audiences.md).
 * **訂閱** - 瀏覽您的訂閱清單。預設情況下，您可以檢視其類型、模式和標籤。若要了解如何管理訂閱和取消訂閱，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}。
 
-### 決策管理
+### 決策管理 {#decision-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
@@ -94,7 +94,7 @@ ht-degree: 73%
 
 瞭解如何在電子郵件和簡訊中建立和傳送優惠方案 [本節](../content/offers.md).
 
-## 頂端列
+## 頂端列 {#top-bar}
 
 使用介面的頂端列進行以下作業：
 
