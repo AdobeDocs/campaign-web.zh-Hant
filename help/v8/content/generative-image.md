@@ -3,9 +3,9 @@ audience: end-user
 title: 使用內容助理產生影像
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 2%
 # 使用內容助理產生影像 {#generative-image}
 
 完成電子郵件製作和個人化後，您可以使用由創作AI支援的內容助理來增強內容。 此功能可簡化個人化和內容改善的程式。
+
+>[!AVAILABILITY]
+>
+>此功能將於10月初推出。
 
 在下列範例中，瞭解如何運用內容助理來最佳化和改善您的內容，確保更方便使用者的體驗。 請按照以下步驟操作：
 
