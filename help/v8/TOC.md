@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '417'
 ht-degree: 88%
 
 ---
@@ -92,7 +92,9 @@ ht-degree: 88%
       + [從檔案載入電子郵件對象](audience/file-audience.md)
       + [使用 Adobe Experience Platform 對象](audience/aep-audience.md)
       + [設定控制組](audience/control-group.md)
-   + [使用訂閱服務](audience/create-service.md)
+   + 使用訂閱服務 {#work-with-services}
+      + [管理服務](audience/manage-services.md)
+      + [管理訂閱者](audience/manage-subscribers.md)
 + 跨管道行銷活動 {#campaigns}
    + [開始使用行銷活動](campaigns/gs-campaigns.md)
    + [存取和管理行銷活動](campaigns/manage-campaigns.md)
