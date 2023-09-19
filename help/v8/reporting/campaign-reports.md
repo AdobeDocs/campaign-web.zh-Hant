@@ -3,7 +3,7 @@ audience: end-user
 title: 行銷活動報告
 description: 瞭解如何存取及使用行銷活動報告
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="報告追蹤"
->abstract="報表中的「傳送」標籤提供寶貴資料，包括每個連結的收件者行為、開啟和點按的劃分，以及有關傳送期間最常點按URL的詳細資訊。"
+>abstract="報表中的「追蹤」標籤提供重要的資料，包括每個連結的收件者行為、開啟和點按的劃分，以及有關傳送期間最常點按URL的詳細資訊。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"

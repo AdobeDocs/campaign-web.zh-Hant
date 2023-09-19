@@ -3,9 +3,9 @@ audience: end-user
 title: 使用重複資料刪除工作流程活動
 description: 瞭解如何使用重複資料刪除工作流程活動
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '430'
 ht-degree: 5%
 
 ---
@@ -36,13 +36,13 @@ ht-degree: 5%
 
 此 **重複資料刪除** 活動是 **目標定位** 活動。 此活動可讓您刪除入站活動結果中的重複專案。 此 **重複資料刪除** 活動通常用於目標定位活動之後，以及允許使用目標定位資料之活動之前。
 
-## 設定
+## 設定重複資料刪除活動{#deduplication-configuration}
 
 請依照下列步驟設定 **重複資料刪除** 活動：
 
-1. 新增 **重複資料刪除** 活動至您的工作流程。
+![](../assets/workflow-deduplication.png)
 
-   ![](../assets/workflow-deduplication.png)
+1. 新增 **重複資料刪除** 活動至您的工作流程。
 
 1. 在 **識別重複專案的欄位** 區段，按一下 **新增屬性** 按鈕來指定相同值可識別重複專案的欄位：電子郵件地址、名字、姓氏等。 欄位順序可讓您指定要先處理的欄位。
 
@@ -65,5 +65,5 @@ ht-degree: 5%
 
 1. 檢查 **產生補充** 選項，以利用剩餘母體。 補充包含所有重複專案。 隨後會將其他轉變新增至活動。
 
-## 範例
+## 範例{#example}
 

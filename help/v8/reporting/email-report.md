@@ -3,10 +3,10 @@ audience: end-user
 title: 以電子郵件傳送報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 9%
+source-wordcount: '1787'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,27 @@ ht-degree: 9%
 
 ## 傳遞摘要 {#delivery-summary-email}
 
-* **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料：
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_email"
+>title="報告傳送"
+>abstract="報表中的「傳送」功能表可讓您深入分析訪客與您傳送內容的互動，以及他們可能遇到的任何潛在錯誤。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_initial_target"
+>title="初始目標母體Widget"
+>abstract="初始目標對象人口圖表顯示與收件者相關的資料以及您的傳送成功。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_summary"
+>title="傳遞統計資料Widget"
+>abstract="傳遞統計資料圖表會詳細說明您的傳遞成功與發生的錯誤。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_exclusion"
+>title="傳遞統計資料Widget"
+>abstract="排除原因圖表和表格會依準備期間拒絕的訊息規則顯示劃分。"
+
+* **[!UICONTROL 初始目標對象母體]** 圖表顯示與收件者相關的資料：
 
   ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
@@ -29,7 +49,7 @@ ht-degree: 9%
    * **[!UICONTROL 排除]**：從傳送的目標排除的訊息總數。
 +++
 
-* **[!UICONTROL 傳遞統計資料]** 表格詳細說明您的傳送是否成功。
+* **[!UICONTROL 傳遞統計資料]** 圖表會詳細說明您的傳送是否成功。
 
   ![](assets/reporting_email_2.png){align="left"}
 
@@ -69,9 +89,19 @@ ht-degree: 9%
 
 ## 傳遞總處理能力 {#delivery-throughtput}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_email"
+>title="傳遞輸送量Widget"
+>abstract="「傳遞輸送量」報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。"
+
 此報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。
 
 ## 廣播統計資料 {#broadcast-statistics}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_broadcast_statistics"
+>title="廣播統計資料Widget"
+>abstract="廣播統計資料表包含每個網域可能遇到的錯誤的可用資料。"
 
 * **[!UICONTROL 廣播統計資料]** 表格包含每個網域可能發生的錯誤的可用資料。
 
@@ -95,6 +125,16 @@ ht-degree: 9%
 +++
 
 ## 傳遞失敗和退回次數 {#non-deliverables-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type"
+>title="每種型別Widget的錯誤劃分"
+>abstract="「每種型別的錯誤劃分」表格和圖表包含每個遇到的錯誤型別的可用資料。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain"
+>title="每個網域Widget的錯誤劃分"
+>abstract="「每種型別的錯誤劃分」表格和圖表包含根據每個網域遇到的每種錯誤型別的可用資料。"
 
 * **[!UICONTROL 每種型別的錯誤劃分]** 和 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖形包含可用於每個領域可能發生的錯誤的資料。
 
@@ -122,7 +162,20 @@ ht-degree: 9%
 
 ## 追蹤指標 {#tracking-indicators-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_tracking_email"
+>title="報告追蹤"
+>abstract="報表中的「追蹤」標籤提供重要的資料，包括每個連結的收件者行為、開啟和點按的劃分，以及有關傳送期間最常點按URL的詳細資訊。"
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_indicators"
+>title=" 傳遞統計資料Widget"
+>abstract="傳遞統計資料Widget提供關鍵績效指標(KPI)，用於提供關於已傳送電子郵件可用資料的詳細資訊。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="開啟和點進率Widget"
+>abstract="「開啟與點進」比率表格會顯示與收件者參與傳送的相關資料。"
 
 * **[!UICONTROL 傳遞統計資料]** 提供關鍵績效指標(KPI)，用於提供關於已傳送電子郵件可用資料的詳細資訊。
 
@@ -162,6 +215,11 @@ ht-degree: 9%
 
 ## URL 和點擊流量 {#url-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams"
+>title="URL和點按流Widget"
+>abstract="URL和點按資料流提供關鍵績效指標(KPI)，可提供傳遞期間最多點按URL的詳細資訊。"
+
 * **[!UICONTROL URL和點按流量]** 提供關鍵績效指標(KPI)，用於提供傳遞期間點選次數最多的URL的詳細資訊。
 
   ![](assets/reporting_email_7.png){align="center"}
@@ -196,6 +254,11 @@ ht-degree: 9%
 
 ## 使用者活動 {#user-activities-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_user_activities"
+>title="使用者活動Widget"
+>abstract="使用者活動圖表以圖表的形式顯示開啟和點按的劃分。 您可以選取要鎖定資料的時段：前一天或一小時或30分鐘。"
+
 * **[!UICONTROL 使用者活動]** 以圖表的形式顯示開啟和點按的劃分。 您可以選取要鎖定資料的時段：前一天或一小時或30分鐘。
 
   ![](assets/reporting_email_10.png){align="center"}
@@ -210,6 +273,10 @@ ht-degree: 9%
 
 ## 追蹤統計資料 {#tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_statistics"
+>title="追蹤統計資料Widget"
+>abstract="追蹤統計資料圖形提供開啟和點按的統計資料。 您可以選擇選取目標資料的特定時間範圍。"
 
 * **[!UICONTROL 追蹤統計資料]** 圖表提供開啟和點按的統計資料。 您可以選擇選取目標資料的特定時間範圍。
 
@@ -225,11 +292,26 @@ ht-degree: 9%
 
 ## 開啟次數的劃分 {#breakdown-opens}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_device"
+>title="依裝置Widget劃分"
+>abstract="依裝置劃分"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_os"
+>title="依作業系統Widget劃分"
+>abstract="依作業系統的劃分"
+
 此報表顯示相關期間內依作業系統、裝置和瀏覽器劃分的開啟專案。 每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表僅顯示在行動裝置上的開啟數統計資料。您可以靈活地切換 **[!UICONTROL 修正和行動]** 至專屬目標 **[!UICONTROL 僅限行動裝置]** 以取得更精確的目標定位。
 
 ![](assets/reporting_email_13.png){align="center"}
 
 ## 熱門點按 {#hotclicks}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_hotclicks"
+>title="熱點點按報告"
+>abstract="「快速點按」報表會顯示訊息內容，以及每個連結的點按百分比。"
 
 此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。個人化區塊取消訂閱連結、鏡像頁面連結和優惠連結有計入總累計點按數，但不顯示在報告中。
 

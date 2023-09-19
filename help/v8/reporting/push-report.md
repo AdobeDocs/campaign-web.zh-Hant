@@ -3,10 +3,10 @@ audience: end-user
 title: 推播傳遞報告
 description: 瞭解如何存取及使用推播傳遞報告
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 6%
+source-wordcount: '345'
+ht-degree: 5%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 6%
 >id="acw_push_report_overview"
 >title="推播報告摘要"
 >abstract="探索推播傳遞的報告量度。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_push"
+>title="報告傳送"
+>abstract="報表中的「傳送」索引標籤可讓您深入分析訪客與您傳送的互動，以及他們可能遇到的任何潛在錯誤。"
 
 此 **推播傳遞報告** 提供推送管道的完整概觀，提供廣泛的深入分析和特定資料。 它提供關於每個傳送的效能、有效性和結果的全面資訊。
 
@@ -68,6 +73,11 @@ ht-degree: 6%
   ![](assets/reporting_push_6.png)
 
 ## 傳遞總處理能力 {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_push"
+>title="傳遞輸送量報告"
+>abstract="「傳遞輸送量」報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。"
 
 此報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。
 
