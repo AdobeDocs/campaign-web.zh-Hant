@@ -3,9 +3,9 @@ audience: end-user
 title: 使用傳遞工作流程活動
 description: 了解如何新增傳遞工作流程活動 (電子郵件、推播、簡訊)
 badge: label="Beta"
-source-git-commit: 58abba55328480cd6cd47c8666146acdf637204e
+source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '781'
 ht-degree: 59%
 
 ---
@@ -36,7 +36,7 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-## 設定傳遞 {#create-a-delivery-in-a-workflow}
+## 設定頻道活動 {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
@@ -75,7 +75,6 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 
    ![](../assets/delivery-activity-in-wf.png)
 
-
    您可以從管道活動設定左側窗格中選取另一個範本。如果之前選取的對象和管道不相容，則無法選取範本。若要解決此問題，請更新「**建置對象**」活動，以選取具有正確目標對應的對象。進一步瞭解中的目標對應 [Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 1. 按一下「**建立傳遞**」。以建立獨立傳遞相同的方式定義訊息設定和內容。您還可以排程和模擬內容。[了解更多](../../msg/gs-messages.md)。
@@ -95,6 +94,7 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 以下是一個具有分段和兩個傳遞的跨管道工作流程範例。此工作流程會以所有居住在巴黎且對咖啡機感興趣的客戶為目標。針對此母體，會傳送電子郵件給普通客戶，並傳送簡訊給 VIP 用戶端。
 
 ![](../assets/workflow-channel-example.png)
+
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
@@ -105,7 +105,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-您也可以建立循環工作流程，以根據訂閱者的時區，在每月第一天晚上8點將個人化推播通知傳送至行動應用程式。
+您也可以建立循環工作流程，在下午8點將個人化SMS傳送給住在巴黎的所有客戶。
+
+![](../assets/workflow-channel-example2.png)
 
 <!-- Scheduled emails available?
 

@@ -4,7 +4,7 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 73%
@@ -51,7 +51,7 @@ ht-degree: 73%
 
 **探索工具**&#x200B;選單會顯示所有 Campaign 資源以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。
 
-顯示在中的專案 **瀏覽器** 視您的使用者許可權而定。  如果您有適當的許可權，也可以新增檔案夾和子檔案夾。 進一步瞭解中的許可權 [本節](permissions.md).
+顯示在中的專案 **瀏覽器** 視您的使用者許可權而定。 如果您有適當的許可權，也可以新增資料夾和子資料夾。 進一步瞭解中的許可權 [本節](permissions.md).
 
 如同任何清單畫面，您可以設定欄來個人化顯示以檢視所有您需要的資訊。請參閱本[章節](#list-screens)。
 
@@ -88,7 +88,7 @@ ht-degree: 73%
 >abstract="瀏覽已在主控台中使用「 」建立的選件和選件範本清單。 **互動** 模組。 這些是唯讀清單。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="將優惠新增至傳遞"
 
-在客戶管理區段中，您可以檢視優惠方案和優惠方案範本。 這些是唯讀清單。
+在決定管理區段中，您可以檢視優惠方案和優惠方案範本。 這些是唯讀清單。
 
 * **選件**  — 瀏覽已在主控台中使用「 」建立的優惠方案和優惠方案範本清單。 **互動** 模組。 依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。
 

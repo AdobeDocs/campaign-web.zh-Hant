@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign網站中的許可權管理
 description: 進一步瞭解Campaign網頁v8中的許可權
 badge: label="Beta"
-source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
+source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '605'
 ht-degree: 24%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
 >title="需要權限"
->abstract="您的管理員必須先授予您權限，然後您才能建立此物件。"
+>abstract="您的管理員必須先授予您權限，您才能建立此物件。"
 
 
 >[!CONTEXTUALHELP]
@@ -52,9 +52,9 @@ ht-degree: 24%
 >title="此工作流程為唯讀資料"
 >abstract="由於畫布不受支援或不相容，您無法編輯此工作流程。"
 
-存取控制可限制存取主要清單中的物件和資料，例如傳遞、收件者或工作流程。 這些限制也會套用在Explorer導覽樹狀結構中。 此外，您需要許可權才能從使用者介面建立、刪除、複製及編輯物件。
+存取控制可限制存取主要清單中的物件和資料，例如傳遞、收件者或工作流程。 這些限制也適用於 **瀏覽器** 導覽樹狀結構。 此外，您需要許可權才能從使用者介面建立、刪除、複製及編輯物件。
 
-存取控制是在使用者端主控台中進行管理。 Campaign Web中的所有許可權都會與Campaign使用者端主控台許可權同步。 只有Campaign管理員可以定義及修改使用者許可權。 進一步瞭解中的使用者許可權 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}.
+存取控制是在Campaign使用者端主控台中進行管理。 Campaign Web中的所有許可權都會與Campaign使用者端主控台許可權同步。 只有Campaign管理員可以定義及修改使用者許可權。 進一步瞭解中的使用者許可權 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}.
 
 瀏覽Campaign Web使用者介面時，您可以存取資料、物件和功能，具體取決於您的許可權。 例如，如果您沒有資料夾的存取許可權，您將無法看到它。 您的許可權也會影響物件和資料管理。 沒有特定資料夾的寫入許可權，您無法在該資料夾中建立傳送，即使您可以在使用者介面中看到該傳送。
 

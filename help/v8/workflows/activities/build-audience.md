@@ -3,7 +3,7 @@ audience: end-user
 title: 使用「建置對象」工作流程活動
 description: 了解如何使用「建置對象」工作流程活動
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -35,7 +35,7 @@ ht-degree: 62%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 設定建置對象活動
+## 設定建置對象活動{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -44,6 +44,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 
 請按照以下步驟設定「**建置對象**」活動：
+
+![](../assets/workflow-audience.png)
 
 1. 新增「**建置對象**」活動。
 1. 定義標籤。
@@ -66,7 +68,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >
 >如果您想使用 **[!UICONTROL 建立對象]** 以Experience Platform對象為目標的活動，您需要新增 **[!UICONTROL 變更維度]** 活動後，確保受眾的目標維度設為「收件者」。 此頁面底部提供工作流程範例。
 
-## 範例
+## 範例{#build-audience-examples}
 
 以下範例是一個包含兩個「**建置對象**」活動的工作流程。第一個目標是撲克牌遊戲玩家對象，然後是電子郵件傳遞。第二個目標是 VIP 用戶端對象，然後是簡訊傳遞。
 
