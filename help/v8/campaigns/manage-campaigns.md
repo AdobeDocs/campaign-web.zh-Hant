@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Beta"
-source-git-commit: a7a7a345e7e01f30516d2925afc46cfe32738aa4
+source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 70%
@@ -26,7 +26,7 @@ ht-degree: 70%
 
 * 「**瀏覽**」標籤會列出所有現有的行銷活動。按一下任一行銷活動，即可開啟其儀表板，按一下「**建立行銷活動**」按鈕，即可建立新的行銷活動。請參閱本[章節](create-campaigns.md#create-campaigns)。
 
-* 「**範本**」標籤會列出所有可用的行銷活動範本。您可以檢視現有範本或建立新範本。 [顯示全文](manage-campaign-templates.md)。
+* 「**範本**」標籤會列出所有可用的行銷活動範本。您可以檢視現有範本或建立新範本。 [顯示全文](#manage-campaign-templates)。
 
 ![行銷活動清單](assets/campaign-list.png)
 
