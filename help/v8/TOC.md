@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 2cd42206ffd0ef758cc39db4e79a34f10e03588a
+source-git-commit: 5ea7ee7cc9046c80d28ea413cd11641e0b213ccf
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 88%
+source-wordcount: '418'
+ht-degree: 89%
 
 ---
 
@@ -98,7 +98,6 @@ ht-degree: 88%
    + [開始使用行銷活動](campaigns/gs-campaigns.md)
    + [存取和管理行銷活動](campaigns/manage-campaigns.md)
    + [建立您的第一個行銷活動](campaigns/create-campaigns.md)
-   + [使用行銷活動範本](campaigns/manage-campaign-templates.md)
 + 工作流程 {#wf}
    + [開始使用工作流程](workflows/gs-workflows.md)
    + [存取和管理工作流程](workflows/access-monitor.md)
