@@ -3,10 +3,10 @@ audience: end-user
 title: 使用重複資料刪除工作流程活動
 description: 瞭解如何使用重複資料刪除工作流程活動
 badge: label="Beta"
-source-git-commit: d79828c19803b21e8414b8251388f694c465fd80
+source-git-commit: 690e2a2d17f8201c8dbb070ba936c3db513b8329
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 5%
+source-wordcount: '585'
+ht-degree: 18%
 
 ---
 
@@ -48,14 +48,11 @@ ht-degree: 5%
 
 1. 選取唯一數量 **要保留的重複專案**. 此欄位的預設值為 1。如果值為 0 則可讓您保留所有重複項目。
 
-<!--
-    For example, if records A and B are considered duplicates of record Y, and a record C is considered as a duplicate of record Z:
+   例如，如果記錄 A 和 B 被視為記錄 Y 的重複項目，而記錄 C 被視為記錄 Z 的重複項目：
 
-    * If the value of the field is 1: only the Y and Z records are kept.
-    * If the value of the field is 0: all the records are kept.
-    * If the value of the field is 2: records C and Z are kept and two records from A, B, and Y are kept, by chance or depending on the deduplication method selected thereafter.
-
--->
+   * 如果該欄位的值為 1：僅保留 Y 和 Z 記錄。
+   * 如果該欄位的值為 0：會保留所有記錄。
+   * 如果該欄位的值為 2：會保留記錄 C 和 Z，並且將保留 A、B 和 Y 中的兩條記錄，這是偶然的或取決於之後所選取的重複資料刪除方法。
 
 1. 選取 **重複資料刪除方法** 若要使用：
 

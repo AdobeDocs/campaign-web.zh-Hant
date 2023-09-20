@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「組合」工作流程活動
 description: 了解如何使用「組合」工作流程活動
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 81%
+source-wordcount: '886'
+ht-degree: 78%
 
 ---
 
@@ -71,7 +71,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 在 **合併** 活動，您可以設定 **聯集**. 為此，您需要選取 **調解型別** 若要定義重複專案的處理方式，請執行下列步驟：
 
 * **僅限索引鍵**：這是預設模式。當來自不同入站轉變的元素具有相同索引鍵時，活動只會保留一個元素。如果入站母體是同質的，則只能使用此選項。
-* **欄的選取範圍**：選取此選項可定義將套用資料協調的欄清單。首先，必須選取主要集合 (其中包含來源資料)，然後指定用於加入的欄。
+* **選取的欄**：選取此選項可定義套用資料協調的欄清單。 首先，必須選取主要集合 (其中包含來源資料)，然後指定用於加入的欄。
 
 ## 交集 {#combine-intersection}
 
