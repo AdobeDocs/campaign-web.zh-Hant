@@ -2,9 +2,9 @@
 title: 與收件者和受眾合作
 description: 瞭解如何使用收件者Campaign Web
 badge: label="Beta"
-source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
+source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '946'
 ht-degree: 17%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 17%
 
 收件者是一個設定檔，旨在接收 Adobe Campaign 傳送的訊息。 在 Adobe　Campaign 中，收件者是用於傳送內容 (電子郵件、SMS 等) 的預設用戶檔案。儲存在資料庫中的收件者資料可讓您建立將接收任何指定傳遞的對象，並在傳遞內容中新增個人化資料。 其他型別的設定檔儲存在資料庫中。 這些設定檔是針對不同用途而設計：例如，種子設定檔是用來在傳送給最終對象之前測試您的傳送。
 
-只能從Campaign使用者端主控台新增收件者。 不過，您可以在Campaign網頁的 **收件者** 左側導覽邊欄的專案。
+只能從Campaign使用者端主控台新增收件者。 不過，您可以在Campaign網頁的 **收件者** 左側導覽邊欄的專案。 您也可以從該畫面編輯收件者的屬性。
 
 若要編輯收件者的資料，請按一下其名稱旁邊的三個點，然後選擇 **編輯……**.
 
@@ -46,6 +46,8 @@ ht-degree: 17%
 >根據您的許可權，您可能無法存取資料庫中儲存的完整收件者清單。 進一步瞭解中的許可權 [本節](../get-started/permissions.md).
 
 此外，您可以管理收件者對電子報等服務的訂閱和取消訂閱。 [瞭解如何使用訂閱服務](manage-services.md)
+
+您可以建立工作流程，以刪除重複、擴充、合併設定檔，以及建立對象。 若要了解詳細資訊，請參閱[本章節](../workflows/gs-workflows.md)。
 
 ## 什麼是對象？ {#audiences}
 
