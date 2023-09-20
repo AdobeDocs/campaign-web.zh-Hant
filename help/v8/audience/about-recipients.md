@@ -2,10 +2,10 @@
 title: 與收件者和受眾合作
 description: 瞭解如何使用收件者Campaign Web
 badge: label="Beta"
-source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
+source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 18%
+source-wordcount: '919'
+ht-degree: 17%
 
 ---
 
@@ -71,11 +71,11 @@ ht-degree: 18%
 
 工作流程的目標維度是由第一個維度定義 **[!UICONTROL 建立對象]** 活動，並用於所有後續活動，直到工作流程結束為止。 例如，如果您對資料庫中的收件者執行查詢，出站轉變將包含收件者型別的資料，並將傳輸至下一個活動。
 
-請注意，您可以使用在工作流程中切換目標維度 **[!UICONTROL 變更維度]** 活動。 [了解更多](../workflows/activities/change-dimension.md)
+請注意，您可以使用在工作流程中切換目標維度 **[!UICONTROL 變更維度]** 活動。 [進一步瞭解](../workflows/activities/change-dimension.md)。舉例來說，這可讓您查詢特定表格（例如購買或訂閱）上的資料庫，然後將目標維度變更為收件者，以便將傳遞內容傳送給相對應的收件者。
 
 依預設，電子郵件和簡訊傳遞範本的目標為 **[!UICONTROL 收件者]**. 因此，其目標維度會使用 **nms：recipient** 表格。 對於推播通知，預設目標維度為 **訂閱者應用程式nms：appSubscriptionRcp**，此資訊會連結至收件者表格。
 
-您也可以針對下列傳遞使用其他內建的目標對應：
+您也可以在工作流程及下列傳遞中使用其他內建目標對應：
 
 | 名稱 | 使用至 | 結構描述 |
 |---|---|---|
