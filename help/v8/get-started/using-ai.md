@@ -2,7 +2,7 @@
 title: 在Campaign網頁中使用AI支援的知識助理
 description: 在Campaign網頁中使用AI支援的知識助理
 badge: label="Beta"
-source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
+source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -55,3 +55,4 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 * 使用適當的字詞和措辭，加上中性色調。
 * 請為答案評分，並提供意見回饋，以便我們的工程師能從您的經驗中學習，並改善結果。
 
+<img src="assets/AI_CH.gif"/>
