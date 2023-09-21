@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送訊息給服務的訂閱者
 description: 瞭解如何傳送訊息給服務的訂閱者
 badge: label="Beta"
-source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
+source-git-commit: e5ef71de970468fce418cc06cb9d2c25c0c40306
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 4%
+source-wordcount: '185'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,11 @@ ht-degree: 4%
 
 1. 儲存對象。
 1. 建立傳遞. 建立傳送的詳細步驟請參閱 [此頁面](../msg/gs-messages.md#create-delivery).
-1. 選取您在上方建立的對象。
+1. 瀏覽至您的傳送設定，將預設目標對應變更為 **訂閱(nms：subscriptions)**.
+
+   ![](assets/service-delivery-change-mapping.png)
+
+1. 在傳送的主要目標區段中，選取您在上方建立的對象。
 
    ![](assets/service-delivery-targeting-subscribers.png)
 
