@@ -3,9 +3,9 @@ audience: end-user
 title: 管理服務的訂閱者
 description: 瞭解如何在Adobe Campaign Web中管理服務並交付給訂閱者
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 # 管理服務的訂閱者 {#manage-subscribers}
 
-一旦您 [已建立服務](manage-services.md#create-service)，您可以新增訂閱者、取消訂閱收件者，並傳遞該服務的訂閱者。
+一旦您 [已建立服務](manage-services.md#create-service)，您可以新增訂閱者、取消訂閱收件者，以及傳送訊息給該服務的訂閱者。
+
+此頁面詳細說明了訂閱者管理。 若要瞭解如何傳送訊息給訂閱者，請參閱 [本節](../content/send-to-subscribers.md).
 
 ## 新增訂閱者至您的服務 {#add-subscribers}
 
@@ -62,25 +64,3 @@ ht-degree: 0%
 ![](assets/service-create-validity-period.png)
 
 指定的期間過期後，所有訂閱者都會自動取消訂閱該服務。
-
-## 傳遞給服務的訂閱者
-
-一旦您 [已建立訂閱服務](manage-services.md#create-service)，您可以在傳送中鎖定其訂閱者。 請遵循下列步驟。
-
-1. [建立對象](../audience/create-audience.md) 包括您建立之服務的訂閱者：
-
-   * 在 **[!UICONTROL 建立對象]** 活動，顯示進階屬性並選取 **[!UICONTROL 收件者]** > **[!UICONTROL 訂閱]** > **[!UICONTROL 服務]**.
-
-   * 在此範例中，選取訂閱服務的使用者，該服務具有 **Luma電子報** 標籤。
-
-   ![](assets/service-audience-subscribers.png)
-
-1. [建立傳遞](../msg/gs-messages.md#create-delivery) 並選取您在上方建立的對象。
-
-   ![](assets/service-delivery-targeting-subscribers.png)
-
-1. 依需要編輯您的訊息內容並傳送傳遞。
-
-   ![](assets/service-delivery-ready.png)
-
-您的傳遞只會傳送給該服務的訂閱者。

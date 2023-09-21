@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: 傳送優惠
-description: 傳送優惠
+title: 在您的訊息中新增優惠方案
+description: 瞭解如何新增及傳送優惠方案
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 34%
+source-wordcount: '782'
+ht-degree: 33%
 
 ---
 
 
-# 傳送優惠 {#offers-content}
+# 在您的訊息中新增優惠方案 {#offers-content}
 
 Adobe Campaign v8網頁版可讓您使用在主控台中建立的傳送選件，連同傳送給使用者。 **[!UICONTROL 互動]** 模組。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 

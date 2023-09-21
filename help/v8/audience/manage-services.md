@@ -3,9 +3,9 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何存取、建立和管理Adobe Campaign網站上的訂閱服務
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '771'
 ht-degree: 3%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 3%
 
 您現在可以在以下情況下選取這些訊息： [建立訂閱服務](#create-service). 訂閱或取消訂閱該服務的使用者將收到所選的確認訊息。
 
-## 訂閱服務記錄檔及報告 {#logs-and-reports}
+## 監視您的訂閱服務 {#logs-and-reports}
 
 若要衡量簡訊和電子郵件通道訂閱服務的成效，您可以存取特定服務的記錄檔和報告。
 
