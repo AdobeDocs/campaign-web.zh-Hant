@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送訊息給服務的訂閱者
 description: 瞭解如何傳送訊息給服務的訂閱者
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '163'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 您可以在Adobe Campaign中建立訂閱服務，並傳送訊息給訂閱者。 瞭解如何在中建立訂閱服務 [此頁面](../audience//manage-services.md#create-service).
 
-若要傳送訊息給訂閱者，請建立特定對象來識別訂閱者，然後建立傳送，如下所述。 若要執行此動作，請依照下列步驟執行：
+若要傳送訊息給訂閱者，請建立特定對象來識別訂閱者，然後建立傳送，如下所述。
 
 1. 建立對象. 進一步瞭解中的對象 [此頁面](../audience/create-audience.md).
 
