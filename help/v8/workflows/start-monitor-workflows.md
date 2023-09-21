@@ -4,9 +4,9 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '569'
 ht-degree: 6%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 6%
 您可以使用視覺流量即時追蹤目標設定檔的進度。 這可讓您快速識別每個活動的狀態，以及活動中轉換的個人檔案數。
 
 ![](assets/workflow-execution.png)
-
->[!NOTE]
->
->您可以使用以下專案停用視覺流程： **[!UICONTROL 隱藏進度]** 畫布頂端動作列中的按鈕。
 
 ## 工作流程轉換 {#transitions}
 

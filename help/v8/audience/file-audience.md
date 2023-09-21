@@ -4,10 +4,10 @@ title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
+source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 40%
+source-wordcount: '580'
+ht-degree: 39%
 
 ---
 
@@ -28,15 +28,17 @@ ht-degree: 40%
 >title="格式化參數"
 >abstract="檢查檔案的格式化參數。"
 
-您可以從外部檔案上傳聯絡人。設定檔不會新增至資料庫，但輸入檔案中的所有欄位都可用於 [個人化](../personalization/gs-personalization.md). 支援的檔案格式包括：文字 (TXT) 和逗號分隔值 (CSV)。
+您無法從介面直接將設定檔上傳至Campaign，但您可以鎖定儲存在外部檔案中的設定檔。 設定檔不會新增至資料庫，但輸入檔案中的所有欄位都可用於 [個人化](../personalization/gs-personalization.md). 支援的檔案格式包括：文字 (TXT) 和逗號分隔值 (CSV)。
 
 >[!CAUTION]
 >
 >* 此功能僅適用於 **獨立電子郵件傳遞**. 它不能用於工作流程，也不能用於SMS或推播傳遞。
 >
 >* 從外部檔案載入目標母體時，您不能使用[控制組](control-group.md)。
+>
+>* 設定檔不會新增至資料庫，僅會載入並可用於此特定的獨立電子郵件傳送。
 
-## 上傳檔案 {#upload}
+## 選取並設定您的檔案 {#upload}
 
 若要直接從電子郵件介面從本機檔案定位設定檔，請遵循下列步驟：
 
@@ -45,7 +47,7 @@ ht-degree: 40%
 
    ![](assets/select-from-file.png)
 
-1. 選取要上傳的本機檔案。格式必須與 [範例檔案](#sample-file).
+1. 選取要使用的本機檔案。 格式必須與 [範例檔案](#sample-file).
 1. 在畫面中央區段預覽並檢查資料的對應方式。
 1. 從「**地址欄位**」下拉式清單中選擇包含電子郵件地址的欄。如果輸入檔案中有這類資訊，您也可以選取「封鎖清單」欄。
 1. 調整欄設定以及從可用選項中格式化資料的方式。
@@ -60,7 +62,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="從檔案載入對象"
->abstract="支援的檔案格式為TXT和CSV。 使用第一行作為欄標題。將您的檔案格式與下列連結中提供的範例檔案對齊。"
+>abstract="支援的檔案格式為 TXT 和 CSV。 使用第一行作為欄標題。讓您的檔案格式符合以下連結所提供的檔案範例。"
 
 支援的格式為 TXT 和 CSV。第一行是欄標題。
 

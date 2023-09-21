@@ -4,10 +4,10 @@ title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: 74f333a74eab3fbb7dce1f184270ed36284b959b
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 78%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="行銷活動"
->abstract="這是您的行銷活動清單。您可以檢視有用的資訊，例如其開始/結束/最後修改日期，以及其狀態。您可以依狀態或開始/結束日期篩選清單。按一下「建立行銷活動」按鈕，即可新增行銷活動。選取行銷活動，檢視其內容、傳遞和詳細資料。瀏覽到「範本」標籤，檢視和建立範本。"
+>abstract="瀏覽行銷活動清單。 選取行銷活動，檢視其內容、傳遞和詳細資料。您可以依狀態、開始/結束日期或自訂規則來篩選。 您也可以檢視已完成行銷活動的報表。 按一下 **建立行銷活動** 按鈕以新增行銷活動。 瀏覽至 **範本** 標籤以檢視和建立範本。"
 
 
 Adobe Campaign 讓您可使用內建的行銷活動管理功能輕鬆協調設定目標的行銷計畫。透過定義排程的能力，您可以規劃行銷活動的持續時間和時機，以和策略目標保持一致性並將對象參與度擴展至最大。

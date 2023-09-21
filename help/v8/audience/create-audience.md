@@ -3,9 +3,9 @@ audience: end-user
 title: 建立和管理對象
 description: 瞭解如何在Adobe Campaign Web中建立和管理對象
 badge: label="Beta"
-source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
+source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="對象"
->abstract="您可以從此畫面建立受眾，並將受眾合併至視覺畫布中。 新增各種工作流程活動，例如 **Split** 或 **排除** 以產生新的和完善的對象。"
+>abstract="您可以從此畫面存取傳遞中可鎖定目標的所有對象清單。 按一下 **建立** 使用各種工作流程活動(例如 **Split** 或 **排除**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
