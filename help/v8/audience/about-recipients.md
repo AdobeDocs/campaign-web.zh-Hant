@@ -2,9 +2,9 @@
 title: 與收件者和受眾合作
 description: 瞭解如何使用收件者Campaign Web
 badge: label="Beta"
-source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
+source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 17%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 17%
 
 ## 鎖定維度 {#targeting-dimensions}
 
-目標維度是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。
+目標維度，亦稱為。 目標對應，是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。
 
 工作流程的目標維度是由第一個維度定義 **[!UICONTROL 建立對象]** 活動，並用於所有後續活動，直到工作流程結束為止。 例如，如果您對資料庫中的收件者執行查詢，出站轉變將包含收件者型別的資料，並將傳輸至下一個活動。
 
