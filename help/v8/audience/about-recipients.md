@@ -2,15 +2,17 @@
 title: 與收件者和受眾合作
 description: 瞭解如何使用收件者Campaign Web
 badge: label="Beta"
-source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
+source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 17%
+source-wordcount: '1022'
+ht-degree: 16%
 
 ---
 
 
 # 與收件者和受眾合作 {#about-recipients}
+
+在Adobe Campaign中，傳送的目標母體為受眾。 一組具有類似行為和/或特徵的人。 可以產生、選取或載入此人員集合 [如下所述](#audiences). 在大多數情況下，受眾會由設定檔組成，其儲存為 [收件者](#recipients) 在Adobe Campaign中。 您也可以透過變更維度來使用其他目標對應，如上所述 [在本節中](#targeting-dimensions).
 
 ## 什麼是收件者？ {#recipients}
 
