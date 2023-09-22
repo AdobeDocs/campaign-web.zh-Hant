@@ -2,7 +2,7 @@
 title: 與收件者和受眾合作
 description: 瞭解如何使用收件者Campaign Web
 badge: label="Beta"
-source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 16%
@@ -12,7 +12,7 @@ ht-degree: 16%
 
 # 與收件者和受眾合作 {#about-recipients}
 
-在Adobe Campaign中，傳送的目標母體為受眾。 一組具有類似行為和/或特徵的人。 可以產生、選取或載入此人員集合 [如下所述](#audiences). 在大多數情況下，受眾會由設定檔組成，其儲存為 [收件者](#recipients) 在Adobe Campaign中。 您也可以透過變更維度來使用其他目標對應，如上所述 [在本節中](#targeting-dimensions).
+在Adobe Campaign中，傳送的目標母體為受眾。 受眾是指一組具有類似行為和/或特徵的人。 可以產生、選取或載入此人員集合 [如下所述](#audiences). 在大多數情況下，受眾會由設定檔組成，其儲存為 [收件者](#recipients) 在Adobe Campaign中。 您也可以透過變更維度來處理其他目標對應，如上所述 [在本節中](#targeting-dimensions).
 
 ## 什麼是收件者？ {#recipients}
 
@@ -58,8 +58,7 @@ ht-degree: 16%
 若要定義對象母體，您可以：
 
 * [建立新對象](create-audience.md) 從 **[!UICONTROL 受眾]** 功能表，
-* [選取現有對象](add-audience.md) 在使用者端主控台中建立為清單，
-* [選取Adobe Experience Platform對象](aep-audience.md)，
+* [選取現有對象](add-audience.md) 在使用者端主控台中建立為清單，或來自Adobe Experience Platform時，
 * [建立新對象](segment-builder.md) 使用規則產生器，方法是定義和結合篩選准則，
 * [使用外部檔案中的對象](file-audience.md).此選項僅適用於獨立電子郵件傳送，無法用於行銷活動傳送。
 
@@ -75,7 +74,7 @@ ht-degree: 16%
 
 工作流程的目標維度是由第一個維度定義 **[!UICONTROL 建立對象]** 活動，並用於所有後續活動，直到工作流程結束為止。 例如，如果您對資料庫中的收件者執行查詢，出站轉變將包含收件者型別的資料，並將傳輸至下一個活動。
 
-請注意，您可以使用在工作流程中切換目標維度 **[!UICONTROL 變更維度]** 活動。 [進一步瞭解](../workflows/activities/change-dimension.md)。舉例來說，這可讓您查詢特定表格（例如購買或訂閱）上的資料庫，然後將目標維度變更為收件者，以便將傳遞內容傳送給相對應的收件者。
+請注意，您可以使用在工作流程中切換目標維度 [變更維度活動](../workflows/activities/change-dimension.md). 舉例來說，這可讓您查詢特定表格（例如購買或訂閱）上的資料庫，然後將目標維度變更為收件者，以便將傳遞內容傳送給相對應的收件者。
 
 依預設，電子郵件和簡訊傳遞範本的目標為 **[!UICONTROL 收件者]**. 因此，其目標維度會使用 **nms：recipient** 表格。 對於推播通知，預設目標維度為 **訂閱者應用程式nms：appSubscriptionRcp**，此資訊會連結至收件者表格。
 

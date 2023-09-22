@@ -4,53 +4,40 @@ title: 使用Campaign規則產生器建立對象
 description: 瞭解如何使用規則產生器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 使用規則產生器定義對象 {#segment-builder}
+# 使用規則產生器 {#segment-builder}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="目標對象"
 >abstract="制定傳遞目標再簡單不過了！ 借助我們最新的規則產生器，您現在可以為收件者或資料庫中的任何其他目標定位維度定義篩選條件。 利用 Adobe Experience Platform 對象進一步縮小目標對象範圍並充分發揮行銷活動的影響力。"
 
-本章節說明如何在設計新電子郵件時建立對象。建立的對象只能在此電子郵件中使用。
+規則產生器可讓您透過篩選資料庫中包含的資料，定義傳送所定位的母體。 您可以使用它在工作流程中建立對象 **[!UICONTROL 建立對象]** 活動，或直接在建立傳遞以建立一次性對象時。
 
-規則產生器可讓您透過篩選資料庫的資料來定義訊息的目標母體。如果要選取現有對象，請參閱本[章節](add-audience.md)。
-
-如需規則產生器的詳細資訊，請參閱[細分服務文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)。
-
-若要在設計電子郵件時建立新對象，請依照以下步驟操作：
-
-1. 從傳遞建立助理的「**對象**」區段，按一下「**[!UICONTROL 選取對象]**」按鈕。
-
-   ![](assets/segment-builder0.png)
-
-1. 選取「**建立您自己的**」。規則產生器隨即顯示。
-
-   ![](assets/segment-builder.png)
+* [瞭解如何建立受眾](create-audience.md)
+* [瞭解如何建立傳遞的一次性對象](one-time-audience.md)
 
 ## 調色盤
 
-位於左側的調色盤包含您可以篩選以建立對象的所有元素。調色盤包含的方磚必須移至中央畫布才能進行設定和考慮使用。調色盤分為兩個索引標籤：
+位於左側的調色盤包含您可以篩選以建立對象的所有元素。您可以使用搜尋列快速查找元素。調色盤包含的方磚必須移至中央畫布才能進行設定和考慮使用。
+
+![](assets/segment-builder2.png){width="70%" align="left"}
+
+調色盤分為兩個索引標籤：
 
 * **屬性**：此索引標籤可讓您存取綱要中的所有可用欄位。欄位清單取決於電子郵件範本中定義的目標定位綱要。
 
-  ![](assets/segment-builder2.png){width="70%" align="left"}
-
-* **對象**：此索引標籤可讓您使用在 Campaign Classic 主控台或 Adobe Experience Platform 定義的現有對象進行篩選。
-
-  ![](assets/segment-builder3.png){width="70%" align="left"}
+* **對象**：此索引標籤可讓您使用在 Campaign Classic 主控台或 Adobe Experience Platform 定義的現有對象進行篩選。[瞭解如何監視和管理對象](manage-audience.md)
 
   >[!NOTE]
   >
   >若要利用 Adobe Experience Platform 對象，您需要設定與目的地的整合。請參閱 [Adobe Experience Platform目標檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant){target="_blank"}.
-
-您可以使用搜尋列快速查找元素。
 
 ## 畫布
 
@@ -60,13 +47,20 @@ ht-degree: 96%
 
 ## 規則屬性窗格
 
-在右側的&#x200B;**規則屬性**&#x200B;窗格可讓您執行以下動作：
+在右側， **規則屬性** 窗格可讓您執行下列動作。
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
 * **檢視結果：**&#x200B;顯示對象的目標收件者清單。
 * **程式碼檢視**：以 SQL 顯示對象的程式碼版本。
 * **顯示進階屬性**：如果您想在左側調色盤中檢視完整的屬性清單，請勾選此選項：節點、群組、1-1 連結、1-N 連結。
+* **計算**：更新並顯示查詢所定位的設定檔數目。
+* **選取或儲存篩選器**：使用預先定義的篩選器來篩選查詢，或將查詢儲存為新篩選器以供日後重複使用。 [瞭解如何使用預先定義的篩選器](../get-started/predefined-filters.md)
+
+  >[!IMPORTANT]
+  >
+  >在該版本的產品中，使用者介面中無法使用某些預先定義的篩選器。 您仍可使用它們。 [了解更多](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+
 * **屬性**：顯示建立之對象的說明。
 
 ## 範例
@@ -98,5 +92,3 @@ ht-degree: 96%
    ![](assets/segment-builder11.png)
 
 1. 按一下「**確認**」。
-
-您的對象已定義並可在您的電子郵件中使用。
