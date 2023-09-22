@@ -3,9 +3,9 @@ audience: end-user
 title: 建立和管理對象
 description: 瞭解如何在Adobe Campaign Web中建立和管理對象
 badge: label="Beta"
-source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '780'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,11 @@ Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從�
 1. 此 **[!UICONTROL 儲存對象]** 每個路徑結尾的活動會在資料庫中建立兩個新對象，包括每個路徑中計算的母體。
 
 ## 監視和管理對象 {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="對象錯誤"
+>abstract="對象資料無法使用。 請等候工作流程執行結束。"
 
 Campaign網頁適用的對象清單可從 **[!UICONTROL 受眾]** 功能表。
 

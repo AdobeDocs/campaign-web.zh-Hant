@@ -2,7 +2,7 @@
 title: 在Campaign網頁中使用AI支援的知識助理
 description: 在Campaign網頁中使用AI支援的知識助理
 badge: label="Beta"
-source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 有了Campaign Gen AI的功能，此助理將改變您的體驗，讓資訊擷取和問題解決變得輕而易舉。 無論您是在複雜的工作中尋找指引，或是瀏覽廣泛的檔案，我們的Knowledge Assistant搭配Gen AI，是您最重要的夥伴，每次互動都能提供無與倫比的效率和準確性。
 
-![](assets/ask-a-question.png){width="70%" align="left"}
+<img src="assets/AI_CH.gif" width="80%"/>
 
 <!--
 ## Consent {#consent-ai}
@@ -55,4 +55,4 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 * 使用適當的字詞和措辭，加上中性色調。
 * 請為答案評分，並提供意見回饋，以便我們的工程師能從您的經驗中學習，並改善結果。
 
-<img src="assets/AI_CH.gif"/>
+
