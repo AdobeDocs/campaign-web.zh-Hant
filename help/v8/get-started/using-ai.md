@@ -2,10 +2,10 @@
 title: 在Campaign網頁中使用AI支援的知識助理
 description: 在Campaign網頁中使用AI支援的知識助理
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 此 **具有Gen AI的知識助理** 內嵌在內容說明中的內容，革新了檔案搜尋和回答操作方法問題，讓您能夠輕鬆地在龐大的檔案存放庫中篩選，立即找到您需要的精確資訊。
 
-有了Campaign Gen AI的功能，此助理將改變您的體驗，讓資訊擷取和問題解決變得輕而易舉。 無論您是在複雜的工作中尋找指引，或是瀏覽廣泛的檔案，我們的Knowledge Assistant搭配Gen AI，是您最重要的夥伴，每次互動都能提供無與倫比的效率和準確性。
+透過 Campaign Gen AI 的功能，此助理將改變您的體驗，讓資訊檢索和問題解決變得輕而易舉。無論您是要尋找複雜工作的指引，還是要瀏覽大量檔案，AI支援的知識助理都是您的終極夥伴，每次互動都能提供無與倫比的效率和準確性。
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -39,7 +39,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 答案 {#answers-ai}
 
-答案可能不準確或誤導。 因此，Adobe知識助理可能會輸出不正確的資訊。 請務必檢視每個說明方塊中連結的產品檔案。
+答案可能不準確或誤導。 因此，Adobe Campaign AI支援的知識助理可能會輸出不正確的資訊。 請務必檢視每個說明方塊中連結的產品檔案。
 
 人工智慧和機器學習模型會隨著時間而改善，以更好地處理特定使用案例。 在未來幾個月內，Campaign AI支援的知識助理將繼續變好。 我們強烈建議您使用??您隨時都可以閱讀??訊按鈕，標示對工程師的任何不當回應。
 

@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 73%
+source-wordcount: '1263'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 73%
 >title="探索介面"
 >abstract="新的 Campaign v8 Web 介面提供了整合、直覺和一致性的使用者體驗。"
 
-新的 Campaign v8 Web 介面提供了現代直覺的使用者體驗，可簡化行銷活動的設計和傳遞。此新介面已與Adobe Experience Cloud應用程式和解決方案整合。
+新的 Campaign v8 Web 介面提供了現代直覺的使用者體驗，可簡化行銷活動的設計和傳遞。這個新介面整合 Adobe Experience Cloud 應用程式和解決方案。
 
 
 >[!NOTE]
@@ -28,7 +28,7 @@ ht-degree: 73%
 
 ## 左側導覽功能表 {#user-interface-left-nav}
 
-瀏覽左側連結可存取 Campaign v8 Web 功能。幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。有些清單畫面是唯讀的。 左側導覽選單和清單中顯示的專案取決於您的使用者許可權。 進一步瞭解中的許可權 [本節](permissions.md).
+瀏覽左側連結可存取 Campaign v8 Web 功能。幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。有些清單畫面部分為唯讀。左側導覽功能表與清單中顯示的項目取決於您的使用者權限。若要了解權限的詳細資訊，請參閱[本章節](permissions.md)。
 
 ![](assets/home.png)
 
@@ -38,7 +38,7 @@ ht-degree: 73%
 
 「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。
 
-「**關鍵績效指標**」可讓您使用常見的 KPI 值來檢查平台的服務效率。若要深入瞭解這些KPI，請參閱 [此頁面](../reporting/kpis.md).
+「**關鍵績效指標**」可讓您使用常見的 KPI 值來檢查平台的服務效率。在[本頁面](../reporting/kpis.md)中進一步瞭解這些 KPI。
 
 從首頁的&#x200B;**學習**&#x200B;章節存取 Campaign v8 Web 重要說明頁面。
 
@@ -49,9 +49,9 @@ ht-degree: 73%
 >title="探索工具"
 >abstract="**探索工具**&#x200B;選單會顯示所有 Campaign 元件以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽所有 Campaign v8 元件、資料夾和方案，檢查相關聯的權限，並從此選單建立資料夾和子資料夾。"
 
-**探索工具**&#x200B;選單會顯示所有 Campaign 資源以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。
+**Explorer** 選單會顯示所有 Campaign 資源以及和用戶端主控台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。
 
-顯示在中的專案 **瀏覽器** 視您的使用者許可權而定。 如果您有適當的許可權，也可以新增資料夾和子資料夾。 進一步瞭解中的許可權 [本節](permissions.md).
+**Explorer** 中顯示的項目取決於您的使用者權限。如果有適當的權限，您也可以新增資料夾和子資料夾。若要了解權限的詳細資訊，請參閱[本章節](permissions.md)。
 
 如同任何清單畫面，您可以設定欄來個人化顯示以檢視所有您需要的資訊。請參閱本[章節](#list-screens)。
 
@@ -74,10 +74,10 @@ ht-degree: 73%
 
 ### 客戶管理 {#user-interface-customer-management}
 
-在「客戶管理」區段中，您可以檢視您的收件者、對象和訂閱。這些是唯讀清單。
+在「客戶管理」章節中，您可以檢視您的收件者、對象和訂閱。這些是唯讀清單。
 
-* **收件者** - 存取您的收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。進一步瞭解中的收件者 [本節](../audience/about-recipients.md).
-* **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。進一步瞭解中的對象和清單 [本節](../audience/about-recipients.md).
+* **收件者** - 存取您的收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。若要了解收件者的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
+* **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。若要了解對象與清單的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
 * **訂閱** - 瀏覽您的訂閱清單。預設情況下，您可以檢視其類型、模式和標籤。若要了解如何管理訂閱和取消訂閱，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}。
 
 ### 決策管理 {#decision-management}
@@ -85,20 +85,20 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="優惠"
->abstract="瀏覽已在主控台中使用「 」建立的選件和選件範本清單。 **互動** 模組。 這些是唯讀清單。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="將優惠新增至傳遞"
+>abstract="瀏覽已使用「**互動**」模組在主控台中建立的優惠清單和優惠範本。這些是唯讀清單。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="將優惠新增到傳遞"
 
-在決定管理區段中，您可以檢視優惠方案和優惠方案範本。 這些是唯讀清單。
+在「決策管理」部分，您可以檢視優惠和優惠範本。這些是唯讀清單。
 
-* **選件**  — 瀏覽已在主控台中使用「 」建立的優惠方案和優惠方案範本清單。 **互動** 模組。 依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。
+* **優惠** - 瀏覽透過使用「**互動**」模組在主控台建立的優惠清單和優惠範本。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。
 
-瞭解如何在電子郵件和簡訊中建立和傳送優惠方案 [本節](../content/offers.md).
+若要了解如何在電子郵件和簡訊中建立和傳送優惠，請參閱[本章節](../content/offers.md)。
 
 ## 頂端列 {#top-bar}
 
 使用介面的頂端列進行以下作業：
 
-* 以Beta測試者身分分享您的意見回饋
+* 以 Beta 測試人員身份分享您的意見回饋
 * 在組織和實例之間切換
 * 在 Adobe Experience Cloud 應用程式之間切換
 * 存取說明頁面、聯絡支援人員和分享意見回饋。您可以從搜尋欄位搜尋說明文章和影片。
@@ -115,9 +115,9 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-透過新的Beta版， **具有Gen AI的知識助理** 內嵌在內容說明中的內容，革新了檔案搜尋和回答操作方法問題，讓您能夠輕鬆地在龐大的檔案存放庫中篩選，立即找到您需要的精確資訊。
+透過新的Beta版， **AI支援的知識助理** 內嵌在內容說明中的內容，革新了檔案搜尋和回答操作方法問題，讓您能夠輕鬆地在龐大的檔案存放庫中篩選，立即找到您需要的精確資訊。
 
-有了Campaign Gen AI的功能，此助理將改變您的體驗，讓資訊擷取和問題解決變得輕而易舉。 無論您是在複雜的工作中尋找指引，或是瀏覽廣泛的檔案，我們的Knowledge Assistant搭配Gen AI，是您最重要的夥伴，每次互動都能提供無與倫比的效率和準確性。
+透過 Campaign Gen AI 的功能，此助理將改變您的體驗，讓資訊檢索和問題解決變得輕而易舉。無論您是要尋找複雜工作的指引，還是要瀏覽大量檔案，AI支援的知識助理都是您的終極夥伴，每次互動都能提供無與倫比的效率和準確性。
 
 若要了解詳細資訊，請參閱[本章節](using-ai.md)。
 
@@ -141,7 +141,7 @@ Campaign v8 Web 目前提供以下語言版本：
 * 繁體中文 - CHT
 
 
-您的Campaign Web預設語言由使用者設定檔中指定的偏好語言決定。 此語言與Campaign伺服器和使用者端主控台的語言無關。
+您對 Campaign Web 的預設語言是由使用者設定檔中指定的偏好語言所決定。那與您的 Campaign 伺服器和用戶端主控台的語言無關。
 
 若要變更您的語言：
 
@@ -151,7 +151,7 @@ Campaign v8 Web 目前提供以下語言版本：
 
 ## 深色主題 {#dark-theme}
 
-您可以從設定檔圖示切換至深色主題。 使用 **深色主題** 切換即可啟用/停用此功能。
+您可以從個人資料圖示切換到深色主題。使用「**深色主題**」切換以啟用/停用。
 
 ## 了解更多 {#learn-more}
 
@@ -184,19 +184,14 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="匯出"
->abstract="您只能匯出選取的頁面。"
-
->[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="全球報告傳送"
->abstract="在此畫面中顯示追蹤報告量度"
+>abstract="此畫面中會顯示追蹤報告指標"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="全球報告追蹤"
->abstract="在此畫面中顯示追蹤報告量度"
+>abstract="此畫面中會顯示追蹤報告指標"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
