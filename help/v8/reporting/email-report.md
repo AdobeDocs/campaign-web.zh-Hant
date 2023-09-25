@@ -3,9 +3,9 @@ audience: end-user
 title: 以電子郵件傳送報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1932'
 ht-degree: 7%
 
 ---
@@ -301,6 +301,12 @@ ht-degree: 7%
 >id="acw_delivery_reporting_breakdown_os"
 >title="依作業系統劃分"
 >abstract="此 **依作業系統劃分** 顯示相關期間內依作業系統開啟的明細。 第一個圖表顯示電腦和行動裝置開啟的相關統計資料。 第二個圖表僅顯示在行動裝置上的開啟數統計資料。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_browser"
+>title="依瀏覽器劃分"
+>abstract="此 **依瀏覽器劃分** 顯示相關期間內瀏覽器開啟的劃分。 第一個圖表顯示電腦和行動裝置開啟的相關統計資料。 第二個圖表僅顯示在行動裝置上的開啟數統計資料。"
+
 
 此報表顯示相關期間內依作業系統、裝置和瀏覽器劃分的開啟專案。 每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表僅顯示在行動裝置上的開啟數統計資料。
 
