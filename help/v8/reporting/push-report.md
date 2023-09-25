@@ -3,9 +3,9 @@ audience: end-user
 title: 推播傳遞報告
 description: 瞭解如何存取及使用推播傳遞報告
 badge: label="Beta"
-source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
+source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -94,7 +94,8 @@ ht-degree: 2%
 >title="推播整體統計資料"
 >abstract="此 **排除專案** 圖形和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。"
 
-此 **[!UICONTROL 排除專案]** 圖形和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。
+此 **[!UICONTROL 排除專案]** 圖形和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。 有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+
 
 ![](assets/reporting_push_6.png)
 
