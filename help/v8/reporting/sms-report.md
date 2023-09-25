@@ -3,14 +3,14 @@ audience: end-user
 title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
 badge: label="Beta"
-source-git-commit: 8531bbe867e0d2fc42edef1a98b5a8ccc29be11c
+source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---
 
-# 以簡訊傳送傳遞報告 {#report}
+# 簡訊傳遞報告 {#sms-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
@@ -26,49 +26,78 @@ ht-degree: 2%
 
 ## 傳遞摘要 {#delivery-summary}
 
-* **[!UICONTROL 傳遞概覽]** 提供關鍵績效指標(KPI)，以提供有關成功和錯誤率，以及訪客如何與您的SMS訊息互動的詳細資訊。
+### 傳遞總覽 {#sms-delivery-overview}
 
-  ![](assets/reporting_sms_3.png)
+此 **[!UICONTROL 傳遞概覽]** 報告提供關鍵績效指標(KPI)，以提供有關成功和錯誤率，以及訪客如何與您的SMS訊息互動的詳細資訊。
 
-  +++進一步瞭解SMS傳送報告量度。
+![](assets/reporting_sms_3.png)
 
-   * **[!UICONTROL 已傳送總數]**：在傳遞準備期間處理的訊息百分比與總數。
++++進一步瞭解SMS傳送報告量度。
 
-   * **[!UICONTROL 成功]**：與已傳送訊息總數相關的成功傳送訊息的百分比和數目。
+* **[!UICONTROL 已傳送總數]**：在傳遞準備期間處理的訊息百分比與總數。
 
-   * **[!UICONTROL 點進率]**：與您SMS傳送中所含連結互動的使用者百分比和人數。
+* **[!UICONTROL 成功]**：與已傳送訊息總數相關的成功傳送訊息的百分比和數目。
 
-   * **[!UICONTROL 錯誤]**：在傳送期間發生且無法傳送至設定檔的錯誤百分比和總數。
-+++
+* **[!UICONTROL 點進率]**：與您SMS傳送中所含連結互動的使用者百分比和人數。
 
-* **目標母體** 圖表和表格會顯示與您的對象相關的資料。
+* **[!UICONTROL 錯誤]**：在傳送期間發生且無法傳送至設定檔的錯誤百分比和總數。
 
-  ![](assets/reporting_sms_4.png)
-
-  +++進一步瞭解SMS傳送報告量度。
-
-   * **[!UICONTROL 要傳遞]**：在準備傳送期間處理的訊息總數和百分比。
-
-   * **[!UICONTROL 排除專案]**：已從分析中排除的設定檔數目和百分比率。
 +++
 
 
-* **整體統計資料** 針對已傳送的SMS訊息呈現資料，包括：
+### 目標族群 {#sms-delivery-targeted-population}
 
-  ![](assets/reporting_sms_5.png)
 
-  +++進一步瞭解SMS傳送報告量度。
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_targeted_population"
+>title="簡訊目標母體"
+>abstract="此 **目標母體** 圖形和表格會顯示與您的SMS對象相關的資料：要傳送的訊息和排除專案。"
 
-   * **[!UICONTROL 成功]**：成功處理的訊息數目和百分比。
+此 **目標母體** 圖表和表格會顯示與您的對象相關的資料。 量度詳情如下。
 
-   * **[!UICONTROL 錯誤]**：傳送期間發生錯誤的總數和百分比，導致訊息無法傳送至特定設定檔。
+![](assets/reporting_sms_4.png)
 
-   * **[!UICONTROL 新隔離]**：已排除並新增至隔離的設定檔數目和百分比率。
++++進一步瞭解SMS傳送報告量度。
+
+* **[!UICONTROL 要傳遞]**：在準備傳送期間處理的訊息總數和百分比。
+
+* **[!UICONTROL 排除專案]**：已從分析中排除的設定檔數目和百分比率。
 +++
+
+
+### 整體統計資料 {#sms-delivery-overall}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_overall_stats"
+>title="推播整體統計資料"
+>abstract="此 **整體統計資料** 報表會顯示已傳送SMS的資料：成功、錯誤和隔離。"
+
+此 **整體統計資料** 報表會顯示已傳送SMS訊息的資料。 量度詳情如下。
+
+![](assets/reporting_sms_5.png)
+
++++進一步瞭解SMS傳送報告量度。
+
+* **[!UICONTROL 成功]**：成功處理的訊息數目和百分比。
+
+* **[!UICONTROL 錯誤]**：傳送期間發生錯誤的總數和百分比，導致訊息無法傳送至特定設定檔。
+
+* **[!UICONTROL 新隔離]**：已排除並新增至隔離的設定檔數目和百分比率。
++++
+
+### 排除 {#sms-delivery-exclusions}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_exclusions"
+>title="簡訊整體統計資料"
+>abstract="此 **排除專案** 圖形和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。"
+
 
 * **[!UICONTROL 排除專案]** 圖形和表格會顯示使用者設定檔（從目標設定檔排除）無法接收訊息的原因。
 
-  ![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png)
 
 ## 傳遞總處理能力 {#delivery-throughput}
 
