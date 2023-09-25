@@ -3,7 +3,7 @@ audience: end-user
 title: 以電子郵件傳送報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
 badge: label="Beta"
-source-git-commit: cc58e6bcf030885ba364df7dfd51de797117120c
+source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 8%
@@ -30,11 +30,11 @@ ht-degree: 8%
 
 此 **[!UICONTROL 初始目標母體]** 圖表顯示與收件者相關的資料。 量度會在傳遞準備期間計算並顯示：初始對象、要傳送的訊息數、排除的收件者數。
 
-![](assets/reporting_email_1.png){width="50%" align="center" zoomable="yes"}
+![](assets/reporting_email_1.png){width="50%" align="left" zoomable="yes"}
 
 將滑鼠移至圖表的一部分上以顯示確切的數字。
 
-![](assets/reporting_email_1.1.png){width="50%" align="center" zoomable="yes"}
+![](assets/reporting_email_1.1.png){width="50%" align="left" zoomable="yes"}
 
 
 +++進一步瞭解電子郵件傳送報告量度。
@@ -57,7 +57,7 @@ ht-degree: 8%
 
 此 **[!UICONTROL 傳遞統計資料]** 圖表會詳細說明您的傳送是否成功。 量度詳情如下。
 
-![](assets/reporting_email_2.png){width="50%" align="center" zoomable="yes"}
+![](assets/reporting_email_2.png){width="50%" align="left" zoomable="yes"}
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
