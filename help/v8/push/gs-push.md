@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Campaign Web 建立和傳送推播通知
 badge: label="Beta"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 * 獨立傳遞：使用個別推播通知傳遞和客戶進行直接和立即的互動，不需要工作流程或行銷活動。
 
-![](../assets/do-not-localize/book.png) 瞭解如何在中設定推播通知通道 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
+![](../assets/do-not-localize/book.png)若要了解如何設定推播通知管道，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

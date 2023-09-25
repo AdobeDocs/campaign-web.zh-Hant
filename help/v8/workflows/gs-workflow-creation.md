@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -31,30 +31,30 @@ ht-degree: 57%
 
 * **轉變**：轉變會將來源活動連結到目標活動並定義其序列。
 
-* **工作表**：工作表包含轉變攜帶的所有資訊。每個工作流程會使用多個工作表。這些表格中傳送的資料可在整個工作流程生命週期中使用。
+* **工作表**：工作表包含轉變攜帶的所有資訊。每個工作流程會使用多個工作表。在這些表格中傳達的資料可以用於整個工作流程的生命週期。
 
 ## 建立工作流程的關鍵步驟 {#gs-workflow-steps}
 
 
-行銷活動提供兩種建立工作流程的方式：
+行銷活動提供兩種建立工作流程的方法：
 
-1. 工作流程可以建立為獨立的工作流程，從 **工作流程** 功能表。
+1. 工作流程可以從「**工作流程**」選單建立為獨立的工作流程。
 
    ![](assets/create-a-standalone-wf.png)
 
-1. 工作流程可直接在行銷活動中建立，從 **工作流程** 行銷活動的索引標籤。 納入行銷活動時，工作流程會與其他所有行銷活動的工作流程一起執行，而報告量度都會在行銷活動層級分組。
+1. 可以從行銷活動的「**工作流程**」標籤，直接在行銷活動內建立工作流程。在包含於行銷活動時，工作流程與所有其他行銷活動的工作流程一起執行，且報告量度全部在行銷活動層級分組。
 
    ![](assets/create-a-wf-from-a-campaign.png)
 
 
-建立工作流程的關鍵步驟如下：
+建立工作流程的關鍵步驟如下所示：
 
 ![](assets/workflow-creation-process.png)
 
-以下章節將詳細介紹這些步驟：
+以下章節詳細介紹了這些步驟：
 
 1. [建立您的工作流程並定義其屬性](create-workflow.md)
-1. [協調與設定活動](orchestrate-activities.md)
-1. [設定工作流程進階設定](workflow-settings.md)
-1. [開始您的工作流程並監視其執行](start-monitor-workflows.md)
+1. [協調和配置活動](orchestrate-activities.md)
+1. [配置您的工作流程進階設定](workflow-settings.md)
+1. [啟動您的工作流程並監控其執行情況](start-monitor-workflows.md)
 

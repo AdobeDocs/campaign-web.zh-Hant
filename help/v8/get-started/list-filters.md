@@ -4,9 +4,9 @@ title: 瀏覽、搜尋和篩選清單
 description: 探索如何瀏覽和篩選清單 Campaign Web v8
 badge: label="Beta"
 source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 86%
 
 ## 自訂篩選器{#list-custom-filters}
 
-若要建立資料的自訂篩選器，請瀏覽至篩選器底部，然後按一下 **新增規則** 按鈕以存取規則產生器。
+若要建立有關資料的自訂篩選器，請瀏覽至篩選器底部並按一下「**新增規則**」按鈕，以存取規則產生器。
 
 拖放屬性以在「**進階篩選器**」畫面中建置篩選條件。
 
@@ -59,14 +59,14 @@ ht-degree: 86%
 
 使用「**顯示進階屬性**」開關，即可查看最新清單的所有屬性。[了解更多](#adv-attributes)
 
-自訂篩選器的規則產生器運作原則，類似於用來建立對象的規則產生器。 有關如何使用的詳細資訊，請參閱 [受眾檔案](../audience/segment-builder.md).
+自訂篩選器的規則產生器操作原理類似於用於建立對象所使用的規則產生器。有關如何使用的詳細資訊，請參閱 [Audiences 文件](../audience/segment-builder.md)。
 
 ## 使用進階屬性 {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="顯示進階屬性"
->abstract="預設情況下，屬性清單中只會顯示最常見的屬性。使用此切換檢視進階屬性。"
+>abstract="預設情況下，屬性清單中只會顯示最常見的屬性。使用此切換按鈕以查看進階屬性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"

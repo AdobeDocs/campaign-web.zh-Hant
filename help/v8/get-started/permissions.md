@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Campaign網站中的許可權管理
-description: 進一步瞭解Campaign網頁v8中的許可權
+title: Campaign Web 中的權限管理
+description: 進一步了解 Campaign Web v8 的權限
 badge: label="Beta"
 source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
@@ -52,53 +52,53 @@ ht-degree: 24%
 >title="此工作流程為唯讀資料"
 >abstract="由於畫布不受支援或不相容，您無法編輯此工作流程。"
 
-存取控制可限制存取主要清單中的物件和資料，例如傳遞、收件者或工作流程。 這些限制也適用於 **瀏覽器** 導覽樹狀結構。 此外，您需要許可權才能從使用者介面建立、刪除、複製及編輯物件。
+存取控制可以限制存取主要清單中的物件和資料，例如傳遞、收件者或工作流程。這些限制也適用於 **Explorer** 導覽樹狀目錄。此外，您需要從使用者介面建立、刪除、複製和編輯物件的權限。
 
-存取控制是在Campaign使用者端主控台中進行管理。 Campaign Web中的所有許可權都會與Campaign使用者端主控台許可權同步。 只有Campaign管理員可以定義及修改使用者許可權。 進一步瞭解中的使用者許可權 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}.
+在 Campaign 用戶端主控台管理存取控制。Campaign Web 中的所有權限均與 Campaign 用戶端主控台權限同步。只有 Campaign 管理員可以定義和修改使用者權限。請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}，以了解有關使用者權限的更多資訊。
 
-瀏覽Campaign Web使用者介面時，您可以存取資料、物件和功能，具體取決於您的許可權。 例如，如果您沒有資料夾的存取許可權，您將無法看到它。 您的許可權也會影響物件和資料管理。 沒有特定資料夾的寫入許可權，您無法在該資料夾中建立傳送，即使您可以在使用者介面中看到該傳送。
+當您瀏覽 Campaign Web 使用者介面時，可以根據您的權限存取資料、物件和功能。例如，如果沒有資料夾的存取權限，就看不到。您的權限也會影響物件和資料管理。如果沒有特定資料夾的寫入權限，即使可以在使用者介面中看到，也無法在該資料夾中建立傳遞。
 
-## 檢視許可權 {#view-permissions}
+## 檢視權限 {#view-permissions}
 
-從 **瀏覽器**，您可以瀏覽每個檔案夾的許可權。 這些許可權是在使用者端主控台中設定，用於組織和控制Campaign資料的存取。
+您可以從 **Explorer** 瀏覽每個資料夾的權限。這些權限設定於用戶端主控台，用於組織和控制對 Campaign 資料的存取。
 
-若要檢視檔案夾的許可權，請執行下列步驟：
+若要檢視資料夾的權限，請執行下列步驟：
 
-1. 從 **瀏覽器** 在左側導覽選單中，選取資料夾。
-1. 按一下右上角的三個點，然後選取 **檔案夾許可權**.
+1. 從 **Explorer** 左側導覽選單選取一個資料夾。
+1. 按一下右上角的三個點，然後選取「**資料夾權限**」。
 
    ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
 
-1. 在畫面中檢視詳細資訊，如下所示：
+1. 檢查畫面中的詳細資訊，如下所示：
 
    ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
 
-   群組或運運算元可擁有對儲存在所選資料夾中之資料的讀取、寫入及/或刪除許可權。
+   群組或操作員可以對儲存在所選資料夾的資料具有讀取、寫入和/或刪除的權限。
 
-   如果 **傳播** 選項已啟用，針對檔案夾定義的所有許可權都會套用至其所有子檔案夾。 每個子檔案夾都可以多載這些許可權。
+   如果啟用「**傳播**」選項，針對資料夾定義的所有權限都會套用至其所有的子資料夾。每個子資料夾都可以過載這些權限。
 
-   如果 **系統資料夾** 選項已啟用，允許所有運運算元存取，無論其許可權為何。
+   如果啟用「**系統資料夾**」選項，無論其權限為何，所有操作員都可以存取。
 
-進一步瞭解中的檔案夾許可權 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html){target="_blank"}.
+請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html){target="_blank"}，以了解有關資料夾權限的更多資訊。
 
 
 ## 使用資料夾 {#folders}
 
-您可以建立、重新命名、重新排序和行動資料夾來組織您的元件和資料。 您也可以從相同功能表刪除資料夾。
+您可以建立、重新命名、重新排序和移動資料夾以組織元件和資料。您也可以從同一選單中刪除資料夾。
 
 >[!CAUTION]
 >
->刪除資料夾時，也會刪除儲存在該資料夾中的所有資料。
+>刪除資料夾時，儲存於該資料夾的所有資料也會被刪除。
 
-若要建立資料夾，請執行下列步驟：
+請依照下列步驟，建立新的資料夾：
 
-1. 從 **瀏覽器** 在左側導覽選單中，選取資料夾。
-1. 按一下右上角的三個點，然後選擇 **建立新的子資料夾**.
+1. 從 **Explorer** 左側導覽選單選取一個資料夾。
+1. 點選右上角的三個點，然後選擇「**建立新的子資料夾**」。
 1. 輸入資料夾名稱並儲存。
 
    ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
 
-   資料夾會新增為目前資料夾的子資料夾。 瀏覽到該新資料夾以直接在該資料夾中建立元件。 您也可以從任何資料夾中建立元件，然後將其儲存在該新資料夾的 **其他選項** 屬性的區段，如下所示：
+   該資料夾將新增為現有資料夾的子資料夾。瀏覽至該新資料夾以直接在其中建立元件。您也可以從任何資料夾建立元件，並將其儲存在該新資料夾，從屬性的「**其他選項**」章節，如下圖的傳遞所示：
 
    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
 
