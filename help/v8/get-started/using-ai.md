@@ -2,14 +2,20 @@
 title: 在Campaign網頁中使用AI支援的知識助理
 description: 在Campaign網頁中使用AI支援的知識助理
 badge: label="Beta"
-source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
+source-git-commit: 2744c62136af0c594452e35d7aa0eb79d0878efe
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '407'
 ht-degree: 5%
 
 ---
 
 # 使用AI支援的知識助理 {#using-ai}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card6"
+>title="AI支援的知識助理"
+>abstract="透過AI支援的知識助理，根據產品檔案和您目前的產品內容，取得由AI產生的快速答案。 產品內容說明方塊提供全新說明檔案，說明檔案搜尋與解答操作方法問題可讓您輕鬆篩選龐大的說明檔案存放庫，即時找出您需要的精確資訊。"
+
 
 透過產品內容說明方塊中提供的AI支援知識助理，根據產品檔案和您目前的產品內容取得AI產生的快速答案。
 
