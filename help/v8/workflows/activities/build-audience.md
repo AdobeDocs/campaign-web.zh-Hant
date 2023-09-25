@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「建置對象」工作流程活動
 description: 了解如何使用「建置對象」工作流程活動
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 62%
+source-wordcount: '478'
+ht-degree: 75%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 62%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="建立對象活動"
->abstract="此 **建立對象** 活動可讓您定義將進入工作流程的對象。 在工作流程內容中傳送訊息時，訊息對象未定義於頻道活動中，但定義於 **建立對象** 活動。"
+>title="建置對象活動"
+>abstract="「**建置對象**」活動可讓您定義會進入工作流程的對象。在工作流程中傳送訊息時，訊息對象不會在管道活動中定義，而是在「**建置對象**」活動中定義。"
 
 
-「**建置對象**」活動是一種「**目標定位**」活動。此活動可讓您定義會進入工作流程的對象。在工作流程內容中傳送訊息時，訊息對象未定義於頻道活動中，但定義於 **建立對象** 活動。
+「**建置對象**」活動是一種「**目標定位**」活動。此活動可讓您定義會進入工作流程的對象。在工作流程中傳送訊息時，訊息對象不會在管道活動中定義，而是在「**建置對象**」活動中定義。
 
 若要定義對象族群，您可以：
 
@@ -39,7 +39,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
->title="選取目標維度"
+>title="選取目標定位維度"
 >abstract="目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。"
 
 
@@ -54,7 +54,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 若要建立您自己的查詢，請依照以下額外步驟進行：
 
 1. 選取「**建立您自己的 (查詢)**」。
-1. 選擇「**目標定位維度**」。目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。請參閱 [v8 文件](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}。
+1. 選擇「**目標定位維度**」。目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。進一步瞭解中的目標維度 [本節](../../audience/about-recipients.md#targeting-dimensions).
 1. 按一下&#x200B;**「繼續」**。
 1. 使用規則產生器定義您的查詢，以您設計新電子郵件時建立對象的相同方式。請參閱本[章節](../../audience/segment-builder.md)。
 

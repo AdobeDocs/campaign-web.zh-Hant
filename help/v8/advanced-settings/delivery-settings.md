@@ -4,10 +4,10 @@ title: 傳遞設定
 description: 進一步瞭解Campaign網頁中的傳遞設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '2094'
-ht-degree: 77%
+source-wordcount: '2112'
+ht-degree: 82%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 77%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="類型 傳遞的設定"
+>title="類型傳遞設定"
 >abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。 類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。 在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。"
 
 
@@ -55,7 +55,7 @@ ht-degree: 77%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="傳遞的壓力引數"
+>title="傳遞壓力參數"
 >abstract="傳遞權重可讓您確認疲勞管理架構內最優先的傳遞。 權重最高的訊息具有最高優先。"
 
 
@@ -89,7 +89,7 @@ ht-degree: 77%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="傳遞的容量設定"
+>title="傳遞的產能設定"
 >abstract="在傳遞訊息之前，請使用產能規則以確保您的組織可以處理傳遞、傳遞可能生成的傳入訊息，以及用於聯絡訂閱者的呼叫次數等。產能規則是在 Adobe Campaign v8 Console 定義。在此畫面中，選取與電子郵件頻道關聯的規則。"
 
 
@@ -108,16 +108,15 @@ ht-degree: 77%
 
 ## 對象設定 {#audience}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="傳遞的對象設定"
->abstract="選取 **目標對應** 在眾多可用選項中。 目標對應是在 Adobe Campaign v8 主控台中定義的。您也可以設定傳送的排除引數。 "
+>abstract="在那些可用項目中選取「**目標對應**」。目標對應是在 Adobe Campaign v8 主控台中定義的。您也可以設定傳遞的排除參數。 "
+
+在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。目標維度或目標對應是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。
 
 
-在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。
-
-進一步瞭解中的目標對應 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+進一步瞭解中的目標對應 [本節](../audience/about-recipients.md#targeting-dimensions).
 
 ## 傳遞 {#delivery}
 
@@ -140,11 +139,11 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="傳遞的網站分析設定"
->abstract="選取網站分析帳戶。 此帳戶是在Campaign使用者端主控台中設定。 您也可以定義與您使用的分析工具共用的標籤。"
+>abstract="選取網路分析帳戶。此帳戶是在 Campaign 用戶端主控台中設定的。您也可以定義與您所用分析工具共用的標籤。"
 
-您可以在此區段中選取網站分析帳戶。 此帳戶是在Campaign使用者端主控台中設定。
+您可以在此區段中選取網站分析帳戶。 此帳戶是在 Campaign 用戶端主控台中設定的。
 
-您也可以定義與您使用的分析工具共用的標籤。
+您也可以定義與您所用分析工具共用的標籤。
 
 進一步瞭解中的網站分析和行銷活動 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
@@ -165,13 +164,13 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="傳遞的核准模式"
->abstract="選取核准模式。 如果在傳遞準備期間產生警告，您可以設定傳遞以定義它是否仍應執行。"
+>abstract="選取「核准模式」。如果在傳遞準備期間產生警告，您可以設定傳遞以定義它是否仍應執行。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
 >title="傳遞的核准模式"
->abstract="根據此範本選取傳遞的核准模式。 如果在傳遞準備期間產生警告，您可以設定傳遞以定義它是否仍應執行。"
+>abstract="根據該範本選取傳遞的核准模式。如果在傳遞準備期間產生警告，您可以設定傳遞以定義它是否仍應執行。"
 
 如果在傳遞準備期間產生警告，您可以設定傳遞以定義它是否仍應執行。依預設，使用者必須在分析階段結束時確認傳送訊息：這是&#x200B;**手動**&#x200B;驗證。
 
@@ -262,7 +261,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
 >title="傳遞的測試設定"
->abstract="選取排除引數並自訂測試電子郵件的標籤。"
+>abstract="選取排除參數並自訂測試電子郵件的標籤。"
 
 您可以設定在此區段設定排除參數。可使用的選項包括：
 
