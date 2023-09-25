@@ -8,7 +8,7 @@ hide: true
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 82%
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 82%
    + [存取權與權限](get-started/permissions.md)
    + [護欄和限制](get-started/guardrails.md)
    + [不支援的功能](get-started/unsupported.md)
-   + [尋找說明與指引](get-started/using-ai.md)
+   + [尋找說明和指引](get-started/using-ai.md)
 + 訊息和傳遞 {#msg}
    + [開始使用訊息](msg/gs-messages.md)
    + [使用傳遞範本](msg/delivery-template.md)
@@ -48,9 +48,9 @@ ht-degree: 82%
             + [產生文字版本](content/text-version-email.md)
          + 內容助理 {#content-assistant}
             + [開始使用內容助理](content/generative-gs.md)
-            + [使用內容助理產生文字](content/generative-content.md)
-            + [使用內容助理產生影像](content/generative-image.md)
-            + [使用內容助理產生電子郵件](content/generative-email.md)
+            + [使用內容助理生成文字](content/generative-content.md)
+            + [使用內容助理生成影像](content/generative-image.md)
+            + [使用內容助理生成電子郵件](content/generative-email.md)
          + 建立內容樣式 {#style}
             + [開始使用電子郵件樣式](content/get-started-email-style.md)
             + [編輯背景設定](content/backgrounds.md)
@@ -84,7 +84,7 @@ ht-degree: 82%
       + [傳送測試傳遞](preview-test/test-deliveries.md)
       + [呈現您的電子郵件](preview-test/email-rendering.md)
 + 對象和收件者 {#audiences}
-   + [與收件者和受眾合作](audience/about-recipients.md)
+   + [與收件者和對象合作](audience/about-recipients.md)
    + [建立對象](audience/create-audience.md)
    + 選取您的傳遞收件者 {#target-audiences}
       + [選取現有對象](audience/add-audience.md)
