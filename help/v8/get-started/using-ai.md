@@ -2,20 +2,14 @@
 title: 在Campaign網頁中使用AI支援的知識助理
 description: 在Campaign網頁中使用AI支援的知識助理
 badge: label="Beta"
-source-git-commit: 2744c62136af0c594452e35d7aa0eb79d0878efe
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '359'
 ht-degree: 5%
 
 ---
 
 # 使用AI支援的知識助理 {#using-ai}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card6"
->title="AI支援的知識助理"
->abstract="透過AI支援的知識助理，根據產品檔案和您目前的產品內容，取得由AI產生的快速答案。 產品內容說明方塊提供全新說明檔案，說明檔案搜尋與解答操作方法問題可讓您輕鬆篩選龐大的說明檔案存放庫，即時找出您需要的精確資訊。"
-
 
 透過產品內容說明方塊中提供的AI支援知識助理，根據產品檔案和您目前的產品內容取得AI產生的快速答案。
 
@@ -45,9 +39,9 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 答案 {#answers-ai}
 
-答案可能不準確或誤導。 因此，Adobe Campaign AI支援的知識助理可能會輸出不正確的資訊。 請務必檢視每個說明方塊中連結的產品檔案。
+Adobe Campaign AI支援的知識助理可提供協助，但您應驗證事實。 它可能會輸出不正確的資訊、不準確或誤導的答案。 請務必檢視每個說明方塊中連結的產品檔案。
 
-人工智慧和機器學習模型會隨著時間而改善，以更好地處理特定使用案例。 在未來幾個月內，Campaign AI支援的知識助理將繼續變好。 我們強烈建議您使用??您隨時都可以閱讀??訊按鈕，標示對工程師的任何不當回應。
+人工智慧和機器學習模型會隨著時間而改善，以更好地處理特定使用案例。 Campaign AI支援的知識助理在未來幾個月中會持續改善。 我們強烈建議您使用??您隨時都可以閱讀??訊按鈕，標示對工程師的任何不當回應。
 
 ## 建議  {#recommendations-ai}
 

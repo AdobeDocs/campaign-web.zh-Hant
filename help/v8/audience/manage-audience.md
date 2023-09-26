@@ -3,10 +3,10 @@ audience: end-user
 title: 監視和管理對象
 description: 瞭解如何在Adobe Campaign Web中監視和管理對象
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '289'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Campaign網頁適用的對象清單可從 **[!UICONTROL 受眾]** 功能表。
 
 * **[!UICONTROL Adobe Campaign]**：這些對象是在Adobe Campaign V8主控台中建立。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform：]** 這些對象是在Adobe Experience Platform中建立，並使用Adobe來源和目的地整合整合來整合至Campaign網頁。 瞭解如何在中設定這項整合 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+* **[!UICONTROL Adobe Experience Platform：]** 這些對象是在Adobe Experience Platform中建立，並使用Adobe來源和目的地整合整合來整合至Campaign網頁。 瞭解如何在中設定這項整合 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 >[!NOTE]
 >
