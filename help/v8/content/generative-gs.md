@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用內容助理
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 13%
@@ -32,7 +32,7 @@ ht-degree: 13%
 * 產生的內容品質強烈受到您定義的行銷目標/提示所影響。 使用定義明確的提示讓GenAI模型正確解譯。 
 * 上傳品牌資產，以便對品牌內容取得準確資訊。 否則，內容會以公開可用的資訊為基礎。 上傳的內容可以是：PDF檔案、Microsoft Word檔案、JPEG、PNG或ZIP檔案（具有支援的檔案格式）。
 * 建議上傳品牌資產的大小小於10MB。 大型檔案或大量影像可以運作，但處理時間會增加。
-* 使用已撰寫的Adobe Campaign [電子郵件範本](../content/email-sample-templates.md)，或偏好 [內建電子郵件範本](../content/email-sample-templates.md) 以建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
+* 使用Adobe Campaign編寫的電子郵件範本，或是 [內建電子郵件範本](../content/email-sample-templates.md) 以建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
 
 
 下列限制適用於「Campaign內容助理」：
