@@ -3,7 +3,7 @@ audience: end-user
 title: 使用內容助理產生影像
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%

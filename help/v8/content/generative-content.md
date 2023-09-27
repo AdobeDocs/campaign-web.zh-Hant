@@ -3,9 +3,9 @@ audience: end-user
 title: 使用內容助理的文字
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 >
 >此功能將於10月初推出。
 
+若要使用「內容小幫手」產生改善電子郵件內容，請遵循下列步驟。 您也可以使用內容助理建立完整的HTML內容，如中所述 [此頁面](generative-email.md).
+
 1. 建立及設定電子郵件傳遞後，請按一下 **[!UICONTROL 編輯內容]**.
 
    有關如何設定電子郵件傳送的詳細資訊，請參閱 [此頁面](../content/create-email-content.md).
@@ -36,7 +38,7 @@ ht-degree: 2%
 
 1. 描述您要產生的內容，以微調內容。
 
-   啟用 **[!UICONTROL 使用目前內容增強]** 內容助理的選項，用來根據您的傳遞、傳遞名稱和選取的對象來個人化新內容。
+   啟用 **[!UICONTROL 使用目前內容增強]** 「內容助理」的選項，用來根據您的傳遞、傳遞名稱和選取的對象來個人化新內容。
 
    ![](assets/text-genai-3.png)
 

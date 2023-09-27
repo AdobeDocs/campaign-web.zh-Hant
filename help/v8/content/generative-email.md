@@ -3,24 +3,28 @@ audience: end-user
 title: 使用內容助理產生電子郵件
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
 
 # 使用內容助理產生電子郵件 {#generative-email}
 
-「內容小幫手」可自動產生完整的電子郵件內容，為您節省時間並確保品質的一致性，因此可增強您通訊的影響。
-
-使用Generative AI，您可以輕鬆製作吸引人的電子郵件，引起觀眾的共鳴，讓您的溝通更有效率。
+「內容小幫手」可自動產生完整的電子郵件內容，為您節省時間並確保品質的一致性，因此可增強您通訊的影響。 使用Generative AI，您可以輕鬆製作吸引人的電子郵件，引起觀眾的共鳴，讓您的溝通更有效率。
 
 
 >[!AVAILABILITY]
 >
 >此功能將於10月初推出。
 
+
+
+
+## 使用AI產生HTML內容 {#generative-email-generate}
+
+若要使用內容助理產生電子郵件內容，請遵循下列步驟。 您也可以使用內容助理來改善現有內容，如中所述 [此頁面](generative-content.md).
 
 1. 建立及設定電子郵件傳遞後，請按一下 **[!UICONTROL 建立內容]**.
 
@@ -75,4 +79,5 @@ ht-degree: 2%
    ![](assets/email-genai-6.png)
 
 1. 當您定義內容、對象和排程時，就能準備電子郵件傳送。 [了解更多](../monitor/prepare-send.md)
+
 
