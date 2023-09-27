@@ -4,9 +4,9 @@ title: 傳送測試傳遞
 description: 瞭解如何定義並傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
+source-git-commit: 04807983b59232da89bdec3e530585a017a17ab1
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1141'
 ht-degree: 11%
 
 ---
@@ -22,24 +22,37 @@ ht-degree: 11%
 
 若要偵測訊息內容或個人化設定中可能出現的錯誤，請先傳送測試訊息至測試設定檔，再傳送給目標對象。 每次進行變更時都應傳送測試訊息，以驗證最新內容。 傳送測試傳送（先前稱為「校樣」）是驗證行銷活動和識別潛在問題的重要步驟。 測試訊息的收件者可檢查各種元素，例如連結、退出連結、影像或映象頁面，並偵測轉譯、內容、個人化設定和傳送組態中的任何錯誤。
 
-## 選取測試收件者 {#test-recipients}
+## 使用測試收件者模擬內容 {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="測試母體"
 >abstract="選取測試母體模式。"
 
-根據您使用的頻道，測試訊息可以傳送給三種型別的收件者：
+在傳送測試之前，請務必定義傳送的目標對象。 [了解更多](../audience/about-recipients.md)
 
-* [測試設定檔](#test-profiles)  — 傳送 **測試電子郵件和簡訊** 種子地址，資料庫中的其他收件者。 它們可在以下位置建立： [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-* [從主要目標替代](#substitution-profiles)  — 傳送 **測試電子郵件和簡訊** 模擬現有設定檔時，轉換為特定電子郵件地址或電話號碼。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
+若要開始測試訊息內容：
 
-* [訂閱者](#subscribers)  — 傳送 **測試推播通知** 新增至資料庫的虛擬訂閱者。 就像測試設定檔一樣，它們可以在以下位置建立： [!DNL Campaign] 主控台進入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+1. 編輯電子郵件或簡訊傳送的內容。
+1. 按一下 **[!UICONTROL 模擬內容]** 按鈕。
+1. 按一下 **[!UICONTROL 測試]** 按鈕以傳送測試訊息。
 
-若要選取測試傳送的收件者，請根據您要使用的設定檔型別，依照下列步驟操作。
+   ![](assets/simulate-test-button-email.png)
 
-### 測試設定檔 {#test-profiles}
+1. 選取測試收件者。
+
+   根據訊息通道，測試訊息可以傳送給下列型別的收件者：
+
+   * 對於簡訊與電子郵件，您可以使用 [測試設定檔](#test-profiles)，即資料庫中的其他特定收件者。 這些收件者會建立於 [!DNL Campaign] 使用者端主控台。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+
+   * 對於簡訊與電子郵件，您也可以使用 [從主要目標替代](#substitution-profiles) 模式：將測試訊息傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
+
+   * 對於推送訊息，您可以使用 [訂閱者](#subscribers)，即新增至資料庫的虛擬訂閱者。 它們是在下列位置建立的： [!DNL Campaign] 主控台。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+
+   每種模式的詳細設定如下。
+
+## 使用測試設定檔 {#test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
@@ -57,11 +70,9 @@ ht-degree: 11%
 >abstract="檔案格式必須與原始檔案相同。<br/>支援的檔案格式：txt、csv。檔案大小上限：15MB。使用第一行作為欄標題。"
 
 
-測試設定檔是種子地址，是資料庫中的其他收件者。 它們可在以下位置建立： [!DNL Adobe Campaign] 將使用者端主控台移入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 將測試訊息傳送至種子地址的步驟詳述如下。
+測試設定檔是種子地址，是資料庫中的其他收件者。 它們可在以下位置建立： [!DNL Adobe Campaign] 使用者端主控台。 將測試訊息傳送至種子地址的步驟詳述如下。
 
-1. 瀏覽至電子郵件或簡訊傳送的編輯內容畫面，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。
-
-1. 按一下 **[!UICONTROL 測試]** 按鈕。
+1. 編輯傳送的內容，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。 然後按一下 **[!UICONTROL 測試]** 按鈕。
 
    >[!NOTE]
    >
@@ -83,15 +94,12 @@ ht-degree: 11%
 
 1. 選取測試設定檔後，您可以 [傳送測試傳遞](#send-test).
 
-### 替代設定檔 {#substitution-profiles}
+## 替代設定檔資料 {#substitution-profiles}
 
-若要在顯示資料時傳送測試電子郵件或簡訊至特定的電子郵件地址或電話號碼，資料來源為 [!DNL Adobe Campaign] 資料庫，請使用替代設定檔，如下所述：
+使用設定檔替代，將測試訊息傳送至特定的電子郵件地址或電話號碼，同時顯示來自 [!DNL Adobe Campaign] 資料庫。 請依照下列步驟以執行此操作：
 
-1. 在傳送測試之前，請務必定義傳送的目標對象。 [了解更多](../audience/about-recipients.md)
 
-1. 瀏覽至電子郵件或簡訊傳送的編輯內容畫面，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。
-
-1. 按一下 **[!UICONTROL 測試]** 按鈕。
+1. 編輯傳送的內容，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。 然後按一下 **[!UICONTROL 測試]** 按鈕。
 
    ![](assets/simulate-test-button-email.png)
 
@@ -119,13 +127,11 @@ ht-degree: 11%
 
 1. 選取替代設定檔後，您可以 [傳送測試傳遞](#send-test).
 
-### 訂閱者 {#subscribers}
+## 傳送測試給訂閱者 {#subscribers}
 
 使用推播通知時，測試傳送只能傳送給應用程式的訂閱者。 請依照下列步驟進行選取。
 
-1. 瀏覽至傳送的編輯內容畫面，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。
-
-1. 按一下 **[!UICONTROL 測試]** 按鈕。
+1. 編輯傳送的內容，然後按一下 **[!UICONTROL 模擬內容]** 按鈕。 然後按一下 **[!UICONTROL 測試]** 按鈕。
 
    ![](assets/simulate-test-button-push.png)
 
