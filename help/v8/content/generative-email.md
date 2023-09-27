@@ -3,9 +3,9 @@ audience: end-user
 title: 使用內容助理產生電子郵件
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 2%
 
 ---
@@ -14,15 +14,10 @@ ht-degree: 2%
 
 「內容小幫手」可自動產生完整的電子郵件內容，為您節省時間並確保品質的一致性，因此可增強您通訊的影響。 使用Generative AI，您可以輕鬆製作吸引人的電子郵件，引起觀眾的共鳴，讓您的溝通更有效率。
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->此功能將於10月初推出。
+>在開始使用此功能之前，請先閱讀相關的 [護欄和限制](generative-gs.md#guardrails-and-limitations).
 
-
-
-
-## 使用AI產生HTML內容 {#generative-email-generate}
 
 若要使用內容助理產生電子郵件內容，請遵循下列步驟。 您也可以使用內容助理來改善現有內容，如中所述 [此頁面](generative-content.md).
 

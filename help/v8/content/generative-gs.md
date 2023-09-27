@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用內容助理
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: 23d9007f0f3dde942470d86cfd4d18821540ec25
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 14%
+source-wordcount: '349'
+ht-degree: 13%
 
 ---
 
@@ -22,9 +22,8 @@ ht-degree: 14%
 
 此功能可自動產生完整的電子郵件內容，以節省時間並確保一致的品質。 使用Generative AI，您可以輕鬆建立吸引人的電子郵件，提高溝通的效率和效益。
 
->[!AVAILABILITY]
->
->此功能將於10月初推出。
+您可在電子郵件中使用「促銷活動內容助理」，以： [產生影像](generative-image.md)， [產生文字內容](generative-content.md)， [產生完整的HTML內容](generative-email.md).
+
 
 ## 護欄和限制 {#generative-guardrails}
 

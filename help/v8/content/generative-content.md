@@ -3,9 +3,9 @@ audience: end-user
 title: 使用內容助理的文字
 description: 開始使用內容助理
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 2%
 
 ---
@@ -17,12 +17,11 @@ ht-degree: 2%
 
 內容助理可以建議更可能引起觀眾共鳴的不同內容，協助您最佳化傳送的影響。
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->此功能將於10月初推出。
+>在開始使用此功能之前，請先閱讀相關的 [護欄和限制](generative-gs.md#guardrails-and-limitations).
 
-若要使用「內容小幫手」產生改善電子郵件內容，請遵循下列步驟。 您也可以使用內容助理建立完整的HTML內容，如中所述 [此頁面](generative-email.md).
+若要使用內容助理產生和改善電子郵件內容，請遵循下列步驟。 您也可以使用內容助理建立完整的HTML內容，如中所述 [此頁面](generative-email.md).
 
 1. 建立及設定電子郵件傳遞後，請按一下 **[!UICONTROL 編輯內容]**.
 
@@ -42,7 +41,7 @@ ht-degree: 2%
 
    ![](assets/text-genai-3.png)
 
-1. 選取 **[!UICONTROL 上傳檔案]** 如果您想要新增任何品牌資產，其中包含的內容可向內容助理提供其他內容。
+1. 選取 **[!UICONTROL 上傳檔案]** 新增任何品牌資產，其中包含可在「內容助理」中提供額外內容的內容。
 
    您也可以按一下 **[!UICONTROL 上傳的內容]** 以尋找先前更新的檔案。 請注意，上傳的內容僅供目前使用者重複使用。
 
