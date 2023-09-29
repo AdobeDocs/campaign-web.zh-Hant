@@ -3,7 +3,7 @@ audience: end-user
 title: 推播頻道的行銷活動報表
 description: 瞭解推播頻道的行銷活動報表
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 4%
@@ -23,6 +23,9 @@ ht-degree: 4%
 >abstract="此 **傳遞概覽** 報告提供關鍵績效指標(KPI)，用於提供關於訪客如何參與推播通知傳送的詳細資訊。"
 
 此 **[!UICONTROL 傳遞概覽]** 報告提供關鍵績效指標(KPI)，用於提供關於訪客如何參與推播通知傳送的詳細資訊。 量度詳情如下。
+
+![](assets/campaign-reporting-push-summary.png)
+
 
 +++進一步瞭解推播行銷活動報告量度。
 
@@ -46,6 +49,9 @@ ht-degree: 4%
 
 此 **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料。 量度詳情如下。
 
+![](assets/campaign-reporting-push-target.png)
+
+
 +++進一步瞭解推播行銷活動報告量度。
 
 * **[!UICONTROL 初始對象]**：目標收件者總數。
@@ -64,6 +70,9 @@ ht-degree: 4%
 >abstract="此 **執行統計資料** 表格會詳細說明您的傳送是否成功：要傳送的訊息、成功、錯誤和新隔離。"
 
 此 **[!UICONTROL 執行統計資料]** 表格詳細說明您的傳送是否成功。 量度詳情如下。
+
+![](assets/campaign-reporting-push-exec.png)
+
 
 +++進一步瞭解推播行銷活動報告量度。
 
@@ -85,6 +94,8 @@ ht-degree: 4%
 >abstract="此 **產生的點按資料流** 此表格顯示與收件者與傳遞互動的相關可用資料。"
 
 此 **[!UICONTROL 產生的點按資料流]** 表格會顯示與收件者與傳遞互動的相關資料。 量度詳情如下。
+
+![](assets/campaign-reporting-push-clicks.png)
 
 +++進一步瞭解推播行銷活動報告量度。
 
