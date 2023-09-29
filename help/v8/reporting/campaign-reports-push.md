@@ -3,17 +3,24 @@ audience: end-user
 title: 推播頻道的行銷活動報表
 description: 瞭解推播頻道的行銷活動報表
 badge: label="Beta"
-source-git-commit: 939ac543398568bfd72392860f90226b0b21a717
+source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 3%
+source-wordcount: '479'
+ht-degree: 4%
 
 ---
 
 
 # 推播頻道的行銷活動報表 {#campaign-reports-push-channel}
 
+每個行銷活動報告都會分成不同的Widget，詳細說明行銷活動的成功和錯誤。 推播管道的報表和量度詳情如下。 瞭解如何在中存取您的行銷活動報告 [此頁面](campaign-reports.md).
+
 ## 傳遞摘要 {#delivery-summary-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_deliveries_overview"
+>title="傳遞總覽"
+>abstract="此 **傳遞概覽** 報告提供關鍵績效指標(KPI)，用於提供關於訪客如何參與推播通知傳送的詳細資訊。"
 
 此 **[!UICONTROL 傳遞概覽]** 報告提供關鍵績效指標(KPI)，用於提供關於訪客如何參與推播通知傳送的詳細資訊。 量度詳情如下。
 
@@ -31,6 +38,12 @@ ht-degree: 3%
 
 ### 初始目標對象統計資料 {#delivery-summary-push-initial-target}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_target"
+>title="初始目標對象統計資料"
+>abstract="此 **初始目標對象統計資料** 表格會顯示與收件者相關的資料"
+
 此 **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料。 量度詳情如下。
 
 +++進一步瞭解推播行銷活動報告量度。
@@ -44,6 +57,11 @@ ht-degree: 3%
 +++
 
 ### 執行統計資料 {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_exec_stats"
+>title="執行統計資料"
+>abstract="此 **執行統計資料** 表格會詳細說明您的傳送是否成功：要傳送的訊息、成功、錯誤和新隔離。"
 
 此 **[!UICONTROL 執行統計資料]** 表格詳細說明您的傳送是否成功。 量度詳情如下。
 
@@ -60,6 +78,11 @@ ht-degree: 3%
 +++
 
 ### 產生的點按資料流 {#delivery-summary-push-click-streams}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_click_streams"
+>title="產生的點按資料流"
+>abstract="此 **產生的點按資料流** 此表格顯示與收件者與傳遞互動的相關可用資料。"
 
 此 **[!UICONTROL 產生的點按資料流]** 表格會顯示與收件者與傳遞互動的相關資料。 量度詳情如下。
 

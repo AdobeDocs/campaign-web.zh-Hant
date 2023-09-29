@@ -3,9 +3,9 @@ audience: end-user
 title: 電子郵件頻道的行銷活動報告
 description: 進一步瞭解電子郵件頻道的行銷活動報告
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1546'
 ht-degree: 9%
 
 ---
@@ -13,12 +13,14 @@ ht-degree: 9%
 
 # 電子郵件頻道的行銷活動報告 {#campaign-reports-email-channel}
 
+每個行銷活動報告都會分成不同的Widget，詳細說明行銷活動的成功和錯誤。 有關電子郵件管道，報表和量度詳情如下。 瞭解如何在中存取您的行銷活動報告 [此頁面](campaign-reports.md).
+
 ## 傳遞摘要 {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="傳遞總覽"
->abstract="「傳遞總覽」可提供關鍵績效指標 (KPI)，其中包含訪客參與電子郵件傳遞的詳細資訊。"
+>abstract="此 **傳遞概覽** 提供關鍵績效指標(KPI)，用於提供關於訪客如何參與電子郵件傳送的詳細資訊。"
 
 ### 傳遞總覽 {#delivery-summary-email-ovv}
 
@@ -87,7 +89,6 @@ ht-degree: 9%
 +++
 
 ### 反應統計資料 {#delivery-summary-email-reaction-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
@@ -183,6 +184,12 @@ ht-degree: 9%
 
 ### 傳遞統計資料 {#delivery-summary-email-statistics}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_delivery_statistics_summary"
+>title="傳遞統計資料"
+>abstract="此 **傳遞統計資料** 圖表會詳細說明您的傳送成功與發生的錯誤。"
+
 此 **[!UICONTROL 傳遞統計資料]** 量度提供關鍵績效指標(KPI)，可提供所傳送電子郵件可用資料的詳細資訊。 量度詳情如下。
 
 ![](assets/campaign_report_email_7.png)
@@ -207,7 +214,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="開啟及點進率 Widget"
+>title="開啟及點進率"
 >abstract="**開啟及點進率**&#x200B;表格顯示與您的傳遞相關的收件者參與度的資料。"
 
 
@@ -253,8 +260,6 @@ ht-degree: 9%
 
 ### 造訪量最高的前 10 個連結 {#top10-campaign-report-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="造訪量最高的前 10 個連結"
@@ -286,13 +291,19 @@ ht-degree: 9%
 
 ![](assets/campaign_report_email_11.png)
 
+
 ## 使用者活動 {#user-activities-email}
 
-此  **[!UICONTROL 使用者活動]** 報告會以圖表形式顯示開啟和點按的劃分。 量度詳情如下。
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_user_activities"
+>title="使用者活動"
+>abstract="**使用者活動**&#x200B;圖以圖表的形式顯示開啟和點按數的劃分。"
 
-![](assets/campaign_report_email_12.png)
+此 **[!UICONTROL 使用者活動]** 報告會以圖表形式顯示開啟和點按的劃分。 此報表的量度詳情如下。
 
-+++進一步瞭解電子郵件促銷活動報告量度。
+![](assets/campaign_report_email_10.png){align="center"}
+
++++進一步瞭解電子郵件傳送報告量度。
 
 * **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
 
