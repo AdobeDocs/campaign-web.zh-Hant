@@ -3,28 +3,28 @@ audience: end-user
 title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 2%
+ht-degree: 37%
 
 ---
 
 # 簡訊傳遞報告 {#sms-report}
 
 >[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="簡訊傳送概覽"
->abstract="此 **簡訊傳送概覽** 提供您SMS傳送的完整概觀，提供廣泛的深入分析和特定資料。 它會提供有關您傳送的效能、效益和結果的全面資訊。"
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="報告傳送"
->abstract="此 **傳送中** 報表中的Tab鍵可讓您深入分析訪客與您傳送內容的互動，以及他們可能遇到的任何潛在錯誤。"
+>abstract="報告中的「**傳送**」標籤可讓您深入了解訪客與您傳遞的互動，以及他們可能遇到的任何潛在錯誤。"
 
-此 **簡訊傳送概覽** 提供您SMS傳送的完整概觀，提供廣泛的深入分析和特定資料。 它會提供有關您傳送的效能、效益和結果的全面資訊。
+**SMS 傳遞概觀** 呈現 SMS 傳遞的全面概觀，提供廣泛的深入見解和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。
 
 ## 傳遞摘要 {#delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="SMS 傳遞概觀"
+>abstract="**SMS 傳遞概觀** 呈現 SMS 傳遞的全面概觀，提供廣泛的深入見解和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
 
 ### 傳遞總覽 {#sms-delivery-overview}
 
@@ -50,8 +50,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
->title="簡訊目標母體"
->abstract="此 **目標母體** 圖形和表格會顯示與您的SMS對象相關的資料：要傳送的訊息和排除專案。"
+>title="SMS 目標族群"
+>abstract="**目標族群**&#x200B;圖表顯示與您的 SMS 對象相關的資料：要傳遞的訊息和排除項目。"
 
 此 **目標母體** 圖表和表格會顯示與您的對象相關的資料。 量度詳情如下。
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
 >title="推播整體統計資料"
->abstract="此 **整體統計資料** 報表會顯示已傳送SMS的資料：成功、錯誤和隔離。"
+>abstract="**整體統計資料** 報告顯示已傳送的 SMS 的資料：成功、錯誤和隔離。"
 
 此 **整體統計資料** 報表會顯示已傳送SMS訊息的資料。 量度詳情如下。
 
@@ -91,8 +91,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="簡訊整體統計資料"
->abstract="此 **排除專案** 圖形和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。"
+>title="SMS 整體統計資料"
+>abstract="**排除** 圖表顯示各種理由，禁止從目標設定檔中排除的使用者設定檔接收訊息。"
 
 
 此 **[!UICONTROL 排除專案]** 圖形和表格會顯示使用者設定檔（從目標設定檔排除）無法接收訊息的原因。 有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
@@ -103,8 +103,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="傳遞輸送量功能表"
->abstract="「傳遞輸送量」報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。"
+>title="傳遞輸送量選單"
+>abstract="傳遞輸送量報告提供有關特定期間內整個平台傳遞輸送量的詳細資訊。"
 
 此報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。
 

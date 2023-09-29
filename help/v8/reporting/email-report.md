@@ -3,9 +3,9 @@ audience: end-user
 title: 以電子郵件傳送報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2254'
 ht-degree: 22%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="傳遞輸送量 Widget"
+>title="傳遞總處理能力"
 >abstract="**傳遞輸送量**&#x200B;報告提供有關特定期間內整個平台傳遞輸送量的詳細資訊。"
 
 此報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。
@@ -118,7 +118,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="廣播統計資料 Widget"
+>title="廣播統計資料"
 >abstract="此 **廣播統計資料** 報表包含每個網域可能遇到的錯誤的可用資料。"
 
 **[!UICONTROL 廣播統計資料]**&#x200B;表包含每個網域可能發生之錯誤的可用資料。量度詳情如下。
@@ -235,7 +235,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="開啟及點進率 Widget"
+>title="開啟及點進率"
 >abstract="**開啟及點進率**&#x200B;表格顯示與您的傳遞相關的收件者參與度的資料。"
 
 
@@ -306,7 +306,7 @@ ht-degree: 22%
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>id="acw_delivery_reporting_urls_click_breakdown"
 >title="特定期間的點按劃分"
 >abstract="此 **一段時間內點按的劃分** 圖表顯示每個連結的收件者行為可用資料。"
 

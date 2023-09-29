@@ -3,30 +3,30 @@ audience: end-user
 title: 推播傳遞報告
 description: 瞭解如何存取及使用推播傳遞報告
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 2%
+ht-degree: 48%
 
 ---
 
 # 推播傳遞報告 {#push-report}
 
 >[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="推播傳遞報告摘要"
->abstract="此 **推播傳遞總覽** 提供您推送傳送的完整概覽，包含廣泛的深入分析和特定資料。 它會提供有關您傳送的效能、效益和結果的全面資訊。"
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="報告傳送"
->abstract="他 **傳送中** 報表中的Tab鍵可讓您深入分析訪客與您傳送內容的互動，以及他們可能遇到的任何潛在錯誤。"
+>abstract="報告中的「**傳送**」標籤可讓您深入了解訪客與您傳遞的互動，以及他們可能遇到的任何潛在錯誤。"
 
 此 **推播傳遞報告** 提供推送管道的完整概觀，提供廣泛的深入分析和特定資料。 它提供關於每個傳送的效能、有效性和結果的全面資訊。
 
 ## 推播摘要 {#push-summary}
 
 ### 傳遞總覽 {#push-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_report_overview"
+>title="推播傳遞報告摘要"
+>abstract="**推播傳遞概觀**&#x200B;呈現推播傳遞的全面概觀，提供廣泛的深入見解和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
 
 此 **[!UICONTROL 傳遞概覽]** 報表提供關鍵績效指標(KPI)，用於提供有關訪客如何與您的推送訊息互動的詳細資訊。
 
@@ -46,13 +46,12 @@ ht-degree: 2%
 
 ### 目標族群 {#push-delivery-targeted-population}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
->title="推播目標母體"
->abstract="此 **目標母體** 圖形和表格會顯示與您的推送訊息對象相關的資料：要傳送的訊息和排除專案。"
+>title="推播目標族群"
+>abstract="**目標族群**&#x200B;圖表顯示與您的推播傳訊對象相關的資料：要傳遞的訊息和排除項目。"
 
-此 **目標母體** 圖表和表格會顯示與您的對象相關的資料：要傳送的訊息和排除專案。 量度詳情如下。
+**目標族群**&#x200B;圖表顯示與您的 對象相關的資料：要傳遞的訊息和排除項目。量度詳情如下。
 
 ![](assets/reporting_push_4.png)
 
@@ -70,9 +69,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
 >title="推播整體統計資料"
->abstract="此 **整體統計資料** 報表會顯示已傳送推播通知的資料：成功、錯誤和隔離。"
+>abstract="**整體統計資料**&#x200B;報告顯示已傳送的推播通知的資料：成功、錯誤和隔離。"
 
-此 **整體統計資料** 報表會顯示已傳送推播通知的資料：成功、錯誤和隔離。 量度詳情如下。
+**整體統計資料**&#x200B;報告顯示已傳送的推播通知的資料：成功、錯誤和隔離。量度詳情如下。
 
 ![](assets/reporting_push_5.png)
 
@@ -92,9 +91,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
 >title="推播整體統計資料"
->abstract="此 **排除專案** 圖形和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。"
+>abstract="**排除**&#x200B;圖表顯示各種理由，禁止從目標設定檔中排除的使用者設定檔接收訊息。"
 
-此 **[!UICONTROL 排除專案]** 圖形和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。 有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+**[!UICONTROL 排除]**&#x200B;圖表顯示各種理由，禁止從目標設定檔中排除的使用者設定檔接收訊息。有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
 ![](assets/reporting_push_6.png)
@@ -104,8 +103,8 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"
 >title="傳遞輸送量報告"
->abstract="「傳遞輸送量」報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。"
+>abstract="傳遞輸送量報告提供有關特定期間內整個平台傳遞輸送量的詳細資訊。"
 
-此 **傳遞總處理能力** 報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。
+**傳遞輸送量**&#x200B;報告提供有關特定期間內整個平台傳遞輸送量的詳細資訊。用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。
 
 ![](assets/reporting_push_2.png)

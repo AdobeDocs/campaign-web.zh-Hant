@@ -3,7 +3,7 @@ audience: end-user
 title: 電子郵件頻道的行銷活動報告
 description: 進一步瞭解電子郵件頻道的行銷活動報告
 badge: label="Beta"
-source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 9%
@@ -282,7 +282,7 @@ ht-degree: 9%
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_campaign_urls_clickstreams_breakdown"
+>id="acw_delivery_campaign_urls_click_breakdown"
 >title="特定期間的點按劃分"
 >abstract="此 **一段時間內點按的劃分** 圖表顯示每個連結的收件者行為可用資料。"
 
