@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 8ddda0d230598a58e1b611bdf75e2322e64c529d
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 88%
+source-wordcount: '434'
+ht-degree: 85%
 
 ---
 
@@ -131,4 +131,8 @@ ht-degree: 88%
       + [以電子郵件寄送傳遞報告 ](reporting/email-report.md)
       + [推播傳遞報告 ](reporting/push-report.md)
       + [以簡訊傳送傳遞報告](reporting/sms-report.md)
-   + [行銷活動報告](reporting/campaign-reports.md)
+   + 行銷活動報告 {#campaign-report}
+      + [存取行銷活動報表](reporting/campaign-reports.md)
+      + [以電子郵件傳送行銷活動報告](reporting/campaign-reports-email.md)
+      + [推播行銷活動報告](reporting/campaign-reports-push.md)
+      + [簡訊行銷活動報告](reporting/campaign-reports-sms.md)
