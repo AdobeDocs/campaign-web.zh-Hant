@@ -4,10 +4,10 @@ title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
+source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 39%
+source-wordcount: '596'
+ht-degree: 38%
 
 ---
 
@@ -27,6 +27,14 @@ ht-degree: 39%
 >id="acw_audience_fromfile_formatting"
 >title="格式化參數"
 >abstract="檢查檔案的格式化參數。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_preview"
+>title="預覽您的檔案"
+>abstract="檢查檔案預覽。 此畫面只會顯示最多30筆記錄。"
+
+
 
 您無法從介面直接將設定檔上傳至Campaign，但您可以鎖定儲存在外部檔案中的設定檔。 設定檔不會新增至資料庫，但輸入檔案中的所有欄位都可用於 [個人化](../personalization/gs-personalization.md). 支援的檔案格式包括：文字 (TXT) 和逗號分隔值 (CSV)。
 
@@ -62,7 +70,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="從檔案載入對象"
->abstract="支援的檔案格式為 TXT 和 CSV。 使用第一行作為欄標題。讓您的檔案格式符合以下連結所提供的檔案範例。"
+>abstract="支援的檔案格式為 TXT 和 CSV。使用第一行作為欄標題。讓您的檔案格式符合以下連結所提供的檔案範例。"
 
 支援的格式為 TXT 和 CSV。第一行是欄標題。
 
