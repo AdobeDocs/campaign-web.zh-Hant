@@ -3,10 +3,10 @@ audience: end-user
 title: 行銷活動報告
 description: 瞭解如何存取及使用行銷活動報告
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 19%
+source-wordcount: '85'
+ht-degree: 12%
 
 ---
 
@@ -28,10 +28,13 @@ ht-degree: 19%
 
 ![](assets/campaign_report_email_13.png)
 
+或者，您可以使用三個點 **更多動作** 按鈕來設定促銷活動清單中促銷活動名稱的旁邊，如下所示：
+
+![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
 行銷活動報告分為不同的Widget，詳細說明行銷活動的成功和錯誤。
 
-行銷活動報告頁面會顯示以下索引標籤：
+各管道的完整報表和相關量度清單可在下列頁面取得：
 
 * [電子郵件通道](campaign-reports-email.md)
 * [簡訊管道](campaign-reports-sms.md)
