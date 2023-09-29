@@ -2,11 +2,11 @@
 audience: end-user
 title: 開始使用內容助理
 description: 開始使用內容助理
-badge: label="Beta"
-source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
+badge: label="Alpha"
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 13%
+source-wordcount: '379'
+ht-degree: 12%
 
 ---
 
@@ -18,12 +18,22 @@ ht-degree: 13%
 >title="內容助理"
 >abstract="精心設計和個人化傳遞後，您可以使用內容助理來強化內容。此功能可讓您透過描述您想產生的內容來進行微調，從而簡化個人化和改善內容的流程。"
 
+
+>[!CONTEXTUALHELP]
+>id="acw_generation_context"
+>title="定義內容產生的內容"
+>abstract="若要使用選取的內容作為內容產生的輸入，請啟動 **使用目前的內容增強** 切換。 您也可以上傳您的品牌資產，以便作為來源使用。 如果您未使用選取的內容，則必須上傳及選取品牌資產。"
+
 內容助理由創作AI提供技術支援，是改善電子郵件內容的寶貴工具。 它簡化個人化和內容增強，將您的電子郵件傳遞最佳化，以便與您的對象產生更好的共鳴。
 
 此功能可自動產生完整的電子郵件內容，以節省時間並確保一致的品質。 使用Generative AI，您可以輕鬆建立吸引人的電子郵件，提高溝通的效率和效益。
 
-您可在電子郵件中使用「促銷活動內容助理」，以： [產生影像](generative-image.md)， [產生文字內容](generative-content.md)， [產生完整的HTML內容](generative-email.md).
+<!--
+You can the Campaign Content Assistant in your emails to: [generate images](generative-image.md), [generate text content](generative-content.md), [generate the full HTML content](generative-email.md).-->
 
+>[!NOTE]
+>
+>此功能在其Alpha版本中提供，且可能會有所變更，恕不另行通知。 它將在10月初啟用。
 
 ## 護欄和限制 {#generative-guardrails}
 
@@ -42,31 +52,34 @@ ht-degree: 13%
 * GenAI內容可能並不一定都準確：請分享您的意見回饋，以便我們的工程師可以調整模型
 * 您可以上傳多個品牌資產，但只能針對特定世代使用一個品牌資產
 
+
+<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-content.md">
-<img alt="文字產生" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="Text generation" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>使用內容助理產生文字</strong></a>
+<a href="generative-content.md"><strong>Text generation with the Content Assistant</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="影像產生" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="Image generation" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>使用內容助理產生影像</strong>
+<div><a href="generative-image.md"><strong>Image generation with the Content Assistant</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-email.md">
-<img alt="電子郵件產生" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="Email generation" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>使用內容助理產生電子郵件</strong></a>
+<a href="generative-email.md"><strong>Email generation with the Content Assistant</strong></a>
 </div>
 <p></td>
 </tr></table>
+-->
 
