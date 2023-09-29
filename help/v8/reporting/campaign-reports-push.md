@@ -3,9 +3,9 @@ audience: end-user
 title: 推播頻道的行銷活動報表
 description: 瞭解推播頻道的行銷活動報表
 badge: label="Beta"
-source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
+source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '507'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 錯誤]**：與已傳送訊息總數相關的傳送和自動回訪處理期間累計的錯誤總數。
 
-* **[!UICONTROL 不同點按次數]**：在傳遞中至少點選一次的不同收件者總數。
+* **[!UICONTROL 點按總數]**：在傳遞中至少點選一次的不同收件者總數。
 
 +++
 
@@ -82,7 +82,9 @@ ht-degree: 4%
 
 * **[!UICONTROL 錯誤]**：與要傳送的訊息數量相關的傳送和自動復原處理期間累計的錯誤總數。
 
-* **[!UICONTROL 新隔離]**：與要傳送的訊息數量相關的傳送失敗（使用者未知、網域無效）後隔離的地址總數。
+* **[!UICONTROL 新隔離]**：傳送失敗後隔離的地址總數（無效註冊、訊息拒絕、裝載錯誤，例如） 相對於要傳遞的訊息數量。
+
+  推播通知錯誤型別列於 [Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -99,9 +101,9 @@ ht-degree: 4%
 
 +++進一步瞭解推播行銷活動報告量度。
 
-* **[!UICONTROL 不同點按次數]**：在傳遞中至少點選一次的不同收件者總數。
+* **[!UICONTROL 不重複點按]**：在傳遞中至少點選一次的不同收件者總數。
 
-* **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
+* **[!UICONTROL 點按總數]**：傳遞中連結的點按總數。
 
 * **[!UICONTROL 反應度]**：已點按傳送的目標收件者數目與已開啟傳送的目標收件者估計數目之間的比率。
 
