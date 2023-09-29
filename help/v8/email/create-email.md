@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="適用於電子郵件內容的 Gen AI"
->abstract="我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。 透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水平。"
+>abstract="我們的 Gen AI 技術利用先進的演算法產生高度吸引人的個人化內容。透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水準。"
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
@@ -32,8 +32,8 @@ ht-degree: 64%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="定義您的電子郵件屬性"
->abstract="這些屬性是常見的傳遞參數，可幫助您對傳遞進行命名和分類。其他設定是選用的。 如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充結構描述，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
+>title="定義電子郵件屬性"
+>abstract="這些屬性是常見的傳遞參數，可幫助您對傳遞進行命名和分類。附加設定是選擇性的。如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充結構描述，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
 
 您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的內容中建立電子郵件。 以下步驟詳細說明獨立（一次性）電子郵件傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟為中的詳細資訊 [本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -72,8 +72,8 @@ ht-degree: 64%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="選取傳送的對象"
->abstract="為您的行銷電子郵件選擇最佳對象。您可以選擇現有對象(已在Campaign v8執行個體中或從Adobe Experience Platform中定義)，使用規則產生器建立新對象，或上傳包含對象的檔案。 未針對以下專案啟用控制組： **從檔案選取** 選項，反之亦然。"
+>title="選取傳遞對象"
+>abstract="為您的行銷訊息選取最佳對象。您可以選擇現有對象 (已在 Campaign v8 執行個體中或從 Adobe Experience Platform 中定義)、使用規則產生器建立新對象，或上傳包含您對象的檔案。「**從檔案中選取**」選項未啟用控制組，反之亦然。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="選取主要對象"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="設定控制組"
 

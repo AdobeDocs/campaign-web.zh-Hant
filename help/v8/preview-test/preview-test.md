@@ -16,9 +16,9 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="預覽和測試您的訊息"
->abstract="定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。 "
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="預覽訊息內容。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="傳送測試傳遞"
+>abstract="定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=zh-Hant" text="預覽訊息內容。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-Hant" text="傳送測試傳遞"
 
 定義您的傳送內容後，您可以使用測試設定檔，在傳送訊息之前進行預覽和測試。
 

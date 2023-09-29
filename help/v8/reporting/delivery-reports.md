@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 91d61dffbc66590a0326ba3ac3c8b9d8cece91de
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 48%
+ht-degree: 57%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="重新載入"
->abstract="按一下 **重新載入** 按鈕以擷取最後的量度，並重新整理資料。"
+>abstract="按一下&#x200B;**重新載入**&#x200B;按鈕可以擷取最後的量度並重新整理資料。"
 
 Adobe Campaign 提供多種報告類型，每個傳遞均可存取。這些報告可讓您在內建儀表板測量和視覺化訊息的影響和效能。
 

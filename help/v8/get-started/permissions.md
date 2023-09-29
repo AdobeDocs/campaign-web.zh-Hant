@@ -4,7 +4,7 @@ title: Campaign Web 中的權限管理
 description: 進一步了解 Campaign Web v8 的權限
 badge: label="Beta"
 source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="此對象為唯讀"
->abstract="您沒有編輯此對象的權限。 如果需要，請聯絡管理員為您授予存取權限。"
+>abstract="您沒有編輯此對象的權限。如果需要，請聯絡管理員為您授予存取權限。"
 
 
 >[!CONTEXTUALHELP]

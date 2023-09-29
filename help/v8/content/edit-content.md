@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 34%
+ht-degree: 50%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="定義電子郵件內容"
->abstract="此 **編輯內容** 熒幕可讓您定義訊息的基本元素，例如寄件者地址和主旨列，執行新增附件或優惠方案等其他動作，並存取電子郵件設計工具，為您的訊息提供完美的外觀。"
+>abstract="「**編輯內容**」畫面可讓您定義訊息的基本元素 (例如寄件者地址和主旨行)、執行其他操作 (例如新增附件或優惠)，以及存取電子郵件設計工具來美化訊息的外觀。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="設定電子郵件屬性"
->abstract="此 **基本詳細資訊** 區段可讓您更新寄件者的地址和回覆地址，並使用運算式編輯器定義主旨行。"
+>abstract="「**基本詳細資料**」區段可讓您更新寄件者地址和回覆地址，並使用運算式編輯器定義主旨行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="將檔案附加至電子郵件"
->abstract="選取一個或多個檔案插入您的郵件中。為避免出現效能問題，建議每封電子郵件不要包含多個附件。"
+>title="將檔案附加到電子郵件"
+>abstract="選取一個或多個檔案來插入訊息中。為避免出現效能問題，建議每封電子郵件不要包含多個附件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="編輯追蹤"
->abstract="預設會啟用傳送的追蹤，這表示會追蹤訊息內容中包含的所有連結。 您可以從此處停用此選項。"
+>abstract="預設會啟用傳遞追蹤，這表示系統會追蹤訊息內容中包含的所有連結。您可以從此處停用此選項。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="新增連結和追蹤訊息"
 
 電子郵件 **[!UICONTROL 編輯內容]** 畫面可讓您：

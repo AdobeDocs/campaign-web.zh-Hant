@@ -7,7 +7,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe Campaign Web 讓您能夠跨多個管道 (例如電子郵件、簡訊或�
 
 下列活動僅限於整理和執行工作流程。這些活動的主要任務是協調其他活動：
 
-* 此 [排程器](scheduler.md) 活動可讓您排程工作流程何時開始。
+* 「[排程器](scheduler.md)」活動可讓您安排工作流程何時開始。
 * [合併連結](and-join.md)活動可讓您同步處理工作流程的多個執行分支。
 * 「**結束**」活動可讓您以圖形方式標記工作流程的終點。此活動並不會造成任何功能性影響，因此為選用。
 * [分支](fork.md)活動可讓您建立傳出轉變，以同時啟動多個活動。

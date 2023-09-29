@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 70%
+ht-degree: 75%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
 >title="行銷活動中的傳遞清單"
->abstract="「**傳遞**」標籤會列出連結至目前行銷活動的所有傳遞。按一下傳遞的名稱以進行編輯。 使用「建立傳送」按鈕為此行銷活動新增傳送。"
+>abstract="「**傳遞**」標籤會列出連結至目前行銷活動的所有傳遞。按一下傳遞的名稱以進行編輯。使用「建立傳遞」按鈕為此行銷活動新增傳遞。"
 
 在行銷活動清單的「**瀏覽**」標籤中，按一下任一行銷活動即可顯示其詳細資料。
 

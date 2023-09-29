@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment"
 >title="擴充活動"
->abstract="此 **擴充** 活動可讓您使用資料庫的其他資訊來增強目標資料。 這通常會用於分段活動之後的工作流程。"
+>abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的工作流程。"
 
 
 >[!CONTEXTUALHELP]
@@ -27,7 +27,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
 >title="擴充資料"
->abstract="選取要用來擴充工作流程的資料。 您可以選取兩種擴充資料：目標維度的單一擴充屬性，或集合連結，此連結在表格之間具有1-N基數。"
+>abstract="選取用於擴充工作流程的資料。您可以選取兩種類型的擴充資料：目標維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
 
 「**擴充**」活動是一種「**目標定位**」活動。此活動可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的工作流程。
 

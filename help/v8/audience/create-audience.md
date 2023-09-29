@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="對象"
->abstract="您可以從此畫面存取傳遞中可鎖定目標的所有對象清單。 按一下 **建立** 使用各種工作流程活動(例如 **Split** 或 **排除**."
+>abstract="從此畫面中，您可以存取做為傳遞目標之所有對象的清單。按一下&#x200B;**建立**，使用各種工作流程活動 (例如&#x200B;**分割**&#x200B;或&#x200B;**排除**)，將新對象建立到視覺畫布中。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

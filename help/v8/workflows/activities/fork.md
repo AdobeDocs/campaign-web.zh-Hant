@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 66%
+ht-degree: 97%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="建立活動轉變分支"
->abstract="依預設，會使用建立兩個轉變 **分支** 活動。 按一下 **新增轉變** 按鈕以定義其他出站轉變，並輸入其標籤。"
+>title="分支活動轉變"
+>abstract="依預設，透過&#x200B;**分支**&#x200B;活動建立二個轉變。按一下&#x200B;**新增轉變**&#x200B;按鈕以定義額外的傳出轉變，並輸入其標籤。"
 
-此 **分支** 活動是 **流量控制** 活動。 它可讓您建立出站轉變，以同時啟動多個活動。
+「**分支**」活動是一種&#x200B;**流程控制**&#x200B;活動。其可讓您建立出站轉變，以同時啟動多個活動。
 
 ## 設定分叉活動{#fork-configuration}
 

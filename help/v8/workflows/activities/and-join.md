@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 82%
+ht-degree: 98%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
->title="合併連結活動"
->abstract="**合併連結**&#x200B;活動可讓您同步處理工作流程的多個執行分支。一旦所有前述活動完成後，就會觸發此動作。 這可讓您在繼續執行工作流程之前，先確定某些活動已完成。"
+>title="AND-join 活動"
+>abstract="**合併連結**&#x200B;活動可讓您同步處理工作流程的多個執行分支。一旦所有前面的活動完成，就會觸發此活動。這讓您可以在確保特定活動已完成後再繼續執行工作流程。"
 
 「**合併連結**」活動是一種&#x200B;**流程控制**&#x200B;活動。此活動可讓您同步處理工作流程的多個執行分支。
 
@@ -27,8 +27,8 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="設定合併連結活動"
->abstract="選取您要加入的活動。 在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變母體。"
+>title="設定 AND-join 活動"
+>abstract="選取您要參加的活動。在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變母體。"
 
 請按照以下步驟設定「**合併連結**」活動：
 

@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
 >title="分割活動"
->abstract="此 **Split** 活動可讓您根據不同的選取條件（例如篩選規則或母體大小），將傳入母體劃分為多個子集。"
+>abstract="**分割**&#x200B;活動可讓您根據不同選擇標準 (例如篩選規則或族群大小) 將傳入族群分割到多個子集。"
 
 
 **分割**&#x200B;活動是一種&#x200B;**目標定位**&#x200B;活動，可讓您根據不同選擇標準 (例如篩選規則或母體大小) 將傳入母體分割到多個子集。

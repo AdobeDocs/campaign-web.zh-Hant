@@ -9,7 +9,7 @@ exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1020'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="傳遞範本"
->abstract="使用傳遞範本將創意外觀和感覺標準化，以便更快速地執行和啟動行銷活動"
+>abstract="使用傳遞範本將創意外觀和風格標準化，以便更快速地執行和啟動行銷活動"
 
 為了加快並改善設計流程，您可以建立傳遞範本，以在行銷活動中輕鬆重複使用自訂內容和設定。 此功能可讓您標準化創意外觀和風格，以便更快速地執行和啟動行銷活動。
 

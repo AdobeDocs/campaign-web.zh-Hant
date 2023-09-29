@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 33%
+ht-degree: 42%
 
 ---
 
@@ -25,13 +25,13 @@ Adobe Campaign v8網頁版可讓您使用在主控台中建立的傳送選件，
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="定義優惠引數"
->abstract="透過定義優惠空間（可選擇類別和主題），設定應向收件者建議的優惠，並指定要插入傳遞中的優惠方案數量。"
+>title="定義優惠參數"
+>abstract="透過定義優惠方案空間 (可選的類別和主題) 來設定應向收件者建議哪些優惠，並指定要插入到傳遞中的優惠數量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="設定優惠方案進階設定"
->abstract="您可以啟用排除沒有足夠合格優惠的收件者，並選擇當其中一個主張不存在時如何處理訊息。"
+>title="設定優惠的進階設定"
+>abstract="您可以啟用排除收件者功能來排除未符合資格優惠的收件者，並選擇當某方案不存在時處理訊息的方式。"
 
 Adobe Campaign可讓您向指定連絡人建議一或多個特定優惠方案。 互動模組，可讓您在互動期間透過建議單一或數個特定優惠方案，即時回應指定的聯絡人。 這些優惠方案可以是簡單的通訊訊息、一或多個產品或服務的特別優惠方案。
 

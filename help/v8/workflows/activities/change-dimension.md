@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 1%
+ht-degree: 30%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="產生補充"
->abstract="您可以產生具有剩餘母體的其他出站轉變，該母體已排除為重複。 若要這麼做，請開啟 **產生補充** 選項"
+>title="產生補充集"
+>abstract="您可以使用剩餘族群 (其已因重複而排除) 產生額外的出站轉變。若要這樣做，請開啟「**產生補充集**」選項"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="變更維度活動"
->abstract="此活動可讓您在建立對象時變更目標維度。 它會根據資料範本和輸入維度來移動軸。 例如，您可以從「合約」維度切換至「客戶」維度。"
+>abstract="此活動可讓您在建立對象時變更目標定位維度。其會根據資料範本和輸入維度來移動軸。例如，您可以從「合約」維度切換到「客戶」維度。"
 
-此 **變更維度** 活動是 **目標定位** 活動。 此活動可讓您在建立工作流程時變更目標維度。 它會根據資料範本和輸入維度來移動軸。 [進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)
+此 **變更維度** 活動是 **目標定位** 活動。 此活動可讓您在建立工作流程時變更目標維度。 其會根據資料範本和輸入維度來移動軸。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)
 
 例如，您可以將工作流程的目標維度從「收件者」切換至「訂閱者應用程式」，以傳送推播通知給目標收件者。
 

@@ -5,7 +5,7 @@ description: 了解如何開始使用工作流程
 badge: label="Beta"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="更多行銷活動工作流程活動"
->abstract="發掘自動化和最佳化的新可能性，讓您能夠建立更加動態和個人化的客戶歷程。 從進階細分到條件式觸發器，我們的附加工作流程活動能讓您傳遞針對性訊息並提高行銷活動績效。"
+>abstract="發掘自動化和最佳化的新可能性，讓您能夠建立更加動態和個人化的客戶歷程。從進階細分到條件式觸發器，我們的附加工作流程活動能讓您傳遞針對性訊息並提高行銷活動績效。"
 
 ## 什麼是工作流程？
 

@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 10%
+ht-degree: 30%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
 >title="排程器活動"
->abstract="此 **排程器** 活動可讓您排程工作流程何時開始。 此活動應視為已排程的開始。 它只能用作工作流程的第一個活動。"
+>abstract="「**排程器**」活動可讓您安排工作流程何時開始。此活動應視為已排程的開始。其只能當作工作流程的第一個活動。"
 
 
-此 **排程器** 活動是 **流量控制** 活動。 它可讓您排程工作流程何時開始。 此活動應視為已排程的開始。 它只能用作工作流程的第一個活動。
+此 **排程器** 活動是 **流量控制** 活動。 它可讓您排程工作流程何時開始。 此活動應視為已排程的開始。其只能當作工作流程的第一個活動。
 
 ## 最佳實務{#scheduler-best-practices}
 
@@ -33,13 +33,13 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
 >title="排程器有效性"
->abstract="您可以為排程器定義有效期間。 可為永久性（預設），或直到特定日期前有效。"
+>abstract="您可以定義排程器的有效期限。它可以是永久的 (預設)，也可以在特定日期之前有效。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
 >title="排程器選項"
->abstract="定義排程器的頻率。 它可以在特定的時間執行，一天、周或月執行一次或數次。"
+>abstract="定義排程器的頻率。它可以在特定時刻執行，可每天、每週或每月執行一次或多次。"
 
 請依照下列步驟設定 **排程器** 活動：
 

@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
->title="對象錯誤"
->abstract="對象資料無法使用。 請等候工作流程執行結束。"
+>title="觀眾錯誤"
+>abstract="無法取得對象資料。請等待工作流程執行結束。"
 
 Campaign網頁適用的對象清單可從 **[!UICONTROL 受眾]** 功能表。
 

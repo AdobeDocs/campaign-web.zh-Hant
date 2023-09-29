@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 41%
+ht-degree: 44%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="擷取模式"
->abstract="控制組是從傳送中排除的一組設定檔。 若要定義控制組，您可以選擇從目標族群中隨機或基於排序、百分比或固定數量的設定檔中擷取。"
+>abstract="對照組是一組從傳遞排除的設定檔。若要定義控制組，您可以選擇從目標族群中隨機或基於排序、百分比或固定數量的設定檔中擷取。"
 
 
 ### 建立控制組 {#build-extract-target}
@@ -104,7 +104,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="額外族群"
->abstract="控制組是從傳送中排除的一組設定檔。 定義控制組的另一種方法是使用現有對象或定義查詢從目標中排除特定族群。"
+>abstract="對照組是一組從傳遞排除的設定檔。定義控制組的另一種方法是選取現有對象或定義查詢從傳遞對象中排除特定族群。"
 
 定義控制組的另一種方式是選取現有對象中的特定母體，或藉由定義查詢來進行。
 

@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 3%
+ht-degree: 18%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
->title="建立並管理您的服務"
->abstract="使用Adobe Campaign建立及監控您的服務（例如電子報），並檢查這些服務的訂閱或取消訂閱。 訂閱僅適用於電子郵件和簡訊傳遞。"
+>title="建立和管理您的服務"
+>abstract="使用 Adobe Campaign 建立和監視您的服務 (例如電子報)，並檢查這些服務的訂閱或取消訂閱。訂閱僅適用於電子郵件和簡訊傳遞。"
 
 使用Adobe Campaign網頁管理及建立您的服務（例如電子報），以及檢查這些服務的訂閱或取消訂閱。
 
@@ -49,12 +49,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
 >title="定義您的服務屬性"
->abstract="輸入訂閱服務的標籤，並定義其他選項，例如服務的有效期間。"
+>abstract="輸入訂閱服務的標籤並定義其他選項，例如服務的有效期限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="選取確認訊息"
->abstract="當使用者訂閱或取消訂閱服務時，您可以傳送確認訊息。 選取要用於該訊息的範本。"
+>title="選取一個確認訊息"
+>abstract="當使用者訂閱服務或取消訂閱時，您可以傳送確認訊息。選取要用於該訊息的範本。"
 
 若要建立訂閱服務，請遵循下列步驟。
 
@@ -76,7 +76,7 @@ ht-degree: 3%
 
    ![](assets/service-create-validity-period.png)
 
-1. 當使用者訂閱或取消訂閱服務時，您可以傳送確認訊息。 根據您的使用案例，選取要用於該訊息的範本。 這些範本必須設定為 **[!UICONTROL 訂閱]** 目標對應。 [了解更多](#create-confirmation-message)
+1. 當使用者訂閱服務或取消訂閱時，您可以傳送確認訊息。根據您的使用案例，選取要用於該訊息的範本。 這些範本必須設定為 **[!UICONTROL 訂閱]** 目標對應。 [了解更多](#create-confirmation-message)
 
    ![](assets/service-create-confirmation-msg.png)
 

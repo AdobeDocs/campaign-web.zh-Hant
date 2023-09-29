@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 78%
+ht-degree: 85%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
->title="合併活動"
->abstract="此 **合併** 活動可讓您對入站母體執行分段。 因此，您可以合併多個母體、排除部分母體，或僅保留數個目標通用的資料。"
+>title="組合活動"
+>abstract="「**組合**」活動可讓您對傳入族群執行分段。您因此可以組合好幾個族群、排除其中的一部分或僅保留幾個目標通用資料。"
 
 
 此 **合併** 活動是 **目標定位** 活動。 此活動則可讓您對傳入母體執行分段。您因此可以組合好幾個母體、排除其中的一部分或僅保留幾個目標通用資料。以下是可用的分段類型：
@@ -43,8 +43,8 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
->title="選取分段型別"
->abstract="選取如何合併對象：聯合、交集或排除。"
+>title="選取分段類型"
+>abstract="選取組合對象的方式：聯合、交集或排除。"
 
 請按照以下常見步驟開始設定「**組合**」活動：
 
@@ -66,7 +66,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="調解選項"
->abstract="選取 **調解型別** 以定義如何處理重複專案。"
+>abstract="選取「**調解類型**」，以定義處理重複項目的方式。"
 
 在 **合併** 活動，您可以設定 **聯集**. 為此，您需要選取 **調解型別** 若要定義重複專案的處理方式，請執行下列步驟：
 
@@ -89,7 +89,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_sets"
->title="選取要合併的集合"
+>title="選取要組合的集合"
 >abstract="在「**要加入的集合**」一節中，從傳入轉變中選取「**主要集合**」。這是從中排除元素的集。其他集會先設定相符的元素，然後才會從主要集予以排除。"
 
 >[!CONTEXTUALHELP]
