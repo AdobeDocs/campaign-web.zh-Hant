@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用內容助理
 description: 開始使用內容助理
 badge: label="Alpha"
-source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
+source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 12%
+source-wordcount: '423'
+ht-degree: 11%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 12%
 
 此功能可自動產生完整的電子郵件內容，以節省時間並確保一致的品質。 使用Generative AI，您可以輕鬆建立吸引人的電子郵件，提高溝通的效率和效益。
 
-<!--
-You can the Campaign Content Assistant in your emails to: [generate images](generative-image.md), [generate text content](generative-content.md), [generate the full HTML content](generative-email.md).-->
+
+您可在電子郵件中使用「促銷活動內容助理」，以： [產生影像](generative-image.md)， [產生文字內容](generative-content.md)， [產生完整的HTML內容](generative-email.md).
 
 >[!NOTE]
 >
@@ -53,33 +53,32 @@ You can the Campaign Content Assistant in your emails to: [generate images](gene
 * 您可以上傳多個品牌資產，但只能針對特定世代使用一個品牌資產
 
 
-<!--
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-content.md">
-<img alt="Text generation" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="文字產生" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>Text generation with the Content Assistant</strong></a>
+<a href="generative-content.md"><strong>使用內容助理產生文字</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="Image generation" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="影像產生" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>Image generation with the Content Assistant</strong>
+<div><a href="generative-image.md"><strong>使用內容助理產生影像</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-email.md">
-<img alt="Email generation" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="電子郵件產生" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>Email generation with the Content Assistant</strong></a>
+<a href="generative-email.md"><strong>使用內容助理產生電子郵件</strong></a>
 </div>
 <p></td>
 </tr></table>
--->
 
