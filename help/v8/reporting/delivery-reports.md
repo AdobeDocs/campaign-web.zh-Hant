@@ -4,10 +4,10 @@ title: 傳遞報告
 description: 了解如何存取和使用傳遞報告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
+source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 43%
+source-wordcount: '204'
+ht-degree: 35%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="重新載入"
->abstract="按一下&#x200B;**重新載入**&#x200B;按鈕可以擷取最後的量度並重新整理資料。"
+>title="匯出"
+>abstract="按一下 **匯出** 按鈕將這些量度匯出為PDF或CSV格式，以便您共用或列印。 "
 
 Adobe Campaign 提供多種報告類型，每個傳遞均可存取。這些報告可讓您在內建儀表板測量和視覺化訊息的影響和效能。
 
