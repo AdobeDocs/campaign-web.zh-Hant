@@ -3,13 +3,13 @@ audience: end-user
 title: 開始使用內容助理
 description: 開始使用內容助理
 badge: label="Alpha"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 11%
+ht-degree: 23%
 
 ---
-
 
 # 開始使用內容助理 {#generative-gs}
 
@@ -21,8 +21,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="定義內容產生的內容"
->abstract="若要使用選取的內容作為內容產生的輸入，請啟動 **使用目前的內容增強** 切換。 您也可以上傳您的品牌資產，以便作為來源使用。 如果您未使用選取的內容，則必須上傳及選取品牌資產。"
+>title="定義內容生成的上下文"
+>abstract="若要將所選內容做為內容生成的輸入，請啟動&#x200B;**使用目前的內容進行增強**&#x200B;切換。您也可以上傳您的品牌資產以將其做為來源。如果您不使用所選內容，則必須上傳並選取品牌資產。"
 
 內容助理由創作AI提供技術支援，是改善電子郵件內容的寶貴工具。 它簡化個人化和內容增強，將您的電子郵件傳遞最佳化，以便與您的對象產生更好的共鳴。
 
@@ -81,4 +81,3 @@ ht-degree: 11%
 </div>
 <p></td>
 </tr></table>
-

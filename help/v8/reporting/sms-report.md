@@ -3,7 +3,8 @@ audience: end-user
 title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 37%
@@ -17,14 +18,14 @@ ht-degree: 37%
 >title="報告傳送"
 >abstract="報告中的「**傳送**」標籤可讓您深入了解訪客與您傳遞的互動，以及他們可能遇到的任何潛在錯誤。"
 
-**SMS 傳遞概觀** 呈現 SMS 傳遞的全面概觀，提供廣泛的深入見解和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。
+**SMS 傳遞總覽** 呈現 SMS 傳遞的全面概觀，提供廣泛的深入見解和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。
 
 ## 傳遞摘要 {#delivery-summary}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
->title="SMS 傳遞概觀"
->abstract="**SMS 傳遞概觀** 呈現 SMS 傳遞的全面概觀，提供廣泛的深入見解和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
+>title="SMS 傳遞總覽"
+>abstract="**SMS 傳遞總覽** 呈現 SMS 傳遞的全面概觀，提供廣泛的深入見解和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
 
 ### 傳遞總覽 {#sms-delivery-overview}
 
@@ -51,7 +52,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
 >title="SMS 目標族群"
->abstract="**目標族群**&#x200B;圖表顯示與您的 SMS 對象相關的資料：要傳遞的訊息和排除項目。"
+>abstract="**目標族群**&#x200B;圖表和資料表顯示與您的 SMS 對象相關的資料：要傳遞的訊息和排除項目。"
 
 此 **目標母體** 圖表和表格會顯示與您的對象相關的資料。 量度詳情如下。
 
@@ -92,7 +93,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="SMS 整體統計資料"
->abstract="**排除** 圖表顯示各種理由，禁止從目標設定檔中排除的使用者設定檔接收訊息。"
+>abstract="**排除**&#x200B;圖表和資料表顯示各種理由，禁止從目標設定檔中排除的使用者設定檔接收訊息。"
 
 
 此 **[!UICONTROL 排除專案]** 圖形和表格會顯示使用者設定檔（從目標設定檔排除）無法接收訊息的原因。 有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
@@ -109,4 +110,3 @@ ht-degree: 37%
 此報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。
 
 ![](assets/reporting_sms_2.png)
-

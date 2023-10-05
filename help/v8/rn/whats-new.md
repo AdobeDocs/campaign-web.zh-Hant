@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
 source-wordcount: '1046'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 >id="acw_homepage_card1"
 >title="新增功能"
 >abstract="我們的最新版本包含直觀的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/start/using-ai.html" text="使用全新AI支援的知識助理尋找指引"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/start/using-ai.html" text="使用新的 AI 支援的知識助理獲得指引"
 
 我們很高興推出 Adobe Campaign Web UI 的 BETA 版本。我們的最新版本包含直觀的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。
 

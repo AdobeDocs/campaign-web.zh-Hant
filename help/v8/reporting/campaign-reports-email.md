@@ -3,13 +3,13 @@ audience: end-user
 title: 電子郵件頻道的行銷活動報告
 description: 進一步瞭解電子郵件頻道的行銷活動報告
 badge: label="Beta"
-source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
+exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 9%
+ht-degree: 24%
 
 ---
-
 
 # 電子郵件頻道的行銷活動報告 {#campaign-reports-email-channel}
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="傳遞總覽"
->abstract="此 **傳遞概覽** 提供關鍵績效指標(KPI)，用於提供關於訪客如何參與電子郵件傳送的詳細資訊。"
+>abstract="**傳遞總覽**&#x200B;可提供關鍵績效指標 (KPI)，其中包含訪客參與電子郵件傳遞的詳細資訊。"
 
 ### 傳遞總覽 {#delivery-summary-email-ovv}
 
@@ -50,7 +50,7 @@ ht-degree: 9%
 >abstract="初始目標對象統計資料表可顯示與您收件者相關的資料"
 
 
-此 **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料。 量度詳情如下。
+**[!UICONTROL 初始目標對象統計資料]**&#x200B;表可顯示與您收件者相關的資料. 量度詳情如下。
 
 ![](assets/campaign_report_email_2.png)
 
@@ -70,7 +70,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
 >title="執行統計資料"
->abstract="此 **執行統計資料** 表格會詳細說明您的傳送是否成功：要傳送的訊息、成功、錯誤和新隔離。"
+>abstract="**執行統計資料**&#x200B;資料表詳細說明您的傳遞成功：要傳遞的訊息、成功、錯誤和新隔離。"
 
 此 **[!UICONTROL 執行統計資料]** 表格詳細說明您的傳送是否成功。 量度詳情如下。
 
@@ -96,7 +96,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
 >title="反應統計資料"
->abstract="此 **反應統計資料** 表格顯示傳送的收件者活動可用資料：開啟數、訂閱數、取消訂閱數、按一下以映象頁面連結。"
+>abstract="**反應統計資料**&#x200B;資料表顯示有關您傳遞之收件者活動的可用資料：開啟數、訂閱數、取消訂閱數、點按鏡像頁面連結。"
 
 
 此 **[!UICONTROL 反應統計資料]** 表格包含您傳送之收件者活動的可用資料。 量度詳情如下。
@@ -121,7 +121,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_click_streams"
 >title="產生的點按資料流"
->abstract="此 **產生的點按資料流** 此表格顯示與收件者與傳遞互動的相關可用資料。"
+>abstract="**產生的點按資料流**&#x200B;資料表顯示收件者如何與您的傳遞互動的相關可用資料。"
 
 此 **[!UICONTROL 產生的點按資料流]** 表格會顯示與收件者與傳遞互動的相關資料。 量度詳情如下。
 
@@ -145,7 +145,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
 >title="依類型的錯誤劃分"
->abstract="此 **每種型別的錯誤劃分** 表格和圖表包含遇到的每種錯誤型別的可用資料：使用者不明、信箱已滿、網域無效等等。"
+>abstract="**依類型的錯誤劃分**&#x200B;資料表和圖表包含發生的每個錯誤類型的可用資料：使用者未知、郵箱已滿、網域無效等。"
 
 此 **[!UICONTROL 每種型別的錯誤劃分]** 表格和圖表包含針對每種網域型別可能遇到的錯誤的可用資料。 量度詳情如下。
 
@@ -177,7 +177,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_domain"
 >title="依網域的錯誤劃分"
->abstract="此 **每個網域的錯誤劃分** 表格和圖表會根據每個網域顯示遇到的每種錯誤型別的可用資料。"
+>abstract="**依網域的錯誤劃分**&#x200B;資料表和圖表顯示根據每個網域發生的每個錯誤類型的可用資料。"
 
 
 此 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖表包含可用於每個網域可能遇到的錯誤的資料。 量度與以下專案通用 **[!UICONTROL 每種型別的錯誤劃分]** 表格和圖表詳見上文。
@@ -191,7 +191,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
 >title="傳遞統計資料"
->abstract="此 **傳遞統計資料** 圖表會詳細說明您的傳送成功與發生的錯誤。"
+>abstract="**傳遞統計資料**&#x200B;圖表詳細說明傳遞成功以及發生的錯誤。"
 
 此 **[!UICONTROL 傳遞統計資料]** 量度提供關鍵績效指標(KPI)，可提供所傳送電子郵件可用資料的詳細資訊。 量度詳情如下。
 
@@ -244,9 +244,9 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
 >title="URL 和點擊流量"
->abstract="此 **URL和點按流量** 報告提供關鍵績效指標(KPI)，可提供傳遞期間點選次數最多的URL的詳細資訊。"
+>abstract="**URL 和點按資料流**&#x200B;報告提供可詳細說明傳遞期間點按次數最多的 URL 的關鍵績效指標 (KPI)。"
 
-此 **[!UICONTROL URL和點按流量]** 報告提供關鍵績效指標(KPI)，可提供傳遞期間點選次數最多的URL的詳細資訊。 量度詳情如下。
+**[!UICONTROL URL 和點按資料流]**&#x200B;報告提供可詳細說明傳遞期間點按次數最多的 URL 的關鍵績效指標 (KPI)。量度詳情如下。
 
 ![](assets/campaign_report_email_9.png)
 
@@ -266,7 +266,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="造訪量最高的前 10 個連結"
->abstract="此 **前10個最常造訪的連結** rgraph和表格包含每個連結的收件者行為可用資料。"
+>abstract="**造訪量最高的前 10 個連結**&#x200B;圖表和資料表包含每個連結收件者行為的可用資料。"
 
 
 此 **[!UICONTROL 前10個最常造訪的連結]** 圖表和表格包含每個連結的收件者行為可用資料。 量度詳情如下。
@@ -287,7 +287,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="特定期間的點按劃分"
->abstract="此 **一段時間內點按的劃分** 圖表顯示每個連結的收件者行為可用資料。"
+>abstract="**特定期間的點按劃分**&#x200B;圖表顯示每個連結收件者行為的可用資料。"
 
 
 此 **[!UICONTROL 一段時間內點按的劃分]** 圖表包含每個連結的收件者行為可用資料。

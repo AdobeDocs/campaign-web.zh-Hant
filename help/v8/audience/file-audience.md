@@ -7,7 +7,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 38%
+ht-degree: 40%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="預覽您的檔案"
->abstract="檢查檔案預覽。 此畫面只會顯示最多30筆記錄。"
+>abstract="檢查檔案的預覽。此畫面最多僅顯示 30 筆記錄。"
 
 
 

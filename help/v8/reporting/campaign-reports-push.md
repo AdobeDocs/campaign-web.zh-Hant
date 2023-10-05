@@ -3,13 +3,13 @@ audience: end-user
 title: 推播頻道的行銷活動報表
 description: 瞭解推播頻道的行銷活動報表
 badge: label="Beta"
-source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
+exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 4%
+ht-degree: 25%
 
 ---
-
 
 # 推播頻道的行銷活動報表 {#campaign-reports-push-channel}
 
@@ -20,9 +20,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
 >title="傳遞總覽"
->abstract="此 **傳遞概覽** 報告提供關鍵績效指標(KPI)，用於提供關於訪客如何參與推播通知傳送的詳細資訊。"
+>abstract="**傳遞總覽**&#x200B;報告可提供關鍵績效指標 (KPI)，其中包含訪客參與推播通知傳遞的詳細資訊。"
 
-此 **[!UICONTROL 傳遞概覽]** 報告提供關鍵績效指標(KPI)，用於提供關於訪客如何參與推播通知傳送的詳細資訊。 量度詳情如下。
+**[!UICONTROL 傳遞總覽]**&#x200B;報告可提供關鍵績效指標 (KPI)，其中包含訪客參與推播通知傳遞的詳細資訊。量度詳情如下。
 
 ![](assets/campaign-reporting-push-summary.png)
 
@@ -45,9 +45,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="初始目標對象統計資料"
->abstract="此 **初始目標對象統計資料** 表格會顯示與收件者相關的資料"
+>abstract="**初始目標對象統計資料**&#x200B;表可顯示與您收件者相關的資料"
 
-此 **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料。 量度詳情如下。
+**[!UICONTROL 初始目標對象統計資料]**&#x200B;表可顯示與您收件者相關的資料. 量度詳情如下。
 
 ![](assets/campaign-reporting-push-target.png)
 
@@ -67,7 +67,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_exec_stats"
 >title="執行統計資料"
->abstract="此 **執行統計資料** 表格會詳細說明您的傳送是否成功：要傳送的訊息、成功、錯誤和新隔離。"
+>abstract="**執行統計資料**&#x200B;資料表詳細說明您的傳遞成功：要傳遞的訊息、成功、錯誤和新隔離。"
 
 此 **[!UICONTROL 執行統計資料]** 表格詳細說明您的傳送是否成功。 量度詳情如下。
 
@@ -93,7 +93,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_click_streams"
 >title="產生的點按資料流"
->abstract="此 **產生的點按資料流** 此表格顯示與收件者與傳遞互動的相關可用資料。"
+>abstract="**產生的點按資料流**&#x200B;資料表顯示收件者如何與您的傳遞互動的相關可用資料。"
 
 此 **[!UICONTROL 產生的點按資料流]** 表格會顯示與收件者與傳遞互動的相關資料。 量度詳情如下。
 

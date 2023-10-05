@@ -3,10 +3,11 @@ audience: end-user
 title: 以電子郵件傳送報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 22%
+ht-degree: 38%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="初始目標族群"
->abstract="此 **初始目標母體** 圖表會根據傳遞準備的結果，顯示與收件者和訊息相關的資料。"
+>abstract="**初始目標族群**&#x200B;圖表根據傳遞準備的結果顯示與收件者和訊息相關的資料。"
 
 此 **[!UICONTROL 初始目標母體]** 圖表顯示與收件者相關的資料。 量度會在傳遞準備期間計算並顯示：初始對象、要傳送的訊息數、排除的收件者數。
 
@@ -52,7 +53,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="傳遞統計資料"
->abstract="此 **傳遞統計資料** 圖表會詳細說明您的傳送成功與發生的錯誤。"
+>abstract="**傳遞統計資料**&#x200B;圖表詳細說明傳遞成功以及發生的錯誤。"
 
 
 此 **[!UICONTROL 傳遞統計資料]** 圖表會詳細說明您的傳送是否成功。 量度詳情如下。
@@ -77,10 +78,10 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="傳遞統計資料"
->abstract="此 **排除的原因** 圖形與表格會依規則顯示傳遞準備期間拒絕的訊息劃分。"
+>abstract="**排除的原因**&#x200B;圖表和資料表顯示傳遞準備期間遭拒訊息每個規則的劃分。"
 
 
-此 **[!UICONTROL 排除的原因]** 圖形與表格會依規則顯示傳遞準備期間拒絕的訊息劃分。 有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+**[!UICONTROL 排除的原因]**&#x200B;圖表和資料表顯示傳遞準備期間遭拒訊息每個規則的劃分。有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
@@ -119,7 +120,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="廣播統計資料"
->abstract="此 **廣播統計資料** 報表包含每個網域可能遇到的錯誤的可用資料。"
+>abstract="**廣播統計資料**&#x200B;報告包含每個網域可能發生之錯誤的可用資料。"
 
 **[!UICONTROL 廣播統計資料]**&#x200B;表包含每個網域可能發生之錯誤的可用資料。量度詳情如下。
 
@@ -149,7 +150,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="依類型的錯誤劃分"
->abstract="此 **每種型別的錯誤劃分** 表格和圖表包含遇到的每種錯誤型別的可用資料：使用者不明、信箱已滿、網域無效等等。"
+>abstract="**依類型的錯誤劃分**&#x200B;資料表和圖表包含發生的每個錯誤類型的可用資料：使用者未知、郵箱已滿、網域無效等。"
 
 此 **[!UICONTROL 每種型別的錯誤劃分]** 表格和圖表包含可用於錯誤型別的資料。 量度詳情如下。
 
@@ -182,7 +183,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="依網域的錯誤劃分"
->abstract="此 **每個網域的錯誤劃分** 表格和圖表會根據每個網域顯示遇到的每種錯誤型別的可用資料。"
+>abstract="**依網域的錯誤劃分**&#x200B;資料表和圖表顯示根據每個網域發生的每個錯誤類型的可用資料。"
 
 
 此 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖表會顯示每個網域可能遇到的錯誤的可用資料。
@@ -209,7 +210,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" 傳遞統計資料"
->abstract="此 **傳遞統計資料** 報告提供關鍵績效指標(KPI)，用於提供關於已傳送電子郵件可用資料的詳細資訊：成功、開啟、點按等。"
+>abstract="**傳遞統計資料**&#x200B;報告提供可詳細說明已傳送電子郵件可用資料的關鍵績效指標 (KPI)：成功、開啟數、點按數等。"
 
 
 此 **[!UICONTROL 傳遞統計資料]** 報告提供關鍵績效指標(KPI)，可提供所傳送電子郵件可用資料的詳細資訊。 量度詳情如下。
@@ -262,10 +263,10 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL 和點擊流量"
->abstract="此 **URL和點按流量** 報告提供關鍵績效指標(KPI)，可提供傳遞期間點選次數最多的URL的詳細資訊。"
+>abstract="**URL 和點按資料流**&#x200B;報告提供可詳細說明傳遞期間點按次數最多的 URL 的關鍵績效指標 (KPI)。"
 
 
-此 **[!UICONTROL URL和點按流量]** 報告提供關鍵績效指標(KPI)，可提供傳遞期間點選次數最多的URL的詳細資訊。
+**[!UICONTROL URL 和點按資料流]**&#x200B;報告提供可詳細說明傳遞期間點按次數最多的 URL 的關鍵績效指標 (KPI)。
 
 ![](assets/reporting_email_7.png){align="center"}
 
@@ -287,7 +288,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="造訪量最高的前 10 個連結"
->abstract="此 **前10個最常造訪的連結** rgraph和表格包含每個連結的收件者行為可用資料。"
+>abstract="**造訪量最高的前 10 個連結**&#x200B;圖表和資料表包含每個連結收件者行為的可用資料。"
 
 
 此 **[!UICONTROL 前10個最常造訪的連結]** 圖表和表格包含每個連結的收件者行為可用資料。
@@ -308,7 +309,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
 >title="特定期間的點按劃分"
->abstract="此 **一段時間內點按的劃分** 圖表顯示每個連結的收件者行為可用資料。"
+>abstract="**特定期間的點按劃分**&#x200B;圖表顯示每個連結收件者行為的可用資料。"
 
 
 此 **[!UICONTROL 一段時間內點按的劃分]** 圖表包含每個連結的收件者行為可用資料。
@@ -360,11 +361,11 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="依裝置劃分"
->abstract="此 **依裝置劃分** 報表會依裝置顯示期間開啟的劃分。 每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個顯示每種裝置型別的確切數目和百分比。"
+>abstract="**依裝置劃分**&#x200B;報告顯示期間內依裝置的開啟數劃分。每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個裝置類型的確切數量和百分比。"
 
 此 **依裝置劃分** 報表會依裝置顯示期間開啟的劃分：個人電腦、Android裝置、Apple裝置或其他。
 
-每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個顯示每種裝置型別的確切數目和百分比。
+每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個裝置類型的確切數量和百分比。
 
 ![](assets/reporting_email_13.png){align="center"}
 
@@ -374,7 +375,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="依作業系統劃分"
->abstract="此 **依作業系統劃分** 報表會依作業系統顯示相關期間開啟的劃分。 第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個顯示每個作業系統的確切數目和百分比。"
+>abstract="**依作業系統劃分**&#x200B;報告顯示相關期間內依作業系統的開啟數劃分。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個作業系統的確切數量和百分比。"
 
 此 **依作業系統劃分** 報表會顯示該期間依作業系統開啟的劃分：Windows系統、Android系統、iOS系統或其他。
 
@@ -387,11 +388,11 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="依瀏覽器劃分"
->abstract="此 **依瀏覽器劃分** 顯示期間瀏覽器開啟的劃分。 第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個顯示每個瀏覽器的確切數目和百分比。"
+>abstract="**依瀏覽器劃分**&#x200B;顯示期間內依瀏覽器的開啟數劃分。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個瀏覽器的確切數量和百分比。"
 
 此 **依瀏覽器劃分** 報表會顯示瀏覽器開啟的劃分： Chrome、Safari、Internet Explorer等。
 
-每個類別有兩個圖表。第一個會顯示有關電腦和行動作業系統開啟的統計資料。 第二個顯示每個瀏覽器的確切數目和百分比。
+每個類別有兩個圖表。第一個會顯示有關電腦和行動作業系統開啟的統計資料。 第二個圖表顯示每個瀏覽器的確切數量和百分比。
 
 ![](assets/reporting_email_13.2.png){align="center"}
 
@@ -400,7 +401,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
->title="熱點點按報告"
+>title="熱門點按報告"
 >abstract="**熱門點按**&#x200B;報告顯示電子郵件內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。個人化區塊取消訂閱連結、鏡像頁面連結和優惠連結有計入總累計點按數，但不顯示在報告中。"
 
 此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。個人化區塊取消訂閱連結、鏡像頁面連結和優惠連結有計入總累計點按數，但不顯示在報告中。
