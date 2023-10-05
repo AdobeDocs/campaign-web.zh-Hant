@@ -2,13 +2,13 @@
 title: 與收件者和對象合作
 description: 瞭解如何使用收件者Campaign Web
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
+source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1027'
 ht-degree: 17%
 
 ---
-
 
 # 與收件者和對象合作 {#about-recipients}
 
@@ -47,13 +47,13 @@ ht-degree: 17%
 >
 >根據您的許可權，您可能無法存取資料庫中儲存的完整收件者清單。 若要了解權限的詳細資訊，請參閱[本章節](../get-started/permissions.md)。
 
-此外，您可以管理收件者對電子報等服務的訂閱和取消訂閱。 [瞭解如何使用訂閱服務](manage-services.md)
+此外，您可以管理收件者對電子報等服務的訂閱和取消訂閱。 瞭解如何使用中的訂閱服務 [此頁面](manage-services.md)
 
 您可以建立工作流程，以刪除重複、擴充、合併設定檔，以及建立對象。 若要了解詳細資訊，請參閱[本章節](../workflows/gs-workflows.md)。
 
 ## 什麼是對象？ {#audiences}
 
-對象是傳遞的主要目標：收到訊息的收件者。對象類型會依據傳遞範本中定義的目標對應而不同。[瞭解什麼是傳遞範本](../msg/delivery-template.md).
+對象是傳遞的主要目標：收到訊息的收件者。對象類型會依據傳遞範本中定義的目標對應而不同。進一步瞭解中的傳遞範本 [此頁面](../msg/delivery-template.md).
 
 若要定義對象母體，您可以：
 
@@ -66,7 +66,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->在行銷活動工作流程內容中傳送訊息時，會在特定中定義對象 **建立對象** 工作流程活動。 在此特定情況下，您無法從檔案載入對象以進行電子郵件傳遞，並且該對象的定義僅適用於此專用活動。瞭解如何在行銷活動工作流程中定義傳送的對象 [在本節中](../workflows/activities/build-audience.md)
+>在行銷活動工作流程內容中傳送訊息時，會在特定中定義對象 **建立對象** 工作流程活動。 在此特定情況下，您無法從檔案載入對象以進行電子郵件傳遞，並且該對象的定義僅適用於此專用活動。瞭解如何在的行銷活動工作流程中定義傳送的對象 [本節](../workflows/activities/build-audience.md)
 
 ## 鎖定維度 {#targeting-dimensions}
 
