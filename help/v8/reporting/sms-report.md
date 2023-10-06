@@ -72,7 +72,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
 >title="推播整體統計資料"
->abstract="**整體統計資料** 報告顯示已傳送的 SMS 的資料：成功、錯誤和隔離。"
+>abstract="**整體統計資料**&#x200B;報告顯示已傳送的 SMS 的資料：成功、錯誤和隔離。"
 
 此 **整體統計資料** 報表會顯示已傳送SMS訊息的資料。 量度詳情如下。
 
