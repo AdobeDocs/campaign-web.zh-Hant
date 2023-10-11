@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 8ddda0d230598a58e1b611bdf75e2322e64c529d
+source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 85%
+source-wordcount: '445'
+ht-degree: 97%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 85%
             + [新增鏡像頁面連結](content/mirror-page.md)
             + [新增預覽文字](content/preheader.md)
             + [產生文字版本](content/text-version-email.md)
+            + [使用Adobe Experience Manager資產as a Cloud Service管理資產](content/aem-assets.md)
          + 內容助理 {#content-assistant}
             + [開始使用內容助理](content/generative-gs.md)
             + [使用內容助理產生文字](content/generative-content.md)
@@ -76,8 +77,8 @@ ht-degree: 85%
       + [新增個人化](personalization/personalize.md)
       + [新增條件式內容](personalization/conditions.md)
       + [新增內建的內容區塊](personalization/content-blocks.md)
-   + [新增優惠方案至您的訊息](content/offers.md)
-   + [傳送訊息給訂閱者](content/send-to-subscribers.md)
+   + [將優惠新增至您的訊息](content/offers.md)
+   + [向您的訂閱者傳送訊息](content/send-to-subscribers.md)
    + 預覽和測試您的傳遞 {#preview-test}
       + [關於預覽和測試](preview-test/preview-test.md)
       + [預覽訊息內容。](preview-test/preview-content.md)
@@ -92,7 +93,7 @@ ht-degree: 85%
       + [從檔案載入對象](audience/file-audience.md)
       + [設定控制組](audience/control-group.md)
    + [使用規則產生器](audience/segment-builder.md)
-   + [監視和管理對象](audience/manage-audience.md)
+   + [檢視和管理對象](audience/manage-audience.md)
    + 使用訂閱服務 {#work-with-services}
       + [管理服務](audience/manage-services.md)
       + [管理訂閱者](audience/manage-subscribers.md)
@@ -132,7 +133,7 @@ ht-degree: 85%
       + [推播傳遞報告 ](reporting/push-report.md)
       + [以簡訊傳送傳遞報告](reporting/sms-report.md)
    + 行銷活動報告 {#campaign-report}
-      + [存取行銷活動報表](reporting/campaign-reports.md)
-      + [以電子郵件傳送行銷活動報告](reporting/campaign-reports-email.md)
+      + [存取行銷活動報告](reporting/campaign-reports.md)
+      + [電子郵件行銷活動報告](reporting/campaign-reports-email.md)
       + [推播行銷活動報告](reporting/campaign-reports-push.md)
       + [簡訊行銷活動報告](reporting/campaign-reports-sms.md)
