@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 35%
+ht-degree: 50%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="匯出"
->abstract="按一下 **匯出** 按鈕將這些量度匯出為PDF或CSV格式，以便您共用或列印。 "
+>abstract="按一下「**匯出**」按鈕將這些量度匯出為 PDF 或 CSV 格式，讓您可以分享或列印。 "
 
 Adobe Campaign 提供多種報告類型，每個傳遞均可存取。這些報告可讓您在內建儀表板測量和視覺化訊息的影響和效能。
 
@@ -50,6 +50,6 @@ Adobe Campaign 提供多種報告類型，每個傳遞均可存取。這些報�
 
 各管道的完整報表和相關量度清單可在下列頁面取得：
 
-* [以電子郵件傳送報告](email-report.md)
+* [電子郵件傳遞報告](email-report.md)
 * [簡訊傳遞報告](sms-report.md)
 * [推播傳遞報告](push-report.md)
