@@ -3,10 +3,11 @@ audience: end-user
 title: 開始使用報告
 description: 了解如何在 Campaign Web 中存取和管理報告
 badge: label="Beta"
-source-git-commit: b7f43e5d3434da63a05c5c76d2edef960ee3a826
-workflow-type: tm+mt
+exl-id: b353bc86-2228-4e02-879c-ae9425c48489
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +17,9 @@ ht-degree: 44%
 
 Adobe Campaign 可提供兩種不同的報告：
 
-* **傳遞報告**：此 **傳遞報告** 提供每個管道特有的全面見解和資料。 這些報告提供個別傳送的效能、成效和結果的詳細資訊，為您提供全面的總覽。
+* **傳遞報告**：此&#x200B;**傳遞報告**&#x200B;會針對每種管道提供全方位的深入分析和資料。這些報告會提供有關您的個別傳遞的績效、有效性和成果的詳細資訊，為您提供全方位的概觀。
 
-* **行銷活動報表**：此 **行銷活動報表** 提供行銷活動的全面概觀，包含與不同傳送相關的所有相關資訊。 這些報錶針對每個管道的每次傳送效能，提供詳盡的分析：成功率、對象參與和其他基本量度。 它們可讓您評估行銷活動的整體效益和影響。
+* **行銷活動報告**：此&#x200B;**行銷活動報告**&#x200B;會提供您的行銷活動的全方位概觀，並會納入有關所包含的不同傳遞的所有相關資訊。這些報告會針對每個管道的每次傳遞績效進行全面分析：成功率、對象參與度和其他基本量度。它們可讓您評估行銷活動的整體有效性和影響。
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -26,7 +27,7 @@ Adobe Campaign 可提供兩種不同的報告：
 <a href="email-report.md">
 <img alt="銷售機會" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="email-report.md"><strong>以電子郵件傳送報告</strong>
+<div><a href="email-report.md"><strong>電子郵件傳遞報告</strong>
 </div>
 <p>
 </td>
@@ -35,7 +36,7 @@ Adobe Campaign 可提供兩種不同的報告：
 <img alt="不常使用" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong> 推播傳遞報告<strong></strong></a>
+<a href="push-report.md"><strong>推播傳遞報告<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -43,7 +44,7 @@ Adobe Campaign 可提供兩種不同的報告：
 <img alt="驗證" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-report.md"><strong> 簡訊傳遞報告</strong></a>
+<a href="sms-report.md"><strong>簡訊傳遞報告</strong></a>
 </div>
 <p>
 </td>
