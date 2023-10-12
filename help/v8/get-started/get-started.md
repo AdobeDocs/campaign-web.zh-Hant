@@ -36,7 +36,7 @@ Adobe Campaign 提供了設計跨管道客戶體驗的平台，以及適用於�
 
 ## 連線至 Campaign
 
-若要連線至 Adob&#x200B;&#x200B;e Campaign Web，請依照下列步驟執行：
+若要連線至 Adobe Campaign Web，請依照下列步驟執行：
 
 1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}。
 1. 使用您的 Adobe 認證登入。
@@ -48,7 +48,7 @@ Adobe Campaign 提供了設計跨管道客戶體驗的平台，以及適用於�
 
    您現在已連接到 Campaign。如需了解如何開始使用使用者介面，請參閱[此頁面](user-interface.md)。
 
-如果您已經連線到另一個 Adob&#x200B;&#x200B;e Experience Cloud 解決方案，您還可以從螢幕右上角的解決方案切換器瀏覽至您的 Campaign 環境。
+如果您已經連線到另一個 Adobe Experience Cloud 解決方案，您還可以從螢幕右上角的解決方案切換器瀏覽至您的 Campaign 環境。
 
 ## 關於 Campaign 用戶端主控台 {#ac-client}
 

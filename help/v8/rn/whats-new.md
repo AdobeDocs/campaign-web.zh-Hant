@@ -38,7 +38,7 @@ ht-degree: 100%
 
 * 重新想像的工作流程畫布介面，以用於設計和管理您的流程
 * 動態內容可為您的對象提供目標明確的個人化體驗
-* 和 Adob&#x200B;&#x200B;e Experience Platform 對象的原生整合
+* 和 Adobe Experience Platform 對象的原生整合
 * 工作流程、傳遞、行銷活動和內容的範本管理
 
 若要了解新 UI 的詳細資訊，請參閱[本頁面](../get-started/user-interface.md)。
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 * **Gen AI 知識助理**
 
-  直接從產品使用者介面提出問題並找出指引。新的 **AI 支援的知識助理**&#x200B;嵌入內容說明快顯視窗，可協助您學習新的 Campaign 功能並發展專業知識。以最新的產品文件為基礎，可幫助您在建立使用案例時，立即尋求說明並獲得逐步指引。
+  直接從產品使用者介面提出問題並找出指引。新的 **AI 驅動的知識助理**&#x200B;嵌入內容說明快顯視窗，可協助您學習新的 Campaign 功能並發展專業知識。在建立使用案例時，它可根據最新的產品文件，協助您快速尋找說明並獲得逐步指引。
 
   若要了解詳細資訊，請參閱[本章節](../get-started/using-ai.md)。
 
@@ -113,7 +113,7 @@ ht-degree: 100%
 
 由於您是 Campaign 使用者，因此仍然可以存取用戶端主控台，以建置和管理 Campaign 的資源與元件。資料和設定則會從一個環境同步至另一個環境。若要了解詳細資訊，請參閱[本章節](../get-started/get-started.md#about-campaign-client-consoleac-client)。
 
-此外，您在用戶端主控台中已經可以使用的所有資料和設定都會從探索工具左側導覽顯示在 Campaign Web UI 中。若要了解探索工具檢視的詳細資訊，請參閱[本章節](../get-started/user-interface.md#explorer-user-interface-explorer)。
+此外，您在用戶端主控台中已經可以使用的所有資料和設定都會從探索工具左側導覽顯示在 Campaign Web UI 中。若要了解「探索工具」檢視的詳細資訊，請參閱[本章節](../get-started/user-interface.md#explorer-user-interface-explorer)。
 
 隨著 Campaign Web Beta 版本的發佈，使用者介面反映了使用者的權限。在[本頁面](../get-started/permissions.md)中深入瞭解權限
 
