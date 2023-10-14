@@ -3,13 +3,13 @@ audience: end-user
 title: 瀏覽、搜尋和篩選清單
 description: 探索如何瀏覽和篩選清單 Campaign Web v8
 badge: label="Beta"
-source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
+exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
+source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 69%
 
 ---
-
 
 # 瀏覽、搜尋和篩選清單 {#list-screens}
 
@@ -66,22 +66,22 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="顯示進階屬性"
->abstract="預設情況下，屬性清單中只會顯示最常見的屬性。使用此切換按鈕以查看進階屬性。"
+>abstract="依預設，只有最常見的屬性會顯示在屬性清單中。 啟動 **顯示進階屬性** 在規則產生器的左側浮動視窗中，切換以檢視目前清單的所有可用屬性，例如節點、群組、1-1連結、1-N連結。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="規則產生器進階欄位"
->abstract="使用進階欄位來設定進階篩選器。"
+>abstract="依預設，只有最常見的屬性會顯示在屬性清單中。 啟動 **顯示進階屬性** 在規則產生器的左側浮動視窗中，切換以檢視目前清單的所有可用屬性，例如節點、群組、1-1連結、1-N連結。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="規則產生器進階屬性"
->abstract="使用進階屬性定義規則。"
+>abstract="依預設，只有最常見的屬性會顯示在屬性清單中。 啟動 **顯示進階屬性** 在規則產生器的左側浮動視窗中，切換以檢視目前清單的所有可用屬性，例如節點、群組、1-1連結、1-N連結。"
 
 
 預設情況下，屬性清單和篩選器設定畫面中只會顯示最常見的屬性。屬性若在資料結構描述中設定為 `advanced` 屬性，在設定畫面中會隱藏。
 
-啟用「**顯示進階屬性**」開關，即可查看目前清單的所有可用屬性：屬性清單會立即更新。
+啟動 **顯示進階屬性** 在規則產生器的左側浮動視窗中，切換以檢視目前清單的所有可用屬性，例如節點、群組、1-1連結、1-N連結。 屬性清單會立即更新。
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
