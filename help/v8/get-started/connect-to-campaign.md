@@ -2,10 +2,10 @@
 title: 連線至Adobe Campaign網頁介面
 description: 瞭解如何連線至Adobe Campaign v8網頁使用者介面
 badge: label="Beta"
-source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
+source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 31%
+source-wordcount: '510'
+ht-degree: 38%
 
 ---
 
@@ -36,15 +36,17 @@ Experience Cloud是Adobe的整合式數位行銷應用程式產品和服務系�
 
 ## 存取Adobe Campaign {#access-to-campaign}
 
-若要存取您的Campaign環境，請選取 **Campaign** 從Adobe Experience Cloud首頁。
+若要存取您的Campaign環境，請選取 **Campaign** 從 **快速存取** Adobe Experience Cloud部分。
 
-您也可以使用解決方案切換器，在Adobe Experience Cloud解決方案和應用程式之間瀏覽。
+如果您已經連線到另一個 Adobe Experience Cloud 解決方案，您還可以從螢幕右上角的解決方案切換器瀏覽至您的 Campaign 環境。
 
 ![](assets/solution-switcher.png)
 
 如果您擁有多個環境的存取權，包括Campaign控制面板，請按一下 **Launch** 按鈕以取得正確的執行個體。
 
 ![](assets/launch-campaign.png)
+
+您現在已連接到 Campaign。如需了解如何開始使用使用者介面，請參閱[此頁面](user-interface.md)。
 
 ## Adobe Experience Cloud頂端導覽 {#top-bar}
 
