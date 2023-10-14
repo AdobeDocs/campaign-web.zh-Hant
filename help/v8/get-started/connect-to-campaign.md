@@ -2,10 +2,10 @@
 title: 連線至Adobe Campaign網頁介面
 description: 瞭解如何連線至Adobe Campaign v8網頁使用者介面
 badge: label="Beta"
-source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
+source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 48%
+source-wordcount: '474'
+ht-degree: 31%
 
 ---
 
@@ -31,35 +31,34 @@ Experience Cloud是Adobe的整合式數位行銷應用程式產品和服務系�
 
    ![](assets/exc-orgs.png){width="50%" align="left"}
 
-   在中進一步瞭解Adobe Experience Cloud中的組織 [本文](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant){target="_blank"}.
+   瞭解有關Adobe Experience Cloud中組織的詳細資訊，請參閱 [本文](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant){target="_blank"}.
 
 
 ## 存取Adobe Campaign {#access-to-campaign}
 
 若要存取您的Campaign環境，請選取 **Campaign** 從Adobe Experience Cloud首頁。
 
-如果您擁有多個環境的存取權，包括Campaign控制面板，請按一下 **Launch** 按鈕時，退出連結的位置。
-
-![](assets/launch-campaign.png)
-
 您也可以使用解決方案切換器，在Adobe Experience Cloud解決方案和應用程式之間瀏覽。
 
 ![](assets/solution-switcher.png)
+
+如果您擁有多個環境的存取權，包括Campaign控制面板，請按一下 **Launch** 按鈕以取得正確的執行個體。
+
+![](assets/launch-campaign.png)
 
 ## Adobe Experience Cloud頂端導覽 {#top-bar}
 
 使用介面的頂端列進行以下作業：
 
-* 以 Beta 測試人員身份分享您的意見回饋
-* 在組織和實例之間切換
-* 在 Adobe Experience Cloud 應用程式之間切換
-* 存取說明頁面、聯絡支援人員和分享意見回饋。您可以從搜尋欄位搜尋說明文章和影片。
+* 以測試版使用者的身分分享您的意見
+* 在組織之間切換
+* 在您的Adobe Experience Cloud解決方案和應用程式之間切換
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
 ## 支援的瀏覽器 {#browsers}
 
-Campaign v8 Web 目的是要在最新版本的 Google Chrome、Safari 和 Microsoft Edge 中以最佳方式運作。您可能無法在舊版本或其他瀏覽器上使用某些功能。
+Campaign v8 Web的設計可在最新版Google Chrome、Safari和Microsoft Edge中以最佳方式運作。 您在舊版或其他瀏覽器上使用某些功能時可能會遇到問題。
 
 ## 語言偏好設定 {#language-pref}
 
@@ -83,7 +82,7 @@ Campaign v8 Web 目前提供以下語言版本：
 
 1. 按一下右上角您的設定檔圖示，然後選取「**偏好設定**」。
 1. 然後，按一下您電子郵件地址下顯示的語言連結。
-1. 選取您偏好的語言，然後按一下「**儲存**」。您可以選取第二語言，以防您使用的元件沒有您第一語言的版本。
+1. 選取您偏好的語言，然後按一下「**儲存**」。您可以選取第二種語言，以備您使用的元件未當地語系化為您的第一種語言。
 
 ## 深色主題 {#dark-theme}
 
