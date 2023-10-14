@@ -2,10 +2,10 @@
 title: 連線至Adobe Campaign網頁介面
 description: 瞭解如何連線至Adobe Campaign v8網頁使用者介面
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 44%
+source-wordcount: '492'
+ht-degree: 48%
 
 ---
 
@@ -38,13 +38,13 @@ Experience Cloud是Adobe的整合式數位行銷應用程式產品和服務系�
 
 若要存取您的Campaign環境，請選取 **Campaign** 從Adobe Experience Cloud首頁。
 
-
 如果您擁有多個環境的存取權，包括Campaign控制面板，請按一下 **Launch** 按鈕時，退出連結的位置。
 
 ![](assets/launch-campaign.png)
 
-您也可以使用解決方案切換器來瀏覽Adobe Experience Cloud解決方案。
+您也可以使用解決方案切換器，在Adobe Experience Cloud解決方案和應用程式之間瀏覽。
 
+![](assets/solution-switcher.png)
 
 ## Adobe Experience Cloud頂端導覽 {#top-bar}
 
@@ -57,6 +57,9 @@ Experience Cloud是Adobe的整合式數位行銷應用程式產品和服務系�
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
+## 支援的瀏覽器 {#browsers}
+
+Campaign v8 Web 目的是要在最新版本的 Google Chrome、Safari 和 Microsoft Edge 中以最佳方式運作。您可能無法在舊版本或其他瀏覽器上使用某些功能。
 
 ## 語言偏好設定 {#language-pref}
 
