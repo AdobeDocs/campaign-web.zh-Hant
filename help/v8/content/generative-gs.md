@@ -4,10 +4,10 @@ title: 開始使用內容助理
 description: 開始使用內容助理
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 23%
+ht-degree: 34%
 
 ---
 
@@ -33,14 +33,14 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->此功能在其Alpha版本中提供，且可能會有所變更，恕不另行通知。 它將在10月初啟用。
+>此功能可在 Alpha 版本中使用，如有變更，恕不另行通知。它將在10月初啟用。
 
 ## 護欄和限制 {#generative-guardrails}
 
 以下列出使用「內容助理」產生電子郵件的一般准則：
 
 * 產生的內容品質強烈受到您定義的行銷目標/提示所影響。 使用定義明確的提示讓GenAI模型正確解譯。 
-* 上傳品牌資產，以便對品牌內容取得準確資訊。 否則，內容會以公開可用的資訊為基礎。 上傳的內容可以是：PDF檔案、Microsoft Word檔案、JPEG、PNG或ZIP檔案（具有支援的檔案格式）。
+* 上傳品牌資產，以便對品牌內容取得準確資訊。 否則，內容會以公開可用的資訊為基礎。 上傳的內容可以有下列格式：PDF、JPEG、PNG或ZIP檔案（具有支援的檔案格式）。
 * 建議上傳品牌資產的大小小於10MB。 大型檔案或大量影像可以運作，但處理時間會增加。
 * 使用Adobe Campaign編寫的電子郵件範本，或是 [內建電子郵件範本](../content/email-sample-templates.md) 以建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
 
