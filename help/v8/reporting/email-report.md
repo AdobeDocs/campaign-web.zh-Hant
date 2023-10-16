@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: 以電子郵件傳送報告
+title: 電子郵件傳遞報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
 ht-degree: 38%
@@ -77,7 +77,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="傳遞統計資料"
+>title="排除的傳遞原因"
 >abstract="**排除的原因**&#x200B;圖表和資料表顯示傳遞準備期間遭拒訊息每個規則的劃分。"
 
 
@@ -320,7 +320,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="使用者活動 Widget"
+>title="使用者活動"
 >abstract="**使用者活動**&#x200B;圖以圖表的形式顯示開啟和點按數的劃分。您可以選擇目標資料的時段：最近一天、最近一小時或最近 30 分鐘。"
 
 此 **[!UICONTROL 使用者活動]** 報告會以圖表形式顯示開啟和點按的劃分。 您可以選擇目標資料的時段：最近一天、最近一小時或最近 30 分鐘。
@@ -339,7 +339,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
->title="追蹤統計資料 Widget"
+>title="追蹤統計資料"
 >abstract="**追蹤統計資料**&#x200B;圖表提供開啟和點按數的統計資料。您可以選擇特定時間段來目標定位資料。"
 
 **[!UICONTROL 追蹤統計資料]**&#x200B;圖表提供開啟和點按數的統計資料。您可以選擇特定時間段來目標定位資料。
