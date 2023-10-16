@@ -4,9 +4,9 @@ title: 推播傳遞報告
 description: 瞭解如何存取及使用推播傳遞報告
 badge: label="Beta"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 48%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="推播傳遞報告摘要"
+>title="推播傳遞總覽"
 >abstract="**推播傳遞總覽**&#x200B;呈現推播傳遞的全面概觀，提供廣泛的深入見解和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
 
 此 **[!UICONTROL 傳遞概覽]** 報表提供關鍵績效指標(KPI)，用於提供有關訪客如何與您的推送訊息互動的詳細資訊。
@@ -91,7 +91,7 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="推播整體統計資料"
+>title="推播排除"
 >abstract="**排除**&#x200B;圖表和資料表顯示各種理由，禁止從目標設定檔中排除的使用者設定檔接收訊息。"
 
 **[!UICONTROL 排除]**&#x200B;圖表和資料表顯示各種理由，禁止從目標設定檔中排除的使用者設定檔接收訊息。有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
