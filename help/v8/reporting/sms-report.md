@@ -4,10 +4,10 @@ title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
 badge: label="Beta"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 37%
+source-wordcount: '513'
+ht-degree: 33%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="推播整體統計資料"
+>title="SMS 整體統計資料"
 >abstract="**整體統計資料**&#x200B;報告顯示已傳送的 SMS 的資料：成功、錯誤和隔離。"
 
 此 **整體統計資料** 報表會顯示已傳送SMS訊息的資料。 量度詳情如下。
@@ -92,7 +92,7 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="SMS 整體統計資料"
+>title="簡訊排除"
 >abstract="**排除**&#x200B;圖表和資料表顯示各種理由，禁止從目標設定檔中排除的使用者設定檔接收訊息。"
 
 
@@ -104,9 +104,9 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="傳遞輸送量選單"
->abstract="傳遞輸送量報告提供有關特定期間內整個平台傳遞輸送量的詳細資訊。"
+>title="簡訊傳遞輸送量"
+>abstract="此 **傳遞總處理能力** 報表會顯示指定時間範圍內傳送輸送量的詳細資訊。  用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。"
 
-此報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。
+此報表提供指定時間範圍內傳送輸送量的詳細資訊。 用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。
 
 ![](assets/reporting_sms_2.png)
