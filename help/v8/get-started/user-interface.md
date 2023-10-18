@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
+source-git-commit: c4d0b67ced6877ec38506b9083c843d09172a000
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 100%
+source-wordcount: '1073'
+ht-degree: 97%
 
 ---
 
@@ -149,8 +149,70 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="活動中的工作流程清單"
->abstract="活動中的工作流程清單"
+>abstract="行銷活動中的工作流程清單"
 
 <!-- delivery settings-->
 
 
+<!-- FOR GA -->
+<!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_list"
+>title="收件者建立"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="收件者詳細資訊"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="收件者聯絡資訊"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title="收件者地址"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="收件者帳戶"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="收件者自訂欄位"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_cardoverview"
+>title="收件者卡片概述"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_touchpoints"
+>title="收件者接觸點"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="收件者訂閱清單"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_selection"
+>title="收件者訂閱選擇"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_offers_eligible_list"
+>title="符合資格的收件者優惠清單"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_offers_preview_proposition"
+>title="收件者優惠預覽"
+>abstract="待定"
