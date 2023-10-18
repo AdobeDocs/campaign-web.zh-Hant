@@ -7,7 +7,7 @@ exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 source-git-commit: 5649745c4c1c43d8d4e02dc0fc98d0ea365fb83e
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 26%
+ht-degree: 29%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="工作流程"
->abstract="在此畫面中，您可以存取獨立和行銷活動工作流程的完整清單、檢查其目前狀態、上次/下次執行日期並建立新的工作流程。瀏覽至「範本」標籤以存取可用的工作流程範本。"
+>abstract="在此畫面中，您可以存取獨立和行銷活動工作流程的完整清單、檢查其目前狀態、上次/下次執行日期並建立新的工作流程。瀏覽到「範本」標籤以存取可用的工作流程範本。"
 
 此 **[!UICONTROL 工作流程]** 功能表可讓您存取工作流程的完整清單。 此清單包含兩者 **獨立工作流程** 已由此畫面建立的URL清單，以及 **行銷活動工作流程**，這些已在行銷活動中建立。
 
