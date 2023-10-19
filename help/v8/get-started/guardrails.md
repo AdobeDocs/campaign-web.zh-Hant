@@ -3,10 +3,10 @@ title: Campaign Web UI 中的護欄和限制
 description: Campaign Web UI 中的護欄和限制
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
+workflow-type: tm+mt
+source-wordcount: '657'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,12 @@ Web UI 中尚不支援的工作流程活動設定不會顯示。但是，當執�
 
 ## 預先定義的篩選器 {#filters-guardrails-limitations}
 
-在該版本的產品中，當選取傳遞對象或在工作流程中建立對象時，某些預先定義的篩選器在使用者介面中將無法使用。
+>[!CONTEXTUALHELP]
+>id="acw_predefined_filter_read_only"
+>title="此篩選器為唯讀"
+>abstract="該版本產品的使用者介面中無法使用某些預先定義的篩選器。 這些篩選器標示為唯讀。 即使您無法在規則產生器中檢視查詢的圖形表示，也無法編輯篩選器，但您仍然可以使用它，並可在該畫面的「**屬性**」區段中看到篩選條件。"
+
+在該版本的產品中，當選取傳遞對象或在工作流程中建立對象時，某些預先定義的篩選器在使用者介面中將無法使用。這些篩選器標示為唯讀。
 
 將會顯示具體的錯誤訊息。
 
