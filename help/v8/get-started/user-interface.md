@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c4d0b67ced6877ec38506b9083c843d09172a000
+source-git-commit: f1b8354edbaa8989f6c86015497e458deff2a6a8
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 97%
+source-wordcount: '1204'
+ht-degree: 92%
 
 ---
 
@@ -149,9 +149,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="活動中的工作流程清單"
->abstract="行銷活動中的工作流程清單"
+>abstract="活動中的工作流程清單"
 
 <!-- delivery settings-->
+
+
+
+
+
+
+<!-- FOR BETA (alignment) -->
+<!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
+
+
 
 
 <!-- FOR GA -->
@@ -189,7 +199,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
->title="收件者卡片概述"
+>title="收件者卡片概觀"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -209,10 +219,212 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
->title="符合資格的收件者優惠清單"
+>title="收件者優惠資格符合清單"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
->title="收件者優惠預覽"
+>title="收件人優惠預覽"
 >abstract="待定"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="訂閱傳遞範本"
+>abstract="待定"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_menu"
+>title="登陸頁面"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_properties"
+>title="登陸頁面屬性"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_pages_list"
+>title="登陸頁面"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_schedule"
+>title="登陸頁面排程"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_primarypage"
+>title="登陸頁面主要頁面"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="登陸頁面訂閱"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_calltoaction"
+>title="登陸頁面行動號召"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_simulate"
+>title="登陸頁面模擬"
+>abstract="待定"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_query_enrichment_noneditable"
+>title="活動無法編輯"
+>abstract="待定"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_menu"
+>title="片段"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_save"
+>title="片段儲存"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_create"
+>title="片段建立"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_properties"
+>title="片段屬性"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_type"
+>title="片段型別"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_list"
+>title="片段清單"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_details"
+>title="片段詳細資訊"
+>abstract="待定"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_menu"
+>title="內容範本"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_properties"
+>title="內容範本屬性"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_design"
+>title="內容範本設計"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_selection"
+>title="內容範本選取"
+>abstract="待定"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_loadfile"
+>title="載入檔案活動"
+>abstract="待定"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation"
+>title="調解活動"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting"
+>title="調解目標定位"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_rules"
+>title="調解規則"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting_selection"
+>title="調解目標維度"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_field"
+>title="調解選取欄位"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_attribute"
+>title="調解選取屬性"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_condition"
+>title="調解建立條件"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_complement"
+>title="調解產生補充"
+>abstract="待定"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_savefilter"
+>title="條件內容儲存篩選"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_selectfilter"
+>title="條件內容選取篩選器"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectline"
+>title="主旨列上的條件式內容"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectlinecondition"
+>title="條件式內容主題行條件"
+>abstract="待定"
+

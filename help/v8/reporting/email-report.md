@@ -7,7 +7,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="排除的傳遞原因"
+>title="傳遞排除原因"
 >abstract="**排除的原因**&#x200B;圖表和資料表顯示傳遞準備期間遭拒訊息每個規則的劃分。"
 
 
@@ -110,7 +110,7 @@ ht-degree: 38%
 >title="傳遞總處理能力"
 >abstract="**傳遞輸送量**&#x200B;報告提供有關特定期間內整個平台傳遞輸送量的詳細資訊。"
 
-此報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。
+此報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。
 
 ![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
 
