@@ -4,7 +4,7 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: f1b8354edbaa8989f6c86015497e458deff2a6a8
+source-git-commit: 233f5b045256bf22df4debef8b2bfe375880fa3e
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 92%
@@ -284,7 +284,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_query_enrichment_noneditable"
+>id="acw_orchestration_query_enrichment_noneditable"
 >title="活動無法編輯"
 >abstract="待定"
 
@@ -355,7 +355,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_loadfile"
+>id="acw_orchestration_loadfile"
 >title="載入檔案活動"
 >abstract="待定"
 
@@ -365,42 +365,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation"
+>id="acw_orchestration_reconciliation"
 >title="調解活動"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_targeting"
+>id="acw_orchestration_reconciliation_targeting"
 >title="調解目標定位"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_rules"
+>id="acw_orchestration_reconciliation_rules"
 >title="調解規則"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_targeting_selection"
+>id="acw_orchestration_reconciliation_targeting_selection"
 >title="調解目標維度"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_field"
+>id="acw_orchestration_reconciliation_field"
 >title="調解選取欄位"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_attribute"
+>id="acw_orchestration_reconciliation_attribute"
 >title="調解選取屬性"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_condition"
+>id="acw_orchestration_reconciliation_condition"
 >title="調解建立條件"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_complement"
+>id="acw_orchestration_reconciliation_complement"
 >title="調解產生補充"
 >abstract="待定"
 
