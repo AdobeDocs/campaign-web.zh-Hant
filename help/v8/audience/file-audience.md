@@ -4,10 +4,10 @@ title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
+source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="預覽您的檔案"
->abstract="檢查檔案的預覽。此畫面最多僅顯示 30 筆記錄。"
+>abstract="檢查檔案的預覽。此畫面最多只會顯示30筆記錄。"
 
 
 
