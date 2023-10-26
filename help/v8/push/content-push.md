@@ -3,7 +3,8 @@ audience: end-user
 title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 badge: label="Beta"
-source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
+exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 37%
@@ -153,6 +154,3 @@ ht-degree: 37%
 >[!ENDTABS]
 
 <!--Sounds must be included in the application and defined when the service is created. Refer to this section.-->
-
-
-

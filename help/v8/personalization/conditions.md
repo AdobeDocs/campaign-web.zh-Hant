@@ -6,8 +6,8 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 10%
@@ -85,7 +85,7 @@ ht-degree: 10%
 * 在運算式編輯器中，透過建立包含協助程式函式的條件，
 * 在設計電子郵件時可存取的專用條件式內容產生器中。
 
-提供了有關如何使用運算式編輯器建立條件的詳細資訊 [此處](#condition-perso-editor). 下節提供逐步指示，說明如何使用電子郵件設計工具的條件式內容功能建立條件。 在此範例中，我們要根據收件者的語言建立包含多個變體的電子郵件訊息。 請按照以下步驟操作：
+提供了有關如何使用運算式編輯器建立條件的詳細資訊 [此處](#condition-perso-editor). 下節提供逐步指示，說明如何使用電子郵件設計工具的條件式內容功能建立條件。 在此範例中，我們要根據收件者的語言建立包含多個變體的電子郵件訊息。 請依照下列步驟操作：
 
 1. 建立或開啟電子郵件傳送，編輯其內容，然後按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕以開啟電子郵件設計工作區。
 

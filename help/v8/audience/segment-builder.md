@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 71%
 
   >[!IMPORTANT]
   >
-  >在該版本的產品中，使用者介面中無法使用某些預先定義的篩選器。 您仍可使用它們。 [了解更多](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+  >在該版本的產品中，使用者介面中無法使用某些預先定義的篩選器。 您仍然可以使用它們。[了解更多](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 * **屬性**：顯示建立之對象的說明。
 

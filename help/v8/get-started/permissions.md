@@ -3,13 +3,13 @@ audience: end-user
 title: Campaign Web 中的權限管理
 description: 進一步了解 Campaign Web v8 的權限
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # 存取權與權限 {#access-and-permissions}
 
@@ -101,4 +101,3 @@ ht-degree: 100%
    該資料夾將新增為現有資料夾的子資料夾。瀏覽至該新資料夾以直接在其中建立元件。您也可以從任何資料夾建立元件，並將其儲存在該新資料夾，從屬性的「**其他選項**」章節，如下圖的傳遞所示：
 
    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
-

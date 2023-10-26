@@ -2,7 +2,8 @@
 title: 關鍵績效指標
 description: 瞭解如何瞭解關鍵績效指標
 badge: label="Beta"
-source-git-commit: e784f9aeb0805269561065c10ccbbf6756e62e44
+exl-id: 4b182219-100b-4101-919b-b0b770dd8515
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 98%
@@ -113,4 +114,3 @@ Adobe Campaign 平台發送的部份訊息可能無法到達目的地。當使�
 * 錯誤數量佔要傳遞訊息總數的百分比。
 
 * 傳遞和自動退回處理期間累積的錯誤總數。
-

@@ -3,13 +3,13 @@ audience: end-user
 title: 建立對象
 description: 瞭解如何在Adobe Campaign Web中建立對象
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 11%
 
 ---
-
 
 # 建立對象 {#create-audiences}
 

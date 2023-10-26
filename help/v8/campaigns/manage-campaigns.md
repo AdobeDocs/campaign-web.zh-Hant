@@ -3,13 +3,13 @@ audience: end-user
 title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 badge: label="Beta"
-source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
+exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 75%
 
 ---
-
 
 # 存取和管理您的行銷活動{#manage-campaigns}
 

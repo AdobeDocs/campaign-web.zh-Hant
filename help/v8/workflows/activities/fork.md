@@ -3,13 +3,13 @@ audience: end-user
 title: 使用「分支」工作流程活動
 description: 了解如何使用「分支」工作流程活動
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 97%
 
 ---
-
 
 # 分支 {#fork}
 
@@ -44,4 +44,3 @@ ht-degree: 97%
 * 一個在交集之後，以同時傳送電子郵件和簡訊給目標母體。
 
 ![](../assets/workflow-fork-example.png)
-

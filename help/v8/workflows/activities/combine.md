@@ -3,13 +3,13 @@ audience: end-user
 title: 使用「組合」工作流程活動
 description: 了解如何使用「組合」工作流程活動
 badge: label="Beta"
-source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
+exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 85%
 
 ---
-
 
 # 組合 {#combine}
 
@@ -118,5 +118,3 @@ The **Combine** activity can be placed after any other activity, but not at the 
 以下「**排除**」範例會顯示兩個查詢，設定為篩選年齡在 18 歲至 27 歲之間且擁有 Adob&#x200B;&#x200B;e 電子郵件網域的設定檔。然後從第一個集合中排除包含 Adobe 電子郵件地址網域的設定檔。
 
 ![](../assets/workflow-exclusion-example.png)
-
-

@@ -5,8 +5,8 @@ description: 了解如何在 Campaign 中建立和使用傳遞範本 網頁
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 25%
@@ -204,5 +204,3 @@ Campaign 為每種管道提供了一組內建範本：電子郵件、推播、�
 * [進一步瞭解預覽簡訊內容](../sms/content-sms.md)
 
 * [進一步瞭解預覽推播內容](../push/gs-push.md)
-
-

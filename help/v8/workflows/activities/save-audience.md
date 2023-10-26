@@ -3,13 +3,13 @@ audience: end-user
 title: 使用儲存對象工作流程活動
 description: 了解如何使用「分支」工作流程活動
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 8%
 
 ---
-
 
 # 儲存對象 {#save-audience}
 
@@ -52,5 +52,3 @@ ht-degree: 8%
 ## 範例{#save-audience-example}
 
 以下範例說明如何從目標定位進行簡單的對象更新。 會新增排程器，以每月執行工作流程一次。 查詢會復原訂閱了不同可用應用程式服務的所有設定檔。 此 **儲存對象** 活動會刪除自上次工作流程執行以來從服務取消訂閱的設定檔，並新增新訂閱的設定檔，以更新對象。
-
-

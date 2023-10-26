@@ -3,13 +3,13 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何存取、建立和管理Adobe Campaign網站上的訂閱服務
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 18%
 
 ---
-
 
 # 使用訂閱服務 {#manage-services}
 
@@ -131,11 +131,3 @@ ht-degree: 18%
    * 此 **[!UICONTROL 訂閱的整體演化]** 圖表會依期間顯示劃分，包括訂閱、取消訂閱、人數的演化以及忠誠度百分比。<!--what is Registered?-->
 
 1. 使用 **[!UICONTROL 重新載入]** 按鈕以擷取追蹤工作流程執行和排程的最後值。
-
-
-
-
-
-
-
-

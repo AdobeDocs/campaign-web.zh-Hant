@@ -3,7 +3,8 @@ audience: end-user
 title: 傳送簡訊傳遞
 description: 瞭解如何使用Adobe Campaign網頁版傳送簡訊
 badge: label="Beta"
-source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
+exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 15%
@@ -72,7 +73,3 @@ ht-degree: 15%
 傳送傳遞後，您可以從傳遞頁面追蹤KPI（關鍵績效指標）資料，並從 **[!UICONTROL 記錄檔]** 功能表。
 
 您現在可以使用內建報告來開始衡量訊息的影響。 [了解更多](../reporting/sms-report.md)
-
-
-
-

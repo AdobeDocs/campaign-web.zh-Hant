@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 11%
 
 ## 替代設定檔資料 {#substitution-profiles}
 
-使用設定檔替代，將測試訊息傳送至特定的電子郵件地址或電話號碼，同時顯示來自 [!DNL Adobe Campaign] 資料庫。 請依照下列步驟以執行此操作：
+使用設定檔替代，將測試訊息傳送至特定的電子郵件地址或電話號碼，同時顯示來自 [!DNL Adobe Campaign] 資料庫。 若要執行此作業，請依照下列步驟操作：
 
 
 1. 從傳送的內容中，按一下 **[!UICONTROL 模擬內容]** 按鈕，以及 **[!UICONTROL 測試]** 按鈕。

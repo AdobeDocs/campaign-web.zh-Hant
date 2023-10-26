@@ -3,7 +3,8 @@ audience: end-user
 title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 53%

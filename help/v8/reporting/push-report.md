@@ -7,7 +7,7 @@ exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 48%
+ht-degree: 53%
 
 ---
 
@@ -106,6 +106,6 @@ ht-degree: 48%
 >title="傳遞輸送量報告"
 >abstract="傳遞輸送量報告提供有關特定期間內整個平台傳遞輸送量的詳細資訊。"
 
-**傳遞輸送量**&#x200B;報告提供有關特定期間內整個平台傳遞輸送量的詳細資訊。用來測量訊息傳送速度的主要量度是每小時傳送的訊息數。
+**傳遞輸送量**&#x200B;報告提供有關特定期間內整個平台傳遞輸送量的詳細資訊。用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。
 
 ![](assets/reporting_push_2.png)
