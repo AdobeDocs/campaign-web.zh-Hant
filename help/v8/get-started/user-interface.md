@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: a875ba89417e5c50f7a1e767bf3430147fa7c4c0
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 98%
+source-wordcount: '1343'
+ht-degree: 97%
 
 ---
 
@@ -170,62 +170,62 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_list"
 >title="收件者建立"
->abstract="待定"
+>abstract="收件者建立"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="收件者詳細資訊"
->abstract="待定"
+>abstract="收件者詳細資訊"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="收件者聯絡資訊"
->abstract="待定"
+>abstract="收件者聯絡資訊"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="收件者地址"
->abstract="待定"
+>abstract="收件者地址"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="收件者帳戶"
->abstract="待定"
+>abstract="收件者帳戶"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="收件者自訂欄位"
->abstract="待定"
+>abstract="收件者自訂欄位"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="收件者卡片概觀"
->abstract="待定"
+>abstract="收件者卡片概觀"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_touchpoints"
 >title="收件者接觸點"
->abstract="待定"
+>abstract="收件者接觸點"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="收件者訂閱清單"
->abstract="待定"
+>abstract="收件者訂閱清單"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
 >title="收件者訂閱選擇"
->abstract="待定"
+>abstract="收件者訂閱選擇"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
 >title="收件者優惠資格符合清單"
->abstract="待定"
+>abstract="收件者優惠資格符合清單"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
 >title="收件人優惠預覽"
->abstract="待定"
+>abstract="收件人優惠預覽"
 
 
 
@@ -234,7 +234,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="訂閱傳遞範本"
->abstract="待定"
+>abstract="訂閱傳遞範本"
 
 
 
@@ -243,42 +243,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="登陸頁面"
->abstract="待定"
+>abstract="登陸頁面"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="登陸頁面屬性"
->abstract="待定"
+>abstract="登陸頁面屬性"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="登陸頁面頁面"
->abstract="待定"
+>abstract="登陸頁面頁面"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="登陸頁面排程"
->abstract="待定"
+>abstract="登陸頁面排程"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="登陸頁面主要頁面"
->abstract="待定"
+>abstract="登陸頁面主要頁面"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
 >title="登陸頁面訂閱"
->abstract="待定"
+>abstract="登陸頁面訂閱"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
 >title="登陸頁面行動號召"
->abstract="待定"
+>abstract="登陸頁面行動號召"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
 >title="登陸頁面模擬"
->abstract="待定"
+>abstract="登陸頁面模擬"
 
 
 
@@ -286,7 +286,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="活動不可編輯"
->abstract="待定"
+>abstract="活動不可編輯"
 
 
 
@@ -294,37 +294,37 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="片段"
->abstract="待定"
+>abstract="片段"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="片段儲存"
->abstract="待定"
+>abstract="片段儲存"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="片段建立"
->abstract="待定"
+>abstract="片段建立"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="片段屬性"
->abstract="待定"
+>abstract="片段屬性"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="片段類型"
->abstract="待定"
+>abstract="片段類型"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="片段清單"
->abstract="待定"
+>abstract="片段清單"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="片段詳細資料"
->abstract="待定"
+>abstract="片段詳細資料"
 
 
 
@@ -332,22 +332,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="內容範本"
->abstract="待定"
+>abstract="內容範本"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="內容範本屬性"
->abstract="待定"
+>abstract="內容範本屬性"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="內容範本設計"
->abstract="待定"
+>abstract="內容範本設計"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="內容範本選擇"
->abstract="待定"
+>abstract="內容範本選擇"
 
 
 
@@ -357,7 +357,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="載入檔案活動"
->abstract="待定"
+>abstract="載入檔案活動"
 
 
 
@@ -367,42 +367,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="調解活動"
->abstract="待定"
+>abstract="調解活動"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="調解目標定位"
->abstract="待定"
+>abstract="調解目標定位"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="調解規則"
->abstract="待定"
+>abstract="調解規則"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="調解目標定位維度"
->abstract="待定"
+>abstract="調解目標定位維度"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="調解選取欄位"
->abstract="待定"
+>abstract="調解選取欄位"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="調解選取屬性"
->abstract="待定"
+>abstract="調解選取屬性"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
 >title="調解建立條件"
->abstract="待定"
+>abstract="調解建立條件"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
 >title="調解產生補充"
->abstract="待定"
+>abstract="調解產生補充"
 
 
 
@@ -411,22 +411,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
 >title="條件式內容儲存篩選器"
->abstract="待定"
+>abstract="條件式內容儲存篩選器"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_selectfilter"
 >title="條件式內容選取篩選器"
->abstract="待定"
+>abstract="條件式內容選取篩選器"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectline"
 >title="主旨行上的條件式內容"
->abstract="待定"
+>abstract="主旨行上的條件式內容"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectlinecondition"
 >title="條件式內容主旨行條件"
->abstract="待定"
+>abstract="條件式內容主旨行條件"
 
 
 
@@ -434,46 +434,46 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="對象屬性"
->abstract="待定"
+>abstract="對象屬性"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="對象計數"
->abstract="待定"
+>abstract="對象計數"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="模擬測試設定檔"
->abstract="待定"
+>abstract="模擬測試設定檔"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="模擬測試設定檔選擇"
->abstract="待定"
+>abstract="模擬測試設定檔選擇"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="模擬測試設定檔傳送"
->abstract="待定"
+>abstract="模擬測試設定檔傳送"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="類比電子郵件記錄"
->abstract="待定"
+>abstract="類比電子郵件記錄"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="訂閱總數"
->abstract="待定"
+>abstract="訂閱總數"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
 >title="期間內的訂閱量"
->abstract="待定"
+>abstract="期間內的訂閱量"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="訂閱整體演化"
->abstract="待定"
+>abstract="訂閱整體演化"
