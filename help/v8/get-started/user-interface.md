@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -252,7 +252,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="登陸頁面"
+>title="登陸頁面頁面"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -285,7 +285,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
->title="活動無法編輯"
+>title="活動不可編輯"
 >abstract="待定"
 
 
@@ -313,7 +313,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
->title="片段型別"
+>title="片段類型"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -323,7 +323,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
->title="片段詳細資訊"
+>title="片段詳細資料"
 >abstract="待定"
 
 
@@ -346,7 +346,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
->title="內容範本選取"
+>title="內容範本選擇"
 >abstract="待定"
 
 
@@ -381,7 +381,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
->title="調解目標維度"
+>title="調解目標定位維度"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -410,22 +410,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
->title="條件內容儲存篩選"
+>title="條件式內容儲存篩選器"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_selectfilter"
->title="條件內容選取篩選器"
+>title="條件式內容選取篩選器"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectline"
->title="主旨列上的條件式內容"
+>title="主旨行上的條件式內容"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectlinecondition"
->title="條件式內容主題行條件"
+>title="條件式內容主旨行條件"
 >abstract="待定"
 
 
