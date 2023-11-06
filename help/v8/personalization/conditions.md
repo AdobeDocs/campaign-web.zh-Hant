@@ -10,11 +10,11 @@ exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
-# 建立條件式內容{#add-conditions}
+# 建置條件式內容{#add-conditions}
 
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"

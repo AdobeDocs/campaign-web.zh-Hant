@@ -7,7 +7,7 @@ exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * 「**交集**」活動可讓您僅保留活動中不同傳入母體的通用元素。
 * 「**排除**」可讓您根據特定條件從一個母體中排除元素。
 
-## 設定組合活動 {#combine-configuration}
+## 設定合併活動 {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"

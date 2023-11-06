@@ -7,7 +7,7 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-## 設定頻道活動 {#create-a-delivery-in-a-workflow}
+## 設定管道活動 {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]

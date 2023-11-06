@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 49%
 
 ![](assets/email-send-pause-or-stop.png)
 
-## 檢查KPI {#check-kpis}
+## 檢查 KPI {#check-kpis}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"

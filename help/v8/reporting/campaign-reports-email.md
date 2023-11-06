@@ -19,10 +19,10 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
->title="傳遞總覽"
->abstract="**傳遞總覽**&#x200B;可提供關鍵績效指標 (KPI)，其中包含訪客參與電子郵件傳遞的詳細資訊。"
+>title="傳遞概觀"
+>abstract="**傳遞概觀**&#x200B;可提供關鍵績效指標 (KPI)，其中包含訪客參與電子郵件傳遞的詳細資訊。"
 
-### 傳遞總覽 {#delivery-summary-email-ovv}
+### 傳遞概觀 {#delivery-summary-email-ovv}
 
 此 **[!UICONTROL 傳遞概覽]** 報告提供關鍵績效指標(KPI)，用於提供關於訪客如何參與電子郵件傳送的詳細資訊。 量度詳情如下。
 

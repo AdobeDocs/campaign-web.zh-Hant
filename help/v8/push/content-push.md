@@ -7,11 +7,11 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1347'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
-# 設計推播訊息傳送 {#content-push}
+# 設計推播訊息傳遞 {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"

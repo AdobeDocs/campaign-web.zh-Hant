@@ -22,12 +22,12 @@ ht-degree: 53%
 
 ## 推播摘要 {#push-summary}
 
-### 傳遞總覽 {#push-delivery-overview}
+### 傳遞概觀 {#push-delivery-overview}
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="推播傳遞總覽"
->abstract="**推播傳遞總覽**&#x200B;呈現推播傳遞的全面概觀，提供廣泛的深入見解和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
+>title="推播傳遞概觀"
+>abstract="**推播傳遞概觀**&#x200B;呈現推播傳遞的全面概觀，提供廣泛的深入見解和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
 
 此 **[!UICONTROL 傳遞概覽]** 報表提供關鍵績效指標(KPI)，用於提供有關訪客如何與您的推送訊息互動的詳細資訊。
 

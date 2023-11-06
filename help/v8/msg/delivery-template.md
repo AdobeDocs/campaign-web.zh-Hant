@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 使用傳遞範本
-description: 了解如何在 Campaign 中建立和使用傳遞範本 網頁
+description: 了解如何在 Campaign 中建立和使用傳遞範本 Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
@@ -9,7 +9,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1020'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 25%
 >傳遞範本與不同 [內容範本](../content/email-sample-templates.md)，可讓您使用提供的現成可用範例電子郵件範本之一開始建立內容。
 
 
-## 存取及管理傳遞範本 {#access-manage-templates}
+## 存取並管理傳遞範本 {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"

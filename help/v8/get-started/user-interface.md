@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -460,13 +460,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
->title="模擬測試設定檔傳送"
->abstract="模擬測試設定檔傳送"
+>title="模擬測試設定檔傳送中"
+>abstract="模擬測試設定檔傳送中"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
->title="類比電子郵件記錄"
->abstract="類比電子郵件記錄"
+>title="模擬電子郵件記錄"
+>abstract="模擬電子郵件記錄"
 
 
 >[!CONTEXTUALHELP]
@@ -481,5 +481,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
->title="訂閱整體演化"
->abstract="訂閱整體演化"
+>title="訂閱整體演變"
+>abstract="訂閱整體演變"
