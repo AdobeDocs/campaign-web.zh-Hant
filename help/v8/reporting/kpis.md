@@ -3,10 +3,10 @@ title: 關鍵績效指標
 description: 瞭解如何瞭解關鍵績效指標
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 97%
+source-wordcount: '936'
+ht-degree: 92%
 
 ---
 
@@ -93,6 +93,10 @@ ht-degree: 97%
 >id="acw_keyindicators_unsubscriptions"
 >title="取消訂閱次數"
 >abstract="此量度可顯示 (所選管道) 一項服務所有取消訂閱的總計，以及取消訂閱佔已成功傳遞訊息總數的百分比。"
+
+>[!NOTE]
+>
+> 訂閱和取消訂閱KPI會因服務型別而異。 例如，電子郵件訂閱和取消訂閱包含所有與電子郵件相關的服務，無論其來自手動動作或網路表單。 請務必將此方法與傳送層級取消訂閱量度加以區分，此量度會追蹤取消訂閱連結點按次數，而非實際取消訂閱的使用者。
 
 收件人必須能夠通過電子郵件內容中的專用取消訂閱鏈接或通過回复 SMS 停止來選擇退出電子郵件和 SMS。
 
