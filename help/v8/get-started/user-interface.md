@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: c5f57d85a65a4f17189586f7b83df5d45eed0781
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 99%
+source-wordcount: '1396'
+ht-degree: 97%
 
 ---
 
@@ -230,8 +230,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
->title="收件人優惠預覽"
->abstract="收件人優惠預覽"
+>title="收件者優惠預覽"
+>abstract="收件者優惠預覽"
 
 
 
@@ -410,6 +410,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="調解產生補充"
 >abstract="調解產生補充"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="分割產生補充"
+>abstract="分割產生補充"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="合併產生補充"
+>abstract="合併產生補充"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="分割活動的區段"
+>abstract="分割活動的區段"
+
 
 
 
@@ -483,3 +498,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="訂閱整體演變"
 >abstract="訂閱整體演變"
+
+
