@@ -76,7 +76,7 @@ ht-degree: 97%
    + 製作您的動態內容 {#dynamic-content}
       + [開始使用動態內容](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
-      + [新增條件式內容](personalization/conditions.md)
+      + [新增條件內容](personalization/conditions.md)
       + [新增內建的內容區塊](personalization/content-blocks.md)
    + [將優惠新增至您的訊息](content/offers.md)
    + [向您的訂閱者傳送訊息](content/send-to-subscribers.md)
