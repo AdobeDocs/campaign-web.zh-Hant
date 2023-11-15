@@ -4,7 +4,7 @@ description: Campaign Web UI 中的護欄和限制
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
 ht-degree: 100%
 

@@ -1,66 +1,67 @@
 ---
-title: 連線至Adobe Campaign網頁介面
-description: 瞭解如何連線至Adobe Campaign v8網頁使用者介面
+title: 連線至 Adobe Campaign Web 介面
+description: 了解如何連線至 Adobe Campaign v8 Web 使用者介面
 badge: label="Beta"
-source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
-workflow-type: tm+mt
+exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
+source-git-commit: 7bed2a1a40da7f709daba1f91d1b3ffa3a2aa57f
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
-# 連線至Adobe Campaign {#connect-to-campaign}
+# 連線至 Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud是Adobe的整合式數位行銷應用程式產品和服務系列。 透過其直覺式介面，您可以快速存取您的雲端應用程式、產品功能和服務。 在本頁中瞭解如何連線至Adobe Experience Cloud及存取Adobe Campaign v8網頁介面。
+Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。在此頁面中了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign v8 Web 介面。
 
-## 登入Adobe Experience Cloud {#sign-in-to-exc}
+## 登入 Adobe Experience Cloud {#sign-in-to-exc}
 
-通常Experience Cloud管理員會授予應用程式和服務的存取權。 依照邀請您加入Experience Cloud的電子郵件中的步驟進行。
+通常 Experience Cloud 管理員會授予存取應用程式和服務的權限。 依照電子郵件邀請中的步驟進行來加入 Experience Cloud。
 
-若要登入Adobe Experience Cloud，基本步驟為：
+若要登入 Adobe Experience Cloud，基本步驟如下：
 
 1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}。
 
-1. 使用您的Adobe ID或Enterprise ID登入。 在Adobe中進一步瞭解身分型別 [本文](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+1. 使用 Adobe ID 或 Enterprise ID 來登入。 了解更多有關 Adobe 身分類型的資訊，請參閱[此文章](https://helpx.adobe.com/cn/enterprise/using/identity.html){target="_blank"}。
 
-   登入Experience Cloud後，您可以快速存取所有解決方案和應用程式。
+   登入 Experience Cloud 後，您可以快速存取所有解決方案和應用程式。
 
    ![](assets/exc-home.png)
 
-1. 確認您隸屬於正確的組織。
+1. 確認您所在的組織正確無誤。
 
    ![](assets/exc-orgs.png){width="50%" align="left"}
 
-   瞭解有關Adobe Experience Cloud中組織的詳細資訊，請參閱 [本文](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant){target="_blank"}.
+   了解更多有關 Adobe Experience Cloud 中組織的詳細資訊，請參閱[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant){target="_blank"}。
 
 
-## 存取Adobe Campaign {#access-to-campaign}
+## 存取 Adobe Campaign {#access-to-campaign}
 
-若要存取您的Campaign環境，請選取 **Campaign** 從 **快速存取** Adobe Experience Cloud部分。
+若要存取 Campaign 環境，請從 Adobe Experience Cloud 首頁的「**快速存取**」區段中，選取 **Campaign**。
 
 如果您已經連線到另一個 Adobe Experience Cloud 解決方案，您還可以從螢幕右上角的解決方案切換器瀏覽至您的 Campaign 環境。
 
 ![](assets/solution-switcher.png)
 
-如果您擁有多個環境的存取權，包括Campaign控制面板，請按一下 **Launch** 按鈕以取得正確的執行個體。
+如果您擁有存取多個環境的權限，包括 Campaign 控制面板，請按一下正確執行個體的「**啟動**」按鈕。
 
 ![](assets/launch-campaign.png)
 
 您現在已連接到 Campaign。如需了解如何開始使用使用者介面，請參閱[此頁面](user-interface.md)。
 
-## Adobe Experience Cloud頂端導覽 {#top-bar}
+## Adobe Experience Cloud 頂部導覽 {#top-bar}
 
 使用介面的頂端列進行以下作業：
 
-* 以測試版使用者的身分分享您的意見
+* 以 Beta 使用者身分來分享意見
 * 在組織之間切換
-* 在您的Adobe Experience Cloud解決方案和應用程式之間切換
+* 在 Adobe Experience Cloud 解決方案和應用程式之間切換
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
 ## 支援的瀏覽器 {#browsers}
 
-Campaign v8 Web的設計可在最新版Google Chrome、Safari和Microsoft Edge中以最佳方式運作。 您在舊版或其他瀏覽器上使用某些功能時可能會遇到問題。
+Campaign v8 Web 目的是要在最新版本的 Google Chrome、Safari 和 Microsoft Edge 中以最佳方式運作。您可能無法在舊版本或其他瀏覽器上使用某些功能。
 
 ## 語言偏好設定 {#language-pref}
 
@@ -84,13 +85,12 @@ Campaign v8 Web 目前提供以下語言版本：
 
 1. 按一下右上角您的設定檔圖示，然後選取「**偏好設定**」。
 1. 然後，按一下您電子郵件地址下顯示的語言連結。
-1. 選取您偏好的語言，然後按一下「**儲存**」。您可以選取第二種語言，以備您使用的元件未當地語系化為您的第一種語言。
+1. 選取您偏好的語言，然後按一下「**儲存**」。您可以選取第二語言，以防您使用的元件沒有您第一語言的版本。
 
 ## 深色主題 {#dark-theme}
 
 您可以從個人資料圖示切換到深色主題。使用「**深色主題**」切換以啟用/停用。
 
-有關使用者個人資料設定和帳戶偏好設定的詳情，請參閱 [本節](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}.
+[此章節](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hant#preferences){target="_blank"}詳細說明有關使用者設定檔設定和帳戶偏好設定的內容。
 
-進一步瞭解Experience Cloud中央介面元件，請參閱 [本檔案](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}.
-
+了解更多有關 Experience Cloud 中央介面元件的資訊，請參閱[此文件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hant){target="_blank"}。

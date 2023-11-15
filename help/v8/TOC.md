@@ -6,9 +6,9 @@ description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
 source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
             + [新增鏡像頁面連結](content/mirror-page.md)
             + [新增預覽文字](content/preheader.md)
             + [產生文字版本](content/text-version-email.md)
-            + [使用Adobe Experience Manager資產as a Cloud Service管理資產](content/aem-assets.md)
+            + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](content/aem-assets.md)
          + 內容助理 {#content-assistant}
             + [開始使用內容助理](content/generative-gs.md)
             + [使用內容助理產生文字](content/generative-content.md)
