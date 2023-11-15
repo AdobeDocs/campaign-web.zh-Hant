@@ -1,12 +1,12 @@
 ---
 title: 在Campaign網頁中使用AI支援的內容說明
-description: 在Campaign網頁說明彈出視窗中提出問題
+description: 在 Campaign Web 說明彈出視窗中提出問題
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 453e19351459cc86c4cbaf671be4de7625555374
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 47%
+ht-degree: 52%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 47%
 >
 >此功能可在 Alpha 版本中使用，如有變更，恕不另行通知。
 >
->此功能僅適用於 **英文**. 此版本不支援其他語言。
+>此功能僅以&#x200B;**英文**&#x200B;提供。此版本不支援其他語言。
 
 
 此 **Gen AI的情境式說明** 內嵌在內容說明中的內容，革新了檔案搜尋和回答操作方法問題，讓您能夠輕鬆地在龐大的檔案存放庫中篩選，立即找到您需要的精確資訊。

@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 >title="最近項目"
 >abstract="「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。"
 
-「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。按一下 **顯示更多** 連結以載入更多傳遞。
+「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。按一下「**顯示更多**」連結以載入更多傳遞。
 
 「**關鍵績效指標**」可讓您使用常見的 KPI 值來檢查平台的服務效率。在[本頁面](../reporting/kpis.md)中進一步瞭解這些 KPI。
 
@@ -56,7 +56,7 @@ ht-degree: 97%
 
 您可以設定欄來自訂顯示，以便檢視您需要的所有資訊。請參閱本[章節](#list-screens)。您也可以新增資料夾和子資料夾，請參閱[本章節](permissions.md#folders)以取得詳細資訊。
 
-如需 Campaign 探索工具、資料夾階層和資源的詳細資訊，請參閱此 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}。
+如需 Campaign 探索工具、資料夾階層和資源的詳細資訊，請參閱此 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=zh-Hant#ac-explorer-ui){target="_blank"}。
 
 ### 行銷活動管理 {#user-interface-campaign-management}
 
@@ -79,7 +79,7 @@ ht-degree: 97%
 
 * **收件者** - 存取您的收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。若要了解收件者的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
 * **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。若要了解對象與清單的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
-* **訂閱** - 瀏覽您的訂閱清單。預設情況下，您可以檢視其類型、模式和標籤。若要了解如何管理訂閱和取消訂閱，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}。
+* **訂閱** - 瀏覽您的訂閱清單。預設情況下，您可以檢視其類型、模式和標籤。若要了解如何管理訂閱和取消訂閱，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=zh-Hant){target="_blank"}。
 
 ### 決策管理 {#decision-management}
 
@@ -87,7 +87,7 @@ ht-degree: 97%
 >id="acw_offers_list"
 >title="優惠"
 >abstract="瀏覽已使用「**互動**」模組在主控台中建立的優惠清單和優惠範本。這些是唯讀清單。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="將優惠新增到傳遞"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=zh-Hant" text="將優惠新增到傳遞"
 
 在「決策管理」部分，您可以檢視優惠和優惠範本。這些是唯讀清單。
 
@@ -253,7 +253,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="登陸頁面屬性"
+>title="登陸頁面 屬性"
 >abstract="登陸頁面屬性"
 
 >[!CONTEXTUALHELP]
