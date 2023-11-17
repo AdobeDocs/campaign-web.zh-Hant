@@ -3,10 +3,10 @@ title: 關鍵績效指標
 description: 瞭解如何瞭解關鍵績效指標
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 83%
+source-wordcount: '1196'
+ht-degree: 73%
 
 ---
 
@@ -141,3 +141,23 @@ Adobe Campaign 平台發送的部份訊息可能無法到達目的地。當使�
 * 錯誤數量佔要傳遞訊息總數的百分比。
 
 * 傳遞和自動退回處理期間累積的錯誤總數。
+
+## 已傳送訊息 {#ui-sent-kpi}
+
+<!--DRAFT - This section requires a validation-->
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_sent"
+>title="已傳送"
+>abstract="對於直接郵件通道，此度量會顯示傳送的所有訊息總數，以及傳送給提供者的訊息百分比，與在傳送準備階段期間準備的訊息總數比較。"
+
+在準備階段期間，會產生直接郵件擷取檔案，但未更新有關收件者的資訊（即傳遞記錄）。  當Campaign使用者確認傳送傳送時，傳送的狀態已從「擱置的傳送」移至「已傳送」。 然後傳送會設定為已完成。
+
+絕不能將已傳送的訊息數與已準備的訊息總數相提並論，因為有些位址可能遺失或不完整。
+
+此 **已傳送** 指標針對直接郵件通道顯示下列KPI：
+
+* 已傳送的訊息數與已準備的訊息總數相比的百分比。
+
+* 已傳送之所有訊息的總和。
+
