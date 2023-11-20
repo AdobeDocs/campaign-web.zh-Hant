@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
+source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 99%
+source-wordcount: '1415'
+ht-degree: 98%
 
 ---
 
@@ -406,6 +406,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_reconciliation_complement"
 >title="調解產生補充"
 >abstract="調解產生補充"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_keep_unreconciled_data"
+>title="調解保留未調解的資料選項"
+>abstract="調解保留未調解的資料選項"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
