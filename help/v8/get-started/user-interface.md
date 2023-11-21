@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
 workflow-type: tm+mt
 source-wordcount: '1415'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -370,7 +370,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="調解活動"
->abstract="使用 **調解** 活動，將未識別的資料連結至現有資源。"
+>abstract="使用&#x200B;**調解**&#x200B;活動將未識別的資料連結到現有資源。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"

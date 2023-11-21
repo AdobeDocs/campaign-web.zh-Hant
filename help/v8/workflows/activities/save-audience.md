@@ -7,7 +7,7 @@ exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: 091775bae73595cb209199b062508931dd3ea315
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_save_audience"
 >title="儲存對象"
->abstract="使用此活動來更新現有的對象，或從工作流程中的母體運算上游建立新的對象。 建立的對象會新增至對象清單，並可透過 **受眾** 功能表。"
+>abstract="使用此活動來更新現有的對象，或是從工作流程中的母體運算上游建立新的對象。建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
 
 
 此 **儲存對象** 活動是 **目標定位** 活動。 此活動可讓您更新現有的對象，或是從工作流程中的母體運算上游建立新的對象。 建立的對象會新增至應用程式對象清單，並可透過 **受眾** 功能表。
