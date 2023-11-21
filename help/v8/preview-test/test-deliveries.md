@@ -4,10 +4,10 @@ title: 傳送測試傳遞
 description: 瞭解如何定義並傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 12%
+source-wordcount: '1190'
+ht-degree: 11%
 
 ---
 
@@ -69,6 +69,10 @@ ht-degree: 12%
 >title="範本檔案"
 >abstract="檔案格式必須與原始檔案相同。<br/>支援的檔案格式：txt、csv。檔案大小上限：15MB。使用第一行作為欄標題。"
 
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="在主要對象中包含測試設定檔"
+>abstract="啟用此選項也可將最終訊息傳送給測試傳送的收件者。"
 
 測試設定檔是種子地址，是資料庫中的其他收件者。 它們可在以下位置建立： [!DNL Adobe Campaign] 使用者端主控台。 將測試訊息傳送至種子地址的步驟詳述如下。
 
@@ -90,7 +94,9 @@ ht-degree: 12%
 
 ## 替代設定檔資料 {#substitution-profiles}
 
-使用設定檔替代，將測試訊息傳送至特定的電子郵件地址或電話號碼，同時顯示來自 [!DNL Adobe Campaign] 資料庫。 若要執行此作業，請依照下列步驟操作：
+使用設定檔替代，將測試訊息傳送至特定的電子郵件地址或電話號碼，同時顯示來自 [!DNL Adobe Campaign] 資料庫。 只有在已定義傳送的對象時，才能選取此模式。
+
+若要從主要目標取代設定檔資料，請遵循下列步驟：
 
 
 1. 從傳送的內容中，按一下 **[!UICONTROL 模擬內容]** 按鈕，以及 **[!UICONTROL 測試]** 按鈕。
@@ -119,9 +125,9 @@ ht-degree: 12%
 
 1. 選取替代設定檔後，您可以 [傳送測試傳遞](#send-test).
 
-## 傳送測試給訂閱者 {#subscribers}
+## 傳送測試給應用程式訂閱者 {#subscribers}
 
-使用推播通知時，測試傳送只能傳送給應用程式的訂閱者。 請依照下列步驟進行選取。
+使用推播通知進行設計時，測試傳送只能傳送給應用程式的訂閱者。 請依照下列步驟進行選取。
 
 1. 從推播傳送的內容中，按一下 **[!UICONTROL 模擬內容]** 按鈕，以及 **[!UICONTROL 測試]** 按鈕。
 

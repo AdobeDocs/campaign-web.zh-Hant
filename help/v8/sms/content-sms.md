@@ -4,9 +4,9 @@ title: 設計簡訊傳遞
 description: 了解如何設計您的簡訊傳遞
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '175'
 ht-degree: 88%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 88%
 >title="簡訊內容"
 >abstract="建立簡訊傳遞的內容，並使用個人化欄位、內容區塊和動態內容對其進行個人化設定。"
 
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="應用程式訂閱者"
->abstract="將應用程式訂閱者新增到主要目標，以預覽和測試訊息。"
 
 
 若要設計SMS傳送的內容，請遵循下列步驟：
