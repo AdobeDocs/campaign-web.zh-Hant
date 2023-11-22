@@ -4,10 +4,10 @@ title: 使用分割工作流程活動
 description: 了解如何使用分割工作流程活動
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 96%
+source-wordcount: '694'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 96%
 >title="分割活動排序"
 >abstract="為子集設定母體限制時，您可以根據特定設定檔屬性按升序或降序順序來排列所選設定檔。為此，請開啟「**啟用排序**」選項。例如，您可以限制子集僅包含購買金額最高的前 50 個設定檔。"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="分割產生補充"
+>abstract="設定完所有子集後，您可以選擇與任何子集都不相符的剩餘母體，並將其包含在額外的輸出轉變中。為此，請開啟「**產生補充集**」選項。"
 
 請按照以下步驟設定&#x200B;**分割**&#x200B;活動：
 
