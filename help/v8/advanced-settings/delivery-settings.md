@@ -4,10 +4,10 @@ title: 傳遞設定
 description: 進一步瞭解Campaign網頁中的傳遞設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
+source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 83%
+source-wordcount: '2159'
+ht-degree: 80%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="類型"
->abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。"
+>abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。型別與型別規則是在Campaign使用者端主控台中建立。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="類型傳遞設定"
->abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。"
+>title="傳遞的型別設定"
+>abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。型別與型別規則是在Campaign使用者端主控台中建立。"
 
 
 型別是一組 **型別規則**，會在準備階段期間執行。 類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在傳送準備階段，符合型別規則中之條件的設定檔會從傳送對象中排除。  它們可讓您確定您的電子郵件一律包含特定元素（例如，取消訂閱連結或主旨行）或篩選規則，以排除群組不受您預定目標（如取消訂閱者、競爭者或不忠誠客戶）的影響。
@@ -48,7 +48,9 @@ ht-degree: 83%
 ![](assets/delivery-settings-1.png)
 
 
-
+>[!NOTE]
+>
+>型別與型別規則是在Campaign使用者端主控台中建立。 進一步了解壓力規則以及如何在中設定疲勞管理 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hant){target="_blank"}.
 
 ### 壓力參數 {#pressure-parameters}
 
@@ -83,7 +85,9 @@ ht-degree: 83%
 * **臨時目標的評估和核准**
 * **目標評估**
 
-**行銷活動最佳化** 附加元件隨附疲勞管理。進一步了解壓力規則以及如何在中設定疲勞管理 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant){target="_blank"}.
+>[!NOTE]
+>
+>疲勞管理是在Campaign使用者端主控台中設定。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant){target="_blank"}.
 
 ### 產能設定 {#capacity-settings}
 
@@ -103,7 +107,9 @@ ht-degree: 83%
 
 「**收件者的重要性**」欄位是一種公式，用於確定在超出產能類型規則時要保留哪些收件者。
 
-進一步瞭解一致性和容量規則，以及如何在中設定它們 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+>[!NOTE]
+>
+>型別規則是在Campaign使用者端主控台中設定。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
 ## 對象設定 {#audience}
@@ -139,13 +145,15 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="傳遞的網頁分析設定"
->abstract="選取網路分析帳戶。此帳戶是在 Campaign 用戶端主控台中設定的。您也可以定義與您所用分析工具共用的標籤。"
+>abstract="選取網路分析帳戶。此帳戶是在Campaign使用者端主控台中設定。 您也可以定義與您所用分析工具共用的標籤。"
 
 您可以在此區段中選取網站分析帳戶。 此帳戶是在 Campaign 用戶端主控台中設定的。
 
 您也可以定義與您所用分析工具共用的標籤。
 
-進一步瞭解中的網站分析和行銷活動 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+>[!NOTE]
+>
+>網頁分析功能是在Campaign使用者端主控台中設定。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 ### 重試次數 {#retries}
