@@ -3,10 +3,10 @@ title: 與收件者和對象合作
 description: 瞭解如何使用收件者Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
+source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="收件者"
->abstract="收件者是一個設定檔，旨在接收 Adobe Campaign 傳送的訊息。在 Adobe Campaign 中，收件者是用於傳送遞送內容 (電子郵件、SMS 等) 的預設設定檔。在此清單中，您可以根據您的權限查看收件者的設定檔。使用篩選選項瀏覽此清單。您可以編輯和更新一組小型收件者屬性。"
+>title="設定檔"
+>abstract="設定檔是目標接收Adobe Campaign傳送之訊息的個人。 在 Adobe Campaign 中，收件者是用於傳送遞送內容 (電子郵件、SMS 等) 的預設設定檔。在此清單中，您可以根據您的權限查看收件者的設定檔。使用篩選選項瀏覽此清單。您可以編輯和更新一組小型收件者屬性。"
 
 收件者是一個設定檔，旨在接收 Adobe Campaign 傳送的訊息。在 Adobe　Campaign 中，收件者是用於傳送內容 (電子郵件、SMS 等) 的預設用戶檔案。儲存在資料庫中的收件者資料可讓您建立將接收任何指定傳遞的對象，並在傳遞內容中新增個人化資料。 其他型別的設定檔儲存在資料庫中。 這些設定檔是針對不同用途而設計：例如，種子設定檔是用來在傳送給最終對象之前測試您的傳送。
 
