@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
+source-git-commit: bc0659ba0577eb16500eb339a75a8362a2f3ec41
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 99%
+source-wordcount: '1443'
+ht-degree: 97%
 
 ---
 
@@ -501,3 +501,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="訂閱整體演變"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_directmail_content"
+>title="直接郵件的內容"
+>abstract="直接郵件的內容"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_file"
+>title="直接郵件的檔案屬性"
+>abstract="直接郵件的檔案屬性"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_content"
+>title="直接郵件的內容屬性"
+>abstract="直接郵件的內容屬性"
