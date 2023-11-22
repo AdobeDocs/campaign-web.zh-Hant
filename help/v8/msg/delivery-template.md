@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 26%
+source-wordcount: '1047'
+ht-degree: 21%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 26%
 
 範本可能包括：
 
+* 此 **資料夾** 和 **執行資料夾** 範本的。 資料夾是儲存傳遞範本的位置。 執行資料夾是儲存根據此範本建立的傳遞的資料夾。
 * [類型](../advanced-settings/delivery-settings.md#typology),
 * 寄件者地址，
 * 一個 [對象](../audience/about-recipients.md)，包括 [控制組](../audience/control-group.md)，
@@ -47,9 +48,8 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="使用傳遞範本"
->abstract="使用傳遞範本輕鬆建立並儲存現有傳遞以供未來使用。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-Hant#copy-an-existing-template" text="複製現有範本"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-Hant#convert-an-existing-delivery" text="將傳遞轉換為範本"
+>abstract="使用傳遞範本來建立並儲存傳遞設定，以供日後在您的行銷活動中使用。 您可以從頭開始建立傳遞範本、複製現有範本，或將傳遞轉換為範本。"
+
 
 若要存取內容範本清單，請選取 **[!UICONTROL Campaign Management]** > **[!UICONTROL 傳遞]** 從左側功能表，並瀏覽至 **範本** 標籤。
 
@@ -120,7 +120,7 @@ Campaign 為每種管道提供了一組內建範本：電子郵件、推播、�
 
 若要將傳送儲存為範本，請遵循下列步驟：
 
-1. 前往 **[!UICONTROL 行銷活動管理]** > **[!UICONTROL 傳遞]** 功能表。
+1. 瀏覽至 **[!UICONTROL 行銷活動管理]** > **[!UICONTROL 傳遞]** 功能表。
 1. 從 **[!UICONTROL 瀏覽]** 索引標籤，按一下 **[!UICONTROL 更多動作]** 按鈕，然後選取「 」 **[!UICONTROL 復製為範本]**.
 
    ![](assets/templates-convert-delivery.png)
