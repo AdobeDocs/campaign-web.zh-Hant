@@ -83,7 +83,7 @@ Adobe Campaign V8 Web 會提供運算式編輯器，您可在此選取、安排�
 <a href="conditions.md">
 <img alt="銷售機會" src="assets/do-not-localize/dynamic-conditional.jpg">
 </a>
-<div><a href="conditions.md"><strong>新增條件式內容</strong>
+<div><a href="conditions.md"><strong>新增條件內容</strong>
 </div>
 <p>
 </td>
