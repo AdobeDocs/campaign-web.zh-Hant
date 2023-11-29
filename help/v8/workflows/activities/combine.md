@@ -65,8 +65,8 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
->title="調解選項"
->abstract="選取「**調解類型**」，以定義處理重複項目的方式。"
+>title="調和選項"
+>abstract="選取「**調和類型**」，以定義處理重複項目的方式。"
 
 在 **合併** 活動，您可以設定 **聯集**. 為此，您需要選取 **調解型別** 若要定義重複專案的處理方式，請執行下列步驟：
 

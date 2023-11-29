@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
 source-wordcount: '1190'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -71,8 +71,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
->title="在主要對象中包含測試設定檔"
->abstract="啟用此選項也可將最終訊息傳送給測試傳送的收件者。"
+>title="將測試設定檔納入主要對象"
+>abstract="啟用此選項也可將最終訊息傳送給測試傳遞的收件者。"
 
 測試設定檔是種子地址，是資料庫中的其他收件者。 它們可在以下位置建立： [!DNL Adobe Campaign] 使用者端主控台。 將測試訊息傳送至種子地址的步驟詳述如下。
 

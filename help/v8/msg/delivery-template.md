@@ -9,7 +9,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 21%
+ht-degree: 24%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="使用傳遞範本"
->abstract="使用傳遞範本來建立並儲存傳遞設定，以供日後在您的行銷活動中使用。 您可以從頭開始建立傳遞範本、複製現有範本，或將傳遞轉換為範本。"
+>abstract="使用傳遞範本建立並儲存傳遞設定，以供將來在您的行銷活動中使用。您可以從頭開始建立傳遞範本、複製現有範本或將傳遞轉換為範本。"
 
 
 若要存取內容範本清單，請選取 **[!UICONTROL Campaign Management]** > **[!UICONTROL 傳遞]** 從左側功能表，並瀏覽至 **範本** 標籤。
@@ -163,7 +163,7 @@ Campaign 為每種管道提供了一組內建範本：電子郵件、推播、�
    >
    > * [電子郵件通道](../email/create-email.md)
    > * [推播通知管道](../push/gs-push.md)
-   > * [SMS 頻道](../sms/create-sms.md)
+   > * [簡訊頻道](../sms/create-sms.md)
 
 1. 此外，對於電子郵件範本，進階設定（例如型別規則和目標對應）可透過以下方式存取： **[!UICONTROL 設定]** 按鈕的位置。 [了解更多](../advanced-settings/delivery-settings.md)
 

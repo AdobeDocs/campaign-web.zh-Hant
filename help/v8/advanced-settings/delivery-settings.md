@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
 source-wordcount: '2159'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="類型"
->abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。型別與型別規則是在Campaign使用者端主控台中建立。"
+>abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。類型和類型規則是在 Campaign 用戶端主控台中建立的。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="傳遞的型別設定"
->abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。型別與型別規則是在Campaign使用者端主控台中建立。"
+>title="傳遞的類型設定"
+>abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。類型和類型規則是在 Campaign 用戶端主控台中建立的。"
 
 
 型別是一組 **型別規則**，會在準備階段期間執行。 類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在傳送準備階段，符合型別規則中之條件的設定檔會從傳送對象中排除。  它們可讓您確定您的電子郵件一律包含特定元素（例如，取消訂閱連結或主旨行）或篩選規則，以排除群組不受您預定目標（如取消訂閱者、競爭者或不忠誠客戶）的影響。
@@ -50,7 +50,7 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->型別與型別規則是在Campaign使用者端主控台中建立。 進一步了解壓力規則以及如何在中設定疲勞管理 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hant){target="_blank"}.
+>類型和類型規則是在 Campaign 用戶端主控台中建立的。進一步了解壓力規則以及如何在中設定疲勞管理 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hant){target="_blank"}.
 
 ### 壓力參數 {#pressure-parameters}
 
@@ -145,7 +145,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="傳遞的網頁分析設定"
->abstract="選取網路分析帳戶。此帳戶是在Campaign使用者端主控台中設定。 您也可以定義與您所用分析工具共用的標籤。"
+>abstract="選取網路分析帳戶。此帳戶是在 Campaign 用戶端主控台中設定的。您也可以定義與您所用分析工具共用的標籤。"
 
 您可以在此區段中選取網站分析帳戶。 此帳戶是在 Campaign 用戶端主控台中設定的。
 
