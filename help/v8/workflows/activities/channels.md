@@ -4,10 +4,10 @@ title: 使用傳遞工作流程活動
 description: 了解如何新增傳遞工作流程活動 (電子郵件、推播、簡訊)
 badge: label="Beta"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 3c77120c5936f647514969644f59833e97d56232
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 67%
+source-wordcount: '885'
+ht-degree: 54%
 
 ---
 
@@ -42,25 +42,25 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="電子郵件活動"
->abstract="透過電子郵件、簡訊和推播管道自動化和執行行銷活動。您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
+>abstract="電子郵件活動可促進工作流程中的電子郵件傳送，允許一次性訊息和循環訊息。 它有助於將傳送電子郵件至目標的程式自動化，並在相同工作流程中計算。 您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="SMS 活動"
->abstract="透過電子郵件、簡訊和推播管道自動化和執行行銷活動。您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
+>abstract="SMS活動可促進工作流程中的SMS傳送，允許一次性訊息和循環訊息。 它有助於將傳送SMS至在相同工作流程中計算的目標程式自動化。 您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="推播 iOS 活動"
->abstract="透過電子郵件、簡訊和推播管道自動化和執行行銷活動。您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
+>abstract="推播iOS活動可簡化在工作流程中傳送iOS推播通知的程式。 它同時啟用一次性訊息和循環訊息的傳送，將傳送iOS推播通知自動化至相同工作流程中預先定義的目標。 您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
 >title="推播 Android 活動"
->abstract="透過電子郵件、簡訊和推播管道自動化和執行行銷活動。您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
+>abstract="推播Android活動可簡化將Android推播通知傳送為工作流程一部分的程式。 它同時啟用一次性訊息和循環訊息的傳送，將傳送Android推播通知自動化至相同工作流程中預先定義的目標。 您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
 
 若要在工作流程內容中設定傳送，請遵循下列步驟：
 
