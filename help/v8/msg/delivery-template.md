@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: 使用傳遞範本
-description: 了解如何在 Campaign 中建立和使用傳遞範本 Web
+description: 瞭解如何在Campaign網頁中建立和使用傳遞範本
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 24%
+source-wordcount: '1045'
+ht-degree: 18%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 24%
 範本可能包括：
 
 * 此 **資料夾** 和 **執行資料夾** 範本的。 資料夾是儲存傳遞範本的位置。 執行資料夾是儲存根據此範本建立的傳遞的資料夾。
-* [類型](../advanced-settings/delivery-settings.md#typology),
+* [型別](../advanced-settings/delivery-settings.md#typology)，
 * 寄件者地址，
 * 一個 [對象](../audience/about-recipients.md)，包括 [控制組](../audience/control-group.md)，
 * 自訂 [內容](../content/edit-content.md)，
@@ -85,7 +85,7 @@ ht-degree: 24%
 
 ### 複製現有的傳遞範本 {#copy-an-existing-template}
 
-Campaign 為每種管道提供了一組內建範本：電子郵件、推播、簡訊。建立傳遞範本最簡單的方法是複製和自訂內建範本。
+Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊。 建立傳遞範本最簡單的方法是複製和自訂內建範本。
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Campaign 為每種管道提供了一組內建範本：電子郵件、推播、�
 
 若要複製傳遞範本，請依照以下步驟進行：
 
-1. 瀏覽到「**範本**」索引標籤 (位於左側功能表的「**傳遞**」中)。[了解更多](#access-manage-templates)
+1. 瀏覽至 **範本** 標籤，從 **傳遞** 左側功能表。 [了解更多](#access-manage-templates)
 1. 按一下 **[!UICONTROL 更多動作]** 按鈕，然後選取「 」  **[!UICONTROL 複製]**.
 
    您也可以從清單中選取範本，然後從範本版本畫面中選取此選項。
@@ -143,8 +143,8 @@ Campaign 為每種管道提供了一組內建範本：電子郵件、推播、�
 
 若要從頭設定傳遞範本，請依照以下步驟進行：
 
-1. 瀏覽到「**範本**」索引標籤 (位於左側功能表的「**傳遞**」中)。[了解更多](#access-manage-templates)
-1. 按一下「**[!UICONTROL 建立範本]**」按鈕。
+1. 瀏覽至 **範本** 標籤，從 **傳遞** 左側功能表。 [了解更多](#access-manage-templates)
+1. 按一下 **[!UICONTROL 建立範本]** 按鈕。
 
    ![](assets/templates-create-button.png)
 
@@ -162,7 +162,7 @@ Campaign 為每種管道提供了一組內建範本：電子郵件、推播、�
    >請在下列章節中進一步瞭解傳遞管道以及如何設計個別內容：
    >
    > * [電子郵件通道](../email/create-email.md)
-   > * [推播通知管道](../push/gs-push.md)
+   > * [推播通知頻道](../push/gs-push.md)
    > * [簡訊頻道](../sms/create-sms.md)
 
 1. 此外，對於電子郵件範本，進階設定（例如型別規則和目標對應）可透過以下方式存取： **[!UICONTROL 設定]** 按鈕的位置。 [了解更多](../advanced-settings/delivery-settings.md)

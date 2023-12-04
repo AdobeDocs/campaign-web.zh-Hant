@@ -4,10 +4,10 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 71%
+source-wordcount: '1328'
+ht-degree: 69%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="適用於電子郵件內容的 Gen AI"
->abstract="我們的 Gen AI 技術利用先進的演算法產生高度吸引人的個人化內容。透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水準。"
+>abstract="我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水準。"
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
@@ -35,7 +35,7 @@ ht-degree: 71%
 >title="定義電子郵件屬性"
 >abstract="這些屬性是常見的傳遞參數，可幫助您對傳遞進行命名和分類。附加設定是選擇性的。如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充結構描述，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
 
-您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的內容中建立電子郵件。 以下步驟詳細說明獨立（一次性）電子郵件傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟為中的詳細資訊 [本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的內容中建立電子郵件。 以下步驟詳細說明獨立（一次性）電子郵件傳送的程式。 在中進一步瞭解Adobe Campaign的傳遞建立步驟 [此頁面](../msg/gs-deliveries.md).
 
 若要建立新的獨立電子郵件傳送，請遵循下列步驟。
 
@@ -66,7 +66,7 @@ ht-degree: 71%
 
    ![](assets/email-properties.png)
 
-1. 此外，進階設定（例如型別規則和目標對應）可透過以下方式存取： **[!UICONTROL 設定]** 按鈕的位置。 這些設定是預先設定在選取的範本中，可以根據需要為此特定電子郵件進行編輯。[了解更多](../advanced-settings/delivery-settings.md)
+1. 此外，進階設定（例如型別規則和目標對應）可透過以下方式存取： **[!UICONTROL 設定]** 按鈕的位置。 這些設定已在選取的範本中預先設定，但可視需要為此特定電子郵件進行編輯。 [了解更多](../advanced-settings/delivery-settings.md)
 
 ## 定義對象 {#define-audience}
 
@@ -77,7 +77,7 @@ ht-degree: 71%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="選取主要對象"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="設定控制組"
 
-在此使用案例，您傳送電子郵件給現有的對象。
+在此使用案例中，您會傳送電子郵件給現有的對象。
 
 有關如何使用對象的其他說明，請參閱[本章節](../audience/about-recipients.md)。
 
