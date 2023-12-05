@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e2b8fb6607fbcf1c347e8926a167296812945d4e
+source-git-commit: 24d62bab783e8a00b71d01e5bf44b206d52d6a4e
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 96%
+source-wordcount: '1503'
+ht-degree: 94%
 
 ---
 
@@ -204,6 +204,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="收件者自訂欄位"
 
 >[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="收件者不再聯絡"
+>abstract="收件者不再聯絡"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="收件者其他"
+>abstract="收件者其他"
+
+>[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="收件者卡片概觀"
 >abstract="收件者卡片概觀"
@@ -233,6 +243,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="收件者優惠預覽"
 >abstract="收件者優惠預覽"
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="收件者唯讀設定檔"
+>abstract="收件者唯讀設定檔"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_testprofiles_additionaldata"
+>title="測試設定檔其他資料"
+>abstract="測試設定檔其他資料"
 
 
 
@@ -253,7 +276,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="登陸頁面 屬性"
+>title="登陸頁面屬性"
 >abstract="登陸頁面屬性"
 
 >[!CONTEXTUALHELP]
@@ -408,8 +431,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
->title="合併產生補充"
->abstract="合併產生補充"
+>title="合併產生補充集"
+>abstract="合併產生補充集"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
