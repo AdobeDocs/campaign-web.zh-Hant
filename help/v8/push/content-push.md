@@ -4,10 +4,10 @@ title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 38%
+source-wordcount: '1317'
+ht-degree: 35%
 
 ---
 
@@ -81,36 +81,36 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
->title="iOS 的關鍵警示模式"
+>title="嚴重警報模式"
 >abstract="即使在使用者的手機設定為專注模式或裝置靜音之下，啟用此選項仍可新增聲音至您的通知。這可確保使用者在任何情況下都能收到重要警示的通知。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="iOS 的徽章編號"
+>title="徽章編號"
 >abstract="使用此選項可設定在應用程式圖示上直接顯示新的未讀資訊數量。此讓使用者迅速查看待處理的通知數量。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
->title="iOS 的可變內容"
+>title="可變內容"
 >abstract="使用此選項可讓行動應用程式下載相關通知的媒體內容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"
->title="iOS 的關聯性計分"
+>title="關聯性分數"
 >abstract="設定 0 到 100 之間的關聯性計分，在通知摘要中安排通知的優先順序。分數愈高，表示通知愈重要。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
->title="iOS 的應用程式變數"
+>title="應用程式變數"
 >abstract="使用應用程式變數定義通知行為。這些變數完全可自訂，且可納入傳送到行動裝置的部分訊息承載。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
->title="iOS 的類別 ID"
+>title="類別 ID"
 >abstract="指定關於通知的類別 ID 名稱。這樣可以啟用動作按鈕的顯示，讓使用者無須開啟應用程式，直接從通知執行各種任務。"
 
 
@@ -122,11 +122,11 @@ ht-degree: 38%
 
 | 參數 | 說明 |
 |---------|---------|
-| **[!UICONTROL 音效]** | 設定裝置收到通知時播放的音效。 |
+| **[!UICONTROL 聲音]** | 設定裝置收到通知時播放的音效。 |
 | **[!UICONTROL 通知計數]** | 設定直接在應用程式圖示上顯示的新未讀取資訊數目。 此讓使用者迅速查看待處理的通知數量。 |
-| **[!UICONTROL 管道 ID]** | 設定通知的頻道ID。 在收到具有此管道ID的任何通知之前，應用程式必須建立具有此管道ID的管道。 |
+| **[!UICONTROL 管道ID]** | 設定通知的頻道ID。 在收到具有此管道ID的任何通知之前，應用程式必須建立具有此管道ID的管道。 |
 | **[!UICONTROL 點按動作]** | 定義與使用者點按您的通知相關聯的動作。 這會決定使用者與通知互動時的行為，例如開啟特定畫面或在應用程式中執行特定動作。 |
-| **[!UICONTROL 標記]** | 設定用來取代通知抽屜中現有通知的識別碼。 這有助於防止累積多個通知，並確保只顯示最新的相關通知。 |
+| **[!UICONTROL 標籤]** | 設定用來取代通知抽屜中現有通知的識別碼。 這有助於防止累積多個通知，並確保只顯示最新的相關通知。 |
 | **[!UICONTROL 優先順序]** | 設定通知的優先順序層級，可以是預設、最低、低或高。 優先順序層級會決定通知的重要性和急迫性，影響其顯示方式以及是否可以略過某些系統設定。 有關詳細資訊，請參閱 [FCM檔案](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
 | **[!UICONTROL 可見度]** | 設定通知的可見度等級，可為公開、私人或秘密。 可見度等級會決定通知內容在鎖定畫面和其他敏感區域上顯示的程度。 如需詳細資訊，請參閱 [FCM檔案](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility). |
 | **[!UICONTROL 粘性]** | 啟動後，通知仍可見，即使使用者按一下它。 <br>如果停用，則當使用者與通知互動時，會自動解除通知。 粘性行為可讓重要通知在熒幕上持續較長時間。 |
@@ -138,16 +138,16 @@ ht-degree: 38%
 
 | 參數 | 說明 |
 |---------|---------|
-| **[!UICONTROL 嚴重警報模式]** | 即使在使用者的手機設定為專注模式或裝置靜音之下，啟用此選項仍可新增聲音至您的通知。這可確保使用者注意到重要警報。 |
+| **[!UICONTROL 嚴重警示模式]** | 即使在使用者的手機設定為專注模式或裝置靜音之下，啟用此選項仍可新增聲音至您的通知。這可確保使用者注意到重要警報。 |
 | **[!UICONTROL 清潔徽章]** | 啟用此選項以重新整理應用程式圖示上顯示的徽章值。 這可確保徽章準確地反映新的未讀資訊的數量。 |
 | **[!UICONTROL 通知計數]** | 設定將直接顯示在應用程式圖示上的數字，表示新的未讀取資訊的數量。 這可提供使用者的快速視覺參考。 |
-| **[!UICONTROL 數量]** | 音量從0到100。 |
+| **[!UICONTROL 音量]** | 音量從0到100。 |
 | **[!UICONTROL 可變內容]** | 啟用此選項可允許行動應用程式下載與通知相關的媒體內容。 有關詳細資訊，請參閱 [Apple 開發人員文件](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 |
 | **[!UICONTROL 關聯性分數]** | 設定 0 到 100 之間的關聯性計分，在通知摘要中安排通知的優先順序。分數愈高，表示通知愈重要。 |
 | **[!UICONTROL 中斷層級]** | <ul> <li>**[!UICONTROL 作用中]**：預設情況下，系統會立即顯示通知、在熒幕上點亮，並可播放音效。 通知不會突破焦點模式。</li><li>**[!UICONTROL 被動]**：系統會將通知新增至通知清單，而不會點亮熒幕或播放音效。 通知不會突破焦點模式。</li><li>**[!UICONTROL 有時效性]**：系統會立即顯示通知、點亮熒幕、播放聲音並突破焦點模式。 此層級不需要Apple的特殊許可權。</li> <li>**[!UICONTROL 關鍵]**：系統會立即顯示通知、點亮熒幕，並繞過靜音切換或聚焦模式。 請注意，此層級需要Apple的特殊許可權。</ul> |
 | **[!UICONTROL Thread-id]** | 用於將相關通知分組在一起的識別碼。 具有相同對話串ID的通知會在通知清單中整理為單一對話或對話串。 |
 | **[!UICONTROL 類別]** | 指定關於通知的類別 ID 名稱。這樣可以啟用動作按鈕的顯示，讓使用者無須開啟應用程式，直接從通知執行各種任務。 |
-| **[!UICONTROL 目標內容 ID]** | 用來在開啟通知時鎖定要轉送的應用程式視窗的識別碼。 |
+| **[!UICONTROL 目標內容ID]** | 用來在開啟通知時鎖定要轉送的應用程式視窗的識別碼。 |
 | **[!UICONTROL 啟動影像]** | 指定當使用者選擇從通知啟動您的應用程式時要顯示的啟動影像檔名稱。 將會顯示選取的影像，而非應用程式的一般啟動畫面。 |
 | **[!UICONTROL 應用程式變數]** | 允許您定義通知行為。 這些變數完全可自訂，且可納入傳送到行動裝置的部分訊息承載。 |
 
