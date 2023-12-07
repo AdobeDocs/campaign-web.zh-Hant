@@ -4,10 +4,10 @@ title: 電子郵件頻道的行銷活動報告
 description: 進一步瞭解電子郵件頻道的行銷活動報告
 badge: label="Beta"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 928af170b0f2de1d1d397a32bdd6c0d9c3621bce
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 24%
+source-wordcount: '1572'
+ht-degree: 21%
 
 ---
 
@@ -30,15 +30,15 @@ ht-degree: 24%
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
-* **[!UICONTROL 已傳送總數]**：在傳送準備期間處理的訊息總數。
+* **[!UICONTROL 要傳遞的訊息]**：在傳送準備期間處理的訊息總數。
 
 * **[!UICONTROL 已傳遞]**：成功傳送的訊息數，與已傳送訊息總數相關。
 
 * **[!UICONTROL 跳出數]**：與已傳送訊息總數相關的傳送和自動回訪處理期間累計的錯誤總數。
 
-* **[!UICONTROL 不同開啟次數]**：至少開啟過一次訊息的目標收件者總數。
+* **[!UICONTROL 開啟次數總計]**：至少開啟過一次訊息的目標收件者總數。
 
-* **[!UICONTROL 不同點按次數]**：在傳遞中至少點選一次的不同收件者總數。
+* **[!UICONTROL 點按總數]**：在傳遞中至少點選一次的不同收件者總數。
 
 +++
 
@@ -49,8 +49,7 @@ ht-degree: 24%
 >title="初始目標對象統計資料"
 >abstract="初始目標對象統計資料表可顯示與您收件者相關的資料"
 
-
-**[!UICONTROL 初始目標對象統計資料]**&#x200B;表可顯示與您收件者相關的資料. 量度詳情如下。
+此 **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料。 量度詳情如下。
 
 ![](assets/campaign_report_email_2.png)
 
@@ -65,7 +64,6 @@ ht-degree: 24%
 +++
 
 ### 執行統計資料 {#delivery-summary-email-exec-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
@@ -88,7 +86,6 @@ ht-degree: 24%
 
   電子郵件錯誤型別列於 [Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-
 +++
 
 ### 反應統計資料 {#delivery-summary-email-reaction-stats}
@@ -98,16 +95,15 @@ ht-degree: 24%
 >title="反應統計資料"
 >abstract="**反應統計資料**&#x200B;資料表顯示有關您傳遞之收件者活動的可用資料：開啟數、訂閱數、取消訂閱數、點按鏡像頁面連結。"
 
-
 此 **[!UICONTROL 反應統計資料]** 表格包含您傳送之收件者活動的可用資料。 量度詳情如下。
 
 ![](assets/campaign_report_email_4.png)
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
-* **[!UICONTROL 不同開啟次數]**：至少開啟過一次訊息的目標收件者總數。
+* **[!UICONTROL 不重複開啟]**：至少開啟過一次訊息的目標收件者總數。
 
-* **[!UICONTROL 開啟次數]**：此網域中至少開啟過一次訊息的不同目標收件者人數。
+* **[!UICONTROL 開啟次數總計]**：此網域中至少開啟過一次訊息的不同目標收件者人數。
 
 * **[!UICONTROL 取消訂閱]**：在相關期間內點選取消訂閱的收件者人數。
 
@@ -129,9 +125,9 @@ ht-degree: 24%
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
-* **[!UICONTROL 不同點按次數]**：在傳遞中至少點選一次的不同收件者總數。
+* **[!UICONTROL 不重複點按]**：在傳遞中至少點按一次的不重複收件者總數。
 
-* **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
+* **[!UICONTROL 總點按]**：傳遞中連結的點按總數。
 
 * **[!UICONTROL 反應度]**：已點按傳送的目標收件者數目與已開啟傳送的目標收件者估計數目之間的比率。
 
@@ -140,7 +136,6 @@ ht-degree: 24%
 ## 無法傳遞的項目 {#non-deliverables-email}
 
 ### 依類型的錯誤劃分 {#delivery-summary-email-breakdown-per-type}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
@@ -171,7 +166,6 @@ ht-degree: 24%
 
 +++
 
-
 ### 依網域的錯誤劃分 {#delivery-summary-email-breakdown-per-domain}
 
 >[!CONTEXTUALHELP]
@@ -179,14 +173,11 @@ ht-degree: 24%
 >title="依網域的錯誤劃分"
 >abstract="**依網域的錯誤劃分**&#x200B;資料表和圖表顯示根據每個網域發生的每個錯誤類型的可用資料。"
 
-
 此 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖表包含可用於每個網域可能遇到的錯誤的資料。 量度與以下專案通用 **[!UICONTROL 每種型別的錯誤劃分]** 表格和圖表詳見上文。
-
 
 ## 追蹤指標 {#tracking-indicators-email}
 
 ### 傳遞統計資料 {#delivery-summary-email-statistics}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
@@ -199,11 +190,11 @@ ht-degree: 24%
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
-* **[!UICONTROL 成功]**：成功處理的訊息數與要傳送的訊息數相關。
+* **[!UICONTROL 要傳遞的訊息]**：成功處理的訊息數與要傳送的訊息數相關。
 
-* **[!UICONTROL 不同開啟次數]**：至少開啟過一次訊息的目標收件者總數。
+* **[!UICONTROL 不重複開啟]**：至少開啟過一次訊息的目標收件者總數。
 
-* **[!UICONTROL 開啟次數]**：此網域中至少開啟過一次訊息的不同目標收件者人數。
+* **[!UICONTROL 開啟次數總計]**：此網域中至少開啟過一次訊息的不同目標收件者人數。
 
 * **[!UICONTROL 在選擇退出連結上的點選次數]**：對取消訂閱連結的點按次數。
 
@@ -214,29 +205,27 @@ ht-degree: 24%
 
 ### 開啟及點進率 {#delivery-summary-open-rate}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="開啟及點進率"
 >abstract="**開啟及點進率**&#x200B;表格顯示與您的傳遞相關的收件者參與度的資料。"
 
-
-
 此 **[!UICONTROL 開啟及點進率]** 表格會顯示與收件者相關的資料。 量度詳情如下。
 
 ![](assets/campaign_report_email_8.png)
 
-+++進一步瞭解電子郵件促銷活動報告量度。
++++ 進一步瞭解電子郵件行銷活動報告度量。
 
 * **[!UICONTROL 已傳送]**：已傳送的訊息總數。
 
-* **[!UICONTROL 投訴]**：此網域被回報為收件者不想要的訊息數。
+* **[!UICONTROL 投訴]**：此網域被回報為收件者不希望的訊息數目和百分比。
 
-* **[!UICONTROL 開啟次數]**：此網域中至少開啟過一次訊息的不同目標收件者人數。
+* **[!UICONTROL 不重複開啟次數]**：此網域中至少開啟過一次訊息的不同目標收件者的數目和百分比。
 
-* **[!UICONTROL 點按次數]**：至少點按一次相同傳遞的不同目標收件者人數。
+* **[!UICONTROL 不重複點按]**：至少點按一次相同傳遞的不同目標收件者的數目和百分比。
 
 * **[!UICONTROL 原始反應度]**：與開啟傳送至少一次的收件者人數相比，已至少點按一次傳送的收件者人數的百分比。
+
 +++
 
 ## URL 和點擊流量 {#url-email}
@@ -246,19 +235,20 @@ ht-degree: 24%
 >title="URL 和點擊流量"
 >abstract="**URL 和點按資料流**&#x200B;報告提供可詳細說明傳遞期間點按次數最多的 URL 的關鍵績效指標 (KPI)。"
 
-**[!UICONTROL URL 和點按資料流]**&#x200B;報告提供可詳細說明傳遞期間點按次數最多的 URL 的關鍵績效指標 (KPI)。量度詳情如下。
+此 **[!UICONTROL URL和點按流量]** 報告提供關鍵績效指標(KPI)，可提供傳遞期間點選次數最多的URL的詳細資訊。 量度詳情如下。
 
 ![](assets/campaign_report_email_9.png)
 
-+++進一步瞭解電子郵件促銷活動報告量度。
++++ 進一步瞭解電子郵件行銷活動報告度量。
 
 * **[!UICONTROL 反應度]**：已點按傳送的目標收件者數目與已開啟傳送的目標收件者估計數目之間的比率。
 
-* **[!UICONTROL 不同點按次數]**：在傳遞中至少點選一次的不同收件者總數。
+* **[!UICONTROL 不重複點按]**：在傳遞中至少點選一次的不同收件者總數。
 
-* **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
+* **[!UICONTROL 總點按]**：傳遞中連結的點按總數。
 
 * **[!UICONTROL 平台平均值]** ：此平均比率顯示在每個比率（反應性、不同點按和累計點按）下，是針對過去六個月傳送的傳送進行計算。 系統只會考慮具有相同型別和相同通道的傳送。 校訂已排除。
+
 +++
 
 ### 造訪量最高的前 10 個連結 {#top10-campaign-report-email}
@@ -267,7 +257,6 @@ ht-degree: 24%
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="造訪量最高的前 10 個連結"
 >abstract="**造訪量最高的前 10 個連結**&#x200B;圖表和資料表包含每個連結收件者行為的可用資料。"
-
 
 此 **[!UICONTROL 前10個最常造訪的連結]** 圖表和表格包含每個連結的收件者行為可用資料。 量度詳情如下。
 
@@ -283,17 +272,14 @@ ht-degree: 24%
 
 ### 特定期間的點按劃分 {#campaign-report-email-breakdown-clicks}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="特定期間的點按劃分"
 >abstract="**特定期間的點按劃分**&#x200B;圖表顯示每個連結收件者行為的可用資料。"
 
-
 此 **[!UICONTROL 一段時間內點按的劃分]** 圖表包含每個連結的收件者行為可用資料。
 
 ![](assets/campaign_report_email_11.png)
-
 
 ## 使用者活動 {#user-activities-email}
 
