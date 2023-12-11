@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: c5eaa8f5db6135c6d921258f7e047c1ff1cc975d
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -543,13 +543,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_nameofthefile"
->title="檔案的名稱"
->abstract="檔案的名稱"
+>title="檔案名稱"
+>abstract="檔案名稱"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
->title="目標資料庫"
->abstract="目標資料庫"
+>title="Target 資料庫"
+>abstract="Target 資料庫"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
@@ -558,18 +558,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
->title="拒絕管理出站轉變"
->abstract="拒絕管理出站轉變"
+>title="拒絕管理傳出轉變"
+>abstract="拒絕管理傳出轉變"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition_reject"
->title="拒絕管理的出站轉變針對拒絕"
->abstract="拒絕管理的出站轉變針對拒絕"
+>title="拒絕管理拒絕的傳出轉變"
+>abstract="拒絕管理拒絕的傳出轉變"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
->title="載入檔案活動的格式"
->abstract="載入檔案活動的格式"
+>title="載入檔案活動的格式化"
+>abstract="載入檔案活動的格式化"
 
 
 
