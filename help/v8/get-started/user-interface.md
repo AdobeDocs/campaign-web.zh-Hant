@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c5eaa8f5db6135c6d921258f7e047c1ff1cc975d
+source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1503'
 ht-degree: 98%
 
 ---
@@ -570,31 +570,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="載入檔案活動的格式化"
 >abstract="載入檔案活動的格式化"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_customcondition"
->title="自訂條件"
->abstract="自訂條件"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_ruleproperties"
->title="規則屬性"
->abstract="規則屬性"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_selectaudience"
->title="選取對象"
->abstract="選取對象"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_predefinedfilter"
->title="預先定義的篩選器"
->abstract="預先定義的篩選器"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="群組"
->abstract="群組"

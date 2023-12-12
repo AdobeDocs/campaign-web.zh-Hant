@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 1%
+source-wordcount: '1354'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,12 @@ ht-degree: 1%
 * **受眾**：使用現有對象篩選查詢。
 * **預先定義的篩選器**：使用現有的預先定義篩選器來篩選查詢。
 
-### 建立自訂條件
+### 設定自訂條件
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_customcondition"
+>title="自訂條件"
+>abstract="自訂條件"
 
 若要使用自訂條件篩選查詢，請執行下列步驟：
 
@@ -96,6 +101,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### 選取對象
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_selectaudience"
+>title="選取對象"
+>abstract="選取對象"
+
 若要使用現有對象篩選查詢，請執行下列步驟：
 
 1. 按一下所需節點上的+按鈕，然後選取 **[!UICONTROL 選取對象]**.
@@ -108,6 +118,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### 使用預先定義的篩選器
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_predefinedfilter"
+>title="預先定義的篩選器"
+>abstract="預先定義的篩選器"
+
 若要使用預先定義的篩選器來篩選查詢，請執行下列步驟：
 
 1. 按一下所需節點上的+按鈕，然後選取 **[!UICONTROL 預先定義的篩選器]**.
@@ -119,6 +134,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
    ![](assets/query-predefined-filter.png)
 
 ## 結合篩選元件與運運算元
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="群組"
+>abstract="群組"
 
 將篩選元件新增至查詢時，會在查詢畫布上自動建立新轉變，而新的篩選元件會透過AND運運算元連結至第一個篩選元件。 這表示來自這兩個篩選元件的結果會合併到查詢結果中。
 
@@ -137,6 +157,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 * EXCEPT （排除）：排除出站轉變中所有篩選元件的結果。
 
 ## 檢查並驗證您的查詢
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_ruleproperties"
+>title="規則屬性"
+>abstract="規則屬性"
 
 在畫布中建立查詢後，您可以使用右側的「規則屬性」窗格來檢查查詢。 可用的操作如下：
 
