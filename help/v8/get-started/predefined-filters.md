@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '787'
 ht-degree: 100%
 
 ---
@@ -68,9 +68,7 @@ ht-degree: 100%
 
 您的自訂篩選器現在可以在「**預先定義的篩選器**」清單中取得，並可供所有 Campaign 使用者存取。
 
-
 ### 從篩選器清單中建立篩選器 {#create-filter-from-list}
-
 
 您可以從左側選單的「**預先定義的篩選器**」項目中建立篩選器。若要執行此作業，請依照下列步驟操作：
 
@@ -86,7 +84,6 @@ ht-degree: 100%
 
 1. 儲存您的變更。此篩選器便會新增至預先定義的篩選器清單。
 
-
 ## 將您的篩選器另存為最愛 {#fav-filter}
 
 建立預先定義的篩選器時，如果您想要在您的最愛中看到此預先定義的篩選器，您可以啟用「**另存為最愛**」選項。
@@ -95,7 +92,6 @@ ht-degree: 100%
 將篩選器另存為最愛後，所有使用者都可以在篩選器建立清單的「**最愛的篩選器**」區段中使用該篩選器，如下所示：
 
 ![](assets/predefined-filters-favorite.png){width="30%" align="left"}
-
 
 ## 使用預先定義的篩選器 {#use-predefined-filter}
 
