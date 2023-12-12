@@ -5,7 +5,7 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: acc8956c21c700b615bcd1b2a055a91b1d227f7b
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 95%
@@ -126,10 +126,10 @@ ht-degree: 95%
       + [排程器](workflows/activities/scheduler.md)
       + [分割](workflows/activities/split.md)
       + [等待](workflows/activities/wait.md)
-   + 查詢資料庫 {#query-database}
-      + [使用查詢模型工具](query/query-modeler-overview.md)
-      + [建置您的第一個查詢](query/build-query.md)
-      + [查詢範例](query/query-samples.md)
++ 查詢資料庫 {#query-database}
+   + [使用查詢模型工具](query/query-modeler-overview.md)
+   + [建置您的第一個查詢](query/build-query.md)
+   + [查詢範例](query/query-samples.md)
 + 報告 {#reports}
    + [開始使用報告](reporting/gs-reports.md)
    + [關鍵績效指標](reporting/kpis.md)
