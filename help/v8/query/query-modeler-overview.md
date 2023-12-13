@@ -2,19 +2,14 @@
 audience: end-user
 title: 使用查詢模型工具
 description: 瞭解如何使用Adobe Campaign Web查詢建模工具。
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: 8bf82784c9a55f9eb91bf8eba8c959b229efeef9
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 7%
+source-wordcount: '339'
+ht-degree: 0%
 
 ---
 
 # 使用查詢模型工具 {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="目標對象"
->abstract="制定傳遞目標再簡單不過了！使用我們最新的查詢模型工具，您現在可以從資料庫為收件者或任何其他目標維度定義篩選條件。 利用 Adobe Experience Platform 對象進一步縮小目標對象範圍並充分發揮行銷活動的影響力。"
 
 ## 查詢建模器概述 {#overview}
 
