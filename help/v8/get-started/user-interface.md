@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4bdf23ab5905602608f3982692c88d3a399ca76a
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 95%
+source-wordcount: '1513'
+ht-degree: 97%
 
 ---
 
@@ -576,11 +576,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="載入檔案活動的格式化"
 >abstract="載入檔案活動的格式化"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_querymessage"
->title="查詢模型工具"
->abstract="從資料庫定義收件者或任何其他目標維度的篩選條件。 善用Adobe Experience Platform對象，進一步調整目標對象並最大化行銷活動的影響。"
