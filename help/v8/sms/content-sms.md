@@ -4,10 +4,10 @@ title: 設計簡訊傳遞
 description: 了解如何設計您的簡訊傳遞
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 61%
+source-wordcount: '244'
+ht-degree: 46%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 61%
 >title="簡訊內容"
 >abstract="建立SMS傳送的內容，並使用個人化欄位、內容區塊和動態內容來個人化。 若要開始撰寫訊息，請按一下 **編輯內容** 按鈕。"
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_msg"
+>title="簡訊內容"
+>abstract="定義簡訊的內容。 若要撰寫訊息，請按一下 **訊息** 欄位並輸入訊息內容。 使用運算式編輯器新增個人化資料和動態內容。 您也可以自訂寄件者名稱。 依預設，所有SMS傳送都會啟用追蹤，讓您能夠測量收件者何時點按連結。"
 
 
 若要設計SMS傳送的內容，請遵循下列步驟：

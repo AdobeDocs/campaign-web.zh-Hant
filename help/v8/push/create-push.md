@@ -4,9 +4,9 @@ title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '653'
 ht-degree: 15%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 15%
 
 1. 輸入 **[!UICONTROL 標籤]** 用於傳遞。 依預設，標籤會以所選範本的標籤設定。 應進行更新。
 
-1. 瀏覽 **[!UICONTROL 其他選項]** 下拉式清單，以視需要自訂選項。
+1. 瀏覽 **[!UICONTROL 其他選項]** 下拉式清單，以視需要自訂選項。 如果您的傳送是以延伸結構描述為基礎，請指定 **自訂選項** 欄位可供使用。
 
    +++根據您的要求設定下列設定。
    * **[!UICONTROL 內部名稱]**：指派唯一識別碼給傳遞。

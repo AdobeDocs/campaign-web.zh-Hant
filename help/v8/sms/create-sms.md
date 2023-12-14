@@ -4,10 +4,10 @@ title: 建立簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
 badge: label="Beta"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 72%
+source-wordcount: '479'
+ht-degree: 33%
 
 ---
 
@@ -21,12 +21,15 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="定義簡訊對象"
->abstract="選取簡訊訊息的最佳對象。"
+>abstract="您可以按一下「 」，建立新對象或選取現有對象 **選取對象** 按鈕。 如有需要，請新增控制組以測量傳送的影響。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="設定控制組"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="簡訊範本選取"
->abstract="選取預先定義的範本，以開始進行簡訊傳遞。"
+>abstract="選取預先定義的範本，以開始您的SMS傳送。 傳遞範本可讓您輕鬆在行銷活動和傳遞中重複使用自訂內容和設定。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="使用傳遞範本"
+
 
 您可以建立獨立的SMS傳送，或在行銷活動工作流程的內容中建立SMS。 以下步驟詳細說明獨立（一次性） SMS傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟為中的詳細資訊 [本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -35,13 +38,13 @@ ht-degree: 72%
 
 1. 瀏覽至 **[!UICONTROL 傳遞]** 功能表，然後按一下  **[!UICONTROL 建立傳遞]** 按鈕。
 
-1. 在「**[!UICONTROL 管道]**」區段下方，選擇簡訊作為管道並選取範本。[了解範本的詳細資訊](../msg/delivery-template.md)
+1. 在 **[!UICONTROL 頻道]** 區段，選擇簡訊作為頻道，並選取範本。 [進一步瞭解範本](../msg/delivery-template.md)
 
 1. 按一下「**[!UICONTROL 建立傳遞]**」按鈕以確認。
 
    ![](assets/sms_create_1.png)
 
-1. 進入一個傳遞的&#x200B;**[!UICONTROL 標籤]**，並存取「**[!UICONTROL 其他選項]**」下拉式清單。
+1. 輸入 **[!UICONTROL 標籤]** 傳送並存取 **[!UICONTROL 其他選項]** 下拉式清單。 如果您的傳送是以延伸結構描述為基礎，請指定 **自訂選項** 欄位可供使用。
 
    +++根據您的要求設定下列設定。
    * **[!UICONTROL 內部名稱]**：指派唯一識別碼給傳遞。
@@ -51,19 +54,23 @@ ht-degree: 72%
    * **[!UICONTROL 性質]**：指定電子郵件的性質以進行分類。
 +++
 
-1. 按一下「**[!UICONTROL 選取對象]**」按鈕，以鎖定現有對象或建立您自己的對象。[了解更多](../audience/about-recipients.md)。
+1. 按一下「**[!UICONTROL 選取對象]**」按鈕，以鎖定現有對象或建立您自己的對象。[深入瞭解對象](../audience/about-recipients.md).
 
    ![](assets/sms_create_2.png)
 
-1. 開啟&#x200B;**[!UICONTROL 啟用控制]**&#x200B;組選項，設定一個控制組來測量您的傳遞造成的影響，這可讓您將收到訊息的母體的行為和沒有收到訊息的聯絡人的行為進行比較。[了解更多](../audience/control-group.md)
+   瞭解如何在中選取現有對象 [此頁面](../audience/add-audience.md)
 
-1. 按一下「**[!UICONTROL 編輯內容]**」，開始設計您的簡訊訊息的內容。[了解更多](content-sms.md)
+   瞭解如何在中建立新受眾 [此頁面](../audience/one-time-audience.md)
+
+1. 切換至 **[!UICONTROL 啟用控制組]** 用來設定控制組以測量傳送影響的選項。 訊息不會傳送給該控制組，因此您可以將收到訊息的母體的行為與未收到訊息的連絡人的行為進行比較。 [了解更多](../audience/control-group.md)
+
+1. 按一下 **[!UICONTROL 編輯內容]** 開始設計簡訊的內容。 [了解更多](content-sms.md)
 
    ![](assets/sms_create_4.png)
 
    在此畫面中，您也可以 [模擬您的內容](../preview-test/preview-test.md) 和 [設定優惠方案](../content/offers.md).
 
-1. 若要將您的傳遞安排在特定的日期和時間，請開啟「**[!UICONTROL 啟用排程]**」選項。在您開始進行傳遞後，訊息將在您為收件者定義的確切日期和時間自動傳送。進一步瞭解中的傳送排程 [本節](../msg/gs-messages.md#gs-schedule).
+1. 若要將您的傳遞安排在特定的日期和時間，請開啟「**[!UICONTROL 啟用排程]**」選項。在您啟動傳遞後，訊息將在您為收件者定義的確切日期和時間自動傳送。 進一步瞭解中的傳送排程 [本節](../msg/gs-messages.md#gs-schedule).
 
 1. 按一下 **[!UICONTROL 設定傳遞設定]** 以存取與傳送範本相關的進階選項。 [了解更多](../advanced-settings/delivery-settings.md)
 
