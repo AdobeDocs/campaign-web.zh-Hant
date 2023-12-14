@@ -4,10 +4,10 @@ title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 35%
+source-wordcount: '1484'
+ht-degree: 31%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="推播 Android 內容"
->abstract="定義推播 Android 內容。"
+>abstract="為Android裝置定義推播通知的內容。 若要撰寫訊息，請按一下 **標題** 和 **訊息** 欄位。 使用運算式編輯器個人化資料並新增動態內容。 若要進一步個人化您的推播通知，您可以選擇要新增至推播通知的影像、要顯示在設定檔裝置上的通知圖示及其顏色。 如需更多自訂設定，請瀏覽至 **進階設定** 區段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="推播 iOS 內容"
->abstract="定義推播 iOS 內容。"
+>abstract="為iOS裝置定義推播通知的內容。 若要撰寫訊息，請按一下 **標題** 和 **訊息** 欄位。 使用運算式編輯器個人化資料並新增動態內容。 如需更多自訂設定，請瀏覽至 **進階設定** 區段。"
 
 ## 定義通知的內容 {#push-message}
 
@@ -35,7 +35,7 @@ ht-degree: 35%
 >title="iOS 的靜音通知"
 >abstract="靜音推播模式允許將「靜音」通知傳送到行動應用程式。使用者不會發現有通知傳到。而是直接傳輸到應用程式。"
 
-
+建立推播傳送後，您就可以定義其內容。 引數和設定取決於行動作業系統：Android或iOS。 瀏覽下列標籤，瞭解如何針對每個作業系統撰寫訊息。
 
 >[!BEGINTABS]
 
@@ -113,6 +113,7 @@ ht-degree: 35%
 >title="類別 ID"
 >abstract="指定關於通知的類別 ID 名稱。這樣可以啟用動作按鈕的顯示，讓使用者無須開啟應用程式，直接從通知執行各種任務。"
 
+進階選項取決於行動作業系統：Android或iOS。 瀏覽下列標籤，瞭解如何針對每個作業系統定義訊息的選項。
 
 >[!BEGINTABS]
 

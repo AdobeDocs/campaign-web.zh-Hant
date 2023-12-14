@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 18%
+source-wordcount: '1068'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="傳遞範本"
->abstract="使用傳遞範本將創意外觀和風格標準化，以便更快速地執行和啟動行銷活動"
+>abstract="為了加快並改善設計流程，您可以建立傳遞範本，以在行銷活動中輕鬆重複使用自訂內容和設定。 此功能可讓您標準化創意外觀和風格，以便更快速地執行和啟動行銷活動。"
 
 為了加快並改善設計流程，您可以建立傳遞範本，以在行銷活動中輕鬆重複使用自訂內容和設定。 此功能可讓您標準化創意外觀和風格，以便更快速地執行和啟動行銷活動。
 
@@ -79,6 +79,7 @@ ht-degree: 18%
 ## 建立傳遞範本 {#create-a-delivery-template}
 
 若要建立傳遞範本，您可以：
+
 * 複製現有範本 —  [瞭解更多](#copy-an-existing-template)
 * 將現有傳遞轉換為範本 —  [瞭解更多](#convert-an-existing-delivery)
 * 從頭開始建立傳遞範本 —  [瞭解更多](#create-a-new-template)
