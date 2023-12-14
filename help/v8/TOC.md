@@ -8,7 +8,7 @@ hide: true
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 95%
       + [分割](workflows/activities/split.md)
       + [等待](workflows/activities/wait.md)
 + 查詢資料庫 {#query-database}
-   + [使用查詢模型工具](query/query-modeler-overview.md)
+   + [使用查詢建模工具](query/query-modeler-overview.md)
    + [建置您的第一個查詢](query/build-query.md)
    + [編輯運算式](query/expression-editor.md)
    + [查詢範例](query/query-samples.md)
