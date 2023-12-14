@@ -4,10 +4,10 @@ title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 31%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,15 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="推播 iOS 訊息"
->abstract="定義推播 iOS 訊息的標題和內容。使用個人化對話框進行內容的個人化，並新增條件。"
+>abstract="為iOS裝置定義推播通知的內容。 若要撰寫訊息，請按一下 **標題** 和 **訊息** 欄位。 使用運算式編輯器個人化資料並新增動態內容。 如需更多自訂設定，請瀏覽至 **進階設定** 區段。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_msg"
+>title="推播 iOS 訊息"
+>abstract="為Android裝置定義推播通知的內容。 若要撰寫訊息，請按一下 **標題** 和 **訊息** 欄位。 使用運算式編輯器個人化資料並新增動態內容。 若要進一步個人化您的推播通知，您可以選擇要新增至推播通知的影像、要顯示在設定檔裝置上的通知圖示及其顏色。 如需更多自訂設定，請瀏覽至 **進階設定** 區段。"
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
@@ -87,7 +95,7 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="徽章編號"
+>title="通知計數"
 >abstract="使用此選項可設定在應用程式圖示上直接顯示新的未讀資訊數量。此讓使用者迅速查看待處理的通知數量。"
 
 
@@ -139,7 +147,7 @@ ht-degree: 31%
 
 | 參數 | 說明 |
 |---------|---------|
-| **[!UICONTROL 嚴重警示模式]** | 即使在使用者的手機設定為專注模式或裝置靜音之下，啟用此選項仍可新增聲音至您的通知。這可確保使用者注意到重要警報。 |
+| **[!UICONTROL 嚴重警示模式]** | 即使在使用者的手機設定為專注模式或裝置靜音之下，啟用此選項仍可新增聲音至您的通知。這可確保使用者注意到重要警報。 選取時，您可以使用「音量」等級列來調整通知的音量。 在橫條上方0到100之間的數字會反映您的設定。 |
 | **[!UICONTROL 清潔徽章]** | 啟用此選項以重新整理應用程式圖示上顯示的徽章值。 這可確保徽章準確地反映新的未讀資訊的數量。 |
 | **[!UICONTROL 通知計數]** | 設定將直接顯示在應用程式圖示上的數字，表示新的未讀取資訊的數量。 這可提供使用者的快速視覺參考。 |
 | **[!UICONTROL 音量]** | 音量從0到100。 |
