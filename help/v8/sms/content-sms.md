@@ -4,10 +4,10 @@ title: 設計簡訊傳遞
 description: 了解如何設計您的簡訊傳遞
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 88%
+source-wordcount: '185'
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="簡訊內容"
->abstract="建立簡訊傳遞的內容，並使用個人化欄位、內容區塊和動態內容對其進行個人化設定。"
+>abstract="建立SMS傳送的內容，並使用個人化欄位、內容區塊和動態內容來個人化。 若要開始撰寫訊息，請按一下 **編輯內容** 按鈕。"
 
 
 
@@ -30,7 +30,7 @@ ht-degree: 88%
 
    ![](assets/sms_content_1.png)
 
-1. 在「**[!UICONTROL 訊息]**」欄位可輸入文字訊息，或按一下「**[!UICONTROL 開啟個人化對話框]**」選項，可定義內容和新增動態內容。[了解更多](../personalization/gs-personalization.md)
+1. 在「 」中輸入您的文字訊息 **[!UICONTROL 訊息]** 欄位或按一下 **[!UICONTROL 開啟個人化對話方塊]** 定義內容及新增動態內容的選項。 [了解更多](../personalization/gs-personalization.md)
 
    ![](assets/sms_content_2.png)
 
