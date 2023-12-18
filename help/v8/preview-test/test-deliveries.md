@@ -4,23 +4,23 @@ title: 傳送測試傳遞
 description: 瞭解如何定義並傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 2ea6a9b93dc2a37101d6b404d637a3c3655cb493
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1157'
 ht-degree: 13%
 
 ---
 
-# 傳送測試傳遞 {#send-test-deliveries}
+# 傳送校樣 {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="預覽模式"
 >abstract="將測試母體納入主要目標，以預覽和測試訊息。"
 
-定義訊息內容後，您可以傳送測試傳送至測試設定檔，以預覽和測試訊息。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
+定義訊息內容後，您可以傳送校樣到測試設定檔，以預覽和測試訊息。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 
-若要偵測訊息內容或個人化設定中可能出現的錯誤，請先傳送測試訊息至測試設定檔，再傳送給目標對象。 每次進行變更時都應傳送測試訊息，以驗證最新內容。 傳送測試傳送（先前稱為「校樣」）是驗證行銷活動和識別潛在問題的重要步驟。 測試訊息的收件者可檢查各種元素，例如連結、退出連結、影像或映象頁面，並偵測轉譯、內容、個人化設定和傳送組態中的任何錯誤。
+若要偵測訊息內容或個人化設定中可能出現的錯誤，請先傳送校樣至測試設定檔，再傳送給目標對象。 每次進行變更時都應傳送校樣，以驗證最新內容。 傳送測試傳送（先前稱為「校樣」）是驗證行銷活動和識別潛在問題的重要步驟。 校樣收件者可以檢查各種元素，例如連結、選擇退出連結、影像或映象頁面，並偵測轉譯、內容、個人化設定和傳遞設定中的任何錯誤。
 
 ## 模擬測試接收者的內容 {#simulate-content-test-deliveries}
 
@@ -31,22 +31,21 @@ ht-degree: 13%
 
 在傳送測試之前，請務必定義傳送的目標對象。 [了解更多](../audience/about-recipients.md)
 
-
 若要開始測試訊息內容：
 
 1. 編輯傳送的內容。
 1. 按一下 **[!UICONTROL 模擬內容]** 按鈕。
-1. 按一下 **[!UICONTROL 測試]** 按鈕以傳送測試訊息。
+1. 按一下 **[!UICONTROL 測試]** 按鈕以傳送校樣。
 
    ![](assets/simulate-test-button-email.png)
 
 1. 選取測試收件者。
 
-   根據訊息通道，測試訊息可以傳送給下列型別的收件者：
+   根據訊息通道，校樣可以傳送給下列型別的收件者：
 
    * 對於簡訊與電子郵件，您可以使用 [測試設定檔](#test-profiles)，即資料庫中的其他特定收件者。 這些收件者會建立於 [!DNL Campaign] 使用者端主控台。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-   * 對於簡訊與電子郵件，您也可以使用 [從主要目標替代](#substitution-profiles) 模式：將測試訊息傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
+   * 對於簡訊與電子郵件，您也可以使用 [從主要目標替代](#substitution-profiles) 模式，將校樣傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
 
    * 對於推送訊息，您可以使用 [訂閱者](#subscribers)，即新增至資料庫的虛擬訂閱者。 它們是在下列位置建立的： [!DNL Campaign] 主控台。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -74,7 +73,7 @@ ht-degree: 13%
 >title="將測試設定檔納入主要對象"
 >abstract="啟用此選項也可將最終訊息傳送給測試傳遞的收件者。"
 
-測試設定檔是種子地址，是資料庫中的其他收件者。 它們可在以下位置建立： [!DNL Adobe Campaign] 使用者端主控台。 將測試訊息傳送至種子地址的步驟詳述如下。
+測試設定檔是種子地址，是資料庫中的其他收件者。 它們可在以下位置建立： [!DNL Adobe Campaign] 使用者端主控台。 將校樣傳送至種子地址的步驟詳述如下。
 
 1. 從傳送的內容中，按一下 **[!UICONTROL 模擬內容]** 按鈕，以及 **[!UICONTROL 測試]** 按鈕。
 
@@ -94,7 +93,7 @@ ht-degree: 13%
 
 ## 替代設定檔資料 {#substitution-profiles}
 
-使用設定檔替代，將測試訊息傳送至特定的電子郵件地址或電話號碼，同時顯示來自 [!DNL Adobe Campaign] 資料庫。 只有在已定義傳送的對象時，才能選取此模式。
+使用設定檔替代，將校樣傳送至特定的電子郵件地址或電話號碼，同時顯示來自 [!DNL Adobe Campaign] 資料庫。 只有在已定義傳送的對象時，才能選取此模式。
 
 若要從主要目標取代設定檔資料，請遵循下列步驟：
 
