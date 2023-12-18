@@ -89,7 +89,7 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
->title="嚴重警報模式"
+>title="關鍵警報模式"
 >abstract="即使在使用者的手機設定為專注模式或裝置靜音之下，啟用此選項仍可新增聲音至您的通知。這可確保使用者在任何情況下都能收到重要警示的通知。"
 
 

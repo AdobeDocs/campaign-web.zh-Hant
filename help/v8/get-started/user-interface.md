@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -205,13 +205,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="收件者不再聯絡"
->abstract="收件者不再聯絡"
+>title="收件人不再是聯絡人"
+>abstract="收件人不再是聯絡人"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
->title="收件者其他"
->abstract="收件者其他"
+>title="其他收件者"
+>abstract="其他收件者"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
@@ -245,8 +245,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
->title="收件者唯讀設定檔"
->abstract="收件者唯讀設定檔"
+>title="收件者唯讀個人資料"
+>abstract="收件者唯讀個人資料"
 
 
 
@@ -254,8 +254,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
->title="測試設定檔其他資料"
->abstract="測試設定檔其他資料"
+>title="測試個人資料的附加資料"
+>abstract="測試個人資料的附加資料"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"

@@ -5,14 +5,15 @@ description: 瞭解如何在Campaign網頁中建立您的第一個傳遞
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
+source-git-commit: 62887b8ba24163885ad0a42c790f3d4dc8f9499e
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 98%
 
 ---
 
-# 處理傳遞 {#work-with-deliveries}
+# 使用傳遞 {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
