@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
-source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
+source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 65%
+source-wordcount: '1846'
+ht-degree: 62%
 
 ---
 
@@ -127,6 +127,11 @@ ht-degree: 65%
    <td> AddYears(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr>
   <tr> 
+   <td> <strong>ConvertNTZ</strong><br /> </td> 
+   <td> 套用定義的工作階段TZ，將時間戳記NTZ （沒有時區的時間戳記）轉換為TZ （有時區的時間戳記）<br/> </td> 
+   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> 僅傳回日期（時間為00:00）*<br /> </td> 
    <td> DateOnly(&lt;date&gt;)<br /> </td>  
@@ -205,6 +210,11 @@ ht-degree: 65%
    <td> <strong>MonthsOld</strong><br /> </td> 
    <td> 傳回日期的月份<br /> </td> 
    <td> MonthsOld(&lt;date&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Oldest</strong><br /> </td> 
+   <td> 傳回範圍中最早的日期<br /> </td> 
+   <td> 最舊(&lt;date date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -287,8 +297,8 @@ ht-degree: 65%
    <td> TruncYear(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> 傳回代表日期當週中某天的數字<br /> </td> 
+   <td> <strong>WeekDay</strong><br /> </td> 
+   <td> 傳回代表日期當週中某天的數字（0=星期一，6=星期日）<br /> </td> 
    <td> WeekDay(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -300,6 +310,11 @@ ht-degree: 65%
    <td> <strong>YearAnd Month</strong><br /> </td> 
    <td> 傳回代表日期的年份和月份的數字<br /> </td> 
    <td> YearAndMonth(&lt;date&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>YearAgo</strong><br /> </td> 
+   <td> 傳回兩個指定日期之間的年數<br /> </td> 
+   <td> YearsAgo(&lt;end date=""&gt;， &lt;start date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
