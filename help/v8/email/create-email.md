@@ -4,20 +4,23 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 69%
+source-wordcount: '1314'
+ht-degree: 66%
 
 ---
 
 
 # 傳送您的第一個電子郵件 {#first-email}
 
+
+
 >[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="適用於電子郵件內容的 Gen AI"
->abstract="我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水準。"
+>id="acw_homepage_card3"
+>title="開始使用電子郵件"
+>abstract="您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的內容中建立電子郵件。 瞭解如何建立傳遞、選取對象和設計電子郵件內容。"
+
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 

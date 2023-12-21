@@ -3,10 +3,10 @@ title: 與收件者和對象合作
 description: 瞭解如何使用收件者Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 18%
+source-wordcount: '1049'
+ht-degree: 17%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 18%
 在Adobe Campaign中，傳送的目標母體為受眾。 受眾是指一組具有類似行為和/或特徵的人。 可以產生、選取或載入此人員集合 [如下所述](#audiences). 在大多數情況下，受眾會由設定檔組成，其儲存為 [收件者](#recipients) 在Adobe Campaign中。 您也可以透過變更維度來處理其他目標對應，如上所述 [在本節中](#targeting-dimensions).
 
 ## 什麼是收件者？ {#recipients}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn4"
+>title="收件者"
+>abstract="建立新的收件者，並透過功能強大的報告和工具監控他們。 存取收件者的設定檔、使用篩選選項來瀏覽收件者清單、編輯及更新其屬性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -60,7 +66,7 @@ ht-degree: 18%
 * [建立新對象](create-audience.md) 從 **[!UICONTROL 受眾]** 功能表，
 * [選取現有對象](add-audience.md) 在使用者端主控台中建立為清單，或來自Adobe Experience Platform時，
 * [建立新對象](segment-builder.md) 使用規則產生器，方法是定義和結合篩選准則，
-* [使用外部檔案中的對象](file-audience.md).此選項僅適用於獨立電子郵件傳送，無法用於行銷活動傳送。
+* [使用外部檔案中的對象](file-audience.md). 此選項僅適用於獨立電子郵件傳送，無法用於行銷活動傳送。
 
 鎖定目標對象時，您也可以定義 **控制組** 以避免傳送訊息給部分對象，並評估行銷活動的影響。 [瞭解如何設定控制組](control-group.md)
 

@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 # 使用預先定義的篩選器 {#predefined-filters}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
+>id="acw_homepage_card4"
 >title="預先定義的篩選器管理"
 >abstract="Campaign Web 現在為您提供了人性化介面，可以輕鬆管理和自訂預先定義的篩選器，以滿足您的特定需求。建立一次並儲存以供未來使用。"
 

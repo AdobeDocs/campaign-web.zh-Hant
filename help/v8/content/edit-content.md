@@ -4,10 +4,10 @@ title: 編輯電子郵件內容
 description: 了解如何在 Campaign Web UI 編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 50%
+source-wordcount: '624'
+ht-degree: 47%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 50%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="新增連結和追蹤訊息"
 
 電子郵件 **[!UICONTROL 編輯內容]** 畫面可讓您：
+
 * 定義訊息的基本元素，例如寄件者的地址和主旨列
 * 執行其他動作，例如新增附件或設定優惠方案
 * 存取 [電子郵件設計工具](get-started-email-designer.md#start-authoring) 以開始建立電子郵件的適當內容
@@ -83,11 +84,11 @@ ht-degree: 50%
 
    <!--limitation on size + number of files?-->
 
-1. 如果您想要透過電子郵件傳送優惠，請使用「**[!UICONTROL 設定優惠]**」按鈕。
+1. 如果您想要透過電子郵件傳送優惠方案，請使用 **[!UICONTROL 設定優惠方案]** 按鈕。
 
    然後您可以使用個人化欄位將它們插入到電子郵件中。[了解如何傳送優惠](offers.md)
 
-1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕，使用來建構及設計電子郵件內容 [電子郵件設計工具](#start-authoring). 以下章節提供如何設計電子郵件內容的詳細資訊：
+1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕，使用來建構及設計電子郵件內容 [電子郵件設計工具](get-started-email-designer.md#start-authoring). 以下章節提供如何設計電子郵件內容的詳細資訊：
 
    * [從頭開始撰寫電子郵件](create-email-content.md)
    * [建立內容樣式](get-started-email-style.md)

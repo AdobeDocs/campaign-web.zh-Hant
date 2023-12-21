@@ -3,14 +3,20 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 了解如何使用 Campaign Web UI 中的電子郵件設計工具開始建置您的內容
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 90%
 
 ---
 
 # 開始使用電子郵件設計工具 {#get-started-email-designer}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn3"
+>title="新的電子郵件設計工具"
+>abstract="Campaign電子郵件設計工具可讓您透過直覺式的拖放介面，建立吸引人、個人訂做的電子郵件。 無論您是從空白顯示窗開始、匯入現有內容或運用現有範本，針對每封電子郵件設計和調整所有內容！"
 
 在 Adobe Campaign 中建立電子郵件後，您必須定義其內容。
 
@@ -45,4 +51,3 @@ The Email Designer allows you to create email content and email content template
 * 從內建或自訂範本清單中&#x200B;**選取現有內容**。若要了解如何使用電子郵件範本，請參閱[本章節](email-sample-templates.md)。
 
   ![](assets/email_designer_create_options.png)
-
