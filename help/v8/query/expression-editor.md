@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
-source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
+source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 62%
+source-wordcount: '1917'
+ht-degree: 60%
 
 ---
 
@@ -313,8 +313,8 @@ ht-degree: 62%
   </tr>
   <tr> 
    <td> <strong>YearAgo</strong><br /> </td> 
-   <td> 傳回兩個指定日期之間的年數<br /> </td> 
-   <td> YearsAgo(&lt;end date=""&gt;， &lt;start date=""&gt;)<br /> </td>  
+   <td> 傳回指定日期與目前日期之間的年數<br /> </td> 
+   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -447,6 +447,11 @@ ht-degree: 62%
    <td> <strong>說明</strong><br /> </td> 
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
+  <!--MISSING INFO<tr> 
+   <td> <strong>AESEncrypt</strong><br /> </td> 
+   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
+  </tr> -->
   <tr> 
    <td> <strong>案例</strong><br /> </td> 
    <td> 若條件為true，則傳回值1。 如果沒有，則會傳回值2。<br /> </td> 
@@ -467,6 +472,11 @@ ht-degree: 62%
    <td> 如果值1 =值2，則傳回值3。 如果不傳回值4。<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>DefaultFolder</strong><br /> </td> 
+   <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 傳回值　1（只能用作　case　函式的參數）<br /> </td> 
@@ -497,6 +507,11 @@ ht-degree: 62%
    <td> 如果字串1為空，則傳回值2，否則傳回值3<br /> </td> 
    <td> IsEmptyString(&lt;value&gt;， &lt;value&gt;， &lt;value&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> Returns the empty string if the argument is NULL<br /> </td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> 如果引數為　NULL，則返回空字串<br /> </td> 
@@ -562,6 +577,11 @@ ht-degree: 62%
    <td> Charindex(&lt;string&gt;， &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> 傳回字串大小（位元組）<br /> </td> 
+   <td> dataLength(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> 傳回字串的第　n　行（從　1　到　n）<br /> </td> 
    <td> GetLine(&lt;string&gt;)<br /></td> 
@@ -587,11 +607,6 @@ ht-degree: 62%
    <td> JuxtWords3(&lt;string&gt;， &lt;string&gt;， &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>LPad</strong><br /> </td> 
-   <td> 傳回左側的已完成字串<br /> </td> 
-   <td> LPad(&lt;string&gt;， &lt;number&gt;， &lt;character&gt;)<br /></td> 
-  </tr> 
-  <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> 傳回字串的前　n　個字元<br /> </td> 
    <td> Left(&lt;string&gt;， &lt;number&gt;)<br /></td> 
@@ -601,10 +616,20 @@ ht-degree: 62%
    <td> 傳回字串的長度<br /> </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
+  <!--<tr> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Returns the string in lowercase<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> -->
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 傳回小寫字串<br /> </td> 
    <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> 傳回左側的已完成字串<br /> </td> 
+   <td> LPad (&lt;string&gt;， &lt;number&gt;， &lt;char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -622,9 +647,9 @@ ht-degree: 62%
    <td> MemoContains(&lt;memo&gt;， &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>RPad</strong><br /> </td> 
-   <td> 傳回右側的已完成字串<br /> </td> 
-   <td> RPad(&lt;string&gt;， &lt;number&gt;， &lt;character&gt;)<br /></td> 
+   <td> <strong>節點值</strong><br /> </td> 
+   <td> 從其XPath和欄位資料中擷取XML欄位的值<br /> </td> 
+   <td> 節點值(&lt;string&gt;， &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -632,9 +657,24 @@ ht-degree: 62%
    <td> Right(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> 傳回右側的已完成字串<br /> </td> 
+   <td> RPad(&lt;string&gt;， &lt;number&gt;， &lt;character&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> 移除字串右側的空格<br /> </td> 
    <td> Rtrim(&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha256Digest</strong><br /> </td> 
+   <td> 字串SHA256鍵的十六進位表示。<br /> </td> 
+   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha512Digest</strong><br /> </td> 
+   <td> 字串SHA512鍵的十六進位表示。<br /> </td> 
+   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -666,11 +706,6 @@ ht-degree: 62%
    <td> 傳回連結的外鍵（文字）索引鍵，如果其他兩個參數相等，則傳回該連結的外鍵　(text)　<br /> </td> 
    <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
-  <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
-   <td> 傳回字串大小<br /> </td> 
-   <td> dataLength(&lt;string&gt;)<br /> </td>  
-  </tr> 
  </tbody> 
 </table>
 
@@ -682,6 +717,11 @@ ht-degree: 62%
    <td> <strong>名稱</strong><br /> </td> 
    <td> <strong>說明</strong><br /> </td> 
    <td> <strong>語法</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>超過(_O)__</strong><br /> </td> 
+   <td> 執行作為第一個引數輸入的SQL函式呼叫，透過作為第二個引數輸入的欄位的Partition或Order By<br /> </td> 
+   <td> 超過(_O)&lt;value&gt;， &lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
