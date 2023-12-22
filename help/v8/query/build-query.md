@@ -5,7 +5,7 @@ description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第�
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 3%
 
    ![](assets/query-predefined-filter.png)
 
-## 結合篩選元件與運運算元 {#operators}
+## 將篩選元件與運算子結合 {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"

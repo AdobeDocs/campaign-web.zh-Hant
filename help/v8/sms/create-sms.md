@@ -7,7 +7,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 33%
+ht-degree: 45%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="定義簡訊對象"
->abstract="您可以按一下「 」，建立新對象或選取現有對象 **選取對象** 按鈕。 如有需要，請新增控制組以測量傳送的影響。"
+>abstract="您可以建立新對象，或者點選「**選擇對象**」按鈕選取現有的對象。如果需要，請新增一個控制組來測量傳遞的影響。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="設定控制組"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="簡訊範本選取"
->abstract="選取預先定義的範本，以開始您的SMS傳送。 傳遞範本可讓您輕鬆在行銷活動和傳遞中重複使用自訂內容和設定。"
+>abstract="選取預先定義的範本，以開始進行簡訊傳遞。傳遞範本可讓您在行銷活動和傳遞中輕鬆重複使用自訂內容和設定。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="使用傳遞範本"
 
 
