@@ -4,9 +4,9 @@ title: 建立對象
 description: 瞭解如何在Adobe Campaign Web中建立對象
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '616'
 ht-degree: 10%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 10%
 >id="acw_homepage_rn1"
 >title="對象構成"
 >abstract="在視覺化工作流程畫布中建立新對象。 除了從頭開始建立簡單的對象外，您也可以運用工作流程活動來調整對象。 將多個對象合併為單一對象，使用外部屬性豐富您的對象，或根據您選擇的規則將其劃分為多個對象。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱發行說明"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

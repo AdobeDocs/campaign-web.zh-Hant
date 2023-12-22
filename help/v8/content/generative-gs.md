@@ -4,9 +4,9 @@ title: 開始使用內容助理
 description: 開始使用內容助理
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '479'
 ht-degree: 34%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 34%
 >id="acw_homepage_rn5"
 >title="適用於電子郵件內容的 Gen AI"
 >abstract="我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水準。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱發行說明"
+
 
 
 >[!CONTEXTUALHELP]
