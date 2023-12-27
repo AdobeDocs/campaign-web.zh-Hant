@@ -61,7 +61,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
 >title="定義推播通知對象"
->abstract="若要定義訊息對象，您必須先選取與推播傳遞相關聯的應用程式。根據預設，推播通知會傳送給應用程式的所有訂閱者。您可以點選「**選取對象**」按鈕來調整特定對象的範圍。如果需要，請新增一個控制組來測量傳遞的影響。"
+>abstract="若要定義訊息對象，您必須先選取與推播傳遞相關聯的應用程式。根據預設，推播通知會傳送給應用程式的所有訂閱者。您可以點選「**選取對象**」按鈕，並調整特定對象的範圍。如果需要，請新增一個控制組來測量傳遞的影響。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="設定控制組"
 
 
