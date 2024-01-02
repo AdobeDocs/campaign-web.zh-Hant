@@ -4,7 +4,7 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 70%
@@ -24,7 +24,7 @@ ht-degree: 70%
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
-根據預先定義的 [設計範本](../content/email-sample-templates.md)，該電子郵件也會根據客戶設定檔屬性提供個人化內容。
+根據預先定義的 [設計範本](../content/create-email-templates.md)，該電子郵件也會根據客戶設定檔屬性提供個人化內容。
 
 ## 建立電子郵件傳遞 {#create-email}
 
@@ -120,7 +120,7 @@ ht-degree: 70%
 
 1. 若要設計電子郵件的內容，按一下「**[!UICONTROL 編輯電子郵件內文]**」按鈕。
 
-   選擇用於建立電子郵件內容的方法。在此範例中，使用 [預先定義的內容範本](../content/email-sample-templates.md).
+   選擇用於建立電子郵件內容的方法。在此範例中，使用 [預先定義的內容範本](../content/create-email-templates.md).
 
    ![](assets/select-template.png)
 
