@@ -4,10 +4,10 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限可用性"
-source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
+source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 66%
+source-wordcount: '1337'
+ht-degree: 65%
 
 ---
 
@@ -83,6 +83,8 @@ Adobe Campaign Web提供強大的查詢模型工具，可簡化篩選資料庫�
 * **更多行銷活動工作流程活動**
 
   透過我們&#x200B;**擴展的工作流程活動集**&#x200B;增強您的行銷活動。發掘自動化和最佳化的新可能性，讓您能夠建立更加動態和個人化的客戶歷程。從進階細分到條件式觸發器，我們的附加工作流程活動能讓您傳遞針對性訊息並提高行銷活動績效。
+
+  與最新LA版本一起推出的新活動為： **調解**， **載入對象**、和 **儲存對象**.
 
   若要了解詳細資訊，請參閱[本章節](../workflows/gs-workflows.md)。
 

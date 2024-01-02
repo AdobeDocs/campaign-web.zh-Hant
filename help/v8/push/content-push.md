@@ -4,10 +4,10 @@ title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
+source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
 workflow-type: tm+mt
-source-wordcount: '1534'
-ht-degree: 40%
+source-wordcount: '1533'
+ht-degree: 39%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="通知計數"
->abstract="使用此選項可設定在應用程式圖示上直接顯示新的未讀資訊數量。此讓使用者迅速查看待處理的通知數量。"
+>abstract="使用此選項可設定直接在應用程式圖示上顯示的未讀取通知數目。 此讓使用者迅速查看待處理的通知數量。"
 
 
 >[!CONTEXTUALHELP]
