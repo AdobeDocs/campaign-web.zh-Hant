@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web v8 說明中心
 title: Adobe Campaign Web v8 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="LA"
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+badge: label="有限可用性"
+source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 92%
 
 ---
