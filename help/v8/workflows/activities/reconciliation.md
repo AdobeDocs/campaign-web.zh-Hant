@@ -3,9 +3,9 @@ audience: end-user
 title: 使用調解工作流程活動
 description: 瞭解如何使用協調工作流程活動
 badge: label="有限可用性"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '840'
 ht-degree: 15%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="調和活動"
->abstract="此 **調解** 活動是 **目標定位** 活動可讓您將未識別的資料連結至現有的Campaign資料。 例如， **調解** 活動可放置在 **載入對象** 將非標準資料匯入資料庫的活動。 在此案例中， **調解** 活動可讓您定義Adobe Campaign資料庫中的資料與外部表格中的資料之間的連結。"
+>abstract="此 **調解** 活動是 **目標定位** 活動可讓您定義Adobe Campaign資料庫中的資料與工作表格中的資料（例如從外部檔案載入的資料）之間的連結。 例如， **調解** 活動可放置在 **載入對象** 將非標準資料匯入資料庫的活動。 在此案例中， **調解** 活動可讓您定義Adobe Campaign資料庫中的資料與外部表格中的資料之間的連結。"
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 15%
 
 
 
-此 **調解** 活動是 **目標定位** 活動可讓您將未識別的資料連結至現有資源。 例如， **調解** 活動可放置在 **載入對象** 將非標準資料匯入資料庫的活動。 在此案例中， **調解** 活動可讓您定義Adobe Campaign資料庫中的資料與工作表中的資料之間的連結。
+此 **調解** 活動是 **目標定位** 活動可讓您定義Adobe Campaign資料庫中的資料與工作表格中的資料（例如從外部檔案載入的資料）之間的連結。 例如， **調解** 活動可放置在 **載入對象** 將非標準資料匯入資料庫的活動。 在此案例中， **調解** 活動可讓您定義Adobe Campaign資料庫中的資料與工作表中的資料之間的連結。
 
 
 ## 最佳實務 {#reconciliation-best-practices}
