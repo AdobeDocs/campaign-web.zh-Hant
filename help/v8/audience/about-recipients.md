@@ -6,7 +6,7 @@ exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: 30786dd96dbe74c12d9af19d1c1b46b67e3d909d
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="360檢視您的收件者"
->abstract="建立新的收件者，並透過功能強大的報告和工具監控他們。 存取收件者的屬性、互動和記錄。 使用篩選選項來瀏覽收件者清單、編輯及更新其設定檔。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱發行說明"
+>title="收件者的 360 檢視"
+>abstract="建立新的收件者，並透過強大的報表和工具進行監控。存取收件者的屬性、互動和紀錄。使用篩選選項瀏覽收件者清單、編輯和更新其設定檔。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱版本注意事項"
 
 
 >[!CONTEXTUALHELP]

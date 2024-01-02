@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn2"
->title="跨頻道工作流程"
+>title="跨管道工作流程"
 >abstract="發掘自動化和最佳化的新可能性，讓您能夠建立更加動態和個人化的客戶歷程。從進階細分到條件式觸發器，我們的附加工作流程活動能讓您傳遞針對性訊息並提高行銷活動績效。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱發行說明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱版本注意事項"
 
 
 ## 什麼是工作流程？

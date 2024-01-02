@@ -5,7 +5,7 @@ description: 瞭解如何使用Adobe Campaign Web查詢建模工具。
 source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 14%
+ht-degree: 42%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="新增查詢模型工具"
->abstract="Adobe Campaign Web提供查詢模型工具，可簡化篩選資料庫的程式，以便根據各種條件選取特定目標。 這包括使用進階運算式和運運算元。 每個需要定義規則以篩選資料的內容中，都可使用查詢建模器。"
+>title="新的查詢建模工具"
+>abstract="Adobe Campaign Web 具有查詢建模工具，可簡化篩選資料庫的流程，以根據各種不同的條件選取特定目標。這包括進階運算式和運算子的使用。查詢建模工具適用於每個您需要定義篩選資料的規則的環境。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
 >title="查詢建模工具"
 >abstract="為收件者或資料庫中的任何其他目標定位維度定義篩選條件。利用 Adobe Experience Platform 對象，進一步縮小目標對象範圍並充分發揮行銷活動的影響力。"
 
-Adobe Campaign Web提供查詢模型工具，可簡化篩選資料庫的程式，以便根據各種條件選取特定目標。 這包括使用進階運算式和運運算元。
+Adobe Campaign Web 具有查詢建模工具，可簡化篩選資料庫的流程，以根據各種不同的條件選取特定目標。這包括使用進階運算式和運運算元。
 
 ## 存取查詢模型工具
 
-每個需要定義規則以篩選資料的內容中，都可使用查詢建模器。
+查詢建模工具適用於每個您需要定義篩選資料的規則的環境。
 
 | 使用情況 | 範例 |
 |  ---  |  ---  |

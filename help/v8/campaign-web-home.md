@@ -7,7 +7,7 @@ badge: label="有限可用性"
 source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
->title="說明與檔案"
->abstract="Campaign 現在會提供新的 Web 使用者介面 (UI)，具有增強的可用性、可存取性和新設計，可大幅提升您的使用者體驗。這個全新的現代化UI簡化了行銷活動的設計和交付，並與其他Adobe解決方案一起提供了一致性。"
+>title="說明和文件"
+>abstract="Campaign 現在會提供新的 Web 使用者介面 (UI)，具有增強的可用性、可存取性和新設計，可大幅提升您的使用者體驗。這個新的現代 UI 會簡化行銷活動的設計和傳遞，並帶來一致性和其他 Adobe 解決方案。"
 
 Campaign 現在會提供新的 Web 使用者介面 (UI)，具有增強的可用性、可存取性和新設計，可大幅提升您的使用者體驗。這個新的現代 UI 簡化了行銷活動的設計和傳遞，並帶來一致性，與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 相符。[了解更多](get-started/get-started.md)
 

@@ -7,7 +7,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
 source-wordcount: '616'
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn1"
 >title="對象構成"
->abstract="在視覺化工作流程畫布中建立新對象。 除了從頭開始建立簡單的對象外，您也可以運用工作流程活動來調整對象。 將多個對象合併為單一對象，使用外部屬性豐富您的對象，或根據您選擇的規則將其劃分為多個對象。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱發行說明"
+>abstract="在視覺化工作流程畫布中建立新對象。除了從頭開始建立簡單的對象之外，您還可以利用工作流程活動來調整對象。將多個對象合併為單一對象，使用外部屬性擴充對象，或根據您選擇的規則將其分成多個對象。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱版本注意事項"
 
 
 >[!CONTEXTUALHELP]
@@ -32,7 +32,7 @@ ht-degree: 10%
 >title="對象設定"
 >abstract="輸入對象名稱和其他選項，然後按一下「**建立對象**」按鈕。"
 
-Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從頭開始建立簡單的對象外，您也可以運用工作流程活動來調整對象。 例如，您可以將多個受眾合併為單一受眾、使用外部屬性豐富受眾，或根據您選擇的規則將受眾分割為多個受眾。
+Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從頭開始建立簡單的對象之外，您還可以利用工作流程活動來調整對象。例如，您可以將多個受眾合併為單一受眾、使用外部屬性豐富受眾，或根據您選擇的規則將受眾分割為多個受眾。
 
 當您完成工作流程後，產生的對象會自動與您現有的對象一起儲存在Campaign資料庫中。 接著，您就可以在工作流程或獨立傳送中鎖定這些對象。
 
