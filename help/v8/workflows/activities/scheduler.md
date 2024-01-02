@@ -4,10 +4,10 @@ title: 使用排程器工作流程活動
 description: 瞭解如何使用排程器工作流程活動
 badge: label="Beta"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 30%
+source-wordcount: '526'
+ht-degree: 29%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 30%
 * 如果您想要在工作流程中傳送一次性傳遞，可以新增排程器活動並將其設定為執行 **一次**. 您也可以定義 **排程** 在傳送的設定中。
 * 如果您想要在工作流程中傳送循環傳送，您需要使用 **排程器** 並設定執行頻率。 循環傳遞活動不允許您定義排程。
 
-## 設定{#scheduler-configuration}
+## 設定排程器活動 {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"

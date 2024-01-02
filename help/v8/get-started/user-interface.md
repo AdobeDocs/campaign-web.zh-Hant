@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 99%
+source-wordcount: '1388'
+ht-degree: 100%
 
 ---
 
@@ -388,52 +388,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation"
->title="調和活動"
->abstract="使用&#x200B;**調和**&#x200B;活動將未識別的資料連結到現有資源。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting"
->title="調和目標定位"
->abstract="調和目標定位"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_rules"
->title="調和規則"
->abstract="調和規則"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting_selection"
->title="調和目標定位維度"
->abstract="調和目標定位維度"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_field"
->title="調和選取欄位"
->abstract="調和選取欄位"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_attribute"
->title="調和選取屬性"
->abstract="調和選取屬性"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_condition"
->title="調和建立條件"
->abstract="調和建立條件"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_complement"
->title="調和產生補充"
->abstract="調和產生補充"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_keep_unreconciled_data"
->title="調和會保留未調和資料選項"
->abstract="調和會保留未調和資料選項"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
@@ -537,42 +491,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="載入檔案活動"
->abstract="載入檔案活動"
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_samplefile"
->title="範例檔案"
->abstract="範例檔案"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_nameofthefile"
->title="檔案名稱"
->abstract="檔案名稱"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetdb"
->title="Target 資料庫"
->abstract="Target 資料庫"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_rejectmgt"
->title="拒絕載入檔案活動的管理"
->abstract="拒絕載入檔案活動的管理"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition"
->title="拒絕管理傳出轉變"
->abstract="拒絕管理傳出轉變"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition_reject"
->title="拒絕管理拒絕的傳出轉變"
->abstract="拒絕管理拒絕的傳出轉變"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_formatting"
->title="載入檔案活動的格式化"
->abstract="載入檔案活動的格式化"

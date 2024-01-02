@@ -4,10 +4,10 @@ title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 40%
+source-wordcount: '612'
+ht-degree: 35%
 
 ---
 
@@ -21,26 +21,25 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="欄定義"
->abstract="檢查要從本機檔案插入的欄格式。"
+>abstract="檢查外部檔案中的欄格式。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="格式化參數"
->abstract="檢查檔案的格式化參數。"
+>abstract="檢查外部檔案的格式引數。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="預覽您的檔案"
->abstract="檢查檔案的預覽。此畫面最多僅顯示 30 筆記錄。"
+>abstract="檢查外部檔案的欄預覽。 此畫面最多僅顯示 30 筆記錄。"
 
 
-
-您無法從介面直接將設定檔上傳至Campaign，但您可以鎖定儲存在外部檔案中的設定檔。 設定檔不會新增至資料庫，但輸入檔案中的所有欄位都可用於 [個人化](../personalization/gs-personalization.md). 支援的檔案格式包括：文字 (TXT) 和逗號分隔值 (CSV)。
+您可以定位儲存在外部檔案中的設定檔。 設定檔不會新增至資料庫，但輸入檔案中的所有欄位都可用於 [個人化](../personalization/gs-personalization.md). 支援的檔案格式包括：文字 (TXT) 和逗號分隔值 (CSV)。本文會說明在建立獨立電子郵件傳遞時，如何載入外部設定檔。 若要從工作流程中的檔案載入資料，請參閱 [此頁面](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* 此功能僅適用於 **獨立電子郵件傳遞**. 它不能用於工作流程，也不能用於SMS或推播傳遞。
+>* 此功能僅適用於 **電子郵件傳遞**. 無法與SMS或推播傳遞搭配使用。
 >
 >* 從外部檔案載入目標母體時，您不能使用[控制組](control-group.md)。
 >

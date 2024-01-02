@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 96%
+source-wordcount: '469'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
    + [尋找說明和指引](get-started/using-ai.md)
 + 訊息和傳遞 {#msg}
    + [開始使用訊息](msg/gs-messages.md)
-   + [處理傳遞](msg/gs-deliveries.md)
+   + [使用傳遞](msg/gs-deliveries.md)
    + [使用傳遞範本](msg/delivery-template.md)
    + 電子郵件 {#email}
       + [建立您的第一個電子郵件](email/create-email.md)
@@ -122,6 +122,8 @@ ht-degree: 96%
       + [電子郵件、簡訊、推播](workflows/activities/channels.md)
       + [擴充](workflows/activities/enrichment.md)
       + [分支](workflows/activities/fork.md)
+      + [載入檔案](workflows/activities/load-file.md)
+      + [調和](workflows/activities/reconciliation.md)
       + [儲存對象](workflows/activities/save-audience.md)
       + [排程器](workflows/activities/scheduler.md)
       + [分割](workflows/activities/split.md)
