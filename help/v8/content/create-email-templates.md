@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 7%
@@ -140,7 +140,7 @@ ht-degree: 7%
 
 現在，在內建置任何電子郵件時，就可以使用此範本 [!DNL Adobe Campaign]. [了解做法](use-email-templates.md)
 
-## 將電子郵件內容另存為範本 {#save-as-template}
+### 將電子郵件內容另存為範本 {#save-as-template}
 
 一旦您 [設計電子郵件](create-email-content.md)，您可以將此內容儲存為範本以供日後重複使用。 儲存的範本可供 Adobe Campaign 環境的所有使用者使用。
 
