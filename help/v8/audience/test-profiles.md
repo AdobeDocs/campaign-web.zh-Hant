@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="有限可用性"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,19 @@ ht-degree: 3%
 
 ## 存取及管理測試設定檔 {#access-test-profiles}
 
-若要存取內容範本清單，請選取 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 從左側功能表選取 **[!UICONTROL 測試設定檔]** 標籤。
+若要存取測試設定檔清單，請選取 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 從左側功能表，然後按一下 **[!UICONTROL 測試設定檔]** 標籤。
+
+![](assets/test-profile-list.png)
 
 您可以篩選特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用新增規則 [查詢模型工具](../query/query-modeler-overview.md).
+
+![](assets/test-profile-list-filters.png)
 
 若要編輯測試設定檔，請從清單中按一下所需的專案。
 
 若要刪除測試設定檔，請從 **[!UICONTROL 更多動作]** 功能表。
+
+![](assets/test-profile-list-delete.png)
 
 ## 建立測試設定檔 {#create-test-profile}
 
@@ -48,11 +54,7 @@ ht-degree: 3%
 
 若要建立測試設定檔，請遵循下列步驟。
 
-1. 瀏覽至 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]**.
-
-1. 選取 **[!UICONTROL 測試設定檔]** 標籤。
-
-   ![](assets/test-profile-list.png)
+1. 瀏覽至 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 並選取 **[!UICONTROL 測試設定檔]** 標籤。
 
 1. 按一下 **[!UICONTROL 建立測試設定檔]** 按鈕。
 
@@ -62,7 +64,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >地址的標籤會自動填入您所定義的名字和姓氏。
+   >此 **[!UICONTROL 標籤]** 欄位會自動填入您定義的名字和姓氏。
 
 1. 依預設，測試設定檔儲存在 **[!UICONTROL 種子地址]** 資料夾。 您可以瀏覽至所需的位置來變更它。 [了解更多](#seed-addresses-folders)
 
