@@ -3,17 +3,17 @@ audience: end-user
 title: 使用內容助理的文字
 description: 開始使用內容助理
 badge: label="Alpha"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-
 # 使用內容助理產生文字 {#generative-content}
-
-
 
 建立電子郵件並將其個人化後，請使用創作AI所支援的內容助理將您的內容提升到新的境界。
 
@@ -70,4 +70,3 @@ ht-degree: 2%
    ![](assets/text-genai-7.png)
 
 1. 當您定義內容、對象和排程時，就能準備電子郵件傳送。 [了解更多](../monitor/prepare-send.md)
-

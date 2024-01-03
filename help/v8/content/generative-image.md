@@ -3,13 +3,15 @@ audience: end-user
 title: 使用內容助理產生影像
 description: 開始使用內容助理
 badge: label="Alpha"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 5%
 
 ---
-
 
 # 使用內容助理產生影像 {#generative-image}
 
@@ -21,7 +23,7 @@ ht-degree: 2%
 >
 >在開始使用此功能之前，請先閱讀相關的 [護欄和限制](generative-gs.md#guardrails-and-limitations).
 
-在下列範例中，瞭解如何運用內容助理來最佳化和改善您的內容，確保更方便使用者的體驗。 請按照以下步驟操作：
+在下列範例中，瞭解如何運用內容助理來最佳化和改善您的內容，確保更方便使用者的體驗。 請依照下列步驟操作：
 
 1. 建立及設定電子郵件傳遞後，請按一下 **[!UICONTROL 編輯內容]**.
 
