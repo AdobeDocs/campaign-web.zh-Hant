@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1452'
 ht-degree: 100%
 
 ---
@@ -179,41 +179,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="收件者建立"
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_details"
->title="收件者詳細資訊"
->abstract="收件者詳細資訊"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_contactinformation"
->title="收件者聯絡資訊"
->abstract="收件者聯絡資訊"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_address"
->title="收件者地址"
->abstract="收件者地址"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_account"
->title="收件者帳戶"
->abstract="收件者帳戶"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_customfields"
->title="收件者自訂欄位"
->abstract="收件者自訂欄位"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_nolongercontact"
->title="收件人不再是聯絡人"
->abstract="收件人不再是聯絡人"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_othersfields"
->title="其他收件者"
->abstract="其他收件者"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="收件者卡片概觀"
 >abstract="收件者卡片概觀"
@@ -222,11 +187,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_creation_touchpoints"
 >title="收件者接觸點"
 >abstract="收件者接觸點"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_subscription_list"
->title="收件者訂閱清單"
->abstract="收件者訂閱清單"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
@@ -248,29 +208,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="收件者唯讀個人資料"
 >abstract="收件者唯讀個人資料"
 
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_recipients_testprofiles_additionaldata"
->title="測試個人資料的附加資料"
->abstract="測試個人資料的附加資料"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_testprofiles_menu"
->title="測試設定檔"
->abstract="測試設定檔"
-
-
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="訂閱傳遞範本"
 >abstract="訂閱傳遞範本"
-
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"

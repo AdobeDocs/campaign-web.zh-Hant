@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
-source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
+badge: label="有限可用性"
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1919'
 ht-degree: 60%
 
 ---
