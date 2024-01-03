@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送測試傳遞
 description: 瞭解如何定義並傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Beta"
-source-git-commit: 2ea6a9b93dc2a37101d6b404d637a3c3655cb493
+badge: label="有限可用性"
+source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1172'
 ht-degree: 13%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 13%
 
    根據訊息通道，校樣可以傳送給下列型別的收件者：
 
-   * 對於簡訊與電子郵件，您可以使用 [測試設定檔](#test-profiles)，即資料庫中的其他特定收件者。 這些收件者會建立於 [!DNL Campaign] 使用者端主控台。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+   * 對於簡訊與電子郵件，您可以使用 [測試設定檔](#test-profiles)，即資料庫中的其他特定收件者。 [了解更多](../audience/test-profiles.md)
 
    * 對於簡訊與電子郵件，您也可以使用 [從主要目標替代](#substitution-profiles) 模式，將校樣傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
 
@@ -73,7 +73,9 @@ ht-degree: 13%
 >title="將測試設定檔納入主要對象"
 >abstract="啟用此選項也可將最終訊息傳送給測試傳遞的收件者。"
 
-測試設定檔是種子地址，是資料庫中的其他收件者。 它們可在以下位置建立： [!DNL Adobe Campaign] 使用者端主控台。 將校樣傳送至種子地址的步驟詳述如下。
+測試設定檔是種子地址，是資料庫中的其他收件者。 它們可從以下專案建立： **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 功能表。 [了解更多](../audience/test-profiles.md#create-test-profiles)
+
+將校樣傳送至種子地址的步驟詳述如下。
 
 1. 從傳送的內容中，按一下 **[!UICONTROL 模擬內容]** 按鈕，以及 **[!UICONTROL 測試]** 按鈕。
 
@@ -81,13 +83,23 @@ ht-degree: 13%
 
    ![](assets/simulate-profile-mode.png)
 
-1. 如果您已選取設定檔至 [預覽訊息](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔作為測試收件者。 您可以使用「 」清除選擇和/或新增其他收件者 **[!UICONTROL 新增測試設定檔]** 按鈕。
-
    >[!NOTE]
    >
-   >測試設定檔建立於 [!DNL Campaign] 將使用者端主控台移入 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 資料夾。 瞭解如何在中建立和管理種子地址 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+   >測試設定檔是從 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 功能表。 瞭解如何在中建立及管理範本 [本節](../audience/test-profiles.md#create-test-profiles).
+
+1. 如果您已選取設定檔至 [預覽訊息](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔作為測試收件者。 您可以使用「 」清除選擇和/或新增其他收件者 **[!UICONTROL 新增測試設定檔]** 按鈕。
+
+1. 瀏覽測試設定檔清單時，您可以使用篩選器來調整搜尋。
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   例如，您可以定義規則以尋找所有具有 **[!UICONTROL 潛在客戶]** 狀態。 [進一步瞭解進階篩選](../get-started/list-filters.md#adv-attributes)
+
+   ![](assets/simulate-test-profile-filter-ex.png)
 
 1. 若要也傳送最終訊息給測試傳送的收件者，請選取 **[!UICONTROL 在主要目標中包含測試族群]** 選項。
+
+   ![](assets/simulate-include-test.png)
 
 1. 選取測試設定檔後，您可以 [傳送測試傳遞](#send-test).
 
