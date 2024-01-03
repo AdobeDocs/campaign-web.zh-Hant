@@ -2,10 +2,10 @@
 title: 監視和管理設定檔
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
 badge: label="有限可用性"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 10%
+source-wordcount: '662'
+ht-degree: 8%
 
 ---
 
@@ -38,12 +38,52 @@ Adobe Campaign Web中的設定檔是儲存在資料庫中的個人，可作為�
 
 ## 存取及編輯設定檔的屬性 {#access}
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="基本詳細資料"
+>abstract="本節提供設定檔基本詳細資訊的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="聯絡資訊"
+>abstract="本節提供設定檔之聯絡資訊的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title= "Address"
+>abstract="本節提供設定檔郵寄地址和地址品質的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="帳戶詳細資料"
+>abstract="本節提供設定檔之帳戶詳細資訊的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="收件人不再是聯絡人"
+>abstract="本節提供設定檔之聯絡人偏好設定的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="自訂欄位"
+>abstract="自訂欄位是針對您的需求量身打造的特定屬性，這些屬性已針對您的執行個體進行設定。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="其他"
+>abstract="本節提供其他內建屬性。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="收件者訂閱清單"
+>abstract="此標籤會列出設定檔訂閱的所有服務。"
+
 若要存取設定檔的詳細資訊，請在設定檔清單中按一下其名稱。
 
 ![](assets/profiles-details.png)
 
 在此畫面中，您可以存取設定檔的詳細資訊：
 
-* 此 **[!UICONTROL 詳細資料]** 標籤可讓您瀏覽設定檔的屬性。 若要編輯屬性，請在所需的欄位中進行變更，然後按一下 **[!UICONTROL 儲存]** 按鈕。
+* 此 **[!UICONTROL 詳細資料]** 索引標籤可讓您瀏覽設定檔的內建和自訂屬性。 若要編輯屬性，請在所需的欄位中進行變更，然後按一下 **[!UICONTROL 儲存]** 按鈕。
 * 此 **[!UICONTROL 訂閱]** 標籤提供有關設定檔訂閱之服務的資訊。 [瞭解如何使用訂閱服務](manage-services.md)
 * 此 **[!UICONTROL 記錄檔]** 位於畫面右上角的按鈕可讓您透過傳送、排除和追蹤記錄，以及顯示給設定檔的主張，檢視設定檔互動的歷史記錄。

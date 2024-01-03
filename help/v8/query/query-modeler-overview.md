@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用查詢建模工具
 description: 瞭解如何使用Adobe Campaign Web查詢建模工具。
-source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
+badge: label="有限可用性"
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 42%
+source-wordcount: '323'
+ht-degree: 43%
 
 ---
 
