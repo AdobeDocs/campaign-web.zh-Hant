@@ -1,16 +1,12 @@
 ---
 title: 建立和使用預先定義的篩選器
 description: 了解如何在 Adobe Campaign Web UI 中建立和管理預先定義的篩選器
-feature: Personalization
-topic: Personalization
-role: Data Engineer
-level: Beginner
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +22,7 @@ ht-degree: 100%
 >title="預先定義的篩選器"
 >abstract="Campaign Web 現在為您提供了人性化介面，可以輕鬆管理和自訂預先定義的篩選器，以滿足您的特定需求。建立一次並儲存以供未來使用。"
 
-預先定義的篩選器就是建立並儲存以供未來使用的自訂篩選器。在使用規則產生器進行任何篩選作業時 (例如篩選資料清單或建立傳遞對象時)，可以將它們當作捷徑使用。
+預先定義的篩選器就是建立並儲存以供未來使用的自訂篩選器。在使用查詢模組化工具進行任何篩選作業期間（例如，篩選資料清單或建立傳送的對象時），都可將這些區段當作捷徑。
 
 您可以使用現有的內建篩選器來存取資料的特定子集，或建立您自己的預先定義篩選器並加以儲存。
 
@@ -49,24 +45,25 @@ ht-degree: 100%
 >title="建立預先定義的篩選規則"
 >abstract="要定義自訂篩選器的篩選條件，請按一下「建立規則」按鈕。"
 
-### 從規則產生器中建立篩選器 {#create-from-rule-builder}
+### 從查詢建模器建立篩選器 {#create-from-rule-builder}
 
-您可以從規則產生器中儲存某個自訂篩選器以供未來使用。請依照下列步驟操作：
+您可以從儲存自訂篩選器 [查詢模型工具](../query/query-modeler-overview.md) 以供日後使用。 請依照下列步驟操作：
 
-1. 開啟規則產生器並定義您的篩選條件。在下方的範例中，您篩選了居住在馬德里的收件者。
+1. 開啟查詢建模器並定義您的篩選條件。 在以下範例中，您會篩選住在馬德里且訂閱電子報的收件者。
 1. 按一下「**選取或儲存篩選器**」按鈕，然後選取「**另存為篩選器**」。
 
    ![](assets/predefined-filters-save.png)
 
 1. 選取「**建立新篩選器**」，然後輸入該篩選器的名稱和說明。
 
-   ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
+   ![](assets/predefined-filters-save-filter.png)
 
    如果需要，您可以將篩選器儲存為最愛。若要了解詳細資訊，請參閱[本章節](#fav-filter)。
 
 1. 按一下「**確認**」以儲存您的變更。
 
 您的自訂篩選器現在可以在「**預先定義的篩選器**」清單中取得，並可供所有 Campaign 使用者存取。
+
 
 ### 從篩選器清單中建立篩選器 {#create-filter-from-list}
 
@@ -76,13 +73,19 @@ ht-degree: 100%
 1. 按一下「**建立篩選器**」按鈕。
 1. 輸入篩選器名稱，然後從「**文件類型**」欄位中選取其適用的結構描述。預設結構描述為 `Recipients(nms)`。
 
-   如果需要，您可以將篩選器儲存為最愛。若要了解詳細資訊，請參閱[本章節](#fav-filter)。
 
 1. 定義篩選器的規則。例如，年齡超過 30 歲的設定檔。
 
    ![](assets/filter-30+.png)
 
-1. 儲存您的變更。此篩選器便會新增至預先定義的篩選器清單。
+
+1. 儲存您的變更。
+
+   ![](assets/new-filter.png)
+
+
+篩選器會新增至預先定義的篩選器清單中。 如果需要，您可以將篩選器儲存為最愛。若要了解詳細資訊，請參閱[本章節](#fav-filter)。
+
 
 ## 將您的篩選器另存為最愛 {#fav-filter}
 
@@ -108,7 +111,7 @@ ht-degree: 100%
 1. 輸入對象名稱，然後按一下「**建立對象**」按鈕。
 1. 選取「**查詢**」活動，然後從右側窗格中按一下「**建立對象**」按鈕。
 
-   ![](assets//build-audience-from-filter.png)
+   ![](assets/build-audience-from-filter.png)
 
 1. 從「**選取或儲存篩選器**」按鈕中，選擇「**選取自訂篩選器**」選項。
 
@@ -120,8 +123,6 @@ ht-degree: 100%
 
 1. 檢查此篩選器的規則屬性並進行確認。
 
-   ![](assets/build-audience-check.png)
-
    此篩選器現在將用作「**查詢**」活動中的查詢。
 
    ![](assets/build-audience-confirm.png)
@@ -132,13 +133,15 @@ ht-degree: 100%
 
 預先定義的篩選器會全部群組在左側導覽選單的專用項目中。
 
+![](assets/list-of-filters.png)
+
 從此清單中，您可以建立新的篩選器 (如上所述)，並且：
 
 * 編輯現有篩選器，並變更其規則和屬性
 * 複製預先定義的篩選器
 * 刪除預先定義的篩選器
 
-您可以將預先定義的篩選器加入為最愛，以便在建置規則時快速存取。若要了解詳細資訊，請參閱[本章節](#fav-filter)。
+您可以將預先定義的篩選器新增為我的最愛，以便在建立受眾時快速存取。 若要了解詳細資訊，請參閱[本章節](#fav-filter)。
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

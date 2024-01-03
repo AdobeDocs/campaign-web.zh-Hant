@@ -3,11 +3,11 @@ audience: end-user
 title: 開始使用 Campaign v8 Web
 description: 開始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Beta"
-source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+badge: label="有限可用性"
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign 提供了設計跨管道客戶體驗的平台，以及適用於�
 
 >[!NOTE]
 >
->Campaign v8 Web 目前為 Beta 版本。只有一小組 Beta 客戶可以存取。請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
+>Campaign v8網站目前為「有限可用性(LA)」版本。 僅限少數LA客戶存取。 請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
 
 在[此頁面](connect-to-campaign.md)中了解如何連線至 Adobe Campaign Web。
 
