@@ -2,9 +2,9 @@
 title: 監視和管理設定檔
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
 badge: label="有限可用性"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 8%
 
 ---
@@ -50,7 +50,7 @@ Adobe Campaign Web中的設定檔是儲存在資料庫中的個人，可作為�
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title= "Address"
+>title="地址"
 >abstract="本節提供設定檔郵寄地址和地址品質的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
 
 >[!CONTEXTUALHELP]
