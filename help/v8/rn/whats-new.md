@@ -4,10 +4,10 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限可用性"
-source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 65%
+ht-degree: 67%
 
 ---
 
@@ -84,14 +84,14 @@ Adobe Campaign Web提供強大的查詢模型工具，可簡化篩選資料庫�
 
   透過我們&#x200B;**擴展的工作流程活動集**&#x200B;增強您的行銷活動。發掘自動化和最佳化的新可能性，讓您能夠建立更加動態和個人化的客戶歷程。從進階細分到條件式觸發器，我們的附加工作流程活動能讓您傳遞針對性訊息並提高行銷活動績效。
 
-  與最新LA版本一起推出的新活動為： **調解**， **載入對象**、和 **儲存對象**.
+  與最新LA版本一起推出的新活動為： **調解**， **載入檔案**、和 **儲存對象**.
 
   若要了解詳細資訊，請參閱[本章節](../workflows/gs-workflows.md)。
 
 
 * **使用查詢模組化工具鎖定對象**
 
-  Adobe Campaign Web功能 **功能強大且直覺式的查詢建模工具** 如此可簡化篩選資料庫以根據各種條件選取特定目標的程式。 這包括使用進階運算式和運運算元。 每個需要定義規則以篩選資料的內容中，都可使用查詢建模器。
+  Adobe Campaign Web功能 **功能強大且直覺式的查詢建模工具** 如此可簡化篩選資料庫以根據各種條件選取特定目標的程式。 這包括進階運算式和運算子的使用。查詢建模工具適用於每個您需要定義篩選資料的規則的環境。
 
   若要了解詳細資訊，請參閱[本章節](../query/query-modeler-overview.md)。
 
