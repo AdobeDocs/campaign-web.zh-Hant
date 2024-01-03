@@ -3,7 +3,7 @@ audience: end-user
 title: 使用調解工作流程活動
 description: 瞭解如何使用協調工作流程活動
 badge: label="有限可用性"
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 15%
@@ -64,7 +64,7 @@ ht-degree: 15%
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="選取目標定位維度"
 >abstract="選取要調解之入站資料的目標維度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/about-recipients.html?lang=en#targeting-dimensions" text="鎖定維度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="鎖定維度"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
