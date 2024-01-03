@@ -2,16 +2,16 @@
 audience: end-user
 title: 行銷活動報告
 description: 瞭解如何存取及使用行銷活動報告
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 12%
+source-wordcount: '89'
+ht-degree: 11%
 
 ---
 
-# 行銷活動報告 {#campaign-reports}
+# 開始使用行銷活動報告 {#campaign-reports}
 
 <!-- CAN BE REMOVED___
 >[!CONTEXTUALHELP]

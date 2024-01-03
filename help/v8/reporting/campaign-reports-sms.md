@@ -2,12 +2,12 @@
 audience: end-user
 title: 簡訊頻道的行銷活動報告
 description: 瞭解簡訊頻道的行銷活動報告
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 25%
+source-wordcount: '492'
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 25%
 >abstract="**傳遞概觀**&#x200B;報告可提供關鍵績效指標 (KPI)，其中包含訪客參與 SMS 傳遞的詳細資訊。"
 
 
-**[!UICONTROL 傳遞概觀]**&#x200B;報告可提供關鍵績效指標 (KPI)，其中包含訪客參與 SMS 傳遞的詳細資訊。量度詳情如下。
+此 **[!UICONTROL 傳遞概覽]** 報告提供關鍵績效指標(KPI)，這些指標提供關於訪客如何與您的SMS傳送互動的詳細資訊。 量度詳情如下。
 
 ![](assets/campaign_report_sms_1.png)
 
@@ -47,7 +47,7 @@ ht-degree: 25%
 >title="初始目標對象統計資料"
 >abstract="**初始目標對象統計資料**&#x200B;表可顯示與您收件者相關的資料"
 
-**[!UICONTROL 初始目標對象統計資料]**&#x200B;表可顯示與您收件者相關的資料. 量度詳情如下。
+此 **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料。 量度詳情如下。
 
 
 ![](assets/campaign_report_sms_2.png)

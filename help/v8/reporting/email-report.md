@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: 電子郵件傳遞報告
+title: 以電子郵件傳送報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '2254'
-ht-degree: 39%
+source-wordcount: '2245'
+ht-degree: 38%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 39%
 >abstract="**排除的原因**&#x200B;圖表和資料表顯示傳遞準備期間遭拒訊息每個規則的劃分。"
 
 
-**[!UICONTROL 排除的原因]**&#x200B;圖表和資料表顯示傳遞準備期間遭拒訊息每個規則的劃分。有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+此 **[!UICONTROL 排除的原因]** 圖形與表格會依規則顯示傳遞準備期間拒絕的訊息劃分。 有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
@@ -122,7 +122,7 @@ ht-degree: 39%
 >title="廣播統計資料"
 >abstract="**廣播統計資料**&#x200B;報告包含每個網域可能發生之錯誤的可用資料。"
 
-**[!UICONTROL 廣播統計資料]**&#x200B;表包含每個網域可能發生之錯誤的可用資料。量度詳情如下。
+此 **[!UICONTROL 廣播統計資料]** 表格包含每個網域可能發生的錯誤的可用資料。 量度詳情如下。
 
 ![](assets/reporting_email_4.png){align="center" zoomable="yes"}
 

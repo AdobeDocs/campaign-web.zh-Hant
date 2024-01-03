@@ -2,12 +2,12 @@
 audience: end-user
 title: 推播傳遞報告
 description: 瞭解如何存取及使用推播傳遞報告
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 53%
+source-wordcount: '478'
+ht-degree: 38%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 53%
 >title="推播目標族群"
 >abstract="**目標族群**&#x200B;圖表和資料表顯示與您的推播傳訊對象相關的資料：要傳遞的訊息和排除項目。"
 
-**目標族群**&#x200B;圖表和資料表顯示與您的 對象相關的資料：要傳遞的訊息和排除項目。量度詳情如下。
+此 **目標母體** 圖表和表格會顯示與您的對象相關的資料：要傳送的訊息和排除專案。 量度詳情如下。
 
 ![](assets/reporting_push_4.png)
 
@@ -72,7 +72,7 @@ ht-degree: 53%
 >title="推播整體統計資料"
 >abstract="**整體統計資料**&#x200B;報告顯示已傳送的推播通知的資料：成功、錯誤和隔離。"
 
-**整體統計資料**&#x200B;報告顯示已傳送的推播通知的資料：成功、錯誤和隔離。量度詳情如下。
+此 **整體統計資料** 報表會顯示已傳送推播通知的資料：成功、錯誤和隔離。 量度詳情如下。
 
 ![](assets/reporting_push_5.png)
 
@@ -94,7 +94,7 @@ ht-degree: 53%
 >title="推播排除"
 >abstract="**排除**&#x200B;圖表和資料表顯示各種理由，禁止從目標設定檔中排除的使用者設定檔接收訊息。"
 
-**[!UICONTROL 排除]**&#x200B;圖表和資料表顯示各種理由，禁止從目標設定檔中排除的使用者設定檔接收訊息。有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+此 **[!UICONTROL 排除專案]** 圖形和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。 有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
 ![](assets/reporting_push_6.png)
@@ -106,6 +106,6 @@ ht-degree: 53%
 >title="傳遞輸送量報告"
 >abstract="傳遞輸送量報告提供有關特定期間內整個平台傳遞輸送量的詳細資訊。"
 
-**傳遞輸送量**&#x200B;報告提供有關特定期間內整個平台傳遞輸送量的詳細資訊。用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。
+此 **傳遞總處理能力** 報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。
 
 ![](assets/reporting_push_2.png)

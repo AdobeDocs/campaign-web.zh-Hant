@@ -3,21 +3,20 @@ audience: end-user
 title: 傳遞報告
 description: 了解如何存取和使用傳遞報告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Beta"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
+badge: label="有限可用性"
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 51%
+source-wordcount: '207'
+ht-degree: 48%
 
 ---
 
-# 存取傳遞報告  {#reports}
+# 開始使用傳遞報告 {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="傳遞的彙總報告"
 >abstract="選取至少兩個傳遞，以顯示彙總的資料報告。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
@@ -50,6 +49,6 @@ Adobe Campaign 提供多種報告類型，每個傳遞均可存取。這些報�
 
 各管道的完整報表和相關量度清單可在下列頁面取得：
 
-* [電子郵件傳遞報告](email-report.md)
+* [以電子郵件傳送報告](email-report.md)
 * [簡訊傳遞報告](sms-report.md)
 * [推播傳遞報告](push-report.md)

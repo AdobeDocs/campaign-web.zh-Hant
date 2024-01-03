@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用全域報告
 description: 瞭解全域報告
 badge: label="可用性限制"
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
