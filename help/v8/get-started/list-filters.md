@@ -2,12 +2,12 @@
 audience: end-user
 title: 瀏覽、搜尋和篩選清單
 description: 探索如何瀏覽和篩選清單 Campaign Web v8
-badge: label="Beta"
+badge: label="可用性限制"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
+source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 98%
+source-wordcount: '303'
+ht-degree: 89%
 
 ---
 
@@ -33,8 +33,6 @@ ht-degree: 98%
 
 ![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
-使用「**顯示進階屬性**」開關，即可查看最新清單的所有屬性。[了解更多](#adv-attributes)
-
 ## 排序資料 {#sort-lists}
 
 按一下任何欄標頭，還能將清單中的項目排序。顯示箭頭 (向上或向下) 即表示清單已按該欄排序。
@@ -53,35 +51,35 @@ ht-degree: 98%
 
 若要建立有關資料的自訂篩選器，請瀏覽至篩選器底部並按一下「**新增規則**」按鈕，以存取規則產生器。
 
-拖放屬性以在「**進階篩選器**」畫面中建置篩選條件。
+在「 」中定義並結合您的篩選條件 **進階篩選** 畫面。
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
-使用「**顯示進階屬性**」開關，即可查看最新清單的所有屬性。[了解更多](#adv-attributes)
+自訂篩選器是使用Campaign查詢模型工具所設計。 有關如何使用的詳細資訊，請參閱 [本節](../query/query-modeler-overview.md).
 
-自訂篩選器的規則產生器操作原理類似於用於建立對象所使用的規則產生器。有關如何使用的詳細資訊，請參閱 [Audiences 文件](../audience/segment-builder.md)。
-
-## 使用進階屬性 {#adv-attributes}
+<!--
+## Use advanced attributes {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
->title="顯示進階屬性"
->abstract="依預設，屬性清單中只會顯示最常見的屬性。啟用「**顯示進階屬性**」開關，即可在規則產生器的左側調色盤中查看目前清單的所有可用屬性，例如節點、群組、1-1 連結、1-N 連結。"
+>title="Display advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
->title="規則產生器進階欄位"
->abstract="依預設，屬性清單中只會顯示最常見的屬性。啟用「**顯示進階屬性**」開關，即可在規則產生器的左側調色盤中查看目前清單的所有可用屬性，例如節點、群組、1-1 連結、1-N 連結。"
+>title="Rule builder advanced fields"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
->title="規則產生器進階屬性"
->abstract="依預設，屬性清單中只會顯示最常見的屬性。啟用「**顯示進階屬性**」開關，即可在規則產生器的左側調色盤中查看目前清單的所有可用屬性，例如節點、群組、1-1 連結、1-N 連結。"
+>title="Rule builder advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 
-預設情況下，屬性清單和篩選器設定畫面中只會顯示最常見的屬性。屬性若在資料結構描述中設定為 `advanced` 屬性，在設定畫面中會隱藏。
+Only most common attributes are displayed by default in the attribute list and filter configuration screens. Attributes which were set as `advanced` attributes in the data schema are hidden from the configuration screens. 
 
-啟用「**顯示進階屬性**」開關，即可在規則產生器的左側調色盤中查看目前清單的所有可用屬性，例如節點、群組、1-1 連結、1-N 連結。屬性清單會立即更新。
+Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list is updated instantly.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+-->
