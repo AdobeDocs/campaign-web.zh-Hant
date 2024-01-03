@@ -4,7 +4,7 @@ title: 使用Campaign規則產生器建立對象
 description: 瞭解如何使用規則產生器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 60%
@@ -12,7 +12,6 @@ ht-degree: 60%
 ---
 
 # 使用規則產生器 {#segment-builder}
-
 
 規則產生器可讓您透過篩選資料庫中包含的資料，定義傳送所定位的母體。 您可以使用它在工作流程中建立對象 **[!UICONTROL 建立對象]** 活動，或直接在建立傳遞以建立一次性對象時。
 
