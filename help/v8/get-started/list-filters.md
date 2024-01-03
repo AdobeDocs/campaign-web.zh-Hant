@@ -4,18 +4,16 @@ title: 瀏覽、搜尋和篩選清單
 description: 探索如何瀏覽和篩選清單 Campaign Web v8
 badge: label="可用性限制"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
+source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 89%
+source-wordcount: '241'
+ht-degree: 81%
 
 ---
 
 # 瀏覽、搜尋和篩選清單 {#list-screens}
 
 左側導覽功能表中的大部分連結會顯示物件清單，例如，**傳遞**&#x200B;或&#x200B;**行銷活動**&#x200B;的清單。這些清單畫面部分為唯讀。您可以自訂清單顯示，並篩選這些清單，如下所述。
-
-若要移除篩選器，請按一下「**全部清除**」按鈕。
 
 ## 自訂清單畫面 {#custom-lists}
 
@@ -39,23 +37,13 @@ ht-degree: 89%
 
 對於數字或日期欄，**向上**&#x200B;箭頭表示清單依據遞增順序排序，而&#x200B;**向下**&#x200B;箭頭則表示依據遞減順序。若為字串或英數字元欄，則會依據字母順序列出值。
 
-## 內建篩選器 {#list-built-in-filters}
+## 篩選 {#list-built-in-filters}
 
-若要更快地找到項目，您可以使用搜尋列，或根據內容關聯式條件篩選清單。
+若要更快找到專案，您可以使用搜尋列，或內建和自訂篩選器，根據內容條件調整清單。
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-例如，您可以根據狀態、管道、聯絡日期或資料夾對傳遞進行篩選。您也可以隱藏測試。
-
-## 自訂篩選器{#list-custom-filters}
-
-若要建立有關資料的自訂篩選器，請瀏覽至篩選器底部並按一下「**新增規則**」按鈕，以存取規則產生器。
-
-在「 」中定義並結合您的篩選條件 **進階篩選** 畫面。
-
-![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
-
-自訂篩選器是使用Campaign查詢模型工具所設計。 有關如何使用的詳細資訊，請參閱 [本節](../query/query-modeler-overview.md).
+有關如何使用篩選器並建立您自己的自訂篩選器的詳細資訊，請參閱 [本節](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}
