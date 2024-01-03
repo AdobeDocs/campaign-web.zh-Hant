@@ -1,32 +1,30 @@
 ---
-title: 與收件者和對象合作
-description: 瞭解如何在Campaign網頁中與收件者和受眾合作
-badge: label="Beta"
+title: 開始使用設定檔和對象
+description: 瞭解如何在Campaign網頁中使用設定檔和對象
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+badge: label="有限可用性"
+source-git-commit: 9e6f0a5894ae0b31d275f978553d7fc73ba9c2eb
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 5%
+source-wordcount: '391'
+ht-degree: 4%
 
 ---
 
-# 與收件者和對象合作 {#about-recipients}
+# 開始使用設定檔和對象 {#about-profiles}
 
-## 收件者和對象 {#about}
+## 設定檔與對象 {#about}
 
-在Adobe Campaign中，傳送的目標母體為受眾。 受眾是指一組具有類似行為和/或特徵的人。 可以產生、選取或載入此人員集合 [如下所述](#audiences).
-
-在大多數情況下，受眾會由設定檔組成，其儲存為 [收件者](#recipients) 在Adobe Campaign中。 您也可以透過變更維度來處理其他目標對應，如上所述 [在本節中](#targeting-dimensions).
+在Adobe Campaign中，傳送的目標母體為受眾。 受眾是一組具有類似行為和/或特徵的設定檔。 可以產生、選取或載入此人員集合 [如下所述](#audiences).
 
 ## 鎖定維度 {#targeting-dimensions}
 
-目標維度，亦稱為。 目標對應，是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。
+目標維度，亦稱為。 目標對應，是作業正在處理的資料型別。 它可讓您定義目標母體：設定檔、合約受益人、操作員、訂閱者等。
 
-工作流程的目標維度是由第一個維度定義 **[!UICONTROL 建立對象]** 活動，並用於所有後續活動，直到工作流程結束為止。 例如，如果您對資料庫中的收件者執行查詢，出站轉變將包含收件者型別的資料，並將傳輸至下一個活動。
+工作流程的目標維度是由第一個維度定義 **[!UICONTROL 建立對象]** 活動，並用於所有後續活動，直到工作流程結束為止。 例如，如果對來自資料庫的設定檔執行查詢，出站轉變將包含「recipient」型別的資料，並將傳輸至下一個活動。
 
-請注意，您可以使用在工作流程中切換目標維度 [變更維度活動](../workflows/activities/change-dimension.md). 舉例來說，這可讓您查詢特定表格（例如購買或訂閱）上的資料庫，然後將目標維度變更為收件者，以便將傳遞內容傳送給相對應的收件者。
+請注意，您可以使用在工作流程中切換目標維度 [變更維度活動](../workflows/activities/change-dimension.md). 舉例來說，這可讓您查詢特定表格（例如購買或訂閱）上的資料庫，然後將目標維度變更為收件者，以便將傳送內容傳送至相對應的設定檔。
 
-依預設，電子郵件和簡訊傳遞範本的目標為 **[!UICONTROL 收件者]**. 因此，其目標維度會使用 **nms：recipient** 表格。 對於推播通知，預設目標維度為 **訂閱者應用程式nms：appSubscriptionRcp**，此資訊會連結至收件者表格。
+依預設，電子郵件和簡訊傳遞範本會定位設定檔。 因此，其目標維度會使用 **nms：recipient** 表格。 對於推播通知，預設目標維度為 **訂閱者應用程式nms：appSubscriptionRcp**，此資訊會連結至收件者表格。
 
 您也可以在工作流程及下列傳遞中使用其他內建目標對應：
 
