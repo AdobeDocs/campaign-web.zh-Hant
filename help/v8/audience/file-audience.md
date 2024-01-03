@@ -4,7 +4,7 @@ title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 35%
@@ -109,4 +109,4 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
    ![](assets/file-upload-test.png)
 
-1. 您可以隨時使用檢視測試電子郵件記錄按鈕來監視測試電子郵件的傳送。 [進一步瞭解測試電子郵件監控](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. 您可以使用監控測試電子郵件的傳送 **[!UICONTROL 檢視測試電子郵件記錄]** 按鈕。 [進一步瞭解測試電子郵件監控](../preview-test/test-deliveries.md#access-test-deliveries)
