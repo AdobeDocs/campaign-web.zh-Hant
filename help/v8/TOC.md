@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 94%
+source-wordcount: '502'
+ht-degree: 89%
 
 ---
 
@@ -89,7 +89,9 @@ ht-degree: 94%
       + [呈現您的電子郵件](preview-test/email-rendering.md)
 + 對象和收件者 {#audiences}
    + [開始使用收件者和對象](audience/gs-audiences-recipients.md)
-   + [與收件者合作](audience/about-recipients.md)
+   + 與收件者合作 {#work-with-recipients}
+      + [管理設定檔](audience/about-recipients.md)
+      + [建立及管理測試設定檔](audience/test-profiles.md)
    + 使用對象 {#audiences}
       + [建立對象](audience/create-audience.md)
       + [檢視和管理對象](audience/manage-audience.md)
@@ -147,6 +149,11 @@ ht-degree: 94%
       + [以簡訊傳送傳遞報告](reporting/sms-report.md)
    + 行銷活動報表 {#campaign-report}
       + [存取行銷活動報告](reporting/campaign-reports.md)
-      + [電子郵件行銷活動報告](reporting/campaign-reports-email.md)
+      + [以電子郵件傳送行銷活動報告](reporting/campaign-reports-email.md)
       + [推播行銷活動報告](reporting/campaign-reports-push.md)
       + [簡訊行銷活動報告](reporting/campaign-reports-sms.md)
+   + 全域報告 {#global-report}
+      + [存取全域報告](reporting/global-reports.md)
+      + [以電子郵件傳送全域報告](reporting/global-report-email.md)
+      + [推播全域報告](reporting/global-report-push.md)
+      + [簡訊全域報告](reporting/global-report-sms.md)
