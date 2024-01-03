@@ -4,10 +4,10 @@ title: 檢視和管理對象
 description: 瞭解如何在Adobe Campaign Web中監視和管理對象
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 10%
+source-wordcount: '472'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,21 @@ ht-degree: 10%
 >id="acw_audiences_workflow_error_data_execution"
 >title="觀眾錯誤"
 >abstract="無法取得對象資料。請等待工作流程執行結束。"
+
+對象是傳遞的主要目標：收到訊息的收件者。對象類型會依據傳遞範本中定義的目標對應而不同。進一步瞭解中的傳遞範本 [此頁面](../msg/delivery-template.md).
+
+若要定義對象母體，您可以：
+
+* [建立新對象](create-audience.md) 從 **[!UICONTROL 受眾]** 功能表，
+* [選取現有對象](add-audience.md) 在使用者端主控台中建立為清單，或來自Adobe Experience Platform時，
+* [建立新對象](segment-builder.md) 使用規則產生器，方法是定義和結合篩選准則，
+* [使用外部檔案中的對象](file-audience.md). 此選項僅適用於獨立電子郵件傳送，無法用於行銷活動傳送。
+
+鎖定目標對象時，您也可以定義 **控制組** 以避免傳送訊息給部分對象，並評估行銷活動的影響。 [瞭解如何設定控制組](control-group.md)
+
+>[!NOTE]
+>
+>在行銷活動工作流程內容中傳送訊息時，會在特定中定義對象 **建立對象** 工作流程活動。 在此特定情況下，您無法從檔案載入對象以進行電子郵件傳遞，並且該對象的定義僅適用於此專用活動。瞭解如何在的行銷活動工作流程中定義傳送的對象 [本節](../workflows/activities/build-audience.md)
 
 Campaign網頁適用的對象清單可從 **[!UICONTROL 受眾]** 功能表。
 

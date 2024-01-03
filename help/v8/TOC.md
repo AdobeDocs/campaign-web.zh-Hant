@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 96%
+source-wordcount: '482'
+ht-degree: 94%
 
 ---
 
@@ -88,15 +88,17 @@ ht-degree: 96%
       + [傳送測試傳遞](preview-test/test-deliveries.md)
       + [呈現您的電子郵件](preview-test/email-rendering.md)
 + 對象和收件者 {#audiences}
-   + [與收件者和對象合作](audience/about-recipients.md)
-   + [建立對象](audience/create-audience.md)
+   + [開始使用收件者和對象](audience/gs-audiences-recipients.md)
+   + [與收件者合作](audience/about-recipients.md)
+   + 使用對象 {#audiences}
+      + [建立對象](audience/create-audience.md)
+      + [檢視和管理對象](audience/manage-audience.md)
    + 選取您的傳遞收件者 {#target-audiences}
       + [選取現有對象](audience/add-audience.md)
       + [建立一次性對象](audience/one-time-audience.md)
       + [從檔案載入對象](audience/file-audience.md)
       + [設定控制組](audience/control-group.md)
    + [使用規則產生器](audience/segment-builder.md)
-   + [檢視和管理對象](audience/manage-audience.md)
    + 使用訂閱服務 {#work-with-services}
       + [管理服務](audience/manage-services.md)
       + [管理訂閱者](audience/manage-subscribers.md)
