@@ -4,10 +4,10 @@ title: 傳遞設定
 description: 進一步瞭解Campaign網頁中的傳遞設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '2159'
-ht-degree: 82%
+source-wordcount: '2110'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 82%
 >
 >這些設定僅供您參考。其中一些取決於您的設定和權限。不可在此版本的產品中修改它們。
 
-## 類型 設定 {#typology}
+## 類型設定 {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
@@ -50,7 +50,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->類型和類型規則是在 Campaign 用戶端主控台中建立的。進一步了解壓力規則以及如何在中設定疲勞管理 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hant){target="_blank"}.
+>型別與型別規則是在Campaign使用者端主控台中建立。 進一步了解壓力規則以及如何在中設定疲勞管理 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hant){target="_blank"}.
 
 ### 壓力參數 {#pressure-parameters}
 
@@ -119,10 +119,9 @@ ht-degree: 82%
 >title="傳遞的對象設定"
 >abstract="在那些可用項目中選取「**目標對應**」。目標對應是在 Adobe Campaign v8 主控台中定義的。您也可以設定傳遞的排除參數。 "
 
-在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。目標維度或目標對應是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。
+在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。目標對應是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。
 
-
-進一步瞭解中的目標對應 [本節](../audience/about-recipients.md#targeting-dimensions).
+進一步瞭解中的目標對應 [本節](../audience/targeting-dimensions.md).
 
 ## 傳遞 {#delivery}
 
@@ -147,7 +146,7 @@ ht-degree: 82%
 >title="傳遞的網頁分析設定"
 >abstract="選取網路分析帳戶。此帳戶是在 Campaign 用戶端主控台中設定的。您也可以定義與您所用分析工具共用的標籤。"
 
-您可以在此區段中選取網站分析帳戶。 此帳戶是在 Campaign 用戶端主控台中設定的。
+您可以在此區段中選取網站分析帳戶。 此帳戶是在Campaign使用者端主控台中設定。
 
 您也可以定義與您所用分析工具共用的標籤。
 
