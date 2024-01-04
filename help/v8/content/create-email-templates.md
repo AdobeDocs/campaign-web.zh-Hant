@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
+source-git-commit: 1dce1bf18dd16f1e4a0f78c6b699275904de8e19
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '741'
 ht-degree: 7%
 
 ---
@@ -106,15 +106,13 @@ ht-degree: 7%
 
    ![](assets/content-template-create.png)
 
-1. 填寫範本詳細資訊。
+1. 填寫範本詳細資訊。 您可以選取要儲存範本的資料夾。 依預設，內容範本會儲存在Adobe Campaign階層的專用節點中： **[!UICONTROL 瀏覽器]** > **[!UICONTROL 資源]** > **[!UICONTROL 範本]** > **[!UICONTROL 內容範本]**. [瞭解如何建立資料夾](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
    >[!NOTE]
    >
    >目前僅限 **電子郵件** 頻道和 **HTML** 型別受到支援。
-
-1. 選取您要儲存範本的資料夾。 依預設，內容範本會儲存在Adobe Campaign階層的專用節點中： **[!UICONTROL 瀏覽器]** > **[!UICONTROL 資源]** > **[!UICONTROL 範本]** > **[!UICONTROL 內容範本]**. [瞭解如何建立資料夾](../get-started/permissions.md#folders)
 
 1. 按一下 **[!UICONTROL 建立]** 並從不同選項中選擇要如何設計範本：
 
