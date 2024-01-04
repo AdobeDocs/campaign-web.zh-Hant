@@ -3,39 +3,55 @@ title: 開始使用設定檔和對象
 description: 瞭解如何在Campaign網頁中使用設定檔和對象
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="有限可用性"
-source-git-commit: 9e6f0a5894ae0b31d275f978553d7fc73ba9c2eb
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 4%
+source-wordcount: '203'
+ht-degree: 17%
 
 ---
 
 # 開始使用設定檔和對象 {#about-profiles}
 
-## 設定檔與對象 {#about}
+在Adobe Campaign Web中， **設定檔** 是儲存在資料庫中的個人，可作為關鍵元件來建立傳遞的對象，並將個人化資料新增至您的內容。 各種型別的設定檔儲存在資料庫中，例如 **測試設定檔**，專門用於在傳送給最終對象前測試您的傳送。
 
-在Adobe Campaign中，傳送的目標母體為受眾。 受眾是一組具有類似行為和/或特徵的設定檔。 可以產生、選取或載入此人員集合 [如下所述](#audiences).
+**受眾** 是一組具有類似行為和/或特徵的設定檔。 可以產生、選取或載入此人員集合。  建立後，您就可以將對象作為您傳送的目標母體。
 
-## 鎖定維度 {#targeting-dimensions}
+此外，Adobe Campaign Web可用於管理和建立 **服務** 如電子報，以及檢查這些服務的訂閱或取消訂閱。 完成後，您可以新增訂閱者、取消訂閱設定檔，以及傳送訊息給服務的訂閱者。
 
-目標維度，亦稱為。 目標對應，是作業正在處理的資料型別。 它可讓您定義目標母體：設定檔、合約受益人、操作員、訂閱者等。
+由於您已經了解在 Adobe Campaign Web 中能做什麼，您現在可以深入了解這些文件章節，以開始使用。
 
-工作流程的目標維度是由第一個維度定義 **[!UICONTROL 建立對象]** 活動，並用於所有後續活動，直到工作流程結束為止。 例如，如果對來自資料庫的設定檔執行查詢，出站轉變將包含「recipient」型別的資料，並將傳輸至下一個活動。
-
-請注意，您可以使用在工作流程中切換目標維度 [變更維度活動](../workflows/activities/change-dimension.md). 舉例來說，這可讓您查詢特定表格（例如購買或訂閱）上的資料庫，然後將目標維度變更為收件者，以便將傳送內容傳送至相對應的設定檔。
-
-依預設，電子郵件和簡訊傳遞範本會定位設定檔。 因此，其目標維度會使用 **nms：recipient** 表格。 對於推播通知，預設目標維度為 **訂閱者應用程式nms：appSubscriptionRcp**，此資訊會連結至收件者表格。
-
-您也可以在工作流程及下列傳遞中使用其他內建目標對應：
-
-| 名稱 | 使用至 | 結構描述 |
-|---|---|---|
-| 收件者 | 傳遞給收件者（內建收件者表格） | nms：recipient |
-| 訪客 | 傳遞給已透過轉介（病毒式行銷）針對例如收集設定檔的訪客。 | mns：visitor |
-| 訂閱 | 傳遞給已訂閱資訊服務（例如電子報）的收件者 | nms：subscription |
-| 訪客訂閱 | 傳遞給訂閱資訊服務的訪客 | nms：visitorSub |
-| 運算子 | 傳遞給Adobe Campaign操作者 | nms：operator |
-| 外部檔案 | 透過包含傳遞所需所有資訊的檔案傳遞 | 沒有連結的結構描述，沒有輸入目標 |
-| 訂閱者應用程式 | 傳遞給已訂閱應用程式的收件者 | nms：appSubscriptionRcp |
-
-此外，您可以根據需求建立新的目標對應。 這是從使用者端主控台執行。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="about-recipients.md">
+<img src="../assets/do-not-localize/profiles-audiences-profile.png">
+</a>
+<div>
+<a href="manage-audience.md"><strong>監視和管理設定檔</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="test-profiles.md">
+<img alt="銷售機會" src="../assets/do-not-localize/profiles-audiences-audience.png">
+</a>
+<div><a href="conditions.md"><strong>建立對象</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="manage-services.md">
+<img alt="不常使用" src="../assets/do-not-localize/profiles-audiences-service.png">
+</a>
+<div>
+<a href="content-blocks.md"><strong>管理服務</strong></a>
+</div>
+<p></td>
+<td>
+<a href="add-audience.md">
+<img alt="不常使用" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
+</a>
+<div>
+<a href="content-blocks.md"><strong>選取您的傳遞收件者</strong></a>
+</div>
+<p></td>
+</tr></table>

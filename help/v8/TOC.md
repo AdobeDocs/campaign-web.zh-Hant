@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '504'
 ht-degree: 86%
 
 ---
@@ -87,10 +87,10 @@ ht-degree: 86%
       + [預覽訊息內容。](preview-test/preview-content.md)
       + [傳送測試傳遞](preview-test/test-deliveries.md)
       + [呈現您的電子郵件](preview-test/email-rendering.md)
-+ 對象和收件者 {#audiences}
-   + [開始使用收件者和對象](audience/gs-audiences-recipients.md)
-   + 與收件者合作 {#work-with-recipients}
-      + [管理設定檔](audience/about-recipients.md)
++ 設定檔與對象 {#audiences}
+   + [開始使用設定檔和對象](audience/gs-audiences-recipients.md)
+   + 使用設定檔 {#work-with-profiles}
+      + [監視和管理設定檔](audience/about-recipients.md)
       + [建立及管理測試設定檔](audience/test-profiles.md)
    + 使用對象 {#audiences}
       + [建立對象](audience/create-audience.md)
@@ -100,7 +100,6 @@ ht-degree: 86%
       + [建立一次性對象](audience/one-time-audience.md)
       + [從檔案載入對象](audience/file-audience.md)
       + [設定控制組](audience/control-group.md)
-   + [使用規則產生器](audience/segment-builder.md)
    + 使用訂閱服務 {#work-with-services}
       + [管理服務](audience/manage-services.md)
       + [管理訂閱者](audience/manage-subscribers.md)
