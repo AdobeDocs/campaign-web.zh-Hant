@@ -4,7 +4,7 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 337f2f063e54e8b50446780a0ce89c529c8d743a
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 70%
@@ -110,7 +110,7 @@ ht-degree: 70%
 
    ![](assets/email-edit-content.png)
 
-   這會將您帶到專用介面，您可以在其中設定電子郵件內容並存取電子郵件設計工具。 [了解更多](../email/edit-content.md)
+   這會將您帶到專用介面，您可以在其中設定電子郵件內容並存取電子郵件設計工具。 [了解更多](edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -120,11 +120,11 @@ ht-degree: 70%
 
 1. 若要設計電子郵件的內容，按一下「**[!UICONTROL 編輯電子郵件內文]**」按鈕。
 
-   選擇用於建立電子郵件內容的方法。在此範例中，使用 [預先定義的內容範本](../email/create-email-templates.md).
+   選擇用於建立電子郵件內容的方法。在此範例中，使用 [預先定義的內容範本](create-email-templates.md).
 
    ![](assets/select-template.png)
 
-1. 選取範本後，它會顯示在 [電子郵件設計工具](../email/create-email-content.md)，您可在此進行任何必要的編輯並新增個人化。
+1. 選取範本後，它會顯示在 [電子郵件設計工具](create-email-content.md)，您可在此進行任何必要的編輯並新增個人化。
 
    例如，若要為電子郵件標題新增個人化，請選取元件區塊，然後按一下「**[!UICONTROL 新增個人化]**」。
 
