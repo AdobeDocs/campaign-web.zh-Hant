@@ -4,10 +4,10 @@ title: 使用 Adobe Experience Platform 對象
 description: 了解如何使用 Adobe Experience Platform 對象
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 37%
+source-wordcount: '283'
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign受管理的Cloud Service目標和來源聯結器可緊密整合Ad
 
 若要選取傳送的對象，您也可以：
 
-* 建立新對象。 [了解更多](segment-builder.md)
+* 建立新對象。 [了解更多](../query/query-modeler-overview.md)
 * 從外部檔案載入對象。 [了解更多](file-audience.md)
 * 使用現有的Campaign對象。 [了解更多](add-audience.md)。
 
@@ -33,7 +33,7 @@ Adobe Campaign受管理的Cloud Service目標和來源聯結器可緊密整合Ad
 
    ![](assets/create-audience.png)
 
-1. 選擇「**[!UICONTROL 選取對象]**」以使用現有對象。若要建立新對象用於此電子郵件，請選擇「**建立您自己的**」。請參閱本[章節](segment-builder.md)。
+1. 選擇「**[!UICONTROL 選取對象]**」以使用現有對象。若要建立新對象用於此電子郵件，請選擇「**建立您自己的**」。請參閱本[章節](../query/query-modeler-overview.md)。
 
    此畫面會顯示目前資料夾在Adobe Campaign使用者端主控台中定義的所有現有對象。 若要從Adobe Experience Platform選擇對象，請瀏覽至 `AEP Audiences folder` 從熒幕的篩選區段中。
 
@@ -49,6 +49,6 @@ Adobe Campaign受管理的Cloud Service目標和來源聯結器可緊密整合Ad
 
    ![](assets/refine-audience.png)
 
-1. 使用規則產生器，您可以使用額外的篩選器或結合不同的對象來擴充您的對象。請參閱本[章節](segment-builder.md)。
+1. 使用規則產生器，您可以使用額外的篩選器或結合不同的對象來擴充您的對象。請參閱本[章節](../query/query-modeler-overview.md)。
 
 1. 按一下「**儲存**」。

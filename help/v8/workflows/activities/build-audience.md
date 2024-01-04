@@ -4,10 +4,10 @@ title: 使用「建置對象」工作流程活動
 description: 了解如何使用「建置對象」工作流程活動
 badge: label="Beta"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -56,7 +56,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 選取「**建立您自己的 (查詢)**」。
 1. 選擇「**目標定位維度**」。目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。進一步瞭解中的目標維度 [本節](../../audience/about-recipients.md#targeting-dimensions).
 1. 按一下&#x200B;**「繼續」**。
-1. 使用規則產生器定義您的查詢，以您設計新電子郵件時建立對象的相同方式。請參閱本[章節](../../audience/segment-builder.md)。
+1. 使用規則產生器定義您的查詢，以您設計新電子郵件時建立對象的相同方式。請參閱本[章節](../../audience/../query/query-modeler-overview.md)。
 
 若要選取現有對象，請依照以下步驟進行：
 

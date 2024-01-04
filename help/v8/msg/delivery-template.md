@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 25%
@@ -52,7 +52,7 @@ ht-degree: 25%
 
 所有符合以下條件的範本： [已建立](#create-a-delivery-template) 隨即顯示。
 
-您可以在頻道和資料夾上篩選內容範本。 您也可以使用傳遞屬性建置規則，以設定進階篩選器。 [進一步瞭解規則產生器](../audience/segment-builder.md)
+您可以在頻道和資料夾上篩選內容範本。 您也可以使用傳遞屬性建置規則，以設定進階篩選器。 [進一步瞭解規則產生器](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 

@@ -3,10 +3,11 @@ audience: end-user
 title: 建立傳遞的一次性對象
 description: 瞭解如何建立傳遞的一次性對象。
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '230'
+ht-degree: 28%
 
 ---
 
@@ -27,7 +28,7 @@ ht-degree: 0%
 
    ![](assets/segment-builder0.png)
 
-1. 選取「**建立您自己的**」。規則產生器隨即顯示。它可讓您透過篩選資料庫中包含的資料，定義傳送所定位的母體。 [瞭解如何使用規則產生器](segment-builder.md)
+1. 選取「**建立您自己的**」。隨即顯示規則產生器。 它可讓您透過篩選資料庫中包含的資料，定義傳送所定位的母體。 [瞭解如何使用規則產生器](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 
