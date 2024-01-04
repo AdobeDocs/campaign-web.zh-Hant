@@ -4,7 +4,7 @@ title: 選取現有對象
 description: 了解如何選取對象
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 34%
@@ -40,7 +40,7 @@ ht-degree: 34%
 
    ![](assets/select-audience-folder.png)
 
-1. 篩選區段可讓您存取篩選選項，以調整對象清單。 若要這麼做，請按一下 **新增規則** 以存取規則產生器，這可讓您為對象清單建立進階篩選器。 [瞭解如何使用規則產生器](segment-builder.md)
+1. 篩選區段可讓您存取篩選選項，以調整對象清單。 若要這麼做，請按一下 **新增規則** 以存取規則產生器，這可讓您為對象清單建立進階篩選器。 [瞭解如何使用規則產生器](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
