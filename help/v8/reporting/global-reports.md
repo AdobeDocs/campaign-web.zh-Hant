@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用全域報告
 description: 瞭解全域報告
 badge: label="可用性限制"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 各管道的完整報表和相關量度清單可在下列頁面取得：
 
 * [以電子郵件傳送全域報告](global-report-email.md)
-* [SMS全域報告](global-report-email-sms.md)
+* [SMS全域報告](global-report-sms.md)
 * [推播全域報告](global-report-push.md)
 
 ## 管理您的報告儀表板 {#manage-reports}
