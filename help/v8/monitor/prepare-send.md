@@ -4,10 +4,10 @@ title: 準備並傳送電子郵件
 description: 了解如何使用 Campaign Web UI 準備並傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 50%
+source-wordcount: '891'
+ht-degree: 40%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 50%
 
 ## 準備傳送 {#prepare}
 
-當您定義 [內容](../content/edit-content.md)， [對象](../audience/add-audience.md)、和 [排程](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)，您已準備好準備電子郵件傳遞。
+當您定義 [內容](../email/edit-content.md)， [對象](../audience/add-audience.md)、和 [排程](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)，您已準備好準備電子郵件傳遞。
 
-在傳遞準備期間，會計算目標母體，並針對目標中包含的每個設定檔產生訊息內容。 準備作業完成後，就可以立即或在排程的日期和時間傳送訊息。
+在傳遞準備期間，會計算目標母體，並針對目標中包含的每個設定檔產生訊息內容。 完成準備工作後，即可立即或依排程的日期和時間傳送訊息。
 
 傳遞準備期間使用的驗證規則在 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
@@ -39,7 +39,7 @@ ht-degree: 50%
 
 1. 畫面會顯示準備進度。根據目標母體的大小，此操作可能需要一些時間。
 
-   您可以隨時使用「**[!UICONTROL 停止準備]**」按鈕來停止準備作業。
+   您可以隨時使用 **[!UICONTROL 停止準備]** 按鈕。
 
    ![](assets/email-stop-preparation.png)
 
@@ -52,9 +52,9 @@ ht-degree: 50%
 
    以下是顯示的不同 KPI：
 
-   * **[!UICONTROL 目標]**：目標收件者數量。
-   * **[!UICONTROL 要傳遞]**：將傳送的訊息數.
-   * **[!UICONTROL 要排除]**[：類型規則排除的訊息數](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL 已鎖定目標]**：鎖定的收件者人數。
+   * **[!UICONTROL 要傳遞]**：將傳送的訊息數。
+   * **[!UICONTROL 要排除]**：由排除的訊息數 [型別規則](../advanced-settings/delivery-settings.md#typology).
 
 1. 按一下「**[!UICONTROL 記錄]**」按鈕並檢查沒有錯誤。最後的記錄訊息顯示所有錯誤訊息和錯誤數量。[了解更多](delivery-logs.md)
 
@@ -66,7 +66,7 @@ ht-degree: 50%
 
 1. 如果您在準備後對傳送進行任何變更，則必須重新開始準備，才能將這些變更納入考量。
 
-準備作業完成且沒有錯誤後，您的訊息就可以傳送了。
+完成準備工作且無錯誤後，即可傳送您的訊息。
 
 ## 傳送訊息 {#send}
 
@@ -85,7 +85,7 @@ ht-degree: 50%
 
 1. 確認此動作以立即將訊息傳送至主要目標。
 
-1. 傳送進度隨即顯示。
+1. 會顯示傳送進度。
 
 ### 排程傳送 {#schedule-the-send}
 

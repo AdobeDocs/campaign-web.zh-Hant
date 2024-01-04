@@ -6,13 +6,13 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 59%
+source-wordcount: '428'
+ht-degree: 60%
 
 ---
-
 
 # 內建的內容區塊 {#ootb-content-blocks}
 
@@ -39,7 +39,7 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊為�
 * **[!UICONTROL 專有名詞的格式化函數]**：產生 **[!UICONTROL toSmartCase]** Javascript 函數，它將每個單詞的第一個字母變更為大寫。
 * **[!UICONTROL 問候語]**：插入帶有收件人全名的問候語，後面跟著一個逗號。範例：「你好 John Doe，」。
 * **[!UICONTROL 插入標誌]**：插入在執行個體設定中定義的標誌。
-* **[!UICONTROL 鏡像頁面連結]**：插入[鏡像頁面](../content/mirror-page.md)的連結。預設格式：「如果您無法正確檢視此訊息，請按一下此處」。
+* **[!UICONTROL 鏡像頁面連結]**：插入[鏡像頁面](../email/mirror-page.md)的連結。預設格式：「如果您無法正確檢視此訊息，請按一下此處」。
 * **[!UICONTROL 鏡像頁面 URL]**：插入鏡像頁面 URL，使傳遞設計工具檢查連結。
 * **[!UICONTROL 通知樣式]**
 * **[!UICONTROL 單一模式的優惠接受 URL]**：插入可以將優惠設定為&#x200B;**[!UICONTROL 接受]** 的 URL。(如果啟用互動模組，則此區塊可用)
@@ -54,4 +54,3 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊為�
 >[!NOTE]
 >
 >您可以從Adobe Campaign v8主控台定義新區塊，以讓您將傳送個人化最佳化。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
-

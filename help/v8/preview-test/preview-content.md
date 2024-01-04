@@ -4,7 +4,7 @@ title: 預覽傳遞內容
 description: 瞭解如何使用Campaign Web UI預覽您的傳遞內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="有限可用性"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 若要預覽傳送的內容，請遵循下列步驟。
 
-1. 瀏覽至傳送的編輯內容畫面或 [電子郵件設計工具](../content/get-started-email-designer.md).
+1. 瀏覽至傳送的編輯內容畫面或 [電子郵件設計工具](../email/get-started-email-designer.md).
 
 1. 按一下 **[!UICONTROL 模擬內容]** 按鈕。
 

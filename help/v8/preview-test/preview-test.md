@@ -4,7 +4,7 @@ title: 關於傳遞預覽和測試
 description: 瞭解如何預覽和測試傳送
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="有限可用性"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 19%
@@ -30,7 +30,7 @@ ht-degree: 19%
 * [傳送測試傳遞](test-deliveries.md) （校樣）給特定收件者或訂閱者，以進行測試和驗證
 * [檢查電子郵件呈現](email-rendering.md) 在熱門的桌上型電腦、行動裝置和Web型使用者端
 
-這些動作可使用 **[!UICONTROL 模擬內容]** 按鈕，您可從傳送的編輯內容畫面存取，或從 [電子郵件設計工具](../content/get-started-email-designer.md).
+這些動作可使用 **[!UICONTROL 模擬內容]** 按鈕，您可從傳送的編輯內容畫面存取，或從 [電子郵件設計工具](../email/get-started-email-designer.md).
 
 ![](assets/simulate-button.png)
 

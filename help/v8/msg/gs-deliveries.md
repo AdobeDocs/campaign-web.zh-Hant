@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 62887b8ba24163885ad0a42c790f3d4dc8f9499e
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 98%
@@ -98,7 +98,7 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[進一�
 
 * 新增&#x200B;**個人化優惠方案**
 
-  可根據收件者位置、目前的天氣或上次的採購訂單，在您的訊息內容中插入個人化優惠方案。[了解更多](../content/offers.md)
+  可根據收件者位置、目前的天氣或上次的採購訂單，在您的訊息內容中插入個人化優惠方案。[了解更多](../msg/offers.md)
 
 ## 預覽和測試您的傳遞 
 

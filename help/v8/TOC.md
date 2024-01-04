@@ -5,7 +5,7 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: 行銷活動概觀
 hide: true
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 86%
@@ -35,32 +35,32 @@ ht-degree: 86%
    + 電子郵件 {#email}
       + [建立您的第一個電子郵件](email/create-email.md)
       + 定義電子郵件內容 {#content}
-         + [設定電子郵件內容](content/edit-content.md)
-         + [使用內容範本](content/create-email-templates.md)
+         + [設定電子郵件內容](email/edit-content.md)
+         + [使用內容範本](email/create-email-templates.md)
          + 開始製作您的電子郵件{#start-design}
-            + [開始使用電子郵件設計工具](content/get-started-email-designer.md)
-            + [從頭開始](content/create-email-content.md)
-            + [匯入您的電子郵件內容](content/existing-content.md)
-            + [為自己的內容撰寫程式碼](content/code-content.md)
-            + [使用電子郵件內容範本](content/use-email-templates.md)
+            + [開始使用電子郵件設計工具](email/get-started-email-designer.md)
+            + [從頭開始](email/create-email-content.md)
+            + [匯入您的電子郵件內容](email/existing-content.md)
+            + [為自己的內容撰寫程式碼](email/code-content.md)
+            + [使用電子郵件內容範本](email/use-email-templates.md)
          + 設計內容 {#design-content}
-            + [使用內容元件](content/content-components.md)
-            + [新增連結和追蹤訊息](content/message-tracking.md)
-            + [新增鏡像頁面連結](content/mirror-page.md)
-            + [新增預覽文字](content/preheader.md)
-            + [產生文字版本](content/text-version-email.md)
-            + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](content/aem-assets.md)
+            + [使用內容元件](email/content-components.md)
+            + [新增連結和追蹤訊息](email/message-tracking.md)
+            + [新增鏡像頁面連結](email/mirror-page.md)
+            + [新增預覽文字](email/preheader.md)
+            + [產生文字版本](email/text-version-email.md)
+            + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](email/aem-assets.md)
          + 內容助理 {#content-assistant}
-            + [開始使用內容助理](content/generative-gs.md)
-            + [使用內容助理產生文字](content/generative-content.md)
-            + [使用內容助理產生影像](content/generative-image.md)
-            + [使用內容助理產生電子郵件](content/generative-email.md)
+            + [開始使用內容助理](email/generative-gs.md)
+            + [使用內容助理產生文字](email/generative-content.md)
+            + [使用內容助理產生影像](email/generative-image.md)
+            + [使用內容助理產生電子郵件](email/generative-email.md)
          + 建立內容樣式 {#style}
-            + [開始使用電子郵件樣式](content/get-started-email-style.md)
-            + [編輯背景設定](content/backgrounds.md)
-            + [調整垂直對齊方式和邊框間距](content/alignment-and-padding.md)
-            + [定義連結樣式](content/styling-links.md)
-            + [新增內嵌樣式屬性](content/inline-styling.md)
+            + [開始使用電子郵件樣式](email/get-started-email-style.md)
+            + [編輯背景設定](email/backgrounds.md)
+            + [調整垂直對齊方式和邊框間距](email/alignment-and-padding.md)
+            + [定義連結樣式](email/styling-links.md)
+            + [新增內嵌樣式屬性](email/inline-styling.md)
       + 傳送並監控電子郵件 {#monitor}
          + [準備並傳送電子郵件](monitor/prepare-send.md)
          + [監控傳遞記錄](monitor/delivery-logs.md)
@@ -80,8 +80,8 @@ ht-degree: 86%
       + [新增個人化](personalization/personalize.md)
       + [新增條件內容](personalization/conditions.md)
       + [新增內建的內容區塊](personalization/content-blocks.md)
-   + [將優惠新增至您的訊息](content/offers.md)
-   + [向您的訂閱者傳送訊息](content/send-to-subscribers.md)
+   + [將優惠新增至您的訊息](msg/offers.md)
+   + [向您的訂閱者傳送訊息](msg/send-to-subscribers.md)
    + 預覽和測試您的傳遞 {#preview-test}
       + [關於預覽和測試](preview-test/preview-test.md)
       + [預覽訊息內容。](preview-test/preview-content.md)

@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 25%
@@ -28,14 +28,14 @@ ht-degree: 25%
 * [型別](../advanced-settings/delivery-settings.md#typology)，
 * 寄件者地址，
 * 一個 [對象](../audience/about-recipients.md)，包括 [控制組](../audience/control-group.md)，
-* 自訂 [內容](../content/edit-content.md)，
+* 自訂 [內容](../email/edit-content.md)，
 * [個人化欄位](../personalization/personalize.md) 和 [條件式內容](../personalization/conditions.md)，
-* 連結至 [映象頁面](../content/mirror-page.md) 和取消訂閱 [連結](../content/message-tracking.md)，
+* 連結至 [映象頁面](../email/mirror-page.md) 和取消訂閱 [連結](../email/message-tracking.md)，
 * 其他傳遞屬性，例如資源有效性、重試參數或隔離設定。
 
 >[!NOTE]
 >
->傳遞範本與不同 [內容範本](../content/create-email-templates.md)，可讓您僅重複使用電子郵件的內容，並開始以提供的現成可用範例電子郵件範本之一建立內容。
+>傳遞範本與不同 [內容範本](../email/create-email-templates.md)，可讓您僅重複使用電子郵件的內容，並開始以提供的現成可用範例電子郵件範本之一建立內容。
 
 
 ## 存取並管理傳遞範本 {#access-manage-templates}

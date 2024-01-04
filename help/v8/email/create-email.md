@@ -4,7 +4,7 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 70%
@@ -24,7 +24,7 @@ ht-degree: 70%
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
-根據預先定義的 [設計範本](../content/create-email-templates.md)，該電子郵件也會根據客戶設定檔屬性提供個人化內容。
+根據預先定義的 [設計範本](../email/create-email-templates.md)，該電子郵件也會根據客戶設定檔屬性提供個人化內容。
 
 ## 建立電子郵件傳遞 {#create-email}
 
@@ -104,13 +104,13 @@ ht-degree: 70%
 
 若要開始建立您的電子郵件內容，請遵循下列步驟。 在此使用案例中，您會使用預先定義的電子郵件 [傳遞範本](../msg/delivery-template.md) 以設計您的電子郵件。<!--TBC delivery template or email content template?-->
 
-<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
+<!--Detailed instructions on how to configure the email content are available in [this section](../email/edit-content.md).-->
 
 1. 在電子郵件傳遞控制面板中，按一下 **[!UICONTROL 編輯內容]** 按鈕。
 
    ![](assets/email-edit-content.png)
 
-   這會將您帶到專用介面，您可以在其中設定電子郵件內容並存取電子郵件設計工具。 [了解更多](../content/edit-content.md)
+   這會將您帶到專用介面，您可以在其中設定電子郵件內容並存取電子郵件設計工具。 [了解更多](../email/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -120,11 +120,11 @@ ht-degree: 70%
 
 1. 若要設計電子郵件的內容，按一下「**[!UICONTROL 編輯電子郵件內文]**」按鈕。
 
-   選擇用於建立電子郵件內容的方法。在此範例中，使用 [預先定義的內容範本](../content/create-email-templates.md).
+   選擇用於建立電子郵件內容的方法。在此範例中，使用 [預先定義的內容範本](../email/create-email-templates.md).
 
    ![](assets/select-template.png)
 
-1. 選取範本後，它會顯示在 [電子郵件設計工具](../content/create-email-content.md)，您可在此進行任何必要的編輯並新增個人化。
+1. 選取範本後，它會顯示在 [電子郵件設計工具](../email/create-email-content.md)，您可在此進行任何必要的編輯並新增個人化。
 
    例如，若要為電子郵件標題新增個人化，請選取元件區塊，然後按一下「**[!UICONTROL 新增個人化]**」。
 

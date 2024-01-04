@@ -4,7 +4,7 @@ title: 測試電子郵件轉譯
 description: 了解如何在 Campaign Web UI 中測試您的電子郵件轉譯
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="有限可用性"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 8%
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 然後，請遵循以下步驟。
 
-1. 在 [編輯內容](../content/edit-content.md) 畫面或 [電子郵件設計工具](../content/get-started-email-designer.md)，按一下 **[!UICONTROL 模擬內容]** 按鈕。
+1. 在 [編輯內容](../email/edit-content.md) 畫面或 [電子郵件設計工具](../email/get-started-email-designer.md)，按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
 1. 選取 **[!UICONTROL 轉譯電子郵件]** 按鈕。
 

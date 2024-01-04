@@ -4,7 +4,7 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限可用性"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 67%
@@ -69,7 +69,7 @@ Adobe Campaign Web提供強大的查詢模型工具，可簡化篩選資料庫�
 使用新的 Campaign Web UI 可以：
 
 * 建立、設計、個人化、排程並傳送電子郵件、簡訊和推播通知 —  [瞭解更多](../msg/gs-messages.md)
-* 使用電子郵件設計工具設計個人化的電子郵件內容 - [了解更多](../content/edit-content.md)
+* 使用電子郵件設計工具設計個人化的電子郵件內容 - [了解更多](../email/edit-content.md)
 * 傳送跨管道的行銷活動，包括簡訊和推播通知 - [了解更多](../workflows/activities/channels.md)
 * 使用規則產生器定義目標對象 - [了解更多](../audience/about-recipients.md)
 * 預覽、測試和傳送您的訊息 - [了解更多](../monitor/prepare-send.md)
@@ -113,7 +113,7 @@ Adobe Campaign Web提供強大的查詢模型工具，可簡化篩選資料庫�
 
   告別手動內容建立，藉助 Gen AI 的力量開始高效率的資料導向行銷活動。我們的 Gen AI 技術利用先進的演算法&#x200B;**產生高度吸引人的個人化內容**。透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水準。
 
-  若要了解詳細資訊，請參閱[本章節](../content/generative-gs.md)。
+  若要了解詳細資訊，請參閱[本章節](../email/generative-gs.md)。
 
 
 * **AI支援的內容說明**
@@ -132,14 +132,14 @@ Adobe Campaign Web提供強大的查詢模型工具，可簡化篩選資料庫�
 
   您現在可以在 Campaign 的電子郵件編輯器中&#x200B;**匯入並轉換任何 HTML 內容**。內容區塊會自動識別，並可在電子郵件設計工具中使用：使用其強大的設計功能，進行更新和個人化！
 
-  若要了解詳細資訊，請參閱[本章節](../content/existing-content.md)。
+  若要了解詳細資訊，請參閱[本章節](../email/existing-content.md)。
 
 
 * **簡訊提供優惠**
 
   除了電子郵件，新的 Web UI 現在讓您能夠&#x200B;**與簡訊整合優惠**。透過行動裝置觸及對象，提供促銷訊息和及時通知。透過我們先進網路平台上的簡訊，利用整合優惠的威力提升您的行銷力度。
 
-  若要了解詳細資訊，請參閱[本章節](../content/offers.md)。
+  若要了解詳細資訊，請參閱[本章節](../msg/offers.md)。
 
 ## 轉換到 Campaign Web UI
 
