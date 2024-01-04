@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用全域報告
 description: 瞭解全域報告
 badge: label="可用性限制"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,13 @@ ht-degree: 0%
 
 # 開始使用全域報告 {#global-report-gs}
 
-全域報表提供所有管道的流量和參與度全面概覽，並提供各種小工具，為行銷活動和傳遞效能提供獨特的深入分析。
+此 **全域報告** 成為有效工具，為Campaign執行個體中的每個管道提供整合式整體流量和參與量度摘要。 這些報表包含各種Widget，各可提供行銷活動或傳遞績效的不同觀點。
+
+各管道的完整報表和相關量度清單可在下列頁面取得：
+
+* [以電子郵件傳送全域報告](global-report-email.md)
+* [SMS全域報告](global-report-email-sms.md)
+* [推播全域報告](global-report-push.md)
 
 ## 管理您的報告儀表板 {#manage-reports}
 
@@ -29,7 +35,7 @@ ht-degree: 0%
 
    ![](assets/global_report_manage_2.png)
 
-1. 按一下 **[!UICONTROL 新增規則]** 以開始建立查詢，進而更妥善地篩選報表資料。
+1. 按一下 **[!UICONTROL 新增規則]** 以開始建立查詢，進而更妥善地篩選報表資料。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
 
 1. 從 **[!UICONTROL URL和點按流量]**，您也可以選擇 **[!UICONTROL 最常造訪的連結]** 或 **[!UICONTROL 時段]**.
 

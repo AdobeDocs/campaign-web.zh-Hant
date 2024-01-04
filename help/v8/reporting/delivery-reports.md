@@ -4,10 +4,10 @@ title: 傳遞報告
 description: 了解如何存取和使用傳遞報告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="有限可用性"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 48%
+source-wordcount: '354'
+ht-degree: 32%
 
 ---
 
@@ -21,25 +21,35 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="匯出"
->abstract="按一下「**匯出**」按鈕將這些量度匯出為 PDF 或 CSV 格式，讓您可以分享或列印。 "
+>abstract="按一下「**匯出**」按鈕將這些量度匯出為 PDF 或 CSV 格式，讓您可以分享或列印。"
+
+此 **傳遞報告** 提供深入見解和資料，並專門關注您的 **傳遞** 橫跨每個管道。 這些報告會提供有關您的個別傳遞的績效、有效性和成果的詳細資訊，為您提供全方位的概觀。
+
+各管道的完整報表和相關量度清單可在下列頁面取得：
+
+* [以電子郵件傳送報告](email-report.md)
+* [簡訊傳遞報告](sms-report.md)
+* [推播傳遞報告](push-report.md)
+
+## 管理您的報告儀表板 {#manage-reports}
 
 Adobe Campaign 提供多種報告類型，每個傳遞均可存取。這些報告可讓您在內建儀表板測量和視覺化訊息的影響和效能。
 
-若要顯示報告，請依照以下步驟操作：
+若要顯示和管理報表，請遵循下列步驟：
 
 1. 若要產生特定傳遞的報告，請導覽至 **[!UICONTROL 傳遞]** 功能表，並選取您要報告的傳送。
 
 1. 從您的 **[!UICONTROL 傳遞]** 儀表板，按一下 **[!UICONTROL 報表]**.
 
-   ![](assets/reporting2.png)
+   ![](assets/manage_delivery_report_1.png)
 
-   或者，您可以使用三個點 **更多動作** 按鈕進行篩選，如下所示：
+   或者，您可以使用三個點 **更多動作** 按鈕，然後選取「 」 **[!UICONTROL 檢視報告]**.
 
-   ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
+   ![](assets/manage_delivery_report_2.png){width="50%" zoomable="yes"}
 
 1. 從左側選單，從清單選取報告。
 
-   ![](assets/reporting.png)
+   ![](assets/manage_delivery_report_3.png)
 
 1. 如果您的傳送是週期性的，請按一下「 」，選取要報告的特定傳送 **[!UICONTROL 選取傳遞]**.
 
@@ -47,8 +57,21 @@ Adobe Campaign 提供多種報告類型，每個傳遞均可存取。這些報�
 
    ![](assets/delivery-recurring.png)
 
-各管道的完整報表和相關量度清單可在下列頁面取得：
+1. 從 **[!UICONTROL URL和點按流量]**，您也可以選擇 **[!UICONTROL 最常造訪的連結]** 或 **[!UICONTROL 時段]**.
 
-* [以電子郵件傳送報告](email-report.md)
-* [簡訊傳遞報告](sms-report.md)
-* [推播傳遞報告](push-report.md)
+   此 **[!UICONTROL 檢視方式]** 選項可讓您篩選URL、標籤或類別。
+
+   ![](assets/manage_delivery_report_5.png)
+
+## 匯出您的報告 {#export-reports}
+
+您可以輕鬆地將不同的報表匯出為PDF或CSV格式，讓您能夠共用、操作或列印報表。
+
+1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL 匯出為PDF檔案]** 或 **[!UICONTROL 匯出為CSV檔案]**.
+
+   ![](assets/export_delivery_report.png)
+
+1. 找到您要儲存檔案的資料夾，視需要重新命名，然後按一下 **[!UICONTROL 儲存]**.
+
+您的報表現在可以在PDF或CSV檔案中檢視或共用。
+
