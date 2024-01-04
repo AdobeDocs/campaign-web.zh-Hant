@@ -4,10 +4,10 @@ title: 編輯電子郵件內容
 description: 了解如何在 Campaign Web UI 編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 46%
+ht-degree: 47%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 46%
 >id="acw_deliveries_email_options"
 >title="編輯追蹤"
 >abstract="預設會啟用傳遞追蹤，這表示系統會追蹤訊息內容中包含的所有連結。您可以從此處停用此選項。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/email/design-email/message-tracking.html" text="新增連結和追蹤訊息"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="新增連結和追蹤訊息"
 
 電子郵件 **[!UICONTROL 編輯內容]** 畫面可讓您：
 
