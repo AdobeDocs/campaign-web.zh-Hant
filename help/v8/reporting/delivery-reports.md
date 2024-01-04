@@ -4,7 +4,7 @@ title: 傳遞報告
 description: 了解如何存取和使用傳遞報告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="有限可用性"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 32%
@@ -45,7 +45,7 @@ Adobe Campaign 提供多種報告類型，每個傳遞均可存取。這些報�
 
    或者，您可以使用三個點 **更多動作** 按鈕，然後選取「 」 **[!UICONTROL 檢視報告]**.
 
-   ![](assets/manage_delivery_report_2.png){width="50%" zoomable="yes"}
+   ![](assets/manage_delivery_report_2.png)
 
 1. 從左側選單，從清單選取報告。
 
