@@ -3,7 +3,7 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 badge: label="有限可用性"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 3%
@@ -88,8 +88,6 @@ ht-degree: 3%
 
    ![](assets/query-custom-condition.png)
 
-
-
 #### 連結表格的自訂條件（1-1和1-N連結）{#links}
 
 自訂條件可讓您查詢連結至規則目前使用之表格的表格。 這包括具有1-1基數連結的表格，或集合表格（1-N連結）。
@@ -120,7 +118,7 @@ ht-degree: 3%
 
 1. 選取 **購買** 表格並確認。
 
-   ![](assets/1-n-collection.png)
+   ![](assets/1-N-collection.png)
 
 1. 會新增出站轉變，讓您建立子條件。
 
@@ -136,7 +134,7 @@ ht-degree: 3%
 
 +++
 
-#### 使用彙總資料 {#aggregate}**
+#### 使用彙總資料 {#aggregate}
 
 自訂條件可讓您執行彙總作業。 若要這麼做，您必須直接從集合表格中選取屬性：
 
