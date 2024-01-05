@@ -3,22 +3,28 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 badge: label="有限可用性"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 59%
+source-wordcount: '2008'
+ht-degree: 55%
 
 ---
 
 # 編輯運算式 {#expression}
 
-## 編輯運算式 {#edit}
+編輯運算式需要手動輸入條件以形成規則。 此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位、排序等。
 
-編輯運算式需要手動輸入條件以形成規則。 此模式可讓您使用進階功能。這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位、排序等。
+>[!IMPORTANT]
+>
+>下節提供如何使用運算式編輯器建立規則的資訊。 請記住，用來建置規則的語法與用來新增個人化的語法不同。
 
-這些操作可從查詢建模器使用 **[!UICONTROL 編輯運算式]** 按鈕，適用於 **[!UICONTROL 屬性]** 和 **[!UICONTROL 值]** 設定自訂條件時的欄位。
+## 使用運算式編輯器 {#edit}
 
-![](assets/edit-expression.png)
+查詢模組化工具提供運算式編輯器 **[!UICONTROL 編輯運算式]** 按鈕，適用於 **[!UICONTROL 屬性]** 和 **[!UICONTROL 值]** 設定自訂條件時的欄位。
+
+| 從存取 **屬性** 欄位 | 從存取 **值** 欄位 |
+|  ---  |  ---  |
+| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
 
 運算式編輯器提供：
 
@@ -29,6 +35,12 @@ ht-degree: 59%
 直接在輸入欄位中輸入運算式以編輯運算式。 若要新增欄位或協助程式函式，請將游標置於要新增的運算式中，然後按一下+按鈕。
 
 ![](assets/expression-editor.png)
+
+當運算式準備就緒時，按一下 **[!UICONTROL 確認]** 按鈕。 運算式會顯示在選取的欄位中。 若要編輯，請開啟運算式編輯器並進行所需的變更。
+
+以下範例顯示針對下列專案設定的運算式： **[!UICONTROL 值]** 欄位。 若要編輯它，您需要使用開啟運算式編輯器 **[!UICONTROL 編輯運算式]** 按鈕。
+
+![](assets/edit-expression-value.png)
 
 ## 協助程式功能
 
