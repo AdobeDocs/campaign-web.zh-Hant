@@ -3,7 +3,7 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 badge: label="有限可用性"
-source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
 source-wordcount: '1909'
 ht-degree: 59%
@@ -26,9 +26,9 @@ ht-degree: 59%
 * 可用清單 **欄位(2)** 可用於運算式中，且與查詢的目標維度對應的維度。
 * **輔助函式(3)**，依類別排序。
 
-![](assets/expression-editor.png)
-
 直接在輸入欄位中輸入運算式以編輯運算式。 若要新增欄位或協助程式函式，請將游標置於要新增的運算式中，然後按一下+按鈕。
+
+![](assets/expression-editor.png)
 
 ## 協助程式功能
 

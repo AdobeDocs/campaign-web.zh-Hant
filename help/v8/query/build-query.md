@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 badge: label="有限可用性"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 4%
+source-wordcount: '1634'
+ht-degree: 3%
 
 ---
 
@@ -170,6 +170,28 @@ ht-degree: 4%
 * **排除（排除）**：排除符合出站轉變中所有篩選元件的結果。
 
 ![](assets/query-operator-change.png)
+
+### 複製貼上篩選元件 {#copy}
+
+查詢建模器可讓您複製一個或多個篩選元件，並在轉變結束時貼上這些元件。 此操作可在目前查詢畫布內執行，或在您執行個體內的任何畫布中執行。
+
+>[!NOTE]
+>
+>只要您正在執行個體中工作，就會保留複製的選取範圍。 如果您登出並重新登入，您的選取範圍將無法再用於貼上。
+
+若要複製貼上篩選元件，請執行下列步驟：
+
+1. 在查詢畫布中按一下要複製的篩選元件，以選取該元件。 若要選取多個元件，請使用位於畫布右上角的工具列中可用的多重選取工具。
+
+1. 按一下 **[!UICONTROL 複製]** 按鈕位於元件的「屬性」窗格中，或熒幕底部的藍色功能區中（如果已選取多個元件）。
+
+   | 複製單一元件 | 複製多個元件 |
+   |  ---  |  ---  |
+   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+
+1. 若要貼上元件，請按一下所需轉變結尾的+按鈕，然後選取 **貼上專案**.
+
+![](assets/copy-paste.png)
 
 ## 檢查並驗證您的查詢
 
