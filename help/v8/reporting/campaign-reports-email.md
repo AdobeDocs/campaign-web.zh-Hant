@@ -4,7 +4,7 @@ title: 電子郵件頻道的行銷活動報告
 description: 進一步瞭解電子郵件頻道的行銷活動報告
 badge: label="有限可用性"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 21%
@@ -290,7 +290,7 @@ ht-degree: 21%
 
 此 **[!UICONTROL 使用者活動]** 報告會以圖表形式顯示開啟和點按的劃分。 此報表的量度詳情如下。
 
-![](assets/campaign_report_email_10.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 

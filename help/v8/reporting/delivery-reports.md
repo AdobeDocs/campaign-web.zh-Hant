@@ -4,10 +4,10 @@ title: 傳遞報告
 description: 了解如何存取和使用傳遞報告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="有限可用性"
-source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 32%
+source-wordcount: '260'
+ht-degree: 36%
 
 ---
 
@@ -17,11 +17,6 @@ ht-degree: 32%
 >id="acw_campaign_reporting_deliveries_selection"
 >title="傳遞的彙總報告"
 >abstract="選取至少兩個傳遞，以顯示彙總的資料報告。"
-
->[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="匯出"
->abstract="按一下「**匯出**」按鈕將這些量度匯出為 PDF 或 CSV 格式，讓您可以分享或列印。"
 
 此 **傳遞報告** 提供深入見解和資料，並專門關注您的 **傳遞** 橫跨每個管道。 這些報告會提供有關您的個別傳遞的績效、有效性和成果的詳細資訊，為您提供全方位的概觀。
 
@@ -62,16 +57,3 @@ Adobe Campaign 提供多種報告類型，每個傳遞均可存取。這些報�
    此 **[!UICONTROL 檢視方式]** 選項可讓您篩選URL、標籤或類別。
 
    ![](assets/manage_delivery_report_5.png)
-
-## 匯出您的報告 {#export-reports}
-
-您可以輕鬆地將不同的報表匯出為PDF或CSV格式，讓您能夠共用、操作或列印報表。
-
-1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL 匯出為PDF檔案]** 或 **[!UICONTROL 匯出為CSV檔案]**.
-
-   ![](assets/export_delivery_report.png)
-
-1. 找到您要儲存檔案的資料夾，視需要重新命名，然後按一下 **[!UICONTROL 儲存]**.
-
-您的報表現在可以在PDF或CSV檔案中檢視或共用。
-

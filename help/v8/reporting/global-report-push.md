@@ -3,7 +3,7 @@ audience: end-user
 title: 推播通道的全域報表
 description: 瞭解推播通道的全域報表
 badge: label="有限可用性"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 4%
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 ## 傳遞總處理能力 {#delivery-throughput-sms}
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_throughput.png)
 
 此報表提供指定時間範圍內傳送輸送量的完整詳細資料。
 

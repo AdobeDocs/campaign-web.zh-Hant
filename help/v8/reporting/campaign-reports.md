@@ -4,10 +4,10 @@ title: 行銷活動報告
 description: 瞭解如何存取及使用行銷活動報告
 badge: label="有限可用性"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 10%
+source-wordcount: '269'
+ht-degree: 13%
 
 ---
 
@@ -64,16 +64,3 @@ ht-degree: 10%
 1. 從 **[!UICONTROL URL和點按流量]**，您也可以選擇 **[!UICONTROL 最常造訪的連結]** 或 **[!UICONTROL 時段]**.
 
    此 **[!UICONTROL 檢視方式]** 選項可讓您篩選URL、標籤或類別。
-
-## 匯出您的報告 {#export-reports}
-
-您可以輕鬆地將不同的報表匯出為PDF或CSV格式，讓您能夠共用、操作或列印報表。
-
-1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL 匯出為PDF檔案]** 或 **[!UICONTROL 匯出為CSV檔案]**.
-
-   ![](assets/export_campaign_report.png)
-
-1. 找到您要儲存檔案的資料夾，視需要重新命名，然後按一下 **[!UICONTROL 儲存]**.
-
-您的報表現在可以在PDF或CSV檔案中檢視或共用。
-
