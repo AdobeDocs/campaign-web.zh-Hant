@@ -2,10 +2,10 @@
 title: 監視和管理設定檔
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
 badge: label="有限可用性"
-source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 8%
+source-wordcount: '901'
+ht-degree: 6%
 
 ---
 
@@ -24,17 +24,31 @@ ht-degree: 8%
 
 ## 開始使用設定檔 {#gs}
 
-Adobe Campaign Web中的設定檔是儲存在資料庫中的個人，可作為關鍵元件來建立傳遞的對象，並將個人化資料新增至您的內容。 各種型別的設定檔會儲存在資料庫中（例如測試設定檔），這些設定檔的設計目的是在傳送給最終對象之前測試您的傳送。 [瞭解如何使用測試設定檔](test-profiles.md)
+Adobe Campaign Web中的設定檔是儲存在資料庫中的個人，可作為關鍵元件來建立傳遞的對象，並將個人化資料新增至您的內容。
 
-設定檔只能從Campaign使用者端主控台新增。 不過，您可在Adobe Campaign Web上從以下位置存取： **設定檔** 左側導覽邊欄中的專案。 您也可以從以下位置存取它們： **瀏覽器** 檢視，您可在此瀏覽、建立檔案夾和子檔案夾，以及檢查關聯的許可權。
+其他型別的設定檔儲存在資料庫中，例如 **[!UICONTROL 測試設定檔]**，專門用於在傳送給最終對象前測試您的傳送。 [瞭解如何使用測試設定檔](test-profiles.md)
 
-您可以使用以下位置提供的搜尋欄位或篩選器來篩選設定檔清單： **顯示篩選器** 按鈕。
-
-![](assets/profiles-list.png)
+設定檔只能從Adobe Campaign使用者端主控台建立 —  [瞭解如何](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/create-profiles.html){target="_blank"}. 不過，您可以在Adobe Campaign Web的以下位置存取及編輯這些變數： **[!UICONTROL 客戶管理]** > **設定檔** 左側導覽邊欄中的專案。
 
 >[!NOTE]
 >
 >根據您的許可權，您可能無法存取儲存在資料庫中的完整設定檔清單。 若要了解權限的詳細資訊，請參閱[本章節](../get-started/permissions.md)。
+
+* 您可以篩選 **[!UICONTROL 設定檔]** 使用搜尋欄位或篩選器清單，該篩選器可從 **顯示篩選器** 按鈕。 您可以將結果限製為特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用以下專案新增規則： [查詢模型工具](../query/query-modeler-overview.md).
+
+  ![](assets/profiles-list.png)
+
+* 若要刪除設定檔，請從 **[!UICONTROL 更多動作]** 功能表。
+
+* 若要編輯設定檔，請從清單中按一下所需的專案。 [了解更多](#access)
+
+您也可以透過存取設定檔 **[!UICONTROL 瀏覽器]** 檢視，從 **[!UICONTROL 設定檔和目標]** > **[!UICONTROL 收件者]** 節點。
+
+您可以從中瀏覽、建立和管理檔案夾或子檔案夾，以及檢查關聯的許可權。 [瞭解如何建立資料夾](../get-started/permissions.md#folders)
+
+![](assets/profiles-explorer-folder.png)
+
+從 **[!UICONTROL 瀏覽器]** 檢視您也可以篩選、刪除和 [編輯](#access) 設定檔。
 
 ## 存取及編輯設定檔的屬性 {#access}
 
@@ -78,12 +92,36 @@ Adobe Campaign Web中的設定檔是儲存在資料庫中的個人，可作為�
 >title="收件者訂閱清單"
 >abstract="此標籤會列出設定檔訂閱的所有服務。"
 
-若要存取設定檔的詳細資訊，請在設定檔清單中按一下其名稱。
+若要存取設定檔的詳細資訊並加以編輯，請遵循下列步驟。
 
-![](assets/profiles-details.png)
+1. 瀏覽至 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]**.
 
-在此畫面中，您可以存取設定檔的詳細資訊：
+1. 從以下位置按一下所需的專案： **[!UICONTROL 設定檔]** 清單。
 
-* 此 **[!UICONTROL 詳細資料]** 索引標籤可讓您瀏覽設定檔的內建和自訂屬性。 若要編輯屬性，請在所需的欄位中進行變更，然後按一下 **[!UICONTROL 儲存]** 按鈕。
-* 此 **[!UICONTROL 訂閱]** 標籤提供有關設定檔訂閱之服務的資訊。 [瞭解如何使用訂閱服務](manage-services.md)
-* 此 **[!UICONTROL 記錄檔]** 位於畫面右上角的按鈕可讓您透過傳送、排除和追蹤記錄，以及顯示給設定檔的主張，檢視設定檔互動的歷史記錄。
+1. 您可以存取設定檔的詳細資訊。
+
+   ![](assets/profile-details.png)
+
+1. 此 **[!UICONTROL 詳細資料]** 索引標籤可讓您瀏覽設定檔的內建和自訂屬性。 若要編輯屬性，請在所需的欄位中進行變更，然後按一下 **[!UICONTROL 儲存]** 按鈕。
+
+   1. 依預設，設定檔儲存在 **[!UICONTROL 收件者]** 資料夾。 您可以瀏覽至所需的位置來變更它。 [瞭解如何使用資料夾](../get-started/permissions.md#folders)
+
+      ![](assets/profile-folder.png)
+
+   1. 在 **[!UICONTROL 連絡資訊]** 區段，您可以更新電子郵件地址和其他相關資料。 電子郵件地址會顯示在設定檔標籤後的方括弧之間。
+
+      ![](assets/profile-address.png)
+
+   1. 檢查 **[!UICONTROL 不再聯絡]** 並視需要更新。 選取這些選項中的任何一個時，設定檔都會列入封鎖清單。 例如，如果收件者按一下電子報中的取消訂閱連結，此資訊會新增至聯絡資料。 所選頻道上不再鎖定這類收件者。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+
+      ![](assets/profile-no-longer-contact.png)
+
+   1. 如果有 **[!UICONTROL 自訂欄位]**，您可以視需要更新其值。 自訂欄位是新增到的其他屬性 **[!UICONTROL 設定檔]** 透過Adobe Campaign主控台的結構描述。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
+
+      ![](assets/profile-custom-fields.png)
+
+1. 按一下 **[!UICONTROL 訂閱]** 索引標籤來存取有關設定檔訂閱之服務的資訊。 [瞭解如何使用訂閱服務](manage-services.md)
+
+1. 按一下 **[!UICONTROL 記錄檔]** 按鈕位於畫面的右上角，可透過傳送、排除和追蹤記錄來檢視設定檔的互動歷史記錄，以及呈現給設定檔的優惠。 [進一步瞭解傳遞記錄](../monitor/delivery-logs.md)
+
+   ![](assets/profile-logs.png)

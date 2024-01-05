@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="有限可用性"
-source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 3%
+source-wordcount: '516'
+ht-degree: 2%
 
 ---
 
@@ -35,15 +35,25 @@ ht-degree: 3%
 
 ![](assets/test-profile-list.png)
 
-您可以篩選特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用新增規則 [查詢模型工具](../query/query-modeler-overview.md).
+* 您可以篩選特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用新增規則 [查詢模型工具](../query/query-modeler-overview.md).
 
-![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png)
 
-若要編輯測試設定檔，請從清單中按一下所需的專案。
+* 您可以複製任何測試設定檔，並視需要加以編輯。
 
-若要刪除測試設定檔，請從 **[!UICONTROL 更多動作]** 功能表。
+* 若要刪除測試設定檔，請從 **[!UICONTROL 更多動作]** 功能表。
 
-![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png)
+
+* 若要編輯測試設定檔，請從清單中按一下所需的專案。
+
+您也可以透過存取測試設定檔 **[!UICONTROL 瀏覽器]** 檢視，從 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 節點。
+
+您可以從中瀏覽、建立和管理檔案夾或子檔案夾，以及檢查關聯的許可權。 [瞭解如何建立資料夾](../get-started/permissions.md#folders)
+
+![](assets/test-profiles-folders.png)
+
+從 **[!UICONTROL 瀏覽器]** 檢視您也可以篩選、刪除、編輯和 [建立](#create-test-profile) 測試設定檔。
 
 ## 建立測試設定檔 {#create-test-profile}
 
@@ -66,7 +76,7 @@ ht-degree: 3%
    >
    >此 **[!UICONTROL 標籤]** 欄位會自動填入您定義的名字和姓氏。
 
-1. 依預設，測試設定檔儲存在 **[!UICONTROL 種子地址]** 資料夾。 您可以瀏覽至所需的位置來變更它。 [了解更多](#seed-addresses-folders)
+1. 依預設，測試設定檔儲存在 **[!UICONTROL 種子地址]** 資料夾。 您可以瀏覽至所需的位置來變更它。 [瞭解如何使用資料夾](../get-started/permissions.md#folders)
 
    ![](assets/test-profile-folder.png)
 
@@ -78,7 +88,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    ![](assets/test-profile-address.png)
 
-1. 如果您選取 **[!UICONTROL 不再聯絡（透過任何管道）]** 核取方塊，設定檔位於封鎖清單上。 任何頻道（電子郵件、簡訊等）不再以這類收件者為目標。
+1. 如果您選取 **[!UICONTROL 不再聯絡（透過任何管道）]** 核取方塊，測試設定檔位於封鎖清單上。 任何頻道（電子郵件、簡訊等）不再以這類收件者為目標。
 
 1. 在 **[!UICONTROL 其他資料]** 標籤，輸入在資料管理工作流程中建立且您想要指派特定值的傳遞所使用的個人化資料。 [進一步瞭解工作流程](../workflows/gs-workflows.md)
 
@@ -92,16 +102,5 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
-## 管理種子地址資料夾 {#seed-addresses-folders}
-
-種子地址會儲存在Adobe Campaign階層的專用節點中： **[!UICONTROL 瀏覽器]** > **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]**.
-
-若要組織測試設定檔，您可以從「更多動作」下拉式清單中建立子資料夾。 [瞭解如何建立資料夾](../get-started/permissions.md#folders)
-
-![](assets/test-profile-sub-folders.png)
-
-您也可以從任何 **[!UICONTROL 種子地址]** 資料夾或子資料夾。 請以您從表格中執行操作的方式填入所有詳細資訊。 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 功能表。 [了解更多](#create-test-profile)
-
-若要編輯測試設定檔，請從 **[!UICONTROL 測試設定檔]** 標籤或儲存所在的資料夾中。
 
 
