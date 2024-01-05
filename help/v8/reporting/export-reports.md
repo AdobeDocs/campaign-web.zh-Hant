@@ -3,10 +3,10 @@ audience: end-user
 title: 匯出您的報告
 description: 瞭解如何匯出報告
 badge: label="可用性限制"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 20%
+source-wordcount: '107'
+ht-degree: 19%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="匯出"
+>title="匯出您的報告"
 >abstract="按一下「**匯出**」按鈕將這些量度匯出為 PDF 或 CSV 格式，讓您可以分享或列印。"
 
 您可以輕鬆地將不同的報表匯出為PDF或CSV格式，讓您能夠共用、操作或列印報表。
