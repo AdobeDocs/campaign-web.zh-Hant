@@ -2,14 +2,14 @@
 title: 監視和管理設定檔
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
 badge: label="有限可用性"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '900'
 ht-degree: 6%
 
 ---
 
-# 監視和管理設定檔 {#profiles}
+# 監視和編輯設定檔 {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
@@ -96,9 +96,7 @@ Adobe Campaign Web中的設定檔是儲存在資料庫中的個人，可作為�
 
 1. 瀏覽至 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]**.
 
-1. 從以下位置按一下所需的專案： **[!UICONTROL 設定檔]** 清單。
-
-1. 您可以存取設定檔的詳細資訊。
+1. 從以下位置按一下所需的專案： **[!UICONTROL 設定檔]** 清單。 設定檔的詳細資訊隨即顯示。
 
    ![](assets/profile-details.png)
 
