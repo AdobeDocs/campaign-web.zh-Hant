@@ -4,7 +4,7 @@ title: 使用電子郵件設計工具內容元件
 description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: f3295f2151c6c7d8a24bc2d7bc8bd48ebf071378
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 67%
@@ -157,7 +157,7 @@ ht-degree: 67%
 
 1. 按一下 **[!UICONTROL 瀏覽]** 以從資產中選擇影像檔案。 您也可以選擇 **[!UICONTROL 匯入您的媒體]**.
 
-   要瞭解有關如何在Adobe Experience Manager中上傳和新增資產的詳細資訊，請參閱 [Adobe Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/manage/add-assets.html).
+   要瞭解有關如何在Adobe Experience Manager中上傳和新增資產的詳細資訊，請參閱 [Adobe Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
 
    ![](assets/email_designer_28.png)
 

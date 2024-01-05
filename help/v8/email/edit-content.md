@@ -4,7 +4,7 @@ title: 編輯電子郵件內容
 description: 了解如何在 Campaign Web UI 編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
+source-git-commit: f3bb9f98a9f4c3e1b113b07aa868cd77b06588cb
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 47%
@@ -86,7 +86,7 @@ ht-degree: 47%
 
 1. 如果您想要透過電子郵件傳送優惠方案，請使用 **[!UICONTROL 設定優惠方案]** 按鈕。
 
-   然後您可以使用個人化欄位將它們插入到電子郵件中。[了解如何傳送優惠](offers.md)
+   然後您可以使用個人化欄位將它們插入到電子郵件中。[了解如何傳送優惠](../msg/offers.md)
 
 1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕，使用來建構及設計電子郵件內容 [電子郵件設計工具](get-started-email-designer.md#start-authoring). 以下章節提供如何設計電子郵件內容的詳細資訊：
 
