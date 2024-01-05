@@ -3,10 +3,10 @@ audience: end-user
 title: 在電子郵件設計工具新增預覽文字
 description: 了解如何設計您的電子郵件內容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="有限可用性"
+source-git-commit: ffca12b85a7de30e90b0554560a4245337b35e6b
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 47%
 
 ---
