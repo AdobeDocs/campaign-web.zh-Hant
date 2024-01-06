@@ -2,12 +2,12 @@
 audience: end-user
 title: 設計簡訊傳遞
 description: 了解如何設計您的簡訊傳遞
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 82%
+source-wordcount: '258'
+ht-degree: 79%
 
 ---
 
@@ -18,13 +18,10 @@ ht-degree: 82%
 >title="簡訊內容"
 >abstract="建立簡訊傳遞的內容，並使用個人化欄位、內容區塊和動態內容對其進行個人化設定。若要開始撰寫訊息，請按一下「**編輯內容**」按鈕。"
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
 >title="簡訊訊息內容"
 >abstract="定義簡訊內容。若要撰寫訊息，請按一下「**訊息**」欄位並輸入訊息內容。使用運算式編輯器來新增個人化資料和動態內容。您也可以自訂寄件者名稱。根據預設，所有簡訊傳遞都會啟用追蹤，以供您測量收件人點選連結的時機。"
-
 
 若要設計SMS傳送的內容，請遵循下列步驟：
 
@@ -41,6 +38,8 @@ ht-degree: 82%
    ![](assets/sms_content_2.png)
 
 1. 依預設，傳遞會啟用追蹤。您可以從&#x200B;**[!UICONTROL 選擇性功能區段]**」停用此選項。
+
+1. 按一下 **[!UICONTROL 設定]** 以存取與傳送範本相關的進階選項。 [了解更多](../advanced-settings/delivery-settings.md)
 
 1. 存取 **[!UICONTROL 模擬內容]** 功能表以預覽您的個人化內容。 [了解更多](send-sms.md#preview-sms)
 

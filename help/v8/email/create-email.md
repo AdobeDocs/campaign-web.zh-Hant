@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Beta"
-source-git-commit: 337f2f063e54e8b50446780a0ce89c529c8d743a
+badge: label="有限可用性"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1315'
 ht-degree: 70%
 
 ---
@@ -14,13 +14,10 @@ ht-degree: 70%
 
 # 傳送您的第一個電子郵件 {#first-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="開始使用電子郵件"
 >abstract="您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的環境中建立電子郵件。了解如何建立傳遞、選取對象以及設計電子郵件內容。"
-
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 

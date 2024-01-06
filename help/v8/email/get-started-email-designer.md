@@ -2,11 +2,11 @@
 audience: end-user
 title: 編輯電子郵件內容
 description: 了解如何使用 Campaign Web UI 中的電子郵件設計工具開始建置您的內容
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '426'
 ht-degree: 100%
 
 ---

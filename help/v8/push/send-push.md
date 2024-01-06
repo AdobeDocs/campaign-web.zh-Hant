@@ -2,10 +2,11 @@
 audience: end-user
 title: 傳送推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送推播通知傳遞
-badge: label="Beta"
-source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
+badge: label="有限可用性"
+exl-id: 16b3b33b-36db-4635-8e44-707694b859db
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---

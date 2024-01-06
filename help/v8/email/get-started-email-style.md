@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用電子郵件樣式
 description: 探索用來調整電子郵件內容樣式的不同方式
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="有限可用性"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 100%
 
 ---
