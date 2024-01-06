@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 badge: label="有限可用性"
-source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1860'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
 
   *訂閱「運動」電子報的收件者&#x200B;**和**住在紐約的人&#x200B;**或**舊金山*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){width="70%" align="center"}
 
 ## 新增篩選元件 {#filtering}
 
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 1. 在 **屬性** 欄位中，選取您要用來建立條件的資料庫屬性。 屬性清單包含Campaign資料庫中的所有屬性，包括連結表格的屬性。
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
 
    >[!NOTE]
    >
@@ -86,13 +86,13 @@ ht-degree: 3%
 
    *傳回21歲或以上所有設定檔的查詢範例：*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){width="70%" align="center"}
 
 #### 連結表格的自訂條件（1-1和1-N連結）{#links}
 
 自訂條件可讓您查詢連結至規則目前使用之表格的表格。 這包括具有1-1基數連結的表格，或集合表格（1-N連結）。
 
-針對 **1-1連結**，直接從目標表格中選取屬性。
+針對 **1-1連結**，導覽至連結的表格，選取所需的屬性並定義預期值。
 
 +++查詢範例
 
@@ -100,17 +100,15 @@ ht-degree: 3%
 
 1. 在 **品牌** 表格並選取 **標籤** 屬性。
 
-   ![](assets/1-1-attribute.png)
+   ![](assets/1-1-attribute.png){width="70%" align="center"}
 
 1. 定義屬性的預期值。
 
-   ![](assets/1-1-table.png)
+   ![](assets/1-1-table.png){width="70%" align="center"}
 
 +++
 
-針對 **1-N連結**，您可以定義子條件來縮小查詢。
-
-例如，您可以在設定檔購買中選取「存在」運運算元，以定位存在購買的所有設定檔。 完成後，在出站轉變上新增自訂條件，並建立符合您需求的篩選器。
+針對 **1-N連結**，您可以定義子條件來縮小查詢範圍，如下列範例所示。
 
 +++查詢範例
 
@@ -118,19 +116,19 @@ ht-degree: 3%
 
 1. 選取 **購買** 表格並確認。
 
-   ![](assets/1-N-collection.png)
+   ![](assets/1-N-collection.png){width="70%" align="center"}
 
 1. 會新增出站轉變，讓您建立子條件。
 
-   ![](assets/1-n-subcondition.png)
+   ![](assets/1-n-subcondition.png){width="70%" align="center"}
 
 1. 選取 **價格** 1000$或以上的屬性和目標購買
 
-   ![](assets/1-n-price.png)
+   ![](assets/1-n-price.png){width="70%" align="center"}
 
 1. 新增子條件以符合您的需求。 我們在此處新增條件，以定位購買BrewMaster產品的設定檔。
 
-   ![](assets/custom-condition-1-N.png)
+   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
 
 +++
 
@@ -140,11 +138,11 @@ ht-degree: 3%
 
 1. 在所需的集合表格內導覽，並選取您要執行彙總作業的屬性。
 
-   ![](assets/aggregate-attribute.png)
+   ![](assets/aggregate-attribute.png){width="70%" align="center"}
 
 1. 在屬性窗格中，切換 **彙總資料** 選項並選取所需的彙總函式。
 
-   ![](assets/aggregate.png)
+   ![](assets/aggregate.png){width="70%" align="center"}
 
 ### 選取對象
 
@@ -178,7 +176,7 @@ ht-degree: 3%
 
    *查詢範例傳回與「非作用中客戶」預先定義篩選器對應的所有設定檔：*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){width="70%" align="center"}
 
 ### 複製貼上元件 {#copy}
 
@@ -200,7 +198,7 @@ ht-degree: 3%
 
 1. 若要貼上元件，請按一下所需轉變結尾的+按鈕，然後選取 **貼上專案**.
 
-![](assets/copy-paste.png)
+![](assets/copy-paste.png){width="70%" align="center"}
 
 ## 將篩選元件與運算子結合 {#operators}
 
@@ -213,7 +211,7 @@ ht-degree: 3%
 
 在此範例中，我們在第二個轉變中新增了對象型別的篩選元件。 元件會連結至預先定義的篩選型別條件，並具有 **和** 運運算元，表示查詢結果包含以「Madridians」預先定義篩選器為目標的收件者，以及屬於「折扣獵手」對象的收件者。
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){width="70%" align="center"}
 
 若要變更用來將篩選條件連結在一起的運運算元，請按一下運運算元，然後在 **群組** 在右側開啟的窗格。
 
@@ -223,13 +221,13 @@ ht-degree: 3%
 * **OR （聯集）**：包含符合出站轉變中至少一個篩選元件的結果。
 * **排除（排除）**：排除符合出站轉變中所有篩選元件的結果。
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){width="70%" align="center"}
 
 此外，您可以按一下 **+** 按鈕來切換內容。 這可讓您在此特定位置新增運運算元，以將多個元件分組在一起，並調整查詢。
 
 在以下範例中，我們已建立中繼群組以包含「VIP to reward」或「Super VIP」受眾的結果。
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){width="70%" align="center"}
 
 ## 檢查並驗證您的查詢
 

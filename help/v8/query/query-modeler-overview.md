@@ -3,7 +3,7 @@ audience: end-user
 title: 使用查詢建模工具
 description: 瞭解如何使用Adobe Campaign Web查詢建模工具。
 badge: label="有限可用性"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 32%
@@ -50,7 +50,7 @@ Adobe Campaign Web 具有查詢建模工具，可簡化篩選資料庫的流程�
 
 查詢模型工具會提供一個中央畫布，您可在其中建立查詢，以及一個右窗格，提供查詢的相關資訊。
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){width="70%" align="center"}
 
 ### 中央畫布 {#canvas}
 
