@@ -2,8 +2,10 @@
 audience: end-user
 title: 查詢範例
 description: 瞭解如何使用規則產生器。
+hide: true
+hidefromtoc: true
 badge: label="有限可用性"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: e555a6aabab6a20a5b3f3ddecf9d63d49292d55a
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 3%
