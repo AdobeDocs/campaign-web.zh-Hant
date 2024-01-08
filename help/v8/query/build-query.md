@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 badge: label="有限可用性"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1858'
 ht-degree: 3%
 
 ---
@@ -18,27 +18,23 @@ ht-degree: 3%
 
 * **篩選元件** （自訂條件、選取對象、預先定義的篩選器）可讓您建立自己的規則、選取對象或預先定義的篩選器，以縮小查詢範圍。 [瞭解如何使用篩選元件](#filtering)
 
-  例如：
-
   *訂閱體育電子報的收件者*. *住在紐約的收件者*， *住在舊金山的收件者*
 
 * **群組操作者** (AND、OR、EXCEPT)可讓您將圖表中的篩選元件群組在一起，以符合您的需求。 [瞭解如何使用操作者](#filtering)
 
-  例如：
-
   *訂閱「運動」電子報的收件者&#x200B;**和**住在紐約的人&#x200B;**或**舊金山*.
 
-![](assets/query-add-component.png){width="70%" align="center"}
+![](assets/query-add-component.png)
 
 ## 新增篩選元件 {#filtering}
 
 篩選元件可讓您使用下列專案來縮小查詢範圍：
 
-* **自訂條件**：使用資料庫和進階運算式的屬性來建立您自己的條件，以篩選您的查詢。
-* **受眾**：使用現有對象篩選查詢。
-* **預先定義的篩選器**：使用現有的預先定義篩選器來篩選查詢。
+* **[自訂條件](#custom-condition)**：使用資料庫和進階運算式的屬性來建立您自己的條件，以篩選您的查詢。
+* **[受眾](#audiences)**：使用現有對象篩選查詢。
+* **[預先定義的篩選器](#predefined-filters)**：使用現有的預先定義篩選器來篩選查詢。
 
-### 設定自訂條件
+### 設定自訂條件 {#custom-condition}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
@@ -51,7 +47,7 @@ ht-degree: 3%
 
 1. 在 **屬性** 欄位中，選取您要用來建立條件的資料庫屬性。 屬性清單包含Campaign資料庫中的所有屬性，包括連結表格的屬性。
 
-   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
+   ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
@@ -86,7 +82,7 @@ ht-degree: 3%
 
    *傳回21歲或以上所有設定檔的查詢範例：*
 
-   ![](assets/query-custom-condition.png){width="70%" align="center"}
+   ![](assets/query-custom-condition.png)
 
 #### 連結表格的自訂條件（1-1和1-N連結）{#links}
 
@@ -100,11 +96,11 @@ ht-degree: 3%
 
 1. 在 **品牌** 表格並選取 **標籤** 屬性。
 
-   ![](assets/1-1-attribute.png){width="70%" align="center"}
+   ![](assets/1-1-attribute.png){width="85%" align="center"}
 
 1. 定義屬性的預期值。
 
-   ![](assets/1-1-table.png){width="70%" align="center"}
+   ![](assets/1-1-table.png){width="85%" align="center"}
 
 +++
 
@@ -116,19 +112,19 @@ ht-degree: 3%
 
 1. 選取 **購買** 表格並確認。
 
-   ![](assets/1-N-collection.png){width="70%" align="center"}
+   ![](assets/1-N-collection.png){width="50%" align="center"}
 
 1. 會新增出站轉變，讓您建立子條件。
 
-   ![](assets/1-n-subcondition.png){width="70%" align="center"}
+   ![](assets/1-n-subcondition.png){width="85%" align="center"}
 
 1. 選取 **價格** 1000$或以上的屬性和目標購買
 
-   ![](assets/1-n-price.png){width="70%" align="center"}
+   ![](assets/1-n-price.png){width="85%" align="center"}
 
 1. 新增子條件以符合您的需求。 我們在此處新增條件，以定位購買BrewMaster產品的設定檔。
 
-   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
+   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
 
 +++
 
@@ -138,13 +134,13 @@ ht-degree: 3%
 
 1. 在所需的集合表格內導覽，並選取您要執行彙總作業的屬性。
 
-   ![](assets/aggregate-attribute.png){width="70%" align="center"}
+   ![](assets/aggregate-attribute.png){width="85%" align="center"}
 
 1. 在屬性窗格中，切換 **彙總資料** 選項並選取所需的彙總函式。
 
-   ![](assets/aggregate.png){width="70%" align="center"}
+   ![](assets/aggregate.png){width="85%" align="center"}
 
-### 選取對象
+### 選取對象 {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
@@ -161,7 +157,7 @@ ht-degree: 3%
 
    ![](assets/query-audience.png)
 
-### 使用預先定義的篩選器
+### 使用預先定義的篩選器 {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
@@ -176,7 +172,7 @@ ht-degree: 3%
 
    *查詢範例傳回與「非作用中客戶」預先定義篩選器對應的所有設定檔：*
 
-   ![](assets/query-predefined-filter.png){width="70%" align="center"}
+   ![](assets/query-predefined-filter.png)
 
 ### 複製貼上元件 {#copy}
 
@@ -198,7 +194,7 @@ ht-degree: 3%
 
 1. 若要貼上元件，請按一下所需轉變結尾的+按鈕，然後選取 **貼上專案**.
 
-![](assets/copy-paste.png){width="70%" align="center"}
+   ![](assets/copy-paste.png)
 
 ## 將篩選元件與運算子結合 {#operators}
 
@@ -211,7 +207,7 @@ ht-degree: 3%
 
 在此範例中，我們在第二個轉變中新增了對象型別的篩選元件。 元件會連結至預先定義的篩選型別條件，並具有 **和** 運運算元，表示查詢結果包含以「Madridians」預先定義篩選器為目標的收件者，以及屬於「折扣獵手」對象的收件者。
 
-![](assets/query-operator.png){width="70%" align="center"}
+![](assets/query-operator.png)
 
 若要變更用來將篩選條件連結在一起的運運算元，請按一下運運算元，然後在 **群組** 在右側開啟的窗格。
 
@@ -221,13 +217,13 @@ ht-degree: 3%
 * **OR （聯集）**：包含符合出站轉變中至少一個篩選元件的結果。
 * **排除（排除）**：排除符合出站轉變中所有篩選元件的結果。
 
-![](assets/query-operator-change.png){width="70%" align="center"}
+![](assets/query-operator-change.png)
 
 此外，您可以按一下 **+** 按鈕來切換內容。 這可讓您在此特定位置新增運運算元，以將多個元件分組在一起，並調整查詢。
 
 在以下範例中，我們已建立中繼群組以包含「VIP to reward」或「Super VIP」受眾的結果。
 
-![](assets/query-intermediate-group.png){width="70%" align="center"}
+![](assets/query-intermediate-group.png)
 
 ## 檢查並驗證您的查詢
 
@@ -250,3 +246,5 @@ ht-degree: 3%
 當您的查詢準備就緒時，按一下 **[!UICONTROL 確認]** 按鈕來儲存。
 
 您可以隨時透過開啟查詢來修改查詢。 請記住，開啟現有查詢時，它會以簡化檢視顯示，而不會顯示  **+** 按鈕。 若要新增元素至查詢，請在畫布上選取元件或運運算元以顯示 **+** 按鈕。
+
+![](assets/edit-audience.png)

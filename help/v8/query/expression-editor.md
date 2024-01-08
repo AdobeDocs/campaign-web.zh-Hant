@@ -3,7 +3,7 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 badge: label="有限可用性"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 55%
@@ -34,13 +34,13 @@ ht-degree: 55%
 
 直接在輸入欄位中輸入運算式以編輯運算式。 若要新增欄位或協助程式函式，請將游標置於要新增的運算式中，然後按一下+按鈕。
 
-![](assets/expression-editor.png){width="70%" align="center"}
+![](assets/expression-editor.png)
 
 當運算式準備就緒時，按一下 **[!UICONTROL 確認]** 按鈕。 運算式會顯示在選取的欄位中。 若要編輯，請開啟運算式編輯器並進行所需的變更。
 
 以下範例顯示針對下列專案設定的運算式： **[!UICONTROL 值]** 欄位。 若要編輯它，您需要使用開啟運算式編輯器 **[!UICONTROL 編輯運算式]** 按鈕。
 
-![](assets/edit-expression-value.png){width="70%" align="center"}
+![](assets/edit-expression-value.png)
 
 ## 協助程式功能
 
