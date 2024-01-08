@@ -5,7 +5,7 @@ description: 了解如何開始使用工作流程
 badge: label="Beta"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
 ht-degree: 100%
 
