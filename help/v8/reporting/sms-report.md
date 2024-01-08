@@ -4,10 +4,10 @@ title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
 badge: label="有限可用性"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 45%
+ht-degree: 42%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 45%
 
 ## 傳遞摘要 {#delivery-summary}
 
+### 傳遞概觀 {#sms-delivery-overview}
+
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS 傳遞概觀"
 >abstract="**SMS 傳遞概觀** 呈現 SMS 傳遞的全面概觀，提供廣泛的深入見解和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
-
-### 傳遞概觀 {#sms-delivery-overview}
 
 此 **[!UICONTROL 傳遞概覽]** 報告提供關鍵績效指標(KPI)，以提供有關成功和錯誤率，以及訪客如何與您的SMS訊息互動的詳細資訊。
 
@@ -45,9 +45,7 @@ ht-degree: 45%
 
 +++
 
-
 ### 目標族群 {#sms-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
@@ -67,7 +65,6 @@ ht-degree: 45%
 
 
 ### 整體統計資料 {#sms-delivery-overall}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
@@ -89,12 +86,10 @@ ht-degree: 45%
 
 ### 排除 {#sms-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="SMS 排除項目"
 >abstract="**排除**&#x200B;圖表和資料表顯示各種理由，禁止從目標設定檔中排除的使用者設定檔接收訊息。"
-
 
 此 **[!UICONTROL 排除專案]** 圖形和表格會顯示使用者設定檔（從目標設定檔排除）無法接收訊息的原因。 有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
@@ -105,7 +100,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="SMS 傳遞輸送量"
->abstract="**傳遞輸送量**&#x200B;報告提供有關特定期間內傳遞輸送量的詳細資訊。用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。"
+>abstract="此 **傳遞總處理能力** 報表會顯示指定時間範圍內傳送輸送量的詳細資訊。 用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。"
 
 此報表提供指定時間範圍內傳送輸送量的詳細資訊。 用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。
 

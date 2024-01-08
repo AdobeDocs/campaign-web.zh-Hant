@@ -3,9 +3,9 @@ audience: end-user
 title: 簡訊通道的全域報告
 description: 瞭解SMS頻道的全域報告
 badge: label="有限可用性"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
@@ -19,6 +19,11 @@ ht-degree: 4%
 ## 傳遞摘要 {#delivery-summary-sms}
 
 ### 傳遞概觀 {#delivery-overview-sms}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_global_report_overview"
+>title="SMS 傳遞概觀"
+>abstract="此 **簡訊傳送概覽** KPI會提供SMS傳送的完整摘要、詳細深入分析和特定資料。 它提供關於您傳送之效能、效益和結果的全面資訊。"
 
 此 **[!UICONTROL 傳遞概覽]** 報告提供全面的關鍵績效指標(KPI)，深入分析訪客與每個SMS傳送的互動模式。 以下為下列量度。
 
@@ -38,6 +43,11 @@ ht-degree: 4%
 
 ### 目標對象 {#delivery-summary-sms-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_targeted_audience"
+>title="SMS 目標族群"
+>abstract="的圖表和表格 **目標人口** 呈現與您的SMS對象相關的資料，包括要傳送的訊息和排除專案的資訊。"
+
 此 **[!UICONTROL 目標對象]** 表格和圖表會顯示每個已傳送SMS傳遞的收件者相關資料。 量度詳情如下。
 
 ![](assets/global_report_sms_targeted_audience.png)
@@ -53,6 +63,11 @@ ht-degree: 4%
 +++
 
 ### 傳遞統計資料 {#delivery-summary-sms-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_delivery_stats"
+>title="簡訊傳遞統計資料"
+>abstract="此 **傳遞統計資料** 報告提供所傳送SMS的完整深入分析，並提供各種量度的劃分，例如成功率、錯誤發生次數和隔離的受眾。 此詳細簡報可讓您徹底檢查SMS傳送程式的整體效能和結果。"
 
 此 **[!UICONTROL 傳遞統計資料]** 表格詳細說明您每次SMS傳送的成功情況。 量度詳情如下。
 
@@ -74,6 +89,11 @@ ht-degree: 4%
 
 ### 排除的原因 {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_exclusions"
+>title="SMS排除原因"
+>abstract="此 **排除的原因** 圖表和表格說明阻止使用者設定檔接收SMS訊息的各種原因。"
+
 此 **[!UICONTROL 排除的原因]** 圖形和表格會顯示從目標設定檔排除的使用者設定檔無法接收簡訊傳送的原因。
 
 錯誤型別會列於 [Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
@@ -82,6 +102,11 @@ ht-degree: 4%
 
 ## 傳遞總處理能力 {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_sms"
+>title="SMS 傳遞輸送量"
+>abstract="此 **傳遞總處理能力** 報表提供有關SMS訊息傳送系統效率的廣泛深入分析，呈現指定時間範圍內成功和錯誤率的詳細概觀。"
+
 ![](assets/global_report_sms_delivery_throughput.png)
 
-此報表提供指定時間範圍內傳送輸送量的完整詳細資料。
+此 **[!UICONTROL 傳遞總處理能力]** 報告提供SMS訊息傳送系統效能的全面深入分析，提供指定期間成功和錯誤率的詳細摘要。

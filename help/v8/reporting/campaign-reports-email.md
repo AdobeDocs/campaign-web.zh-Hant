@@ -4,7 +4,7 @@ title: 電子郵件頻道的行銷活動報告
 description: 進一步瞭解電子郵件頻道的行銷活動報告
 badge: label="有限可用性"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 21%
@@ -47,7 +47,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="初始目標對象統計資料"
->abstract="初始目標對象統計資料表可顯示與您收件者相關的資料"
+>abstract="初始目標對象統計資料表格會顯示與收件者相關的資料。"
 
 此 **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料。 量度詳情如下。
 

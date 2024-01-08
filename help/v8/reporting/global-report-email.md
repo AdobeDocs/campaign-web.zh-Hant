@@ -3,10 +3,10 @@ audience: end-user
 title: 電子郵件通道的全域報告
 description: 進一步瞭解電子郵件通道的全域報告
 badge: label="有限可用性"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 4%
+source-wordcount: '1594'
+ht-degree: 6%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 4%
 ## 傳遞摘要 {#delivery-summary-email}
 
 ### 傳遞概觀 {#delivery-overview-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_deliveries_overview_email"
+>title="傳遞概觀"
+>abstract="此 **傳遞概覽** 主要績效指標(KPI)可讓您深入瞭解對象如何與您傳送的電子郵件傳遞和行銷活動互動。"
 
 此 **[!UICONTROL 傳遞概覽]** 提供關鍵績效量度(KPI)，提供訪客與每個電子郵件傳送互動的深入分析。 量度概述如下。
 
@@ -41,6 +46,11 @@ ht-degree: 4%
 
 ### 目標對象 {#delivery-summary-email-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_email"
+>title="初始目標對象統計資料"
+>abstract="此 **目標對象** 表格和圖表提供收件者參與度的深入分析，可幫助您評估行銷活動和傳送的成效。"
+
 的表格和圖表 **[!UICONTROL 目標對象]** 顯示與收件者相關的資料，下文提供詳細量度。
 
 ![](assets/global_report_email_targeted_audience.png){align="center"}
@@ -55,7 +65,12 @@ ht-degree: 4%
 
 +++
 
-### 傳遞統計資料 {#delivery-summary-email-exec-stats}
+### 傳遞統計資料 {#delivery-summary-email-delivery-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_email_delivery_stats"
+>title="傳遞統計資料"
+>abstract="此 **傳遞統計資料** 圖表和表格會概述關鍵量度，包括成功的傳送、錯誤和新隔離，提供評估傳送績效的簡要概覽。"
 
 此 **[!UICONTROL 傳遞統計資料]** 表格提供每個電子郵件傳送成功的明細，明細量度概述如下。
 
@@ -75,6 +90,11 @@ ht-degree: 4%
 
 ### 排除的原因 {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_exclusion_email"
+>title="排除的原因"
+>abstract="此 **排除的原因** 圖表和表格會說明傳送準備期間訊息拒絕的特定原因，並提供依規則的詳細劃分。"
+
 ![](assets/global_report_email_exclusions.png){align="center"}
 
 排除專案圖表和表格說明了從目標設定檔排除的使用者設定檔無法接收訊息的原因。
@@ -83,13 +103,31 @@ ht-degree: 4%
 
 ## 傳遞總處理能力 {#delivery-throughput}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_email"
+>title="傳遞總處理能力"
+>abstract="這個 **傳遞總處理能力** 提供傳送輸送量的全面分析，強調指定時間範圍內的成功和錯誤率。"
+
 ![](assets/global_report_email_delivery_throughput.png){align="center"}
 
-此報表提供指定時間範圍內傳送輸送量的完整詳細資料。
+「傳送輸送量」報表提供傳送流程效率的深入分析，詳細說明指定時間範圍內的成功和錯誤率。
+
++++進一步瞭解傳送輸送量量度。
+
+* **[!UICONTROL 成功]**：成功處理的訊息數與要傳送的訊息數相關。
+
+* **[!UICONTROL 錯誤]**：與要傳送的訊息數量相關的傳送和自動復原處理期間累計的錯誤總數。
+
++++
 
 ## 無法傳遞的項目 {#non-deliverables-email}
 
 ### 依類型的錯誤劃分 {#delivery-summary-email-breakdown-per-type}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_error_type_email"
+>title="依類型的錯誤劃分"
+>abstract="詳述下列專案的表格和圖表： **每種型別的錯誤劃分** 包含處理程式期間遇到的各種錯誤型別相關資訊，包括使用者不明、信箱已滿、無效網域等。"
 
 ![](assets/global_report_email_breakdown_type.png){align="center"}
 
@@ -117,6 +155,11 @@ ht-degree: 4%
 
 ### 依網域的錯誤劃分 {#delivery-summary-email-breakdown-per-domain}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_error_domain_email"
+>title="依網域的錯誤劃分"
+>abstract="此表格和圖表說明 **每個網域的錯誤劃分** 顯示對應每個所遇到錯誤型別的資料，依特定網域分類。"
+
 ![](assets/global_report_email_breakdown_domain.png){align="center"}
 
 此 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖表會顯示與每個網域中潛在錯誤相關的資料。 量度與以下專案通用 **[!UICONTROL 每種型別的錯誤劃分]** 表格和圖表詳見上文。
@@ -124,6 +167,11 @@ ht-degree: 4%
 ## 追蹤指標 {#tracking-indicators-email}
 
 ### 傳遞統計資料 {#delivery-summary-email-statistics}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_delivery_statistics_summary_email"
+>title="傳遞統計資料"
+>abstract="此 **傳遞統計資料** 關鍵績效指標(KPI)提供您傳送和行銷活動績效的完整總覽，提供成功傳送、遇到的錯誤和使用者參與的深入分析。"
 
 此 **[!UICONTROL 傳遞統計資料]** 量度提供關鍵績效指標(KPI)，提供關於每個電子郵件傳送之相關資料的詳細資訊。 這些量度的進一步詳細資訊如下。
 
@@ -148,6 +196,11 @@ ht-degree: 4%
 
 ### 開啟及點進率 {#delivery-summary-open-rate}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_open_clickthrough_email"
+>title="開啟及點進率"
+>abstract="的表格 **開啟率和點進率** 顯示收件者與您的傳送互動的情況，展示開啟率和點進率的資料，以便快速獲得深入分析的概覽。"
+
 此 **[!UICONTROL 開啟及點進率]** 表格會顯示與收件者相關的資料。 量度詳情如下。
 
 ![](assets/global_report_email_opens.png){align="center"}
@@ -169,6 +222,11 @@ ht-degree: 4%
 
 ### URL和點按資料流KPI {#url-email-kpis}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_urls_clickstreams_email"
+>title="URL 和點擊流量"
+>abstract="此 **URL和點按流量** 報告提供重要的關鍵績效指標(KPI)，提供傳送期間點選次數最多的URL的詳細深入分析。"
+
 此 **[!UICONTROL URL和點按流量]** 報告提供關鍵績效指標(KPI)，用於針對傳送期間收到最多點按次數的URL提供詳細分析。 量度詳情如下。
 
 ![](assets/campaign_report_email_9.png){align="center"}
@@ -184,7 +242,12 @@ ht-degree: 4%
 * **[!UICONTROL 平台平均值]** ：此平均比率顯示在每個比率（反應性、不同點按和累計點按）下，是針對過去六個月傳送的傳送進行計算。 系統只會考慮具有相同型別和相同通道的傳送。 校訂已排除。
 +++
 
-### 造訪量最高的前 10 個連結 {#top10-campaign-report-email}
+### 造訪量最高的前 10 個連結 {#top10-global-report-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_top10_email"
+>title="造訪量最高的前 10 個連結"
+>abstract="此 **前10個最常造訪的連結**  圖表和表格會顯示收件者與每個連結互動的完整資料。"
 
 此 **[!UICONTROL 前10個最常造訪的連結]** 圖表和表格包含每個連結的收件者行為可用資料。 量度詳情如下。
 
@@ -198,13 +261,23 @@ ht-degree: 4%
 
 +++
 
-### 特定期間的點按劃分 {#campaign-report-email-breakdown-clicks}
+### 特定期間的點按劃分 {#global-report-email-breakdown-clicks}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_urls_click_breakdown_email"
+>title="特定期間的點按劃分"
+>abstract="此 **一段時間內點按的劃分** 圖表可全面檢視收件者在整個指定時間範圍內如何使用連結互動。"
 
 此 **[!UICONTROL 一段時間內點按的劃分]** 圖表包含每個連結的收件者行為可用資料。
 
 ![](assets/global_report_email_breakdown_clicks.png){align="center"}
 
 ## 使用者活動 {#user-activities-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_user_activities_email"
+>title="使用者活動"
+>abstract="的圖形表示 **使用者活動** 提供收件者互動的詳細劃分，透過資訊性圖表格式來描繪開啟和點按。"
 
 此 **[!UICONTROL 使用者活動]** 報告會以圖表形式顯示開啟和點按的劃分。 此報表的量度詳情如下。
 
