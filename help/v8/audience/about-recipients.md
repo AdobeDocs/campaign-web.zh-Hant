@@ -2,9 +2,9 @@
 title: 監視和管理設定檔
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
 badge: label="有限可用性"
-source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '899'
 ht-degree: 6%
 
 ---
@@ -24,19 +24,19 @@ ht-degree: 6%
 
 ## 開始使用設定檔 {#gs}
 
-Adobe Campaign Web中的設定檔是儲存在資料庫中的個人，可作為關鍵元件來建立傳遞的對象，並將個人化資料新增至您的內容。
+Adobe Campaign Web中的設定檔是儲存在資料庫中的個人，可作為的關鍵元件 [建立對象](create-audience.md) 用於傳遞和 [新增個人化](../personalization/personalize.md) 資料放入您的內容。
 
-其他型別的設定檔儲存在資料庫中，例如 **[!UICONTROL 測試設定檔]**，專門用於在傳送給最終對象前測試您的傳送。 [瞭解如何使用測試設定檔](test-profiles.md)
+其他型別的設定檔儲存在資料庫中，例如 **[!UICONTROL 測試設定檔]**，專門用於在傳送給最終對象前測試您的傳送。 [了解更多](test-profiles.md)
 
 設定檔只能從Adobe Campaign使用者端主控台建立 —  [瞭解如何](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/create-profiles.html){target="_blank"}. 不過，您可以在Adobe Campaign Web的以下位置存取及編輯這些變數： **[!UICONTROL 客戶管理]** > **設定檔** 左側導覽邊欄中的專案。
 
 >[!NOTE]
 >
->根據您的許可權，您可能無法存取儲存在資料庫中的完整設定檔清單。 若要了解權限的詳細資訊，請參閱[本章節](../get-started/permissions.md)。
+>根據您的許可權，您可能無法存取儲存在資料庫中的完整設定檔清單。 [進一步瞭解許可權](../get-started/permissions.md).
 
 * 您可以篩選 **[!UICONTROL 設定檔]** 使用搜尋欄位或篩選器清單，該篩選器可從 **顯示篩選器** 按鈕。 您可以將結果限製為特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用以下專案新增規則： [查詢模型工具](../query/query-modeler-overview.md).
 
-  ![](assets/profiles-list.png)
+  ![](assets/profiles-list-filters.png)
 
 * 若要刪除設定檔，請從 **[!UICONTROL 更多動作]** 功能表。
 
@@ -94,13 +94,15 @@ Adobe Campaign Web中的設定檔是儲存在資料庫中的個人，可作為�
 
 若要存取設定檔的詳細資訊並加以編輯，請遵循下列步驟。
 
-1. 瀏覽至 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]**.
+1. 瀏覽至 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 並按一下「 」中所需的專案 **[!UICONTROL 設定檔]** 清單。
 
-1. 從以下位置按一下所需的專案： **[!UICONTROL 設定檔]** 清單。 設定檔的詳細資訊隨即顯示。
+   ![](assets/profiles-list-select.png)
+
+1. 設定檔的詳細資訊隨即顯示。
+
+   此 **[!UICONTROL 詳細資料]** 索引標籤可讓您瀏覽設定檔的內建和自訂屬性。 若要編輯屬性，請在所需的欄位中進行變更，然後按一下 **[!UICONTROL 儲存]** 按鈕。
 
    ![](assets/profile-details.png)
-
-1. 此 **[!UICONTROL 詳細資料]** 索引標籤可讓您瀏覽設定檔的內建和自訂屬性。 若要編輯屬性，請在所需的欄位中進行變更，然後按一下 **[!UICONTROL 儲存]** 按鈕。
 
    1. 依預設，設定檔儲存在 **[!UICONTROL 收件者]** 資料夾。 您可以瀏覽至所需的位置來變更它。 [瞭解如何使用資料夾](../get-started/permissions.md#folders)
 
@@ -118,8 +120,12 @@ Adobe Campaign Web中的設定檔是儲存在資料庫中的個人，可作為�
 
       ![](assets/profile-custom-fields.png)
 
-1. 按一下 **[!UICONTROL 訂閱]** 索引標籤來存取有關設定檔訂閱之服務的資訊。 [瞭解如何使用訂閱服務](manage-services.md)
+1. 按一下 **[!UICONTROL 訂閱]** 索引標籤來存取有關設定檔訂閱之服務的資訊。 [進一步瞭解訂閱服務](manage-services.md)
 
-1. 按一下 **[!UICONTROL 記錄檔]** 按鈕位於畫面的右上角，可透過傳送、排除和追蹤記錄來檢視設定檔的互動歷史記錄，以及呈現給設定檔的優惠。 [進一步瞭解傳遞記錄](../monitor/delivery-logs.md)
+   ![](assets/profile-subscriptions.png)
+
+1. 按一下 **[!UICONTROL 記錄檔]** 按鈕位於畫面的右上角，可透過傳送、排除和追蹤記錄來檢視設定檔互動的歷史記錄。 [進一步瞭解傳遞記錄](../monitor/delivery-logs.md)
+
+   您也可以檢閱呈現給設定檔的優惠，在 **[!UICONTROL 主張]** 標籤。 [進一步瞭解優惠方案](../msg/offers.md)
 
    ![](assets/profile-logs.png)

@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="有限可用性"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '554'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->測試設定檔會自動從下列傳送統計資料的報告排除： **[!UICONTROL 點按次數]**， **[!UICONTROL 開啟次數]**， **[!UICONTROL 取消訂閱]**.
+>測試設定檔會自動從下列傳送統計資料的報告排除： **[!UICONTROL 點按次數]**， **[!UICONTROL 開啟次數]**， **[!UICONTROL 取消訂閱]**. [進一步瞭解報告]
 
 ## 存取及管理測試設定檔 {#access-test-profiles}
 
@@ -39,13 +39,13 @@ ht-degree: 2%
 
   ![](assets/test-profile-list-filters.png)
 
-* 您可以複製任何測試設定檔，並視需要加以編輯。
+* 您可以複製任何測試設定檔，並視需要更新。 編輯測試設定檔的步驟與以下相同： [建立測試設定檔](#create-test-profile).
 
 * 若要刪除測試設定檔，請從 **[!UICONTROL 更多動作]** 功能表。
 
   ![](assets/test-profile-list-delete.png)
 
-* 若要編輯測試設定檔，請從清單中按一下所需的專案。
+* 若要編輯測試設定檔，請從清單中按一下所需的專案。 編輯測試設定檔的步驟與以下相同： [建立測試設定檔](#create-test-profile).
 
 您也可以透過存取測試設定檔 **[!UICONTROL 瀏覽器]** 檢視，從 **[!UICONTROL 資源]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 種子地址]** 節點。
 
@@ -68,7 +68,9 @@ ht-degree: 2%
 
 1. 按一下 **[!UICONTROL 建立測試設定檔]** 按鈕。
 
-1. 填寫測試設定檔詳細資料。 <!--Most of the fields are the same as when creating profiles. [Learn more]-->
+   ![](assets/test-profile-create.png)
+
+1. 視需要填寫測試設定檔的詳細資料。 <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
    ![](assets/test-profile-details.png)
 
