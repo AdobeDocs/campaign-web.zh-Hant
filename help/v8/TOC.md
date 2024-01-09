@@ -8,7 +8,7 @@ hide: true
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -89,9 +89,9 @@ ht-degree: 85%
       + [呈現您的電子郵件](preview-test/email-rendering.md)
 + 設定檔與對象 {#audiences}
    + [開始使用設定檔和對象](audience/gs-audiences-recipients.md)
-   + [鎖定維度](audience/targeting-dimensions.md)
+   + [目標定位維度](audience/targeting-dimensions.md)
    + 使用設定檔 {#work-with-profiles}
-      + [監視和管理設定檔](audience/about-recipients.md)
+      + [監視與管理設定檔](audience/about-recipients.md)
       + [建立及管理測試設定檔](audience/test-profiles.md)
    + 使用對象 {#audiences}
       + [建立對象](audience/create-audience.md)
