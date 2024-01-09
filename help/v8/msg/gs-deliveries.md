@@ -1,15 +1,16 @@
 ---
 product: campaign
-title: 處理傳遞
+title: 使用傳遞
 description: 瞭解如何在Campaign網頁中建立您的第一個傳遞
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="有限可用性"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 98%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -36,14 +37,17 @@ ht-degree: 98%
 
    ![](assets/create-a-delivery.png)
 
-1. 選擇要用於傳遞的管道。若要了解傳遞管道以及如何定義傳遞內容的詳細資訊，請參閱以下章節：
+1. 選擇傳遞的管道。
+1. 定義主要目標和控制組的傳遞對象。若要了解對象的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
+
+   ![](assets/select-audience.png){width="70%" align="left"}
+
+1. 定義訊息內容。 若要了解傳遞管道以及如何定義傳遞內容的詳細資訊，請參閱以下章節：
 
    * [電子郵件管道](../email/create-email.md)
    * [推播通知管道](../push/gs-push.md)
    * [簡訊管道](../sms/create-sms.md)
 
-1. 定義主要目標和控制組的傳遞對象。若要了解對象的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
-1. 定義訊息內容。
 1. (選擇性) 定義傳遞[排程](#gs-schedule)。如果未定義排程，在按一下「**[!UICONTROL 傳送]**」按鈕後，訊息會立即傳送。
 1. 按一下「**[!UICONTROL 檢閱並傳送]**」按鈕，以檢查您的設定。
 1. 使用「**[!UICONTROL 模擬內容]**」按鈕，以測試您的傳遞和個性化設定。若要了解訊息模擬的詳細資訊，請參閱[本章節](../preview-test/preview-test.md)。
@@ -56,13 +60,11 @@ ht-degree: 98%
 若要在工作流程中建立傳遞，請依照以下步驟進行：
 
 1. 建立一個工作流程或開啟一個現有的工作流程。若要了解工作流程的詳細資訊，請參閱[本頁面](../workflows/gs-workflow-creation.md#gs-workflow-steps)。
-1. 新增並設定&#x200B;**[!UICONTROL 建置對象]**&#x200B;活動，然後按一下`+`按鈕。
+1. 新增並設定 **[!UICONTROL 建立對象]** 活動。 進一步瞭解 **[!UICONTROL 建立對象]** 中的活動 [本節](../workflows/activities/build-audience.md).
+1. 按一下 `+` 圖示並選取傳送活動： **[!UICONTROL 電子郵件]**， **[!UICONTROL 簡訊]**， **[!UICONTROL 推播通知(Android)]** 或 **[!UICONTROL 推播通知(iOS)]**. 若要了解工作流程中的傳遞管道活動以及如何定義傳遞內容的詳細資訊，請參閱本[章節](../workflows/activities/channels.md)。
 
    ![](assets/add-delivery-in-wf.png)
 
-   如需此&#x200B;**[!UICONTROL 建置對象]**&#x200B;活動的詳細資訊，請參閱[本章節](../workflows/activities/build-audience.md)。
-
-1. 選取傳遞活動：**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL 推播通知 (Android)]** 或&#x200B;**[!UICONTROL 推播通知 (iOS)]**。若要了解工作流程中的傳遞管道活動以及如何定義傳遞內容的詳細資訊，請參閱本[章節](../workflows/activities/channels.md)。
 1. 啟動工作流程，並檢查記錄檔。
 
 您還可以在不建立工作流程的情況下在行銷活動中新增傳遞。若要這麼做，請瀏覽到行銷活動的「**[!UICONTROL 傳遞]**」標籤，然後按一下「**[!UICONTROL 建立傳遞]**」按鈕。

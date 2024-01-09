@@ -2,18 +2,18 @@
 audience: end-user
 title: 開始在 Campaign v8 Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 51cde630b5867662c40f79109f40f78a08eb758f
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 57%
+source-wordcount: '131'
+ht-degree: 41%
 
 ---
 
 # 開始使用訊息{#gs-messages}
 
-透過 Adobe Campaign，您可以傳送跨管道行銷活動，包括電子郵件、簡訊、LINE 訊息、推播通知，並使用各種專屬報告來評估行銷效益。 
+透過Adobe Campaign，您可以傳送跨頻道行銷活動，包括電子郵件、簡訊和推播通知，並使用各種專用報告測量其影響。
 
 這些訊息會透過傳遞進行設計和傳送，並可針對每位收件者進行個人化。這些傳送可以是獨立傳送，或包含在行銷活動內容中的工作流程。 瞭解如何在Adobe Campaign中建立和管理傳送 [本節](gs-deliveries.md).
 
