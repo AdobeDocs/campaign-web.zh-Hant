@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用「合併連結」工作流程活動
 description: 了解如何使用「合併連結」工作流程活動
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
 >title="設定 AND-join 活動"
->abstract="選取您要參加的活動。在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變母體。"
+>abstract="選取您要參加的活動。在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變族群。"
 
 請按照以下步驟設定「**合併連結**」活動：
 
@@ -43,4 +43,4 @@ ht-degree: 100%
 
 以下範例顯示兩個工作流程分支，各包含電子郵件和簡訊傳遞。同時啟用兩個傳入轉變時，「合併連結」即會觸發。只有在兩個傳遞都完成後，接著才會傳送推播通知。
 
-![](../assets/workflow-andjoin-example.png)
+![](../assets/workflow-andjoin-example.png){zoomable=&quot;yes&quot;}

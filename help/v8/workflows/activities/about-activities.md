@@ -4,9 +4,9 @@ title: 使用工作流程活動
 description: 了解如何使用工作流程活動
 badge: label="有限可用性"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '465'
 ht-degree: 39%
 
 ---
@@ -41,9 +41,7 @@ ht-degree: 39%
 
 ## 管道活動 {#channel}
 
-Adobe Campaign Web可讓您跨多個管道自動執行行銷活動。 您可以將管道活動結合到畫布中，以建立跨管道工作流程，其可以根據客戶行為觸發動作。 下列專案 **頻道** 提供活動：電子郵件、簡訊、Android和iOS推播通知。
-
-在此瞭解如何在工作流程內容中設定傳遞 [區段](channels.md).
+Adobe Campaign Web可讓您跨多個管道自動執行行銷活動。 您可以將管道活動結合到畫布中，以建立跨管道工作流程，其可以根據客戶行為觸發動作。 下列專案 **頻道** 提供活動：電子郵件、簡訊、Android和iOS推播通知。 [瞭解如何在工作流程內容中設定傳送](channels.md).
 
 ## 流程控制活動 {#flow-control}
 

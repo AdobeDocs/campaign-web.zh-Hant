@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
-badge: label="Beta"
-exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
+badge: label="有限可用性"
+exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 6%
+source-wordcount: '570'
+ht-degree: 4%
 
 ---
 
@@ -27,9 +27,7 @@ ht-degree: 6%
 
 ## 工作流程轉換 {#transitions}
 
-在工作流程中，透過轉變從一個活動傳輸到另一個活動的資料會儲存在臨時工作表中。
-
-此資料可針對每個轉變顯示。 要執行此操作，請選取轉變以在熒幕右側開啟其屬性。
+在工作流程中，透過轉變從一個活動傳輸到另一個活動的資料會儲存在臨時工作表中。 此資料可針對每個轉變顯示。 要執行此操作，請選取轉變以在熒幕右側開啟其屬性。
 
 * 按一下 **[!UICONTROL 預覽結構描述]** 顯示工作表的綱要。
 * 按一下 **[!UICONTROL 預覽結果]** 以視覺化方式呈現所選轉變中傳輸的資料。
