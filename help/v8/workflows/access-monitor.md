@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 5649745c4c1c43d8d4e02dc0fc98d0ea365fb83e
+source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 29%
+source-wordcount: '360'
+ht-degree: 28%
 
 ---
 
@@ -50,4 +50,6 @@ ht-degree: 29%
 
 此 **[!UICONTROL 範本]** 標籤會列出所有可用的工作流程範本。
 
-工作流程範本包含預先設定的活動和整體屬性設定，可重複用於建立新工作流程。 這些範本從用戶端主控台建立的。[瞭解如何使用範本](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+工作流程範本包含預先設定的活動和整體屬性設定，可重複用於建立新工作流程。
+
+您可以從現有工作流程或從頭開始建立工作流程範本。 [瞭解如何建立工作流程範本](create-workflow.md#work-with-workflow-templates-workflow-templates)

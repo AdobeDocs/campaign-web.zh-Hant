@@ -4,7 +4,7 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 瞭解如何使用Adobe Campaign Web建立工作流程
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
+source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 19%
@@ -52,7 +52,6 @@ ht-degree: 19%
 
 ## 使用工作流程範本 {#workflow-templates}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_for_campaign"
 >title="工作流程範本"
@@ -61,7 +60,6 @@ ht-degree: 19%
 工作流程範本包含預先設定的設定和活動，可重複用於建立新工作流程。 建立工作流程時，您可以從工作流程屬性中選取工作流程的範本。 預設會提供空白範本。
 
 您可以從現有工作流程建立範本，或從頭開始建立新範本。 兩種方法皆詳述於下方。
-
 
 >[!BEGINTABS]
 
