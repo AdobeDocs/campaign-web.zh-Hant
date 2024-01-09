@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '704'
 ht-degree: 97%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
->title="分割產生補充"
+>title="分割產生補充集"
 >abstract="設定完所有子集後，您可以選擇與任何子集都不相符的剩餘母體，並將其包含在額外的輸出轉變中。為此，請開啟「**產生補充集**」選項。"
 
 請按照以下步驟設定&#x200B;**分割**&#x200B;活動：

@@ -143,7 +143,7 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
->title="傳遞的網頁分析設定"
+>title="傳遞的網站分析設定"
 >abstract="選取網路分析帳戶。此帳戶是在 Campaign 用戶端主控台中設定的。您也可以定義與您所用分析工具共用的標籤。"
 
 您可以在此區段中選取網站分析帳戶。 此帳戶是在Campaign使用者端主控台中設定。
@@ -194,7 +194,7 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
->title="設定有效期"
+>title="設定有效性"
 >abstract="「傳遞期間」欄位可讓您輸入全域傳遞重試的限制。這表示 Adobe Campaign 會從開始日期開始發送訊息，然後，僅對於傳回錯誤的訊息，系統將執行定期、可配置的重試，直至達到效度限制為止。效度限制欄位可用於上傳的資源，例如鏡像頁面或影像。這些資源在有限的時間內有效：一旦達到限制，資源將不再可用。"
 
 

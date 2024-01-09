@@ -205,8 +205,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
->title="收件者唯讀個人資料"
->abstract="收件者唯讀個人資料"
+>title="收件者唯讀設定檔"
+>abstract="收件者唯讀設定檔"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"

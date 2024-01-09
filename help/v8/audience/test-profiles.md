@@ -8,7 +8,7 @@ badge: label="有限可用性"
 source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="建立測試設定檔"
->abstract="測試設定檔會建立為種子地址。 他們是資料庫中用於鎖定不符合已定義目標條件之虛擬設定檔的其他收件者。"
+>abstract="測試設定檔為種子地址。他們是資料庫中的額外收件者，用於找出與定義的目標標準不相符的虛構設定檔。"
 
-測試設定檔會建立為種子地址。 他們是資料庫中用於鎖定不符合已定義目標條件之虛擬設定檔的其他收件者。 附註可讓您在傳送傳遞前，透過傳送校樣來預覽及測試個人化和轉譯。
+測試設定檔為種子地址。他們是資料庫中用於鎖定不符合已定義目標條件之虛擬設定檔的其他收件者。 附註可讓您在傳送傳遞前，透過傳送校樣來預覽及測試個人化和轉譯。
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
@@ -59,8 +59,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
->title="測試個人資料的附加資料"
->abstract="輸入在資料管理工作流程中建立且您想要指派特定值的傳遞所使用的個人化資料。"
+>title="測試設定檔的附加資料"
+>abstract="輸入個人化資料，此個人化資料用於資料管理工作流程中建立的傳遞，並且您要為其指派特定值。"
 
 若要建立測試設定檔，請遵循下列步驟。
 

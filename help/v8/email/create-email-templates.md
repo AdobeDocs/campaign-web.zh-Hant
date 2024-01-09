@@ -11,7 +11,7 @@ badge: label="有限可用性"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="定義您自己的內容"
->abstract="從頭開始建立獨立自訂範本，讓您的內容可跨多封電子郵件重複使用。"
+>abstract="從頭開始建立獨立的自訂範本，使您的內容可在多個電子郵件中重複使用。"
 
 為了加快和改進設計流程，您可以建立獨立的範本，以輕鬆地重複使用中的自訂內容 [!DNL Adobe Campaign].
 
@@ -30,12 +30,12 @@ ht-degree: 7%
 >
 >目前僅適用 **電子郵件** 支援內容範本。
 
-## 存取和管理範本 {#access-manage-templates}
+## 存取並管理範本 {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="編輯您的範本內容"
->abstract="按一下 **編輯內容** 按鈕以使用電子郵件設計工具更新您的內容。"
+>abstract="按一下「**編輯內容**」按鈕可使用電子郵件設計工具更新您的內容。"
 
 若要存取內容範本清單，請選取 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 從左側功能表。
 
@@ -96,7 +96,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="定義您的範本屬性"
->abstract="從頭開始建立範本時，可根據需要輕鬆定義要擷取的範本屬性。"
+>abstract="從頭開始建立範本時，請定義其屬性以便在需要時輕鬆擷取。"
 
 若要從頭開始建立內容範本，請遵循下列步驟。
 

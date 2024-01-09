@@ -1,11 +1,11 @@
 ---
-title: 監視和管理設定檔
+title: 監視與管理設定檔
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
 badge: label="有限可用性"
 source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 6%
+ht-degree: 43%
 
 ---
 
@@ -13,14 +13,14 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="360個設定檔檢視"
->abstract="建立新的設定檔，並透過功能強大的報告和工具加以監控。 存取設定檔的屬性、互動和記錄。 使用篩選選項來瀏覽設定檔清單、編輯和更新其設定檔。"
+>title="設定檔的 360 檢視"
+>abstract="建立新的設定檔，並透過強大的報表和工具進行監控。存取設定檔的屬性、互動和紀錄。使用篩選選項瀏覽設定檔清單、編輯和更新其設定檔。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="設定檔"
->abstract="設定檔代表個人，旨在接收 Adobe Campaign 傳送的訊息。從此清單中，您可以根據您的許可權檢視設定檔的詳細資訊。 使用篩選選項瀏覽此清單。您可以編輯和更新一小部分設定檔屬性。"
+>abstract="設定檔代表個人，旨在接收 Adobe Campaign 傳送的訊息。在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
 
 ## 開始使用設定檔 {#gs}
 
@@ -50,47 +50,47 @@ Adobe Campaign Web中的設定檔是儲存在資料庫中的個人，可作為�
 
 從 **[!UICONTROL 瀏覽器]** 檢視您也可以篩選、刪除和 [編輯](#access) 設定檔。
 
-## 存取及編輯設定檔的屬性 {#access}
+## 存取和編輯設定檔屬性 {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="基本詳細資料"
->abstract="本節提供設定檔基本詳細資訊的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+>abstract="本章節提供對設定檔基本詳細資料的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
->title="聯絡資訊"
->abstract="本節提供設定檔之聯絡資訊的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+>title="連絡資訊"
+>abstract="本章節提供對設定檔連絡資訊的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title="地址"
->abstract="本節提供設定檔郵寄地址和地址品質的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+>title="位址"
+>abstract="本章節提供對設定檔郵寄地址和地址品質的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="帳戶詳細資料"
->abstract="本節提供設定檔之帳戶詳細資訊的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+>abstract="本章節提供對設定檔帳戶詳細資料的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
 >title="收件人不再是聯絡人"
->abstract="本節提供設定檔之聯絡人偏好設定的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+>abstract="本章節提供對設定檔聯絡人偏好的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="自訂欄位"
->abstract="自訂欄位是針對您的需求量身打造的特定屬性，這些屬性已針對您的執行個體進行設定。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+>abstract="自訂欄位是根據您的需求量身打造的特定屬性，已針對您的執行個體設定。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
 >title="其他"
->abstract="本節提供其他內建屬性。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下 **儲存** 按鈕的位置。"
+>abstract="本章節提供額外的內建屬性。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="收件者訂閱清單"
->abstract="此標籤會列出設定檔訂閱的所有服務。"
+>abstract="此標籤列出設定檔訂閱的所有服務。"
 
 若要存取設定檔的詳細資訊並加以編輯，請遵循下列步驟。
 

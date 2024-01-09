@@ -6,7 +6,7 @@ badge: label="有限可用性"
 source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 15%
+ht-degree: 49%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="調和活動"
->abstract="此 **調解** 活動是 **目標定位** 活動可讓您定義Adobe Campaign資料庫中的資料與工作表格中的資料（例如從外部檔案載入的資料）之間的連結。 例如， **調解** 活動可放置在 **載入對象** 將非標準資料匯入資料庫的活動。 在此案例中， **調解** 活動可讓您定義Adobe Campaign資料庫中的資料與外部表格中的資料之間的連結。"
+>abstract="**調和**&#x200B;活動是&#x200B;**目標定位**&#x200B;活動，它可讓您定義 Adobe Campaign 資料庫資料與工作表資料 (例如從外部檔案載入的資料) 之間的連結。例如，可以將&#x200B;**調和**&#x200B;活動放在&#x200B;**載入對象**&#x200B;活動之後，以將非標準資料匯入資料庫。在此情況下，**調和** 活動可讓您定義 Adobe Campaign 資料庫資料與外部資料表資料之間的連結。"
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 15%
 
 
 
-此 **調解** 活動是 **目標定位** 活動可讓您定義Adobe Campaign資料庫中的資料與工作表格中的資料（例如從外部檔案載入的資料）之間的連結。 例如， **調解** 活動可放置在 **載入對象** 將非標準資料匯入資料庫的活動。 在此案例中， **調解** 活動可讓您定義Adobe Campaign資料庫中的資料與工作表中的資料之間的連結。
+**調和**&#x200B;活動是&#x200B;**目標定位**&#x200B;活動，它可讓您定義 Adobe Campaign 資料庫資料與工作表資料 (例如從外部檔案載入的資料) 之間的連結。例如，可以將&#x200B;**調和**&#x200B;活動放在&#x200B;**載入對象**&#x200B;活動之後，以將非標準資料匯入資料庫。在此案例中， **調解** 活動可讓您定義Adobe Campaign資料庫中的資料與工作表中的資料之間的連結。
 
 
 ## 最佳實務 {#reconciliation-best-practices}
@@ -47,43 +47,43 @@ ht-degree: 15%
 >調解作業表示連結維度的資料已在資料庫中。  例如，如果您匯入購買檔案，顯示何時購買了哪些產品、哪個客戶等，則產品和客戶必須已存在於資料庫中。
 >
 
-## 設定調解活動 {#reconciliation-configuration}
+## 設定調和活動 {#reconciliation-configuration}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="目標定位維度"
->abstract="選取新的目標維度。 維度可讓您定義目標母體：收件者、應用程式訂閱者、操作者、訂閱者等。 依預設，會選取目前的目標維度。"
+>abstract="選取新的目標定位維度。維度可讓您定義目標族群：收件者、應用程式訂閱者、操作者、訂閱者等。預設會選取目前的目標定位維度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="調和規則"
->abstract="選取要用於重複資料刪除的調解欄位。 您可以使用一或多個調解條件。"
+>abstract="選取用於去重複化的調和欄位。您可以使用一個或多個調和標準。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="選取目標定位維度"
->abstract="選取要調解之入站資料的目標維度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="鎖定維度"
+>abstract="選取要調和之輸入資料的目標定位維度。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="目標定位維度"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
 >title="保留未調和的資料"
->abstract="依預設，未調解的資料會保留在出站轉變中，並可在工作表中供未來使用。 若要移除未調解的資料，請取消啟用 **保留未調解的資料** 選項。"
+>abstract="依預設，未調和的資料保留在傳出轉變中，並可在工作表中供未來使用。若要移除未調和的資料，請停用「**保留未調和的資料**」選項。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
->title="調解屬性"
->abstract="選取要用來調解資料的屬性，然後按一下確認。"
+>title="調和屬性"
+>abstract="選取用於調和資料的屬性，然後按一下「確認」。"
 
 請依照下列步驟設定 **調解** 活動：
 
 1. 拖放 **調解** 活動放入工作流程。 此活動應在包含母體的轉變之後新增，其母體的目標維度不會直接來自Adobe Campaign。
 
-1. 選取新的目標維度。 維度可讓您定義目標母體：收件者、應用程式訂閱者、操作者、訂閱者等。 進一步瞭解中的目標維度 [此頁面](../../audience/about-recipients.md#targeting-dimensions).
+1. 選取新的目標定位維度。維度可讓您定義目標族群：收件者、應用程式訂閱者、操作者、訂閱者等。進一步瞭解中的目標維度 [此頁面](../../audience/about-recipients.md#targeting-dimensions).
 
-1. 選取要用於重複資料刪除的調解欄位。 您可以使用一或多個調解條件。
+1. 選取用於去重複化的調和欄位。您可以使用一個或多個調和標準。
 
    1. 若要使用屬性來調解資料，請選取 **簡單屬性** 選項。 此 **來源** 欄位列出輸入轉變中可用的欄位，這些欄位要協調。 此 **目的地** 欄位與所選目標維度的欄位相對應。 當來源和目的地相等時，資料就會進行協調。 例如，選取 **電子郵件** 根據設定檔的電子郵件地址進行重複資料刪除的欄位。
 
@@ -95,7 +95,7 @@ ht-degree: 15%
 
 1. 您可以使用來篩選要調解的資料 **建立篩選器** 按鈕。 這可讓您使用建立自訂條件 [查詢模型工具](../../query/query-modeler-overview.md).
 
-依預設，未調解的資料會保留在出站轉變中，並可在工作表中供未來使用。 若要移除未調解的資料，請取消啟用 **保留未調解的資料** 選項。
+依預設，未調解的資料會保留在出站轉變中，並可在工作表中供未來使用。 若要移除未調和的資料，請停用「**保留未調和的資料**」選項。
 
 ## 範例 {#reconciliation-example}
 

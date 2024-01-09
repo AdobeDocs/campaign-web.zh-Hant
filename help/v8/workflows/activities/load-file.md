@@ -6,7 +6,7 @@ badge: label="有限可用性"
 source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 33%
+ht-degree: 43%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="載入檔案活動"
->abstract="此 **載入檔案** 活動是 **資料管理** 活動。 使用此活動來處理儲存在外部檔案中的資料。"
+>abstract="**載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動可以處理儲存在外部檔案中的資料。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -53,7 +53,7 @@ ht-degree: 33%
 >abstract="載入檔案活動的格式化"
 
 
-此 **載入檔案** 活動是 **資料管理** 活動。 使用此活動來處理儲存在外部檔案中的設定檔和資料。 設定檔和資料不會新增至資料庫，但輸入檔案中的所有欄位都可用於 [個人化](../../personalization/gs-personalization.md)，或更新設定檔或任何其他表格。
+**載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動來處理儲存在外部檔案中的設定檔和資料。 設定檔和資料不會新增至資料庫，但輸入檔案中的所有欄位都可用於 [個人化](../../personalization/gs-personalization.md)，或更新設定檔或任何其他表格。
 
 
 >[!NOTE]
