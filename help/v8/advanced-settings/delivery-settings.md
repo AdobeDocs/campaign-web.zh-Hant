@@ -93,8 +93,8 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="傳遞的產能設定"
->abstract="在傳遞訊息之前，請使用產能規則以確保您的組織可以處理傳遞、傳遞可能生成的傳入訊息，以及用於聯絡訂閱者的呼叫次數等。產能規則是在 Adobe Campaign v8 Console 定義。在此畫面中，選取與電子郵件頻道關聯的規則。"
+>title="傳遞的容量設定"
+>abstract="在傳遞訊息之前，請使用容量規則以確保您的組織可以處理傳遞、傳遞可能生成的傳入訊息，以及用於聯絡訂閱者的呼叫次數等。產能規則是在 Adobe Campaign v8 Console 定義。在此畫面中，選取與電子郵件頻道關聯的規則。"
 
 
 >[!CONTEXTUALHELP]
