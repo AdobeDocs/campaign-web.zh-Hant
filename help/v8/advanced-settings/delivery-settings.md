@@ -190,7 +190,7 @@ ht-degree: 81%
 * **自動**：分析階段結束時會自動開始傳送，不論分析的結果為何。
 
 
-## 有效期 {#validity}
+## 有效性 {#validity}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
