@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用傳遞工作流程活動
 description: 了解如何新增傳遞工作流程活動 (電子郵件、推播、簡訊)
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '876'
 ht-degree: 70%
 
 ---
@@ -38,24 +38,20 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 
 ## 設定管道活動 {#create-a-delivery-in-a-workflow}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="電子郵件活動"
 >abstract="電子郵件活動有助於在您的工作流程中傳送電子郵件，允許傳送一次性和定期的訊息。此活動可用來自動化傳送電子郵件至相同工作流程所計算目標的流程。您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="SMS 活動"
 >abstract="SMS 活動有助於在您的工作流程中傳送 SMS，允許傳送一次性和定期的訊息。此活動可用來自動化傳送 SMS 至相同工作流程所計算目標的流程。您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="推播 iOS 活動"
 >abstract="Push iOS 活動簡化了您工作流程中傳送 iOS 推播通知的流程。此活動可以傳送一次性和定期的訊息，自動將 iOS 推播通知傳送到相同工作流程中的預先定義目標。您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
@@ -75,11 +71,11 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   您可以從管道活動設定左側窗格中選取另一個範本。如果之前選取的對象和管道不相容，則無法選取範本。若要解決此問題，請更新「**建置對象**」活動，以選取具有正確目標對應的對象。進一步瞭解中的目標對應 [Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   您可以從管道活動設定左側窗格中選取另一個範本。如果之前選取的對象和管道不相容，則無法選取範本。若要解決此問題，請更新「**建置對象**」活動，以選取具有正確目標對應的對象。進一步瞭解中的目標對應 [Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}
 
-1. 按一下「**建立傳遞**」。以建立獨立傳遞相同的方式定義訊息設定和內容。您還可以排程和模擬內容。[了解更多](../../msg/gs-messages.md)。
+1. 按一下「**建立傳遞**」。以建立獨立傳遞相同的方式定義訊息設定和內容。您還可以排程和模擬內容。[了解更多](../../msg/gs-messages.md)
 
-1. 導覽回您的工作流程。 選擇是否要繼續您的工作流程 **產生出站轉變** 如果您想在管道活動後新增轉變。
+1. 導覽回您的工作流程。 如果要繼續您的工作流程， **產生出站轉變** 在管道活動後新增轉變。
 
 1. 按一下「**開始**」以啟動您的工作流程。
 
