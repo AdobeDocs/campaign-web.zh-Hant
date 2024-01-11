@@ -4,10 +4,10 @@ title: 使用傳遞工作流程活動
 description: 了解如何新增傳遞工作流程活動 (電子郵件、推播、簡訊)
 badge: label="有限可用性"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 70%
+source-wordcount: '901'
+ht-degree: 68%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 >* [建立獨立簡訊傳遞](../../sms/create-sms.md)
 >* [建立獨立推送傳送](../../push/create-push.md)
 
-## 建立您的工作流程{#build-your-workflow}
+## 建立您的工作流程 {#build-your-workflow}
 
 在放置傳遞之前，先使用相關活動開始建立您的工作流程：
 
@@ -35,6 +35,10 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 * 新增 **建立對象** 活動。 對象是傳遞的主要目標：收到訊息的收件者。在行銷活動工作流程中傳送訊息時，訊息對象不會在管道活動中定義，而是在「**建置對象**」活動中定義。請參閱[本節](build-audience.md)。
 
   ![](../../msg/assets/add-delivery-in-wf.png)
+
+  >[!NOTE]
+  >
+  >您也可以鎖定從檔案載入的對象。 要執行此操作，請使用 **載入檔案** 活動後接 **調解** 活動。 [了解更多](../../audience/about-recipients.md)
 
 ## 設定管道活動 {#create-a-delivery-in-a-workflow}
 

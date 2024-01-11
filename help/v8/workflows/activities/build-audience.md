@@ -4,10 +4,10 @@ title: 使用「建置對象」工作流程活動
 description: 了解如何使用「建置對象」工作流程活動
 badge: label="有限可用性"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 61%
+source-wordcount: '410'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->在此情況下，您無法從檔案載入對象。為此，您需要建立獨立的電子郵件傳送。 [了解更多](../../audience/about-recipients.md)
+>使用「建立對象」活動無法鎖定從檔案載入的對象。 若要這麼做，您需要使用 **載入檔案** 活動後接 **調解** 活動。 [了解更多](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -69,10 +69,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 按一下&#x200B;**「繼續」**。
 1. 選取您的對象，就像在設計新傳送時使用對象一樣。 請參閱本[章節](../../audience/add-audience.md)。
 
->[!IMPORTANT]
->
->如果您想使用 **[!UICONTROL 建立對象]** 以Experience Platform對象為目標的活動，您需要新增 **[!UICONTROL 變更維度]** 活動後，確保受眾的目標維度設為「收件者」。 此頁面底部提供工作流程範例。
-
 >[!ENDTABS]
 
 ## 範例{#build-audience-examples}
@@ -80,7 +76,3 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 以下範例是一個包含兩個「**建置對象**」活動的工作流程。第一個目標是撲克牌遊戲玩家對象，然後是電子郵件傳遞。第二個目標是 VIP 用戶端對象，然後是簡訊傳遞。
 
 ![](../assets/workflow-audience-example.png)
-
-這是另一個工作流程範例，其中結合了Adobe Experience Platform對象與Adobe Campaign對象。 若要允許結合這些對象，請 **[!UICONTROL 變更維度]** 具有「收件者」目標維度的活動會新增至Adobe Experience Platform對象之後。 [瞭解如何設定變更維度活動](change-dimension.md)
-
-![](../assets/workflow-audience-aep.png)
