@@ -5,11 +5,11 @@ description: 瞭解如何在Campaign網頁中建立和使用傳遞範本
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1087'
 ht-degree: 25%
 
 ---
@@ -122,6 +122,8 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
    ![](assets/templates-convert-delivery.png)
 
+   您也可以從清單中選取範本，然後從範本版本畫面中選取此選項。
+
 1. 確認複製。
 
 1. 新範本控制面板會在中央畫面中開啟。 視需要編輯範本設定。
@@ -180,13 +182,11 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
    ![](assets/templates-simulate-button.png)
 
-1. 選取一或多個測試設定檔，以檢查您的電子郵件呈現。 您也可以從資料庫中選取真正的設定檔。
+1. 選取一或多個測試設定檔，以檢查您的電子郵件呈現。 您也可以從資料庫中選取真正的設定檔。 [進一步瞭解測試設定檔](../audience/test-profiles.md)
 
-1. 在不同的設定檔之間切換，以根據選取的設定檔取得訊息的個人化表示。
+1. 在不同的設定檔之間切換，以根據選取的設定檔取得訊息的個人化表示。 您也可以調整縮放等級，並選擇案頭或行動檢視。
 
-   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
-
-   您也可以調整縮放等級，並選擇案頭或行動檢視。
+[進一步瞭解預覽內容](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 
@@ -196,8 +196,4 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 >
 >您無法在傳遞範本中使用電子郵件呈現或傳送測試。
 
-* [進一步瞭解預覽電子郵件內容](../preview-test/preview-content.md)
 
-* [進一步瞭解預覽簡訊內容](../sms/content-sms.md)
-
-* [進一步瞭解預覽推播內容](../push/gs-push.md)
