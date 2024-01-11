@@ -3,11 +3,11 @@ audience: end-user
 title: 監控傳遞記錄
 description: 了解如何監控傳遞記錄
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+badge: label="有限可用性"
+source-git-commit: 07faf8255ce6db643534fb59f7c118eef04b39ef
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 74%
+source-wordcount: '359'
+ht-degree: 71%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 74%
 
 * 灰色圖示表示資訊類訊息。
 * 黃色圖示表示非嚴重的處理錯誤。
-* 紅色圖示表示會阻止傳送傳遞的嚴重錯誤。必須修正嚴重錯誤，才能傳送傳遞。
+* 紅色圖示表示嚴重錯誤，無法傳送傳遞。 必須修正嚴重錯誤，才能傳送傳遞。
 
 ![](assets/logs.png)
 
