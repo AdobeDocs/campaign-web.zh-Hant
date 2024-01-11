@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用等待工作流程活動
 description: 了解如何使用等待工作流程活動
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 1. 指定傳入和傳出轉變之間等待的&#x200B;**持續時間**。
 
-1. 在&#x200B;**期間**&#x200B;欄位中選取時間單位：秒、分鐘、小時。
+1. 選擇時間單位 **週期** 欄位：秒、分鐘、小時、天。
 
 ## 範例{#wait-example}
 
