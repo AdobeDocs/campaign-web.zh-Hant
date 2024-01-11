@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 badge: label="有限可用性"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1920'
 ht-degree: 3%
 
 ---
@@ -90,6 +90,8 @@ ht-degree: 3%
 
 針對 **1-1連結**，導覽至連結的表格，選取所需的屬性並定義預期值。
 
+您也可以直接選取中的表格連結 **值** 選取器並確認。 在此情況下，必須使用專用的選擇器來選取可用於所選表格的值，如以下範例所示。
+
 +++查詢範例
 
 在此，查詢會鎖定其標籤為「執行中」的品牌。
@@ -101,6 +103,10 @@ ht-degree: 3%
 1. 定義屬性的預期值。
 
    ![](assets/1-1-table.png){width="85%" align="center"}
+
+以下是已直接選取表格連結的查詢範例。 必須從專用選擇器選取此資料表的可用值。
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++
 
