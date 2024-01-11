@@ -4,7 +4,7 @@ title: 選取現有對象
 description: 了解如何選取對象
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 34%
@@ -21,7 +21,7 @@ ht-degree: 34%
 
 本節說明在定義傳送的目標母體時，如何選取現有的對象。 定義傳送的主要目標時，您也可以：
 
-* [建立一次性對象](one-time-audience.md) 使用規則產生器。
+* [建立一次性對象](one-time-audience.md) 使用查詢模型工具。
 * [從外部檔案載入對象](file-audience.md) （僅適用於電子郵件）。
 
 可在傳遞中鎖定的對象，可從 **對象** 左側功能表。 它們源自於多個來源，例如使用者端主控台、Campaign Web對象工作流程或Adobe Experience Platform。 [瞭解如何監視和管理對象](manage-audience.md)
@@ -40,11 +40,11 @@ ht-degree: 34%
 
    ![](assets/select-audience-folder.png)
 
-1. 篩選區段可讓您存取篩選選項，以調整對象清單。 若要這麼做，請按一下 **新增規則** 以存取規則產生器，這可讓您為對象清單建立進階篩選器。 [瞭解如何使用規則產生器](../query/query-modeler-overview.md)
+1. 篩選區段可讓您存取篩選選項，以調整對象清單。 若要這麼做，請按一下 **新增規則** 以存取「查詢建模工具」，這可讓您為對象清單建立進階篩選器。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
-1. 按一下 **確認** 將您的對象新增為傳送主要目標。 完成後，您仍然可以使用規則產生器，按一下 **編輯規則** 按鈕。
+1. 按一下 **確認** 將您的對象新增為傳送主要目標。 完成後，您仍然可以使用查詢塑模工具，透過按一下 **編輯規則** 按鈕。
 
    ![](assets/refine-audience.png)
 

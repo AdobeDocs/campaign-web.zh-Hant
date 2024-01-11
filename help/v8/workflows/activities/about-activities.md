@@ -4,10 +4,10 @@ title: 使用工作流程活動
 description: 了解如何使用工作流程活動
 badge: label="有限可用性"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 39%
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 39%
 這些活動專門針對目標定位、操控和擴充母體資料。這些活動可讓您使用交集、聯合或排除作業定義對象並分割或結合這些對象，從而建置一個或多個目標。
 
 * 使用 [儲存對象](save-audience.md) 活動，以更新現有的對象，或從工作流程中的母體運算上游建立新的對象。
-* 使用 [建立對象](build-audience.md) 定義目標母體的活動。 您可以選取現有對象或使用規則產生器定義自己的查詢。
+* 使用 [建立對象](build-audience.md) 定義目標母體的活動。 您可以選取現有對象，或使用查詢建模器來定義您自己的查詢。
 * 使用 [合併](combine.md) 活動，對傳入母體執行分段。 您可以使用聯合、交集或排除。
 * 使用 [Split](split.md) 將傳入母體分段為數個子集的活動。
 * 使用 [調解](reconciliation.md) 活動定義Adobe Campaign資料庫中的資料與工作表中的資料（例如從外部檔案載入的資料）之間的連結。

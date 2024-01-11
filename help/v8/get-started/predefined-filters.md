@@ -3,10 +3,10 @@ title: 建立和使用預先定義的篩選器
 description: 了解如何在 Adobe Campaign Web UI 中建立和管理預先定義的篩選器
 badge: label="有限可用性"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 86%
 
 ## 使用預先定義的篩選器 {#use-predefined-filter}
 
-在定義規則屬性時，可以使用預先定義的篩選器。若要存取預先定義的篩選器，請在規則產生器下拉式清單中選擇「**選取自訂篩選器**」選項。
+在定義規則屬性時，可以使用預先定義的篩選器。若要存取預先定義的篩選器，請選擇 **選取自訂篩選器** 選項（位於查詢建模器的下拉式清單中）。
 
 然後，您就可以存取可用於目前內容的預先定義篩選器的完整清單。
 

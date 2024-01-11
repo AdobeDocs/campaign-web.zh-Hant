@@ -4,7 +4,7 @@ title: 建立傳遞的一次性對象
 description: 瞭解如何建立傳遞的一次性對象。
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 28%
@@ -13,7 +13,7 @@ ht-degree: 28%
 
 # 建立傳遞的一次性對象 {#sone-time}
 
-本節說明如何在建立新傳送時建立對象。 在此情況下，會使用規則產生器查詢資料庫，以定位傳送對象中要包含的收件者。
+本節說明如何在建立新傳送時建立對象。 在此情況下，會使用查詢模組化工具查詢資料庫，以定位傳送對象中要包含的收件者。
 
 產生的對象只會用於此傳送一次。 它不會儲存在對象清單中。
 
@@ -28,7 +28,7 @@ ht-degree: 28%
 
    ![](assets/segment-builder0.png)
 
-1. 選取「**建立您自己的**」。隨即顯示規則產生器。 它可讓您透過篩選資料庫中包含的資料，定義傳送所定位的母體。 [瞭解如何使用規則產生器](../query/query-modeler-overview.md)
+1. 選取「**建立您自己的**」。此時會顯示查詢建模器。 它可讓您透過篩選資料庫中包含的資料，定義傳送所定位的母體。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 

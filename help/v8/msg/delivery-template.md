@@ -7,7 +7,7 @@ role: User
 level: Beginner
 badge: label="Beta"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 67c41530b3992bca218b2c2ed04ebc963bf5b295
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 25%
@@ -53,7 +53,7 @@ ht-degree: 25%
 
 所有符合以下條件的範本： [已建立](#create-a-delivery-template) 隨即顯示。
 
-您可以在頻道和資料夾上篩選內容範本。 您也可以使用傳遞屬性建置規則，以設定進階篩選器。 [進一步瞭解規則產生器](../audience/../query/query-modeler-overview.md)
+您可以在頻道和資料夾上篩選內容範本。 您也可以使用傳遞屬性建置規則，以設定進階篩選器。 [進一步瞭解查詢模型工具](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 

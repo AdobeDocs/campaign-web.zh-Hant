@@ -4,10 +4,10 @@ title: 設定控制組
 description: 了解如何在 Campaign Web UI 中為您的訊息設定控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
-source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 41%
+ht-degree: 39%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 41%
 
 * 若要使用現有對象，按一下「**選取對象**」。若要了解詳細資訊，請參閱[本章節](add-audience.md)。
 
-* 若要定義新查詢，請選取「**建立您自己的**」並使用規則產生器定義排除標準。若要了解詳細資訊，請參閱[本章節](../query/query-modeler-overview.md)。
+* 若要定義新查詢，請選取 **建立您自己的** 並使用查詢建模器定義排除條件。 若要了解詳細資訊，請參閱[本章節](../query/query-modeler-overview.md)。
 
 對象中包含或與查詢結果相符的設定檔為 **已排除** 從傳送目標：他們未收到任何訊息。
 

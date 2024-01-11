@@ -3,10 +3,10 @@ title: Campaign Web UI 中的護欄和限制
 description: Campaign Web UI 中的護欄和限制
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ Web UI 中尚不支援的工作流程活動設定不會顯示。但是，當執�
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-在主控台中，「**擴充**」活動可以執行調解和擴充。在 Web UI 中，協解功能還無法使用。如果您已在主控台中定義了「**擴充**」活動中的調解設定，它將在 Web UI 中顯示為不相容的唯讀活動。
+在主控台中，「**擴充**」活動可以執行調和和擴充。在 Web UI 中，協解功能還無法使用。如果您已在主控台中定義了「**擴充**」活動中的調和設定，它將在 Web UI 中顯示為不相容的唯讀活動。
 
 | 主控台 | Web UI |
 | --- | --- |
@@ -61,7 +61,7 @@ Web UI 中尚不支援的工作流程活動設定不會顯示。但是，當執�
 >[!CONTEXTUALHELP]
 >id="acw_predefined_filter_read_only"
 >title="此篩選器為唯讀"
->abstract="某些預先定義的篩選器在該產品版本的使用者介面中不可用。 這些篩選器會標記為唯讀。 即使您無法在規則產生器中檢視查詢的圖形表示，也無法編輯篩選器，但您仍然可以使用它，並可在該畫面的「**屬性**」區段中看到篩選條件。"
+>abstract="某些預先定義的篩選器在該產品版本的使用者介面中不可用。 這些篩選器會標記為唯讀。 即使您無法在查詢模型工具中檢視查詢的圖形表示，也無法編輯篩選器，您仍可以使用它，並檢視 **屬性** 區段。"
 
 在該版本的產品中，當選取傳遞對象或在工作流程中建立對象時，某些預先定義的篩選器在使用者介面中將無法使用。這些篩選器會標記為唯讀。 
 
@@ -69,7 +69,7 @@ Web UI 中尚不支援的工作流程活動設定不會顯示。但是，當執�
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
-即使您無法在規則產生器中檢視查詢的圖形表示，也無法編輯篩選器，但您仍然可以使用它，並可在該畫面的「**屬性**」區段中看到篩選條件。
+即使您無法在查詢模型工具中檢視查詢的圖形表示，也無法編輯篩選器，您仍可以使用它，並檢視 **屬性** 區段。
 
 ![](assets/rule-edit.png){width="70%" align="left"}
 

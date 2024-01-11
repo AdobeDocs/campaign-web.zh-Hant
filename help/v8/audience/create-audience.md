@@ -4,7 +4,7 @@ title: 建立對象
 description: 瞭解如何在Adobe Campaign Web中建立對象
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 22%
@@ -54,7 +54,7 @@ Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從�
 
    * **[!UICONTROL 儲存對象]**：這代表工作流程的最後一步，可讓您將工作流程結果儲存為新對象。
 
-1. 開啟 **[!UICONTROL 建立對象]** 活動，並使用規則產生器，透過篩選資料庫中所包含的資料，定義要包含在對象中的母體。 [瞭解如何設定建置對象活動](../workflows/activities/build-audience.md)
+1. 開啟 **[!UICONTROL 建立對象]** 活動，並使用查詢塑模工具，透過篩選資料庫中包含的資料來定義要包含在對象中的母體。 [瞭解如何設定建置對象活動](../workflows/activities/build-audience.md)
 
 1. 如果您想要對目標母體執行其他作業至工作流程，請視需要新增許多活動，並將它們連線在一起。 有關如何設定工作流程活動的詳細資訊，請參閱 [工作流程檔案](../workflows/activities/about-activities.md).
 

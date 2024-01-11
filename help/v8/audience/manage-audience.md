@@ -4,7 +4,7 @@ title: 檢視和管理對象
 description: 瞭解如何在Adobe Campaign Web中監視和管理對象
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 16%
@@ -24,7 +24,7 @@ ht-degree: 16%
 
 * [建立新對象](create-audience.md) 從 **[!UICONTROL 受眾]** 功能表，
 * [選取現有對象](add-audience.md) 在使用者端主控台中建立為清單，或來自Adobe Experience Platform時，
-* [建立新對象](../query/query-modeler-overview.md) 使用規則產生器，方法是定義和結合篩選准則，
+* [建立新對象](../query/query-modeler-overview.md) 使用查詢模型工具，定義並組合篩選條件，
 * [使用外部檔案中的對象](file-audience.md). 此選項僅適用於獨立電子郵件傳送，無法用於行銷活動傳送。
 
 鎖定目標對象時，您也可以定義 **控制組** 以避免傳送訊息給部分對象，並評估行銷活動的影響。 [瞭解如何設定控制組](control-group.md)

@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 查詢範例
-description: 瞭解如何使用規則產生器。
+description: 瞭解如何使用查詢建模器。
 hide: true
 hidefromtoc: true
 badge: label="有限可用性"
-source-git-commit: e555a6aabab6a20a5b3f3ddecf9d63d49292d55a
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 3%

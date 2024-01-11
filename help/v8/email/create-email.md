@@ -4,10 +4,10 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="有限可用性"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 70%
+ht-degree: 67%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 70%
 
 1. 瀏覽至 **[!UICONTROL 傳遞]** 功能表，然後按一下  **[!UICONTROL 建立傳遞]** 按鈕。
 
-   ![](assets/delivery-list.png)
+   ![](../msg/assets/create-a-delivery.png)
 
 1. 選取 **[!UICONTROL 電子郵件]** 做為頻道，並從清單中選擇電子郵件傳遞範本。
 
@@ -73,7 +73,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="選取傳遞對象"
->abstract="為您的行銷訊息選取最佳對象。您可以選擇現有對象 (已在 Campaign v8 執行個體中或從 Adobe Experience Platform 中定義)、使用規則產生器建立新對象，或上傳包含您對象的檔案。「**從檔案中選取**」選項未啟用控制組，反之亦然。"
+>abstract="為您的行銷訊息選取最佳對象。您可以選擇現有對象(已在Campaign v8執行個體中或從Adobe Experience Platform中定義)，使用查詢塑模器建立新對象，或上傳包含對象的檔案。 「**從檔案中選取**」選項未啟用控制組，反之亦然。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="選取主要對象"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="設定控制組"
 

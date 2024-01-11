@@ -4,10 +4,10 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限可用性"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Campaign Web提供強大的查詢模型工具，可簡化篩選資料庫�
 * 建立、設計、個人化、排程並傳送電子郵件、簡訊和推播通知 —  [瞭解更多](../msg/gs-messages.md)
 * 使用電子郵件設計工具設計個人化的電子郵件內容 - [了解更多](../email/edit-content.md)
 * 傳送跨管道的行銷活動，包括簡訊和推播通知 - [了解更多](../workflows/activities/channels.md)
-* 使用規則產生器定義目標對象 - [了解更多](../audience/about-recipients.md)
+* 使用查詢模組化工具定義目標對象 —  [瞭解更多](../audience/about-recipients.md)
 * 預覽、測試和傳送您的訊息 - [了解更多](../monitor/prepare-send.md)
 * 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/delivery-reports.md)
 
