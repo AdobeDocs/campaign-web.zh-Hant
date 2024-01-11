@@ -15,7 +15,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="調和活動"
->abstract="**調和**&#x200B;活動是&#x200B;**目標定位**&#x200B;活動，它可讓您定義 Adobe Campaign 資料庫資料與工作表資料 (例如從外部檔案載入的資料) 之間的連結。例如，可以將&#x200B;**調和**&#x200B;活動放在&#x200B;**載入對象**&#x200B;活動之後，以將非標準資料匯入資料庫。在此情況下，**調和** 活動可讓您定義 Adobe Campaign 資料庫資料與外部資料表資料之間的連結。"
+>abstract="**調和**&#x200B;活動是&#x200B;**目標定位**&#x200B;活動，它可讓您定義 Adobe Campaign 資料庫資料與工作表資料 (例如從外部檔案載入的資料) 之間的連結。例如，可以將&#x200B;**調和**&#x200B;活動放在&#x200B;**載入對象**&#x200B;活動之後，以將非標準資料匯入資料庫。在此情況下，**調和**&#x200B;活動可讓您定義 Adobe Campaign 資料庫資料與外部資料表資料之間的連結。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
