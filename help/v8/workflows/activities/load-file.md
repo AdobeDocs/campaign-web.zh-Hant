@@ -3,10 +3,10 @@ audience: end-user
 title: 使用載入檔案工作流程活動
 description: 瞭解如何使用載入檔案工作流程活動
 badge: label="有限可用性"
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 43%
+source-wordcount: '323'
+ht-degree: 35%
 
 ---
 
@@ -52,7 +52,6 @@ ht-degree: 43%
 >title="載入檔案活動的格式化"
 >abstract="載入檔案活動的格式化"
 
-
 **載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動來處理儲存在外部檔案中的設定檔和資料。 設定檔和資料不會新增至資料庫，但輸入檔案中的所有欄位都可用於 [個人化](../../personalization/gs-personalization.md)，或更新設定檔或任何其他表格。
 
 >[!NOTE]
@@ -72,10 +71,12 @@ ht-degree: 43%
 
    ![](../assets/load-file.png)
 
-1. 調整欄設定以及從可用選項中格式化資料的方式。
+1. 使用 **欄** 區段來調整每欄的資料型別和寬度。
+
+1. 在 **格式化** 區段位於欄設定下，指定外部檔案的格式化，以確保資料正確匯入。
 
 1. 當設定正確時，按一下「**確認**」。
 
 ## 範例{#load-example}
 
-外部檔案載入的範例可在 **調解** 中的活動 [本節](reconciliation.md#example).
+外部檔案載入的範例，用於 **調解** 活動可在 [本節](reconciliation.md#example).

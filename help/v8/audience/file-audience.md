@@ -4,10 +4,10 @@ title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 40%
+source-wordcount: '618'
+ht-degree: 38%
 
 ---
 
@@ -26,14 +26,12 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="格式化參數"
->abstract="檢查外部檔案的格式化參數。"
-
+>abstract="指定外部檔案的格式，以確保資料正確匯入。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="預覽您的檔案"
 >abstract="檢查外部檔案的欄預覽。此畫面最多僅顯示 30 筆記錄。"
-
 
 您可以定位儲存在外部檔案中的設定檔。 設定檔不會新增至資料庫，但輸入檔案中的所有欄位都可用於 [個人化](../personalization/gs-personalization.md). 支援的檔案格式包括：文字 (TXT) 和逗號分隔值 (CSV)。本文會說明在建立獨立電子郵件傳遞時，如何載入外部設定檔。 若要從工作流程中的檔案載入資料，請參閱 [此頁面](../workflows/activities/load-file.md).
 
