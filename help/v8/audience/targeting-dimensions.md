@@ -2,9 +2,9 @@
 title: 目標定位維度
 description: 進一步瞭解Adobe Campaign網頁中的目標維度功能
 badge: label="有限可用性"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: 2770ddc3d0253d40c4432f71d2b192570e632a8e
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '397'
 ht-degree: 5%
 
 ---
@@ -13,9 +13,17 @@ ht-degree: 5%
 
 目標維度，亦稱為。 目標對應，是作業正在處理的資料型別。 它可讓您定義目標母體：設定檔、合約受益人、操作員、訂閱者等。
 
+## 工作流程的目標維度 {#workflow}
+
 工作流程的目標維度是由第一個維度定義 **[!UICONTROL 建立對象]** 活動，並用於所有後續活動，直到工作流程結束為止。 例如，如果對來自資料庫的設定檔執行查詢，出站轉變將包含「recipient」型別的資料，並將傳輸至下一個活動。
 
 請注意，您可以使用在工作流程中切換目標維度 [變更維度活動](../workflows/activities/change-dimension.md). 舉例來說，這可讓您查詢特定表格（例如購買或訂閱）上的資料庫，然後將目標維度變更為收件者，以便將傳送內容傳送至相對應的設定檔。
+
+選取目標維度時(在工作流程設定中或活動中，例如 **建立對象**， **調解** 或 **變更維度**)，則清單中預設會顯示一組常用的結構描述。 若要顯示所有可用的結構描述，請開啟 **[!UICONTROL 顯示所有結構描述]** 按鈕。 系統會為每個使用者儲存選項選取範圍。
+
+![](assets/targeting-dimension-show-all.png)
+
+## 目標定位維度 {#list}
 
 依預設，電子郵件和簡訊傳遞範本會定位設定檔。 因此，其目標維度會使用 **nms：recipient** 表格。 對於推播通知，預設目標維度為 **訂閱者應用程式nms：appSubscriptionRcp**，此資訊會連結至收件者表格。
 
