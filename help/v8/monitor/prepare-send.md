@@ -3,10 +3,10 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: 了解如何使用 Campaign Web UI 準備並傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="有限可用性"
+source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '892'
 ht-degree: 40%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 40%
 
 ## 暫停或停止傳送 {#pause-stop-sending}
 
-無論您的傳送是否已排程，在傳送程式期間隨時可以執行兩個動作：
+無論您的傳送是否已排程<!--TBC-->，在傳送程式期間可隨時執行兩個動作：
 
 * 按一下 **[!UICONTROL 暫停傳送]** 以中斷訊息的傳送。 您可以隨時恢復傳送。
 
