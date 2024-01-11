@@ -2,15 +2,14 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
-badge: label="Beta"
-exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+badge: label="有限可用性"
+exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 99%
 
 ---
-
 
 # 用於建立工作流程的主要原則 {#gs-workflow-creation}
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 工作流程圖表代表應該發生的情況。它會說明要執行的各種任務以及任務如何連結在一起。
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
 
 每個工作流程都包含：
 
@@ -57,4 +56,3 @@ ht-degree: 100%
 1. [協調和配置活動](orchestrate-activities.md)
 1. [配置您的工作流程進階設定](workflow-settings.md)
 1. [啟動您的工作流程並監控其執行情況](start-monitor-workflows.md)
-
