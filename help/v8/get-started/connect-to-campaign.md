@@ -3,10 +3,10 @@ title: 連線至 Adobe Campaign Web 介面
 description: 了解如何連線至 Adobe Campaign v8 Web 使用者介面
 badge: label="有限可用性"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 84%
+source-wordcount: '557'
+ht-degree: 81%
 
 ---
 
@@ -88,6 +88,12 @@ Campaign v8 Web 目前提供以下語言版本：
 1. 按一下右上角您的設定檔圖示，然後選取「**偏好設定**」。
 1. 然後，按一下您電子郵件地址下顯示的語言連結。
 1. 選取您偏好的語言，然後按一下「**儲存**」。您可以選取第二語言，以防您使用的元件沒有您第一語言的版本。
+
+>[!CAUTION]
+>
+>如果您打算使用AI支援的內容說明功能，必須將您偏好的語言設定為英文。 不支援其他語言。
+>
+
 
 ## 深色和淺色主題 {#dark-theme}
 
