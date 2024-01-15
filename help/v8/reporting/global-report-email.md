@@ -3,7 +3,7 @@ audience: end-user
 title: 電子郵件通道的全域報告
 description: 進一步瞭解電子郵件通道的全域報告
 badge: label="有限可用性"
-source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 6%
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 # 電子郵件通道的全域報告 {#global-report-direct}
 
-「全域」報表為使用者提供管道層級流量和參與量度的完整總覽。
+全域報表為使用者提供管道層級的流量和參與量度的完整總覽。
 
 導覽至 **[!UICONTROL 報表]** 功能表中的 **[!UICONTROL 報告]** 區段。 您可以根據報表日期、資料夾或規則來篩選資料。 [了解更多](global-reports.md)
 

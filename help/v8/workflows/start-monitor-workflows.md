@@ -4,14 +4,14 @@ title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 badge: label="有限可用性"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '571'
 ht-degree: 4%
 
 ---
 
-# 開始並監視工作流程 {#start-monitor}
+# 開始和監視您的工作流程 {#start-monitor}
 
 一旦您建立了工作流程並設計了要在畫布中執行的任務，您就可以啟動它並監視其執行方式。
 

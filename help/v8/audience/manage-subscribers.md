@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 管理服務的訂閱者
+title: 管理訂閱者
 description: 瞭解如何在Adobe Campaign Web中管理服務並交付給訂閱者
 badge: label="Beta"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-# 管理服務的訂閱者 {#manage-subscribers}
+# 管理訂閱者 {#manage-subscribers}
 
 一旦您 [已建立服務](manage-services.md#create-service)，您可以新增訂閱者、取消訂閱收件者，以及傳送訊息給該服務的訂閱者。
 

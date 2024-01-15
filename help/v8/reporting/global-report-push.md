@@ -3,7 +3,7 @@ audience: end-user
 title: 推播通道的全域報表
 description: 瞭解推播通道的全域報表
 badge: label="有限可用性"
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # 推播通道的全域報表 {#campaign-reports-push}
 
-「全域」報表為使用者提供管道層級流量和參與量度的完整總覽。
+全域報表為使用者提供管道層級的流量和參與量度的完整總覽。
 
 導覽至 **[!UICONTROL 報表]** 功能表中的 **[!UICONTROL 報告]** 區段。 您可以根據報表日期、資料夾或規則來篩選資料。 [了解更多](global-reports.md)
 

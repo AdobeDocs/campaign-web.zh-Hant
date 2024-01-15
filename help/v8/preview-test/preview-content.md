@@ -4,15 +4,15 @@ title: 預覽傳遞內容
 description: 瞭解如何使用Campaign Web UI預覽您的傳遞內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="有限可用性"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 1%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
 
-# 預覽傳遞內容 {#preview-content}
+# 預覽訊息內容。 {#preview-content}
 
 使用 [!DNL Campaign] 內容模擬功能，可在傳送訊息前預覽訊息內容。 這可讓您控制個人化，並檢查其向收件者顯示的方式。
 

@@ -4,14 +4,14 @@ title: 傳送訊息給服務的訂閱者
 description: 瞭解如何傳送訊息給服務的訂閱者
 badge: label="Beta"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# 傳送訊息給服務的訂閱者
+# 傳送訊息給服務的訂閱者 {#send-to-subscribers}
 
 您可以在Adobe Campaign中建立訂閱服務，並傳送訊息給訂閱者。 瞭解如何在中建立訂閱服務 [此頁面](../audience//manage-services.md#create-service).
 

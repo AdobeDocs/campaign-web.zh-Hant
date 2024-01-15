@@ -4,14 +4,14 @@ title: 使用電子郵件設計工具內容元件
 description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="有限可用性"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 67%
 
 ---
 
-# 使用電子郵件設計工具內容 {#content-components}
+# 使用內容元件 {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

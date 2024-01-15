@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 瀏覽、搜尋和篩選清單
+title: 瀏覽及篩選清單
 description: 探索如何瀏覽和篩選清單 Campaign Web v8
 badge: label="可用性限制"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 81%
+source-wordcount: '239'
+ht-degree: 78%
 
 ---
 
-# 瀏覽、搜尋和篩選清單 {#list-screens}
+# 瀏覽及篩選清單 {#list-screens}
 
 左側導覽功能表中的大部分連結會顯示物件清單，例如，**傳遞**&#x200B;或&#x200B;**行銷活動**&#x200B;的清單。這些清單畫面部分為唯讀。您可以自訂清單顯示，並篩選這些清單，如下所述。
 

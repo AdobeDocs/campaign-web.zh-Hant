@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: 使用 Adobe Campaign Web 建立工作流程
-description: 了解如何使用 Adobe Campaign Web 建置工作流程
+title: 設定工作流程設定
+description: 瞭解如何使用Adobe Campaign Web進行工作流程設定
 badge: label="有限可用性"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 29%
+source-wordcount: '911'
+ht-degree: 27%
 
 ---
+
 
 # 設定工作流程設定 {#workflow-settings}
 

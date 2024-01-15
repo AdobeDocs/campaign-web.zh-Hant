@@ -4,14 +4,14 @@ title: 傳送推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送推播通知傳遞
 badge: label="有限可用性"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 2%
+source-wordcount: '386'
+ht-degree: 1%
 
 ---
 
-# 預覽並傳送推播通知傳遞 {#send-push-delivery}
+# 預覽和傳送推播傳遞 {#send-push-delivery}
 
 ## 預覽推播通知傳遞 {#preview-push}
 

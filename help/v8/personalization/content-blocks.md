@@ -7,14 +7,14 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 60%
+source-wordcount: '429'
+ht-degree: 61%
 
 ---
 
-# 內建的內容區塊 {#ootb-content-blocks}
+# 新增內建的內容區塊 {#ootb-content-blocks}
 
 Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊為動態、個人化的區塊，並具備您可插入傳遞中的特定轉譯。 例如，您可以新增標誌、問候語訊息或映象頁面的連結。
 

@@ -4,14 +4,14 @@ title: 建立傳遞的一次性對象
 description: 瞭解如何建立傳遞的一次性對象。
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 28%
+source-wordcount: '227'
+ht-degree: 30%
 
 ---
 
-# 建立傳遞的一次性對象 {#sone-time}
+# 建立一次性對象 {#one-time}
 
 本節說明如何在建立新傳送時建立對象。 在此情況下，會使用查詢模組化工具查詢資料庫，以定位傳送對象中要包含的收件者。
 
