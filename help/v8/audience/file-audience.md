@@ -4,9 +4,9 @@ title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '619'
 ht-degree: 38%
 
 ---

@@ -6,10 +6,10 @@ title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 85%
+source-wordcount: '531'
+ht-degree: 82%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 85%
    + [開始使用](get-started/get-started.md)
    + [連線至 Campaign](get-started/connect-to-campaign.md)
    + [探索介面](get-started/user-interface.md)
-   + [瀏覽、搜尋和篩選清單](get-started/list-filters.md)
+   + [瀏覽及篩選清單](get-started/list-filters.md)
    + [使用預先定義的篩選器](get-started/predefined-filters.md)
    + [存取權與權限](get-started/permissions.md)
    + [護欄和限制](get-started/guardrails.md)
    + [不支援的功能](get-started/unsupported.md)
    + [AI支援的內容說明](get-started/using-ai.md)
-+ 訊息和傳遞 {#msg}
++ 訊息與傳遞 {#msg}
    + [開始使用訊息](msg/gs-messages.md)
    + [使用傳遞](msg/gs-deliveries.md)
    + [使用傳遞範本](msg/delivery-template.md)
@@ -70,7 +70,7 @@ ht-degree: 85%
       + [開始使用推播通知](push/gs-push.md)
       + [建立推播通知傳遞](push/create-push.md)
       + [設計推播傳遞](push/content-push.md)
-      + [預覽並傳送推播通知傳遞](push/send-push.md)
+      + [預覽和傳送推播傳遞](push/send-push.md)
    + 簡訊 {#sms}
       + [開始使用簡訊傳遞](sms/gs-sms.md)
       + [建立簡訊傳遞](sms/create-sms.md)
@@ -79,7 +79,7 @@ ht-degree: 85%
    + 製作您的動態內容 {#dynamic-content}
       + [開始使用動態內容](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
-      + [新增條件內容](personalization/conditions.md)
+      + [建立條件內容](personalization/conditions.md)
       + [新增內建的內容區塊](personalization/content-blocks.md)
    + [將優惠新增至您的訊息](msg/offers.md)
    + [向您的訂閱者傳送訊息](msg/send-to-subscribers.md)
@@ -87,37 +87,37 @@ ht-degree: 85%
       + [關於預覽和測試](preview-test/preview-test.md)
       + [預覽訊息內容。](preview-test/preview-content.md)
       + [傳送測試傳遞](preview-test/test-deliveries.md)
-      + [呈現您的電子郵件](preview-test/email-rendering.md)
+      + [測試電子郵件轉譯](preview-test/email-rendering.md)
 + 設定檔與對象 {#audiences}
    + [開始使用設定檔和對象](audience/gs-audiences-recipients.md)
    + [目標定位維度](audience/targeting-dimensions.md)
    + 使用設定檔 {#work-with-profiles}
-      + [監視與管理設定檔](audience/about-recipients.md)
-      + [建立及管理測試設定檔](audience/test-profiles.md)
+      + [監視和管理設定檔](audience/about-recipients.md)
+      + [建立和管理測試設定檔](audience/test-profiles.md)
    + 使用對象 {#audiences}
       + [建立對象](audience/create-audience.md)
-      + [檢視和管理對象](audience/manage-audience.md)
+      + [監視和管理對象](audience/manage-audience.md)
    + 選取您的傳遞收件者 {#target-audiences}
       + [選取現有對象](audience/add-audience.md)
       + [建立一次性對象](audience/one-time-audience.md)
-      + [從檔案載入對象](audience/file-audience.md)
+      + [從檔案載入電子郵件對象](audience/file-audience.md)
       + [設定控制組](audience/control-group.md)
    + 使用訂閱服務 {#work-with-services}
-      + [管理服務](audience/manage-services.md)
+      + [建立和管理訂閱服務](audience/manage-services.md)
       + [管理訂閱者](audience/manage-subscribers.md)
 + 跨管道行銷活動 {#campaigns}
    + [開始使用行銷活動](campaigns/gs-campaigns.md)
-   + [存取和管理行銷活動](campaigns/manage-campaigns.md)
+   + [存取和管理您的行銷活動](campaigns/manage-campaigns.md)
    + [建立您的第一個行銷活動](campaigns/create-campaigns.md)
 + 工作流程 {#wf}
    + [開始使用工作流程](workflows/gs-workflows.md)
-   + [存取和管理工作流程](workflows/access-monitor.md)
-   + 建立和執行您的第一個工作流程 {#create-workflow}
+   + [存取並管理工作流程](workflows/access-monitor.md)
+   + 建立並執行您的第一個工作流程 {#create-workflow}
       + [用於建立工作流程的主要原則](workflows/gs-workflow-creation.md)
       + [建立工作流程](workflows/create-workflow.md)
       + [協調活動](workflows/orchestrate-activities.md)
       + [設定工作流程設定](workflows/workflow-settings.md)
-      + [開始並監視工作流程](workflows/start-monitor-workflows.md)
+      + [開始和監視您的工作流程](workflows/start-monitor-workflows.md)
    + 使用工作流程活動 {#design-workflows}
       + [關於工作流程活動](workflows/activities/about-activities.md)
       + [合併連結](workflows/activities/and-join.md)

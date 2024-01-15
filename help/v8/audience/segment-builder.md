@@ -4,10 +4,10 @@ title: 使用Campaign規則產生器建立對象
 description: 瞭解如何使用規則產生器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 60%
+source-wordcount: '563'
+ht-degree: 59%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 60%
 
 * **屬性**：此索引標籤可讓您存取綱要中的所有可用欄位。欄位清單取決於電子郵件範本中定義的目標定位綱要。
 
-* **受眾**：此索引標籤可讓您使用Campaign Classic主控台中或Adobe Experience Platform中定義的其中一個現有對象進行篩選。 [瞭解如何監視和管理對象](manage-audience.md)
+* **受眾**：此索引標籤可讓您使用Campaign Classic主控台中或Adobe Experience Platform中定義的其中一個現有對象進行篩選。 瞭解如何在中監視和管理對象 [本節](manage-audience.md)
 
   >[!NOTE]
   >
