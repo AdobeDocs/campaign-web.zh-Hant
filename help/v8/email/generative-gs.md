@@ -6,20 +6,29 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 34%
+source-wordcount: '499'
+ht-degree: 31%
 
 ---
 
 # 開始使用內容助理 {#generative-gs}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="適用於電子郵件內容的 Gen AI"
+>abstract="我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。透過Gen AI的智慧型內容產生功能，提高開啟率、點進率和轉換率。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱版本注意事項"
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_rn5"
 >title="適用於電子郵件內容的 Gen AI"
->abstract="我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。在電子郵件內容上利用 Gen AI，保持競爭優勢並提升您的電子郵件行銷水準。"
+>abstract="我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。透過Gen AI的智慧型內容產生功能，提高開啟率、點進率和轉換率。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱版本注意事項"
+
+<!--TO REMOVE ABOVE-->
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"

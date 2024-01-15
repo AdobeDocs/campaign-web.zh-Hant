@@ -4,19 +4,85 @@ description: Campaign Web v8 說明中心
 title: Adobe Campaign Web v8 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="有限可用性"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 96%
+source-wordcount: '668'
+ht-degree: 93%
 
 ---
 
 # Adobe Campaign v8 Web 文件 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card1"
+>title="說明和文件"
+>abstract="Campaign 現在會提供新的 Web 使用者介面 (UI)，具有增強的可用性、可存取性和新設計，可大幅提升您的使用者體驗。這個新的現代 UI 會簡化行銷活動的設計和傳遞，並帶來一致性和其他 Adobe 解決方案。"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_title"
+>title="體驗新的 Adobe Campaign 使用者介面"
+>abstract="更現代、更直覺、更動態。"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list1"
+>title="專案1"
+>abstract="新電子郵件、簡訊和推播通知設計體驗"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list2"
+>title="專案2"
+>abstract="簡化的工作流程畫布介面"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list3"
+>title="專案3"
+>abstract="為對象重新設計的 UX、訂閱和服務、AEM Assets"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list4"
+>title="專案4"
+>abstract="電子郵件生成式 AI：基於提示的電子郵件產生"
+
+<!--
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list5"
+>title="Item 5"
+>abstract="Additional Item"-->
+
+<!-- TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="說明和文件"
 >abstract="Campaign 現在會提供新的 Web 使用者介面 (UI)，具有增強的可用性、可存取性和新設計，可大幅提升您的使用者體驗。這個新的現代 UI 會簡化行銷活動的設計和傳遞，並帶來一致性和其他 Adobe 解決方案。"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_title"
+>title="體驗新的 Adobe Campaign 使用者介面"
+>abstract="更現代、更直覺、更動態。"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list1"
+>title="專案1"
+>abstract="新電子郵件、簡訊和推播通知設計體驗"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list2"
+>title="專案2"
+>abstract="簡化的工作流程畫布介面"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list3"
+>title="專案3"
+>abstract="為對象重新設計的 UX、訂閱和服務、AEM Assets"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list4"
+>title="專案4"
+>abstract="電子郵件生成式 AI：基於提示的電子郵件產生"
+
+<!--TO REMOVE ABOVE-->
+
 
 Campaign 現在會提供新的 Web 使用者介面 (UI)，具有增強的可用性、可存取性和新設計，可大幅提升您的使用者體驗。這個新的現代 UI 簡化了行銷活動的設計和傳遞，並帶來一致性，與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 相符。[了解更多](get-started/get-started.md)
 

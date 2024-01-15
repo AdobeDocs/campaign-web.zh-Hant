@@ -4,20 +4,31 @@ title: 傳送您的第一個電子郵件
 description: 了解如何使用 Campaign Web UI 傳送您的第一個電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="有限可用性"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 67%
+source-wordcount: '1351'
+ht-degree: 71%
 
 ---
 
 
-# 傳送您的第一個電子郵件 {#first-email}
+# 建立您的第一個電子郵件 {#first-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card3"
+>title="開始使用電子郵件"
+>abstract="您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的環境中建立電子郵件。了解如何建立傳遞、選取對象以及設計電子郵件內容。"
+
+
+<!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="開始使用電子郵件"
 >abstract="您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的環境中建立電子郵件。了解如何建立傳遞、選取對象以及設計電子郵件內容。"
+
+<!--TO REMOVE ABOVE-->
+
+
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
@@ -73,7 +84,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="選取傳遞對象"
->abstract="為您的行銷訊息選取最佳對象。您可以選擇現有對象(已在Campaign v8執行個體中或從Adobe Experience Platform中定義)，使用查詢塑模器建立新對象，或上傳包含對象的檔案。 「**從檔案中選取**」選項未啟用控制組，反之亦然。"
+>abstract="為您的行銷訊息選取最佳對象。您可以選擇現有對象 (已在 Campaign v8 執行個體中定義或來自 Adobe Experience Platform)、使用查詢建模工具建立新對象，或上傳包含您對象的檔案。「**從檔案中選取**」選項未啟用控制組，反之亦然。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="選取主要對象"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="設定控制組"
 

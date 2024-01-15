@@ -7,7 +7,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '1533'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 39%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
->title="推播Android訊息"
+>title="推播 Android 訊息"
 >abstract="定義 Android 裝置的推播通知內容。若要撰寫訊息，請按一下「**標題**」和「**訊息**」欄位。使用運算式編輯器來個人化資料並新增動態內容。若要進一步個人化推播通知，您可以選擇要新增至推播通知的影像，以及要在設定檔裝置上顯示的通知圖示和圖示顏色。若需更多自訂設定，請前往「**進階設定**」區段。"
 
 

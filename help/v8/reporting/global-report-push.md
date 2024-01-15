@@ -6,7 +6,7 @@ badge: label="有限可用性"
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 4%
+ht-degree: 26%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_push_global_report_overview"
 >title="推播傳遞概觀"
->abstract="推播 **傳遞概覽** KPI可徹底檢查推播傳送，提供詳細的深入分析和特定資料。 它會提供有關傳遞效能、有效性和結果的完整細節。"
+>abstract="推播&#x200B;**傳遞概觀** KPI 可對您的推播傳遞進行徹底檢查，提供詳細的見解和特定資料。它提供了有關傳遞績效、有效性和結果的全面詳細資訊。"
 
 此 **[!UICONTROL 傳遞概覽]** 報告提供關鍵績效指標(KPI)，用於提供關於訪客如何參與每個推播通知傳送的詳細資訊。 量度詳情如下。
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_targeted_audience"
 >title="推播目標族群"
->abstract="此 **目標母體** 圖形和表格會顯示與您的推送訊息對象相關的資料，呈現有關要傳送的訊息和排除專案的資訊。"
+>abstract="**目標族群**&#x200B;圖表和表格顯示與推播訊息對象相關的資料，顯示有關要傳遞和排除的訊息。"
 
 此 **[!UICONTROL 目標對象]** 表格和圖表會顯示每個已傳送推播通知傳遞的收件者相關資料。 量度詳情如下。
 
@@ -67,7 +67,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_delivery_stats"
 >title="推播傳遞統計資料"
->abstract="此 **整體統計資料** 報告提供有關已傳送推播通知的資訊，包括成功率、錯誤和隔離。"
+>abstract="**整體統計資料**&#x200B;報告提供有關已傳送推送播通知的資訊，包括成功率、錯誤和隔離。"
 
 此 **[!UICONTROL 傳遞統計資料]** 表格詳細說明每個推播通知傳送的成功情況。 量度詳情如下。
 
@@ -91,8 +91,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_exclusion"
->title="排除的推播原因"
->abstract="此 **排除的原因** 圖表和表格說明阻止使用者設定檔接收推播通知的各種原因。"
+>title="推播排除的原因"
+>abstract="**排除的原因**&#x200B;圖表和表格說明了阻止使用者設定檔接收推播通知的多種原因。"
 
 此 **[!UICONTROL 排除的原因]** 圖形和表格會顯示使用者設定檔（從目標設定檔排除）無法接收訊息的原因。
 
@@ -103,7 +103,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_push"
 >title="傳遞輸送量報告"
->abstract="此 **傳遞總處理能力** 報表會顯示指定時間範圍內整個平台之推播通知傳遞輸送量的詳細資訊。"
+>abstract="**傳遞輸送量**&#x200B;報告提供有關特定期間內整個平台推播通知傳遞輸送量的詳細資訊。"
 
 ![](assets/global_report_push_delivery_throughput.png)
 

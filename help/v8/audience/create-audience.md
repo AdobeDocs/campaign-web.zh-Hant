@@ -4,10 +4,10 @@ title: 建立對象
 description: 瞭解如何在Adobe Campaign Web中建立對象
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 22%
+source-wordcount: '678'
+ht-degree: 29%
 
 ---
 
@@ -16,10 +16,21 @@ ht-degree: 22%
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_rn1"
+>id="acw_homepage_welcome_rn1"
 >title="對象構成"
 >abstract="在視覺化工作流程畫布中建立新對象。除了從頭開始建立簡單的對象之外，您還可以利用工作流程活動來調整對象。將多個對象合併為單一對象，使用外部屬性擴充對象，或根據您選擇的規則將其分成多個對象。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱版本注意事項"
+
+<!--TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage__rn1"
+>title="對象構成"
+>abstract="在視覺化工作流程畫布中建立新對象。除了從頭開始建立簡單的對象之外，您還可以利用工作流程活動來調整對象。將多個對象合併為單一對象，使用外部屬性擴充對象，或根據您選擇的規則將其分成多個對象。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱版本注意事項"
+
+<!--TO REMOVE ABOVE-->
+
 
 
 >[!CONTEXTUALHELP]
@@ -68,7 +79,7 @@ Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從�
 
 1. 當工作流程準備就緒時，按一下 **[!UICONTROL 開始]** 以執行。
 
-工作流程會儲存在 **[!UICONTROL 工作流程]** 清單，而可在中存取產生的對象 **[!UICONTROL 受眾]** 清單。 [瞭解如何監視和管理對象](manage-audience.md)
+工作流程會儲存在 **[!UICONTROL 工作流程]** 清單，而可在中存取產生的對象 **[!UICONTROL 受眾]** 清單。 瞭解如何監控和管理對象 [本節](manage-audience.md)
 
 您現在可以使用此對象作為傳送的主要目標。 [了解更多](add-audience.md)
 

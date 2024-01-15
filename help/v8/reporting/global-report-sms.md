@@ -6,7 +6,7 @@ badge: label="有限可用性"
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 4%
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_sms_global_report_overview"
 >title="SMS 傳遞概觀"
->abstract="此 **簡訊傳送概覽** KPI會提供SMS傳送的完整摘要、詳細深入分析和特定資料。 它提供關於您傳送之效能、效益和結果的全面資訊。"
+>abstract=" **SMS 傳遞概觀** KPI 提供了 SMS 傳遞的全面摘要，提供詳細的見解和具體資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
 
 此 **[!UICONTROL 傳遞概覽]** 報告提供全面的關鍵績效指標(KPI)，深入分析訪客與每個SMS傳送的互動模式。 以下為下列量度。
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="SMS 目標族群"
->abstract="的圖表和表格 **目標人口** 呈現與您的SMS對象相關的資料，包括要傳送的訊息和排除專案的資訊。"
+>abstract="**目標族群**&#x200B;的圖表和表格顯示與您的 SMS 對象相關的資料，包括有關要傳遞的訊息和排除的資訊。"
 
 此 **[!UICONTROL 目標對象]** 表格和圖表會顯示每個已傳送SMS傳遞的收件者相關資料。 量度詳情如下。
 
@@ -67,7 +67,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_delivery_stats"
 >title="簡訊傳遞統計資料"
->abstract="此 **傳遞統計資料** 報告提供所傳送SMS的完整深入分析，並提供各種量度的劃分，例如成功率、錯誤發生次數和隔離的受眾。 此詳細簡報可讓您徹底檢查SMS傳送程式的整體效能和結果。"
+>abstract="**傳遞統計資料**&#x200B;報告提供了對傳送的簡訊的全面見解，提供了各種指標的詳細資訊，例如成功率、錯誤發生次數和被隔離的對象。透過這份詳細的簡報，可以全面檢查簡訊傳遞過程的整體績效和結果。"
 
 此 **[!UICONTROL 傳遞統計資料]** 表格詳細說明您每次SMS傳送的成功情況。 量度詳情如下。
 
@@ -91,8 +91,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_exclusions"
->title="SMS排除原因"
->abstract="此 **排除的原因** 圖表和表格說明阻止使用者設定檔接收SMS訊息的各種原因。"
+>title="簡訊排除的原因"
+>abstract="**排除的原因**&#x200B;圖表和表格說明了阻止使用者設定檔接收簡訊推播通知的多種原因。"
 
 此 **[!UICONTROL 排除的原因]** 圖形和表格會顯示從目標設定檔排除的使用者設定檔無法接收簡訊傳送的原因。
 
@@ -104,8 +104,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_sms"
->title="SMS 傳遞輸送量"
->abstract="此 **傳遞總處理能力** 報表提供有關SMS訊息傳送系統效率的廣泛深入分析，呈現指定時間範圍內成功和錯誤率的詳細概觀。"
+>title="簡訊傳遞輸送量"
+>abstract="**傳遞輸送量**&#x200B;報告提供了有關簡訊傳遞系統效率的廣泛見解，詳細概述了指定時間範圍內的成功率和錯誤率。"
 
 ![](assets/global_report_sms_delivery_throughput.png)
 

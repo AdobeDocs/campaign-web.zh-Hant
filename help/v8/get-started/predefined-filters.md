@@ -1,21 +1,31 @@
 ---
-title: 建立和使用預先定義的篩選器
+title: 使用預先定義的篩選器
 description: 了解如何在 Adobe Campaign Web UI 中建立和管理預先定義的篩選器
 badge: label="有限可用性"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 84%
+source-wordcount: '822'
+ht-degree: 85%
 
 ---
 
 # 使用預先定義的篩選器 {#predefined-filters}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card4"
+>title="預先定義的篩選器管理"
+>abstract="Campaign Web 現在為您提供了人性化介面，可以輕鬆管理和自訂預先定義的篩選器，以滿足您的特定需求。建立一次並儲存以供未來使用。"
+
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="預先定義的篩選器管理"
 >abstract="Campaign Web 現在為您提供了人性化介面，可以輕鬆管理和自訂預先定義的篩選器，以滿足您的特定需求。建立一次並儲存以供未來使用。"
+
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"

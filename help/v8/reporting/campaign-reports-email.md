@@ -47,7 +47,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="初始目標對象統計資料"
->abstract="初始目標對象統計資料表格會顯示與收件者相關的資料。"
+>abstract="初始目標對象統計資料表可顯示與您收件者相關的資料。"
 
 此 **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料。 量度詳情如下。
 
