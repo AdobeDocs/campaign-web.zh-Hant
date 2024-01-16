@@ -4,10 +4,10 @@ title: 開始使用 Campaign v8 Web
 description: 開始使用 Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="有限可用性"
-source-git-commit: e968d63133adf5d5cc52124ce684047039f7232f
+source-git-commit: f12aebe0a87a15cf9560de61e28d68601e40bd2f
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 95%
+source-wordcount: '444'
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,20 @@ ht-degree: 95%
 >title="開始使用"
 >abstract="新的 Campaign v8 Web 介面提供了整合、直覺和一致性的使用者體驗。"
 
-<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learnmore"
+>title="開始使用"
+>abstract="新的 Campaign v8 Web 介面提供了整合、直覺和一致性的使用者體驗。"
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="開始使用"
 >abstract="新的 Campaign v8 Web 介面提供了整合、直覺和一致性的使用者體驗。"
 
-<!--TO REMOVE ABOVE-->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learnmore"
+>title="開始使用"
+>abstract="新的 Campaign v8 Web 介面提供了整合、直覺和一致性的使用者體驗。"
 
 Adobe Campaign 提供了設計跨管道客戶體驗的平台，以及適用於視覺行銷活動協調流程、即時互動管理和跨管道執行的環境。
 
@@ -40,7 +47,7 @@ Adobe Campaign 提供了設計跨管道客戶體驗的平台，以及適用於�
 
 >[!NOTE]
 >
->Campaign v8網站目前為「有限可用性(LA)」版本。 僅限少數LA客戶存取。 請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
+>Campaign v8 Web 目前為有限可用性 (LA) 版本。只有一小群 LA 客戶可以存取。請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
 
 在[此頁面](connect-to-campaign.md)中了解如何連線至 Adobe Campaign Web。
 
