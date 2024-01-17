@@ -4,9 +4,9 @@ title: 傳送測試傳遞
 description: 瞭解如何定義並傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="有限可用性"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1189'
 ht-degree: 13%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 13%
 
 1. 如果您已選取設定檔至 [預覽訊息](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔作為測試收件者。 您可以使用「 」清除選擇和/或新增其他收件者 **[!UICONTROL 新增測試設定檔]** 按鈕。
 
-1. 瀏覽測試設定檔清單時，您可以使用篩選器來調整搜尋。
+1. 瀏覽測試設定檔或設定檔清單時，您可以使用篩選器來縮小搜尋範圍。
 
    ![](assets/simulate-test-profile-filter.png)
 

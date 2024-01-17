@@ -4,9 +4,9 @@ title: 預覽傳遞內容
 description: 瞭解如何使用Campaign Web UI預覽您的傳遞內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="有限可用性"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '384'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,12 @@ ht-degree: 2%
      >[!NOTE]
      >
      >您也可以從Campaign網頁UI中的對應索引標籤，檢視及管理設定檔。 [了解更多](../audience/about-recipients.md)
+
+1. 瀏覽測試設定檔或設定檔清單時，您可以使用篩選器來縮小搜尋範圍。
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   例如，您可以定義規則以尋找所有具有 **[!UICONTROL 潛在客戶]** 狀態。 瞭解如何使用新增規則 [查詢模型工具](../query/query-modeler-overview.md).
 
 1. 按一下 **[!UICONTROL 選取]** 以確認您的選取。
 
