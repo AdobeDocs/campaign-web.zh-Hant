@@ -5,7 +5,7 @@ description: 進一步了解 Campaign Web v8 的權限
 badge: label="有限可用性"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
 ht-degree: 100%
 

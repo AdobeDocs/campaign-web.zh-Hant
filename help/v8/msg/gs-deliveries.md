@@ -1,16 +1,16 @@
 ---
 product: campaign
 title: 使用傳遞
-description: 瞭解如何在Campaign網頁中建立您的第一個傳遞
+description: 了解如何在 Campaign Web 中建立您的第一個傳遞
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 badge: label="有限可用性"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 95%
 
    ![](assets/create-a-delivery.png)
 
-1. 選擇傳遞的管道。
+1. 選擇要用於傳遞的管道。
 1. 定義主要目標和控制組的傳遞對象。若要了解對象的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
 
    ![](assets/select-audience.png){width="70%" align="left"}
 
-1. 定義訊息內容。 若要了解傳遞管道以及如何定義傳遞內容的詳細資訊，請參閱以下章節：
+1. 定義訊息內容。若要了解傳遞管道以及如何定義傳遞內容的詳細資訊，請參閱以下章節：
 
    * [電子郵件管道](../email/create-email.md)
    * [推播通知管道](../push/gs-push.md)
@@ -60,8 +60,8 @@ ht-degree: 95%
 若要在工作流程中建立傳遞，請依照以下步驟進行：
 
 1. 建立一個工作流程或開啟一個現有的工作流程。若要了解工作流程的詳細資訊，請參閱[本頁面](../workflows/gs-workflow-creation.md#gs-workflow-steps)。
-1. 新增並設定 **[!UICONTROL 建立對象]** 活動。 進一步瞭解 **[!UICONTROL 建立對象]** 中的活動 [本節](../workflows/activities/build-audience.md).
-1. 按一下 `+` 圖示並選取傳送活動： **[!UICONTROL 電子郵件]**， **[!UICONTROL 簡訊]**， **[!UICONTROL 推播通知(Android)]** 或 **[!UICONTROL 推播通知(iOS)]**. 若要了解工作流程中的傳遞管道活動以及如何定義傳遞內容的詳細資訊，請參閱本[章節](../workflows/activities/channels.md)。
+1. 新增並設定&#x200B;**[!UICONTROL 建置對象]**&#x200B;活動。若要深入了解[建置對象](../workflows/activities/build-audience.md)活動，請參閱&#x200B;**[!UICONTROL 本章節]**。
+1. 按一下 `+` 圖示並選取傳遞活動：**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL 推播通知 (Android)]** 或&#x200B;**[!UICONTROL 推播通知 (iOS)]**。若要了解工作流程中的傳遞管道活動以及如何定義傳遞內容的詳細資訊，請參閱本[章節](../workflows/activities/channels.md)。
 
    ![](assets/add-delivery-in-wf.png)
 
@@ -80,7 +80,7 @@ ht-degree: 95%
 
 ## 新增個人化 {#personalization}
 
-Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[進一步瞭解個人化功能](../personalization/gs-personalization.md).
+Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[深入了解個人化功能](../personalization/gs-personalization.md)。
 
 使用 Campaign 建立動態內容並傳送個人化訊息。可合併個人化功能以改善您的訊息並建立自訂的使用者體驗。
 

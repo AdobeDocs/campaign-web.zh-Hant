@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Campaign Web 建立和傳送推播通知
 badge: label="Beta"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 67%
 
 若要建立推播通知，您有以下三種選項：
 
-* **工作流程**：將推播頻道活動新增至工作流程並設定基本設定後，您就可以從右側窗格功能表製作推播通知的內容。 如需有關如何設定工作流程的詳細說明，請參閱本頁面。
+* **工作流程**：在將推播管道活動新增到您的工作流程並設定基本設定後，您就可以從右側窗格選單中製作推播通知的內容。如需有關如何設定工作流程的詳細說明，請參閱本頁面。
 
-* **行銷活動**：建立行銷活動後，您可以建立推播通知傳送。 如需有關設定行銷活動的詳細資訊，請參閱本頁面。
+* **行銷活動**：建立行銷活動後，您就可以建立推播通知傳遞。如需有關設定行銷活動的詳細資訊，請參閱本頁面。
 
-* **獨立傳送**：透過個別推播通知傳送，直接且立即吸引客戶，不需要工作流程或行銷活動。
+* **獨立傳遞**：使用個別的推播通知傳遞，與客戶進行直接和立即的互動，而不需要工作流程或行銷活動。
 
 ![](../assets/do-not-localize/book.png)若要了解如何設定推播通知管道，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}。
 
