@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="有限可用性"
-source-git-commit: 929edb45cb8f0c79b878e8b5e9f1f62e3679688b
+source-git-commit: 0d9d61e8561d21bca00cb5c274884624119eaa53
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 16%
+source-wordcount: '802'
+ht-degree: 15%
 
 ---
 
@@ -106,7 +106,7 @@ ht-degree: 16%
 
    ![](assets/content-template-create.png)
 
-1. 填寫範本詳細資訊。 您可以選取要儲存範本的資料夾。 依預設，內容範本會儲存在Adobe Campaign階層的專用節點中： **[!UICONTROL 瀏覽器]** > **[!UICONTROL 資源]** > **[!UICONTROL 範本]** > **[!UICONTROL 內容範本]**. [瞭解如何建立資料夾](../get-started/permissions.md#folders)
+1. 填寫範本詳細資訊。 您可以選取要儲存範本的資料夾。 依預設，內容範本儲存在Adobe Campaign階層的專用資料夾中： **[!UICONTROL 瀏覽器]** > **[!UICONTROL 資源]** > **[!UICONTROL 範本]** > **[!UICONTROL 內容範本]**. [瞭解如何建立資料夾](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
@@ -136,7 +136,11 @@ ht-degree: 16%
 
    ![](assets/content-template-save-back.png)
 
-現在，在內建置任何電子郵件時，就可以使用此範本 [!DNL Adobe Campaign]. [了解做法](use-email-templates.md)
+範本會儲存至Adobe Campaign階層的預設資料夾(**[!UICONTROL 瀏覽器]** > **[!UICONTROL 資源]** > **[!UICONTROL 範本]** > **[!UICONTROL 內容範本]**)。 [進一步瞭解資料夾](../get-started/permissions.md#folders)
+
+它也會顯示在 **[!UICONTROL 內容範本]** 清單。 [了解更多](#access-manage-templates)
+
+您現在可以使用此範本建立新內容：此範本位於 **[!UICONTROL 已儲存的範本]** 電子郵件設計工具的索引標籤。 [了解做法](use-email-templates.md)
 
 ### 將電子郵件內容另存為範本 {#save-as-template}
 
@@ -154,11 +158,13 @@ ht-degree: 16%
 
    ![](assets/email_designer-template-name.png)
 
+範本會儲存至Adobe Campaign階層的預設資料夾(**[!UICONTROL 瀏覽器]** > **[!UICONTROL 資源]** > **[!UICONTROL 範本]** > **[!UICONTROL 內容範本]**)。 [進一步瞭解資料夾](../get-started/permissions.md#folders)
+
+它也會顯示在 **[!UICONTROL 內容範本]** 清單。 它會變成獨立的內容範本，可以像該清單上的任何其他專案一樣加以存取、編輯及刪除。 [了解更多](#access-manage-templates)
+
 您現在可以使用此範本建立新內容：此範本位於 **[!UICONTROL 已儲存的範本]** 電子郵件設計工具的索引標籤。 [了解做法](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
-
-範本會儲存至 **[!UICONTROL 內容範本]** 清單，可從存取 [!DNL Adobe Campaign] 專用功能表。 它會變成獨立的內容範本，可以像該清單上的任何其他專案一樣加以存取、編輯及刪除。 [了解更多](#access-manage-templates)
 
 >[!NOTE]
 >
