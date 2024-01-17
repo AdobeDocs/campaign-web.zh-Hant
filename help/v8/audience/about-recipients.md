@@ -2,10 +2,10 @@
 title: 監視和管理設定檔
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
 badge: label="有限可用性"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 44%
+ht-degree: 43%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="設定檔"
->abstract="設定檔代表個人，旨在接收 Adobe Campaign 傳送的訊息。在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
+>abstract="設定檔是目標接收Adobe Campaign傳送之訊息的個人。 在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
 
 ## 開始使用設定檔 {#gs}
 

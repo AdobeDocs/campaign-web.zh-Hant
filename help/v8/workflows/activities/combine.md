@@ -4,10 +4,10 @@ title: 使用「組合」工作流程活動
 description: 了解如何使用「組合」工作流程活動
 badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 85%
+source-wordcount: '912'
+ht-degree: 84%
 
 ---
 
@@ -97,7 +97,10 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="排除規則"
 >abstract="如有必要，您可以操控傳入表格。事實上，若要從另一個維度排除目標，必須將此目標傳回主要目標的同一目標定位維度。為了進行此步驟，請按一下「排除規則」一節中的「新增規則」，並指定維度變更條件。資料調節會透過屬性或加入執行。"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="合併產生補充集"
+>abstract="開啟「產生補充」選項，在其他轉變中處理剩餘母體。"
 
 在 **合併** 活動，您可以設定 **排除**. 為此，您需要遵循以下額外步驟：
 

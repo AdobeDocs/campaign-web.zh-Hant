@@ -4,14 +4,24 @@ title: 監視和管理對象
 description: 瞭解如何在Adobe Campaign Web中監視和管理對象
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 14%
+source-wordcount: '538'
+ht-degree: 13%
 
 ---
 
 # 監視和管理對象 {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="屬性"
+>abstract="您可以在這裡找到對象屬性的摘要，例如其來源、儲存資料夾或其狀態。 按一下 **上一個工作流程** 區段，以開啟用來建立對象的工作流程。"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="對象規模"
+>abstract="您可以在此處找到對象中的設定檔總數。 按一下「計算」按鈕以更新並重新計算對象結果。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

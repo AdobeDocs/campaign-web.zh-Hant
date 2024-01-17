@@ -4,10 +4,10 @@ title: 使用分割工作流程活動
 description: 了解如何使用分割工作流程活動
 badge: label="有限可用性"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 89%
+source-wordcount: '777'
+ht-degree: 83%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 89%
 ## 設定分割活動 {#split-configuration}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="分割活動的區段"
+>abstract="新增任意數量的子集，以區隔傳入母體。<br/></br>當 **Split** 活動執行時，母體會依其新增至活動的順序，跨不同的子集進行分段。 開始工作流程之前，請使用箭頭按鈕，確定已依您的需求排序子集。"
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="分割活動篩選器"
 >abstract="若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並設定所需的篩選規則。例如，將電子郵件地址存在於資料庫之傳入母體的設定檔包含在內。"
@@ -31,7 +36,6 @@ ht-degree: 89%
 >id="acw_orchestration_split_limit"
 >title="分割活動限制"
 >abstract="若要限制子集所選設定檔的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的母體數量或百分比。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"
