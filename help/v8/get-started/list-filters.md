@@ -2,12 +2,12 @@
 audience: end-user
 title: 瀏覽及篩選清單
 description: 探索如何瀏覽和篩選清單 Campaign Web v8
-badge: label="可用性限制"
+badge: label="有限可用性"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 78%
 
 對於數字或日期欄，**向上**&#x200B;箭頭表示清單依據遞增順序排序，而&#x200B;**向下**&#x200B;箭頭則表示依據遞減順序。若為字串或英數字元欄，則會依據字母順序列出值。
 
-## 篩選 {#list-built-in-filters}
+## 篩選器 {#list-built-in-filters}
 
-若要更快找到專案，您可以使用搜尋列，或內建和自訂篩選器，根據內容條件調整清單。
+若要更快地找到項目，您可以使用搜尋列或內建及自訂篩選器，以便根據內容條件來調整清單。
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-有關如何使用篩選器並建立您自己的自訂篩選器的詳細資訊，請參閱 [本節](../query/filter.md).
+如需有關如何使用篩選器和建立您自己的自訂篩選器的詳細資訊，請參閱[本章節](../query/filter.md)。
 
 <!--
 ## Use advanced attributes {#adv-attributes}

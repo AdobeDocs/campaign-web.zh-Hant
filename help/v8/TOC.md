@@ -1,7 +1,7 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 Web
-user-guide-description: Campaign v8網頁產品檔案。
+user-guide-description: Campaign v8 Web 的產品文件。
 title: Adobe Campaign v8 Web 文件
 description: Campaign v8 Web 文件
 breadcrumb-title: Campaign v8 Web
@@ -9,7 +9,7 @@ hide: true
 source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 82%
+ht-degree: 91%
 
 ---
 
@@ -149,13 +149,13 @@ ht-degree: 82%
       + [以電子郵件寄送傳遞報告 ](reporting/email-report.md)
       + [推播傳遞報告 ](reporting/push-report.md)
       + [以簡訊傳送傳遞報告](reporting/sms-report.md)
-   + 行銷活動報表 {#campaign-report}
+   + 行銷活動報告 {#campaign-report}
       + [開始使用行銷活動報告](reporting/campaign-reports.md)
-      + [以電子郵件傳送行銷活動報告](reporting/campaign-reports-email.md)
+      + [電子郵件行銷活動報告](reporting/campaign-reports-email.md)
       + [推播行銷活動報告](reporting/campaign-reports-push.md)
       + [簡訊行銷活動報告](reporting/campaign-reports-sms.md)
    + 全域報告 {#global-report}
       + [開始使用全域報告](reporting/global-reports.md)
-      + [以電子郵件傳送全域報告](reporting/global-report-email.md)
+      + [電子郵件全域報告](reporting/global-report-email.md)
       + [推播全域報告](reporting/global-report-push.md)
       + [簡訊全域報告](reporting/global-report-sms.md)

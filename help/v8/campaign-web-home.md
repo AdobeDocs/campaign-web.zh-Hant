@@ -7,7 +7,7 @@ badge: label="有限可用性"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 93%
 Campaign 現在會提供新的 Web 使用者介面 (UI)，具有增強的可用性、可存取性和新設計，可大幅提升您的使用者體驗。這個新的現代 UI 簡化了行銷活動的設計和傳遞，並帶來一致性，與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 相符。[了解更多](get-started/get-started.md)
 
 >[!AVAILABILITY]
-> Campaign v8網站目前為「有限可用性(LA)」版本。 僅限少數LA客戶存取。 請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。[了解更多](rn/whats-new.md)
+> Campaign v8 Web 目前為有限可用性 (LA) 版本。只有一小群 LA 客戶可以存取。請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。[了解更多](rn/whats-new.md)
 
 ## Campaign Web 的新增功能
 

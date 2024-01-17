@@ -6,7 +6,7 @@ exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 81%
+ht-degree: 96%
 
 ---
 
@@ -16,13 +16,13 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
 ## 登入 Adobe Experience Cloud {#sign-in-to-exc}
 
-通常 Experience Cloud 管理員會授予存取應用程式和服務的權限。 依照電子郵件邀請中的步驟進行來加入 Experience Cloud。
+通常 Experience Cloud 管理員會授予存取應用程式和服務的權限。 依照電子郵件邀請中的步驟進行，加入 Experience Cloud。
 
 若要登入 Adobe Experience Cloud，基本步驟如下：
 
 1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}。
 
-1. 使用 Adobe ID 或 Enterprise ID 來登入。 了解更多有關 Adobe 身分類型的資訊，請參閱[此文章](https://helpx.adobe.com/cn/enterprise/using/identity.html){target="_blank"}。
+1. 使用 Adobe ID 或 Enterprise ID 來登入。 了解更多有關 Adobe 身分類型的資訊，請參閱[此文章](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
 
    登入 Experience Cloud 後，您可以快速存取所有解決方案和應用程式。
 
@@ -51,13 +51,13 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
 ## Adobe Experience Cloud 頂部導覽 {#top-bar}
 
-瀏覽介面的頂端列以：
+瀏覽介面的頂端列以進行下列作業：
 
 * 在組織之間切換
 * 在 Adobe Experience Cloud 解決方案和應用程式之間切換
-* 搜尋相關說明 [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
-* 檢查您的產品通知
-* 編輯您的Adobe設定檔及管理設定，例如 [更新您最愛的語言](#language-pref) 或 [切換到淺色/深色主題](#dark-theme)
+* 在 [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"} 上搜尋說明
+* 查看您的產品通知
+* 編輯您的 Adobe 設定檔及管理設定，例如[更新您喜愛的語言](#language-pref)或[切換到淺色/深色主題](#dark-theme)
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -97,7 +97,7 @@ Campaign v8 Web 目前提供以下語言版本：
 
 ## 深色和淺色主題 {#dark-theme}
 
-Adobe Campaign提供淺色和深色主題。 根據預設，使用者介面會啟用淺色佈景主題。 若要切換至深色主題，請按一下您的設定檔圖示，然後使用 **深色主題** 切換即可啟用/停用此功能。
+Adobe Campaign 提供淺色和深色主題。依據預設，使用者介面會在淺色主題中啟用。若要切換到深色主題，請按一下您的設定檔圖示，然後使用&#x200B;**深色主題**&#x200B;切換開關來啟用/停用它。
 
 [此章節](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hant#preferences){target="_blank"}詳細說明有關使用者設定檔設定和帳戶偏好設定的內容。
 
