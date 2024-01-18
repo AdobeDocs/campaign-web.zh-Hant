@@ -2,12 +2,12 @@
 audience: end-user
 title: 管理訂閱者
 description: 瞭解如何在Adobe Campaign Web中管理服務並交付給訂閱者
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 0%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. 從中選擇現有服務 **[!UICONTROL 訂閱服務]** 清單。
 
-1. 選取 **[!UICONTROL 訂閱者]** 標籤並按一下 **[!UICONTROL 新增設定檔]**.
+1. 前往 **[!UICONTROL 訂閱者]** 標籤並按一下 **[!UICONTROL 新增訂閱者]**.
 
    ![](assets/service-subscribers-tab.png)
 
@@ -31,11 +31,15 @@ ht-degree: 0%
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. 按一下 **[!UICONTROL 傳送]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> 選取的收件者將收到訂閱 [確認訊息](manage-services.md#create-confirmation-message) 您選擇的時機 [建立服務](manage-services.md#create-service).
+1. 按一下 **[!UICONTROL 傳送]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> 讓選取的收件者接收訂閱 [確認訊息](manage-services.md#create-confirmation-message) 您定義於 [建立服務](manage-services.md#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
-新增的設定檔會顯示在 **[!UICONTROL 訂閱者]** 清單。 他們現在已訂閱您的服務。
+   >[!NOTE]
+   >
+   >如果您選取 **[!UICONTROL 取消]**，不會傳送確認訊息給選取的設定檔，但會訂閱設定檔。
+
+新增的設定檔會顯示在 **[!UICONTROL 訂閱者]** 標籤。 他們現在已訂閱您的服務。
 
 ## 從您的服務移除訂閱者 {#remove-subscribers}
 
@@ -49,11 +53,13 @@ ht-degree: 0%
 
    ![](assets/service-subscribers-delete.png)
 
-1. 確認刪除並按一下 **[!UICONTROL 傳送]**. 選取的收件者將收到取消訂閱 [確認訊息](manage-services.md#create-confirmation-message) 您選擇的時機 [建立服務](manage-services.md#create-service).
+1. 確認刪除。
+
+1. 按一下 **[!UICONTROL 傳送]** 讓選取的收件者收到取消訂閱 [確認訊息](manage-services.md#create-confirmation-message) 您定義於 [建立服務](manage-services.md#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 
-收件者會從 **[!UICONTROL 訂閱者]** 清單且不再訂閱您的服務。
+收件者會從 **[!UICONTROL 訂閱者]** 索引標籤上，並已不再訂閱您的服務。
 
 ### 自動取消訂閱收件者 {#automatic-unsubscription}
 
