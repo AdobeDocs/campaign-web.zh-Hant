@@ -4,10 +4,10 @@ description: Campaign Web v8 說明中心
 title: Adobe Campaign Web v8 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="有限可用性"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 96%
+source-wordcount: '669'
+ht-degree: 93%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="專案3"
->abstract="為對象重新設計的 UX、訂閱和服務、AEM Assets"
+>abstract="重新想像適用於對象、訂閱、AEM Assets、登陸頁面的UX"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="專案4"
->abstract="電子郵件生成式 AI：基於提示的電子郵件產生"
+>abstract="新一代查詢模組化工具與電子郵件設計工具"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -50,7 +50,7 @@ ht-degree: 96%
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-
+L
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="說明和文件"
