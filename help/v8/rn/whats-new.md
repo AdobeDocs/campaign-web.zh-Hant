@@ -4,10 +4,10 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限可用性"
-source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 * 定義訊息或工作流程中的目標對象，並輕鬆建立符合您需求的新對象
 * 在工作流程活動中套用規則 (例如分割及調和)，以符合您的特定需求
 * 建立預先定義的篩選器，無論您是在處理資料清單還是要產生傳遞的對象，都能在各種篩選作業中將這些篩選器用作捷徑
-* 新增規則以篩選報告中顯示的資料。
+* 新增規則以篩選報表中顯示的資料
 * 建立自訂規則來篩選清單中顯示的資料，例如收件者、傳遞清單等等
 
 若要了解詳細資訊，請參閱[本章節](../query/query-modeler-overview.md)。

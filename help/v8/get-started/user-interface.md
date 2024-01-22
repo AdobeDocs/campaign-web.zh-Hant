@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限可用性"
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1640'
 ht-degree: 81%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 81%
 
 Campaign首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
-首頁的上半區段提供產品中最新更新和可用新功能的詳細資訊，並包含發行說明和相關檔案的連結。
+首頁的上半區段提供產品中最新更新和可用新功能的詳細資訊，以及發行說明和詳細檔案的連結。 使用向左箭頭捲動功能卡。
 
 ![](assets/home.png)
 

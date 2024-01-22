@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 建立行銷活動
 description: 了解如何使用 Adobe Campaign Web 建置跨管道行銷活動
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 39%
+source-wordcount: '444'
+ht-degree: 36%
 
 ---
 
@@ -24,23 +24,28 @@ ht-degree: 39%
 >title="行銷活動屬性"
 >abstract="在此畫面中，您可以檢查和更新行銷活動設定：其標籤、內部名稱、資料夾和說明。您還可以檢視其指派的使用者。"
 
-若要建立新行銷活動，您必須定義其屬性、排程並包含工作流程和傳遞。
+若要建立新的行銷活動，您必須定義其設定、排程，並包含工作流程和傳遞。
 
-## 建立行銷活動{#campaign-create}
+## 建立行銷活動 {#campaign-create}
 
 若要建立新的行銷活動，請遵循下列步驟：
 
 1. 按一下 **[!UICONTROL 行銷活動]** 功能表，然後按一下 **[!UICONTROL 建立行銷活動]** 按鈕。
+
+   ![建立新的行銷活動](assets/create-campaign-button.png)
+
 1. 選取 **範本** 以使用並提供促銷活動的標籤。 [顯示全文](manage-campaigns.md#manage-campaign-templates)。
 1. 如有需要，您可以變更下列專案 **其他選項**：內部名稱、資料夾、工作負責人、說明和性質。
 1. 定義 **排程** 您的行銷活動中的。 瞭解如何在中設定您的行銷活動排程 [本節](#campaign-schedule)
-1. 按一下 **建立**。
+1. 按一下 **建立**.
+
+   ![建立行銷活動屬性](assets/create-a-campaign-properties.png)
+
 1. 將工作流程與傳遞新增至行銷活動：
 
    * 從 **工作流程** 標籤，按一下 **建立工作流程**. 當您建立行銷活動時，會自動新增預設工作流程。 進一步瞭解如何 [建立工作流程](../workflows/create-workflow.md).
-   * 從 **傳遞** 標籤，按一下 **建立傳遞**. [了解更多](../msg/gs-messages.md)
 
-1. 使用 **記錄檔** 和 **報告** 按鈕來分析行銷活動的績效。
+   * 從 **傳遞** 標籤，按一下 **建立傳遞**. [了解更多](../msg/gs-messages.md)
 
 ## 監視和追蹤您的行銷活動{#campaign-monitoring}
 
@@ -51,7 +56,6 @@ ht-degree: 39%
 
 ## 定義行銷活動排程 {#campaign-schedule}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="行銷活動排程"
@@ -60,9 +64,7 @@ ht-degree: 39%
 
 行銷活動在到達開始日期時開始。 只要未到達開始日期，行銷活動就會具有 **[!UICONTROL 草稿]** 狀態。 然後，當達到開始日期時，它會變成 **[!UICONTROL 進行中]**. 達到結束日期後，行銷活動會設為 **[!UICONTROL 已完成]**.
 
-開始和結束日期會顯示在行銷活動清單中，並當成篩選器使用。請參閱本[章節](manage-campaigns.md#access-campaigns)。
-
-![定義您的行銷活動屬性](assets/campaign-properties.png)
+開始和結束日期會顯示在行銷活動清單中，並作為篩選條件使用。 請參閱本[章節](manage-campaigns.md#access-campaigns)。
 
 >[!NOTE]
 >
