@@ -4,10 +4,10 @@ description: Campaign Web v8 說明中心
 title: Adobe Campaign Web v8 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="有限可用性"
-source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
+source-git-commit: 2e0386cbab15d076400fc86490f68f5229b1b779
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 93%
+source-wordcount: '668'
+ht-degree: 97%
 
 ---
 
@@ -25,22 +25,22 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
->title="專案1"
+>title="項目 1"
 >abstract="新電子郵件、簡訊和推播通知設計體驗"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
->title="專案2"
+>title="項目 2"
 >abstract="簡化的工作流程畫布介面"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
->title="專案3"
+>title="項目 3"
 >abstract="重新想像適用於對象、訂閱、AEM Assets、登陸頁面的UX"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
->title="專案4"
+>title="項目 4"
 >abstract="新一代查詢模組化工具與電子郵件設計工具"
 
 <!--
@@ -50,7 +50,7 @@ ht-degree: 93%
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-L
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="說明和文件"
@@ -63,22 +63,22 @@ L
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
->title="專案1"
+>title="項目 1"
 >abstract="新電子郵件、簡訊和推播通知設計體驗"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list2"
->title="專案2"
+>title="項目 2"
 >abstract="簡化的工作流程畫布介面"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list3"
->title="專案3"
+>title="項目 3"
 >abstract="為對象重新設計的 UX、訂閱和服務、AEM Assets"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list4"
->title="專案4"
+>title="項目 4"
 >abstract="電子郵件生成式 AI：基於提示的電子郵件產生"
 
 <!--TO REMOVE ABOVE-->
