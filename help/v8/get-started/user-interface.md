@@ -3,11 +3,11 @@ audience: end-user
 title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Beta"
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+badge: label="有限可用性"
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 100%
+source-wordcount: '1632'
+ht-degree: 81%
 
 ---
 
@@ -15,33 +15,36 @@ ht-degree: 100%
 
 新的 Campaign v8 Web 介面提供了現代直覺的使用者體驗，可簡化行銷活動的設計和傳遞。這個新介面整合 Adobe Experience Cloud 應用程式和解決方案。
 
+瞭解如何連線至Adobe Campaign並探索Experience Cloud導覽基本知識 [本文章](connect-to-campaign.md).
+
 
 >[!NOTE]
 >
 >本文件會經常更新以反映產品使用者介面最近的變更。不過，有些螢幕擷取畫面可能會與您的使用者介面稍有不同。
 
-
-## 左側導覽功能表 {#user-interface-left-nav}
-
-瀏覽左側連結可存取 Campaign v8 Web 功能。幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。有些清單畫面部分為唯讀。左側導覽功能表與清單中顯示的項目取決於您的使用者權限。若要了解權限的詳細資訊，請參閱[本章節](permissions.md)。
-
-![](assets/home.png)
-
-### 首頁 {#user-interface-home}
-
-此畫面包含快速存取主要 Campaign v8 Web 功能的重要連結和資源。
+## Campaign首頁 {#user-interface-home}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="最近項目"
 >abstract="「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。"
 
-「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。按一下「**顯示更多**」連結以載入更多傳遞。
+Campaign首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
+
+首頁的上半區段提供產品中最新更新和可用新功能的詳細資訊，並包含發行說明和相關檔案的連結。
+
+![](assets/home.png)
 
 「**關鍵績效指標**」可讓您使用常見的 KPI 值來檢查平台的服務效率。在[本頁面](../reporting/kpis.md)中進一步瞭解這些 KPI。
 
+「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。按一下「**顯示更多**」連結以載入更多傳遞。
 
-從首頁的&#x200B;**學習**&#x200B;章節存取 Campaign v8 Web 重要說明頁面。
+此外，您可以從存取Campaign v8網路金鑰說明頁面 **學習** 區段。
+
+## 左側導覽功能表 {#user-interface-left-nav}
+
+瀏覽左側連結可存取 Campaign v8 Web 功能。幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。有些清單畫面部分為唯讀。左側導覽功能表與清單中顯示的項目取決於您的使用者權限。若要了解權限的詳細資訊，請參閱[本章節](permissions.md)。
+
 
 ### 探索工具 {#user-interface-explorer}
 
@@ -73,13 +76,25 @@ ht-degree: 100%
 * **工作流程** - 在此畫面中，您可以存取工作流程和工作流程範本的完整清單。您可以檢查其狀態、上次/下次執行日期，並建立新的工作流程或新的工作流程範本。您可以使用和其他物件相同的標準篩選清單。此外，您可以篩選工作流程，無論其是否屬於行銷活動。若要了解工作流程的詳細資訊，請參閱[本章節](../workflows/gs-workflows.md)。
 
 
+### 內容管理 {#user-interface-content-management}
+
+在內容管理區段中，您可以檢視您的內容範本和片段。
+
+* **內容範本**  — 為了加速及改善設計流程，您可以建立獨立的範本，以便輕鬆重複使用中的自訂內容 [!DNL Adobe Campaign]. 此功能僅適用於電子郵件，可讓內容導向的使用者使用獨立範本，讓行銷使用者可以重複使用並在其自己的電子郵件行銷活動中調整範本。 若要了解詳細資訊，請參閱[本章節](../email/create-email-templates.md)。
+
+<!--
+* **Fragments** -
+-->
+
 ### 客戶管理 {#user-interface-customer-management}
 
-在「客戶管理」章節中，您可以檢視您的收件者、對象和訂閱。這些是唯讀清單。
+在客戶管理區段中，您可以檢視您的設定檔、對象和訂閱。 這些是唯讀清單。
 
-* **收件者** - 存取您的收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。若要了解收件者的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
+* **設定檔**  — 建立和管理設定檔，並存取收件者資料庫。 依預設，您可以檢視其電子郵件地址、名字和姓氏。進一步瞭解中的設定檔 [本節](../audience/about-recipients.md).
 * **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。若要了解對象與清單的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
-* **訂閱** - 瀏覽您的訂閱清單。預設情況下，您可以檢視其類型、模式和標籤。若要了解如何管理訂閱和取消訂閱，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=zh-Hant){target="_blank"}。
+* **訂閱服務**  — 瀏覽您的訂閱清單。 預設情況下，您可以檢視其類型、模式和標籤。若要了解如何管理訂閱和取消訂閱，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=zh-Hant){target="_blank"}。
+* **預先定義的篩選器**  — 預先定義的篩選器是建立和儲存以供日後使用的自訂篩選器。 在使用查詢模組化工具進行任何篩選作業期間（例如，篩選資料清單或建立傳送的對象時），都可將這些區段當作捷徑。 若要了解詳細資訊，請參閱[本章節](predefined-filters.md)。
+
 
 ### 決策管理 {#decision-management}
 
@@ -95,15 +110,18 @@ ht-degree: 100%
 
 若要了解如何在電子郵件和簡訊中建立和傳送優惠，請參閱[本章節](../msg/offers.md)。
 
+### 報告 {#left-nav-reporting}
+
+* **報表** - **報告** 專案提供行銷活動環境中每個管道的流量和參與量度的整合整體摘要。 這些報表包含各種Widget，各可提供行銷活動或傳遞績效的不同觀點。 若要了解詳細資訊，請參閱[本章節](../reporting/global-reports.md)。
 
 
 ## 內容說明 {#user-interface-help}
 
 介面中會提供內容關聯式說明。若有提供，請按一下 `?` 圖示以顯示說明資訊和相關文件的連結。
 
-![](assets/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-在新的 Beta 版本中，嵌入內容說明中的 **AI 驅動的知識助理**&#x200B;可輕鬆篩選大量文件存放庫，並立即找出所需的精確資訊，為文件搜尋和回答操作方法問題方面帶來了全面革新。
+目前已發佈為新Campaign網頁UI的Beta版本， **AI支援的知識助理** 內嵌在內容說明中的內容，革新了檔案搜尋和回答操作方法問題，讓您能夠輕鬆地在龐大的檔案存放庫中篩選，立即找到您需要的精確資訊。
 
 透過 Campaign Gen AI 的功能，此助理將改變您的體驗，讓資訊檢索和問題解決變得輕而易舉。無論您是在複雜任務中尋求指引，還是導覽大量文件，AI 驅動的知識助理都是您的終極夥伴，在每次互動中提供無與倫比的效率和準確性。
 

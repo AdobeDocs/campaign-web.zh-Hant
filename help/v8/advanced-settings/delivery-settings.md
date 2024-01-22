@@ -7,7 +7,7 @@ badge: label="有限可用性"
 source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
 workflow-type: tm+mt
 source-wordcount: '2260'
-ht-degree: 55%
+ht-degree: 59%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="類型"
->abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。型別與型別規則是在Campaign使用者端主控台中建立。"
+>abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。類型和類型規則是在 Campaign 用戶端主控台中建立的。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="傳遞的類型設定"
->abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。型別與型別規則是在Campaign使用者端主控台中建立。"
+>abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。類型和類型規則是在 Campaign 用戶端主控台中建立的。"
 
 
 型別是一組 **型別規則** 在準備階段期間執行，以便一次輕鬆將多個篩選規則套用至傳遞。 它們可讓行銷人員標準化所有傳送的業務實務，讓他們控制、篩選傳送內容並安排傳送內容的優先順序。
@@ -91,7 +91,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="傳遞的容量設定"
->abstract="在傳遞訊息之前，請使用容量規則以確保您的組織可以處理傳遞、傳遞可能生成的傳入訊息，以及用於聯絡訂閱者的呼叫次數等。容量規則是在Adobe Campaign v8主控台中定義。 在此畫面中，選取與電子郵件頻道關聯的規則。"
+>abstract="在傳遞訊息之前，請使用容量規則以確保您的組織可以處理傳遞、傳遞可能生成的傳入訊息，以及用於聯絡訂閱者的呼叫次數等。容量規則是在 Adobe Campaign v8 主控台中定義。在此畫面中，選取與電子郵件頻道關聯的規則。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -160,7 +160,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="傳遞的網站分析設定"
->abstract="選取網路分析帳戶。此帳戶是在Campaign使用者端主控台中設定。 您也可以定義與您所用分析工具共用的標籤。"
+>abstract="選取網路分析帳戶。此帳戶是在 Campaign 用戶端主控台中設定的。您也可以定義與您所用分析工具共用的標籤。"
 
 您可以在此區段中選取網站分析帳戶。 此帳戶是在Campaign使用者端主控台中設定。
 
@@ -210,12 +210,12 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="設定有效性"
->abstract="「**傳遞期間**」欄位可讓您輸入全域傳遞重試的限制。這表示 Adobe Campaign 會傳送從開始日期開始的訊息，然後，對於僅傳回錯誤的訊息，會執行一般、可設定的重試，直到達到效度限制為止。<br>此 **資源效度限制** 欄位是用於上傳的資源，例如映象頁面或影像。 一旦達到限制，便無法再使用資源。"
+>abstract="「**傳遞期間**」欄位可讓您輸入全域傳遞重試的限制。這表示 Adobe Campaign 會傳送從開始日期開始的訊息，然後，對於僅傳回錯誤的訊息，會執行一般、可設定的重試，直到達到效度限制為止。「<br>**資源效度限制**」欄位是用於上傳的資源，主要用於鏡像頁面和影像。一旦達到限制，資源將不可再供使用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="資源效度限制"
->abstract="此 **資源效度限制** 欄位是用於上傳的資源，例如映象頁面或影像。 這些資源在有限的時間內有效：一旦達到限制，資源將不再可用。"
+>abstract="「**資源效度限制**」欄位是用於上傳的資源，主要用於鏡像頁面和影像。這些資源在有限的時間內有效：一旦達到限制，資源將不再可用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -274,12 +274,12 @@ ht-degree: 55%
 
 **[!UICONTROL 過期URL的替代URL]**：使用此選項可輸入後援網頁的URL：追蹤過期後就會顯示。
 
-## 證明設定 {#test-setttings}
+## 校樣設定 {#test-setttings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="定義傳遞的證明設定"
->abstract="選取排除引數並自訂校訂的標籤。"
+>title="定義傳遞的校樣設定"
+>abstract="選取排除參數並自訂校樣的標籤。"
 
 <!--Test to be replaced with Proof everywhere - currently not consistent within UI > changed to Proof to reflect UI here but not consistent in documentation either-->
 

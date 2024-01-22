@@ -7,11 +7,11 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
-# 建立和管理訂閱服務 {#manage-services}
+# 建立和管理您的訂閱服務 {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
