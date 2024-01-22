@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '350'
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+workflow-type: tm+mt
+source-wordcount: '348'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,6 @@ ht-degree: 100%
 * 內容區塊建立
 * 來自自訂表單的內容
 * 來自 URL 的內容`*`
-* 電子郵件片段
 * 電子郵件 AMP
 * 電子郵件片段`*`
 * 多變體/多語言使用案例`*`
