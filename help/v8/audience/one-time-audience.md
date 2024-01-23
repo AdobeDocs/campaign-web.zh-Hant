@@ -2,11 +2,11 @@
 audience: end-user
 title: 建立傳遞的一次性對象
 description: 瞭解如何建立傳遞的一次性對象。
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 30%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 30%
 
 1. 選取「**建立您自己的**」。此時會顯示查詢建模器。 它可讓您透過篩選資料庫中包含的資料，定義傳送所定位的母體。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
 
-   ![](assets/segment-builder.png)
+   ![](assets/query-modeler.png)
 
 1. 查詢準備就緒後，按一下 **確認** 使用對象作為傳送的主要目標。
 

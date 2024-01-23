@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用「組合」工作流程活動
 description: 了解如何使用「組合」工作流程活動
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '913'
 ht-degree: 84%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 84%
 >id="acw_orchestration_combine"
 >title="組合活動"
 >abstract="「**組合**」活動可讓您對傳入族群執行分段。您因此可以組合好幾個族群、排除其中的一部分或僅保留幾個目標通用資料。"
-
 
 此 **合併** 活動是 **目標定位** 活動。 此活動則可讓您對傳入母體執行分段。您因此可以組合好幾個母體、排除其中的一部分或僅保留幾個目標通用資料。以下是可用的分段類型：
 
