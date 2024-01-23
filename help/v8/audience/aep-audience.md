@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用 Adobe Experience Platform 對象
 description: 了解如何使用 Adobe Experience Platform 對象
-badge: label="Beta"
+badge: label="有限可用性"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 32%
+source-wordcount: '327'
+ht-degree: 28%
 
 ---
 
@@ -40,6 +40,8 @@ Adobe Campaign受管理的Cloud Service目標和來源聯結器可緊密整合Ad
    ![](assets/select-audience-folder.png)
 
    您也可以定義規則以根據對象的來源進行篩選，如下所示：
+
+   篩選區段可讓您存取篩選選項，以調整對象清單。 若要這麼做，請按一下 **新增規則** 以存取「查詢建模工具」，這可讓您為對象清單建立進階篩選器。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
 
    ![](assets/filter-on-aep-audience.png)
 

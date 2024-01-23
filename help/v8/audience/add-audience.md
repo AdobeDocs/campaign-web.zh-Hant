@@ -3,11 +3,11 @@ audience: end-user
 title: 選取現有對象
 description: 了解如何選取對象
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Beta"
-source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
+badge: label="有限可用性"
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 34%
+source-wordcount: '317'
+ht-degree: 31%
 
 ---
 
@@ -28,15 +28,15 @@ ht-degree: 34%
 
 若要為您的訊息選取現有對象，請依照以下步驟進行：
 
-1. 從 **對象** 傳遞建立助理的區段，按一下 **[!UICONTROL 選取對象]** 按鈕，然後選擇
+1. 從 **對象** 傳遞建立助理的區段，按一下 **[!UICONTROL 選取對象]** 按鈕，然後選擇 **[!UICONTROL 選取對象]** 以使用現有對象。
 
    ![](assets/create-audience.png)
 
-1. 選擇「**[!UICONTROL 選取對象]**」以使用現有對象。此畫面會顯示目前資料夾的所有現有對象。
+1. 此畫面會顯示目前資料夾的所有現有對象。
 
    ![](assets/create-audience2.png)
 
-   若要從Adobe Experience Platform選擇對象，請瀏覽至 `AEP Audiences folder` 從熒幕的篩選區段中。
+   若要從Adobe Experience Platform選擇對象，請瀏覽至 `AEP Audiences folder` 從熒幕的篩選區段中。 [瞭解如何使用Adobe Experience Platform受眾](aep-audience.md)
 
    ![](assets/select-audience-folder.png)
 
