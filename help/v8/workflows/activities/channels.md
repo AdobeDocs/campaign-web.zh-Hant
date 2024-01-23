@@ -4,10 +4,10 @@ title: 使用傳遞工作流程活動
 description: 了解如何新增傳遞工作流程活動 (電子郵件、推播、簡訊)
 badge: label="有限可用性"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
+source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 58%
+source-wordcount: '898'
+ht-degree: 59%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 >* [建立獨立簡訊傳遞](../../sms/create-sms.md)
 >* [建立獨立推送傳送](../../push/create-push.md)
 
-## 建立您的工作流程 {#build-your-workflow}
+## 先決條件 {#channel-activity-prereq}
 
 開始使用相關活動建置您的工作流程：
 
