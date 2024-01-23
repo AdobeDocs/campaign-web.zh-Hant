@@ -5,7 +5,7 @@ description: 了解如何開始使用工作流程
 badge: label="有限可用性"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
 ht-degree: 100%
 
