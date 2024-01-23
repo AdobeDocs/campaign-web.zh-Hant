@@ -4,9 +4,9 @@ title: 使用傳遞工作流程活動
 description: 了解如何新增傳遞工作流程活動 (電子郵件、推播、簡訊)
 badge: label="有限可用性"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 58%
 
 ---
@@ -28,15 +28,18 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 
 ## 建立您的工作流程 {#build-your-workflow}
 
-插入管道活動之前，先使用相關活動開始建立您的工作流程：
+開始使用相關活動建置您的工作流程：
 
-* 插入傳遞活動之前，您必須定義對象。 對象是您傳送的主要目標：接收訊息的設定檔。 在行銷活動工作流程內容中傳送訊息時，訊息對象不會定義在頻道活動中，而是會定義在專用活動中，例如：
+* 插入管道活動之前，您必須定義對象。 對象是您傳送的主要目標：接收訊息的設定檔。 在行銷活動工作流程內容中傳送訊息時，訊息對象不會定義在頻道活動中，而是會定義在專用活動中，例如：
 
    * A **建立對象** 活動。 [了解更多](build-audience.md)。
 
-  ![](../../msg/assets/add-delivery-in-wf.png)
+     ![](../../msg/assets/add-delivery-in-wf.png)
 
    * A **載入檔案** 活動後接 **調解** 活動。 [了解更多](load-file.md)。
+
+     ![](../assets/workflow-reconciliation-criteria.png)
+
 
 
 * 若要傳送循環傳送，請使用以下專案開始您的工作流程： **排程器** 活動。 您也可以使用 **排程器** 單次傳送的活動，用於設定該傳送的聯絡日期。 您也可以在傳送設定中設定聯絡日期。 請參閱[本節](scheduler.md)。

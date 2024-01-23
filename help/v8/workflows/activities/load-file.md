@@ -3,7 +3,8 @@ audience: end-user
 title: 使用載入檔案工作流程活動
 description: 瞭解如何使用載入檔案工作流程活動
 badge: label="有限可用性"
-source-git-commit: f88c3cd200aa92f4db7a2ab36c85d778a07a4dc3
+exl-id: 230177e2-1926-451a-8a66-0db962ada514
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 35%
@@ -79,4 +80,4 @@ ht-degree: 35%
 
 ## 範例{#load-example}
 
-外部檔案載入的範例，用於 **調解** 活動可在 [本節](reconciliation.md#example).
+外部檔案載入的範例，用於 **調解** 活動可在 [本節](reconciliation.md#reconciliation-example).
