@@ -4,10 +4,10 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限可用性"
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: 59929983859687081859e007b4e3b48a6279edee
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 81%
+source-wordcount: '1646'
+ht-degree: 80%
 
 ---
 
@@ -397,3 +397,12 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="規則產生器進階屬性"
 >abstract="依預設，屬性清單中只會顯示最常見的屬性。啟用「**顯示進階屬性**」開關，即可在規則產生器的左側調色盤中查看目前清單的所有可用屬性，例如節點、群組、1-1 連結、1-N 連結。"
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_readonlymode"
+>title="此範本僅就緒"
+>abstract="待定"
+
+
