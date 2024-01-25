@@ -3,10 +3,10 @@ title: 開始使用設定檔和對象
 description: 了解如何在 Campaign Web 中使用設定檔和對象
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="有限可用性"
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 **對象**&#x200B;是具有相似行為和/或特徵的設定檔集合。您可以產生、選取或載入這類人員的集合。對象建立後，即可作為您的傳遞目標族群供運用。
 
-此外，Adobe Campaign Web 可用於管理和建立電子報等&#x200B;**服務**，以及檢查這些服務的訂閱或取消訂閱。完成後，您可以新增訂閱者、取消訂閱設定檔以及向服務的訂閱者傳送訊息。
+此外，Adobe Campaign Web也可用來管理和建立 **服務** 如電子報，以及檢查這些服務的訂閱或取消訂閱。 完成後，您可以新增訂閱者、取消訂閱設定檔以及向服務的訂閱者傳送訊息。
 
 由於您已經了解在 Adobe Campaign Web 中能做什麼，您現在可以深入了解這些文件章節並開始使用。
 

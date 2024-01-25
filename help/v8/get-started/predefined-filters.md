@@ -1,12 +1,12 @@
 ---
 title: 使用預先定義的篩選器
-description: 了解如何在 Adobe Campaign Web UI 中建立和管理預先定義的篩選器
+description: 瞭解如何在Adobe Campaign網頁中建立和管理預先定義的篩選器
 badge: label="有限可用性"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 97%
+source-wordcount: '821'
+ht-degree: 96%
 
 ---
 

@@ -1,16 +1,16 @@
 ---
 title: 建立條件式內容
-description: 了解如何在 Adobe Campaign Web UI 中定義個人化內容的條件
+description: 瞭解如何定義條件以在Adobe Campaign網頁中個人化您的內容
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="有限可用性"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 14%
+source-wordcount: '550'
+ht-degree: 11%
 
 ---
 

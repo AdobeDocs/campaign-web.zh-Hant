@@ -1,16 +1,16 @@
 ---
 title: 在 Campaign 中個人化您的內容
-description: 了解如何在 Adobe Campaign Web UI 中個人化您的內容
+description: 瞭解如何在Adobe Campaign網頁中個人化您的內容
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 61%
+source-wordcount: '428'
+ht-degree: 58%
 
 ---
 
