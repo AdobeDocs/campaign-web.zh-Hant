@@ -7,7 +7,7 @@ badge: label="有限可用性"
 source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 63%
+ht-degree: 66%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="項目 3"
->abstract="重新想像適用於對象、訂閱、AEM Assets、登陸頁面的UX"
+>abstract="Audiences、訂閱、AEM Assets、登陸頁面的使用者體驗重新設計"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="項目 4"
->abstract="新一代查詢模組化工具與電子郵件設計工具"
+>abstract="新一代查詢建模工具和電子郵件設計工具"
 
 <!--
 >[!CONTEXTUALHELP]

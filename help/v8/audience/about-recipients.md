@@ -5,7 +5,7 @@ badge: label="有限可用性"
 source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 29%
+ht-degree: 33%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="設定檔"
->abstract="設定檔是目標接收Adobe Campaign傳送之訊息的個人。 在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
+>abstract="設定檔代表鎖定接收 Adobe Campaign 所傳送訊息的個人。在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
 
 ## 什麼是設定檔？ {#what}
 

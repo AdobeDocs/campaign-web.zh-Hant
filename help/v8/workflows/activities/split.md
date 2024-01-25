@@ -7,7 +7,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 83%
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
 >title="分割活動的區段"
->abstract="新增任意數量的子集，以區隔傳入母體。<br/></br>當 **Split** 活動執行時，母體會依其新增至活動的順序，跨不同的子集進行分段。 開始工作流程之前，請使用箭頭按鈕，確定已依您的需求排序子集。"
+>abstract="依需求新增任意數量的子集，將傳入的族群進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將族群細分成不同的子集。在開始工作流程之前，請確保已使用箭頭按鈕按照符合您需求的順序排列子集。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"

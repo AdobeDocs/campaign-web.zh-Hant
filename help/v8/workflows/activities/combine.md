@@ -7,7 +7,7 @@ exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -99,7 +99,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
 >title="合併產生補充集"
->abstract="開啟「產生補充」選項，在其他轉變中處理剩餘母體。"
+>abstract="切換開啟「產生補充集」選項，在額外轉變中處理其餘的族群。"
 
 在 **合併** 活動，您可以設定 **排除**. 為此，您需要遵循以下額外步驟：
 

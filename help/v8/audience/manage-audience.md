@@ -7,7 +7,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 15%
+ht-degree: 26%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="屬性"
->abstract="您可以在這裡找到對象屬性的摘要，例如其來源、儲存資料夾或其狀態。 按一下 **上一個工作流程** 區段，以開啟用來建立對象的工作流程。"
+>abstract="您可以在此處找到對象屬性的摘要，例如其來源、儲存資料夾或其狀態。按一下&#x200B;**上一個工作流程**&#x200B;區段中的連結，開啟用於建立對象的工作流程。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="對象規模"
->abstract="您可以在此處找到對象中的設定檔總數。 按一下「計算」按鈕以更新並重新計算對象結果。"
+>abstract="在此處可以找到對象當中的設定檔總數。按一下「計算」按鈕可更新並重新計算對象結果。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

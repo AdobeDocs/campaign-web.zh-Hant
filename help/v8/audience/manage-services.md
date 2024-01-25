@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 15%
+ht-degree: 23%
 
 ---
 
@@ -121,17 +121,17 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="訂閱者總數"
->abstract="按一下 **計算** 會取得此服務的訂閱者總數。"
+>abstract="按一下「**計算**」取得此服務的訂閱者總數。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
->title="期間的訂閱數目"
->abstract="使用下拉式清單來變更時間範圍，並檢視所選期間內的訂閱和取消訂閱數目。"
+>title="該期間的訂閱數量"
+>abstract="使用下拉清單變更時間範圍並檢視所選取期間內的訂閱和取消訂閱數量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="訂閱整體演變"
->abstract="此圖表顯示依期間的劃分，包括訂閱、取消訂閱、數量演變和忠誠度百分比。"
+>abstract="此圖顯示按期間劃分的詳細資料，包括訂閱、取消訂閱、數量變化和忠誠度百分比。"
 
 若要衡量簡訊和電子郵件通道訂閱服務的成效，您可以存取特定服務的記錄檔和報告。
 
