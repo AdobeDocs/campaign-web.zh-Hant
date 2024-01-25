@@ -4,10 +4,10 @@ title: 使用訂閱服務
 description: 瞭解如何存取、建立和管理Adobe Campaign網站上的訂閱服務
 badge: label="有限可用性"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 23%
+source-wordcount: '951'
+ht-degree: 21%
 
 ---
 
@@ -91,6 +91,17 @@ ht-degree: 23%
 * 傳送訊息給此服務的訂閱者。 [了解做法](../msg/send-to-subscribers.md)
 
 ## 建立確認訊息 {#create-confirmation-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="選取訂閱傳遞範本"
+>abstract="若要傳送確認訊息給訂閱您服務的使用者，您必須根據 **[!UICONTROL 訂閱]** 目標對應，無已定義目標。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_unsubscriptions_delivery_template"
+>title="選取取消訂閱傳遞範本"
+>abstract="若要向取消訂閱服務的使用者傳送確認訊息，您必須根據 **[!UICONTROL 訂閱]** 目標對應，無已定義目標。"
 
 若要傳送確認訊息給訂閱或取消訂閱服務的使用者，您必須使用建立傳遞範本 **[!UICONTROL 訂閱]** 目標對應，無已定義目標。 請依照下列步驟以執行此操作。
 

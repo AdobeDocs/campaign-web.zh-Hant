@@ -4,9 +4,9 @@ title: 探索介面
 description: Campaign v8 Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限可用性"
-source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1697'
 ht-degree: 78%
 
 ---
@@ -242,10 +242,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="收件者唯讀設定檔"
 >abstract="收件者唯讀設定檔"
 
->[!CONTEXTUALHELP]
->id="acw_subscriptions_delivery_template"
->title="訂閱傳遞範本"
->abstract="訂閱傳遞範本"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
