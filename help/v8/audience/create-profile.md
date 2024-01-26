@@ -19,13 +19,13 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
->title="連絡資訊"
+>title="聯絡資訊"
 >abstract="本章節提供對設定檔連絡資訊的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="地址"
->abstract="本章節提供對設定檔郵寄地址和地址品質的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
+>abstract="本區段提供對設定檔郵寄地址和地址品質的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
@@ -34,7 +34,7 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="收件人不再是聯絡人"
+>title="不再聯絡收件人"
 >abstract="本章節提供對設定檔聯絡人偏好的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
