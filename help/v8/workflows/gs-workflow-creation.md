@@ -4,17 +4,17 @@ title: 用於建立工作流程的主要原則
 description: 瞭解Adobe Campaign Web工作流程的主要原則
 badge: label="有限可用性"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 96%
+ht-degree: 87%
 
 ---
 
 
 # 用於建立工作流程的主要原則 {#gs-workflow-creation}
 
-透過 Campaign v8 Web，您可以將工作流程建置到視覺化畫布中，以設計跨管道流程，例如分段、行銷活動執行、檔案處理。
+透過Adobe Campaign Web，您可以將工作流程建置到視覺畫布中，以設計跨管道流程，例如細分、行銷活動執行、檔案處理。
 
 
 ## 工作流程內部有什麼？ {#gs-workflow-inside}

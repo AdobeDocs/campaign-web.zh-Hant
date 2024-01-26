@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Campaign Web v8 文件更新
-description: Campaign Web v8 文件更新
+title: Adobe Campaign網頁檔案更新
+description: Adobe Campaign網頁檔案更新
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
 hidefromtoc: true
-source-git-commit: 73b87f94a2ac8478e44efb4ae74caf511baf0061
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '23'
-ht-degree: 100%
+ht-degree: 8%
 
 ---
 
 # 文件更新 {#latest-updates}
 
-此頁面列出 Campaign v8 Web 的所有文件更新。
+本頁列出Adobe Campaign網頁的所有檔案更新。

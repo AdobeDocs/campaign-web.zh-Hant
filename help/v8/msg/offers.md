@@ -4,9 +4,9 @@ title: 在您的訊息中新增優惠方案
 description: 瞭解如何新增及傳送優惠方案
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="有限可用性"
-source-git-commit: 013d5ab21d3fda9e7b04ddd709185c2ff4bf23a3
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '733'
 ht-degree: 37%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 37%
 
 # 將優惠新增至您的訊息 {#offers-content}
 
-Adobe Campaign v8網頁版可讓您使用在主控台中建立的傳送選件，連同傳送給使用者。 **[!UICONTROL 互動]** 模組。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Adobe Campaign Web可讓您使用在主控台中建立的傳送選件，連同傳送給使用者。 **[!UICONTROL 互動]** 模組。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 透過傳送傳送優惠方案的步驟如下：
 

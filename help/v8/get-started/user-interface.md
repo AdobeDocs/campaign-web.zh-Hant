@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: 探索介面
-description: Campaign v8 Web 使用者介面
+description: Adobe Campaign網頁使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限可用性"
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '1697'
-ht-degree: 78%
+ht-degree: 76%
 
 ---
 
 # 探索介面 {#user-interface}
 
-新的 Campaign v8 Web 介面提供了現代直覺的使用者體驗，可簡化行銷活動的設計和傳遞。這個新介面整合 Adobe Experience Cloud 應用程式和解決方案。
+新的Adobe Campaign網頁介面提供現代且直覺的使用者體驗，可簡化行銷活動的設計和傳遞。 這個新介面整合 Adobe Experience Cloud 應用程式和解決方案。
 
 瞭解如何連線至Adobe Campaign並探索Experience Cloud導覽基本知識 [本文章](connect-to-campaign.md).
 
@@ -39,11 +39,11 @@ Campaign首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
 「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。按一下「**顯示更多**」連結以載入更多傳遞。
 
-此外，您可以從存取Campaign v8網路金鑰說明頁面 **學習** 區段。
+此外，您可以從以下位置存取Adobe Campaign金鑰說明頁面： **學習** 區段。
 
 ## 左側導覽功能表 {#user-interface-left-nav}
 
-瀏覽左側連結可存取 Campaign v8 Web 功能。幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。有些清單畫面部分為唯讀。左側導覽功能表與清單中顯示的項目取決於您的使用者權限。若要了解權限的詳細資訊，請參閱[本章節](permissions.md)。
+瀏覽左側連結以存取Adobe Campaign網頁功能。 幾個連結會顯示可以排序和篩選的物件清單。您也可以設定欄以顯示所有您需要的資訊。請參閱本[章節](#list-screens)。有些清單畫面部分為唯讀。左側導覽功能表與清單中顯示的項目取決於您的使用者權限。若要了解權限的詳細資訊，請參閱[本章節](permissions.md)。
 
 
 ### 探索工具 {#user-interface-explorer}

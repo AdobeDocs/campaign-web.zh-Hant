@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: 開始在 Campaign v8 Web 中使用訊息和傳遞
+title: 開始使用Adobe Campaign網頁中的訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="有限可用性"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 51cde630b5867662c40f79109f40f78a08eb758f
-workflow-type: ht
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 

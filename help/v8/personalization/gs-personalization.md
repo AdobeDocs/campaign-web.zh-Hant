@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 96%
+source-wordcount: '659'
+ht-degree: 92%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign Web動態內容功能可讓您根據所收集關於收件者的�
 
 ## 存取運算式編輯器 {#access}
 
-Adobe Campaign V8 Web 會提供運算式編輯器，您可在此選取、安排、自訂和驗證所有資料，以建立內容的自訂體驗。運算式編輯器可在所有管道中取得，在具有&#x200B;**[!UICONTROL 開啟個人化對話框]**&#x200B;圖示的每個欄位中，例如主旨行欄位，或電子郵件連結和文字/按鈕內容元件。
+Adobe Campaign Web提供運算式編輯器，您可在其中選取、排列、自訂及驗證所有資料，以建立內容的自訂體驗。 運算式編輯器可在所有管道中取得，在具有&#x200B;**[!UICONTROL 開啟個人化對話框]**&#x200B;圖示的每個欄位中，例如主旨行欄位，或電子郵件連結和文字/按鈕內容元件。
 
 以下是有關如何根據要動態化的內容存取運算式編輯器的一些範例：
 
