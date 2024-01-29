@@ -4,10 +4,10 @@ title: 傳遞設定
 description: 進一步瞭解Campaign網頁中的傳遞設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="有限可用性"
-source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '2260'
-ht-degree: 59%
+source-wordcount: '2316'
+ht-degree: 58%
 
 ---
 
@@ -136,6 +136,8 @@ ht-degree: 59%
 * **[!UICONTROL 測試SMTP傳遞]**：此選項用於測試透過SMTP的傳送。 處理傳遞直到連線到 SMTP 伺服器，但不傳送：對於傳遞的每個收件者，Campaign 會連線到 SMTP 提供者伺服器，執行 SMTP RCPT TO 命令，並在 SMTP DATA 命令之前關閉連線。
 
 * **[!UICONTROL 電子郵件密件副本]**：此選項是用來透過密件副本在外部系統上儲存電子郵件，僅需將密件副本電子郵件地址新增至您的訊息目標即可。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+
+* **[!UICONTROL 使用多個波段傳送]**：您可以逐步增加使用波段傳送的量。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 [了解更多](send-using-waves.md)
 
 您也可以變更已傳送電子郵件訊息的格式：
 

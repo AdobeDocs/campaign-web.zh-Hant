@@ -6,9 +6,9 @@ title: Adobe Campaign網頁檔案
 description: Campaign網頁檔案
 breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '536'
 ht-degree: 87%
 
 ---
@@ -64,8 +64,9 @@ ht-degree: 87%
             + [新增內嵌樣式屬性](email/inline-styling.md)
       + 傳送並監控電子郵件 {#monitor}
          + [準備並傳送電子郵件](monitor/prepare-send.md)
-         + [監控傳遞記錄](monitor/delivery-logs.md)
          + [電子郵件傳遞設定](advanced-settings/delivery-settings.md)
+         + [使用多個波段傳送](advanced-settings/send-using-waves.md)
+         + [監視傳遞記錄](monitor/delivery-logs.md)
    + 推播通知 {#push}
       + [開始使用推播通知](push/gs-push.md)
       + [建立推播通知傳遞](push/create-push.md)
