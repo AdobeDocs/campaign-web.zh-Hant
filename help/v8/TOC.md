@@ -6,10 +6,10 @@ title: Adobe Campaign網頁檔案
 description: Campaign網頁檔案
 breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 87%
+source-wordcount: '558'
+ht-degree: 84%
 
 ---
 
@@ -89,6 +89,11 @@ ht-degree: 87%
       + [預覽訊息內容。](preview-test/preview-content.md)
       + [傳送測試傳遞](preview-test/test-deliveries.md)
       + [測試電子郵件轉譯](preview-test/email-rendering.md)
++ 登陸頁面 {#landing-pages}
+   + [開始使用登陸頁面](landing-pages/get-started-lp.md)
+   + [建立及發佈登入頁面](landing-pages/create-lp.md)
+   + [設計登入頁面內容](landing-pages/lp-content.md)
+   + [使用登入頁面範本](landing-pages/lp-templates.md)
 + 設定檔與對象 {#audiences}
    + [開始使用設定檔和對象](audience/gs-audiences-recipients.md)
    + [目標定位維度](audience/targeting-dimensions.md)
