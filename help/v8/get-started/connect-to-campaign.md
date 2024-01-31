@@ -6,7 +6,7 @@ exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -53,10 +53,10 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
 瀏覽介面的頂端列以進行下列作業：
 
-* 分享有關Campaign網頁UI的意見回饋
+* 分享有關 Campaign Web UI 的意見
 * 在組織之間切換
 * 在 Adobe Experience Cloud 解決方案和應用程式之間切換
-* 在 [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"} 上搜尋說明
+* 在 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant){target="_blank"} 上搜尋說明
 * 查看您的產品通知
 * 編輯您的 Adobe 設定檔及管理設定，例如[更新您喜愛的語言](#language-pref)或[切換到淺色/深色主題](#dark-theme)
 
@@ -92,7 +92,7 @@ Adobe Campaign Web目前提供下列語言版本：
 
 >[!CAUTION]
 >
->如果您打算使用 [AI支援的內容說明](using-ai.md) 功能，您必須將您的偏好語言設定為英文。 不支援其他語言。
+>如果您規劃使用[採用 AI 技術的內容說明](using-ai.md)功能，您必須將偏好的語言設定為英文。不支援其他語言。
 >
 
 

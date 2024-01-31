@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 用於建立工作流程的主要原則
-description: 瞭解Adobe Campaign Web工作流程的主要原則
+description: 了解使用 Adobe Campaign Web 的關鍵工作流程原則
 badge: label="有限可用性"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 87%
+ht-degree: 91%
 
 ---
 

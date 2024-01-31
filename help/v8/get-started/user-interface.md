@@ -7,7 +7,7 @@ badge: label="有限可用性"
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 78%
 
 新的Adobe Campaign網頁介面提供現代且直覺的使用者體驗，可簡化行銷活動的設計和傳遞。 這個新介面整合 Adobe Experience Cloud 應用程式和解決方案。
 
-瞭解如何連線至Adobe Campaign並探索Experience Cloud導覽基本知識 [本文章](connect-to-campaign.md).
+[在本文中](connect-to-campaign.md)了解如何連線至 Adobe Campaign，並探索 Experience Cloud 導覽基礎知識。
 
 
 >[!NOTE]
 >
 >本文件會經常更新以反映產品使用者介面最近的變更。不過，有些螢幕擷取畫面可能會與您的使用者介面稍有不同。
 
-## 活動首頁 {#user-interface-home}
+## Campaign 首頁 {#user-interface-home}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="最近項目"
 >abstract="「**最近項目**」清單提供最近建立和修改之傳遞的快速鍵。此清單會顯示其管道、狀態、所有者、建立與修改日期。"
 
-Campaign首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
+Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
-首頁的上半區段提供產品中最新更新和可用新功能的詳細資訊，以及發行說明和詳細檔案的連結。 使用向左箭頭捲動功能卡。
+首頁的上半區段提供有關產品中可用的最新更新和新功能的詳細資料，以及發行說明和詳細文件的連結。 使用向左箭頭捲動功能卡片。
 
 ![](assets/home.png)
 
@@ -78,9 +78,9 @@ Campaign首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
 ### 內容管理 {#user-interface-content-management}
 
-在內容管理區段中，您可以檢視您的內容範本和片段。
+在「內容管理」區段中，您可以檢視內容範本和片段。
 
-* **內容範本**  — 為了加速及改善設計流程，您可以建立獨立的範本，以便輕鬆重複使用中的自訂內容 [!DNL Adobe Campaign]. 此功能僅適用於電子郵件，可讓內容導向的使用者使用獨立範本，讓行銷使用者可以重複使用並在其自己的電子郵件行銷活動中調整範本。 若要了解詳細資訊，請參閱[本章節](../email/create-email-templates.md)。
+* **內容範本** - 為了加快和改進設計流程，您可以建立獨立範本，以輕鬆地在 [!DNL Adobe Campaign] 重複使用自訂內容。此功能僅適用於電子郵件，讓內容導向的使用者能夠使用獨立範本，以便行銷使用者在自己的電子郵件行銷活動中重複使用和予以調整。 若要了解詳細資訊，請參閱[本章節](../email/create-email-templates.md)。
 
 <!--
 * **Fragments** -
@@ -88,12 +88,12 @@ Campaign首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
 ### 客戶管理 {#user-interface-customer-management}
 
-在客戶管理區段中，您可以檢視您的設定檔、對象和訂閱。 這些是唯讀清單。
+在「客戶管理」區段中，您可以檢視設定檔、對象和訂閱。這些是唯讀清單。
 
-* **設定檔**  — 建立和管理設定檔，並存取收件者資料庫。 依預設，您可以檢視其電子郵件地址、名字和姓氏。進一步瞭解中的設定檔 [本節](../audience/about-recipients.md).
+* **設定檔** - 建立和管理設定檔，以及存取收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。若要深入了解設定檔的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
 * **對象** - 這是您的對象清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。若要了解對象與清單的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
-* **訂閱服務**  — 瀏覽您的訂閱清單。 預設情況下，您可以檢視其類型、模式和標籤。若要了解如何管理訂閱和取消訂閱，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=zh-Hant){target="_blank"}。
-* **預先定義的篩選器**  — 預先定義的篩選器是建立和儲存以供日後使用的自訂篩選器。 在使用查詢模組化工具進行任何篩選作業期間（例如，篩選資料清單或建立傳送的對象時），都可將這些區段當作捷徑。 若要了解詳細資訊，請參閱[本章節](predefined-filters.md)。
+* **訂閱服務** - 瀏覽訂閱清單。預設情況下，您可以檢視其類型、模式和標籤。若要了解如何管理訂閱和取消訂閱，請參閱 [Adobe Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=zh-Hant){target="_blank"}。
+* **預先定義的篩選器** - 預先定義的篩選器是已建立並儲存以供未來使用的自訂篩選器。在使用查詢建模工具進行任何篩選作業時 (例如篩選資料清單或建立傳遞對象時)，可以將它們當作捷徑使用。若要了解詳細資訊，請參閱[本章節](predefined-filters.md)。
 
 
 ### 決策管理 {#decision-management}
@@ -112,7 +112,7 @@ Campaign首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
 ### 報告 {#left-nav-reporting}
 
-* **報表** - **報告** 專案提供行銷活動環境中每個管道的流量和參與量度的整合整體摘要。 這些報表包含各種Widget，各可提供行銷活動或傳遞績效的不同觀點。 若要了解詳細資訊，請參閱[本章節](../reporting/global-reports.md)。
+* **報告** - 此&#x200B;**報告**&#x200B;項目提供 Campaign 環境中每個管道的流量和參與量度的綜合整體摘要。這些報告是由各種小工具所組成，每個小工具都提供有關您的行銷活動或傳遞績效的獨特觀點。若要了解詳細資訊，請參閱[本章節](../reporting/global-reports.md)。
 
 
 ## 內容說明 {#user-interface-help}
@@ -121,7 +121,7 @@ Campaign首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
 ![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-目前已發佈為新Campaign網頁UI的Beta版本， **AI支援的知識助理** 內嵌在內容說明中的內容，革新了檔案搜尋和回答操作方法問題，讓您能夠輕鬆地在龐大的檔案存放庫中篩選，立即找到您需要的精確資訊。
+目前在新的 Campaign Web UI 中發行為 Beta 版本，內嵌於內容說明中&#x200B;**採用 AI 技術的知識助理**&#x200B;可輕鬆篩選大量文件存放庫，並立即找出所需的精確資訊，為文件搜尋和回答操作方法問題方面帶來全面革新。
 
 透過 Campaign Gen AI 的功能，此助理將改變您的體驗，讓資訊檢索和問題解決變得輕而易舉。無論您是在複雜任務中尋求指引，還是導覽大量文件，AI 驅動的知識助理都是您的終極夥伴，在每次互動中提供無與倫比的效率和準確性。
 
@@ -346,7 +346,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
->title="此範本僅就緒"
+>title="此範本僅準備就緒"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]

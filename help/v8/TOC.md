@@ -9,7 +9,7 @@ hide: true
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 84%
+ht-degree: 89%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 84%
    + [開始使用](get-started/get-started.md)
    + [連線至 Campaign](get-started/connect-to-campaign.md)
    + [探索介面](get-started/user-interface.md)
-   + [瀏覽及篩選清單](get-started/list-filters.md)
+   + [瀏覽和篩選清單](get-started/list-filters.md)
    + [使用預先定義的篩選器](get-started/predefined-filters.md)
    + [存取權與權限](get-started/permissions.md)
    + [護欄和限制](get-started/guardrails.md)
    + [不支援的功能](get-started/unsupported.md)
-   + [AI支援的內容說明](get-started/using-ai.md)
-+ 訊息與傳遞 {#msg}
+   + [採用 AI 技術的內容說明](get-started/using-ai.md)
++ 訊息和傳遞{#msg}
    + [開始使用訊息](msg/gs-messages.md)
    + [使用傳遞](msg/gs-deliveries.md)
    + [使用傳遞範本](msg/delivery-template.md)
@@ -71,7 +71,7 @@ ht-degree: 84%
       + [開始使用推播通知](push/gs-push.md)
       + [建立推播通知傳遞](push/create-push.md)
       + [設計推播傳遞](push/content-push.md)
-      + [預覽和傳送推播傳遞](push/send-push.md)
+      + [預覽並傳送推播傳遞](push/send-push.md)
    + 簡訊 {#sms}
       + [開始使用簡訊傳遞](sms/gs-sms.md)
       + [建立簡訊傳遞](sms/create-sms.md)
@@ -120,12 +120,12 @@ ht-degree: 84%
 + 工作流程 {#wf}
    + [開始使用工作流程](workflows/gs-workflows.md)
    + [存取並管理工作流程](workflows/access-monitor.md)
-   + 建立並執行您的第一個工作流程 {#create-workflow}
+   + 建立和執行第一個工作流程 {#create-workflow}
       + [用於建立工作流程的主要原則](workflows/gs-workflow-creation.md)
       + [建立工作流程](workflows/create-workflow.md)
       + [協調活動](workflows/orchestrate-activities.md)
       + [設定工作流程設定](workflows/workflow-settings.md)
-      + [開始和監視您的工作流程](workflows/start-monitor-workflows.md)
+      + [開始並監控工作流程](workflows/start-monitor-workflows.md)
    + 使用工作流程活動 {#design-workflows}
       + [關於工作流程活動](workflows/activities/about-activities.md)
       + [合併連結](workflows/activities/and-join.md)
