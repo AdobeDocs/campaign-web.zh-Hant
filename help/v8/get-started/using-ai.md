@@ -4,13 +4,13 @@ description: 在 Campaign Web 說明彈出視窗中提出問題
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# AI支援的內容說明 {#using-ai}
+# 採用 AI 技術的內容說明 {#using-ai}
 
 透過產品內容說明方塊中提供的問答式 AI 驅動的內容說明，您就能根據產品文件和目前的產品內容，快速獲得 AI 產生的答案。
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 >
 >此功能可在 Alpha 版本中使用，如有變更，恕不另行通知。
 >
->此功能僅以&#x200B;**英文**&#x200B;提供。此版本不支援其他語言。 因此，請確定 [您偏好的語言](connect-to-campaign.md#language-pref) 設為英文後再使用此功能。
+>此功能僅以&#x200B;**英文**&#x200B;提供。此版本不支援其他語言。因此，請務必在使用此功能之前，將[偏好的語言](connect-to-campaign.md#language-pref)設定為英文。
 
 
 嵌入內容說明中的 **Gen AI 內容說明**&#x200B;可輕鬆篩選大量文件存放庫，並立即找出所需的精確資訊，為文件搜尋和回答操作方法問題方面帶來了全面革新。
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Adobe Campaign AI 驅動的內容說明可以提供協助，但您應該驗證事實。它可能會輸出不正確的資訊、不準確或誤導性的答案。請務必檢查每個說明方塊中連結的產品文件。
 
-人工智慧和機器學習模型會隨著時間而不斷改進，以更好地解決特定的使用案例。Campaign AI 驅動的內容說明將在未來幾個月中不斷改進。我們強烈建議您使用 <img src="assets/do-not-localize/thumb.png" width="10%"/> 任何時候閱讀回答時都會按下按鈕，以標示對工程師的任何不當回應。
+人工智慧和機器學習模型會隨著時間而不斷改進，以更好地解決特定的使用案例。Campaign AI 驅動的內容說明將在未來幾個月中不斷改進。強烈建議您使用 <img src="assets/do-not-localize/thumb.png" width="10%"/> 按鈕以在您閱讀答案時，向工程師標記任何不當的回應。
 
 ## 建議  {#recommendations-ai}
 

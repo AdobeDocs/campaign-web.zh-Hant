@@ -5,9 +5,9 @@ description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限可用性"
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1295'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 * 定義訊息或工作流程中的目標對象，並輕鬆建立符合您需求的新對象
 * 在工作流程活動中套用規則 (例如分割及調和)，以符合您的特定需求
 * 建立預先定義的篩選器，無論您是在處理資料清單還是要產生傳遞的對象，都能在各種篩選作業中將這些篩選器用作捷徑
-* 新增規則以篩選報表中顯示的資料
+* 新增規則以篩選報告中顯示的資料
 * 建立自訂規則來篩選清單中顯示的資料，例如收件者、傳遞清單等等
 
 若要了解詳細資訊，請參閱[本章節](../query/query-modeler-overview.md)。
@@ -72,14 +72,14 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 
 **內建的跨管道行銷活動管理功能**
 
-透過 Adobe Campaign，您可以傳送跨管道行銷活動，包括電子郵件、簡訊、推播通知，並使用各種專屬報告來衡量其成效。針對行銷活動新增多個工作流程和傳遞後，您就可以建立跨各種管道的個人化體驗，確保每個接觸點都能引起目標對象的共鳴。
+透過 Adobe Campaign，您可以傳送跨管道行銷活動，包括電子郵件、簡訊、推播通知，並使用各種專屬報告來衡量其成效。針對行銷活動新增多個工作流程和傳遞後，您即可建立跨越各種管道的個人化體驗，確保每個接觸點都能引起目標對象的共鳴。
 
 使用新的 Campaign Web UI 可以：
 
 * 建立、設計、個人化、安排和傳送電子郵件、簡訊以及推播通知 - [了解更多](../msg/gs-messages.md)
 * 使用電子郵件設計工具設計個人化的電子郵件內容 - [了解更多](../email/edit-content.md)
 * 傳送跨管道的行銷活動，包括簡訊和推播通知 - [了解更多](../workflows/activities/channels.md)
-* 使用查詢模組化工具定義目標對象 —  [瞭解更多](../audience/about-recipients.md)
+* 使用查詢建模工具定義目標對象 - [了解更多](../audience/about-recipients.md)
 * 預覽、測試和傳送您的訊息 - [了解更多](../monitor/prepare-send.md)
 * 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/delivery-reports.md)
 
