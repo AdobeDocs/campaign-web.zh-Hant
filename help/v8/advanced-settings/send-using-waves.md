@@ -6,7 +6,7 @@ badge: label="有限可用性"
 source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
 >title="波段定義"
->abstract="定義批次以將傳送分割為幾個批次，而不是同時傳送大量訊息。"
+>abstract="定義波段以將傳遞目標分成幾批，而不是同時傳送大量訊息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
->title="波段大小"
->abstract="波浪的大小為必要項。 在大小欄位中輸入數值（訊息數）或百分比(0-100%)。"
+>title="波段的大小"
+>abstract="需要波段的大小。在大小欄位中輸入數值 (訊息數) 或百分比 (0-100%)。"
 
 若要平衡負載，您可以將傳送劃分為幾個批次。 設定批次數量及其相對於整個傳送的比例。
 

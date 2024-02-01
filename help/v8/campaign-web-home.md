@@ -7,11 +7,11 @@ badge: label="有限可用性"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
-# Adobe Campaign網頁檔案 {#campaign-documentation}
+# Adobe Campaign Web 文件 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -26,7 +26,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="項目 1"
->abstract="新的電子郵件、簡訊和推播通知設計體驗"
+>abstract="新電子郵件、簡訊和推播通知設計體驗"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -36,12 +36,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="項目 3"
->abstract="重新想像適用於對象、訂閱、AEM Assets、登陸頁面的UX"
+>abstract="Audiences、訂閱、AEM Assets、登陸頁面的使用者體驗重新設計"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="項目 4"
->abstract="新一代查詢模組化工具與電子郵件設計工具"
+>abstract="新一代查詢建模工具和電子郵件設計工具"
 
 <!--
 >[!CONTEXTUALHELP]

@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用登陸頁面
 description: 瞭解Campaign網頁中的登入頁面
 badge: label="有限可用性"
-source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
+source-git-commit: 93fe9fbaa38ae278ebbc2562e6d48c4c680cdfe8
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 7%
@@ -15,8 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="登錄頁面"
->abstract="探索全新的登陸頁面體驗。 立即建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中快速且順暢地管理設定檔資料擷取和選擇加入/選擇退出流程。
-."
+>abstract="探索全新的登陸頁面體驗。 立即建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中快速且順暢地管理設定檔資料擷取和選擇加入/選擇退出流程。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 

@@ -5,16 +5,16 @@ badge: label="有限可用性"
 source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 6%
+ht-degree: 27%
 
 ---
 
-# 建立及發佈登陸頁面 {#create-lp}
+# 建立和發佈登陸頁面 {#create-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
->title="建立及管理登入頁面"
->abstract="Adobe Campaign可讓您建立及設計登入頁面，將您的使用者導向線上表單，以便他們可以選擇加入或選擇退出接收您的通訊，或訂閱電子報等特定服務。"
+>title="建立和管理登陸頁面"
+>abstract="Adobe Campaign 可讓您建立和設計登陸頁面，將使用者引導至線上表單，讓他們可以選擇加入或選擇退出，或訂閱電子報等特定服務。"
 
 若要將您的客戶導向至您要在他們按一下特定連結時顯示的已定義網頁，請建立登入頁面，位於 [!DNL Adobe Campaign]，設計其內容、測試並發佈。
 
@@ -42,18 +42,18 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="定義登入頁面屬性"
->abstract="填寫屬性欄位（例如標籤），並視需要修改架構。 此外，您可以編輯內部名稱、變更儲存登入頁面的資料夾，以及提供說明。"
+>title="定義登錄頁面屬性"
+>abstract="填寫屬性欄位 (例如標籤) 並根據需要修改綱要。此外，您還可以編輯內部名稱、變更儲存登陸頁面的資料夾和提供說明。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="定義頁面的內容"
->abstract="編輯屬於此登入頁面之每個頁面的內容。"
+>title="定義頁面內容"
+>abstract="編輯屬於此登陸頁面的各頁面內容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="排程您的登陸頁面"
->abstract="您可以定義登入頁面的開始日期和結束日期。 頁面過期時， **有效期** 頁面隨即顯示。"
+>title="排程登陸頁面"
+>abstract="您可以定義登陸頁面的開始日期和結束日期。當頁面過期時，會顯示「**過期**」頁面。"
 
 
 >[!CONTEXTUALHELP]
@@ -63,7 +63,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
->title="設定您的訂閱登入頁面"
+>title="設定訂閱登陸頁面"
 >abstract="訂閱頁面可讓您的客戶訂閱服務。"
 
 <!--The main steps to create landing pages are as follows:
@@ -102,7 +102,7 @@ ht-degree: 6%
 
    ![](assets/lp-storage-schedule.png)
 
-1. 您可以定義登入頁面的開始日期和結束日期。 選取 **[!UICONTROL 啟用排程]** 並設定日期。 頁面過期時， **[!UICONTROL 有效期]** 頁面隨即顯示。
+1. 您可以定義登陸頁面的開始日期和結束日期。選取 **[!UICONTROL 啟用排程]** 並設定日期。 當頁面過期時，會顯示「**[!UICONTROL 過期]**」頁面。
 
 1. 按一下 **[!UICONTROL 檢閱和發佈]**.
 
@@ -112,8 +112,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="模擬您的登陸頁面"
->abstract="您可以在Campaign網頁使用者介面中檢視登入頁面的預覽，或在新的網頁瀏覽器分頁中開啟。"
+>title="模擬登陸頁面"
+>abstract="您可以在 Campaign Web 使用者介面中查看登陸頁面的預覽內容，或在新的 Web 瀏覽器標籤中開啟它。"
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"

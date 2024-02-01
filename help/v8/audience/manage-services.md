@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
 source-wordcount: '951'
-ht-degree: 21%
+ht-degree: 29%
 
 ---
 
@@ -95,13 +95,13 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="選取訂閱傳遞範本"
->abstract="若要傳送確認訊息給訂閱您服務的使用者，您必須根據 **[!UICONTROL 訂閱]** 目標對應，無已定義目標。"
+>abstract="若要向訂閱您服務的使用者傳送確認訊息，您必須根據&#x200B;**[!UICONTROL 訂閱]**&#x200B;目標對應選取特定的傳遞範本，而無需定義目標。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_unsubscriptions_delivery_template"
 >title="選取取消訂閱傳遞範本"
->abstract="若要向取消訂閱服務的使用者傳送確認訊息，您必須根據 **[!UICONTROL 訂閱]** 目標對應，無已定義目標。"
+>abstract="若要向取消訂閱您服務的使用者傳送確認訊息，您必須根據&#x200B;**[!UICONTROL 訂閱]**&#x200B;目標對應選取特定的傳遞範本，而無需定義目標。"
 
 若要傳送確認訊息給訂閱或取消訂閱服務的使用者，您必須使用建立傳遞範本 **[!UICONTROL 訂閱]** 目標對應，無已定義目標。 請依照下列步驟以執行此操作。
 
