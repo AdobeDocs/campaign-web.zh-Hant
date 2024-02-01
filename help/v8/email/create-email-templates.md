@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="有限可用性"
-source-git-commit: 0d9d61e8561d21bca00cb5c274884624119eaa53
+exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
+source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 15%
+source-wordcount: '946'
+ht-degree: 8%
 
 ---
 
@@ -19,10 +20,10 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
->title="定義您自己的內容"
->abstract="從頭開始建立獨立的自訂範本，使您的內容可在多個電子郵件中重複使用。"
+>title="內容範本"
+>abstract="為了加速及改善設計流程，您可以建立獨立的電子郵件範本，以輕鬆地在Adobe Campaign中重複使用自訂內容。 這些內容範本可根據內建或自訂範本、從現有內容建立或在內容範本編輯器中匯入，從頭開始設計。"
 
-為了加快和改進設計流程，您可以建立獨立的範本，以輕鬆地重複使用中的自訂內容 [!DNL Adobe Campaign].
+為了加快和改進設計流程，您可以建立獨立的範本，以輕鬆地重複使用中的自訂內容 [!DNL Adobe Campaign]. 這些內容範本可根據內建或自訂範本、從現有內容建立或在內容範本編輯器中匯入，從頭開始設計。
 
 此功能可讓內容導向的使用者使用獨立的範本，以便行銷使用者可以重複使用並在其自己的電子郵件行銷活動中調整它們。
 
@@ -30,40 +31,23 @@ ht-degree: 15%
 >
 >目前僅適用 **電子郵件** 支援內容範本。
 
-## 存取並管理範本 {#access-manage-templates}
+## 存取內容範本 {#access-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="編輯您的範本內容"
 >abstract="按一下「**編輯內容**」按鈕可使用電子郵件設計工具更新您的內容。"
 
-若要存取內容範本清單，請選取 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 從左側功能表。
+若要存取內容範本清單，請瀏覽至 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 功能表。
 
 ![](assets/content-template-list.png)
 
-所有已建立的範本 — 來自使用 [另存為範本](#save-as-template) 選項，選自 **[!UICONTROL 內容範本]** 功能表 — 顯示。
-
-<!--You can sort content templates by creation or modification date. You can also choose to display only the items that you created or modified.-->
-
-您可以篩選特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用新增規則 [查詢模型工具](../query/query-modeler-overview.md).
+此儀表板會將所有可用的內容範本顯示為清單。 您可以篩選特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用新增規則 [查詢模型工具](../query/query-modeler-overview.md).
 
 ![](assets/content-template-list-filters.png)
 
-若要編輯範本內容，請從清單中按一下所需的專案。 您可以：
+您可以從清單中編輯、複製或刪除現有的內容範本。 使用上半區段的按鈕來建立內容範本。
 
-* 編輯其屬性。
-
-* 按一下 **[!UICONTROL 編輯內容]** 按鈕以使用更新您的內容 [電子郵件設計工具](get-started-email-designer.md).
-
-![](assets/content-template-edition.png)
-
-若要刪除範本，請選取範本中 **[!UICONTROL 更多動作]** 功能表。
-
-![](assets/content-template-list-delete.png)
-
->[!NOTE]
->
->刪除範本時，使用此範本建立的傳遞不會受到影響。
 
 ## 建立內容範本 {#create-content-templates}
 
@@ -77,13 +61,9 @@ ht-degree: 15%
 >title="內容範本選擇"
 >abstract="內容範本選擇"
 
-建立內容範本的方式有兩種：
+內容範本可由以下人員建立： [將現有電子郵件儲存為範本](#save-as-template)，或從電子郵件範本清單中，透過 **建立內容範本** 按鈕， [如下所述](#create-template-from-scratch).
 
-* 使用左側邊欄，從頭開始建立內容範本 **[!UICONTROL 內容範本]** 功能表。 [了解做法](#create-template-from-scratch)
-
-* 設計電子郵件時，請將電子郵件內容儲存為範本。 [了解做法](#save-as-template)
-
-儲存後，無論是從草稿還是從先前的電子郵件建立，您現在都可以在建立任何範本時使用此範本 [電子郵件](../email/create-email.md) 範圍 [!DNL Adobe Campaign]. [了解做法](use-email-templates.md)
+儲存後，您現在便可在建立任何範本時使用此範本 [電子郵件](../email/create-email.md) 範圍 [!DNL Adobe Campaign]. [了解做法](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -91,32 +71,28 @@ ht-degree: 15%
 >
 >* 同樣地，在電子郵件中使用範本時，您對電子郵件內容所做的任何編輯都不會影響先前使用的內容範本。
 
-### 從頭開始建立範本 {#create-template-from-scratch}
+### 建立新的內容範本 {#create-template-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="定義您的範本屬性"
->abstract="從頭開始建立範本時，請定義其屬性以便在需要時輕鬆擷取。"
+>abstract="需要時可輕鬆定義要擷取的電子郵件內容範本屬性。"
 
-若要從頭開始建立內容範本，請遵循下列步驟。
+若要從內容範本控制面板建立新的內容範本，請執行下列步驟：
 
-1. 透過存取內容範本清單 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 左側功能表。
+1. 瀏覽至內容範本清單，從 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 左側欄。
 
 1. 選取 **[!UICONTROL 建立範本]**.
 
    ![](assets/content-template-create.png)
 
-1. 填寫範本詳細資訊。 您可以選取要儲存範本的資料夾。 依預設，內容範本儲存在Adobe Campaign階層的專用資料夾中： **[!UICONTROL 瀏覽器]** > **[!UICONTROL 資源]** > **[!UICONTROL 範本]** > **[!UICONTROL 內容範本]**. [瞭解如何建立資料夾](../get-started/permissions.md#folders)
+1. 輸入範本標籤和屬性。 您可以選取要儲存範本的資料夾。 依預設，內容範本儲存在Adobe Campaign階層的專用資料夾中： **[!UICONTROL 瀏覽器]** > **[!UICONTROL 資源]** > **[!UICONTROL 範本]** > **[!UICONTROL 內容範本]**. 進一步瞭解中的資料夾 [此頁面](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
-   >[!NOTE]
-   >
-   >目前僅限 **電子郵件** 頻道和 **HTML** 型別受到支援。
-
 1. 按一下 **[!UICONTROL 建立]** 並從不同選項中選擇要如何設計範本：
 
-   * [從草稿開始設計您的電子郵件](create-email-content.md) 透過電子郵件設計工具的介面。
+   * [從頭開始設計內容](create-email-content.md) 透過電子郵件設計工具的介面。
 
    * [程式碼或複製貼上原始HTML](code-content.md) 直接放入電子郵件設計工具。
 
@@ -126,7 +102,7 @@ ht-degree: 15%
 
    ![](assets/email_designer-templates.png)
 
-1. 此 [電子郵件設計工具](get-started-email-designer.md) 顯示。 視需要編輯您的內容，就像根據您選取的選項對任何電子郵件所做的那樣。
+1. 電子郵件設計工具隨即顯示。 視需要編輯您的內容，就像根據您選取的選項對任何電子郵件所做的那樣。 瞭解如何在中使用電子郵件設計工具 [本節](get-started-email-designer.md).
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
@@ -136,9 +112,7 @@ ht-degree: 15%
 
    ![](assets/content-template-save-back.png)
 
-範本會儲存至Adobe Campaign階層的預設資料夾(**[!UICONTROL 瀏覽器]** > **[!UICONTROL 資源]** > **[!UICONTROL 範本]** > **[!UICONTROL 內容範本]**)。 [進一步瞭解資料夾](../get-started/permissions.md#folders)
-
-它也會顯示在 **[!UICONTROL 內容範本]** 清單。 [了解更多](#access-manage-templates)
+範本可在 **[!UICONTROL 內容範本]** 清單。 [了解更多](#access-templates)
 
 您現在可以使用此範本建立新內容：此範本位於 **[!UICONTROL 已儲存的範本]** 電子郵件設計工具的索引標籤。 [了解做法](use-email-templates.md)
 
@@ -158,13 +132,12 @@ ht-degree: 15%
 
    ![](assets/email_designer-template-name.png)
 
-範本會儲存至Adobe Campaign階層的預設資料夾(**[!UICONTROL 瀏覽器]** > **[!UICONTROL 資源]** > **[!UICONTROL 範本]** > **[!UICONTROL 內容範本]**)。 [進一步瞭解資料夾](../get-started/permissions.md#folders)
-
-它也會顯示在 **[!UICONTROL 內容範本]** 清單。 它會變成獨立的內容範本，可以像該清單上的任何其他專案一樣加以存取、編輯及刪除。 [了解更多](#access-manage-templates)
+範本會儲存並顯示在 **[!UICONTROL 內容範本]** 清單。 它會變成獨立的內容範本，可以像該清單上的任何其他專案一樣加以存取、編輯及刪除。 [了解更多](#access-manage-templates)
 
 您現在可以使用此範本建立新內容：此範本位於 **[!UICONTROL 已儲存的範本]** 電子郵件設計工具的索引標籤。 [了解做法](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
+
 
 >[!NOTE]
 >
@@ -187,4 +160,43 @@ You can test the rendering of any email content template, whether created from s
 -->
 
 
+## 修改內容範本 {#modify-delete}
+
+若要更新現有的內容範本，請遵循下列步驟：
+
+1. 從內容範本清單中，按一下要修改的範本標籤以進行編輯。
+
+1. 按一下 **[!UICONTROL 編輯內容]** 按鈕以使用更新您的內容 [電子郵件設計工具](get-started-email-designer.md).
+
+![](assets/content-template-edition.png)
+
+>[!NOTE]
+>
+>使用此內容範本時，對內容範本所做的變更不會傳播至電子郵件。
+
+## 刪除內容範本 {#content-delete}
+
+刪除內容範本有兩個方法：
+
+* 從內容範本清單中，按一下省略符號按鈕，然後選取 **刪除**
+
+  ![從儀表板刪除內容範本](assets/content-template-list-delete.png)
+
+* 從內容範本本身，按一下 **更多** 按鈕，然後選取 **刪除**
+
+
+>[!NOTE]
+>
+>刪除內容範本不會影響使用此範本建立的傳送。
+
+
+## 複製內容範本 {#content-duplicate}
+
+複製內容範本有兩個方法：
+
+* 從內容範本清單中，按一下省略符號按鈕，然後選取 **複製**
+
+* 從內容範本本身，按一下 **更多** 按鈕，然後選取 **複製**
+
+在這兩種情況下，請確認複製以建立新的內容範本。 新內容範本的標籤為 **副本`<label of the initial campaign`**. 瀏覽至範本設定以更新此標籤。
 
