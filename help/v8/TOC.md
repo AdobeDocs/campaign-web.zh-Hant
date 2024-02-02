@@ -1,14 +1,14 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Web
-user-guide-description: Adobe Campaign Web產品檔案。
-title: Adobe Campaign網頁檔案
+user-guide-title: Adobe Campaign Web使用者介面
+user-guide-description: Adobe Campaign網頁使用者介面的產品檔案。
+title: Adobe Campaign Web 文件
 description: Campaign網頁檔案
-breadcrumb-title: Campaign Web
+breadcrumb-title: Campaign Web使用者介面
 hide: true
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '566'
 ht-degree: 89%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 # Adobe Campaign網頁檔案 {#v8}
 
-+ [Adobe Campaign網頁檔案](campaign-web-home.md)
++ [Adobe Campaign Web使用者介面檔案](campaign-web-home.md)
 + [新增功能](rn/whats-new.md)
 + [文件更新](rn/documentation-updates.md)
 + 開始使用 Adobe Campaign {#start}
