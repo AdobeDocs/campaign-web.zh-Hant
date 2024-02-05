@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 編輯電子郵件內容
-description: 了解如何使用 Campaign Web UI 中的電子郵件設計工具開始建置您的內容
+description: 瞭解如何在Campaign網頁使用者介面中使用電子郵件設計工具開始建立您的內容
 badge: label="有限可用性"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: ht
-source-wordcount: '472'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >id="acw_homepage_rn3"
 >title="新的電子郵件設計工具"
 >abstract="Campaign 電子郵件設計工具讓您能夠透過直覺式的拖放介面建立引人入勝、量身打造的客製化電子郵件。無論您是從空白顯示窗開始，匯入現有的內容或利用現有的範本，都可針對每封電子郵件設計和改進所有內容。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-TW" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 <!--TO REMOVE ABOVE-->
 

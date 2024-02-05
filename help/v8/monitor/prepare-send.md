@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 準備並傳送電子郵件
-description: 了解如何使用 Campaign Web UI 準備並傳送電子郵件
+description: 瞭解如何使用Campaign網頁使用者介面準備和傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="有限可用性"
-source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 40%
+source-wordcount: '893'
+ht-degree: 38%
 
 ---
 

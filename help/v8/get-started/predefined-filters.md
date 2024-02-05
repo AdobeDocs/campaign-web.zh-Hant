@@ -3,10 +3,10 @@ title: 使用預先定義的篩選器
 description: 瞭解如何在Adobe Campaign網頁中建立和管理預先定義的篩選器
 badge: label="有限可用性"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '822'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="預先定義的篩選器管理"
->abstract="Campaign Web 現在為您提供了人性化介面，可以輕鬆管理和自訂預先定義的篩選器，以滿足您的特定需求。建立一次並儲存以供未來使用。"
+>abstract="Campaign Web使用者介面提供使用者易記的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供未來使用。"
 
 
 <!--TO REMOVE BELOW-->
@@ -30,7 +30,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="預先定義的篩選器"
->abstract="Campaign Web 現在為您提供了人性化介面，可以輕鬆管理和自訂預先定義的篩選器，以滿足您的特定需求。建立一次並儲存以供未來使用。"
+>abstract="Campaign Web使用者介面為您提供好用的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供未來使用。"
 
 預先定義的篩選器就是建立並儲存以供未來使用的自訂篩選器。在使用查詢建模工具進行任何篩選作業時 (例如篩選資料清單或建立傳遞對象時)，可以將它們當作捷徑使用。
 

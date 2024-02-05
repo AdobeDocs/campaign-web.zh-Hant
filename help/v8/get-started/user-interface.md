@@ -4,10 +4,10 @@ title: 探索介面
 description: Adobe Campaign網頁使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限可用性"
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 96%
+source-wordcount: '1597'
+ht-degree: 93%
 
 ---
 
@@ -121,7 +121,7 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
 ![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-目前在新的 Campaign Web UI 中發行為 Beta 版本，內嵌於內容說明中&#x200B;**採用 AI 技術的知識助理**&#x200B;可輕鬆篩選大量文件存放庫，並立即找出所需的精確資訊，為文件搜尋和回答操作方法問題方面帶來全面革新。
+目前以Beta版的形式在新的Campaign網頁使用者介面 **AI支援的知識助理** 內嵌在內容說明中的內容，革新了檔案搜尋和回答操作方法問題，讓您能夠輕鬆地在龐大的檔案存放庫中篩選，立即找到您需要的精確資訊。
 
 透過 Campaign Gen AI 的功能，此助理將改變您的體驗，讓資訊檢索和問題解決變得輕而易舉。無論您是在複雜任務中尋求指引，還是導覽大量文件，AI 驅動的知識助理都是您的終極夥伴，在每次互動中提供無與倫比的效率和準確性。
 

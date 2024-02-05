@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 編輯電子郵件內容
-description: 了解如何在 Campaign Web UI 編輯電子郵件內容
+description: 瞭解如何在Campaign網頁使用者介面中編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="有限可用性"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 47%
+source-wordcount: '626'
+ht-degree: 45%
 
 ---
 

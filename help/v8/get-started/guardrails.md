@@ -1,56 +1,56 @@
 ---
-title: Campaign Web UI 中的護欄和限制
-description: Campaign Web UI 中的護欄和限制
+title: Campaign Web使用者介面的護欄和限制
+description: Campaign Web使用者介面的護欄和限制
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 65%
 
 ---
 
 # 護欄和限制 {#guardrails-limitations}
 
-當在 Campaign Web UI 中使用在 Campaign 用戶端主控台中建立或修改的元件時，便會套用下方所列的護欄和限制。
+在Campaign網頁使用者介面中使用在Campaign使用者端主控台中建立或修改的元件時，以下列出的護欄和限制適用。
 
 ## 工作流程 {#wf-guardrails-limitations}
 
 ### 活動
 
-Web UI 中尚不支援的工作流程活動是唯讀的，並會顯示為不相容的活動。您仍然可以執行工作流程、傳送訊息、檢查記錄等。Web UI 和用戶端主控台中可用的工作流程活動都是可編輯的。
+Campaign Web使用者介面中尚未支援的工作流程活動是唯讀的，且會顯示為不相容的活動。 您仍然可以執行工作流程、傳送訊息、檢查記錄等。Campaign Web使用者介面和Campaign使用者端主控台中可用的工作流程活動皆可編輯。
 
-| 主控台 | Web UI |
+| 主控台 | Web |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-Web UI 中尚不支援的工作流程活動設定不會顯示。但是，當執行工作流程時，便會套用這些設定。
+Web使用者介面中尚未支援的工作流程活動設定不會顯示。 但是，當執行工作流程時，便會套用這些設定。
 
-| 主控台 | Web UI |
+| 主控台 | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-在主控台中，「**擴充**」活動可以執行調和和擴充。在 Web UI 中，協解功能還無法使用。如果您已在主控台中定義了「**擴充**」活動中的調和設定，它將在 Web UI 中顯示為不相容的唯讀活動。
+在主控台中，「**擴充**」活動可以執行調和和擴充。在Campaign Web使用者介面中，尚未提供調解功能。 如果您已在使用者端主控台中定義 **擴充** 活動，則會在Campaign網頁使用者介面中顯示為不相容的唯讀活動。
 
-| 主控台 | Web UI |
+| 主控台 | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
 ### 畫布
 
-在 Web UI 中建立新工作流程時，畫布僅支援一個進入點。但是，如果您在主控台中建立了具有多個進入點的工作流程，則可以在 Web UI 中開啟並編輯它。
+在Campaign Web使用者介面中建立新工作流程時，畫布僅支援一個進入點。 不過，如果您在主控台中建立了具有多個進入點的工作流程，則可在Campaign Web使用者介面中開啟及編輯該工作流程。
 
-| 主控台 | Web UI |
+| 主控台 | Web |
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-迴圈在 Web UI 中還無法使用。如果您使用主控台建立了包含迴圈的工作流程，則無法從 Web UI 中存取它。將會顯示錯誤訊息。
+Campaign Web使用者介面中尚未提供回圈。 如果您使用主控台建立包含回圈的工作流程，則無法從Campaign網頁使用者介面存取該工作流程。 將會顯示錯誤訊息。
 
-| 主控台 | Web UI |
+| 主控台 | Web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-節點的定位會在每次新增或移除活動時重新整理。如果您在主控台中建立工作流程，請使用 Web UI 進行修改並在主控台中重新開啟它，您可能會發現一些細微的定位瑕疵。這對工作流程的流程和任務沒有影響。
+節點的定位會在每次新增或移除活動時重新整理。如果您在主控台中建立工作流程、使用Campaign Web使用者介面修改它，並在主控台中重新開啟它，您可能會注意到一些細微的定位瑕疵。 這對工作流程的流程和任務沒有影響。
 
 | 初始工作流程 | 定位變更 |
 | --- | --- |

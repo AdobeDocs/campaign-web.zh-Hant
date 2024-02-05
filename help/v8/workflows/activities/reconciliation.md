@@ -4,9 +4,9 @@ title: 使用調解工作流程活動
 description: 瞭解如何使用協調工作流程活動
 badge: label="有限可用性"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 43%
 
 ---
@@ -125,4 +125,4 @@ ht-degree: 43%
 
 ## 相容性 {#reconciliation-compat}
 
-此 **調解** 使用者端主控台中沒有活動。 全部 **擴充功能** 在啟用調解選項的使用者端主控台中建立的活動會顯示為 **調解** Campaign Web UI中的活動。
+此 **調解** 使用者端主控台中沒有活動。 全部 **擴充功能** 在啟用調解選項的使用者端主控台中建立的活動會顯示為 **調解** Campaign網頁使用者介面中的活動。

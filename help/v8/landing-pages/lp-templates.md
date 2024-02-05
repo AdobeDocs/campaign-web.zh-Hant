@@ -3,7 +3,7 @@ audience: end-user
 title: 使用登入頁面內容範本
 description: 瞭解如何將登入頁面內容儲存為設計範本，並在Campaign Web中重複使用
 badge: label="有限可用性"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 14%
@@ -56,4 +56,4 @@ ht-degree: 14%
 
 1. 使用登入頁面設計工具，視需要編輯您的內容。
 
-<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web UI-->
+<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web user interface-->

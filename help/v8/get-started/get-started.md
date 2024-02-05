@@ -4,10 +4,10 @@ title: 開始使用 Adobe Campaign Web
 description: 開始使用 Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="有限可用性"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 98%
+source-wordcount: '577'
+ht-degree: 74%
 
 ---
 
@@ -43,9 +43,9 @@ Adobe Campaign v8 是專為電子郵件、推播通知、簡訊和直接郵件�
 
 ![](assets/home.png)
 
-這個新的 UI 首先滿足&#x200B;**商業從業者**&#x200B;的需求 – 這個第一個版本未提供所有典型的管理任務，但將在後續版本中解決。請注意，並非用戶端主控台的每個單一功能或選項現在都可在新的 UI 中使用。新的使用案例、選項和功能將在未來版本中提供。
+這個新的Web使用者介面首先會滿足 **商務從業人員**  — 第一版未提供所有一般的管理工作，但後續版本將解決這些工作。 請注意，並非用戶端主控台的每個單一功能或選項現在都可在新的 UI 中使用。新的使用案例、選項和功能將在未來版本中提供。
 
-身為管理員或專家使用者，如果您需要存取未在 Web UI 中提供的 Campaign v8 功能，您可以連線至[用戶端主控台](#ac-client)。
+作為管理員或專家使用者，如果您需要存取Campaign Web使用者介面中無法提供的Campaign v8功能，您可以連結至 [使用者端主控台](#ac-client).
 
 
 >[!NOTE]
@@ -58,8 +58,8 @@ Adobe Campaign v8 是專為電子郵件、推播通知、簡訊和直接郵件�
 
 Campaign 用戶端主控台是以瀏覽器為基礎的應用程式，安裝在您的系統上。它使用 Web 服務 API 連接到您的 Campaign 應用程式伺服器。
 
-Campaign 資料儲存在應用程式伺服器中。資料可從用戶端主控台和 Web UI 取得。例如，如果您使用用戶端主控台建立傳遞範本，它也可以在 Web UI 中取用。如果您在 Web UI 中建立電子郵件傳遞，也可以從用戶端主控台存取此傳遞。
+Campaign 資料儲存在應用程式伺服器中。資料可從使用者端主控台和Campaign Web使用者介面取得。 例如，如果您使用使用者端主控台建立傳遞範本，Campaign Web使用者介面中也可使用該範本。 如果您在Campaign Web使用者介面中建立電子郵件傳送，也可從使用者端主控台存取此傳送。
 
-某些物件只能在用戶端主控台中建立和管理。它們可以在 Campaign Web UI 中顯示並供使用，但不能從該環境中建立或修改。所有的 Campaign 物件和元件都可從左側導覽的探索工具檢視中取得。
+某些物件只能在用戶端主控台中建立和管理。它們可以在Campaign Web使用者介面中顯示和使用，但無法從此環境建立或修改它們。 所有的 Campaign 物件和元件都可從左側導覽的探索工具檢視中取得。
 
 如需如何透過其用戶端主控台使用 Campaign v8 的詳細資訊，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"}。

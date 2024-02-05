@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 測試電子郵件轉譯
-description: 了解如何在 Campaign Web UI 中測試您的電子郵件轉譯
+description: 瞭解如何在Campaign網頁使用者介面中測試電子郵件呈現
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="有限可用性"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 8%
+source-wordcount: '228'
+ht-degree: 3%
 
 ---
 

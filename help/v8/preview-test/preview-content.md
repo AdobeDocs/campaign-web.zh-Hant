@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 預覽傳遞內容
-description: 瞭解如何使用Campaign Web UI預覽您的傳遞內容
+description: 瞭解如何使用Campaign網頁使用者介面預覽您的傳遞內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="有限可用性"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -30,21 +30,18 @@ ht-degree: 2%
 
    * **[!UICONTROL 新增訂閱者]** 預覽推播通知
 
-1. 您可以合併測試設定檔和設定檔，以預覽您的電子郵件或簡訊訊息。
+1. 您可以合併設定檔和測試設定檔，以預覽您的電子郵件或簡訊訊息。
 
    * 此 **[!UICONTROL 測試設定檔]** tab會列出所有種子地址，這些地址是資料庫中的其他虛構收件者。
-
      ![](assets/simulate-select-profiles.png)
 
-     >[!NOTE]
-     >
-     >測試設定檔可從以下網址建立： **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 功能表。 [了解更多](../audience/test-profiles.md#create-test-profiles)
+     測試設定檔可從以下網址建立： **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 功能表。 [了解更多](../audience/test-profiles.md#create-test-profiles)
 
-   * 此 **[!UICONTROL 設定檔]** 索引標籤會列出所有儲存在 **[!UICONTROL 設定檔和目標]** 資料夾來自 [!DNL Campaign] 主控台。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
-     >[!NOTE]
-     >
-     >您也可以從Campaign網頁UI中的對應索引標籤，檢視及管理設定檔。 [了解更多](../audience/about-recipients.md)
+   * 此 **[!UICONTROL 設定檔]** 索引標籤會列出所有儲存在 **[!UICONTROL 設定檔和目標]** 資料夾來自 [!DNL Campaign] 使用者端主控台。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
+
+     您可以從以下位置檢視、建立及管理設定檔： **[!UICONTROL 設定檔]** 標籤。 [了解更多](../audience/about-recipients.md)
+
 
 1. 瀏覽測試設定檔或設定檔清單時，您可以使用篩選器來縮小搜尋範圍。
 
