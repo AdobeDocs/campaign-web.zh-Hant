@@ -4,7 +4,7 @@ title: 設定工作流程設定
 description: 瞭解如何使用Adobe Campaign Web進行工作流程設定
 badge: label="有限可用性"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
+source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 23%
@@ -46,7 +46,7 @@ ht-degree: 23%
    * **資料庫的時區** 使用資料庫伺服器的時區
    * 特定時區
 * 當工作流程失敗時，屬於在中選取之運運算元群組的運運算元 **[!UICONTROL 監督員]** 欄位會透過電子郵件通知。
-* *您也可以輸入 **[!UICONTROL 說明]** 工作流程的其他資訊。
+* 您也可以輸入 **[!UICONTROL 說明]** 工作流程的其他資訊。
 
 當工作流程為 [與行銷活動相關聯](create-workflow.md)，則會顯示在 **[!UICONTROL 連結的行銷活動]** 欄位。 您可以從該欄位開啟關聯的行銷活動。
 
