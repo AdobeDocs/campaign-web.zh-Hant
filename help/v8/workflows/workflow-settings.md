@@ -4,7 +4,7 @@ title: 設定工作流程設定
 description: 瞭解如何使用Adobe Campaign Web進行工作流程設定
 badge: label="有限可用性"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
+source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 24%
@@ -20,7 +20,7 @@ ht-degree: 24%
 
 若要這麼做，請按一下 **[!UICONTROL 設定]** 按鈕在工作流程畫布上方的動作列中。
 
-![](assets/workflow-settings.png)
+![](assets/workflow-settings-button.png){width="70%" align="left"}
 
 ## 工作流程屬性 {#properties}
 
@@ -29,10 +29,15 @@ ht-degree: 24%
 >title="工作流程屬性"
 >abstract="本區段提供一般工作流程屬性，在建立工作流程時也可以存取這些屬性。您可以選擇用於建立工作流程的範本並指定標籤。展開其他選項區段以完成特定設定，例如工作流程儲存資料夾或時區。"
 
-此 **[!UICONTROL 屬性]** 區段提供一般設定，當您建立工作流程時也可以存取這些設定。 這些屬性包括：
+此 **[!UICONTROL 屬性]** 區段提供一般設定，當您建立工作流程時也可以存取這些設定。
+
+![](assets/workflow-settings.png){width="70%" align="left"}
+
+
+這些屬性包括：
 
 * 此 **[!UICONTROL 標籤]** 顯示在清單中的工作流程。
-* 內部 **[!UICONTROL 名稱]** 的工作流程中。
+* 此 **[!UICONTROL 內部名稱]** 的工作流程中。
 * 此 **[!UICONTROL 資料夾]** 工作流程的儲存位置。
 * 預設 **[!UICONTROL 時區]** 用於工作流程的所有活動。 依預設，工作流程的時區是為目前的Campaign運運算元定義的時區。
 可能的值包括：
