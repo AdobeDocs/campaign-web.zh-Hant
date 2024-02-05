@@ -4,10 +4,10 @@ title: 開始使用Adobe Campaign網頁中的訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 badge: label="有限可用性"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: b1aedf944058ca3aa0edd61dab8308ef46d46205
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 92%
+source-wordcount: '149'
+ht-degree: 71%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 92%
 
 這些訊息會經過設計並透過傳遞傳送，而且可針對每位收件者進行個人化。這些傳遞可以是獨立的，也可以在行銷活動的內容中納入工作流程。若要了解如何在 Adobe Campaign 中建立和管理傳遞，請參閱[本章節](gs-deliveries.md)。
 
-Adobe Campaign v8 隨附以下傳遞管道：電子郵件、簡訊和行動應用程式。請瀏覽以下章節，了解如何建立和傳送訊息。
+Adobe Campaign v8提供下列傳送頻道：電子郵件、簡訊和推播通知。 尚未支援其他管道，例如應用程式內訊息、直接郵件或使用X (Twitter)的社交行銷。
+
+請瀏覽以下章節，了解如何建立和傳送訊息。
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
