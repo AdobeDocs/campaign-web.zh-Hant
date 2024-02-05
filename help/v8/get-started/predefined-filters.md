@@ -3,9 +3,9 @@ title: 使用預先定義的篩選器
 description: 瞭解如何在Adobe Campaign網頁中建立和管理預先定義的篩選器
 badge: label="有限可用性"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '824'
 ht-degree: 93%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 93%
 
 您可以使用現有的內建篩選器來存取資料的特定子集，或建立您自己的預先定義篩選器並加以儲存。
 
-![](assets/predefined-filters-menu.png)
+![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}
 
 >[!IMPORTANT]
 >
