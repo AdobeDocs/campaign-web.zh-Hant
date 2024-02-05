@@ -4,10 +4,10 @@ title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 badge: label="有限可用性"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 37%
+source-wordcount: '706'
+ht-degree: 32%
 
 ---
 
@@ -89,10 +89,21 @@ ht-degree: 37%
 
 ## 排程您的傳遞傳送 {#schedule-push}
 
-若要將您的傳遞安排在特定的日期和時間，請開啟「**[!UICONTROL 啟用排程]**」選項。在您啟動傳遞後，訊息將在您為收件者定義的確切日期和時間自動傳送。 進一步瞭解中的傳送排程 [本節](../msg/gs-messages.md#gs-schedule)
+在工作流程內容中傳送傳遞時，您必須使用 **排程器** 活動。 進一步瞭解 [此頁面](../workflows/activities/scheduler.md). 下列步驟僅適用於獨立傳送。
+
+若要將獨立推送傳送排程至特定日期和時間，請遵循下列步驟：
+
+1. 瀏覽至 **[!UICONTROL 排程]** 區段的傳送屬性。
+
+1. 使用 **[!UICONTROL 啟用排程]** 切換即可啟用。
+
+1. 設定所要的傳送日期和時間。
+
+當您啟動傳遞後，訊息會在您為收件者定義的確切日期和時間自動傳送。
 
 ![](assets/push_create_3.png)
 
+進一步瞭解中的傳送排程 [本節](../msg/gs-messages.md#gs-schedule)
 
 ## 傳遞進階設定 {#adv-push}
 

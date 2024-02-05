@@ -4,10 +4,10 @@ title: 傳送您的第一個電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="有限可用性"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 70%
+source-wordcount: '1367'
+ht-degree: 68%
 
 ---
 
@@ -144,11 +144,9 @@ ht-degree: 70%
 
 ## 排程傳送 {#schedule}
 
-若要排程電子郵件的傳送，請遵循下列步驟。
+在工作流程內容中傳送傳遞時，您必須使用 **排程器** 活動。 進一步瞭解 [此頁面](../workflows/activities/scheduler.md). 下列步驟僅適用於獨立傳送。
 
-有關如何排程傳遞傳送的其他指示，請參閱 [本節](../msg/gs-messages.md#gs-schedule).
-
-1. 瀏覽至 **[!UICONTROL 排程]** 區段。
+1. 瀏覽至 **[!UICONTROL 排程]** 區段的傳送屬性。
 
 1. 使用 **[!UICONTROL 啟用排程]** 切換即可啟用。
 
@@ -156,7 +154,9 @@ ht-degree: 70%
 
    ![](assets/schedule.png)
 
-傳送傳遞後，將在您定義的聯絡日期開始實際傳送。
+傳送傳遞後，實際傳送將從您定義的聯絡日期開始。
+
+進一步瞭解中的傳送排程 [本節](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
 ## 預覽和測試電子郵件 {#preview-test}
 
