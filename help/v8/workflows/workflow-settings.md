@@ -4,10 +4,10 @@ title: 設定工作流程設定
 description: 瞭解如何使用Adobe Campaign Web進行工作流程設定
 badge: label="有限可用性"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 27%
+source-wordcount: '917'
+ht-degree: 24%
 
 ---
 
@@ -29,23 +29,24 @@ ht-degree: 27%
 >title="工作流程屬性"
 >abstract="本區段提供一般工作流程屬性，在建立工作流程時也可以存取這些屬性。您可以選擇用於建立工作流程的範本並指定標籤。展開其他選項區段以完成特定設定，例如工作流程儲存資料夾或時區。"
 
-此 **[!UICONTROL 屬性]** 區段提供一般設定，當您建立工作流程時也可以存取這些設定。
+此 **[!UICONTROL 屬性]** 區段提供一般設定，當您建立工作流程時也可以存取這些設定。 這些屬性包括：
 
-* **[!UICONTROL 標籤]**：清單中顯示的工作流程標籤。
-* **[!UICONTROL 名稱]**：工作流程的內部名稱。
-* **[!UICONTROL 資料夾]**：應儲存工作流程的資料夾。
-* **[!UICONTROL 連結的行銷活動]**：如果工作流程是在行銷活動中建立，則會顯示此欄位。 它可讓您開啟相關聯的行銷活動。
-* **[!UICONTROL 時區]**：定義預設用於工作流程所有活動的特定時區。 依預設，工作流程的時區是為目前的Campaign運運算元定義的時區。
-其他可能的值包括：
+* 此 **[!UICONTROL 標籤]** 顯示在清單中的工作流程。
+* 內部 **[!UICONTROL 名稱]** 的工作流程中。
+* 此 **[!UICONTROL 資料夾]** 工作流程的儲存位置。
+* 預設 **[!UICONTROL 時區]** 用於工作流程的所有活動。 依預設，工作流程的時區是為目前的Campaign運運算元定義的時區。
+可能的值包括：
    * **伺服器時區** 使用Adobe Campaign應用程式伺服器的時區
    * **運運算元時區** 用於使用在使用者端主控台中執行工作流程之Adobe Campaign運運算元的時區（如運運算元的設定檔所定義）
    * **資料庫的時區** 使用資料庫伺服器的時區
    * 特定時區
+* 當工作流程失敗時，屬於在中選取之運運算元群組的運運算元 **[!UICONTROL 監督員]** 欄位會透過電子郵件通知。
+* *您也可以輸入 **[!UICONTROL 說明]** 工作流程的其他資訊。
 
-* **[!UICONTROL 監督員]**：當工作流程失敗時，屬於在此欄位中選取之操作者群組的操作者會收到電子郵件通知。
-* **[!UICONTROL 說明]**：使用此欄位來提供工作流程的說明。
+當工作流程為 [與行銷活動相關聯](create-workflow.md)，則會顯示在 **[!UICONTROL 連結的行銷活動]** 欄位。 您可以從該欄位開啟關聯的行銷活動。
 
-## 細分設定
+
+## 細分設定  {#segmentation-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
@@ -56,9 +57,9 @@ ht-degree: 27%
 
 * **[!UICONTROL 保留兩次執行之間的中期母體結果]**：依預設，僅保留上次執行工作流程的工作表。 技術工作流程會清除先前執行的工作表，每天都執行。
 
-  如果啟用此選項，即使執行工作流程後，也會保留工作表格。 您可以將其用於測試目的，因此必須僅用於開發或中繼環境。 絕不可在生產工作流程中勾選該專案。
+  如果啟用此選項，即使執行工作流程後，也會保留工作表格。 您可以將其用於測試目的，因此必須使用 **僅限** 在開發或中繼環境中。 絕不可在生產工作流程中勾選該專案。
 
-## 執行設定
+## 執行設定  {#exec-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
@@ -73,16 +74,16 @@ ht-degree: 27%
 
 * **[!UICONTROL 預設相似性]**：如果您的安裝包含數個工作流程伺服器，請使用此欄位來選擇要執行工作流程的電腦。 如果此欄位中定義的值不存在於任何伺服器上，工作流程將維持擱置狀態。
 
-* **[!UICONTROL 將SQL查詢儲存在記錄檔中]**：可讓您從工作流程將SQL查詢儲存至記錄檔。 此功能保留給進階使用者使用。它適用於包含目標定位活動的工作流程，例如 **[!UICONTROL 建立對象]**. 啟用此選項後，工作流程執行期間傳送到資料庫的SQL查詢會顯示在工作流程的日誌中，可讓您分析這些查詢以最佳化查詢或診斷問題。
+* **[!UICONTROL 將SQL查詢儲存在記錄檔中]**：核取此選項以將SQL查詢從工作流程儲存到記錄中。 此功能保留給進階使用者使用。它適用於包含目標定位活動的工作流程，例如 **[!UICONTROL 建立對象]**. 啟用此選項後，工作流程執行期間傳送到資料庫的SQL查詢會顯示在工作流程的日誌中，可讓您分析這些查詢以最佳化查詢或診斷問題。
 
-## 錯誤管理設定
+## 錯誤管理設定  {#error-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="錯誤管理設定"
->abstract="在此區段中，您可以管理工作流程在執行期間發生錯誤時應該如何運作 (暫停/停止其執行或忽略錯誤)。"
+>abstract="在此區段中，您可以定義工作流程在執行期間應如何管理錯誤。 您可以選擇暫停處理序、忽略特定數目的錯誤，或停止工作流程執行。"
 
-* **[!UICONTROL 錯誤管理]**：此欄位可讓您定義工作流程任務發生錯誤時應採取的動作。 您有兩個選擇：
+* **[!UICONTROL 錯誤管理]**：此欄位可讓您定義工作流程任務發生錯誤時應採取的動作。 有三個可能的選項：
 
    * **[!UICONTROL 暫停處理序]**：工作流程會自動暫停，其狀態會變更為 **[!UICONTROL 已失敗]**. 問題解決後，使用繼續工作流程 **[!UICONTROL 繼續]** 按鈕。
    * **[!UICONTROL 忽略]**：觸發錯誤的工作狀態會變更為 **[!UICONTROL 已失敗]**，但工作流程會保留 **[!UICONTROL 已開始]** 狀態。 <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
