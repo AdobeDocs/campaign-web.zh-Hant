@@ -4,9 +4,9 @@ title: 使用訂閱服務
 description: 瞭解如何存取、建立和管理Adobe Campaign網站上的訂閱服務
 badge: label="有限可用性"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '940'
 ht-degree: 29%
 
 ---
@@ -70,11 +70,11 @@ ht-degree: 29%
 
 1. 依預設，服務會儲存在 **[!UICONTROL 服務與訂閱]** 資料夾。 您可以瀏覽至所需的位置來變更它。 [瞭解如何使用資料夾](../get-started/permissions.md#folders)
 
-1. 依預設，訂閱沒有限制。 您可以停用 **[!UICONTROL 有效期無限制]** 定義服務有效持續時間的選項。
+1. 依預設，訂閱沒有限制。
 
-   在以下範例中，20天後：
-   * 再也沒有收件者能夠訂閱此服務。
-   * 此服務的所有訂閱者將在20天後自動取消訂閱。 [了解更多](#automatic-unsubscription)
+   您可以停用 **[!UICONTROL 有效期無限制]** 定義服務有效持續時間的選項。 有效期間結束後：
+   * 沒有收件者可以再訂閱此服務
+   * 此服務的所有訂閱者都會自動取消訂閱
 
    ![](assets/service-create-validity-period.png)
 
