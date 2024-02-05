@@ -4,10 +4,10 @@ title: 傳遞設定
 description: 進一步瞭解Campaign網頁中的傳遞設定
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="有限可用性"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 58%
+source-wordcount: '2326'
+ht-degree: 57%
 
 ---
 
@@ -125,9 +125,11 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="傳遞的傳遞設定"
->abstract="傳遞參數是套用到傳遞的技術設定。您可以啟用密件副本進行傳遞，並更改傳遞和例行模式。這些選項僅限於專業使用者。"
+>abstract="傳遞參數是套用到傳遞的技術設定。您可以變更傳遞和例行模式、啟用「電子郵件密件副本」、使用波段傳送，以及選擇所傳送電子郵件訊息的格式。 這些選項僅限於專業使用者。"
 
 **[!UICONTROL 傳遞]** 引數為適用於您傳送的技術設定。
+
+![](assets/delivery-settings-delivery.png)
 
 整合的電子郵件 **[!UICONTROL 路由]** 預設會提供外部帳戶。 其包含可讓應用程式傳送電子郵件的技術參數。
 

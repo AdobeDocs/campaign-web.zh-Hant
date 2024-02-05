@@ -3,7 +3,7 @@ audience: end-user
 title: 使用波段傳送
 description: 進一步瞭解Campaign網頁中的傳遞設定
 badge: label="有限可用性"
-source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 9%
@@ -34,7 +34,11 @@ ht-degree: 9%
 
 1. 若要設定波段，您可以：
 
-   * **[!UICONTROL 排程相同大小的多個波段]**. 例如，如果您輸入 **[!UICONTROL 30%]** 在對應欄位中，每個波段將代表傳送中所包含訊息的30%，但最後一個波段除外，這將代表訊息的10%。
+   * **[!UICONTROL 排程相同大小的多個波段]**.
+
+     例如，如果您輸入 **[!UICONTROL 30%]** 在對應欄位中，每個波段將代表傳送中所包含訊息的30%，但最後一個波段除外，這將代表訊息的10%。
+
+     ![](assets/waves-same-size.png)
 
      在 **[!UICONTROL 間隔]** 部分，指定兩個連續波段開始之間的延遲。 例如，如果您輸入 **[!UICONTROL 2d]**，第一波會立即開始，第二波會在兩天內開始，第三波會在四天內開始，以此類推。
 
@@ -44,7 +48,9 @@ ht-degree: 9%
 
      在以下範例中，第一個波段代表傳遞中包含之訊息總數的25%，並會立即開始。 接下來的兩個批次會完成傳遞，並設定為每六小時開始一次。
 
-     特定型別控制規則、 **[!UICONTROL 波段排程檢查]**，確保最後一個波段是在傳遞效度限制之前計畫。 行銷活動型別及其規則設定於 **[!UICONTROL 型別]** 傳遞設定的索引標籤。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
+     ![](assets/waves-calendar.png)
+
+     特定型別控制規則、 **[!UICONTROL 波段排程檢查]**，確保最後一個波段是在傳遞效度限制之前計畫。 行銷活動型別及其規則設定於 **[!UICONTROL 型別]** 傳遞設定的索引標籤。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
      >[!IMPORTANT]
      >
@@ -66,6 +72,8 @@ ht-degree: 9%
 
   若要這麼做，請使用 **[!UICONTROL 根據行事曆排程波段]** 選項。 例如，將第一個波段設為10%，將第二個波段設為15%，以此類推。
 
+  ![](assets/waves-ramp-up.png)
+
 * **涉及客服中心的行銷活動**
 
   管理電話忠誠度行銷活動時，貴組織處理聯絡訂閱者之通話次數的能力有限。
@@ -73,3 +81,5 @@ ht-degree: 9%
   使用波段時，您可以將每天的訊息數量限製為20，這是客服中心的每日處理能力。
 
   若要這麼做，請選取 **[!UICONTROL 排程相同大小的多個波段]** 選項。 輸入 **[!UICONTROL 20]** 作為波浪的大小和 **[!UICONTROL 1d]** 在 **[!UICONTROL 期間]** 欄位。
+
+  ![](assets/waves-call-center.png)
