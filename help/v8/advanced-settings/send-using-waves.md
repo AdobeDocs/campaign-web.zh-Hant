@@ -4,9 +4,9 @@ title: 使用波段傳送
 description: 進一步瞭解Campaign網頁中的傳遞設定
 feature: Email
 badge: label="有限可用性"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '790'
 ht-degree: 4%
 
 ---
@@ -81,7 +81,11 @@ ht-degree: 4%
 
 * 在 **[!UICONTROL 大小]** 欄，輸入固定數字或百分比。
 
-視需要新增多個波段。
+新增任意數量的波段。 您可以視需要重新排序。
+
+>[!NOTE]
+>
+>如果您使用百分比，則所有波段的總和不應超過100%。
 
 在以下範例中，第一個波段代表傳送中包含之訊息總數的25%，而且會立即開始。 接下來的兩個批次會完成傳遞，並設定為每六小時開始一次。
 
