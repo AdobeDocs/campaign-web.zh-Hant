@@ -1,8 +1,9 @@
 ---
 title: 定義特定於著陸頁面的內容
 description: 瞭解如何在Campaign網頁中設計登入頁面特定內容
+feature: Landing Pages
 badge: label="有限可用性"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 13%

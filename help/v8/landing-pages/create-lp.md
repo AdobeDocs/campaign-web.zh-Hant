@@ -1,8 +1,9 @@
 ---
 title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
+feature: Landing Pages
 badge: label="有限可用性"
-source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 22%

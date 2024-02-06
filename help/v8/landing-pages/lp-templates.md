@@ -2,8 +2,9 @@
 audience: end-user
 title: 使用登入頁面內容範本
 description: 瞭解如何將登入頁面內容儲存為設計範本，並在Campaign Web中重複使用
+feature: Landing Pages
 badge: label="有限可用性"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 14%
