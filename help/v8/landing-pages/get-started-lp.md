@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用登陸頁面
 description: 瞭解Campaign網頁中的登入頁面
 badge: label="有限可用性"
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '189'
 ht-degree: 15%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="登錄頁面"
->abstract="探索全新登陸頁面體驗。立即建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理、贏取、訂閱/取消訂閱和拒絕清單使用案例。"
+>abstract="探索全新登陸頁面體驗。立即建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理贏取、訂閱/取消訂閱和拒絕清單使用案例。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 
@@ -27,7 +27,7 @@ ht-degree: 15%
 * 設定 **選擇加入和選擇退出流程** 快速且順暢無礙。
 * 建立訂閱服務讓使用者能夠 **訂閱服務**. [了解更多](../audience/manage-services.md)
 * 向收件者提供以下資訊 **取消訂閱的功能** 接收您的通訊。
-* 傳送 **確認電子郵件** 選擇加入或選擇退出時。
+  <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

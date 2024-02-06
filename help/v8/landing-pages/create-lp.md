@@ -2,9 +2,9 @@
 title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 badge: label="有限可用性"
-source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
+source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1006'
 ht-degree: 23%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="建立和管理登陸頁面"
->abstract="Adobe Campaign可讓您建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理、贏取、訂閱/取消訂閱和拒絕清單使用案例。"
+>abstract="Adobe Campaign可讓您建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理贏取、訂閱/取消訂閱和拒絕清單使用案例。"
 
-Adobe Campaign可讓您建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理、贏取、訂閱/取消訂閱和拒絕清單使用案例。
+Adobe Campaign可讓您建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理贏取、訂閱/取消訂閱和拒絕清單使用案例。
 
 ## 存取登陸頁面 {#access-landing-pages}
 
@@ -30,9 +30,9 @@ Adobe Campaign可讓您建立、設計和共用登入頁面，將您的使用者
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
->[!NOTE]
+>[!CAUTION]
 >
->您無法在Campaign網頁中顯示從使用者端主控台建立的登入頁面。 進一步瞭解 [Campaign主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>您無法在Campaign網頁中顯示或編輯從使用者端主控台建立的登入頁面。 進一步瞭解 [Campaign主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -98,7 +98,7 @@ Adobe Campaign可讓您建立、設計和共用登入頁面，將您的使用者
 
    ![](assets/lp-pages.png)
 
-1. 此 **[!UICONTROL 更新預先載入的記錄]** 預設為選取。 如果您想要透過登入頁面更新儲存在資料庫中的設定檔，則可以使用預先載入方塊。 預先載入方塊可讓您指定如何在資料庫中尋找要更新的記錄。 您也可以從登入頁面目前前後關聯中的欄位中進行選擇，這些欄位將用於尋找資料庫中的對應設定檔。
+1. 此 **[!UICONTROL 更新預先載入的記錄]** 選項預設為選取。 如果您想要透過登入頁面更新儲存在資料庫中的設定檔，則可以使用預先載入方塊。 預先載入方塊可讓您指定如何在資料庫中尋找要更新的記錄。 您也可以從登入頁面目前前後關聯中的欄位中進行選擇，這些欄位將用於尋找資料庫中的對應設定檔。
 
    ![](assets/lp-storage-schedule.png)
 
