@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Campaign Web v8 有哪些新增功能？
-description: 探索 Campaign Web v8 附帶的新增功能
+title: Campaign Web使用者介面新增功能
+description: 探索Campaign Web使用者介面的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限可用性"
-source-git-commit: 4b197f29898fcdad294cd03696a907ca665909b7
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 82%
+source-wordcount: '1313'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,12 @@ ht-degree: 82%
 >title="發行說明"
 >abstract="我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。"
 
-我們很高興推出 Adobe Campaign Web 使用者介面的新版本。我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。Campaign Web使用者介面使用Adobe Experience Platform提供連線的畫布，以實現統一的體驗。 自Campaign v8.6發行版本開始，所有使用者皆可使用此版本。
+我們很高興能推出新版本的 **Adobe Campaign Web使用者介面**. 我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。Campaign Web使用者介面(UI)將畫布與Adobe Experience Platform連結，以提供統一的體驗。
+
+
+>[!AVAILABILITY]
+>
+>自Campaign v8.6發行版本開始，所有使用者皆可使用此版本。 若要深入瞭解Adobe Campaign發行版本，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 
 ## 主要功能 {#key-features}
@@ -28,7 +33,7 @@ ht-degree: 82%
 
 **現代化、易用且統一的體驗**
 
-Campaign的全新網頁使用者介面可與所有Adobe Experience Cloud解決方案和應用程式整合，提供全新的使用者體驗。 它提供以下功能：
+Campaign的全新網頁使用者介面提供全新的使用者體驗，可連線所有Adobe Experience Cloud解決方案和應用程式。 它提供以下功能：
 
 * 透過單一和共用的使用者工作階段，存取新的 Campaign 介面和其他 Adobe 解決方案
 * 新的導覽體驗，左側邊欄提供所有選單和資料夾
