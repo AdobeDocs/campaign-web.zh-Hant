@@ -2,10 +2,10 @@
 title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 badge: label="有限可用性"
-source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 23%
+source-wordcount: '1031'
+ht-degree: 22%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="建立和管理登陸頁面"
->abstract="Adobe Campaign可讓您建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理贏取、訂閱/取消訂閱和拒絕清單使用案例。"
+>abstract="Adobe Campaign可讓您建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理贏取、訂閱/取消訂閱和封鎖清單使用案例。"
 
-Adobe Campaign可讓您建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理贏取、訂閱/取消訂閱和拒絕清單使用案例。
+Adobe Campaign可讓您建立、設計和共用登入頁面。 在行銷活動的內容中，登入頁面是獨立的網頁，當訪客點按電子郵件、簡訊、推播傳送或網站中的連結後，就會導向訪客。 Adobe Campaign隨附四個要管理的範本 **贏取**， **訂閱**， **取消訂閱**、和 **封鎖清單** 使用案例。
 
 ## 存取登陸頁面 {#access-landing-pages}
 
