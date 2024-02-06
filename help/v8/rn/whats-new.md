@@ -4,10 +4,10 @@ title: Campaign Web v8 有哪些新增功能？
 description: 探索 Campaign Web v8 附帶的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限可用性"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 4b197f29898fcdad294cd03696a907ca665909b7
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 84%
+source-wordcount: '1298'
+ht-degree: 82%
 
 ---
 
@@ -19,16 +19,8 @@ ht-degree: 84%
 >title="發行說明"
 >abstract="我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。"
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="發行說明"
->abstract="我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。"
+我們很高興推出 Adobe Campaign Web 使用者介面的新版本。我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。Campaign Web使用者介面使用Adobe Experience Platform提供連線的畫布，以實現統一的體驗。 自Campaign v8.6發行版本開始，所有使用者皆可使用此版本。
 
-<!--TO REMOVE ABOVE-->
-
-
-我們很高興推出 Adobe Campaign Web 使用者介面的新版本。我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。
 
 ## 主要功能 {#key-features}
 
