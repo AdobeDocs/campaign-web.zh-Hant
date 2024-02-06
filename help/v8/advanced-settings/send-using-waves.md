@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用波段傳送
 description: 進一步瞭解Campaign網頁中的傳遞設定
+feature: Email
 badge: label="有限可用性"
-source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '767'
 ht-degree: 4%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 4%
 >title="定義每個波段的大小"
 >abstract="您必須為要加入的所有波段輸入大小。 輸入數值（每個波次的訊息數）或百分比(0-100%)。"
 
-若要平衡負載，您可以將傳送劃分為幾個批次。 設定批次數量及其相對於整個傳送的比例，以及兩個批次之間的間隔。
+若要平衡負載，您可以將電子郵件傳送劃分為幾個批次。 設定批次數量及其相對於整個傳送的比例，以及兩個批次之間的間隔。
 
 >[!NOTE]
 >
@@ -46,15 +47,11 @@ ht-degree: 4%
 
    >[!CAUTION]
    >
-   >請確定最後一個批次沒有超過傳遞期限，該期限定義於 **[!UICONTROL 有效性]** 標籤。 否則，部分訊息可能不會傳送。 [了解更多](delivery-settings.md#validity)
+   >請確定最後一個批次沒有超過中定義的傳送期限 [有效性](delivery-settings.md#validity) 標籤，否則部分訊息可能不會傳送。 特定型別控制規則、 **[!UICONTROL 波段排程檢查]**，確保最後一個波段是在傳遞效度限制之前計畫。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
    >
    >在設定最後一個波段時，您也必須允許足夠的重試時間。 [了解更多](delivery-settings.md#retries)
 
-1. 若要監視您的傳送情況，請前往 [傳遞記錄](../monitor/delivery-logs.md).
-
-   您可以檢視已在處理批次中傳送的傳遞(**[!UICONTROL 已傳送]** 狀態)和在剩餘波段中要傳送的傳遞(**[!UICONTROL 擱置中]** 狀態)。
-
-特定型別控制規則、 **[!UICONTROL 波段排程檢查]**，確保最後一個波段是在傳遞效度限制之前計畫。 行銷活動型別及其規則設定於 **[!UICONTROL 型別]** 傳遞設定的索引標籤。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+1. 若要監視您的傳送情況，請前往 [傳遞記錄](../monitor/delivery-logs.md). 您可以檢視已在處理批次中傳送的傳遞(**[!UICONTROL 已傳送]** 狀態)和在剩餘波段中要傳送的傳遞(**[!UICONTROL 擱置中]** 狀態)。
 
 ## 排定大小相同的多個波段 {#waves-same-size}
 
@@ -64,7 +61,7 @@ ht-degree: 4%
 
 * 指定您要分割傳遞的所有波段的大小。 您可以輸入百分比或數值。 只有最後一個波段的大小可以不同，因為它必須包含剩餘的訊息數量。
 
-  例如，如果您輸入 **[!UICONTROL 30%]** 在對應欄位中，前三個波段代表傳送中包含之所有訊息的30%，第四個波段代表剩餘的10%。
+  例如，如果您輸入 **[!UICONTROL 30%]** 在 **[!UICONTROL 波段大小]** 欄位中，前三個波段代表傳送中所含全部訊息的30%，第四個波段代表其餘10%。
 
 * 在 **[!UICONTROL 間隔]** 部分，指定兩個連續波段開始之間的延遲。 例如，如果您輸入 **[!UICONTROL 2天]**，第一個波段會立即開始，第二個波段會在兩天內開始，第三個波段會在四天內開始，以此類推。
 
@@ -80,7 +77,7 @@ ht-degree: 4%
 
 如果選取此選項，您必須定義要傳送之每個波次的開始日/時間，以及每個波次的大小。
 
-* 在 **[!UICONTROL 開始]** 欄，指定兩個連續波段開始之間的延遲。
+* 在 **[!UICONTROL 開始]** 欄位，指定兩個連續波段開始之間的延遲。
 
 * 在 **[!UICONTROL 大小]** 欄，輸入固定數字或百分比。
 

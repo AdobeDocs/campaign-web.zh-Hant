@@ -2,12 +2,13 @@
 audience: end-user
 title: 傳遞設定
 description: 進一步瞭解Campaign網頁中的傳遞設定
+feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="有限可用性"
-source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '2326'
-ht-degree: 57%
+source-wordcount: '2425'
+ht-degree: 53%
 
 ---
 
@@ -133,15 +134,23 @@ ht-degree: 57%
 
 整合的電子郵件 **[!UICONTROL 路由]** 預設會提供外部帳戶。 其包含可讓應用程式傳送電子郵件的技術參數。
 
-您可以定義下列專案 **[!UICONTROL 傳送中]** 設定：
+您可以定義 **[!UICONTROL 傳送中]** 以下的設定。
 
-* **[!UICONTROL 測試SMTP傳遞]**：此選項用於測試透過SMTP的傳送。 處理傳遞直到連線到 SMTP 伺服器，但不傳送：對於傳遞的每個收件者，Campaign 會連線到 SMTP 提供者伺服器，執行 SMTP RCPT TO 命令，並在 SMTP DATA 命令之前關閉連線。
+* **[!UICONTROL 傳遞優先順序]**：此選項可設定您的傳送的優先順序層級，以變更傳送順序：正常、高或低。
+
+* **[!UICONTROL 訊息批次數量]**：使用此選項可定義在同一XML傳遞套件中分組的訊息數。 如果引數設為0，訊息會自動分組。 封裝大小由計算定義 `<delivery size>/1024`，每個套件最少8則訊息，最多256則訊息。
+
+  >[!IMPORTANT]
+  >
+  >當透過複製現有傳遞建立傳遞時，此引數會重設。
+
+* **[!UICONTROL 測試SMTP傳遞]**：此選項用於測試透過SMTP的傳送。 傳遞會處理到連線到SMTP伺服器，但不會傳送：對於每個傳遞收件者，Campaign會連線到SMTP提供者伺服器、執行SMTP RCPT TO命令，並在SMTP DATA命令之前關閉連線。
 
 * **[!UICONTROL 電子郵件密件副本]**：此選項是用來透過密件副本在外部系統上儲存電子郵件，僅需將密件副本電子郵件地址新增至您的訊息目標即可。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
-* **[!UICONTROL 使用多個波段傳送]**：您可以逐步增加使用波段傳送的量。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 [了解更多](send-using-waves.md)
+在 **[!UICONTROL 波段定義]** 區段，選取 **[!UICONTROL 使用多個波段傳送]** 逐步增加使用波段傳送之音量的選項。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 [了解更多](send-using-waves.md)
 
-您也可以變更已傳送電子郵件訊息的格式：
+您也可以變更 **[!UICONTROL 郵件格式]** 已傳送的電子郵件訊息數量，詳情如下。
 
 * **[!UICONTROL 使用收件者偏好設定]** （預設模式）
 
