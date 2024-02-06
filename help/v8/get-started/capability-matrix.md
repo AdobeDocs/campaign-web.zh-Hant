@@ -5,9 +5,9 @@ description: Campaign Web使用者介面支援的功能清單
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 8%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 8%
 * 行銷資源管理(MRM)、目標、模擬和成本控制。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * 任務管理。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
-## 通訊管道{ #channels-capabilities}
+## 通訊通道 {#channels-capabilities}
 
 透過Campaign Web使用者介面，您可以建立、設計和傳送電子郵件、簡訊和推播通知，並使用各種專用報告來衡量其影響，如詳情 [在本節中](../msg/gs-messages.md). 不過，此版本不提供下列通道。
 
