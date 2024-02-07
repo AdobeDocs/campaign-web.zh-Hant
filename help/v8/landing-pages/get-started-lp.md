@@ -4,10 +4,10 @@ title: 開始使用登陸頁面
 description: 瞭解Campaign網頁中的登入頁面
 feature: Landing Pages
 badge: label="有限可用性"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 13%
+source-wordcount: '249'
+ht-degree: 12%
 
 ---
 
@@ -16,14 +16,22 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="登錄頁面"
->abstract="探索全新登陸頁面體驗。立即建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理贏取、訂閱/取消訂閱和拒絕清單使用案例。"
+>abstract="探索全新登陸頁面體驗。立即建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理贏取、訂閱/取消訂閱和封鎖清單使用案例。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hant" text="請參閱版本注意事項"
 
-Adobe Campaign可讓您建立、設計和共用登入頁面。 在行銷活動的內容中，登入頁面是獨立的網頁，當訪客點按電子郵件、簡訊或推播傳送或網站中的連結後，就會導向訪客。
+[!DNL Adobe Campaign] 可讓您建立、設計和共用登入頁面。
 
-[!DNL Adobe Campaign] 可讓您建立及設計登入頁面，將您的使用者導向線上表單，以便他們可以選擇加入/退出接收您的通訊，或訂閱特定服務（例如電子報）。 Adobe Campaign隨附四個範本，用於管理贏取、訂閱、取消訂閱和封鎖清單使用案例。
+在行銷活動的內容中，登入頁面是獨立的網頁，當訪客點按電子郵件、簡訊、推播傳送或網站上的連結後，就會導向訪客。
 
-主要功能列示如下：
+登入頁面可讓您將使用者導向至線上表單，以便他們可以選擇加入/退出接收您的通訊，或訂閱電子報等特定服務。
+
+>[!CAUTION]
+>
+>您在Campaign網頁使用者介面中建立的登入頁面，與從使用者端主控台建立的網頁表單不同。 您無法在Campaign網路使用者介面中顯示或編輯網路表單。
+>
+>進一步瞭解網路表單的 [Campaign主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+
+登陸頁面主要功能列示如下：
 
 * 善用 [!DNL Adobe Campaign] 輕鬆建置的內容設計功能 **回應式登陸頁面**.
 * 設定 **選擇加入和選擇退出流程** 快速且順暢無礙。
