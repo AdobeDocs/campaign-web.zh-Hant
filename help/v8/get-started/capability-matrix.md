@@ -5,9 +5,9 @@ description: Campaign Web使用者介面支援的功能清單
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
+source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1512'
 ht-degree: 3%
 
 ---
@@ -184,8 +184,13 @@ Campaign使用者只能透過AdobeIdentity Management System (IMS)使用其Adobe
 
 Campaign平台監視功能僅在使用者端主控台和Campaign控制面板中可用。 它們不會出現在Campaign網頁使用者介面中。
 
-瀏覽提供的連結，前往 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"} 以進一步瞭解。
+瀏覽提供的連結至Campaign v8 （使用者端主控台）檔案和控制面板檔案，以瞭解更多資訊。
 
 * [工作流程監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
 * [工作流程熱度圖](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+* [效能監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant){target="_blank"}
+* [傳遞能力監視](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+
+
+
 
