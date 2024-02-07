@@ -3,14 +3,19 @@ title: 目標定位維度
 description: 進一步瞭解Adobe Campaign網頁中的目標維度功能
 badge: label="有限可用性"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: c26e050ef4933833425e21556c07d66ead72c5a3
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 5%
+source-wordcount: '428'
+ht-degree: 11%
 
 ---
 
 # 目標定位維度 {#targeting-dimensions}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="選取目標定位維度"
+>abstract="目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。"
 
 目標維度，亦稱為。 目標對應，是作業正在處理的資料型別。 它可讓您定義目標母體：設定檔、合約受益人、操作員、訂閱者等。
 

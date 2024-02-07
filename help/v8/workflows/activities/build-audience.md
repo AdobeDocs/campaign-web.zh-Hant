@@ -4,10 +4,10 @@ title: 使用「建置對象」工作流程活動
 description: 了解如何使用「建置對象」工作流程活動
 badge: label="有限可用性"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: c26e050ef4933833425e21556c07d66ead72c5a3
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 71%
+source-wordcount: '379'
+ht-degree: 69%
 
 ---
 
@@ -35,11 +35,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 -->
 
 ## 設定建置對象活動{#build-audience-configuration}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_build_audience_dimension"
->title="選取目標定位維度"
->abstract="目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。"
 
 請按照以下步驟設定「**建置對象**」活動：
 
