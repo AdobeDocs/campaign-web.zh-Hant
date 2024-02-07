@@ -4,10 +4,10 @@ title: 探索介面
 description: Adobe Campaign網頁使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限可用性"
-source-git-commit: 5badcc46be14fb2cd218fd525b0c5eed8788a680
+source-git-commit: f4caa10d14dca0e24efca8f7b8e118ce7c32158a
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 93%
+source-wordcount: '1636'
+ht-degree: 92%
 
 ---
 
@@ -143,7 +143,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
-
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="需要權限"
@@ -154,11 +153,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="需要權限"
 >abstract="您的管理員必須先授予您權限，然後您才能建立區段。"
 
-<!-- Workflows-->
-
-
 <!-- delivery template settings-->
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
@@ -174,8 +169,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_workflow_list"
 >title="活動中的工作流程清單"
 >abstract="活動中的工作流程清單"
-
-<!-- delivery settings-->
 
 
 <!-- FOR BETA (alignment) -->
@@ -322,6 +315,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="直接郵件的內容屬性"
 >abstract="直接郵件的內容屬性"
+
+<!-- FOR POST-GA -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_change_data_source"
+>title="變更資料來源"
+>abstract="此 **變更資料來源** 活動可讓您為工作流程的工作表選取不同的資料來源。"
 
 
 <!--
