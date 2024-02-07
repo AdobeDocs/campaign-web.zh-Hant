@@ -4,7 +4,7 @@ title: 探索介面
 description: Adobe Campaign網頁使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="有限可用性"
-source-git-commit: f4caa10d14dca0e24efca8f7b8e118ce7c32158a
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 92%
@@ -126,7 +126,6 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 透過 Campaign Gen AI 的功能，此助理將改變您的體驗，讓資訊檢索和問題解決變得輕而易舉。無論您是在複雜任務中尋求指引，還是導覽大量文件，AI 驅動的知識助理都是您的終極夥伴，在每次互動中提供無與倫比的效率和準確性。
 
 若要了解詳細資訊，請參閱[本章節](using-ai.md)。
-
 
 
 ## 了解更多 {#learn-more}

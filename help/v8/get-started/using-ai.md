@@ -1,12 +1,12 @@
 ---
 title: 在 Campaign Web 中使用 AI 驅動的內容說明
 description: 在 Campaign Web 說明彈出視窗中提出問題
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 94%
 
 ---
 
@@ -14,18 +14,21 @@ ht-degree: 100%
 
 透過產品內容說明方塊中提供的問答式 AI 驅動的內容說明，您就能根據產品文件和目前的產品內容，快速獲得 AI 產生的答案。
 
->[!CAUTION]
->
->此功能可在 Alpha 版本中使用，如有變更，恕不另行通知。
->
->此功能僅以&#x200B;**英文**&#x200B;提供。此版本不支援其他語言。因此，請務必在使用此功能之前，將[偏好的語言](connect-to-campaign.md#language-pref)設定為英文。
-
-
 嵌入內容說明中的 **Gen AI 內容說明**&#x200B;可輕鬆篩選大量文件存放庫，並立即找出所需的精確資訊，為文件搜尋和回答操作方法問題方面帶來了全面革新。
 
 透過 Campaign Gen AI 的功能，此元件將改變您的體驗，讓資訊檢索和問題解決變得輕而易舉。無論您是在複雜任務中尋求指引，還是導覽大量文件，AI 驅動的內容說明都是您的終極夥伴，在每次互動中提供無與倫比的效率和準確性。
 
 <img src="assets/AI_CH.gif" width="80%"/>
+
+
+>[!AVAILABILITY]
+>
+>AI支援的內容說明有測試版提供，且可能隨時變更，恕不另行通知。
+>
+>此功能僅以&#x200B;**英文**&#x200B;提供。此版本不支援其他語言。因此，請務必在使用此功能之前，將[偏好的語言](connect-to-campaign.md#language-pref)設定為英文。
+>
+>Campaign電子郵件設計工具目前不提供AI支援的內容說明。
+
 
 <!--
 ## Consent {#consent-ai}
@@ -46,6 +49,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 Adobe Campaign AI 驅動的內容說明可以提供協助，但您應該驗證事實。它可能會輸出不正確的資訊、不準確或誤導性的答案。請務必檢查每個說明方塊中連結的產品文件。
 
 人工智慧和機器學習模型會隨著時間而不斷改進，以更好地解決特定的使用案例。Campaign AI 驅動的內容說明將在未來幾個月中不斷改進。強烈建議您使用 <img src="assets/do-not-localize/thumb.png" width="10%"/> 按鈕以在您閱讀答案時，向工程師標記任何不當的回應。
+
 
 ## 建議  {#recommendations-ai}
 
