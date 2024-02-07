@@ -5,9 +5,9 @@ description: Campaign Web使用者介面支援的功能清單
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
+source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1495'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Campaign網頁使用者介面中提供重要的Campaign功能。 此介面主要是供行銷人員規劃、發佈及評估其行銷活動所設計。 列出所有功能 [在此頁面中](../rn/whats-new.md).
 
-Campaign平台可依據業務和資料需求進行自訂，並可在Campaign使用者端主控台中管理與其他系統的連線。 因此，某些設定和功能只能從Campaign使用者端主控台存取、建立或管理。 部分內容將在較新版本的Campaign Web使用者介面中提供。
+Campaign平台可依據業務和資料需求進行自訂，並可在Campaign使用者端主控台中管理與其他系統的連線。 因此，某些設定和功能只能從Campaign使用者端主控台存取、建立或管理。 部分內容將於稍後的Campaign Web使用者介面更新中提供。
 
 <!--
 **Homepage**
@@ -26,7 +26,7 @@ Campaign平台可依據業務和資料需求進行自訂，並可在Campaign使�
 
 ## 行銷活動管理 {#campaign-mgt-capabilities}
 
-使用Campaign Web使用者介面，您可以建立詳細的跨頻道行銷活動 [在本節中](../campaigns/gs-campaigns.md). 在目前版本中，下列功能僅適用於Campaign使用者端主控台。 無法在Campaign網頁使用者介面中存取，但部分內容可從 [瀏覽器功能表](user-interface.md#user-interface-explorer).
+使用Campaign Web使用者介面，您可以建立詳細的跨頻道行銷活動 [在本節中](../campaigns/gs-campaigns.md). 下列功能僅適用於Campaign使用者端主控台。 無法在Campaign網頁使用者介面中存取，但部分內容可從 [瀏覽器功能表](user-interface.md#user-interface-explorer).
 
 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並瞭解如何使用這些功能。
 
@@ -39,7 +39,7 @@ Campaign平台可依據業務和資料需求進行自訂，並可在Campaign使�
 
 ## 通訊通道 {#channels-capabilities}
 
-透過Campaign Web使用者介面，您可以建立、設計和傳送電子郵件、簡訊和推播通知，並使用各種專用報告來衡量其影響，如詳情 [在本節中](../msg/gs-messages.md). 不過，此版本不提供下列通道。
+透過Campaign Web使用者介面，您可以建立、設計和傳送電子郵件、簡訊和推播通知，並使用各種專用報告來衡量其影響，如詳情 [在本節中](../msg/gs-messages.md). 但是，下列管道目前無法使用。
 
 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解這些管道。
 
@@ -71,7 +71,7 @@ Adobe Campaign可讓您建立、設計和共用登入頁面。 全新介面中�
 
 ## 異動訊息傳送 {#mc-capabilities}
 
-此版本的新Campaign網頁使用者介面無法使用訊息中心產品套件隨附的交易式傳訊功能。
+訊息中心產品套件隨附的交易式傳訊功能，目前無法用於新的Campaign網頁使用者介面。
 
 瀏覽 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} 並進一步瞭解即時訊息功能，例如：
 
@@ -86,9 +86,8 @@ Adobe Campaign網頁使用者介面隨附全新的電子郵件設計工具，透
 
 透過這個全新的使用者介面，您可以從Adobe Experience Manager管理電子郵件範本同步，並與Adobe Experience Manager as a Cloud Service整合。
 
-請注意，下列功能在此版本的產品中無法使用。 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解這些功能。
+請注意，下列功能暫時無法在Campaign Web使用者介面中使用。 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解這些功能。
 
-* 來自公用資源的內容 — 要確認的SCOPË
 * 自訂個人化區塊建立。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * 來自自訂表單的內容（內容管理模組）。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * 電子郵件AMP。 [在Campaign Classic v7檔案中進一步瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
@@ -114,7 +113,7 @@ Adobe Campaign網頁使用者介面隨附全新的電子郵件設計工具，透
 
 ## 工作流程 {#wf-capabilities}
 
-全新的Campaign Web使用者介面可讓您重新構想工作流程畫布介面，以設計和管理您的流程。 重要工作流程活動已在新設計中提供，部分活動將在未來版本中提供。 進一步瞭解工作流程功能，包括護欄和限制 [在本節中](../get-started/guardrails.md).
+全新的Campaign Web使用者介面可讓您重新構想工作流程畫布介面，以設計和管理您的流程。 重要工作流程活動已在新設計中提供，部分活動將在未來更新中提供。 進一步瞭解工作流程功能，包括護欄和限制 [在本節中](../get-started/guardrails.md).
 
 請注意，下列功能僅可在Campaign使用者端主控台中使用：
 
@@ -133,7 +132,7 @@ Adobe Campaign Web可讓您使用在主控台中建立的傳送選件，連同�
 
 全新的Campaign現代化UI簡化了行銷活動的設計和交付，並與其他Adobe解決方案(包括Adobe Experience Platform和Adobe Experience Manager)保持一致。
 
-下列整合功能可從Adobe Campaign使用者端主控台取得，在這個版本的Campaign Web使用者介面中尚未提供。 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解這些整合：
+下列整合可從Adobe Campaign使用者端主控台取得，但尚未在Campaign Web使用者介面中提供。 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解這些整合：
 
 * Adobe Analytics資料使用和KPI共用。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * 與Adobe Experience Cloud (Adobe Audience Manager)共用對象。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
