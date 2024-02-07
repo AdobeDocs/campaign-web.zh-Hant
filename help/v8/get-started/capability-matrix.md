@@ -5,10 +5,10 @@ description: Campaign Web使用者介面支援的功能清單
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
+source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 8%
+source-wordcount: '1469'
+ht-degree: 4%
 
 ---
 
@@ -48,11 +48,9 @@ ht-degree: 8%
 
 ## 登陸頁面和網頁應用程式 {#Webapps-capabilities}
 
-Adobe Campaign可讓您建立、設計和共用登入頁面。  進一步瞭解Campaign網頁使用者介面中的登陸頁面 [在本節中](../landing-pages/get-started-lp.md).
+Adobe Campaign可讓您建立、設計和共用登入頁面。 全新介面中的登入頁面體驗已完全重新打造。 探索如何在Campaign網頁使用者介面中建立、設計和發佈登入頁面 [在本節中](../landing-pages/get-started-lp.md).
 
-在Campaign網頁使用者介面中，登入頁面已完全重新設計。 因此，在Campaign使用者端主控台中，您無法編輯、更新或修改在網頁介面中建立的登入頁面，反之亦然。
-
-此外，下列型別的網頁應用程式在Campaign Web使用者介面中無法使用。 但是，它們會顯示在登入頁面清單中。 使用提供的連結來瀏覽Campaign Classic v7檔案，並深入瞭解這些網頁應用程式。
+因此，在Campaign使用者端主控台中，您無法編輯、更新或修改在網頁介面中建立的登入頁面，反之亦然。 Campaign Web使用者介面中無法使用下列型別的Web應用程式。 但是，它們會顯示在登入頁面清單中。 使用提供的連結來瀏覽Campaign Classic v7檔案，並深入瞭解這些網頁應用程式：
 
 * 網頁應用程式。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
 * 網路表單。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant){target="_blank"}
@@ -61,15 +59,19 @@ Adobe Campaign可讓您建立、設計和共用登入頁面。  進一步瞭解C
 
 ## 設定檔、測試設定檔和對象 {#profiles-audiences-capabilities}
 
-您可以在Campaign使用者端主控台和Campaign Web使用者介面中建立、管理和更新設定檔和測試設定檔。 在一個UI中執行的所有變更都會顯示在另一個UI中。 請注意，在新的Web使用者介面中，「收件者」一詞已變更為「設定檔」。 不過，新的Campaign Web使用者介面可能遺漏某些特定的收件者設定和進階引數。
+您可以在Campaign使用者端主控台和Campaign Web使用者介面中建立、管理和更新設定檔和測試設定檔。 在一個UI中執行的所有變更都會顯示在另一個UI中。 不過，新的Campaign Web使用者介面可能遺漏某些特定的收件者設定和進階引數。  請注意，在新的Web使用者介面中，「收件者」一詞已變更為「設定檔」。
 
-對象構成是Campaign Web使用者介面隨附的新功能。 因此，在Campaign使用者端主控台中，您無法編輯、更新或修改 [使用查詢建模器建立的對象](../query/query-modeler-overview.md). 在Campaign使用者端主控台或Adobe Experience Platform中建立的所有對象，都可以在Campaign Web使用者介面中使用。
+對象構成是Campaign Web使用者介面隨附的新功能。 因此，在Campaign使用者端主控台中，您無法編輯、更新或修改 [使用查詢建模器建立的對象](../query/query-modeler-overview.md).
+
+在Campaign使用者端主控台或Adobe Experience Platform中建立的所有對象，都可以在Campaign Web使用者介面中使用。
 
 單次匯入/匯出工作，如所述 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html#import-jobs){target="_blank"} 在Campaign Web使用者介面中無法使用。 <!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
 ## 異動訊息傳送 {#mc-capabilities}
 
-此版本的新Campaign網頁使用者介面無法使用訊息中心產品套件隨附的交易式傳訊功能。 瀏覽 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} 並進一步瞭解即時訊息功能，例如：
+此版本的新Campaign網頁使用者介面無法使用訊息中心產品套件隨附的交易式傳訊功能。
+
+瀏覽 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} 並進一步瞭解即時訊息功能，例如：
 
 * 在電子郵件、簡訊和推播上的即時訊息製作和執行
 * 訊息擴充和個人化
@@ -85,7 +87,7 @@ Adobe Campaign網頁使用者介面隨附全新的電子郵件設計工具，透
 請注意，下列功能在此版本的產品中無法使用。 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解這些功能（包含的功能）。 `*` Campaign使用者端主控台也不支援)。
 
 * 電子郵件AMP。  [在Campaign Classic v7檔案中進一步瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
-* 來自公用資源的內容
+* 來自公用資源的內容 — 要確認的SCOPË
 * 自訂個人化區塊建立。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * 來自自訂表單的內容（內容管理模組）。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * 來自 URL 的內容`*`
@@ -93,11 +95,13 @@ Adobe Campaign網頁使用者介面隨附全新的電子郵件設計工具，透
 * 電子郵件片段`*`
 * 多變體/多語言使用案例`*`
 
-## 類型規則 {#rules-capabilities}
+## 型別與型別規則 {#rules-capabilities}
 
-您可以在Campaign Web使用者介面中為傳遞或傳遞範本選取型別規則，但規則和型別規則的建立、管理和自訂僅可在Campaign使用者端主控台中使用。
+型別是一組型別規則，會在準備階段執行，以便一次輕鬆將多個篩選規則套用至傳遞。 它們可讓行銷人員標準化所有傳送的業務實務，讓他們控制、篩選傳送內容並安排傳送內容的優先順序。
 
-使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解型別規則。
+您可以在Campaign Web使用者介面中為傳遞或傳遞範本選取型別規則，如詳細 [在本節中](../advanced-settings/delivery-settings.md#typology). 不過，規則和型別規則的建立、管理和自訂僅可在Campaign使用者端主控台中使用。
+
+使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解型別規則：
 
 * 控制規則建立。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 * 疲勞/壓力規則建立。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant){target="_blank"}
@@ -115,6 +119,8 @@ Adobe Campaign網頁使用者介面隨附全新的電子郵件設計工具，透
 * 工作流程中的指令碼編寫
 * ETL 活動：匯出、編輯結構描述、資料載入、資料擷取、SQL 程式碼
 
+在Adobe Campaign v8 （主控台）工作流程檔案中進一步瞭解可用的工作流程活動 [此處](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target="_blank"}.
+
 ## 選件管理 {#offer-capabilities}
 
 Adobe Campaign Web可讓您使用在主控台中建立的傳送選件，連同傳送給使用者。 **[!UICONTROL 互動]** 模組。 優惠方案設計、適用規則和優惠方案管理僅可在Campaign使用者端主控台中使用。 [了解更多](../msg/offers.md)
@@ -125,9 +131,7 @@ Adobe Campaign Web可讓您使用在主控台中建立的傳送選件，連同�
 
 全新的Campaign現代化UI簡化了行銷活動的設計和交付，並與其他Adobe解決方案(包括Adobe Experience Platform和Adobe Experience Manager)保持一致。
 
-下列整合功能可從Adobe Campaign使用者端主控台取得，在這個版本的Campaign Web使用者介面中尚未提供。
-
-使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解型別規則。
+下列整合功能可從Adobe Campaign使用者端主控台取得，在這個版本的Campaign Web使用者介面中尚未提供。 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解這些整合：
 
 * Adobe Analytics資料使用和KPI共用。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * 與Adobe Experience Cloud (Adobe Audience Manager)共用對象。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
@@ -151,17 +155,28 @@ Adobe Campaign Web可讓您使用在主控台中建立的傳送選件，連同�
 
 Campaign Web使用者介面未顯示下列功能。 這些變數只能在使用者端主控台中使用。
 
-* 外部帳戶
-* 結構描述擴充
-* 資料管理工作流程活動：資料載入、擷取 (檔案)、更新資料、編輯結構描述、匯入/匯出技術工作流程
-* 行銷活動設定和與外部系統的連線
+瀏覽提供的連結以瀏覽 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"} 並深入瞭解。
+
+* 外部帳戶。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+* 方案建立和擴充。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+* 資料管理工作流程活動：資料載入、擷取（檔案）、更新資料、編輯結構、匯入/匯出技術工作流程。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+* Campaign設定與外部系統的連線。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 ## 核准 {#approvals-capabilities}
 
-Campaign Web使用者介面未顯示下列功能。 這些變數只能在使用者端主控台中使用。
+Campaign Web使用者介面不會顯示內容、傳遞、工作流程、行銷活動和目標的核准管理。 這些變數只能在使用者端主控台中使用。
 
-* 內容核准
-* 傳遞核准
-* 行銷活動核准
-* 目標核准
+瞭解如何管理工作流程中的核准，在  [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
+
+
+瞭解如何在中管理行銷活動中的傳遞、內容和目標核准 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}.
+
+
+## 權限  {#permissions-capabilities}
+
+Campaign使用者只能透過AdobeIdentity Management System (IMS)使用其Adobe ID存取Campaign Web使用者介面。
+
+許可權是在Adobe Admin Console和Adobe Campaign使用者端主控台中定義，詳見以下說明 [在本節中](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html). 無法從Adobe Campaign Web使用者介面中執行任何許可權動作。
+
+
 

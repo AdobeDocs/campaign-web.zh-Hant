@@ -3,10 +3,10 @@ title: 連線至 Adobe Campaign Web 介面
 description: 瞭解如何連線至Adobe Campaign網頁使用者介面
 badge: label="有限可用性"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 88%
+source-wordcount: '573'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
 ## 登入 Adobe Experience Cloud {#sign-in-to-exc}
 
-通常 Experience Cloud 管理員會授予存取應用程式和服務的權限。 依照電子郵件邀請中的步驟進行，加入 Experience Cloud。
+您只能使用單一登入(SSO)來連線至Campaign。 通常 Experience Cloud 管理員會授予存取應用程式和服務的權限。 依照電子郵件邀請中的步驟進行，加入 Experience Cloud。
 
 若要登入 Adobe Experience Cloud，基本步驟如下：
 
