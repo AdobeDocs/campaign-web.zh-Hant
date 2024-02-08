@@ -1,13 +1,13 @@
 ---
 keywords: Campaign Web;首頁;熱門主題
-description: Campaign網頁說明中心
-title: Adobe Campaign Web產品檔案
+description: Campaign Web 說明中心
+title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="有限可用性"
+badge: label="限量版"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -86,11 +86,11 @@ ht-degree: 88%
 我們很高興推出 Adobe Campaign Web 使用者介面的新版本。我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。這個新的現代 UI 簡化了行銷活動的設計和傳遞，並帶來一致性，與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 相符。
 
 >[!AVAILABILITY]
-> Adobe Campaign Web目前為「有限可用性」(LA)版本。 只有一小群 LA 客戶可以存取。請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
+> Adobe Campaign Web 目前為限量版 (LA)。只有一小群 LA 客戶可以存取。請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
 
 ## 有哪些新功能
 
-快速一覽Adobe Campaign網路產品和檔案的最新增強功能！ 如需完整的關鍵功能和版本更新功能清單，請參閱[此頁面](rn/whats-new.md)。
+快速一覽 Adobe Campaign Web 產品和文件的最新增強功能！如需完整的關鍵功能和版本更新功能清單，請參閱[此頁面](rn/whats-new.md)。
 
 >[!BEGINTABS]
 
@@ -126,7 +126,7 @@ Campaign 電子郵件設計工具讓您能夠透過直覺式的拖放介面建�
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>探索新的使用者介面</strong><br/>探索Adobe Campaign Web與Adobe Experience Platform整合的新介面和導覽體驗。</div>
+    <div><strong>探索新使用者介面</strong><br/>探索與 Adobe Experience Platform 整合的 Adobe Campaign Web 新介面和導覽體驗。</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
@@ -134,7 +134,7 @@ Campaign 電子郵件設計工具讓您能夠透過直覺式的拖放介面建�
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>符合電子郵件設計工具</strong><br/>瞭解如何從範本開始，或使用Adobe Campaign新的電子郵件設計工具來建立電子郵件，而不需要撰寫一行程式碼。
+    <div><strong>認識電子郵件設計工具</strong><br/>了解如何從範本開始，或使用 Adobe Campaign 的新電子郵件設計工具，無須編寫任何程式碼即可建立電子郵件。
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
