@@ -4,17 +4,18 @@ title: 在您的訊息中新增優惠方案
 description: 瞭解如何新增及傳送優惠方案
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="有限可用性"
-source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
+source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 36%
+source-wordcount: '762'
+ht-degree: 35%
 
 ---
 
 
 # 將優惠新增至您的訊息 {#offers-content}
 
-您可以在Adobe Campaign網路使用者介面中，將優惠方案新增至傳遞。 這些選件必須已在Campaign使用者端主控台中使用 **[!UICONTROL 互動]** 模組。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+您可以在Adobe Campaign網路使用者介面中，將優惠方案新增至傳遞。 這些優惠方案可從 **選件** 左側功能表，可讓您存取優惠方案清單。 所有這些選件都是唯讀的，而且必須已使用 **[!UICONTROL 互動]** 模組。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+
 
 透過傳送傳送優惠方案的步驟如下：
 
