@@ -4,10 +4,10 @@ title: 登陸頁面快速入門
 description: 瞭解Campaign網頁中的登入頁面
 feature: Landing Pages
 badge: label="限量版"
-source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
+source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 12%
+source-wordcount: '271'
+ht-degree: 14%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 12%
 
 [!DNL Adobe Campaign] 可讓您建立、設計和共用登入頁面。
 
-在行銷活動的內容中，登入頁面是獨立的網頁，當訪客點按電子郵件、簡訊、推播傳送或網站上的連結後，就會導向訪客。
+在行銷活動的內容中，登入頁面是獨立的網頁，當訪客點按傳遞或網站上的連結後，即會被導向至該網頁。
 
-登入頁面可讓您將使用者導向至線上表單，以便他們可以選擇加入/退出接收您的通訊，或訂閱特定服務（例如電子報）。
+登入頁面可讓您將使用者導向至線上表單，以便他們更新資料、選擇加入/退出接收您的通訊，或訂閱電子報等特定服務。
 
 >[!CAUTION]
 >
@@ -33,10 +33,11 @@ ht-degree: 12%
 
 登陸頁面主要功能列示如下：
 
-* 善用 [!DNL Adobe Campaign] 輕鬆建置的內容設計功能 **回應式登陸頁面**.
-* 設定 **選擇加入和選擇退出流程** 快速且順暢無礙。
-* 建立訂閱服務讓使用者能夠 **訂閱服務**. [了解更多](../audience/manage-services.md)
-* 向收件者提供以下資訊 **取消訂閱的功能** 接收您的通訊。
+* 使用立即可用的功能，立即建立、設計和共用登入頁面 **預填範本** 匹配不同的使用案例。 [了解更多](create-lp.md)
+* 善用 [!DNL Adobe Campaign] 輕鬆建置的內容設計功能 **回應式登陸頁面**. [了解更多](lp-content.md)
+* 設定 **選擇加入和選擇退出流程** 快速且順暢無礙。 [了解更多](lp-use-cases.md)
+* 建立訂閱服務讓使用者能夠 **訂閱服務**. [了解更多](lp-use-cases.md#lp-subscription)
+* 向收件者提供以下資訊 **取消訂閱的功能** 接收您的通訊。 [了解更多](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
