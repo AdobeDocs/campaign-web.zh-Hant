@@ -8,8 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
-exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -170,8 +169,6 @@ ht-degree: 0%
 若要讓使用者能夠選擇退出所有傳送，您必須建立並發佈 **[!UICONTROL 封鎖清單]** 登陸頁面。
 
 使用者按一下登陸頁面連結後， **[!UICONTROL 不再聯絡（透過任何管道）]** 設定檔中的選項會自動選取。
-
-![](assets/blocklisting_allchannels.png)
 
 定義 **[!UICONTROL 選擇退出]** 核取方塊並選擇以更新 **[!UICONTROL 頻道（電子郵件）]**：檢查登陸頁面上選擇退出方塊的設定檔將會選擇退出您的所有通訊。
 
