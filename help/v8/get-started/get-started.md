@@ -3,11 +3,11 @@ audience: end-user
 title: 開始使用 Adobe Campaign Web
 description: 開始使用 Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="有限可用性"
+badge: label="限量版"
 source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Campaign v8 是專為電子郵件、推播通知、簡訊和直接郵件�
 
 >[!NOTE]
 >
->Adobe Campaign Web目前為「有限可用性」(LA)版本。 只有一小群 LA 客戶可以存取。請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
+>Adobe Campaign Web 目前為限量版 (LA)。只有一小群 LA 客戶可以存取。請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
 
 在[此頁面](connect-to-campaign.md)中了解如何連線至 Adobe Campaign Web。
 

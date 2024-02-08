@@ -3,18 +3,18 @@ audience: end-user
 user-guide-title: Adobe Campaign Web使用者介面
 user-guide-description: Adobe Campaign網頁使用者介面的產品檔案。
 title: Adobe Campaign Web 文件
-description: Campaign網頁檔案
+description: Campaign Web 文件
 breadcrumb-title: Campaign Web使用者介面
 hide: true
 source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
 
-# Adobe Campaign網頁檔案 {#v8}
+# Adobe Campaign Web 文件 {#v8}
 
 + [Adobe Campaign Web使用者介面檔案](campaign-web-home.md)
 + [新增功能](rn/whats-new.md)
@@ -65,7 +65,7 @@ ht-degree: 89%
          + [準備並傳送電子郵件](monitor/prepare-send.md)
          + [電子郵件傳遞設定](advanced-settings/delivery-settings.md)
          + [使用多個波段傳送](advanced-settings/send-using-waves.md)
-         + [監視傳遞記錄](monitor/delivery-logs.md)
+         + [監控傳遞記錄](monitor/delivery-logs.md)
    + 推播通知 {#push}
       + [開始使用推播通知](push/gs-push.md)
       + [建立推播通知傳遞](push/create-push.md)
@@ -89,10 +89,10 @@ ht-degree: 89%
       + [傳送測試傳遞](preview-test/test-deliveries.md)
       + [測試電子郵件轉譯](preview-test/email-rendering.md)
 + 登陸頁面 {#landing-pages}
-   + [開始使用登陸頁面](landing-pages/get-started-lp.md)
-   + [建立及發佈登入頁面](landing-pages/create-lp.md)
-   + [設計登入頁面內容](landing-pages/lp-content.md)
-   + [使用登入頁面範本](landing-pages/lp-templates.md)
+   + [登陸頁面快速入門](landing-pages/get-started-lp.md)
+   + [建立並發佈登陸頁面](landing-pages/create-lp.md)
+   + [設計登陸頁面內容](landing-pages/lp-content.md)
+   + [使用登陸頁面範本](landing-pages/lp-templates.md)
 + 設定檔與對象 {#audiences}
    + [開始使用設定檔和對象](audience/gs-audiences-recipients.md)
    + [目標定位維度](audience/targeting-dimensions.md)

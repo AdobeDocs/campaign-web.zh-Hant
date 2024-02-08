@@ -1,18 +1,18 @@
 ---
 title: 連線至 Adobe Campaign Web 介面
-description: 瞭解如何連線至Adobe Campaign網頁使用者介面
-badge: label="有限可用性"
+description: 了解如何連線至 Adobe Campaign Web 使用者介面
+badge: label="限量版"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
 # 連線至 Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。在本頁面瞭解如何連線至Adobe Experience Cloud及存取Adobe Campaign網路介面。
+Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。在此頁面中了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。
 
 ## 登入 Adobe Experience Cloud {#sign-in-to-exc}
 
@@ -64,11 +64,11 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
 ## 支援的瀏覽器 {#browsers}
 
-Adobe Campaign Web的設計可在最新版Google Chrome、Safari和Microsoft Edge中以最佳方式運作。 您可能無法在舊版本或其他瀏覽器上使用某些功能。
+Adobe Campaign Web 目的是要在最新版本的 Google Chrome、Safari 和 Microsoft Edge 中以最佳方式運作。您可能無法在舊版本或其他瀏覽器上使用某些功能。
 
 ## 語言偏好設定 {#language-pref}
 
-Adobe Campaign Web目前提供下列語言版本：
+Adobe Campaign Web 目前提供以下語言版本：
 
 * 英文 (US) - EN-US
 * 法文 - FR
