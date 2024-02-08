@@ -2,10 +2,10 @@
 title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 feature: Landing Pages
-badge: label="有限可用性"
-source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
+badge: label="限量版"
+source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1237'
 ht-degree: 16%
 
 ---
@@ -176,7 +176,11 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 * 登入頁面會新增至登入頁面清單，並包含 **[!UICONTROL 已發佈]** 狀態。 它現在已上線，並準備好在您的內容中參照。
 
-* 您可以複製並貼上 **[!UICONTROL 登陸頁面URL]** 會顯示在網頁瀏覽器頁面頂端的專案。
+* 您可以複製並貼上 **[!UICONTROL 登陸頁面URL]** 會顯示在頁面頂端，並透過網頁瀏覽器預覽您的登陸頁面。
+
+>[!CAUTION]
+>
+>若要完整測試或運用您的登入頁面，您無法直接複製此連結並貼至網頁瀏覽器或您的傳送中。 請改用 [模擬內容](#test-landing-page) 函式進行測試，並遵循中所述的步驟 [本節](lp-use-cases.md) 以正確使用您的登入頁面。
 
 ![](assets/lp-published.png)
 
