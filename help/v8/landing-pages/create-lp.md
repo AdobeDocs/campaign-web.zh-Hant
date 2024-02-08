@@ -3,10 +3,10 @@ title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 feature: Landing Pages
 badge: label="限量版"
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 16%
+source-wordcount: '1279'
+ht-degree: 15%
 
 ---
 
@@ -80,9 +80,13 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
    * **[!UICONTROL 贏取]**：這是登入頁面的預設範本，可讓您擷取和更新設定檔資料。
    * **[!UICONTROL 訂閱]**：使用此範本讓使用者訂閱特定的 [服務](../audience/manage-services.md).
    * **[!UICONTROL 取消訂閱]**：此範本可用於傳送給服務訂閱者的傳遞，讓他們從此取消訂閱 [服務](../audience/manage-services.md).
-   * **[!UICONTROL 封鎖清單]**：此範本應在設定檔不想再由Campaign聯絡時使用。 深入了解封鎖清單管理
+   * **[!UICONTROL 封鎖清單]**：此範本應在設定檔不想再由Campaign聯絡時使用。
 
    ![](assets/lp-templates.png)
+
+   >[!NOTE]
+   >
+   >瞭解如何在中實施每個範本的不同使用案例 [本節](lp-use-cases.md).
 
 1. 按一下 **[!UICONTROL 建立]**.
 
@@ -94,7 +98,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 1. 在 **[!UICONTROL 資料預先載入]** 部分，預設會選取以下兩個選項：
 
-   * 此 **[!UICONTROL 使用表單中參照的資料預先填寫]** 選項可讓您自動預先載入與表單中輸入及合併欄位相符的資料。
+   * 當 **[!UICONTROL 使用表單中參照的資料預先填寫]** 選項經已選取，若登入頁面的訪客符合資料庫中的設定檔，則會自動在表單中預先載入設定檔的資訊。 使用者只需填寫缺少的欄位，並在需要時更新現有值。 這可合併現有設定檔的資料，而非建立重複專案。
 
    * 此 **[!UICONTROL 如果沒有ID，則跳過預先載入]** 如果您不想更新設定檔，則必須選取選項。 在這種情況下，在核准表單後，輸入的每個設定檔都將新增到資料庫。 例如，在網站上張貼表單時，會使用此選項。
 
@@ -118,7 +122,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
      >
      >如果未定義開始日期，登入頁面在發佈後就會立即上線。
 
-   * 當頁面到達結束日期時，登入頁面會自動取消發佈，且表單不再可用。 此 **[!UICONTROL 有效期]** 頁面會改為顯示。
+   * 當頁面到達結束日期時， <!--the landing page is automatically unpublished and -->表單已無法使用。 此 **[!UICONTROL 有效期]** 頁面會改為顯示。
 
      >[!NOTE]
      >
