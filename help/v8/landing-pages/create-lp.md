@@ -3,7 +3,7 @@ title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 feature: Landing Pages
 badge: label="有限可用性"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 16%
@@ -78,8 +78,8 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 1. 選取範本：
    * **[!UICONTROL 贏取]**：這是登入頁面的預設範本，可讓您擷取和更新設定檔資料。
-   * **[!UICONTROL 訂閱]**：使用此範本讓使用者訂閱特定的 [服務](manage-services.md).
-   * **[!UICONTROL 取消訂閱]**：此範本可用於傳送給服務訂閱者的傳遞，讓他們從此取消訂閱 [服務](manage-services.md).
+   * **[!UICONTROL 訂閱]**：使用此範本讓使用者訂閱特定的 [服務](../audience/manage-services.md).
+   * **[!UICONTROL 取消訂閱]**：此範本可用於傳送給服務訂閱者的傳遞，讓他們從此取消訂閱 [服務](../audience/manage-services.md).
    * **[!UICONTROL 封鎖清單]**：此範本應在設定檔不想再由Campaign聯絡時使用。 深入了解封鎖清單管理
 
    ![](assets/lp-templates.png)
