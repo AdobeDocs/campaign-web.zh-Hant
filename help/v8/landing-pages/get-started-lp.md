@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 開始使用登陸頁面
+title: 登陸頁面快速入門
 description: 瞭解Campaign網頁中的登入頁面
 feature: Landing Pages
-badge: label="有限可用性"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+badge: label="限量版"
+source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 12%
 
 ---
 
-# 開始使用登陸頁面 {#get-sarted-lp}
+# 登陸頁面快速入門 {#get-sarted-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
@@ -23,7 +23,7 @@ ht-degree: 12%
 
 在行銷活動的內容中，登入頁面是獨立的網頁，當訪客點按電子郵件、簡訊、推播傳送或網站上的連結後，就會導向訪客。
 
-登入頁面可讓您將使用者導向至線上表單，以便他們可以選擇加入/退出接收您的通訊，或訂閱電子報等特定服務。
+登入頁面可讓您將使用者導向至線上表單，以便他們可以選擇加入/退出接收您的通訊，或訂閱特定服務（例如電子報）。
 
 >[!CAUTION]
 >

@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web使用者介面
 hide: true
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 06ec541924c906980ed0e318556177e26a9f00b0
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '574'
 ht-degree: 94%
 
 ---
@@ -93,6 +93,7 @@ ht-degree: 94%
    + [建立並發佈登陸頁面](landing-pages/create-lp.md)
    + [設計登陸頁面內容](landing-pages/lp-content.md)
    + [使用登陸頁面範本](landing-pages/lp-templates.md)
+   + [透過使用案例瞭解](landing-pages/lp-use-cases.md)
 + 設定檔與對象 {#audiences}
    + [開始使用設定檔和對象](audience/gs-audiences-recipients.md)
    + [目標定位維度](audience/targeting-dimensions.md)
