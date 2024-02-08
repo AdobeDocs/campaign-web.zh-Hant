@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
-source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
+source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,7 @@ ht-degree: 0%
 
 在 [!DNL Adobe Campaign Web] 推論出，有四個現成可用的範本可讓您實作不同的使用案例。 不過，主要步驟保持不變，詳見下文。
 
-1. [建立登入頁面](create-lp.md#create-landing-page) 並根據您的使用案例選取您選擇的範本：
-
-   * [贏取](#lp-acquisition)
-   * [訂閱](#lp-subscription)
-   * [取消訂閱](#lp-unsubscription)
-   * [封鎖清單](#lp-denylist)
+1. [建立登入頁面](create-lp.md#create-landing-page) 並根據您的使用案例選取您選擇的範本。
 
 1. 定義登入頁面屬性和設定。
 
@@ -47,41 +42,68 @@ ht-degree: 0%
 
    ![](assets/lp-uc-form.png)
 
-1. 視需要對登入頁面標籤和欄位進行儘可能多的其他更新。 依需要編輯其餘內容，儲存變更並關閉。
+1. 根據選取的範本編輯您的內容：
 
-1. 請按照以下針對每個使用案例詳述的步驟操作。
+   * [贏取](#lp-acquisition)
+   * [訂閱](#lp-subscription)
+   * [取消訂閱](#lp-unsubscription)
+   * [封鎖清單](#lp-denylist)
 
-1. 編輯 **[!UICONTROL 確認]** 頁面，以及 **[!UICONTROL 錯誤]** 和 **[!UICONTROL 有效期]** 頁面。 收件者提交登錄檔單後，此資訊就會顯示給他們。
+1. 視需要修改其餘內容，儲存變更並關閉。
+
+1. 編輯 **[!UICONTROL 確認]** 頁面，以及 **[!UICONTROL 錯誤]** 和 **[!UICONTROL 有效期]** 頁面。 此 **[!UICONTROL 確認]** 當收件者提交表單後，頁面就會顯示給他們。
 
    ![](assets/lp-uc-confirmation-page.png)
 
-1. 測試和 [發佈](create-lp.md#publish-landing-page) 您的登陸頁面。
+1. [測試](create-lp.md#test-landing-page) 和 [發佈](create-lp.md#publish-landing-page) 您的登陸頁面。
 
 1. 建立 [電子郵件](../email/create-email.md) 將流量引導至登陸頁面的傳送。
 
-1. [插入連結](../email/message-tracking.md#insert-links) 放入您的訊息內容。 選取 **[!UICONTROL 登陸頁面]** 作為 **[!UICONTROL 連結型別]** 並選擇 [登陸頁面](create-lp.md#configure-primary-page) 您所建立的。
+1. [插入連結](../email/message-tracking.md#insert-links) 放入您的訊息內容。 選取 **[!UICONTROL 登陸頁面]** 作為 **[!UICONTROL 連結型別]** 並選取您建立的登入頁面。
 
-   ![](assets/lp_subscription-uc-link.png)
+   ![](assets/lp-uc-email-link.png)
 
    >[!NOTE]
    >
-   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 瞭解如何更新到期日 [在本節中](create-lp.md#create-landing-page).
+   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 [了解更多](create-lp.md#create-landing-page)
 
-收到電子郵件後，如果您的收件者按一下登入頁面的連結，並提交登入頁面表單，則會將其導向確認頁面，並套用登入頁面中定義的任何其他動作（例如，使用者將訂閱您的服務，或不會收到您任何其他通訊）。
+收到電子郵件後，如果您的收件者按一下登入頁面的連結並提交表單：
 
-以下是如何使用的一些範例 [!DNL Adobe Campaign] 登陸頁面，讓您的客戶選擇加入/退出接收部分或全部通訊。
+* 他們將被導向確認頁面。
+
+* 將套用登陸頁面中定義的任何其他動作。 例如，使用者將會訂閱您的服務，或者他們不會再收到您的任何通訊。
+
+以下是如何使用的一些範例 [!DNL Adobe Campaign] 登陸頁面中的不同可能使用案例。
 
 ## 設定檔贏取 {#lp-acquisition}
 
-1. [建立登入頁面](create-lp.md#create-landing-page). 選取 **[!UICONTROL 贏取]** 範本。
+第一個範本可讓您新增或更新設定檔至Campaign資料庫。
 
-1. 定義登入頁面屬性和設定。
+1. 時間 [建立您的登入頁面](create-lp.md#create-landing-page)，選取 **[!UICONTROL 贏取]** 範本。
 
-   ![](assets/lp-uc-properties.png)
+1. 在登入頁面屬性中，請務必選取 **[!UICONTROL 使用表單中參照的資料預先填寫]** 選項，以便從設定檔預先載入任何現有資訊並避免建立重複專案。
 
 1. 選取 **[!UICONTROL 贏取]** 頁面以編輯其內容。
 
-1. 頁面內容隨即顯示。 選取與登入頁面表單相對應的部分。
+1. 根據您要在設定檔上收集的資訊，視需要編輯文字欄位。
+
+1. 此外，您可以新增核取方塊，邀請客戶訂閱您的Newsletter服務。 [瞭解如何建立服務](../audience/manage-services.md)
+
+   ![](assets/lp-uc-acquisition-page.png)
+
+1. 視需要調整您的內容並儲存變更。
+
+1. 檢閱和 [發佈](create-lp.md#publish-landing-page) 您的登陸頁面。
+
+1. 建立 [電子郵件](../email/create-email.md) 和 [新增連結](../email/message-tracking.md#insert-links) 至您的登陸頁面。
+
+收到電子郵件後，如果您的收件者按一下登入頁面的連結並提交表單，則會將其設定檔新增至Campaign資料庫，或更新其所提供的資訊。
+
+![](assets/lp-uc-profile-updated.png)
+
+如果他們選擇接收您的Newsletter，他們將訂閱相應的服務。
+
+![](assets/lp-uc-newsletter-subscriber.png)
 
 ## 訂閱服務 {#lp-subscription}
 
@@ -101,88 +123,89 @@ ht-degree: 0%
 
 1. [建立登入頁面](create-lp.md#create-landing-page) 讓您的收件者註冊您的活動。 選取 **[!UICONTROL 訂閱]** 範本。
 
-   <!--![](assets/lp-uc-subscription-template.png)-->
-
-1. 定義登入頁面屬性和設定。
-
-   <!--![](assets/lp-uc-properties.png)-->
-
 1. 選取 **[!UICONTROL 訂閱]** 頁面以編輯其內容。
-
-   ![](assets/lp-uc-subscription-page-edit.png)
 
 1. 頁面內容隨即顯示。 選取與登入頁面表單相對應的部分，並展開 **[!UICONTROL 核取方塊1]** 區段。
 
-   在 **[!UICONTROL 訂閱與服務]** 欄位中，選取您為事件建立的服務。 離開 **[!UICONTROL 如果選取，則訂閱]** 選項已啟用。
+1. 在 **[!UICONTROL 訂閱與服務]** 欄位中，選取您為事件建立的服務。 離開 **[!UICONTROL 如果選取，則訂閱]** 選項已啟用。
 
    ![](assets/lp-uc-subscription-checkbox-1.png)
-
-1. 例如，您可以新增其他核取方塊，為您的電子報提供訂閱。
-
 <!--
+1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
-1. You can also update the profiles who register for your event for the email channel. Expand the **[!UICONTROL Call to action]** section and select Additional updates.
+1. 視需要調整您的內容並儲存變更。
 
-    ![](assets/lp-uc-subscription-call-to-action.png)-->
+1. 檢閱和 [發佈](create-lp.md#publish-landing-page) 您的登陸頁面。
 
-1. 視需要對登入頁面標籤和欄位進行儘可能多的其他更新。 依需要編輯其餘內容，儲存變更並關閉。
+1. 建立 [電子郵件](../email/create-email.md) 和 [新增連結](../email/message-tracking.md#insert-links) 以將流量引導至註冊登陸頁面。
 
-1. 編輯 **[!UICONTROL 確認]** 頁面，以及 **[!UICONTROL 錯誤]** 和 **[!UICONTROL 有效期]** 頁面。 收件者提交登錄檔單後，此資訊就會顯示給他們。
+1. 設計電子郵件以宣佈您的活動已開放註冊。
 
-   ![](assets/lp-uc-confirmation-page.png)
-
-1. 測試和 [發佈](create-lp.md#publish-landing-page) 您的登陸頁面。
-
-1. 建立 **電子郵件** 傳遞以將流量引導至註冊登陸頁面。 設計電子郵件以宣佈您的活動已開放註冊。
-
-1. [插入連結](../email/message-tracking.md#insert-links) 放入您的訊息內容。 選取 **[!UICONTROL 登陸頁面]** 作為 **[!UICONTROL 連結型別]** 並選擇 [登陸頁面](create-lp.md#configure-primary-page) 您為註冊而建立的。
-
-   ![](assets/lp_subscription-uc-link.png)
-
-   >[!NOTE]
-   >
-   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 瞭解如何更新到期日 [在本節中](create-lp.md#create-landing-page).
-
-收到電子郵件後，如果您的收件者按一下登入頁面的連結，並提交登入頁面表單，系統會將他們導向至確認頁面，且會將他們新增至訂閱清單。
+收到電子郵件後，如果您的收件者按一下登入頁面的連結，並提交表單，系統會將他們導向至確認頁面，且會將他們新增至訂閱清單。
 
 ## 取消訂閱 {#lp-unsubscription}
 
-1. [建立登入頁面](create-lp.md#create-landing-page). 選取 **[!UICONTROL 取消訂閱]** 範本。
+1. 請確定您已為取消訂閱服務的使用者建立了確認範本，以便您在建立服務時可以輕鬆選取它。 [了解更多](../audience/manage-services.md#create-confirmation-message)
 
-1. 定義登入頁面屬性和設定。
+1. 在您的 [訂閱服務](../audience/manage-services.md)，選取您建立的範本，作為使用者取消訂閱時將會收到的確認電子郵件。
+
+1. [建立登入頁面](create-lp.md#create-landing-page). 選取 **[!UICONTROL 取消訂閱]** 範本。
 
 1. 選取 **[!UICONTROL 取消訂閱]** 頁面以編輯其內容。
 
 1. 頁面內容隨即顯示。 選取與登入頁面表單相對應的部分。
 
+1. 您可以新增 **[!UICONTROL 核取方塊]** 部分，選取服務並選取 **[!UICONTROL 如果勾選，則取消訂閱]** 選項。
+
+   ![](assets/lp-uc-unsubscription-checkbox-1.png)
+
+1. 您也可以展開 **[!UICONTROL 行動號召]** 區段並選取 **[!UICONTROL 其他更新]** 選項。 選取服務並檢查 **[!UICONTROL 選擇退出]** 選項。
+
+   ![](assets/lp-uc-unsubscription-call-to-action.png)
+
+1. 視需要調整您的內容並儲存變更。
+
+1. 檢閱和 [發佈](create-lp.md#publish-landing-page) 您的登陸頁面。
+
+1. 建立 [電子郵件](../email/create-email.md) 和 [新增連結](../email/message-tracking.md#insert-links) 以將流量引導至註冊登陸頁面。
+
+收到電子郵件後，如果您的收件者按一下登入頁面的連結，並提交表單，系統會將他們導向至取消訂閱確認頁面，且他們將從訂閱清單中移除。
+
 ## 設定選擇退出登陸頁面 {#lp-denylist}
 
-法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 進一步瞭解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
-
-因此，您必須一律包含 **取消訂閱連結** 在每一封傳送給收件者的電子郵件中：
-
-* 按一下此連結後，收件者會被導向包含確認選擇退出按鈕的登陸頁面。
-* 按一下選擇退出按鈕後，設定檔資料將會更新並包含此資訊。
+法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 因此，您必須一律包含 **取消訂閱連結** 每封寄送給收件者的電子郵件中。 按一下此連結後，收件者會被導向包含確認選擇退出按鈕的登陸頁面。
 
 您可以設定 **[!UICONTROL 封鎖清單]** 可讓使用者選擇退出所有傳送的登陸頁面。
 
-若要讓使用者能夠選擇退出所有傳送，您必須建立並發佈 **[!UICONTROL 封鎖清單]** 登陸頁面。
+1. 時間 [建立您的登入頁面](create-lp.md#create-landing-page)，選取 **[!UICONTROL 封鎖清單]** 範本。
 
-使用者按一下登陸頁面連結後， **[!UICONTROL 不再聯絡（透過任何管道）]** 設定檔中的選項會自動選取。
+1. 選取 **[!UICONTROL 封鎖清單]** 頁面以編輯其內容。
 
-定義 **[!UICONTROL 選擇退出]** 核取方塊並選擇以更新 **[!UICONTROL 頻道（電子郵件）]**：檢查登陸頁面上選擇退出方塊的設定檔將會選擇退出您的所有通訊。
+1. 展開 **[!UICONTROL 行動號召]** 區段並選取 **[!UICONTROL 其他更新]** 選項。
 
-收到訊息後，如果收件者按一下電子郵件中的取消訂閱連結，就會顯示您的登陸頁面。
+1. 從對應的下拉式清單中，選取 **[!UICONTROL 頻道（電子郵件）]** 讓您的收件者僅能選擇退出電子郵件通訊。 您也可以選取 **[!UICONTROL 依所有管道]** 讓他們從所有通道的所有通訊中選取全部。
 
-![](assets/lp_opt-out-submit-form.png)
+   ![](assets/lp-uc-denylist.png)
 
-如果收件者勾選方塊並提交表單：
+1. 視需要調整您的內容並儲存變更。
 
-* 系統會將選擇退出的收件者重新導向至確認訊息畫面。
+1. 檢閱和 [發佈](create-lp.md#publish-landing-page) 您的登陸頁面。
 
-* 設定檔資料已更新，除非再次訂閱，否則將不會收到您品牌的通訊。
+1. 建立 [電子郵件](../email/create-email.md) 和 [新增連結](../email/message-tracking.md#insert-links) 至您的登陸頁面，讓使用者能夠選擇退出接收通訊。
 
-若要檢查對應的設定檔選擇是否已更新，請移至「設定檔」並選取設定檔。
+收到電子郵件後，如果您的收件者按一下登入頁面的連結並提交表單，系統會將他們導向封鎖清單確認頁面，且他們的設定檔會更新為所提供的資訊。
+
+若要檢查對應的設定檔選擇是否已更新，請瀏覽至 **[!UICONTROL 設定檔]** 功能表並選取該設定檔。
+
+例如，如果您選擇更新 **[!UICONTROL 頻道（電子郵件）]** 選項，以及登入頁面中的 **[!UICONTROL 不再透過電子郵件聯絡]** 選項將會被核取。
+
+![](assets/lp-uc-denylist-profile.png)
+
+除非再次訂閱，否則此設定檔將不會收到您品牌的電子郵件通訊。
+
+
+
+
 
 
 

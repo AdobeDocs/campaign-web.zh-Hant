@@ -4,10 +4,10 @@ title: Campaign Web使用者介面新增功能
 description: 探索Campaign Web使用者介面的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限可用性"
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 75%
+source-wordcount: '1292'
+ht-degree: 74%
 
 ---
 
@@ -168,7 +168,7 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 
 此版本有以下限制：
 
-* 可編輯的物件有：收件者、傳遞、行銷活動、工作流程、對象、訂閱服務、預先定義的篩選器和範本。其他物件是唯讀的。使用篩選器並建立瀏覽所有內容的規則。
+* 可編輯的物件包括：收件者、傳送、行銷活動、工作流程、對象、訂閱服務、預先定義的篩選器、範本和登入頁面。 其他物件是唯讀的。使用篩選器並建立瀏覽所有內容的規則。
 * Campaign Web使用者介面中無法使用管理和進階設定功能。
 * 報告量度 (例如開啟和追蹤資料) 每小時更新一次。
 * 傳遞儀表板 KPIs 每 5 分鐘更新一次。- 但傳遞準備是即時的。
