@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,8 @@ ht-degree: 0%
 
 ## 取消訂閱 {#lp-unsubscription}
 
+您可以讓客戶使用登入頁面取消訂閱服務。
+
 1. 請確定您已為取消訂閱服務的使用者建立了確認範本，以便您在建立服務時可以輕鬆選取它。 [了解更多](../audience/manage-services.md#create-confirmation-message)
 
 1. 在您的 [訂閱服務](../audience/manage-services.md)，選取您建立的範本，作為使用者取消訂閱時將會收到的確認電子郵件。
@@ -167,11 +169,11 @@ ht-degree: 0%
 
 1. 檢閱和 [發佈](create-lp.md#publish-landing-page) 您的登陸頁面。
 
-1. 建立 [電子郵件](../email/create-email.md) 和 [新增連結](../email/message-tracking.md#insert-links) 以將流量引導至註冊登陸頁面。
+1. 建立 [電子郵件](../email/create-email.md) 和 [新增連結](../email/message-tracking.md#insert-links) 前往登陸頁面。
 
-收到電子郵件後，如果您的收件者按一下登入頁面的連結，並提交表單，系統會將他們導向至取消訂閱確認頁面，且他們將從訂閱清單中移除。
+收到電子郵件後，如果您的收件者按一下登入頁面的連結，並提交表單，系統會將他們導向至取消訂閱確認頁面，且他們將從對應的訂閱服務中移除。
 
-## 設定選擇退出登陸頁面 {#lp-denylist}
+## 封鎖清單 {#lp-denylist}
 
 法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 因此，您必須一律包含 **取消訂閱連結** 每封寄送給收件者的電子郵件中。 按一下此連結後，收件者會被導向包含確認選擇退出按鈕的登陸頁面。
 
