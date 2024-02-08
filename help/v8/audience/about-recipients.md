@@ -1,11 +1,11 @@
 ---
 title: 開始使用設定檔
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
-badge: label="有限可用性"
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+badge: label="限量版"
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 33%
+source-wordcount: '527'
+ht-degree: 26%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 33%
 >id="acw_homepage_welcome_rn4"
 >title="設定檔的 360 檢視"
 >abstract="建立新的設定檔，並透過強大的報表和工具進行監控。存取設定檔的屬性、互動和紀錄。使用篩選選項瀏覽設定檔清單、編輯和更新其設定檔。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="設定檔的 360 檢視"
 >abstract="建立新的設定檔，並透過強大的報表和工具進行監控。存取設定檔的屬性、互動和紀錄。使用篩選選項瀏覽設定檔清單、編輯和更新其設定檔。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 <!--TO REMOVE ABOVE-->
 
@@ -33,17 +33,15 @@ ht-degree: 33%
 
 ## 什麼是設定檔？ {#what}
 
-Adobe Campaign Web中的設定檔是儲存在資料庫中的個人，可作為的關鍵元件 [建立對象](create-audience.md) 用於傳遞和 [新增個人化](../personalization/personalize.md) 資料放入您的內容。
+A **設定檔**（在使用者端主控台中也稱為「收件者」），代表儲存在Campaign資料庫中的個人，做為 [建立對象](create-audience.md) 用於傳遞和 [新增個人化](../personalization/personalize.md) 資料放入您的內容。 Adobe Campaign可讓您順暢地管理設定檔，從建立新專案到存取所有設定檔屬性和服務訂閱的全面檢視，全程透過Campaign Web使用者介面。
 
-Adobe Campaign可讓您直接從介面建立及監控設定檔。 從那裡，您可以建立設定檔、存取設定檔的詳細檢視，以及編輯設定檔。
+此外， **[!UICONTROL 測試設定檔]**，可在使用者端主控台中識別為「種子設定檔」，可讓您鎖定不符合指定傳遞目標定位准則的其他收件者。 這些設定檔包含虛構的聯絡資訊，或由寄件者控制的聯絡資訊。 可以將他們新增至訊息的對象，以偵測任何詐用收件者資料庫的行為，或確保電子郵件送達收件匣中。 [瞭解如何使用測試設定檔](test-profiles.md)
 
-其他型別的設定檔儲存在資料庫中，例如 **[!UICONTROL 測試設定檔]**，專門用於在傳送給最終對象前測試您的傳送。 [瞭解如何使用測試設定檔](test-profiles.md)
+設定檔和測試設定檔都可用來在傳送內容到達預期對象之前先行測試。 透過這樣做，您可以預覽訊息內容和個人化、傳送校樣以進行測試和驗證、評估各種平台和裝置間的電子郵件呈現，以及測試您的登入頁面。 [瞭解如何預覽和測試傳送](../preview-test/preview-test.md)
 
 ## 存取設定檔清單 {#access}
 
-設定檔的存取與編輯可從Adobe Campaign Web的 **[!UICONTROL 客戶管理]** > **設定檔** 左側導覽邊欄中的專案。
-
-您也可以透過以下方式存取 **[!UICONTROL 瀏覽器]** 檢視，從 **[!UICONTROL 設定檔和目標]** > **[!UICONTROL 收件者]** 節點。 您可以從中瀏覽、建立和管理檔案夾或子檔案夾，以及檢查關聯的許可權。 [瞭解如何建立資料夾](../get-started/permissions.md#folders)
+設定檔的存取與編輯可從Adobe Campaign Web的 **[!UICONTROL 客戶管理]** > **設定檔** 左側導覽邊欄中的專案。 您也可以在以下位置存取這些變數： **[!UICONTROL 瀏覽器]** 檢視，從 **[!UICONTROL 設定檔和目標]** > **[!UICONTROL 收件者]** 節點。 您可以從中瀏覽、建立和管理檔案夾或子檔案夾，以及檢查關聯的許可權。 [瞭解如何建立資料夾](../get-started/permissions.md#folders)
 
 >[!NOTE]
 >

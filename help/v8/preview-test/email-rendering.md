@@ -3,10 +3,10 @@ audience: end-user
 title: 測試電子郵件轉譯
 description: 瞭解如何在Campaign網頁使用者介面中測試電子郵件呈現
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="有限可用性"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+badge: label="限量版"
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 若要存取電子郵件呈現功能，您需要：
 
 * 擁有Litmus帳戶
-* 選取測試設定檔 — 瞭解如何 [本節](preview-content.md)
+* 選取設定檔及/或測試設定檔 — 瞭解如何在 [本節](preview-content.md)
 
 然後，請遵循以下步驟。
 

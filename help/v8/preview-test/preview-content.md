@@ -3,11 +3,11 @@ audience: end-user
 title: 預覽傳遞內容
 description: 瞭解如何使用Campaign網頁使用者介面預覽您的傳遞內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="有限可用性"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+badge: label="限量版"
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 2%
+source-wordcount: '352'
+ht-degree: 1%
 
 ---
 
@@ -32,22 +32,17 @@ ht-degree: 2%
 
 1. 您可以合併設定檔和測試設定檔，以預覽您的電子郵件或簡訊訊息。
 
-   * 此 **[!UICONTROL 測試設定檔]** tab會列出所有種子地址，這些地址是資料庫中的其他虛構收件者。
-     ![](assets/simulate-select-profiles.png)
+   * 此 **[!UICONTROL 測試設定檔]** 索引標籤會列出所有測試設定檔，這些是資料庫中的其他虛構收件者。 [瞭解如何使用測試設定檔](../audience/test-profiles.md)
 
-     測試設定檔可從以下網址建立： **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 功能表。 [了解更多](../audience/test-profiles.md#create-test-profiles)
+   * 此 **[!UICONTROL 設定檔]** 索引標籤會列出儲存在資料庫中的所有設定檔。 [瞭解如何使用設定檔](../audience/about-recipients.md)
 
-
-   * 此 **[!UICONTROL 設定檔]** 索引標籤會列出所有儲存在 **[!UICONTROL 設定檔和目標]** 資料夾來自 [!DNL Campaign] 使用者端主控台。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
-
-     您可以從以下位置檢視、建立及管理設定檔： **[!UICONTROL 設定檔]** 標籤。 [了解更多](../audience/about-recipients.md)
-
+   ![](assets/simulate-select-profiles.png)
 
 1. 瀏覽測試設定檔或設定檔清單時，您可以使用篩選器來縮小搜尋範圍。
 
    ![](assets/simulate-test-profile-filter.png)
 
-   例如，您可以定義規則以尋找所有具有 **[!UICONTROL 潛在客戶]** 狀態。 瞭解如何使用新增規則 [查詢模型工具](../query/query-modeler-overview.md).
+   例如，您可以定義規則以尋找所有具有 **[!UICONTROL 潛在客戶]** 狀態。 [瞭解如何使用查詢建模器新增規則](../query/query-modeler-overview.md).
 
 1. 按一下 **[!UICONTROL 選取]** 以確認您的選取。
 
