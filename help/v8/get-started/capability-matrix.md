@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web使用者介面/使用者端主控台功能對照表
 description: Campaign Web使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
+source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1772'
 ht-degree: 3%
 
 ---
@@ -41,8 +41,8 @@ Campaign平台可依據業務和資料需求進行自訂，並可在Campaign使�
 
 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解這些管道。
 
-* 直接郵件。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
-* LINE傳訊。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **直接郵件**. 直接郵件通道可讓您傳送實際信函給客戶、客戶、供應商或其他人，例如通知、發票、對帳單、行銷優惠等。 此通道僅在使用者端主控台中可用。  [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
+* **LINE傳訊**. LINE是免費立即訊息、語音和視訊通話的應用程式，可在所有行動裝置和個人電腦上使用。 Adobe Campaign僅允許您從使用者端主控台傳送LINE訊息。[瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * 客服中心和自訂頻道。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * 使用X (Twitter)的社交行銷。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
