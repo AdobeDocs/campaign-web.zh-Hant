@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web使用者介面/使用者端主控台功能對照表
 description: Campaign Web使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1704'
 ht-degree: 3%
 
 ---
@@ -28,12 +28,12 @@ Campaign平台可依據業務和資料需求進行自訂，並可在Campaign使�
 
 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並瞭解如何使用這些功能。
 
-* 行銷行事曆。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
-* 方案和計畫。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
-* 供應商、預算與成本管理。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
-* 分散式行銷（中央/地方行銷）。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hant){target="_blank"}
-* 行銷資源管理(MRM)、目標、模擬和成本控制。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
-* 任務管理。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
+* **行銷行事曆**. 行銷活動行事曆會顯示在全域時間軸中的所有方案、計畫、行銷活動和傳遞。 此功能僅適用於使用者端主控台。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
+* **方案與計畫**. 每個行銷活動都屬於屬於屬於計畫的方案。 在Campaign Web使用者介面中，所有行銷活動都與預設內建計畫和方案相關聯。 您只能在使用者端主控台中建立和管理計畫和程式。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
+* **供應商、預算與成本管理**. 您可以設定與促銷活動內所執行工作相關的服務提供者（包括成本結構），並管理每個方案與促銷活動內的預算。 此功能僅適用於使用者端主控台。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
+* **分散式行銷** （中央/地方行銷）。 Adobe Campaign提供分散式行銷應用程式，用於在中央實體（總部、行銷部門等）之間實施合作活動 本地實體 (銷售地點、地區代理等)。 此功能僅適用於使用者端主控台。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hant){target="_blank"}
+* **行銷資源管理** (MRM)、目標、模擬和成本控制。 Adobe Campaign提供行銷資源管理(MRM)應用程式，可讓您藉由提供相關工作、預算和行銷資源的完整管理和即時追蹤，以合作模式控制行銷動作。 此功能僅適用於使用者端主控台。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
+* **任務管理**. 在MRM應用程式中，可以從行銷活動控制面板建立、指派、追蹤及監控行銷活動工作。 此功能僅適用於使用者端主控台。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
 ## 通訊通道 {#channels-capabilities}
 
