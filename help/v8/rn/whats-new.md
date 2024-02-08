@@ -4,10 +4,10 @@ title: Campaign Web使用者介面新增功能
 description: 探索Campaign Web使用者介面的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="有限可用性"
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 79%
+source-wordcount: '1290'
+ht-degree: 75%
 
 ---
 
@@ -158,20 +158,20 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 
 您身為現有 Campaign 使用者，請注意一些概念已重新命名以符合最新的術語標準。這些變更只會套用至Campaign Web使用者介面，不會反映在使用者端主控台中。 它們總結如下。
 
-* 證明現在是&#x200B;**測試電子郵件**：若要傳送證明，請使用電子郵件傳遞 UI 中的「**測試**」按鈕。證明的目標現在稱為&#x200B;**測試設定檔**。[了解更多](../preview-test/test-deliveries.md)。
-* 種子地址現在是用作&#x200B;**測試設定檔**：將測試電子郵件傳送到種子地址，這些地址是資料庫中額外的收件者。[了解更多](../preview-test/test-deliveries.md)。
+* 收件者現在是 **設定檔**. [了解更多](../audience/gs-audiences-recipients.md)。
+* 種子地址現在為 **測試設定檔**. [了解更多](../preview-test/test-deliveries.md)。
 * 傳遞分析現在是&#x200B;**傳遞準備**。當您需要啟動訊息準備時，按一下「**準備**」按鈕。[了解更多](../monitor/prepare-send.md)。
 * 電子郵件預覽現在可透過「**模擬內容**」按鈕取得。[了解更多](../preview-test/preview-test.md)
-* 清單現在是&#x200B;**對象**。[了解更多](../audience/about-recipients.md)。
+* 清單現在是&#x200B;**對象**。[了解更多](../audience/gs-audiences-recipients.md)。
 
 ## 限制{#limitations-beta}
 
 此版本有以下限制：
 
 * 可編輯的物件有：收件者、傳遞、行銷活動、工作流程、對象、訂閱服務、預先定義的篩選器和範本。其他物件是唯讀的。使用篩選器並建立瀏覽所有內容的規則。
-* 尚未提供管理使用者介面。
+* Campaign Web使用者介面中無法使用管理和進階設定功能。
 * 報告量度 (例如開啟和追蹤資料) 每小時更新一次。
 * 傳遞儀表板 KPIs 每 5 分鐘更新一次。- 但傳遞準備是即時的。
 * 尚未整合頂端列中的 Adobe Experience Cloud 通知和統一說明。
 
-如需更多護欄和限制，請參閱[本頁面](../get-started/guardrails.md)。
+深入瞭解Campaign Web使用者介面與Campaign使用者端主控台之間支援/不支援的功能和互通性， [在此頁面中](../get-started/capability-matrix.md).

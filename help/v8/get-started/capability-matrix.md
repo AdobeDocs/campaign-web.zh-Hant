@@ -2,17 +2,15 @@
 audience: end-user
 title: Campaign Web使用者介面/使用者端主控台功能對照表
 description: Campaign Web使用者介面支援的功能清單
-hide: true
-hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1500'
 ht-degree: 3%
 
 ---
 
-# Campaign Web使用者介面/使用者端主控台功能對照表 {#capabilities-matrix}
+# Campaign Web與Campaign使用者端主控台 {#capabilities-matrix}
 
 Campaign網頁使用者介面中提供重要的Campaign功能。 此介面主要是供行銷人員規劃、發佈及評估其行銷活動所設計。 列出所有功能 [在此頁面中](../rn/whats-new.md).
 
@@ -61,7 +59,9 @@ Adobe Campaign可讓您建立、設計和共用登入頁面。 全新介面中�
 
 ## 設定檔、測試設定檔和對象 {#profiles-audiences-capabilities}
 
-您可以在Campaign使用者端主控台和Campaign Web使用者介面中建立、管理和更新設定檔和測試設定檔。 在一個UI中執行的所有變更都會顯示在另一個UI中。 不過，新的Campaign Web使用者介面可能遺漏某些特定的收件者設定和進階引數。 請注意，在新的Web使用者介面中，「收件者」一詞已變更為「設定檔」。
+您可以在Campaign使用者端主控台和Campaign Web使用者介面中建立、管理和更新設定檔和測試設定檔。 在一個UI中執行的所有變更都會顯示在另一個UI中。 不過，新的Campaign Web使用者介面可能遺漏某些特定的收件者設定和進階引數。
+
+請注意，在新的網頁使用者介面中，「收件者」一詞已變更為「設定檔」，而「種子地址」現在是「測試設定檔」
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
@@ -155,7 +155,7 @@ Adobe Campaign Web可讓您使用在主控台中建立的傳送選件，連同�
 
 Campaign Web使用者介面未顯示下列功能。 這些變數只能在使用者端主控台中使用。
 
-瀏覽中提供的連結 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"} 並深入瞭解。
+瀏覽中提供的連結 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"} 以進一步瞭解。
 
 * 外部帳戶。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * 方案建立和擴充。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}

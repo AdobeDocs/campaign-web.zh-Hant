@@ -6,10 +6,10 @@ title: Adobe Campaign Web 文件
 description: Campaign網頁檔案
 breadcrumb-title: Campaign Web使用者介面
 hide: true
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 90%
+source-wordcount: '570'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
    + [瀏覽和篩選清單](get-started/list-filters.md)
    + [使用預先定義的篩選器](get-started/predefined-filters.md)
    + [存取權與權限](get-started/permissions.md)
-   + [不支援的功能](get-started/capability-matrix.md)
+   + [Campaign Web與Campaign使用者端主控台](get-started/capability-matrix.md)
    + [採用 AI 技術的內容說明](get-started/using-ai.md)
 + 訊息和傳遞{#msg}
    + [開始使用訊息](msg/gs-messages.md)
