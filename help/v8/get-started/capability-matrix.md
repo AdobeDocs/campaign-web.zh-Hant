@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web使用者介面/使用者端主控台功能對照表
 description: Campaign Web使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
+source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1779'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ Campaign平台可依據業務和資料需求進行自訂，並可在Campaign使�
 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解這些管道。
 
 * **直接郵件**. 直接郵件通道可讓您傳送實際信函給客戶、客戶、供應商或其他人，例如通知、發票、對帳單、行銷優惠等。 此通道僅在使用者端主控台中可用。  [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
-* **LINE傳訊**. LINE是免費立即訊息、語音和視訊通話的應用程式，可在所有行動裝置和個人電腦上使用。 Adobe Campaign僅允許您從使用者端主控台傳送LINE訊息。[瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **LINE傳訊**. LINE是免費立即訊息、語音和視訊通話的應用程式，可在所有行動裝置和個人電腦上使用。 Adobe Campaign僅允許您從使用者端主控台傳送LINE訊息。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * 客服中心和自訂頻道。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * 使用X (Twitter)的社交行銷。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
@@ -124,7 +124,7 @@ Adobe Campaign網頁使用者介面隨附全新的電子郵件設計工具，透
 
 ## 選件管理 {#offer-capabilities}
 
-Adobe Campaign Web可讓您使用在主控台中建立的傳送選件，連同傳送給使用者。 **[!UICONTROL 互動]** 模組。 優惠方案設計、適用規則和優惠方案管理僅可在Campaign使用者端主控台中使用。 [了解更多](../msg/offers.md)
+您可以在Adobe Campaign網頁使用者介面中建立的傳遞中傳送優惠方案。 您必須在使用者端主控台中使用 **[!UICONTROL 互動]** 模組。 優惠方案設計、適用規則和優惠方案管理僅可在Campaign使用者端主控台中使用。 [了解更多](../msg/offers.md)
 
 瞭解如何在中管理優惠方案目錄 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
