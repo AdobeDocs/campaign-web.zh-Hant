@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web使用者介面/使用者端主控台功能對照表
 description: Campaign Web使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
+source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '2143'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Campaign平台可依據業務和資料需求進行自訂，並可在Campaign使�
 
 * **行銷行事曆**. 行銷活動行事曆會顯示在全域時間軸中的所有方案、計畫、行銷活動和傳遞。 此功能僅適用於使用者端主控台。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
 * **方案與計畫**. 每個行銷活動都屬於屬於屬於計畫的方案。 在Campaign Web使用者介面中，所有行銷活動都與預設內建計畫和方案相關聯。 您只能在使用者端主控台中建立和管理計畫和程式。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
-* **供應商、預算與成本管理**. 您可以設定與促銷活動內所執行工作相關的服務提供者（包括成本結構），並管理每個方案與促銷活動內的預算。 此功能僅適用於使用者端主控台。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
+* **供應商、預算與成本管理**. 您可以設定與促銷活動內執行之工作（包括成本結構）有關的服務提供者，並管理每個方案與促銷活動內的預算。 此功能僅適用於使用者端主控台。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
 * **分散式行銷** （中央/地方行銷）。 Adobe Campaign提供分散式行銷應用程式，用於在中央實體（總部、行銷部門等）之間實施合作活動 本地實體 (銷售地點、地區代理等)。 此功能僅適用於使用者端主控台。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hant){target="_blank"}
 * **行銷資源管理** (MRM)、目標、模擬和成本控制。 Adobe Campaign提供行銷資源管理(MRM)應用程式，可讓您藉由提供相關工作、預算和行銷資源的完整管理和即時追蹤，以合作模式控制行銷動作。 此功能僅適用於使用者端主控台。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * **任務管理**. 在MRM應用程式中，可以從行銷活動控制面板建立、指派、追蹤及監控行銷活動工作。 此功能僅適用於使用者端主控台。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
@@ -43,8 +43,8 @@ Campaign平台可依據業務和資料需求進行自訂，並可在Campaign使�
 
 * **直接郵件**. 直接郵件通道可讓您傳送實際信函給客戶、客戶、供應商或其他人，例如通知、發票、對帳單、行銷優惠等。 此通道僅在使用者端主控台中可用。  [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
 * **LINE傳訊**. LINE是免費立即訊息、語音和視訊通話的應用程式，可在所有行動裝置和個人電腦上使用。 Adobe Campaign僅允許您從使用者端主控台傳送LINE訊息。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
-* 客服中心和自訂頻道。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
-* 使用X (Twitter)的社交行銷。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
+* **客服中心和自訂頻道**. 客服中心和其他自訂管道可以在您的行銷活動環境中實作。 這些通道只能在使用者端主控台中使用。 [在Campaign Classic v7檔案中進一步瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
+* **社交行銷** 搭配X (Twitter)。 您透過X (Twitter)張貼訊息並傳送直接訊息來與客戶互動。 此功能與社交行銷附加元件一起提供，只能從使用者端主控台取得 —  [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
 ## 登陸頁面和網頁應用程式 {#Webapps-capabilities}
 
@@ -52,9 +52,9 @@ Adobe Campaign可讓您建立、設計和共用登入頁面。 全新介面中�
 
 因此，在Campaign使用者端主控台中，您無法編輯、更新或修改在網頁介面中建立的登入頁面，反之亦然。 Campaign Web使用者介面中無法使用下列型別的Web應用程式。 但是，它們會顯示在登入頁面清單中。 使用提供的連結來瀏覽Campaign Classic v7檔案，並深入瞭解這些網頁應用程式：
 
-* 網頁應用程式。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
-* 網路表單。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant){target="_blank"}
-* 線上意見調查。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
+* **網頁應用程式**. Adobe Campaign可讓您使用來自資料庫的預先載入資料，以及根據連線使用者的許可權調整的內容，來建立和發佈動態和互動式Web應用程式。 此功能僅適用於使用者端主控台。 [在Campaign Classic v7檔案中進一步瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
+* **網路表單**. 在使用者端主控台中設計的網頁和登入頁面可在Campaign網頁使用者介面中看到，但無法編輯或修改。 使用者端主控台網頁設計工具與隨附於Campaign Web使用者介面的登入頁面設計工具之間，有些選項可能會有所不同。 [在Campaign Classic v7檔案中進一步瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant){target="_blank"}
+* **線上意見調查**. 您只能從使用者端主控台建立線上調查和收集答案。 Campaign Web使用者介面中沒有此功能。  [在Campaign Classic v7檔案中進一步瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
 
 
 ## 設定檔、測試設定檔和對象 {#profiles-audiences-capabilities}
@@ -88,9 +88,9 @@ Adobe Campaign網頁使用者介面隨附全新的電子郵件設計工具，透
 
 請注意，下列功能暫時無法在Campaign Web使用者介面中使用。 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解這些功能。
 
-* 自訂個人化區塊建立。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
-* 來自自訂表單的內容（內容管理模組）。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
-* 電子郵件AMP。 [在Campaign Classic v7檔案中進一步瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
+* **自訂個人化區塊建立**. 除了預設的個人化區塊之外，您還可以從使用者端主控台建立自訂區塊。 Campaign Web使用者介面中沒有此功能。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
+* **自訂表單的內容**. 內容管理模組可讓您建立和管理表單，協助使用者在Campaign中建立內容。 此功能僅適用於使用者端主控台。 [在Campaign Classic v7檔案中進一步瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* **電子郵件AMP**. AMP for Email新格式可讓您在訊息中加入AMP元件，並使用豐富可行的內容來改善電子郵件體驗。 此功能僅適用於使用者端主控台。 [在Campaign Classic v7檔案中進一步瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 <!--
 * Content from a URL`*`
 * Email fragments`*`
@@ -157,10 +157,10 @@ Campaign Web使用者介面未顯示下列功能。 這些變數只能在使用�
 
 瀏覽中提供的連結 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"} 以進一步瞭解。
 
-* 外部帳戶。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
-* 方案建立和擴充。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
-* 資料管理工作流程活動：資料載入、擷取（檔案）、更新資料、編輯結構、匯入/匯出技術工作流程。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
-* Campaign設定與外部系統的連線。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
+* **外部帳戶**. Adobe Campaign隨附一組預先定義的外部帳戶，可與外部系統連線。 作為Campaign系統管理員，您只能從使用者端主控台建立和管理外部帳戶。[瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+* **方案建立和擴充**. 架構建立、修改和擴充功能僅限進階使用者使用。 這些功能只能從使用者端主控台取得。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+* **資料管理** 工作流程活動。 資料管理結合了一系列活動，提供更有效率、更靈活的工具來解決複雜的鎖定問題。 這些活動包括：資料載入、擷取（檔案）、更新資料、編輯結構、匯入/匯出技術工作流程。 這些變數只能在使用者端主控台中使用。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+* **同盟資料存取**. Campaign設定和外部系統的連線僅限進階使用者使用，且只能從使用者端主控台使用。 [瞭解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 ## 核准 {#approvals-capabilities}
 
