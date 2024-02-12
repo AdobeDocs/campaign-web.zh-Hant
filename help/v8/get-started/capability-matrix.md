@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web使用者介面/使用者端主控台功能對照表
 description: Campaign Web使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
+source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2156'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Campaign平台可依據業務和資料需求進行自訂，並可在Campaign使�
 
 ## 通訊通道 {#channels-capabilities}
 
-透過Campaign Web使用者介面，您可以建立、設計和傳送電子郵件、簡訊和推播通知，並使用各種專用報告來衡量其影響，如詳情 [在本節中](../msg/gs-messages.md). 但是，下列管道目前無法使用。
+透過Campaign Web使用者介面，您可以建立、設計和傳送 **電子郵件**， **簡訊** 和 **推播通知**，並使用各種專用報告測量其影響，如詳細資訊 [在本節中](../msg/gs-messages.md). 不過，以下管道目前為 **非** 可用：應用程式內、直接郵件、LINE、客服中心/自訂頻道、使用X的社交行銷(Twitter)。
 
 使用提供的連結來瀏覽Campaign v8 （使用者端主控台）檔案，並深入瞭解這些管道。
 
