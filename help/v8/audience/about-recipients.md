@@ -1,11 +1,10 @@
 ---
 title: 開始使用設定檔
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
-badge: label="限量版"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 26%
+ht-degree: 23%
 
 ---
 
@@ -29,11 +28,11 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="設定檔"
->abstract="設定檔代表鎖定接收 Adobe Campaign 所傳送訊息的個人。在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
+>abstract="設定檔是目標接收Adobe Campaign傳送之訊息的記錄。 在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
 
 ## 什麼是設定檔？ {#what}
 
-A **設定檔**（在使用者端主控台中也稱為「收件者」），代表儲存在Campaign資料庫中的個人，做為 [建立對象](create-audience.md) 用於傳遞和 [新增個人化](../personalization/personalize.md) 資料放入您的內容。 Adobe Campaign可讓您順暢地管理設定檔，從建立新專案到存取所有設定檔屬性和服務訂閱的全面檢視，全程透過Campaign Web使用者介面。
+A **設定檔**（在使用者端主控台中也稱為「收件者」），代表儲存在Campaign資料庫中的記錄，可作為的關鍵元件 [建立對象](create-audience.md) 用於傳遞和 [新增個人化](../personalization/personalize.md) 資料放入您的內容。 Adobe Campaign可讓您順暢地管理設定檔，從建立新專案到存取所有設定檔屬性和服務訂閱的全面檢視，全程透過Campaign Web使用者介面。
 
 此外， **[!UICONTROL 測試設定檔]**，可在使用者端主控台中識別為「種子設定檔」，可讓您鎖定不符合指定傳遞目標定位准則的其他收件者。 這些設定檔包含虛構的聯絡資訊，或由寄件者控制的聯絡資訊。 可以將他們新增至訊息的對象，以偵測任何詐用收件者資料庫的行為，或確保電子郵件送達收件匣中。 [瞭解如何使用測試設定檔](test-profiles.md)
 
@@ -49,7 +48,7 @@ A **設定檔**（在使用者端主控台中也稱為「收件者」），代�
 
 您可以篩選 **[!UICONTROL 設定檔]** 使用搜尋欄位或篩選器清單，該篩選器可從 **顯示篩選器** 按鈕。 您可以將結果限製為特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用以下專案新增規則： [查詢模型工具](../query/query-modeler-overview.md).
 
-![](assets/profiles-list-filters.png)
+![](assets/profiles-list-filters.png){zoomable=&quot;yes&quot;}
 
 若要存取設定檔的詳細資訊，請從清單中按一下其名稱。 將會開啟設定檔的詳細檢視，讓您探索其屬性以及他訂閱的服務。 [瞭解如何探索設定檔的詳細資訊](create-profile.md)
 

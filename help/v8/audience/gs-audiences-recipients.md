@@ -2,17 +2,16 @@
 title: 開始使用設定檔和對象
 description: 了解如何在 Campaign Web 中使用設定檔和對象
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-badge: label="限量版"
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
-workflow-type: ht
-source-wordcount: '204'
-ht-degree: 100%
+source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 85%
 
 ---
 
 # 開始使用設定檔和對象 {#about-profiles}
 
-在 Adobe Campaign Web 中，**設定檔**&#x200B;是儲存在資料庫中的個人，也是建立傳遞對象並向內容新增個人化資料的關鍵元件。資料庫中儲存了各種類型的設定檔，例如&#x200B;**測試設定檔**&#x200B;是在系統將您的傳遞傳送給最終對象之前先對其進行測試。
+在Adobe Campaign Web中， **設定檔** 是儲存在資料庫中的記錄，可作為關鍵元件來建立傳遞的對象，並將個人化資料新增至您的內容。 資料庫中儲存了各種類型的設定檔，例如&#x200B;**測試設定檔**&#x200B;是在系統將您的傳遞傳送給最終對象之前先對其進行測試。
 
 **對象**&#x200B;是具有相似行為和/或特徵的設定檔集合。您可以產生、選取或載入這類人員的集合。對象建立後，即可作為您的傳遞目標族群供運用。
 
