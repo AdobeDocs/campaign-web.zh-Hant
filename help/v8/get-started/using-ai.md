@@ -3,10 +3,10 @@ title: 在 Campaign Web 中使用 AI 驅動的內容說明
 description: 在 Campaign Web 說明彈出視窗中提出問題
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 84%
+source-wordcount: '541'
+ht-degree: 82%
 
 ---
 
@@ -48,11 +48,17 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 從輸入欄位，Adobe Campaign AI支援的情境式說明提出了三個建議問題。 這些問題由AI產生，與說明方塊和目前產品內容相關。 選取要取得答案的問題。
 
+![內容說明建議的問題](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+
+
 ## 答案 {#answers-ai}
 
 Adobe Campaign AI 驅動的內容說明可以提供協助，但您應該驗證事實。它可能會輸出不正確的資訊、不準確或誤導性的答案。請務必檢查每個說明方塊中連結的產品文件。
 
 您可以使用將答案複製到剪貼簿 **複製** 圖示加以存取。
+
+![內容說明複製答案](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+
 
 ## 意見回饋 {#feedback-ai}
 
