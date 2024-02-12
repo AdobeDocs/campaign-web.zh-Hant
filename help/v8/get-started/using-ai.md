@@ -3,7 +3,7 @@ title: 在 Campaign Web 中使用 AI 驅動的內容說明
 description: 在 Campaign Web 說明彈出視窗中提出問題
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
+source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 82%
@@ -23,11 +23,11 @@ ht-degree: 82%
 
 >[!AVAILABILITY]
 >
->AI支援的內容說明有測試版提供，且可能隨時變更，恕不另行通知。
+>* AI支援的內容說明有測試版提供，且可能隨時變更，恕不另行通知。
 >
->此功能僅以&#x200B;**英文**&#x200B;提供。此版本不支援其他語言。因此，請務必在使用此功能之前，將[偏好的語言](connect-to-campaign.md#language-pref)設定為英文。
+>* 此功能僅以&#x200B;**英文**&#x200B;提供。此版本不支援其他語言。因此，請務必在使用此功能之前，將[偏好的語言](connect-to-campaign.md#language-pref)設定為英文。
 >
->Campaign電子郵件設計工具目前不提供AI支援的內容說明。
+>* Campaign電子郵件設計工具目前不提供AI支援的內容說明。
 
 
 <!--
