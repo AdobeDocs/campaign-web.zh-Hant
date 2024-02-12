@@ -3,7 +3,7 @@ audience: end-user
 title: 使用查詢建模工具
 description: 瞭解如何使用Adobe Campaign Web查詢建模工具。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 4de9a8afea6a07971ebd23982a1a1ab98bc70045
+source-git-commit: 32bffad5ea6641a723887ca9fa3e58b8cc428c00
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 30%
@@ -11,7 +11,6 @@ ht-degree: 30%
 ---
 
 # 使用查詢建模工具 {#segment-builder}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
