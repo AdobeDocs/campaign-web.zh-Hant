@@ -3,15 +3,14 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="限量版"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+workflow-type: tm+mt
+source-wordcount: '654'
+ht-degree: 99%
 
 ---
 
-# Adobe Campaign Web 文件 {#campaign-documentation}
+# Adobe Campaign Web使用者介面檔案 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -84,9 +83,6 @@ ht-degree: 100%
 <!--TO REMOVE ABOVE-->
 
 我們很高興推出 Adobe Campaign Web 使用者介面的新版本。我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。這個新的現代 UI 簡化了行銷活動的設計和傳遞，並帶來一致性，與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 相符。
-
->[!AVAILABILITY]
-> Adobe Campaign Web 目前為限量版 (LA)。只有一小群 LA 客戶可以存取。請注意，產品介面、功能和使用流程可能會變更，恕不另行通知。
 
 ## 有哪些新功能
 
