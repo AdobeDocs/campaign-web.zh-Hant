@@ -2,11 +2,10 @@
 title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 feature: Landing Pages
-badge: label="限量版"
-source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 15%
+source-wordcount: '1340'
+ht-degree: 14%
 
 ---
 
@@ -25,11 +24,11 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 若要存取登入頁面清單，請選取 **[!UICONTROL 行銷活動管理]** > **[!UICONTROL 登陸頁面]** 從左側功能表。
 
-![](assets/lp-inventory.png)
+![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
 此 **[!UICONTROL 登陸頁面]** 「庫存管理系統」會顯示所有已建立的料號。 您可以使用 **顯示篩選器** 按鈕。 您可以將結果限製為特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用以下專案新增規則： [查詢模型工具](../query/query-modeler-overview.md).
 
-![](assets/lp-inventory-filter.png)
+![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
@@ -70,23 +69,25 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 <!--The main steps to create landing pages are as follows:
 
-![](assets/lp-creation-process.png)-->
+![](assets/lp-creation-process.png){zoomable="yes"}-->
+
+若要建立登入頁面，請執行下列步驟：
 
 1. 從 **[!UICONTROL 登陸頁面]** 詳細目錄，按一下 **[!UICONTROL 建立登陸頁面]**.
 
-   ![](assets/lp-create-button.png)
+   ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
 
 1. 選取範本：
    * **[!UICONTROL 贏取]**：這是登入頁面的預設範本，可讓您擷取和更新設定檔資料。
    * **[!UICONTROL 訂閱]**：使用此範本讓使用者訂閱特定的 [服務](../audience/manage-services.md).
    * **[!UICONTROL 取消訂閱]**：此範本可用於傳送給服務訂閱者的傳遞，讓他們從此取消訂閱 [服務](../audience/manage-services.md).
-   * **[!UICONTROL 封鎖清單]**：此範本應在設定檔不想再由Campaign聯絡時使用。
+   * **[!UICONTROL 封鎖清單]**：當設定檔點按傳送中的選擇退出連結時，且不想再聯絡時，應使用此範本。
 
-   ![](assets/lp-templates.png)
+   ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >瞭解如何在中實施每個範本的不同使用案例 [本節](lp-use-cases.md).
+   >瞭解如何在中實施每個範本的不同使用案例 [此頁面](lp-use-cases.md).
 
 1. 按一下 **[!UICONTROL 建立]**.
 
@@ -94,7 +95,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
    根據預設，登入頁面會儲存在 **[!UICONTROL 網頁應用程式]** 資料夾。 您可以瀏覽至中所需的位置來變更它 **[!UICONTROL 其他選項]**. [瞭解如何使用資料夾](../get-started/permissions.md#folders)
 
-   ![](assets/lp-properties.png)
+   ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
 1. 在 **[!UICONTROL 資料預先載入]** 部分，預設會選取以下兩個選項：
 
@@ -102,19 +103,19 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
    * 此 **[!UICONTROL 如果沒有ID，則跳過預先載入]** 如果您不想更新設定檔，則必須選取選項。 在這種情況下，在核准表單後，輸入的每個設定檔都將新增到資料庫。 例如，在網站上張貼表單時，會使用此選項。
 
-1. 在 **[!UICONTROL 頁面]** 區段，按一下 **[!UICONTROL 編輯內容]** 按鈕來指定您要為此登入頁面設計的每個頁面。 每個頁面的內容均已預先填滿。 視需要編輯。 [了解更多](lp-content.md)
+1. 登入頁面可以有後續頁面。 若要新增頁面，請瀏覽 **[!UICONTROL 頁面]** 區段，然後按一下 **[!UICONTROL 編輯內容]** 按鈕來指定您要為此登入頁面設計的每個頁面。 每個頁面的內容均已預先填滿。 視需要編輯。 [了解更多](lp-content.md)
 
-   ![](assets/lp-pages.png)
+   ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
 1. 此 **[!UICONTROL 更新預先載入的記錄]** 選項預設為選取。 它可讓您透過登入頁面更新儲存在資料庫中的設定檔。 預先載入方塊可讓您指定如何在資料庫中尋找要更新的記錄。
 
    您也可以從登入頁面目前前後關聯中的欄位中進行選擇，這些欄位將用於尋找資料庫中的對應設定檔。 若要這麼做，請取消選取 **[!UICONTROL 更新預先載入的記錄]** 選項並核取底下的所需欄位 **[!UICONTROL 調解選項]**.
 
-   ![](assets/lp-storage.png)
+   ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
 
 1. 您可以定義登陸頁面的開始日期和結束日期。選取 **[!UICONTROL 啟用排程]** 並設定日期。
 
-   ![](assets/lp-schedule.png)
+   ![](assets/lp-schedule.png){zoomable=&quot;yes&quot;}
 
    * 登入頁面會在指定的開始日期/時間自動發佈。
 
@@ -130,7 +131,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 1. 按一下 **[!UICONTROL 檢閱和發佈]**.
 
-在您定義所有設定和 [設計](lp-content.md) 您可以 [測試](#test-landing-page) 和 [發佈](#publish-landing-page) 您的登陸頁面。
+在您定義所有設定和 [設計](lp-content.md) 您可以 [測試](#test-landing-page) 和 [發佈](#publish-landing-page) 您的登陸頁面，如下所述。
 
 ## 測試登陸頁面 {#test-landing-page}
 
@@ -150,9 +151,11 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 >
 >您必須有可用的測試設定檔，才能預覽訊息和傳送校樣。 [進一步瞭解測試設定檔](../audience/test-profiles.md)
 
+若要測試您的登入頁面，請遵循下列步驟：
+
 1. 在您按一下 **[!UICONTROL 檢閱和發佈]**，選取 **[!UICONTROL 模擬內容]** 按鈕，存取測試設定檔選取專案。
 
-   ![](assets/lp-simulate-content.png)
+   ![](assets/lp-simulate-content.png){zoomable=&quot;yes&quot;}
 
 1. 從 **[!UICONTROL 模擬]** 畫面，選取一或多個測試設定檔。
 
@@ -160,13 +163,13 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 1. 選取 **[!UICONTROL 開啟預覽]** 以測試您的登入頁面。
 
-   ![](assets/lp-open-preview.png)
+   ![](assets/lp-open-preview.png){zoomable=&quot;yes&quot;}
 
 1. 登入頁面的預覽會在新標籤中開啟。 個人化元素會由選取的測試設定檔資料取代。
 
    如果您已選取 **[!UICONTROL 使用表單中參照的資料預先填寫]** 選項時，表單欄位會自動預先填入對應的測試設定檔資料。<!--TBC-->
 
-   ![](assets/lp-preview.png)
+   ![](assets/lp-preview.png){zoomable=&quot;yes&quot;}
 
 1. 選取其他測試設定檔以預覽登陸頁面每個變體的呈現。
 
@@ -174,7 +177,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 ## 發佈登陸頁面 {#publish-landing-page}
 
-一旦您的登入頁面準備就緒後，請發佈該頁面，以使其可用於使用對應按鈕的傳送。
+在您的登入頁面準備就緒並完成驗證後，請發佈該頁面，以便使用對應按鈕將其用於傳送中。
 
 發佈後：
 
@@ -186,6 +189,6 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 >
 >若要完整測試或運用您的登入頁面，您無法直接複製此連結並貼至網頁瀏覽器或您的傳送中。 請改用 [模擬內容](#test-landing-page) 函式進行測試，並遵循中所述的步驟 [本節](lp-use-cases.md) 以正確使用您的登入頁面。
 
-![](assets/lp-published.png)
+![](assets/lp-published.png){zoomable=&quot;yes&quot;}
 
 您可以透過記錄檔監控登入頁面影響<!--and specific reports-->. 按一下 **[!UICONTROL 記錄檔]** 按鈕。

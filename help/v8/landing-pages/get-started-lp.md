@@ -3,11 +3,10 @@ audience: end-user
 title: 登陸頁面快速入門
 description: 瞭解Campaign網頁中的登入頁面
 feature: Landing Pages
-badge: label="限量版"
-source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 14%
+source-wordcount: '275'
+ht-degree: 13%
 
 ---
 
@@ -27,9 +26,9 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->您在Campaign網頁使用者介面中建立的登入頁面，與從使用者端主控台建立的網頁表單不同。 您無法在Campaign網路使用者介面中顯示或編輯網路表單。
+>您在Campaign網頁使用者介面中建立的登入頁面，與從使用者端主控台建立的網頁表單不同。 您無法在Campaign網頁使用者介面中顯示或編輯在使用者端主控台中建立的網頁表單。
 >
->進一步瞭解網路表單的 [Campaign主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>進一步瞭解網路表單的 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 登陸頁面主要功能列示如下：
 
