@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web使用者介面/使用者端主控台功能對照表
 description: Campaign Web使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
+source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 3%
+source-wordcount: '2151'
+ht-degree: 2%
 
 ---
 
@@ -77,7 +77,6 @@ Adobe Campaign可讓您建立、設計和共用登入頁面。 全新介面中�
 
 * 在電子郵件、簡訊和推播上的即時訊息製作和執行
 * 訊息擴充和個人化
-* 觸發程序 (Adobe Analytics 購物車捨棄)
 * 交易型訊息的報告和監視
 
 ## 內容設計 {#content-capabilities}
