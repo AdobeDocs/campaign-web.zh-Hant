@@ -2,11 +2,11 @@
 audience: end-user
 title: 使用查詢建模工具
 description: 瞭解如何使用Adobe Campaign Web查詢建模工具。
-badge: label="有限可用性"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
+source-git-commit: 4de9a8afea6a07971ebd23982a1a1ab98bc70045
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 39%
+source-wordcount: '551'
+ht-degree: 30%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 39%
 >title="查詢建模工具"
 >abstract="為收件者或資料庫中的任何其他目標定位維度定義篩選條件。利用 Adobe Experience Platform 對象，進一步縮小目標對象範圍並充分發揮行銷活動的影響力。"
 
-Adobe Campaign Web 具有查詢建模工具，可簡化篩選資料庫的流程，以根據各種不同的條件選取特定目標。這包括使用進階運算式和運運算元。
+Adobe Campaign Web使用者介面具有查詢建模工具，可簡化根據各種條件篩選資料庫的程式。 這可確保在使用者端主控台中建立的查詢完全相容，促進到Web使用者介面的無縫轉換。
+
+此外，查詢模型工具還能有效率地管理非常複雜和冗長的查詢，提供增強的彈性和精確度。 此外，它支援條件內的預先定義篩選器，使您可輕鬆調整查詢，同時利用進階運算式和運運算元實現全面的受眾目標定位和細分策略。
 
 ## 存取查詢模型工具
 
@@ -40,17 +42,17 @@ Adobe Campaign Web 具有查詢建模工具，可簡化篩選資料庫的流程�
 
 | 使用情況 | 範例 |
 |  ---  |  ---  |
-| **定義對象**：指定您要在訊息或工作流程中鎖定的母體，輕鬆建立因應您需求的新對象。 | ![](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
-| **自訂工作流程活動**：在工作流程活動中套用規則（例如分割與調解），以符合您的特定需求。 | ![](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
-| **預先定義的篩選器**：建立預先定義的篩選器，以做為各種篩選作業期間的捷徑，無論您是使用資料清單或形成傳送的對象。 | ![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
-| **篩選報表資料**：新增規則以篩選報表中顯示的資料。 | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
-| **自訂清單**：建立自訂規則，以篩選清單中顯示的資料，例如收件者、傳遞清單等。 | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **定義對象**：指定您要在訊息或工作流程中鎖定的母體，輕鬆建立因應您需求的新對象。 | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **自訂工作流程活動**：在工作流程活動中套用規則（例如分割與調解），以符合您的特定需求。 | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **預先定義的篩選器**：建立預先定義的篩選器，以做為各種篩選作業期間的捷徑，無論您是使用資料清單或形成傳送的對象。 | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **篩選報表資料**：新增規則以篩選報表中顯示的資料。 | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **自訂清單**：建立自訂規則，以篩選清單中顯示的資料，例如收件者、傳遞清單等。 | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
 
-![](assets/access-audience.png)
+![](assets/access-audience.png){zoomable="yes"}
 
  +++
 -->
@@ -59,7 +61,7 @@ Adobe Campaign Web 具有查詢建模工具，可簡化篩選資料庫的流程�
 
 查詢模型工具會提供一個中央畫布，您可在其中建立查詢，以及一個右窗格，提供查詢的相關資訊。
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){zoomable=&quot;yes&quot;}
 
 ### 中央畫布 {#canvas}
 
