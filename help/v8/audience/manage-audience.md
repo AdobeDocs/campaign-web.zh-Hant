@@ -2,11 +2,10 @@
 audience: end-user
 title: 監視和管理對象
 description: 瞭解如何在Adobe Campaign Web中監視和管理對象
-badge: label="有限可用性"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 26%
 
 ---
@@ -45,7 +44,7 @@ ht-degree: 26%
 
 Campaign網頁適用的對象清單可從 **[!UICONTROL 受眾]** 功能表。
 
-![](assets/audiences-list.png)
+![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
 
 對象可以源自多個來源。 此 **[!UICONTROL 來源]** 欄表示建立特定對象的位置：
 
@@ -63,6 +62,6 @@ Campaign網頁適用的對象清單可從 **[!UICONTROL 受眾]** 功能表。
 
 此 **[!UICONTROL 資料]** 索引標籤可讓您檢視屬於受眾的設定檔。 您可以新增更多欄或運用進階篩選器來調整顯示的資料，以自訂此檢視。
 
-![](assets/audiences-details.png)
+![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
 
 若要複製或刪除對象，請按一下 **[!UICONTROL 更多動作]** 「對象」清單中「對象名稱」旁或「對象詳細資料」畫面內的可用按鈕。

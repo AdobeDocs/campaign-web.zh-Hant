@@ -2,12 +2,11 @@
 audience: end-user
 title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
-badge: label="有限可用性"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 40%
+source-wordcount: '1541'
+ht-degree: 39%
 
 ---
 
@@ -56,7 +55,7 @@ ht-degree: 40%
   若要定義內容、個人化資料及新增動態內容，請按一下 **[!UICONTROL 訊息]** 欄位並使用運算式編輯器。 您可以存取此編輯器來自訂您的訊息。
 在 **[!UICONTROL 應用程式變數]** 選單中，您的應用程式變數會自動新增。 這些變數可讓您定義通知行為。 例如，您可以設定當使用者啟動通知時要顯示的特定應用程式畫面。
 
-  ![](assets/push_content_4.png)
+  ![](assets/push_content_4.png){zoomable=&quot;yes&quot;}
 
 * 此 **[!UICONTROL 通知訊息]**，會由FCM SDK自動處理。 FCM會自動代表使用者端應用程式在使用者裝置上顯示訊息。 通知訊息包含預先定義的一組引數和選項，但仍可使用自訂應用程式變數進一步個人化。
 
@@ -64,7 +63,7 @@ ht-degree: 40%
 
   若要進一步個人化您的推播通知，您可以選擇要新增至推播通知的影像，通知的圖示會顯示在您的設定檔的裝置上及其顏色。
 
-  ![](assets/push_content_3.png)
+  ![](assets/push_content_3.png){zoomable=&quot;yes&quot;}
 
 >[!TAB iOS]
 
@@ -74,7 +73,7 @@ ht-degree: 40%
 
 靜音推播模式允許將「靜音」通知傳送到行動應用程式。使用者不會發現有通知傳到。而是直接傳輸到應用程式。
 
-![](assets/push_content_1.png)
+![](assets/push_content_1.png){zoomable=&quot;yes&quot;}
 
 >[!ENDTABS]
 
@@ -127,7 +126,7 @@ ht-degree: 40%
 
 >[!TAB Android]
 
-![](assets/push_content_5.png)
+![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
 
 | 參數 | 說明 |
 |---------|---------|
@@ -143,7 +142,7 @@ ht-degree: 40%
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png)
+![](assets/push_content_2.png){zoomable=&quot;yes&quot;}
 
 | 參數 | 說明 |
 |---------|---------|

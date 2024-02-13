@@ -2,16 +2,15 @@
 audience: end-user
 title: 傳送推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送推播通知傳遞
-badge: label="有限可用性"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 1%
+source-wordcount: '396'
+ht-degree: 2%
 
 ---
 
-# 預覽和傳送推播傳遞 {#send-push-delivery}
+# 預覽並傳送推播傳遞 {#send-push-delivery}
 
 ## 預覽推播通知傳遞 {#preview-push}
 
@@ -21,17 +20,17 @@ ht-degree: 1%
 
 1. 從您的傳遞內容頁面，使用 **[!UICONTROL 模擬內容]** 以預覽您的個人化內容。
 
-   ![](assets/push_send_1.png)
+   ![](assets/push_send_1.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **[!UICONTROL 新增訂閱者]** 以選取一或多個設定檔，以便在推播通知內容中預覽其資料。
 
 
    <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png)-->
+    ![](assets/push_send_5.png){zoomable="yes"}-->
 
 1. 在右窗格中，您會找到推播通知的預覽，其中個人化元素會以所選設定檔的資料動態取代。
 
-   ![](assets/push_send_7.png)
+   ![](assets/push_send_7.png){zoomable=&quot;yes&quot;}
 
 您現在可以檢閱並傳送推播通知給對象。
 
@@ -42,19 +41,19 @@ ht-degree: 1%
 
 ![](../assets/do-not-localize/book.png) 瞭解如何在中傳送測試推播通知 [本節](../preview-test/test-deliveries.md#subscribers).
 
-![](assets/push_send_6.png)
+![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 
 ## 傳送推播通知傳遞 {#send-push}
 
 1. 個人化推播通知內容後，請按一下 **[!UICONTROL 檢閱並傳送]** 從您的 **[!UICONTROL 傳遞]** 頁面。
 
-   ![](assets/push_send_2.png)
+   ![](assets/push_send_2.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **[!UICONTROL 準備]** 並監視提供的進度和統計資料。
 
    如果發生任何錯誤，請參考記錄檔功能表以取得有關失敗的詳細資訊。
 
-   ![](assets/push_send_3.png)
+   ![](assets/push_send_3.png){zoomable=&quot;yes&quot;}
 
 1. 按一下以傳送訊息 **[!UICONTROL 傳送]** 以繼續進行最終的傳送程式。
 
@@ -62,7 +61,7 @@ ht-degree: 1%
 
    如果已排程推送傳送，請按一下 **[!UICONTROL 依排程傳送]** 按鈕。 進一步瞭解中的傳送排程 [本節](../msg/gs-messages.md#schedule-the-delivery-sending).
 
-   ![](assets/push_send_4.png)
+   ![](assets/push_send_4.png){zoomable=&quot;yes&quot;}
 
 傳送傳遞後，您可以從傳遞頁面追蹤KPI（關鍵績效指標）資料，並從 **[!UICONTROL 記錄檔]** 功能表。
 

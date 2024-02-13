@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
-badge: label="有限可用性"
-source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
+exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1960'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 
   *訂閱「運動」電子報的收件者&#x200B;**和**住在紐約的人&#x200B;**或**舊金山*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
 ## 新增篩選元件 {#filtering}
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 1. 在 **屬性** 欄位中，選取您要用來建立條件的資料庫屬性。 屬性清單包含Campaign資料庫中的所有屬性，包括連結表格的屬性。
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ ht-degree: 3%
 
    *傳回21歲或以上所有設定檔的查詢範例：*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
 
 #### 連結表格的自訂條件（1-1和1-N連結）{#links}
 
@@ -98,15 +98,15 @@ ht-degree: 3%
 
 1. 在 **品牌** 表格並選取 **標籤** 屬性。
 
-   ![](assets/1-1-attribute.png){width="85%" align="center"}
+   ![](assets/1-1-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. 定義屬性的預期值。
 
-   ![](assets/1-1-table.png){width="85%" align="center"}
+   ![](assets/1-1-table.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 以下是已直接選取表格連結的查詢範例。 必須從專用選擇器選取此資料表的可用值。
 
-![](assets/1-1-table-direct.png){width="85%" align="center"}
+![](assets/1-1-table-direct.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -118,19 +118,19 @@ ht-degree: 3%
 
 1. 選取 **購買** 表格並確認。
 
-   ![](assets/1-N-collection.png){width="50%" align="center"}
+   ![](assets/1-N-collection.png){zoomable=&quot;yes&quot;}{width="50%" align="center"}
 
 1. 會新增出站轉變，讓您建立子條件。
 
-   ![](assets/1-n-subcondition.png){width="85%" align="center"}
+   ![](assets/1-n-subcondition.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. 選取 **價格** 1000$或以上的屬性和目標購買
 
-   ![](assets/1-n-price.png){width="85%" align="center"}
+   ![](assets/1-n-price.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. 新增子條件以符合您的需求。 我們在此處新增條件，以定位購買BrewMaster產品的設定檔。
 
-   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
+   ![](assets/custom-condition-1-N.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -140,11 +140,11 @@ ht-degree: 3%
 
 1. 在所需的集合表格內導覽，並選取您要執行彙總作業的屬性。
 
-   ![](assets/aggregate-attribute.png){width="85%" align="center"}
+   ![](assets/aggregate-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. 在屬性窗格中，切換 **彙總資料** 選項並選取所需的彙總函式。
 
-   ![](assets/aggregate.png){width="85%" align="center"}
+   ![](assets/aggregate.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 ### 選取對象 {#audiences}
 
@@ -161,7 +161,7 @@ ht-degree: 3%
 
    *傳回屬於「節日活動者」受眾的所有設定檔的查詢範例：*
 
-   ![](assets/query-audience.png)
+   ![](assets/query-audience.png){zoomable=&quot;yes&quot;}
 
 ### 使用預先定義的篩選器 {#predefined-filters}
 
@@ -178,7 +178,7 @@ ht-degree: 3%
 
    *查詢範例傳回與「非作用中客戶」預先定義篩選器對應的所有設定檔：*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){zoomable=&quot;yes&quot;}
 
 ### 複製貼上元件 {#copy}
 
@@ -196,11 +196,11 @@ ht-degree: 3%
 
    | 複製單一元件 | 複製多個元件 |
    |  ---  |  ---  |
-   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+   | ![](assets/copy-single-component.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 1. 若要貼上元件，請按一下所需轉變結尾的+按鈕，然後選取 **貼上專案**.
 
-   ![](assets/copy-paste.png)
+   ![](assets/copy-paste.png){zoomable=&quot;yes&quot;}
 
 ## 將篩選元件與運算子結合 {#operators}
 
@@ -213,7 +213,7 @@ ht-degree: 3%
 
 在此範例中，我們在第二個轉變中新增了對象型別的篩選元件。 元件會連結至預先定義的篩選型別條件，並具有 **和** 運運算元，表示查詢結果包含以「Madridians」預先定義篩選器為目標的收件者，以及屬於「折扣獵手」對象的收件者。
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 
 若要變更用來將篩選條件連結在一起的運運算元，請按一下運運算元，然後在 **群組** 在右側開啟的窗格。
 
@@ -223,13 +223,13 @@ ht-degree: 3%
 * **OR （聯集）**：包含符合出站轉變中至少一個篩選元件的結果。
 * **排除（排除）**：排除符合出站轉變中所有篩選元件的結果。
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){zoomable=&quot;yes&quot;}
 
 此外，您可以按一下 **+** 按鈕來切換內容。 這可讓您在此特定位置新增運運算元，以將多個元件分組在一起，並調整查詢。
 
 在以下範例中，我們已建立中繼群組以包含「VIP to reward」或「Super VIP」受眾的結果。
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){zoomable=&quot;yes&quot;}
 
 ## 檢查並驗證您的查詢
 
@@ -253,4 +253,4 @@ ht-degree: 3%
 
 您可以隨時透過開啟查詢來修改查詢。 請記住，開啟現有查詢時，它會以簡化檢視顯示，而不會顯示  **+** 按鈕。 若要新增元素至查詢，請在畫布上選取元件或運運算元以顯示 **+** 按鈕。
 
-![](assets/edit-audience.png)
+![](assets/edit-audience.png){zoomable=&quot;yes&quot;}

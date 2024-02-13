@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 4%
 
 ---
@@ -35,13 +35,13 @@ ht-degree: 4%
 
 1. 選取 **[!UICONTROL 文字元件]** 您要更新並存取體驗產生功能表。
 
-   ![](assets/text-genai-1.png)
+   ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. 描述您要產生的內容，以微調內容。
 
    啟用 **[!UICONTROL 使用目前內容增強]** 「內容助理」的選項，用來根據您的傳遞、傳遞名稱和選取的對象來個人化新內容。
 
-   ![](assets/text-genai-3.png)
+   ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. 選取 **[!UICONTROL 上傳檔案]** 新增任何品牌資產，其中包含可在「內容助理」中提供額外內容的內容。
 
@@ -51,7 +51,7 @@ ht-degree: 4%
 
 1. 選擇 **[!UICONTROL 語言]** 和 **[!UICONTROL 色調]** 您想要產生的文字所具有的屬性。 這將確保文字適合您的對象和目的。
 
-   ![](assets/text-genai-4.png)
+   ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. 使用滑桿控制項來設定產生文字的長度。
 
@@ -59,14 +59,14 @@ ht-degree: 4%
 
 1. 瀏覽產生的專案 **[!UICONTROL 變數]** 並按一下 **[!UICONTROL 套用]** 找到適當的內容之後。
 
-   ![](assets/text-genai-5.png)
+   ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. 插入個人化欄位，以根據設定檔資料自訂您的電子郵件內容。 [進一步了解內容個人化](../personalization/personalize.md)
 
-   ![](assets/text-genai-6.png)
+   ![](assets/text-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. 定義訊息內容後，按一下 **[!UICONTROL 模擬內容]** 按鈕來控制呈現，並使用測試設定檔檢查個人化設定。 [了解更多](../preview-test/preview-content.md)
 
-   ![](assets/text-genai-7.png)
+   ![](assets/text-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. 當您定義內容、對象和排程時，就能準備電子郵件傳送。 [了解更多](../monitor/prepare-send.md)

@@ -2,12 +2,11 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 瞭解如何使用Adobe Campaign Web建立工作流程
-badge: label="有限可用性"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: c18f73c08d0cc2590c1c59f05a710a1f25db040e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 26%
+source-wordcount: '802'
+ht-degree: 25%
 
 ---
 
@@ -33,7 +32,7 @@ ht-degree: 26%
 
 1. 按一下 **[!UICONTROL 建立工作流程]** 按鈕。
 
-   ![](assets/workflow-create.png)
+   ![](assets/workflow-create.png){zoomable=&quot;yes&quot;}
 
 1. 在工作流程中 **屬性** 對話方塊中，選取要用來建立工作流程的範本（您也可以使用預設的內建範本）。 [進一步瞭解工作流程範本](#workflow-templates).
 
@@ -41,7 +40,7 @@ ht-degree: 26%
 
 1. 展開 **[!UICONTROL 其他選項]** 區段來設定工作流程的更多設定。 瞭解如何在中設定工作流程屬性 [此頁面](workflow-settings.md#properties)
 
-   ![](assets/workflow-additional-options.png)
+   ![](assets/workflow-additional-options.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **[!UICONTROL 建立工作流程]** 按鈕以確認建立工作流程。
 
@@ -72,14 +71,14 @@ ht-degree: 26%
 1. 開啟至 **工作流程** 選單並瀏覽至工作流程以另存為範本。
 1. 按一下工作流程名稱右側的三個點，然後選擇 **復製為範本**.
 
-   ![](assets/wf-copy-as-template.png)
+   ![](assets/wf-copy-as-template.png){zoomable=&quot;yes&quot;}
 
 1. 在快顯視窗中，確認範本建立。
 1. 在工作流程範本畫布中，視需要檢查、新增及設定活動。
 1. 瀏覽至設定，從 **設定** 按鈕，以變更工作流程範本的名稱，並輸入說明。
 1. 選取 **資料夾** 和 **執行資料夾** 範本的。 資料夾是工作流程範本的儲存位置。 執行資料夾是儲存根據此範本建立的工作流程的資料夾。
 
-   ![](assets/wf-settings-template.png)
+   ![](assets/wf-settings-template.png){zoomable=&quot;yes&quot;}
 
    其他屬性與工作流程相同。 在[本頁](workflow-settings.md#properties)中了解更多
 
@@ -98,14 +97,14 @@ ht-degree: 26%
 1. 輸入標籤並開啟其他選項，以輸入工作流程範本的說明。
 1. 選取範本的資料夾和執行資料夾。 資料夾是工作流程範本的儲存位置。 執行資料夾是儲存根據此範本建立的工作流程的資料夾。
 
-   ![](assets/new-wf-template.png)
+   ![](assets/new-wf-template.png){zoomable=&quot;yes&quot;}
 
    其他屬性與工作流程相同。 在[本頁](workflow-settings.md#properties)中了解更多
 
 1. 按一下 **建立** 按鈕以確認您的設定。
 1. 在工作流程範本畫布中，視需要新增並設定活動。
 
-   ![](assets/wf-template-activities.png)
+   ![](assets/wf-template-activities.png){zoomable=&quot;yes&quot;}
 
 1. 儲存您的變更。
 

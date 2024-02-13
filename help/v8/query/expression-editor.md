@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
-badge: label="有限可用性"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2014'
 ht-degree: 55%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 55%
 
 | 從存取 **屬性** 欄位 | 從存取 **值** 欄位 |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 運算式編輯器提供：
 
@@ -34,13 +34,13 @@ ht-degree: 55%
 
 直接在輸入欄位中輸入運算式以編輯運算式。 若要新增欄位或協助程式函式，請將游標置於要新增的運算式中，然後按一下+按鈕。
 
-![](assets/expression-editor.png)
+![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
 
 當運算式準備就緒時，按一下 **[!UICONTROL 確認]** 按鈕。 運算式會顯示在選取的欄位中。 若要編輯，請開啟運算式編輯器並進行所需的變更。
 
 以下範例顯示針對下列專案設定的運算式： **[!UICONTROL 值]** 欄位。 若要編輯它，您需要使用開啟運算式編輯器 **[!UICONTROL 編輯運算式]** 按鈕。
 
-![](assets/edit-expression-value.png)
+![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
 
 ## 協助程式功能
 

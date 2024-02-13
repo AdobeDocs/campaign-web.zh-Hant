@@ -2,12 +2,11 @@
 audience: end-user
 title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
-badge: label="有限可用性"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 32%
+source-wordcount: '714'
+ht-degree: 31%
 
 ---
 
@@ -37,7 +36,7 @@ ht-degree: 32%
 
 1. 按一下「**[!UICONTROL 建立傳遞]**」按鈕以確認。
 
-   ![](assets/push_create_1.png)
+   ![](assets/push_create_1.png){zoomable=&quot;yes&quot;}
 
 ## 設定傳送設定 {#configure-push-settings}
 
@@ -69,7 +68,7 @@ ht-degree: 32%
 
 1. 從 **[!UICONTROL 對象]** 區段，選取您要用於此傳遞的應用程式。 根據預設，推播通知會傳送給應用程式的所有訂閱者。您可以按一下 **[!UICONTROL 選取對象]** 按鈕。
 
-   ![](assets/push_create_2.png)
+   ![](assets/push_create_2.png){zoomable=&quot;yes&quot;}
 
 1. 選取現有對象，或建立自己的對象，以調整推播傳送的目標母體。 對於推播通知，預設值為 [目標維度](../audience/about-recipients.md#targeting-dimensions) 是 **訂閱者應用程式** (nms：appSubscriptionRcp)，連結至收件者表格。
 
@@ -83,7 +82,7 @@ ht-degree: 32%
 
 若要定義通知的內容，請按一下 **[!UICONTROL 編輯內容]**. [了解更多](content-push.md)
 
-![](assets/push_create_5.png)
+![](assets/push_create_5.png){zoomable=&quot;yes&quot;}
 
 在此畫面中，您也可以 [模擬您的內容](../preview-test/preview-test.md) 和 [設定優惠方案](../msg/offers.md).
 
@@ -101,7 +100,7 @@ ht-degree: 32%
 
 當您啟動傳遞後，訊息會在您為收件者定義的確切日期和時間自動傳送。
 
-![](assets/push_create_3.png)
+![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
 
 進一步瞭解中的傳送排程 [本節](../msg/gs-messages.md#gs-schedule)
 
@@ -109,4 +108,4 @@ ht-degree: 32%
 
 按一下 **[!UICONTROL 設定傳遞設定]** 以存取與傳送範本相關的進階選項。 [了解更多](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png)
+![](assets/push_create_4.png){zoomable=&quot;yes&quot;}

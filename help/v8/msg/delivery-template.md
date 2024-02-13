@@ -5,12 +5,11 @@ description: 瞭解如何在Campaign網頁中建立和使用傳遞範本
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="有限可用性"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 25%
+source-wordcount: '1109'
+ht-degree: 24%
 
 ---
 
@@ -49,24 +48,24 @@ ht-degree: 25%
 
 若要存取內容範本清單，請選取 **[!UICONTROL Campaign Management]** > **[!UICONTROL 傳遞]** 從左側功能表，並瀏覽至 **範本** 標籤。
 
-![](assets/templates-tab.png)
+![](assets/templates-tab.png){zoomable=&quot;yes&quot;}
 
 所有符合以下條件的範本： [已建立](#create-a-delivery-template) 隨即顯示。
 
 您可以在頻道和資料夾上篩選內容範本。 您也可以使用傳遞屬性建置規則，以設定進階篩選器。 [進一步瞭解查詢模型工具](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png)
+![](assets/templates-filters.png){zoomable=&quot;yes&quot;}
 
 若要編輯範本，請從清單中按一下所需的專案。 從那裡：
 
 * 您可以修改其內容、屬性、對象及附加至該對象的任何選件。
 * 您也可以測試範本。 [了解更多](#test-template)
 
-![](assets/templates-edition.png)
+![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
 
 若要刪除或 [重複](#copy-an-existing-template) 範本，從範本中選取對應的動作 **[!UICONTROL 更多動作]** 功能表，從 **[!UICONTROL 範本]** 清單或範本版本畫面。
 
-![](assets/templates-more-actions.png)
+![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -97,15 +96,15 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 1. 確認複製。
 
-   ![](assets/templates-duplicate-confirm.png)
+   ![](assets/templates-duplicate-confirm.png){zoomable=&quot;yes&quot;}
 
 1. 新範本控制面板會在中央畫面中開啟。 視需要編輯範本設定。
 
-   ![](assets/templates-duplicated-item.png)
+   ![](assets/templates-duplicated-item.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **[!UICONTROL 檢閱]** 按鈕以儲存並檢閱您的範本。 您仍然可以編輯其所有設定、刪除及複製它。
 
-   ![](assets/templates-review-screen.png)
+   ![](assets/templates-review-screen.png){zoomable=&quot;yes&quot;}
 
 1. 視需要測試範本呈現。 [了解更多](#test-template)
 
@@ -120,7 +119,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 1. 瀏覽至 **[!UICONTROL 行銷活動管理]** > **[!UICONTROL 傳遞]** 功能表。
 1. 從 **[!UICONTROL 瀏覽]** 索引標籤，按一下 **[!UICONTROL 更多動作]** 按鈕，然後選取「 」 **[!UICONTROL 復製為範本]**.
 
-   ![](assets/templates-convert-delivery.png)
+   ![](assets/templates-convert-delivery.png){zoomable=&quot;yes&quot;}
 
    您也可以從清單中選取範本，然後從範本版本畫面中選取此選項。
 
@@ -145,12 +144,12 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 1. 瀏覽至 **範本** 標籤，從 **傳遞** 左側功能表。 [了解更多](#access-manage-templates)
 1. 按一下 **[!UICONTROL 建立範本]** 按鈕。
 
-   ![](assets/templates-create-button.png)
+   ![](assets/templates-create-button.png){zoomable=&quot;yes&quot;}
 
 1. 選取您要用於範本的管道。
 1. 預設會使用該管道的內建傳遞範本，協助您建立自己的範本。 使用所選管道右側的專用按鈕，根據需要選擇另一個範本。
 
-   ![](assets/templates-channel-browse.png)
+   ![](assets/templates-channel-browse.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **[!UICONTROL 建立範本]** 按鈕來重新命名。
 
@@ -180,7 +179,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 1. 按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
-   ![](assets/templates-simulate-button.png)
+   ![](assets/templates-simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. 選取一或多個測試設定檔，以檢查您的電子郵件呈現。 您也可以從資料庫中選取真正的設定檔。 [進一步瞭解測試設定檔](../audience/test-profiles.md)
 
@@ -188,7 +187,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 [進一步瞭解預覽內容](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png)
+   ![](assets/templates-stimulate.png){zoomable=&quot;yes&quot;}
 
 1. 關閉視窗以返回範本版本畫面。
 

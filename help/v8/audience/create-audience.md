@@ -2,12 +2,11 @@
 audience: end-user
 title: 建立對象
 description: 瞭解如何在Adobe Campaign Web中建立對象
-badge: label="有限可用性"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 22%
+source-wordcount: '902'
+ht-degree: 21%
 
 ---
 
@@ -55,7 +54,7 @@ Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從�
 
    * 「新受眾」 **[!UICONTROL 儲存對象]** 活動代表工作流程的最後一步，可讓您將結果儲存為新對象。
 
-   ![](assets/create-audience-blank.png)
+   ![](assets/create-audience-blank.png){zoomable=&quot;yes&quot;}
 
    >[!IMPORTANT]
    >
@@ -71,7 +70,7 @@ Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從�
    >
    >管道活動不適用於對象工作流程。
 
-   ![](assets/audience-creation-canvas.png)
+   ![](assets/audience-creation-canvas.png){zoomable=&quot;yes&quot;}
 
 1. 設定 **[!UICONTROL 儲存對象]** 活動，指定您想要如何儲存工作流程中上游運算的母體。 [瞭解如何設定「儲存對象」活動](../workflows/activities/save-audience.md)
 
@@ -85,7 +84,7 @@ Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從�
 
 以下範例顯示一個受眾工作流程，其設定是針對住在紐約的女客戶，並根據她們的最新購買專案（瑜伽或奔跑裝備）建立兩個新受眾。
 
-![](assets/audiences-example.png)
+![](assets/audiences-example.png){zoomable=&quot;yes&quot;}
 
 1. 此 **[!UICONTROL 建立對象]** 活動目標是住在紐約的所有女性設定檔。
 1. 此 **[!UICONTROL 擴充]** 活動可透過「購買」表格中的資訊來識別客戶購買的產品型別，藉此豐富受眾。
@@ -104,4 +103,4 @@ Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從�
 
 如果您不想取代現有的對象結果，請設定 **儲存對象** 活動以符合您的需求。 例如，您可以變更 **對象標籤** 欄位以將新結果儲存至新受眾，或將新結果新增至現有受眾內容而不清除先前的資料。 [瞭解如何設定「儲存對象」活動](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png)
+![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}

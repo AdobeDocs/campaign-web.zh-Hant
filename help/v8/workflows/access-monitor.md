@@ -2,12 +2,11 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
-badge: label="有限可用性"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 28%
 
 此 **[!UICONTROL 工作流程]** 功能表可讓您存取工作流程的完整清單。 此清單包含兩者 **獨立工作流程** 已由此畫面建立的URL清單，以及 **行銷活動工作流程**，這些已在行銷活動中建立。
 
-![](assets/workflow-list.png)
+![](assets/workflow-list.png){zoomable=&quot;yes&quot;}
 
 清單中的每個工作流程都會顯示其目前的相關資訊 [狀態](#status)、上次執行或修改的時間，以及下一個排程的執行日期和時間。
 

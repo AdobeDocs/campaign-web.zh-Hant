@@ -2,12 +2,11 @@
 audience: end-user
 title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
-badge: label="有限可用性"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 45%
+source-wordcount: '514'
+ht-degree: 44%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 45%
 
 此 **[!UICONTROL 傳遞概覽]** 報告提供關鍵績效指標(KPI)，以提供有關成功和錯誤率，以及訪客如何與您的SMS訊息互動的詳細資訊。
 
-![](assets/reporting_sms_3.png)
+![](assets/reporting_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解SMS傳送報告量度。
 
@@ -54,7 +53,7 @@ ht-degree: 45%
 
 此 **目標母體** 圖表和表格會顯示與您的對象相關的資料。 量度詳情如下。
 
-![](assets/reporting_sms_4.png)
+![](assets/reporting_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解SMS傳送報告量度。
 
@@ -73,7 +72,7 @@ ht-degree: 45%
 
 此 **整體統計資料** 報表會顯示已傳送SMS訊息的資料。 量度詳情如下。
 
-![](assets/reporting_sms_5.png)
+![](assets/reporting_sms_5.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解SMS傳送報告量度。
 
@@ -93,7 +92,7 @@ ht-degree: 45%
 
 此 **[!UICONTROL 排除專案]** 圖形和表格會顯示使用者設定檔（從目標設定檔排除）無法接收訊息的原因。 有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png){zoomable=&quot;yes&quot;}
 
 ## 傳遞總處理能力 {#delivery-throughput}
 
@@ -104,4 +103,4 @@ ht-degree: 45%
 
 此報表提供指定時間範圍內傳送輸送量的詳細資訊。 用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。
 
-![](assets/reporting_sms_2.png)
+![](assets/reporting_sms_2.png){zoomable=&quot;yes&quot;}

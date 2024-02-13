@@ -2,11 +2,10 @@
 audience: end-user
 title: 設定工作流程設定
 description: 瞭解如何使用Adobe Campaign Web進行工作流程設定
-badge: label="有限可用性"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '959'
 ht-degree: 23%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 23%
 
 若要這麼做，請按一下 **[!UICONTROL 設定]** 按鈕在工作流程畫布上方的動作列中。
 
-![](assets/workflow-settings-button.png){width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## 工作流程屬性 {#properties}
 
@@ -31,7 +30,7 @@ ht-degree: 23%
 
 此 **[!UICONTROL 屬性]** 區段提供一般設定，當您建立工作流程時也可以存取這些設定。
 
-![](assets/workflow-settings.png){width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 
 這些屬性包括：

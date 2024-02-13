@@ -2,11 +2,11 @@
 audience: end-user
 title: 推播通道的全域報表
 description: 瞭解推播通道的全域報表
-badge: label="有限可用性"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 26%
+source-wordcount: '554'
+ht-degree: 25%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 26%
 
 此 **[!UICONTROL 傳遞概覽]** 報告提供關鍵績效指標(KPI)，用於提供關於訪客如何參與每個推播通知傳送的詳細資訊。 量度詳情如下。
 
-![](assets/global_report_push_delivery_overview.png)
+![](assets/global_report_push_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解傳送概述量度。
 
@@ -50,7 +50,7 @@ ht-degree: 26%
 
 此 **[!UICONTROL 目標對象]** 表格和圖表會顯示每個已傳送推播通知傳遞的收件者相關資料。 量度詳情如下。
 
-![](assets/global_report_push_targeted_audience.png)
+![](assets/global_report_push_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++深入瞭解鎖定目標對象量度。
 
@@ -71,7 +71,7 @@ ht-degree: 26%
 
 此 **[!UICONTROL 傳遞統計資料]** 表格詳細說明每個推播通知傳送的成功情況。 量度詳情如下。
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解傳遞統計量度。
 
@@ -105,7 +105,6 @@ ht-degree: 26%
 >title="傳遞輸送量報告"
 >abstract="**傳遞輸送量**&#x200B;報告提供有關特定期間內整個平台推播通知傳遞輸送量的詳細資訊。"
 
-![](assets/global_report_push_delivery_throughput.png)
+![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 此 **[!UICONTROL 傳遞總處理能力]** 報表提供推播通知傳送系統有效性的全面深入分析，提供指定期間成功和錯誤率的詳細摘要。
-

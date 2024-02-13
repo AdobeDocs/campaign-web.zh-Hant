@@ -1,12 +1,11 @@
 ---
 title: 連線至 Adobe Campaign Web 介面
 description: 了解如何連線至 Adobe Campaign Web 使用者介面
-badge: label="限量版"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 96%
+source-wordcount: '581'
+ht-degree: 95%
 
 ---
 
@@ -26,11 +25,11 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
    登入 Experience Cloud 後，您可以快速存取所有解決方案和應用程式。
 
-   ![](assets/exc-home.png)
+   ![](assets/exc-home.png){zoomable=&quot;yes&quot;}
 
 1. 確認您所在的組織正確無誤。
 
-   ![](assets/exc-orgs.png){width="50%" align="left"}
+   ![](assets/exc-orgs.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
    了解更多有關 Adobe Experience Cloud 中組織的詳細資訊，請參閱[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant){target="_blank"}。
 
@@ -41,11 +40,11 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
 如果您已經連線到另一個 Adobe Experience Cloud 解決方案，您還可以從螢幕右上角的解決方案切換器瀏覽至您的 Campaign 環境。
 
-![](assets/solution-switcher.png)
+![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
 
 如果您擁有存取多個環境的權限，包括 Campaign 控制面板，請按一下正確執行個體的「**啟動**」按鈕。
 
-![](assets/launch-campaign.png)
+![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
 
 您現在已連接到 Campaign。如需了解如何開始使用使用者介面，請參閱[此頁面](user-interface.md)。
 
@@ -60,7 +59,7 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 * 查看您的產品通知
 * 編輯您的 Adobe 設定檔及管理設定，例如[更新您喜愛的語言](#language-pref)或[切換到淺色/深色主題](#dark-theme)
 
-![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
 ## 支援的瀏覽器 {#browsers}
 

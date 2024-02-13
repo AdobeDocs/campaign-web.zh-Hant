@@ -2,12 +2,11 @@
 audience: end-user
 title: 管理訂閱者
 description: 瞭解如何在Adobe Campaign Web中管理服務並交付給訂閱者
-badge: label="有限可用性"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 1%
+source-wordcount: '316'
+ht-degree: 0%
 
 ---
 
@@ -25,15 +24,15 @@ ht-degree: 1%
 
 1. 前往 **[!UICONTROL 訂閱者]** 標籤並按一下 **[!UICONTROL 新增訂閱者]**.
 
-   ![](assets/service-subscribers-tab.png)
+   ![](assets/service-subscribers-tab.png){zoomable=&quot;yes&quot;}
 
 1. 從清單中選取您要新增的設定檔，然後按一下 **[!UICONTROL 確認]**.
 
-   ![](assets/service-subscribers-select-profiles.png)
+   ![](assets/service-subscribers-select-profiles.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **[!UICONTROL 傳送]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> 讓選取的收件者接收訂閱 [確認訊息](manage-services.md#create-confirmation-message) 您定義於 [建立服務](manage-services.md#create-service).
 
-   ![](assets/service-subscribers-confirmation-msg.png)
+   ![](assets/service-subscribers-confirmation-msg.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -51,13 +50,13 @@ ht-degree: 1%
 
 1. 按一下所需收件者名稱旁的三點圖示，然後選取 **[!UICONTROL 刪除]**.
 
-   ![](assets/service-subscribers-delete.png)
+   ![](assets/service-subscribers-delete.png){zoomable=&quot;yes&quot;}
 
 1. 確認刪除。
 
 1. 按一下 **[!UICONTROL 傳送]** 讓選取的收件者收到取消訂閱 [確認訊息](manage-services.md#create-confirmation-message) 您定義於 [建立服務](manage-services.md#create-service).
 
-   ![](assets/service-subscribers-delete-confirmation.png)
+   ![](assets/service-subscribers-delete-confirmation.png){zoomable=&quot;yes&quot;}
 
 收件者會從 **[!UICONTROL 訂閱者]** 索引標籤上，並已不再訂閱您的服務。
 
@@ -67,6 +66,6 @@ ht-degree: 1%
 
 指定此期間的條件為 [建立服務](manage-services.md#create-service). 從 **[!UICONTROL 其他選項]**，停用 **[!UICONTROL 有效期無限制]** 選項並定義服務的有效期。
 
-![](assets/service-create-validity-period.png)
+![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
 
 指定的期間過期後，所有訂閱者都會自動取消訂閱該服務。

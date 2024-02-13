@@ -2,11 +2,11 @@
 audience: end-user
 title: 電子郵件通道的全域報告
 description: 進一步瞭解電子郵件通道的全域報告
-badge: label="有限可用性"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1594'
-ht-degree: 25%
+source-wordcount: '1618'
+ht-degree: 24%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 傳遞概覽]** 提供關鍵績效量度(KPI)，提供訪客與每個電子郵件傳送互動的深入分析。 量度概述如下。
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++進一步瞭解傳送概述量度。
 
@@ -53,7 +53,7 @@ ht-degree: 25%
 
 的表格和圖表 **[!UICONTROL 目標對象]** 顯示與收件者相關的資料，下文提供詳細量度。
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++深入瞭解鎖定目標對象量度。
 
@@ -74,7 +74,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 傳遞統計資料]** 表格提供每個電子郵件傳送成功的明細，明細量度概述如下。
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++進一步瞭解傳遞統計量度。
 
@@ -95,7 +95,7 @@ ht-degree: 25%
 >title="排除的原因"
 >abstract="**排除的原因**&#x200B;圖表和表格說明了傳遞準備期間郵件遭拒的具體原因，並按規則提供了詳細的劃分。"
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 排除專案圖表和表格說明了從目標設定檔排除的使用者設定檔無法接收訊息的原因。
 
@@ -108,7 +108,7 @@ ht-degree: 25%
 >title="傳遞總處理能力"
 >abstract="此&#x200B;**傳遞總輸送量**&#x200B;提供對傳遞總輸送量的全面洞察，突顯指定時間範圍內的成功率和錯誤率。"
 
-![](assets/global_report_email_delivery_throughput.png){align="center"}
+![](assets/global_report_email_delivery_throughput.png){zoomable=&quot;yes&quot;}{align="center"}
 
 「傳送輸送量」報表提供傳送流程效率的深入分析，詳細說明指定時間範圍內的成功和錯誤率。
 
@@ -129,7 +129,7 @@ ht-degree: 25%
 >title="依類型的錯誤劃分"
 >abstract="詳細說明&#x200B;**依類型的錯誤劃分**&#x200B;的表格和圖表包含有關在此過程中遇到的各種錯誤類型的資訊，包括使用者未知、郵箱已滿、無效的網域等。"
 
-![](assets/global_report_email_breakdown_type.png){align="center"}
+![](assets/global_report_email_breakdown_type.png){zoomable=&quot;yes&quot;}{align="center"}
 
 此 **[!UICONTROL 每種型別的錯誤劃分]** 表格和圖表會顯示與不同網域中遇到的潛在錯誤相關的資料，下文提供特定量度。
 
@@ -160,7 +160,7 @@ ht-degree: 25%
 >title="依網域的錯誤劃分"
 >abstract="說明&#x200B;**依網域的錯誤劃分**&#x200B;的表格和圖表顯示了與遇到的每種錯誤類型相對應的資料，並按特定網域進行分類。"
 
-![](assets/global_report_email_breakdown_domain.png){align="center"}
+![](assets/global_report_email_breakdown_domain.png){zoomable=&quot;yes&quot;}{align="center"}
 
 此 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖表會顯示與每個網域中潛在錯誤相關的資料。 量度與以下專案通用 **[!UICONTROL 每種型別的錯誤劃分]** 表格和圖表詳見上文。
 
@@ -175,7 +175,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 傳遞統計資料]** 量度提供關鍵績效指標(KPI)，提供關於每個電子郵件傳送之相關資料的詳細資訊。 這些量度的進一步詳細資訊如下。
 
-![](assets/global_report_email_delivery_statistics_tracking.png){align="center"}
+![](assets/global_report_email_delivery_statistics_tracking.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++進一步瞭解傳遞統計量度。
 
@@ -203,7 +203,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 開啟及點進率]** 表格會顯示與收件者相關的資料。 量度詳情如下。
 
-![](assets/global_report_email_opens.png){align="center"}
+![](assets/global_report_email_opens.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++進一步瞭解「開啟」和「點進」比率量度。
 
@@ -229,7 +229,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL URL和點按流量]** 報告提供關鍵績效指標(KPI)，用於針對傳送期間收到最多點按次數的URL提供詳細分析。 量度詳情如下。
 
-![](assets/campaign_report_email_9.png){align="center"}
+![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++進一步瞭解URL和點選串流量度。
 
@@ -251,7 +251,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 前10個最常造訪的連結]** 圖表和表格包含每個連結的收件者行為可用資料。 量度詳情如下。
 
-![](assets/global_report_email_top10.png){align="center"}
+![](assets/global_report_email_top10.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++進一步瞭解前10個最常造訪的連結量度。
 
@@ -270,7 +270,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 一段時間內點按的劃分]** 圖表包含每個連結的收件者行為可用資料。
 
-![](assets/global_report_email_breakdown_clicks.png){align="center"}
+![](assets/global_report_email_breakdown_clicks.png){zoomable=&quot;yes&quot;}{align="center"}
 
 ## 使用者活動 {#user-activities-email}
 
@@ -281,7 +281,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 使用者活動]** 報告會以圖表形式顯示開啟和點按的劃分。 此報表的量度詳情如下。
 
-![](assets/global_report_email_user.png){align="center"}
+![](assets/global_report_email_user.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++進一步瞭解使用者活動量度。
 

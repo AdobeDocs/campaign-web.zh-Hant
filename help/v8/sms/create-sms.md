@@ -2,12 +2,11 @@
 audience: end-user
 title: 建立簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
-badge: label="有限可用性"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 45%
+source-wordcount: '506'
+ht-degree: 44%
 
 ---
 
@@ -42,7 +41,7 @@ ht-degree: 45%
 
 1. 按一下「**[!UICONTROL 建立傳遞]**」按鈕以確認。
 
-   ![](assets/sms_create_1.png)
+   ![](assets/sms_create_1.png){zoomable=&quot;yes&quot;}
 
 1. 輸入 **[!UICONTROL 標籤]** 傳送並存取 **[!UICONTROL 其他選項]** 下拉式清單。 如果您的傳送是以延伸結構描述為基礎，請指定 **自訂選項** 欄位可供使用。
 
@@ -56,7 +55,7 @@ ht-degree: 45%
 
 1. 按一下「**[!UICONTROL 選取對象]**」按鈕，以鎖定現有對象或建立您自己的對象。[深入瞭解對象](../audience/about-recipients.md).
 
-   ![](assets/sms_create_2.png)
+   ![](assets/sms_create_2.png){zoomable=&quot;yes&quot;}
 
    瞭解如何在中選取現有對象 [此頁面](../audience/add-audience.md)
 
@@ -66,7 +65,7 @@ ht-degree: 45%
 
 1. 按一下 **[!UICONTROL 編輯內容]** 開始設計簡訊的內容。 [了解更多](content-sms.md)
 
-   ![](assets/sms_create_4.png)
+   ![](assets/sms_create_4.png){zoomable=&quot;yes&quot;}
 
    在此畫面中，您也可以 [模擬您的內容](../preview-test/preview-test.md) 和 [設定優惠方案](../msg/offers.md).
 
@@ -78,4 +77,4 @@ ht-degree: 45%
 
 1. 按一下 **[!UICONTROL 設定]** 以存取與傳送範本相關的進階選項。 [了解更多](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png)
+   ![](assets/sms_create_3.png){zoomable=&quot;yes&quot;}

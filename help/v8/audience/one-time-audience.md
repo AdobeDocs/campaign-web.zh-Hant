@@ -2,12 +2,11 @@
 audience: end-user
 title: 建立傳遞的一次性對象
 description: 瞭解如何建立傳遞的一次性對象。
-badge: label="有限可用性"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 30%
+source-wordcount: '230'
+ht-degree: 29%
 
 ---
 
@@ -26,11 +25,11 @@ ht-degree: 30%
 
 1. 從傳遞建立助理的「**對象**」區段，按一下「**[!UICONTROL 選取對象]**」按鈕。
 
-   ![](assets/segment-builder0.png)
+   ![](assets/segment-builder0.png){zoomable=&quot;yes&quot;}
 
 1. 選取「**建立您自己的**」。此時會顯示查詢建模器。 它可讓您透過篩選資料庫中包含的資料，定義傳送所定位的母體。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
 
-   ![](assets/query-modeler.png)
+   ![](assets/query-modeler.png){zoomable=&quot;yes&quot;}
 
 1. 查詢準備就緒後，按一下 **確認** 使用對象作為傳送的主要目標。
 

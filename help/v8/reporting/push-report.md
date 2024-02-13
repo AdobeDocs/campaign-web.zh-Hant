@@ -2,12 +2,11 @@
 audience: end-user
 title: 推播傳遞報告
 description: 瞭解如何存取及使用推播傳遞報告
-badge: label="有限可用性"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: 9d3485293a6576e87e03d8691c403fcaeafbbeb1
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 38%
+source-wordcount: '486'
+ht-degree: 37%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 38%
 
 此 **[!UICONTROL 傳遞概覽]** 報表提供關鍵績效指標(KPI)，用於提供有關訪客如何與您的推送訊息互動的詳細資訊。
 
-![](assets/reporting_push_3.png)
+![](assets/reporting_push_3.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解推播傳送報告量度。
 
@@ -54,7 +53,7 @@ ht-degree: 38%
 
 此 **目標母體** 圖表和表格會顯示與您的對象相關的資料：要傳送的訊息和排除專案。 量度詳情如下。
 
-![](assets/reporting_push_4.png)
+![](assets/reporting_push_4.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解推播傳送報告量度。
 
@@ -73,7 +72,7 @@ ht-degree: 38%
 
 此 **整體統計資料** 報表會顯示已傳送推播通知的資料：成功、錯誤和隔離。 量度詳情如下。
 
-![](assets/reporting_push_5.png)
+![](assets/reporting_push_5.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解推播傳送報告量度。
 
@@ -95,7 +94,7 @@ ht-degree: 38%
 此 **[!UICONTROL 排除專案]** 圖形和表格會顯示阻止使用者設定檔（從目標設定檔中排除）接收訊息的各種原因。 有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
-![](assets/reporting_push_6.png)
+![](assets/reporting_push_6.png){zoomable=&quot;yes&quot;}
 
 ## 傳遞總處理能力 {#delivery-throughput}
 
@@ -106,4 +105,4 @@ ht-degree: 38%
 
 此 **傳遞總處理能力** 報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。
 
-![](assets/reporting_push_2.png)
+![](assets/reporting_push_2.png){zoomable=&quot;yes&quot;}

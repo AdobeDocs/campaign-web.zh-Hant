@@ -2,12 +2,11 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
-badge: label="有限可用性"
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 5%
+source-wordcount: '643'
+ht-degree: 4%
 
 ---
 
@@ -21,11 +20,11 @@ ht-degree: 5%
 
 可新增至圖表的活動清單隨即顯示。 可用的活動取決於您在工作流程圖表中的位置。 例如，新增第一個活動時，您可以透過鎖定受眾、分割工作流程路徑或設定 **等待** 活動以延遲工作流程執行。 另一方面，在 **建立對象** 活動，您可以利用目標定位活動來調整目標、透過頻道活動傳送傳遞內容給對象，或透過流量控制活動來組織工作流程程式。
 
-![](assets/workflow-start.png)
+![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
 
 將活動新增到圖表後，右側窗格會出現，可讓您使用特定設定來設定新新增的活動。 有關如何設定每個活動的詳細資訊，請參閱 [本節](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png)
+![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
 
 重複此程式，根據您希望工作流程執行的任務，新增所需數量的活動。 請注意，您也可以在兩個活動之間插入新活動。 若要這麼做，請按一下 **+** 按鈕在活動之間的轉變上，選取所需的活動並在右側窗格中設定它。
 
@@ -45,13 +44,13 @@ ht-degree: 5%
 * 存取活動的 **記錄檔與任務**.
 * **暫停/繼續** 活動。 執行工作流程時，它會在暫停的活動中暫停。 系統不會執行對應的任務，以及在相同路徑中跟隨著該任務的所有任務。
 
-![](assets/activity-action.png){width="50%"}
+![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
 
 ## 範例 {#example}
 
 以下是工作流程範例，其設計是透過電子郵件傳送電子郵件給所有對咖啡機感興趣的客戶(VIP客戶除外)。
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 為達成此目的，已新增下列活動：
 

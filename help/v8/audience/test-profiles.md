@@ -4,11 +4,11 @@ description: 瞭解如何在Adobe Campaign中建立和管理測試設定檔
 feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-badge: label="有限可用性"
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 14%
+source-wordcount: '568'
+ht-degree: 13%
 
 ---
 
@@ -33,17 +33,17 @@ ht-degree: 14%
 
 若要存取測試設定檔清單，請選取 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 從左側功能表，然後按一下 **[!UICONTROL 測試設定檔]** 標籤。
 
-![](assets/test-profile-list.png)
+![](assets/test-profile-list.png){zoomable=&quot;yes&quot;}
 
 * 您可以篩選特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用新增規則 [查詢模型工具](../query/query-modeler-overview.md).
 
-  ![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png){zoomable=&quot;yes&quot;}
 
 * 您可以複製任何測試設定檔，並視需要更新。 編輯測試設定檔的步驟與以下相同： [建立測試設定檔](#create-test-profile).
 
 * 若要刪除測試設定檔，請從 **[!UICONTROL 更多動作]** 功能表。
 
-  ![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png){zoomable=&quot;yes&quot;}
 
 * 若要編輯測試設定檔，請從清單中按一下所需的專案。 編輯測試設定檔的步驟與以下相同： [建立測試設定檔](#create-test-profile).
 
@@ -51,7 +51,7 @@ ht-degree: 14%
 
 您可以從中瀏覽、建立和管理檔案夾或子檔案夾，以及檢查關聯的許可權。 [瞭解如何建立資料夾](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png)
+![](assets/test-profiles-folders.png){zoomable=&quot;yes&quot;}
 
 從 **[!UICONTROL 瀏覽器]** 檢視您也可以篩選、刪除、編輯和 [建立](#create-test-profile) 測試設定檔。
 
@@ -68,11 +68,11 @@ ht-degree: 14%
 
 1. 按一下 **[!UICONTROL 建立測試設定檔]** 按鈕。
 
-   ![](assets/test-profile-create.png)
+   ![](assets/test-profile-create.png){zoomable=&quot;yes&quot;}
 
 1. 視需要填寫測試設定檔的詳細資料。 <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png)
+   ![](assets/test-profile-details.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -80,7 +80,7 @@ ht-degree: 14%
 
 1. 依預設，測試設定檔儲存在 **[!UICONTROL 種子地址]** 資料夾。 您可以瀏覽至所需的位置來變更它。 [瞭解如何使用資料夾](../get-started/permissions.md#folders)
 
-   <!--![](assets/test-profile-folder.png)-->
+   <!--![](assets/test-profile-folder.png){zoomable="yes"}-->
 
 <!--
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)
@@ -88,13 +88,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. 在 **[!UICONTROL 連絡資訊]** 區段，輸入電子郵件地址及其他相關資料。 電子郵件地址會顯示在測試設定檔標籤後的方括弧之間。
 
-   ![](assets/test-profile-address.png)
+   ![](assets/test-profile-address.png){zoomable=&quot;yes&quot;}
 
 1. 如果您選取 **[!UICONTROL 不再聯絡（透過任何管道）]** 核取方塊，測試設定檔位於封鎖清單上。 任何頻道（電子郵件、簡訊等）不再以這類收件者為目標。
 
 1. 在 **[!UICONTROL 其他資料]** 標籤，輸入在資料管理工作流程中建立且您想要指派特定值的傳遞所使用的個人化資料。 [進一步瞭解工作流程](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png)
+   ![](assets/test-profile-additional-data.png){zoomable=&quot;yes&quot;}
 
    請確定已在中定義其他目標資料，且別名開頭為&#39;@&#39;。 **[!UICONTROL 擴充]** 工作流程活動。 否則，您就無法在傳遞活動中正確搭配種子地址使用。 [進一步瞭解擴充活動](../workflows/activities/enrichment.md)
 
@@ -103,6 +103,3 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 您剛建立的測試設定檔現已準備就緒，可用來傳送測試。 [了解更多](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
-
-
-

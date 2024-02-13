@@ -2,12 +2,11 @@
 audience: end-user
 title: 簡訊頻道的行銷活動報告
 description: 瞭解簡訊頻道的行銷活動報告
-badge: label="有限可用性"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 19%
+source-wordcount: '498'
+ht-degree: 18%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 19%
 
 此 **[!UICONTROL 傳遞概覽]** 報告提供關鍵績效指標(KPI)，這些指標提供關於訪客如何與您的SMS傳送互動的詳細資訊。 量度詳情如下。
 
-![](assets/campaign_report_sms_1.png)
+![](assets/campaign_report_sms_1.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解簡訊行銷活動報告量度。
 
@@ -50,7 +49,7 @@ ht-degree: 19%
 此 **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料。 量度詳情如下。
 
 
-![](assets/campaign_report_sms_2.png)
+![](assets/campaign_report_sms_2.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解簡訊行銷活動報告量度。
 
@@ -75,7 +74,7 @@ ht-degree: 19%
 此 **[!UICONTROL 執行統計資料]** 表格詳細說明您的傳送是否成功。 量度詳情如下。
 
 
-![](assets/campaign_report_sms_3.png)
+![](assets/campaign_report_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解簡訊行銷活動報告量度。
 
@@ -101,7 +100,7 @@ ht-degree: 19%
 
 此 **[!UICONTROL 產生的點按資料流]** 表格會顯示與收件者與傳遞互動的相關資料。 量度詳情如下。
 
-![](assets/campaign_report_sms_4.png)
+![](assets/campaign_report_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解簡訊行銷活動報告量度。
 

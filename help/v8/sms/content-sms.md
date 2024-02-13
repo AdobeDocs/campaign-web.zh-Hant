@@ -2,12 +2,11 @@
 audience: end-user
 title: 設計簡訊傳遞
 description: 了解如何設計您的簡訊傳遞
-badge: label="有限可用性"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 79%
+source-wordcount: '260'
+ht-degree: 77%
 
 ---
 
@@ -31,11 +30,11 @@ ht-degree: 79%
 
    此外，按一下「**[!UICONTROL 開啟個人化對話框]**」，即可在訊息中包含個人化欄位、內容區塊和動態內容。
 
-   ![](assets/sms_content_1.png)
+   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
 
 1. 在「 」中輸入您的文字訊息 **[!UICONTROL 訊息]** 欄位或按一下 **[!UICONTROL 開啟個人化對話方塊]** 定義內容及新增動態內容的選項。 [了解更多](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png)
+   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
 
 1. 依預設，傳遞會啟用追蹤。您可以從&#x200B;**[!UICONTROL 選擇性功能區段]**」停用此選項。
 

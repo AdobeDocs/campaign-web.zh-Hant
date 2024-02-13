@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '463'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 3%
 
 1. 從右側功能表中選取 **[!UICONTROL 體驗產生]**.
 
-   ![](assets/email-genai-1.png)
+   ![](assets/email-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. 描述您要產生的內容，以微調內容。
 
@@ -46,7 +46,7 @@ ht-degree: 3%
    * 意見回饋與調查：建立電子郵件，邀請客戶就其最近的軟體體驗提供意見回饋，並參與產品改進調查。
    * 針對週年或生日電子郵件：產生生日電子郵件、慶祝客戶的特殊日子並提供生日折扣。
 
-   ![](assets/email-genai-2.png)
+   ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. 選取 **[!UICONTROL 上傳檔案]** 如果您想要新增任何品牌資產，其中包含的內容可向內容助理提供其他內容。
 
@@ -56,7 +56,7 @@ ht-degree: 3%
 
 1. 選擇 **[!UICONTROL 語言]** 和 **[!UICONTROL 色調]** 您想要產生的文字所具有的屬性。 這將確保文字適合您的對象和目的。
 
-   ![](assets/email-genai-3.png)
+   ![](assets/email-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. 自訂 **[!UICONTROL 內容型別]** 資產設定以符合您所需的資產特性。
 
@@ -64,16 +64,16 @@ ht-degree: 3%
 
 1. 瀏覽 **[!UICONTROL 變數建議]** 以尋找所需的電子郵件。 按一下 **[!UICONTROL 預覽]** 以檢視所選變數的全熒幕版本。
 
-   ![](assets/email-genai-4.png)
+   ![](assets/email-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **[!UICONTROL 選取]** 找到適當的內容之後。
 
-   ![](assets/email-genai-5.png)
+   ![](assets/email-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. 插入個人化欄位，以根據設定檔資料自訂電子郵件內容，或視需要進一步個人化您的內容。 [進一步了解內容個人化](../personalization/personalize.md)
 
 1. 定義電子郵件內容後，按一下 **[!UICONTROL 模擬內容]** 按鈕來控制呈現，並使用測試設定檔檢查個人化設定。  [了解更多](../preview-test/preview-content.md)
 
-   ![](assets/email-genai-6.png)
+   ![](assets/email-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. 當您定義內容、對象和排程時，就能準備電子郵件傳送。 [了解更多](../monitor/prepare-send.md)

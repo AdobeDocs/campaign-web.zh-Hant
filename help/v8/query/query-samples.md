@@ -4,11 +4,11 @@ title: 查詢範例
 description: 瞭解如何使用查詢建模器。
 hide: true
 hidefromtoc: true
-badge: label="有限可用性"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 3%
+source-wordcount: '177'
+ht-degree: 2%
 
 ---
 

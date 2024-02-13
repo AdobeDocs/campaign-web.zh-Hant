@@ -2,16 +2,15 @@
 audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
-badge: label="有限可用性"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '583'
 ht-degree: 4%
 
 ---
 
-# 開始和監視您的工作流程 {#start-monitor}
+# 開始並監控工作流程 {#start-monitor}
 
 一旦您建立了工作流程並設計了要在畫布中執行的任務，您就可以啟動它並監視其執行方式。
 
@@ -23,7 +22,7 @@ ht-degree: 4%
 
 您可以使用視覺流量即時追蹤目標設定檔的進度。 這可讓您快速識別每個活動的狀態，以及活動中轉換的個人檔案數。
 
-![](assets/workflow-execution.png)
+![](assets/workflow-execution.png){zoomable=&quot;yes&quot;}
 
 ## 工作流程轉換 {#transitions}
 
@@ -32,7 +31,7 @@ ht-degree: 4%
 * 按一下 **[!UICONTROL 預覽結構描述]** 顯示工作表的綱要。
 * 按一下 **[!UICONTROL 預覽結果]** 以視覺化方式呈現所選轉變中傳輸的資料。
 
-![](assets/transition.png)
+![](assets/transition.png){zoomable=&quot;yes&quot;}
 
 ## 監視活動執行 {#activities}
 
@@ -40,10 +39,10 @@ ht-degree: 4%
 
 | 視覺指示器 | 說明 |
 |-----|------------|
-| ![](assets/activity-status-pending.png){width="70%"} | 活動目前正在執行。 |
-| ![](assets/activity-status-orange.png){width="70%"} | 活動需要您注意。 這可能涉及確認傳遞的傳送或採取必要行動。 |
-| ![](assets/activity-status-red.png){width="70%"} | 活動發生錯誤。 若要解決此問題，請開啟工作流程記錄檔以取得詳細資訊。 |
-| ![](assets/activity-status-green.png){width="70%"} | 已成功執行活動。 |
+| ![](assets/activity-status-pending.png){zoomable=&quot;yes&quot;}{width="70%"} | 活動目前正在執行。 |
+| ![](assets/activity-status-orange.png){zoomable=&quot;yes&quot;}{width="70%"} | 活動需要您注意。 這可能涉及確認傳遞的傳送或採取必要行動。 |
+| ![](assets/activity-status-red.png){zoomable=&quot;yes&quot;}{width="70%"} | 活動發生錯誤。 若要解決此問題，請開啟工作流程記錄檔以取得詳細資訊。 |
+| ![](assets/activity-status-green.png){zoomable=&quot;yes&quot;}{width="70%"} | 已成功執行活動。 |
 
 ## 監視日誌和任務 {#logs-tasks}
 
@@ -51,7 +50,7 @@ ht-degree: 4%
 
 此 **[!UICONTROL 記錄檔與任務]** 功能表提供工作流程執行的歷史記錄，記錄所有使用者動作和遇到的錯誤。 此歷史記錄會儲存至工作流程中指定的期間 [執行選項](workflow-settings.md). 在這段期間，會儲存所有訊息，即使在重新啟動工作流程後亦然。 如果您不想儲存先前執行的訊息，請按一下 **[!UICONTROL 清除歷史記錄]** 按鈕。
 
-![](assets/workflow-logs.png)
+![](assets/workflow-logs.png){zoomable=&quot;yes&quot;}
 
 提供兩種資訊：
 

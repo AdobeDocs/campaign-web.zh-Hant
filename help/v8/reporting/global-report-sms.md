@@ -2,11 +2,11 @@
 audience: end-user
 title: 簡訊通道的全域報告
 description: 瞭解SMS頻道的全域報告
-badge: label="有限可用性"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 31%
+source-wordcount: '593'
+ht-degree: 30%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 31%
 
 此 **[!UICONTROL 傳遞概覽]** 報告提供全面的關鍵績效指標(KPI)，深入分析訪客與每個SMS傳送的互動模式。 以下為下列量度。
 
-![](assets/global_report_sms_delivery_overview.png)
+![](assets/global_report_sms_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解傳送概述量度。
 
@@ -50,7 +50,7 @@ ht-degree: 31%
 
 此 **[!UICONTROL 目標對象]** 表格和圖表會顯示每個已傳送SMS傳遞的收件者相關資料。 量度詳情如下。
 
-![](assets/global_report_sms_targeted_audience.png)
+![](assets/global_report_sms_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++深入瞭解鎖定目標對象量度。
 
@@ -71,7 +71,7 @@ ht-degree: 31%
 
 此 **[!UICONTROL 傳遞統計資料]** 表格詳細說明您每次SMS傳送的成功情況。 量度詳情如下。
 
-![](assets/global_report_sms_delivery_statistics.png)
+![](assets/global_report_sms_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解傳遞統計量度。
 
@@ -98,7 +98,7 @@ ht-degree: 31%
 
 錯誤型別會列於 [Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-![](assets/global_report_sms_causes_exclusion.png)
+![](assets/global_report_sms_causes_exclusion.png){zoomable=&quot;yes&quot;}
 
 ## 傳遞總處理能力 {#delivery-throughput-sms}
 
@@ -107,6 +107,6 @@ ht-degree: 31%
 >title="簡訊傳遞輸送量"
 >abstract="**傳遞輸送量**&#x200B;報告提供了有關簡訊傳遞系統效率的廣泛見解，詳細概述了指定時間範圍內的成功率和錯誤率。"
 
-![](assets/global_report_sms_delivery_throughput.png)
+![](assets/global_report_sms_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 此 **[!UICONTROL 傳遞總處理能力]** 報告提供SMS訊息傳送系統效能的全面深入分析，提供指定期間成功和錯誤率的詳細摘要。

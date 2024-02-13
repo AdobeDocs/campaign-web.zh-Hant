@@ -1,12 +1,11 @@
 ---
 title: 建立設定檔
 description: 瞭解如何在Campaign網頁中建立設定檔。
-badge: label="有限可用性"
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -53,7 +52,7 @@ ht-degree: 48%
 
 1. 設定檔顯示的可用屬性清單，組織成下表詳述的不同區段。
 
-   ![](assets/create-profile.png)
+   ![](assets/create-profile.png){zoomable=&quot;yes&quot;}
 
    | 屬性區段 | 說明 |
    |  ---  |  ---  |

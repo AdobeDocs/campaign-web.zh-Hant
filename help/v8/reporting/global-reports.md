@@ -2,18 +2,17 @@
 audience: end-user
 title: 開始使用全域報告
 description: 瞭解全域報告
-badge: label="有限可用性"
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+exl-id: e64d9765-f602-4fee-9923-a3665130c63a
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 0%
+source-wordcount: '211'
+ht-degree: 24%
 
 ---
 
-
 # 開始使用全域報告 {#global-report-gs}
 
-此 **全域報告** 成為有效工具，為Campaign執行個體中的每個管道提供整合式整體流量和參與量度摘要。 這些報表包含各種Widget，各可提供行銷活動或傳遞績效的不同觀點。
+**全域報告**&#x200B;是一種有效的工具，可為行銷活動執行個體中的每個管道提供流量和參與量度的整合性總體摘要。這些報告是由各種 Widget 所組成，每個 Widget 都提供有關您的行銷活動或傳遞績效的獨特觀點。
 
 各管道的完整報表和相關量度清單可在下列頁面取得：
 
@@ -29,15 +28,15 @@ ht-degree: 0%
 
 1. 在左側功能表中，從清單中選取報表，並導覽至標籤，以顯示每個管道的資料。
 
-   ![](assets/global_report_manage_3.png)
+   ![](assets/global_report_manage_3.png){zoomable=&quot;yes&quot;}
 
 1. 從您的控制面板中，選擇 **開始** 和 **[!UICONTROL 結束時間]** 以鎖定特定資料。
 
-   ![](assets/global_report_manage_1.png)
+   ![](assets/global_report_manage_1.png){zoomable=&quot;yes&quot;}
 
 1. 從 **[!UICONTROL 挑選資料夾]** 欄位，選取是否要從特定資料夾定位傳送或行銷活動。
 
-   ![](assets/global_report_manage_2.png)
+   ![](assets/global_report_manage_2.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **[!UICONTROL 新增規則]** 以開始建立查詢，進而更妥善地篩選報表資料。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
 

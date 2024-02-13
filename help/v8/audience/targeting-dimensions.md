@@ -1,9 +1,8 @@
 ---
 title: 目標定位維度
 description: 進一步瞭解Adobe Campaign網頁中的目標維度功能
-badge: label="有限可用性"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: d040dddb143c2dbf4e9f47d762f7359ec7a18e16
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 11%
@@ -27,7 +26,7 @@ ht-degree: 11%
 
 選取目標維度時(在工作流程設定中或活動中，例如 **建立對象**， **調解** 或 **變更維度**)，則清單中預設會顯示一組常用的結構描述。 若要顯示所有可用的結構描述，請開啟 **[!UICONTROL 顯示所有結構描述]** 按鈕。 系統會為每個使用者儲存選項選取範圍。
 
-![](assets/targeting-dimension-show-all.png)
+![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
 
 ## 目標定位維度 {#list}
 
