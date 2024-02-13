@@ -3,11 +3,10 @@ audience: end-user
 title: 追蹤您的訊息
 description: 了解如何新增連結和追蹤已傳送的訊息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="有限可用性"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 1. 選取元素，然後從內容關聯式工具列中按一下「**[!UICONTROL 插入連結]**」。
 
-   ![](assets/message-tracking-insert-link.png)
+   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
 
 1. 新增&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 連結]**。
 
@@ -38,7 +37,7 @@ ht-degree: 100%
    * 您可以編輯連結並變更其&#x200B;**[!UICONTROL 目標]**。
    * 您可以透過勾選對應的選項來選擇是否為連結加底線。
 
-   ![](assets/message-tracking-link-settings.png)
+   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -56,11 +55,11 @@ ht-degree: 100%
 
 1. 若要編輯連結，按一下對應的鉛筆圖示。
 
-   ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
 
 1. 您可以修改&#x200B;**[!UICONTROL 追蹤類型]** (如果需要)：
 
-   ![](assets/message-tracking-edit-a-link.png)
+   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
 
    對於每個被追蹤的 URL，您可以將追蹤模式設定為以下其中一個值：
 
@@ -71,6 +70,6 @@ ht-degree: 100%
 
 1. 為您的連結新增&#x200B;**[!UICONTROL 類別]**&#x200B;以將被追蹤的連結群組起來，然後按一下「**[!UICONTROL 儲存]**」。
 
-   ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
 
 1. 傳送您的傳遞後，存取傳遞報告。在「**[!UICONTROL 追蹤]**」選單下，**[!UICONTROL URL 和點按資料流]** 報告顯示您的傳遞中哪些 URL 造訪次數最多。[了解更多](../reporting/gs-reports.md)

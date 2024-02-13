@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="有限可用性"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 11%
+source-wordcount: '260'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 11%
 
 時間 [建立電子郵件](../email/create-email.md)，使用 **[!UICONTROL 選取設計範本]** 的區段 **[!UICONTROL 建立您的電子郵件]** 介面以開始從範本建立您的內容。
 
-![](assets/email_designer-templates.png)
+![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
 
 您可以選擇以下選項：
 
@@ -42,17 +41,17 @@ ht-degree: 11%
 
 1. 若要使用現有的自訂範本，請瀏覽至 **[!UICONTROL 已儲存的範本]** 標籤。
 
-   ![](assets/email_designer-saved-templates-tab.png)
+   ![](assets/email_designer-saved-templates-tab.png){zoomable=&quot;yes&quot;}
 
 1. 所有[儲存的範本](#save-as-template)的清單會顯示。你可以&#x200B;**[!UICONTROL 依名稱]**、**[!UICONTROL 上次修改日期]**&#x200B;和&#x200B;**[!UICONTROL 上次建立日期]**&#x200B;來排序儲存的範本。
 
-   ![](assets/email_designer-saved-templates.png)
+   ![](assets/email_designer-saved-templates.png){zoomable=&quot;yes&quot;}
 
 1. 從清單中選取範本以顯示其內容。
 
 1. 使用向右和向左箭頭在範本之間導覽（根據您的選取範圍選擇範例或儲存）。
 
-   ![](assets/email_designer-saved-templates-navigate.png)
+   ![](assets/email_designer-saved-templates-navigate.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **[!UICONTROL 使用此範本]** 在熒幕的右上方。
 

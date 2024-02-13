@@ -6,10 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-badge: label="有限可用性"
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -33,18 +32,18 @@ ht-degree: 2%
 
 1. 使用開啟運算式編輯器 **[!UICONTROL 開啟個人化對話方塊]** 圖示可從文字型別編輯欄位存取，例如主旨行或SMS內文。 [瞭解如何存取運算式編輯器](gs-personalization.md/#access)
 
-   ![](assets/perso-access.png){width="800" align="center"}
+   ![](assets/perso-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. 運算式編輯器開啟。 Adobe Campaign資料庫中可用的個人化欄位會整理到畫面左側的數個功能表中：
 
-   ![](assets/perso-insert-field.png){width="800" align="center"}
+   ![](assets/perso-insert-field.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    | 選單 | 說明 |
    |-----|------------|
-   | ![](assets/do-not-localize/perso-subscribers-menu.png) | 此 **[!UICONTROL 訂閱者應用程式]** 功能表會列出與應用程式訂閱者相關的欄位，例如使用的終端機或作業系統。 *此功能表僅適用於推播通知* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | 此 **[!UICONTROL 收件者]** 功能表會列出在收件者表格中定義的欄位，例如收件者的名稱、年齡或地址。 時間 [從外部檔案上傳連絡人](../audience/file-audience.md) 對於獨立電子郵件傳送，此功能表會列出輸入檔案中可用的所有欄位。 |
-   | ![](assets/do-not-localize/perso-message-menu.png) | 此 **[!UICONTROL 訊息]** 功能表會列出與傳送記錄檔相關的欄位，包括跨所有通道傳送給收件者或裝置的所有訊息，例如與指定收件者的最後一個事件日期 |
-   | ![](assets/do-not-localize/perso-delivery-menu.png) | 此 **[!UICONTROL 傳遞]** 功能表會列出與執行傳送所需的引數相關的欄位，例如傳送通道或標籤。 |
+   | ![](assets/do-not-localize/perso-subscribers-menu.png){zoomable=&quot;yes&quot;} | 此 **[!UICONTROL 訂閱者應用程式]** 功能表會列出與應用程式訂閱者相關的欄位，例如使用的終端機或作業系統。 *此功能表僅適用於推播通知* |
+   | ![](assets/do-not-localize/perso-recipients-menu.png){zoomable=&quot;yes&quot;} | 此 **[!UICONTROL 收件者]** 功能表會列出在收件者表格中定義的欄位，例如收件者的名稱、年齡或地址。 時間 [從外部檔案上傳連絡人](../audience/file-audience.md) 對於獨立電子郵件傳送，此功能表會列出輸入檔案中可用的所有欄位。 |
+   | ![](assets/do-not-localize/perso-message-menu.png){zoomable=&quot;yes&quot;} | 此 **[!UICONTROL 訊息]** 功能表會列出與傳送記錄檔相關的欄位，包括跨所有通道傳送給收件者或裝置的所有訊息，例如與指定收件者的最後一個事件日期 |
+   | ![](assets/do-not-localize/perso-delivery-menu.png){zoomable=&quot;yes&quot;} | 此 **[!UICONTROL 傳遞]** 功能表會列出與執行傳送所需的引數相關的欄位，例如傳送通道或標籤。 |
 
    >[!NOTE]
    >
@@ -54,6 +53,6 @@ ht-degree: 2%
 
 1. 一旦您的內容準備就緒後，您就可以儲存該內容，並透過模擬您的內容來測試個人化的呈現。 以下範例顯示具有收件者名字的SMS訊息個人化。
 
-   ![](assets/perso-preview1.png){width="800" align="center"}
+   ![](assets/perso-preview1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-   ![](assets/perso-preview2.png){width="800" align="center"}
+   ![](assets/perso-preview2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}

@@ -3,11 +3,10 @@ audience: end-user
 title: 設定控制組
 description: 瞭解如何在Campaign網頁使用者介面中設定訊息的控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="有限可用性"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 37%
+source-wordcount: '797'
+ht-degree: 36%
 
 ---
 
@@ -67,7 +66,7 @@ ht-degree: 37%
 1. 新增 **建立日期** 欄位。 變更為 **降序** 排序選項。
 1. 將100定義為中的臨界值 **大小限制** 區段。
 
-   ![](assets/control-group2.png)
+   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
 然後，這100個最年輕的收件者會從主要目標中排除。
 
@@ -75,27 +74,27 @@ ht-degree: 37%
 
 您可以檢視記錄以檢查和識別排除的設定檔。讓我們以隨機排除五個設定檔為範例。
 
-![](assets/control-group4.png)
+![](assets/control-group4.png){zoomable=&quot;yes&quot;}
 
 在準備傳送後，您可以檢閱套用排除專案的方式：
 
 * 在傳送前，在傳遞控制面板中檢查 **要排除** KPI。
 
-  ![](assets/control-group5.png)
+  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
 
 * 在傳送記錄檔中， 「記錄檔」索引標籤會顯示排除步驟。
 
-  ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-    ![](assets/control-group6.png)
+    ![](assets/control-group6.png){zoomable="yes"}
 -->
 
 * 此 **排除原因** 索引標籤顯示每個型別規則的排除設定檔數。
 
-  ![](assets/control-group7.png)
+  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
 
 如需傳遞記錄的詳細資訊，請參閱本[章節](../monitor/delivery-logs.md)。
 
@@ -110,7 +109,7 @@ ht-degree: 37%
 
 從&#x200B;**控制組**&#x200B;定義畫面的「**額外族群**」區段，按一下「**[!UICONTROL 選取對象]**」按鈕。
 
-![](assets/control-group3.png)
+![](assets/control-group3.png){zoomable=&quot;yes&quot;}
 
 * 若要使用現有對象，按一下「**選取對象**」。若要了解詳細資訊，請參閱[本章節](add-audience.md)。
 

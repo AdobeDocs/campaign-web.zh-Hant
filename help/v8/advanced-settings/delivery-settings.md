@@ -4,10 +4,9 @@ title: 傳遞設定
 description: 進一步瞭解Campaign網頁中的傳遞設定
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="有限可用性"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2429'
 ht-degree: 53%
 
 ---
@@ -44,7 +43,7 @@ ht-degree: 53%
 
 型別可讓您確保電子郵件一律包含特定元素（例如取消訂閱連結或主旨列）或篩選規則，以從預期目標中排除群組（例如取消訂閱者、競爭者或不忠誠客戶）。
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -130,7 +129,7 @@ ht-degree: 53%
 
 **[!UICONTROL 傳遞]** 引數為適用於您傳送的技術設定。
 
-![](assets/delivery-settings-delivery.png)
+![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
 整合的電子郵件 **[!UICONTROL 路由]** 預設會提供外部帳戶。 其包含可讓應用程式傳送電子郵件的技術參數。
 
@@ -250,7 +249,7 @@ ht-degree: 53%
 
 **[!UICONTROL 資源效度限制]** 用於上傳的資源，主要用於映象頁面和影像。 本頁面的資源在限定時間內有效 (以節省磁碟空間)。在此限制之後，這些資源將不再可用。
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

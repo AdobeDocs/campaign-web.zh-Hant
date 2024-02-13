@@ -3,11 +3,10 @@ audience: end-user
 title: 個人化您的電子郵件背景
 description: 了解如何個人化您的電子郵件背景
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="有限可用性"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 96%
 
 ---
 
@@ -28,15 +27,15 @@ ht-degree: 100%
 
 * 設定整個電子郵件的&#x200B;**[!UICONTROL 背景顏色]**。確保在左窗格的導覽樹狀目錄中選取內文設定。
 
-  ![](assets/background_1.png)
+  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
 
 * 選取「**[!UICONTROL 檢視區背景顏色]**」為所有結構元件設定相同的背景顏色。此選項可讓您從背景顏色中選取不同的設定。
 
-  ![](assets/background_2.png)
+  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
 
 * 為每個結構元件設定不同的背景顏色。在左窗格的導覽樹狀目錄中選取結構，以僅將特定背景顏色套用到該結構。
 
-  ![](assets/background_3.png)
+  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -44,7 +43,7 @@ ht-degree: 100%
 
 * 為結構元件的內容設定&#x200B;**[!UICONTROL 背景影像]**。
 
-  ![](assets/background_4.png)
+  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -52,7 +51,7 @@ ht-degree: 100%
 
 * 在欄層級設定背景顏色。
 
-  ![](assets/background_5.png)
+  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >

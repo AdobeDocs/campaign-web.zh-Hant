@@ -3,10 +3,9 @@ audience: end-user
 title: 在您的訊息中新增優惠方案
 description: 瞭解如何新增及傳送優惠方案
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="有限可用性"
-source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '768'
 ht-degree: 35%
 
 ---
@@ -40,13 +39,13 @@ Adobe Campaign可讓您在互動期間即時回應指定聯絡人，向其建議
 
 1. 按一下 **[!UICONTROL 設定優惠方案]** 傳遞內容版本畫面中的按鈕。
 
-   ![](assets/offer-setup.png)
+   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
 
 1. 設定應向收件者提出的優惠。
 
    首先選取 **[!UICONTROL 優惠方案空間]** 符合您的優惠方案環境的專案。 瞭解如何在中建立優惠空間 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-   ![](assets/offer-create-content.png)
+   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
 
 1. 若要縮小引擎的優惠選擇範圍，請選取特定的&#x200B;**[!UICONTROL 優惠類別]**，優惠在此類別中排序。
 
@@ -90,7 +89,7 @@ Adobe Campaign可讓您在互動期間即時回應指定聯絡人，向其建議
 
 1. 將滑鼠游標置於您要插入選件的位置，並使用個人化圖示開啟運算式編輯器。
 
-   ![](assets/offer-insert-perso-icon.png)
+   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
 
 1. 選取 **[!UICONTROL 主張]** 功能表。 可用主張會顯示在清單中。
 
@@ -100,7 +99,7 @@ Adobe Campaign可讓您在互動期間即時回應指定聯絡人，向其建議
 
 1. 使用可用的個人化欄位、演算函式或優惠方案屬性來定義每個主張。
 
-   ![](assets/offer-inserted.png)
+   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

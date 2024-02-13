@@ -3,11 +3,10 @@ audience: end-user
 title: 使用電子郵件設計工具內容元件
 description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="有限可用性"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 67%
+source-wordcount: '1201'
+ht-degree: 65%
 
 ---
 
@@ -45,7 +44,7 @@ ht-degree: 67%
 
 1. 拖放 **[!UICONTROL 內容]** 在相關結構中選擇的任何選項。
 
-   ![](assets/email_designer_add_content_components.png)
+   ![](assets/email_designer_add_content_components.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -55,7 +54,7 @@ ht-degree: 67%
 
 1. 使用調整每個元件的樣式屬性 **[!UICONTROL 樣式]** 標籤。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
 
-   ![](assets/email_designer_content_components_settings.png)
+   ![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
 
 1. 從的進階功能表 **[!UICONTROL 內容]** 在右側窗格中，您可以視需要輕鬆刪除或複製任何內容元件。
 
@@ -65,7 +64,7 @@ ht-degree: 67%
 
 例如，新增&#x200B;**[!UICONTROL 容器]**&#x200B;元件，然後在該容器內部新增[按鈕](#button)元件。您可以為容器使用特定背景，為按鈕使用另一個背景。
 
-![](assets/email_designer_container_component.png)
+![](assets/email_designer_container_component.png){zoomable=&quot;yes&quot;}
 
 ## 按鈕 {#buttons}
 
@@ -73,11 +72,11 @@ ht-degree: 67%
 
 1. 從&#x200B;**[!UICONTROL 內容]**&#x200B;清單，將&#x200B;**[!UICONTROL 按鈕]**&#x200B;元件拖放到&#x200B;**[!UICONTROL 結構]**&#x200B;元件中。
 
-   ![](assets/email_designer_13.png)
+   ![](assets/email_designer_13.png){zoomable=&quot;yes&quot;}
 
 1. 按一下您新增的按鈕，將文字個人化，並存取「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
 
-   ![](assets/email_designer_14.png)
+   ![](assets/email_designer_14.png){zoomable=&quot;yes&quot;}
 
 1. 從「**[!UICONTROL 設定]**」索引標籤 (位於 **[!UICONTROL URL]** 欄位中) 新增按下按鈕時會重新導向到的 URL。
 
@@ -89,7 +88,7 @@ ht-degree: 67%
    * **[!UICONTROL 父系]**：在父框架中開啟連結。
    * **[!UICONTROL 頂端]**：在視窗的完整內文中開啟連結。
 
-   ![](assets/email_designer_15.png)
+   ![](assets/email_designer_15.png){zoomable=&quot;yes&quot;}
 
 1. 您可以變更樣式屬性 (例如&#x200B;**[!UICONTROL 邊框]**、**[!UICONTROL 大小]**、**[!UICONTROL 邊界]**&#x200B;等) 來進一步個人化您的按鈕。從 **[!UICONTROL 樣式]** 標籤。
 
@@ -99,13 +98,13 @@ ht-degree: 67%
 
 1. 從 **[!UICONTROL 內容]** 選單，拖放 **[!UICONTROL 文字]** 變成 **[!UICONTROL 結構]** 元件。
 
-   ![](assets/email_designer_11.png)
+   ![](assets/email_designer_11.png){zoomable=&quot;yes&quot;}
 
 1. 按一下您新增的元件，將文字個人化，並存取「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
 
 1. 使用內容工具列中的下列選項變更文字：
 
-   ![](assets/email_designer_27.png)
+   ![](assets/email_designer_27.png){zoomable=&quot;yes&quot;}
 
    * **[!UICONTROL 變更文字樣式]**：將粗體、斜體、底線或刪除線套用到文字。
    * **變更對齊方式**：選擇文字靠左對齊、靠右對齊、置中或左右對齊。
@@ -121,7 +120,7 @@ ht-degree: 67%
 
 1. 調整其他樣式屬性，例如文字顏色、字型系列、邊框、邊框間距、邊界等。從 **[!UICONTROL 樣式]** 標籤。
 
-   ![](assets/email_designer_12.png)
+   ![](assets/email_designer_12.png){zoomable=&quot;yes&quot;}
 
 ## 分隔線 {#divider}
 
@@ -129,7 +128,7 @@ ht-degree: 67%
 
 您可以調整樣式屬性，例如線條顏色、樣式和高度，從 **[!UICONTROL 樣式]** 標籤。
 
-![](assets/email_designer_16.png)
+![](assets/email_designer_16.png){zoomable=&quot;yes&quot;}
 
 ## HTML {#HTML}
 
@@ -137,11 +136,11 @@ ht-degree: 67%
 
 1. 從&#x200B;**[!UICONTROL 元件]**，將 **[!UICONTROL HTML]** 元件拖放到&#x200B;**[!UICONTROL 結構]**&#x200B;元件中。
 
-   ![](assets/email_designer_22.png)
+   ![](assets/email_designer_22.png){zoomable=&quot;yes&quot;}
 
 1. 按一下您新增的元件，然後選取「**[!UICONTROL 顯示原始碼]**」從內容關聯式工具列新增至 HTML。
 
-   ![](assets/email_designer_23.png)
+   ![](assets/email_designer_23.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -153,26 +152,26 @@ ht-degree: 67%
 
 1. 從「**[!UICONTROL 內容]**」選單，將&#x200B;**[!UICONTROL 影像]**&#x200B;拖放到&#x200B;**[!UICONTROL 結構]**&#x200B;元件中。
 
-   ![](assets/email_designer_9.png)
+   ![](assets/email_designer_9.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **[!UICONTROL 瀏覽]** 以從資產中選擇影像檔案。 您也可以選擇 **[!UICONTROL 匯入您的媒體]**.
 
    要瞭解有關如何在Adobe Experience Manager中上傳和新增資產的詳細資訊，請參閱 [Adobe Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
 
-   ![](assets/email_designer_28.png)
+   ![](assets/email_designer_28.png){zoomable=&quot;yes&quot;}
 
 1. 瀏覽資料夾以找出所需的特定資產，或使用搜尋列有效率地尋找資產。
 
    找到您要尋找的資產後，請按一下 **[!UICONTROL 選取]**.
 
-   ![](assets/email_designer_29.png)
+   ![](assets/email_designer_29.png){zoomable=&quot;yes&quot;}
 
 1. 按一下您新增的元件，然後使用 **[!UICONTROL 設定]** 標籤：
 
    * **[!UICONTROL 影像標題]**&#x200B;可讓您定義影像的標題。
    * **[!UICONTROL 替代文字]**&#x200B;可讓您定義連結到影像的註解。這對應於替代 HTML 屬性。
 
-   ![](assets/email_designer_10.png)
+   ![](assets/email_designer_10.png){zoomable=&quot;yes&quot;}
 
 1. 您可以新增連結，將您的對象重新導向至其他內容。 [了解更多](message-tracking.md)
 
@@ -188,13 +187,13 @@ ht-degree: 67%
 
 1. 在「**[!UICONTROL 設定]**」索引標籤的「**[!UICONTROL 社交]**」欄位中，選擇要新增或移除的社交媒體。
 
-   ![](assets/email_designer_20.png)
+   ![](assets/email_designer_20.png){zoomable=&quot;yes&quot;}
 
 1. 在「**[!UICONTROL 影像大小]**」欄位中，選擇圖示大小。
 
 1. 按一下每個社交媒體的圖示以設定對象將被重新導向到的 **[!UICONTROL URL]**。
 
-   ![](assets/email_designer_21.png)
+   ![](assets/email_designer_21.png){zoomable=&quot;yes&quot;}
 
 1. 如有需要，您也可以在「 」中變更每個社群媒體的圖示 **[!UICONTROL 來源]** 欄位。
 

@@ -3,11 +3,10 @@ audience: end-user
 title: 使用Campaign規則產生器建立對象
 description: 瞭解如何使用規則產生器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Beta"
-source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 59%
+source-wordcount: '582'
+ht-degree: 57%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 59%
 
 位於左側的調色盤包含您可以篩選以建立對象的所有元素。您可以使用搜尋列來快速尋找元素。 浮動視窗中包含的圖磚必須移至中央畫布才能設定並加以考慮。
 
-![](assets/segment-builder2.png){width="70%" align="left"}
+![](assets/segment-builder2.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 調色盤分為兩個索引標籤：
 
@@ -38,13 +37,13 @@ ht-degree: 59%
 
 畫布是位於中央的區域，您可在其中根據從調色盤新增的元素來設定及結合規則。若要加入新規則，請從調色盤將方磚拖放到畫布。然後畫面會根據要新增的資料類型顯示特定於上下文的選項。
 
-![](assets/segment-builder4.png){width="70%" align="left"}
+![](assets/segment-builder4.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## 規則屬性窗格
 
 在右側， **規則屬性** 窗格可讓您執行下列動作。
 
-![](assets/segment-builder5.png){width="70%" align="left"}
+![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 * **檢視結果：**&#x200B;顯示對象的目標收件者清單。
 * **程式碼檢視**：以 SQL 顯示對象的程式碼版本。
@@ -64,26 +63,26 @@ ht-degree: 59%
 
 1. 在調色盤的「**屬性**」索引標籤中，搜尋「**生日**」欄位。將方磚拖放到畫布上。
 
-   ![](assets/segment-builder6.png)
+   ![](assets/segment-builder6.png){zoomable=&quot;yes&quot;}
 
 1. 在畫布中，選擇「**之後**」運算子並輸入所需的日期。
 
-   ![](assets/segment-builder7.png)
+   ![](assets/segment-builder7.png){zoomable=&quot;yes&quot;}
 
 1. 在調色盤中，搜尋「**城市**」欄位並將其新增到畫布中的第一條規則下方。
 
-   ![](assets/segment-builder8.png)
+   ![](assets/segment-builder8.png){zoomable=&quot;yes&quot;}
 
 1. 在欄位中，輸入第一個城市名稱，然後按 Enter 鍵。
 
-   ![](assets/segment-builder9.png)
+   ![](assets/segment-builder9.png){zoomable=&quot;yes&quot;}
 
 1. 對第二個城市名稱重複此動作。
 
-   ![](assets/segment-builder10.png)
+   ![](assets/segment-builder10.png){zoomable=&quot;yes&quot;}
 
 1. 按一下「**檢視結果**」以顯示符合此查詢的收件者清單和數量。您也可以新增欄以視覺化和查看資料。在我們的範例中，新增「**城巿**」欄，應該會看到亞特蘭大和西雅圖。
 
-   ![](assets/segment-builder11.png)
+   ![](assets/segment-builder11.png){zoomable=&quot;yes&quot;}
 
 1. 按一下「**確認**」。

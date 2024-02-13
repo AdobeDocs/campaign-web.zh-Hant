@@ -3,11 +3,10 @@ audience: end-user
 title: 匯入您的電子郵件內容
 description: 了解如何匯入電子郵件內容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-badge: label="有限可用性"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 48%
+source-wordcount: '244'
+ht-degree: 47%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 48%
 
 1. 在 [電子郵件設計工具](get-started-email-designer.md) 首頁，選取 **[!UICONTROL 匯入HTML]**.
 
-   ![](assets/html-import.png)
+   ![](assets/html-import.png){zoomable=&quot;yes&quot;}
 
 1. 拖放包含 HTML 內容的 HTML 或 .zip 檔案，然後按一下「**[!UICONTROL 匯入]**」。
 
@@ -39,11 +38,11 @@ ht-degree: 48%
 
    在此模式中，您只能個人化您的文字、新增連結或包含資產至您的內容。
 
-   ![](assets/html-imported.png)
+   ![](assets/html-imported.png){zoomable=&quot;yes&quot;}
 
 1. 若要善用電子郵件設計工具內容元件，請存取 **[!UICONTROL HTML轉換工具]** 標籤並按一下 **[!UICONTROL 轉換]**.
 
-   ![](assets/html-imported-2.png)
+   ![](assets/html-imported-2.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

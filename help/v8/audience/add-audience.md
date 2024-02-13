@@ -3,11 +3,10 @@ audience: end-user
 title: 選取現有對象
 description: 了解如何選取對象
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="有限可用性"
-source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 30%
+source-wordcount: '334'
+ht-degree: 29%
 
 ---
 
@@ -30,24 +29,24 @@ ht-degree: 30%
 
 1. 從 **對象** 傳遞建立助理的區段，按一下 **[!UICONTROL 選取對象]** 按鈕，然後選擇 **[!UICONTROL 選取對象]** 以使用現有對象。
 
-   ![](assets/create-audience.png)
+   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 
 1. 此畫面會顯示目前資料夾的所有現有對象。
 
-   ![](assets/create-audience2.png)
+   ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
 
    若要從Adobe Experience Platform選擇對象，請瀏覽至 `AEP Audiences folder` 從熒幕的篩選區段中。
 
-   ![](assets/select-audience-folder.png)
+   ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
 
 1. 篩選區段可讓您存取篩選選項，以調整對象清單。 若要這麼做，請按一下 **新增規則** 以存取「查詢建模工具」，這可讓您為對象清單建立進階篩選器。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
 
    例如，您可以定義規則以篩選對象的來源，如下所示：
 
-   ![](assets/filter-on-aep-audience.png)
+   ![](assets/filter-on-aep-audience.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **確認** 將您的對象新增為傳送主要目標。 完成後，您仍然可以使用查詢塑模工具，透過按一下 **編輯規則** 按鈕。
 
-   ![](assets/refine-audience.png)
+   ![](assets/refine-audience.png){zoomable=&quot;yes&quot;}
 
    您也可以設定控制組來測量行銷活動的影響。控制組不會收到訊息。可讓您將收到訊息之母體的行為與未收到訊息之聯絡人的行為進行比較。[了解更多](control-group.md)

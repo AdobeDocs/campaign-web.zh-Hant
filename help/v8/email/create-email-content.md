@@ -3,11 +3,10 @@ audience: end-user
 title: 在電子郵件設計工具中設計電子郵件
 description: 了解如何從頭開始設計您的電子郵件內容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="有限可用性"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 71%
+source-wordcount: '595'
+ht-degree: 69%
 
 ---
 
@@ -60,7 +59,7 @@ ht-degree: 71%
 
 1. 從 [電子郵件設計工具](get-started-email-designer.md#start-authoring) 首頁，選取 **[!UICONTROL 從頭開始設計]** 選項。
 
-   ![](assets/email_designer-from-scratch.png)
+   ![](assets/email_designer-from-scratch.png){zoomable=&quot;yes&quot;}
 
 1. 透過拖放方式開始設計電子郵件內容 **[!UICONTROL 結構]** 放入畫布以定義電子郵件的版面。
 
@@ -70,7 +69,7 @@ ht-degree: 71%
 
 1. 新增相同數量 **[!UICONTROL 結構]** 視需要在右側的專用窗格中編輯其設定。
 
-   ![](assets/email_designer_structure_components.png)
+   ![](assets/email_designer_structure_components.png){zoomable=&quot;yes&quot;}
 
 1. 您可以選取 **[!UICONTROL n：n欄]** 元件以定義您選取的欄數（介於3到10之間）。 您也可以移動每個欄底部的箭頭來定義其寬度。
 
@@ -82,7 +81,7 @@ ht-degree: 71%
 
 1. 每個元件都可進一步使用進行自訂 **[!UICONTROL 設定]** 或 **[!UICONTROL 樣式]** 索引標籤在右側。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
 
-   ![](assets/email_designer-styles.png)
+   ![](assets/email_designer-styles.png){zoomable=&quot;yes&quot;}
 
 1. 插入個人化欄位，以根據設定檔資料自訂您的電子郵件內容。 [進一步了解內容個人化](../personalization/personalize.md)
 
@@ -92,7 +91,7 @@ ht-degree: 71%
 
 [進一步瞭解連結和訊息追蹤](message-tracking.md)
 
-   ![](assets/email_designer-links.png)
+   ![](assets/email_designer-links.png){zoomable=&quot;yes&quot;}
 
 1. 如果需要，您可以按一下「進階」選單中的「**[!UICONTROL 切換到程式碼編輯器]**」進一步個人化您的電子郵件。這可讓您編輯電子郵件原始碼，例如新增追蹤或自訂 HTML 標記。[進一步了解程式碼編輯器](code-content.md)
 
@@ -102,7 +101,7 @@ ht-degree: 71%
 
 1. 當您的內容備就緒時，按一下「**[!UICONTROL 模擬內容]**」檢查您的電子郵件轉譯。您可以選擇桌面或行動檢視。[進一步了解如何預覽您的電子郵件](../preview-test/preview-test.md)
 
-   ![](assets/email_designer-simulate.png)
+   ![](assets/email_designer-simulate.png){zoomable=&quot;yes&quot;}
 
 1. 當您的電子郵件準備就緒時，按一下「**[!UICONTROL 儲存]**」。
 

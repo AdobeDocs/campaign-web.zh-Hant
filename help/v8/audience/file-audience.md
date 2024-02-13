@@ -2,12 +2,11 @@
 audience: end-user
 title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
-badge: label="有限可用性"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 41%
+source-wordcount: '626'
+ht-degree: 40%
 
 ---
 
@@ -50,7 +49,7 @@ ht-degree: 41%
 1. 開啟現有的電子郵件傳遞，或 [建立新的電子郵件傳遞](../email/create-email.md).
 1. 在電子郵件傳遞建立視窗中，在「**對象**」區段按一下「**選取對象**」按鈕，並選擇「**從檔案中選取**」選項。
 
-   ![](assets/select-from-file.png)
+   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
 1. 選取要使用的本機檔案。 格式必須與 [範例檔案](#sample-file).
 1. 在畫面中央區段預覽並檢查資料的對應方式。
@@ -60,7 +59,7 @@ ht-degree: 41%
 
 建立及個人化訊息內容時，您可以從輸入檔案中選取欄位： [個人化編輯器](../personalization/gs-personalization.md).
 
-![](assets/select-external-perso.png)
+![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
 ## 範例檔案 {#sample-file}
 
@@ -93,7 +92,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 1. 傳遞內容的預覽會顯示在畫面的右側窗格中。 個人化元素會取代為左側窗格中選取之設定檔的資料。 [進一步瞭解傳遞內容預覽](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png)
+   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
 1. 若要傳送測試電子郵件，請按一下 **[!UICONTROL 測試]** 按鈕。
 
@@ -105,6 +104,6 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 1. 當校樣收件者新增且您已準備好傳送校樣時，請按一下 **[!UICONTROL 傳送測試電子郵件]** 按鈕並確認傳送。
 
-   ![](assets/file-upload-test.png)
+   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
 1. 您可以使用監控測試電子郵件的傳送 **[!UICONTROL 檢視測試電子郵件記錄]** 按鈕。 [進一步瞭解測試電子郵件監控](../preview-test/test-deliveries.md#access-test-deliveries)

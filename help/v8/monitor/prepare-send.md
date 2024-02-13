@@ -3,11 +3,10 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面準備和傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="有限可用性"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 38%
+source-wordcount: '911'
+ht-degree: 37%
 
 ---
 
@@ -26,12 +25,12 @@ ht-degree: 38%
 
 1. 從傳遞控制面板，按一下 **[!UICONTROL 檢閱並傳送]**.
 
-   ![](assets/email-review-and-send.png)
+   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
 
 
 1. 按一下 **[!UICONTROL 準備]** 按鈕進行確認。
 
-   ![](assets/email-prepare.png)
+   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -41,14 +40,14 @@ ht-degree: 38%
 
    您可以隨時使用 **[!UICONTROL 停止準備]** 按鈕。
 
-   ![](assets/email-stop-preparation.png)
+   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >在準備階段，不傳送任何訊息。因此，您可以開始或停止準備而不會影響任何東西。
 
 1. 準備作業完成後，請檢查 KPI。如果要傳送的訊息數與您的預期不符，請修改您的對象並重新開始準備。
 
-   ![](assets/email-preparation-complete.png)
+   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
 
    以下是顯示的不同 KPI：
 
@@ -58,11 +57,11 @@ ht-degree: 38%
 
 1. 按一下「**[!UICONTROL 記錄]**」按鈕並檢查沒有錯誤。最後的記錄訊息顯示所有錯誤訊息和錯誤數量。[了解更多](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png)
+   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
 
 1. 如果準備作業偵測到阻止傳送傳遞的嚴重錯誤，則在傳遞儀表板中準備狀態顯示為失敗。
 
-   ![](assets/email-prepare-error.png)
+   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
 
 1. 如果您在準備後對傳送進行任何變更，則必須重新開始準備，才能將這些變更納入考量。
 
@@ -81,7 +80,7 @@ ht-degree: 38%
 
 1. 在傳遞控制面板中，按一下 **[!UICONTROL 傳送]** 按鈕進行標籤。
 
-   ![](assets/email-send.png)
+   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
 
 1. 確認此動作以立即將訊息傳送至主要目標。
 
@@ -95,7 +94,7 @@ ht-degree: 38%
 
 1. 在傳遞控制面板中，按一下 **[!UICONTROL 依排程傳送按鈕]** 按鈕進行標籤。
 
-   ![](assets/email-send-as-scheduled.png)
+   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **[!UICONTROL 確認傳送]**. 系統會在排程日期將傳遞傳送至主要目標。
 
@@ -111,7 +110,7 @@ ht-degree: 38%
 
 * 按一下 **[!UICONTROL 停止傳送]** 立即中斷傳送。 一旦停止，準備和傳送作業將無法恢復。
 
-![](assets/email-send-pause-or-stop.png)
+![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
 
 ## 檢查 KPI {#check-kpis}
 
@@ -151,7 +150,7 @@ ht-degree: 38%
 
 傳送完成後，您可以檢查顯示的KPI：
 
-![](assets/email-send-kpis.png)
+![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
 
 * **[!UICONTROL 已傳送]**：傳送的訊息數。 顯示的百分比是以要傳送的訊息總數為基礎。
 

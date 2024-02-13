@@ -2,12 +2,11 @@
 audience: end-user
 title: 新增鏡像頁面連結
 description: 了解如何新增和管理鏡像頁面連結
-badge: label="有限可用性"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 98%
 
 ---
 
@@ -31,15 +30,15 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
 1. 選取元素，然後從內容關聯式工具列中按一下「**[!UICONTROL 插入連結]**」。
 
-   ![](assets/message-tracking-mirror-page.png)
+   ![](assets/message-tracking-mirror-page.png){zoomable=&quot;yes&quot;}
 
 1. 選取「**[!UICONTROL 新增個人化]**」圖示，以存取個人化選單。
 
-   ![](assets/message-tracking-mirror-page_2.png)
+   ![](assets/message-tracking-mirror-page_2.png){zoomable=&quot;yes&quot;}
 
 1. 從「**[!UICONTROL 內容區塊]**」選單，選取「**[!UICONTROL 鏡像頁面 URL]**」，然後按一下「**[!UICONTROL 新增]**」。
 
-   ![](assets/message-tracking-mirror-page_3.png)
+   ![](assets/message-tracking-mirror-page_3.png){zoomable=&quot;yes&quot;}
 
    有關自訂容區塊插入的詳細資訊，請參閱[本章節](../personalization/personalize.md#personalize-emails)。
 

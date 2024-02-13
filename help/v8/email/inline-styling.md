@@ -3,11 +3,10 @@ audience: end-user
 title: 新增內嵌樣式屬性
 description: 了解如何新增內嵌樣式屬性
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-badge: label="有限可用性"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
-source-wordcount: '125'
-ht-degree: 100%
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 96%
 
 ---
 
@@ -20,13 +19,13 @@ ht-degree: 100%
 
 1. 從「**[!UICONTROL 樣式]**」索引標籤，按一下「**[!UICONTROL 進階]**」下拉式清單。
 
-   ![](assets/styles_1.png)
+   ![](assets/styles_1.png){zoomable=&quot;yes&quot;}
 
 1. 修改現有屬性的值。
 
 1. 您可以使用 **+** 按鈕加入新屬性。您可以新增任何符合 CSS 的屬性和值。
 
-   ![](assets/styles_2.png)
+   ![](assets/styles_2.png){zoomable=&quot;yes&quot;}
 
 樣式會套用至選取的元素。
 

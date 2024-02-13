@@ -3,10 +3,9 @@ audience: end-user
 title: 使用波段傳送
 description: 進一步瞭解Campaign網頁中的傳遞設定
 feature: Email
-badge: label="有限可用性"
-source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '796'
 ht-degree: 4%
 
 ---
@@ -57,7 +56,7 @@ ht-degree: 4%
 
 如果選取此選項，則所有波段的大小都相同（最後一個波段除外），而且每個波段之間的延遲始終相同。
 
-![](assets/waves-same-size.png)
+![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
 
 * 指定您要分割傳遞的所有波段的大小。 您可以輸入百分比或數值。 只有最後一個波段的大小可以不同，因為它必須包含剩餘的訊息數量。
 
@@ -71,7 +70,7 @@ ht-degree: 4%
 
 若要這麼做，請選取 **[!UICONTROL 排程相同大小的多個波段]** 選項。 輸入 **[!UICONTROL 20]** 當波段大小和 **[!UICONTROL 1天]** 在 **[!UICONTROL 間隔]** 欄位。
 
-![](assets/waves-call-center.png)
+![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
 
 ## 根據行事曆排定波段 {#waves-calendar}
 
@@ -89,7 +88,7 @@ ht-degree: 4%
 
 在以下範例中，第一個波段代表傳送中包含之訊息總數的25%，而且會立即開始。 接下來的兩個批次會完成傳遞，並設定為每六小時開始一次。
 
-![](assets/waves-calendar.png)
+![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
 
 根據行事曆使用多個波段的常見使用案例是在向上移動過程中。
 
@@ -99,7 +98,7 @@ ht-degree: 4%
 
 若要這麼做，請使用 **[!UICONTROL 根據行事曆排程波段]** 選項。 例如，將第一個波段設為10%，將第二個波段設為15%，將第三個波段設為20%，以此類推。
 
-![](assets/waves-ramp-up.png)
+![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
 
 
 
