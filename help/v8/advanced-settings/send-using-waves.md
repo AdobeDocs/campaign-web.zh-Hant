@@ -6,7 +6,7 @@ feature: Email
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
->title="將傳遞分割為幾個批次"
->abstract="定義批次以將傳送分割為幾個批次，而不是同時傳送大量訊息。 您可以設定多個相同大小的波段，或設定傳送不同波段的行事曆。"
+>title="將傳遞內容分成幾批次"
+>abstract="定義波段以將傳遞內容分成幾批次，而不是同時傳送大量訊息。您可以設定多個相同大小的波段，或為要傳送的不同波段設定行事曆。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
 >title="定義每個波段的大小"
->abstract="您必須為要加入的所有波段輸入大小。 輸入數值（每個波次的訊息數）或百分比(0-100%)。"
+>abstract="您必須輸入要新增之所有波段的大小。輸入數值 (每個波段的訊息數量) 或百分比 (0-100%)。"
 
 若要平衡負載，您可以將電子郵件傳送劃分為幾個批次。 設定批次數量及其相對於整個傳送的比例，以及兩個批次之間的間隔。
 

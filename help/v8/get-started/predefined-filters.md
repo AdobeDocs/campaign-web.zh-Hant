@@ -5,7 +5,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 74%
+ht-degree: 79%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="預先定義的篩選器管理"
->abstract="Campaign Web使用者介面提供使用者易記的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供未來使用。"
+>abstract="Campaign Web 使用者介面現在提供易於使用的介面，以便您輕鬆管理和自訂預先定義的篩選器，以滿足您的特定需求。建立一次並儲存以供未來使用。"
 
 
 <!--TO REMOVE BELOW-->
@@ -29,7 +29,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="預先定義的篩選器"
->abstract="Campaign Web使用者介面為您提供好用的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存以供未來使用。"
+>abstract="Campaign Web 使用者介面現在為您提供易於使用的介面，以便您輕鬆管理和自訂預先定義的篩選器，以滿足您的特定需求。建立一次並儲存以供未來使用。"
 
 預先定義的篩選器就是建立並儲存以供未來使用的自訂篩選器。在使用查詢建模工具進行任何篩選作業時 (例如篩選資料清單或建立傳遞對象時)，可以將它們當作捷徑使用。
 

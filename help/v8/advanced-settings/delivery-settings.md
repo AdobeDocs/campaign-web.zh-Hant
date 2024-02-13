@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '2429'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="傳遞的傳遞設定"
->abstract="傳遞參數是套用到傳遞的技術設定。您可以變更傳遞和例行模式、啟用「電子郵件密件副本」、使用波段傳送，以及選擇所傳送電子郵件訊息的格式。 這些選項僅限於專業使用者。"
+>abstract="傳遞參數是套用到傳遞的技術設定。您可以變更傳遞和例行模式、啟動電子郵件密件副本、使用波段傳送，也可以選擇傳送電子郵件的格式。這些選項僅限於專業使用者。"
 
 **[!UICONTROL 傳遞]** 引數為適用於您傳送的技術設定。
 

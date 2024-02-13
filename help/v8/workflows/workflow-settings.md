@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="錯誤管理設定"
->abstract="在此區段中，您可以定義工作流程在執行期間應如何管理錯誤。 您可以選擇暫停處理序、忽略特定數目的錯誤，或停止工作流程執行。"
+>abstract="在此區段中，您可以定義工作流程在執行期間應如何管理錯誤。您可以選擇暫停流程、忽略一定數量的錯誤，或是停止工作流程執行。"
 
 * **[!UICONTROL 錯誤管理]**：此欄位可讓您定義工作流程任務發生錯誤時應採取的動作。 有三個可能的選項：
 

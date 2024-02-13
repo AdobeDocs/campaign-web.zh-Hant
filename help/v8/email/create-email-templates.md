@@ -11,7 +11,7 @@ exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '964'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="內容範本"
->abstract="為了加速及改善設計流程，您可以建立獨立的電子郵件範本，以輕鬆地在Adobe Campaign中重複使用自訂內容。 這些內容範本可根據內建或自訂範本、從現有內容建立或在內容範本編輯器中匯入，從頭開始設計。"
+>abstract="為了加快和改進設計流程，您可以建立獨立電子郵件範本，以輕鬆地在 Adobe Campaign 中重複使用自訂內容。這些內容範本可以根據內建或自訂範本從頭開始設計、從現有內容建立，或在內容範本編輯器中匯入。"
 
-為了加快和改進設計流程，您可以建立獨立的範本，以輕鬆地重複使用中的自訂內容 [!DNL Adobe Campaign]. 這些內容範本可根據內建或自訂範本、從現有內容建立或在內容範本編輯器中匯入，從頭開始設計。
+為了加快和改進設計流程，您可以建立獨立的範本，以輕鬆地重複使用中的自訂內容 [!DNL Adobe Campaign]. 這些內容範本可以根據內建或自訂範本從頭開始設計、從現有內容建立，或在內容範本編輯器中匯入。
 
 此功能可讓內容導向的使用者使用獨立的範本，以便行銷使用者可以重複使用並在其自己的電子郵件行銷活動中調整它們。
 
@@ -30,7 +30,7 @@ ht-degree: 8%
 >
 >目前僅適用 **電子郵件** 支援內容範本。
 
-## 存取內容範本 {#access-templates}
+## Access 內容範本 {#access-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
@@ -75,7 +75,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="定義您的範本屬性"
->abstract="需要時可輕鬆定義要擷取的電子郵件內容範本屬性。"
+>abstract="定義您的電子郵件內容範本屬性，以便在需要時輕鬆擷取。"
 
 若要從內容範本控制面板建立新的內容範本，請執行下列步驟：
 

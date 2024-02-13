@@ -364,10 +364,10 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="訂閱服務引數"
+>title="訂閱服務參數"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
->title="訂閱服務傳出轉換"
+>title="訂閱服務傳出轉變"
 >abstract="待定"

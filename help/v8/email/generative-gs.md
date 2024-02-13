@@ -29,7 +29,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="內容助理"
->abstract="精心設計和個人化傳遞後，您可以使用內容助理來強化內容。此功能可讓您透過描述您想產生的內容來進行微調，從而簡化個人化和改善內容的流程。"
+>abstract="精心設計和個人化傳遞後，您可以使用內容助理來強化內容。此功能可讓您透過描述您想產生的內容來進行微調，進而簡化個人化和改善內容的流程。"
 
 
 >[!CONTEXTUALHELP]
