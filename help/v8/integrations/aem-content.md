@@ -2,10 +2,9 @@
 audience: end-user
 title: 使用Adobe Experience Manager as a Cloud Service管理資產
 description: 瞭解如何使用Adobe Experience Manager as a Cloud Service管理內容
-badge: label="限量版"
-source-git-commit: 6fd2fa72e482883802c96f0888ea79f2b16b7152
+source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
