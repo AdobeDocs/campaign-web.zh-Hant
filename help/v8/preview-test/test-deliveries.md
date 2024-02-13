@@ -3,10 +3,9 @@ audience: end-user
 title: 傳送測試傳遞
 description: 瞭解如何定義並傳送測試傳遞
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="有限可用性"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1178'
 ht-degree: 13%
 
 ---
@@ -37,15 +36,13 @@ ht-degree: 13%
 1. 按一下 **[!UICONTROL 模擬內容]** 按鈕。
 1. 按一下 **[!UICONTROL 測試]** 按鈕以傳送測試傳遞。
 
-   ![](assets/simulate-test-button-email.png)
+   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
 
 1. 選取測試收件者。
 
    根據訊息通道，測試傳送可以傳送給下列型別的收件者：
 
-   * 對於簡訊與電子郵件，您可以使用 [測試設定檔](#test-profiles)，即資料庫中的其他特定收件者。 [了解更多](../audience/test-profiles.md)
-
-   * 對於簡訊與電子郵件，您也可以使用 [從主要目標替代](#substitution-profiles) 模式，將測試傳送傳送傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
+   * 對於簡訊與電子郵件，您可以使用 [測試設定檔](#test-profiles)，即資料庫中的其他特定收件者。 您也可以使用 [從主要目標替代](#substitution-profiles) 模式，將測試傳送傳送傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
 
    * 對於推送訊息，您可以使用 [訂閱者](#subscribers)，即新增至資料庫的虛擬訂閱者。 它們是在下列位置建立的： [!DNL Campaign] 主控台。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -73,31 +70,25 @@ ht-degree: 13%
 >title="將測試設定檔納入主要對象"
 >abstract="啟用此選項也可將最終訊息傳送給測試傳遞的收件者。"
 
-測試設定檔是種子地址，是資料庫中的其他收件者。 它們可從以下專案建立： **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 功能表。 [了解更多](../audience/test-profiles.md#create-test-profiles)
+測試設定檔是資料庫中的其他收件者。 它們是從 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 功能表。 [了解更多](../audience/test-profiles.md#create-test-profiles)
 
-傳送測試傳遞至種子地址的步驟詳述如下。
+傳送測試傳送至測試設定檔的步驟已詳述如下。
 
 1. 從傳送的內容中，按一下 **[!UICONTROL 模擬內容]** 按鈕，以及 **[!UICONTROL 測試]** 按鈕。
 
 1. 從 **[!UICONTROL 模式]** 下拉式清單，選擇 **[!UICONTROL 測試設定檔]** 將目標定位將接收測試電子郵件或簡訊傳送的虛構收件者。
 
-   ![](assets/simulate-profile-mode.png)
-
-   >[!NOTE]
-   >
-   >測試設定檔是從 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 功能表。 瞭解如何在中建立及管理範本 [本節](../audience/test-profiles.md#create-test-profiles).
+   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
 
 1. 如果您已選取設定檔至 [預覽訊息](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔作為測試收件者。 您可以使用「 」清除選擇和/或新增其他收件者 **[!UICONTROL 新增測試設定檔]** 按鈕。
 
-1. 瀏覽測試設定檔或設定檔清單時，您可以使用篩選器來縮小搜尋範圍。
+1. 瀏覽測試設定檔或設定檔清單時，您可以使用篩選器來縮小搜尋範圍。 例如，您可以定義規則以尋找所有具有 **[!UICONTROL 潛在客戶]** 狀態。 瞭解如何使用新增規則 [查詢模型工具](../query/query-modeler-overview.md).
 
-   ![](assets/simulate-test-profile-filter.png)
-
-   例如，您可以定義規則以尋找所有具有 **[!UICONTROL 潛在客戶]** 狀態。 瞭解如何使用新增規則 [查詢模型工具](../query/query-modeler-overview.md).
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
 1. 若要也傳送最終訊息給測試傳送的收件者，請選取 **[!UICONTROL 在主要目標中包含測試族群]** 選項。
 
-   ![](assets/simulate-include-test.png)
+   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
 
 1. 選取測試設定檔後，您可以 [傳送測試傳遞](#send-test).
 
@@ -106,7 +97,6 @@ ht-degree: 13%
 使用設定檔替代，將測試傳遞傳送至特定的電子郵件地址或電話號碼，同時顯示來自 [!DNL Adobe Campaign] 資料庫。 只有在已定義傳送的對象時，才能選取此模式。
 
 若要從主要目標取代設定檔資料，請遵循下列步驟：
-
 
 1. 從傳送的內容中，按一下 **[!UICONTROL 模擬內容]** 按鈕，以及 **[!UICONTROL 測試]** 按鈕。
 
@@ -118,7 +108,7 @@ ht-degree: 13%
 
 1. 按一下 **[!UICONTROL 新增地址]** 按鈕並指定要接收測試傳送的電子郵件地址或電話號碼。
 
-   ![](assets/simulate-add-substitution-address.png)
+   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -128,7 +118,7 @@ ht-degree: 13%
 
 1. 確認收件者並重複作業，視需要新增電子郵件地址或電話號碼。
 
-   ![](assets/simulate-profile-substitute.png)
+   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
 
 1. 若要也傳送最終訊息給測試傳送的收件者，請選取 **[!UICONTROL 在主要目標中包含測試族群]** 選項。
 
@@ -140,13 +130,13 @@ ht-degree: 13%
 
 1. 從推播傳送的內容中，按一下 **[!UICONTROL 模擬內容]** 按鈕，以及 **[!UICONTROL 測試]** 按鈕。
 
-   ![](assets/simulate-test-button-push.png)
+   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
 
 1. 如果您已選取訂閱者 [預覽傳遞](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔為測試訂閱者。
 
    您可以使用專用按鈕清除您的選擇和/或新增其他訂閱者。
 
-   ![](assets/simulate-test-subscribers.png)
+   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
 
 1. 若要也傳送最終推播通知給測試訂閱者，請選取 **[!UICONTROL 在主要目標中包含測試族群]** 選項。
 
@@ -160,7 +150,7 @@ ht-degree: 13%
 
 1. 確認傳送。
 
-   ![](assets/simulate-send-test.png)
+   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
 
 1. 傳送所需數量的測試，直到您完成傳送內容為止。
 
@@ -176,8 +166,8 @@ ht-degree: 13%
 
 這些記錄可讓您存取針對所選傳送傳送的所有測試，並視覺化與其傳送相關的特定統計資料。 [了解如何監控傳遞記錄](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png)
+![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
 
 您也可以從存取已傳送的測試 [傳遞清單](../msg/gs-messages.md)，就像任何傳送一樣。
 
-![](assets/simulate-deliveries-list.png)
+![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}

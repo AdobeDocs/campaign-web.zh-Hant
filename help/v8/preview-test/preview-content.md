@@ -3,10 +3,9 @@ audience: end-user
 title: 預覽傳遞內容
 description: 瞭解如何使用Campaign網頁使用者介面預覽您的傳遞內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="限量版"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -22,13 +21,9 @@ ht-degree: 1%
 
 1. 按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
-   ![](assets/simulate-button.png)
+   ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
-1. 若要選取將用來預覽個人化內容的設定檔，請使用：
-
-   * **[!UICONTROL 新增測試設定檔]** 用於預覽電子郵件和簡訊傳遞
-
-   * **[!UICONTROL 新增訂閱者]** 預覽推播通知
+1. 選取要用來預覽內容的設定檔。 若要這麼做，請按一下 **[!UICONTROL 新增測試設定檔]** 按鈕（適用於電子郵件和簡訊）或 **[!UICONTROL 新增訂閱者]** 按鈕（用於推播通知）。
 
 1. 您可以合併設定檔和測試設定檔，以預覽您的電子郵件或簡訊訊息。
 
@@ -36,19 +31,17 @@ ht-degree: 1%
 
    * 此 **[!UICONTROL 設定檔]** 索引標籤會列出儲存在資料庫中的所有設定檔。 [瞭解如何使用設定檔](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png)
+   ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
-1. 瀏覽測試設定檔或設定檔清單時，您可以使用篩選器來縮小搜尋範圍。
+1. 瀏覽測試設定檔或設定檔清單時，您可以使用篩選器來縮小搜尋範圍。 例如，您可以定義規則以尋找所有具有 **[!UICONTROL 潛在客戶]** 狀態。 [瞭解如何使用查詢建模器新增規則](../query/query-modeler-overview.md).
 
-   ![](assets/simulate-test-profile-filter.png)
-
-   例如，您可以定義規則以尋找所有具有 **[!UICONTROL 潛在客戶]** 狀態。 [瞭解如何使用查詢建模器新增規則](../query/query-modeler-overview.md).
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
 1. 按一下 **[!UICONTROL 選取]** 以確認您的選取。
 
    傳遞內容的預覽會顯示在 **[!UICONTROL 模擬]** 畫面。 個人化元素會取代為左側窗格中選取之設定檔的資料。
 
-   ![](assets/simulate-preview.png)
+   ![](assets/simulate-preview.png){zoomable=&quot;yes&quot;}
 
 1. 如果您已新增多個設定檔，您可以在清單中的設定檔之間切換，以預覽對應的傳送內容。 您也可以使用左窗格中的對應按鈕，新增更多測試設定檔並清除選取專案。
 
