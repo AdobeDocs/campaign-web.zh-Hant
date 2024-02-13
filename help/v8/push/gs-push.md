@@ -4,7 +4,7 @@ title: 開始使用推播通知
 description: 了解如何使用 Adobe Campaign Web 建立和傳送推播通知
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
