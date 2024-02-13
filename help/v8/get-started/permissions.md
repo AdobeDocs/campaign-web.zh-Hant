@@ -2,12 +2,11 @@
 audience: end-user
 title: Campaign Web使用者介面中的許可權管理
 description: 進一步瞭解Campaign網頁使用者介面中的許可權
-badge: label="有限可用性"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 97%
+source-wordcount: '601'
+ht-degree: 91%
 
 ---
 
@@ -67,11 +66,11 @@ ht-degree: 97%
 1. 從 **Explorer** 左側導覽選單選取一個資料夾。
 1. 按一下右上角的三個點，然後選取「**資料夾權限**」。
 
-   ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. 檢查畫面中的詳細資訊，如下所示：
 
-   ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    群組或操作員可以對儲存在所選資料夾的資料具有讀取、寫入和/或刪除的權限。
 
@@ -96,8 +95,8 @@ ht-degree: 97%
 1. 點選右上角的三個點，然後選擇「**建立新的子資料夾**」。
 1. 輸入資料夾名稱並儲存。
 
-   ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   該資料夾將新增為現有資料夾的子資料夾。瀏覽至該新資料夾以直接在其中建立元件。您也可以從任何資料夾建立元件，並將其儲存在該新資料夾，從屬性的「**其他選項**」章節，如下圖的傳遞所示：
+   該資料夾將新增為現有資料夾的子資料夾。瀏覽至該新資料夾以直接在其中建立元件。您也可以從任何資料夾中建立元件，然後將其儲存在該新資料夾的 **其他選項** 屬性的「 」區段，如下面的傳送所示：
 
-   ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
