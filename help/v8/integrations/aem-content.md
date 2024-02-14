@@ -2,9 +2,9 @@
 audience: end-user
 title: 使用Adobe Experience Manager as a Cloud Service管理資產
 description: 瞭解如何使用Adobe Experience Manager as a Cloud Service管理內容
-source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
+source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Adobe Campaign網頁介面與Adobe Experience Manager整合，有助於直接在
 
    ![](assets/aem_8.png)
 
-1. 如果直接在Adobe Experience Manager中變更範本，只要選取 **[!UICONTROL 重新整理AEM內容]** 以擁有最新版本的範本。
+1. 請注意，內容不會自動同步。 如果直接在Adobe Experience Manager中變更範本，只要選取 **[!UICONTROL 重新整理AEM內容]** 以擁有最新版本的範本。
 
 1. 若要移除Experience Manager與Campaign之間的連結，或若要進一步在電子郵件設計工具中個人化Experience Manager範本，請按一下 **[!UICONTROL 取消連結AEM內容]**.
 
