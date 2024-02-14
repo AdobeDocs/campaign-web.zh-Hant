@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web使用者介面新增功能
 description: 探索Campaign Web使用者介面的新功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1291'
 ht-degree: 74%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 74%
 
 >[!AVAILABILITY]
 >
->自Campaign v8.6發行版本開始，所有使用者皆可使用此版本。 若要深入瞭解Adobe Campaign發行版本，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+>此版本可供所有開始使用此版本的使用者使用 [Campaign v8.6版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). 若要深入瞭解Adobe Campaign發行版本，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 
 ## 主要功能 {#key-features}

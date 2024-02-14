@@ -4,9 +4,9 @@ title: 傳遞設定
 description: 進一步瞭解Campaign網頁中的傳遞設定
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2417'
 ht-degree: 54%
 
 ---
@@ -145,7 +145,7 @@ ht-degree: 54%
 
 * **[!UICONTROL 測試SMTP傳遞]**：此選項用於測試透過SMTP的傳送。 傳遞會處理到連線到SMTP伺服器，但不會傳送：對於每個傳遞收件者，Campaign會連線到SMTP提供者伺服器、執行SMTP RCPT TO命令，並在SMTP DATA命令之前關閉連線。
 
-* **[!UICONTROL 電子郵件密件副本]**：此選項是用來透過密件副本在外部系統上儲存電子郵件，僅需將密件副本電子郵件地址新增至您的訊息目標即可。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+* **[!UICONTROL 電子郵件密件副本]**：此選項是用來透過密件副本在外部系統上儲存電子郵件，僅需將密件副本電子郵件地址新增至您的訊息目標即可。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 在 **[!UICONTROL 波段定義]** 區段，選取 **[!UICONTROL 使用多個波段傳送]** 逐步增加使用波段傳送之音量的選項。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 [了解更多](send-using-waves.md)
 
@@ -192,8 +192,6 @@ ht-degree: 54%
 <!--Currently not visible in UI > ??-->
 
 因軟性或忽略錯誤而暫時未傳送的郵件可能會自動重試。 根據預設，排程在傳送的第一天進行五次重試，最小間隔為一小時分佈在一天中的24小時。
-
-進一步瞭解重試管理，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## 核准 {#approval}
 
