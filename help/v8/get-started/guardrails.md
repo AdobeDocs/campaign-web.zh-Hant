@@ -1,15 +1,15 @@
 ---
-title: Campaign Web使用者介面的護欄和限制
-description: Campaign Web使用者介面的護欄和限制
+title: Campaign Web使用者介面工作流程的護欄和限制
+description: 在Campaign Web使用者介面中使用工作流程時的護欄和限制
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 20%
+source-wordcount: '381'
+ht-degree: 19%
 
 ---
 
-# 護欄和限制 {#guardrails-limitations}
+# 工作流程的護欄和限制 {#guardrails-limitations}
 
 在Campaign網頁使用者介面中使用在Campaign使用者端主控台中建立或修改的工作流程時，以下列出的護欄和限制適用。
 
