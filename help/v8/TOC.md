@@ -5,8 +5,7 @@ user-guide-description: Adobe Campaign網頁使用者介面的產品檔案。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web使用者介面
-hide: true
-source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
+source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 92%
