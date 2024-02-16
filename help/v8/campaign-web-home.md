@@ -3,14 +3,14 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 99%
+source-wordcount: '672'
+ht-degree: 92%
 
 ---
 
-# Adobe Campaign Web使用者介面檔案 {#campaign-documentation}
+# Adobe Campaign Web 使用者介面文件 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -90,6 +90,12 @@ ht-degree: 99%
 
 >[!BEGINTABS]
 
+>[!TAB Adobe Experience Manager as a Cloud service整合]
+
+Adobe Campaign網頁介面與Adobe Experience Manager as a Cloud Service的整合可簡化電子郵件內容管理。 您現在可以直接在Adobe Experience Manager中建立和編輯電子郵件內容，然後順暢地將完成的範本匯入Adobe Campaign以進行傳送。
+
+[![影像](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+
 >[!TAB 跨管道工作流程]
 
 發掘自動化和最佳化的新可能性，讓您能夠建立更加動態和個人化的客戶歷程。從進階細分到條件式觸發器，我們的附加工作流程活動能讓您傳遞針對性訊息並提高行銷活動績效。
@@ -107,12 +113,6 @@ ht-degree: 99%
 Campaign 電子郵件設計工具讓您能夠透過直覺式的拖放介面建立引人入勝、量身打造的客製化電子郵件。無論您是從空白顯示窗開始，匯入現有的內容或利用現有的範本，都可針對每封電子郵件設計和改進所有內容。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
-
->[!TAB 設定檔 360]
-
-建立新的設定檔，並透過強大的報表和工具進行監控。存取設定檔的屬性、互動和紀錄。使用篩選選項瀏覽設定檔清單、編輯和更新其設定檔。
-
-[![影像](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
 >[!ENDTABS]
 
