@@ -6,7 +6,7 @@ feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 13%
+ht-degree: 24%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="登錄頁面"
->abstract="探索全新登陸頁面體驗。立即建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理贏取、訂閱/取消訂閱和封鎖清單使用案例。"
+>abstract="探索全新登陸頁面體驗。立即建立、設計和分享登陸頁面，將使用者導向線上網頁；您可以在這些網頁中根據內建範本來管理贏取、訂閱/取消訂閱和封鎖清單使用案例。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 [!DNL Adobe Campaign] 可讓您建立、設計和共用登入頁面。

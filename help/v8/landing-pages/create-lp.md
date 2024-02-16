@@ -5,7 +5,7 @@ feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 14%
+ht-degree: 24%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="建立和管理登陸頁面"
->abstract="Adobe Campaign可讓您建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理贏取、訂閱/取消訂閱和封鎖清單使用案例。"
+>abstract="Adobe Campaign 可讓您建立、設計和分享登陸頁面，將使用者導向線上網頁；您可以在這些網頁中根據內建範本來管理贏取、訂閱/取消訂閱和封鎖清單使用案例。"
 
 Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發佈後，您可以在傳送中插入表單連結。 收件者按一下該連結後，即會被導向相對應的登陸頁面。
 
@@ -50,12 +50,12 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="定義每個頁面的內容"
->abstract="調整屬於此登入頁面一部分的每個頁面的內容，例如表單本身、提交表單時顯示的確認頁面，或發生錯誤時將使用者導向到的頁面。"
+>abstract="調整屬於此登陸頁面的每個頁面內容，例如表單本身、提交表單時顯示的確認頁面或發生錯誤時引導使用者的頁面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="排程登陸頁面"
->abstract="您可以定義登陸頁面的開始日期和結束日期。當頁面達到有效期限結束時，表單將不再可用。 此 **有效期** 頁面會改為顯示。"
+>abstract="您可以定義登陸頁面的開始日期和結束日期。當頁面有效期限結束時，就無法再使用該表格。會改為顯示&#x200B;**有效期**&#x200B;頁面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -123,7 +123,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
      >
      >如果未定義開始日期，登入頁面在發佈後就會立即上線。
 
-   * 當頁面到達結束日期時， <!--the landing page is automatically unpublished and -->表單已無法使用。 此 **[!UICONTROL 有效期]** 頁面會改為顯示。
+   * 當頁面到達結束日期時， <!--the landing page is automatically unpublished and -->表單已無法使用。 會改為顯示&#x200B;**[!UICONTROL 有效期]**&#x200B;頁面。
 
      >[!NOTE]
      >
@@ -187,7 +187,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 >[!CAUTION]
 >
->若要完整測試或運用您的登入頁面，您無法直接複製此連結並貼至網頁瀏覽器或您的傳送中。 請改用 [模擬內容](#test-landing-page) 函式進行測試，並遵循中所述的步驟 [本節](lp-use-cases.md) 以正確使用您的登入頁面。
+>若要全面測試或善用您的登陸頁面，您不得將此連結直接複製並貼上到網頁瀏覽器或您的傳遞內容中。請改用 [模擬內容](#test-landing-page) 函式進行測試，並遵循中所述的步驟 [本節](lp-use-cases.md) 以正確使用您的登入頁面。
 
 ![](assets/lp-published.png){zoomable=&quot;yes&quot;}
 

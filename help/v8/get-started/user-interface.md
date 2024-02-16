@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '1640'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -319,7 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="變更資料來源"
->abstract="此 **變更資料來源** 活動可讓您為工作流程的工作表選取不同的資料來源。"
+>abstract="您可以使用&#x200B;**變更資料來源** 活動為工作流程的工作表選取不同的資料來源。"
 
 
 <!--

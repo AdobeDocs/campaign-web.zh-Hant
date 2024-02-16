@@ -4,7 +4,7 @@ description: 瞭解如何在Campaign網頁中監視和管理設定檔。
 source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 22%
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="設定檔"
->abstract="設定檔是目標接收Adobe Campaign傳送之訊息的記錄。 在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
+>abstract="設定檔代表鎖定接收 Adobe Campaign 所傳送訊息的記錄。在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
 
 ## 什麼是設定檔？ {#what}
 
