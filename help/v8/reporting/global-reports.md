@@ -3,16 +3,18 @@ audience: end-user
 title: 開始使用全域報告
 description: 瞭解全域報告
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 24%
+source-wordcount: '244'
+ht-degree: 21%
 
 ---
 
 # 開始使用全域報告 {#global-report-gs}
 
 **全域報告**&#x200B;是一種有效的工具，可為行銷活動執行個體中的每個管道提供流量和參與量度的整合性總體摘要。這些報告是由各種 Widget 所組成，每個 Widget 都提供有關您的行銷活動或傳遞績效的獨特觀點。
+
+關鍵績效指標(KPI)會每小時重新整理一次，以確保獲得最新的深入分析。 依預設，會篩選資料以涵蓋過去30天，提供您行銷活動和傳遞績效的最新及相關觀點。
 
 各管道的完整報表和相關量度清單可在下列頁面取得：
 
