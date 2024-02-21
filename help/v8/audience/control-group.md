@@ -3,9 +3,9 @@ audience: end-user
 title: 設定控制組
 description: 瞭解如何在Campaign網頁使用者介面中設定訊息的控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '803'
 ht-degree: 36%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 36%
 # 設定控制組 {#control-group}
 
 控制組是從傳送中排除的子族群。 您可以定義控制組以避免傳送訊息給部分對象，並將傳送後的行為與主要目標進行比較。 此選項可協助您測量行銷活動的影響。
+
+➡️ [在影片中探索此功能](create-audience.md#video)
 
 ## 啟用控制組{#add-a-control-group}
 
@@ -122,5 +124,3 @@ ht-degree: 36%
 傳送後，您可以擷取傳送記錄檔，以比較未接收通訊的設定檔與有效目標之間的行為。 您也可以使用傳送記錄來建置新目標定位。
 
 若要檢視已從目標移除的設定檔，請檢查 **傳遞記錄**. 瞭解更多 [在本節中](#check-control-group).
-
-
