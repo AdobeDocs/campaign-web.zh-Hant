@@ -3,10 +3,10 @@ audience: end-user
 title: 以電子郵件傳送報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2283'
-ht-degree: 38%
+source-wordcount: '2329'
+ht-degree: 36%
 
 ---
 
@@ -30,12 +30,11 @@ ht-degree: 38%
 
 此 **[!UICONTROL 初始目標母體]** 圖表顯示與收件者相關的資料。 量度會在傳遞準備期間計算並顯示：初始對象、要傳送的訊息數、排除的收件者數。
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
 
 將滑鼠移至圖表的一部分上以顯示確切的數字。
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
@@ -48,16 +47,14 @@ ht-degree: 38%
 
 ### 傳遞統計資料 {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="傳遞統計資料"
 >abstract="**傳遞統計資料**&#x200B;圖表詳細說明傳遞成功以及發生的錯誤。"
 
-
 此 **[!UICONTROL 傳遞統計資料]** 圖表會詳細說明您的傳送是否成功。 量度詳情如下。
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
@@ -147,7 +144,12 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="依類型的錯誤劃分"
->abstract="**依類型的錯誤劃分**&#x200B;資料表和圖表包含發生的每個錯誤類型的可用資料：使用者未知、郵箱已滿、網域無效等。"
+>abstract="此 **每種型別的錯誤劃分** 圖表包含遇到的每種錯誤型別的可用資料：使用者不明、信箱已滿、網域無效等等。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="依類型的錯誤劃分"
+>abstract="此 **每種型別的錯誤劃分** 表格提供每種錯誤型別發生的全面劃分。"
 
 此 **[!UICONTROL 每種型別的錯誤劃分]** 表格和圖表包含可用於錯誤型別的資料。 量度詳情如下。
 
@@ -173,15 +175,17 @@ ht-degree: 38%
 
 +++
 
-
 ### 依網域的錯誤劃分 {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="依網域的錯誤劃分"
->abstract="**依網域的錯誤劃分**&#x200B;資料表和圖表顯示根據每個網域發生的每個錯誤類型的可用資料。"
+>abstract="此 **每個網域的錯誤劃分** 圖形會根據每個網域顯示遇到的每種錯誤型別的可用資料。"
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="依網域的錯誤劃分"
+>abstract="此 **每個網域的錯誤劃分** 此表格會根據使用的網域，提供每個錯誤發生的全面劃分。"
 
 此 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖表會顯示每個網域可能遇到的錯誤的可用資料。
 
