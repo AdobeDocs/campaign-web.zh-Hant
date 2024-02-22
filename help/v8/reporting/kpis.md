@@ -91,7 +91,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_subscriptions"
 >title="訂閱"
->abstract="此量度可顯示 (所選管道) 一項服務的所有訂閱總計，以及訂閱佔已成功傳遞訊息總數的百分比。"
+>abstract="此量度可顯示 (所選管道) 一項服務的所有訂閱總數，以及訂閱佔已成功傳遞訊息總數的百分比。"
 
 
 收件者可以選擇加入電子郵件和簡訊通訊。

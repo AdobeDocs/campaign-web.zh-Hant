@@ -14,7 +14,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="預先定義的篩選器管理"
->abstract="Campaign Web 使用者介面現在提供易於使用的介面，以便您輕鬆管理和自訂預先定義的篩選器，以滿足您的特定需求。建立一次並儲存以供未來使用。"
+>abstract="Campaign Web 用户界面提供了用户友好的界面，可轻松管理和自定义预定义过滤器，以满足您的特定需求。建立一次並儲存以供未來使用。"
 
 
 <!--TO REMOVE BELOW-->
