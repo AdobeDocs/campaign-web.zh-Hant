@@ -3,20 +3,16 @@ audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 瞭解如何使用Adobe Campaign Web建立工作流程
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 25%
+source-wordcount: '745'
+ht-degree: 20%
 
 ---
 
 
 # 建立工作流程 {#create-first-workflow}
 
->[!CONTEXTUALHELP]
->id="acw_workflow_creation_properties"
->title="工作流程屬性"
->abstract="在此畫面中，選擇用於建立工作流程的範本並指定標籤。展開「其他選項」區段以設定更多設定，例如工作流程內部名稱、其資料夾、時區和主管群組。強烈建議選取一個主管群組，以便在發生錯誤時警告操作者。"
 
 
 >[!CONTEXTUALHELP]

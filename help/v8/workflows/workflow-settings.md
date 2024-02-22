@@ -3,21 +3,26 @@ audience: end-user
 title: 設定工作流程設定
 description: 瞭解如何使用Adobe Campaign Web進行工作流程設定
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 26%
+source-wordcount: '1025'
+ht-degree: 28%
 
 ---
 
 
 # 設定工作流程設定 {#workflow-settings}
 
-在畫布中協調工作流程活動時，您可以存取與工作流程相關的進階設定。 例如，您可以為工作流程設定特定時區、管理工作流程在發生錯誤時的行為方式，或管理應清除工作流程歷史記錄的延遲。
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_creation_properties"
+>title="工作流程屬性"
+>abstract="在此畫面中，選擇用於建立工作流程的範本並指定標籤。展開 **其他選項** 區段來設定更多設定，例如工作流程內部名稱、其資料夾、時區和主管群組。 強烈建議選取一個主管群組，以便在發生錯誤時警告操作者。"
+
+在畫布中建立工作流程或協調工作流程活動時，您可以存取與工作流程相關的進階設定。 例如，您可以為工作流程設定特定時區、管理工作流程在發生錯誤時的行為方式，或管理應清除工作流程歷史記錄的延遲。
 
 這些設定在建立工作流程時，會在選取的範本中預先設定，但可視需要為此特定工作流程進行編輯。
 
-若要這麼做，請按一下 **[!UICONTROL 設定]** 按鈕在工作流程畫布上方的動作列中。
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
@@ -28,7 +33,8 @@ ht-degree: 26%
 >title="工作流程屬性"
 >abstract="本區段提供一般工作流程屬性，在建立工作流程時也可以存取這些屬性。您可以選擇用於建立工作流程的範本並指定標籤。展開其他選項區段以完成特定設定，例如工作流程儲存資料夾或時區。"
 
-此 **[!UICONTROL 屬性]** 區段提供一般設定，當您建立工作流程時也可以存取這些設定。
+此 **[!UICONTROL 屬性]** 一節提供建立工作流程時可配置的一般設定。 若要存取現有工作流程的屬性，請按一下 **[!UICONTROL 設定]** 按鈕在工作流程畫布上方的動作列中。
+
 
 ![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
