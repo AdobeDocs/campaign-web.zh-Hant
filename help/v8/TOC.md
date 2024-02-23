@@ -8,14 +8,14 @@ breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Campaign Web 文件 {#v8}
 
-+ [Adobe Campaign Web使用者介面檔案](campaign-web-home.md)
++ [Adobe Campaign Web 使用者介面文件](campaign-web-home.md)
 + [新增功能](rn/whats-new.md)
 + [文件更新](rn/documentation-updates.md)
 + 開始使用 Adobe Campaign {#start}
@@ -25,7 +25,7 @@ ht-degree: 95%
    + [瀏覽和篩選清單](get-started/list-filters.md)
    + [使用預先定義的篩選器](get-started/predefined-filters.md)
    + [存取權與權限](get-started/permissions.md)
-   + [Campaign Web與Campaign使用者端主控台](get-started/capability-matrix.md)
+   + [Campaign Web 與 Campaign 用戶端主控台](get-started/capability-matrix.md)
    + [採用 AI 技術的內容說明](get-started/using-ai.md)
 + 訊息和傳遞{#msg}
    + [開始使用訊息](msg/gs-messages.md)
@@ -87,11 +87,11 @@ ht-degree: 95%
       + [傳送測試傳遞](preview-test/test-deliveries.md)
       + [測試電子郵件轉譯](preview-test/email-rendering.md)
 + 登陸頁面 {#landing-pages}
-   + [登陸頁面快速入門](landing-pages/get-started-lp.md)
+   + [開始使用登陸頁面](landing-pages/get-started-lp.md)
    + [建立並發佈登陸頁面](landing-pages/create-lp.md)
    + [設計登陸頁面內容](landing-pages/lp-content.md)
    + [使用登陸頁面範本](landing-pages/lp-templates.md)
-   + [透過使用案例瞭解](landing-pages/lp-use-cases.md)
+   + [透過使用案例了解](landing-pages/lp-use-cases.md)
 + 設定檔與對象 {#audiences}
    + [開始使用設定檔和對象](audience/gs-audiences-recipients.md)
    + [目標定位維度](audience/targeting-dimensions.md)
@@ -168,5 +168,5 @@ ht-degree: 95%
       + [簡訊全域報告](reporting/global-report-sms.md)
 + 整合 {#integrations}
    + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](integrations/aem-assets.md)
-   + [使用Adobe Experience Manager as a Cloud Service管理範本](integrations/aem-content.md)
+   + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
 
