@@ -4,9 +4,9 @@ description: 在 Campaign Web 說明彈出視窗中提出問題
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 82%
 
 >[!AVAILABILITY]
 >
->* AI支援的內容說明有測試版提供，且可能隨時變更，恕不另行通知。
+>* AI 驅動的內容說明可在 Beta 版本使用，如有變更，恕不另行通知。
 >
 >* 此功能僅以&#x200B;**英文**&#x200B;提供。此版本不支援其他語言。因此，請務必在使用此功能之前，將[偏好的語言](connect-to-campaign.md#language-pref)設定為英文。
 >
->* Campaign電子郵件設計工具目前不提供AI支援的內容說明。
+>* Campaign 電子郵件設計工具目前不提供 AI 驅動的內容說明。
 
 
 <!--
@@ -44,18 +44,18 @@ The knowledge assistant AI capability does not use your data to train our models
 For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
 -->
 
-## 建議的問題 {#questions-ai}
+## 建議問題 {#questions-ai}
 
-從輸入欄位，Adobe Campaign AI支援的情境式說明提出了三個建議問題。 這些問題由AI產生，與說明方塊和目前產品內容相關。 選取要取得答案的問題。
+Adobe Campaign AI 驅動的內容說明從輸入欄位提出三個建議問題。這些問題由 AI 產生，與說明方塊及目前產品內容相關。 選取要取得答案的問題。
 
-![內容說明建議的問題](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+![內容說明建議問題](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
 
 
 ## 答案 {#answers-ai}
 
 Adobe Campaign AI 驅動的內容說明可以提供協助，但您應該驗證事實。它可能會輸出不正確的資訊、不準確或誤導性的答案。請務必檢查每個說明方塊中連結的產品文件。
 
-您可以使用將答案複製到剪貼簿 **複製** 圖示加以存取。
+您可使用說明快顯視窗底部的&#x200B;**複製**&#x200B;圖示來複製答案至剪貼簿。
 
 ![內容說明複製答案](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
 

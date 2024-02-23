@@ -3,9 +3,9 @@ title: 連線至 Adobe Campaign Web 介面
 description: 了解如何連線至 Adobe Campaign Web 使用者介面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
 ## 登入 Adobe Experience Cloud {#sign-in-to-exc}
 
-您只能使用單一登入(SSO)來連線至Campaign。 通常 Experience Cloud 管理員會授予存取應用程式和服務的權限。 依照電子郵件邀請中的步驟進行，加入 Experience Cloud。
+您只能使用單一登入 (SSO) 來連線至 Campaign。通常 Experience Cloud 管理員會授予存取應用程式和服務的權限。 依照電子郵件邀請中的步驟進行，加入 Experience Cloud。
 
 若要登入 Adobe Experience Cloud，基本步驟如下：
 
@@ -52,7 +52,7 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
 瀏覽介面的頂端列以進行下列作業：
 
-* 分享有關Campaign Web使用者介面的意見回饋
+* 分享有關 Campaign Web 使用者介面的意見
 * 在組織之間切換
 * 在 Adobe Experience Cloud 解決方案和應用程式之間切換
 * 在 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant){target="_blank"} 上搜尋說明

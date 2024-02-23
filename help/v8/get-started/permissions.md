@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Campaign Web使用者介面中的許可權管理
-description: 進一步瞭解Campaign網頁使用者介面中的許可權
+title: Campaign Web 使用者介面中的權限管理
+description: 深入了解 Campaign Web 使用者介面的權限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 91%
 
 存取控制可以限制存取主要清單中的物件和資料，例如傳遞、收件者或工作流程。這些限制也適用於 **Explorer** 導覽樹狀目錄。此外，您需要從使用者介面建立、刪除、複製和編輯物件的權限。
 
-在 Campaign 用戶端主控台管理存取控制。Campaign Web 中的所有權限均與 Campaign 用戶端主控台權限同步。只有 Campaign 管理員可以定義和修改使用者權限。請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}，以了解有關使用者權限的更多資訊。
+在 Campaign 用戶端主控台管理存取控制。Campaign Web 中的所有權限均與 Campaign 用戶端主控台權限同步。只有 Campaign 管理員可以定義和修改使用者權限。請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=zh-Hant){target="_blank"}，以了解有關使用者權限的更多資訊。
 
 當您瀏覽 Campaign Web 使用者介面時，可以根據您的權限存取資料、物件和功能。例如，如果沒有資料夾的存取權限，就看不到。您的權限也會影響物件和資料管理。如果沒有特定資料夾的寫入權限，即使可以在使用者介面中看到，也無法在該資料夾中建立傳遞。
 
@@ -78,7 +78,7 @@ ht-degree: 91%
 
    如果啟用「**系統資料夾**」選項，無論其權限為何，所有操作員都可以存取。
 
-請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html){target="_blank"}，以了解有關資料夾權限的更多資訊。
+請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html?lang=zh-Hant){target="_blank"}，以了解有關資料夾權限的更多資訊。
 
 
 ## 使用資料夾 {#folders}
@@ -97,6 +97,6 @@ ht-degree: 91%
 
    ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   該資料夾將新增為現有資料夾的子資料夾。瀏覽至該新資料夾以直接在其中建立元件。您也可以從任何資料夾中建立元件，然後將其儲存在該新資料夾的 **其他選項** 屬性的「 」區段，如下面的傳送所示：
+   該資料夾將新增為現有資料夾的子資料夾。瀏覽至該新資料夾以直接在其中建立元件。您也可以從任何資料夾建立元件，然後為傳遞從屬性的「**其他選項**」區段，將其儲存在該新資料夾，如下圖所示：
 
    ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
