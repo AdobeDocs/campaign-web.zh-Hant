@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 153632e87a6622fb135a59ed9a1f413c03b3752c
+source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 97%
+source-wordcount: '1687'
+ht-degree: 94%
 
 ---
 
@@ -371,3 +371,49 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="訂閱服務傳出轉變"
 >abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="載入檔案指令"
+>abstract="允許任意命令進行前置處理是安全性問題，請停用安全性選項XtkSecurity_Disable_Preproc以強制使用預先定義的命令清單。"
+
+
+
+
+<!--Update file-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata"
+>title="更新資料"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_operationtype"
+>title="更新資料"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_recordid"
+>title="更新資料"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_fieldsupdate"
+>title="更新資料"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_advancedoptions"
+>title="更新資料"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_outboundtransition"
+>title="更新資料"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_outboundtransition_rejects"
+>title="更新資料"
+>abstract="待定"
+
