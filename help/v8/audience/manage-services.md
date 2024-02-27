@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 29%
+ht-degree: 34%
 
 ---
 
@@ -129,12 +129,12 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="訂閱者計數"
->abstract="按一下「**計算**」取得此服務的訂閱者總數。"
+>abstract="按一下「**計算**」，取得此服務的訂閱者總數。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"
 >title="訂閱者總數"
->abstract="關鍵績效指標(KPI)提供訂閱者基礎的完整檢視，顯示已訂閱此服務的個人總數。"
+>abstract="關鍵績效指標 (KPI) 旨在提供訂閱者人數的全面視圖，顯示訂閱此服&#x200B;&#x200B;務的個人總數。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"

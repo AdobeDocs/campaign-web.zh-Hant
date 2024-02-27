@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
 source-wordcount: '2329'
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
@@ -144,12 +144,12 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="依類型的錯誤劃分"
->abstract="此 **每種型別的錯誤劃分** 圖表包含遇到的每種錯誤型別的可用資料：使用者不明、信箱已滿、網域無效等等。"
+>abstract="**依類型的錯誤劃分**&#x200B;圖表包含發生的每個錯誤類型的可用資料：使用者未知、郵箱已滿、網域無效等。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="依類型的錯誤劃分"
->abstract="此 **每種型別的錯誤劃分** 表格提供每種錯誤型別發生的全面劃分。"
+>abstract=" **依類型的錯誤劃分**&#x200B;表格提供每種錯誤類型發生次數的全面劃分。"
 
 此 **[!UICONTROL 每種型別的錯誤劃分]** 表格和圖表包含可用於錯誤型別的資料。 量度詳情如下。
 
@@ -180,12 +180,12 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="依網域的錯誤劃分"
->abstract="此 **每個網域的錯誤劃分** 圖形會根據每個網域顯示遇到的每種錯誤型別的可用資料。"
+>abstract="**依網域的錯誤劃分**&#x200B;圖表顯示根據每個網域發生的每個錯誤類型的可用資料。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="依網域的錯誤劃分"
->abstract="此 **每個網域的錯誤劃分** 此表格會根據使用的網域，提供每個錯誤發生的全面劃分。"
+>abstract=" **依網域的錯誤劃分** 表格根據所使用網域提供每種錯誤發生次數的全面劃分。"
 
 此 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖表會顯示每個網域可能遇到的錯誤的可用資料。
 
