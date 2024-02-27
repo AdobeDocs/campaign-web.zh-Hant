@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
+source-git-commit: c005ed49c8f19274f339f9c256fe648ed34a8ca5
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1692'
 ht-degree: 97%
 
 ---
@@ -376,6 +376,11 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_loadfile_command"
 >title="載入檔案指令"
 >abstract="允許任意命令進行前置處理是安全性問題，請停用安全性選項XtkSecurity_Disable_Preproc以強制使用預先定義的命令清單。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="匯入後刪除檔案"
+>abstract="待定"
 
 
 
