@@ -2,10 +2,10 @@
 title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 24%
+source-wordcount: '1376'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 24%
 
 Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發佈後，您可以在傳送中插入表單連結。 收件者按一下該連結後，即會被導向相對應的登陸頁面。
 
-[!DNL Adobe Campaign] 隨附四個範本，用於管理下列使用案例： **贏取**， **訂閱**， **取消訂閱**、和 **封鎖清單**.
+[!DNL Adobe Campaign] 隨附四個範本，用於管理下列使用案例： **贏取**， **訂閱**， **取消訂閱**、和 **封鎖清單**. [了解更多](lp-use-cases.md)
 
 ## 存取登陸頁面 {#access-landing-pages}
 
@@ -34,7 +34,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 >[!CAUTION]
 >
->您無法在Campaign網頁使用者介面中顯示或編輯從使用者端主控台（網頁表單）建立的登入頁面。 進一步瞭解 [Campaign主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>您無法在Campaign網頁使用者介面中顯示或編輯從使用者端主控台（網頁表單）建立的登入頁面。 進一步瞭解 [Campaign主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=zh-Hant){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -58,14 +58,14 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 >abstract="您可以定義登陸頁面的開始日期和結束日期。當頁面有效期限結束時，就無法再使用該表格。會改為顯示&#x200B;**有效期**&#x200B;頁面。"
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="定義主要頁面設定"
->abstract="使用者點選您的登陸頁面連結 (例如從電子郵件或網站) 後，主要頁面會隨即向使用者顯示。"
+>id="acw_landingpages_preload"
+>title="定義預先載入選項"
+>abstract="當 **使用表單中參照的資料預先填寫** 選項經已選取，若登入頁面的訪客符合資料庫中的設定檔，則會自動在表單中預先載入設定檔的資訊。 使用 **如果沒有ID，則跳過預先載入** 選取的選項，則每個輸入的設定檔都會在核准表單後新增至資料庫。"
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="設定訂閱登陸頁面"
->abstract="訂閱頁面可讓您的客戶訂閱服務。"
+>id="acw_landingpages_storage"
+>title="定義儲存選項"
+>abstract="預先載入區段可讓您指定如何在資料庫中尋找要更新的記錄。"
 
 <!--The main steps to create landing pages are as follows:
 

@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
-source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 5%
+source-wordcount: '1381'
+ht-degree: 8%
 
 ---
 
@@ -21,11 +21,17 @@ ht-degree: 5%
 >title="請謹慎複製 URL"
 >abstract="若要全面測試或善用您的登陸頁面，您不得將此連結直接複製並貼上到網頁瀏覽器或您的傳遞內容中。請改用&#x200B;**模擬內容**&#x200B;功能對其進行測試，並按照文件中所述的步驟正確使用您的登陸頁面。"
 
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_templates"
+>title="請謹慎複製 URL"
+>abstract="建立登入頁面時，有四個現成可用的範本可讓您實作不同的使用案例：新增或更新至Campaign資料庫的設定檔、讓客戶訂閱服務、取消訂閱服務，或選擇讓使用者退出。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="設定登陸頁面"
+
 若要正確使用登入頁面，您應使用專用選項，將其作為傳送中的連結參照。
 
 >[!CAUTION]
 >
->若要充分利用登入頁面，您無法將已發佈傳遞控制面板中顯示的連結直接複製並貼到您的傳遞或網頁中。
+>若要充分利用登入頁面，您無法將已發佈傳遞控制面板中顯示的連結直接複製並貼到您的傳遞或網頁中。 在本節中瞭解如何正確操作。
 
 在 [!DNL Adobe Campaign Web] 推論出，有四個現成可用的範本可讓您實作不同的使用案例。 不過，主要步驟保持不變，詳見下文。
 
@@ -105,6 +111,11 @@ ht-degree: 5%
 ![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## 訂閱服務 {#lp-subscription}
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="設定訂閱登陸頁面"
+>abstract="訂閱頁面可讓您的客戶訂閱服務。"
 
 最常見的使用案例之一是邀請客戶 [訂閱服務](../audience/manage-services.md) （例如電子報或活動）瀏覽登陸頁面。 請遵循下列步驟。
 
