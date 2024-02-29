@@ -17,7 +17,7 @@ ht-degree: 17%
 >title="預覽和測試您的內容"
 >abstract="定義內容後，您就可以使用設定檔和測試設定檔進行預覽及測試。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-Hant" text="傳送測試傳遞"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="測試登陸頁面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hant#test-landing-page" text="測試登陸頁面"
 
 定義您的傳送內容後，您可以使用設定檔和測試設定檔，在傳送訊息之前進行預覽和測試。 這是確保正確性的重要步驟，但內容與個人化設定中也不會有錯誤。
 

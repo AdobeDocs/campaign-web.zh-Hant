@@ -59,7 +59,7 @@ ht-degree: 43%
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="選取目標定位維度"
 >abstract="選取要調和之輸入資料的目標定位維度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="目標定位維度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hant#targeting-dimensions" text="目標定位維度"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
