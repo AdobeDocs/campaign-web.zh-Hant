@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 39%
+source-wordcount: '719'
+ht-degree: 40%
 
 ---
 
@@ -45,6 +45,11 @@ ht-degree: 39%
 >id="acw_campaign_delivery_list"
 >title="行銷活動中的傳遞清單"
 >abstract="「**傳遞**」標籤會列出連結至目前行銷活動的所有傳遞。按一下傳遞的名稱以進行編輯。使用「建立傳遞」按鈕為此行銷活動新增傳遞。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="活動中的工作流程清單"
+>abstract="活動中的工作流程清單"
 
 在 **瀏覽** 索引標籤中，按一下行銷活動名稱以顯示其詳細資料。
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 使用者介面中的權限管理
 description: 深入了解 Campaign Web 使用者介面的權限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: ht
-source-wordcount: '601'
-ht-degree: 100%
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 98%
 
 ---
 
@@ -17,18 +17,20 @@ ht-degree: 100%
 >title="需要權限"
 >abstract="您的管理員必須先授予您權限，您才能建立此物件。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="此對象為唯讀"
 >abstract="您沒有編輯此對象的權限。如果需要，請聯絡管理員為您授予存取權限。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="此服務為唯讀資料"
 >abstract="您沒有編輯此服務的權限。如果需要，請聯絡管理員為您授予存取權限。"
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="收件者唯讀設定檔"
+>abstract="您沒有編輯此設定檔的許可權。 如果需要，請聯絡管理員為您授予存取權限。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"

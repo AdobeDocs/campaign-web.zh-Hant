@@ -3,8 +3,8 @@ audience: end-user
 title: 用於建立工作流程的主要原則
 description: 了解使用 Adobe Campaign Web 的關鍵工作流程原則
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
@@ -14,7 +14,6 @@ ht-degree: 100%
 # 用於建立工作流程的主要原則 {#gs-workflow-creation}
 
 透過 Adobe Campaign Web，您可以將工作流程建置到視覺化畫布中，以設計跨管道流程，例如分段、行銷活動執行、檔案處理。
-
 
 ## 工作流程內部有什麼？ {#gs-workflow-inside}
 
@@ -44,7 +43,6 @@ ht-degree: 100%
 1. 可以從行銷活動的「**工作流程**」標籤，直接在行銷活動內建立工作流程。在包含於行銷活動時，工作流程與所有其他行銷活動的工作流程一起執行，且報告量度全部在行銷活動層級分組。
 
    ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
-
 
 建立工作流程的關鍵步驟如下所示：
 

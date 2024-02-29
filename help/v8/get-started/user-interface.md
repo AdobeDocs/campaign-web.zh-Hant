@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c005ed49c8f19274f339f9c256fe648ed34a8ca5
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 97%
+source-wordcount: '1637'
+ht-degree: 99%
 
 ---
 
@@ -163,11 +163,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="全球報告追蹤"
 >abstract="此畫面中會顯示追蹤報告指標"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_workflow_list"
->title="活動中的工作流程清單"
->abstract="活動中的工作流程清單"
-
 
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
@@ -205,19 +200,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="收件者優惠預覽"
 >abstract="收件者優惠預覽"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_readonlyprofile"
->title="收件者唯讀設定檔"
->abstract="收件者唯讀設定檔"
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_query_enrichment_noneditable"
->title="活動不可編輯"
->abstract="活動不可編輯"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -283,21 +265,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="模擬測試設定檔"
 >abstract="模擬測試設定檔"
 
+<!--ML: not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="模擬測試設定檔選擇"
 >abstract="模擬測試設定檔選擇"
+
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="模擬測試設定檔傳送中"
 >abstract="模擬測試設定檔傳送中"
 
+<!-- ML: beta wiki page - not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="模擬電子郵件記錄"
 >abstract="模擬電子郵件記錄"
 
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
@@ -352,6 +341,11 @@ Deprecated IDs - to remove in GA: -->
 >title="在相同表格中產生所有子集"
 >abstract="待定"
 
+<!-- ML: not found in wiki pages-->
+
+
+<!-- Subscription activity-->
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="預設登陸頁面"
@@ -371,18 +365,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="訂閱服務傳出轉變"
 >abstract="待定"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_command"
->title="載入檔案指令"
->abstract="允許任意命令進行前置處理是安全性問題，請停用安全性選項XtkSecurity_Disable_Preproc以強制使用預先定義的命令清單。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_delete"
->title="匯入後刪除檔案"
->abstract="待定"
-
-
 
 
 <!--Update file-->

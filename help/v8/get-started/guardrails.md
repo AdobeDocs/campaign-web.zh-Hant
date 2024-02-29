@@ -2,9 +2,9 @@
 title: Campaign Web使用者介面工作流程的護欄和限制
 description: 在Campaign Web使用者介面中使用工作流程時的護欄和限制
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '374'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 93%
 
 ## 工作流程活動 {#wkf-activities}
 
-Campaign Web 尚不支援的工作流程活動為唯讀，並會顯示為不相容的活動。您仍然可以執行工作流程、傳送訊息、檢查記錄等。Campaign Web 和用戶端主控台中可用的工作流程活動均可編輯。
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_query_enrichment_noneditable"
+>title="活動不可編輯"
+>abstract="當在主控台利用其他資料設定&#x200B;**查詢**&#x200B;或&#x200B;**擴充**&#x200B;活動時，Campaign Web 會將擴充資料納入考量，並傳遞至出站轉變，但無法編輯。"
 
 Campaign Web 中尚不支援的工作流程活動為唯讀，並會顯示為不相容的活動。您仍然可以執行工作流程、傳送訊息、檢查記錄等。Campaign Web 使用者介面和 Campaign 用戶端主控台都可用的工作流程活動均可編輯。
 

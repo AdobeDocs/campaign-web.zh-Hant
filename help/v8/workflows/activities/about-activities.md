@@ -3,7 +3,7 @@ audience: end-user
 title: 使用工作流程活動
 description: 了解如何使用工作流程活動
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 35%
@@ -36,7 +36,6 @@ ht-degree: 35%
 * 使用 [重複資料刪除](deduplication.md) 活動以刪除入站活動結果中的重複專案。
 * 使用 [變更維度](change-dimension.md) 活動，以在您建置工作流程時變更目標維度。
 * 使用 [載入檔案](load-file.md) 使用儲存在外部檔案中的設定檔和資料的活動。
-
 
 ## 管道活動 {#channel}
 

@@ -3,8 +3,8 @@ audience: end-user
 title: 開始使用工作流程
 description: 了解如何開始使用工作流程
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -17,7 +17,6 @@ ht-degree: 100%
 >title="跨管道工作流程"
 >abstract="發掘自動化和最佳化的新可能性，讓您能夠建立更加動態和個人化的客戶歷程。從進階細分到條件式觸發器，我們的附加工作流程活動能讓您傳遞針對性訊息並提高行銷活動績效。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hant" text="請參閱版本注意事項"
-
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

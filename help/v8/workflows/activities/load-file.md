@@ -3,10 +3,10 @@ audience: end-user
 title: 使用載入檔案工作流程活動
 description: 瞭解如何使用載入檔案工作流程活動
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 33%
+source-wordcount: '376'
+ht-degree: 36%
 
 ---
 
@@ -62,6 +62,15 @@ ht-degree: 33%
 >title="載入檔案活動的值重新對應"
 >abstract="載入檔案活動的值重新對應"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="載入檔案指令"
+>abstract="允許任意命令進行前置處理是安全性問題，請停用安全性選項XtkSecurity_Disable_Preproc以強制使用預先定義的命令清單。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="匯入後刪除檔案"
+>abstract="待定"
 
 **載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動來處理儲存在外部檔案中的設定檔和資料。 設定檔和資料不會新增至資料庫，但輸入檔案中的所有欄位都可用於 [個人化](../../personalization/gs-personalization.md)，或更新設定檔或任何其他表格。
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 設定工作流程設定
 description: 瞭解如何使用Adobe Campaign Web進行工作流程設定
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 28%
@@ -13,7 +13,6 @@ ht-degree: 28%
 
 # 設定工作流程設定 {#workflow-settings}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="工作流程屬性"
@@ -22,7 +21,6 @@ ht-degree: 28%
 在畫布中建立工作流程或協調工作流程活動時，您可以存取與工作流程相關的進階設定。 例如，您可以為工作流程設定特定時區、管理工作流程在發生錯誤時的行為方式，或管理應清除工作流程歷史記錄的延遲。
 
 這些設定在建立工作流程時，會在選取的範本中預先設定，但可視需要為此特定工作流程進行編輯。
-
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
