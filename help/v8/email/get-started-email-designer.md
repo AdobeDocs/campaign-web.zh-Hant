@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 編輯電子郵件內容
-description: 瞭解如何在Campaign網頁使用者介面中使用電子郵件設計工具開始建立您的內容
+description: 了解如何使用 Campaign Web 使用者介面中的電子郵件設計工具開始建置您的內容
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
