@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 36%
+ht-degree: 44%
 
 ---
 
@@ -64,8 +64,8 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
->title="載入檔案指令"
->abstract="允許任意命令進行前置處理是安全性問題，請停用安全性選項XtkSecurity_Disable_Preproc以強制使用預先定義的命令清單。"
+>title="載入檔案命令"
+>abstract="允許任意命令進行預處理是一個安全性問題，停用安全選項 XtkSecurity_Disable_Preproc 以強制使用預先定義的命令清單。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
