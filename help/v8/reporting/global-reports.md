@@ -3,14 +3,19 @@ audience: end-user
 title: 開始使用全域報告
 description: 瞭解全域報告
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
+source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 21%
+source-wordcount: '277'
+ht-degree: 20%
 
 ---
 
 # 開始使用全域報告 {#global-report-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_global_report"
+>title="全域報告"
+>abstract="全域報表提供強大且有效率的方式，可分析您的行銷活動績效。 這些報表可為行銷活動內的每個管道提供關鍵流量和參與度量的整合檢視。"
 
 **全域報告**&#x200B;是一種有效的工具，可為行銷活動執行個體中的每個管道提供流量和參與量度的整合性總體摘要。這些報告是由各種 Widget 所組成，每個 Widget 都提供有關您的行銷活動或傳遞績效的獨特觀點。
 
