@@ -3,10 +3,10 @@ audience: end-user
 title: 以檔案中的收件者為目標
 description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 40%
+source-wordcount: '620'
+ht-degree: 42%
 
 ---
 
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## 預覽和測試您的電子郵件 {#test}
 
-使用從檔案上傳的對象時，Campaign Web可讓您預覽和傳送測試電子郵件。 要執行此操作，請依照下列步驟執行：
+使用從檔案上傳的對象時，Campaign Web可讓您預覽和傳送校樣。 要執行此操作，請依照下列步驟執行：
 
 1. 按一下 **[!UICONTROL 模擬內容按鈕]** 在傳遞內容編輯畫面中按一下 **[!UICONTROL 新增測試設定檔]** 按鈕。
 
@@ -94,7 +94,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
    ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. 若要傳送測試電子郵件，請按一下 **[!UICONTROL 測試]** 按鈕。
+1. 若要傳送校樣，請按一下 **[!UICONTROL 傳送證明]** 按鈕。
 
 1. 按一下 **[!UICONTROL 上傳校訂設定檔]** 按鈕並選取包含校樣收件者的.txt或.csv檔案。
 
@@ -102,8 +102,8 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
    >
    >確保檔案格式符合用來上傳對象的格式。 任何格式錯誤都會顯示警報。
 
-1. 當校樣收件者新增且您已準備好傳送校樣時，請按一下 **[!UICONTROL 傳送測試電子郵件]** 按鈕並確認傳送。
+1. 當校樣收件者新增且您已準備好傳送校樣時，請按一下 **[!UICONTROL 傳送證明]** 按鈕並確認傳送。
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. 您可以使用監控測試電子郵件的傳送 **[!UICONTROL 檢視測試電子郵件記錄]** 按鈕。 [進一步瞭解測試電子郵件監控](../preview-test/test-deliveries.md#access-test-deliveries)
+1. 您可以使用監控證明的傳送 **[!UICONTROL 檢視校樣]** 按鈕。 [進一步瞭解校訂監視](../preview-test/test-deliveries.md#access-test-deliveries)

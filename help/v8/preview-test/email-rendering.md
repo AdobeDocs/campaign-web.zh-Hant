@@ -3,10 +3,10 @@ audience: end-user
 title: 測試電子郵件轉譯
 description: 瞭解如何在Campaign網頁使用者介面中測試電子郵件呈現
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '235'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->在Campaign中使用電子郵件呈現時，會將測試電子郵件傳送至協力廠商系統。 透過連線您的Litmus帳戶與 [!DNL Campaign]，您認可Adobe對您可能傳送給該第三方的任何資料概不負責。 Litmus資料保留電子郵件原則適用於這些電子郵件，包括可能包含在這些測試訊息中的個人化資料。 若要存取或刪除這類資料，您必須直接聯絡Litmus。
+>在Campaign中使用電子郵件呈現會將校樣傳送至協力廠商系統。 透過連線您的Litmus帳戶與 [!DNL Campaign]，您認可Adobe對您可能傳送給該第三方的任何資料概不負責。 Litmus資料保留電子郵件原則適用於這些電子郵件，包括可能包含在這些校樣中的個人化資料。 若要存取或刪除這類資料，您必須直接聯絡Litmus。
 
 若要存取電子郵件呈現功能，您需要：
 

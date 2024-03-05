@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送推播通知傳遞
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 2%
+source-wordcount: '390'
+ht-degree: 5%
 
 ---
 
@@ -36,10 +36,8 @@ ht-degree: 2%
 
 ## 測試推播通知傳遞 {#test-push}
 
-使用 **Adobe Campaign**，您可在將推播通知傳送給主要對象之前先測試這些通知。 此步驟對於驗證您的傳送並識別任何問題很重要。
-測試收件者可檢閱連結、影像和個人化設定等元素，確保最佳效能並偵測任何錯誤。 此程式可協助您在到達主要對象之前調整並最佳化推播通知。
-
-![](../assets/do-not-localize/book.png) 瞭解如何在中傳送測試推播通知 [本節](../preview-test/test-deliveries.md#subscribers).
+使用 **Adobe Campaign**，您便能先傳送校樣再傳送給主要對象。 此步驟對於驗證您的傳送並識別任何問題很重要。
+測試收件者可檢閱連結、影像和個人化設定等元素，確保最佳效能並偵測任何錯誤。 此程式可協助您在到達主要對象之前調整並最佳化推播通知。 [瞭解如何傳送校樣](../preview-test/test-deliveries.md#subscribers)
 
 ![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 

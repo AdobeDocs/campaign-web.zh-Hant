@@ -3,10 +3,10 @@ audience: end-user
 title: 預覽傳遞內容
 description: 瞭解如何使用Campaign網頁使用者介面預覽您的傳遞內容
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 1%
+source-wordcount: '357'
+ht-degree: 3%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 1%
 1. 對於電子郵件傳遞，您可以調整 **[!UICONTROL 縮放等級]** 並使用右上角的專用圖示在案頭或行動裝置上預覽您的內容。
 
 1. 從 **[!UICONTROL 模擬]** 熒幕您也可以：
-   * 傳送測試傳遞至特定收件者進行驗證 —  [瞭解更多](test-deliveries.md)
-   * 存取已傳送測試傳送的記錄 —  [瞭解更多](test-deliveries.md#access-test-deliveries)
+   * 傳送校樣給特定收件者進行驗證 —  [瞭解更多](test-deliveries.md)
+   * 存取已傳送校樣的記錄檔 —  [瞭解更多](test-deliveries.md#access-test-deliveries)
    * 僅針對電子郵件，請檢查常見電子郵件使用者端中的訊息內容呈現 —  [瞭解更多](email-rendering.md)
 
 

@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
-workflow-type: ht
-source-wordcount: '585'
-ht-degree: 100%
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '584'
+ht-degree: 99%
 
 ---
 
@@ -82,9 +82,9 @@ ht-degree: 100%
    + [將優惠新增至您的訊息](msg/offers.md)
    + [向您的訂閱者傳送訊息](msg/send-to-subscribers.md)
    + 預覽和測試您的傳遞 {#preview-test}
-      + [關於預覽和測試](preview-test/preview-test.md)
+      + [關於預覽和校樣](preview-test/preview-test.md)
       + [預覽訊息內容。](preview-test/preview-content.md)
-      + [傳送測試傳遞](preview-test/test-deliveries.md)
+      + [傳送校樣](preview-test/test-deliveries.md)
       + [測試電子郵件轉譯](preview-test/email-rendering.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](landing-pages/get-started-lp.md)

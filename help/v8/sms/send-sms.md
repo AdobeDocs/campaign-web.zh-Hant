@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送簡訊傳遞
 description: 瞭解如何使用Adobe Campaign網頁版傳送簡訊
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 13%
+source-wordcount: '428'
+ht-degree: 16%
 
 ---
 
@@ -44,9 +44,9 @@ ht-degree: 13%
 
 替換為 **Adobe Campaign**，您能夠先測試訊息，再將其傳送給主要對象，這是驗證電子郵件促銷活動及識別潛在問題的重要步驟。
 
-傳送測試SMS是確保傳送品質和有效性的重要步驟。 測試收件者可檢閱連結、退出連結和影像等各種元素，並識別轉譯、內容、個人化設定和簡訊組態中的任何錯誤。 此程式可協助您在到達主要受眾之前完整評估及最佳化簡訊。
+傳送校樣是確保傳送品質和有效性的重要步驟。 校樣收件者可以檢閱連結、選擇退出連結和影像等各種元素，並識別轉譯、內容、個人化設定和簡訊設定中的任何錯誤。 此程式可協助您在到達主要受眾之前完整評估及最佳化簡訊。
 
-![](../assets/do-not-localize/book.png) 瞭解如何在中傳送測試簡訊 [本節](../preview-test/test-deliveries.md).
+![](../assets/do-not-localize/book.png) 瞭解如何在中傳送校樣 [本節](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 

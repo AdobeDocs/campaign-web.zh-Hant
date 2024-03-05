@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送您的第一個電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 66%
+source-wordcount: '1393'
+ht-degree: 58%
 
 ---
 
@@ -157,17 +157,17 @@ ht-degree: 66%
 
 進一步瞭解中的傳送排程 [本節](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
-## 預覽和測試電子郵件 {#preview-test}
+## 預覽電子郵件並傳送校樣 {#preview-test}
 
 在傳送電子郵件之前，您可以預覽和測試以確保它符合您的期望。
 
-在此使用案例，您預覽電子郵件並將測試版本傳送到特定電子郵件地址，同時模擬一些目標設定檔。
+在此使用案例中，您會預覽電子郵件並傳送校樣到特定電子郵件地址，同時模擬一些目標設定檔。
 
-有關如何預覽和測試電子郵件的其他資訊，請參閱[本章節](../preview-test/preview-test.md)。
+有關如何預覽電子郵件和傳送校樣的其他資訊，請參閱 [本節](../preview-test/preview-test.md).
 
 1. 若要檢閱您的電子郵件，請按一下「**[!UICONTROL 檢閱並傳送]**」。這將顯示您的電子郵件的預覽，以及所有已設定的屬性、對象和排程。您可以按一下修改按鈕來編輯任何其中一個元素。
 
-1. 若要預覽電子郵件並傳送測試版本，請按一下 **[!UICONTROL 模擬內容]** 按鈕。
+1. 若要預覽電子郵件並傳送校樣，請按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
    ![](assets/review-email.png){zoomable=&quot;yes&quot;}
 
@@ -180,25 +180,25 @@ ht-degree: 66%
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. 若要傳送電子郵件的測試版本，請按一下「**[!UICONTROL 測試]**」按鈕，然後選擇您要使用的模式。
+1. 若要傳送校樣，請按一下 **[!UICONTROL 傳送校樣]** 按鈕，然後選擇您要使用的模式。
 
-   在此範例中，使用 **[!UICONTROL 主要目標的替代]**&#x200B;模式，其會傳送測試版本至特定電子郵件地址，同時模擬電子郵件的一些目標設定檔。
+   在此範例中，使用 **[!UICONTROL 從主要目標替代]** 模式：將校樣傳送至特定電子郵件地址，同時類比電子郵件所定位的某些設定檔。
 
    ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
-1. 按一下「**[!UICONTROL 新增地址]**」並指定會接收測試版本的電子郵件地址。
+1. 按一下 **[!UICONTROL 新增地址]** 並指定接收校樣的電子郵件地址。
 
    對於每個電子郵件地址，選取要模擬的設定檔。您也可以讓 Adobe Campaign 從目標中選取隨機設定檔。
 
    ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
-1. 按一下「**[!UICONTROL 傳送測試電子郵件]**」並確認傳送。
+1. 按一下 **[!UICONTROL 傳送證明]** 並確認傳送。
 
-   測試版本傳送到特定電子郵件地址，其使用開頭為 **[Proof x]** 的所選設定檔。
+   會將校樣透過所選的設定檔傳送至指定的電子郵件地址 **[校訂x]** 前置詞。
 
    ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
-   您可以隨時按一下模擬內容畫面中的「**[!UICONTROL 檢視測試電子郵件記錄]**」按鈕，查看傳送狀態和存取已傳送的測試電子郵件。
+   您可以隨時按一下「 」，檢查傳送的狀態並存取傳送的校樣 **[!UICONTROL 檢視校樣]** 「模擬內容」畫面中的按鈕。
 
 ## 傳送並監控電子郵件 {#prepare-send}
 

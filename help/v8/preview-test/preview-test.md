@@ -3,10 +3,10 @@ audience: end-user
 title: 關於傳遞預覽和測試
 description: 瞭解如何預覽和測試傳送
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 17%
+source-wordcount: '196'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 17%
 >id="acw_deliveries_simulate"
 >title="預覽和測試您的內容"
 >abstract="定義內容後，您就可以使用設定檔和測試設定檔進行預覽及測試。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-Hant" text="傳送測試傳遞"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-Hant" text="傳送校樣"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hant#test-landing-page" text="測試登陸頁面"
 
 定義您的傳送內容後，您可以使用設定檔和測試設定檔，在傳送訊息之前進行預覽和測試。 這是確保正確性的重要步驟，但內容與個人化設定中也不會有錯誤。
@@ -24,7 +24,7 @@ ht-degree: 17%
 [!DNL Adobe Campaign Web user interface] 可讓您：
 
 * [預覽訊息內容及個人化](preview-content.md)
-* [傳送測試傳遞](test-deliveries.md) （校樣）給特定收件者或訂閱者，以進行測試和驗證
+* [傳送校樣](test-deliveries.md) （校樣）給特定收件者或訂閱者，以進行測試和驗證
 * [檢查電子郵件呈現](email-rendering.md) 在熱門的桌上型電腦、行動裝置和Web型使用者端
 * [預覽和測試您的登入頁面](../landing-pages/create-lp.md#test-landing-page)
 

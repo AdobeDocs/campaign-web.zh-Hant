@@ -3,10 +3,10 @@ audience: end-user
 title: 新增鏡像頁面連結
 description: 了解如何新增和管理鏡像頁面連結
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 98%
+source-wordcount: '445'
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
 >[!NOTE]
 >
->在傳送到測試設定檔的測試電子郵件中，鏡像頁面連結未啟用。它僅在最終訊息中啟用。
+>在傳送到測試設定檔的校樣中，指向映象頁面的連結未啟用。 它僅在最終訊息中啟用。
 
 依預設，鏡像頁面的保留期為 60 天。該段時間之後，鏡像頁面無法繼續使用。
 
