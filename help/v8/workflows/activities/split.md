@@ -3,10 +3,10 @@ audience: end-user
 title: 使用分割工作流程活動
 description: 了解如何使用分割工作流程活動
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 90%
+source-wordcount: '796'
+ht-degree: 89%
 
 ---
 
@@ -46,6 +46,11 @@ ht-degree: 90%
 >title="分割產生補充集"
 >abstract="設定完所有子集後，您可以選擇與任何子集都不相符的剩餘母體，並將其包含在額外的輸出轉變中。為此，請開啟「**產生補充集**」選項。"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="在相同表格中產生所有子集"
+>abstract="開啟此選項可將所有子集分組為單一輸出轉變。"
+
 請按照以下步驟設定&#x200B;**分割**&#x200B;活動：
 
 1. 在您的工作流程中新增一個&#x200B;**分割**&#x200B;活動。
@@ -76,7 +81,6 @@ ht-degree: 90%
       >[!NOTE]
       >
       >為子集設定母體限制時，您可以根據特定設定檔屬性按升序或降序順序來排列所選設定檔。為此，請開啟「**[!UICONTROL 啟用排序]**」選項。例如，您可以限制子集僅包含購買金額最高的前 50 個設定檔。
-
 
 1. 設定完所有子集後，您可以選擇與任何子集都不相符的剩餘母體，並將其包含在額外的輸出轉變中。為此，請開啟「**[!UICONTROL 產生補充集]**」選項。
 
