@@ -3,7 +3,7 @@ audience: end-user
 title: 建立簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 44%
@@ -50,7 +50,7 @@ ht-degree: 44%
    * **[!UICONTROL 資料夾]**：將傳遞儲存在特定資料夾中。
    * **[!UICONTROL 傳遞代碼]**：使用您自己的命名慣例整理您的傳遞。
    * **[!UICONTROL 說明]**：提供傳遞的說明。
-   * **[!UICONTROL 性質]**：指定電子郵件的性質以進行分類。
+   * **[!UICONTROL 性質]**：指定用於分類目的的傳送性質。
 +++
 
 1. 按一下「**[!UICONTROL 選取對象]**」按鈕，以鎖定現有對象或建立您自己的對象。[深入瞭解對象](../audience/about-recipients.md).

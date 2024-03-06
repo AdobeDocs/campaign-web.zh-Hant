@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用推播通知
 description: 了解如何使用 Adobe Campaign Web 建立和傳送推播通知
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
+workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 若要建立推播通知，您有以下三種選項：
 
-* **工作流程**：在將推播管道活動新增到您的工作流程並設定基本設定後，您就可以從右側窗格選單中製作推播通知的內容。如需有關如何設定工作流程的詳細說明，請參閱本頁面。
+* **工作流程**：在將推播管道活動新增到您的工作流程並設定基本設定後，您就可以從右側窗格選單中製作推播通知的內容。有關如何設定工作流程的詳細說明，請參閱 [此頁面](../workflows/gs-workflows.md).
 
-* **行銷活動**：建立行銷活動後，您就可以建立推播通知傳遞。如需有關設定行銷活動的詳細資訊，請參閱本頁面。
+* **行銷活動**：建立行銷活動後，您就可以建立推播通知傳遞。有關設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/gs-campaigns.md).
 
 * **獨立傳遞**：使用個別的推播通知傳遞，與客戶進行直接和立即的互動，而不需要工作流程或行銷活動。
 

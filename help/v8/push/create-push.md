@@ -3,7 +3,7 @@ audience: end-user
 title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 31%
@@ -51,7 +51,7 @@ ht-degree: 31%
    * **[!UICONTROL 資料夾]**：將傳遞儲存在特定資料夾中。
    * **[!UICONTROL 傳遞代碼]**：使用您自己的命名慣例整理您的傳遞。
    * **[!UICONTROL 說明]**：提供傳遞的說明。
-   * **[!UICONTROL 性質]**：指定電子郵件的性質以進行分類。
+   * **[!UICONTROL 性質]**：指定用於分類目的的傳送性質。
 +++
 
 
