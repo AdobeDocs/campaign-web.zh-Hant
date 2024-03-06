@@ -3,10 +3,10 @@ audience: end-user
 title: 選取現有對象
 description: 了解如何選取對象
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 29%
+source-wordcount: '341'
+ht-degree: 31%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 29%
 
    ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
 
-   若要從Adobe Experience Platform選擇對象，請瀏覽至 `AEP Audiences folder` 從熒幕的篩選區段中。
+   若要從Adobe Experience Platform選擇對象，請瀏覽至 `AEP Audiences folder` 從熒幕的篩選區段中。 [深入瞭解Adobe Experience Platform對象](manage-audience.md#monitor)
 
    ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
 
