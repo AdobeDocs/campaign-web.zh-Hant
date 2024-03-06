@@ -6,7 +6,7 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
 workflow-type: tm+mt
 source-wordcount: '2030'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -236,7 +236,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="規則屬性"
->abstract="在畫布中建立查詢後，您可以使用 **規則屬性** 窗格位於右側。<br/>此窗格可讓您顯示結果資料、擷取查詢的SQL程式碼版本，以及檢查目標籤錄的數目。<br/>使用 **選取或儲存篩選器** 按鈕以將您的查詢儲存為預先定義的篩選器，或使用現有篩選器取代畫布內容。"
+>abstract="在畫布中建立查詢後，您可以使用右側的&#x200B;**規則屬性**&#x200B;窗格進行檢查。<br/>此窗格可讓您顯示結果資料、擷取查詢的 SQL 程式碼版本，以及檢查目標記錄的數量。<br/>使用「**選取或儲存篩選器**」按鈕，將您的查詢儲存為預先定義篩選器，或將畫布內容更換為現有換的篩選器。"
 
 在畫布中建立查詢後，您可以使用 **規則屬性** 窗格位於右側。 可用的操作包括：
 

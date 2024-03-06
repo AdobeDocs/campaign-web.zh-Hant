@@ -10,7 +10,7 @@ keywords: 登陸、登陸頁面、使用案例
 source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
 source-wordcount: '1381'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
 >title="請謹慎複製 URL"
->abstract="建立登入頁面時，有四個現成可用的範本可讓您實作不同的使用案例：新增或更新至Campaign資料庫的設定檔、讓客戶訂閱服務、取消訂閱服務，或選擇讓使用者退出。"
+>abstract="建立登陸頁面時，四個現成的範本可讓您實施不同的使用案例：新增或更新設定檔至行銷活動資料庫、為客戶訂閱服務、取消訂閱服務，或選擇將使用者登出。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="設定登陸頁面"
 
 若要正確使用登入頁面，您應使用專用選項，將其作為傳送中的連結參照。
