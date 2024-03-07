@@ -5,7 +5,7 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 99%
@@ -61,7 +61,6 @@ ht-degree: 99%
             + [新增內嵌樣式屬性](email/inline-styling.md)
       + 傳送並監控電子郵件 {#monitor}
          + [準備並傳送電子郵件](monitor/prepare-send.md)
-         + [電子郵件傳遞設定](advanced-settings/delivery-settings.md)
          + [使用多個波段傳送](advanced-settings/send-using-waves.md)
          + [監控傳遞記錄](monitor/delivery-logs.md)
    + 推播通知 {#push}
@@ -81,6 +80,7 @@ ht-degree: 99%
       + [新增內建的內容區塊](personalization/content-blocks.md)
    + [將優惠新增至您的訊息](msg/offers.md)
    + [向您的訂閱者傳送訊息](msg/send-to-subscribers.md)
+   + [設定傳遞設定](advanced-settings/delivery-settings.md)
    + 預覽和測試您的傳遞 {#preview-test}
       + [關於預覽和校樣](preview-test/preview-test.md)
       + [預覽訊息內容。](preview-test/preview-content.md)
