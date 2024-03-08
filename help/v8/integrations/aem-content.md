@@ -2,22 +2,23 @@
 audience: end-user
 title: 使用Adobe Experience Manager as a Cloud Service管理資產
 description: 瞭解如何使用Adobe Experience Manager as a Cloud Service管理內容
-source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
+exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 1%
 
 ---
 
-# 使用管理範本 [!DNL Adobe Experience Manager as a Cloud service]{#aem-assets}
+# 使用管理範本 [!DNL Adobe Experience Manager as a Cloud Service]{#aem-assets}
 
-## 開始使用 [!DNL Adobe Experience Manager as a Cloud service]{#create-aem}
+## 開始使用 [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem}
 
 Adobe Campaign網頁介面與Adobe Experience Manager整合，有助於直接在Adobe Experience Manager平台中簡化電子郵件傳遞內容和表單的管理。
 
 ![](assets/do-not-localize/book.png)[進一步瞭解Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
-## 在中建立範本 [!DNL Adobe Experience Manager as a Cloud service]{#create-aem-template}
+## 在中建立範本 [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
 1. 導覽至 [!DNL Adobe Experience Manager] 編寫執行個體，然後按一下頁面左上角的Adobe體驗。 選擇 **[!UICONTROL 網站]** 功能表中。
 
@@ -47,7 +48,7 @@ Adobe Campaign網頁介面與Adobe Experience Manager整合，有助於直接在
 
 您的Newsletter現已準備就緒，並已在Adobe Campaign中同步。
 
-## 將Adobe Experience Manager匯入為雲端服務範本{#aem-templates-perso}
+## 匯入Adobe Experience Manager as a Cloud Service範本{#aem-templates-perso}
 
 當Experience Manager範本在Adobe Campaign Web中成為內容範本後，您就可以識別並合併電子郵件的必要內容，包括個人化。
 

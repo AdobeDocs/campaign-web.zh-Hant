@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 99%
+source-wordcount: '589'
+ht-degree: 96%
 
 ---
 
@@ -167,6 +167,7 @@ ht-degree: 99%
       + [推播全域報告](reporting/global-report-push.md)
       + [簡訊全域報告](reporting/global-report-sms.md)
 + 整合 {#integrations}
+   + [與其他Adobe解決方案搭配使用](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](integrations/aem-assets.md)
-   + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
+   + [使用Adobe Experience Manager as a Cloud Service管理範本](integrations/aem-content.md)
 
