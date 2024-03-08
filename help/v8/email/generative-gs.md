@@ -6,10 +6,10 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 32%
+source-wordcount: '425'
+ht-degree: 26%
 
 ---
 
@@ -24,15 +24,6 @@ ht-degree: 32%
 * You should review any output from this feature for accuracy and ensure that it is appropriate for your use case."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 -->
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn5"
->title="適用於電子郵件內容的 Gen AI"
->abstract="我們的 Gen AI 技術利用先進的演算法來產生高度吸引人的個人化內容。透過 Gen AI 的智慧內容產生，提高開啟率、點進率和轉換率。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hant" text="請參閱版本注意事項"
-
-<!--TO REMOVE ABOVE-->
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"

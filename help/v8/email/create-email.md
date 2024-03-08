@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送您的第一個電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '1393'
-ht-degree: 58%
+source-wordcount: '1357'
+ht-degree: 57%
 
 ---
 
@@ -17,17 +17,6 @@ ht-degree: 58%
 >id="acw_homepage_learning_card3"
 >title="開始使用電子郵件"
 >abstract="您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的環境中建立電子郵件。了解如何建立傳遞、選取對象以及設計電子郵件內容。"
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="開始使用電子郵件"
->abstract="您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的環境中建立電子郵件。了解如何建立傳遞、選取對象以及設計電子郵件內容。"
-
-<!--TO REMOVE ABOVE-->
-
-
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 

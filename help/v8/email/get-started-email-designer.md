@@ -3,9 +3,9 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 了解如何使用 Campaign Web 使用者介面中的電子郵件設計工具開始建置您的內容
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '427'
 ht-degree: 100%
 
 ---
@@ -17,16 +17,6 @@ ht-degree: 100%
 >title="新的電子郵件設計工具"
 >abstract="Campaign 電子郵件設計工具讓您能夠透過直覺式的拖放介面建立引人入勝、量身打造的客製化電子郵件。無論您是從空白顯示窗開始，匯入現有的內容或利用現有的範本，都可針對每封電子郵件設計和改進所有內容。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hant" text="請參閱版本注意事項"
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn3"
->title="新的電子郵件設計工具"
->abstract="Campaign 電子郵件設計工具讓您能夠透過直覺式的拖放介面建立引人入勝、量身打造的客製化電子郵件。無論您是從空白顯示窗開始，匯入現有的內容或利用現有的範本，都可針對每封電子郵件設計和改進所有內容。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=zh-Hant" text="請參閱版本注意事項"
-
-<!--TO REMOVE ABOVE-->
 
 在 Adobe Campaign 中建立電子郵件後，您必須定義其內容。
 

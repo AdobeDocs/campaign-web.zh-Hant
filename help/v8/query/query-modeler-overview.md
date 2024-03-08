@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查詢建模工具
 description: 瞭解如何使用Adobe Campaign Web查詢建模工具。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 32bffad5ea6641a723887ca9fa3e58b8cc428c00
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 30%
+source-wordcount: '500'
+ht-degree: 25%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 30%
 >id="acw_homepage_learning_card5"
 >title="新的查詢建模工具"
 >abstract="Adobe Campaign Web 具有查詢建模工具，可簡化篩選資料庫的流程，以根據各種不同的條件選取特定目標。這包括進階運算式和運算子的使用。查詢建模工具適用於每個您需要定義篩選資料的規則的環境。"
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="新的查詢建模工具"
->abstract="Adobe Campaign Web 具有查詢建模工具，可簡化篩選資料庫的流程，以根據各種不同的條件選取特定目標。這包括進階運算式和運算子的使用。查詢建模工具適用於每個您需要定義篩選資料的規則的環境。"
-
-<!--TO REMOVE ABOVE-->
 
 
 >[!CONTEXTUALHELP]

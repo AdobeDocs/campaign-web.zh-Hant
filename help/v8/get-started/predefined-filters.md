@@ -2,9 +2,9 @@
 title: 使用預先定義的篩選器
 description: 了解如何在 Adobe Campaign Web 中建立和管理預先定義的篩選器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: ht
-source-wordcount: '816'
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+workflow-type: tm+mt
+source-wordcount: '786'
 ht-degree: 100%
 
 ---
@@ -14,16 +14,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="預先定義的篩選器管理"
->abstract="Campaign Web 使用者介面現在提供易於使用的介面，以便您輕鬆管理和自訂預先定義的篩選器，以滿足您的特定需求。建立一次並儲存以供未來使用。"
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="預先定義的篩選器管理"
->abstract="Campaign Web 現在為您提供了人性化介面，可以輕鬆管理和自訂預先定義的篩選器，以滿足您的特定需求。建立一次並儲存以供未來使用。"
-
-<!--TO REMOVE ABOVE-->
+>abstract="Campaign Web 用户界面提供了用户友好的界面，可轻松管理和自定义预定义过滤器，以满足您的特定需求。建立一次並儲存以供未來使用。"
 
 
 >[!CONTEXTUALHELP]
