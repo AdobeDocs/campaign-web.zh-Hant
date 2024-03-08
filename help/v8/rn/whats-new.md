@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 使用者介面有哪些新增功能？
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 06b529083e1ff8a4378aa938960b9edd7a422b32
+source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 
 * 建立、設計、個人化、安排和傳送電子郵件、簡訊以及推播通知 - [了解更多](../msg/gs-messages.md)
 * 使用電子郵件設計工具設計個人化的電子郵件內容 - [了解更多](../email/edit-content.md)
-* 傳送跨管道的行銷活動，包括簡訊和推播通知 - [了解更多](../workflows/activities/channels.md)
+* 傳送跨頻道行銷活動，包括簡訊和推播通知 —  [瞭解更多](../workflows/activities/channels.md)
 * 使用查詢建模工具定義目標對象 - [了解更多](../audience/about-recipients.md)
 * 預覽、測試和傳送您的訊息 - [了解更多](../monitor/prepare-send.md)
 * 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/delivery-reports.md)
