@@ -3,16 +3,16 @@ audience: end-user
 title: 建立傳遞的一次性對象
 description: 瞭解如何建立傳遞的一次性對象。
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
 # 建立一次性對象 {#one-time}
 
-本節說明如何在建立新傳送時建立對象。 在此情況下，會使用查詢模組化工具查詢資料庫，以定位傳送對象中要包含的收件者。
+本節說明如何在建立新傳送時建立對象。 在此情況下，透過使用查詢模組化工具查詢資料庫，會定位要包含在傳送對象中的設定檔。
 
 產生的對象只會用於此傳送一次。 它不會儲存在對象清單中。
 

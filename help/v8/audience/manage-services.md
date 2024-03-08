@@ -3,7 +3,7 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何存取、建立和管理Adobe Campaign網站上的訂閱服務
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 34%
@@ -70,7 +70,7 @@ ht-degree: 34%
 1. 依預設，訂閱沒有限制。
 
    您可以停用 **[!UICONTROL 有效期無限制]** 定義服務有效持續時間的選項。 有效期間結束後：
-   * 沒有收件者可以再訂閱此服務
+   * 沒有設定檔可以再訂閱此服務
    * 此服務的所有訂閱者都會自動取消訂閱
 
    ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
@@ -83,7 +83,7 @@ ht-degree: 34%
 
 您現在可以：
 
-* 新增訂閱者到此服務，並取消訂閱收件者。 [了解更多](../msg/send-to-subscribers.md)
+* 新增訂閱者到此服務，並取消訂閱設定檔。 [了解更多](../msg/send-to-subscribers.md)
 
 * 傳送訊息給此服務的訂閱者。 [了解做法](../msg/send-to-subscribers.md)
 

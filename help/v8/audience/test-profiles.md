@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 16%
+source-wordcount: '608'
+ht-degree: 9%
 
 ---
 
@@ -17,17 +17,19 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="建立測試設定檔"
->abstract="測試設定檔為種子地址。他們是資料庫中的額外收件者，用於找出與定義的目標標準不相符的虛構設定檔。"
+>abstract="測試設定檔是其他收件者，可讓您在傳送訊息之前預覽及測試個人化和轉譯。 您可以在預覽訊息內容時選取測試設定檔，並將校樣傳送至測試設定檔，以控制和驗證訊息內容和設定。"
 
-測試設定檔為種子地址。他們是資料庫中用於鎖定不符合已定義目標條件之虛擬設定檔的其他收件者。 附註可讓您在傳送傳遞前，透過傳送校樣來預覽及測試個人化和轉譯。
+測試設定檔用於傳送校樣，以及驗證訊息內容和設定。 這些設定檔是其他收件者，可讓您在傳送訊息之前，預覽及測試個人化與轉譯。 您可以在預覽訊息內容時選取測試設定檔，並將校樣傳送至測試設定檔，以控制和驗證訊息內容和設定。
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-將校樣傳送至種子地址的步驟詳見 [本節](../preview-test/test-deliveries.md#test-profiles).
+將校樣傳送至測試設定檔的步驟已詳細說明，請參閱 [本節](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->測試設定檔會自動從下列傳送統計資料的報告排除： **[!UICONTROL 點按次數]**， **[!UICONTROL 開啟次數]**， **[!UICONTROL 取消訂閱]**. [進一步瞭解報告]
+>* 測試設定檔會在使用者端主控台中建立為種子地址。
+>
+>* 測試設定檔會自動從下列傳送統計資料的報告排除： **[!UICONTROL 點按次數]**， **[!UICONTROL 開啟次數]**， **[!UICONTROL 取消訂閱]**.
 
 ## 存取及管理測試設定檔 {#access-test-profiles}
 
@@ -62,7 +64,7 @@ ht-degree: 16%
 >title="測試設定檔的附加資料"
 >abstract="輸入個人化資料，此個人化資料用於資料管理工作流程中建立的傳遞，並且您要為其指派特定值。"
 
-若要建立測試設定檔，請遵循下列步驟。
+若要建立測試設定檔，請遵循下列步驟：
 
 1. 瀏覽至 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 並選取 **[!UICONTROL 測試設定檔]** 標籤。
 

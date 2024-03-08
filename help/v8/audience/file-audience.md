@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: 以檔案中的收件者為目標
-description: 了解如何使用外部檔案中的收件者來建置您的電子郵件對象
+title: 從檔案載入電子郵件對象
+description: 瞭解如何從外部檔案載入設定檔，以建立您的電子郵件對象
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 42%
+source-wordcount: '622'
+ht-degree: 40%
 
 ---
 
@@ -102,7 +102,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
    >
    >確保檔案格式符合用來上傳對象的格式。 任何格式錯誤都會顯示警報。
 
-1. 當校樣收件者新增且您已準備好傳送校樣時，請按一下 **[!UICONTROL 傳送證明]** 按鈕並確認傳送。
+1. 新增校樣設定檔且您已準備好傳送校樣時，請按一下 **[!UICONTROL 傳送證明]** 按鈕並確認傳送。
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 

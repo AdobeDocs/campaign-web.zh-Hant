@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -134,7 +134,7 @@ Campaign 電子郵件設計工具讓您能夠透過直覺式的拖放介面建�
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>提供動態內容</strong><br/>了解如何根據您收集的收件者相關資訊來自訂內容，以使內容更具吸引力並增加引人閱讀的可能性。</div>
+    <div><strong>讓您的內容更具動態性</strong><br/>瞭解如何根據您收集到的設定檔相關資訊來自訂內容，讓您的內容更吸引人並提高閱讀的可能性。</div>
     </td>
   </tr>
   <tr style="border: 0;">

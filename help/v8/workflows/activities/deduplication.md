@@ -3,7 +3,7 @@ audience: end-user
 title: 使用重複資料刪除工作流程活動
 description: 瞭解如何使用重複資料刪除工作流程活動
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 54%
@@ -62,6 +62,6 @@ ht-degree: 54%
 
 ## 範例{#deduplication-example}
 
-在下列範例中，使用重複資料刪除活動，在傳送傳遞之前從目標中排除重複專案。 識別的重複收件者會新增至專用對象，必要時可重複使用。 選擇 **電子郵件** 識別重複專案的位址。 保留1個專案並選取 **Random** 重複資料刪除方法。
+在下列範例中，使用重複資料刪除活動，在傳送傳遞之前從目標中排除重複專案。 識別的重複設定檔會新增到專用受眾，必要時可重複使用。 選擇 **電子郵件** 識別重複專案的位址。 保留1個專案並選取 **Random** 重複資料刪除方法。
 
 ![](../assets/workflow-deduplication-example.png)

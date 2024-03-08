@@ -3,10 +3,10 @@ audience: end-user
 title: 監視和管理對象
 description: 瞭解如何在Adobe Campaign Web中監視和管理對象
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 ## 什麼是對象？ {#what}
 
-對象是傳遞的主要目標：收到訊息的收件者。對象類型會依據傳遞範本中定義的目標對應而不同。進一步瞭解中的傳遞範本 [此頁面](../msg/delivery-template.md).
+對象是您傳送的主要目標：接收訊息的設定檔。 對象類型會依據傳遞範本中定義的目標對應而不同。進一步瞭解中的傳遞範本 [此頁面](../msg/delivery-template.md).
 
 若要定義對象母體，您可以：
 

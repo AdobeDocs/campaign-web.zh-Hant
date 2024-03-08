@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送校樣
 description: 瞭解如何定義和傳送校樣
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 若要偵測訊息內容或個人化設定中可能出現的錯誤，請先傳送校樣至測試設定檔，再傳送給目標對象。 每次進行變更時都應傳送校樣，以驗證最新內容。 傳送校樣是驗證行銷活動和識別潛在問題的重要步驟。 校樣收件者可以檢查各種元素，例如連結、選擇退出連結、影像或映象頁面，並偵測轉譯、內容、個人化設定和傳遞設定中的任何錯誤。
 
-## 模擬測試接收者的內容 {#simulate-content-test-deliveries}
+## 使用測試設定檔模擬內容 {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

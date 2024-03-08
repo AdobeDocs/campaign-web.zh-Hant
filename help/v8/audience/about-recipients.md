@@ -1,10 +1,11 @@
 ---
 title: 開始使用設定檔
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
-source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
+exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 25%
+source-wordcount: '538'
+ht-degree: 26%
 
 ---
 
@@ -32,9 +33,9 @@ ht-degree: 25%
 
 ## 什麼是設定檔？ {#what}
 
-A **設定檔**（在使用者端主控台中也稱為「收件者」），代表儲存在Campaign資料庫中的記錄，可作為的關鍵元件 [建立對象](create-audience.md) 用於傳遞和 [新增個人化](../personalization/personalize.md) 資料放入您的內容。 Adobe Campaign可讓您順暢地管理設定檔，從建立新專案到存取所有設定檔屬性和服務訂閱的全面檢視，全程透過Campaign Web使用者介面。
+A **設定檔**&#x200B;在使用者端主控台中稱為「收件者」，代表儲存在Campaign資料庫中的記錄，可作為的關鍵元件 [建立對象](create-audience.md) 用於傳遞和 [新增個人化](../personalization/personalize.md) 資料放入您的內容。 Adobe Campaign可讓您順暢地管理設定檔，從建立新專案到存取所有設定檔屬性和服務訂閱的全面檢視，全程透過Campaign Web使用者介面。
 
-此外， **[!UICONTROL 測試設定檔]**，可在使用者端主控台中識別為「種子設定檔」，可讓您鎖定不符合指定傳遞目標定位准則的其他收件者。 這些設定檔包含虛構的聯絡資訊，或由寄件者控制的聯絡資訊。 可以將他們新增至訊息的對象，以偵測任何詐用收件者資料庫的行為，或確保電子郵件送達收件匣中。 [瞭解如何使用測試設定檔](test-profiles.md)
+此外， **[!UICONTROL 測試設定檔]**，可在使用者端主控台中識別為「種子設定檔」，可讓您鎖定不符合指定傳遞目標定位准則的其他收件者。 這些設定檔包含虛構的聯絡資訊，或由寄件者控制的聯絡資訊。 測試設定檔是校樣收件者：用於透過傳送校樣來測試您的訊息。 [瞭解如何使用測試設定檔](test-profiles.md)
 
 設定檔和測試設定檔都可用來在傳送內容到達預期對象之前先行測試。 透過這樣做，您可以預覽訊息內容和個人化、傳送校樣以進行測試和驗證、評估各種平台和裝置間的電子郵件呈現，以及測試您的登入頁面。 [瞭解如何預覽和測試傳送](../preview-test/preview-test.md)
 

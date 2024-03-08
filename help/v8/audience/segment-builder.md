@@ -3,10 +3,10 @@ audience: end-user
 title: 使用Campaign規則產生器建立對象
 description: 瞭解如何使用規則產生器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 57%
+ht-degree: 58%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 57%
 
 ![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
-* **檢視結果：**&#x200B;顯示對象的目標收件者清單。
+* **檢視結果：** 顯示對象定位的設定檔清單。
 * **程式碼檢視**：以 SQL 顯示對象的程式碼版本。
 * **顯示進階屬性**：如果您想在左側調色盤中檢視完整的屬性清單，請勾選此選項：節點、群組、1-1 連結、1-N 連結。
 * **計算**：更新並顯示查詢所定位的設定檔數目。

@@ -2,10 +2,10 @@
 title: 目標定位維度
 description: 進一步瞭解Adobe Campaign網頁中的目標維度功能
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 11%
+source-wordcount: '447'
+ht-degree: 9%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="選取目標定位維度"
->abstract="目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。"
+>abstract="目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。預設情況下，對於電子郵件和簡訊，會從收件者內建表格中選取目標。 對於推播通知，預設目標維度為訂閱者應用程式。"
 
 目標維度，亦稱為。 目標對應，是作業正在處理的資料型別。 它可讓您定義目標母體：設定檔、合約受益人、操作員、訂閱者等。
 
@@ -36,12 +36,12 @@ ht-degree: 11%
 
 | 名稱 | 使用至 | 結構描述 |
 |---|---|---|
-| 收件者 | 傳遞給收件者（內建收件者表格） | nms：recipient |
+| 收件者 | 傳遞至設定檔/收件者（內建收件者表格） | nms：recipient |
 | 訪客 | 傳遞給已透過轉介（病毒式行銷）針對例如收集設定檔的訪客。 | mns：visitor |
-| 訂閱 | 傳遞給已訂閱資訊服務（例如電子報）的收件者 | nms：subscription |
+| 訂閱 | 傳送給訂閱資訊服務（例如電子報）的設定檔 | nms：subscription |
 | 訪客訂閱 | 傳遞給訂閱資訊服務的訪客 | nms：visitorSub |
 | 運算子 | 傳遞給Adobe Campaign操作者 | nms：operator |
 | 外部檔案 | 透過包含傳遞所需所有資訊的檔案傳遞 | 沒有連結的結構描述，沒有輸入目標 |
-| 訂閱者應用程式 | 傳遞給已訂閱應用程式的收件者 | nms：appSubscriptionRcp |
+| 訂閱者應用程式 | 傳遞給已訂閱應用程式的設定檔 | nms：appSubscriptionRcp |
 
-此外，您可以根據需求建立新的目標對應。 這是從使用者端主控台執行。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+此外，您可以根據需求建立新的目標對應。 這項作業只能從使用者端主控台執行。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

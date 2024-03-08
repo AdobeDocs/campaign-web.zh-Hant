@@ -3,10 +3,10 @@ audience: end-user
 title: 設定控制組
 description: 瞭解如何在Campaign網頁使用者介面中設定訊息的控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 36%
 
 ### 控制組範例{#control-group-sample}
 
-例如，若要建立包含100個最新收件者的控制組，請遵循下列步驟：
+例如，若要建立具有100個最新設定檔的控制組，請遵循下列步驟：
 
 1. 選取 **年齡** 作為排序條件的欄位。 離開 **升序** 排序選項。
 1. 新增 **建立日期** 欄位。 變更為 **降序** 排序選項。
@@ -70,7 +70,7 @@ ht-degree: 36%
 
    ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
-然後，這100個最年輕的收件者會從主要目標中排除。
+然後從主要目標中排除這100個最年輕的設定檔。
 
 ### 檢查您的控制組 {#check-control-group}
 

@@ -4,10 +4,10 @@ title: 設定傳送設定
 description: 瞭解如何在Campaign網頁版中設定傳遞設定
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: e4e1a7eee0f4a48366e711feb2a8bd107f3320bd
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 50%
+source-wordcount: '2420'
+ht-degree: 49%
 
 ---
 
@@ -70,7 +70,9 @@ ht-degree: 50%
 
 使用「**[!UICONTROL 傳遞權重]**」欄位可定義傳遞優先順序。每個傳遞都有權重，代表其優先順序。傳遞的預設權重為 5。壓力規則可讓您定義套用到它們的傳遞權重。權重可以設定或透過公式計算以適合收件者。例如，您可以根據收件者的興趣定義傳遞權重。
 
-使用「**[!UICONTROL 傳遞模式]**」欄位可選取目標評估模式。提供三種模式：
+使用 **[!UICONTROL 傳遞模式]** 欄位以選取目標評估模式。
+
+提供三種模式：
 
 * **[!UICONTROL 目標預估和訊息個人化]**
 * **[!UICONTROL 臨時目標的評估和核准]**
@@ -78,7 +80,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->疲勞管理是在Campaign使用者端主控台中設定。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant){target="_blank"}.
+>疲勞管理和壓力規則是在Campaign使用者端主控台中設定。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant){target="_blank"}.
 
 ### 容量設定 {#capacity-settings}
 
@@ -90,11 +92,11 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="收件者的重要性"
->abstract="收件者的重要性是一種公式，用於確定在超出產能類型規則時要保留哪些收件者。"
+>abstract="收件者的重要性是一個公式，用來決定在超過容量型別規則時保留哪些設定檔。"
 
 在此區段中，您可以選取Adobe Campaign v8主控台中定義的容量規則。 此規則已與管道相關聯。
 
-此 **[!UICONTROL 收件者的重要性]** 欄位是一個公式，用於確定在超過容量型別規則時保留哪些收件者。
+此 **[!UICONTROL 收件者的重要性]** 欄位是公式，用來在超過容量型別規則時決定要保留哪些設定檔。
 
 >[!NOTE]
 >
@@ -109,7 +111,7 @@ ht-degree: 50%
 
 在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。目標對應是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。 [進一步瞭解目標對應](../audience/targeting-dimensions.md).
 
-在 **[!UICONTROL 排除]** 欄位，您可以選取排除不想再被聯絡或隔離的收件者。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+在 **[!UICONTROL 排除]** 欄位，您可以選取排除不想再被聯絡或隔離的設定檔。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## 傳遞 {#delivery}
 
@@ -276,7 +278,7 @@ ht-degree: 50%
 
 您可以設定在此區段設定排除參數。可使用的選項包括：
 
-* **[!UICONTROL 保持雙面]** 可讓您授權傳送多筆訊息給符合數個目標定位條件的收件者。
+* **[!UICONTROL 保持雙面]** 可讓您授權傳送多個訊息給符合數個目標定位條件的設定檔。
 * **[!UICONTROL 保留已加入封鎖清單的地址]**&#x200B;可讓您遠離目標，任何不再作為傳遞目標的設定檔，例如在取消訂閱 (選擇退出) 之後。
 * **[!UICONTROL 保留被隔離的地址]**&#x200B;可讓您遠離目標，任何具有不會回應之地址的設定檔。
 
