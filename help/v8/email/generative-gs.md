@@ -6,10 +6,10 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 1bce844800ad82559bdefebddc96dcec58177f09
+source-git-commit: 3804b1a518d1f1699abeaf6de36ce9e56123e14d
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 23%
+source-wordcount: '485'
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 生成式 AI 詞彙"
->abstract="對此功能的存取權取決於您對Adobe Experience Cloud Generative AI使用者指南的同意，以及下列各項：您為此功能提供的任何提示、內容、補充資訊或其他輸入內容(a)都必須與特定內容連結，其中可能包括您的品牌推廣材料、網站內容、資料、此類資料的結構描述、範本或其他受信任檔案"
+>abstract="對此功能的存取權取決於您對Adobe Experience Cloud Generative AI使用者指南的同意。 您為此功能提供的任何提示、內容、補充資訊或其他輸入內容都必須與特定內容連結，其中可能包括您的品牌推廣材料、網站內容、資料、此類資料的結構描述、範本或其他受信任檔案"
 
 <!--
 ", and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case.
