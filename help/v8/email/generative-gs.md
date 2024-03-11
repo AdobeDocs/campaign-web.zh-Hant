@@ -6,7 +6,7 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 3804b1a518d1f1699abeaf6de36ce9e56123e14d
+source-git-commit: 80af4bda06dbeda2c9123d21384771b9458c8b51
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 24%
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 
 >[!CONTEXTUALHELP]
->id="acw_emagica_generate"
+>id="acw_emagica_generate_test"
 >title="Adobe 生成式 AI 詞彙"
 >abstract="對此功能的存取權取決於您對Adobe Experience Cloud Generative AI使用者指南的同意。 您為此功能提供的任何提示、內容、補充資訊或其他輸入內容都必須與特定內容連結，其中可能包括您的品牌推廣材料、網站內容、資料、此類資料的結構描述、範本或其他受信任檔案"
 
