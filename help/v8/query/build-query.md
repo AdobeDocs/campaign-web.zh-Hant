@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
+source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2053'
 ht-degree: 8%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
 >title="自訂條件"
->abstract="自訂條件"
+>abstract="自訂條件正在篩選元件，可讓您使用資料庫和進階運算式的屬性建立自己的條件，以篩選查詢。"
 
 若要使用自訂條件篩選查詢，請執行下列步驟：
 
