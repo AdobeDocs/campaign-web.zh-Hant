@@ -6,7 +6,7 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f87c1e9521bf78be9d1a95ea60d81a1aef06bc90
+source-git-commit: 65f041275930a0f18993b1ba37b936d8ef51d119
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 22%
@@ -14,14 +14,6 @@ ht-degree: 22%
 ---
 
 # 開始使用內容助理 {#generative-gs}
-
-
->[!CONTEXTUALHELP]
->id="acw_emagica_generate_test_test"
->title="Adobe 生成式 AI 詞彙"
->abstract="對此功能的存取權取決於您對Adobe Experience Cloud Generative AI使用者指南的同意。 您為此功能提供的任何提示、內容、補充資訊或其他輸入內容都必須與特定內容連結，其中可能包括您的品牌推廣材料、網站內容、資料、此類資料的結構描述、範本或其他受信任檔案，並且不得包含任何個人資訊（個人資訊包括可連結回特定個人的任何內容）。 您應該檢閱此功能的任何輸出是否準確，並確定它適合您的使用案例"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI使用手冊"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -33,6 +25,14 @@ ht-degree: 22%
 >id="acw_generation_context"
 >title="定義內容生成的上下文"
 >abstract="若要將所選內容做為內容生成的輸入，請啟動&#x200B;**使用目前的內容進行增強**&#x200B;切換。您也可以上傳您的品牌資產以將其做為來源。如果您不使用所選內容，則必須上傳並選取品牌資產。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generate_emagica"
+>title="Adobe 生成式 AI 詞彙"
+>abstract="對此功能的存取權取決於您對Adobe Experience Cloud Generative AI使用者指南的同意。 您為此功能提供的任何提示、內容、補充資訊或其他輸入內容都必須與特定內容連結，其中可能包括您的品牌推廣材料、網站內容、資料、此類資料的結構描述、範本或其他受信任檔案，並且不得包含任何個人資訊（個人資訊包括可連結回特定個人的任何內容）。 您應該檢閱此功能的任何輸出是否準確，並確定它適合您的使用案例"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI使用手冊"
+
 
 內容助理由創作AI提供技術支援，是改善電子郵件內容的寶貴工具。 它簡化個人化和內容增強，將您的電子郵件傳遞最佳化，以便與您的對象產生更好的共鳴。
 
