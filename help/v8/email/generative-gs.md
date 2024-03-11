@@ -6,10 +6,10 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 80af4bda06dbeda2c9123d21384771b9458c8b51
+source-git-commit: a6211ff3302df48eaa8d04f2ed8ce023ec8b8b93
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 24%
+source-wordcount: '531'
+ht-degree: 22%
 
 ---
 
@@ -19,12 +19,9 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate_test"
 >title="Adobe 生成式 AI 詞彙"
->abstract="對此功能的存取權取決於您對Adobe Experience Cloud Generative AI使用者指南的同意。 您為此功能提供的任何提示、內容、補充資訊或其他輸入內容都必須與特定內容連結，其中可能包括您的品牌推廣材料、網站內容、資料、此類資料的結構描述、範本或其他受信任檔案"
+>abstract="對此功能的存取權取決於您對Adobe Experience Cloud Generative AI使用者指南的同意。 您為此功能提供的任何提示、內容、補充資訊或其他輸入內容都必須與特定內容連結，其中可能包括您的品牌推廣材料、網站內容、資料、此類資料的結構描述、範本或其他受信任檔案，並且不得包含任何個人資訊（個人資訊包括可連結回特定個人的任何內容）。 您應該檢閱此功能的任何輸出是否準確，並確定它適合您的使用案例"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI使用手冊"
 
-<!--
-", and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case.
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
--->
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
