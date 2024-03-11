@@ -6,24 +6,24 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: caeea471b3ea623f7da93c17098ee33146a6af39
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 26%
+source-wordcount: '538'
+ht-degree: 25%
 
 ---
 
 # 開始使用內容助理 {#generative-gs}
 
-<!--
+
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
->title="Adobe Generative AI terms"
->abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines, and the following:
-* Any prompts, context, or supplemental information, or other input you provide to this feature (a) must be tied to specific context, which can include your branding materials, website content, data, schemas for such data, templates, or other trusted documents, and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual).
-* You should review any output from this feature for accuracy and ensure that it is appropriate for your use case."
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
--->
+>title="Adobe 生成式 AI 詞彙"
+>abstract="若要取得此功能的存取權限，您必需同意 Adob&#x200B;&#x200B;e Experience Cloud 生成式 AI 使用者準則以及以下內容：
+* 您為此功能提供的任何提示、內容、補充資訊或其他輸入(a)都必須與特定內容連結，其中可能包括您的品牌推廣資料、網站內容、資料、此類資料的結構描述、範本或其他受信任檔案，以及(b)不得包含任何個人資訊（個人資訊包含可連結回特定個人的任何內容）。
+* 您應該檢閱此功能的任何輸出是否準確，並確定它適合您的使用案例。」
+>additional-url=&quot;https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html&quot; text=&quot;Adobe Generative AI使用者指南&quot;
+
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
