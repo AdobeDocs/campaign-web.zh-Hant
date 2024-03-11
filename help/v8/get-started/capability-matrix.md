@@ -4,9 +4,9 @@ title: Campaign Web 使用者介面/用戶端主控台功能比較表
 description: Campaign Web 使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2179'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -152,23 +152,23 @@ Adobe Campaign Web 使用者介面隨附全新的電子郵件設計工具，可�
 
 ## 資料模式和資料內嵌 {#data-capabilities}
 
-Campaign Web 使用者介面不顯示下列功能。它們只能在使用者端主控台中使用：
+Campaign Web 使用者介面不顯示下列功能。這些功能僅適用於用戶端主控台：
 
 ### 外部帳戶 {#external}
 
 Adobe Campaign 隨附一組預先定義的外部帳戶，可與外部系統連線。作為 Campaign 系統管理員，您僅能從用戶端主控台建立及管理外部帳戶。[了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=zh-Hant){target="_blank"}
 
-### 方案建立和擴充 {#schema}
+### 綱要建立及擴充 {#schema}
 
 方案建立、修改及擴充功能僅限進階使用者使用。這些功能僅能從用戶端主控台取得。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=zh-Hant){target="_blank"}
 
 ### 工作流程資料管理功能 {#data}
 
-資料管理結合了一套活動來解決複雜的鎖定目標問題，提供更有效且更靈活的工具，例如資料載入、擷取（檔案）、更新資料、編輯結構或匯入/匯出技術工作流程。 [探索使用者端主控台中的工作流程資料管理功能](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=zh-Hant#data-management){target="_blank"}
+資料管理結合了一套活動來解決複雜的目標定位問題，提供更有效且更靈活的工具，例如資料載入、擷取 (檔案)、更新資料、編輯綱要或匯入/匯出技術工作流程。[探索用戶端主控台中的工作流程資料管理功能](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=zh-Hant#data-management){target="_blank"}
 
 >[!NOTE]
 >
->雖然其中的一些活動只能在使用者端主控台中使用，但有些可在Campaign網頁使用者介面中使用，例如 **擴充**， **載入檔案** 或 **變更維度** 活動。 [進一步瞭解Campaign網頁使用者介面中的目標定位和資料管理活動](../workflows/activities/about-activities.md#targeting)
+>雖然其中的一些活動只能在用戶端主控台中使用，但有些可在 Campaign Web 使用者介面中使用，例如&#x200B;**擴充**、**載入檔案**&#x200B;或&#x200B;**變更維度**&#x200B;活動。[進一步了解 Campaign Web 使用者介面中的目標定位和資料管理活動](../workflows/activities/about-activities.md#targeting)
 
 ### 同盟資料存取設定 {#fda}
 
