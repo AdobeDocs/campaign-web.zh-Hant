@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 85%
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 85%
 
 >[!TAB Adobe Experience Manager as a Cloud Service整合]
 
-Adobe Campaign網頁介面與Adobe Experience Manager as a Cloud Service的整合可簡化電子郵件內容管理。 您現在可以直接在Adobe Experience Manager中建立和編輯電子郵件內容，然後順暢地將完成的範本匯入Adobe Campaign以進行傳送。
+Adobe Campaign Web 介面與 Adobe Experience Manager as a Cloud Service 的整合可簡化電子郵件內容管理。您現在可以直接在 Adobe Experience Manager 中建立和編輯電子郵件內容，然後順暢地將完成的範本匯入 Adobe Campaign 以進行傳送。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
 

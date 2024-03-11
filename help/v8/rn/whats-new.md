@@ -6,7 +6,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 >[!AVAILABILITY]
 >
->此版本可供所有開始使用此版本的使用者使用 [Campaign v8.6版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant). 若要深入了解 Adobe Campaign 發行版本的詳細資訊，請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}。
+>自 [Campaign v8.6 發行版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant)開始，所有使用者皆可使用此版本。 若要深入了解 Adobe Campaign 發行版本的詳細資訊，請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-Hant){target="_blank"}。
 
 
 ## 主要功能 {#key-features}
@@ -83,16 +83,16 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 
 **全新及重新設計的行銷活動工作流程活動**
 
-透過我們&#x200B;**擴展的工作流程活動集**&#x200B;增強您的行銷活動。發掘自動化和最佳化的新可能性，讓您能夠建立更加動態和個人化的客戶歷程。從進階細分到條件式觸發器，我們額外的工作流程活動可讓您傳送目標式訊息，並提升行銷活動績效。 若要了解詳細資訊，請參閱[本章節](../workflows/gs-workflows.md)。
+透過我們&#x200B;**擴展的工作流程活動集**&#x200B;增強您的行銷活動。發掘自動化和最佳化的新可能性，讓您能夠建立更加動態和個人化的客戶歷程。從進階細分到條件式觸發器，我們的附加工作流程活動能讓您傳遞針對性訊息並提高行銷活動績效。若要了解詳細資訊，請參閱[本章節](../workflows/gs-workflows.md)。
 
 
 **使用查詢建模工具鎖定對象**
 
-Adobe Campaign Web 具有&#x200B;**強大且直覺的查詢建模工具**，可簡化篩選資料庫的流程，以根據各種不同的條件選取特定目標。這包括進階運算式和運算子的使用。每個需要定義規則以篩選資料的內容中，都可使用查詢建模器。 若要了解詳細資訊，請參閱[本章節](../query/query-modeler-overview.md)。
+Adobe Campaign Web 具有&#x200B;**強大且直覺的查詢建模工具**，可簡化篩選資料庫的流程，以根據各種不同的條件選取特定目標。這包括進階運算式和運算子的使用。查詢建模工具適用於您需要定義規則以篩選資料的任何環境。若要了解詳細資訊，請參閱[本章節](../query/query-modeler-overview.md)。
 
 **輕鬆建立和管理設定檔**
 
-您可以使用新的 Campaign Web 使用者介面，直接透過「收件者」選單在資料庫中&#x200B;**建立和更新收件者**。簡化的設定檔編輯表單可讓您輸入收件者的連絡資訊和屬性，以及更新現有的收件者，而不需使用使用者端主控台。 若要了解詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
+您可以使用新的 Campaign Web 使用者介面，直接透過「收件者」選單在資料庫中&#x200B;**建立和更新收件者**。透過簡化的設定檔編輯表單，您可以輸入收件者的聯絡資訊和屬性，並更新現有收件者，而無需使用用戶端主控台。若要了解詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -111,15 +111,15 @@ Adobe Campaign Web 具有&#x200B;**強大且直覺的查詢建模工具**，可�
 
 **AI 驅動的內容說明**
 
-直接從產品使用者介面提出問題並找出指引。新的 **AI 驅動的內容說明**&#x200B;可協助您學習和提升有關新 Campaign 功能的專業知識。它以最新的產品文件為基礎，可協助您在建立使用案例時，立即尋求說明並獲得逐步指引。此功能目前在Beta版中提供，以供有限的使用者使用。 若要了解詳細資訊，請參閱[本章節](../get-started/using-ai.md)。
+直接從產品使用者介面提出問題並找出指引。新的 **AI 驅動的內容說明**&#x200B;可協助您學習和提升有關新 Campaign 功能的專業知識。它以最新的產品文件為基礎，可協助您在建立使用案例時，立即尋求說明並獲得逐步指引。此功能目前在 Beta 版中提供，僅供有限的使用者使用。若要了解詳細資訊，請參閱[本章節](../get-started/using-ai.md)。
 
 **預先定義的篩選器**
 
-推出預先定義的篩選器管理。Campaign Web 使用者介面現在為您提供易於使用的介面，以便您輕鬆&#x200B;**管理和自訂預先定義的篩選器**，以滿足您的特定需求。建立一次並儲存以供日後使用。 若要了解詳細資訊，請參閱[本章節](../get-started/predefined-filters.md)。
+推出預先定義的篩選器管理。Campaign Web 使用者介面現在為您提供易於使用的介面，以便您輕鬆&#x200B;**管理和自訂預先定義的篩選器**，以滿足您的特定需求。建立一次並儲存，即可供未來使用。若要了解詳細資訊，請參閱[本章節](../get-started/predefined-filters.md)。
 
 **用於電子郵件設計的 HTML 轉換器**
 
-您現在可以在 Campaign 的電子郵件編輯器中&#x200B;**匯入並轉換任何 HTML 內容**。內容區塊會自動識別，並可在電子郵件設計工具中使用：利用其強大的設計功能來更新及個人化內容！ 若要了解詳細資訊，請參閱[本章節](../email/existing-content.md)。
+您現在可以在 Campaign 的電子郵件編輯器中&#x200B;**匯入並轉換任何 HTML 內容**。內容區塊會自動識別，並可在電子郵件設計工具中使用：使用其強大的設計功能，進行更新和個人化！若要了解詳細資訊，請參閱[本章節](../email/existing-content.md)。
 
 
 **簡訊提供優惠**
@@ -134,9 +134,9 @@ Adobe Campaign Web 具有&#x200B;**強大且直覺的查詢建模工具**，可�
 
 此外，您在用戶端主控台中已經可以使用的所有資料和設定都會從探索工具左側導覽顯示在 Campaign Web 使用者介面中。若要了解「探索工具」檢視的詳細資訊，請參閱[本章節](../get-started/user-interface.md#user-interface-explorer)。
 
-有了 Campaign Web 使用者介面，該使用者介面可反映使用者的權限。進一步瞭解中的許可權 [此頁面](../get-started/permissions.md).
+有了 Campaign Web 使用者介面，該使用者介面可反映使用者的權限。在[本頁面](../get-started/permissions.md)中深入了解權限。
 
-支援和不支援的功能，以及Campaign Web使用者介面與Campaign使用者端主控台之間的互通性 [在此頁面中](../get-started/capability-matrix.md).
+如需深入了解 Campaign Web 使用者介面與 Campaign 用戶端主控台之間支援/不支援的功能以及互通性，請參閱[此頁面](../get-started/capability-matrix.md)。
 
 ## 術語更新 {#terminology-updates}
 
@@ -158,6 +158,6 @@ Adobe Campaign Web 具有&#x200B;**強大且直覺的查詢建模工具**，可�
 * 傳遞儀表板 KPIs 每 5 分鐘更新一次。- 但傳遞準備是即時的。
 * 尚未整合頂端列中的 Adobe Experience Cloud 通知和統一說明。
 
-在Campaign網頁使用者介面中使用在Campaign使用者端主控台中建立或修改的工作流程時，適用特定的護欄和限制。 它們會列出 [在本節中](../get-started/guardrails.md).
+當在 Campaign Web 使用者介面使用在 Campaign 用戶端主控台建立或修改的工作流程時，便會套用特定的護欄和限制。它們會[在本節中](../get-started/guardrails.md)列出。
 
-進一步瞭解Campaign Web使用者介面與Campaign使用者端主控台之間支援/不支援的功能和互通性 [在此頁面中](../get-started/capability-matrix.md).
+如需深入了解 Campaign Web 使用者介面與 Campaign 用戶端主控台之間支援/不支援的功能以及互通性，請參閱[此頁面](../get-started/capability-matrix.md)。
