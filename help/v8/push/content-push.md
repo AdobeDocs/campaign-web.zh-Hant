@@ -24,7 +24,7 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
->title="「稍後提醒」按鈕"
+>title="稍後提醒按鈕"
 >abstract="待定"
 
 

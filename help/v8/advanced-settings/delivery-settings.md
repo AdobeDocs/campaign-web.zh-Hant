@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '2420'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="傳遞的容量設定"
->abstract="在傳遞訊息之前，請使用容量規則以確保您的組織可以處理傳遞、傳遞可能生成的傳入訊息，以及用於聯絡訂閱者的呼叫次數等。容量規則是在 Adobe Campaign v8 主控台中定義。在此畫面中，選取與頻道關聯的規則。"
+>abstract="在傳遞訊息之前，請使用容量規則以確保您的組織可以處理傳遞、傳遞可能生成的傳入訊息，以及用於聯絡訂閱者的呼叫次數等。容量規則是在 Adobe Campaign v8 主控台中定義。在此畫面中，選取一個與頻道關聯的規則。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -180,7 +180,7 @@ ht-degree: 49%
 
 因軟性或忽略錯誤而暫時未傳送的郵件可能會自動重試。 根據預設，排程在傳送的第一天進行五次重試，最小間隔為一小時分佈在一天中的24小時。
 
-## 核准（電子郵件頻道） {#approval}
+## 核准 (電子郵件頻道) {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"

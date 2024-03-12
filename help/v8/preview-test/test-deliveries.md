@@ -6,7 +6,7 @@ exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="將測試設定檔納入主要對象"
->abstract="啟用此選項也可傳送最終訊息給校樣收件者。"
+>abstract="啟用此選項也可將最終訊息傳送給校訂收件者。"
 
 測試設定檔是資料庫中的其他收件者。 它們是從 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 功能表。 [了解更多](../audience/test-profiles.md#create-test-profiles)
 
