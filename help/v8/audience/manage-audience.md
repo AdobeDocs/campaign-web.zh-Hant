@@ -68,7 +68,7 @@ Campaign網頁適用的對象清單可從 **[!UICONTROL 受眾]** 功能表。
 
 若要複製或刪除對象，請按一下 **[!UICONTROL 更多動作]** 「對象」清單中「對象名稱」旁或「對象詳細資料」畫面內的可用按鈕。
 
-## 作法影片 {#video}
+## 操作說明影片 {#video}
 
 瞭解如何在Adobe Campaign網頁使用者介面中建立使用Experience Platform對象的目的地。
 

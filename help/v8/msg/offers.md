@@ -6,14 +6,14 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
 
 # 將優惠新增至您的訊息 {#offers-content}
 
-您可以在Adobe Campaign網路使用者介面中，將優惠方案新增至傳遞。 這些優惠方案可從 **選件** 左側功能表，可讓您存取優惠方案清單。 所有這些選件都是唯讀的，而且必須已使用 **[!UICONTROL 互動]** 模組。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+您可以在Adobe Campaign網路使用者介面中，將優惠方案新增至傳遞。 這些優惠方案可從 **選件** 左側功能表，可讓您存取優惠方案清單。 所有這些選件都是唯讀的，而且必須已使用 **[!UICONTROL 互動]** 模組。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hant){target="_blank"}.
 
 
 透過傳送傳送優惠方案的步驟如下：

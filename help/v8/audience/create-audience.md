@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -97,7 +97,7 @@ Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從�
 
 ![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}
 
-## 作法影片 {#video}
+## 操作說明影片 {#video}
 
 瞭解如何建立和管理對象、如何選取傳送對象以及定義控制群組。
 

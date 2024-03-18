@@ -3,13 +3,13 @@ audience: end-user
 title: 使用波段傳送
 description: 進一步瞭解Campaign網頁中的傳遞設定
 feature: Email
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
-
 
 # 使用波段傳送 {#send-using-waves}
 
@@ -46,7 +46,7 @@ ht-degree: 13%
 
    >[!CAUTION]
    >
-   >請確定最後一個批次沒有超過中定義的傳送期限 [有效性](delivery-settings.md#validity) 標籤，否則部分訊息可能不會傳送。 特定型別控制規則、 **[!UICONTROL 波段排程檢查]**，確保最後一個波段是在傳遞效度限制之前計畫。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+   >請確定最後一個批次沒有超過中定義的傳送期限 [有效性](delivery-settings.md#validity) 標籤，否則部分訊息可能不會傳送。 特定型別控制規則、 **[!UICONTROL 波段排程檢查]**，確保最後一個波段是在傳遞效度限制之前計畫。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=zh-Hant).
    >
    >在設定最後一個波段時，您也必須允許足夠的重試時間。 [了解更多](delivery-settings.md#retries)
 
@@ -99,6 +99,3 @@ ht-degree: 13%
 若要這麼做，請使用 **[!UICONTROL 根據行事曆排程波段]** 選項。 例如，將第一個波段設為10%，將第二個波段設為15%，將第三個波段設為20%，以此類推。
 
 ![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
-
-
-

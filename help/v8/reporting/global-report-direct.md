@@ -5,7 +5,7 @@ description: 深入瞭解直接郵件通道的全域報告
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
