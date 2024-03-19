@@ -3,9 +3,9 @@ audience: end-user
 title: 傳遞報告
 description: 了解如何存取和使用傳遞報告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '272'
 ht-degree: 45%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 45%
 * [以電子郵件傳送報告](email-report.md)
 * [簡訊傳遞報告](sms-report.md)
 * [推播傳遞報告](push-report.md)
+* [直接郵件傳遞報告](direct-mail.md)
 
 ## 管理您的報告儀表板 {#manage-reports}
 

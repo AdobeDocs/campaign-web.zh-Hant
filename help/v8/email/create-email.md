@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送您的第一個電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1386'
 ht-degree: 57%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 57%
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
 根據預先定義的 [設計範本](../email/create-email-templates.md)，該電子郵件也會根據客戶設定檔屬性提供個人化內容。
+
+➡️ [在影片中探索此功能](#video)
 
 ## 建立電子郵件傳遞 {#create-email}
 
@@ -211,3 +213,9 @@ ht-degree: 57%
 1. 傳送電子郵件後，您可以按一下「**[!UICONTROL 報告]**」按鈕存取專屬報告以進一步分析。
 
 ![](assets/reports.png){zoomable=&quot;yes&quot;}
+
+## 操作說明影片 {#video}
+
+瞭解如何從草稿開始建立電子郵件傳遞、定義對象、設計內容、模擬預覽，以及傳送校訂。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

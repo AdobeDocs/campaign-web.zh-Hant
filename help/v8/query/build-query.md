@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2088'
 ht-degree: 9%
 
 ---
@@ -16,15 +16,17 @@ ht-degree: 9%
 
 您可以新增兩種型別的元素：
 
-* **篩選元件** （自訂條件、選取對象、預先定義的篩選器）可讓您建立自己的規則、選取對象或預先定義的篩選器，以縮小查詢範圍。 [瞭解如何使用篩選元件](#filtering)
+* **篩選元件** （自訂條件、選取對象、預先定義的篩選器）可讓您建立自己的規則、選取對象或預先定義的篩選器，以縮小查詢範圍。 它們會新增在查詢的開頭和虛線轉變上。 [瞭解如何使用篩選元件](#filtering)
 
-  *訂閱體育電子報的收件者*. *住在紐約的收件者*， *住在舊金山的收件者*
+  範例： *訂閱體育電子報的收件者*. *住在紐約的收件者*， *住在舊金山的收件者*
 
-* **群組操作者** (AND、OR、EXCEPT)可讓您將圖表中的篩選元件群組在一起，以符合您的需求。 [瞭解如何使用操作者](#filtering)
+  ![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
-  *訂閱「運動」電子報的收件者&#x200B;**和**住在紐約的人&#x200B;**或**舊金山*.
+* **群組操作者** (AND、OR、EXCEPT)可讓您將圖表中的篩選元件群組在一起。 它們會在篩選元件之前新增到現有轉變上。 [瞭解如何使用操作者](#filtering)
 
-![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
+  範例： *訂閱「運動」電子報的收件者&#x200B;**和**住在紐約的人&#x200B;**或**舊金山*.
+
+  ![](assets/query-add-operator.png){zoomable=&quot;yes&quot;}
 
 ## 新增篩選元件 {#filtering}
 
@@ -51,7 +53,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >「編輯運算式」按鈕可讓您運用Campaign Web運算式編輯器，使用資料庫和協助程式函式的欄位，手動定義運算式。 [瞭解如何編輯運算式](expression-editor.md)
+   >此 **編輯運算式** 按鈕可讓您運用Campaign網頁運算式編輯器，使用資料庫和協助程式函式的欄位，手動定義運算式。 [瞭解如何編輯運算式](expression-editor.md)
 
 1. 從下拉式清單中選取要套用的運運算元。 可以使用各種運運算元。 請注意，下拉式清單中可用的運運算元取決於屬性的資料型別。
 
@@ -83,6 +85,10 @@ ht-degree: 9%
    *傳回21歲或以上所有設定檔的查詢範例：*
 
    ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
+
+   對於日期型別屬性，預先定義的值可使用 **[!UICONTROL 預設集]** 選項。
+
+   ![](assets/date-presets.png){zoomable=&quot;yes&quot;}
 
 #### 連結表格的自訂條件（1-1和1-N連結）{#links}
 
@@ -211,7 +217,7 @@ ht-degree: 9%
 
 每次您將新的篩選元件新增到查詢時，它都會自動透過連結連結到另一個元件。 **和** 運運算元。 這表示兩個篩選元件的結果會合併。
 
-在此範例中，我們在第二個轉變中新增了對象型別的篩選元件。 元件會連結至預先定義的篩選型別條件，並具有 **和** 運運算元，表示查詢結果包含以「Madridians」預先定義篩選器為目標的收件者，以及屬於「折扣獵手」對象的收件者。
+在此範例中，我們在第二個轉變中新增了對象型別的篩選元件。 元件會連結至預先定義的篩選條件，並具有 **和** 運運算元，表示查詢結果包含以「Madridians」預先定義篩選器為目標的收件者，且屬於「折扣獵手」對象。
 
 ![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 

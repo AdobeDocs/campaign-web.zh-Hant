@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查詢建模工具
 description: 瞭解如何使用Adobe Campaign Web查詢建模工具。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 25%
+source-wordcount: '559'
+ht-degree: 22%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 25%
 >id="acw_homepage_learning_card5"
 >title="新的查詢建模工具"
 >abstract="Adobe Campaign Web 具有查詢建模工具，可簡化篩選資料庫的流程，以根據各種不同的條件選取特定目標。這包括進階運算式和運算子的使用。查詢建模工具適用於每個您需要定義篩選資料的規則的環境。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
@@ -33,20 +32,12 @@ Adobe Campaign Web使用者介面具有查詢建模工具，可簡化根據各�
 
 | 使用情況 | 範例 |
 |  ---  |  ---  |
-| **定義對象**：指定您要在訊息或工作流程中鎖定的母體，輕鬆建立因應您需求的新對象。 | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **自訂工作流程活動**：在工作流程活動中套用規則（例如分割與調解），以符合您的特定需求。 | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **預先定義的篩選器**：建立預先定義的篩選器，以做為各種篩選作業期間的捷徑，無論您是使用資料清單或形成傳送的對象。 | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **篩選報表資料**：新增規則以篩選報表中顯示的資料。 | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **自訂清單**：建立自訂規則，以篩選清單中顯示的資料，例如收件者、傳遞清單等。 | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-
-<!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
-
-+++Example
-
-![](assets/access-audience.png){zoomable="yes"}
-
- +++
--->
+| **定義對象**：指定您要在訊息或工作流程中鎖定的母體，輕鬆建立因應您需求的新對象。 [瞭解如何建立受眾](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **自訂工作流程活動**：在工作流程活動中套用規則，例如 **Split** 和 **調解**，以符合您的特定需求。 [進一步瞭解工作流程活動](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **預先定義的篩選器**：建立預先定義的篩選器，以做為各種篩選作業期間的捷徑，無論您是使用資料清單或形成傳送的對象。 [瞭解如何使用預先定義的篩選器](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **篩選報表資料**：新增規則以篩選報表中顯示的資料。 [瞭解如何使用報告](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **自訂清單**：建立自訂規則，以篩選清單中顯示的資料，例如收件者、傳遞清單等。 [瞭解如何篩選清單](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **建立條件式內容**：建立條件來定義應向不同收件者顯示的內容，確保個人化和相關的傳訊，藉此建立電子郵件內容動態化。 [瞭解如何建立條件式內容](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 ## 查詢模組化介面 {#interface}
 

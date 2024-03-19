@@ -3,10 +3,10 @@ audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 6%
+source-wordcount: '699'
+ht-degree: 5%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 6%
 * **暫停/繼續** 活動。 執行工作流程時，它會在暫停的活動中暫停。 系統不會執行對應的任務，以及在相同路徑中跟隨著該任務的所有任務。
 
 ![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+數個 **目標定位** 活動，例如 **合併** 或 **重複資料刪除**，可讓您處理剩餘母體，並將其納入其他出站轉變中。 例如，如果您使用 **Split** 活動，補數包含不符合任何先前定義之子集的母體。 若要使用此功能，請啟用 **產生補充** 選項。
+
+![](assets/workflow-split-complement.png)
 
 ## 範例 {#example}
 

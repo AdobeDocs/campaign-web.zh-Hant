@@ -3,10 +3,10 @@ audience: end-user
 title: 匯入您的電子郵件內容
 description: 了解如何匯入電子郵件內容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 49%
+source-wordcount: '278'
+ht-degree: 40%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 49%
   >
   >.zip 檔案結構沒有限制。不過，參照必須是相對參照，而且能放在.zip資料夾的樹狀結構內。
 
-若要匯入包含 HTML 內容的檔案，請依照以下步驟操作：
+➡️ [在影片中探索此功能](#video)
+
+若要匯入包含HTML內容的檔案，請遵循下列步驟。
 
 1. 在 [電子郵件設計工具](get-started-email-designer.md) 首頁，選取 **[!UICONTROL 匯入HTML]**.
 
@@ -50,3 +52,8 @@ ht-degree: 49%
 
 1. 您現在可以根據需要使用電子郵件設計工具功能個人化匯入的檔案 [瞭解更多](content-components.md).
 
+## 操作說明影片 {#video}
+
+瞭解如何透過上傳HTML來建立電子郵件、如何使其與電子郵件設計工具相容以及如何將其轉換為範本。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

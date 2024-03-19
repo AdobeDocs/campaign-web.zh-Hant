@@ -3,9 +3,9 @@ audience: end-user
 title: 在電子郵件設計工具中設計電子郵件
 description: 了解如何從頭開始設計您的電子郵件內容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '627'
 ht-degree: 71%
 
 ---
@@ -54,6 +54,8 @@ ht-degree: 71%
 >abstract="電子郵件設計工具可讓您透過定義欄結構輕鬆定義範本的版面。"
 
 電子郵件設計工具可讓您輕鬆定義電子郵件的結構。使用簡單的拖放操作來新增和移動結構元素，您可以在幾秒鐘內設計出電子郵件的內文。
+
+➡️ [在影片中探索此功能](#video)
 
 若要開始建立您的電子郵件內容，請遵循下列步驟。
 
@@ -105,3 +107,8 @@ ht-degree: 71%
 
 1. 當您的電子郵件準備就緒時，按一下「**[!UICONTROL 儲存]**」。
 
+## 操作說明影片 {#video}
+
+瞭解如何導覽電子郵件設計工具。瞭解如何從草稿開始架構及設計電子郵件、如何個人化，以及如何測試電子郵件。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

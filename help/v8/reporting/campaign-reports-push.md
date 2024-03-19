@@ -3,9 +3,9 @@ audience: end-user
 title: 推播頻道的行銷活動報表
 description: 瞭解推播頻道的行銷活動報表
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 19%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 19%
 
 +++進一步瞭解推播行銷活動報告量度。
 
-* **[!UICONTROL 已傳送總數]**：在傳送準備期間處理的訊息總數。
+* **[!UICONTROL 要傳遞的訊息]**：在傳送準備期間處理的訊息總數。
 
 * **[!UICONTROL 已傳遞]**：成功傳送的訊息數，與已傳送訊息總數相關。
 
@@ -71,7 +71,6 @@ ht-degree: 19%
 此 **[!UICONTROL 執行統計資料]** 表格詳細說明您的傳送是否成功。 量度詳情如下。
 
 ![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
-
 
 +++進一步瞭解推播行銷活動報告量度。
 

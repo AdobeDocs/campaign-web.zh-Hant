@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 使用者介面有哪些新增功能？
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 99%
+source-wordcount: '1296'
+ht-degree: 98%
 
 ---
 
@@ -20,10 +20,7 @@ ht-degree: 99%
 
 我們很高興推出 **Adobe Campaign Web 使用者介面**&#x200B;的新版本。我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。Campaign Web 使用者介面 (UI) 將畫布與 Adobe Experience Platform 連結，以提供統一的體驗。
 
-
->[!AVAILABILITY]
->
->自 [Campaign v8.6 發行版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant)開始，所有使用者皆可使用此版本。 若要深入了解 Adobe Campaign 發行版本的詳細資訊，請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-Hant){target="_blank"}。
+變更、新功能和改進專案會列於 [每月發行說明](release-notes.md).
 
 
 ## 主要功能 {#key-features}

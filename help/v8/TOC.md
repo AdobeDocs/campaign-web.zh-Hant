@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 97%
+source-wordcount: '632'
+ht-degree: 93%
 
 ---
 
@@ -16,8 +16,10 @@ ht-degree: 97%
 # Adobe Campaign Web 文件 {#v8}
 
 + [Adobe Campaign Web 使用者介面文件](campaign-web-home.md)
-+ [新增功能](rn/whats-new.md)
-+ [文件更新](rn/documentation-updates.md)
++ 發行說明 {#release-notes}
+   + [新增功能](rn/whats-new.md)
+   + [最新版本](rn/release-notes.md)
+   + [文件更新](rn/documentation-updates.md)
 + 開始使用 Adobe Campaign {#start}
    + [開始使用](get-started/get-started.md)
    + [連線至 Campaign](get-started/connect-to-campaign.md)
@@ -73,6 +75,11 @@ ht-degree: 97%
       + [建立簡訊傳遞](sms/create-sms.md)
       + [設計簡訊傳遞](sms/content-sms.md)
       + [預覽並傳送簡訊傳遞](sms/send-sms.md)
+   + 直接郵件{#direct-mail}
+      + [開始使用直接郵件傳遞](direct-mail/gs-direct-mail.md)
+      + [建立新的直接郵件傳遞](direct-mail/create-direct-mail.md)
+      + [設計擷取檔案](direct-mail/content-direct-mail.md)
+      + [預覽和傳送直接郵件傳遞](direct-mail/send-direct-mail.md)
    + 製作您的動態內容 {#dynamic-content}
       + [開始使用動態內容](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
@@ -129,6 +136,7 @@ ht-degree: 97%
       + [關於工作流程活動](workflows/activities/about-activities.md)
       + [合併連結](workflows/activities/and-join.md)
       + [建置對象](workflows/activities/build-audience.md)
+      + [變更資料來源](workflows/activities/change-data-source.md)
       + [變更維度](workflows/activities/change-dimension.md)
       + [組合](workflows/activities/combine.md)
       + [去重複化](workflows/activities/deduplication.md)
@@ -156,16 +164,19 @@ ht-degree: 97%
       + [以電子郵件寄送傳遞報告 ](reporting/email-report.md)
       + [推播傳遞報告 ](reporting/push-report.md)
       + [以簡訊傳送傳遞報告](reporting/sms-report.md)
+      + [直接郵件傳遞報告](reporting/direct-mail.md)
    + 行銷活動報告 {#campaign-report}
       + [開始使用行銷活動報告](reporting/campaign-reports.md)
       + [電子郵件行銷活動報告](reporting/campaign-reports-email.md)
       + [推播行銷活動報告](reporting/campaign-reports-push.md)
       + [簡訊行銷活動報告](reporting/campaign-reports-sms.md)
+      + [直接郵件行銷活動報告](reporting/campaign-reports-direct-mail.md)
    + 全域報告 {#global-report}
       + [開始使用全域報告](reporting/global-reports.md)
       + [電子郵件全域報告](reporting/global-report-email.md)
       + [推播全域報告](reporting/global-report-push.md)
       + [簡訊全域報告](reporting/global-report-sms.md)
+      + [直接郵件全域報告](reporting/global-report-direct.md)
 + 整合 {#integrations}
    + [與其他Adobe解決方案搭配使用](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](integrations/aem-assets.md)

@@ -3,7 +3,7 @@ audience: end-user
 title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 40%
@@ -40,8 +40,6 @@ ht-degree: 40%
 >id="acw_deliveries_push_android_msg"
 >title="推播 Android 訊息"
 >abstract="定義 Android 裝置的推播通知內容。若要撰寫訊息，請按一下「**標題**」和「**訊息**」欄位。使用運算式編輯器來個人化資料並新增動態內容。若要進一步個人化推播通知，您可以選擇要新增至推播通知的影像，以及要在設定檔裝置上顯示的通知圖示和圖示顏色。若需更多自訂設定，請前往「**進階設定**」區段。"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"

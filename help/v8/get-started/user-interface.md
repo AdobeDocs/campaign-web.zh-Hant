@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5abbfc29b926aafaaceb68e806b6435bf0722f35
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1578'
 ht-degree: 100%
 
 ---
@@ -288,27 +288,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- ML: beta wiki page - not visible in UI-->
 
->[!CONTEXTUALHELP]
->id="acw_directmail_content"
->title="直接郵件的內容"
->abstract="直接郵件的內容"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_file"
->title="直接郵件的檔案屬性"
->abstract="直接郵件的檔案屬性"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_content"
->title="直接郵件的內容屬性"
->abstract="直接郵件的內容屬性"
-
 <!-- FOR POST-GA -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_change_data_source"
->title="變更資料來源"
->abstract="**變更資料來源**&#x200B;活動可讓您為工作流程工作表選取不同資料來源。"
 
 
 <!--
@@ -328,8 +309,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="規則產生器進階屬性"
 >abstract="依預設，屬性清單中只會顯示最常見的屬性。啟用「**顯示進階屬性**」開關，即可在規則產生器的左側調色盤中查看目前清單的所有可用屬性，例如節點、群組、1-1 連結、1-N 連結。"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"

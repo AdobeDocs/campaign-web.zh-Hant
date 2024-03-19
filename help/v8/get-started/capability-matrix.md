@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 使用者介面/用戶端主控台功能比較表
 description: Campaign Web 使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 100%
+source-wordcount: '2141'
+ht-degree: 96%
 
 ---
 
@@ -37,11 +37,10 @@ Campaign Platform 可依據企業與資料需求自訂，且可透過 Campaign �
 
 ## 通訊通道 {#channels-capabilities}
 
-透過 Campaign Web 使用者介面，您可建立、設計及傳送&#x200B;**電子郵件**、**簡訊**&#x200B;與&#x200B;**推播通知**，並使用各種專用報告測量其影響，詳細資訊請參閱[本章節](../msg/gs-messages.md)。然而，目前&#x200B;**不**&#x200B;適用以下頻道：應用程式內、直接郵件、LINE、呼叫中心/自訂頻道、使用 X (Twitter) 進行社交行銷。
+透過Campaign Web使用者介面，您可以建立、設計和傳送 **電子郵件**， **簡訊**， **推播通知**， **直接郵件** 並使用各種專用報告來衡量其影響，如詳細資訊 [在本節中](../msg/gs-messages.md). 不過，以下管道目前為 **非** 可用：應用程式內、LINE、客服中心/自訂頻道、使用X的社交行銷(Twitter)。
 
 使用提供的連結來瀏覽 Campaign v8 (用戶端主控台) 文件，進一步了解這些頻道。
 
-* **直接郵件**。直接郵件頻道可讓您傳送實體信函給客戶、用戶、供應商或其他人，例如通知、發票、對帳單、行銷優惠等。 此頻道僅適用於用戶端主控台。  [了解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=zh-Hant){target="_blank"}
 * **LINE 傳送訊息**。LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話，適用所有行動裝置與個人電腦。Adobe Campaign 僅可從用戶端主控台傳送 LINE 訊息。[了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=zh-Hant){target="_blank"}
 * **呼叫中心和自訂管道**。呼叫中心和其他自訂管道可以在您的行銷活動環境中實作。這些管道只能在用戶端主控台中使用。[在 Campaign Classic v7 文件中了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=zh-Hant#other-channels){target="_blank"}
 * 搭配 X (Twitter) 進行&#x200B;**社交行銷**。透過 X (Twitter) 張貼訊息和傳送直接訊息，來與客戶互動。此功能隨附於社交行銷附加元件，只能從用戶端主控台取得 - [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=zh-Hant){target="_blank"}
@@ -168,7 +167,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶，可與外部系統連�
 
 >[!NOTE]
 >
->雖然其中的一些活動只能在用戶端主控台中使用，但有些可在 Campaign Web 使用者介面中使用，例如&#x200B;**擴充**、**載入檔案**&#x200B;或&#x200B;**變更維度**&#x200B;活動。[進一步了解 Campaign Web 使用者介面中的目標定位和資料管理活動](../workflows/activities/about-activities.md#targeting)
+>雖然其中的一些活動只能在使用者端主控台中使用，但有些可在Campaign網頁使用者介面中使用，例如 **擴充**， **載入檔案**， **變更資料來源** 或 **變更維度** 活動。 [進一步了解 Campaign Web 使用者介面中的目標定位和資料管理活動](../workflows/activities/about-activities.md#targeting)
 
 ### 同盟資料存取設定 {#fda}
 

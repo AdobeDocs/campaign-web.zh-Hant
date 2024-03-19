@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用全域報告
 description: 瞭解全域報告
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 32%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 32%
 * [以電子郵件傳送全域報告](global-report-email.md)
 * [SMS全域報告](global-report-sms.md)
 * [推播全域報告](global-report-push.md)
+* [直接郵件全域報告](global-report-direct.md)
 
 ## 管理您的報告儀表板 {#manage-reports}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 篩選清單
 description: 瞭解如何使用內建和自訂篩選器來篩選Adobe Campaign網路清單。
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 7%
@@ -31,6 +31,7 @@ Adobe Campaign Web在每個物件清單中提供篩選器，可讓您根據特�
 自訂篩選器可讓您根據自己的特定條件來調整清單。 它們是使用Campaign查詢模型工具所設計。 若要建立自訂篩選器，請遵循下列步驟：
 
 1. 開啟篩選器窗格，然後按一下 **新增規則** 位於窗格底部的按鈕。
+
 1. 查詢建模器隨即開啟。 定義並結合您的篩選條件以符合您的需求。 有關如何使用查詢建模器的詳細資訊，請參閱 [本節](../query/query-modeler-overview.md).
 
    以下範例顯示自訂篩選器，其設計為在行銷活動清單中顯示SMS行銷活動，由執行或瑜伽部門的操作者執行。
