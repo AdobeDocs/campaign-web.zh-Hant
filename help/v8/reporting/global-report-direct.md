@@ -2,16 +2,16 @@
 audience: end-user
 title: 直接郵件通道的全域報告
 description: 深入瞭解直接郵件通道的全域報告
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '627'
 ht-degree: 5%
 
 ---
 
 # 直接郵件通道的全域報告 {#global-report-direct}
 
-「全域」報表為使用者提供管道層級流量和參與量度的完整總覽。
+直接郵件全域報表為使用者提供管道層級的流量和參與量度的完整總覽。
 
 導覽至 **[!UICONTROL 報表]** 功能表中的 **[!UICONTROL 報告]** 區段。 您可以根據報表日期、資料夾或規則來篩選資料。 [了解更多](global-reports.md)
 
@@ -19,9 +19,14 @@ ht-degree: 5%
 
 ### 傳遞概觀 {#delivery-overview-direct}
 
-此 **[!UICONTROL 傳遞概覽]** 提供關鍵績效量度(KPI)，提供訪客與每個電子郵件傳送互動的深入分析。 量度概述如下。
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_overview_direct_mail"
+>title="傳遞概觀"
+>abstract="此 **傳遞概覽** 提供關鍵績效量度(KPI)，用於深入分析訪客與每個直接郵件傳送的互動。 量度概述如下。"
 
-![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+此 **[!UICONTROL 傳遞概覽]** 提供關鍵績效量度(KPI)，用於深入分析訪客與每個直接郵件傳送的互動。 量度概述如下。
+
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++進一步瞭解傳送概述量度。
 
@@ -36,9 +41,19 @@ ht-degree: 5%
 
 ### 目標對象 {#delivery-summary-direct-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_graph"
+>title="目標對象"
+>abstract="收件者資料和訊息資訊會顯示在 **目標對象** 圖表，反映傳遞準備分析。"
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_table"
+>title="目標對象"
+>abstract="此 **目標對象** 此表格會根據傳送準備流程的結果，提供收件者和對應訊息的詳細劃分。"
+
 的表格和圖表 **[!UICONTROL 目標對象]** 顯示與收件者相關的資料，下文提供詳細量度。
 
-![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++深入瞭解鎖定目標對象量度。
 
@@ -52,9 +67,17 @@ ht-degree: 5%
 
 ### 傳遞統計資料 {#delivery-summary-direct-exec-stats}
 
-此 **[!UICONTROL 傳遞統計資料]** 表格提供每個直接郵件傳送成功的明細，明細量度概述如下。
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
+>title="傳遞統計資料"
+>abstract="此 **傳遞統計資料** 圖表提供直接郵件傳送有效性的深入分析，包括成功的傳送和遇到的任何錯誤。"
 
-![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
+>title="傳遞統計資料"
+>abstract="此 **傳遞統計資料** 此表格詳細說明直接郵件傳送的成功情況及發生的錯誤。"
+
+此 **[!UICONTROL 傳遞統計資料]** 圖表和表格提供每個直接郵件傳送成功的劃分，明細量度概述如下。
 
 +++進一步瞭解傳遞統計量度。
 
@@ -70,41 +93,35 @@ ht-degree: 5%
 
 ### 排除的原因 {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_exclusions_direct_mail_table"
+>title="排除"
+>abstract="此 **排除的原因** 表格會依規則顯示傳遞準備程式期間遭拒絕之訊息的詳細細目。"
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_causes_exclusion_direct_mail_graph"
+>title="傳遞排除原因"
+>abstract="此 **排除的原因** 圖表會說明在準備傳送期間被拒絕的訊息分佈，並依每個規則分類。"
+
+![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 排除專案圖表和表格說明了從目標設定檔排除的使用者設定檔無法接收訊息的原因。
 
-## 傳遞總處理能力 {#delivery-throughput}
++++深入瞭解排除量度發生的原因。
 
-此報表提供指定時間範圍內傳送輸送量的完整詳細資料。 用來測量訊息傳送速度的關鍵量度是每小時傳送的訊息數。
+* **[!UICONTROL 隔離中的地址]**：將地址置於隔離區時產生的錯誤型別。
 
-## 無法傳遞的項目 {#non-deliverables-direct}
+* **[!UICONTROL 未指定地址]**：傳送傳遞時產生的錯誤型別，用以指出地址不存在。
 
-### 依類型的錯誤劃分 {#delivery-summary-direct-breakdown-per-type}
+* **[!UICONTROL 品質不良的地址]**：郵寄地址品質評等太低時產生的錯誤型別。
 
-此 **[!UICONTROL 每種型別的錯誤劃分]** 表格和圖表會顯示與不同網域中遇到的潛在錯誤相關的資料，下文提供特定量度。
+* **[!UICONTROL 已加入封鎖清單的地址]**：執行傳遞時將收件者加入封鎖清單時產生的錯誤型別。
 
-此報告中顯示的錯誤會觸發隔離程式。 有關隔離管理的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+* **[!UICONTROL 兩次]**：收件者因金鑰值不唯一而被排除時產生的錯誤型別。
 
-+++深入瞭解每個型別量度的錯誤劃分。
+* **[!UICONTROL 控制組]**：收件者的地址是控制組的一部分。
 
-* **[!UICONTROL 使用者不明]**：傳送期間產生的錯誤型別，用以指出位址無效。
-
-* **[!UICONTROL 無效的網域]**：傳送傳遞時產生的錯誤型別，用以指出位址的網域錯誤或不存在。
-
-* **[!UICONTROL 郵箱已滿]**：在嘗試傳送五次後產生的錯誤型別，以指出收件者的收件匣包含太多訊息。
-
-* **[!UICONTROL 帳戶已停用]**：傳送傳遞時產生的錯誤型別，用以指出地址已不存在。
-
-* **[!UICONTROL 已拒絕]**：當IAP （網際網路存取提供者）拒絕位址時產生的錯誤型別，例如在套用安全性規則（反垃圾郵件軟體）之後。
-
-* **[!UICONTROL 無法聯絡]**：訊息發佈字串中發生的錯誤型別：SMTP轉送上的事件、暫時無法連線網域等
-
-* **[!UICONTROL 未連線]**：錯誤型別，表示收件者的行動電話在傳送時已關閉或已中斷與網路的連線。
+* **[!UICONTROL 目標大小受限]**：收件者已達到傳遞大小上限。
 
 +++
-
-### 依網域的錯誤劃分 {#delivery-summary-email-breakdown-per-domain}
-
-此 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖表會顯示與每個網域中潛在錯誤相關的資料。 量度與以下專案通用 **[!UICONTROL 每種型別的錯誤劃分]** 表格和圖表詳見上文。
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用調解工作流程活動
 description: 瞭解如何使用協調工作流程活動
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 43%
+source-wordcount: '860'
+ht-degree: 40%
 
 ---
 
@@ -53,7 +53,8 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="調和規則"
->abstract="選取用於去重複化的調和欄位。您可以使用一個或多個調和標準。"
+>abstract="選取要用於重複資料刪除的調解規則。 若要使用屬性，請選取 **簡單屬性** 選項，然後選擇來源和目的地欄位。 若要使用查詢建模程式建立自己的調解條件，請選取 **進階調解條件** 選項。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查詢建模工具"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
@@ -85,9 +86,9 @@ ht-degree: 43%
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. 若要使用其他屬性來調解資料，請選取 **進階調解條件** 選項。 然後，您可以使用查詢建模器建立自己的調解條件。 瞭解如何在中使用查詢建模器 [本節](../../query/query-modeler-overview.md).
+   1. 若要使用其他屬性來調解資料，請選取 **進階調解條件** 選項。 然後，您可以使用查詢建模器建立自己的調解條件。 [瞭解如何使用查詢建模器](../../query/query-modeler-overview.md).
 
-1. 您可以使用來篩選要調解的資料 **建立篩選器** 按鈕。 這可讓您使用建立自訂條件 [查詢模型工具](../../query/query-modeler-overview.md).
+1. 您可以使用來篩選要調解的資料 **建立篩選器** 按鈕。 這可讓您使用查詢建模器建立自訂條件。 [瞭解如何使用查詢建模器](../../query/query-modeler-overview.md)
 
 依預設，未調解的資料會保留在出站轉變中，並可在工作表中供未來使用。 若要移除未調和的資料，請停用「**保留未調和的資料**」選項。
 

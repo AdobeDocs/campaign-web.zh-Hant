@@ -3,10 +3,10 @@ audience: end-user
 title: 使用分割工作流程活動
 description: 了解如何使用分割工作流程活動
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 90%
+source-wordcount: '839'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,8 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="分割活動篩選器"
->abstract="若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並設定所需的篩選規則。例如，將電子郵件地址存在於資料庫之傳入母體的設定檔包含在內。"
+>abstract="若要將篩選條件套用至子集，請按一下 **[!UICONTROL 建立篩選器]** 並使用查詢建模器設定所需的篩選規則。 例如，將電子郵件地址存在於資料庫之傳入母體的設定檔包含在內。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查詢建模工具"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -71,7 +72,7 @@ ht-degree: 90%
 
    1. 開啟子集以顯示其屬性。
 
-   1. 若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並設定所需的篩選規則。例如，將電子郵件地址存在於資料庫之傳入母體的設定檔包含在內。
+   1. 若要將篩選條件套用至子集，請按一下 **[!UICONTROL 建立篩選器]** 並使用查詢建模器設定所需的篩選規則。 例如，將傳入母體的設定檔包含在資料庫中存在其電子郵件地址。 [瞭解如何使用查詢建模器](../../query/query-modeler-overview.md)
 
    1. 若要限制子集所選設定檔的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的母體數量或百分比。
 
@@ -85,6 +86,10 @@ ht-degree: 90%
 1. 設定完所有子集後，您可以選擇與任何子集都不相符的剩餘母體，並將其包含在額外的輸出轉變中。為此，請開啟「**[!UICONTROL 產生補充集]**」選項。
 
    ![](../assets/workflow-split-complement.png)
+
+   >[!NOTE]
+   >
+   >此 **[!UICONTROL 在相同表格中產生所有子集]** 選項可讓您將所有子集群組為單一輸出轉變。
 
 該活動現已完成設定。在工作流程執行時，系統會依照子集新增至活動的順序，將母體分割到不同的子集。
 
