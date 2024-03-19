@@ -2,7 +2,7 @@
 audience: end-user
 title: 開始使用直接郵件傳遞
 description: 瞭解如何使用Adobe Campaign Web建立和傳送直接郵件傳遞
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
