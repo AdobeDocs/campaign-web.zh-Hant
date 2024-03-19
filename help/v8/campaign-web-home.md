@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 92%
+source-wordcount: '512'
+ht-degree: 70%
 
 ---
 
@@ -51,29 +51,27 @@ ht-degree: 92%
 
 >[!BEGINTABS]
 
->[!TAB Adobe Experience Manager as a Cloud Service整合]
+>[!TAB 直接郵件頻道]
 
-Adobe Campaign Web 介面與 Adobe Experience Manager as a Cloud Service 的整合可簡化電子郵件內容管理。您現在可以直接在 Adobe Experience Manager 中建立和編輯電子郵件內容，然後順暢地將完成的範本匯入 Adobe Campaign 以進行傳送。
+**直接郵件** 頻道現在可用於工作流程中，並作為獨立傳送。 直接郵件是一種離線頻道，可讓您建立、個人化和產生擷取檔案，並與直接郵件供應商共用以傳送郵件給您的客戶。
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+![影像](assets/do-not-localize/direct-mail.gif)
 
->[!TAB 跨管道工作流程]
+[![影像](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
-發掘自動化和最佳化的新可能性，讓您能夠建立更加動態和個人化的客戶歷程。從進階細分到條件式觸發器，我們的附加工作流程活動能讓您傳遞針對性訊息並提高行銷活動績效。
+>[!TAB 電子郵件設計工具中的查詢模型工具]
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+查詢模組化工具現在可用於電子郵件設計工具。 它可讓您在建立條件式內容時建置條件。
 
->[!TAB 對象構成]
+[![影像](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
-在視覺化工作流程畫布中建立新對象。除了從頭開始建立簡單的對象之外，您還可以利用工作流程活動來調整對象。將多個對象合併為單一對象，使用外部屬性擴充對象，或根據您選擇的規則將其分成多個對象。
+>[!TAB 新的變更資料來源工作流程活動]
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
+此 **變更資料來源** 目標定位活動可讓您變更工作流程工作表所使用的資料來源。 此活動可讓您跨不同的資料庫管理資料並改善效能，因此提供更大的彈性。
 
->[!TAB 電子郵件設計工具]
+![影像](assets/do-not-localize/change-data-source.gif)
 
-Campaign 電子郵件設計工具讓您能夠透過直覺式的拖放介面建立引人入勝、量身打造的客製化電子郵件。無論您是從空白顯示窗開始，匯入現有的內容或利用現有的範本，都可針對每封電子郵件設計和改進所有內容。
-
-[![影像](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![影像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
 
 >[!ENDTABS]
 
