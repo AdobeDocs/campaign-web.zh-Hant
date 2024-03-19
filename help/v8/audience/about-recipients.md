@@ -2,21 +2,14 @@
 title: 開始使用設定檔
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5a4bf85a1f70a0282405aededfb31038f9db17a8
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 19%
+source-wordcount: '456'
+ht-degree: 13%
 
 ---
 
 # 開始使用設定檔 {#profiles}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="設定檔的 360 檢視"
->abstract="建立新的設定檔，並透過強大的報表和工具進行監控。存取設定檔的屬性、互動和紀錄。使用篩選選項瀏覽設定檔清單、編輯和更新其設定檔。"
-
-<!--additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new" text="See release notes"-->
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
