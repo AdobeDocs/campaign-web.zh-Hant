@@ -1,10 +1,10 @@
 ---
 title: 最新發行說明
 description: 探索 Campaign Web 使用者介面隨附的新增功能
-source-git-commit: 21d856f9651f3a392ba9d927bc26082ce9759396
+source-git-commit: 737a2ea3f3c5ecc41c692ada7927f5e60ecb256a
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 9%
+source-wordcount: '341'
+ht-degree: 8%
 
 ---
 
@@ -14,9 +14,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="新增功能"
->abstract="Adobe Campaign的網頁使用者介面版本會在持續傳遞模式上運作，允許以更可縮放、分階段的方法進行功能部署。 發行說明每月更新數次。"
->
->"**March release is now live**, including Direct mail channel, the new Change data source workflow activity, and other improvements."
+>abstract="Adobe Campaign的網頁使用者介面版本會在持續傳遞模式上運作，允許以更可縮放、分階段的方法進行功能部署。 發行說明每月更新數次。 **3月版本現已上線**，包括直接郵件頻道、新的變更資料來源工作流程活動和其他改善。"
 
 
 <!--Last update: **March 19, 2024**-->
