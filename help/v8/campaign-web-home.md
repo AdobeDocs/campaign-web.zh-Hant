@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
+source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 70%
+source-wordcount: '502'
+ht-degree: 71%
 
 ---
 
@@ -51,6 +51,12 @@ ht-degree: 70%
 
 >[!BEGINTABS]
 
+>[!TAB 3月版本已上線！]
+
+探索Adobe Campaign Web使用者介面24.3版包含的新功能和改進。
+
+[![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
 >[!TAB 直接郵件頻道]
 
 **直接郵件** 頻道現在可用於工作流程中，並作為獨立傳送。 直接郵件是一種離線頻道，可讓您建立、個人化和產生擷取檔案，並與直接郵件供應商共用以傳送郵件給您的客戶。
@@ -58,12 +64,6 @@ ht-degree: 70%
 ![影像](assets/do-not-localize/direct-mail.gif)
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
-
->[!TAB 電子郵件設計工具中的查詢模型工具]
-
-查詢模組化工具現在可用於電子郵件設計工具。 它可讓您在建立條件式內容時建置條件。
-
-[![影像](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB 新的變更資料來源工作流程活動]
 
