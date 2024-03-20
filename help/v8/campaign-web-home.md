@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 71%
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>讓您的內容更具動態性</strong><br/>瞭解如何根據您收集到的設定檔相關資訊來自訂內容，讓您的內容更吸引人並提高閱讀的可能性。</div>
+    <div><strong>提供動態內容</strong><br/>了解如何根據您收集的個人資料資訊自訂內容，以使內容更具吸引力並增加引人閱讀的可能性。</div>
     </td>
   </tr>
   <tr style="border: 0;">

@@ -8,7 +8,7 @@ breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 93%
       + [簡訊全域報告](reporting/global-report-sms.md)
       + [直接郵件全域報告](reporting/global-report-direct.md)
 + 整合 {#integrations}
-   + [與其他Adobe解決方案搭配使用](integrations/integration.md)
+   + [使用其他 Adobe 解決方案](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](integrations/aem-assets.md)
-   + [使用Adobe Experience Manager as a Cloud Service管理範本](integrations/aem-content.md)
+   + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
 
