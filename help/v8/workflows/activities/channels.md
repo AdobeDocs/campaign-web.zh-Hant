@@ -1,20 +1,20 @@
 ---
 audience: end-user
 title: 使用傳遞工作流程活動
-description: 了解如何新增傳遞工作流程活動 (電子郵件、推播、簡訊)
+description: 瞭解如何新增傳遞工作流程活動（電子郵件、推播、簡訊、直接郵件）
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 6df7a483ea178abade4bb15256dbd120d556085e
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 59%
+source-wordcount: '971'
+ht-degree: 51%
 
 ---
 
-# 電子郵件、簡訊、推播活動 {#channel}
+# 電子郵件、簡訊、推播、直接郵件活動 {#channel}
 
-Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執行行銷活動。您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。
+Adobe Campaign Web可讓您跨電子郵件、簡訊、直接郵件和推播頻道，自動執行行銷活動。 您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。
 
-例如，您可以建立一個歡迎電子郵件活動，其中包括跨不同管道的一系列訊息，例如電子郵件、簡訊和推播。您還可以在客戶完成購買後傳送後續追蹤電子郵件，或透過簡訊向客戶傳送個人化的生日祝賀訊息。
+例如，您可以建立歡迎電子郵件行銷活動，其中包括跨不同頻道的一系列訊息，例如電子郵件、簡訊、推播和直接郵件。 您還可以在客戶完成購買後傳送後續追蹤電子郵件，或透過簡訊向客戶傳送個人化的生日祝賀訊息。
 
 使用管道活動，您即可建立全面性和個人化的行銷活動，從多個接觸點和客戶互動並提升轉換率。
 
@@ -24,6 +24,7 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 >* [建立獨立的電子郵件傳遞](../../email/create-email.md)
 >* [建立獨立簡訊傳遞](../../sms/create-sms.md)
 >* [建立獨立推送傳送](../../push/create-push.md)
+>* [建立獨立的直接郵件傳送](../../direct-mail/create-direct-mail.md)
 
 ## 先決條件 {#channel-activity-prereq}
 
@@ -39,10 +40,7 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-
-
 * 若要傳送循環傳送，請使用以下專案開始您的工作流程： **排程器** 活動。 您也可以使用 **排程器** 單次傳送的活動，用於設定該傳送的聯絡日期。 您也可以在傳送設定中設定聯絡日期。 請參閱[本節](scheduler.md)。
-
 
 ## 設定管道活動 {#create-a-delivery-in-a-workflow}
 
@@ -66,9 +64,14 @@ Adobe Campaign Web 讓您能夠跨電子郵件、簡訊和推播管道自動執�
 >title="推播 Android 活動"
 >abstract="Push Android 活動簡化了您工作流程中傳送 Android 推播通知的流程。此活動可以傳送一次性和定期的訊息，自動將 Android 推播通知傳送到相同工作流程中的預先定義目標。您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_directmail"
+>title="直接郵件活動"
+>abstract="直接郵件活動可促進工作流程中的直接郵件傳送，允許一次性訊息和循環訊息。 它有助於自動化產生直接郵件供應商所需擷取檔案的程式。 您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
+
 若要在工作流程內容中設定傳送，請遵循下列步驟：
 
-1. 新增管道活動： **[!UICONTROL 電子郵件]**， **[!UICONTROL 簡訊]**， **[!UICONTROL 推播通知(Android)]** 或 **[!UICONTROL 推播通知(iOS)]**.
+1. 新增管道活動： **[!UICONTROL 電子郵件]**， **[!UICONTROL 簡訊]**， **[!UICONTROL 推播通知(Android)]**， **[!UICONTROL 推播通知(iOS)]** 或 **[!UICONTROL 直接郵件]**.
 
 1. 選取 **傳遞型別**：單一或週期性。
 
