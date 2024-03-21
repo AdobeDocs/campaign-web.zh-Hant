@@ -3,7 +3,7 @@ audience: end-user
 title: 使用傳遞工作流程活動
 description: 瞭解如何新增傳遞工作流程活動（電子郵件、推播、簡訊、直接郵件）
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 6df7a483ea178abade4bb15256dbd120d556085e
+source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 51%
