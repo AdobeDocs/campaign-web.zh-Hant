@@ -10,7 +10,7 @@ ht-degree: 3%
 ---
 
 
-# 設計擷取檔案 {#design-direct-mail}
+# 設計摘取檔案 {#design-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
