@@ -1,10 +1,10 @@
 ---
 title: 最新發行說明
 description: 探索 Campaign Web 使用者介面隨附的新增功能
-source-git-commit: 737a2ea3f3c5ecc41c692ada7927f5e60ecb256a
+source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 8%
+source-wordcount: '435'
+ht-degree: 85%
 
 ---
 
@@ -14,39 +14,52 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="新增功能"
->abstract="Adobe Campaign的網頁使用者介面版本會在持續傳遞模式上運作，允許以更可縮放、分階段的方法進行功能部署。 發行說明每月更新數次。 **3月版本現已上線**，包括直接郵件頻道、新的變更資料來源工作流程活動和其他改善。"
+>abstract="Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。發行說明每月會多次更新。**3 月版本現已上線**，包括直接郵件頻道、最新變更資料來源工作流程活動以及其他改善。"
 
 
 <!--Last update: **March 19, 2024**-->
 
-Adobe Campaign的網頁使用者介面版本會在持續傳遞模式上運作，允許以更可縮放、分階段的方法進行功能部署。 因此，這些發行說明每月會更新好幾次。 請定期檢查。
+Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 >[!AVAILABILITY]
 >
->此版本可供所有開始使用此版本的使用者使用 [Campaign （主控台） v8.6版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant). 進一步瞭解Adobe Campaign使用者端主控台發行和升級，請參見 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-Hant){target="_blank"}.
+>自 [Campaign (控制台) v8.6 發行版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant)開始，所有使用者皆可使用此版本。 請參閱 [Campaign v8 (控制台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-Hant){target="_blank"}，了解更多有關 Adob&#x200B;&#x200B;e Campaign 客戶端控制台發行版本和升級。
 
-## 3月發行 {#24-3-release}
+## 3月發行說明 {#24-3-release}
 
-**發行日期**： 2024年3月19至20日
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="直接郵件"
+>abstract="直接郵件通道現在可用於工作流程和獨立傳送。 使用直接郵件離線頻道來建立、個人化和產生解壓縮檔案，並與直接郵件供應商共用以傳送郵件給您的客戶。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="請參閱版本注意事項"
 
-### 直接郵件頻道 {#24-3-dm}
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="變更資料來源"
+>abstract="使用新的變更資料來源工作流程目標定位活動，以變更工作流程工作表使用的資料來源。 此活動可讓您管理不同資料庫中的資料，為您提供更多彈性並改善工作效率。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="請參閱版本注意事項"
 
-**直接郵件** 頻道現在可用於工作流程中，並作為獨立傳送。 直接郵件是一種離線頻道，可讓您建立、個人化和產生擷取檔案，並與直接郵件供應商共用以傳送郵件給您的客戶。 [深入了解](../direct-mail/gs-direct-mail.md)
+
+**發行日期**：2024 年 3 月 19-20 日
+
+### 直接郵件管道 {#24-3-dm}
+
+**直接郵件**&#x200B;頻道現已可在工作流程中使用並可作為獨立傳遞。直接郵件是離線頻道，可讓您建立、個人化和產生摘取檔案，並將該檔案與您的直接郵件提供者分享，以便他們傳送郵件給您的客戶。[閱讀更多](../direct-mail/gs-direct-mail.md)
 
 ![](../assets/do-not-localize/direct-mail.gif)
 
-### 新的變更資料來源工作流程活動 {#24-3-change-data-source}
+### 新變更資料來源工作流程活動 {#24-3-change-data-source}
 
-此 **變更資料來源** 目標定位活動可讓您變更工作流程工作表所使用的資料來源。 此活動可讓您跨不同的資料庫管理資料並改善效能，因此提供更大的彈性。 [深入了解](../workflows/activities/change-data-source.md)
+新的&#x200B;**變更資料來源**&#x200B;目標定位活動可讓您變更工作流程工作表格所使用的資料來源。 此活動可讓您管理不同資料庫中的資料，為您提供更多彈性並改善工作效率。[閱讀更多](../workflows/activities/change-data-source.md)
 
 ![](../assets/do-not-localize/change-data-source.gif)
 
-### 分割工作流程活動改善 {#24-3-split}
+### 分割工作流程活動的改善 {#24-3-split}
 
-您現在可以使用 **在相同表格中產生所有子集** 中的選項 **Split** 工作流程活動，將所有子集分組為單一輸出轉變。 [深入了解](../workflows/activities/split.md)
+現在您可以使用「**分割**」工作流程活動中的「**在相同表格中產生所有子集**」選項，將所有子集歸類至單一的輸出轉換。[閱讀更多](../workflows/activities/split.md)
 
 ### 查詢建模工具 {#24-3-query-modeler}
 
-* 查詢模組化工具現在可用於電子郵件設計工具。 它可讓您在建立條件式內容時建置條件。 [深入了解](../personalization/conditions.md)
-* 建立自訂條件時，預先定義的值現在可用於日期型別屬性。 [深入了解](../query/build-query.md)
-* 在圖表的新轉變中無法再新增運運算元。 它們只能在篩選元件以將它們分組之前，新增到現有轉變上。 [深入了解](../query/build-query.md)
+* 查詢建模工具現在可在電子郵件設計工具中使用。此工具可讓您在建立條件內容時建立條件。[閱讀更多](../personalization/conditions.md)
+* 建立自訂條件時，預定義值現在可適用於日期類型屬性。[閱讀更多](../query/build-query.md)
+* 運算子無法再新增至圖中的新轉換上。這些運算子只能先新增在現有的轉換中，然後才能篩選組件並歸類在一起。[閱讀更多](../query/build-query.md)
