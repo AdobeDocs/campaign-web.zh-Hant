@@ -2,16 +2,21 @@
 audience: end-user
 title: 開始使用直接郵件傳遞
 description: 瞭解如何使用Adobe Campaign Web建立和傳送直接郵件傳遞
-source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 16%
+source-wordcount: '261'
+ht-degree: 15%
 
 ---
 
 
 # 開始使用直接郵件傳遞 {#gs-direct-mail}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="直接郵件"
+>abstract="直接郵件通道現在可用於工作流程和獨立傳送。 使用直接郵件離線頻道來建立、個人化和產生解壓縮檔案，並與直接郵件供應商共用以傳送郵件給您的客戶。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="請參閱版本注意事項"
 
 
 直接郵件是一種離線頻道，可讓您產生檔案，以大量傳送個人化信件給您的客戶，例如明信片、傳單或目錄。

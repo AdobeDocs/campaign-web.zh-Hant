@@ -4,7 +4,7 @@ title: 開始使用登陸頁面
 description: 了解 Campaign Web 的登陸頁面
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 99%
@@ -17,7 +17,7 @@ ht-degree: 99%
 >id="acw_homepage_welcome_rn5"
 >title="登陸頁面"
 >abstract="探索全新登陸頁面體驗。立即建立、設計和分享登陸頁面，將使用者導向線上網頁；您可以在這些網頁中根據內建範本來管理贏取、訂閱/取消訂閱和封鎖清單使用案例。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="請參閱版本注意事項"
 
 [!DNL Adobe Campaign] 可讓您建立、設計及共用登陸頁面。
 

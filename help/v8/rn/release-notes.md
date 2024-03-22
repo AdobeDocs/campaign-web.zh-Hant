@@ -1,10 +1,10 @@
 ---
 title: 最新發行說明
 description: 探索 Campaign Web 使用者介面隨附的新增功能
-source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 85%
+source-wordcount: '342'
+ht-degree: 99%
 
 ---
 
@@ -26,19 +26,6 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，允�
 >自 [Campaign (控制台) v8.6 發行版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant)開始，所有使用者皆可使用此版本。 請參閱 [Campaign v8 (控制台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-Hant){target="_blank"}，了解更多有關 Adob&#x200B;&#x200B;e Campaign 客戶端控制台發行版本和升級。
 
 ## 3月發行說明 {#24-3-release}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="直接郵件"
->abstract="直接郵件通道現在可用於工作流程和獨立傳送。 使用直接郵件離線頻道來建立、個人化和產生解壓縮檔案，並與直接郵件供應商共用以傳送郵件給您的客戶。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="請參閱版本注意事項"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="變更資料來源"
->abstract="使用新的變更資料來源工作流程目標定位活動，以變更工作流程工作表使用的資料來源。 此活動可讓您管理不同資料庫中的資料，為您提供更多彈性並改善工作效率。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="請參閱版本注意事項"
-
 
 **發行日期**：2024 年 3 月 19-20 日
 
