@@ -4,9 +4,9 @@ title: Campaign Web 使用者介面有哪些新增功能？
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1265'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 我們很高興推出 **Adobe Campaign Web 使用者介面**&#x200B;的新版本。我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。Campaign Web 使用者介面 (UI) 將畫布與 Adobe Experience Platform 連結，以提供統一的體驗。
 
-變更、新功能和改進專案會列於 [每月發行說明](release-notes.md).
+ [每月發行說明](release-notes.md)列有變更、新功能和改善事項。
 
 
 ## 主要功能 {#key-features}

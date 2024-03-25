@@ -4,9 +4,9 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -45,21 +45,21 @@ ht-degree: 78%
 
 我們很高興推出 Adobe Campaign Web 使用者介面的新版本。我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。這個新的現代 UI 簡化行銷活動的設計和傳遞，並帶來一致性，與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 相符。
 
-## 有哪些新功能
+## 新增功能
 
 快速一覽 Adobe Campaign Web 產品和文件的最新增強功能！如需完整的關鍵功能和版本更新功能清單，請參閱[此頁面](rn/whats-new.md)。
 
 >[!BEGINTABS]
 
->[!TAB 3月版本已上線！]
+>[!TAB 3 月版本已上線！]
 
-探索Adobe Campaign Web使用者介面24.3版包含的新功能和改進。
+了解 Adob&#x200B;&#x200B;e Campaign Web 使用者介面 24.3 版本帶來的新功能和改善事項。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB 直接郵件頻道]
 
-**直接郵件** 頻道現在可用於工作流程中，並作為獨立傳送。 直接郵件是一種離線頻道，可讓您建立、個人化和產生擷取檔案，並與直接郵件供應商共用以傳送郵件給您的客戶。
+**直接郵件**&#x200B;頻道現已可在工作流程中使用，並可作為獨立傳遞來使用。直接郵件是離線頻道，可讓您建立、個人化和產生摘取檔案，並將該檔案與您的直接郵件提供者分享，以便他們傳送郵件給您的客戶。
 
 ![影像](assets/do-not-localize/direct-mail.gif)
 
@@ -67,7 +67,7 @@ ht-degree: 78%
 
 >[!TAB 新的變更資料來源工作流程活動]
 
-此 **變更資料來源** 目標定位活動可讓您變更工作流程工作表所使用的資料來源。 此活動可讓您跨不同的資料庫管理資料並改善效能，因此提供更大的彈性。
+新的&#x200B;**變更資料來源**&#x200B;目標定位活動可讓您變更工作流程工作表格使用的資料來源。 此活動可讓您跨不同的資料庫管理資料，為您提供更多彈性並改善工作效率。
 
 ![影像](assets/do-not-localize/change-data-source.gif)
 
