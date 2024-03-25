@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 94%
 
 ---
@@ -50,11 +50,6 @@ ht-degree: 94%
             + [新增鏡像頁面連結](email/mirror-page.md)
             + [新增預覽文字](email/preheader.md)
             + [產生文字版本](email/text-version-email.md)
-         + 內容助理 {#content-assistant}
-            + [開始使用內容助理](email/generative-gs.md)
-            + [使用內容助理產生文字](email/generative-content.md)
-            + [使用內容助理產生影像](email/generative-image.md)
-            + [使用內容助理產生電子郵件](email/generative-email.md)
          + 建立內容樣式 {#style}
             + [開始使用電子郵件樣式](email/get-started-email-style.md)
             + [編輯背景設定](email/backgrounds.md)
@@ -78,8 +73,13 @@ ht-degree: 94%
    + 直接郵件{#direct-mail}
       + [開始使用直接郵件傳遞](direct-mail/gs-direct-mail.md)
       + [建立新的直接郵件傳遞](direct-mail/create-direct-mail.md)
-      + [設計擷取檔案](direct-mail/content-direct-mail.md)
-      + [預覽和傳送直接郵件傳遞](direct-mail/send-direct-mail.md)
+      + [設計摘取檔案](direct-mail/content-direct-mail.md)
+      + [預覽並發送直接郵件傳遞](direct-mail/send-direct-mail.md)
+   + AI助理 {#ai-assistant}
+      + [開始使用AI助理](email/generative-gs.md)
+      + [使用AI助理產生電子郵件](email/generative-content.md)
+      + [使用AI助理產生簡訊](email/generative-sms.md)
+      + [使用AI助理產生推播通知](email/generative-push.md)
    + 製作您的動態內容 {#dynamic-content}
       + [開始使用動態內容](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)

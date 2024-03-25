@@ -6,14 +6,14 @@ badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 8%
+source-wordcount: '391'
+ht-degree: 6%
 
 ---
 
-# 使用內容助理產生影像 {#generative-image}
+# 使用內容助理產生電子郵件影像 {#generative-image}
 
 完成電子郵件製作和個人化後，您可以使用由創作AI支援的內容助理來增強內容。 此功能可簡化個人化和內容改善的程式。
 

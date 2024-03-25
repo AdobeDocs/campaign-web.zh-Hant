@@ -1,28 +1,28 @@
 ---
 audience: end-user
-title: 使用內容助理產生電子郵件
-description: 開始使用內容助理
+title: 在Campaign中使用AI助理產生電子郵件
+description: 開始使用Campaign中的AI助理
 badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 6%
+source-wordcount: '469'
+ht-degree: 4%
 
 ---
 
-# 使用內容助理產生電子郵件 {#generative-email}
+# 使用AI助理產生電子郵件 {#generative-email}
 
-「內容小幫手」可自動產生完整的電子郵件內容，為您節省時間並確保品質的一致性，因此可增強您通訊的影響。 使用Generative AI，您可以輕鬆製作吸引人的電子郵件，引起觀眾的共鳴，讓您的溝通更有效率。
+Campaign中的AI Assistant可自動產生完整的電子郵件內容、為您節省時間並確保一致的品質，進而增強您通訊的影響。 使用Generative AI，您可以輕鬆製作吸引人的電子郵件，引起觀眾的共鳴，讓您的溝通更有效率。
 
 >[!NOTE]
 >
 >在開始使用此功能之前，請先閱讀相關的 [護欄和限制](generative-gs.md#guardrails-and-limitations).
 
 
-若要使用內容助理產生電子郵件內容，請遵循下列步驟。 您也可以使用內容助理來改善現有內容，如中所述 [此頁面](generative-content.md).
+若要使用AI助理產生電子郵件內容，請遵循下列步驟。 您也可以使用AI助理來改善現有內容，如中所述 [此頁面](generative-content.md).
 
 1. 建立及設定電子郵件傳遞後，請按一下 **[!UICONTROL 建立內容]**.
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 1. 填入 **[!UICONTROL 基本詳細資訊]** 您的傳遞內容。 完成後，按一下 **[!UICONTROL 編輯電子郵件內文]**.
 
-1. 選擇您希望「內容助理」作為產生電子郵件基礎的設計範本。
+1. 選擇您希望AI助理作為產生電子郵件基礎的設計範本。
 
    您也可以匯入HTML檔案。
 
@@ -48,7 +48,7 @@ ht-degree: 6%
 
    ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. 選取 **[!UICONTROL 上傳檔案]** 如果您想要新增任何品牌資產，其中包含的內容可向內容助理提供其他內容。
+1. 選取 **[!UICONTROL 上傳檔案]** 如果您想要新增任何品牌資產，其中包含可為AI助理提供額外內容的內容。
 
    您也可以按一下 **[!UICONTROL 上傳的內容]** 以尋找先前更新的檔案。 請注意，上傳的內容僅供目前使用者重複使用。
 
