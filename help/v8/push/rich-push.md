@@ -1,17 +1,17 @@
 ---
 audience: end-user
 title: 設計豐富推送通知傳送
-description: 瞭解如何使用Adobe Campaign Web設計豐富推送通知傳送
+description: 瞭解如何使用Adobe Campaign Web設計Android豐富推送通知傳送
 hide: true
 hidefromtoc: true
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1394'
 ht-degree: 4%
 
 ---
 
-# 設計Android豐富推送傳送 {#content-push}
+# 設計Android豐富推送傳送 {#rich-push}
 
 使用Firebase Cloud Messaging時，您可以選擇兩種型別的訊息：
 
@@ -23,9 +23,7 @@ ht-degree: 4%
 
 ## 定義通知的內容 {#push-message}
 
-建立推播傳送後，您就可以定義其內容。 瀏覽下列標籤，瞭解如何為每個範本撰寫訊息。
-
-有三個範本可供使用：
+建立推播傳送後，您就可以定義其內容。 有三個範本可供使用：
 
 * **預設範本** 可讓您傳送包含簡單圖示和隨附影像的通知。
 
