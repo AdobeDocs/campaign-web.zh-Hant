@@ -5,7 +5,7 @@ description: 開始使用Campaign中的AI助理
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%
@@ -75,7 +75,7 @@ ht-degree: 5%
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
-1. 插入個人化欄位，以根據設定檔資料自訂您的電子郵件內容。 [進一步了解內容個人化](../personalization/personalize.md)
+1. 插入個人化欄位，以根據設定檔資料自訂您的簡訊內容。 [進一步了解內容個人化](../personalization/personalize.md)
 
    ![](assets/sms-genai-5.png){zoomable=&quot;yes&quot;}
 
@@ -83,4 +83,4 @@ ht-degree: 5%
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. 當您定義內容、對象和排程時，就能準備電子郵件傳送。 [了解更多](../monitor/prepare-send.md)
+1. 當您定義內容、對象和排程時，就能準備好SMS傳送。 [了解更多](../monitor/prepare-send.md)
