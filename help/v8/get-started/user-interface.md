@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: adb373464e654667354dbaf5470abc86a1bf3b72
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1602'
+ht-degree: 99%
 
 ---
 
@@ -376,3 +376,49 @@ Deprecated IDs - to remove in GA: -->
 >title="更新資料"
 >abstract="待定"
 
+
+
+<!--External Signal End-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal"
+>title="外部訊號"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal_parameters"
+>title="外部訊號引數"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end"
+>title="結束"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end_trigger"
+>title="結束觸發器"
+>abstract="待定"
+
+
+<!--Javascript-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript"
+>title="Javascript程式碼"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_snippet"
+>title="Javascript程式碼片段"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_execution"
+>title="Javascript執行"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_transition"
+>title="Javascript轉換"
+>abstract="待定"
