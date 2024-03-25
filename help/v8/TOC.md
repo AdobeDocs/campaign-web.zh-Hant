@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '641'
 ht-degree: 94%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 94%
    + 推播通知 {#push}
       + [開始使用推播通知](push/gs-push.md)
       + [建立推播通知傳遞](push/create-push.md)
+      + [設計Android豐富推送傳送](push/rich-push.md)
       + [設計推播傳遞](push/content-push.md)
       + [預覽並傳送推播傳遞](push/send-push.md)
    + 簡訊 {#sms}
