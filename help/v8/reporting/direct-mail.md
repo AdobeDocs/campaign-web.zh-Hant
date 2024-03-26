@@ -2,10 +2,11 @@
 audience: end-user
 title: 直接郵件報表
 description: 瞭解如何存取及使用直接郵件報告
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 11%
+ht-degree: 25%
 
 ---
 
@@ -20,9 +21,9 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="傳遞概觀"
->abstract="此 **傳遞概覽** 提供關鍵績效量度(KPI)，用於深入分析訪客與每個直接郵件傳送的互動。 量度概述如下。"
+>abstract="**傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可讓您深入了解訪客與每次直接郵件傳遞的互動情況。這些量度概述如下。"
 
-此 **[!UICONTROL 傳遞概覽]** 提供訪客與每個直接郵件傳遞互動方式的詳細分析，並展示關鍵績效指標(KPI)。  量度概述如下。
+此 **[!UICONTROL 傳遞概覽]** 提供訪客與每個直接郵件傳遞互動方式的詳細分析，並展示關鍵績效指標(KPI)。  這些量度概述如下。
 
 ![](assets/direct-overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -64,7 +65,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary_direct_mail"
 >title="傳遞統計資料"
->abstract="此 **傳遞統計資料** 圖表詳細說明直接郵件傳送的成功以及發生的錯誤。"
+>abstract="**傳遞統計資料**&#x200B;圖表詳細說明直接郵件傳遞成功以及發生的錯誤。"
 
 此 **[!UICONTROL 傳遞統計資料]** graph提供傳送績效的完整概觀，提供測量成功與效率的詳細量度。
 
@@ -87,7 +88,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
 >title="傳遞排除原因"
->abstract="此 **排除的原因** 圖表會說明在準備傳送期間被拒絕的訊息分佈，並依每個規則分類。"
+>abstract="**排除原因**&#x200B;圖表顯示傳遞準備期間被拒絕之郵件的分佈，依每個規則進行分類。"
 
 此 **[!UICONTROL 排除的原因]** 圖表提供在傳遞準備過程中訊息被拒絕背後原因的詳細劃分。 此劃分會根據各種規則進行整理，提供排除訊息因素的綜合檢視。 有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
@@ -116,7 +117,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"
 >title="排除"
->abstract="此 **[!UICONTROL 排除專案]** 表格會依規則顯示傳遞準備程式期間遭拒絕之訊息的詳細細目。"
+>abstract="**[!UICONTROL 排除]**&#x200B;表格依規則顯示傳遞準備過程中被拒絕之郵件的詳細劃分。"
 
 此 **[!UICONTROL 排除專案]** 此表格提供傳送準備階段期間遭拒絕之訊息的深入劃分（依特定規則分類）。 此全方位的劃分可讓您清楚瞭解從傳送程式排除這些訊息的原因。
 

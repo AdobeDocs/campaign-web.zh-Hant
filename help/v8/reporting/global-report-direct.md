@@ -2,10 +2,11 @@
 audience: end-user
 title: 直接郵件通道的全域報告
 description: 深入瞭解直接郵件通道的全域報告
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: a42536fe-375b-4169-8775-d47ed26692f8
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 5%
+ht-degree: 33%
 
 ---
 
@@ -22,9 +23,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_overview_direct_mail"
 >title="傳遞概觀"
->abstract="此 **傳遞概覽** 提供關鍵績效量度(KPI)，用於深入分析訪客與每個直接郵件傳送的互動。 量度概述如下。"
+>abstract="**傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可讓您深入了解訪客與每次直接郵件傳遞的互動情況。這些量度概述如下。"
 
-此 **[!UICONTROL 傳遞概覽]** 提供關鍵績效量度(KPI)，用於深入分析訪客與每個直接郵件傳送的互動。 量度概述如下。
+**[!UICONTROL 傳遞概觀]**&#x200B;提供了關鍵績效指標 (KPI)，可讓您深入了解訪客與每次直接郵件傳遞的互動情況。這些量度概述如下。
 
 ![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -44,12 +45,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_graph"
 >title="目標對象"
->abstract="收件者資料和訊息資訊會顯示在 **目標對象** 圖表，反映傳遞準備分析。"
+>abstract="收件者資料和訊息資訊顯示在&#x200B;**目標對象**&#x200B;圖表中，反映了傳遞準備分析。"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_table"
 >title="目標對象"
->abstract="此 **目標對象** 此表格會根據傳送準備流程的結果，提供收件者和對應訊息的詳細劃分。"
+>abstract="**目標對象**&#x200B;表格根據傳遞準備程序的結果提供了收件者和對應訊息的詳細劃分。"
 
 的表格和圖表 **[!UICONTROL 目標對象]** 顯示與收件者相關的資料，下文提供詳細量度。
 
@@ -70,12 +71,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
 >title="傳遞統計資料"
->abstract="此 **傳遞統計資料** 圖表提供直接郵件傳送有效性的深入分析，包括成功的傳送和遇到的任何錯誤。"
+>abstract="**傳遞統計資料**&#x200B;圖表可讓您深入了解直接郵件傳遞的有效性，包括成功傳遞和任何發生的錯誤。"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
 >title="傳遞統計資料"
->abstract="此 **傳遞統計資料** 此表格詳細說明直接郵件傳送的成功情況及發生的錯誤。"
+>abstract="**傳遞統計資料**&#x200B;表格詳細說明直接郵件傳遞成功以及發生的錯誤。"
 
 此 **[!UICONTROL 傳遞統計資料]** 圖表和表格提供每個直接郵件傳送成功的劃分，明細量度概述如下。
 
@@ -96,12 +97,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusions_direct_mail_table"
 >title="排除"
->abstract="此 **排除的原因** 表格會依規則顯示傳遞準備程式期間遭拒絕之訊息的詳細細目。"
+>abstract="**排除原因**&#x200B;表格依規則顯示傳遞準備過程中被拒絕之郵件的詳細劃分。"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
 >title="傳遞排除原因"
->abstract="此 **排除的原因** 圖表會說明在準備傳送期間被拒絕的訊息分佈，並依每個規則分類。"
+>abstract="**排除原因**&#x200B;圖表顯示傳遞準備期間被拒絕之郵件的分佈，依每個規則進行分類。"
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -124,4 +125,3 @@ ht-degree: 5%
 * **[!UICONTROL 目標大小受限]**：收件者已達到傳遞大小上限。
 
 +++
-

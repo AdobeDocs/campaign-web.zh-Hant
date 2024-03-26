@@ -2,10 +2,11 @@
 audience: end-user
 title: 直接郵件頻道的行銷活動報告
 description: 瞭解直接郵件頻道的行銷活動報告
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 9%
+ht-degree: 22%
 
 ---
 
@@ -20,9 +21,9 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="傳遞概觀"
->abstract="此 **傳遞概覽** 提供關鍵績效量度(KPI)，用於深入分析訪客與每個直接郵件傳送的互動。 量度概述如下。"
+>abstract="**傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可讓您深入了解訪客與每次直接郵件傳遞的互動情況。這些量度概述如下。"
 
-此 **[!UICONTROL 傳遞概覽]** 提供關鍵績效量度(KPI)，針對訪客與每個直接郵件傳送的互動提供深入分析。 量度概述如下。
+此 **[!UICONTROL 傳遞概覽]** 提供關鍵績效量度(KPI)，針對訪客與每個直接郵件傳送的互動提供深入分析。 這些量度概述如下。
 
 ![](assets/direct-mail-campaign-overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -43,7 +44,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="初始目標對象統計資料"
->abstract="收件者資料和訊息資訊會顯示在 **初始目標對象統計資料** 表格，反映傳遞準備分析。"
+>abstract="收件者資料和訊息資訊顯示在&#x200B;**初始目標對象統計資料**&#x200B;表格中，反映了傳遞準備分析。"
 
 此 **[!UICONTROL 初始目標對象統計資料]** 表格會顯示與收件者相關的資料。 量度會在傳遞準備期間計算並顯示：初始對象、要傳送的訊息數、排除的收件者數。
 
@@ -64,7 +65,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="傳遞統計資料"
->abstract="此 **執行統計資料** 此表格詳細說明直接郵件傳送的成功情況及發生的錯誤。"
+>abstract="**執行統計資料**&#x200B;表格詳細說明直接郵件傳遞成功以及發生的錯誤。"
 
 ![](assets/direct-mail-campaign-exec.png)
 

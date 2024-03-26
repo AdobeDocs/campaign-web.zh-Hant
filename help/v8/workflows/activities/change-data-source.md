@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用變更資料來源工作流程活動
 description: 瞭解如何使用變更資料來源工作流程活動
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 15%
+ht-degree: 21%
 
 ---
 
@@ -14,13 +15,13 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="變更資料來源"
->abstract="使用新的變更資料來源工作流程目標定位活動，以變更工作流程工作表使用的資料來源。 此活動可讓您管理不同資料庫中的資料，為您提供更多彈性並改善工作效率。"
+>abstract="使用新的變更資料來源工作流程目標定位活動，以變更工作流程工作表使用的資料來源。 此活動可讓您跨不同的資料庫管理資料，為您提供更多彈性並改善工作效率。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="變更資料來源"
->abstract="此 **變更資料來源** 活動可讓您為工作流程的「工作」表格選取不同的資料來源。"
+>abstract="您可以使用&#x200B;**變更資料來源**&#x200B;活動為工作流程的工作表選取不同的資料來源。"
 
 此 **變更資料來源** 活動是 **目標定位** 活動。 此活動可讓您變更工作流程工作表使用的資料來源。 這可讓您跨不同的資料庫管理資料並改善效能，進而提供更大的彈性。
 

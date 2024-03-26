@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="分割活動篩選器"
->abstract="若要將篩選條件套用至子集，請按一下 **[!UICONTROL 建立篩選器]** 並使用查詢建模器設定所需的篩選規則。 例如，將電子郵件地址存在於資料庫之傳入母體的設定檔包含在內。"
+>abstract="若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並使用查詢建模工具設定所需的篩選規則。例如，將電子郵件地址存在於資料庫之傳入母體的設定檔包含在內。"
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查詢建模工具"
 
 >[!CONTEXTUALHELP]
@@ -72,7 +72,7 @@ ht-degree: 81%
 
    1. 開啟子集以顯示其屬性。
 
-   1. 若要將篩選條件套用至子集，請按一下 **[!UICONTROL 建立篩選器]** 並使用查詢建模器設定所需的篩選規則。 例如，將傳入母體的設定檔包含在資料庫中存在其電子郵件地址。 [瞭解如何使用查詢建模器](../../query/query-modeler-overview.md)
+   1. 若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並使用查詢建模工具設定所需的篩選規則。例如，將傳入母體的設定檔包含在資料庫中存在其電子郵件地址。 [瞭解如何使用查詢建模器](../../query/query-modeler-overview.md)
 
    1. 若要限制子集所選設定檔的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的母體數量或百分比。
 
