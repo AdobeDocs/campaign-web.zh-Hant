@@ -2,13 +2,13 @@
 audience: end-user
 title: 預覽和傳送直接郵件傳遞
 description: 瞭解如何使用Adobe Campaign Web預覽和傳送直接郵件傳遞
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 3%
 
 ---
-
 
 # 預覽和傳送直接郵件傳遞 {#send-direct-mail}
 

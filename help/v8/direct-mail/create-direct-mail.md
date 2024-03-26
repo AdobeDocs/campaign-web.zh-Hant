@@ -2,13 +2,13 @@
 audience: end-user
 title: 建立新的直接郵件傳遞
 description: 瞭解如何使用Adobe Campaign Web建立直接郵件傳送
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 21%
 
 ---
-
 
 # 建立新的直接郵件傳遞 {#create-direct-mail}
 
@@ -64,4 +64,3 @@ ht-degree: 21%
    ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
 
 1. 直接郵件傳送就緒後，請按一下 **[!UICONTROL 檢閱並傳送]** 按鈕以驗證並傳送您的傳遞並產生解壓縮檔案。 [瞭解如何預覽和傳送直接郵件傳遞](send-direct-mail.md)
-

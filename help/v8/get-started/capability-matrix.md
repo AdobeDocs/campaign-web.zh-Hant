@@ -4,7 +4,7 @@ title: Campaign Web 使用者介面/用戶端主控台功能比較表
 description: Campaign Web 使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2141'
 ht-degree: 100%
 

@@ -25,7 +25,7 @@ ht-degree: 26%
 >title="傳遞概觀"
 >abstract=" **傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可深入了解您的對象如何與您傳送的電子郵件傳遞和行銷活動進行互動。"
 
-此 **[!UICONTROL 傳遞概覽]** 提供關鍵績效量度(KPI)，提供訪客與每個電子郵件傳送互動的深入分析。 量度概述如下。
+此 **[!UICONTROL 傳遞概覽]** 提供關鍵績效量度(KPI)，提供訪客與每個電子郵件傳送互動的深入分析。 這些量度概述如下。
 
 ![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 

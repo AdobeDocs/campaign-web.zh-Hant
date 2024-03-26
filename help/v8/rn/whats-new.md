@@ -4,7 +4,7 @@ title: Campaign Web 使用者介面有哪些新增功能？
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1265'
 ht-degree: 100%
 
