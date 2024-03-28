@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 開始使用AI助理
+title: 開始使用 AI 助理
 description: 開始使用AI助理
 badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
@@ -9,11 +9,11 @@ hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 33%
+ht-degree: 40%
 
 ---
 
-# 開始使用AI助理 {#generative-gs}
+# 開始使用 AI 助理 {#generative-gs}
 
 >[!BEGINSHADEBOX]
 
@@ -28,13 +28,13 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="AI助理"
->abstract="完成傳遞的製作和個人化後，您就可以使用AI助理來增強內容。 此功能可讓您透過描述您想產生的內容來進行微調，進而簡化個人化和改善內容的流程。"
+>title="AI 助理"
+>abstract="精心設計和個人化傳遞後，您可以使用 AI 助理來強化內容。此功能可讓您透過描述您想產生的內容來進行微調，進而簡化個人化和改善內容的流程。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="在Campaign中使用AI助理定義內容"
+>title="在 Campaign 中使用 AI 助理定義內容"
 >abstract="若要將所選內容做為內容生成的輸入，請啟動&#x200B;**使用目前的內容進行增強**&#x200B;切換。您也可以上傳您的品牌資產以將其做為來源。如果您不使用所選內容，則必須上傳並選取品牌資產。"
 
 

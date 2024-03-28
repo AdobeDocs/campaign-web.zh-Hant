@@ -6,7 +6,7 @@ exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 15%
+ht-degree: 32%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="直接郵件"
->abstract="直接郵件通道現在可用於工作流程和獨立傳送。 使用直接郵件離線頻道來建立、個人化和產生解壓縮檔案，並與直接郵件供應商共用以傳送郵件給您的客戶。"
+>abstract="直接郵件頻道現已可在工作流程和獨立傳遞中使用。使用直接郵件離線頻道來建立、個人化和產生摘取檔案，並將該檔案與您的直接郵件提供者分享，以便他們傳送郵件給您的客戶。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="請參閱版本注意事項"
 
 

@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 027cdc70abb0263631883ecde382577d41bf4a41
 workflow-type: tm+mt
 source-wordcount: '1600'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -387,12 +387,12 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
->title="外部訊號引數"
+>title="外部訊號參數"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
->title="結束觸發器"
+>title="結束觸發程序"
 >abstract="待定"
 
 
@@ -400,20 +400,20 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
->title="Javascript程式碼"
+>title="Javascript 程式碼"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="Javascript程式碼片段"
+>title="Javascript 程式碼片段"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="Javascript執行"
+>title="Javascript 執行"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="Javascript轉換"
+>title="Javascript 轉變"
 >abstract="待定"

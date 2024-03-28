@@ -6,7 +6,7 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Campaign Web可讓您跨電子郵件、簡訊、直接郵件和推播頻�
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
 >title="直接郵件活動"
->abstract="直接郵件活動可促進工作流程中的直接郵件傳送，允許一次性訊息和循環訊息。 它有助於自動化產生直接郵件供應商所需擷取檔案的程式。 您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
+>abstract="直接郵件活動有助於在您的工作流程中傳送直接郵件，允許傳送一次性和定期的訊息。此類活動可用來為生產直接郵件提供者所需的摘取檔案流程進行自動化。您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
 
 若要在工作流程內容中設定傳送，請遵循下列步驟：
 
