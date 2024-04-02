@@ -5,7 +5,7 @@ exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="選取目標定位維度"
->abstract="目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。預設情況下，對於電子郵件和簡訊，會從收件者內建表格中選取目標。 對於推播通知，預設目標維度為訂閱者應用程式。"
+>abstract="目標定位維度可讓您定義作業的目標母體：收件者、合約受益人、操作者、訂閱者等。預設情況下，對於電子郵件和簡訊，目標是從收件者內建表格中選取的。對於推播通知，預設目標維度是訂閱者應用程式。"
 
 目標維度，亦稱為。 目標對應，是作業正在處理的資料型別。 它可讓您定義目標母體：設定檔、合約受益人、操作員、訂閱者等。
 

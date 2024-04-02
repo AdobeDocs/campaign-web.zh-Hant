@@ -92,7 +92,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="收件者的重要性"
->abstract="收件者的重要性是一個公式，用來決定在超過容量型別規則時保留哪些設定檔。"
+>abstract="收件者的重要性是一種公式，用於確定在超出容量類型規則時要保留哪些設定檔。"
 
 在此區段中，您可以選取Adobe Campaign v8主控台中定義的容量規則。 此規則已與管道相關聯。
 

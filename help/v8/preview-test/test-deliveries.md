@@ -21,7 +21,7 @@ ht-degree: 15%
 
 若要偵測訊息內容或個人化設定中可能出現的錯誤，請先傳送校樣至測試設定檔，再傳送給目標對象。 每次進行變更時都應傳送校樣，以驗證最新內容。 傳送校樣是驗證行銷活動和識別潛在問題的重要步驟。 校樣收件者可以檢查各種元素，例如連結、選擇退出連結、影像或映象頁面，並偵測轉譯、內容、個人化設定和傳遞設定中的任何錯誤。
 
-## 使用測試設定檔模擬內容 {#simulate-content-test-deliveries}
+## 模擬測試設定檔的內容 {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

@@ -8,7 +8,7 @@ exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 9%
+ht-degree: 21%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="建立測試設定檔"
->abstract="測試設定檔是其他收件者，可讓您在傳送訊息之前預覽及測試個人化和轉譯。 您可以在預覽訊息內容時選取測試設定檔，並將校樣傳送至測試設定檔，以控制和驗證訊息內容和設定。"
+>abstract="測試設定檔是額外收件者，可讓您在傳送訊息之前預覽和測試個人化和呈現方式。您可以在預覽訊息內容時選取測試設定檔，並將校訂傳送至測試設定檔以控制和驗證您的訊息內容和設定。"
 
-測試設定檔用於傳送校樣，以及驗證訊息內容和設定。 這些設定檔是其他收件者，可讓您在傳送訊息之前，預覽及測試個人化與轉譯。 您可以在預覽訊息內容時選取測試設定檔，並將校樣傳送至測試設定檔，以控制和驗證訊息內容和設定。
+測試設定檔用於傳送校樣，以及驗證訊息內容和設定。 這些設定檔是其他收件者，可讓您在傳送訊息之前，預覽及測試個人化與轉譯。 您可以在預覽訊息內容時選取測試設定檔，並將校訂傳送至測試設定檔以控制和驗證您的訊息內容和設定。
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
