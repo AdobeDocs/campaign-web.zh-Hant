@@ -3,9 +3,9 @@ audience: end-user
 title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1541'
 ht-degree: 40%
 
 ---
@@ -21,12 +21,6 @@ ht-degree: 40%
 >id="acw_deliveries_push_ios_content"
 >title="推播 iOS 內容"
 >abstract="定義 iOS 裝置的推播通知內容。若要開始撰寫訊息，請按一下「**編輯內容**」按鈕。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_remind_later"
->title="稍後提醒按鈕"
->abstract="待定"
-
 
 ## 定義通知的內容 {#push-message}
 

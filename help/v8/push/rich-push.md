@@ -4,14 +4,20 @@ title: 設計豐富推送通知傳送
 description: 瞭解如何使用Adobe Campaign Web設計Android豐富推送通知傳送
 hide: true
 hidefromtoc: true
-source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
+exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
+source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1417'
 ht-degree: 4%
 
 ---
 
 # 設計Android豐富推送傳送 {#rich-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="稍後提醒按鈕"
+>abstract="此 **稍後再提醒** 按鈕提供排程提醒的選項。 Timestamp欄位需要代表epoch （以秒為單位）的值。"
 
 使用Firebase Cloud Messaging時，您可以選擇兩種型別的訊息：
 
@@ -99,7 +105,7 @@ ht-degree: 4%
 
 1. 按一下 **[!UICONTROL 稍後新增提醒]** 按鈕以將「稍後提醒我」選項新增至推播通知。 輸入 **[!UICONTROL 標籤]** 和 **[!UICONTROL 時間戳記]**.
 
-   時間戳記欄位預期代表紀元的值（以秒為單位）。
+   Timestamp欄位需要代表epoch （以秒為單位）的值。
 
    ![](assets/rich_push_basic_5.png)
 
