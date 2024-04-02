@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 027cdc70abb0263631883ecde382577d41bf4a41
+source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 100%
+source-wordcount: '1619'
+ht-degree: 99%
 
 ---
 
@@ -416,4 +416,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Javascript 轉變"
+>abstract="待定"
+
+
+<!--ExtractFile-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile"
+>title="擷取檔案"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_file"
+>title="要擷取的檔案"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_destinationformat"
+>title="目的地格式"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_postprocessing"
+>title="後處理"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_outbound"
+>title="傳出轉換"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_error"
+>title="處理錯誤"
 >abstract="待定"
