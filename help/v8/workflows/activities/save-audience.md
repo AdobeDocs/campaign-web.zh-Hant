@@ -3,9 +3,9 @@ audience: end-user
 title: 使用儲存對象工作流程活動
 description: 了解如何使用「分支」工作流程活動
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '443'
 ht-degree: 13%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 13%
 >id="acw_orchestration_save_audience"
 >title="儲存對象"
 >abstract="使用此活動來更新現有的對象，或是從工作流程中的族群運算上游建立新的對象。建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="產生傳出轉變"
+>abstract="如果您想要在「 」後面新增轉變，請使用此選項 **儲存對象** 活動。"
 
 此 **儲存對象** 活動是 **目標定位** 活動。 此活動可讓您更新現有的對象，或是從工作流程中的母體運算上游建立新的對象。 建立的對象會新增至應用程式對象清單，並可透過 **受眾** 功能表。
 
