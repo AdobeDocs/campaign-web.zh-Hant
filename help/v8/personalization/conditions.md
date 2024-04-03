@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '946'
 ht-degree: 8%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 8%
 
    ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
-1. 在個人化編輯器中，瀏覽至 **[!UICONTROL 輔助函式]** 功能表左側。
+1. 在個人化編輯器中，瀏覽至 **[!UICONTROL 條件]** 功能表左側。
 
 1. 若要開始建立條件，請按一下「+」圖示() **如果** 函式。 下列行將新增到中央畫面中：`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
