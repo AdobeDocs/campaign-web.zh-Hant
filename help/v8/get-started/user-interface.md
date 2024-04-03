@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 99%
+source-wordcount: '1970'
+ht-degree: 82%
 
 ---
 
@@ -313,30 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="此範本僅準備就緒"
->abstract="待定"
-
+>abstract="您沒有編輯此範本的許可權。 如果需要，請聯絡管理員為您授予存取權限。"
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="預設登陸頁面"
->abstract="待定"
+>abstract="選取與此訂閱服務關聯的預設登陸頁面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="訂閱服務"
->abstract="待定"
+>title="訂閱服務活動"
+>abstract="使用 Adobe Campaign 建立和監視您的服務 (例如電子報)，並檢查這些服務的訂閱或取消訂閱。訂閱僅適用於電子郵件和簡訊傳遞。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="訂閱服務參數"
->abstract="待定"
+>title="訂閱服務引數"
+>abstract="選取並確認訂閱服務的設定。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="訂閱服務傳出轉變"
->abstract="待定"
+>abstract="切換 **產生出站轉變** 在活動後新增轉變的選項。"
 
 
 <!--Update file-->
@@ -344,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="更新資料"
->abstract="待定"
+>abstract="此 **更新資料** 活動會大量更新資料庫中的欄位。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="更新資料"
->abstract="待定"
+>title="選取如何更新資料"
+>abstract="此 **作業型別** 欄位可讓您選擇要對資料庫中的資料執行的程式。 選取第一個選項以新增資料或更新（如果已新增）。 您也可以僅新增資料、僅更新資料或刪除資料。 選取 **更新及合併集合** 以選取要連結重複專案的主要記錄，並安全地刪除這些重複專案。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="更新資料"
->abstract="待定"
+>title="記錄識別"
+>abstract="指定如何識別資料庫中的記錄：如果資料與現有的目標維度相關，請選取 **使用目標維度** 選項並選取要更新的目標維度和欄位。 否則，請指定一或多個自訂連結以識別資料庫中的資料，或直接使用調解金鑰。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="更新資料"
->abstract="待定"
+>title="選取要更新的欄位"
+>abstract="選取要更新與調解設定的欄位。 您可以使用 **自動對應** 用於自動識別要更新欄位的選項。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="更新資料"
->abstract="待定"
+>title="更新資料的進階選項"
+>abstract="此 **進階選項** 區段可讓您指定其他設定來管理資料和重複專案。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="更新資料"
->abstract="待定"
+>title="產生傳出轉變"
+>abstract="切換 **產生出站轉變** 用於新增將在執行結束時啟用的出站轉變的選項 **更新資料** 活動。 更新通常會標籤目標工作流程的結尾，因此預設不會啟用選項。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="更新資料"
->abstract="待定"
+>title="為拒絕產生出站轉變。"
+>abstract="切換 **為拒絕產生出站轉變** 用於新增出站轉變的選項，該轉變包含更新後未正確處理的記錄（例如，如果存在重複）。 更新通常會標籤目標工作流程的結尾，因此預設不會啟用選項。"
 
 
 

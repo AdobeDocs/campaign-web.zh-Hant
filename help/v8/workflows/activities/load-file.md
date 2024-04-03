@@ -3,10 +3,10 @@ audience: end-user
 title: 使用載入檔案工作流程活動
 description: 瞭解如何使用載入檔案工作流程活動
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 44%
+source-wordcount: '394'
+ht-degree: 42%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="匯入後刪除檔案"
->abstract="待定"
+>abstract="切換 **匯入後刪除檔案** 在匯入檔案後，從伺服器刪除原始檔案。"
 
 **載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動來處理儲存在外部檔案中的設定檔和資料。 設定檔和資料不會新增至資料庫，但輸入檔案中的所有欄位都可用於 [個人化](../../personalization/gs-personalization.md)，或更新設定檔或任何其他表格。
 
