@@ -3,9 +3,9 @@ audience: end-user
 title: 建立對象
 description: 瞭解如何在Adobe Campaign Web中建立對象
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '938'
 ht-degree: 10%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="對象"
->abstract="您可以從此畫面存取工作流程或獨立傳送中可鎖定目標的所有對象清單。 按一下 **建立** 使用各種工作流程活動(例如 **Split** 或 **排除**.<br/><br/>此 **[!UICONTROL 來源]** 欄指出受眾的原始項： **[!UICONTROL Adobe Campaign]** 「 」對象已建立Adobe Campaign v8主控台或Web使用者介面，同時 **[!UICONTROL Adobe Experience Platform：]** 已在Adobe Experience Platform中建立受眾，並使用Adobe來源和目的地整合將其整合至Campaign。"
+>abstract="您可以從此畫面存取工作流程或獨立傳送中可鎖定目標的所有對象清單。 按一下 **建立** 在視覺畫布中建立新受眾。<br/><br/>除了從頭開始建立簡單的對象外，您也可以運用工作流程活動來調整對象。 例如，您可以將多個受眾合併為單一受眾、使用外部屬性豐富受眾，或根據您選擇的規則將受眾分割為多個受眾。"
 
 <!--
 [!CONTEXTUALHELP]
@@ -32,6 +32,8 @@ ht-degree: 10%
 Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從頭開始建立簡單的對象之外，您還可以利用工作流程活動來調整對象。例如，您可以將多個受眾合併為單一受眾、使用外部屬性豐富受眾，或根據您選擇的規則將受眾分割為多個受眾。
 
 當您完成工作流程後，產生的對象會自動與您現有的對象一起儲存在Campaign資料庫中。 接著，您就可以在工作流程或獨立傳送中鎖定這些對象。
+
+此 **[!UICONTROL 來源]** 欄指出受眾的原始項： **[!UICONTROL Adobe Campaign]** 「 」對象已建立Adobe Campaign v8主控台或Web使用者介面，同時 **[!UICONTROL Adobe Experience Platform：]** 已在Adobe Experience Platform中建立受眾，並使用Adobe來源和目的地整合將其整合至Campaign。
 
 ➡️ [在影片中探索此功能](#video)
 
