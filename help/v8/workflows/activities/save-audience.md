@@ -6,7 +6,7 @@ exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
 >title="產生傳出轉變"
->abstract="如果您想要在「 」後面新增轉變，請使用此選項 **儲存對象** 活動。"
+>abstract="如果您想在「**儲存對象**」活動之後新增轉變，請使用此選項。"
 
 此 **儲存對象** 活動是 **目標定位** 活動。 此活動可讓您更新現有的對象，或是從工作流程中的母體運算上游建立新的對象。 建立的對象會新增至應用程式對象清單，並可透過 **受眾** 功能表。
 
