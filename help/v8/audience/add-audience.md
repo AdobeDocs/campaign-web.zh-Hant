@@ -3,10 +3,10 @@ audience: end-user
 title: 選取現有對象
 description: 了解如何選取對象
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 31%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,15 +19,14 @@ ht-degree: 31%
 >abstract="瀏覽清單以選取現有對象。使用「顯示篩選器」圖示篩選清單，或選取特定資料夾。"
 
 本節說明在定義傳送的目標母體時，如何選取現有的對象。 定義傳送的主要目標時，您也可以：
-
 * [建立一次性對象](one-time-audience.md) 使用查詢模型工具。
 * [從外部檔案載入對象](file-audience.md) （僅適用於電子郵件）。
 
-可在傳遞中鎖定的對象，可從 **對象** 左側功能表。 它們源自於多個來源，例如使用者端主控台、Campaign Web對象工作流程或Adobe Experience Platform。 [瞭解如何監視和管理對象](manage-audience.md)
+可在傳遞中鎖定的對象，可從 **對象** 左側功能表。 它們源自於多個來源，例如使用者端主控台、Campaign Web對象工作流程或Adobe Experience Platform。 [進一步了解對象](manage-audience.md)
 
 若要為您的訊息選取現有對象，請依照以下步驟進行：
 
-1. 從 **對象** 傳遞建立助理的區段，按一下 **[!UICONTROL 選取對象]** 按鈕，然後選擇 **[!UICONTROL 選取對象]** 以使用現有對象。
+1. 從 **對象** 傳遞建立助理的區段，按一下 **[!UICONTROL 選取對象]** 按鈕，然後選擇 **[!UICONTROL 選取對象]**.
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 

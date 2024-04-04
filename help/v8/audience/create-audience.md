@@ -3,10 +3,10 @@ audience: end-user
 title: 建立對象
 description: 瞭解如何在Adobe Campaign Web中建立對象
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,12 +21,13 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="對象"
->abstract="從此畫面中，您可以存取做為傳遞目標之所有對象的清單。按一下&#x200B;**建立**，使用各種工作流程活動 (例如&#x200B;**分割**&#x200B;或&#x200B;**排除**)，將新對象建立到視覺畫布中。"
+>abstract="您可以從此畫面存取工作流程或獨立傳送中可鎖定目標的所有對象清單。 按一下 **建立** 使用各種工作流程活動(例如 **Split** 或 **排除**.<br/><br/>此 **[!UICONTROL 來源]** 欄指出受眾的原始項： **[!UICONTROL Adobe Campaign]** 「 」對象已建立Adobe Campaign v8主控台或Web使用者介面，同時 **[!UICONTROL Adobe Experience Platform：]** 已在Adobe Experience Platform中建立受眾，並使用Adobe來源和目的地整合將其整合至Campaign。"
 
->[!CONTEXTUALHELP]
+<!--
+[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
->title="對象設定"
->abstract="輸入對象名稱和其他選項，然後按一下「**建立對象**」按鈕。"
+>title="Audience settings"
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
 Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從頭開始建立簡單的對象之外，您還可以利用工作流程活動來調整對象。例如，您可以將多個受眾合併為單一受眾、使用外部屬性豐富受眾，或根據您選擇的規則將受眾分割為多個受眾。
 
