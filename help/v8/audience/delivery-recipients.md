@@ -2,13 +2,13 @@
 audience: end-user
 title: 選取傳遞收件者
 description: 瞭解如何選取傳遞的收件者
-source-git-commit: e0a5a5d8d24df05e3bdb98ecb57eb89d26c8bf3d
+exl-id: 33366af1-17b5-4ef7-8e0c-b7a8ae6e1e82
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # 選取傳遞收件者 {#add-audience}
 
@@ -19,3 +19,4 @@ ht-degree: 0%
 * [從外部檔案載入對象](file-audience.md). 此選項僅適用於獨立電子郵件傳遞。
 
 鎖定目標對象時，您也可以定義 **控制組** 以避免傳送訊息給部分對象，並評估行銷活動的影響。 [瞭解如何設定控制組](control-group.md)
+
