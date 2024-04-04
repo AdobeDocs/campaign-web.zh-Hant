@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
+source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '646'
 ht-degree: 94%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 94%
       + [設計摘取檔案](direct-mail/content-direct-mail.md)
       + [預覽並發送直接郵件傳遞](direct-mail/send-direct-mail.md)
    + AI助理 {#ai-assistant}
-      + [開始使用AI助理](email/generative-gs.md)
+      + [開始使用 AI 助理](email/generative-gs.md)
       + [使用AI助理產生電子郵件](email/generative-content.md)
       + [使用AI助理產生簡訊](email/generative-sms.md)
       + [使用AI助理產生推播通知](email/generative-push.md)
@@ -109,9 +109,10 @@ ht-degree: 94%
       + [建立設定檔](audience/create-profile.md)
       + [使用測試設定檔](audience/test-profiles.md)
    + 使用對象 {#audiences}
+      + [開始使用對象](audience/manage-audience.md)
       + [建立對象](audience/create-audience.md)
-      + [監視和管理對象](audience/manage-audience.md)
    + 選取您的傳遞收件者 {#target-audiences}
+      + [開始使用對象選擇](audience/delivery-recipients.md)
       + [選取現有對象](audience/add-audience.md)
       + [建立一次性對象](audience/one-time-audience.md)
       + [從檔案載入電子郵件對象](audience/file-audience.md)
