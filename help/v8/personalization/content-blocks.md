@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 58%
+ht-degree: 54%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊為�
 
 * **[!UICONTROL 預設選擇退出橫幅]**
 * **[!UICONTROL 由 Adobe Campaign 啟用]**：插入「由 Adobe Campaign 啟用」標誌。
-* **[!UICONTROL 專有名詞的格式化函數]**：產生 **[!UICONTROL toSmartCase]** Javascript 函數，它將每個單詞的第一個字母變更為大寫。
+* **[!UICONTROL 專有名詞的格式功能]**：產生 **[!UICONTROL toSmartCase]** JavaScript函式會將每個字的第一個字母變更為大寫。
 * **[!UICONTROL 問候語]**：插入帶有收件人全名的問候語，後面跟著一個逗號。範例：「你好 John Doe，」。
 * **[!UICONTROL 插入標誌]**：插入在執行個體設定中定義的標誌。
 * **[!UICONTROL 鏡像頁面連結]**：插入[鏡像頁面](../email/mirror-page.md)的連結。預設格式：「如果您無法正確檢視此訊息，請按一下此處」。

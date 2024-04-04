@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 82%
+source-wordcount: '2108'
+ht-degree: 76%
 
 ---
 
@@ -382,12 +382,13 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="外部訊號"
->abstract="待定"
+>abstract="此 **外部訊號** 活動可讓您從API或其他工作流程，在工作流程中觸發執行一組任務。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="外部訊號參數"
 >abstract="待定"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
@@ -395,27 +396,29 @@ Deprecated IDs - to remove in GA: -->
 >abstract="待定"
 
 
-<!--Javascript-->
+<!--JavaScript-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
->title="Javascript 程式碼"
->abstract="待定"
+>title="JavaScript 程式碼"
+>abstract="此 **javascript程式碼** 活動會在工作流程內容中執行JavaScript程式碼。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="Javascript 程式碼片段"
->abstract="待定"
+>title="JavaScript 片段"
+>abstract="設定要執行的程式碼。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="在Campaign v8 （主控台）檔案中瞭解更多"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="Javascript 執行"
->abstract="待定"
+>title="JavaScript執行"
+>abstract="依預設，執行階段不能超過1小時。 在此延遲後，流程會因錯誤訊息而中止，且活動執行會失敗。 切換 **在以下時間後停止執行：** 定義自訂延遲的選項。 若要忽略此限制，請將值設為0。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="Javascript 轉變"
->abstract="待定"
+>title="處理錯誤"
+>abstract="切換 **處理錯誤** 用於新增包含錯誤的出站轉變的選項。"
 
 
 <!--ExtractFile-->
@@ -423,29 +426,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="擷取檔案"
->abstract="待定"
+>abstract="擷取檔案活動"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="要擷取的檔案"
->abstract="待定"
+>abstract="選取要擷取的檔案。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="目的地格式"
->abstract="待定"
+>abstract="選取格式。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="後處理"
->abstract="待定"
+>abstract="定義後處理步驟"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="傳出轉換"
->abstract="待定"
+>abstract="切換 **產生出站轉變** 在目前活動後新增出站轉變的選項。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="處理錯誤"
->abstract="待定"
+>abstract="切換 **處理錯誤** 用於新增包含錯誤的出站轉變的選項。"
