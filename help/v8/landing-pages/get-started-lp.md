@@ -5,9 +5,9 @@ description: 了解 Campaign Web 的登陸頁面
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
