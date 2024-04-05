@@ -12,12 +12,12 @@ ht-degree: 6%
 
 ---
 
-# 設計 Android 豐富推播傳遞 {#rich-push}
+# 設計 Android 豐富的推播傳遞 {#rich-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="稍後提醒按鈕"
->abstract="「**稍後提醒**」按鈕提供了排程提醒選項。時間戳記欄位需要一個表示 epoch (以秒為單位) 的值。"
+>abstract="「**稍後提醒**」按鈕會提供排程提醒選項。時間戳記欄位需要一個表示 epoch (以秒為單位) 的值。"
 
 使用Firebase Cloud Messaging時，您可以選擇兩種型別的訊息：
 

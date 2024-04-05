@@ -29,7 +29,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="選擇電子郵件範本"
->abstract="電子郵件範本是一種特定的傳遞設定，其中包含預先定義的設定，例如類型規則、個人化或路由參數。範本在 Campaign 用戶端主控台中定義。"
+>abstract="電子郵件範本是一種特定的傳遞設定，其中包含預先定義的設定，例如類型規則、個人化或路由參數。範本在 Campaign 使用者端主控台中定義。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
