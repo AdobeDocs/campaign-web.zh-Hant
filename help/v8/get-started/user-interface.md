@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2129'
 ht-degree: 76%
 
 ---
@@ -452,3 +452,25 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_extractfile_error"
 >title="處理錯誤"
 >abstract="切換 **處理錯誤** 用於新增包含錯誤的出站轉變的選項。"
+
+<!-- Workflow settings -->
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initscript"
+>title="初始化指令碼"
+>abstract="初始化指令碼"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_properties"
+>title="執行屬性"
+>abstract="執行屬性"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_error"
+>title="執行錯誤"
+>abstract="執行錯誤"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_initscript"
+>title="執行初始化指令碼"
+>abstract="執行初始化指令碼"

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用分割工作流程活動
 description: 了解如何使用分割工作流程活動
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 86%
+source-wordcount: '845'
+ht-degree: 85%
 
 ---
 
@@ -51,6 +51,11 @@ ht-degree: 86%
 >id="acw_orchestration_split_generatesubsets"
 >title="在相同表格中產生所有子集"
 >abstract="切換此選項可將所有子集歸類至單一的輸出轉換。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_emptytransition"
+>title="略過空的轉變"
+>abstract="略過空的轉變。"
 
 請按照以下步驟設定&#x200B;**分割**&#x200B;活動：
 
