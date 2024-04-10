@@ -8,7 +8,7 @@ breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 94%
    + 推播通知 {#push}
       + [開始使用推播通知](push/gs-push.md)
       + [建立推播通知傳遞](push/create-push.md)
-      + [設計Android豐富推送傳送](push/rich-push.md)
+      + [設計 Android 豐富的推播傳遞](push/rich-push.md)
       + [設計推播傳遞](push/content-push.md)
       + [預覽並傳送推播傳遞](push/send-push.md)
    + 簡訊 {#sms}

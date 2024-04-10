@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 **目錄**
 
-* [開始使用AI助理](generative-gs.md)
+* [開始使用 AI 助理](generative-gs.md)
 * **[使用AI助理產生電子郵件](generative-content.md)**
 * [使用AI助理產生簡訊](generative-sms.md)
 * [使用AI助理產生推播通知](generative-push.md)
