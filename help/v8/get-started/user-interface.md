@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
 workflow-type: tm+mt
-source-wordcount: '2129'
-ht-degree: 76%
+source-wordcount: '2209'
+ht-degree: 98%
 
 ---
 
@@ -313,7 +313,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="此範本僅準備就緒"
->abstract="您沒有編輯此範本的許可權。 如果需要，請聯絡管理員為您授予存取權限。"
+>abstract="您沒有編輯此範本的權限。如果需要，請聯絡管理員為您授予存取權限。"
 
 <!-- Subscription activity-->
 
@@ -329,13 +329,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="訂閱服務引數"
+>title="訂閱服務參數"
 >abstract="選取並確認訂閱服務的設定。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="訂閱服務傳出轉變"
->abstract="切換 **產生出站轉變** 在活動後新增轉變的選項。"
+>abstract="切換「**產生傳出轉變**」選項，可在活動之後新增轉變。"
 
 
 <!--Update file-->
@@ -343,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="更新資料"
->abstract="此 **更新資料** 活動會大量更新資料庫中的欄位。"
+>abstract=" **更新資料**&#x200B;活動可執行資料庫欄位的大量更新。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
 >title="選取如何更新資料"
->abstract="此 **作業型別** 欄位可讓您選擇要對資料庫中的資料執行的程式。 選取第一個選項以新增資料或更新（如果已新增）。 您也可以僅新增資料、僅更新資料或刪除資料。 選取 **更新及合併集合** 以選取要連結重複專案的主要記錄，並安全地刪除這些重複專案。"
+>abstract="「**操作類型**」欄位可讓您選擇資料庫資料所要執行的程序。選取第一個選項來新增資料或更新 (如果已新增)。您也可以僅新增資料、僅更新資料或刪除資料。選取「**更新與合併集合**」，可選取要連結重複項目的主要記錄，並可安全刪除這些重複項目。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="記錄識別"
->abstract="指定如何識別資料庫中的記錄：如果資料與現有的目標維度相關，請選取 **使用目標維度** 選項並選取要更新的目標維度和欄位。 否則，請指定一或多個自訂連結以識別資料庫中的資料，或直接使用調解金鑰。"
+>abstract="指定如何識別資料庫中的記錄：如果資料與現有的目標定位維度相關，請選取「**使用目標定位維度**」選項，然後選取要更新的目標定位維度和欄位。否則，指定一個或多個自訂連結來識別資料庫中的資料，或直接使用調和索引鍵。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
 >title="選取要更新的欄位"
->abstract="選取要更新與調解設定的欄位。 您可以使用 **自動對應** 用於自動識別要更新欄位的選項。"
+>abstract="選取要更新的欄位以及調和設定。您可以使用「**自動對應**」選項，以自動識別要更新的欄位。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="更新資料的進階選項"
->abstract="此 **進階選項** 區段可讓您指定其他設定來管理資料和重複專案。"
+>abstract="**進階選項**&#x200B;區段可讓您指定其他設定來管理資料和重複項目。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="產生傳出轉變"
->abstract="切換 **產生出站轉變** 用於新增將在執行結束時啟用的出站轉變的選項 **更新資料** 活動。 更新通常會標籤目標工作流程的結尾，因此預設不會啟用選項。"
+>abstract="切換「**產生傳出轉變**」選項，可新增在執行&#x200B;**更新資料**&#x200B;活動結束時將啟動的傳出轉變。更新通常會標示在目標定位工作流程結束時進行，因此預設不會啟動該選項。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="為拒絕產生出站轉變。"
->abstract="切換 **為拒絕產生出站轉變** 用於新增出站轉變的選項，該轉變包含更新後未正確處理的記錄（例如，如果存在重複）。 更新通常會標籤目標工作流程的結尾，因此預設不會啟用選項。"
+>title="產生拒絕的傳出轉變。"
+>abstract="切換「**產生拒絕的傳出轉變**」選項，可新增包含更新後未正確處理的記錄傳出轉變 (例如，如果有重複項目)。更新通常會標示在目標定位工作流程結束時進行，因此預設不會啟動該選項。"
 
 
 
@@ -382,7 +382,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="外部訊號"
->abstract="此 **外部訊號** 活動可讓您從API或其他工作流程，在工作流程中觸發執行一組任務。"
+>abstract="**外部訊號**&#x200B;活動可讓您從 API 或其他工作流程觸發工作流程中一組任務的執行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -401,24 +401,25 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 程式碼"
->abstract="此 **javascript程式碼** 活動會在工作流程內容中執行JavaScript程式碼。"
+>abstract="**JavaScript 程式碼**&#x200B;活動可在工作流程過程中執行 JavaScript 程式碼。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript 片段"
 >abstract="設定要執行的程式碼。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="在Campaign v8 （主控台）檔案中瞭解更多"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="閱讀 Campaign v8 (主控台) 文件並深入瞭解"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="JavaScript執行"
->abstract="依預設，執行階段不能超過1小時。 在此延遲後，流程會因錯誤訊息而中止，且活動執行會失敗。 切換 **在以下時間後停止執行：** 定義自訂延遲的選項。 若要忽略此限制，請將值設為0。"
+>title="JavaScript 執行"
+>abstract="依預設，執行階段不能超過 1 小時。在這類延遲之後，此流程將中止並顯示錯誤訊息，並且活動執行會失敗。切換「**之後停止執行**」選項，可定義自訂延遲。若要忽略此限制，請將值設為 0。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="處理錯誤"
->abstract="切換 **處理錯誤** 用於新增包含錯誤的出站轉變的選項。"
+>abstract="切換「**處理錯誤**」選項，可新增含有錯誤的傳出轉變。"
+
 
 
 <!--ExtractFile-->
@@ -445,13 +446,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
->title="傳出轉換"
->abstract="切換 **產生出站轉變** 在目前活動後新增出站轉變的選項。"
+>title="傳出轉變"
+>abstract="切換「**產生傳出轉變**」選項，可在目前活動之後新增傳出轉變。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="處理錯誤"
->abstract="切換 **處理錯誤** 用於新增包含錯誤的出站轉變的選項。"
+>abstract="切換「**處理錯誤**」選項，可新增含有錯誤的傳出轉變。"
 
 <!-- Workflow settings -->
 
@@ -474,3 +475,74 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_workflow_settings_execution_initscript"
 >title="執行初始化指令碼"
 >abstract="執行初始化指令碼"
+
+
+<!--incremental querry -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery"
+>title="增量查詢"
+>abstract="增量查詢"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_history"
+>title="增量查詢歷史記錄"
+>abstract="增量查詢歷史記錄"
+
+
+<!-- Transfer file activity -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile"
+>title="傳輸檔案"
+>abstract="傳輸檔案"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_options"
+>title="傳輸檔案選項"
+>abstract="傳輸檔案選項"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_activity"
+>title="傳輸檔案活動"
+>abstract="傳輸檔案活動"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_remoteserver"
+>title="傳輸檔案遠端伺服器"
+>abstract="傳輸檔案遠端伺服器"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_source"
+>title="傳輸檔案來源"
+>abstract="傳輸檔案來源"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="傳輸後刪除來源檔案"
+>abstract="傳輸後刪除來源檔案"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="顯示工作階段記錄"
+>abstract="顯示工作階段記錄"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="列出所有檔案"
+>abstract="列出所有檔案"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="檔案歷史化"
+>abstract="檔案歷史化"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="處理遺失的檔案"
+>abstract="處理遺失的檔案"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="處理錯誤"
+>abstract="處理錯誤"
