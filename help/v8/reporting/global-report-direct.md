@@ -3,9 +3,9 @@ audience: end-user
 title: 直接郵件通道的全域報告
 description: 深入瞭解直接郵件通道的全域報告
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 33%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="傳遞排除原因"
+>title="排除的原因"
 >abstract="**排除原因**&#x200B;圖表顯示傳遞準備期間被拒絕之郵件的分佈，依每個規則進行分類。"
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
