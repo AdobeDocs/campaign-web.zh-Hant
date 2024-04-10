@@ -313,7 +313,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="此範本僅準備就緒"
->abstract="您沒有編輯此範本的權限。如果需要，請聯絡管理員為您授予存取權限。"
+>abstract="您沒有編輯此範本的權限。如果需要，請聯絡管理員為您授予存取權。"
 
 <!-- Subscription activity-->
 
@@ -348,12 +348,12 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
 >title="選取如何更新資料"
->abstract="「**操作類型**」欄位可讓您選擇資料庫資料所要執行的程序。選取第一個選項來新增資料或更新 (如果已新增)。您也可以僅新增資料、僅更新資料或刪除資料。選取「**更新與合併集合**」，可選取要連結重複項目的主要記錄，並可安全刪除這些重複項目。"
+>abstract="「**操作類型**」欄位可讓您選擇資料庫資料所要執行的程序。選取第一個選項來新增資料或更新 (如果已新增)。您也可以只新增資料、只更新資料或刪除資料。選取「**更新與合併集合**」，可選取要連結重複項目的主要記錄，並可安全刪除這些重複項目。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="記錄識別"
->abstract="指定如何識別資料庫中的記錄：如果資料與現有的目標定位維度相關，請選取「**使用目標定位維度**」選項，然後選取要更新的目標定位維度和欄位。否則，指定一個或多個自訂連結來識別資料庫中的資料，或直接使用調和索引鍵。"
+>abstract="指定如何識別資料庫中的記錄：如果資料與現有的目標定位維度相關，請選取「**使用目標定位維度**」選項，然後選取要更新的目標定位維度和欄位。否則，指定一或多個自訂連結來識別資料庫中的資料，或直接使用調和索引鍵。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
@@ -368,12 +368,12 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="產生傳出轉變"
->abstract="切換「**產生傳出轉變**」選項，可新增在執行&#x200B;**更新資料**&#x200B;活動結束時將啟動的傳出轉變。更新通常會標示在目標定位工作流程結束時進行，因此預設不會啟動該選項。"
+>abstract="切換「**產生傳出轉變**」選項，可新增在執行&#x200B;**更新資料**&#x200B;活動結束時將啟動的傳出轉變。更新通常是表示目標定位工作流程的結束，因此預設不會啟動該選項。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
 >title="產生拒絕的傳出轉變。"
->abstract="切換「**產生拒絕的傳出轉變**」選項，可新增包含更新後未正確處理的記錄傳出轉變 (例如，如果有重複項目)。更新通常會標示在目標定位工作流程結束時進行，因此預設不會啟動該選項。"
+>abstract="切換「**產生拒絕的傳出轉變**」選項，可新增包含更新後未正確處理的記錄傳出轉變 (例如，如果有重複資料)。更新通常是是在目標定位工作流程結束時進行，因此預設不會啟動該選項。"
 
 
 
