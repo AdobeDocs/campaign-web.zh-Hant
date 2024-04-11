@@ -368,12 +368,12 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="產生傳出轉變"
->abstract="切換「**產生傳出轉變**」選項，可新增在執行&#x200B;**更新資料**&#x200B;活動結束時將啟動的傳出轉變。更新通常是表示目標定位工作流程的結束，因此預設不會啟動該選項。"
+>abstract="切換「**產生傳出轉變**」選項，可新增在執行&#x200B;**更新資料**&#x200B;活動結束時將啟動的傳出轉變。更新通常是標示目標定位工作流程的結束，因此預設不會啟動該選項。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
 >title="產生拒絕的傳出轉變。"
->abstract="切換「**產生拒絕的傳出轉變**」選項，可新增包含更新後未正確處理的記錄傳出轉變 (例如，如果有重複資料)。更新通常是是在目標定位工作流程結束時進行，因此預設不會啟動該選項。"
+>abstract="切換「**產生拒絕的傳出轉變**」選項，可新增包含更新後未正確處理的記錄傳出轉變 (例如，如果有重複資料)。更新通常是標示在目標定位工作流程的結束，因此預設不會啟動該選項。"
 
 
 
@@ -382,7 +382,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="外部訊號"
->abstract="**外部訊號**&#x200B;活動可讓您從 API 或其他工作流程觸發工作流程中一組任務的執行。"
+>abstract="透過&#x200B;**外部訊號**&#x200B;活動，您可以從 API 或其他工作流程觸發工作流程中一組任務的執行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -413,7 +413,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript 執行"
->abstract="依預設，執行階段不能超過 1 小時。在這類延遲之後，此流程將中止並顯示錯誤訊息，並且活動執行會失敗。切換「**之後停止執行**」選項，可定義自訂延遲。若要忽略此限制，請將值設為 0。"
+>abstract="依預設，執行階段不能超過 1 小時。在這類延遲之後，此流程將中止並顯示錯誤訊息，並且活動執行會失敗。切換「**停止執行於**」選項，可定義自訂延遲。若要忽略此限制，請將值設為 0。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
