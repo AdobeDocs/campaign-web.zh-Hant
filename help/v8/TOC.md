@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -76,11 +76,11 @@ ht-degree: 95%
       + [建立新的直接郵件傳遞](direct-mail/create-direct-mail.md)
       + [設計摘取檔案](direct-mail/content-direct-mail.md)
       + [預覽並發送直接郵件傳遞](direct-mail/send-direct-mail.md)
-   + AI助理 {#ai-assistant}
+   + AI 助理 {#ai-assistant}
       + [開始使用 AI 助理](email/generative-gs.md)
-      + [使用AI助理產生電子郵件](email/generative-content.md)
-      + [使用AI助理產生簡訊](email/generative-sms.md)
-      + [使用AI助理產生推播通知](email/generative-push.md)
+      + [使用 AI 助理產生電子郵件](email/generative-content.md)
+      + [使用 AI 助理產生簡訊](email/generative-sms.md)
+      + [使用 AI 助理產生推播](email/generative-push.md)
    + 製作您的動態內容 {#dynamic-content}
       + [開始使用動態內容](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
