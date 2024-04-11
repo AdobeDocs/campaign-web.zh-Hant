@@ -6,33 +6,42 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 7%
+source-wordcount: '546'
+ht-degree: 9%
 
 ---
 
-# 使用AI助理產生推播通知 {#generative-push}
+# 使用 AI 助理產生推播 {#generative-push}
 
 >[!BEGINSHADEBOX]
 
 **目錄**
 
 * [開始使用 AI 助理](generative-gs.md)
-* [使用AI助理產生電子郵件](generative-content.md)
-* [使用AI助理產生簡訊](generative-sms.md)
+* [使用 AI 助理產生電子郵件](generative-content.md)
+* [使用 AI 助理產生簡訊](generative-sms.md)
 * **[使用AI助理產生推播通知](generative-push.md)**
 
 >[!ENDSHADEBOX]
 
-建立電子郵件並將其個人化後，請使用由創作AI提供技術支援的Campaign中的AI助理，將您的內容提升到新的境界。
 
 AI Assistant可以建議更可能引起觀眾共鳴的不同內容，協助您最佳化傳送的影響。
+
+有了AI助理，您的內容可以提升到新的高度。 例如，它可用於：
+
+* **摘要**：將冗長的內容濃縮為推播通知的簡明摘要。 直接切入正題，確保收件者立即掌握關鍵訊息。
+* **精緻**：展開推播通知中的主題，提供其他詳細資訊和內容，以便更清楚瞭解。
+* **簡化語言**：使用簡潔明瞭的語言，讓更廣泛的對象都能存取您的推播通知。
+* **重新片語**：讓AI助理以不同方式重新措辭您的訊息，以避免重複
+* **變更色調**：變更推播通知的情緒基調。 無論您是要提供資訊、好玩或緊急，AI Assistant都能據以調整訊息。
 
 >[!NOTE]
 >
 >在開始使用此功能之前，請先閱讀相關的 [護欄和限制](generative-gs.md#guardrails-and-limitations).
+
+在以下範例中，我們將利用AI助理製作吸引人的訊息，以打造更吸引人的客戶體驗。
 
 1. 建立並設定推播通知傳送後，請按一下 **[!UICONTROL 編輯內容]**.
 
@@ -87,3 +96,4 @@ AI Assistant可以建議更可能引起觀眾共鳴的不同內容，協助您�
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. 定義內容、對象和排程後，您就可以準備推送傳送。 [了解更多](../monitor/prepare-send.md)
+

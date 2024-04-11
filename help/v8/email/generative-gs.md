@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '599'
 ht-degree: 40%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 40%
 **目錄**
 
 * **[開始使用AI助理](generative-gs.md)**
-* [使用AI助理產生電子郵件](generative-content.md)
-* [使用AI助理產生簡訊](generative-sms.md)
-* [使用AI助理產生推播通知](generative-push.md)
+* [使用 AI 助理產生電子郵件](generative-content.md)
+* [使用 AI 助理產生簡訊](generative-sms.md)
+* [使用 AI 助理產生推播](generative-push.md)
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ ht-degree: 40%
 >abstract="若要取得此功能的存取權限，您必需同意 Adobe Experience Cloud 生成式 AI 使用者準則。您為此功能提供的任何提示、上下文或補充資訊或其他輸入都必須與特定上下文相關聯，其中可以包括您的品牌素材、網站內容、資料、此類資料的架構、範本或其他可信任文件，並且不得包含任何個人資訊 (個人資訊包括任何可連結到特定個人的資訊)。您應該檢查此功能之任何輸出的準確性，並確保它適合您的使用案例"
 >additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者準則"
 
-AI助理是改善電子郵件內容的寶貴工具。 它簡化個人化和內容增強，將您的電子郵件傳遞最佳化，以便與您的對象產生更好的共鳴。
+由Azure OpenAI和Azure AI Vision支援的AI Assistant是改善電子郵件內容的寶貴工具。 它簡化個人化和內容增強，將您的電子郵件傳遞最佳化，以便與您的對象產生更好的共鳴。
 
 此功能可自動產生完整的電子郵件內容，以節省時間並確保一致的品質。 使用Generative AI，您可以輕鬆建立吸引人的電子郵件，提高溝通的效率和效益。
 
@@ -60,7 +60,8 @@ AI助理是改善電子郵件內容的寶貴工具。 它簡化個人化和內�
 * 上傳品牌資產，以便對品牌內容取得準確資訊。 否則，內容會以公開可用的資訊為基礎。 上傳的內容可以有下列格式：PDF、JPEG、PNG或ZIP檔案（具有支援的檔案格式）。
 * 建議上傳品牌資產的大小小於50MB。 大型檔案或大量影像可以運作，但處理時間會增加。
 * 最好使用Adobe Campaign編寫的電子郵件範本 [內建電子郵件範本](../email/create-email-templates.md)，此元件為品牌特定範本或自訂範本，可建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
-
+* 選擇變體時，請務必使用向上縮圖、向下縮圖或標幟圖示來報告任何有問題的輸出。
+* 您使用AI助理須遵守Adobe Experience Cloud Generative AI使用指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
 下列限制適用於Campaign中的AI助理：
 
@@ -68,8 +69,6 @@ AI助理是改善電子郵件內容的寶貴工具。 它簡化個人化和內�
 * 僅適用於電子郵件、推播和簡訊頻道。
 * GenAI內容可能並不一定都準確：請分享您的意見回饋，以便我們的工程師可以調整模型。
 * 您可以上傳多個品牌資產，但只能針對特定世代使用一個品牌資產。
-
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
