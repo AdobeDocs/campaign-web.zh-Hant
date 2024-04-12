@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: 使用AI助理的文字
+title: 產生式內容
 description: 開始使用Campaign中的AI助理
 badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 3fff275bbd3695440e47417e131e66b6ddafbf1b
+source-git-commit: 923fdb1d82e36e9cd56b8d0020074a224c822215
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
