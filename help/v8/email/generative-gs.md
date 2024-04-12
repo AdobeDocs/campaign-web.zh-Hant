@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 40%
+source-wordcount: '637'
+ht-degree: 38%
 
 ---
 
@@ -44,13 +44,13 @@ ht-degree: 40%
 >abstract="若要取得此功能的存取權限，您必需同意 Adobe Experience Cloud 生成式 AI 使用者準則。您為此功能提供的任何提示、上下文或補充資訊或其他輸入都必須與特定上下文相關聯，其中可以包括您的品牌素材、網站內容、資料、此類資料的架構、範本或其他可信任文件，並且不得包含任何個人資訊 (個人資訊包括任何可連結到特定個人的資訊)。您應該檢查此功能之任何輸出的準確性，並確保它適合您的使用案例"
 >additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者準則"
 
-由Azure OpenAI和Azure AI Vision支援的AI Assistant是改善電子郵件內容的寶貴工具。 它簡化個人化和內容增強，將您的電子郵件傳遞最佳化，以便與您的對象產生更好的共鳴。
+隨著行銷業的競爭日益激烈，品牌們開始尋求有效率的方法，以有效率且快速的方式產生具影響力的內容。 Campaign中的AI Assistant是Adobe的AI支援內容產生功能，徹底改變行銷人員跨電子郵件、簡訊、推播等通道建立專業且品牌一致內容的方式。 透過進階GenAI模型和對品牌指導方針的深入瞭解，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，其內容針對品牌概述的樣式、版面、色調等最佳化。
 
-此功能可自動產生完整的電子郵件內容，以節省時間並確保一致的品質。 使用Generative AI，您可以輕鬆建立吸引人的電子郵件，提高溝通的效率和效益。
+AI Assistant可以讓您在電子郵件、簡訊和推播等通路上，以直覺的方式建立和執行行銷活動，既簡單又輕鬆，同時還能節省時間、提高效率和取得更好的結果。
 
 >[!NOTE]
 >
->此功能在其Alpha版本中提供，且可能會有所變更，恕不另行通知。 它將在10月初啟用。
+>此功能在其Beta版中提供，且可能會有所變更，恕不另行通知。
 
 ## 護欄和限制 {#generative-guardrails}
 
@@ -58,7 +58,7 @@ ht-degree: 40%
 
 * 產生的內容品質強烈受到您定義的行銷目標/提示所影響。 使用定義明確的提示讓GenAI模型正確解譯。 
 * 上傳品牌資產，以便對品牌內容取得準確資訊。 否則，內容會以公開可用的資訊為基礎。 上傳的內容可以有下列格式：PDF、JPEG、PNG或ZIP檔案（具有支援的檔案格式）。
-* 建議上傳品牌資產的大小小於50MB。 大型檔案或大量影像可以運作，但處理時間會增加。
+* 已上傳品牌資產的大小上限為50MB。 大型檔案或大量影像可以運作，但處理時間會增加。
 * 最好使用Adobe Campaign編寫的電子郵件範本 [內建電子郵件範本](../email/create-email-templates.md)，此元件為品牌特定範本或自訂範本，可建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
 * 選擇變體時，請務必使用向上縮圖、向下縮圖或標幟圖示來報告任何有問題的輸出。
 * 您使用AI助理須遵守Adobe Experience Cloud Generative AI使用指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
