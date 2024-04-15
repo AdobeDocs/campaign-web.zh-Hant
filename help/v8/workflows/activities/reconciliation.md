@@ -3,9 +3,9 @@ audience: end-user
 title: 使用調解工作流程活動
 description: 瞭解如何使用協調工作流程活動
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '858'
 ht-degree: 44%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 44%
 
 請依照下列步驟設定 **調解** 活動：
 
-1. 拖放 **調解** 活動放入工作流程。 此活動應在包含母體的轉變之後新增，其母體的目標維度不會直接來自Adobe Campaign。
+1. 新增 **調解** 活動放入工作流程。 此活動應在包含母體的轉變之後新增，其母體的目標維度不會直接來自Adobe Campaign。
 
 1. 選取新的目標定位維度。維度可讓您定義目標族群：收件者、應用程式訂閱者、操作者、訂閱者等。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions).
 

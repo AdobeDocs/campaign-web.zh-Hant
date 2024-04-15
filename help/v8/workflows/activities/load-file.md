@@ -3,9 +3,9 @@ audience: end-user
 title: 使用載入檔案工作流程活動
 description: 瞭解如何使用載入檔案工作流程活動
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 47%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 47%
 
 請依照下列步驟設定 **載入檔案** 活動：
 
-1. 拖放 **載入檔案** 活動放入工作流程。 按一下 **從檔案選取** 按鈕。
+1. 新增 **載入檔案** 活動放入工作流程。 按一下 **從檔案選取** 按鈕。
 
 1. 選取要使用的本機檔案。 格式必須與此對齊 [範例檔案](../../audience/file-audience.md#sample-file).
 
