@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
+source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
 workflow-type: tm+mt
-source-wordcount: '2209'
-ht-degree: 98%
+source-wordcount: '2213'
+ht-degree: 100%
 
 ---
 
@@ -546,3 +546,8 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_transferfile_process_errors"
 >title="處理錯誤"
 >abstract="處理錯誤"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_alerting"
+>title="傳遞警報"
+>abstract="傳遞警報"

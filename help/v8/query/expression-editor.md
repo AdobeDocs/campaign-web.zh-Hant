@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2015'
 ht-degree: 55%
 
 ---
