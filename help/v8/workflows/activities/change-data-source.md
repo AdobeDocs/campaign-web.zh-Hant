@@ -16,7 +16,7 @@ ht-degree: 27%
 >id="acw_homepage_welcome_rn2"
 >title="變更資料來源"
 >abstract="使用新的變更資料來源工作流程為活動進行目標定位，以變更工作流程工作表格使用的資料來源。此活動可讓您跨不同的資料庫管理資料，為您提供更多彈性並改善工作效率。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"

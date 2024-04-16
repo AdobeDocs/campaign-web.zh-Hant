@@ -16,7 +16,7 @@ ht-degree: 32%
 >id="acw_homepage_welcome_rn1"
 >title="直接郵件"
 >abstract="直接郵件頻道現已可在工作流程和獨立傳遞中使用。使用直接郵件離線頻道來建立、個人化和產生摘取檔案，並將該檔案與您的直接郵件提供者分享，以便他們傳送郵件給您的客戶。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 
 直接郵件是一種離線頻道，可讓您產生檔案，以大量傳送個人化信件給您的客戶，例如明信片、傳單或目錄。
