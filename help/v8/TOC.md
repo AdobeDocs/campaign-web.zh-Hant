@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
-workflow-type: ht
-source-wordcount: '646'
-ht-degree: 100%
+source-git-commit: 313b5688eee169612007b9704036ce1d8b89dd86
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 99%
 
 ---
 
@@ -127,6 +127,7 @@ ht-degree: 100%
 + 工作流程 {#wf}
    + [開始使用工作流程](workflows/gs-workflows.md)
    + [護欄和限制](get-started/guardrails.md)
+   + [工作流程事件變數](workflows/event-variables.md)
    + [存取並管理工作流程](workflows/access-monitor.md)
    + 建立和執行第一個工作流程 {#create-workflow}
       + [用於建立工作流程的主要原則](workflows/gs-workflow-creation.md)
