@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 923fdb1d82e36e9cd56b8d0020074a224c822215
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1351'
+ht-degree: 5%
 
 ---
 
@@ -52,7 +52,7 @@ AI Assistant可以產生整封電子郵件、目標文字內容，甚至特別�
 
 1. 啟用 **[!UICONTROL 使用原始內容]** AI助理的選項，用來根據您的傳遞、傳遞名稱和選取的對象來個人化新內容。
 
-   您的提示必須一律透過上傳品牌資產或啟用 **[!UICONTROL 增強目前的內容]** 選項。
+   您的提示必須一律繫結至您目前的內容。
 
 1. 描述您要在中產生的內容，以微調內容。 **[!UICONTROL 提示]** 欄位。
 
@@ -109,7 +109,7 @@ AI Assistant可以產生整封電子郵件、目標文字內容，甚至特別�
 
 1. 啟用 **[!UICONTROL 使用原始內容]** AI助理的選項，用來根據您的傳遞、傳遞名稱和選取的對象來個人化新內容。
 
-   您的提示必須一律透過上傳品牌資產或啟用 **[!UICONTROL 增強目前的內容]** 選項。
+   您的提示必須一律繫結至您目前的內容。
 
 1. 描述您要在中產生的內容，以微調內容。 **[!UICONTROL 提示]** 欄位。
 

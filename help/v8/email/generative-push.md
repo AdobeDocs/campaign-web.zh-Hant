@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: bc27d8e6e41cb59a7221a893d4c00d3647db887b
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '473'
 ht-degree: 9%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 9%
 * **[使用AI助理產生推播通知](generative-push.md)**
 
 >[!ENDSHADEBOX]
-
 
 AI Assistant可以建議更可能引起觀眾共鳴的不同內容，協助您最佳化傳送的影響。
 
@@ -51,7 +50,7 @@ AI Assistant可以建議更可能引起觀眾共鳴的不同內容，協助您�
 
    >[!IMPORTANT]
    >
-   > 您的提示必須一律透過上傳品牌資產或啟用 **[!UICONTROL 增強目前的內容]** 選項。
+   > 您的提示必須一律繫結至您目前的內容。
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 
