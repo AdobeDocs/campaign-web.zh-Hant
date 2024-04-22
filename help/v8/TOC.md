@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 313b5688eee169612007b9704036ce1d8b89dd86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '649'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

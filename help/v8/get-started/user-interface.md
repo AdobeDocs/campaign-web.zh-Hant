@@ -4,9 +4,9 @@ title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -561,8 +561,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
->title="建立傳遞警報准則"
->abstract="建立傳遞警報准則"
+>title="建立傳遞警報條件"
+>abstract="建立傳遞警報條件"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
@@ -586,20 +586,20 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
->title="傳送警示一般引數"
+>title="傳遞警報一般參數"
 >abstract="傳遞警報"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
->title="傳遞警示條件引數"
+>title="傳遞警報條件參數"
 >abstract="傳遞警報"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
->title="已傳送傳遞警報"
->abstract="已傳送傳遞警報"
+>title="已傳送的傳遞警報"
+>abstract="已傳送的傳遞警報"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
->title="傳遞警示歷史記錄"
->abstract="傳遞警示歷史記錄"
+>title="傳遞警報歷史記錄"
+>abstract="傳遞警報歷史記錄"
