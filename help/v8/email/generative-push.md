@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 9%
+source-wordcount: '490'
+ht-degree: 8%
 
 ---
 
@@ -78,9 +78,11 @@ AI Assistant可以建議更可能引起觀眾共鳴的不同內容，協助您�
 
 1. 導覽至 **[!UICONTROL 細化]** 中的選項 **[!UICONTROL 預覽]** 視窗以存取其他自訂功能：
 
+   * **[!UICONTROL 用作參考內容]**：選擇的變體將作為參考內容，用於產生其他結果。
+
    * **[!UICONTROL 重新片語]**： AI Assistant可以不同方式重新表述您的訊息，讓您的新撰寫保持新穎，並吸引不同受眾。
 
-   * **[!UICONTROL 使用簡單語言]**：運用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
+   * **[!UICONTROL 使用更簡單的語言]**：運用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 

@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1368'
 ht-degree: 5%
 
 ---
@@ -81,9 +81,11 @@ AI Assistant可以產生整封電子郵件、目標文字內容，甚至特別�
 
 1. 導覽至 **[!UICONTROL 細化]** 中的選項 **[!UICONTROL 預覽]** 視窗以存取其他自訂功能：
 
+   * **[!UICONTROL 用作參考內容]**：選擇的變體將作為參考內容，用於產生其他結果。
+
    * **[!UICONTROL 重新片語]**： AI Assistant可以不同方式重新表述您的訊息，讓您的新撰寫保持新穎，並吸引不同受眾。
 
-   * **[!UICONTROL 使用簡單語言]**：運用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
+   * **[!UICONTROL 使用更簡單的語言]**：運用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 
@@ -136,15 +138,15 @@ AI Assistant可以產生整封電子郵件、目標文字內容，甚至特別�
 
 1. 導覽至 **[!UICONTROL 細化]** 中的選項 **[!UICONTROL 預覽]** 視窗以存取其他自訂功能：
 
-   * **用作參考內容**：選擇的變體將作為參考內容，用於產生其他結果。
+   * **[!UICONTROL 用作參考內容]**：選擇的變體將作為參考內容，用於產生其他結果。
 
-   * **精緻**： AI助理可以協助您展開特定主題，提供其他詳細資訊，以便更清楚瞭解並更能參與。
+   * **[!UICONTROL 精緻]**： AI助理可以協助您展開特定主題，提供其他詳細資訊，以便更清楚瞭解並更能參與。
 
-   * **摘要**：冗長的資訊可能會讓電子郵件收件者過載。 使用AI Assistant將要點濃縮為清晰、簡潔的摘要，以吸引注意並鼓勵他們進一步閱讀。
+   * **[!UICONTROL 摘要]**：冗長的資訊可能會讓電子郵件收件者過載。 使用AI Assistant將要點濃縮為清晰、簡潔的摘要，以吸引注意並鼓勵他們進一步閱讀。
 
-   * **重新片語**：AI Assistant可以不同方式重新表述您的訊息，讓您寫作保持新鮮，並吸引不同受眾。
+   * **[!UICONTROL 重新片語]**：AI Assistant可以不同方式重新表述您的訊息，讓您寫作保持新鮮，並吸引不同受眾。
 
-   * **使用簡單語言**：運用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
+   * **[!UICONTROL 使用更簡單的語言]**：運用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 

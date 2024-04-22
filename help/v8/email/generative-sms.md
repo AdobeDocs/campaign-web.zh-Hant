@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '479'
 ht-degree: 10%
 
 ---
@@ -75,9 +75,11 @@ ht-degree: 10%
 
 1. 導覽至 **[!UICONTROL 細化]** 中的選項 **[!UICONTROL 預覽]** 視窗以存取其他自訂功能並微調您的偏好設定變數：
 
-   * **簡化語言**： AI助理可幫助您撰寫每個人都能理解的清晰、簡潔的訊息。
+   * **[!UICONTROL 用作參考內容]**：選擇的變體將作為參考內容，用於產生其他結果。
 
-   * **重新片語**： AI Assistant會將您的訊息改寫，讓不同受眾的互動持續進行。
+   * **[!UICONTROL 使用更簡單的語言]**： AI助理可幫助您撰寫每個人都能理解的清晰、簡潔的訊息。
+
+   * **[!UICONTROL 重新片語]**： AI Assistant會將您的訊息改寫，讓不同受眾的互動持續進行。
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
