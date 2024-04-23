@@ -4,7 +4,7 @@ title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2279'
 ht-degree: 100%
 
