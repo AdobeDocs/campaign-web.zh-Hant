@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 使用者介面/用戶端主控台功能比較表
 description: Campaign Web 使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: ht
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+workflow-type: tm+mt
 source-wordcount: '2141'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -167,7 +167,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶，可與外部系統連�
 
 >[!NOTE]
 >
->雖然其中的一些活動只能在用戶端主控台中使用，但有些可在 Campaign Web 使用者介面中使用，例如&#x200B;**擴充**、**載入檔案**、**變更資料來源**&#x200B;或&#x200B;**變更維度**&#x200B;活動。[進一步了解 Campaign Web 使用者介面中的目標定位和資料管理活動](../workflows/activities/about-activities.md#targeting)
+>雖然其中的一些活動只能在用戶端主控台中使用，但有些可在 Campaign Web 使用者介面中使用，例如&#x200B;**擴充**、**載入檔案**、**變更資料來源**&#x200B;或&#x200B;**變更維度**&#x200B;活動。[在Campaign網頁使用者介面中進一步瞭解目標定位和資料管理活動](../workflows/activities/about-activities.md#targeting)
 
 ### 同盟資料存取設定 {#fda}
 

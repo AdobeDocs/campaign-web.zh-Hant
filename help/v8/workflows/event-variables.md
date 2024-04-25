@@ -3,10 +3,10 @@ audience: end-user
 title: 工作流程事件變數
 description: 瞭解如何在工作流程中善用事件變數。
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
-source-git-commit: b33c3c2424c1cd07c7bb6fd4c2ffcab9592354c7
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
