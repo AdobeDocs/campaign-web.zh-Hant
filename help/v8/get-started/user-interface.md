@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b8541fa0fe3a7ce905a202b719087132b7b8da14
+source-git-commit: 145fce5cfaafd0178ca9e85aea6996370c36da9d
 workflow-type: tm+mt
-source-wordcount: '2287'
+source-wordcount: '2295'
 ht-degree: 99%
 
 ---
@@ -608,3 +608,8 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_delivery_alerting_dashboard_history"
 >title="傳遞警報歷史記錄"
 >abstract="傳遞警報歷史記錄"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_create"
+>title="建立傳遞警報儀表板"
+>abstract="建立傳遞警報儀表板"
