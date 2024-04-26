@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 145fce5cfaafd0178ca9e85aea6996370c36da9d
+source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2122'
 ht-degree: 99%
 
 ---
@@ -172,11 +172,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_list"
->title="收件者建立"
->abstract="收件者建立"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="收件者卡片概觀"
 >abstract="收件者卡片概觀"
@@ -289,31 +284,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- ML: beta wiki page - not visible in UI-->
 
 <!-- FOR POST-GA -->
-
-
-
-<!--
-Deprecated IDs - to remove in GA: -->
-
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="顯示進階屬性"
->abstract="依預設，屬性清單中只會顯示最常見的屬性。啟用「**顯示進階屬性**」開關，即可在規則產生器的左側調色盤中查看目前清單的所有可用屬性，例如節點、群組、1-1 連結、1-N 連結。"
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="規則產生器進階欄位"
->abstract="依預設，屬性清單中只會顯示最常見的屬性。啟用「**顯示進階屬性**」開關，即可在規則產生器的左側調色盤中查看目前清單的所有可用屬性，例如節點、群組、1-1 連結、1-N 連結。"
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="規則產生器進階屬性"
->abstract="依預設，屬性清單中只會顯示最常見的屬性。啟用「**顯示進階屬性**」開關，即可在規則產生器的左側調色盤中查看目前清單的所有可用屬性，例如節點、群組、1-1 連結、1-N 連結。"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_readonlymode"
->title="此範本僅準備就緒"
->abstract="您沒有編輯此範本的權限。如果需要，請聯絡管理員為您授予存取權。"
 
 <!-- Subscription activity-->
 
