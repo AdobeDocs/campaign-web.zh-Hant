@@ -30,7 +30,7 @@ ht-degree: 86%
 >id="acw_orchestration_split_filter"
 >title="分割活動篩選器"
 >abstract="若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並使用查詢建模工具設定所需的篩選規則。例如，將電子郵件地址存在於資料庫之傳入母體的設定檔包含在內。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查詢建模工具"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/campaign-web/v8/query-database/query-modeler-overview" text="使用查詢建模工具"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -59,8 +59,8 @@ ht-degree: 86%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
->title="啟用輸出族群的重疊"
->abstract="啟用輸出族群的重疊"
+>title="啟用輸出母體的重疊"
+>abstract="啟用輸出母體的重疊"
 
 請按照以下步驟設定&#x200B;**分割**&#x200B;活動：
 
