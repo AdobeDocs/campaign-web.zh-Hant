@@ -54,7 +54,7 @@ ht-degree: 44%
 >id="acw_orchestration_reconciliation_rules"
 >title="調和規則"
 >abstract="選取用於去重複化的調和規則。若要使用屬性，請選取&#x200B;**簡單屬性**&#x200B;選項，然後選擇來源欄位和目的地欄位。若要使用查詢建模工具建立您自己的調和條件，請選取&#x200B;**進階調和條件**&#x200B;選項。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/campaign-web/v8/query-database/query-modeler-overview" text="使用查詢建模工具"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查詢建模工具"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
