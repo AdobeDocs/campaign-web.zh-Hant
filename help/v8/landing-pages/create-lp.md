@@ -3,10 +3,10 @@ title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 30%
+source-wordcount: '1504'
+ht-degree: 27%
 
 ---
 
@@ -61,7 +61,9 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="定義預先載入選項"
->abstract="當選取「**預先填寫表單中所參考的資料**」選項時，如果登陸頁面的訪客與資料庫中的設定檔相符時，設定檔的資訊會自動預先載入表單中。如果選取「**如果沒有 ID，則略過預先載入**」選項，輸入的每個設定檔將在表單獲准後新增至資料庫。"
+>abstract="當選取「**預先填寫表單中所參考的資料**」選項時，如果登陸頁面的訪客與資料庫中的設定檔相符時，設定檔的資訊會自動預先載入表單中。使用 **授權缺少ID** 選取此選項後，任何訪客（包括匿名使用者）都可以存取登入頁面。"
+
+<!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
@@ -98,21 +100,41 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
    ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
-1. 在 **[!UICONTROL 資料預先載入]** 部分，預設會選取以下兩個選項：
+1. 在 **[!UICONTROL 資料預先載入]** 區段，可使用下列兩個選項：
 
    * 當選取「**[!UICONTROL 預先填寫表單中所參考的資料]**」選項時，如果登陸頁面的訪客與資料庫中的設定檔相符時，設定檔的資訊會自動預先載入表單中。使用者只需填寫缺少的欄位，並在需要時更新現有值。 這可合併現有設定檔的資料，而非建立重複專案。
 
-   * 此 **[!UICONTROL 如果沒有ID，則跳過預先載入]** 如果您不想更新設定檔，則必須選取選項。 在這種情況下，在核准表單後，輸入的每個設定檔都將新增到資料庫。 例如，在網站上張貼表單時，會使用此選項。
+     >[!NOTE]
+     >
+     >依預設，會為所有登入頁面範本選取此選項。
+
+   <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
+
+   * 此 **[!UICONTROL 授權缺少ID]** 選項可讓任何訪客存取登入頁面。 取消選取此選項可防止匿名訪客使用它，這表示只有已識別的使用者才能存取及提交表單。
+
+     >[!AVAILABILITY]
+     >
+     >此功能在有限可用性(LA)中提供。 僅限於移轉的客戶 **從Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和無法部署在任何其他環境中。
+
+     對於 **[!UICONTROL 贏取]** 和 **[!UICONTROL 訂閱]** 範本，預設會選取此選項。 對於 **[!UICONTROL 取消訂閱]** 和 **[!UICONTROL 封鎖清單]** 範本，此選項預設為未選取且無法修改<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
 1. 登入頁面可以有後續頁面。 若要新增頁面，請瀏覽 **[!UICONTROL 頁面]** 區段，然後按一下 **[!UICONTROL 編輯內容]** 按鈕來指定您要為此登入頁面設計的每個頁面。 每個頁面的內容均已預先填滿。 視需要編輯。 [了解更多](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
-1. 此 **[!UICONTROL 更新預先載入的記錄]** 選項預設為選取。 它可讓您透過登入頁面更新儲存在資料庫中的設定檔。 預先載入方塊可讓您指定如何在資料庫中尋找要更新的記錄。
+1. 在 **[!UICONTROL 儲存]** 區段， **[!UICONTROL 更新預先載入的記錄]** 選項預設為選取。 它可讓您透過登入頁面更新儲存在資料庫中的設定檔。 預先載入方塊可讓您指定如何在資料庫中尋找要更新的記錄。
 
    您也可以從登入頁面目前前後關聯中的欄位中進行選擇，這些欄位將用於尋找資料庫中的對應設定檔。 若要這麼做，請取消選取 **[!UICONTROL 更新預先載入的記錄]** 選項並核取底下的所需欄位 **[!UICONTROL 調解選項]**.
 
    ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
+
+1. 建立 **[!UICONTROL 其他資料]** 以便在提交登入頁面時儲存內部資料。 造訪頁面的使用者不會看見此資料。 只會考慮常數值。
+
+   >[!AVAILABILITY]
+   >
+   >此功能在有限可用性(LA)中提供。 僅限於移轉的客戶 **從Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和無法部署在任何其他環境中。
+
+   ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
 1. 您可以定義登陸頁面的開始日期和結束日期。選取 **[!UICONTROL 啟用排程]** 並設定日期。
 
@@ -161,6 +183,8 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 1. 從 **[!UICONTROL 模擬]** 畫面，選取一或多個測試設定檔。
 
    選取測試設定檔的步驟與測試訊息時相同。 在中會詳細說明這些步驟 [預覽和測試](../preview-test/preview-test.md) 區段。
+
+1. 測試動態登入頁面時(使用 **[!UICONTROL 來自URL的服務]** 已選取選項 —  [瞭解更多](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
 1. 選取 **[!UICONTROL 開啟預覽]** 以測試您的登入頁面。
 
