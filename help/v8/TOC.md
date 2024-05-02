@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 98%
    + [新增功能](rn/whats-new.md)
    + [最新版本](rn/release-notes.md)
    + [文件更新](rn/documentation-updates.md)
-   + [Campaign Standard轉換至Campaign v8](rn/acs-migration.md)
+   + [從Campaign Standard到v8](rn/acs-migration.md)
 + 開始使用 Adobe Campaign {#start}
    + [開始使用](get-started/get-started.md)
    + [連線至 Campaign](get-started/connect-to-campaign.md)
@@ -28,7 +28,7 @@ ht-degree: 98%
    + [瀏覽和篩選清單](get-started/list-filters.md)
    + [使用預先定義的篩選器](get-started/predefined-filters.md)
    + [存取權與權限](get-started/permissions.md)
-   + [Campaign Web 與 Campaign 用戶端主控台](get-started/capability-matrix.md)
+   + [Campaign Web和使用者端主控台](get-started/capability-matrix.md)
    + [採用 AI 技術的內容說明](get-started/using-ai.md)
 + 訊息和傳遞{#msg}
    + [開始使用訊息](msg/gs-messages.md)

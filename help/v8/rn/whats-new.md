@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web 使用者介面有哪些新增功能？
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1193'
 ht-degree: 100%
 
 ---
@@ -100,10 +100,10 @@ Adobe Campaign Web 具有&#x200B;**強大且直覺的查詢建模工具**，可�
 
     Learn more in [this section](../email/generative-gs.md).
 -->
+<!--
+**AI-powered Contextual Help**
 
-**AI 驅動的內容說明**
-
-直接從產品使用者介面提出問題並找出指引。新的 **AI 驅動的內容說明**&#x200B;可協助您學習和提升有關新 Campaign 功能的專業知識。它以最新的產品文件為基礎，可協助您在建立使用案例時，立即尋求說明並獲得逐步指引。此功能目前在 Beta 版中提供，僅供有限的使用者使用。若要了解詳細資訊，請參閱[本章節](../get-started/using-ai.md)。
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).-->
 
 **預先定義的篩選器**
 

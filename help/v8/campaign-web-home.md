@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '499'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 100%
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>開始使用</strong><br/><a href="get-started/user-interface.md">使用者介面</a> - <a href="get-started/connect-to-campaign.md">連結至 Campaign</a> - <a href="get-started/using-ai.md">AI 支援的內容說明</a> - <a href="get-started/permissions.md">存取權與權限</a>
+      <strong>開始使用</strong><br/><a href="get-started/user-interface.md">使用者介面</a> - <a href="get-started/connect-to-campaign.md">連線至Campaign</a> - <a href="get-started/permissions.md">存取與許可權</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

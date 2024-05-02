@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1670'
 ht-degree: 99%
 
 ---
@@ -113,19 +113,20 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
 * **報告** - 此&#x200B;**報告**&#x200B;項目提供 Campaign 環境中每個管道的流量和參與量度的綜合整體摘要。這些報告是由各種小工具所組成，每個小工具都提供有關您的行銷活動或傳遞績效的獨特觀點。若要了解詳細資訊，請參閱[本章節](../reporting/global-reports.md)。
 
+<!--
+## Contextual Help {#user-interface-help} 
 
-## 內容說明 {#user-interface-help}
+A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
-介面中會提供內容關聯式說明。若有提供，請按一下 `?` 圖示以顯示說明資訊和相關文件的連結。
+![](assets/do-not-localize/context-help.png){zoomable="yes"}{width="40%" align="left"}
 
-![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
+Currently released as a Beta version within the new Campaign Web user interface, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
-目前在新的 Campaign Web 使用者介面中發行為 Beta 版本，內嵌於內容說明中&#x200B;**採用 AI 技術的知識助理**&#x200B;可輕鬆篩選大量文件存放庫，並立即找出所需的精確資訊，為文件搜尋和回答操作方法問題方面帶來全面革新。
+Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
-透過 Campaign Gen AI 的功能，此助理將改變您的體驗，讓資訊檢索和問題解決變得輕而易舉。無論您是在複雜任務中尋求指引，還是導覽大量文件，AI 驅動的知識助理都是您的終極夥伴，在每次互動中提供無與倫比的效率和準確性。
+Learn more in [this section](using-ai.md).
 
-若要了解詳細資訊，請參閱[本章節](using-ai.md)。
-
+-->
 
 ## 了解更多 {#learn-more}
 

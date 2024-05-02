@@ -2,9 +2,9 @@
 title: 連線至 Adobe Campaign Web 介面
 description: 了解如何連線至 Adobe Campaign Web 使用者介面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
@@ -89,11 +89,12 @@ Adobe Campaign Web 目前提供以下語言版本：
 1. 然後，按一下您電子郵件地址下顯示的語言連結。
 1. 選取您偏好的語言，然後按一下「**儲存**」。您可以選取第二語言，以防您使用的元件沒有您第一語言的版本。
 
+<!--
 >[!CAUTION]
 >
->如果您規劃使用[採用 AI 技術的內容說明](using-ai.md)功能，您必須將偏好的語言設定為英文。不支援其他語言。
+>If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
 >
-
+-->
 
 ## 深色和淺色主題 {#dark-theme}
 
