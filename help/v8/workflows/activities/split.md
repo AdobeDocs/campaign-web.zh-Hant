@@ -3,10 +3,10 @@ audience: end-user
 title: 使用分割工作流程活動
 description: 了解如何使用分割工作流程活動
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 86%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 86%
 >id="acw_orchestration_split_filter"
 >title="分割活動篩選器"
 >abstract="若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並使用查詢建模工具設定所需的篩選規則。例如，將電子郵件地址存在於資料庫之傳入母體的設定檔包含在內。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查詢建模工具"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/campaign-web/v8/query-database/query-modeler-overview" text="使用查詢建模工具"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -55,7 +55,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="省略空值轉變"
->abstract="省略空值轉變。"
+>abstract="切換 **[!UICONTROL 跳過空白轉變]** 開啟選項，以在傳入母體為空時停用此子集的輸出轉變。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -85,6 +85,8 @@ ht-degree: 86%
    1. 若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並使用查詢建模工具設定所需的篩選規則。例如，將傳入母體的設定檔包含在資料庫中存在其電子郵件地址。 [瞭解如何使用查詢建模器](../../query/query-modeler-overview.md)
 
    1. 若要限制子集所選設定檔的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的母體數量或百分比。
+
+   1. 若要在傳入母體為空時停用轉變，請切換 **[!UICONTROL 跳過空白轉變]** 選項開啟。 如果沒有符合子集的設定檔，工作流程將不會轉換為下一個活動。
 
       ![](../assets/workflow-split-subset.png)
 

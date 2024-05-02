@@ -3,10 +3,10 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何存取、建立和管理Adobe Campaign網站上的訂閱服務
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 15418cd8de3ce640340eb3551786682173752910
+source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 34%
+source-wordcount: '1074'
+ht-degree: 31%
 
 ---
 
@@ -53,6 +53,11 @@ ht-degree: 34%
 >title="選取一個確認訊息"
 >abstract="當使用者訂閱服務或取消訂閱時，您可以傳送確認訊息。選取要用於該訊息的範本。"
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="預設登陸頁面"
+>abstract="選取與此服務相關聯的預設登入頁面。"
+
 若要建立訂閱服務，請遵循下列步驟。
 
 1. 選取 **[!UICONTROL 建立訂閱服務]** 按鈕。
@@ -81,9 +86,25 @@ ht-degree: 34%
 
 1. 按一下 **[!UICONTROL 儲存並檢閱]**. 新服務將新增至 **[!UICONTROL 訂閱服務]** 清單。
 
+1. 您也可以選取與此服務關聯的預設訂閱和取消訂閱登入頁面。
+
+   >[!AVAILABILITY]
+   >
+   >此功能在有限可用性(LA)中提供。 僅限於移轉的客戶 **從Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和無法部署在任何其他環境中。
+
+   ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
+
+   完成後，當 [插入連結](../email/message-tracking.md) 在電子郵件中，選取 **[!UICONTROL 訂閱連結]** 或 **[!UICONTROL 取消訂閱連結]**. 按一下該連結後，系統會將使用者導向至服務中參照的訂閱或取消訂閱登陸頁面。 <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+   ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+1. 儲存並檢閱您的變更。
+
 您現在可以：
 
-* 新增訂閱者到此服務，並取消訂閱設定檔。 [了解更多](../msg/send-to-subscribers.md)
+* 手動將訂閱者新增至此服務，並取消訂閱設定檔。 [了解更多](../audience/manage-subscribers.md)
+
+* 透過登入頁面邀請您的客戶訂閱此服務。 [了解更多](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * 傳送訊息給此服務的訂閱者。 [了解做法](../msg/send-to-subscribers.md)
 

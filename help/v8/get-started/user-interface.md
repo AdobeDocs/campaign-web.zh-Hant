@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
+source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '1789'
 ht-degree: 99%
 
 ---
@@ -285,29 +285,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- FOR POST-GA -->
 
-<!-- Subscription activity-->
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="預設登陸頁面"
->abstract="選取與此訂閱服務關聯的預設登陸頁面。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription"
->title="訂閱服務活動"
->abstract="使用 Adobe Campaign 建立和監視您的服務 (例如電子報)，並檢查這些服務的訂閱或取消訂閱。訂閱僅適用於電子郵件和簡訊傳遞。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_general"
->title="訂閱服務參數"
->abstract="選取並確認訂閱服務的設定。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_outboundtransition"
->title="訂閱服務傳出轉變"
->abstract="切換「**產生傳出轉變**」選項，可在活動之後新增轉變。"
-
-
 <!--Update file-->
 
 >[!CONTEXTUALHELP]
@@ -345,85 +322,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="產生拒絕的傳出轉變。"
 >abstract="切換「**產生拒絕的傳出轉變**」選項，可新增包含更新後未正確處理的記錄傳出轉變 (例如，如果有重複資料)。更新通常是標示在目標定位工作流程的結束，因此預設不會啟動該選項。"
 
-
-
-<!--External Signal End-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal"
->title="外部訊號"
->abstract="透過&#x200B;**外部訊號**&#x200B;活動，您可以從 API 或其他工作流程觸發工作流程中一組任務的執行。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal_parameters"
->title="外部訊號參數"
->abstract="外部訊號參數"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_end_trigger"
->title="結束觸發程序"
->abstract="結束觸發程序"
-
-
-<!--JavaScript-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript"
->title="JavaScript 程式碼"
->abstract="**JavaScript 程式碼**&#x200B;活動可在工作流程過程中執行 JavaScript 程式碼。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_snippet"
->title="JavaScript 片段"
->abstract="設定要執行的程式碼。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="閱讀 Campaign v8 (主控台) 文件並深入瞭解"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_execution"
->title="JavaScript 執行"
->abstract="依預設，執行階段不能超過 1 小時。在這類延遲之後，此流程將中止並顯示錯誤訊息，並且活動執行會失敗。切換「**停止執行於**」選項，可定義自訂延遲。若要忽略此限制，請將值設為 0。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_transition"
->title="處理錯誤"
->abstract="切換「**處理錯誤**」選項，可新增含有錯誤的傳出轉變。"
-
-
-
-<!--ExtractFile-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile"
->title="擷取檔案"
->abstract="擷取檔案活動"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_file"
->title="要擷取的檔案"
->abstract="選取要擷取的檔案。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_destinationformat"
->title="目的地格式"
->abstract="選取格式。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_postprocessing"
->title="後處理"
->abstract="定義後處理步驟"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_outbound"
->title="傳出轉變"
->abstract="切換「**產生傳出轉變**」選項，可在目前活動之後新增傳出轉變。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_error"
->title="處理錯誤"
->abstract="切換「**處理錯誤**」選項，可新增含有錯誤的傳出轉變。"
-
 <!-- Workflow settings -->
 
 >[!CONTEXTUALHELP]
@@ -445,82 +343,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="執行初始化指令碼"
 >abstract="執行初始化指令碼"
-
-
-<!--incremental querry -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery"
->title="增量查詢"
->abstract="增量查詢"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_history"
->title="增量查詢歷史記錄"
->abstract="增量查詢歷史記錄"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_processeddata"
->title="增量查詢已處理的資料"
->abstract="增量查詢已處理的資料"
-
-
-<!-- Transfer file activity -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile"
->title="傳輸檔案"
->abstract="傳輸檔案"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_options"
->title="傳輸檔案選項"
->abstract="傳輸檔案選項"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_activity"
->title="傳輸檔案活動"
->abstract="傳輸檔案活動"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_remoteserver"
->title="傳輸檔案遠端伺服器"
->abstract="傳輸檔案遠端伺服器"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_source"
->title="傳輸檔案來源"
->abstract="傳輸檔案來源"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="傳輸後刪除來源檔案"
->abstract="傳輸後刪除來源檔案"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="顯示工作階段記錄"
->abstract="顯示工作階段記錄"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="列出所有檔案"
->abstract="列出所有檔案"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="檔案歷史化"
->abstract="檔案歷史化"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="處理遺失的檔案"
->abstract="處理遺失的檔案"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="處理錯誤"
->abstract="處理錯誤"
 
 <!-- Delivery alerting -->
 
@@ -565,6 +387,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="傳遞警報"
 
 >[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="預設登陸頁面"
+>abstract="選取與此訂閱服務關聯的預設登陸頁面。"
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="傳遞警報條件參數"
 >abstract="傳遞警報"
