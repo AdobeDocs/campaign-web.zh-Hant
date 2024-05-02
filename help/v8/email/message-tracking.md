@@ -3,10 +3,10 @@ audience: end-user
 title: 追蹤您的訊息
 description: 了解如何新增連結和追蹤已傳送的訊息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 66%
 
 ---
 
@@ -26,7 +26,29 @@ ht-degree: 100%
 
 1. 選取元素，然後從內容關聯式工具列中按一下「**[!UICONTROL 插入連結]**」。
 
+1. 選擇您要建立的連結型別：
+
    ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL 外部連結]**：插入外部URL的連結。
+
+     >[!AVAILABILITY]
+     >
+     >下列功能(連結至 **[!UICONTROL 登陸頁面]**， **[!UICONTROL 訂閱連結]** 和 **[!UICONTROL 取消訂閱連結]**)為有限可用性(LA)。 限製為移轉的客戶 **從Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和無法部署在任何其他環境中。
+
+   * **[!UICONTROL 登陸頁面]**：插入登入頁面的連結。 如果您選取動態登陸頁面(包含 **[!UICONTROL 來自URL的服務]** 選項)，您可以從清單中選取任何服務。 [了解更多](../landing-pages/create-lp.md#define-actions-on-form-submission)
+
+     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL 訂閱連結]**：插入訂閱服務的連結。 當使用者按一下連結時，系統將他們導向至所選服務中參照的訂閱登入頁面。 [了解更多](../audience/manage-services.md#create-service)
+
+     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL 取消訂閱連結]**：插入取消訂閱服務的連結。 當訂閱者按一下連結時，系統會將他們導向至所選服務中參照的取消訂閱登陸頁面。 [了解更多](../audience/manage-services.md#create-service)
+
+   <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
+
+1. 在對應欄位中輸入所需的URL，或選取登入頁面或服務，並定義連結設定和樣式。
 
 1. 新增&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 連結]**。
 
@@ -41,7 +63,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->行銷類型電子郵件訊息必須包含選擇退出連結，而異動訊息則不需要。訊息類別 (**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**) 是在建立訊息時於管道表面 (即訊息預設集) 層定義。
+>行銷類型電子郵件訊息必須包含選擇退出連結，而異動訊息則不需要。訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**)會在頻道介面層級建立訊息時定義。
 
 鏡像頁面的特定連結應新增到您的所有電子郵件訊息。若要了解鏡像頁面的詳細資訊，請參閱[本章節](mirror-page.md)。
 

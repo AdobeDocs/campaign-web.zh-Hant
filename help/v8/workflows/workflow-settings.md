@@ -3,10 +3,10 @@ audience: end-user
 title: 設定工作流程設定
 description: 瞭解如何使用Adobe Campaign Web進行工作流程設定
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 30%
+source-wordcount: '1067'
+ht-degree: 29%
 
 ---
 
@@ -103,3 +103,8 @@ ht-degree: 30%
    * **[!UICONTROL 中止處理序]**：工作流程會自動停止，其狀態會變更為 **[!UICONTROL 已失敗]**. 問題解決後，請使用重新啟動工作流程 **[!UICONTROL 開始]** 按鈕。
 
 * **[!UICONTROL 連續錯誤]**：此欄位可在下列情況下使用 **[!UICONTROL 忽略]** 值選取於 **[!UICONTROL 發生錯誤時]** 欄位。 您可以指定程序停止之前可以忽略的錯誤數。達到此數字後，工作流程狀態會變更為 **[!UICONTROL 已失敗]**. 如果此欄位的值為 0，則無論錯誤數為何，工作流程都不會停止。
+
+## 初始化指令碼 {#initialization-script}
+
+此 **初始化指令碼** 可讓您初始化變數或修改活動屬性。 按一下 **編輯程式碼** 按鈕，並輸入要執行的程式碼片段。 執行工作流程時會呼叫指令碼。 請參閱相關的區段 [事件變數](../workflows/event-variables.md).
+

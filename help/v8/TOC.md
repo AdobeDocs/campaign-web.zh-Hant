@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
    + [新增功能](rn/whats-new.md)
    + [最新版本](rn/release-notes.md)
    + [文件更新](rn/documentation-updates.md)
+   + [Campaign Standard轉換至Campaign v8](rn/acs-migration.md)
 + 開始使用 Adobe Campaign {#start}
    + [開始使用](get-started/get-started.md)
    + [連線至 Campaign](get-started/connect-to-campaign.md)
@@ -145,12 +146,20 @@ ht-degree: 100%
       + [去重複化](workflows/activities/deduplication.md)
       + [電子郵件、簡訊、推播、直接郵件](workflows/activities/channels.md)
       + [擴充](workflows/activities/enrichment.md)
+      + [外部訊號](workflows/activities/external-signal.md)
+      + [擷取檔案](workflows/activities/extract-file.md)
       + [分支](workflows/activities/fork.md)
+      + [增量查詢](workflows/activities/incremental-query.md)
+      + [JavaScript 程式碼](workflows/activities/javascript-code.md)
       + [載入檔案](workflows/activities/load-file.md)
       + [調和](workflows/activities/reconciliation.md)
       + [儲存對象](workflows/activities/save-audience.md)
       + [排程器](workflows/activities/scheduler.md)
       + [分割](workflows/activities/split.md)
+      + [訂閱服務](workflows/activities/subscription-services.md)
+      + [測試](workflows/activities/test.md)
+      + [傳輸檔案](workflows/activities/transfer-file.md)
+      + [更新資料](workflows/activities/update-data.md)
       + [等待](workflows/activities/wait.md)
 + 查詢資料庫 {#query-database}
    + [使用查詢建模工具](query/query-modeler-overview.md)
@@ -184,4 +193,6 @@ ht-degree: 100%
    + [使用其他 Adobe 解決方案](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
++ 管理員 {#administration}
+   + [設定自訂欄位](administration/custom-fields.md)
 
