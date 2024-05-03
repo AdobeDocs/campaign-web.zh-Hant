@@ -2,13 +2,13 @@
 audience: end-user
 title: 從Campaign Standard轉換至Adobe Campaign Web
 description: 探索Campaign Web使用者介面
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
+source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
 
 ---
-
 
 # Campaign Standard轉換至Campaign v8{#welcome}
 
@@ -64,10 +64,10 @@ As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign
 * 自訂資源為 **方案** 在Campaign Web使用者介面中。
 * 行銷活動已不存在。
 * 訊息為 **傳遞**.
-* 運運算元為 **使用者**.
-* 已命名的許可權為 **角色**.
-* 運運算元群組為 **安全性群組**.
-* 檔案夾許可權為 **組織單位**
+* 使用者為 **運運算元**.
+* 角色為 **已命名的許可權**.
+* 安全性群組為 **運運算元群組**.
+* 組織單位為 **檔案夾許可權**
 
 ## 新功能 {#new-features}
 
