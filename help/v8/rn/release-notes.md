@@ -2,14 +2,19 @@
 title: 最新發行說明
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
+source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 25%
+source-wordcount: '1185'
+ht-degree: 26%
 
 ---
 
 # 發行說明 {#latest-release}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="發行說明"
+>abstract="Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，通過該模型可採用更具擴充性、分階段的方式部署功能。因此，Campaign發行說明每月會更新數次，其中包含最新功能、改進和修正。 建議您定期檢查。"
 
 <!--Last update: **March 19, 2024**-->
 
