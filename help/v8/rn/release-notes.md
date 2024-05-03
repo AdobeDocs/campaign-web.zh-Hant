@@ -2,9 +2,9 @@
 title: 最新發行說明
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1137'
 ht-degree: 25%
 
 ---
@@ -17,7 +17,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，通�
 
 ## 4月發行說明 {#april-24-4-release}
 
-**發行日期**：2024年4月30日
+**發行日期**：2024年5月2日
 
 ### 新功能 {#new-24-4}
 
@@ -31,7 +31,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，通�
 * **傳輸檔案**  — 使用此活動來接收或傳送檔案、測試檔案是否存在或列出伺服器上的檔案。 使用的通訊協定可以是伺服器對伺服器通訊協定或HTTP通訊協定。 [閱讀更多](../workflows/activities/transfer-file.md)
 * **測試**  — 使用此活動可根據指定的條件啟用轉換。 [閱讀更多](../workflows/activities/test.md)
 * **javascript程式碼**  — 使用此活動在工作流程內容中執行JavaScript程式碼片段。 [閱讀更多](../workflows/activities/javascript-code.md)
-* **外部訊號**  — 使用此活動從另一個工作流程*或API呼叫觸發工作流程執行。 [閱讀更多](../workflows/activities/external-signal.md)
+* **外部訊號**  — 使用此活動從另一個工作流程或API呼叫觸發工作流程執行。 [閱讀更多](../workflows/activities/external-signal.md)
 * **增量查詢**  — 使用此活動可依排程查詢資料庫。 每次執行此活動時，都會排除先前執行的結果。這可讓您僅鎖定新元素。 [閱讀更多](../workflows/activities/incremental-query.md)
 
 **豐富推送通知範本**
@@ -60,8 +60,6 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **動態報告**  — 作為Campaign Standard移轉的使用者，您可以存取動態報告，其提供完全可自訂的即時報告，以評估行銷活動的影響。 它新增對設定檔資料的存取權，除了功能性電子郵件促銷活動資料（如開啟和點按）外，還支援依設定檔維度（如性別、城市和年齡）進行人口統計分析。 [閱讀更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
-* **載入檔案活動改善** - **載入檔案** 活動已增強，包含多個區段，可讓您上傳範例檔案、管理錯誤和拒絕，以及在活動執行後刪除已上傳的檔案。 [閱讀更多](../workflows/activities/load-file.md)
-
 * **登陸頁面**  — 下列登陸頁面改良功能僅適用於從Campaign Standard轉換的使用者：
 
    * 您現在可在設定服務時，參考預設的訂閱/取消訂閱登陸頁面。 設計電子郵件時，如果您定義該登入頁面的連結，則提交登入頁面表單的使用者會自動訂閱或取消訂閱此服務。 [閱讀更多](../audience/manage-services.md#create-service)
@@ -75,11 +73,14 @@ The Audit trail feature constantly records a detailed log of actions and events 
 自4月發行版本開始，所有客戶皆可使用以下改良功能。
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* 您現在可以從不同的瀏覽器標籤將活動從工作流程複製/貼上到另一個工作流程。 [閱讀更多](../workflows/orchestrate-activities.md#copy-activities-copy)
+* 此 **載入檔案** 活動已增強，包含多個區段，可讓您上傳範例檔案、管理錯誤和拒絕，以及在活動執行後刪除已上傳的檔案。 [閱讀更多](../workflows/activities/load-file.md)
+
+
+* 您現在可以 **複製/貼上活動** 從工作流程移至其他瀏覽器標籤的其他工作流程。 [閱讀更多](../workflows/orchestrate-activities.md#copy-activities-copy)
 
 <!--**Workflow - Execution options**: -->
 
-* 現在，所有工作流程活動都可讓您管理其執行選項。 這可讓您定義活動的執行模式和發生錯誤時的行為。 [閱讀更多](../workflows/orchestrate-activities.md#execution-options-execution)
+* 所有工作流程活動現在都可讓您管理其 **執行選項**. 這可讓您定義活動的執行模式和發生錯誤時的行為。 [閱讀更多](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
@@ -87,7 +88,7 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 <!--* **Support of custom fields**-->
 
-* 自訂欄位是透過Adobe Campaign主控台新增到現成可用方案的其他屬性。 在Campaign網頁使用者介面中，這些自訂欄位現在會顯示在各種畫面中，例如設定檔或測試設定檔的詳細資訊。 在Web使用者介面中，您無法建立自訂欄位，但您現在可以修改其顯示方式。 [閱讀更多](../administration/custom-fields.md)
+* **自訂欄位** 是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 在Campaign網頁使用者介面中，這些自訂欄位現在會顯示在各種畫面中，例如設定檔或測試設定檔的詳細資訊。 在Web使用者介面中，您無法建立自訂欄位，但您現在可以修改其顯示方式。 [閱讀更多](../administration/custom-fields.md)
 
 
 ## 3 月發行說明 {#24-3-release}

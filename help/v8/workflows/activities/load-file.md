@@ -3,10 +3,10 @@ audience: end-user
 title: 使用載入檔案工作流程活動
 description: 瞭解如何使用載入檔案工作流程活動
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 13%
+source-wordcount: '1227'
+ht-degree: 14%
 
 ---
 
@@ -42,10 +42,6 @@ ht-degree: 13%
 ![](../assets/workflow-load-file.png)
 
 ### 設定範例檔案 {#sample}
-
->[!AVAILABILITY]
->
->此功能在有限可用性(LA)中提供。 此限制僅供在Campaign伺服器v8.7上執行的客戶使用，且無法部署於任何其他環境。
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -122,6 +118,8 @@ ht-degree: 13%
 >
 >在載入目標檔案之前，請確定它符合範例檔案格式。 檔案格式、欄結構或欄數的任何差異都可能導致工作流程執行期間發生錯誤。
 
+若要定義要上傳的目標檔案，請執行下列步驟：
+
 1. 在 **[!UICONTROL 目標檔案]** 部分，指定擷取要在伺服器上載的檔案時要執行的動作。
 
    * **[!UICONTROL 從本機電腦上傳檔案]**：選取要從電腦上傳的檔案。
@@ -150,10 +148,6 @@ ht-degree: 13%
 >title="匯入後刪除檔案"
 >abstract="切換「**匯入後刪除檔案**」在匯入檔案後，從伺服器刪除原始檔案。"
 
-
->[!AVAILABILITY]
->
->這些選項位於「有限可用性(LA)」。 這些限制僅限於在Campaign伺服器v8.7上執行的客戶，並且無法部署在任何其他環境中。
 
 1. 在 **拒絕管理** 區段，指定活動在出現錯誤時的行為方式：
 
