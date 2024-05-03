@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 98%
+source-wordcount: '474'
+ht-degree: 82%
 
 ---
 
@@ -51,27 +51,23 @@ ht-degree: 98%
 
 >[!BEGINTABS]
 
->[!TAB 3 月版本已上線！]
+>[!TAB 4月版本已上線！]
 
-了解 Adob&#x200B;&#x200B;e Campaign Web 使用者介面 24.3 版本帶來的新功能和改善事項。
+了解 Adob&#x200B;&#x200B;e Campaign Web 使用者介面 24.4 版本帶來的新功能和改善事項。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 直接郵件頻道]
+>[!TAB 新工作流程活動]
 
-**直接郵件**&#x200B;頻道現已可在工作流程中使用，並可作為獨立傳遞來使用。直接郵件是離線頻道，可讓您建立、個人化和產生摘取檔案，並將該檔案與您的直接郵件提供者分享，以便他們傳送郵件給您的客戶。
+此版本隨附下列工作流程活動：更新資料、訂閱服務、擷取檔案、傳輸檔案、測試、JavaScript程式碼、外部訊號、增量查詢。
 
-![影像](assets/do-not-localize/direct-mail.gif)
+[![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+>[!TAB 豐富推送通知]
 
->[!TAB 新的變更資料來源工作流程活動]
+您現在可以透過Android傳送豐富推送通知。 豐富推播通知是行動通知的增強型形式，其不僅限於簡單的文字訊息，而是結合多媒體元素，例如影像、互動按鈕或其他豐富媒體內容。
 
-新的&#x200B;**變更資料來源**&#x200B;目標定位活動可讓您變更工作流程工作表格使用的資料來源。 此活動可讓您跨不同的資料庫管理資料，為您提供更多彈性並改善工作效率。
-
-![影像](assets/do-not-localize/change-data-source.gif)
-
-[![影像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
+[![影像](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 
