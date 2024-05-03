@@ -3,9 +3,9 @@ audience: end-user
 title: 使用片段
 description: 瞭解如何使用片段
 hidefromtoc: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '842'
 ht-degree: 6%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 6%
 若要充分利用片段：
 
 * 建立您自己的視覺化片段，如下所述。
-* 透過電子郵件設計工具，視需要在您的內容中多次使用。 另請參閱 [新增視覺片段](../email/use-visual-fragments.md)
+* 透過電子郵件設計工具，視需要在您的內容中多次使用。 另請參閱 [將視覺化片段新增至您的電子郵件](../email/use-visual-fragments.md).
 
 ## 建立視覺片段 {#create-fragments}
 
@@ -102,8 +102,6 @@ ht-degree: 6%
    ![](assets/fragment-designer.png)
 
 1. 片段準備就緒後，請按一下 **[!UICONTROL 儲存並關閉]**. 它會新增至 [片段清單](#access-manage-fragments).
-
-1. 如有需要，請按一下片段名稱旁的箭頭，以返回 **[!UICONTROL 詳細資料]** 並加以編輯。
 
 此片段現在已準備好用於建立任何 [電子郵件](../email/get-started-email-designer.md) 或 [內容範本](use-email-templates.md) 在Campaign中。 [了解做法](../email/use-visual-fragments.md)
 

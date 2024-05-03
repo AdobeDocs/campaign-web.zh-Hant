@@ -3,17 +3,16 @@ audience: end-user
 title: 在你的電子郵件中新增視覺內容片段
 description: 瞭解如何將視覺化片段新增至您的電子郵件
 hide: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '418'
 ht-degree: 4%
 
 ---
 
 # 在你的電子郵件中新增視覺內容片段 {#use-visual-fragments}
 
-您可以在以下專案中使用視覺效果片段： [電子郵件傳遞](get-started-email-designer.md)，或在 [內容範本](use-email-templates.md).
-
+您可以在以下專案中使用視覺效果片段： [電子郵件傳遞](get-started-email-designer.md)，或在 [內容範本](use-email-templates.md). 步驟詳述如下。
 
 
 >[!NOTE]
