@@ -2,14 +2,23 @@
 audience: end-user
 title: 使用訂閱服務活動
 description: 瞭解如何使用訂閱服務工作流程活動
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '992'
 ht-degree: 13%
 
 ---
 
 # 訂閱服務 {#subscriptipon-services}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="訂閱服務活動"
+>abstract="使用新的訂閱服務工作流程活動來管理服務的訂閱。 您可以訂閱或取消訂閱母體，也可以從外部檔案更新多個訂閱。 您也可以選擇傳送確認訊息以通知訂閱者。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"

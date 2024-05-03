@@ -2,14 +2,24 @@
 audience: end-user
 title: 使用更新資料工作流程活動
 description: 瞭解如何使用更新資料工作流程活動
-source-git-commit: 347f8f84a8eda60538366eb3dc49f8d7e06379c3
+exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 18%
+source-wordcount: '541'
+ht-degree: 17%
 
 ---
 
 # 更新資料 {#update-data}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="更新資料活動"
+>abstract="更新資料活動現在可用於工作流程。 使用「更新」資料活動，對資料庫中的欄位執行大量更新。 建議使用數個選項來個人化更新的型別。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
+
+
 
 此 **更新資料** 活動是 **資料管理** 活動。 它可讓您對資料庫中的欄位執行大量更新。 數個選項可讓您個人化資料更新。
 
