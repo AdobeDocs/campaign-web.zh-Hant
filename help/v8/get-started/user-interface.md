@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b1dc684593011729ab1a3214c3b87709cceb61e3
+source-git-commit: fbbad6abf6b43159ed8111ae3ee58834b2270fc2
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 100%
+source-wordcount: '1650'
+ht-degree: 99%
 
 ---
 
@@ -375,3 +375,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="建立傳遞警報儀表板"
 >abstract="建立傳遞警報儀表板"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields"
+>title="編輯自訂屬性"
+>abstract="編輯自訂屬性"
