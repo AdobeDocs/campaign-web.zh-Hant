@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
+source-git-commit: e94f76ef9a90c98c67de29ce8f6b428f18bfc44b
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1352'
 ht-degree: 5%
 
 ---
@@ -216,8 +216,10 @@ AI Assistant可以產生整封電子郵件、目標文字內容，甚至特別�
 
 >[!ENDTABS]
 
-## 操作說明影片 {#video}
+<!--
+## How-to video {#video}
 
-瞭解如何使用AI助理產生完整電子郵件、文字或影像。
+Learn how to use the AI assistant to generate full email, text or images.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428341)
+-->
