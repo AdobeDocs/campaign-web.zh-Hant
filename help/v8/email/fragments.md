@@ -4,10 +4,11 @@ title: 建立內容片段
 description: 瞭解如何使用內容片段建立
 hidefromtoc: true
 hide: true
-source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
+exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
+source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 6%
+source-wordcount: '870'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="定義你專屬的內容片段"
->abstract="片段是可重複使用的元件，可在跨行銷活動的一封或多封電子郵件中參考。"
+>abstract="片段是可重複使用的元件，可在跨行銷活動的一封或多封電子郵件中參考。 此功能用於預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合電子郵件內容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
