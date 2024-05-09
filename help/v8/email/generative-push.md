@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 10%
@@ -30,7 +30,7 @@ AI Assistant可以建議更可能引起觀眾共鳴的不同內容，協助您�
 
 >[!NOTE]
 >
->在開始使用此功能之前，請先閱讀相關的 [護欄和限制](generative-gs.md#guardrails-and-limitations).
+>在開始使用此功能之前，請先閱讀相關的 [護欄和限制](generative-gs.md#generative-guardrails).
 
 在以下範例中，我們將利用AI助理製作吸引人的訊息，以打造更吸引人的客戶體驗。
 

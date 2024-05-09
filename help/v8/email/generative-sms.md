@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 11%
@@ -32,7 +32,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->在開始使用此功能之前，請先閱讀相關的 [護欄和限制](generative-gs.md#guardrails-and-limitations).
+>在開始使用此功能之前，請先閱讀相關的 [護欄和限制](generative-gs.md#generative-guardrails).
 
 1. 建立和設定簡訊傳送後，按一下 **[!UICONTROL 編輯內容]**.
 

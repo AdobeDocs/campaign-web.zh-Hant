@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 5%
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->在開始使用此功能之前，請先閱讀相關的 [護欄和限制](generative-gs.md#guardrails-and-limitations).
+>在開始使用此功能之前，請先閱讀相關的 [護欄和限制](generative-gs.md#generative-guardrails).
 
 建立電子郵件並將其個人化後，請使用由創作AI提供技術支援的Campaign中的AI助理，將您的內容提升到新的境界。
 
