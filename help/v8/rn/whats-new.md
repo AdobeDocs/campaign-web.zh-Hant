@@ -4,9 +4,9 @@ title: Campaign Web 使用者介面有哪些新增功能？
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ Ask questions and find guidance directly from the product user interface. The ne
 
 如需深入了解 Campaign Web 使用者介面與 Campaign 用戶端主控台之間支援/不支援的功能以及互通性，請參閱[此頁面](../get-started/capability-matrix.md)。
 
-作為轉換至Campaign v8的Campaign Standard使用者， [請參閱此頁面](../rn/acs-migration.md).
+轉換到 Campaign v8 的 Campaign Standard 使用者，[請參閱此頁面](../rn/acs-migration.md)。
 
 ## 術語更新 {#terminology-updates}
 

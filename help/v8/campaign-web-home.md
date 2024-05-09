@@ -4,9 +4,9 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -51,21 +51,21 @@ ht-degree: 82%
 
 >[!BEGINTABS]
 
->[!TAB 4月版本已上線！]
+>[!TAB 4 月版本已上線！]
 
-了解 Adob&#x200B;&#x200B;e Campaign Web 使用者介面 24.4 版本帶來的新功能和改善事項。
-
-[![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
-
->[!TAB 新工作流程活動]
-
-此版本隨附下列工作流程活動：更新資料、訂閱服務、擷取檔案、傳輸檔案、測試、JavaScript程式碼、外部訊號、增量查詢。
+了解 Adobe Campaign Web 使用者介面 24.4 版本帶來的新功能和改善事項。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 豐富推送通知]
+>[!TAB 新的工作流程活動]
 
-您現在可以透過Android傳送豐富推送通知。 豐富推播通知是行動通知的增強型形式，其不僅限於簡單的文字訊息，而是結合多媒體元素，例如影像、互動按鈕或其他豐富媒體內容。
+此版本包含以下工作流程活動：更新資料、訂閱服務、擷取檔案、傳輸檔案、測試、JavaScript 程式碼、外部訊號、增量查詢。
+
+[![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
+>[!TAB 多媒體推播通知]
+
+現在您可以透過 Android 發送多媒體推播通知。多媒體推播通知是行動裝置通知的加強版，除了簡單的文字訊息，還可以加入多媒體元素，例如影像、互動式按鈕或其他多媒體內容。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
@@ -107,7 +107,7 @@ ht-degree: 82%
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>開始使用</strong><br/><a href="get-started/user-interface.md">使用者介面</a> - <a href="get-started/connect-to-campaign.md">連線至Campaign</a> - <a href="get-started/permissions.md">存取與許可權</a>
+      <strong>開始使用</strong><br/><a href="get-started/user-interface.md">使用者介面</a> - <a href="get-started/connect-to-campaign.md">連線至 Campaign</a> - <a href="get-started/permissions.md">存取權與權限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
