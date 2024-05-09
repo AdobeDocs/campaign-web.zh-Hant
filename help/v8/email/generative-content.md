@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: e94f76ef9a90c98c67de29ce8f6b428f18bfc44b
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1369'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 **目錄**
 
 * [開始使用 AI 助理](generative-gs.md)
-* **[使用AI助理產生電子郵件](generative-content.md)**
+* 使用 AI 助理產生電子郵件
 * [使用 AI 助理產生簡訊](generative-sms.md)
 * [使用 AI 助理產生推播](generative-push.md)
 
@@ -216,10 +216,10 @@ AI Assistant可以產生整封電子郵件、目標文字內容，甚至特別�
 
 >[!ENDTABS]
 
-<!--
-## How-to video {#video}
 
-Learn how to use the AI assistant to generate full email, text or images.
+## 操作說明影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3428341)
--->
+瞭解如何使用AI助理產生完整的電子郵件內容、文字和影像。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428984)
+

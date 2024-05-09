@@ -5,9 +5,9 @@ description: 瞭解如何使用內容片段建立
 hidefromtoc: true
 hide: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '887'
 ht-degree: 5%
 
 ---
@@ -167,7 +167,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->刪除內容片段時，會更新電子郵件傳遞和使用它的範本，並從其訊息內容中移除片段。 您可以視需要中斷繼承。 [了解更多](use-visual-fragments.md#break-inheritance)
+>刪除內容片段時，會更新電子郵件傳遞及使用它的範本：片段會從電子郵件內容中移除，但仍會參考。 若要將片段內容保留在這些傳送和範本中，您必須中斷繼承才能刪除片段， [如本節所述](use-visual-fragments.md#break-inheritance).
 >
 
 ### 復製片段 {#duplicate-fragments}

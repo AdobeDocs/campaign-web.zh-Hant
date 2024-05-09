@@ -4,7 +4,8 @@ title: 在你的電子郵件中新增視覺內容片段
 description: 瞭解如何將視覺化片段新增至您的電子郵件
 hide: true
 hidefromtoc: true
-source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
+exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 4%
@@ -52,9 +53,10 @@ ht-degree: 4%
    從 **[!UICONTROL 設定]** 標籤，您可以：
 
    * 選擇您要顯示片段的裝置。
-   * 視需要在新索引標籤中開啟片段以編輯。 [了解更多](../email/fragments.md#edit-fragments)
+   * 
+      1. 按一下 **編輯內容** 按鈕以開啟此片段的內容。 [了解更多](../email/fragments.md#edit-fragments)
 
-   您可以使用進一步自訂您的片段 **[!UICONTROL 樣式]** 標籤。
+     您可以使用進一步自訂您的片段 **[!UICONTROL 樣式]** 標籤。
 
 1. 如有需要，您可以中斷具有原始片段的繼承。 [瞭解更多](#break-inheritance)
 您也可以從內容中刪除或復製片段。 這些動作可以直接從顯示在片段頂端的內容功能表執行。
