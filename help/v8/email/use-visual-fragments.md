@@ -5,7 +5,7 @@ description: 瞭解如何將視覺化片段新增至您的電子郵件
 hide: true
 hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 4%
@@ -53,8 +53,7 @@ ht-degree: 4%
    從 **[!UICONTROL 設定]** 標籤，您可以：
 
    * 選擇您要顯示片段的裝置。
-   * 
-      1. 按一下 **編輯內容** 按鈕以開啟此片段的內容。 [了解更多](../email/fragments.md#edit-fragments)
+   * 按一下 **編輯內容** 按鈕以開啟此片段的內容。 [了解更多](../email/fragments.md#edit-fragments)
 
      您可以使用進一步自訂您的片段 **[!UICONTROL 樣式]** 標籤。
 
