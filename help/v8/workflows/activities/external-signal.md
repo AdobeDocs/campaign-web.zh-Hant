@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用外部訊號活動
 description: 瞭解如何使用外部訊號工作流程活動
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="外部訊號"
->abstract="此 **外部訊號** 活動可讓您從另一個工作流程或API呼叫觸發工作流程的執行。"
+>abstract="「**外部訊號**」活動可讓您從其他工作流程或 API 呼叫觸發工作流程的執行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"

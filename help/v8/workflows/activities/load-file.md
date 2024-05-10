@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 14%
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="載入檔案活動"
->abstract="**載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動來處理儲存在外部檔案中的資料。 設定檔和資料不會新增至資料庫，但輸入檔案中的所有欄位都可用於個人化、更新設定檔或任何其他表格。 "
+>abstract="**載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動可以處理儲存在外部檔案中的資料。設定檔和資料不會新增到資料庫中，但輸入檔中的所有欄位皆可用於個人化，或用於更新設定檔或任何其他表格。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -46,17 +46,17 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
 >title="範例檔案"
->abstract="上傳範例檔案，選取預期的檔案結構。"
+>abstract="透過上傳範例檔案來選取所需的檔案結構。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
 >title="載入檔案活動的格式化"
->abstract="在 **格式化** 區段，指定檔案的格式，以確保資料正確匯入。"
+>abstract="在「**格式化**」區段中，指定檔案設定格式的方式，以確保可正確匯入該資料。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="載入檔案活動的值重新對應"
->abstract="使用此選項以新值對應載入檔案中的特定值。 例如，如果欄包含「True」/「False」值，您可以新增對應以自動將這些值取代為「0」/「1」字元。"
+>abstract="使用此選項可將載入檔案中的特定值與新值相對應。例如，如果欄包含「True」/「False」值，您可以新增對應以自動將這些值取代為「0」/「1」字元。"
 
 請依照下列步驟，設定用來定義預期檔案結構的範例檔案：
 
@@ -90,24 +90,24 @@ ht-degree: 14%
 
 +++
 
-1. 在 **格式化** 區段，指定檔案的格式，以確保資料正確匯入。
+1. 在「**格式化**」區段中，指定檔案設定格式的方式，以確保可正確匯入該資料。
 
 ### 定義要上傳的目標檔案 {#target}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
 >title="載入檔案活動的目標檔案"
->abstract="在 **[!UICONTROL 目標檔案]** 區段，指定如何擷取檔案以上傳到伺服器上。"
+>abstract="在「**[!UICONTROL 目標檔案]**」區段中，指定如何擷取要上傳到伺服器上的檔案。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_nameofthefile"
 >title="檔案名稱"
->abstract="指定要上傳到伺服器上的欄位名稱。 按一下 **[!UICONTROL 開啟個人化對話方塊]** 圖示利用運算式編輯器（包括事件變數）來計算檔案名稱。"
+>abstract="指定要上傳到伺服器上的欄位名稱。按一下「**[!UICONTROL 開啟個人化對話框]**」圖示以利用運算式編輯器 (包含事件變數) 來計算檔案名稱。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
->title="Target 資料庫"
->abstract="如果您要存取 **[!UICONTROL 載入檔案]** 已在使用者端主控台中設定的活動，這是額外的 **[!UICONTROL 目標資料庫]** 如果您已將活動設定為上傳檔案至外部資料庫，則可使用「 」區段。"
+>title="目標資料庫"
+>abstract="如果您正在存取已在用戶端控制台中設定的「**[!UICONTROL 載入檔案]**」活動，則在您已設定將檔案上傳到外部資料庫的活動時，有額外的「**[!UICONTROL 目標資料庫]**」區段可用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
@@ -128,7 +128,7 @@ ht-degree: 14%
 
    * **[!UICONTROL 預先處理檔案]**：上傳上一個轉變中指定的檔案，並套用前置處理命令至該檔案，例如 **[!UICONTROL 解壓縮]** 或 **[!UICONTROL 解密]**.
 
-   * **[!UICONTROL 已計算]**：上傳在中指定名稱的檔案 **[!UICONTROL 檔案名稱]** 欄位。 按一下 **[!UICONTROL 開啟個人化對話方塊]** 圖示利用運算式編輯器（包括事件變數）來計算檔案名稱。
+   * **[!UICONTROL 已計算]**：上傳在中指定名稱的檔案 **[!UICONTROL 檔案名稱]** 欄位。 按一下「**[!UICONTROL 開啟個人化對話框]**」圖示以利用運算式編輯器 (包含事件變數) 來計算檔案名稱。
 
    ![](../assets/workflow-load-file-config.png)
 
@@ -141,7 +141,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
 >title="拒絕載入檔案活動的管理"
->abstract="在 **拒絕管理** 區段，指定活動在出現錯誤時的行為方式。 您可以定義允許的最大錯誤數，並切換 **[!UICONTROL 將拒絕專案保留在檔案中]** 選項可在伺服器上下載包含匯入期間發生錯誤的檔案。"
+>abstract="在「**拒絕管理**」區段中，指定活動在發生錯誤時應有的行為。您可以定義允許的最大錯誤數，並切換「**[!UICONTROL 將拒絕保留在檔案中]**」選項以在伺服器上下載包含匯入期間發生之錯誤的檔案。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"

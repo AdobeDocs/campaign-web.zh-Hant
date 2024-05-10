@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 13%
+ht-degree: 24%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="訂閱服務活動"
->abstract="使用新的訂閱服務工作流程活動來管理服務的訂閱。 您可以訂閱或取消訂閱母體，也可以從外部檔案更新多個訂閱。 您也可以選擇傳送確認訊息以通知訂閱者。"
+>abstract="使用新的「訂閱服務工作流程」活動來管理服務訂閱。您可以訂閱或取消訂閱族群，也可以從外部檔案更新多個訂閱。另一個可能的選項是，傳送確認訊息來通知您的訂閱者。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="訂閱服務活動"
->abstract="「訂閱服務」活動允許多個設定檔在單一動作中訂閱或取消訂閱服務。"
+>abstract="「訂閱服務」活動允許在單一動作中訂閱或取消訂閱多個設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="訂閱服務一般引數"
->abstract="選擇所需的服務，並選擇要執行的動作（訂閱或取消訂閱）。 切換至 **傳送確認訊息** 開啟選項，通知母體已訂閱或已取消訂閱所選服務。"
+>title="訂閱服務一般參數"
+>abstract="選擇所需的服務並選擇要執行的動作 (訂閱或取消訂閱)。將「**傳送確認訊息**」選項切換為開啟，通知族群他們正訂閱或取消訂閱所選服務。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"

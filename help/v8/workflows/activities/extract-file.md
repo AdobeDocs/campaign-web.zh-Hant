@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用擷取檔案工作流程活動
 description: 瞭解如何使用擷取檔案工作流程活動
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
@@ -14,13 +15,13 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="擷取檔案"
->abstract="此 **擷取檔案** 活動可讓您以外部檔案的形式，從Adobe Campaign匯出資料。 然後可以使用傳輸檔案活動，將資料匯出至伺服器位置（例如SFTP、雲端儲存空間或您的促銷活動伺服器）。"
+>abstract="「**擷取檔案**」活動可讓您從 Adobe Campaign 以外部檔案的形式匯出資料。然後可以使用「傳輸檔案」活動將資料匯出到伺服器位置，例如 SFTP、雲端儲存空間或您的行銷活動伺服器。"
 
-此 **擷取檔案** 活動是 **資料管理** 活動。 使用此活動，以外部檔案的形式從Adobe Campaign匯出資料。 然後可以使用傳輸檔案活動，將資料匯出至伺服器位置（例如SFTP、雲端儲存空間或您的促銷活動伺服器）。
+此 **擷取檔案** 活動是 **資料管理** 活動。 使用此活動，以外部檔案的形式從Adobe Campaign匯出資料。 然後可以使用「傳輸檔案」活動將資料匯出到伺服器位置，例如 SFTP、雲端儲存空間或您的行銷活動伺服器。
 
 若要設定 **擷取檔案** 活動，新增 **擷取檔案** 活動進入工作流程，然後遵循下列步驟。
 
-## 設定要擷取的檔案 {#extract-configuration}
+## 設定要摘取的檔案 {#extract-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
@@ -76,7 +77,7 @@ ht-degree: 7%
 
    ![](../assets/extract-file-format.png)
 
-## 新增後處理階段 {#script}
+## 新增後續處理階段 {#script}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"

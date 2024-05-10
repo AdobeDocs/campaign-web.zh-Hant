@@ -2,10 +2,11 @@
 audience: end-user
 title: 使用JavaScript程式碼工作流程活動
 description: 瞭解如何使用JavaScript程式碼工作流程活動
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 8%
+ht-degree: 29%
 
 ---
 
@@ -14,22 +15,22 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 程式碼"
->abstract="此 **javascript程式碼** 活動可讓您在工作流程的內容中執行JavaScript指令碼。 這可讓您執行動作或從資料庫收集資訊。 使用 **簡單** JavaScript程式碼活動，可在工作流程執行時執行一個程式碼片段。 **進階** Javascript程式碼活動可讓您透過依序執行兩個不同的程式碼片段，來執行更複雜的作業。 第一次啟動工作流程時，會執行第一個呼叫。 每次工作流程再次執行時，就會執行第二次呼叫中定義的程式碼。"
+>abstract="「**JavaScript 程式碼**」活動可讓您在工作流程過程中執行 JavaScript 程式碼。這允許您執行動作或從資料庫收集資訊。使用「**簡單**」JavaScript 程式碼活動在工作流程執行時執行一個程式碼片段。「**進階**」Javascript 程式碼活動可讓您透過依序執行兩個不同的程式碼片段來執行更複雜的操作。第一次開始工作流程時，將執行第一次呼叫。工作流程每次重新執行時，會執行第二次呼叫中定義的程式碼。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="JavaScript程式碼片段"
->abstract="定義執行活動時要執行的指令碼。 如果您正在設定 **進階** JavaScript活動時，您需要編輯兩個程式碼片段：第一個是在工作流程第一次執行時執行的呼叫程式碼，下一個是在工作流程下一次呼叫時執行的呼叫程式碼。"
+>title="JavaScript 片段"
+>abstract="定義執行活動時要執行的指令碼。如果您要設定「**進階**」JavaScript 活動，則需要編輯兩個程式碼片段：在第一次執行工作流程時執行的第一個呼叫程式碼，以及在工作流程的下一次呼叫時執行的下一個呼叫程式碼。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript 執行"
->abstract="設定執行延遲，以在執行一段時間後停止活動。 依預設，執行階段不能超過 1 小時。在這類延遲之後，此流程將中止並顯示錯誤訊息，並且活動執行會失敗。若要忽略此限制，請將值設為 0。"
+>abstract="設定執行延遲以在執行一段時間後停止活動。依預設，執行階段不能超過 1 小時。在這類延遲之後，此流程將中止並顯示錯誤訊息，並且活動執行會失敗。若要忽略此限制，請將值設為 0。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="JavaScript轉換"
->abstract="如果要新增多個輸出轉變，請按一下 **[!UICONTROL 新增轉變]** 按鈕。 舉例來說，這可讓您根據JavaScript程式碼活動中定義的特定條件，觸發特定轉變。 此選項適用於 **進階** 僅限JavaScript程式碼活動。"
+>title="JavaScript 轉變"
+>abstract="如果您想要新增多個輸出轉變，請按一下「**[!UICONTROL 新增轉變]**」按鈕。例如，這允許您根據 JavaScript 程式碼活動中定義的特定條件觸發特定轉變。此選項僅適用於「**進階**」JavaScript 程式碼活動。"
 
 此 **javascript程式碼** 活動是 **資料管理** 活動。 使用此活動可在工作流程內容中執行JavaScript指令碼。 這可讓您從資料庫收集資訊，或執行其他複雜的作業。
 

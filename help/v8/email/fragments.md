@@ -8,7 +8,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 5%
+ht-degree: 19%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
->title="定義你專屬的內容片段"
->abstract="片段是可重複使用的元件，可在跨行銷活動的一封或多封電子郵件中參考。 此功能用於預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合電子郵件內容。"
+>title="定義您專屬的內容片段"
+>abstract="片段是可重複使用的元件，可跨行銷活動在一封或多封電子郵件中參考。此功能用於預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合電子郵件內容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
@@ -27,8 +27,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
->title="定義你專屬的內容片段"
->abstract="片段是可重複使用的元件，可在跨行銷活動的一封或多封電子郵件中參考。"
+>title="定義您專屬的內容片段"
+>abstract="片段是可重複使用的元件，可跨行銷活動在一封或多封電子郵件中參考。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
@@ -37,13 +37,13 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
->title="片段型別"
->abstract="選取片段型別。 目前，僅提供電子郵件的視覺片段。"
+>title="片段類型"
+>abstract="選取片段類型。目前，僅提供電子郵件的視覺片段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
->title="定義你專屬的內容片段"
->abstract="片段是可重複使用的元件，可在跨行銷活動的一封或多封電子郵件中參考。 您也可以在電子郵件範本中使用片段。 目前，僅視覺片段可用。"
+>title="定義您專屬的內容片段"
+>abstract="片段是可重複使用的元件，可跨行銷活動在一封或多封電子郵件中參考。您也可以在電子郵件範本中使用片段。目前，僅提供視覺片段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
@@ -52,10 +52,10 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_create_fragment"
->title="定義你專屬的內容片段"
->abstract="片段是可重複使用的元件，可在跨行銷活動的一封或多封電子郵件中參考。"
+>title="定義您專屬的內容片段"
+>abstract="片段是可重複使用的元件，可跨行銷活動在一封或多封電子郵件中參考。"
 
-片段是可重複使用的元件，可在跨行銷活動的一封或多封電子郵件中參考。 修改片段時，使用該片段的每個內容都會更新。
+片段是可重複使用的元件，可跨行銷活動在一封或多封電子郵件中參考。修改片段時，使用該片段的每個內容都會更新。
 
 此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合電子郵件內容。
 

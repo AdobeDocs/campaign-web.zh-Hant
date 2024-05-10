@@ -6,7 +6,7 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
 workflow-type: tm+mt
 source-wordcount: '1504'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
@@ -61,7 +61,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="定義預先載入選項"
->abstract="當選取「**預先填寫表單中所參考的資料**」選項時，如果登陸頁面的訪客與資料庫中的設定檔相符時，設定檔的資訊會自動預先載入表單中。使用 **授權缺少ID** 選取此選項後，任何訪客（包括匿名使用者）都可以存取登入頁面。"
+>abstract="當選取「**預先填寫表單中所參考的資料**」選項時，如果登陸頁面的訪客與資料庫中的設定檔相符時，設定檔的資訊會自動預先載入表單中。選取「**授權缺少 ID**」選項後，任何訪客 (包括匿名使用者) 都可以存取登入頁面。"
 
 <!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
@@ -114,7 +114,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
      >[!AVAILABILITY]
      >
-     >此功能在有限可用性(LA)中提供。 僅限於移轉的客戶 **從Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和無法部署在任何其他環境中。
+     >此功能在有限可用性(LA)中提供。 僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 
      對於 **[!UICONTROL 贏取]** 和 **[!UICONTROL 訂閱]** 範本，預設會選取此選項。 對於 **[!UICONTROL 取消訂閱]** 和 **[!UICONTROL 封鎖清單]** 範本，此選項預設為未選取且無法修改<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
@@ -132,7 +132,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
    >[!AVAILABILITY]
    >
-   >此功能在有限可用性(LA)中提供。 僅限於移轉的客戶 **從Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和無法部署在任何其他環境中。
+   >此功能在有限可用性(LA)中提供。 僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 
    ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
