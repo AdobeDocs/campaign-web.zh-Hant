@@ -3,7 +3,7 @@ title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
+source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 31%
@@ -27,7 +27,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 ![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
-此 **[!UICONTROL 登陸頁面]** 「庫存管理系統」會顯示所有已建立的料號。 您可以使用 **顯示篩選器** 按鈕。 您可以將結果限製為特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用以下專案新增規則： [查詢模型工具](../query/query-modeler-overview.md).
+此 **[!UICONTROL 登陸頁面]** 「庫存管理系統」會顯示所有已建立的料號。 您可以使用 **[!UICONTROL 顯示篩選器]** 按鈕。 您可以將結果限製為特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用以下專案新增規則： [查詢模型工具](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 
