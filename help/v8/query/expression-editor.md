@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 55%
+source-wordcount: '2106'
+ht-degree: 53%
 
 ---
 
@@ -91,6 +91,11 @@ ht-degree: 55%
    <td> <strong>StdDev</strong><br /> </td> 
    <td> 傳回數字、字串或日期欄的標準差<br /> </td> 
    <td> StdDev(&lt;value&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>StringAgg</strong><br /> </td> 
+   <td> 傳回字串型別欄值的串連，以第二個引數中的字元分隔<br /> </td> 
+   <td> StringAgg(&lt;value&gt;， &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -145,6 +150,16 @@ ht-degree: 55%
    <td> <strong>ConvertNTZ</strong><br /> </td> 
    <td> 套用定義的工作階段TZ，將時間戳記NTZ （沒有時區的時間戳記）轉換為TZ （有時區的時間戳記）<br/> </td> 
    <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
+   <td> <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>-->
+  <tr> 
+   <td> <strong>DateCmp</strong><br /> </td> 
+   <td> 比較兩個日期<br/> </td> 
+   <td> DateCmp(&lt;date&gt;，&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -280,6 +295,16 @@ ht-degree: 55%
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> 將字串轉換為日期+時間<br /> </td> 
    <td> ToDateTime(&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimestamp</strong><br /> </td> 
+   <td> 將字串轉換為時間戳記<br /> </td> 
+   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimeZone</strong><br /> </td> 
+   <td> 將日期+時間轉換為時區<br /> </td> 
+   <td> ToTimeZone(&lt;date&gt;，&lt;time zone=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -462,11 +487,11 @@ ht-degree: 55%
    <td> <strong>說明</strong><br /> </td> 
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
-  <!--MISSING INFO<tr> 
+  <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
-  </tr> -->
+   <td> 加密引數中提供的字串<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+  </tr>
   <tr> 
    <td> <strong>案例</strong><br /> </td> 
    <td> 若條件為true，則傳回值1。 如果沒有，則會傳回值2。<br /> </td> 
@@ -522,11 +547,11 @@ ht-degree: 55%
    <td> 如果字串1為空，則傳回值2，否則傳回值3<br /> </td> 
    <td> IsEmptyString(&lt;value&gt;， &lt;value&gt;， &lt;value&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>  
-  </tr> -->
+   <td> 傳回唯一識別碼<br /> </td> 
+   <td> NewUUID()<br /> </td>  
+  </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> 如果引數為　NULL，則返回空字串<br /> </td> 
@@ -631,11 +656,11 @@ ht-degree: 55%
    <td> 傳回字串的長度<br /> </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
-  <!--<tr> 
-   <td> <strong>Line</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> -->
+  <tr> 
+   <td> <strong>折線圖</strong><br /> </td> 
+   <td> 從字串中擷取n行<br /> </td> 
+   <td> Line(&lt;string&gt;，&lt;number&gt;)<br /></td> 
+  </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 傳回小寫字串<br /> </td> 
@@ -665,6 +690,11 @@ ht-degree: 55%
    <td> <strong>節點值</strong><br /> </td> 
    <td> 從其XPath和欄位資料中擷取XML欄位的值<br /> </td> 
    <td> 節點值(&lt;string&gt;， &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> 以其他字串值取代指定字串值的所有出現次數。<br /> </td> 
+   <td> Replace(&lt;string&gt;，&lt;string&gt;，&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
