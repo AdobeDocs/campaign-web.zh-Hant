@@ -3,10 +3,10 @@ audience: end-user
 title: 使用增量查詢工作流程活動
 description: 瞭解如何使用增量查詢工作流程活動
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 23%
+source-wordcount: '794'
+ht-degree: 24%
 
 ---
 
@@ -27,6 +27,11 @@ ht-degree: 23%
 >id="acw_orchestration_incrementalquery_history"
 >title="增量查詢歷史記錄"
 >abstract="增量查詢歷史記錄"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_processeddata"
+>title="增量查詢處理的資料"
+>abstract="增量查詢處理的資料"
 
 此 **增量查詢** 活動是 **目標定位** 活動可讓您依排程查詢資料庫。 每次執行此活動時，都會排除先前執行的結果。這可讓您只鎖定新元素。
 
