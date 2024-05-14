@@ -2,7 +2,7 @@
 title: 關鍵績效指標
 description: 瞭解如何瞭解關鍵績效指標
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 79%
@@ -16,6 +16,7 @@ ht-degree: 79%
 >title="關鍵績效指標"
 >abstract="「**關鍵績效指標**」區段可讓您使用常見的 KPI 值來檢查平台的服務效率。"
 
+<!-- à enlever? -->
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="垃圾郵件"
@@ -34,7 +35,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="已傳遞"
->abstract="此量度可顯示對於所選管道，所有已成功處理訊息的總計以及已成功傳遞訊息佔已發送訊息總數的百分比。"
+>abstract="此量度可顯示對於所選管道，所有已成功處理訊息的總數以及已成功傳遞訊息佔已發送訊息總數的百分比。"
 
 已傳遞訊息數量可反映您的傳遞率。由於以下原因，傳遞率絕不可能是 100%：有些位址或電話號碼可能是錯誤的，電子郵件提供者的垃圾郵件攔截器可能會拒絕您的郵件，或者傳遞能力可能會發生問題。
 
@@ -54,7 +55,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="開啟次數"
->abstract="此量度可顯示 (關於所選管道) 所有已開啟訊息的總計以及已開啟訊息佔已成功傳遞訊息總數的百分比。"
+>abstract="此量度可顯示 (關於所選管道) 所有已開啟訊息的總數以及已開啟訊息佔已成功傳遞訊息總數的百分比。"
 
 總開啟次數是以追蹤一封訊息被開啟的總次數來計算，無論這些訊息的開啟次數是由多少位個人收件者生成。這個指標僅適用於電子郵件。
 
@@ -73,7 +74,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="點按次數"
->abstract="此量度可顯示 (關於所選管道) 訊息中所有已點擊 URL 的總計以及點擊佔已成功傳遞訊息總數的百分比。"
+>abstract="此量度可顯示 (關於所選管道) 訊息中所有已點擊 URL 的總數以及點擊佔已成功傳遞訊息總數的百分比。"
 
 您可以在訊息內容中新增 URL，這可將收件人重定導向至特定頁面。點進率會衡量已點擊訊息內連結的收件人數量和百分比。
 
@@ -108,7 +109,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
 >title="取消訂閱次數"
->abstract="此量度可顯示 (所選管道) 一項服務所有取消訂閱的總計，以及取消訂閱佔已成功傳遞訊息總數的百分比。"
+>abstract="此量度可顯示 (所選管道) 一項服務所有取消訂閱的總數，以及取消訂閱佔已成功傳遞訊息總數的百分比。"
 
 
 收件人必須能夠通過電子郵件內容中的專用取消訂閱鏈接或通過回复簡訊停止來選擇退出電子郵件和簡訊。

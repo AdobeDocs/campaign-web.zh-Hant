@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2138'
 ht-degree: 9%
 
 ---
@@ -157,7 +157,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="選取對象"
->abstract="選取對象"
+>abstract="藉由使用 **選取對象** 選項，您可以選擇您要用來篩選查詢的對象。"
 
 若要使用現有對象篩選查詢，請執行下列步驟：
 
@@ -174,7 +174,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="預先定義的篩選器"
->abstract="預先定義的篩選器"
+>abstract="藉由使用 **預先定義的篩選器** 選項，您可以從自訂篩選器清單或我的最愛中選取預先定義的篩選器。"
 
 若要使用預先定義的篩選器來篩選查詢，請執行下列步驟：
 
@@ -213,7 +213,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="群組"
->abstract="群組"
+>abstract="在此窗格中，您可以變更用來將篩選條件連結在一起的運運算元。"
 
 每次您將新的篩選元件新增到查詢時，它都會自動透過連結連結到另一個元件。 **和** 運運算元。 這表示兩個篩選元件的結果會合併。
 

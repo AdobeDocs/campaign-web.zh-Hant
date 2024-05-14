@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「建置對象」工作流程活動
 description: 了解如何使用「建置對象」工作流程活動
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: a98203e983fec6e55f8c60e254f965f20ffe7dea
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 69%
+source-wordcount: '393'
+ht-degree: 66%
 
 ---
 
@@ -33,12 +33,12 @@ ht-degree: 69%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 設定建置對象活動{#build-audience-configuration}
+## 設定建置對象活動 {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="對象"
->abstract="對象"
+>abstract="選取您的對象，就像在設計新傳送時使用對象一樣。"
 
 請按照以下步驟設定「**建置對象**」活動：
 

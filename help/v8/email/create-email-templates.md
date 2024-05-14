@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 20%
+source-wordcount: '968'
+ht-degree: 19%
 
 ---
 
@@ -53,12 +53,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="內容範本設計"
->abstract="內容範本設計"
+>abstract="設計您的電子郵件內容範本。"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="內容範本選擇"
->abstract="內容範本選擇"
+>abstract="選取您的電子郵件內容範本。"
 
 內容範本可由以下人員建立： [將現有電子郵件儲存為範本](#save-as-template)，或從電子郵件範本清單中，透過 **建立內容範本** 按鈕， [如下所述](#create-template-from-scratch).
 
