@@ -3,10 +3,10 @@ audience: end-user
 title: 使用傳輸檔案活動
 description: 瞭解如何使用傳輸檔案工作流程活動
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 15%
+source-wordcount: '1175'
+ht-degree: 13%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="傳輸檔案遠端伺服器"
->abstract="傳輸檔案遠端伺服器"
+>abstract="指定要連線的伺服器。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -40,17 +40,17 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="傳輸後刪除來源檔案"
->abstract="傳輸後刪除來源檔案"
+>abstract="成功傳輸後清除來源檔案。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="顯示工作階段記錄"
->abstract="顯示工作階段記錄"
+>abstract="與傳輸作業相關的資訊會顯示在工作流程記錄檔中。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="列出所有檔案"
->abstract="列出所有檔案"
+>abstract="此選項會編制伺服器上所有檔案的索引。 **vars.filenames** 事件變數。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -60,12 +60,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="處理遺失的檔案"
->abstract="處理遺失的檔案"
+>abstract="此選項可讓您在活動後啟動「無檔案」出站轉變。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="處理錯誤"
->abstract="處理錯誤"
+>abstract="此選項可讓您在活動後啟動「錯誤」出站轉變。"
 
 此 **傳輸檔案** 活動是 **資料管理** 活動。 它可讓您接收或傳送檔案、測試檔案是否存在，或列出伺服器上的檔案。 使用的通訊協定可以是伺服器對伺服器通訊協定或 HTTP 通訊協定。
 
