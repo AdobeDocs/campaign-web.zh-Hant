@@ -3,7 +3,7 @@ audience: end-user
 title: 使用變更資料來源工作流程活動
 description: 瞭解如何使用變更資料來源工作流程活動
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
+source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 13%
@@ -27,7 +27,7 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->請注意 **[!UICONTROL 變更維度]** 和 **[!UICONTROL 變更資料來源]** 活動不應新增為一列。 如果您需要連續使用兩個活動，請務必加入 **[!UICONTROOL 擴充]** 兩者之間的活動。 這可確保正確執行並防止潛在的衝突或錯誤。
+>請注意 **[!UICONTROL 變更維度]** 和 **[!UICONTROL 變更資料來源]** 活動不應新增為一列。 如果您需要連續使用兩個活動，請務必加入 **[!UICONTROL 擴充]** 兩者之間的活動。 這可確保正確執行並防止潛在的衝突或錯誤。
 
 <!--
 

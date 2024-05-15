@@ -3,7 +3,7 @@ audience: end-user
 title: 使用變更維度工作流程活動
 description: 瞭解如何使用變更維度工作流程活動
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
+source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 26%
@@ -28,7 +28,7 @@ ht-degree: 26%
 
 >[!IMPORTANT]
 >
->請注意 **[!UICONTROL 變更維度]** 和 **[!UICONTROL 變更資料來源]** 活動不應新增為一列。 如果您需要連續使用兩個活動，請務必加入 **[!UICONTROOL 擴充]** 兩者之間的活動。 這可確保正確執行並防止潛在的衝突或錯誤。
+>請注意 **[!UICONTROL 變更維度]** 和 **[!UICONTROL 變更資料來源]** 活動不應新增為一列。 如果您需要連續使用兩個活動，請務必加入 **[!UICONTROL 擴充]** 兩者之間的活動。 這可確保正確執行並防止潛在的衝突或錯誤。
 
 ## 設定變更維度活動 {#configure}
 
