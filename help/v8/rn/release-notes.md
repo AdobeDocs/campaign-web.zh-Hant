@@ -3,7 +3,7 @@ title: 最新發行說明
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1185'
 ht-degree: 100%
 
@@ -14,11 +14,11 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="發行說明"
->abstract="Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，通過該模型可採用更具擴充性、分階段的方式部署功能。因此，Campaign 發行說明每月更新數次，提供最新功能、改進和修正。我們建議您定期檢查。"
+>abstract="Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，Campaign 發行說明每月更新數次，提供最新功能、改進和修正。我們建議您定期檢查。"
 
 <!--Last update: **March 19, 2024**-->
 
-Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，通過該模型可採用更具擴充性、分階段的方式部署功能。因此，這些發行說明每月會更新多次。請定期進行檢查。
+Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，這些發行說明每月會更新多次。請定期進行檢查。
 
 ## 4 月發行說明 {#april-24-4-release}
 
