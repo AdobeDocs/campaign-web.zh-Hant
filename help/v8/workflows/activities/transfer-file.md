@@ -3,10 +3,10 @@ audience: end-user
 title: 使用傳輸檔案活動
 description: 瞭解如何使用傳輸檔案工作流程活動
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
+source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 13%
+source-wordcount: '1177'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="傳輸檔案來源"
->abstract="傳輸檔案來源"
+>abstract="輸入所需的檔案名稱。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -60,12 +60,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="處理遺失的檔案"
->abstract="此選項可讓您在活動後啟動「無檔案」出站轉變。"
+>abstract="此選項可讓您啟用 **無檔案** 活動後的出站轉變。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="處理錯誤"
->abstract="此選項可讓您在活動後啟動「錯誤」出站轉變。"
+>abstract="此選項可讓您啟動 **錯誤** 活動後的出站轉變。"
 
 此 **傳輸檔案** 活動是 **資料管理** 活動。 它可讓您接收或傳送檔案、測試檔案是否存在，或列出伺服器上的檔案。 使用的通訊協定可以是伺服器對伺服器通訊協定或 HTTP 通訊協定。
 
