@@ -3,14 +3,14 @@ audience: end-user
 title: 從 Campaign Standard 轉換到 Adobe Campaign Web
 description: 探索 Campaign Web 使用者介面
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: fede3e616d45c78db9d0613409254f3c8cc93bba
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 80%
 
 ---
 
-# Campaign Standard 轉換到 Campaign v8{#welcome}
+# Campaign Standard 轉換到 Campaign v8 {#welcome}
 
 <!--
 We are thrilled to annonce that you, as a Campaign Standard user, can now benefit from the new version of Adobe Campaign Web User Interface. The migration is seemless and will allow you to use all the intuitive features designed to simplify the creation of personalized cross-channel campaigns. Campaign Web User Interface also brings a connected canvas with Adobe Experience Platform for a unified experience.
@@ -46,13 +46,13 @@ As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign
 
 ## 主控台和 Web 介面 {#console}
 
-作為 Campaign v8 使用者，您將可以存取新的 Campaign Web 介面和 v8 控制台。資料和設定則會從一個環境同步至另一個環境。您可以在 Campaign Web 使用者介面 (從探索工具左側導覽) 中，查看用戶端主控台中可用的所有資料和設定。[了解更多](../get-started/user-interface.md#user-interface-explorer)
+身為Campaign v8使用者，您可以存取新的Campaign網頁介面和v8主控台。 資料和設定則會從一個環境同步至另一個環境。您可以在 Campaign Web 使用者介面 (從探索工具左側導覽) 中，查看用戶端主控台中可用的所有資料和設定。[了解更多](../get-started/user-interface.md#user-interface-explorer)
 
 如需深入了解 Campaign Web 使用者介面與 Campaign 用戶端主控台之間支援/不支援的功能以及互通性，請參閱[此頁面](../get-started/capability-matrix.md)。
 
 ## 術語 {#terminology}
 
-Campaign Web 介面和 Campaign Standard 之間大多數概念相似。儘管如此，還是有些不同之處。以下是 Campaign Standard 和 Campaign Web 介面之間術語差異的一些範例：
+大部分概念在Campaign v8和Campaign Standard之間都類似。 儘管如此，還是有些不同之處。以下是Campaign Standard和Campaign v8之間術語差異的一些範例：
 
 <!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
@@ -61,25 +61,24 @@ Campaign Web 介面和 Campaign Standard 之間大多數概念相似。儘管如
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* 自訂資源在 Campaign Web 使用者介面中是「**結構描述**」。
-* 行銷活動已不存在。
-* 訊息是「**傳遞**」。
-* 使用者是「**操作者**」。
-* 角色是「**已命名的權限**」。
-* 安全性群組是「**操作者群組**」。
-* 組織單位是「**資料夾權限**」。
+* 自訂資源為 **方案**
+* 訊息稱為 **傳遞**
+* 產品使用者為 **運運算元**
+* 角色已設定為 **已命名的許可權**
+* 安全性群組為 **運運算元群組**
+* 組織單位的管理方式 **檔案夾許可權**
 
 ## 新功能 {#new-features}
 
-為了讓您能夠進行轉換，我們已從 Campaign Standard 新增[重要功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html)至 v8：
+為了讓您順利轉換至Campaign v8，已在Campaign v8中新增關鍵Campaign Standard功能。 其詳細資訊請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
 
-* **動態報告**：動態報告提供完全可自訂的即時報告來測量行銷活動的影響。此功能新增對個人檔案資料的存取，除了開啟和點選這類功能性電子郵件行銷活動資料外，還可以按性別、城市和年齡等個人資料維度進行人口統計分析。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+* **動態報告**：動態報告提供完全可自訂的即時報告來測量行銷活動的影響。此功能新增對個人檔案資料的存取，除了開啟和點選這類功能性電子郵件行銷活動資料外，還可以按性別、城市和年齡等個人資料維度進行人口統計分析。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}。
 
 * **集中品牌化**：每家公司都有各自的品牌視覺化與技術準則。有了 Adobe Campaign，您可以定義一組規格，從標誌到技術層面 (例如電子郵件寄件者、URL 或網域)，為客戶呈現一致的品牌。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
-* **Rest API**  - 作為 Campaign Standard 移轉使用者，您可以使用 Rest API 為 Adobe Campaign 建立整合，並透過將 Adobe Campaign 與您使用的一組技術結合來建立自己的生態系統。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
+* **Rest API**  - 作為 Campaign Standard 移轉使用者，您可以使用 Rest API 為 Adobe Campaign 建立整合，並透過將 Adobe Campaign 與您使用的一組技術結合來建立自己的生態系統。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}。
 
-* **登陸頁面**  - Campaign v8 進行了許多改善，以確保您不會失去任何功能。請參閱[發行說明](../rn/release-notes.md#new-24-4)和登陸頁面[文件](../landing-pages/get-started-lp.md)以了解更多資訊。
+* **登陸頁面**  — 已對Campaign v8登陸頁面進行一些改善，以確保功能與Campaign Standard同等。 請參閱[發行說明](../rn/release-notes.md#new-24-4)和登陸頁面[文件](../landing-pages/get-started-lp.md)以了解更多資訊。
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 
