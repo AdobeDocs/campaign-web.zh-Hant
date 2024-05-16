@@ -8,7 +8,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 19%
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="定義您專屬的內容片段"
->abstract="片段是可重複使用的元件，可跨行銷活動在一封或多封電子郵件中參考。此功能用於預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合電子郵件內容。"
+>abstract="片段是可重複使用的元件，可跨行銷活動在一封或多封電子郵件中參考。我們可以利用這項功能來預先建立多個自訂內容區塊，以便行銷使用者在改進的設計流程中使用這些內容區塊來快速組合電子郵件內容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
