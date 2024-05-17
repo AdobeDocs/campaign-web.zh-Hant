@@ -1,10 +1,13 @@
 ---
 title: 自訂欄位
 description: 瞭解如何設定自訂欄位
-source-git-commit: 97769e885145d771685752f6367c5ea00831701d
+hide: true
+hidefromtoc: true
+exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 5%
+source-wordcount: '225'
+ht-degree: 2%
 
 ---
 
@@ -31,19 +34,19 @@ ht-degree: 5%
 
 1. 在 **管理**，按一下 **方案**.
 
-   ![](assets/custom-fields.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields.png){zoomable="yes"}
 
 1. 找到所需的結構描述，例如 **收件者(nms)** 綱要。
 
-   ![](assets/custom-fields2.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields2.png){zoomable="yes"}
 
 1. 按一下 **更多動作** 按鈕並選取 **編輯自訂詳細資料**.
 
-   ![](assets/custom-fields3.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields3.png){zoomable="yes"}
 
    此 **編輯自訂詳細資料** 畫面會顯示所有自訂欄位及其型別。
 
-   ![](assets/custom-fields4.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields4.png){zoomable="yes"}
 
    此畫面可讓您執行下列動作：
 
@@ -54,4 +57,4 @@ ht-degree: 5%
 
 1. 導覽至顯示自訂欄位的畫面。 在我們的範例中，這是設定檔詳細資訊畫面。
 
-   ![](assets/custom-fields5.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields5.png){zoomable="yes"}
