@@ -3,14 +3,22 @@ audience: end-user
 title: 設計豐富推送通知傳送
 description: 瞭解如何使用Adobe Campaign Web設計Android豐富推送通知傳送
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1444'
 ht-degree: 6%
 
 ---
 
 # 設計 Android 豐富的推播傳遞 {#rich-push}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="豐富推送傳遞"
+>abstract="現在您可以透過 Android 發送多媒體推播通知。目前，此功能處於「有限可用性」。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
@@ -27,7 +35,7 @@ ht-degree: 6%
 
 * 此 **[!UICONTROL 通知訊息]**，會由FCM SDK自動處理。 FCM會自動代表使用者端應用程式在使用者裝置上顯示訊息。 通知訊息包含預先定義的一組引數和選項，但仍可使用自訂應用程式變數進一步個人化。
 
-![](assets/rich_push.png){zoomable=&quot;yes&quot;}
+![](assets/rich_push.png){zoomable="yes"}
 
 ## 定義通知的內容 {#push-message}
 
@@ -168,7 +176,7 @@ ht-degree: 6%
 
 ## 推播通知進階設定 {#push-advanced}
 
-![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_5.png){zoomable="yes"}
 
 | 參數 | 說明 |
 |---------|---------|

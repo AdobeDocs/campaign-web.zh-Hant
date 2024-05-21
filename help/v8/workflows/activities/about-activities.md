@@ -3,10 +3,10 @@ audience: end-user
 title: 使用工作流程活動
 description: 了解如何使用工作流程活動
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 43%
+source-wordcount: '567'
+ht-degree: 32%
 
 ---
 
@@ -40,12 +40,6 @@ ht-degree: 43%
 
 ## 資料管理活動 {#data}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="擷取和載入檔案活動"
->abstract="工作流程中提供了新的資料管理活動。使用「擷取檔案」活動將資料以外部檔案的形式從 Adobe Campaign 匯出到另一個系統。使用「載入檔案」活動處理儲存在外部檔案中的設定檔和資料。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
-
 這些活動專門用於操控和豐富人口資料。
 
 * [擷取檔案](extract-file.md)：將資料從Adobe Campaign匯出至另一個系統，作為外部檔案。
@@ -60,15 +54,6 @@ ht-degree: 43%
 Adobe Campaign Web可讓您跨多個管道自動執行行銷活動。 您可以將管道活動結合到畫布中，以建立跨管道工作流程，其可以根據客戶行為觸發動作。 下列專案 **頻道** 提供活動：電子郵件、簡訊、Android和iOS推播通知。 [瞭解如何在工作流程內容中設定傳送](channels.md).
 
 ## 流程控制活動 {#flow-control}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="進階工作流程活動"
->abstract="您現在可以在工作流程中設定測試、JavaScript 程式碼和外部訊號活動。使用「測試」活動根據狀況啟用工作流程轉變。新增「JavaScript 程式碼」活動在工作流程內容中執行 JS 程式碼片段。設定「外部訊號」活動從 API 或其他工作流程觸發工作流程的執行。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"

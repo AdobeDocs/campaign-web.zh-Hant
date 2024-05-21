@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「擴充」工作流程活動
 description: 了解如何使用「擴充」工作流程活動
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: fa2d596a36652f504112c7a8543453d845462021
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 47%
+source-wordcount: '1251'
+ht-degree: 46%
 
 ---
 
@@ -76,6 +76,12 @@ ht-degree: 47%
    ![](../assets/workflow-enrichment1.png)
 
 ## 建立表格之間的連結 {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="表格之間的連結"
+>abstract="您現在可以在工作表格資料與擴充工作流程活動中的Adobe Campaign資料庫之間建立連結。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 此 **[!UICONTROL 連結定義]** 區段可讓您在工作表格資料與Adobe Campaign資料庫之間建立連結。 例如，如果您從包含收件者帳號、國家/地區和電子郵件的檔案載入資料，則必須建立指向國家/地區表格的連結，以便更新其設定檔中的此資訊。
 
