@@ -6,7 +6,7 @@ exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 39%
+ht-degree: 41%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="活動中的工作流程清單"
->abstract="此 **工作流程** 索引標籤會列出連結至目前行銷活動的所有工作流程。"
+>abstract="「**工作流程**」索引標籤會列出連結至目前行銷活動的所有工作流程。"
 
 在 **瀏覽** 索引標籤中，按一下行銷活動名稱以顯示其詳細資料。
 

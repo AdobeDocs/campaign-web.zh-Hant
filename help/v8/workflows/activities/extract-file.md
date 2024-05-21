@@ -6,7 +6,7 @@ exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="目的地格式"
->abstract="選取不同的選項來設定解壓縮檔案的格式。"
+>abstract="選取不同的選項來設定所擷取檔案的格式。"
 
 此 **[!UICONTROL 目的地]** 格式區段可讓您設定解壓縮檔案的格式。
 
@@ -82,7 +82,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="後處理"
->abstract="定義套用的後處理步驟，如壓縮或加密。"
+>abstract="定義要套用的後處理步驟，例如壓縮或加密。"
 
 此 **[!UICONTROL 匯出修改指令碼]** 可讓您套用處理階段，以便在資料擷取期間執行，例如壓縮或加密。 若要這麼做，請按一下 **[!UICONTROL 編輯指令碼]** 按鈕。
 
