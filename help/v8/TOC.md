@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
+source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '695'
 ht-degree: 99%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 99%
    + [新增功能](rn/whats-new.md)
    + [最新版本](rn/release-notes.md)
    + [文件更新](rn/documentation-updates.md)
-   + [從 Campaign Standard 至 v8](rn/acs-migration.md)
 + 開始使用 Adobe Campaign {#start}
    + [開始使用](get-started/get-started.md)
    + [連線至 Campaign](get-started/connect-to-campaign.md)
@@ -29,6 +28,7 @@ ht-degree: 99%
    + [使用預先定義的篩選器](get-started/predefined-filters.md)
    + [存取權與權限](get-started/permissions.md)
    + [Campaign Web 與用戶端主控台](get-started/capability-matrix.md)
+   + [從 Campaign Standard 至 v8](rn/acs-migration.md)
    + [採用 AI 技術的內容說明](get-started/using-ai.md)
 + 訊息和傳遞{#msg}
    + [開始使用訊息](msg/gs-messages.md)
@@ -133,6 +133,7 @@ ht-degree: 99%
    + [護欄和限制](get-started/guardrails.md)
    + [工作流程事件變數](workflows/event-variables.md)
    + [存取並管理工作流程](workflows/access-monitor.md)
+   + [關於唯讀工作流程](workflows/readonly-workflows.md)
    + 建立和執行第一個工作流程 {#create-workflow}
       + [用於建立工作流程的主要原則](workflows/gs-workflow-creation.md)
       + [建立工作流程](workflows/create-workflow.md)
@@ -172,6 +173,7 @@ ht-degree: 99%
    + [篩選清單](query/filter.md)
 + 報告 {#reports}
    + [開始使用報告](reporting/gs-reports.md)
+   + [稽核軌跡](reporting/audit-trail.md)
    + [匯出您的報告](reporting/export-reports.md)
    + [關鍵績效指標](reporting/kpis.md)
    + 傳遞報告 {#delivery-report}
@@ -198,4 +200,4 @@ ht-degree: 99%
    + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
 + 設定 {#conf}
    + [設定自訂欄位](administration/custom-fields.md)
-+ [Campaign v8 （主控台）檔案>](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)
