@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 83%
 
 ---
 
@@ -51,23 +51,29 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 4 月版本已上線！]
+>[!TAB 5月版本已上線！]
 
 了解 Adobe Campaign Web 使用者介面 24.4 版本帶來的新功能和改善事項。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 新的工作流程活動]
+>[!TAB 稽核軌跡]
 
-此版本包含以下工作流程活動：更新資料、訂閱服務、擷取檔案、傳輸檔案、測試、JavaScript 程式碼、外部訊號、增量查詢。
+新的稽核軌跡功能提供對Adobe Campaign執行個體已進行即時的所有動作和事件的詳細時間順序記錄。
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![影像](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
->[!TAB 多媒體推播通知]
+>[!TAB 自訂欄位]
 
-現在您可以透過 Android 發送多媒體推播通知。多媒體推播通知是行動裝置通知的加強版，除了簡單的文字訊息，還可以加入多媒體元素，例如影像、互動式按鈕或其他多媒體內容。
+自訂欄位是透過Adobe Campaign主控台新增到現成可用方案的其他屬性。 現在可在網頁使用者介面中使用它們。
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
+[![影像](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+
+>[!TAB 連結表格]
+
+您現在可以在工作表格資料與擴充工作流程活動中的Adobe Campaign資料庫之間建立連結。
+
+[![影像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 
