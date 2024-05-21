@@ -3,10 +3,10 @@ audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: acc2383edbca7b528098c1ddbd18efb3110d4354
+source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 5%
+source-wordcount: '1068'
+ht-degree: 4%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 5%
 
 可新增至圖表的活動清單隨即顯示。 可用的活動取決於您在工作流程圖表中的位置。 例如，新增第一個活動時，您可以透過鎖定受眾、分割工作流程路徑或設定 **等待** 活動以延遲工作流程執行。 另一方面，在 **建立對象** 活動，您可以利用目標定位活動來調整目標、利用頻道活動傳送傳遞內容給對象，或利用流量控制活動來組織工作流程程式。
 
-![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-start.png){zoomable="yes"}
 
 將活動新增到圖表後，右側窗格會出現，可讓您使用特定設定來設定新新增的活動。 有關如何設定每個活動的詳細資訊，請參閱 [本節](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-configure-activities.png){zoomable="yes"}
 
 重複此程式，根據您希望工作流程執行的任務，新增所需數量的活動。 請注意，您也可以在兩個活動之間插入新活動。 若要這麼做，請按一下 **+** 按鈕在活動之間的轉變上，選取所需的活動並在右側窗格中設定它。
 
@@ -44,7 +44,7 @@ ht-degree: 5%
 * **縮小顯示** / **放大顯示**：縮小或拉近畫布。
 * **顯示地圖**：開啟畫布的快照，顯示您所在的位置。
 
-![](assets/workflow-toolbar.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## 管理活動 {#manage}
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 * 存取活動的 **記錄檔與任務**.
 * **暫停/繼續** 活動。 執行工作流程時，它會在暫停的活動中暫停。 系統不會執行對應的任務，以及在相同路徑中跟隨著該任務的所有任務。
 
-![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/activity-action.png){zoomable="yes"}{width="50%"}
 
 數個 **目標定位** 活動，例如 **合併** 或 **重複資料刪除**，可讓您處理剩餘母體，並將其納入其他出站轉變中。 例如，如果您使用 **Split** 活動，補數包含不符合任何先前定義之子集的母體。 若要使用此功能，請啟用 **產生補充** 選項。
 
@@ -70,21 +70,21 @@ ht-degree: 5%
 
 * 使用動作按鈕複製一個活動。
 
-  ![](assets/workflow-copy.png){zoomable=&quot;yes&quot;}{width="70%"}
+  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
 
 * 使用工具列按鈕複製多個活動。
 
-  ![](assets/workflow-copy-2.png){zoomable=&quot;yes&quot;}{width="70%"}
+  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
 
 若要貼上複製的活動，請按一下 **+** 按鈕並選取「貼上X活動」。
 
-![](assets/workflow-copy-3.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
 ## 執行選項 {#execution}
 
 所有活動均可讓您管理其執行選項。 選取活動並按一下 **執行選項** 按鈕。 這可讓您定義活動的執行模式和發生錯誤時的行為。
 
-![](assets/workflow-execution-options.png){zoomable=&quot;yes&quot;}{width="70%"}
+![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
 ### 屬性
 
@@ -110,7 +110,7 @@ ht-degree: 5%
 
 以下是工作流程範例，其設計是透過電子郵件傳送電子郵件給所有對咖啡機感興趣的客戶(VIP客戶除外)。
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
 為達成此目的，已新增下列活動：
 

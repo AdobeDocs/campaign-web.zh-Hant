@@ -3,10 +3,10 @@ audience: end-user
 title: 設計直接郵件傳送
 description: 瞭解如何使用Adobe Campaign Web設計您的直接郵件傳送
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 22%
+source-wordcount: '563'
+ht-degree: 21%
 
 ---
 
@@ -52,14 +52,18 @@ ht-degree: 22%
 
 1. 切換至 **[!UICONTROL 請求的數量]** 用於限制您傳遞的收件者人數的選項。
 
-   ![](assets/dm-content-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content-details.png){zoomable="yes"}
 
 ## 設定擷取檔案欄 {#content}
 
 在 **[!UICONTROL 內容]** 部分，指定要在擷取檔案中顯示的欄。 要執行此操作，請依照下列步驟執行：
 
 1. 按一下 **[!UICONTROL 新增屬性]** 按鈕以建立新欄。
-1. 選擇要顯示在欄中的屬性，然後確認。 新增欄之後，您可以變更其標籤，並使用編輯圖示修改關聯的屬性。
+1. 選擇要顯示在欄中的屬性，然後確認。 請注意，您可以按一下「 」，利用運算式編輯器選取要使用的屬性。 **[!UICONTROL 編輯運算式]** 按鈕。
+
+   ![](assets/dm-add-attribute.png)
+
+1. 新增欄之後，您可以變更其標籤，並使用編輯圖示修改關聯的屬性。
 1. 重複這些步驟，視需要為解壓縮檔案新增任意數目的欄。
 1. 若要使用其中一個欄來排序解壓縮檔案，請按一下 **[!UICONTROL 排序]** 欄並選取所需的排序方法。
 1. 若要變更欄的位置，請使用向上鍵和向下鍵。
