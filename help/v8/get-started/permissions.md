@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 使用者介面中的權限管理
 description: 深入了解 Campaign Web 使用者介面的權限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: dcbaa5df0b6fa82a3cdd0ddf70538f22ecdee249
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 91%
 
 ---
 
@@ -20,38 +20,35 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="此對象為唯讀"
->abstract="您沒有編輯此對象的權限。如果需要，請聯絡管理員為您授予存取權限。"
+>abstract="您沒有編輯此對象的權限。如果需要，請聯絡管理員為您授予存取權。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="此服務為唯讀資料"
->abstract="您沒有編輯此服務的權限。如果需要，請聯絡管理員為您授予存取權限。"
+>abstract="您沒有編輯此服務的權限。如果需要，請聯絡管理員為您授予存取權。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
 >title="收件者唯讀設定檔"
->abstract="您沒有編輯此設定檔的權限。如果需要，請聯絡管理員為您授予存取權限。"
+>abstract="您沒有編輯此設定檔的權限。如果需要，請聯絡管理員為您授予存取權。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
 >title="此行銷活動為唯讀資料"
->abstract="您沒有編輯此行銷活動的權限。如果需要，請聯絡管理員為您授予存取權限。"
+>abstract="您沒有編輯此行銷活動的權限。如果需要，請聯絡管理員為您授予存取權。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_read_only"
 >title="此傳遞為唯讀資料"
->abstract="您沒有編輯此傳遞的權限。如果需要，請聯絡管理員為您授予存取權限。"
+>abstract="您沒有編輯此傳遞的權限。如果需要，請聯絡管理員為您授予存取權。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
 >title="此工作流程為唯讀資料"
->abstract="您沒有編輯此工作流程的權限。如果需要，請聯絡管理員為您授予存取權限。"
+>abstract="您沒有編輯此工作流程的權限。如果需要，請聯絡管理員為您授予存取權。"
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="此工作流程為唯讀資料"
->abstract="由於畫布不受支援或不相容，您無法編輯此工作流程。"
+
 
 存取控制可以限制存取主要清單中的物件和資料，例如傳遞、收件者或工作流程。這些限制也適用於 **Explorer** 導覽樹狀目錄。此外，您需要從使用者介面建立、刪除、複製和編輯物件的權限。
 
@@ -68,11 +65,11 @@ ht-degree: 100%
 1. 從 **Explorer** 左側導覽選單選取一個資料夾。
 1. 按一下右上角的三個點，然後選取「**資料夾權限**」。
 
-   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. 檢查畫面中的詳細資訊，如下所示：
 
-   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
    群組或操作員可以對儲存在所選資料夾的資料具有讀取、寫入和/或刪除的權限。
 
@@ -94,11 +91,17 @@ ht-degree: 100%
 請依照下列步驟，建立新的資料夾：
 
 1. 從 **Explorer** 左側導覽選單選取一個資料夾。
-1. 點選右上角的三個點，然後選擇「**建立新的子資料夾**」。
-1. 輸入資料夾名稱並儲存。
+1. 按一下右上角的三個點，然後選擇 **建立新資料夾**.
+1. 輸入資料夾的名稱。
 
-   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. 選取資料夾型別。 在本例中，預設會選取父資料夾型別「傳送」。 若要變更資料夾型別，請按一下資料夾圖示並選取任何其他型別。
+
+   ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. 按一下 **建立**.
 
    該資料夾將新增為現有資料夾的子資料夾。瀏覽至該新資料夾以直接在其中建立元件。您也可以從任何資料夾建立元件，然後為傳遞從屬性的「**其他選項**」區段，將其儲存在該新資料夾，如下圖所示：
 
-   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
