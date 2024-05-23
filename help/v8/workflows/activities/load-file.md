@@ -3,9 +3,9 @@ audience: end-user
 title: 使用載入檔案工作流程活動
 description: 瞭解如何使用載入檔案工作流程活動
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
+source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1230'
 ht-degree: 38%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 38%
 
 1. 在 **拒絕管理** 區段，指定活動在出現錯誤時的行為方式：
 
-   * 在 **[!UICONTROL 刪除]** 欄位，指定處理要載入的檔案時授權的最大錯誤數量。 例如，如果該值設定為「20」，則當載入檔案時出現超過20個錯誤時，工作流程執行將失敗。
+   * 在 **[!UICONTROL 允許的錯誤數]** 欄位中，指定處理要載入的檔案時授權的最大錯誤數量。 例如，如果該值設定為「20」，則當載入檔案時出現超過20個錯誤時，工作流程執行將失敗。
 
    * 若要保留載入檔案時發生的錯誤，請切換 **[!UICONTROL 將拒絕專案保留在檔案中]** 選項開啟，並在 **[!UICONTROL 拒絕檔案]** 欄位。
 
