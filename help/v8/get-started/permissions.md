@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 使用者介面中的權限管理
 description: 深入了解 Campaign Web 使用者介面的權限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 87afb93edd625659d3dcddefc402f8b67a38b580
+source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 91%
+source-wordcount: '645'
+ht-degree: 89%
 
 ---
 
@@ -81,6 +81,26 @@ ht-degree: 91%
 
 
 ## 使用資料夾 {#folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="資料夾屬性"
+>abstract="資料夾屬性"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="資料夾安全性"
+>abstract="資料夾安全性"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="資料夾限制"
+>abstract="資料夾限制"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="資料夾排程"
+>abstract="資料夾排程"
 
 您可以建立、重新命名、重新排序和移動資料夾以組織元件和資料。您也可以從同一選單中刪除資料夾。
 
