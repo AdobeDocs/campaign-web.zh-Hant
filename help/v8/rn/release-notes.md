@@ -1,11 +1,11 @@
 ---
-title: 最新發行說明
-description: 探索 Campaign Web 使用者介面隨附的新增功能
+title: Campaign v8網頁使用者介面發行說明
+description: 探索最新Campaign網頁使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
+workflow-type: tm+mt
+source-wordcount: '1461'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,45 @@ ht-degree: 100%
 >title="發行說明"
 >abstract="Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，Campaign 發行說明每月更新數次，提供最新功能、改進和修正。我們建議您定期檢查。"
 
-<!--Last update: **March 19, 2024**-->
-
 Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，這些發行說明每月會更新多次。請定期進行檢查。
+
+## 5月發行說明 {#24-5-release}
+
+**發行日期**：2024年5月21日
+
+以下功能和改進專案自5月發行起開放所有使用者使用。
+
+### 稽核軌跡  {#24-5-1}
+
+新的 **稽核軌跡** 功能提供對Adobe Campaign執行個體即時執行的所有動作和事件的詳細時間順序記錄。 它提供一種便利的方法，可追蹤行銷活動資料的所有變更，並解決以下查詢：工作流程的狀態、要修改它們的最新個人，或使用者在執行個體內執行的活動。 [閱讀更多](../reporting/audit-trail.md)
+
+### 自訂欄位 {#24-5-2}
+
+**自訂欄位**&#x200B;是透過 Adobe Campaign 主控台新增到現成結構描述的附加屬性。在 Campaign Web 使用者介面中，這些自訂欄位現在會在各個畫面中顯示，例如設定檔或測試設定檔的詳細資訊。在 Web 使用者介面中，您無法建立自訂欄位，但現在可以更改自訂欄位的顯示方式。[閱讀更多](../administration/custom-fields.md)
+
+### 建立表格之間的連結 {#24-5-3}
+
+您現在可以在以下位置建立與其他表格的連結： **擴充** 工作流程活動。 使用新的 **連結定義** 區段，建立工作表資料與Adobe Campaign資料庫之間的連結。 例如，如果您從包含收件者帳號、國家/地區和電子郵件的檔案載入資料，您現在可以建立指向國家/地區表格的連結，以更新其設定檔中的此資訊。 [閱讀更多](../workflows/activities/enrichment.md#create-links)
+
+<!--
+### Content fragments {#24-5-4}
+
+* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
+
+* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
+
+
+### 一般改善 {#improvements-24-5}
+
+* **直接郵件**  — 您現在可以運用運算式編輯器來選取要顯示在直接郵件擷取檔案中的屬性。 [閱讀更多](../direct-mail/content-direct-mail.md)
+
+* **資料夾管理**  — 您現在可以建立與父資料夾型別不同的子資料夾。 [閱讀更多](../get-started/permissions.md#folders)
+
+
+<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
+
+* **全球化**  — 為了提供統一的使用者體驗，我們不斷努力協調Adobe Experience Cloud產品和應用程式中使用的術語。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在UI和檔案中推出。
+
 
 ## 4 月發行說明 {#april-24-4-release}
 
@@ -45,11 +81,6 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 請注意，此功能為&#x200B;**有限可用性** (LA) 版本。
 
-<!--
-* **Audit Trail**
-
-The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
--->
 
 ### 有限可用性的新功能 {#acs-24-4}
 
@@ -91,9 +122,7 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **分割活動**&#x200B;中的「如果族群是空的，請勿啟用轉換」選項，可讓您選擇當區段結果為空時工作流程是否應轉換到下一個活動。[閱讀更多](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**
-* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
--->
+
 
 ## 3 月發行說明 {#24-3-release}
 
