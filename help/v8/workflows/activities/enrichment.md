@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「擴充」工作流程活動
 description: 了解如何使用「擴充」工作流程活動
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 46%
+source-wordcount: '1300'
+ht-degree: 47%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 46%
 >abstract="將擴充資料新增到工作流程後，它可以用於在擴充活動之後新增的活動中，根據客戶的行為、偏好和需求將客戶分成不同群組，或是用於建立最有可能讓目標對象產生共鳴的個人化行銷訊息和行銷活動。"
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_reconciliation"
->title="擴充調解"
->abstract="擴充調解"
+>id="acw_orchestration_enrichment_simplejoin"
+>title="在工作表格資料與Adobe Campaign資料庫之間建立連結。 例如，如果您從包含收件者帳號、國家/地區和電子郵件的檔案載入資料，則必須建立指向國家/地區表格的連結，以便更新其設定檔中的此資訊。"
+>abstract="連結定義"
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="連結定義"
->abstract="簡單加入"
+>id="acw_orchestration_enrichment_reconciliation"
+>title="擴充調和"
+>abstract="擴充調和"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -80,7 +80,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="表格之間的連結"
->abstract="您現在可以在工作表格資料與擴充工作流程活動中的Adobe Campaign資料庫之間建立連結。"
+>abstract="現在您可以在擴充工作流程活動中建立工作表資料和 Adobe Campaign 資料庫之間的連結。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 此 **[!UICONTROL 連結定義]** 區段可讓您在工作表格資料與Adobe Campaign資料庫之間建立連結。 例如，如果您從包含收件者帳號、國家/地區和電子郵件的檔案載入資料，則必須建立指向國家/地區表格的連結，以便更新其設定檔中的此資訊。
