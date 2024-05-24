@@ -5,7 +5,7 @@ description: 瞭解工作流程處於唯讀模式的原因
 source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
 >title="此工作流程為唯讀資料"
->abstract="由於您的許可權或工作流程的型別，您無法編輯此工作流程。"
+>abstract="因為您的權限或是工作流程類型，所以無法編輯此工作流程。"
 
 某些工作流程可能處於唯讀模式。 您可以透過以下方式檢視：
 

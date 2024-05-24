@@ -6,7 +6,7 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
->title="豐富推送傳遞"
->abstract="現在您可以透過 Android 發送多媒體推播通知。目前，此功能處於「有限可用性」。"
+>title="多媒體推播傳遞"
+>abstract="現在您可以透過 Android 發送多媒體推播通知。目前，此功能為「有限可用性」的狀態。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]

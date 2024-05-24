@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 4%
+ht-degree: 19%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="自訂欄位"
->abstract="自訂欄位是透過Adobe Campaign主控台新增到現成可用方案的其他屬性。 現在可在網頁使用者介面中使用它們。"
+>abstract="自訂欄位是透過 Adobe Campaign 主控台新增到現成結構描述的附加屬性。現在您可以在 Web 使用者介面中使用這些欄位。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 
 
-自訂欄位是透過Adobe Campaign主控台新增到現成可用方案的其他屬性。 進一步瞭解 [Adobe Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
+自訂欄位是透過 Adobe Campaign 主控台新增到現成結構描述的附加屬性。進一步瞭解 [Adobe Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
 
 這些自訂欄位會顯示在各種畫面中，例如設定檔或測試設定檔的詳細資訊。
 

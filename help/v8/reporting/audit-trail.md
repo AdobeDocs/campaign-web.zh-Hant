@@ -6,7 +6,7 @@ feature: Audit Trail, Monitoring, Workflows
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="稽核軌跡"
->abstract="新的稽核軌跡功能提供對Adobe Campaign執行個體已進行即時的所有動作和事件的詳細時間順序記錄。"
+>abstract="新的稽核軌跡功能會針對您在 Adobe Campaign 執行個體執行的所有操作和事件，即時提供按時間順序排列的詳細記錄。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 
