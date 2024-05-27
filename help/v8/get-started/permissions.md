@@ -6,7 +6,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -111,16 +111,16 @@ ht-degree: 89%
 請依照下列步驟，建立新的資料夾：
 
 1. 從 **Explorer** 左側導覽選單選取一個資料夾。
-1. 按一下右上角的三個點，然後選擇 **建立新資料夾**.
+1. 點選右上角的三個點，然後選擇「**建立新的資料夾**」。
 1. 輸入資料夾的名稱。
 
    ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. 選取資料夾型別。 在本例中，預設會選取父資料夾型別「傳送」。 若要變更資料夾型別，請按一下資料夾圖示並選取任何其他型別。
+1. 選取資料夾類型。預設情況下，在我們的範例中選取上層資料夾類型「傳遞」。若要變更資料夾類型，請按一下資料夾圖示，然後選取其他類型。
 
    ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. 按一下 **建立**.
+1. 按一下「**建立**」。
 
    該資料夾將新增為現有資料夾的子資料夾。瀏覽至該新資料夾以直接在其中建立元件。您也可以從任何資料夾建立元件，然後為傳遞從屬性的「**其他選項**」區段，將其儲存在該新資料夾，如下圖所示：
 
