@@ -1,11 +1,11 @@
 ---
-title: Campaign v8網頁使用者介面發行說明
-description: 探索最新Campaign網頁使用者介面版本的新功能
+title: Campaign v8 Web 使用者介面發行說明
+description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1461'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 81%
 
 Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，這些發行說明每月會更新多次。請定期進行檢查。
 
-## 5月發行說明 {#24-5-release}
+## 5 月發行說明 {#24-5-release}
 
-**發行日期**：2024年5月21日
+**發行日期**：2024 年 5 月 21 日
 
-以下功能和改進專案自5月發行起開放所有使用者使用。
+從 5 月版本開始，所有使用者都可以使用以下功能和改善內容。
 
 ### 稽核軌跡  {#24-5-1}
 
-新的 **稽核軌跡** 功能提供對Adobe Campaign執行個體即時執行的所有動作和事件的詳細時間順序記錄。 它提供一種便利的方法，可追蹤行銷活動資料的所有變更，並解決以下查詢：工作流程的狀態、要修改它們的最新個人，或使用者在執行個體內執行的活動。 [閱讀更多](../reporting/audit-trail.md)
+新的&#x200B;**稽核軌跡**&#x200B;功能會針對您在 Adobe Campaign 執行個體執行的所有動作和事件，即時提供按時間順序排列的詳細記錄。它提供了方便的方法來追蹤行銷活動資料的所有變更，解決各種查詢問題，例如：工作流程狀態、最新修改工作流程的個人，或執行個體內使用者執行的活動。[閱讀更多](../reporting/audit-trail.md)
 
 ### 自訂欄位 {#24-5-2}
 
@@ -34,7 +34,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 ### 建立表格之間的連結 {#24-5-3}
 
-您現在可以在以下位置建立與其他表格的連結： **擴充** 工作流程活動。 使用新的 **連結定義** 區段，建立工作表資料與Adobe Campaign資料庫之間的連結。 例如，如果您從包含收件者帳號、國家/地區和電子郵件的檔案載入資料，您現在可以建立指向國家/地區表格的連結，以更新其設定檔中的此資訊。 [閱讀更多](../workflows/activities/enrichment.md#create-links)
+現在您可以在&#x200B;**擴充**&#x200B;工作流程活動中建立與另一個表格的連結。使用活動參數中的新&#x200B;**連結定義**&#x200B;區段，在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，如果您從包含收件人帳戶、國家/地區和電子郵件的文件載入資料，您現在可以建立指向國家/地區表的連結，以更新其設定檔中的此資訊。[閱讀更多](../workflows/activities/enrichment.md#create-links)
 
 <!--
 ### Content fragments {#24-5-4}
@@ -46,14 +46,14 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 ### 一般改善 {#improvements-24-5}
 
-* **直接郵件**  — 您現在可以運用運算式編輯器來選取要顯示在直接郵件擷取檔案中的屬性。 [閱讀更多](../direct-mail/content-direct-mail.md)
+* **直接郵件** - 現在您可以利用運算式編輯器來選取要在直接郵件擷取檔案中顯示的屬性。[閱讀更多](../direct-mail/content-direct-mail.md)
 
-* **資料夾管理**  — 您現在可以建立與父資料夾型別不同的子資料夾。 [閱讀更多](../get-started/permissions.md#folders)
+* **資料夾管理** - 現在您可以建立與上層資料夾不同類型的子資料夾。[閱讀更多](../get-started/permissions.md#folders)
 
 
 <!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
-* **全球化**  — 為了提供統一的使用者體驗，我們不斷努力協調Adobe Experience Cloud產品和應用程式中使用的術語。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在UI和檔案中推出。
+* **全球化** - 鑒於我們持續努力統一使用者體驗，因此我們統一了 Adobe Experience Cloud 產品和應用程式中使用的術語。這會影響德語術語「Titel」，當與物件名稱相關時，該術語會改為「Label」。這些變更將在 UI 和文件中逐步推出。
 
 
 ## 4 月發行說明 {#april-24-4-release}
@@ -88,13 +88,13 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 >
 >以下功能為有限可用性 (LA) 版本。僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。
 >
->請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html)」。
+>請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hant)」。
 
 * **品牌化** - 作為 Campaign Standard 移轉使用者，您的技術管理員現在可以定義一或多個品牌，以集中管理影響品牌識別的參數。這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 [閱讀更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-Hant)
 
 * **Rest API** - 作為 Campaign Standard 移轉使用者，您可使用 Rest API 來建立 Adobe Campaign 整合，並將 Adobe Campaign 與您使用的技術面板結合，以便建立您自己的生態系統。 [閱讀更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-Hant)
 
-* **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對設定檔資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依設定檔維度 (例如，性別、城市和年齡) 進行人口統計分析。[閱讀更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+* **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對設定檔資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依設定檔維度 (例如，性別、城市和年齡) 進行人口統計分析。[閱讀更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-Hant)
 
 * **登陸頁面** - 登陸頁面的以下改善僅適用於從 Campaign Standard 轉換的使用者：
 

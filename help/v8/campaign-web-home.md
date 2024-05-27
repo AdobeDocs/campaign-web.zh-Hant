@@ -4,9 +4,9 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 83%
 
 >[!BEGINTABS]
 
->[!TAB 5月版本已上線！]
+>[!TAB 5 月版本已上線！]
 
 了解 Adobe Campaign Web 使用者介面 24.4 版本帶來的新功能和改善事項。
 
@@ -59,19 +59,19 @@ ht-degree: 83%
 
 >[!TAB 稽核軌跡]
 
-新的稽核軌跡功能提供對Adobe Campaign執行個體已進行即時的所有動作和事件的詳細時間順序記錄。
+新的稽核軌跡功能會針對您在 Adobe Campaign 執行個體執行的所有動作和事件，即時提供按時間順序排列的詳細記錄。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
 >[!TAB 自訂欄位]
 
-自訂欄位是透過Adobe Campaign主控台新增到現成可用方案的其他屬性。 現在可在網頁使用者介面中使用它們。
+自訂欄位是透過 Adobe Campaign 主控台新增到現成結構描述的附加屬性。現在您可以在 Web 使用者介面中使用這些欄位。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
 
->[!TAB 連結表格]
+>[!TAB 連結表]
 
-您現在可以在工作表格資料與擴充工作流程活動中的Adobe Campaign資料庫之間建立連結。
+現在您可以在擴充工作流程活動中建立工作表資料和 Adobe Campaign 資料庫之間的連結。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
@@ -95,7 +95,7 @@ ht-degree: 83%
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>提供動態內容</strong><br/>了解如何根據您收集的個人資料資訊自訂內容，以使內容更具吸引力並增加引人閱讀的可能性。</div>
+    <div><strong>提供動態內容</strong><br/>了解如何根據您收集的設定檔資訊自訂內容，以使內容更具吸引力並增加引人閱讀的可能性。</div>
     </td>
   </tr>
   <tr style="border: 0;">
