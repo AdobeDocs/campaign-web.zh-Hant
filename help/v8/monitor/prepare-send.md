@@ -3,10 +3,10 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面準備和傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 40%
+source-wordcount: '891'
+ht-degree: 38%
 
 ---
 
@@ -25,29 +25,29 @@ ht-degree: 40%
 
 1. 從傳遞控制面板，按一下 **[!UICONTROL 檢閱並傳送]**.
 
-   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-review-and-send.png){zoomable="yes"}
 
 
 1. 按一下 **[!UICONTROL 準備]** 按鈕進行確認。
 
-   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >如果您已排程傳送並停用 **[!UICONTROL 傳送前啟用確認]** 選項，準備和傳送步驟會分組在 **[!UICONTROL 準備並傳送]** 按鈕。 [進一步瞭解排程](../msg/gs-messages.md#gs-schedule)
+   >如果您已排程傳送並停用 **[!UICONTROL 傳送前啟用確認]** 選項，準備和傳送步驟會分組在 **[!UICONTROL 準備並傳送]** 按鈕。 [進一步瞭解排程](../msg/gs-deliveries.md#gs-schedule)
 
 1. 畫面會顯示準備進度。根據目標母體的大小，此操作可能需要一些時間。
 
    您可以隨時使用 **[!UICONTROL 停止準備]** 按鈕。
 
-   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-stop-preparation.png){zoomable="yes"}
 
    >[!NOTE]
    >在準備階段，不傳送任何訊息。因此，您可以開始或停止準備而不會影響任何東西。
 
 1. 準備作業完成後，請檢查 KPI。如果要傳送的訊息數與您的預期不符，請修改您的對象並重新開始準備。
 
-   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-preparation-complete.png){zoomable="yes"}
 
    以下是顯示的不同 KPI：
 
@@ -57,11 +57,11 @@ ht-degree: 40%
 
 1. 按一下「**[!UICONTROL 記錄]**」按鈕並檢查沒有錯誤。最後的記錄訊息顯示所有錯誤訊息和錯誤數量。[了解更多](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-logs.png){zoomable="yes"}
 
 1. 如果準備作業偵測到阻止傳送傳遞的嚴重錯誤，則在傳遞儀表板中準備狀態顯示為失敗。
 
-   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-error.png){zoomable="yes"}
 
 1. 如果您在準備後對傳送進行任何變更，則必須重新開始準備，才能將這些變更納入考量。
 
@@ -72,7 +72,7 @@ ht-degree: 40%
 
 一旦 [準備](#prepare) 完成，您現在可以傳送電子郵件。
 
-如果已排程訊息，則會在定義的日期和時間傳送訊息。 [了解更多](../msg/gs-messages.md#gs-schedule)
+如果已排程訊息，則會在定義的日期和時間傳送訊息。 [了解更多](../msg/gs-deliveries.md#gs-schedule)
 
 ### 立即傳送 {#send-immediately}
 
@@ -80,7 +80,7 @@ ht-degree: 40%
 
 1. 在傳遞控制面板中，按一下 **[!UICONTROL 傳送]** 按鈕進行標籤。
 
-   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send.png){zoomable="yes"}
 
 1. 確認此動作以立即將訊息傳送至主要目標。
 
@@ -90,17 +90,17 @@ ht-degree: 40%
 
 如果您已排程在稍後日期及時間傳送電子郵件，請遵循下列步驟。
 
-1. 在您點選 **[!UICONTROL 檢閱並傳送]** 按鈕，確定您已定義電子郵件的排程。 [了解更多](../msg/gs-messages.md#gs-schedule)
+1. 在您點選 **[!UICONTROL 檢閱並傳送]** 按鈕，確定您已定義電子郵件的排程。 [了解更多](../msg/gs-deliveries.md#gs-schedule)
 
 1. 在傳遞控制面板中，按一下 **[!UICONTROL 依排程傳送按鈕]** 按鈕進行標籤。
 
-   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send-as-scheduled.png){zoomable="yes"}
 
 1. 按一下 **[!UICONTROL 確認傳送]**. 系統會在排程日期將傳遞傳送至主要目標。
 
    >[!NOTE]
    >
-   >如果您已停用 **[!UICONTROL 傳送前啟用確認]** 選項，準備和傳送步驟會分組在 **[!UICONTROL 準備並傳送]** 按鈕。 [進一步瞭解排程](../msg/gs-messages.md#gs-schedule)
+   >如果您已停用 **[!UICONTROL 傳送前啟用確認]** 選項，準備和傳送步驟會分組在 **[!UICONTROL 準備並傳送]** 按鈕。 [進一步瞭解排程](../msg/gs-deliveries.md#gs-schedule)
 
 ## 暫停或停止傳送 {#pause-stop-sending}
 
@@ -110,7 +110,7 @@ ht-degree: 40%
 
 * 按一下 **[!UICONTROL 停止傳送]** 立即中斷傳送。 一旦停止，準備和傳送作業將無法恢復。
 
-![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
 ## 檢查 KPI {#check-kpis}
 
@@ -150,7 +150,7 @@ ht-degree: 40%
 
 傳送完成後，您可以檢查顯示的KPI：
 
-![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-kpis.png){zoomable="yes"}
 
 * **[!UICONTROL 已傳送]**：傳送的訊息數。 顯示的百分比是以要傳送的訊息總數為基礎。
 
