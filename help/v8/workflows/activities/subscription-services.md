@@ -3,18 +3,14 @@ audience: end-user
 title: 使用訂閱服務活動
 description: 瞭解如何使用訂閱服務工作流程活動
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 9cd2d3c7ac4c0ff3c9939cd43606400011fce739
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 20%
+source-wordcount: '594'
+ht-degree: 17%
 
 ---
 
 # 訂閱服務 {#subscriptipon-services}
-
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -85,13 +81,14 @@ ht-degree: 20%
 
 * A **[!UICONTROL 訂閱服務]** 活動可讓您選取必須訂閱設定檔的服務。
 
-### 從檔案更新多個訂閱狀態 {#uc2}
+<!--
+### Updating multiple subscription statuses from a file {#uc2}
 
-以下工作流程說明如何匯入包含設定檔的檔案，並將其訂閱更新為檔案中指定的數個服務。
+The workflow below shows how to import a file containing profiles and update their subscription to several services specified in the file.
 
 ![](../assets/workflow-subscription-service-uc2.png)
 
-* A **[!UICONTROL 載入檔案]** 活動會載入包含資料的CSV檔案，並定義匯入欄的結構。 「服務」和「作業」欄指定要更新的服務及要執行的作業（訂閱或取消訂閱）。
+* A **[!UICONTROL Load file]** activity loads a CSV file containing the data and defines the structure of the imported columns. The "service" and "operation" columns specify the service to update and the operation to perform (subscription or unsubscription).
 
   ```
   Lastname,firstname,city,birthdate,email,service,operation
@@ -102,26 +99,26 @@ ht-degree: 20%
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  如您所注意的，此操作在檔案中指定為 &quot;sub&quot; 或 &quot;unsub&quot;。此系統需要一個 **Boolean** 或 **Integer** 整數值來識別要執行的操作：&quot;0&quot; 為取消訂閱與 &quot;1&quot; 為訂閱。為符合此要求，必須在範例檔案設定畫面的「operation」欄的詳細資訊中執行值的重新對應。
+  As you may have noticed, the operation is specified in the file as "sub" or "unsub". The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. To match this requirement, a remapping of values must be performed in the detail of the "operation" column in the sample file configuration screen.
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  如果您的檔案已使用 &quot;0&quot; 及 &quot;1&quot; 來識別此操作，則不需要重新映射這些值。僅確定欄已處理為 **布林值** 或 **整數** 在範例檔案欄中。
+  If your file already uses "0" and "1" to identify the operation, you don't need to remap those values. Only make sure that the column is processed as a **Boolean** or **Integer** in the sample file columns.
 
-* A **[!UICONTROL 調解]** 活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 此 **電子郵件** 檔案的欄位與 **電子郵件** 設定檔資源的欄位。
-
-  ![](../assets/workflow-subscription-service-uc2-enrichment.png)
-
-* 一個 **[!UICONTROL 擴充]** 活動會建立指向「服務(nms)」表格的連結，並在上傳檔案的「服務」欄與資料庫中的「服務」內部名稱欄位之間建立簡單聯結。
+* A **[!UICONTROL Reconciliation]** activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. The **email** field of the file is matched to the **email** field of the profile resource.
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* A **[!UICONTROL 重複資料刪除]** 根據 **電子郵件** 識別重複專案的欄位。 消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
+* An **[!UICONTROL Enrichment]** activity creates a link to the "Services (nms)" table and creates a simple join between the "service" column of the uploaded file, and the services "internal name" field in the database.
+
+    ![](../assets/workflow-subscription-service-uc2-enrichment.png)
+
+* A **[!UICONTROL Deduplication]** based on the **email** field identifies duplicates. It is important to eliminate duplicates since the subscription to a service will fail for all data in case of duplicates.
 
   ![](../assets/workflow-subscription-service-uc2-dedup.png)
+  
+* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
 
-* A **[!UICONTROL 訂閱服務]** 會將要更新的服務識別為來自此轉變，透過中建立的連結進行 **[!UICONTROL 調解]** 活動。
+  The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Only Boolean or Integer fields can be selected here. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
 
-  此 **[!UICONTROL 作業型別]** 識別為來自 **操作** 檔案的欄位。 此處只能選取 Boolean 或 Integer 欄位。如果檔案中包含要執行的操作欄未出現在清單中，請確保您已在 **[!UICONTROL 載入檔案]** 活動，如本範例前面所述。
-
-  ![](../assets/workflow-subscription-service-uc2-subscription.png)
+  ![](../assets/workflow-subscription-service-uc2-subscription.png)-->
