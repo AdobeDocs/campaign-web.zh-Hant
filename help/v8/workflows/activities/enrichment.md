@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 47%
+ht-degree: 54%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="在工作表格資料與Adobe Campaign資料庫之間建立連結。 例如，如果您從包含收件者帳號、國家/地區和電子郵件的檔案載入資料，則必須建立指向國家/地區表格的連結，以便更新其設定檔中的此資訊。"
+>title="在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其個人資料中的此資訊。"
 >abstract="連結定義"
 
 >[!CONTEXTUALHELP]
@@ -83,7 +83,7 @@ ht-degree: 47%
 >abstract="現在您可以在擴充工作流程活動中建立工作表資料和 Adobe Campaign 資料庫之間的連結。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
-此 **[!UICONTROL 連結定義]** 區段可讓您在工作表格資料與Adobe Campaign資料庫之間建立連結。 例如，如果您從包含收件者帳號、國家/地區和電子郵件的檔案載入資料，則必須建立指向國家/地區表格的連結，以便更新其設定檔中的此資訊。
+此 **[!UICONTROL 連結定義]** 區段可讓您在工作表格資料與Adobe Campaign資料庫之間建立連結。 例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其個人資料中的此資訊。
 
 有數種可用的連結型別：
 
