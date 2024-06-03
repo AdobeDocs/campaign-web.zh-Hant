@@ -3,7 +3,7 @@ audience: end-user
 title: 使用「擴充」工作流程活動
 description: 了解如何使用「擴充」工作流程活動
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 26c51246755ee409b586fcfe2ced61fd0ed536a0
+source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 54%
@@ -25,7 +25,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="連結定義"
->abstract="在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其個人資料中的此資訊。
+>abstract="在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其個人資料中的此資訊。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
