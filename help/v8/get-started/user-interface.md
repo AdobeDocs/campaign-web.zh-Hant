@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
-workflow-type: ht
-source-wordcount: '1650'
-ht-degree: 100%
+source-git-commit: fefa85dd3d0445772759bf53c7b6f8f9b9881a87
+workflow-type: tm+mt
+source-wordcount: '1673'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
 首頁的上半區段提供有關產品中可用的最新更新和新功能的詳細資料，以及發行說明和詳細文件的連結。 使用向左箭頭捲動功能卡片。
 
-![](assets/home.png){zoomable=&quot;yes&quot;}
+![](assets/home.png){zoomable="yes"}
 
 「**關鍵績效指標**」可讓您使用常見的 KPI 值來檢查平台的服務效率。在[本頁面](../reporting/kpis.md)中進一步瞭解這些 KPI。
 
@@ -70,7 +70,7 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
   使用「**更多動作**」按鈕來刪除或複製傳遞。
 
-  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"}
 
 * **工作流程** - 在此畫面中，您可以存取工作流程和工作流程範本的完整清單。您可以檢查其狀態、上次/下次執行日期，並建立新的工作流程或新的工作流程範本。您可以使用和其他物件相同的標準篩選清單。此外，您可以篩選工作流程，無論其是否屬於行銷活動。若要了解工作流程的詳細資訊，請參閱[本章節](../workflows/gs-workflows.md)。
 
@@ -357,6 +357,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_defaultlp"
 >title="預設登陸頁面"
 >abstract="選取與此訂閱服務關聯的預設登陸頁面。"
+
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="傳遞警報條件參數"
 >abstract="傳遞警報"
@@ -375,6 +377,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="建立傳遞警報儀表板"
 >abstract="建立傳遞警報儀表板"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="建立警報准則"
+>abstract="若要建立自己的傳送篩選器，請在Campaign v8主控台中，從以下網址建立新的預先定義篩選器： **管理** > **設定** > **預先定義的篩選器** 節點。"
 
 <!-- IDs -->
 
