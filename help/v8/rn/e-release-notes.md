@@ -3,10 +3,10 @@ title: Campaign v8網頁使用者介面早期發行說明
 description: 探索下一個Campaign Web使用者介面版本隨附的新功能
 hide: true
 hidefromtoc: true
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: c40278f2424b8d6bdc396b3253ac999c23ed8312
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '355'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,7 @@ Adobe Campaign網路使用者介面持續提供新功能、現有功能的增強
 
 ### 內容片段 {#24-6-1}
 
-* 您現在可以撰寫、使用和儲存 **視覺片段** 以快速組合您的電子郵件和內容範本。 片段是預先建立的可重複使用元件，可在跨Adobe Campaign的多封電子郵件中參考，以改進並加快設計流程。 [了解更多](../email/fragments.md)
-
-* 您現在可以撰寫、使用和管理 **運算式片段** 以快速建置個人化內容。 片段是預先建立的可重複使用元件，可在整個Adobe Campaign的多個內容中參考，以改進並加速設計流程。
+您現在可以撰寫、使用和管理 **視覺** 和 **運算式** 片段來快速組合您的電子郵件和內容範本。 片段是預先建立的可重複使用元件，可在跨Adobe Campaign的多封電子郵件中參考，以改進並加快設計流程。
 
 ### 種子清單 {#24-6-2}
 
@@ -42,3 +40,4 @@ Adobe Campaign網路使用者介面持續提供新功能、現有功能的增強
 
 ### 功能改進 {#improvements-24-6}
 
+* **擴充活動中的調解**：擴充活動現在可用來調解來自Campaign資料庫綱要的資料，與來自其他綱要的資料，或來自暫時綱要的資料，例如使用載入檔案活動上傳的資料。 例如，您可以使用此選項，將在上傳檔案中指定的設定檔國家/地區與Campaign資料庫專用表格中可用的國家/地區之一進行調解。
