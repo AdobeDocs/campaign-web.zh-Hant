@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
+source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '704'
 ht-degree: 99%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 99%
 + [Adobe Campaign Web 使用者介面文件](campaign-web-home.md)
 + 發行說明 {#release-notes}
    + [新增功能](rn/whats-new.md)
+   + [早期發行說明](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
    + [文件更新](rn/documentation-updates.md)
 + 開始使用 Adobe Campaign {#start}
