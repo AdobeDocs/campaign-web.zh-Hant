@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「擴充」工作流程活動
 description: 了解如何使用「擴充」工作流程活動
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 54%
+source-wordcount: '1664'
+ht-degree: 42%
 
 ---
 
@@ -111,6 +111,36 @@ ht-degree: 54%
 
 有關使用連結的工作流程範例，請參閱 [範例](#link-example) 區段。
 
+## 資料協調 {#reconciliation}
+
+此 **擴充** 活動可用來調解來自Campaign資料庫結構的資料，與來自另一個結構的資料，或來自暫時結構的資料，例如使用載入檔案活動上傳的資料。 此型別的連結會定義對唯一記錄的調解。 Adobe Campaign會在目標表格中新增外部索引鍵，以儲存唯一記錄的參考，藉此建立指向目標表格的連結。
+
+例如，您可以使用此選項，將在上傳檔案中指定的設定檔國家/地區與Campaign資料庫專用表格中可用的國家/地區之一進行調解。
+
+請依照以下步驟設定 **擴充** 具有調解連結的活動：
+
+1. 按一下 **新增連結** 中的按鈕 **調解** 區段。
+1. 識別您要建立調解連結的資料。
+
+   * 若要使用Campaign資料庫中的資料建立調解連結，請選取 **資料庫結構描述** 並選取儲存目標的綱要。
+   * 若要使用來自輸入轉變的資料建立調解連結，請選取 **臨時結構描述** 並選擇儲存目標資料的工作流程轉變。
+
+1. 此 **標籤** 和 **名稱** 欄位會根據所選的目標結構描述自動填入。 您可以視需要變更其值。
+
+1. 在 **調解條件** 區段，指定您要如何調解來源及目的地資料表的資料：
+
+   * **簡單聯結**：調解來源表格中的特定欄位與目的地表格中的其他欄位。 若要這麼做，請按一下 **新增聯結** 按鈕並指定 **來源** 和 **目的地** 用於調解的欄位。
+
+     >[!NOTE]
+     >
+     >您可使用一或多個 **簡單聯結** 條件，在此情況下，它們都必須經過驗證，才能將資料連結在一起。
+
+   * **進階聯結**：使用查詢建模器來設定調解條件。 若要這麼做，請按一下 **建立條件** 按鈕然後使用AND和OR作業建置您自己的規則，以定義調解條件。
+
+以下範例顯示一個工作流程，其設定為在Adobe Campaign資料庫收件者表格與產生的臨時表格之間建立連結。 **載入檔案** 活動。 在此範例中，「擴充」活動會使用電子郵件地址作為調解條件來調解兩個表格。
+
+![](../assets/enrichment-reconciliation.png)
+
 ## 範例 {#example}
 
 ### 單一擴充屬性 {#single-attribute}
@@ -177,48 +207,17 @@ ht-degree: 54%
 
 ![](../assets/workflow-enrichment7.png)
 
-
 ### 使用連結的資料擴充 {#link-example}
 
-以下範例顯示一個工作流程，其設定為在兩個轉變之間建立連結。 第一個轉變使用查詢活動定位設定檔資料，而第二個轉變包括儲存在透過載入檔案活動載入的檔案中的購買資料。
+以下範例顯示一個工作流程，其設定為在兩個轉變之間建立連結。 第一個轉變目標設定檔資料使用 **查詢** 活動，而第二個轉變包括儲存在透過載入檔案活動載入的檔案中的購買資料。
 
-* 第一個 **擴充** 活動連結我們的主要集(資料來自 **查詢** 活動)中的結構描述 **載入檔案** 活動。 這可讓我們將查詢定位的每個設定檔與對應的購買資料進行比對。
+![](../assets/enrichment-uc-link.png)
+
+* 第一個 **擴充** 活動連結主要集(資料來自 **查詢** 活動)中的結構描述 **載入檔案** 活動。 這可讓我們將查詢定位的每個設定檔與對應的購買資料進行比對。
+
+  ![](../assets/enrichment-uc-link-purchases.png)
+
 * 秒 **擴充** 新增活動，以使用來自的購買資料擴充工作流程表格的資料 **載入檔案** 活動。 這可讓我們在後續活動中使用這些資料，例如，個人化傳送給客戶的訊息，其中包含客戶購買的相關資訊。
 
-  ![](../assets/workflow-enrichment-example.png)
+  ![](../assets/enrichment-uc-link-data.png)
 
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->

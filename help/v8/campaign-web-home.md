@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
-workflow-type: ht
-source-wordcount: '485'
-ht-degree: 100%
+source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 89%
 
 ---
 
@@ -51,29 +51,24 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 5 月版本已上線！]
+>[!TAB 6月版本已上線！]
 
-了解 Adobe Campaign Web 使用者介面 24.4 版本帶來的新功能和改善事項。
+了解 Adobe Campaign Web 使用者介面 24.6 版本帶來的新功能和改善事項。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 稽核軌跡]
+>[!TAB 傳遞警報]
 
-新的稽核軌跡功能會針對您在 Adobe Campaign 執行個體執行的所有動作和事件，即時提供按時間順序排列的詳細記錄。
+傳送警報是警報管理系統，可讓使用者群組自動接收電子郵件通知，其中包含其傳送執行的資訊。
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
+[![影像](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
->[!TAB 自訂欄位]
+>[!TAB 計畫和方案]
 
-自訂欄位是透過 Adobe Campaign 主控台新增到現成結構描述的附加屬性。現在您可以在 Web 使用者介面中使用這些欄位。
+Adobe Campaign可讓您為行銷計畫和方案設定資料夾階層。
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+[![影像](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
->[!TAB 連結表]
-
-現在您可以在擴充工作流程活動中建立工作表資料和 Adobe Campaign 資料庫之間的連結。
-
-[![影像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 

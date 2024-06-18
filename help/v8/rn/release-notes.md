@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: ht
-source-wordcount: '1461'
-ht-degree: 100%
+source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+workflow-type: tm+mt
+source-wordcount: '1623'
+ht-degree: 90%
 
 ---
 
@@ -17,6 +17,32 @@ ht-degree: 100%
 >abstract="Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，Campaign 發行說明每月更新數次，提供最新功能、改進和修正。我們建議您定期檢查。"
 
 Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，這些發行說明每月會更新多次。請定期進行檢查。
+
+## 6月發行說明 {#24-6-release}
+
+**發行日期**： 2024年6月18至19日
+
+自6月發行版本起，所有使用者皆可使用下列功能和改善專案。
+<!--
+### Visual fragments {#24-6-1}
+
+You can now author, use, and manage **visual** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
+
+### Seed lists {#24-6-2}
+
+A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.-->
+
+### 傳遞警報 {#24-6-3}
+
+「傳送警報」功能是警報管理系統，可讓一組使用者自動接收包含其傳送執行資訊的通知。 [閱讀更多](../msg/delivery-alerting.md)
+
+### 計畫和方案 {#24-6-4}
+
+您現在可以建立計畫和方案來組織行銷活動。 藉由定義資料夾階層，您可以將行銷活動組織成方案，並將方案組織成計畫。 [閱讀更多](../msg/delivery-alerting.md)
+
+### 功能改進 {#improvements-24-6}
+
+* **擴充活動中的調解**：擴充活動現在可用來調解來自Campaign資料庫綱要的資料，與來自其他綱要的資料，或來自暫時綱要的資料，例如使用載入檔案活動上傳的資料。 例如，您可以使用此選項，將在上傳檔案中指定的設定檔國家/地區與Campaign資料庫專用表格中可用的國家/地區之一進行調解。 [閱讀更多](../workflows/activities/enrichment.md)
 
 ## 5 月發行說明 {#24-5-release}
 

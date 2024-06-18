@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 178d17b81db4ee3f3a445812ac1af6e5f9adbc57
+source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 98%
+source-wordcount: '1555'
+ht-degree: 100%
 
 ---
 
@@ -310,73 +310,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="執行初始化指令碼"
 >abstract="執行初始化指令碼"
-
-<!-- Delivery alerting -->
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria"
->title="傳遞警報條件儀表板"
->abstract="傳遞警報條件儀表板"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboards"
->title="傳遞警報儀表板"
->abstract="傳遞警報儀表板"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create"
->title="建立傳遞警報條件"
->abstract="建立傳遞警報條件"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_indicators"
->title="要在警報中新增的指標"
->abstract="要在警報中新增的指標"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_alert"
->title="警報類型"
->abstract="警報類型"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_frequency"
->title="條件頻率"
->abstract="條件頻率"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_add"
->title="傳遞警報條件"
->abstract="傳遞警報條件"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_general"
->title="傳遞警報一般參數"
->abstract="傳遞警報"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_parameters"
->title="傳遞警報條件參數"
->abstract="傳遞警報"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_alerts"
->title="已傳送的傳遞警報"
->abstract="已傳送的傳遞警報"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_history"
->title="傳遞警報歷史記錄"
->abstract="傳遞警報歷史記錄"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_create"
->title="建立傳遞警報儀表板"
->abstract="建立傳遞警報儀表板"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="建立警報准則"
->abstract="若要建立自己的傳送篩選器，請在Campaign v8主控台中，從以下網址建立新的預先定義篩選器： **管理** > **設定** > **預先定義的篩選器** 節點。"
 
 <!-- IDs -->
 

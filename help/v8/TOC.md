@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 99%
+source-wordcount: '725'
+ht-degree: 97%
 
 ---
 
@@ -100,6 +100,10 @@ ht-degree: 99%
       + [預覽訊息內容。](preview-test/preview-content.md)
       + [傳送校樣](preview-test/test-deliveries.md)
       + [測試電子郵件轉譯](preview-test/email-rendering.md)
+   + 傳遞警報 {#delivery-alerting}
+      + [開始使用傳送警報](msg/delivery-alerting.md)
+      + [傳遞警報儀表板](msg/delivery-alerting-dashboards.md)
+      + [傳遞警報條件](msg/delivery-alerting-criteria.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](landing-pages/get-started-lp.md)
    + [建立並發佈登陸頁面](landing-pages/create-lp.md)
@@ -130,6 +134,7 @@ ht-degree: 99%
    + [開始使用行銷活動](campaigns/gs-campaigns.md)
    + [存取和管理您的行銷活動](campaigns/manage-campaigns.md)
    + [建立您的第一個行銷活動](campaigns/create-campaigns.md)
+   + [計畫和方案](administration/plans-programs.md)
 + 工作流程 {#wf}
    + [開始使用工作流程](workflows/gs-workflows.md)
    + [護欄和限制](get-started/guardrails.md)
@@ -202,4 +207,5 @@ ht-degree: 99%
    + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
 + 設定 {#conf}
    + [設定自訂欄位](administration/custom-fields.md)
+   + [建立及管理資料夾](administration/create-manage-folder.md)
 + [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)
