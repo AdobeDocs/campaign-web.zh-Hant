@@ -2,7 +2,7 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+source-git-commit: 385c931c9fae7386c2a2f1ef471a9cd7c4a47696
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 90%
@@ -38,7 +38,7 @@ A seed list, aka. **Trap group**, is a list of seed addresses. It is used to inc
 
 ### 計畫和方案 {#24-6-4}
 
-您現在可以建立計畫和方案來組織行銷活動。 藉由定義資料夾階層，您可以將行銷活動組織成方案，並將方案組織成計畫。 [閱讀更多](../msg/delivery-alerting.md)
+您現在可以建立計畫和方案來組織行銷活動。 藉由定義資料夾階層，您可以將行銷活動組織成方案，並將方案組織成計畫。 [閱讀更多](../administration/plans-programs.md)
 
 ### 功能改進 {#improvements-24-6}
 
