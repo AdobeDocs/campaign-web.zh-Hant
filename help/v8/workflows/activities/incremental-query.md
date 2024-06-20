@@ -3,7 +3,7 @@ audience: end-user
 title: 使用增量查詢工作流程活動
 description: 瞭解如何使用增量查詢工作流程活動
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 19%
@@ -12,13 +12,7 @@ ht-degree: 19%
 
 # 增量查詢 {#incremental-query}
 
-<!--
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Incremental Query activity"
->abstract="Use the new Incremental Query activity to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
--->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"

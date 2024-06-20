@@ -2,7 +2,7 @@
 title: 自訂欄位
 description: 瞭解如何設定自訂欄位
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 19%
@@ -12,7 +12,7 @@ ht-degree: 19%
 # 設定自訂欄位 {#custom-fields}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn4"
 >title="自訂欄位"
 >abstract="自訂欄位是透過 Adobe Campaign 主控台新增到現成結構描述的附加屬性。現在您可以在 Web 使用者介面中使用這些欄位。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"

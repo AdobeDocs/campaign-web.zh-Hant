@@ -3,7 +3,8 @@ product: campaign
 title: 稽核軌跡
 description: 瞭解如何使用Campaign稽核軌跡監控您的執行個體
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 6%
@@ -13,9 +14,9 @@ ht-degree: 6%
 # 稽核軌跡{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn5"
 >title="稽核軌跡"
->abstract="新的稽核軌跡功能會針對您在 Adobe Campaign 執行個體執行的所有操作和事件，即時提供按時間順序排列的詳細記錄。"
+>abstract="新的稽核軌跡功能會針對您在 Adobe Campaign 執行個體執行的所有動作和事件，即時提供按時間順序排列的詳細記錄。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 
@@ -100,4 +101,3 @@ ht-degree: 6%
    程式碼區塊會針對實體中的確切變更提供詳細資訊。
 
    ![](assets/audit-trail-2.png)
-

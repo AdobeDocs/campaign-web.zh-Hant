@@ -2,14 +2,21 @@
 audience: end-user
 title: 計畫和方案
 description: 瞭解如何在Adobe Campaign中建立和設定計畫和方案
-source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# 計畫和方案
+# 計畫和方案 {#plan-and-programs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="計畫和方案"
+>abstract="您現在可以在Campaign Web使用者介面中，設定行銷計畫和方案的資料夾階層。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 Adobe Campaign可讓您為行銷計畫和方案設定資料夾階層。
 

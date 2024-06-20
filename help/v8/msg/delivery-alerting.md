@@ -2,15 +2,22 @@
 audience: end-user
 title: 傳遞警報
 description: 瞭解如何使用傳送警報。
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 0%
+source-wordcount: '342'
+ht-degree: 2%
 
 ---
 
-
 # 開始使用傳送警報 {#gs-delivery-alerting}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="傳遞警報"
+>abstract="Campaign現在提供傳送警報。 此功能是警報管理系統，可讓使用者群組自動接收電子郵件通知，其中包含其傳送執行的資訊。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 傳送警報是警報管理系統，可讓使用者群組自動接收電子郵件通知，其中包含其傳送執行的資訊。 收件者可監控Adobe Campaign所處理的進行中傳遞，並在發生問題時採取適當的動作。
 
