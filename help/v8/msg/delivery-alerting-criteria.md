@@ -6,7 +6,7 @@ exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -39,7 +39,7 @@ Campaign Web使用者介面中提供預先定義的警示准則。 這些條件�
 >
 >預設值會套用至上述條件的所有引數。 這些值可在以下位置自訂： **條件引數** 傳送警示儀表板中使用儀表板的區段。 [瞭解如何使用儀表板](../msg/delivery-alerting-dashboards.md)
 
-## 建立警報准則 {#criteria}
+## 建立警報標準 {#criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
@@ -63,8 +63,8 @@ Campaign Web使用者介面中提供預先定義的警示准則。 這些條件�
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
->title="建立警報准則"
->abstract="若要建立自己的傳送篩選器，請在Campaign v8主控台中，從以下網址建立新的預先定義篩選器： **管理** > **設定** > **預先定義的篩選器** 節點。"
+>title="建立警報標準"
+>abstract="若要建立您自己的傳遞篩選器，請在 Campaign v8 主控台中，透「**管理**」>「**設定**」>「**預先定義的篩選器**」節點建立新的預先定義篩選器。"
 
 若要建立新條件，請遵循下列步驟：
 
