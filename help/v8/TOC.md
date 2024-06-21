@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 97%
 
 ---
@@ -113,6 +113,7 @@ ht-degree: 97%
 + 設定檔與對象 {#audiences}
    + [開始使用設定檔和對象](audience/gs-audiences-recipients.md)
    + [目標定位維度](audience/targeting-dimensions.md)
+   + [隔離](audience/quarantine.md)
    + 使用設定檔 {#work-with-profiles}
       + [開始使用設定檔](audience/about-recipients.md)
       + [探索設定檔的詳細資料](audience/profile-view.md)
