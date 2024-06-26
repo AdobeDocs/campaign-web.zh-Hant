@@ -4,9 +4,9 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 89%
 
 >[!BEGINTABS]
 
->[!TAB 6月版本已上線！]
+>[!TAB 6 月版本已上線！]
 
 了解 Adobe Campaign Web 使用者介面 24.6 版本帶來的新功能和改善事項。
 
@@ -59,13 +59,13 @@ ht-degree: 89%
 
 >[!TAB 傳遞警報]
 
-傳送警報是警報管理系統，可讓使用者群組自動接收電子郵件通知，其中包含其傳送執行的資訊。
+「傳送警報」是警報管理系統，可讓使用者群組自動接收包含其傳送執行資訊的電子郵件通知。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
->[!TAB 計畫和方案]
+>[!TAB 計劃和專案]
 
-Adobe Campaign可讓您為行銷計畫和方案設定資料夾階層。
+Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
