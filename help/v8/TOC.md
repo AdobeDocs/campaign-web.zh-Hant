@@ -8,7 +8,7 @@ breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 97%
          + [準備並傳送電子郵件](monitor/prepare-send.md)
          + [使用多個波段傳送](advanced-settings/send-using-waves.md)
          + [監控傳遞記錄](monitor/delivery-logs.md)
-         + [排程傳送作業](monitor/schedule-sending.md)
+         + [排程傳遞傳送](monitor/schedule-sending.md)
    + 推播通知 {#push}
       + [開始使用推播通知](push/gs-push.md)
       + [建立推播通知傳遞](push/create-push.md)
@@ -100,8 +100,8 @@ ht-degree: 97%
       + [預覽訊息內容。](preview-test/preview-content.md)
       + [傳送校樣](preview-test/test-deliveries.md)
       + [測試電子郵件轉譯](preview-test/email-rendering.md)
-   + 傳遞警報 {#delivery-alerting}
-      + [開始使用傳送警報](msg/delivery-alerting.md)
+   + 傳遞警報{#delivery-alerting}
+      + [開始使用傳遞警報](msg/delivery-alerting.md)
       + [傳遞警報儀表板](msg/delivery-alerting-dashboards.md)
       + [傳遞警報條件](msg/delivery-alerting-criteria.md)
 + 登陸頁面 {#landing-pages}
@@ -135,7 +135,7 @@ ht-degree: 97%
    + [開始使用行銷活動](campaigns/gs-campaigns.md)
    + [存取和管理您的行銷活動](campaigns/manage-campaigns.md)
    + [建立您的第一個行銷活動](campaigns/create-campaigns.md)
-   + [計畫和方案](administration/plans-programs.md)
+   + [計劃和專案](administration/plans-programs.md)
 + 工作流程 {#wf}
    + [開始使用工作流程](workflows/gs-workflows.md)
    + [護欄和限制](get-started/guardrails.md)
@@ -208,5 +208,5 @@ ht-degree: 97%
    + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
 + 設定 {#conf}
    + [設定自訂欄位](administration/custom-fields.md)
-   + [建立及管理資料夾](administration/create-manage-folder.md)
+   + [建立和管理資料夾](administration/create-manage-folder.md)
 + [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)
