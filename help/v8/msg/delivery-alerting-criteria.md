@@ -6,7 +6,7 @@ exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 7%
+ht-degree: 26%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="傳遞警報條件儀表板"
->abstract="Campaign Web使用者介面提供預先定義的警示准則（輸送量低的傳送、準備失敗的傳送……），您可以將這些准則新增至您的儀表板。 您也可以根據自己的需求建立條件。"
+>abstract="Campaign Web 使用者介面提供了預先定義的警報標準 (輸送量低的傳遞、準備失敗的傳遞…)，您可以將其新增至儀表板。您還可以建立符合自己需求的條件。"
 
-Campaign Web使用者介面提供預先定義的警示准則（輸送量低的傳送、準備失敗的傳送……），您可以將這些准則新增至您的儀表板。 您也可以根據自己的需求建立條件。
+Campaign Web使用者介面提供預先定義的警示准則（輸送量低的傳送、準備失敗的傳送……），您可以將這些准則新增至您的儀表板。 您還可以建立符合自己需求的條件。
 
 警報條件可從 **傳遞警報** 功能表，位於左側導覽窗格的 **條件** 標籤。
 
@@ -44,22 +44,22 @@ Campaign Web使用者介面中提供預先定義的警示准則。 這些條件�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
 >title="建立傳遞警報條件"
->abstract="除了Adobe Campaign提供的預先定義警示條件之外，您也可以根據自己的需求建立條件。"
+>abstract="除了 Adobe Campaign 提供的預先定義警報條件之外，您還可以建立符合自己需求的條件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="要在警報中新增的指標"
->abstract="選取要顯示為電子郵件警示「詳細資訊」區段欄的指標。"
+>abstract="選取要在電子郵件警報「詳細資料」區段中顯示為欄的指示器。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="警報類型"
->abstract="指定 **警示型別** 對於條件，表示標籤和顏色會顯示在警示的「摘要」區段中的傳送條件旁邊。"
+>abstract="指定條件的&#x200B;**警報類型**，即警報「摘要」區段中傳遞條件旁顯示的標籤和顏色。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
 >title="條件頻率"
->abstract="控制每個符合條件的傳遞每天的警報頻率。"
+>abstract="控制每天滿足條件的每次傳遞警報頻率。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
@@ -85,7 +85,7 @@ Campaign Web使用者介面中提供預先定義的警示准則。 這些條件�
 
 1. 在 **要新增警示的指標** 區段，選擇要顯示為電子郵件警示「詳細資訊」區段欄的指標。
 
-1. 指定 **警示型別** 對於條件，表示標籤和顏色會顯示在警示的「摘要」區段中的傳送條件旁邊。
+1. 指定條件的&#x200B;**警報類型**，即警報「摘要」區段中傳遞條件旁顯示的標籤和顏色。
 
 1. 此 **條件頻率** 區段可讓您針對符合條件的每個傳送，控制每天的警報頻率：
 
