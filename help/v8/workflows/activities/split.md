@@ -3,10 +3,10 @@ audience: end-user
 title: 使用分割工作流程活動
 description: 了解如何使用分割工作流程活動
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 83%
+source-wordcount: '1062'
+ht-degree: 70%
 
 ---
 
@@ -59,8 +59,8 @@ ht-degree: 83%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
->title="啟用輸出母體的重疊"
->abstract="啟用輸出母體的重疊"
+>title="啟用輸出族群的重疊"
+>abstract=" 此 **[!UICONTROL 啟用輸出母體的重疊]** 選項可讓您管理屬於數個子集的母體。 如果未核取此方塊，分割活動會確定收件者無法出現在數個輸出轉變中，即使它符合數個子集的條件亦然。 它們會位於具有相符條件的第一個標籤的目標中。 核取此方塊後，如果收件者符合篩選條件，則可在數個子集中找到收件者。 Adobe Campaign建議使用專屬條件。"
 
 請按照以下步驟設定&#x200B;**分割**&#x200B;活動：
 
@@ -102,6 +102,11 @@ ht-degree: 83%
    >[!NOTE]
    >
    >此 **[!UICONTROL 在相同表格中產生所有子集]** 選項可讓您將所有子集群組為單一輸出轉變。
+
+1. 此 **[!UICONTROL 啟用輸出母體的重疊]** 選項可讓您管理屬於數個子集的母體：
+
+   * 如果未核取此方塊，分割活動會確定收件者無法出現在數個輸出轉變中，即使它符合數個子集的條件亦然。 它們會位於具有相符條件的第一個標籤的目標中。
+   * 核取此方塊後，如果收件者符合篩選條件，則可在數個子集中找到收件者。 Adobe Campaign建議使用專屬條件。
 
 該活動現已完成設定。在工作流程執行時，系統會依照子集新增至活動的順序，將母體分割到不同的子集。
 
