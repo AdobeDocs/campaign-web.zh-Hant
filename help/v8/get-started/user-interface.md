@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 42250b21910556759b8d7fd561dbc7bc62e9852e
+source-git-commit: 14fd007c2fc57a246905cc31800913536fea5734
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1621'
 ht-degree: 95%
 
 ---
@@ -354,17 +354,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="異動訊息個人化"
 
 >[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="異動訊息個人化"
->abstract="異動訊息個人化"
-
->[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="異動訊息排除記錄"
 >abstract="異動訊息排除記錄"
 
 >[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
+>id="acw_transacmessages_addcontext"
 >title="異動訊息內容"
 >abstract="異動訊息內容"
 
