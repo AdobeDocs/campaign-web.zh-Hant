@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
+source-git-commit: 42250b21910556759b8d7fd561dbc7bc62e9852e
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 100%
+source-wordcount: '1627'
+ht-degree: 95%
 
 ---
 
@@ -318,3 +318,63 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_editcustomfields"
 >title="編輯自訂屬性"
 >abstract="編輯自訂屬性"
+
+
+
+<!-- transac messages-->
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages"
+>title="異動訊息傳送"
+>abstract="異動訊息傳送"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_properties"
+>title="異動訊息屬性"
+>abstract="異動訊息屬性"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_event"
+>title="異動訊息傳送事件"
+>abstract="異動訊息傳送事件"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="異動訊息內容"
+>abstract="異動訊息內容"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_content"
+>title="異動訊息內容"
+>abstract="異動訊息內容"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="異動訊息個人化"
+>abstract="異動訊息個人化"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="異動訊息個人化"
+>abstract="異動訊息個人化"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_exclusionlogs"
+>title="異動訊息排除記錄"
+>abstract="異動訊息排除記錄"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="異動訊息內容"
+>abstract="異動訊息內容"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory"
+>title="異動訊息事件歷史記錄"
+>abstract="異動訊息事件歷史記錄"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory_preview"
+>title="異動訊息事件歷史記錄預覽"
+>abstract="異動訊息事件歷史記錄預覽"
+
