@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
 workflow-type: tm+mt
-source-wordcount: '2092'
+source-wordcount: '2103'
 ht-degree: 9%
 
 ---
@@ -244,7 +244,7 @@ ht-degree: 9%
 >title="規則屬性"
 >abstract="在畫布中建立查詢後，您可以使用右側的&#x200B;**規則屬性**&#x200B;窗格進行檢查。<br/>此窗格可讓您顯示結果資料、擷取查詢的 SQL 程式碼版本，以及檢查目標記錄的數量。<br/>使用「**選取或儲存篩選器**」按鈕，將您的查詢儲存為預先定義篩選器，或將畫布內容更換為現有換的篩選器。"
 
-在畫布中建立查詢後，您可以使用 **規則屬性** 窗格位於右側。 可用的操作包括：
+在畫布中建立查詢後，您可以使用 **規則屬性** 窗格位於右側當建立查詢以建立對象時，會顯示此窗格。 可用的操作包括：
 
 * **檢視結果：** 顯示查詢後產生的資料。
 * **程式碼檢視**：顯示SQL中查詢的程式碼型版本。

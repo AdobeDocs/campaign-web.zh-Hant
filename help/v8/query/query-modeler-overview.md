@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查詢建模工具
 description: 瞭解如何使用Adobe Campaign Web查詢建模工具。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 22%
+source-wordcount: '558'
+ht-degree: 20%
 
 ---
 
@@ -32,18 +32,18 @@ Adobe Campaign Web使用者介面具有查詢建模工具，可簡化根據各�
 
 | 使用情況 | 範例 |
 |  ---  |  ---  |
-| **定義對象**：指定您要在訊息或工作流程中鎖定的母體，輕鬆建立因應您需求的新對象。 [瞭解如何建立受眾](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **自訂工作流程活動**：在工作流程活動中套用規則，例如 **Split** 和 **調解**，以符合您的特定需求。 [進一步瞭解工作流程活動](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **預先定義的篩選器**：建立預先定義的篩選器，以做為各種篩選作業期間的捷徑，無論您是使用資料清單或形成傳送的對象。 [瞭解如何使用預先定義的篩選器](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **篩選報表資料**：新增規則以篩選報表中顯示的資料。 [瞭解如何使用報告](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **自訂清單**：建立自訂規則，以篩選清單中顯示的資料，例如收件者、傳遞清單等。 [瞭解如何篩選清單](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **定義對象**：指定您要在訊息或工作流程中鎖定的母體，輕鬆建立因應您需求的新對象。 [瞭解如何建立受眾](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **自訂工作流程活動**：在工作流程活動中套用規則，例如 **Split** 和 **調解**，以符合您的特定需求。 [進一步瞭解工作流程活動](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **預先定義的篩選器**：建立預先定義的篩選器，以做為各種篩選作業期間的捷徑，無論您是使用資料清單或形成傳送的對象。 [瞭解如何使用預先定義的篩選器](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **篩選報表資料**：新增規則以篩選報表中顯示的資料。 [瞭解如何使用報告](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **自訂清單**：建立自訂規則，以篩選清單中顯示的資料，例如收件者、傳遞清單等。 [瞭解如何篩選清單](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **建立條件式內容**：建立條件來定義應向不同收件者顯示的內容，確保個人化和相關的傳訊，藉此建立電子郵件內容動態化。 [瞭解如何建立條件式內容](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 ## 查詢模組化介面 {#interface}
 
 查詢模型工具會提供一個中央畫布，您可在其中建立查詢，以及一個右窗格，提供查詢的相關資訊。
 
-![](assets/query-interface.png){zoomable=&quot;yes&quot;}
+![](assets/query-interface.png){zoomable="yes"}
 
 ### 中央畫布 {#canvas}
 
@@ -59,4 +59,4 @@ Adobe Campaign Web使用者介面具有查詢建模工具，可簡化根據各�
 
 ### 規則屬性窗格 {#rule-properties}
 
-在右側， **[!UICONTROL 規則屬性]** 窗格提供有關查詢的資訊。 它可讓您執行各種作業來檢查查詢，並確保查詢符合您的需求。 [瞭解如何檢查及驗證您的查詢](build-query.md#check-and-validate-your-query)
+在右側， **[!UICONTROL 規則屬性]** 窗格提供有關查詢的資訊。 它可讓您執行各種作業來檢查查詢，並確保查詢符合您的需求。 建立查詢以建立對象時，會顯示此窗格。 [瞭解如何檢查及驗證您的查詢](build-query.md#check-and-validate-your-query)
