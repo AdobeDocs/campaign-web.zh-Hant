@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
 workflow-type: tm+mt
 source-wordcount: '1629'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -325,13 +325,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
->title="異動訊息傳送"
->abstract="異動訊息傳送"
+>title="交易型傳訊"
+>abstract="交易型傳訊"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
->title="異動訊息屬性"
->abstract="異動訊息屬性"
+>title="交易型傳訊屬性"
+>abstract="交易型傳訊屬性"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
@@ -340,41 +340,41 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
->title="異動訊息傳送事件"
->abstract="異動訊息傳送事件"
+>title="交易型傳訊事件"
+>abstract="交易型傳訊事件"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
->title="異動訊息內容"
->abstract="異動訊息內容"
+>title="交易型傳訊情境"
+>abstract="交易型傳訊情境"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
->title="異動訊息內容"
->abstract="異動訊息內容"
+>title="交易型傳訊內容"
+>abstract="交易型傳訊內容"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
->title="異動訊息個人化"
->abstract="異動訊息個人化"
+>title="交易型傳訊個人化"
+>abstract="交易型傳訊個人化"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
->title="異動訊息排除記錄"
->abstract="異動訊息排除記錄"
+>title="交易型傳訊排除記錄"
+>abstract="交易型傳訊排除記錄"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
->title="異動訊息內容"
->abstract="異動訊息內容"
+>title="交易型傳訊情境"
+>abstract="交易型傳訊情境"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
->title="異動訊息事件歷史記錄"
->abstract="異動訊息事件歷史記錄"
+>title="交易型傳訊事件歷史記錄"
+>abstract="交易型傳訊事件歷史記錄"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
->title="異動訊息事件歷史記錄預覽"
->abstract="異動訊息事件歷史記錄預覽"
+>title="交易型傳訊事件歷史記錄預覽"
+>abstract="交易型傳訊事件歷史記錄預覽"
 
