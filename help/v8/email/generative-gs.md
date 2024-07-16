@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 27e97731ebd2987cc6f653f90a515473caa175d6
+source-git-commit: 7de6d85036eac7289e7fcf3a82a7c11be12d9c6e
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 38%
+source-wordcount: '581'
+ht-degree: 29%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 38%
 
 >[!BEGINSHADEBOX]
 
-**目錄**
+**內容表**
 
 * 開始使用 AI 助理
 * [使用 AI 助理產生電子郵件](generative-content.md)
@@ -41,10 +41,10 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 生成式 AI 詞彙"
->abstract="若要取得此功能的存取權限，您必需同意 Adobe Experience Cloud 生成式 AI 使用者準則。您為此功能提供的任何提示、上下文或補充資訊或其他輸入都必須與特定上下文相關聯，其中可以包括您的品牌素材、網站內容、資料、此類資料的架構、範本或其他可信任文件，並且不得包含任何個人資訊 (個人資訊包括任何可連結到特定個人的資訊)。您應該檢查此功能之任何輸出的準確性，並確保它適合您的使用案例"
+>abstract="若要取得此功能的存取權限，您必需同意 Adobe Experience Cloud 生成式 AI 使用者準則。請檢閱此功能的任何輸出是否準確，並確定其適合您的使用案例。"
 >additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者準則"
 
-隨著行銷業的競爭日益激烈，品牌們開始尋求有效率的方法，以有效率且快速的方式產生具影響力的內容。 Campaign中的AI Assistant採用Azure OpenAI和Azure vision，是Adobe的AI內容產生功能，徹底改變行銷人員跨電子郵件、簡訊、推播等管道建立專業且品牌一致的內容方式。 透過進階GenAI模型和對品牌指導方針的深入瞭解，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，其內容針對品牌概述的樣式、版面、色調等最佳化。
+隨著行銷業的競爭日益激烈，品牌們開始尋求有效率的方法，以有效率且快速的方式產生具影響力的內容。 Campaign中的AI助理由Azure OpenAI提供技術支援，是Adobe的AI內容產生功能，徹底改變行銷人員跨電子郵件、簡訊、推播等通道建立專業且品牌一致內容的方式。 透過進階GenAI模型和對品牌指導方針的深入瞭解，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，其內容針對品牌概述的樣式、版面、色調等最佳化。
 
 AI Assistant可以讓您在電子郵件、簡訊和推播等通路上，以直覺的方式建立和執行行銷活動，既簡單又輕鬆，同時還能節省時間、提高效率和取得更好的結果。
 
@@ -59,7 +59,7 @@ AI Assistant可以讓您在電子郵件、簡訊和推播等通路上，以直�
 * 產生的內容品質強烈受到您定義的行銷目標/提示所影響。 使用定義明確的提示讓GenAI模型正確解譯。 
 * 上傳品牌資產，以便對品牌內容取得準確資訊。 否則，內容會以公開可用的資訊為基礎。 上傳的內容可以有下列格式：PDF、JPEG、PNG或ZIP檔案（具有支援的檔案格式）。
 * 已上傳品牌資產的大小上限為50MB。 大型檔案或大量影像可以運作，但處理時間會增加。
-* 最好使用Adobe Campaign編寫的電子郵件範本 [內建電子郵件範本](../email/create-email-templates.md)，此元件為品牌特定範本或自訂範本，可建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
+* 使用Adobe Campaign編寫的電子郵件範本（最好是[內建電子郵件範本](../email/create-email-templates.md)）、品牌特定範本或自訂範本，來建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
 * 選擇變體時，請務必使用向上縮圖、向下縮圖或標幟圖示來報告任何有問題的輸出。
 * 您使用AI助理須遵守Adobe Experience Cloud Generative AI使用指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
@@ -76,7 +76,7 @@ AI Assistant可以讓您在電子郵件、簡訊和推播等通路上，以直�
 <img alt="電子郵件產生" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>使用AI助理產生電子郵件</strong></a>
+使用AI助理產生<a href="generative-content.md"><strong>電子郵件</strong></a>
 </div>
 <p>
 </td>
@@ -84,7 +84,7 @@ AI Assistant可以讓您在電子郵件、簡訊和推播等通路上，以直�
 <a href="generative-sms.md">
 <img alt="簡訊產生" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>使用AI助理產生簡訊</strong>
+<div>使用AI助理產生<a href="generative-sms.md"><strong>簡訊</strong>
 </div>
 <p>
 </td>
@@ -93,7 +93,7 @@ AI Assistant可以讓您在電子郵件、簡訊和推播等通路上，以直�
 <img alt="推播產生" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>使用AI助理產生推播通知</strong></a>
+使用AI助理產生<a href="generative-push.md"><strong>推播通知</strong></a>
 </div>
 <p></td>
 </tr></table>
