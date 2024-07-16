@@ -5,8 +5,8 @@ description: 了解如何設計您的電子郵件內容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 48%
+source-wordcount: '207'
+ht-degree: 47%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 48%
 
 若要定義電子郵件預覽文字，請遵循下列步驟。
 
-1. 從 [電子郵件設計工具](create-email-content.md)，至少新增 **[!UICONTROL 結構]** 元件以開始設計電子郵件。
+1. 從[電子郵件Designer](create-email-content.md)，新增至少&#x200B;**[!UICONTROL 結構]**&#x200B;元件以開始設計您的電子郵件。
 
 1. 按一下左窗格中的&#x200B;**[!UICONTROL 導覽樹狀目錄]**&#x200B;圖示，然後選取「**[!UICONTROL 內文]**」。
 
-   ![](assets/preheader_body.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body.png){zoomable="yes"}
 
-1. 從 **[!UICONTROL 設定]** 定位字元，輸入一些文字作為預覽文字。
+1. 從&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤，輸入一些文字給預覽文字。
 
-1. 若要進一步個人化，請按一下 **[!UICONTROL 新增個人化]** 圖示左側 **[!UICONTROL 預覽文字]** 欄位。
+1. 若要進一步個人化，請按一下&#x200B;**[!UICONTROL 預覽標題]**&#x200B;欄位左側的&#x200B;**[!UICONTROL 新增個人化]**&#x200B;圖示。
 
-   ![](assets/preheader_body_settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. 從 **[!UICONTROL 編輯個人化]** 視窗，您可以新增 [個人化欄位](../personalization/personalize.md)， [內容區塊](../personalization/content-blocks.md) 和 [條件式內容](../personalization/conditions.md) 使用左側的專用專案。
+1. 從&#x200B;**[!UICONTROL 編輯Personalization]**&#x200B;視窗，您可以使用左側的專用專案來新增[個人化欄位](../personalization/personalize.md)、[內容區塊](../personalization/content-blocks.md)和[條件式內容](../personalization/conditions.md)。
 
-   ![](assets/preheader_body_personalization.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. 按一下「**[!UICONTROL 確認]**」。
 

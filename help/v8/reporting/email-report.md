@@ -5,14 +5,14 @@ description: 瞭解如何存取及使用電子郵件傳遞報告
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2329'
-ht-degree: 41%
+source-wordcount: '2289'
+ht-degree: 40%
 
 ---
 
 # 以電子郵件寄送傳遞報告  {#email-report}
 
-此 **以電子郵件傳送報告** 提供電子郵件通道特定的全面見解和資料。 其中會提供有關您的個別傳遞的效能、效益和成果的詳細資訊，為您提供全方位的概觀。
+**電子郵件傳遞報告**&#x200B;提供電子郵件通道特定的全面深入分析和資料。 其中會提供有關您的個別傳遞的效能、效益和成果的詳細資訊，為您提供全方位的概觀。
 
 ## 傳遞摘要 {#delivery-summary-email}
 
@@ -28,21 +28,21 @@ ht-degree: 41%
 >title="初始目標族群"
 >abstract="**初始目標族群**&#x200B;圖表根據傳遞準備的結果顯示與收件者和訊息相關的資料。"
 
-此 **[!UICONTROL 初始目標母體]** 圖表顯示與收件者相關的資料。 量度會在傳遞準備期間計算並顯示：初始對象、要傳送的訊息數、排除的收件者數。
+**[!UICONTROL 初始目標母體]**&#x200B;圖表顯示與收件者相關的資料。 量度會在傳遞準備期間計算並顯示：初始對象、要傳送的訊息數、排除的收件者數。
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_email_1.png){zoomable="yes"}
 
 將滑鼠移至圖表的一部分上以顯示確切的數字。
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
-* **[!UICONTROL 初始對象]**：目標收件者總數。
+* **[!UICONTROL 初始對象]**：目標收件者的總數。
 
-* **[!UICONTROL 要傳遞]**：準備傳送後要傳送的訊息總數。
+* **[!UICONTROL 要傳遞]**：傳遞準備後要傳遞的訊息總數。
 
-* **[!UICONTROL 排除]**：從目標人口中排除的收件者總數。
+* **[!UICONTROL 排除]**：從目標母體排除的收件者總數。
 +++
 
 ### 傳遞統計資料 {#email-delivery-stats}
@@ -52,19 +52,19 @@ ht-degree: 41%
 >title="傳遞統計資料"
 >abstract="**傳遞統計資料**&#x200B;圖表詳細說明傳遞成功以及發生的錯誤。"
 
-此 **[!UICONTROL 傳遞統計資料]** 圖表會詳細說明您的傳送是否成功。 量度詳情如下。
+**[!UICONTROL 傳遞統計資料]**&#x200B;圖表詳細說明您的傳遞是否成功。 量度詳情如下。
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_email_2.png){zoomable="yes"}
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
-* **[!UICONTROL 已傳送訊息]**：準備傳送後要傳送的訊息總數。
+* **[!UICONTROL 已傳送的郵件]**：準備傳遞後要傳遞的郵件總數。
 
-* **[!UICONTROL 成功]**：成功處理的訊息數與要傳送的訊息數相關。
+* **[!UICONTROL 成功]**：已順利處理的訊息數與要傳遞的訊息數有關。
 
-* **[!UICONTROL 錯誤]**：與要傳送的訊息數量相關的傳送和自動復原處理期間累計的錯誤總數。
+* **[!UICONTROL 錯誤]**：傳遞期間累積的錯誤總數，以及相對於要傳遞的訊息數的自動復原處理次數。
 
-* **[!UICONTROL 新隔離]**：與要傳送的訊息數量相關的傳送失敗（使用者未知、網域無效）後隔離的地址總數。
+* **[!UICONTROL 新隔離]**：在傳送失敗（使用者不明、網域無效）之後被隔離的地址總數，與要傳送的訊息數目相關。
 
 +++
 
@@ -75,25 +75,25 @@ ht-degree: 41%
 >title="傳遞排除原因"
 >abstract="**排除的原因**&#x200B;圖表和資料表顯示傳遞準備期間遭拒訊息每個規則的劃分。"
 
-此 **[!UICONTROL 排除的原因]** 圖形與表格會依規則顯示傳遞準備期間拒絕的訊息劃分。 有關排除規則的詳情，請參閱 [Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+**[!UICONTROL 排除原因]**&#x200B;圖形與表格會顯示傳遞準備期間拒絕之訊息的每條規則劃分。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}中有詳細說明。
 
-![](assets/reporting_email_3.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
-* **[!UICONTROL 使用者不明]**：傳送期間產生的錯誤型別，用以指出電子郵件地址無效。
+* **[!UICONTROL 使用者不明]**：傳送期間產生錯誤型別，指出電子郵件地址無效。
 
-* **[!UICONTROL 無效的網域]**：傳送傳遞時產生的錯誤型別，用以指出電子郵件地址的網域錯誤或不存在。
+* **[!UICONTROL 無效的網域]**：傳送傳遞時產生錯誤型別，指出電子郵件地址的網域錯誤或不存在。
 
-* **[!UICONTROL 郵箱已滿]**：在嘗試傳送五次後產生的錯誤型別，以指出收件者的收件匣包含太多訊息。
+* **[!UICONTROL 信箱已滿]**：在五次傳遞嘗試後產生的錯誤型別，表示收件者的收件匣包含太多郵件。
 
-* **[!UICONTROL 帳戶已停用]**：傳送傳遞時產生的錯誤型別，用以指出地址已不存在。
+* **[!UICONTROL 帳戶已停用]**：傳送傳遞時產生錯誤型別，表示地址已不存在。
 
 * **[!UICONTROL 已拒絕]**：當IAP （網際網路存取提供者）拒絕位址時產生的錯誤型別，例如在套用安全性規則（反垃圾郵件軟體）之後。
 
-* **[!UICONTROL 無法聯絡]**：訊息發佈字串中發生的錯誤型別：SMTP轉送上的事件、暫時無法連線網域等
+* **[!UICONTROL 無法連線]**：訊息發佈字串中發生的錯誤型別：SMTP轉送上的事件、暫時無法連線網域等
 
-* **[!UICONTROL 未連線]**：錯誤型別，表示收件者的行動電話在傳送時已關閉或已中斷與網路的連線。
+* **[!UICONTROL 未連線]**：錯誤型別表示收件者的行動電話在傳送時已關閉或與網路中斷連線。
 
 +++
 
@@ -106,7 +106,7 @@ ht-degree: 41%
 
 此報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。
 
-![](assets/reporting_email_3.1.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 
 ## 廣播統計資料 {#broadcast-statistics}
@@ -116,25 +116,25 @@ ht-degree: 41%
 >title="廣播統計資料"
 >abstract="**廣播統計資料**&#x200B;報告包含每個網域可能發生之錯誤的可用資料。"
 
-此 **[!UICONTROL 廣播統計資料]** 表格包含每個網域可能發生的錯誤的可用資料。 量度詳情如下。
+**[!UICONTROL 廣播統計資料]**&#x200B;表格包含每個網域可能發生的錯誤的可用資料。 量度詳情如下。
 
-![](assets/reporting_email_4.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
-* **[!UICONTROL 已處理的電子郵件]**：傳遞伺服器處理的訊息總數。
+* **[!UICONTROL 已處理的電子郵件]**：傳遞伺服器已處理的郵件總數。
 
-* **[!UICONTROL 已傳遞]**：成功處理的訊息數與已處理的訊息總數相比的百分比。
+* **[!UICONTROL 已傳遞]**：已順利處理的訊息數目與已處理的訊息總數之間的百分比。
 
-* **[!UICONTROL 硬跳出]**：與已處理的訊息總數相比的「硬」退信、永久錯誤（例如錯誤的電子郵件地址）數量百分比。
+* **[!UICONTROL 硬退信]**： 「硬」退信、永久錯誤（例如錯誤的電子郵件地址）數量與已處理郵件總數之間的百分比。
 
-* **[!UICONTROL 軟退信]**：與處理的郵件總數相比的「軟」退信、暫時錯誤（例如完整收件匣）數量百分比
+* **[!UICONTROL 軟退件]**：「軟退件」、暫時性錯誤（例如完整收件匣）與已處理郵件總數之間的百分比
 
-* **[!UICONTROL 開啟次數]**：與成功處理的訊息數相比，至少開啟過一次訊息的目標收件者人數的百分比。
+* **[!UICONTROL 開啟次數]**：與成功處理的郵件數目相比，至少開啟過一次郵件的目標收件者數目百分比。
 
-* **[!UICONTROL 點按次數]**：與成功處理的訊息數相比，至少一次點按傳送的人員數百分比。
+* **[!UICONTROL 點按次數]**：與成功處理的訊息數相比，至少點按一次傳遞的人員數百分比。
 
-* **[!UICONTROL 取消訂閱]**：與成功處理的訊息數相比的取消訂閱連結點選次數百分比。
+* **[!UICONTROL 取消訂閱]**：取消訂閱連結的點按次數與成功處理的訊息數之間的百分比。
 +++
 
 ## 無法傳遞的項目 {#non-deliverables-email}
@@ -151,27 +151,27 @@ ht-degree: 41%
 >title="依類型的錯誤劃分"
 >abstract=" **依類型的錯誤劃分**&#x200B;表格提供每種錯誤類型發生次數的全面劃分。"
 
-此 **[!UICONTROL 每種型別的錯誤劃分]** 表格和圖表包含可用於錯誤型別的資料。 量度詳情如下。
+每個型別&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分包含錯誤型別的可用資料。 量度詳情如下。
 
-此報告中顯示的錯誤會觸發隔離程式。 有關隔離管理的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
-![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
-* **[!UICONTROL 使用者不明]**：傳送期間產生的錯誤型別，用以指出電子郵件地址無效。
+* **[!UICONTROL 使用者不明]**：傳送期間產生錯誤型別，指出電子郵件地址無效。
 
-* **[!UICONTROL 無效的網域]**：傳送傳遞時產生的錯誤型別，用以指出電子郵件地址的網域錯誤或不存在。
+* **[!UICONTROL 無效的網域]**：傳送傳遞時產生錯誤型別，指出電子郵件地址的網域錯誤或不存在。
 
-* **[!UICONTROL 郵箱已滿]**：在嘗試傳送五次後產生的錯誤型別，以指出收件者的收件匣包含太多訊息。
+* **[!UICONTROL 信箱已滿]**：在五次傳遞嘗試後產生的錯誤型別，表示收件者的收件匣包含太多郵件。
 
-* **[!UICONTROL 帳戶已停用]**：傳送傳遞時產生的錯誤型別，用以指出地址已不存在。
+* **[!UICONTROL 帳戶已停用]**：傳送傳遞時產生錯誤型別，表示地址已不存在。
 
 * **[!UICONTROL 已拒絕]**：當IAP （網際網路存取提供者）拒絕位址時產生的錯誤型別，例如在套用安全性規則（反垃圾郵件軟體）之後。
 
-* **[!UICONTROL 無法聯絡]**：訊息發佈字串中發生的錯誤型別：SMTP轉送上的事件、暫時無法連線網域等
+* **[!UICONTROL 無法連線]**：訊息發佈字串中發生的錯誤型別：SMTP轉送上的事件、暫時無法連線網域等
 
-* **[!UICONTROL 未連線]**：錯誤型別，表示收件者的行動電話在傳送時已關閉或已中斷與網路的連線。
+* **[!UICONTROL 未連線]**：錯誤型別表示收件者的行動電話在傳送時已關閉或與網路中斷連線。
 
 +++
 
@@ -187,15 +187,15 @@ ht-degree: 41%
 >title="依網域的錯誤劃分"
 >abstract=" **依網域的錯誤劃分** 表格根據所使用網域提供每種錯誤發生次數的全面劃分。"
 
-此 **[!UICONTROL 每個網域的錯誤劃分]** 表格和圖表會顯示每個網域可能遇到的錯誤的可用資料。
+每個網域&#x200B;]**表格和圖形的**[!UICONTROL &#x200B;錯誤劃分會顯示每個網域可能遇到的錯誤的可用資料。
 
-![](assets/campaign_report_email_6.1.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 按一下每個網域名稱旁邊的圖示以檢視詳細資訊。
 
-![](assets/campaign_report_email_6.1.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-可用的量度與 [依型別劃分錯誤](#email-delivery-breakdown-type) 如上所述。
+可用的量度與上述[依型別](#email-delivery-breakdown-type)劃分的錯誤相同。
 
 ## 追蹤指標 {#tracking-indicators-email}
 
@@ -214,23 +214,23 @@ ht-degree: 41%
 >abstract="**傳遞統計資料**&#x200B;報告提供可詳細說明已傳送電子郵件可用資料的關鍵績效指標 (KPI)：成功、開啟數、點按數等。"
 
 
-此 **[!UICONTROL 傳遞統計資料]** 報告提供關鍵績效指標(KPI)，可提供所傳送電子郵件可用資料的詳細資訊。 量度詳情如下。
+**[!UICONTROL 傳遞統計資料]**&#x200B;報告提供關鍵績效指標(KPI)，可提供已傳送電子郵件之可用資料的詳細資訊。 量度詳情如下。
 
-![](assets/reporting_email_5.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
-* **[!UICONTROL 成功]**：成功處理的訊息數與要傳送的訊息數相關。
+* **[!UICONTROL 成功]**：已順利處理的訊息數與要傳遞的訊息數有關。
 
 * **[!UICONTROL 不同開啟次數]**：至少開啟過一次訊息的目標收件者總數。
 
-* **[!UICONTROL 開啟次數]**：此網域中至少開啟過一次訊息的不同目標收件者人數。
+* **[!UICONTROL 開啟]**：此網域已開啟郵件至少一次的不同目標收件者數目。
 
-* **[!UICONTROL 在選擇退出連結上的點選次數]**：對取消訂閱連結的點按次數。
+* **[!UICONTROL 點選退出連結]**：點選取消訂閱連結的次數。
 
-* **[!UICONTROL 按一下映象連結]**：點按映象頁面連結的次數。
+* **[!UICONTROL 點選映象連結的次數]**：點選映象頁面連結的次數。
 
-* **[!UICONTROL 轉送次數估計]**：目標收件者轉寄的電子郵件預估數量。
+* **[!UICONTROL 轉送次數估計]**：目標收件者轉送的電子郵件數量估計。
 +++
 
 ### 開啟及點進率 {#email-tracking-click-through}
@@ -242,21 +242,21 @@ ht-degree: 41%
 
 
 
-此 **[!UICONTROL 開啟及點進率]** 表格會顯示與收件者相關的資料。 量度詳情如下。
+**[!UICONTROL 開啟及點進率]**&#x200B;表格會顯示與收件者相關的資料。 量度詳情如下。
 
-![](assets/reporting_email_6.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
 * **[!UICONTROL 已傳送]**：已傳送的訊息總數。
 
-* **[!UICONTROL 投訴]**：此網域被回報為收件者不想要的訊息數。
+* **[!UICONTROL 投訴]**：此網域被收件者回報為不想要的訊息數。
 
-* **[!UICONTROL 開啟次數]**：此網域中至少開啟過一次訊息的不同目標收件者人數。
+* **[!UICONTROL 開啟]**：此網域已開啟郵件至少一次的不同目標收件者數目。
 
-* **[!UICONTROL 點按次數]**：至少點按一次相同傳遞的不同目標收件者人數。
+* **[!UICONTROL 點按次數]**：至少點按一次相同傳遞的不同目標收件者數目。
 
-* **[!UICONTROL 原始反應度]**：與開啟傳送至少一次的收件者人數相比，已至少點按一次傳送的收件者人數的百分比。
+* **[!UICONTROL 原始反應性]**：與開啟傳遞至少一次的收件者人數相比，至少點選一次傳遞的收件者人數的百分比。
 +++
 
 ## URL 和點擊流量 {#url-email}
@@ -269,17 +269,17 @@ ht-degree: 41%
 
 **[!UICONTROL URL 和點按資料流]**&#x200B;報告提供可詳細說明傳遞期間點按次數最多的 URL 的關鍵績效指標 (KPI)。
 
-![](assets/reporting_email_7.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
-* **[!UICONTROL 反應度]**：已點按傳送的目標收件者數目與已開啟傳送的目標收件者估計數目之間的比率。
+* **[!UICONTROL 反應性]**：已點按傳遞的目標收件者數目與已開啟傳遞的目標收件者預估數目之間的比率。
 
 * **[!UICONTROL 不同點按次數]**：在傳遞中至少點選一次的不同收件者總數。
 
-* **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
+* **[!UICONTROL 點按]**：傳遞中連結的點按總數。
 
-* **[!UICONTROL 平台平均值]** ：此平均比率顯示在每個比率（反應性、不同點按和累計點按）下，是針對過去六個月傳送的傳送進行計算。 系統只會考慮具有相同型別和相同通道的傳送。 校訂已排除。
+* **[!UICONTROL 平台平均值]** ：此平均比率顯示在每個比率（反應性、不同點按和累計點按）下，是針對過去六個月傳送的傳遞進行計算。 系統只會考慮具有相同型別和相同通道的傳送。 校訂已排除。
 
 +++
 
@@ -294,13 +294,13 @@ ht-degree: 41%
 
 **[!UICONTROL 造訪量最高的前 10 個連結]**&#x200B;圖表和資料表包含每個連結收件者行為的可用資料。
 
-![](assets/reporting_email_8.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
-* **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
+* **[!UICONTROL 點按]**：傳遞中連結的點按總數。
 
-* **[!UICONTROL 百分比]**：與傳送互動的使用者百分比。
+* **[!UICONTROL Percentage]**：與傳遞互動的使用者百分比。
 
 +++
 
@@ -313,9 +313,9 @@ ht-degree: 41%
 >abstract="**特定期間的點按劃分**&#x200B;圖表顯示每個連結收件者行為的可用資料。"
 
 
-此 **[!UICONTROL 一段時間內點按的劃分]** 圖表包含每個連結的收件者行為可用資料。
+**[!UICONTROL 隨著時間點選的劃分]**&#x200B;圖表包含每個連結的收件者行為可用資料。
 
-![](assets/reporting_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## 使用者活動 {#user-activities-email}
 
@@ -324,15 +324,15 @@ ht-degree: 41%
 >title="使用者活動"
 >abstract="**使用者活動**&#x200B;圖以圖表的形式顯示開啟和點按數的劃分。您可以選擇目標資料的時段：最近一天、最近一小時或最近 30 分鐘。"
 
-此 **[!UICONTROL 使用者活動]** 報告會以圖表形式顯示開啟和點按的劃分。 您可以選擇目標資料的時段：最近一天、最近一小時或最近 30 分鐘。
+**[!UICONTROL 使用者活動]**&#x200B;報告會以圖表形式顯示開啟和點按的劃分。 您可以選擇目標資料的時段：最近一天、最近一小時或最近 30 分鐘。
 
-![](assets/reporting_email_10.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
-* **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
+* **[!UICONTROL 點按]**：傳遞中連結的點按總數。
 
-* **[!UICONTROL 開啟次數]**：此網域中至少開啟過一次訊息的不同目標收件者人數。
+* **[!UICONTROL 開啟]**：此網域已開啟郵件至少一次的不同目標收件者數目。
 
 +++
 
@@ -341,17 +341,17 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="追蹤統計資料"
->abstract="**追蹤統計資料**&#x200B;圖表提供開啟和點按數的統計資料。您可以選擇特定時間段來目標定位資料。"
+>abstract="**追蹤統計資料**&#x200B;圖表提供開啟和點按數的統計資料。您可以選擇特定時間段來目標市場選擇資料。"
 
-**[!UICONTROL 追蹤統計資料]**&#x200B;圖表提供開啟和點按數的統計資料。您可以選擇特定時間段來目標定位資料。
+**[!UICONTROL 追蹤統計資料]**&#x200B;圖表提供開啟和點按數的統計資料。您可以選擇特定時間段來目標市場選擇資料。
 
-![](assets/reporting_email_11.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
-* **[!UICONTROL 點按次數]**：傳遞中連結的點按總數。
+* **[!UICONTROL 點按]**：傳遞中連結的點按總數。
 
-* **[!UICONTROL 開啟次數]**：此網域中至少開啟過一次訊息的不同目標收件者人數。
+* **[!UICONTROL 開啟]**：此網域已開啟郵件至少一次的不同目標收件者數目。
 
 +++
 
@@ -364,11 +364,11 @@ ht-degree: 41%
 >title="依裝置劃分"
 >abstract="**依裝置劃分**&#x200B;報告顯示期間內依裝置的開啟數劃分。每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個裝置類型的確切數量和百分比。"
 
-此 **依裝置劃分** 報表會依裝置顯示期間開啟的劃分：個人電腦、Android裝置、Apple裝置或其他。
+**依裝置劃分**&#x200B;報表會顯示該期間依裝置開啟的劃分：個人電腦、Android裝置、Apple裝置或其他。
 
 每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個裝置類型的確切數量和百分比。
 
-![](assets/reporting_email_13.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
 
 ### 依作業系統開啟的劃分 {#breakdown-opens-os}
@@ -378,11 +378,11 @@ ht-degree: 41%
 >title="依作業系統劃分"
 >abstract="**依作業系統劃分**&#x200B;報告顯示相關期間內依作業系統的開啟數劃分。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個作業系統的確切數量和百分比。"
 
-此 **依作業系統劃分** 報表會顯示該期間依作業系統開啟的劃分：Windows系統、Android系統、iOS系統或其他。
+「**依作業系統劃分**」報表會顯示該期間依作業系統劃分的開啟次數：Windows系統、Android系統、iOS系統或其他。
 
 每個類別有兩個圖表。第一個會顯示有關電腦和行動作業系統開啟的統計資料。 第二個顯示每個作業系統的確切數目和百分比。
 
-![](assets/reporting_email_13.1.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
 ### 依瀏覽器開啟的劃分 {#breakdown-opens-browser}
 
@@ -391,11 +391,11 @@ ht-degree: 41%
 >title="依瀏覽器劃分"
 >abstract="**依瀏覽器劃分**&#x200B;顯示期間內依瀏覽器的開啟數劃分。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個瀏覽器的確切數量和百分比。"
 
-此 **依瀏覽器劃分** 報表會顯示瀏覽器開啟的劃分： Chrome、Safari、Internet Explorer等。
+**依瀏覽器劃分**&#x200B;報表會顯示依瀏覽器開啟的劃分： Chrome、Safari、Internet Explorer等。
 
 每個類別有兩個圖表。第一個會顯示有關電腦和行動作業系統開啟的統計資料。 第二個圖表顯示每個瀏覽器的確切數量和百分比。
 
-![](assets/reporting_email_13.2.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
 
 ## 熱門點按 {#hotclicks}
@@ -407,4 +407,4 @@ ht-degree: 41%
 
 此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。個人化區塊取消訂閱連結、鏡像頁面連結和優惠連結有計入總累計點按數，但不顯示在報告中。
 
-![](assets/reporting11.png){zoomable=&quot;yes&quot;}
+![](assets/reporting11.png){zoomable="yes"}

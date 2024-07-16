@@ -5,7 +5,7 @@ description: 了解如何個人化您的電子郵件背景
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '300'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景設定"
->abstract="您可以將內容的背景顏色或背景影像個人化。請注意，並非所有的電子郵件使用者端都支援背景影像。"
+>abstract="您可以將內容的背景顏色或背景影像個人化。請注意，並非所有的電子郵件用戶端都支援背景影像。"
 
 在使用電子郵件設計工具設定背景時，Adobe 建議以下做法：
 
@@ -27,15 +27,15 @@ ht-degree: 100%
 
 * 設定整個電子郵件的&#x200B;**[!UICONTROL 背景顏色]**。確保在左窗格的導覽樹狀目錄中選取內文設定。
 
-  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_1.png){zoomable="yes"}
 
 * 選取「**[!UICONTROL 檢視區背景顏色]**」為所有結構元件設定相同的背景顏色。此選項可讓您從背景顏色中選取不同的設定。
 
-  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_2.png){zoomable="yes"}
 
 * 為每個結構元件設定不同的背景顏色。在左窗格的導覽樹狀目錄中選取結構，以僅將特定背景顏色套用到該結構。
 
-  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 * 為結構元件的內容設定&#x200B;**[!UICONTROL 背景影像]**。
 
-  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 * 在欄層級設定背景顏色。
 
-  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >

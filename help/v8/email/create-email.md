@@ -5,8 +5,8 @@ description: 瞭解如何使用Campaign網頁使用者介面傳送您的第一�
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 57%
+source-wordcount: '1348'
+ht-degree: 56%
 
 ---
 
@@ -20,54 +20,54 @@ ht-degree: 57%
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
-根據預先定義的 [設計範本](../email/create-email-templates.md)，該電子郵件也會根據客戶設定檔屬性提供個人化內容。
+根據預先定義的[設計範本](../email/create-email-templates.md)，電子郵件也會根據客戶設定檔屬性提供個人化內容。
 
-➡️ [在影片中探索此功能](#video)
+➡️[在影片中探索此功能](#video)
 
 ## 建立電子郵件傳遞 {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="選擇電子郵件範本"
->abstract="電子郵件範本是一種特定的傳遞設定，其中包含預先定義的設定，例如類型規則、個人化或路由參數。範本在 Campaign 使用者端主控台中定義。"
+>abstract="電子郵件範本是一種特定的傳遞設定，其中包含預先定義的設定，例如類型規則、個人化或路由參數。範本在 Campaign 用戶端主控台中定義。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="定義電子郵件屬性"
 >abstract="這些屬性是常見的傳遞參數，可幫助您對傳遞進行命名和分類。附加設定是選擇性的。如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充結構描述，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
 
-您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的環境中建立電子郵件。以下步驟詳細說明獨立（一次性）電子郵件傳送的程式。 在中進一步瞭解Adobe Campaign的傳遞建立步驟 [此頁面](../msg/gs-deliveries.md).
+您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的環境中建立電子郵件。以下步驟詳細說明獨立（一次性）電子郵件傳送的程式。 在[此頁面](../msg/gs-deliveries.md)中進一步瞭解Adobe Campaign的傳遞建立步驟。
 
 若要建立新的獨立電子郵件傳送，請遵循下列步驟。
 
-1. 瀏覽至 **[!UICONTROL 傳遞]** 功能表，然後按一下  **[!UICONTROL 建立傳遞]** 按鈕。
+1. 瀏覽至左側邊欄上的&#x200B;**[!UICONTROL 傳遞]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立傳遞]**&#x200B;按鈕。
 
    ![](../msg/assets/create-a-delivery.png)
 
-1. 選取 **[!UICONTROL 電子郵件]** 做為頻道，並從清單中選擇電子郵件傳遞範本。
+1. 選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為頻道，並從清單中選擇電子郵件傳遞範本。
 
    >[!NOTE]
    >
    >範本是預先設定的傳遞設定，儲存供未來使用。[了解更多](../msg/delivery-template.md)
 
-   ![](assets/channel-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/channel-template.png){zoomable="yes"}
 
 1. 按一下「**[!UICONTROL 建立傳遞]**」按鈕以確認。
 1. 輸入傳遞的標籤並根據您的需要設定其他選項：
 
    * **[!UICONTROL 內部名稱]**：指派唯一識別碼給傳遞。
-   * **[!UICONTROL 資料夾]**：將傳送儲存在特定資料夾。
-   * **[!UICONTROL 傳遞代碼]**：使用此欄位可根據您自己的命名慣例來組織傳送。
-   * **[!UICONTROL 說明]**：指定傳送的說明。
+   * **[!UICONTROL 資料夾]**：將傳遞儲存在特定資料夾中。
+   * **[!UICONTROL 傳遞代碼]**：使用此欄位，根據您自己的命名慣例來組織您的傳遞。
+   * **[!UICONTROL 描述]**：指定傳遞的描述。
    * **[!UICONTROL 性質]**：指定電子郵件的性質以進行分類。<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
    >
    >如果您使用特定自訂欄位擴展結構描述，則可以在「**[!UICONTROL 自訂選項]**」區段存取它們。
 
-   ![](assets/email-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-properties.png){zoomable="yes"}
 
-1. 此外，進階設定（例如型別規則和目標對應）可透過以下方式存取： **[!UICONTROL 設定]** 按鈕的位置。 這些設定已在選取的範本中預先設定，但可視需要為此特定電子郵件進行編輯。 [了解更多](../advanced-settings/delivery-settings.md)
+1. 此外，進階設定（例如型別規則與目標對應）可透過熒幕右上角的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕存取。 這些設定已在選取的範本中預先設定，但可視需要為此特定電子郵件進行編輯。 [了解更多](../advanced-settings/delivery-settings.md)
 
 ## 定義對象 {#define-audience}
 
@@ -86,67 +86,67 @@ ht-degree: 57%
 
    在此範例中，我們希望使用的現有對象其目標定位為銀級和金級忠誠積分層級的客戶。
 
-   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >清單中可用的對象源自您的Campaign v8執行個體，或若已在您的執行個體上設定目的地/來源整合，則源自Adobe Experience Platform。 此整合可讓您將Experience Platform區段傳送至Adobe Campaign，並將Campaign傳送和追蹤記錄傳送至Adobe Experience Platform。 瞭解如何在中使用Campaign和Adobe Experience Platform [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+   >清單中可用的對象源自您的Campaign v8執行個體，或若已在您的執行個體上設定目的地/Source整合，則源自Adobe Experience Platform。 此整合可讓您將Experience Platform區段傳送至Adobe Campaign，並將Campaign傳送和追蹤記錄傳送至Adobe Experience Platform。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}中瞭解如何使用Campaign和Adobe Experience Platform。
 
 1. 選取對象後，您可以套用其他規則進一步調整目標。
 
-   ![](assets/audience-selected.png){zoomable=&quot;yes&quot;}
+   ![](assets/audience-selected.png){zoomable="yes"}
 
 1. 您也可以設定控制組來分析電子郵件收件者與非目標收件者相比的行為。[了解如何使用控制組](../audience/control-group.md)
 
 ## 定義電子郵件內容 {#create-content}
 
-若要開始建立您的電子郵件內容，請遵循下列步驟。 在此使用案例中，您會使用預先定義的電子郵件 [傳遞範本](../msg/delivery-template.md) 以設計您的電子郵件。<!--TBC delivery template or email content template?-->
+若要開始建立您的電子郵件內容，請遵循下列步驟。 在此使用案例中，您使用預先定義的電子郵件[傳遞範本](../msg/delivery-template.md)來設計您的電子郵件。<!--TBC delivery template or email content template?-->
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../email/edit-content.md).-->
 
-1. 在電子郵件傳遞控制面板中，按一下 **[!UICONTROL 編輯內容]** 按鈕。
+1. 在電子郵件傳遞控制面板中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕。
 
-   ![](assets/email-edit-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content.png){zoomable="yes"}
 
-   這會將您帶到專用介面，您可以在其中設定電子郵件內容並存取電子郵件設計工具。 [了解更多](edit-content.md)
+   這會將您帶到專用介面，您可以在其中設定電子郵件內容並存取電子郵件Designer。 [了解更多](edit-content.md)
 
-   ![](assets/edit-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/edit-content.png){zoomable="yes"}
 
 1. 輸入電子郵件的主旨行並使用運算式編輯器加以個人化。[了解如何個人化您的內容](../personalization/personalize.md)
 
-   ![](assets/subject-line.png){zoomable=&quot;yes&quot;}
+   ![](assets/subject-line.png){zoomable="yes"}
 
 1. 若要設計電子郵件的內容，按一下「**[!UICONTROL 編輯電子郵件內文]**」按鈕。
 
-   選擇用於建立電子郵件內容的方法。在此範例中，使用 [預先定義的內容範本](create-email-templates.md).
+   選擇用於建立電子郵件內容的方法。在此範例中，使用[預先定義的內容範本](create-email-templates.md)。
 
-   ![](assets/select-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/select-template.png){zoomable="yes"}
 
-1. 選取範本後，它會顯示在 [電子郵件設計工具](create-email-content.md)，您可在此進行任何必要的編輯並新增個人化。
+1. 選取範本後，範本會顯示在[電子郵件Designer](create-email-content.md)中，您可於其中進行任何必要的編輯並新增個人化。
 
    例如，若要為電子郵件標題新增個人化，請選取元件區塊，然後按一下「**[!UICONTROL 新增個人化]**」。
 
-   ![](assets/add-perso.png){zoomable=&quot;yes&quot;}
+   ![](assets/add-perso.png){zoomable="yes"}
 
 1. 一旦您對內容感到滿意，請儲存並關閉您的設計。按一下「**[!UICONTROL 儲存]**」回到電子郵件建立畫面。
 
-   ![](assets/save-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/save-content.png){zoomable="yes"}
 
 ## 排程傳送 {#schedule}
 
-在工作流程內容中傳送傳遞時，您必須使用 **排程器** 活動。 進一步瞭解 [此頁面](../workflows/activities/scheduler.md). 下列步驟僅適用於獨立傳送。
+在工作流程內容中傳送傳遞時，您必須使用&#x200B;**排程器**&#x200B;活動。 在[此頁面](../workflows/activities/scheduler.md)瞭解更多資訊。 下列步驟僅適用於獨立傳送。
 
-1. 瀏覽至 **[!UICONTROL 排程]** 區段的傳送屬性。
+1. 瀏覽至傳遞屬性的&#x200B;**[!UICONTROL 排程]**&#x200B;區段。
 
-1. 使用 **[!UICONTROL 啟用排程]** 切換即可啟用。
+1. 使用&#x200B;**[!UICONTROL 啟用排程]**&#x200B;切換以啟動它。
 
 1. 設定所要的傳送日期和時間。
 
-   ![](assets/schedule.png){zoomable=&quot;yes&quot;}
+   ![](assets/schedule.png){zoomable="yes"}
 
 傳送傳遞後，實際傳送將從您定義的聯絡日期開始。
 
-進一步瞭解中的傳送排程 [本節](../msg/gs-deliveries.md#schedule-the-delivery-sending).
+在[本節](../msg/gs-deliveries.md#schedule-the-delivery-sending)中進一步瞭解傳遞排程。
 
 ## 預覽電子郵件並傳送校樣 {#preview-test}
 
@@ -154,42 +154,42 @@ ht-degree: 57%
 
 在此使用案例中，您會預覽電子郵件並傳送校樣到特定電子郵件地址，同時模擬一些目標設定檔。
 
-有關如何預覽電子郵件和傳送校樣的其他資訊，請參閱 [本節](../preview-test/preview-test.md).
+有關如何預覽電子郵件和傳送校樣的其他資訊，請參閱[本節](../preview-test/preview-test.md)。
 
 1. 若要檢閱您的電子郵件，請按一下「**[!UICONTROL 檢閱並傳送]**」。這將顯示您的電子郵件的預覽，以及所有已設定的屬性、對象和排程。您可以按一下修改按鈕來編輯任何其中一個元素。
 
-1. 若要預覽電子郵件並傳送校樣，請按一下 **[!UICONTROL 模擬內容]** 按鈕。
+1. 若要預覽電子郵件並傳送校樣，請按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
 
-   ![](assets/review-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/review-email.png){zoomable="yes"}
 
 1. 在左側，選取要用於預覽電子郵件的設定檔。
 
    右窗格顯示根據所選設定檔的電子郵件預覽。如果您已新增多個設定檔，您可以切換設定檔以預覽對應的電子郵件。
 
-   ![](assets/preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/preview.png){zoomable="yes"}
 
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. 若要傳送校樣，請按一下 **[!UICONTROL 傳送校樣]** 按鈕，然後選擇您要使用的模式。
+1. 若要傳送校樣，請按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕，然後選擇您要使用的模式。
 
-   在此範例中，使用 **[!UICONTROL 從主要目標替代]** 模式：將校樣傳送至特定電子郵件地址，同時類比電子郵件所定位的某些設定檔。
+   在此範例中，使用主要目標&#x200B;]**模式的**[!UICONTROL &#x200B;替代，會傳送校樣到特定電子郵件地址，同時類比電子郵件所定位的部分設定檔。
 
-   ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
+   ![](assets/proof-mode.png){zoomable="yes"}
 
-1. 按一下 **[!UICONTROL 新增地址]** 並指定接收校樣的電子郵件地址。
+1. 按一下&#x200B;**[!UICONTROL 新增地址]**&#x200B;並指定接收校樣的電子郵件地址。
 
    對於每個電子郵件地址，選取要模擬的設定檔。您也可以讓 Adobe Campaign 從目標中選取隨機設定檔。
 
-   ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
+   ![](assets/proof-test-profile.png){zoomable="yes"}
 
-1. 按一下 **[!UICONTROL 傳送證明]** 並確認傳送。
+1. 按一下&#x200B;**[!UICONTROL 傳送證明]**&#x200B;並確認傳送。
 
-   會將校樣透過所選的設定檔傳送至指定的電子郵件地址 **[校訂x]** 前置詞。
+   使用帶有&#x200B;**[校樣x]**&#x200B;首碼的所選設定檔，將校樣傳送至指定的電子郵件地址。
 
-   ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
+   ![](assets/proof-sent.png){zoomable="yes"}
 
-   您可以隨時按一下「 」，檢查傳送的狀態並存取傳送的校樣 **[!UICONTROL 檢視校樣]** 「模擬內容」畫面中的按鈕。
+   您可以隨時按一下模擬內容畫面中的&#x200B;**[!UICONTROL 檢視校樣]**&#x200B;按鈕，以檢查傳送的狀態並存取傳送的校樣。
 
 ## 傳送並監控電子郵件 {#prepare-send}
 
@@ -197,13 +197,13 @@ ht-degree: 57%
 
 1. 若要開始準備電子郵件，按一下「**[!UICONTROL 準備]**」。[了解如何準備電子郵件](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png){zoomable=&quot;yes&quot;}
+   ![](assets/preparation.png){zoomable="yes"}
 
 1. 準備好傳送電子郵件後，按一下「**[!UICONTROL 傳送]**」按鈕 (或 **[!UICONTROL 依排程傳送]**，如果您已排程傳送)，然後確認傳送。
 
 1. 在傳送程序期間，您可以直接在此畫面即時追蹤其進度並檢視統計資料。
 
-   ![](assets/sending-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/sending-email.png){zoomable="yes"}
 
    <!--
     ![](assets/sent-email.png){zoomable="yes"}-->
@@ -212,7 +212,7 @@ ht-degree: 57%
 
 1. 傳送電子郵件後，您可以按一下「**[!UICONTROL 報告]**」按鈕存取專屬報告以進一步分析。
 
-![](assets/reports.png){zoomable=&quot;yes&quot;}
+![](assets/reports.png){zoomable="yes"}
 
 ## 操作說明影片 {#video}
 
