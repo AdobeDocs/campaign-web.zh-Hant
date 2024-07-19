@@ -4,10 +4,10 @@ description: 探索下一個 Campaign Web 使用者介面版本的新功能
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
+source-git-commit: d4f9f3562f7dc2550bf9fea01f27456fdfdad43e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 55%
+source-wordcount: '454'
+ht-degree: 46%
 
 ---
 
@@ -50,14 +50,13 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 
 #### 內容片段 {#LA-24-7}
 
-片段是預先建立的可重複使用元件，可在整個Adobe Campaign的多個內容中參考，以改進並加速設計流程。
+您現在可以建立和使用內容片段。 內容片段是可重複使用的元件，可在一或多個訊息中參照。 修改片段時，使用該片段的每個內容都會更新。 此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合訊息內容。
 
-* 您現在可以撰寫、使用及管理&#x200B;**運算式片段**，以快速建立個人化內容。
+提供兩種型別的片段：
 
-* 您現在可以創作、使用和儲存&#x200B;**視覺片段**，以快速組合您的電子郵件和內容範本。 [了解更多](../email/fragments.md)
+* **運算式片段**&#x200B;是預先定義的運算式，可從運算式編輯器中的專用專案取得。
+* **視覺化片段**&#x200B;是預先定義的視覺化區塊，您可以在多個電子郵件傳遞或內容範本中重複使用。 [了解更多](../email/fragments.md)
 
-
-
-
-
-
+  >[!AVAILABILITY]
+  >
+  >**視覺片段**&#x200B;為有限可用性(LA)。 此功能僅限將&#x200B;**從Adobe Campaign Standard移轉至Adobe Campaign v8**&#x200B;的客戶使用，且無法部署於任何其他環境。
