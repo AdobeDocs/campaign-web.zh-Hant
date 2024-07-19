@@ -2,7 +2,7 @@
 audience: end-user
 title: 同意
 description: 瞭解Adobe Campaign網路中的同意
-badge: label="限量版"
+badge: label="有限可用性"
 source-git-commit: 9a184d7558ca39be3afed4a7217a5e5687799c0d
 workflow-type: tm+mt
 source-wordcount: '484'
@@ -18,13 +18,13 @@ Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，�
 
 * 首先，避免傳送未經請求的電子郵件、推播通知和SMS訊息（「垃圾訊息」）。 在打造顧客期限值及忠誠度的過程中，Adobe篤信許可式行銷原則，因此我們嚴格禁止使用Adobe Campaign傳送未經請求的訊息。 [了解更多](#denylisted-profiles)
 
-* 讓收件者能夠選擇退出傳遞，一律同意接收通訊<!-- and keep honoring opt-out requests as quickly as possible-->. [了解更多](#opt-out)
+* 讓收件者能夠選擇退出您的傳遞<!-- and keep honoring opt-out requests as quickly as possible-->，讓收件者一律同意接收通訊。 [了解更多](#opt-out)
 
 * 透過訂閱管理程式，您可以管理收件者的偏好設定，並追蹤哪些收件者已選擇加入何種訂閱型別。 [了解更多](../../delivery/using/about-services-and-subscriptions.md)
 
 ## 管理選擇退出 {#opt-out}
 
-向收件者提供取消訂閱來自品牌之通訊的功能為法律所規定，同時需確保遵循此選擇。 <!--Learn more about the applicable legislation in the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#privacy-regulations){target="_blank"}.-->
+向收件者提供取消訂閱來自品牌之通訊的功能為法律所規定，同時需確保遵循此選擇。<!--Learn more about the applicable legislation in the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#privacy-regulations){target="_blank"}.-->
 
 **為什麼這很重要？**
 
@@ -35,7 +35,7 @@ Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，�
 
 ### 電子郵件選擇退出 {#email-opt-out}
 
-若要讓收件者提供取消訂閱接收電子郵件通訊的功能，您必須一律包含 **取消訂閱連結** 每封寄送給收件者的電子郵件中。
+若要讓收件者能夠取消訂閱接收電子郵件通訊，您必須在每封寄送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**。
 
 請依照下列步驟以執行此操作。
 
@@ -47,17 +47,17 @@ Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，�
 
    ![](../email/assets/message-tracking-insert-link.png)
 
-1. 在 **[!UICONTROL Url]** 欄位貼上第三方登陸頁面的連結。
+1. 在&#x200B;**[!UICONTROL Url]**&#x200B;欄位中，貼上第三方登陸頁面的連結。
 
 1. 從左窗格按一下「**[!UICONTROL 連結]**」圖示以顯示內容中被追蹤的所有 URL 清單。
 
 1. 按一下新連結旁的鉛筆圖示即可進行編輯。
 
-1. 修改 **[!UICONTROL 追蹤型別]** 並將其設為 **[!UICONTROL 選擇退出]**.
+1. 修改&#x200B;**[!UICONTROL 追蹤型別]**&#x200B;並將其設定為&#x200B;**[!UICONTROL 選擇退出]**。
 
    ![](../email/assets/message-tracking-edit-a-link.png)
 
-1. 按一下 **[!UICONTROL 儲存]** 並傳送訊息。 [了解更多](../monitor/prepare-send.md)
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;並傳送訊息。 [了解更多](../monitor/prepare-send.md)
 
 1. 收到訊息後，如果收件者按一下取消訂閱連結，就會顯示您的登陸頁面。
 
@@ -67,13 +67,13 @@ Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，�
 
 ## 已加入封鎖清單的設定檔 {#denylisted-profiles}
 
-取消訂閱（選擇退出）後，設定檔位於 **封鎖清單** 對於指定的管道：這表示他們不再成為任何傳送的目標。
+取消訂閱（選擇退出）後，設定檔位於指定頻道的&#x200B;**封鎖清單**&#x200B;上：這表示它們不再成為任何傳送的目標。
 
 >[!NOTE]
 >
 >如果電子郵件通道封鎖清單上的設定檔有兩個電子郵件地址，則兩個地址都會從傳送中排除。
 
-您可以檢查設定檔是否位於一或多個頻道的封鎖清單中 **[!UICONTROL 不再聯絡]** 設定檔的區段 **[!UICONTROL 詳細資料]** 標籤。 [了解更多](../audience/about-recipients.md#access)
+您可以在設定檔的&#x200B;**[!UICONTROL 詳細資料]**&#x200B;索引標籤的&#x200B;**[!UICONTROL 不再聯絡]**&#x200B;區段中，檢查設定檔是否在一個或多個頻道的封鎖清單中。 [了解更多](../audience/about-recipients.md#access)
 
 ![](assets/profile-no-longer-contact.png)
 

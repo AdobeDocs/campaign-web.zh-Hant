@@ -5,8 +5,8 @@ description: 瞭解如何使用內建和自訂篩選器來篩選Adobe Campaign�
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 7%
+source-wordcount: '306'
+ht-degree: 5%
 
 ---
 
@@ -16,26 +16,26 @@ Adobe Campaign Web在每個物件清單中提供篩選器，可讓您根據特�
 
 ## 套用篩選器{#apply}
 
-若要將篩選器套用至清單，請按一下 **[!UICONTROL 顯示篩選器]** 位於清單左上角、搜尋列旁的按鈕。
+若要將篩選器套用至清單，請按一下搜尋列旁的清單左上角的&#x200B;**[!UICONTROL 顯示篩選器]**&#x200B;按鈕。
 
 篩選器窗格隨即開啟，顯示所選清單的可用篩選器。 例如，您可以依行銷活動的狀態、開始和結束日期或儲存資料夾來篩選行銷活動，而訂閱服務清單則可依其頻道和儲存資料夾來篩選。
 
-![](assets/filters-pane.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-若要根據您自己的條件來篩選清單，請建立自訂篩選器。 若要這麼做，請瀏覽至篩選器窗格的底部，然後按一下 **新增規則** 按鈕。 [瞭解如何建立自訂篩選器](#custom)
+若要根據您自己的條件來篩選清單，請建立自訂篩選器。 若要這麼做，請瀏覽至篩選器窗格的底部，然後按一下&#x200B;**新增規則**&#x200B;按鈕。 [瞭解如何建立自訂篩選器](#custom)
 
-篩選器一旦套用至清單，就會顯示在搜尋列下方。 您可以隨時移除個別篩選器，或按一下 **全部清除** 按鈕。
+篩選器一旦套用至清單，就會顯示在搜尋列下方。 您可以隨時移除個別篩選器，或按一下&#x200B;**全部清除**&#x200B;按鈕以移除所有篩選器。
 
 ## 建立自訂篩選器 {#custom}
 
 自訂篩選器可讓您根據自己的特定條件來調整清單。 它們是使用Campaign查詢模型工具所設計。 若要建立自訂篩選器，請遵循下列步驟：
 
-1. 開啟篩選器窗格，然後按一下 **新增規則** 位於窗格底部的按鈕。
+1. 開啟篩選器窗格，然後按一下窗格底部的&#x200B;**新增規則**&#x200B;按鈕。
 
-1. 查詢建模器隨即開啟。 定義並結合您的篩選條件以符合您的需求。 有關如何使用查詢建模器的詳細資訊，請參閱 [本節](../query/query-modeler-overview.md).
+1. 查詢建模器隨即開啟。 定義並結合您的篩選條件以符合您的需求。 有關如何使用查詢模型工具的詳細資訊，請參閱[本節](../query/query-modeler-overview.md)。
 
    以下範例顯示自訂篩選器，其設計為在行銷活動清單中顯示SMS行銷活動，由執行或瑜伽部門的操作者執行。
 
-   ![](assets/filters-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. 設定自訂篩選器後，請按一下 **[!UICONTROL 確認]** 以將其套用至清單。
+1. 設定自訂篩選器後，按一下&#x200B;**[!UICONTROL 確認]**&#x200B;以將其套用至清單。

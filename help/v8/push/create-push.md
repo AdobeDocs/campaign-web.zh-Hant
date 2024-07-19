@@ -24,15 +24,15 @@ ht-degree: 30%
 >title="推播傳遞屬性"
 >abstract="定義您的推送傳遞屬性。輸入推播的標籤，並使用「**其他選項**」設定內部名稱、傳遞資料夾和代碼。您也可以輸入自訂說明。"
 
-您可以建立獨立的推播通知傳送，或在行銷活動工作流程的內容中建立推播通知。 以下步驟詳細說明獨立（一次性）推播傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟為中的詳細資訊 [本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+您可以建立獨立的推播通知傳送，或在行銷活動工作流程的內容中建立推播通知。 以下步驟詳細說明獨立（一次性）推播傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟為[此區段](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中的詳細資料。
 
 ## 建立推播傳遞 {#create-push-delivery}
 
 若要建立新的獨立推送傳送，請遵循下列步驟：
 
-1. 瀏覽至 **[!UICONTROL 傳遞]** 功能表，然後按一下  **[!UICONTROL 建立傳遞]** 按鈕。
+1. 瀏覽至左側邊欄上的&#x200B;**[!UICONTROL 傳遞]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立傳遞]**&#x200B;按鈕。
 
-1. 在 **[!UICONTROL 頻道]** 區段，選擇 **推播通知** 做為頻道，並根據選擇的裝置作業系統選取範本：Android或iOS。 [進一步瞭解範本](../msg/delivery-template.md)
+1. 在&#x200B;**[!UICONTROL 管道]**&#x200B;區段下，選擇&#x200B;**推播通知**&#x200B;作為管道，並根據選擇的裝置作業系統選取範本：Android或iOS。 [進一步瞭解範本](../msg/delivery-template.md)
 
 1. 按一下「**[!UICONTROL 建立傳遞]**」按鈕以確認。
 
@@ -42,16 +42,16 @@ ht-degree: 30%
 
 設定您的傳送設定，如下所述：
 
-1. 輸入 **[!UICONTROL 標籤]** 用於傳遞。 依預設，標籤會以所選範本的標籤設定。 應進行更新。
+1. 輸入傳遞的&#x200B;**[!UICONTROL 標籤]**。 依預設，標籤會以所選範本的標籤設定。 應進行更新。
 
-1. 瀏覽 **[!UICONTROL 其他選項]** 下拉式清單，以視需要自訂選項。 如果您的傳送是以延伸結構描述為基礎，請指定 **自訂選項** 欄位可供使用。
+1. 視需要瀏覽&#x200B;**[!UICONTROL 其他選項]**&#x200B;下拉式清單，以自訂選項。 如果您的傳遞是以延伸結構描述為基礎，則可以使用特定的&#x200B;**自訂選項**&#x200B;欄位。
 
    +++根據您的要求設定下列設定。
    * **[!UICONTROL 內部名稱]**：指派唯一識別碼給傳遞。
    * **[!UICONTROL 資料夾]**：將傳遞儲存在特定資料夾中。
    * **[!UICONTROL 傳遞代碼]**：使用您自己的命名慣例整理您的傳遞。
    * **[!UICONTROL 說明]**：提供傳遞的說明。
-   * **[!UICONTROL 性質]**：指定用於分類目的的傳送性質。
+   * **[!UICONTROL 性質]**：指定傳遞的性質，以進行分類。
 +++
 
 
@@ -66,35 +66,35 @@ ht-degree: 30%
 
 您必須先選取應用程式，然後調整推播通知對象，如下所述：
 
-1. 從 **[!UICONTROL 對象]** 區段，選取您要用於此傳遞的應用程式。 根據預設，推播通知會傳送給應用程式的所有訂閱者。您可以按一下 **[!UICONTROL 選取對象]** 按鈕。
+1. 從&#x200B;**[!UICONTROL 對象]**&#x200B;區段中，選取您要用於此傳遞的應用程式。 根據預設，推播通知會傳送給應用程式的所有訂閱者。您可以按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，以調整為特定對象。
 
    ![](assets/push_create_2.png){zoomable="yes"}
 
-1. 選取現有對象，或建立自己的對象，以調整推播傳送的目標母體。 對於推播通知，預設值為 [目標維度](../audience/about-recipients.md#targeting-dimensions) 是 **訂閱者應用程式** (nms：appSubscriptionRcp)，連結至收件者表格。
+1. 選取現有對象，或建立自己的對象，以調整推播傳送的目標母體。 對於推播通知，預設的[目標維度](../audience/about-recipients.md#targeting-dimensions)為連結至收件者資料表的&#x200B;**訂閱者應用程式** (nms：appSubscriptionRcp)。
 
-   瞭解如何在中選取現有對象 [此頁面](../audience/add-audience.md)
+   瞭解如何在[此頁面](../audience/add-audience.md)中選取現有對象
 
-   瞭解如何在中建立新受眾 [此頁面](../audience/one-time-audience.md)
+   瞭解如何在[此頁面](../audience/one-time-audience.md)中建立新的對象
 
-1. 切換至 **[!UICONTROL 啟用控制組]** 用來設定控制組以測量傳送影響的選項。 訊息不會傳送給該控制組，因此您可以將收到訊息的母體的行為與未收到訊息的連絡人的行為進行比較。 [了解更多](../audience/control-group.md)
+1. 開啟&#x200B;**[!UICONTROL 啟用控制群組]**&#x200B;選項，設定控制群組以測量傳遞的影響。 訊息不會傳送給該控制組，因此您可以將收到訊息的母體的行為與未收到訊息的連絡人的行為進行比較。 [了解更多](../audience/control-group.md)
 
 ## 定義推播通知內容 {#create-content-push}
 
-若要定義通知的內容，請按一下 **[!UICONTROL 編輯內容]**. [了解更多](content-push.md)
+若要定義通知的內容，請按一下[編輯內容]。**** [了解更多](content-push.md)
 
 ![](assets/push_create_5.png){zoomable="yes"}
 
-在此畫面中，您也可以 [模擬您的內容](../preview-test/preview-test.md) 和 [設定優惠方案](../msg/offers.md).
+從這個熒幕，您也可以[模擬您的內容](../preview-test/preview-test.md)和[設定選件](../msg/offers.md)。
 
 ## 排程您的傳遞傳送 {#schedule-push}
 
-在工作流程內容中傳送傳遞時，您必須使用 **排程器** 活動。 進一步瞭解 [此頁面](../workflows/activities/scheduler.md). 下列步驟僅適用於獨立傳送。
+在工作流程內容中傳送傳遞時，您必須使用&#x200B;**排程器**&#x200B;活動。 在[此頁面](../workflows/activities/scheduler.md)瞭解更多資訊。 下列步驟僅適用於獨立傳送。
 
 若要將獨立推送傳送排程至特定日期和時間，請遵循下列步驟：
 
-1. 瀏覽至 **[!UICONTROL 排程]** 區段的傳送屬性。
+1. 瀏覽至傳遞屬性的&#x200B;**[!UICONTROL 排程]**&#x200B;區段。
 
-1. 使用 **[!UICONTROL 啟用排程]** 切換即可啟用。
+1. 使用&#x200B;**[!UICONTROL 啟用排程]**&#x200B;切換以啟動它。
 
 1. 設定所要的傳送日期和時間。
 
@@ -102,10 +102,10 @@ ht-degree: 30%
 
 ![](assets/push_create_3.png){zoomable="yes"}
 
-進一步瞭解中的傳送排程 [本節](../msg/gs-deliveries.md#gs-schedule)
+在[本節](../msg/gs-deliveries.md#gs-schedule)中進一步瞭解傳遞排程
 
 ## 傳遞進階設定 {#adv-push}
 
-按一下 **[!UICONTROL 設定傳遞設定]** 以存取與傳送範本相關的進階選項。 [了解更多](../advanced-settings/delivery-settings.md)
+按一下&#x200B;**[!UICONTROL 設定傳遞設定]**&#x200B;以存取與傳遞範本相關的進階選項。 [了解更多](../advanced-settings/delivery-settings.md)
 
 ![](assets/push_create_4.png){zoomable="yes"}

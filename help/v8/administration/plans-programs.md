@@ -20,31 +20,31 @@ ht-degree: 10%
 
 Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 
-為了更妥善地組織它們，Adobe建議使用下列階層：計畫 `>` 計畫 `>` 行銷活動
+為了更妥善地組織這些活動，Adobe建議使用下列階層：計畫`>`方案`>`行銷活動
 
-* A **計畫** 可能包含多個程式。 它會定義一段時間的策略目標。
-* A **方案** 可能包含其他方案以及行銷活動、工作流程和登入頁面。
-* A **行銷活動** 可能包含傳遞、工作流程和登入頁面。
+* **計畫**&#x200B;可能包含多個計畫。 它會定義一段時間的策略目標。
+* **方案**&#x200B;可能包含其他方案，以及行銷活動、工作流程和登入頁面。
+* **行銷活動**&#x200B;可能包含傳遞、工作流程和登入頁面。
 
 ## 建立及設定計畫 {#create-plan}
 
-若要建立計畫，您必須使用資料夾型別建立資料夾 **[!UICONTROL 計畫]** [進一步瞭解建立資料夾](create-manage-folder.md).
+若要建立計畫，您必須建立資料夾型別為&#x200B;**[!UICONTROL 計畫]** [深入瞭解如何建立資料夾](create-manage-folder.md)。
 
 ![](assets/plan_create.png){zoomable="yes"}
 
-前往 **[!UICONTROL 資料夾設定]** 管理計畫。
+前往您計畫的&#x200B;**[!UICONTROL 資料夾設定]**&#x200B;來管理它。
 
 ![](assets/plan_settings.png){zoomable="yes"}
 
-您可以定義 **[!UICONTROL 自訂選項]**，並設定計畫的排程日期。
+您可以定義&#x200B;**[!UICONTROL 自訂選項]**，並設定計畫的排程日期。
 
 ![](assets/plan_options.png){zoomable="yes"}
 
-若要管理  **[!UICONTROL 自訂選項]**：
+若要管理&#x200B;**[!UICONTROL 自訂選項]**：
 
-1. 瀏覽至 **[!UICONTROL 方案]**
-1. 選擇 **[!UICONTROL 可編輯]** 篩選器中的結構描述
-1. 按一下 **[!UICONTROL 編輯自訂詳細資料]**
+1. 瀏覽至&#x200B;**[!UICONTROL 結構描述]**
+1. 選擇篩選器中的&#x200B;**[!UICONTROL 可編輯]**&#x200B;結構描述
+1. 按一下&#x200B;**[!UICONTROL 編輯自訂詳細資料]**&#x200B;的圖示
 
 ![](assets/plan_edit.png){zoomable="yes"}
 
@@ -54,23 +54,23 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 
 ## 建立及設定程式
 
-若要在您的計畫中建立方案([深入瞭解如何建立計畫](#create-plan))，您必須加入您的計畫，並以資料夾型別建立資料夾 **[!UICONTROL 計畫]** [進一步瞭解建立資料夾](create-manage-folder.md).
+若要在您的計畫中建立方案（[深入瞭解如何建立方案](#create-plan)），您必須加入您的計畫，並建立資料夾型別為&#x200B;**[!UICONTROL 方案]** [深入瞭解如何建立資料夾](create-manage-folder.md)。
 
 ![](assets/program_create.png){zoomable="yes"}
 
-前往 **[!UICONTROL 資料夾設定]** 管理它。
+移至程式的&#x200B;**[!UICONTROL 資料夾設定]**&#x200B;來管理它。
 
 ![](assets/program_settings.png){zoomable="yes"}
 
-您可以定義 **[!UICONTROL 自訂選項]**，並設定方案的排程日期。
+您可以定義&#x200B;**[!UICONTROL 自訂選項]**，並設定程式的排程日期。
 
 ![](assets/program_options.png){zoomable="yes"}
 
-若要管理  **[!UICONTROL 自訂選項]**：
+若要管理&#x200B;**[!UICONTROL 自訂選項]**：
 
-1. 瀏覽至 **[!UICONTROL 方案]**
-1. 選擇 **[!UICONTROL 可編輯]** 篩選器中的結構描述
-1. 按一下 **[!UICONTROL 編輯自訂詳細資料]**
+1. 瀏覽至&#x200B;**[!UICONTROL 結構描述]**
+1. 選擇篩選器中的&#x200B;**[!UICONTROL 可編輯]**&#x200B;結構描述
+1. 按一下&#x200B;**[!UICONTROL 編輯自訂詳細資料]**&#x200B;的圖示
 
 ![](assets/program_edit.png){zoomable="yes"}
 
@@ -88,21 +88,21 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
-此 **[!UICONTROL 資料夾]** 設定會自動以您程式的路徑歸檔。
+**[!UICONTROL 資料夾]**&#x200B;設定會自動以您程式的路徑歸檔。
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
 ### 方式#2：您已擁有現有行銷活動，且想要將其連結至現有方案
 
-前往 **[!UICONTROL 設定]** 連結至方案之促銷活動的按鈕：
+前往您要連結至方案之行銷活動的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕：
 
 ![](assets/campaign_settings.png){zoomable="yes"}
 
-在其 **[!UICONTROL 屬性]**，按一下 **[!UICONTROL 資料夾]** 圖示於 **[!UICONTROL 資料夾]** 設定，以便選擇您的 **[!UICONTROL 計畫]** 資料夾。
+在&#x200B;**[!UICONTROL 屬性]**&#x200B;中，按一下&#x200B;**[!UICONTROL 資料夾]**&#x200B;設定中的&#x200B;**[!UICONTROL 資料夾]**&#x200B;圖示，以選擇您的&#x200B;**[!UICONTROL 程式]**&#x200B;資料夾。
 
 ![](assets/campaign_folder.png){zoomable="yes"}
 
-選取您的 **[!UICONTROL 計畫]** 資料夾並按一下 **[!UICONTROL 確認]** 按鈕，然後開啟 **[!UICONTROL 儲存並關閉]** 按鈕。
+選取您的&#x200B;**[!UICONTROL 程式]**&#x200B;資料夾，然後按一下&#x200B;**[!UICONTROL 確認]**&#x200B;按鈕，再按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;按鈕。
 
 ![](assets/campaign_linked.png){zoomable="yes"}
 

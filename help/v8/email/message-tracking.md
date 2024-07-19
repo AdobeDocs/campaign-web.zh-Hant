@@ -5,8 +5,8 @@ description: 了解如何新增連結和追蹤已傳送的訊息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 66%
+source-wordcount: '535'
+ht-degree: 69%
 
 ---
 
@@ -28,21 +28,21 @@ ht-degree: 66%
 
 1. 選擇您要建立的連結型別：
 
-   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL 外部連結]**：插入外部URL的連結。
 
      >[!AVAILABILITY]
      >
-     >下列功能(連結至 **[!UICONTROL 登陸頁面]**， **[!UICONTROL 訂閱連結]** 和 **[!UICONTROL 取消訂閱連結]**)為有限可用性(LA)。 限製為移轉的客戶 **從Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和無法部署在任何其他環境中。
+     >下列功能（連結至&#x200B;**[!UICONTROL 登陸頁面]**、**[!UICONTROL 訂閱連結]**&#x200B;和&#x200B;**[!UICONTROL 取消訂閱連結]**）為有限可用性(LA)。 僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。
 
-   * **[!UICONTROL 登陸頁面]**：插入登入頁面的連結。 如果您選取動態登陸頁面(包含 **[!UICONTROL 來自URL的服務]** 選項)，您可以從清單中選取任何服務。 [了解更多](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * **[!UICONTROL 登陸頁面]**：插入登陸頁面的連結。 如果您選取動態登入頁面（已選取&#x200B;**[!UICONTROL 來自URL的服務]**&#x200B;選項），則您可以從清單中選取任何服務。 [了解更多](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
-     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+     ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
    * **[!UICONTROL 訂閱連結]**：插入訂閱服務的連結。 當使用者按一下連結時，系統將他們導向至所選服務中參照的訂閱登入頁面。 [了解更多](../audience/manage-services.md#create-service)
 
-     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+     ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
    * **[!UICONTROL 取消訂閱連結]**：插入取消訂閱服務的連結。 當訂閱者按一下連結時，系統會將他們導向至所選服務中參照的取消訂閱登陸頁面。 [了解更多](../audience/manage-services.md#create-service)
 
@@ -59,11 +59,11 @@ ht-degree: 66%
    * 您可以編輯連結並變更其&#x200B;**[!UICONTROL 目標]**。
    * 您可以透過勾選對應的選項來選擇是否為連結加底線。
 
-   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-link-settings.png){zoomable="yes"}
 
 >[!NOTE]
 >
->行銷類型電子郵件訊息必須包含選擇退出連結，而異動訊息則不需要。訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**)會在頻道介面層級建立訊息時定義。
+>行銷類型電子郵件訊息必須包含選擇退出連結，而異動訊息則不需要。訊息類別（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）是在頻道介面層級建立訊息時定義的。
 
 鏡像頁面的特定連結應新增到您的所有電子郵件訊息。若要了解鏡像頁面的詳細資訊，請參閱[本章節](mirror-page.md)。
 
@@ -77,11 +77,11 @@ ht-degree: 66%
 
 1. 若要編輯連結，按一下對應的鉛筆圖示。
 
-   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-links.png){zoomable="yes"}
 
 1. 您可以修改&#x200B;**[!UICONTROL 追蹤類型]** (如果需要)：
 
-   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link.png){zoomable="yes"}
 
    對於每個被追蹤的 URL，您可以將追蹤模式設定為以下其中一個值：
 
@@ -92,6 +92,6 @@ ht-degree: 66%
 
 1. 為您的連結新增&#x200B;**[!UICONTROL 類別]**&#x200B;以將被追蹤的連結群組起來，然後按一下「**[!UICONTROL 儲存]**」。
 
-   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable="yes"}
 
 1. 傳送您的傳遞後，存取傳遞報告。在「**[!UICONTROL 追蹤]**」選單下，**[!UICONTROL URL 和點按資料流]** 報告顯示您的傳遞中哪些 URL 造訪次數最多。[了解更多](../reporting/gs-reports.md)

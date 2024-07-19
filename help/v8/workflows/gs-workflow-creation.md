@@ -5,7 +5,7 @@ description: 了解使用 Adobe Campaign Web 的關鍵工作流程原則
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 工作流程圖表代表應該發生的情況。它會說明要執行的各種任務以及任務如何連結在一起。
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;} {zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
 
 每個工作流程都包含：
 
@@ -38,15 +38,15 @@ ht-degree: 100%
 
 1. 工作流程可以從「**工作流程**」選單建立為獨立的工作流程。
 
-   ![](assets/create-a-standalone-wf.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-a-standalone-wf.png){zoomable="yes"}
 
 1. 可以從行銷活動的「**工作流程**」標籤，直接在行銷活動內建立工作流程。在包含於行銷活動時，工作流程與所有其他行銷活動的工作流程一起執行，且報告量度全部在行銷活動層級分組。
 
-   ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
 
 建立工作流程的關鍵步驟如下所示：
 
-![](assets/workflow-creation-process.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-creation-process.png){zoomable="yes"}
 
 以下章節詳細介紹了這些步驟：
 

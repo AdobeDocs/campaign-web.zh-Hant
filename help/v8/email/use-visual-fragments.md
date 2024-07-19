@@ -14,21 +14,21 @@ ht-degree: 4%
 
 # 在你的電子郵件中新增視覺內容片段 {#use-visual-fragments}
 
-您可以在以下專案中使用視覺效果片段： [電子郵件傳遞](get-started-email-designer.md)，或在 [內容範本](use-email-templates.md). 步驟詳述如下。
+您可以在[電子郵件傳遞](get-started-email-designer.md)或[內容範本](use-email-templates.md)中使用視覺片段。 步驟詳述如下。
 
 
 >[!NOTE]
 >
->瞭解如何在中建立和管理片段 [本節](fragments.md).
+>在[本節](fragments.md)中瞭解如何建立和管理片段。
 
 
 ## 使用片段 {#use-fragment}
 
 若要在電子郵件內容中插入片段，請遵循下列步驟：
 
-1. 使用開啟任何電子郵件或範本內容 [電子郵件設計工具](get-started-email-designer.md).
+1. 使用[電子郵件Designer](get-started-email-designer.md)開啟任何電子郵件或範本內容。
 
-1. 選取 **[!UICONTROL 片段]** 圖示加以檢視。
+1. 從左側邊欄選取&#x200B;**[!UICONTROL 片段]**&#x200B;圖示。
 
    ![](assets/fragments-in-designer.png)
 
@@ -42,7 +42,7 @@ ht-degree: 4%
    >
    >片段會依建立日期排序：最近新增的視覺化片段會先顯示在清單中。
 
-   如果在編輯內容時修改或新增了某些片段，請按一下 **重新整理** 圖示以使用最新變更更新清單。
+   如果您在編輯內容時修改或新增了某些片段，請按一下&#x200B;**重新整理**&#x200B;圖示，以最新變更更新清單。
 
 1. 從清單拖放任何片段到您要插入它的區域。 如同任何其他元件，您可以在內容中移動片段。
 
@@ -50,17 +50,17 @@ ht-degree: 4%
 
    ![](assets/fragment-right-pane.png)
 
-   從 **[!UICONTROL 設定]** 標籤，您可以：
+   從&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤，您可以：
 
    * 選擇您要顯示片段的裝置。
-   * 按一下 **編輯內容** 按鈕以開啟此片段的內容。 [了解更多](../email/fragments.md#edit-fragments)
+   * 按一下&#x200B;**編輯內容**&#x200B;按鈕，開啟此片段的內容。 [了解更多](../email/fragments.md#edit-fragments)
 
-     您可以使用進一步自訂您的片段 **[!UICONTROL 樣式]** 標籤。
+     您可以使用&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤進一步自訂您的片段。
 
-1. 如有需要，您可以中斷具有原始片段的繼承。 [瞭解更多](#break-inheritance)
+1. 如有需要，您可以中斷具有原始片段的繼承。 [進一步瞭解](#break-inheritance)
 您也可以從內容中刪除或復製片段。 這些動作可以直接從顯示在片段頂端的內容功能表執行。
 
-1. 新增任意數量的片段，並且 **[!UICONTROL 儲存]** 您的變更。
+1. 新增您想要的片段數，然後&#x200B;**[!UICONTROL 儲存]**&#x200B;您的變更。
 
 ## 中斷繼承 {#break-inheritance}
 

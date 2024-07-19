@@ -5,7 +5,7 @@ description: 了解如何定義連結樣式
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '139'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 1. 在「**[!UICONTROL 設定]**」索引標籤中，勾選「**[!UICONTROL 連結加底線]**」為標籤加底線。
 
-   ![](assets/link_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/link_1.png){zoomable="yes"}
 
 1. 使用「**[!UICONTROL 目標]**」下拉式選單選擇如何重新導向您的對象：
 
@@ -29,10 +29,10 @@ ht-degree: 100%
    * **[!UICONTROL 父系]**：在父框架中開啟連結。
    * **[!UICONTROL 頂端]**：在視窗的完整內文中開啟連結。
 
-   ![](assets/link_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/link_2.png){zoomable="yes"}
 
 1. 若要變更連結的顏色，請從「**[!UICONTROL 樣式]**&#x200B;索引標籤，按一下「**[!UICONTROL 連結顏色]**」。
 
-   ![](assets/link_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/link_3.png){zoomable="yes"}
 
 1. 儲存您的變更。

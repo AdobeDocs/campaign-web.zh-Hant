@@ -5,7 +5,7 @@ description: 探索用來調整電子郵件內容樣式的不同方式
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 您可以將變更套用到電子郵件內文、結構元件或內容元件。
 
-![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer_content_components_settings.png){zoomable="yes"}
 
 按照下方連結來了解如何調整您電子郵件中的一些樣式設定。
 

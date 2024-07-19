@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 19%
+source-wordcount: '948'
+ht-degree: 18%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 19%
 >title="內容範本"
 >abstract="為了加快和改進設計流程，您可以建立獨立電子郵件範本，以輕鬆地在 Adobe Campaign 中重複使用自訂內容。這些內容範本可以根據內建或自訂範本從頭開始設計、從現有內容建立，或在內容範本編輯器中匯入。"
 
-為了加快和改進設計流程，您可以建立獨立的範本，以輕鬆地重複使用中的自訂內容 [!DNL Adobe Campaign]. 這些內容範本可以根據內建或自訂範本從頭開始設計、從現有內容建立，或在內容範本編輯器中匯入。
+為了加速並改善設計流程，您可以建立獨立的範本，以輕鬆地在[!DNL Adobe Campaign]中重複使用自訂內容。 這些內容範本可以根據內建或自訂範本從頭開始設計、從現有內容建立，或在內容範本編輯器中匯入。
 
 此功能可讓內容導向的使用者使用獨立的範本，以便行銷使用者可以重複使用並在其自己的電子郵件行銷活動中調整它們。
 
 >[!NOTE]
 >
->目前僅適用 **電子郵件** 支援內容範本。
+>目前僅支援&#x200B;**電子郵件**&#x200B;內容範本。
 
 ## Access 內容範本 {#access-templates}
 
@@ -37,13 +37,13 @@ ht-degree: 19%
 >title="編輯您的範本內容"
 >abstract="按一下「**編輯內容**」按鈕可使用電子郵件設計工具更新您的內容。"
 
-若要存取內容範本清單，請瀏覽至 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 功能表。
+若要存取內容範本清單，請從左側邊欄瀏覽至&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]**&#x200B;功能表。
 
-![](assets/content-template-list.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-list.png){zoomable="yes"}
 
-此儀表板會將所有可用的內容範本顯示為清單。 您可以篩選特定 [資料夾](../get-started/permissions.md#folders) 使用下拉式清單，或使用新增規則 [查詢模型工具](../query/query-modeler-overview.md).
+此儀表板會將所有可用的內容範本顯示為清單。 您可以使用下拉式清單篩選特定[資料夾](../get-started/permissions.md#folders)，或使用[查詢模型工具](../query/query-modeler-overview.md)新增規則。
 
-![](assets/content-template-list-filters.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-list-filters.png){zoomable="yes"}
 
 您可以從清單中編輯、複製或刪除現有的內容範本。 使用上半區段的按鈕來建立內容範本。
 
@@ -60,9 +60,9 @@ ht-degree: 19%
 >title="內容範本選擇"
 >abstract="選取您的電子郵件內容範本。"
 
-內容範本可由以下人員建立： [將現有電子郵件儲存為範本](#save-as-template)，或從電子郵件範本清單中，透過 **建立內容範本** 按鈕， [如下所述](#create-template-from-scratch).
+內容範本可透過[將現有電子郵件儲存為範本](#save-as-template)，或從電子郵件範本清單中，透過&#x200B;**建立內容範本**&#x200B;按鈕[建立，詳情如下](#create-template-from-scratch)。
 
-儲存後，您現在便可在建立任何範本時使用此範本 [電子郵件](../email/create-email.md) 範圍 [!DNL Adobe Campaign]. [了解做法](use-email-templates.md)
+儲存後，您現在可以在[!DNL Adobe Campaign]內建立任何[電子郵件](../email/create-email.md)時使用此範本。 [了解做法](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -79,63 +79,63 @@ ht-degree: 19%
 
 若要從內容範本控制面板建立新的內容範本，請執行下列步驟：
 
-1. 瀏覽至內容範本清單，從 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 左側欄。
+1. 從&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]**&#x200B;左側邊欄瀏覽至內容範本清單。
 
-1. 選取 **[!UICONTROL 建立範本]**.
+1. 選取&#x200B;**[!UICONTROL 建立範本]**。
 
-   ![](assets/content-template-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-create.png){zoomable="yes"}
 
-1. 輸入範本標籤和屬性。 您可以選取要儲存範本的資料夾。 依預設，內容範本儲存在Adobe Campaign階層的專用資料夾中： **[!UICONTROL 瀏覽器]** > **[!UICONTROL 資源]** > **[!UICONTROL 範本]** > **[!UICONTROL 內容範本]**. 進一步瞭解中的資料夾 [此頁面](../get-started/permissions.md#folders)
+1. 輸入範本標籤和屬性。 您可以選取要儲存範本的資料夾。 依預設，內容範本儲存在Adobe Campaign階層的專用資料夾中： **[!UICONTROL 檔案總管]** > **[!UICONTROL 資源]** > **[!UICONTROL 範本]** > **[!UICONTROL 內容範本]**。 在[此頁面](../get-started/permissions.md#folders)中進一步瞭解資料夾
 
-   ![](assets/content-template-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-details.png){zoomable="yes"}
 
-1. 按一下 **[!UICONTROL 建立]** 並從不同選項中選擇要如何設計範本：
+1. 按一下「建立&#x200B;**[!UICONTROL 」]**，然後從不同的選項中選擇要如何設計範本：
 
-   * [從頭開始設計內容](create-email-content.md) 透過電子郵件設計工具的介面。
+   * [透過Designer的電子郵件介面從草稿開始設計您的內容](create-email-content.md)。
 
-   * [程式碼或複製貼上原始HTML](code-content.md) 直接放入電子郵件設計工具。
+   * [直接將原始HTML](code-content.md)編碼或複製貼上到Designer電子郵件中。
 
-   * [匯入現有的HTML內容](existing-content.md) 檔案或.zip資料夾中的檔案。
+   * [從檔案或.zip資料夾匯入現有的HTML內容](existing-content.md)。
 
-   * 使用內建或自訂範本清單中的現有內容。 在電子郵件中使用內容範本的步驟已說明，請參閱 [本節](use-email-templates.md).
+   * 使用內建或自訂範本清單中的現有內容。 在[本節](use-email-templates.md)中說明在電子郵件中使用內容範本的步驟。
 
-   ![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-templates.png){zoomable="yes"}
 
-1. 電子郵件設計工具隨即顯示。 視需要編輯您的內容，就像根據您選取的選項對任何電子郵件所做的那樣。 瞭解如何在中使用電子郵件設計工具 [本節](get-started-email-designer.md).
+1. Designer電子郵件隨即顯示。 視需要編輯您的內容，就像根據您選取的選項對任何電子郵件所做的那樣。 在[本節](get-started-email-designer.md)中瞭解如何使用電子郵件Designer。
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
-1. 範本準備就緒後，按一下 **[!UICONTROL 儲存]**.
+1. 範本準備就緒後，請按一下[儲存]。****
 
-   如有需要，請按一下範本名稱旁的箭頭，以返回 **[!UICONTROL 詳細資料]** 畫面並編輯您的範本。
+   如有需要，請按一下範本名稱旁的箭頭，返回&#x200B;**[!UICONTROL 詳細資料]**&#x200B;畫面並編輯您的範本。
 
-   ![](assets/content-template-save-back.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-save-back.png){zoomable="yes"}
 
-範本可在 **[!UICONTROL 內容範本]** 清單。 [了解更多](#access-templates)
+範本可在&#x200B;**[!UICONTROL 內容範本]**&#x200B;清單中使用。 [了解更多](#access-templates)
 
-您現在可以使用此範本建立新內容：此範本位於 **[!UICONTROL 已儲存的範本]** 電子郵件設計工具的索引標籤。 [了解做法](use-email-templates.md)
+您現在可以使用此範本建立新內容：可在電子郵件Designer的&#x200B;**[!UICONTROL 已儲存範本]**&#x200B;索引標籤中找到它。 [了解做法](use-email-templates.md)
 
 ### 將電子郵件內容另存為範本 {#save-as-template}
 
-一旦您 [設計電子郵件](create-email-content.md)，您可以將此內容儲存為範本以供日後重複使用。 儲存的範本可供 Adobe Campaign 環境的所有使用者使用。
+當您[設計電子郵件](create-email-content.md)後，您可以將此內容儲存為範本，以供日後重複使用。 儲存的範本可供 Adobe Campaign 環境的所有使用者使用。
 
 若要將電子郵件內容另存為範本，請依照以下步驟操作：
 
-1. 在電子郵件設計工具中，按一下 **[!UICONTROL 更多]** 按鈕。
+1. 在電子郵件設計工具中，按一下畫面右上方的&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕。
 
-1. 選取 **[!UICONTROL 另存為內容範本]** （從下拉式功能表）。
+1. 從下拉式功能表中選取&#x200B;**[!UICONTROL 另存為內容範本]**。
 
-   ![](assets/email_designer-save-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-save-template.png){zoomable="yes"}
 
 1. 輸入此範本的名稱，然後儲存。
 
-   ![](assets/email_designer-template-name.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-template-name.png){zoomable="yes"}
 
-範本會儲存並顯示在 **[!UICONTROL 內容範本]** 清單。 它會變成獨立的內容範本，可以像該清單上的任何其他專案一樣加以存取、編輯及刪除。 [了解更多](#access-manage-templates)
+範本已儲存並顯示在&#x200B;**[!UICONTROL 內容範本]**&#x200B;清單中。 它會變成獨立的內容範本，可以像該清單上的任何其他專案一樣加以存取、編輯及刪除。 [了解更多](#access-manage-templates)
 
-您現在可以使用此範本建立新內容：此範本位於 **[!UICONTROL 已儲存的範本]** 電子郵件設計工具的索引標籤。 [了解做法](use-email-templates.md)
+您現在可以使用此範本建立新內容：可在電子郵件Designer的&#x200B;**[!UICONTROL 已儲存範本]**&#x200B;索引標籤中找到它。 [了解做法](use-email-templates.md)
 
-![](assets/email_designer-saved-template.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer-saved-template.png){zoomable="yes"}
 
 
 >[!NOTE]
@@ -165,9 +165,9 @@ You can test the rendering of any email content template, whether created from s
 
 1. 從內容範本清單中，按一下要修改的範本標籤以進行編輯。
 
-1. 按一下 **[!UICONTROL 編輯內容]** 按鈕以使用更新您的內容 [電子郵件設計工具](get-started-email-designer.md).
+1. 按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，使用[電子郵件Designer](get-started-email-designer.md)更新您的內容。
 
-![](assets/content-template-edition.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-edition.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -177,11 +177,11 @@ You can test the rendering of any email content template, whether created from s
 
 刪除內容範本有兩個方法：
 
-* 從內容範本清單中，按一下省略符號按鈕，然後選取 **刪除**
+* 從內容範本清單中，按一下省略符號按鈕，然後選取&#x200B;**刪除**
 
   ![從儀表板刪除內容範本](assets/content-template-list-delete.png)
 
-* 從內容範本本身，按一下 **更多** 按鈕，然後選取 **刪除**
+* 從內容範本本身，按一下&#x200B;**更多**&#x200B;按鈕，然後選取&#x200B;**刪除**
 
 
 >[!NOTE]
@@ -193,9 +193,9 @@ You can test the rendering of any email content template, whether created from s
 
 複製內容範本有兩個方法：
 
-* 從內容範本清單中，按一下省略符號按鈕，然後選取 **複製**
+* 從內容範本清單中，按一下省略符號按鈕，然後選取&#x200B;**複製**
 
-* 從內容範本本身，按一下 **更多** 按鈕，然後選取 **複製**
+* 從內容範本本身，按一下&#x200B;**更多**&#x200B;按鈕，然後選取&#x200B;**複製**
 
-在這兩種情況下，請確認複製以建立新的內容範本。 新內容範本的標籤為 **副本`<label of the initial campaign`**. 瀏覽至範本設定以更新此標籤。
+在這兩種情況下，請確認複製以建立新的內容範本。 新內容範本的標籤是&#x200B;**`<label of the initial campaign`**&#x200B;的復本。 瀏覽至範本設定以更新此標籤。
 

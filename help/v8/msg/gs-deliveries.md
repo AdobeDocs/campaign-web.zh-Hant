@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1185'
 ht-degree: 96%
 
 ---
@@ -34,12 +34,12 @@ ht-degree: 96%
 
 1. 瀏覽至左側導覽上的「**[!UICONTROL 傳遞]**」選單，然後按一下「**[!UICONTROL 建立傳遞]**」按鈕。
 
-   ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-a-delivery.png){zoomable="yes"}
 
 1. 選擇要用於傳遞的管道。
-1. 定義主要目標和控制組的傳遞對象。[深入瞭解對象](../audience/about-recipients.md).
+1. 定義主要目標和控制組的傳遞對象。[進一步瞭解對象](../audience/about-recipients.md)。
 
-   ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+   ![](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
 
 1. 定義訊息內容。若要了解傳遞管道以及如何定義傳遞內容的詳細資訊，請參閱以下章節：
 
@@ -51,7 +51,7 @@ ht-degree: 96%
 1. 按一下「**[!UICONTROL 檢閱並傳送]**」按鈕，以檢查您的設定。
 1. 使用「**[!UICONTROL 模擬內容]**」按鈕，以測試您的傳遞和個性化設定。若要了解訊息模擬的詳細資訊，請參閱[本章節](../preview-test/preview-test.md)。
 1. 按一下「**[!UICONTROL 準備]**」按鈕，以計算目標母體並產生訊息。準備步驟可能需要幾分鐘的時間才能完成。準備完成後，訊息即可用於傳送。萬一出現錯誤，請瀏覽到「**記錄檔**」，檢查警示和警告。
-1. 檢查結果，然後按一下 **[!UICONTROL 傳送]** 按鈕以開始傳送訊息。
+1. 檢查結果，然後按一下&#x200B;**[!UICONTROL 傳送]**&#x200B;按鈕以開始傳送訊息。
 1. 傳送訊息後，請瀏覽到「**報告**」章節，以存取關鍵量度。若要了解傳遞報告的詳細資訊，請參閱[本章節](../reporting/delivery-reports.md)。
 
 >[!TAB 建立工作流程中的傳遞]
@@ -59,16 +59,16 @@ ht-degree: 96%
 若要在工作流程中建立傳遞，請依照以下步驟進行：
 
 1. 建立一個工作流程或開啟一個現有的工作流程。[進一步瞭解工作流程](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. 新增並設定 [**[!UICONTROL 建立對象]**](../workflows/activities/build-audience.md) 活動。
-1. 按一下 `+` 圖示並選取傳遞活動：**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL 推播通知 (Android)]** 或&#x200B;**[!UICONTROL 推播通知 (iOS)]**。進一步瞭解工作流程中的傳遞通道活動，以及如何在中定義傳遞內容 [本節](../workflows/activities/channels.md).
+1. 新增並設定[**[!UICONTROL 建置對象]**](../workflows/activities/build-audience.md)活動。
+1. 按一下 `+` 圖示並選取傳遞活動：**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL 推播通知 (Android)]** 或&#x200B;**[!UICONTROL 推播通知 (iOS)]**。在[本節](../workflows/activities/channels.md)中進一步瞭解工作流程中的傳遞通道活動，以及如何定義傳遞內容。
 
-   ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
+   ![](assets/add-delivery-in-wf.png){zoomable="yes"}
 
 1. 啟動工作流程，並檢查記錄檔。
 
 您還可以在不建立工作流程的情況下在行銷活動中新增傳遞。若要這麼做，請瀏覽到行銷活動的「**[!UICONTROL 傳遞]**」標籤，然後按一下「**[!UICONTROL 建立傳遞]**」按鈕。
 
-![](assets/new-campaign-delivery.png){zoomable=&quot;yes&quot;}
+![](assets/new-campaign-delivery.png){zoomable="yes"}
 
 設定步驟和獨立傳遞類似。
 
@@ -116,7 +116,7 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[深入�
 
 若要排程傳遞傳送，請開啟傳遞並瀏覽至「**[!UICONTROL 排程]**」章節。使用「**[!UICONTROL 啟用排程]**」切換加以啟動，並設定想要的傳送日期和時間。傳送傳遞後，將在您定義的聯絡日期開始實際傳送。
 
-![](assets/schedule.png){zoomable=&quot;yes&quot;}
+![](assets/schedule.png){zoomable="yes"}
 
 預設會選取「**[!UICONTROL 啟用傳送前確認]**」選項。此選項要求您在排程的日期和時間傳遞之前確認傳送。如果您需要在排程的日期和時間自動傳送傳遞，您可以停用此選項。
 

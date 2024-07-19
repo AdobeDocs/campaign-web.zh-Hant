@@ -5,7 +5,7 @@ description: 了解如何調整垂直對齊方式和邊框間距
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '165'
 ht-degree: 100%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 100%
 
 1. 直接在電子郵件或使用左窗格中的&#x200B;**[!UICONTROL 導覽樹狀目錄]**&#x200B;選取結構元件。
 
-   ![](assets/alignment_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/alignment_1.png){zoomable="yes"}
 
 1. 在內容關聯式工具列中，按一下「**[!UICONTROL 選取欄]**」並選擇您要編輯的欄。您也可以從左側的結構樹選取欄。
 
-   ![](assets/alignment_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/alignment_2.png){zoomable="yes"}
 
 1. 該欄的可編輯參數會顯示在「**[!UICONTROL 樣式]**」索引標籤中。使用專屬區段調整&#x200B;**[!UICONTROL 對齊方式]**。
 
-   ![](assets/alignment_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/alignment_3.png){zoomable="yes"}
 
    例如，選取「**[!UICONTROL 底部]**」。內容元件會移至欄的底部。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
    >
    >按一下鎖定圖示可中斷上/下或左/右邊框間距之間的同步。
 
-   ![](assets/alignment_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/alignment_4.png){zoomable="yes"}
 
 1. 以類似的方式調整其他欄的對齊方式和邊框間距。
 

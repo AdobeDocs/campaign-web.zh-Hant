@@ -4,8 +4,8 @@ title: 編輯電子郵件內容
 description: 了解如何使用 Campaign Web 使用者介面中的電子郵件設計工具開始建置您的內容
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
-workflow-type: ht
-source-wordcount: '381'
+workflow-type: tm+mt
+source-wordcount: '379'
 ht-degree: 100%
 
 ---
@@ -45,4 +45,4 @@ The Email Designer allows you to create email content and email content template
 
 * 從內建或自訂範本清單中&#x200B;**選取現有內容**。若要了解如何使用電子郵件範本，請參閱[本章節](create-email-templates.md)。
 
-  ![](assets/email_designer_create_options.png){zoomable=&quot;yes&quot;}
+  ![](assets/email_designer_create_options.png){zoomable="yes"}

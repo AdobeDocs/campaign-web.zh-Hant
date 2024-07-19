@@ -5,8 +5,8 @@ description: 瞭解全域報告
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 32%
+source-wordcount: '275'
+ht-degree: 30%
 
 ---
 
@@ -32,22 +32,22 @@ ht-degree: 32%
 
 若要存取及管理全域報告，請遵循下列步驟：
 
-1. 導覽至 **[!UICONTROL 報表]** 功能表中的 **[!UICONTROL 報告]** 區段。
+1. 瀏覽至&#x200B;**[!UICONTROL 報表]**&#x200B;區段內的&#x200B;**[!UICONTROL 報表]**&#x200B;功能表。
 
 1. 在左側功能表中，從清單中選取報表，並導覽至標籤，以顯示每個管道的資料。
 
-   ![](assets/global_report_manage_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_3.png){zoomable="yes"}
 
-1. 從您的控制面板中，選擇 **開始** 和 **[!UICONTROL 結束時間]** 以鎖定特定資料。
+1. 從您的儀表板，選擇&#x200B;**開始**&#x200B;和&#x200B;**[!UICONTROL 結束時間]**&#x200B;以鎖定特定資料。
 
-   ![](assets/global_report_manage_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_1.png){zoomable="yes"}
 
-1. 從 **[!UICONTROL 挑選資料夾]** 欄位，選取是否要從特定資料夾定位傳送或行銷活動。
+1. 從&#x200B;**[!UICONTROL 挑選資料夾]**&#x200B;欄位中，選取您是否要從特定資料夾定位傳遞或行銷活動。
 
-   ![](assets/global_report_manage_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_2.png){zoomable="yes"}
 
-1. 按一下 **[!UICONTROL 新增規則]** 以開始建立查詢，進而更妥善地篩選報表資料。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
+1. 按一下&#x200B;**[!UICONTROL 新增規則]**&#x200B;以開始建立查詢，以更好地篩選報表資料。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
 
-1. 從 **[!UICONTROL URL和點按流量]**，您也可以選擇 **[!UICONTROL 最常造訪的連結]** 或 **[!UICONTROL 時段]**.
+1. 從&#x200B;**[!UICONTROL URL和點選資料流]**，您也可以選擇&#x200B;**[!UICONTROL 最常造訪的連結]**&#x200B;或&#x200B;**[!UICONTROL 時段]**。
 
-   此 **[!UICONTROL 檢視方式]** 選項可讓您篩選URL、標籤或類別。
+   **[!UICONTROL 檢視依據]**&#x200B;選項可讓您篩選URL、標籤或類別。

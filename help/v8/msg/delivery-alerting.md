@@ -23,14 +23,14 @@ ht-degree: 19%
 
 您可以根據透過Adobe Campaign Web使用者介面定義的特定警報條件來自訂通知。
 
-有關如何管理傳送失敗的詳細資訊，請參閱 [Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}
+有關如何管理傳遞失敗的詳細資訊，請參閱[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}
 
 ## 電子郵件通知內容 {#content}
 
 電子郵件通知包括下列小節：
 
-* **摘要**：顯示符合您定義條件的傳送數目，每個條件都有標籤和顏色。
-* **詳細資料**：列出控制面板的所有已定義傳送條件，以及每個條件的對應傳送。
+* **摘要**：顯示符合您定義條件的傳遞數目，以及每個條件的標籤和顏色。
+* **詳細資料**：列出控制面板的所有已定義傳遞條件，以及每個條件的對應傳遞。
 
 ![](assets/alerting-email.png)
 
@@ -38,11 +38,11 @@ ht-degree: 19%
 
 為協助您設定這些警示，Campaign Web使用者介面可讓您建立並管理：
 
-* **傳送警報儀表板**：指定收件者、設定要納入控制面板的警報條件，以及存取已傳送警報的歷史記錄。 [瞭解如何使用儀表板](../msg/delivery-alerting-dashboards.md)
-* **傳遞警報條件**：Campaign Web使用者介面提供預先定義的警示准則（輸送量低的傳送、準備失敗的傳送……），您可將其新增至您的儀表板。 您也可以根據自己的需求建立條件。 [瞭解如何使用條件](../msg/delivery-alerting-criteria.md)
+* **傳送警示儀表板**：指定收件者、設定要包含在儀表板中的警示准則，以及存取已傳送警示的歷史記錄。 [瞭解如何使用儀表板](../msg/delivery-alerting-dashboards.md)
+* **傳送警示條件**： Campaign Web使用者介面提供預先定義的警示條件（輸送量低的傳送、準備失敗的傳送……），您可以將這些條件新增至您的儀表板。 您也可以根據自己的需求建立條件。 [瞭解如何使用條件](../msg/delivery-alerting-criteria.md)
 
 假設您只想通知具有管理許可權的使用者傳送失敗，並通知行銷使用者傳送軟跳出錯誤率高的情況。 若要完成此操作，請為每個收件者群組建立兩個獨立的控制面板，其中包含適當的條件。
 
 >[!NOTE]
 >
->若要存取及設定控制面板和警報條件，您必須擁有 **管理許可權** 或屬於 **傳遞主管** 安全性群組。 標準使用者無法存取Adobe Campaign介面中的儀表板，但會收到警報通知。 [進一步瞭解存取和許可權](../get-started/permissions.md)
+>若要存取及設定儀表板和警示條件，您必須擁有&#x200B;**管理許可權**，或是&#x200B;**傳遞主管**&#x200B;安全性群組的成員。 標準使用者無法存取Adobe Campaign介面中的儀表板，但會收到警報通知。 [進一步瞭解存取和許可權](../get-started/permissions.md)

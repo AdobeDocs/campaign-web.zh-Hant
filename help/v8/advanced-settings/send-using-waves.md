@@ -6,8 +6,8 @@ feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
 source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 15%
+source-wordcount: '788'
+ht-degree: 14%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 15%
 
 若要使用波段傳送傳遞，請遵循下列步驟。
 
-1. 開啟 [傳遞設定](delivery-settings.md#retries).
+1. 開啟[傳遞設定](delivery-settings.md#retries)。
 
-1. 瀏覽至 **[!UICONTROL 傳遞]** 區段。
+1. 瀏覽至&#x200B;**[!UICONTROL 傳遞]**&#x200B;區段。
 
-1. 選取 **[!UICONTROL 使用多個波段傳送]** 選項。
+1. 選取&#x200B;**[!UICONTROL 使用多個波段傳送]**&#x200B;選項。
 
 1. 若要設定波段，您可以：
 
@@ -46,39 +46,39 @@ ht-degree: 15%
 
    >[!CAUTION]
    >
-   >請確定最後一個批次沒有超過中定義的傳送期限 [有效性](delivery-settings.md#validity) 標籤，否則部分訊息可能不會傳送。 特定型別控制規則、 **[!UICONTROL 波段排程檢查]**，確保最後一個波段是在傳遞效度限制之前計畫。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=zh-Hant).
+   >請確定最後批次不超過[有效性](delivery-settings.md#validity)標籤中定義的傳遞期限，否則可能無法傳送部分訊息。 特定型別控制規則&#x200B;**[!UICONTROL 波段排程檢查]**&#x200B;可確保最後一個波段是在傳遞有效期限之前計畫。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=zh-Hant)中進一步瞭解控制規則。
    >
    >在設定最後一個波段時，您也必須允許足夠的重試時間。 [了解更多](delivery-settings.md#retries)
 
-1. 若要監視您的傳送情況，請前往 [傳遞記錄](../monitor/delivery-logs.md). 您可以檢視已在處理批次中傳送的傳遞(**[!UICONTROL 已傳送]** 狀態)和在剩餘波段中要傳送的傳遞(**[!UICONTROL 擱置中]** 狀態)。
+1. 若要監視您的傳送，請移至[傳遞記錄](../monitor/delivery-logs.md)。 您可以看到已在已處理批次中傳送的傳遞（**[!UICONTROL 已傳送]**&#x200B;狀態）以及將在剩餘批次中傳送的傳遞（**[!UICONTROL 擱置中]**&#x200B;狀態）。
 
 ## 排定大小相同的多個波段 {#waves-same-size}
 
 如果選取此選項，則所有波段的大小都相同（最後一個波段除外），而且每個波段之間的延遲始終相同。
 
-![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
+![](assets/waves-same-size.png){zoomable="yes"}
 
 * 指定您要分割傳遞的所有波段的大小。 您可以輸入百分比或數值。 只有最後一個波段的大小可以不同，因為它必須包含剩餘的訊息數量。
 
-  例如，如果您輸入 **[!UICONTROL 30%]** 在 **[!UICONTROL 波段大小]** 欄位中，前三個波段代表傳送中所含全部訊息的30%，第四個波段代表其餘10%。
+  例如，如果您在&#x200B;**[!UICONTROL 波段大小]**&#x200B;欄位中輸入&#x200B;**[!UICONTROL 30%]**，前三個波段代表傳遞中包含的所有訊息的30%，第四個波段代表剩餘的10%。
 
-* 在 **[!UICONTROL 間隔]** 部分，指定兩個連續波段開始之間的延遲。 例如，如果您輸入 **[!UICONTROL 2天]**，第一個波段會立即開始，第二個波段會在兩天內開始，第三個波段會在四天內開始，以此類推。
+* 在&#x200B;**[!UICONTROL 間隔]**&#x200B;區段中，指定兩個連續波段開始之間的延遲。 例如，如果您輸入&#x200B;**[!UICONTROL 2天]**，第一個波段會立即開始，第二個波段會在兩天內開始，第三個波段會在四天內開始，依此類推。
 
 使用數個相同大小的批次的常見使用案例是涉及呼叫中心。 管理電話忠誠度行銷活動時，貴組織處理聯絡訂閱者之通話次數的能力有限。
 
 使用波段時，您可以將每天的訊息數量限製為20，這是客服中心的每日處理能力。
 
-若要這麼做，請選取 **[!UICONTROL 排程相同大小的多個波段]** 選項。 輸入 **[!UICONTROL 20]** 當波段大小和 **[!UICONTROL 1天]** 在 **[!UICONTROL 間隔]** 欄位。
+若要這麼做，請選取&#x200B;**[!UICONTROL 排程多個相同大小的波段]**&#x200B;選項。 輸入&#x200B;**[!UICONTROL 20]**&#x200B;作為波段大小，並在&#x200B;**[!UICONTROL 間隔]**&#x200B;欄位中輸入&#x200B;**[!UICONTROL 1天]**。
 
-![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
+![](assets/waves-call-center.png){zoomable="yes"}
 
 ## 根據行事曆排定波段 {#waves-calendar}
 
 如果選取此選項，您必須定義要傳送之每個波次的開始日/時間，以及每個波次的大小。
 
-* 在 **[!UICONTROL 開始]** 欄位，指定兩個連續波段開始之間的延遲。
+* 在&#x200B;**[!UICONTROL 開始]**&#x200B;欄位中，指定兩個連續波段開始之間的延遲。
 
-* 在 **[!UICONTROL 大小]** 欄，輸入固定數字或百分比。
+* 在&#x200B;**[!UICONTROL 大小]**&#x200B;欄中，輸入固定數字或百分比。
 
 新增任意數量的波段。 您可以視需要重新排序。
 
@@ -88,7 +88,7 @@ ht-degree: 15%
 
 在以下範例中，第一個波段代表傳送中包含之訊息總數的25%，而且會立即開始。 接下來的兩個批次會完成傳遞，並設定為每六小時開始一次。
 
-![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
+![](assets/waves-calendar.png){zoomable="yes"}
 
 根據行事曆使用多個波段的常見使用案例是在向上移動過程中。
 
@@ -96,6 +96,6 @@ ht-degree: 15%
 
 為避免被標籤為垃圾訊息，您可以逐步增加使用波段傳送的數量。 這應該可以確保啟動階段的順利發展，並且讓您降低無效的位址的整體比率。
 
-若要這麼做，請使用 **[!UICONTROL 根據行事曆排程波段]** 選項。 例如，將第一個波段設為10%，將第二個波段設為15%，將第三個波段設為20%，以此類推。
+若要這麼做，請使用&#x200B;**[!UICONTROL 根據行事曆]**&#x200B;選項排程波段。 例如，將第一個波段設為10%，將第二個波段設為15%，將第三個波段設為20%，以此類推。
 
-![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
+![](assets/waves-ramp-up.png){zoomable="yes"}

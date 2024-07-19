@@ -4,7 +4,7 @@ description: 了解如何在 Adobe Campaign Web 中建立和管理預先定義�
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '762'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 您可以使用現有的內建篩選器來存取資料的特定子集，或建立您自己的預先定義篩選器並加以儲存。
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
+![](assets/predefined-filters-menu.png){zoomable="yes"}{zoomable="yes"}
 
 ## 建立預先定義的篩選器 {#create-predefined-filter}
 
@@ -47,11 +47,11 @@ ht-degree: 100%
 1. 開啟查詢建模工具並定義您的篩選條件。在下方的範例中，您篩選了居住在馬德里並訂閱電子報的收件者。
 1. 按一下「**選取或儲存篩選器**」按鈕，然後選取「**另存為篩選器**」。
 
-   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
+   ![](assets/predefined-filters-save.png){zoomable="yes"}
 
 1. 選取「**建立新篩選器**」，然後輸入該篩選器的名稱和說明。
 
-   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
    如果需要，您可以將篩選器儲存為最愛。若要了解詳細資訊，請參閱[本章節](#fav-filter)。
 
@@ -71,12 +71,12 @@ ht-degree: 100%
 
 1. 定義篩選器的規則。例如，年齡超過 30 歲的設定檔。
 
-   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
+   ![](assets/filter-30+.png){zoomable="yes"}
 
 
 1. 儲存您的變更。
 
-   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/new-filter.png){zoomable="yes"}
 
 
 此篩選器便會新增至預先定義的篩選器清單。如果需要，您可以將篩選器儲存為最愛。若要了解詳細資訊，請參閱[本章節](#fav-filter)。
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 將篩選器另存為最愛後，所有使用者都可以在篩選器建立清單的「**最愛的篩選器**」區段中使用該篩選器，如下所示：
 
-![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
 
 ## 使用預先定義的篩選器 {#use-predefined-filter}
 
@@ -103,21 +103,21 @@ ht-degree: 100%
 1. 輸入對象名稱，然後按一下「**建立對象**」按鈕。
 1. 選取「**查詢**」活動，然後從右側窗格按一下「**建立對象**」按鈕。
 
-   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-from-filter.png){zoomable="yes"}
 
 1. 從「**選取或儲存篩選器**」按鈕中，選擇「**選取自訂篩選器**」選項。
 
-   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-select-custom-filter.png){zoomable="yes"}
 
 1. 瀏覽到要用於建立對象的預先定義篩選器，選取它並進行確認。
 
-   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-filter-list.png){zoomable="yes"}
 
 1. 檢查此篩選器的規則屬性並進行確認。
 
    此篩選器現在將用作「**查詢**」活動中的查詢。
 
-   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-confirm.png){zoomable="yes"}
 
 1. 儲存您的變更，並按一下「**開始**」按鈕以建立對象，並使其可在對象清單中使用。
 
@@ -125,7 +125,7 @@ ht-degree: 100%
 
 預先定義的篩選器會全部在左側導覽功能表的專用項目中分組。
 
-![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
+![](assets/list-of-filters.png){zoomable="yes"}
 
 從此清單中，您可以建立新篩選器 (如上所述)，並執行下列動作：
 

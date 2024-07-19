@@ -5,8 +5,8 @@ description: 了解如何存取和使用傳遞報告
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 45%
+source-wordcount: '262'
+ht-degree: 43%
 
 ---
 
@@ -32,28 +32,28 @@ Adobe Campaign 提供多種報告類型，每個傳遞均可存取。這些報�
 
 若要顯示和管理報表，請遵循下列步驟：
 
-1. 若要產生特定傳遞的報告，請導覽至 **[!UICONTROL 傳遞]** 功能表，並選取您要報告的傳送。
+1. 若要產生特定傳遞的報告，請導覽至&#x200B;**[!UICONTROL 傳遞]**&#x200B;功能表，並選取您要報告的傳遞。
 
-1. 從您的 **[!UICONTROL 傳遞]** 儀表板，按一下 **[!UICONTROL 報表]**.
+1. 從您的&#x200B;**[!UICONTROL 傳遞]**&#x200B;儀表板，按一下&#x200B;**[!UICONTROL 報表]**。
 
-   ![](assets/manage_delivery_report_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_1.png){zoomable="yes"}
 
-   或者，您可以使用三個點 **更多動作** 按鈕，然後選取「 」 **[!UICONTROL 檢視報告]**.
+   或者，您可以使用傳遞清單中傳遞名稱旁的三點式&#x200B;**更多動作**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 檢視報告]**。
 
-   ![](assets/manage_delivery_report_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_2.png){zoomable="yes"}
 
 1. 從左側選單，從清單選取報告。
 
-   ![](assets/manage_delivery_report_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_3.png){zoomable="yes"}
 
-1. 如果您的傳送是週期性的，請按一下「 」，選取要報告的特定傳送 **[!UICONTROL 選取傳遞]**.
+1. 如果您的傳遞是週期性的，請按一下&#x200B;**[!UICONTROL 選取傳遞]**&#x200B;來選取要報告的特定傳遞。
 
-   您也可以選取「 」，將時段套用至報表 **[!UICONTROL 聯絡日期]**.
+   您也可以選取&#x200B;**[!UICONTROL 聯絡日期]**，將時段套用至報告。
 
-   ![](assets/delivery-recurring.png){zoomable=&quot;yes&quot;}
+   ![](assets/delivery-recurring.png){zoomable="yes"}
 
-1. 從 **[!UICONTROL URL和點按流量]**，您也可以選擇 **[!UICONTROL 最常造訪的連結]** 或 **[!UICONTROL 時段]**.
+1. 從&#x200B;**[!UICONTROL URL和點選資料流]**，您也可以選擇&#x200B;**[!UICONTROL 最常造訪的連結]**&#x200B;或&#x200B;**[!UICONTROL 時段]**。
 
-   此 **[!UICONTROL 檢視方式]** 選項可讓您篩選URL、標籤或類別。
+   **[!UICONTROL 檢視依據]**&#x200B;選項可讓您篩選URL、標籤或類別。
 
-   ![](assets/manage_delivery_report_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_5.png){zoomable="yes"}

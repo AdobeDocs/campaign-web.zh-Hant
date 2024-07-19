@@ -5,7 +5,7 @@ description: 了解如何使用「合併連結」工作流程活動
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '256'
 ht-degree: 100%
 
 ---
@@ -42,4 +42,4 @@ ht-degree: 100%
 
 以下範例顯示兩個工作流程分支，各包含電子郵件和簡訊傳遞。同時啟用兩個傳入轉變時，「合併連結」即會觸發。只有在兩個傳遞都完成後，接著才會傳送推播通知。
 
-![](../assets/workflow-andjoin-example.png){zoomable=&quot;yes&quot;}
+![](../assets/workflow-andjoin-example.png){zoomable="yes"}

@@ -4,7 +4,7 @@ description: 瞭解如何瞭解關鍵績效指標
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1199'
 ht-degree: 79%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 79%
 
 您可以選取要顯示的管道。依預設，這些指標可反映電子郵件管道的度量。
 
-![](assets/kpi.png){zoomable=&quot;yes&quot;}
+![](assets/kpi.png){zoomable="yes"}
 
 ## 已傳遞的訊息 {#ui-delivered-kpi}
 
@@ -97,7 +97,7 @@ ht-degree: 79%
 
 收件者可以選擇加入電子郵件和簡訊通訊。
 
-此 **訂閱** 指標顯示下列KPI，每個管道的訂閱數量佔成功傳送之訊息總數的百分比。
+**訂閱**&#x200B;指標會顯示下列KPI，每個管道的訂閱數相對於成功傳遞的訊息總數的百分比。
 
 
 >[!NOTE]
@@ -155,7 +155,7 @@ Adobe Campaign 平台發送的部份訊息可能無法到達目的地。當使�
 
 絕不能將已傳送的訊息數與已準備的訊息總數相提並論，因為有些位址可能遺失或不完整。
 
-此 **已傳送** 指標針對直接郵件通道顯示下列KPI：
+直接郵件通道的&#x200B;**已傳送**&#x200B;指標顯示下列KPI：
 
 * 已傳送的訊息數與已準備的訊息總數相比的百分比。
 

@@ -5,7 +5,7 @@ description: 開始使用 Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '578'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Adobe Campaign v8 是專為電子郵件、推播通知、簡訊和直接郵件�
 
 最初只能透過豐富的[用戶端主控台](#ac-client)使用，Campaign 現在提供新的 Web 使用者介面 (UI)，具有增強的可用性、可存取性和新設計，可大幅提升您的使用者體驗。這個新的現代 UI 簡化行銷活動的設計和傳遞，並帶來一致性，與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 相符。
 
-![](assets/home.png){zoomable=&quot;yes&quot;}
+![](assets/home.png){zoomable="yes"}
 
 這個新的 Web 使用者介面首先滿足&#x200B;**商業從業者**&#x200B;的需求 – 這個第一個版本未提供所有典型的管理任務，但將在後續版本中解決。請注意，並非用戶端主控台的每個單一功能或選項現在都可在新的 UI 中使用。新的使用案例、選項和功能將在未來版本中提供。
 

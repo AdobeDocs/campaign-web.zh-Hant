@@ -2,7 +2,8 @@
 audience: end-user
 title: 關於唯讀工作流程
 description: 瞭解工作流程處於唯讀模式的原因
-source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
+exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
+source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 13%
@@ -18,7 +19,7 @@ ht-degree: 13%
 
 某些工作流程可能處於唯讀模式。 您可以透過以下方式檢視：
 
-- 提及內容 **[!UICONTROL **&#x200B;唯讀&#x200B;**]**  在 **[!UICONTROL 設定]** 按鈕
+- 在&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕附近提及&#x200B;**[!UICONTROL **&#x200B;唯讀&#x200B;**]**
 - 無法存取動作按鈕
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
@@ -35,7 +36,7 @@ ht-degree: 13%
 
 ## 為何唯讀工作流程
 
-唯讀模式適用於沒有許可權和存取許可權的使用者，可編輯這些工作流程。 [在此處瞭解更多](../get-started/permissions.md)
+唯讀模式適用於沒有許可權和存取許可權的使用者，可編輯這些工作流程。 [在這裡瞭解更多](../get-started/permissions.md)
 
 行銷活動使用者對於可在Adobe Campaign中存取的資料可能有限制。 管理員可讓他檢視部分功能，但無法加以處理。
 
@@ -52,6 +53,6 @@ ht-degree: 13%
 ### 技術工作流程
 
 行銷活動使用者的技術工作流程處於唯讀模式。
-內建的技術工作流程對所有人而言都是唯讀模式，即使是管理員使用者亦然。 但使用者可以 **pause** 或 **停止** 視需要提供。 僅允許這些動作。 [在此處瞭解更多](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
+內建的技術工作流程對所有人而言都是唯讀模式，即使是管理員使用者亦然。 但如果需要，使用者可以**暫停**&#x200B;或&#x200B;**停止**。 僅允許這些動作。 [在這裡瞭解更多](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
 
 ![](assets/readonly-technical-workflow.png){zoomable="yes"}

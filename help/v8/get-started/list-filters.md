@@ -5,7 +5,7 @@ description: 探索如何瀏覽和篩選清單 Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 100%
 
 清單顯示在欄中。您可以變更欄設定來顯示其他資訊。若要這麼做，請按一下清單右上角的「**設定自訂版面的欄**」圖示。
 
-![](assets/config-columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 在「**設定欄**」畫面中，可新增或移除欄，並變更欄的顯示順序。
 
 例如，對於這些設定：
 
-![](assets/columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 清單會顯示以下欄：
 
-![](assets/column-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 ## 排序資料 {#sort-lists}
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 若要更快地找到項目，您可以使用搜尋列或內建及自訂篩選器，以便根據內容條件來調整清單。
 
-![](assets/filter.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 如需有關如何使用篩選器和建立您自己的自訂篩選器的詳細資訊，請參閱[本章節](../query/filter.md)。
 

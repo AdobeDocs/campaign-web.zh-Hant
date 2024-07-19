@@ -5,15 +5,15 @@ description: 瞭解如何新增及傳送優惠方案
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 36%
+source-wordcount: '760'
+ht-degree: 35%
 
 ---
 
 
 # 將優惠新增至您的訊息 {#offers-content}
 
-您可以在Adobe Campaign網路使用者介面中，將優惠方案新增至傳遞。 這些優惠方案可從 **選件** 左側功能表，可讓您存取優惠方案清單。 所有這些選件都是唯讀的，而且必須已使用 **[!UICONTROL 互動]** 模組。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hant){target="_blank"}.
+您可以在Adobe Campaign網路使用者介面中，將優惠方案新增至傳遞。 這些優惠方案可從左側的&#x200B;**優惠方案**&#x200B;功能表取得，可讓您存取優惠方案清單。 所有這些選件都是唯讀的，而且必須已使用&#x200B;**[!UICONTROL 互動]**&#x200B;模組在Campaign使用者端主控台中建立。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hant){target="_blank"}。
 
 
 透過傳送傳送優惠方案的步驟如下：
@@ -37,19 +37,19 @@ Adobe Campaign可讓您在互動期間即時回應指定聯絡人，向其建議
 
 若要選取要新增至傳送的優惠方案，請遵循下列步驟。
 
-1. 按一下 **[!UICONTROL 設定優惠方案]** 傳遞內容版本畫面中的按鈕。
+1. 從傳遞內容版本畫面按一下&#x200B;**[!UICONTROL 設定選件]**&#x200B;按鈕。
 
-   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-setup.png){zoomable="yes"}
 
 1. 設定應向收件者提出的優惠。
 
-   首先選取 **[!UICONTROL 優惠方案空間]** 符合您的優惠方案環境的專案。 瞭解如何在中建立優惠空間 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
+   請先選取符合您優惠方案環境的&#x200B;**[!UICONTROL 優惠方案空間]**。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}中瞭解如何建立優惠方案空間。
 
-   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-create-content.png){zoomable="yes"}
 
 1. 若要縮小引擎的優惠選擇範圍，請選取特定的&#x200B;**[!UICONTROL 優惠類別]**，優惠在此類別中排序。
 
-   選取資料夾時，會自動包含所有子資料夾，且無法移除。 請注意 [!DNL Campaign] 介面不會反映此行為。
+   選取資料夾時，會自動包含所有子資料夾，且無法移除。 請注意，[!DNL Campaign]介面不會反映此行為。
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ Adobe Campaign可讓您在互動期間即時回應指定聯絡人，向其建議
 
 1. （選擇性）輸入主題以篩選類別。 主題是類別中上游定義的關鍵字。 主題做為篩選器，在一組類別中選擇主題即可讓您調整要顯示的優惠數量。
 
-1. 使用 **[!UICONTROL 主張]** 欄位，指定您要插入傳遞中的選件數量。
+1. 使用&#x200B;**[!UICONTROL 建議]**&#x200B;欄位來指定要插入傳遞中的優惠方案數目。
 
 1. 選取「**[!UICONTROL 排除不符合資格的收件者]**」選項 (如有必要)。
 
@@ -77,11 +77,11 @@ Adobe Campaign可讓您在互動期間即時回應指定聯絡人，向其建議
 
 ## 將優惠插入傳遞 {#insert}
 
-可使用將優惠新增至傳遞中 [運算式編輯器](../personalization/gs-personalization.md#access). 它們可以插入主旨行或傳遞內文中。
+可以使用[運算式編輯器](../personalization/gs-personalization.md#access)將選件新增到傳遞中。 它們可以插入主旨行或傳遞內文中。
 
 >[!CAUTION]
 >
->將選件插入傳遞之前，請確定您已 [已設定要與該傳送一起建議哪些優惠](#configure).
+>將優惠方案插入傳遞之前，請確定您已[設定要與該傳遞一起建議哪些優惠方案](#configure)。
 
 若要使用運算式編輯器插入選件，請遵循下列步驟。
 
@@ -89,21 +89,21 @@ Adobe Campaign可讓您在互動期間即時回應指定聯絡人，向其建議
 
 1. 將滑鼠游標置於您要插入選件的位置，並使用個人化圖示開啟運算式編輯器。
 
-   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-insert-perso-icon.png){zoomable="yes"}
 
-1. 選取 **[!UICONTROL 主張]** 功能表。 可用主張會顯示在清單中。
+1. 選取&#x200B;**[!UICONTROL 建議]**&#x200B;功能表。 可用主張會顯示在清單中。
 
    >[!NOTE]
    >
-   >在以下情況下會定義主張數量： [設定優惠方案](#configure) 用於目前的傳遞。
+   >當[設定目前傳遞的選件](#configure)時，會定義主張的數目。
 
 1. 使用可用的個人化欄位、演算函式或優惠方案屬性來定義每個主張。
 
-   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-inserted.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >可用的主張數量取決於引擎呼叫的設定方式，而其順序則取決於優惠方案的優先順序。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+   >可用的主張數量取決於引擎呼叫的設定方式，而其順序則取決於優惠方案的優先順序。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}中進一步瞭解。
 
 1. 儲存您的變更。
 

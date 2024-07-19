@@ -5,7 +5,7 @@ description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第�
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2098'
 ht-degree: 53%
 
 ---
@@ -20,27 +20,27 @@ ht-degree: 53%
 
 ## 使用運算式編輯器 {#edit}
 
-查詢模組化工具提供運算式編輯器 **[!UICONTROL 編輯運算式]** 按鈕，適用於 **[!UICONTROL 屬性]** 和 **[!UICONTROL 值]** 設定自訂條件時的欄位。
+設定自訂條件時，**[!UICONTROL 屬性]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;欄位可使用查詢模型器&#x200B;**[!UICONTROL 編輯運算式]**&#x200B;按鈕中的運算式編輯器。
 
-| 從存取 **屬性** 欄位 | 從存取 **值** 欄位 |
+| 從&#x200B;**屬性**&#x200B;欄位存取 | 從&#x200B;**值**&#x200B;欄位存取 |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 運算式編輯器提供：
 
-* 一個 **輸入欄位(1)** 在其中定義運算式。
-* 可用清單 **欄位(2)** 可用於運算式中，且與查詢的目標維度對應的維度。
-* **輔助函式(3)**，依類別排序。
+* 定義運算式的&#x200B;**輸入欄位(1)**。
+* 可用的&#x200B;**欄位(2)**&#x200B;清單，可用於運算式中，並對應於查詢的目標維度。
+* **協助程式函式(3)**，依類別排序。
 
 直接在輸入欄位中輸入運算式以編輯運算式。 若要新增欄位或協助程式函式，請將游標置於要新增的運算式中，然後按一下+按鈕。
 
-![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
+![](assets/expression-editor.png){zoomable="yes"}
 
-當運算式準備就緒時，按一下 **[!UICONTROL 確認]** 按鈕。 運算式會顯示在選取的欄位中。 若要編輯，請開啟運算式編輯器並進行所需的變更。
+當運算式準備就緒時，請按一下&#x200B;**[!UICONTROL 確認]**&#x200B;按鈕。 運算式會顯示在選取的欄位中。 若要編輯，請開啟運算式編輯器並進行所需的變更。
 
-以下範例顯示針對下列專案設定的運算式： **[!UICONTROL 值]** 欄位。 若要編輯它，您需要使用開啟運算式編輯器 **[!UICONTROL 編輯運算式]** 按鈕。
+下列範例顯示為&#x200B;**[!UICONTROL 值]**&#x200B;欄位設定的運算式。 若要編輯它，您必須使用&#x200B;**[!UICONTROL 編輯運算式]**&#x200B;按鈕開啟運算式編輯器。
 
-![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
+![](assets/edit-expression-value.png){zoomable="yes"}
 
 ## 協助程式功能
 
@@ -59,47 +59,47 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>平均</strong><br /> </td> 
-   <td> 傳回數字型別欄的平均值<br /> </td> 
+   <td> 傳回數字型別資料行<br />的平均值 </td> 
    <td> Avg(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>計數</strong><br /> </td> 
-   <td> 計算資料行的非空值<br /> </td> 
+   <td> 計算資料行<br />的非空值 </td> 
    <td> Count(&lt;value&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>全部計數</strong><br /> </td> 
+   <td> <strong>CountAll</strong><br /> </td> 
    <td> 計算傳回的值（所有欄位）<br /> </td> 
    <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Countdistinct</strong><br /> </td> 
-   <td> 計算資料行的不同非空值<br /> </td> 
+   <td> 計算資料行<br />的相異非null值 </td> 
    <td> Countdistinct(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>最大</strong><br /> </td> 
-   <td> 傳回數字、字串或日期型別欄的最大值<br /> </td> 
+   <td> 傳回數字、字串或日期型別資料行<br />的最大值 </td> 
    <td> Max(&lt;value&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>最小值</strong><br /> </td> 
-   <td> 傳回數字、字串或日期型別欄的最小值<br /> </td> 
+   <td> <strong>分鐘</strong><br /> </td> 
+   <td> 傳回數字、字串或日期型別資料行<br />的最小值 </td> 
    <td> Min(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>StdDev</strong><br /> </td> 
-   <td> 傳回數字、字串或日期欄的標準差<br /> </td> 
-   <td> StdDev(&lt;value&gt;)<br /></td> 
+   <td> 傳回數字、字串或日期資料行<br />的標準差 </td> 
+   <td> stdev(&lt;value&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>StringAgg</strong><br /> </td> 
-   <td> 傳回字串型別欄值的串連，以第二個引數中的字元分隔<br /> </td> 
-   <td> StringAgg(&lt;value&gt;， &lt;string&gt;)<br /></td> 
+   <td> 傳回字串型別資料行值的串連，以第二個引數<br />中的字元分隔 </td> 
+   <td> StringAgg(&lt;Value&gt;， &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Sum</strong><br /> </td> 
-   <td> 傳回數字、字串或日期型別欄的值總和<br /> </td> 
+   <td> <strong>總和</strong><br /> </td> 
+   <td> 傳回數字、字串或日期型別資料行<br />的值總和 </td> 
    <td> Sum(&lt;value&gt;)<br /></td> 
   </tr> 
  </tbody> 
@@ -148,8 +148,8 @@ ht-degree: 53%
   </tr>
   <tr> 
    <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> 套用定義的工作階段TZ，將時間戳記NTZ （沒有時區的時間戳記）轉換為TZ （有時區的時間戳記）<br/> </td> 
-   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+   <td> 套用定義的工作階段TZ<br/>，將時間戳記NTZ （沒有時區的時間戳記）轉換為TZ （有時區的時間戳記） </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
   </tr>
   <tr> 
    <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
@@ -163,7 +163,7 @@ ht-degree: 53%
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
-   <td> 僅傳回日期（時間為00:00）*<br /> </td> 
+   <td> 只傳回日期（時間為00:00）*<br /> </td> 
    <td> DateOnly(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -173,7 +173,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> 傳回日期當年的日數<br /> </td> 
+   <td> 傳回日期<br />年中的天數 </td> 
    <td> DayOfYear(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -243,8 +243,8 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Oldest</strong><br /> </td> 
-   <td> 傳回範圍中最早的日期<br /> </td> 
-   <td> 最舊(&lt;date date=""&gt;)<br /> </td>  
+   <td> 傳回範圍<br />中最早的日期 </td> 
+   <td> 最舊(&lt;date， date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -304,7 +304,7 @@ ht-degree: 53%
   <tr> 
    <td> <strong>ToTimeZone</strong><br /> </td> 
    <td> 將日期+時間轉換為時區<br /> </td> 
-   <td> ToTimeZone(&lt;date&gt;，&lt;time zone=""&gt;)<br /> </td>  
+   <td> ToTimeZone(&lt;date&gt;，&lt;time zone&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -324,7 +324,7 @@ ht-degree: 53%
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
    <td> 將時間部分捨入到最接近的秒數<br /> </td> 
-   <td> TruncTim(e)&lt;date&gt;， &lt;number of="" seconds=""&gt;)<br /> </td>  
+   <td> TruncTim(e&lt;date&gt;， &lt;number of seconds&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
@@ -352,7 +352,7 @@ ht-degree: 53%
    <td> YearAndMonth(&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
-   <td> <strong>YearAgo</strong><br /> </td> 
+   <td> <strong>年前</strong><br /> </td> 
    <td> 傳回指定日期與目前日期之間的年數<br /> </td> 
    <td> YearsAgo(&lt;date&gt;)<br /> </td>  
   </tr> 
@@ -371,7 +371,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->請注意 **Dateonly** 函式會考量伺服器的時區，而非運運算元的時區。
+>請注意，**Dateonly**&#x200B;函式會考量伺服器的時區，而非運運算元的時區。
 
 ### 地理行銷
 
@@ -415,7 +415,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> 傳回大於或等於數字的最大整數<br /> </td> 
+   <td> 傳回大於或等於數字<br />的最大整數 </td> 
    <td> Floor(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -430,7 +430,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> 傳回n1除以n2的整數除餘數<br /> </td> 
+   <td> 傳回n1除以n2<br />的整數除法的餘數 </td> 
    <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -489,12 +489,12 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> 加密引數中提供的字串<br /> </td> 
+   <td> 加密引數<br />中提供的字串 </td> 
    <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>案例</strong><br /> </td> 
-   <td> 若條件為true，則傳回值1。 如果沒有，則會傳回值2。<br /> </td> 
+   <td> 若條件為true，則傳回值1。 如果沒有，則傳回值2.<br /> </td> 
    <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -509,7 +509,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> 如果值1 =值2，則傳回值3。 如果不傳回值4。<br /> </td> 
+   <td> 如果值1 =值2，則傳回值3。 如果未傳回值4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
   <!--<tr> 
@@ -520,7 +520,7 @@ ht-degree: 53%
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 傳回值　1（只能用作　case　函式的參數）<br /> </td> 
-   <td> Else(&lt;value&gt;， &lt;value&gt;)<br /> </td>  
+   <td> Else(&lt;value 1&gt;， &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
@@ -545,7 +545,7 @@ ht-degree: 53%
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
    <td> 如果字串1為空，則傳回值2，否則傳回值3<br /> </td> 
-   <td> IsEmptyString(&lt;value&gt;， &lt;value&gt;， &lt;value&gt;)<br /> </td>  
+   <td> IsEmptyString(&lt;value 1&gt;， &lt;value 2&gt;， &lt;value 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
@@ -574,7 +574,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 如果運算式為true，則傳回值1。 如果沒有，則會傳回值2 （只能用作case函式的引數）<br /> </td> 
+   <td> 如果運算式為true，則傳回值1。 如果沒有，則傳回值2 （只能用作case函式的引數）<br /> </td> 
    <td> When(&lt;condition&gt;, &lt;value 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -609,16 +609,16 @@ ht-degree: 53%
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> 傳回與　'n' ASCII　代碼對應的字元<br /> </td> 
-   <td> Char(&lt;number&gt;)<br /></td>  
+   <td> 字元(&lt;number&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
-   <td> 傳回字串1中字串2的位置。<br /> </td> 
+   <td> 傳回字串1.<br />中字串2的位置 </td> 
    <td> Charindex(&lt;string&gt;， &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
-   <td> 傳回字串大小（位元組）<br /> </td> 
+   <td> <strong>資料長度</strong><br /> </td> 
+   <td> 傳回字串<br />的大小（位元組） </td> 
    <td> dataLength(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -628,7 +628,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> 如果前兩個引數相等，則傳回第三個引數。 如果沒有，則傳回最後一個引數<br /> </td> 
+   <td> 如果前兩個引數相等，則傳回第三個引數。 如果不是，則傳回最後一個引數<br /> </td> 
    <td> IfEquals(&lt;string&gt;， &lt;string&gt;， &lt;string&gt;， &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -638,7 +638,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> 串連以引數形式傳遞的字串。 視需要在字串之間新增空格。<br /> </td> 
+   <td> 串連以引數形式傳遞的字串。 如有必要，在字串之間新增空格。<br /> </td> 
    <td> JuxtWords(&lt;string&gt;， &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -653,12 +653,12 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
-   <td> 傳回字串的長度<br /> </td> 
+   <td> 傳回字串<br />的長度 </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>折線圖</strong><br /> </td> 
-   <td> 從字串中擷取n行<br /> </td> 
+   <td> <strong>行</strong><br /> </td> 
+   <td> 從字串<br />擷取行n </td> 
    <td> Line(&lt;string&gt;，&lt;number&gt;)<br /></td> 
   </tr>
   <tr> 
@@ -669,7 +669,7 @@ ht-degree: 53%
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> 傳回左側的已完成字串<br /> </td> 
-   <td> LPad (&lt;string&gt;， &lt;number&gt;， &lt;char&gt;)<br /></td> 
+   <td> LPad (&lt;String&gt;， &lt;Number&gt;， &lt;Char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -689,12 +689,12 @@ ht-degree: 53%
   <tr> 
    <td> <strong>節點值</strong><br /> </td> 
    <td> 從其XPath和欄位資料中擷取XML欄位的值<br /> </td> 
-   <td> 節點值(&lt;string&gt;， &lt;string&gt;)<br /></td> 
+   <td> NodeValue (&lt;String&gt;， &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
    <td> 以其他字串值取代指定字串值的所有出現次數。<br /> </td> 
-   <td> Replace(&lt;string&gt;，&lt;string&gt;，&lt;string&gt;)<br /></td> 
+   <td> Replace(&lt;String&gt;，&lt;String&gt;，&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -714,12 +714,12 @@ ht-degree: 53%
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> 字串SHA256鍵的十六進位表示。<br /> </td> 
-   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha256Digest (&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> 字串SHA512鍵的十六進位表示。<br /> </td> 
-   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha512Digest (&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -728,7 +728,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
-   <td> 從字串的字元n1開始提取長度為n2的子字串<br /> </td> 
+   <td> 從字串的字元n1開始提取長度為n2<br />的子字串 </td> 
    <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -764,9 +764,9 @@ ht-degree: 53%
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>超過(_O)__</strong><br /> </td> 
-   <td> 執行作為第一個引數輸入的SQL函式呼叫，透過作為第二個引數輸入的欄位的Partition或Order By<br /> </td> 
-   <td> 超過(_O)&lt;value&gt;， &lt;value&gt;)<br /> </td>  
+   <td> <strong>_超過__</strong><br /> </td> 
+   <td> 執行以第1個引數輸入的SQL函式呼叫，透過Partition或Order By輸入為第2個引數的欄位<br /> </td> 
+   <td> _超過_ (&lt;Value&gt;， &lt;Value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
@@ -785,7 +785,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
-   <td> 根據表格分割和排序順序產生行號。<br /> </td> 
+   <td> 根據資料表分割和排序順序產生行號。<br /> </td> 
    <td> RowNum(PartitionBy(&lt;value 1&gt;), OrderBy(&lt;value 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 

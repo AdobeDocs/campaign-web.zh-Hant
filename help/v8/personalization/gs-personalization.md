@@ -10,8 +10,8 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
-workflow-type: ht
-source-wordcount: '671'
+workflow-type: tm+mt
+source-wordcount: '659'
 ht-degree: 100%
 
 ---
@@ -33,15 +33,15 @@ Adobe Campaign Web 動態內容功能可讓您根據已經收集的有關收件�
 
 * 利用每個特定收件者的名字、興趣、居住地、購買的商品等設定檔資料傳送&#x200B;**個人化訊息**&#x200B;給他們。您可以從和收件者、訊息或傳遞相關的個人化編輯器中選取資料庫中的任何可用欄位。可將這些個人化屬性插入訊息的主旨行或內文中。以下語法是將收件者的城市插入您的內容：&lt;%= recipient.location.city %>。
 
-  ![](assets/perso-subject-line.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/perso-subject-line.png){zoomable="yes"}{width="800" align="center"}
 
 * **建立條件式內容**&#x200B;以針對每個收件者調整傳遞，並僅顯示根據所掌握的客戶資訊和特定客戶相關的內容。這讓您可根據條件顯示特定的文字區塊和/或影像。例如，可根據收件者對特定服務的訂閱調整電子郵件的橫幅。
 
-  ![](assets/condition-sample.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
 * **使用個人化區塊**&#x200B;以節省時間並在您的訊息中運用易於重複使用的個人化內容。Campaign 會隨附一組個人化區塊，其中包含您可以插入到傳遞中的特定呈現。例如，您可以新增標誌、問候訊息或電子郵件訊息鏡像頁面的連結。內容區塊可從個人化編輯器中的專屬項目取得。
 
-  ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## 存取運算式編輯器 {#access}
 
@@ -51,15 +51,15 @@ Adobe Campaign Web 會提供運算式編輯器，您可在此選取、安排、�
 
 * *從寄件者姓名欄位存取運算式編輯器*
 
-  ![](assets/expression-editor-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/expression-editor-access.png){zoomable="yes"}{width="800" align="center"}
 
 * *從電子郵件文字元件存取運算式編輯器*
 
-  ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/expression-editor-access-email.png){zoomable="yes"}{width="800" align="center"}
 
 * *從電子郵件中的連結存取運算式編輯器*
 
-  ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/perso-link-insert-icon.png){zoomable="yes"}{width="800" align="center"}
 
 >[!NOTE]
 >

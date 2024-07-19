@@ -4,7 +4,7 @@ title: Campaign Web 使用者介面中的權限管理
 description: 深入了解 Campaign Web 使用者介面的權限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 100%
 

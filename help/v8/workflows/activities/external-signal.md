@@ -29,23 +29,23 @@ ht-degree: 9%
 >title="結束觸發程序"
 >abstract="結束觸發程序"
 
-此 **外部訊號** 活動是 **流量控制** 活動。 它可讓您從其他工作流程或API呼叫觸發工作流程的執行。
+**外部訊號**&#x200B;活動是&#x200B;**流量控制**&#x200B;活動。 它可讓您從其他工作流程或API呼叫觸發工作流程的執行。
 
 >[!NOTE]
 >
->本頁面說明設定「 」的主要步驟 **[!UICONTROL 外部訊號]** Campaign Web使用者介面中的活動，並從其他工作流程或API呼叫觸發。 有關如何觸發工作流程及其最佳實務，以及如何使用Campaign API的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
+>此頁面主要說明在Campaign網頁使用者介面中設定&#x200B;**[!UICONTROL 外部訊號]**&#x200B;活動，並從其他工作流程或API呼叫觸發該活動的步驟。 有關如何觸發工作流程及其最佳實務，以及如何使用Campaign API的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
 
-請依照下列步驟設定 **外部訊號** 活動並觸發其執行：
+請依照下列步驟設定&#x200B;**外部訊號**&#x200B;活動並觸發其執行：
 
-1. 新增 **外部訊號** 活動放入工作流程。
+1. 將&#x200B;**外部訊號**&#x200B;活動新增至您的工作流程。
 
-1. 完成工作流程的設定並開始執行。 此 **[!UICONTROL 外部訊號]** 活動顯示為「擱置中」，等待觸發。
+1. 完成工作流程的設定並開始執行。 **[!UICONTROL 外部訊號]**&#x200B;活動顯示為[擱置中]，等待觸發。
 
    ![](../assets/external-signal-pending.png)
 
 1. 擷取以下資訊：
 
-   * 此 **工作流程的內部名稱**，會在其標籤旁邊顯示。
+   * **工作流程的內部名稱**，會顯示在其標籤旁。
 
      +++檢視範例
 
@@ -53,7 +53,7 @@ ht-degree: 9%
 
 +++
 
-   * 此 **外部訊號活動的名稱**，顯示在工作流程的 **[!UICONTROL 執行選項]**.
+   * **外部訊號活動的名稱**，顯示在工作流程的&#x200B;**[!UICONTROL 執行選項]**&#x200B;中。
 
      +++檢視範例
 
@@ -61,11 +61,11 @@ ht-degree: 9%
 
 +++
 
-1. 若要觸發工作流程，您必須執行 `PostEvent` JavaScript函式。 此函式可讓您使用所選的值傳遞變數，並在觸發的工作流程中運用這些變數。
+1. 若要觸發工作流程，您必須執行`PostEvent` JavaScript函式。 此函式可讓您使用所選的值傳遞變數，並在觸發的工作流程中運用這些變數。
 
-   此 `PostEvent` 函式可從其他工作流程或API呼叫執行。
+   `PostEvent`函式可從其他工作流程或API呼叫執行。
 
-   * 觸發 **[!UICONTROL 外部訊號]** 活動，從執行PostEvent函式 **[!UICONTROL 初始化指令碼]** 窗格，可從活動的 **[!UICONTROL 執行選項]**. 對於 **[!UICONTROL javascript程式碼]** 活動，從活動的指令碼執行函式。
+   * 若要從工作流程觸發&#x200B;**[!UICONTROL 外部訊號]**&#x200B;活動，請從&#x200B;**[!UICONTROL 初始化指令碼]**&#x200B;窗格執行PostEvent函式，可從活動的&#x200B;**[!UICONTROL 執行選項]**&#x200B;存取該函式。 針對&#x200B;**[!UICONTROL JavaScript程式碼]**&#x200B;活動，從活動的指令碼執行函式。
 
      語法如下：
 
@@ -81,4 +81,4 @@ ht-degree: 9%
 
 +++
 
-   * 觸發 **[!UICONTROL 外部訊號]** 活動，請依照Campaign API檔案中詳述的步驟操作。 [瞭解如何使用靜態 `PostEvent` 方法](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
+   * 若要從API呼叫觸發&#x200B;**[!UICONTROL 外部訊號]**&#x200B;活動，請依照Campaign API檔案中詳述的步驟操作。 [瞭解如何使用靜態`PostEvent`方法](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)

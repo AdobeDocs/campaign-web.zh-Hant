@@ -5,8 +5,8 @@ description: 瞭解如何定義和傳送校樣
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 15%
+source-wordcount: '1124'
+ht-degree: 13%
 
 ---
 
@@ -33,18 +33,18 @@ ht-degree: 15%
 若要開始測試訊息內容：
 
 1. 編輯傳送的內容。
-1. 按一下 **[!UICONTROL 模擬內容]** 按鈕。
-1. 按一下 **[!UICONTROL 傳送證明]** 按鈕以傳送校樣。
+1. 按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
+1. 按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕以傳送校樣。
 
-   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-email.png){zoomable="yes"}
 
 1. 選取您的校訂收件者。
 
    根據訊息通道，校樣可以傳送給下列型別的收件者：
 
-   * 對於簡訊與電子郵件，您可以使用 [測試設定檔](#test-profiles)，即資料庫中的其他特定收件者。 您也可以使用 [從主要目標替代](#substitution-profiles) 模式，將校樣傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
+   * 對於簡訊與電子郵件，您可以使用[測試設定檔](#test-profiles)，這些設定檔是資料庫中特定的其他收件者。 您也可以使用主要目標](#substitution-profiles)模式的[替代，這會將證明傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
 
-   * 對於推送訊息，您可以使用 [訂閱者](#subscribers)，即新增至資料庫的虛擬訂閱者。 它們是在下列位置建立的： [!DNL Campaign] 主控台。 進一步瞭解 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+   * 對於推播訊息，您可以使用[訂閱者](#subscribers)，這是新增到資料庫的虛擬訂閱者。 已在[!DNL Campaign]主控台中建立。 深入瞭解[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    每種模式的詳細設定如下。
 
@@ -70,87 +70,87 @@ ht-degree: 15%
 >title="將測試設定檔納入主要對象"
 >abstract="啟用此選項也可將最終訊息傳送給校訂收件者。"
 
-測試設定檔是資料庫中的其他收件者。 它們是從 **[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]** 功能表。 [了解更多](../audience/test-profiles.md#create-test-profiles)
+測試設定檔是資料庫中的其他收件者。 它們是從&#x200B;**[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]**&#x200B;功能表建立的。 [了解更多](../audience/test-profiles.md#create-test-profiles)
 
 將校樣傳送至測試設定檔的步驟已詳述如下。
 
-1. 從傳送的內容中，按一下 **[!UICONTROL 模擬內容]** 按鈕，以及 **[!UICONTROL 傳送證明]** 按鈕。
+1. 從傳遞的內容中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以及&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕。
 
-1. 從 **[!UICONTROL 模式]** 下拉式清單，選擇 **[!UICONTROL 測試設定檔]** 將目標定位為將接收證明或SMS傳送的虛構收件者。
+1. 從&#x200B;**[!UICONTROL 模式]**&#x200B;下拉式清單中，選擇&#x200B;**[!UICONTROL 測試設定檔]**，將目標設定為將接收校樣或簡訊傳遞的虛擬收件者。
 
-   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-mode.png){zoomable="yes"}
 
-1. 如果您已選取設定檔至 [預覽訊息](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔作為校樣收件者。 您可以使用「 」清除選擇和/或新增其他收件者 **[!UICONTROL 新增測試設定檔]** 按鈕。
+1. 如果您已選取設定檔以在內容模擬畫面中[預覽訊息](preview-content.md)，則會預先選取這些設定檔作為校樣收件者。 您可以使用&#x200B;**[!UICONTROL 新增測試設定檔]**&#x200B;按鈕來清除您的選擇和/或新增其他收件者。
 
-1. 瀏覽測試設定檔或設定檔清單時，您可以使用篩選器來縮小搜尋範圍。 例如，您可以定義規則以尋找所有具有 **[!UICONTROL 潛在客戶]** 狀態。 瞭解如何使用新增規則 [查詢模型工具](../query/query-modeler-overview.md).
+1. 瀏覽測試設定檔或設定檔清單時，您可以使用篩選器來縮小搜尋範圍。 例如，您可以定義規則以尋找所有狀態為&#x200B;**[!UICONTROL 潛在客戶]**&#x200B;的測試設定檔。 瞭解如何使用[查詢模型工具](../query/query-modeler-overview.md)來新增規則。
 
-   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
-1. 若要也傳送最終訊息給證明的收件者，請選取 **[!UICONTROL 在主要目標中包含測試族群]** 選項。
+1. 若要也傳送最終訊息給校訂的收件者，請選取&#x200B;**[!UICONTROL 在主要目標中包含測試母體]**&#x200B;選項。
 
-   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-include-test.png){zoomable="yes"}
 
-1. 選取測試設定檔後，您可以 [傳送證明](#send-test).
+1. 選取測試設定檔後，您可以[傳送校樣](#send-test)。
 
 ## 替代設定檔資料 {#substitution-profiles}
 
-使用設定檔替代，將校樣傳送至特定的電子郵件地址或電話號碼，同時顯示來自 [!DNL Adobe Campaign] 資料庫。 只有在已定義傳送的對象時，才能選取此模式。
+使用設定檔替代將校樣傳送至特定電子郵件地址或電話號碼，同時顯示[!DNL Adobe Campaign]資料庫現有設定檔的資料。 只有在已定義傳送的對象時，才能選取此模式。
 
 若要從主要目標取代設定檔資料，請遵循下列步驟：
 
-1. 從傳送的內容中，按一下 **[!UICONTROL 模擬內容]** 按鈕，以及 **[!UICONTROL 傳送證明]** 按鈕。
+1. 從傳遞的內容中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以及&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕。
 
-1. 從 **[!UICONTROL 模式]** 下拉式清單，選擇 **[!UICONTROL 從主要目標替代]** 顯示現有設定檔中的資料時，將校樣傳送至特定電子郵件地址或電話號碼。
+1. 從&#x200B;**[!UICONTROL 模式]**&#x200B;下拉式清單中，選擇&#x200B;**[!UICONTROL 從主要目標]**&#x200B;替代，以在顯示現有設定檔的資料時，將校樣傳送至特定的電子郵件地址或電話號碼。
 
    >[!CAUTION]
    >
-   >如果您尚未選取 [對象](../audience/about-recipients.md) 對於您的傳遞， **[!UICONTROL 從主要目標替代]** 選項將會呈現灰色，且您將無法選取替代設定檔。
+   >如果您尚未為您的傳遞選取[對象](../audience/about-recipients.md)，**[!UICONTROL 從主要目標]**&#x200B;替代選項將會呈現灰色，而且您將無法選取替代設定檔。
 
-1. 按一下 **[!UICONTROL 新增地址]** 按鈕並指定將接收校樣的電子郵件地址或電話號碼。
+1. 按一下&#x200B;**[!UICONTROL 新增地址]**&#x200B;按鈕，並指定將接收校訂的電子郵件地址或電話號碼。
 
-   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-add-substitution-address.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >您可以輸入任何電子郵件地址或電話號碼。 這可讓您傳送校樣給任何收件者，即使他們不是的使用者 [!DNL Adobe Campaign].
+   >您可以輸入任何電子郵件地址或電話號碼。 這可讓您傳送校樣給任何收件者，即使他們不是[!DNL Adobe Campaign]的使用者亦然。
 
-1. 從您為傳送定義的目標中選取設定檔，以用作替代。 您也可以讓 [!DNL Adobe Campaign] 從目標中選取隨機設定檔。 來自所選設定檔的設定檔資料將顯示在校樣中。
+1. 從您為傳送定義的目標中選取設定檔，以用作替代。 您也可以讓[!DNL Adobe Campaign]從目標中選取隨機設定檔。 來自所選設定檔的設定檔資料將顯示在校樣中。
 
 1. 確認收件者並重複作業，視需要新增電子郵件地址或電話號碼。
 
-   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-substitute.png){zoomable="yes"}
 
-1. 若要也傳送最終訊息給證明的收件者，請選取 **[!UICONTROL 在主要目標中包含測試族群]** 選項。
+1. 若要也傳送最終訊息給校訂的收件者，請選取&#x200B;**[!UICONTROL 在主要目標中包含測試母體]**&#x200B;選項。
 
-1. 選取替代設定檔後，您可以 [傳送證明](#send-test).
+1. 選取替代設定檔後，您可以[傳送證明](#send-test)。
 
 ## 傳送校樣給應用程式訂閱者 {#subscribers}
 
 使用推播通知進行設計時，校樣只能傳送給應用程式訂閱者。 請依照下列步驟進行選取。
 
-1. 從推播傳送的內容中，按一下 **[!UICONTROL 模擬內容]** 按鈕，以及 **[!UICONTROL 傳送證明]** 按鈕。
+1. 從推播傳遞的內容中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以及&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕。
 
-   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-push.png){zoomable="yes"}
 
-1. 如果您已選取訂閱者 [預覽傳遞](preview-content.md) 在內容模擬畫面中，會預先選取這些設定檔為測試訂閱者。
+1. 如果您已在內容模擬畫面中選取[預覽傳遞](preview-content.md)的訂閱者，則會預先選取這些設定檔作為測試訂閱者。
 
    您可以使用專用按鈕清除您的選擇和/或新增其他訂閱者。
 
-   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-subscribers.png){zoomable="yes"}
 
-1. 若要也傳送最終推播通知給測試訂閱者，請選取 **[!UICONTROL 在主要目標中包含測試族群]** 選項。
+1. 若要將最終推播通知傳送給測試訂閱者，請選取&#x200B;**[!UICONTROL 在主要目標中包含測試母體]**&#x200B;選項。
 
-1. 選取訂閱者後，您可以 [傳送證明](#send-test).
+1. 選取訂閱者後，您可以[傳送校樣](#send-test)。
 
 ## 傳送證明 {#send-test}
 
 若要將校樣傳送給所選收件者，請遵循下列步驟。
 
-1. 按一下 **[!UICONTROL 傳送證明]** 按鈕。
+1. 按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕。
 
 1. 確認傳送。
 
-   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-send-test.png){zoomable="yes"}
 
 1. 傳送所需數量的校樣，直到您完成傳送內容為止。
 
@@ -162,12 +162,12 @@ ht-degree: 15%
 
 ## 存取已傳送的校樣 {#access-test-deliveries}
 
-傳送校樣後，您就可以從存取其記錄 **[!UICONTROL 模擬內容]** 畫面。
+傳送校樣後，您可以從&#x200B;**[!UICONTROL 模擬內容]**&#x200B;畫面存取其記錄。
 
 這些記錄可讓您存取針對所選傳遞傳送的所有校樣，並視覺化與其傳送相關的特定統計資料。 [了解如何監控傳遞記錄](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-test-log.png){zoomable="yes"}
 
-您也可以從存取已傳送的校樣 [傳遞清單](../msg/gs-messages.md)，就像任何傳送一樣。
+您也可以存取從[傳遞清單](../msg/gs-messages.md)傳送的校樣，就像任何傳遞一樣。
 
-![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-deliveries-list.png){zoomable="yes"}

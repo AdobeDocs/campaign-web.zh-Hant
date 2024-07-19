@@ -6,8 +6,8 @@ feature: Landing Pages
 exl-id: 2298265b-6ca6-461f-8c69-c60d98e8f445
 source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 17%
+source-wordcount: '203'
+ht-degree: 13%
 
 ---
 
@@ -15,29 +15,29 @@ ht-degree: 17%
 
 ## 將頁面儲存為範本 {#save-as-template}
 
-一旦您設計 [登陸頁面內容](lp-content.md)，您可將其儲存以供日後重複使用。 請依照下列步驟以執行此操作。
+一旦您設計[登陸頁面內容](lp-content.md)後，您就可以儲存它以供日後重複使用。 請依照下列步驟以執行此操作。
 
-1. 按一下 **[!UICONTROL 更多]** 按鈕。
+1. 按一下熒幕右上方的&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕。
 
-1. 選取 **[!UICONTROL 另存為內容範本]** （從下拉式功能表）。
+1. 從下拉式功能表中選取&#x200B;**[!UICONTROL 另存為內容範本]**。
 
-   ![](assets/lp-save-as-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-save-as-template.png){zoomable="yes"}
 
 1. 為此範本新增名稱。
 
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-下次建立登入頁面時，您可以使用此範本建立內容。 瞭解如何在 [區段](#use-saved-template) 底下。
+下次建立登入頁面時，您可以使用此範本建立內容。 在以下[小節](#use-saved-template)中瞭解如何操作。
 
-![](assets/lp-saved-template.png){zoomable=&quot;yes&quot;}
+![](assets/lp-saved-template.png){zoomable="yes"}
 
 ## 使用儲存的範本 {#use-saved-template}
 
 <!--Not for GA?-->
 
-1. 編輯登入頁面內容時，按一下 **[!UICONTROL 更多]** 按鈕並選取 **[!UICONTROL 變更您的設計]**.
+1. 編輯登入頁面內容時，請按一下&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 變更您的設計]**。
 
-   ![](assets/lp-change-your-design.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-change-your-design.png){zoomable="yes"}
 
 1. 確認您的選取。
 
@@ -45,15 +45,15 @@ ht-degree: 17%
    >
    >此動作會刪除目前的內容，並以新範本中的內容取代。
 
-1. 所有先前儲存的範本清單會顯示在 **[!UICONTROL 已儲存的範本]** 標籤。 你可以&#x200B;**[!UICONTROL 依名稱]**、**[!UICONTROL 上次修改日期]**&#x200B;和&#x200B;**[!UICONTROL 上次建立日期]**&#x200B;來排序儲存的範本。
+1. 所有先前儲存的範本清單會顯示在&#x200B;**[!UICONTROL 已儲存的範本]**&#x200B;索引標籤中。 你可以&#x200B;**[!UICONTROL 依名稱]**、**[!UICONTROL 上次修改日期]**&#x200B;和&#x200B;**[!UICONTROL 上次建立日期]**&#x200B;來排序儲存的範本。
 
-   ![](assets/lp-saved-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-saved-templates.png){zoomable="yes"}
 
 1. 從清單中選取您選擇的範本。 選取後，您可以使用左右箭頭在所有儲存的範本之間導覽。
 
-   ![](assets/lp-select-saved-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-select-saved-template.png){zoomable="yes"}
 
-1. 按一下 **[!UICONTROL 使用此範本]**.
+1. 按一下&#x200B;**[!UICONTROL 使用此範本]**。
 
 1. 使用登入頁面設計工具，視需要編輯您的內容。
 

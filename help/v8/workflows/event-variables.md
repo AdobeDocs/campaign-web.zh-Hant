@@ -16,17 +16,17 @@ ht-degree: 1%
 
 ## 什麼是事件變數 {#scripting}
 
-在工作流程內容中執行的指令碼會存取一系列其他全域 **物件** 例如正在執行的工作流程本身(`ìnstance`)，其各種工作(`task`)或啟動指定任務的事件(`event`)。
+在工作流程內容中執行的指令碼會存取一系列其他全域&#x200B;**物件**，例如正在執行的工作流程本身(`ìnstance`)、其各種工作(`task`)，或啟動指定工作的事件(`event`)。
 
-至每種型別 **物件** 與的類別相關聯 **變數** 可在運算式編輯器中用於編輯下列活動中的指令碼的活動： **[!UICONTROL javascript程式碼]** 或 **[!UICONTROL 測試]**.
+**物件**&#x200B;的每個型別都與&#x200B;**變數**&#x200B;的類別相關聯，當在如&#x200B;**[!UICONTROL JavaScript程式碼]**&#x200B;或&#x200B;**[!UICONTROL 測試]**&#x200B;之類的活動中編輯指令碼時，可在運算式編輯器中運用這些變數。
 
-* **執行個體變數** (`instance.vars.xxx`)與全域變數的可比性。 所有活動都會共用這些區段。
-* **任務變數** (`task.vars.xxx`)與本機變數具有可比性。 它們僅供目前任務使用。 持續性活動會使用這些變數來保留資料，這些變數有時也用於在相同活動的不同指令碼之間交換資料。
-* **事件變數** (`vars.xxx`)可在工作流程處理序的基本任務之間交換資料。 這些變數是由啟動進行中任務的任務所傳遞。 然後會傳遞至下列活動。 **事件變數** 是最常使用的變數，且使用方式應優於例項變數。
+* **執行個體變數** (`instance.vars.xxx`)可與全域變數比較。 所有活動都會共用這些區段。
+* **工作變數** (`task.vars.xxx`)可與區域變數比較。 它們僅供目前任務使用。 持續性活動會使用這些變數來保留資料，這些變數有時也用於在相同活動的不同指令碼之間交換資料。
+* **事件變數** (`vars.xxx`)可在工作流程處理序的基本工作之間交換資料。 這些變數是由啟動進行中任務的任務所傳遞。 然後會傳遞至下列活動。 **事件變數**&#x200B;是最常使用的變數，應該優先使用它們而不是執行個體變數。
 
 >[!NOTE]
 >
->有關指令碼和Adobe Campaign中公開之物件和變數的其他資訊，請參閱的Campaign v8 （使用者端主控台）檔案 [本節](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
+>在[本區段](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)的Campaign v8 （使用者端主控台）檔案中，有提供指令碼以及Adobe Campaign中公開之物件和變數的其他資訊。
 >
 >請注意，雖然此資源提供有價值的深入分析，但差異可能存在，因為其僅適用於使用者端主控台，而非Campaign Web使用者介面。
 
@@ -36,4 +36,4 @@ ht-degree: 1%
 
 ![](assets/event-variables.png)
 
-除了這些事件變數以外，您也可以運用 **[!UICONTROL 條件]** 功能表，以建立條件和 **[!UICONTROL 新增目前日期]** 功能表，以使用與日期格式相關的功能。
+除了這些事件變數之外，您還可以利用左窗格中的&#x200B;**[!UICONTROL 條件]**&#x200B;功能表來建置條件，並使用&#x200B;**[!UICONTROL 新增目前日期]**&#x200B;功能表來使用與日期格式相關的功能。

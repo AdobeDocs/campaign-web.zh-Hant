@@ -5,8 +5,8 @@ description: 瞭解如何在Adobe Campaign Web中使用對象
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 26%
+source-wordcount: '352'
+ht-degree: 25%
 
 ---
 
@@ -27,25 +27,25 @@ ht-degree: 26%
 >title="對象錯誤"
 >abstract="無法取得對象資料。請等待工作流程執行結束。"
 
-對象是您傳送的主要目標：接收訊息的設定檔。 Campaign網頁適用的對象清單可從 **[!UICONTROL 受眾]** 功能表。
+對象是您傳送的主要目標：接收訊息的設定檔。 可從&#x200B;**[!UICONTROL 對象]**&#x200B;功能表存取Campaign網頁中可用的對象清單。
 
-![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
+![](assets/audiences-list.png){zoomable="yes"}
 
-對象可以源自多個來源。 此 **[!UICONTROL 來源]** 欄表示建立特定對象的位置：
+對象可以源自多個來源。 **[!UICONTROL Origin]**&#x200B;欄指出特定對象的建立位置：
 
-* **[!UICONTROL Adobe Campaign]**：這些對象已建立於 [Adobe Campaign Web使用者介面](create-audience.md) 或在 [Adobe Campaign v8使用者端主控台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **[!UICONTROL Adobe Campaign]**：這些對象已在[Adobe Campaign Web使用者介面](create-audience.md)或[Adobe Campaign v8使用者端主控台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}中建立。
 
-* **[!UICONTROL Adobe Experience Platform：]** 這些受眾已在Adobe Experience Platform中建立，並已使用Adobe來源和目的地整合整合整合至Campaign網頁。 瞭解如何在中設定這項整合 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform：]**&#x200B;這些對象已在Adobe Experience Platform中建立，並已使用Adobe來源與目的地整合整合整合至Campaign網頁。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}中瞭解如何設定此整合。
 
-  ➡️ [在影片中探索此功能](#video)
+  ➡️[在影片中探索此功能](#video)
 
-若要取得對象的詳細資訊，請從清單中將其開啟。 對象屬性會連同對象中包含的設定檔數量一起顯示。 您可以隨時使用 **[!UICONTROL 計算]** 按鈕。
+若要取得對象的詳細資訊，請從清單中將其開啟。 對象屬性會連同對象中包含的設定檔數量一起顯示。 您可以隨時使用&#x200B;**[!UICONTROL 計算]**&#x200B;按鈕重新整理對象計數。
 
-此 **[!UICONTROL 資料]** 索引標籤可讓您檢視屬於受眾的設定檔。 您可以新增更多欄或運用進階篩選器來調整顯示的資料，以自訂此檢視。
+**[!UICONTROL 資料]**&#x200B;標籤可讓您檢視屬於對象的設定檔。 您可以新增更多欄或運用進階篩選器來調整顯示的資料，以自訂此檢視。
 
-![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
+![](assets/audiences-details.png){zoomable="yes"}
 
-若要複製或刪除對象，請按一下 **[!UICONTROL 更多動作]** 「對象」清單中「對象名稱」旁或「對象詳細資料」畫面內的可用按鈕。
+若要複製或刪除對象，請按一下對象名稱旁的對象清單或對象詳細資訊畫面中可用的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕。
 
 ## 操作說明影片 {#video}
 
@@ -53,4 +53,4 @@ ht-degree: 26%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-有關如何設定Adobe來源和目的地整合的詳細資訊，請參閱 [Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+有關如何設定Adobe來源與目的地整合的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}。
