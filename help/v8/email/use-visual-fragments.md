@@ -2,25 +2,21 @@
 audience: end-user
 title: 在你的電子郵件中新增視覺內容片段
 description: 瞭解如何將視覺化片段新增至您的電子郵件
-hide: true
-hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 4%
+source-wordcount: '447'
+ht-degree: 9%
 
 ---
 
 # 在你的電子郵件中新增視覺內容片段 {#use-visual-fragments}
 
-您可以在[電子郵件傳遞](get-started-email-designer.md)或[內容範本](use-email-templates.md)中使用視覺片段。 步驟詳述如下。
+您可以在[電子郵件傳遞](get-started-email-designer.md)或[內容範本](use-email-templates.md)中使用視覺片段。 步驟詳述如下。 在[本節](fragments.md)中瞭解如何建立和管理片段。
 
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->在[本節](fragments.md)中瞭解如何建立和管理片段。
-
+>此功能在有限可用性(LA)中提供。 僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 
 ## 使用片段 {#use-fragment}
 

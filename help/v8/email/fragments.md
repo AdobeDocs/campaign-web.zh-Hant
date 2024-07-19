@@ -2,18 +2,15 @@
 audience: end-user
 title: 建立內容片段
 description: 瞭解如何使用內容片段建立
-hide: true
-hidefromtoc: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 23%
+source-wordcount: '916'
+ht-degree: 24%
 
 ---
 
 # 建立內容片段 {#fragments}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -61,11 +58,14 @@ ht-degree: 23%
 
 ![](assets/fragments.gif)
 
-
 若要充分利用片段：
 
 * 建立您自己的視覺化片段，如下所述。
 * 您可以透過電子郵件Designer，視需要在內容中多次使用。 請參閱[新增視覺化片段至您的電子郵件](../email/use-visual-fragments.md)。
+
+>[!AVAILABILITY]
+>
+>此功能在有限可用性(LA)中提供。 僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 
 ## 建立視覺片段 {#create-fragments}
 
