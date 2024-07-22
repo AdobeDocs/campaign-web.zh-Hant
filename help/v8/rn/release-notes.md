@@ -2,7 +2,7 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0c3eb0c20f348442ad28e1e9a801c83d1ab3681f
+source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 100%
@@ -54,22 +54,11 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 現在您可以在&#x200B;**擴充**&#x200B;工作流程活動中建立與另一個表格的連結。使用活動參數中的新&#x200B;**連結定義**&#x200B;區段，在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，如果您從包含收件人帳戶、國家/地區和電子郵件的文件載入資料，您現在可以建立指向國家/地區表的連結，以更新其設定檔中的此資訊。[閱讀更多](../workflows/activities/enrichment.md#create-links)
 
-<!--
-### Content fragments {#24-5-4}
-
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
-
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
-
-
 ### 一般改善 {#improvements-24-5}
 
 * **直接郵件** - 現在您可以利用運算式編輯器來選取要在直接郵件擷取檔案中顯示的屬性。[閱讀更多](../direct-mail/content-direct-mail.md)
 
 * **資料夾管理** - 現在您可以建立與上層資料夾不同類型的子資料夾。[閱讀更多](../get-started/permissions.md#folders)
-
-
-<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
 * **全球化** - 鑒於我們持續努力統一使用者體驗，因此我們統一了 Adobe Experience Cloud 產品和應用程式中使用的術語。這會影響德語術語「Titel」，當與物件名稱相關時，該術語會改為「Label」。這些變更將在 UI 和文件中逐步推出。
 
@@ -125,22 +114,15 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 ### 一般改善 {#improvements-24-4}
 
 從 4 月版本開始，所有客戶都可取得以下改善。
-<!--**Workflow - Copy/Paste into another tab**: -->
 
 * **載入檔案**&#x200B;活動已透過多個部分加強，可讓您上傳範例檔案、管理錯誤和拒絕的內容，以及在活動執行後刪除上傳檔案。[閱讀更多](../workflows/activities/load-file.md)
 
 
 * 你現在可以在工作流程和不同瀏覽器分頁中的其他工作流程之間&#x200B;**複製/貼上活動**。[閱讀更多](../workflows/orchestrate-activities.md#copy-activities-copy)
 
-<!--**Workflow - Execution options**: -->
-
 * 您現在可以管理所有工作流程活動的&#x200B;**執行選項**。這可讓您定義活動的執行模式和行為，以因應錯誤情況。[閱讀更多](../workflows/orchestrate-activities.md#execution-options-execution)
 
-<!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
-
 * **分割活動**&#x200B;中的「如果族群是空的，請勿啟用轉換」選項，可讓您選擇當區段結果為空時工作流程是否應轉換到下一個活動。[閱讀更多](../workflows/activities/split.md)
-
-
 
 ## 3 月發行說明 {#24-3-release}
 
