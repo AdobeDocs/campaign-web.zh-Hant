@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 7de6d85036eac7289e7fcf3a82a7c11be12d9c6e
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 生成式 AI 詞彙"
->abstract="若要取得此功能的存取權限，您必需同意 Adobe Experience Cloud 生成式 AI 使用者準則。請檢閱此功能的任何輸出是否準確，並確定其適合您的使用案例。"
+>abstract="若要取得此功能的存取權限，您必需同意 Adobe Experience Cloud 生成式 AI 使用者準則。請檢查此功能之任何輸出的準確性，並確保它適合您的使用案例。"
 >additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者準則"
 
 隨著行銷業的競爭日益激烈，品牌們開始尋求有效率的方法，以有效率且快速的方式產生具影響力的內容。 Campaign中的AI助理由Azure OpenAI提供技術支援，是Adobe的AI內容產生功能，徹底改變行銷人員跨電子郵件、簡訊、推播等通道建立專業且品牌一致內容的方式。 透過進階GenAI模型和對品牌指導方針的深入瞭解，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，其內容針對品牌概述的樣式、版面、色調等最佳化。
