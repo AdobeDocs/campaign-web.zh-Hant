@@ -3,9 +3,9 @@ audience: end-user
 title: 使用「建置對象」工作流程活動
 description: 了解如何使用「建置對象」工作流程活動
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '392'
 ht-degree: 70%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 70%
 
 * 選取現有對象，在用戶端主控台中建立成清單。
 * 選取 Adobe Experience Platform 對象。
-* 定義並結合篩選條件，以使用查詢建模器建立器建立新對象。
+* 定義並結合篩選條件，以使用查詢模型工具建立新對象。
 
 >[!NOTE]
 >
