@@ -2,7 +2,7 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
 workflow-type: tm+mt
 source-wordcount: '1938'
 ht-degree: 99%
@@ -52,7 +52,6 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 ### 改良功能 {#improvements-24-7}
 
 **資料夾管理**  - 您現在可以管理資料夾的權限和限制。
-
 
 ## 6 月發行說明 {#24-6-release}
 
