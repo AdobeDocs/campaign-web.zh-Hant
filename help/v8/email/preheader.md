@@ -3,7 +3,7 @@ audience: end-user
 title: 在電子郵件設計工具新增預覽文字
 description: 了解如何設計您的電子郵件內容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 47%
@@ -39,7 +39,7 @@ ht-degree: 47%
 
    ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 編輯Personalization]**&#x200B;視窗，您可以使用左側的專用專案來新增[個人化欄位](../personalization/personalize.md)、[內容區塊](../personalization/content-blocks.md)和[條件式內容](../personalization/conditions.md)。
+1. 從&#x200B;**[!UICONTROL 編輯Personalization]**&#x200B;視窗，您可以使用左側的專用專案來新增[個人化欄位](../personalization/personalize.md)、[運算式片段](../content/use-expression-fragments.md)和[條件式內容](../personalization/conditions.md)。
 
    ![](assets/preheader_body_personalization.png){zoomable="yes"}
 

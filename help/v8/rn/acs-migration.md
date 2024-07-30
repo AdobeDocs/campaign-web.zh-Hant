@@ -3,10 +3,10 @@ audience: end-user
 title: 從 Campaign Standard 轉換到 Adobe Campaign Web
 description: 探索 Campaign Web 使用者介面
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: fede3e616d45c78db9d0613409254f3c8cc93bba
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 92%
 
 ---
 
@@ -79,6 +79,8 @@ Campaign v8 和 Campaign Standard 之間大多數概念相似。儘管如此，�
 * **Rest API**  - 作為 Campaign Standard 移轉使用者，您可以使用 Rest API 為 Adobe Campaign 建立整合，並透過將 Adobe Campaign 與您使用的一組技術結合來建立自己的生態系統。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}。
 
 * **登陸頁面** - Campaign v8 登陸頁面進行了一些改進，以確保功能與 Campaign Standard 相同。請參閱[發行說明](../rn/release-notes.md#new-24-4)和登陸頁面[文件](../landing-pages/get-started-lp.md)以了解更多資訊。
+
+* **視覺片段** — 視覺片段是可重複使用的視覺元件，可在一或多個電子郵件傳遞或內容範本中參考。 修改片段時，使用該片段的所有內容都會隨之更新。此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合訊息內容。 [了解更多](../content/use-visual-fragments.md)
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 

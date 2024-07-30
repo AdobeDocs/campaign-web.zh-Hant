@@ -3,10 +3,10 @@ audience: end-user
 title: 使用電子郵件設計工具內容元件
 description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 67%
+source-wordcount: '1166'
+ht-degree: 65%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="關於內容"
->abstract="內容元件指可用於建立片段版面的空白內容預留位置。"
+>abstract="內容元件是空的內容預留位置，可用於建立內容片段的佈局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"

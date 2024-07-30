@@ -3,7 +3,7 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 瞭解如何在Campaign網頁使用者介面中編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 45%
@@ -73,7 +73,7 @@ ht-degree: 45%
 
    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. 定義電子郵件 **[!UICONTROL 主旨行]**。直接在專用欄位中輸入您的主旨，或開啟運算式編輯器以使用各種屬性和內容區塊或選件來新增[個人化](../personalization/personalize.md)。
+1. 定義電子郵件 **[!UICONTROL 主旨行]**。直接在專用欄位中輸入您的主旨，或開啟運算式編輯器以使用各種屬性和運算式片段或選件來新增[個人化](../personalization/personalize.md)。
 
 1. 如果想要將檔案附加到電子郵件，請按一下「**[!UICONTROL 新增附件]**」按鈕然後選取一個或多個檔案。
 

@@ -1,6 +1,6 @@
 ---
-title: 開始使用動態內容
-description: 了解如何使用個人化、條件式內容和內建的內容區塊使您的內容動態化。
+title: 如何製作動態內容？
+description: 瞭解如何使用個人化和條件式內容，讓您的內容成為動態內容。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -9,19 +9,19 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 91%
 
 ---
 
-# 開始使用動態內容 {#gs-dynamic-content}
+# 如何製作動態內容？  {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="個人化"
->abstract="運算式編輯器可讓您選取、安排、自訂和驗證所有資料，以建立內容的自訂體驗。您可以利用設定檔資料將傳送每個收件者的訊息個人化，並建立條件式內容，針對每個收件者調整訊息，並僅顯示相關內容。此外，個人化區塊可用於將預先定義的個人化內容新增到您的傳遞中。"
+>abstract="運算式編輯器可讓您選取、安排、自訂和驗證所有資料，以建立內容的自訂體驗。您可以利用設定檔資料將您的訊息個人化給每個收件者，並建立條件式內容以根據每個收件者調整您的訊息，並僅顯示相關的內容。"
 
 身為行銷人員，瞄準真正對您的產品感興趣的客戶並提供有效且相關的內容與他們互動是最重要的。考慮到您面對的收件者範圍極為廣泛，若要建立多個行銷內容以訴求不同的人群可能既費時又浪費資源。這就是動態內容可發揮效用之處。
 
@@ -38,10 +38,6 @@ Adobe Campaign Web 動態內容功能可讓您根據已經收集的有關收件�
 * **建立條件式內容**&#x200B;以針對每個收件者調整傳遞，並僅顯示根據所掌握的客戶資訊和特定客戶相關的內容。這讓您可根據條件顯示特定的文字區塊和/或影像。例如，可根據收件者對特定服務的訂閱調整電子郵件的橫幅。
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
-
-* **使用個人化區塊**&#x200B;以節省時間並在您的訊息中運用易於重複使用的個人化內容。Campaign 會隨附一組個人化區塊，其中包含您可以插入到傳遞中的特定呈現。例如，您可以新增標誌、問候訊息或電子郵件訊息鏡像頁面的連結。內容區塊可從個人化編輯器中的專屬項目取得。
-
-  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## 存取運算式編輯器 {#access}
 
@@ -64,35 +60,3 @@ Adobe Campaign Web 會提供運算式編輯器，您可在此選取、安排、�
 >[!NOTE]
 >
 >除了運算式編輯器之外，您還可以在設計電子郵件時利用專用的條件式內容產生器。[了解如何在電子郵件中建置條件式內容](conditions.md)
-
-## 讓我們深入探討 {#dive-deeper}
-
-由於您已經了解如何製作動態內容，您現在可以深入了解這些文件章節，以開始使用該功能。
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="personalize.md">
-<img alt="將內容個人化" src="assets/do-not-localize/dynamic-personalization.jpg">
-</a>
-<div>
-<a href="personalize.md"><strong>新增個人化</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="conditions.md">
-<img alt="銷售機會" src="assets/do-not-localize/dynamic-conditional.jpg">
-</a>
-<div><a href="conditions.md"><strong>新增條件內容</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-blocks.md">
-<img alt="不常使用" src="assets/do-not-localize/dynamic-content-blocks.jpg">
-</a>
-<div>
-<a href="content-blocks.md"><strong>新增內建的內容區塊</strong></a>
-</div>
-<p></td>
-</tr></table>

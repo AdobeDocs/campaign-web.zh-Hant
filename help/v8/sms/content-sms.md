@@ -3,10 +3,10 @@ audience: end-user
 title: 設計簡訊傳遞
 description: 了解如何設計您的簡訊傳遞
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 78%
+ht-degree: 64%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="簡訊內容"
->abstract="建立簡訊傳遞的內容，並使用個人化欄位、內容區塊和動態內容對其進行個人化設定。若要開始撰寫訊息，請按一下「**編輯內容**」按鈕。"
+>abstract="建立SMS傳送的內容，並使用個人化欄位、運算式片段及動態內容來個人化。 若要開始撰寫訊息，請按一下「**編輯內容**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
@@ -28,7 +28,7 @@ ht-degree: 78%
 
 1. 在「**[!UICONTROL 編輯內容]**」頁面上存取&#x200B;**[!UICONTROL 寄件者欄位]**，並輸入慣用名稱，即可自訂寄件者名稱。
 
-   此外，按一下「**[!UICONTROL 開啟個人化對話框]**」，即可在訊息中包含個人化欄位、內容區塊和動態內容。
+   此外，按一下&#x200B;**[!UICONTROL 開啟個人化對話方塊]**，您可以在訊息中包含個人化欄位、運算式片段及動態內容。
 
    ![](assets/sms_content_1.png){zoomable="yes"}
 

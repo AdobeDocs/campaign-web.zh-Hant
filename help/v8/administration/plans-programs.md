@@ -3,7 +3,7 @@ audience: end-user
 title: 計劃和專案
 description: 瞭解如何在Adobe Campaign中建立和設定計畫和方案
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 10%
@@ -28,7 +28,7 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 
 ## 建立及設定計畫 {#create-plan}
 
-若要建立計畫，您必須建立資料夾型別為&#x200B;**[!UICONTROL 計畫]** [深入瞭解如何建立資料夾](create-manage-folder.md)。
+若要建立計畫，您必須建立資料夾型別為&#x200B;**[!UICONTROL 計畫]** [深入瞭解如何建立資料夾](../get-started/work-with-folders.md)。
 
 ![](assets/plan_create.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 
 ## 建立及設定程式
 
-若要在您的計畫中建立方案（[深入瞭解如何建立方案](#create-plan)），您必須加入您的計畫，並建立資料夾型別為&#x200B;**[!UICONTROL 方案]** [深入瞭解如何建立資料夾](create-manage-folder.md)。
+若要在您的計畫中建立方案（[深入瞭解如何建立方案](#create-plan)），您必須加入您的計畫，並建立資料夾型別為&#x200B;**[!UICONTROL 方案]** [深入瞭解如何建立資料夾](../get-started/work-with-folders.md)。
 
 ![](assets/program_create.png){zoomable="yes"}
 

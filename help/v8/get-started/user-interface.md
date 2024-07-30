@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
-workflow-type: ht
-source-wordcount: '1629'
-ht-degree: 100%
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+workflow-type: tm+mt
+source-wordcount: '1689'
+ht-degree: 97%
 
 ---
 
@@ -81,9 +81,9 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
 * **內容範本** - 為了加快和改進設計流程，您可以建立獨立範本，以輕鬆地在 [!DNL Adobe Campaign] 重複使用自訂內容。此功能僅適用於電子郵件，讓內容導向的使用者能夠使用獨立範本，以便行銷使用者在自己的電子郵件行銷活動中重複使用和予以調整。 若要了解詳細資訊，請參閱[本章節](../email/create-email-templates.md)。
 
-<!--
-* **Fragments** -
--->
+* **片段** — 片段是可重複使用的元件，可在行銷活動間的一或多個傳遞中參考。 修改片段時，使用該片段的所有內容都會隨之更新。[瞭解如何使用片段](../content/fragments.md)
+
+此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合電子郵件內容。
 
 ### 客戶管理 {#user-interface-customer-management}
 

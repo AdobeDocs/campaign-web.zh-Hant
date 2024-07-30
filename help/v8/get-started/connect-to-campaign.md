@@ -2,10 +2,10 @@
 title: 連線至 Adobe Campaign Web 介面
 description: 了解如何連線至 Adobe Campaign Web 使用者介面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 100%
+source-wordcount: '845'
+ht-degree: 96%
 
 ---
 
@@ -47,6 +47,51 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 ![](assets/launch-campaign.png){zoomable="yes"}
 
 您現在已連接到 Campaign。如需了解如何開始使用使用者介面，請參閱[此頁面](user-interface.md)。
+
+### 存取控制 {#access-control}
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="需要權限"
+>abstract="您的管理員必須先授予您權限，您才能建立此物件。"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="此對象為唯讀"
+>abstract="您沒有編輯此對象的權限。如果需要，請聯絡管理員為您授予存取權。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="此服務為唯讀資料"
+>abstract="您沒有編輯此服務的權限。如果需要，請聯絡管理員為您授予存取權。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="收件者唯讀設定檔"
+>abstract="您沒有編輯此設定檔的權限。如果需要，請聯絡管理員為您授予存取權。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="此行銷活動為唯讀資料"
+>abstract="您沒有編輯此行銷活動的權限。如果需要，請聯絡管理員為您授予存取權。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="此傳遞為唯讀資料"
+>abstract="您沒有編輯此傳遞的權限。如果需要，請聯絡管理員為您授予存取權。"
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="此工作流程為唯讀資料"
+>abstract="您沒有編輯此工作流程的權限。如果需要，請聯絡管理員為您授予存取權。"
+
+存取控制可以限制存取主要清單中的物件和資料，例如傳遞、收件者或工作流程。這些限制也會套用在Explorer導覽樹狀結構中。 此外，您需要從使用者介面建立、刪除、複製和編輯物件的權限。
+
+Campaign Web 中的所有權限均與 Campaign 用戶端主控台權限同步。只有Campaign管理員可以定義及修改使用者許可權。
+
+當您瀏覽 Campaign Web 使用者介面時，可以根據您的權限存取資料、物件和功能。例如，如果沒有資料夾的存取權限，就看不到。您的權限也會影響物件和資料管理。如果沒有特定資料夾的寫入權限，即使可以在使用者介面中看到，也無法在該資料夾中建立傳遞。
+
+您可以在這裡瞭解如何[檢視和管理許可權](permissions.md)。
 
 ## Adobe Experience Cloud 頂部導覽 {#top-bar}
 

@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 96%
+source-wordcount: '1203'
+ht-degree: 91%
 
 ---
 
@@ -89,9 +89,9 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[深入�
 
   個人化欄位用於訊息的第一層個人化。您可以從個人化編輯器選取資料庫中的任何欄位。對於傳遞，您可以選取與收件者、訊息或傳遞相關的任何欄位。可將這些個人化屬性插入訊息的主旨行或內文中。[了解更多](../personalization/personalize.md)
 
-* 插入預先定義的&#x200B;**內容區塊**
+* 正在插入預先定義的&#x200B;**運算式片段**
 
-  Campaign 會隨附一組個人化區塊，其中包含您可以插入到傳遞中的特定呈現。例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。內容區塊可從個人化編輯器的專屬項目取得。[了解更多](../personalization/personalize.md#ootb-content-blocks)
+  Campaign隨附一組運算式片段，其中包含您可以插入傳送中的特定轉譯。 例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。運算式片段可從個人化編輯器中的專用專案取得。 此外，您也可以建立自己的運算式片段以符合您的需求。 [瞭解如何使用運算式片段](../content/use-expression-fragments.md)
 
 * 建立&#x200B;**條件式內容**
 
