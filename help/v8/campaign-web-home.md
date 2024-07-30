@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 95%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 6 月版本已上線！]
+>[!TAB 7月版本已上線！]
 
-了解 Adobe Campaign Web 使用者介面 24.6 版本帶來的新功能和改善事項。
+探索Adobe Campaign Web使用者介面2024年7月發行版本的新功能和改進。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 

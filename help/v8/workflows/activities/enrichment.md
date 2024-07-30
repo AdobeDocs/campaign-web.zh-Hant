@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「擴充」工作流程活動
 description: 了解如何使用「擴充」工作流程活動
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 44%
+source-wordcount: '1636'
+ht-degree: 43%
 
 ---
 
@@ -106,14 +106,6 @@ ht-degree: 44%
 [範例](#link-example)區段提供使用連結的工作流程範例。
 
 ## 資料調和 {#reconciliation}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="資料調和"
->abstract="工作流程豐富活動現在可用於將 Campaign 資料庫結構描述中的資料與其他結構描述中的資料，或來自臨時結構描述的資料 (例如使用載入檔案活動上傳的資料) 進行調和。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
-
 
 **擴充**&#x200B;活動可用來調解來自Campaign資料庫結構描述的資料與來自其他結構描述的資料，或來自暫時結構描述的資料，例如使用載入檔案活動上傳的資料。 此型別的連結會定義對唯一記錄的調解。 Adobe Campaign會在目標表格中新增外部索引鍵，以儲存唯一記錄的參考，藉此建立指向目標表格的連結。
 
