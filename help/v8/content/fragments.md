@@ -3,14 +3,20 @@ audience: end-user
 title: 開始使用內容片段
 description: 瞭解如何使用內容片段建立
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 33%
+source-wordcount: '380'
+ht-degree: 38%
 
 ---
 
 # 開始使用內容片段 {#gs-fragments}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="內容片段"
+>abstract="您現在可以建立及使用內容片段。內容片段是可重複使用的元件，可在一則或多則訊息中參考。修改片段時，使用該片段的每個內容都會更新。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
