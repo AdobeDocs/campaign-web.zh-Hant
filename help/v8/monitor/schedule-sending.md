@@ -3,7 +3,7 @@ audience: end-user
 title: 排程傳送作業
 description: 瞭解如何排程傳遞
 exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
-source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 6%
@@ -59,7 +59,7 @@ ht-degree: 6%
 
 ![](assets/schedule-push-standalone.png){zoomable="yes"}
 
-您也可以檢查是否已將排程納入考量：
+您也可以檢查排程是否已列入考量：
 
 ![](assets/schedule-push-standalone-prepare.png){zoomable="yes"}
 

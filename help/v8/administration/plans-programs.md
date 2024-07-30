@@ -3,7 +3,7 @@ audience: end-user
 title: 計劃和專案
 description: 瞭解如何在Adobe Campaign中建立和設定計畫和方案
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 # 計劃和專案 {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="計劃和專案"
 >abstract="您現在可在 Campaign Web 使用者介面中設定行銷計劃和專案的資料夾階層。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
@@ -74,7 +74,7 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 
 ![](assets/program_edit.png){zoomable="yes"}
 
-您可以進行設定：
+您可以進行下列設定：
 
 ![](assets/program_customfields.png){zoomable="yes"}
 
@@ -92,7 +92,7 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### 方式#2：您已擁有現有行銷活動，且想要將其連結至現有方案
+### 方式#2：您已有現有行銷活動，且想將其連結至現有方案
 
 前往您要連結至方案之行銷活動的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕：
 

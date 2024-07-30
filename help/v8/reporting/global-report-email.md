@@ -3,7 +3,7 @@ audience: end-user
 title: 電子郵件通道的全域報告
 description: 進一步瞭解電子郵件通道的全域報告
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 25%
@@ -239,7 +239,7 @@ ht-degree: 25%
 
 * **[!UICONTROL 點按總數]**：傳遞中連結的點按總數。
 
-* **[!UICONTROL 平台平均值]** ：此平均比率顯示在每個比率（反應性、不同點按和累計點按）下，是針對過去六個月傳送的傳遞進行計算。 系統只會考慮具有相同型別和相同通道的傳送。 校訂已排除。
+* **[!UICONTROL 平台平均值]**：此平均比率顯示在每個比率（反應性、不同點按和累計點按）下，是針對過去六個月傳送的傳遞進行計算。 系統只會考慮具有相同型別和相同通道的傳送。 校訂已排除。
 +++
 
 ### 造訪量最高的前 10 個連結 {#top10-global-report-email}

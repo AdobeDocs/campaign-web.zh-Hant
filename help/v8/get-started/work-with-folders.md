@@ -3,7 +3,7 @@ audience: end-user
 title: 使用資料夾
 description: 瞭解如何在Adobe Campaign中管理資料夾
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 12%
@@ -57,7 +57,7 @@ ht-degree: 12%
 
 ![](assets/folder_new.png){zoomable="yes"}
 
-1. 如有需要，按一下資料夾型別圖示，然後選取顯示的清單，以變更資料夾型別，如下所示：
+1. 如有需要，按一下資料夾型別的圖示來變更資料夾型別，然後在顯示的清單中選擇它，如下所示：
 
 ![](assets/folder_type.png){zoomable="yes"}
 

@@ -4,7 +4,7 @@ title: 稽核軌跡
 description: 瞭解如何使用Campaign稽核軌跡監控您的執行個體
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
+source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 # 稽核軌跡{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
+>id="acw_homepage_welcome_rn5"
 >title="稽核軌跡"
 >abstract="新的稽核軌跡功能會針對您在 Adobe Campaign 執行個體執行的所有動作和事件，即時提供按時間順序排列的詳細記錄。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
@@ -92,11 +92,11 @@ ht-degree: 6%
 
 1. **[!UICONTROL 稽核實體]**&#x200B;視窗會提供您所選實體的詳細資訊，例如：
 
-   * **[!UICONTROL 型別]** ：工作流程、選項、傳遞或結構描述。
-   * **[!UICONTROL 實體]** ：活動的內部名稱。
-   * **[!UICONTROL 修改者]** ：上次修改此實體之人員的使用者名稱。
-   * **[!UICONTROL 動作]** ：此實體上執行的最後一個動作，已建立、已修改或已刪除。
-   * **[!UICONTROL 修改日期]** ：此實體上執行之上一個動作的日期。
+   * **[!UICONTROL 型別]**：工作流程、選項、傳遞或結構描述。
+   * **[!UICONTROL 實體]**：活動的內部名稱。
+   * **[!UICONTROL 修改者]**：上次修改此實體的人員使用者名稱。
+   * **[!UICONTROL 動作]**：此實體上執行的最後一個動作，已建立、已修改或已刪除。
+   * **[!UICONTROL 修改日期]**：在此實體上執行最後動作的日期。
 
    程式碼區塊會針對實體中的確切變更提供詳細資訊。
 

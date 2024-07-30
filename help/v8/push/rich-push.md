@@ -3,9 +3,9 @@ audience: end-user
 title: 設計豐富推送通知傳送
 description: 瞭解如何使用Adobe Campaign Web設計Android豐富推送通知傳送
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3372'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,10 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->在設計豐富推送通知之前，您必須先設定V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)。
+>* 此功能需要更新Campaign v8.6.3 <!--or v8.7.2-->。 深入瞭解Campaign v8使用者端主控台[發行說明](https://experienceleague.adobe.com/zh-Hant/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
+>
+>* 在設計豐富推送通知之前，您必須先設定V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}。
+
 
 使用Firebase Cloud Messaging時，您可以選擇兩種型別的訊息：
 
