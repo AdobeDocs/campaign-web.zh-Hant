@@ -3,19 +3,17 @@ audience: end-user
 title: Campaign Web 使用者介面中的權限管理
 description: 深入了解 Campaign Web 使用者介面的權限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: f352f4e726eff50527d0b9a04d0506600c12b822
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 20%
+source-wordcount: '228'
+ht-degree: 18%
 
 ---
 
 
 # 權限 {#permissions}
 
-Adobe Campaign中的每個使用者在應用程式中都有自己的許可權和限制。
-
-使用者可以屬於操作者群組，並將繼承群組的許可權。
+Adobe Campaign中的每個使用者在應用程式中都有自己的許可權和限制。 使用者可以屬於操作員群組，並繼承群組的許可權。
 
 根據其許可權，運運算元可以：
 
@@ -23,10 +21,13 @@ Adobe Campaign中的每個使用者在應用程式中都有自己的許可權和
 * 存取特定資料
 * 存取特定動作（建立、修改、刪除）
 
+在Adobe Campaign中設定許可權的詳細程式可在[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}中取得。
+
 ## 檔案夾的許可權 {#folder-permissions}
 
-根據您的許可權，您可以在&#x200B;**[!UICONTROL 資料夾設定]**中檢視和管理資料夾的許可權。
-以下是傳遞資料夾的範例。
+根據您的許可權，您可以在&#x200B;**[!UICONTROL 資料夾設定]**&#x200B;中檢視和管理資料夾的許可權。
+
+以下是傳遞資料夾的範例：
 
 ![](assets/folder_settings.png){zoomable="yes"}
 
@@ -42,5 +43,6 @@ Adobe Campaign中的每個使用者在應用程式中都有自己的許可權和
 
 如果核取&#x200B;**[!UICONTROL 系統資料夾]**&#x200B;選項，則允許所有操作員存取，無論其許可權為何。
 
-您也可以[在Adobe Campaign主控台中管理資料夾的許可權](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)。
-Campaign Web UI中的所有許可權都會與Campaign使用者端主控台許可權同步。
+您也可以[在Adobe Campaign主控台中管理資料夾的許可權](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}。
+
+Campaign Web使用者介面中的所有許可權都會與Campaign使用者端主控台許可權同步。
