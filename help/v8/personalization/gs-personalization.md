@@ -1,6 +1,6 @@
 ---
 title: 如何製作動態內容？
-description: 瞭解如何使用個人化和條件式內容，讓您的內容成為動態內容。
+description: 了解如何使用個人化和條件式內容來製作動態內容。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -12,7 +12,7 @@ exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="個人化"
->abstract="運算式編輯器可讓您選取、安排、自訂和驗證所有資料，以建立內容的自訂體驗。您可以利用設定檔資料將您的訊息個人化給每個收件者，並建立條件式內容以根據每個收件者調整您的訊息，並僅顯示相關的內容。"
+>abstract="運算式編輯器可讓您選取、安排、自訂和驗證所有資料，以建立內容的自訂體驗。您可以利用輪廓資料將傳送給每位收件者的訊息個人化，並建立條件式內容，針對每個收件者調整訊息，並僅顯示相關內容。"
 
 身為行銷人員，瞄準真正對您的產品感興趣的客戶並提供有效且相關的內容與他們互動是最重要的。考慮到您面對的收件者範圍極為廣泛，若要建立多個行銷內容以訴求不同的人群可能既費時又浪費資源。這就是動態內容可發揮效用之處。
 

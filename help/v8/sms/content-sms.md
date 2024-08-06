@@ -6,7 +6,7 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 64%
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="簡訊內容"
->abstract="建立SMS傳送的內容，並使用個人化欄位、運算式片段及動態內容來個人化。 若要開始撰寫訊息，請按一下「**編輯內容**」按鈕。"
+>abstract="建立簡訊傳遞的內容，並使用個人化欄位、運算式片段和動態內容對其進行個人化設定。若要開始撰寫訊息，請按一下「**編輯內容**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"

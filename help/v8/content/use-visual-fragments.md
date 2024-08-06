@@ -7,7 +7,7 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 9%
+ht-degree: 20%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="片段選項"
->abstract="此窗格提供與所選片段相關的選項。 它可讓您選擇您希望片段顯示的裝置，並開啟此片段的內容。 使用&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤進一步自訂您的片段。 您也可以中斷原始視覺化片段的繼承。"
+>abstract="此窗格提供與所選片段相關的選項。它可讓您選擇要顯示片段的裝置，並打開該片段的內容。可使用「**[!UICONTROL 樣式]**」標籤進一步自訂您的片段。您還可以打破與原始視覺片段的繼承。"
 
 <!-- pas vu dans l'UI-->
 

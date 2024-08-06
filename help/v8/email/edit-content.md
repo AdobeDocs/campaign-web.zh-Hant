@@ -31,7 +31,7 @@ ht-degree: 45%
 >id="acw_deliveries_email_options"
 >title="編輯追蹤"
 >abstract="預設會啟用傳遞追蹤，這表示系統會追蹤訊息內容中包含的所有連結。您可以從此處停用此選項。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="新增連結和追蹤訊息"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="新增連結和追蹤訊息"
 
 電子郵件&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面可讓您：
 

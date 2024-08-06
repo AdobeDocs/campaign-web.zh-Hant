@@ -5,7 +5,7 @@ description: 瞭解如何使用內容片段建立
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="片段"
->abstract="在目前沙箱上建立的所有運算式片段都會顯示在此清單中。 若要使用片段，請按一下+按鈕，將片段ID新增到編輯器中。"
+>abstract="在目前沙箱上建立的所有運算式片段都顯示在此清單中。若要使用片段，請按一下 + 按鈕將片段 ID 新增至編輯器。"
 
 <!-- pas vu dans l'UI-->
 

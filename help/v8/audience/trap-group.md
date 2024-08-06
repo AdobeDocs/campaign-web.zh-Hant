@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 使用補漏白群組
+title: 使用捕捉器群組
 description: 瞭解如何在Campaign網頁使用者介面中使用陷阱群組進行傳遞
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
-# 使用補漏白群組 {#trap-group}
+# 使用捕捉器群組 {#trap-group}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="陷阱群組"
->abstract="您可以使用補漏白群組，在傳送中包含特定地址，以透過鎖定不符合已定義目標條件的設定檔來監視及驗證發佈程式。"
+>title="捕捉器群組"
+>abstract="您可以使用捕捉器群組在交付內容中包含特定位址，以透過針對不符合定義目標條件的設定檔，來監視和驗證分發程序。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 **[!UICONTROL 陷阱群組]** （也稱為&#x200B;**[!UICONTROL 種子清單]**）可用來在您的傳遞中包含特定地址，以透過鎖定不符合定義的目標條件的設定檔來監控和驗證發佈程式。 如此一來，不在傳遞範圍的收件者可以像任何其他目標收件者一樣接收傳遞。

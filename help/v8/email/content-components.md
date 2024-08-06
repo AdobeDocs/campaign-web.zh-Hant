@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '1166'
-ht-degree: 65%
+ht-degree: 67%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="關於內容"
->abstract="內容元件是空的內容預留位置，可用於建立內容片段的佈局。"
+>abstract="內容元件指可用於建立內容片段版面的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"

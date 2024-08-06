@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 66%
+ht-degree: 71%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="新增結構"
->abstract="結構會定義內容片段的配置。 將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的片段內容。"
+>abstract="結構會定義內容片段的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的片段內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -46,7 +46,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="定義內容片段欄"
->abstract="電子郵件Designer可讓您透過定義欄結構，輕鬆定義內容片段的佈局。"
+>abstract="電子郵件設計工具可讓您透過定義欄結構輕鬆定義內容片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
