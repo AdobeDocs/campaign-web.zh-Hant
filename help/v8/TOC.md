@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 93%
    + [使用預先定義的篩選器](get-started/predefined-filters.md)
    + [使用資料夾](get-started/work-with-folders.md)
    + [權限](get-started/permissions.md)
-   + [Campaign Web 與用戶端主控台](get-started/capability-matrix.md)
+   + [Campaign Web 與用戶端控制台](get-started/capability-matrix.md)
    + [從 Campaign Standard 至 v8](rn/acs-migration.md)
    + [採用 AI 技術的內容說明](get-started/using-ai.md)
 + 訊息和傳遞{#msg}
@@ -47,9 +47,9 @@ ht-degree: 93%
    + 推播通知 {#push}
       + [開始使用推播通知](push/gs-push.md)
       + [建立推播通知傳遞](push/create-push.md)
-      + 豐富推送{#rich-push}
-         + [設計 Android 豐富的推播傳遞](push/rich-push.md)
-         + [設計iOS豐富推送傳送](push/rich-push-ios.md)
+      + 豐富推播 {#rich-push}
+         + [設計 Android 豐富推播傳遞](push/rich-push.md)
+         + [設計 iOS 豐富推播傳遞](push/rich-push-ios.md)
       + [設計推播傳遞](push/content-push.md)
       + [預覽並傳送推播傳遞](push/send-push.md)
    + 簡訊 {#sms}
@@ -79,21 +79,21 @@ ht-degree: 93%
       + [開始使用傳遞警報](msg/delivery-alerting.md)
       + [傳遞警報儀表板](msg/delivery-alerting-dashboards.md)
       + [傳遞警報條件](msg/delivery-alerting-criteria.md)
-+ 內容管理{#content}
-   + 建立動態內容{#dynamic-content}
++ 內容管理 {#content}
+   + 建立動態內容 {#dynamic-content}
       + [如何製作動態內容？ ](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
       + [建立條件內容](personalization/conditions.md)
-   + 重複使用內容{#manage-reusable-content}
+   + 重複使用內容 {#manage-reusable-content}
       + [使用內容範本](email/create-email-templates.md)
-      + 內容片段{#fragments}
+      + 內容片段 {#fragments}
          + [開始使用內容片段](content/fragments.md)
          + [建立和編輯內容片段](content/create-fragment.md)
-         + [在您的電子郵件中使用視覺化片段](content/use-visual-fragments.md)
+         + [在電子郵件中使用視覺片段](content/use-visual-fragments.md)
          + [在運算式編輯器中使用運算式片段](content/use-expression-fragments.md)
-   + 設計電子郵件{#email-design}
+   + 設計電子郵件 {#email-design}
       + [開始使用電子郵件設計工具](email/get-started-email-designer.md)
-      + 開始製作您的電子郵件{#start-design}
+      + 開始製作您的電子郵件 {#start-design}
          + [從頭開始](email/create-email-content.md)
          + [匯入您的電子郵件內容](email/existing-content.md)
          + [為自己的內容撰寫程式碼](email/code-content.md)
@@ -134,7 +134,7 @@ ht-degree: 93%
       + [建立一次性對象](audience/one-time-audience.md)
       + [從檔案載入電子郵件對象](audience/file-audience.md)
       + [設定控制組](audience/control-group.md)
-      + [新增補漏白群組](audience/trap-group.md)
+      + [新增捕捉器群組](audience/trap-group.md)
    + 使用訂閱服務 {#work-with-services}
       + [建立和管理您的訂閱服務](audience/manage-services.md)
       + [管理訂閱者](audience/manage-subscribers.md)
@@ -215,4 +215,4 @@ ht-degree: 93%
    + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
 + 設定 {#conf}
    + [設定自訂欄位](administration/custom-fields.md)
-+ [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)
++ [Campaign v8 (控制台) 文件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)

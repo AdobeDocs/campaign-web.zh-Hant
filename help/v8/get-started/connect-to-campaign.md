@@ -3,9 +3,9 @@ title: 連線至 Adobe Campaign Web 介面
 description: 了解如何連線至 Adobe Campaign Web 使用者介面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
    ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   了解更多有關 Adobe Experience Cloud 中組織的詳細資訊，請參閱[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant){target="_blank"}。
+   了解更多有關 Adobe Experience Cloud 中組織的詳細資訊，請參閱[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-hant){target="_blank"}。
 
 
 ## 存取 Adobe Campaign {#access-to-campaign}
@@ -85,22 +85,22 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 >title="此工作流程為唯讀資料"
 >abstract="您沒有編輯此工作流程的權限。如果需要，請聯絡管理員為您授予存取權。"
 
-存取控制可以限制存取主要清單中的物件和資料，例如傳遞、收件者或工作流程。這些限制也會套用在Explorer導覽樹狀結構中。 此外，您需要從使用者介面建立、刪除、複製和編輯物件的權限。
+存取控制可以限制存取主要清單中的物件和資料，例如傳遞、收件者或工作流程。這些限制也適用於「探索工具」導覽樹狀結構。此外，您需要從使用者介面建立、刪除、複製和編輯物件的權限。
 
-Campaign Web 中的所有權限均與 Campaign 用戶端主控台權限同步。只有Campaign管理員可以定義及修改使用者許可權。
+Campaign Web 中的所有權限都會與 Campaign 用戶端控制台權限進行同步。只有 Campaign 管理員可以定義和修改使用者權限。
 
 當您瀏覽 Campaign Web 使用者介面時，可以根據您的權限存取資料、物件和功能。例如，如果沒有資料夾的存取權限，就看不到。您的權限也會影響物件和資料管理。如果沒有特定資料夾的寫入權限，即使可以在使用者介面中看到，也無法在該資料夾中建立傳遞。
 
-您可以在這裡瞭解如何[檢視和管理許可權](permissions.md)。
+您可以[在這裡了解如何檢視和管理權限](permissions.md)。
 
-## Adobe Experience Cloud 頂部導覽 {#top-bar}
+## Adobe Experience Cloud 頂端導覽 {#top-bar}
 
 瀏覽介面的頂端列以進行下列作業：
 
 * 分享有關 Campaign Web 使用者介面的意見
 * 在組織之間切換
 * 在 Adobe Experience Cloud 解決方案和應用程式之間切換
-* 在 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant){target="_blank"} 上搜尋說明
+* 在 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-hant){target="_blank"} 上搜尋說明
 * 查看您的產品通知
 * 編輯您的 Adobe 設定檔及管理設定，例如[更新您喜愛的語言](#language-pref)或[切換到淺色/深色主題](#dark-theme)
 
@@ -126,7 +126,7 @@ Adobe Campaign Web 目前提供以下語言版本：
 * 繁體中文 - CHT
 
 
-您對 Campaign Web 的預設語言是由使用者設定檔中指定的偏好語言所決定。那與您的 Campaign 伺服器和用戶端主控台的語言無關。
+您對 Campaign Web 的預設語言是由使用者設定檔中指定的偏好語言所決定。那與您的 Campaign 伺服器和用戶端控制台的語言無關。
 
 若要變更您的語言：
 
@@ -145,6 +145,6 @@ Adobe Campaign Web 目前提供以下語言版本：
 
 Adobe Campaign 提供淺色和深色主題。依據預設，使用者介面會在淺色主題中啟用。若要切換到深色主題，請按一下您的設定檔圖示，然後使用&#x200B;**深色主題**&#x200B;切換開關來啟用/停用它。
 
-[此章節](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hant#preferences){target="_blank"}詳細說明有關使用者設定檔設定和帳戶偏好設定的內容。
+[此章節](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hant#preferences){target="_blank"}詳細說明有關使用者設定檔設定和帳戶偏好設定的內容。
 
-了解更多有關 Experience Cloud 中央介面元件的資訊，請參閱[此文件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hant){target="_blank"}。
+了解更多有關 Experience Cloud 中央介面元件的資訊，請參閱[此文件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hant){target="_blank"}。

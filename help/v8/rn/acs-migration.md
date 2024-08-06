@@ -4,9 +4,9 @@ title: 從 Campaign Standard 轉換到 Adobe Campaign Web
 description: 探索 Campaign Web 使用者介面
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign
 * 用於電子郵件設計的 HTML 轉換器。[了解更多](../email/existing-content.md)
 * 提供優惠的簡訊。[了解更多](../msg/offers.md)
 
-## 主控台和 Web 介面 {#console}
+## 控制台和 Web 介面 {#console}
 
-作為 Campaign v8 使用者，您可以存取新的 Campaign Web 介面和 v8 主控台。資料和設定則會從一個環境同步至另一個環境。您可以在 Campaign Web 使用者介面 (從探索工具左側導覽) 中，查看用戶端主控台中可用的所有資料和設定。[了解更多](../get-started/user-interface.md#user-interface-explorer)
+作為 Campaign v8 使用者，您可以存取新的 Campaign Web 介面和 v8 控制台。資料和設定則會從一個環境同步至另一個環境。您可以在 Campaign Web 使用者介面 (從探索工具左側導覽) 中，查看用戶端控制台中可用的所有資料和設定。[了解更多](../get-started/user-interface.md#user-interface-explorer)
 
-如需深入了解 Campaign Web 使用者介面與 Campaign 用戶端主控台之間支援/不支援的功能以及互通性，請參閱[此頁面](../get-started/capability-matrix.md)。
+如需深入了解 Campaign Web 使用者介面與 Campaign 用戶端控制台之間支援/不支援的功能以及互通性，請參閱[此頁面](../get-started/capability-matrix.md)。
 
 ## 術語 {#terminology}
 
@@ -80,7 +80,7 @@ Campaign v8 和 Campaign Standard 之間大多數概念相似。儘管如此，�
 
 * **登陸頁面** - Campaign v8 登陸頁面進行了一些改進，以確保功能與 Campaign Standard 相同。請參閱[發行說明](../rn/release-notes.md#new-24-4)和登陸頁面[文件](../landing-pages/get-started-lp.md)以了解更多資訊。
 
-* **視覺片段** — 視覺片段是可重複使用的視覺元件，可在一或多個電子郵件傳遞或內容範本中參考。 修改片段時，使用該片段的所有內容都會隨之更新。此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合訊息內容。 [了解更多](../content/use-visual-fragments.md)
+* **視覺片段**  - 視覺片段是可重複使用的視覺元件，可在一個或多個電子郵件傳遞或在內容範本中進行參考。修改片段時，使用該片段的所有內容都會隨之更新。此功能可讓您預先建立多個自訂內容區塊，以便行銷使用者在改進的設計流程中使用這些內容區塊來快速組裝訊息內容。[了解更多](../content/use-visual-fragments.md)
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 

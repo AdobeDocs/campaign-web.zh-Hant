@@ -4,9 +4,9 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 95%
 
 >[!BEGINTABS]
 
->[!TAB 7月版本已上線！]
+>[!TAB 7 月版已上線！]
 
-探索Adobe Campaign Web使用者介面2024年7月發行版本的新功能和改進。
+了解 Adobe Campaign Web 使用者介面 7 月版帶來的新功能和改善事項。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
@@ -131,4 +131,4 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 ## 額外資源
 
 * [Adobe Campaign 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign V8 文件](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-Hant){target="_blank"}
+* [Adobe Campaign V8 文件](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-hant){target="_blank"}
