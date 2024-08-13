@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: b19976439b3cd4c5d89fed02d71830bc2d921562
 workflow-type: tm+mt
 source-wordcount: '1713'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -335,18 +335,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
->title="異動訊息電子郵件屬性"
->abstract="異動訊息電子郵件屬性"
+>title="交易型傳訊電子郵件屬性"
+>abstract="交易型傳訊電子郵件屬性"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
->title="異動訊息簡訊屬性"
->abstract="異動訊息簡訊屬性"
+>title="交易型傳訊 SMS 屬性"
+>abstract="交易型傳訊 SMS 屬性"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
->title="異動訊息推送屬性"
->abstract="異動訊息推送屬性"
+>title="交易型傳訊推播屬性"
+>abstract="交易型傳訊推播屬性"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
