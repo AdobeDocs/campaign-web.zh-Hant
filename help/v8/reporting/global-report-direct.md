@@ -40,17 +40,17 @@ ht-degree: 32%
 * **[!UICONTROL 取消訂閱]**：點選取消訂閱的收件者人數。
 +++
 
-### 目標對象 {#delivery-summary-direct-initial-target}
+### 目標客群 {#delivery-summary-direct-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_graph"
->title="目標對象"
->abstract="收件者資料和訊息資訊顯示在&#x200B;**目標對象**&#x200B;圖表中，反映了傳遞準備分析。"
+>title="目標客群"
+>abstract="收件者資料和訊息資訊顯示在&#x200B;**目標客群**&#x200B;圖表中，反映了傳遞準備分析。"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_table"
->title="目標對象"
->abstract="**目標對象**&#x200B;表格根據傳遞準備程序的結果提供了收件者和對應訊息的詳細劃分。"
+>title="目標客群"
+>abstract="**目標客群**&#x200B;表格根據傳遞準備程序的結果提供了收件者和對應訊息的詳細劃分。"
 
 **[!UICONTROL 目標對象]**&#x200B;的表格和圖表會展示與收件者相關的資料，其詳細量度如下。
 

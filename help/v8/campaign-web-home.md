@@ -4,7 +4,7 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>設定檔與對象</strong><br/><a href="audience/gs-audiences-recipients.md">開始使用</a> - <a href="audience/create-audience.md">建立對象</a> - <a href="audience/test-profiles.md">測試設定檔</a> - <a href="audience/manage-services.md">訂閱服務</a> - <a href="query/query-modeler-overview.md">查詢建模工具</a>
+      <strong>輪廓與客群</strong><br/><a href="audience/gs-audiences-recipients.md">開始使用</a> - <a href="audience/create-audience.md">建立客群</a> - <a href="audience/test-profiles.md">測試輪廓</a> - <a href="audience/manage-services.md">訂閱服務</a> - <a href="query/query-modeler-overview.md">查詢建模工具</a>
     </td>
   </tr>
 </table>

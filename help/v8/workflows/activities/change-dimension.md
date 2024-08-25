@@ -20,7 +20,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="變更維度活動"
->abstract="此活動可讓您在建立對象時變更目標市場選擇維度。其會根據資料範本和輸入維度來移動軸。例如，您可以從「合約」維度切換到「用戶端」維度。"
+>abstract="此活動可讓您在建立客群時變更目標市場選擇維度。其會根據資料範本和輸入維度來移動軸。例如，您可以從「合約」維度切換到「用戶端」維度。"
 
 **變更維度**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動。 此活動可讓您在建立工作流程時變更目標維度。 其會根據資料範本和輸入維度來移動軸。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)
 

@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 建立對象
+title: 建立客群
 description: 瞭解如何在Adobe Campaign Web中建立對象
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
@@ -10,12 +10,12 @@ ht-degree: 15%
 
 ---
 
-# 建立對象 {#create-audiences}
+# 建立客群 {#create-audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
->title="對象"
->abstract="從此畫面中，您可以存取可作為工作流程和獨立傳遞目標之所有對象的清單。按一下「**建立**」，在視覺畫布中建立新對象。<br/><br/>除了從頭開始建立簡單的對象之外，您還可以利用工作流程活動來調整對象。例如，您可將多個對象合併為單一對象，使用外部屬性擴充對象，或根據您選擇的規則將其分成多個對象。"
+>title="客群"
+>abstract="從此畫面中，您可以存取可作為工作流程和獨立傳遞目標之所有客群的清單。按一下「**建立**」，在視覺畫布中建立新客群。<br/><br/>除了從頭開始建立簡單的客群之外，您還可以利用工作流程活動來調整客群。例如，您可將多個客群合併為單一客群，使用外部屬性擴充客群，或根據您選擇的規則將其分成多個客群。"
 
 <!--
 [!CONTEXTUALHELP]
@@ -23,7 +23,7 @@ ht-degree: 15%
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
-Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從頭開始建立簡單的對象之外，您還可以利用工作流程活動來調整對象。例如，您可將多個對象合併為單一對象，使用外部屬性擴充對象，或根據您選擇的規則將其分成多個對象。
+Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從頭開始建立簡單的客群之外，您還可以利用工作流程活動來調整客群。例如，您可將多個客群合併為單一客群，使用外部屬性擴充客群，或根據您選擇的規則將其分成多個客群。
 
 當您完成工作流程後，產生的對象會自動與您現有的對象一起儲存在Campaign資料庫中。 接著，您就可以在工作流程或獨立傳送中鎖定這些對象。
 

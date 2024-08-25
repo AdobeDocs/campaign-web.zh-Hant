@@ -4,7 +4,7 @@ title: 編輯電子郵件內容
 description: 了解如何使用 Campaign Web 使用者介面中的電子郵件設計工具開始建置您的內容
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 

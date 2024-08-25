@@ -19,8 +19,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
->title="定義簡訊對象"
->abstract="您可以建立新對象，或者點選「**選擇對象**」按鈕選取現有的對象。如果需要，請新增一個控制組來測量傳遞的影響。"
+>title="定義簡訊客群"
+>abstract="您可以建立新客群，或者點選「**選擇客群**」按鈕選取現有的客群。如果需要，請新增一個控制組來測量傳遞的影響。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-Hant" text="設定控制組"
 
 >[!CONTEXTUALHELP]
@@ -53,7 +53,7 @@ ht-degree: 43%
    * **[!UICONTROL 性質]**：指定傳遞的性質，以進行分類。
 +++
 
-1. 按一下「**[!UICONTROL 選取對象]**」按鈕，以鎖定現有對象或建立您自己的對象。[進一步瞭解對象](../audience/about-recipients.md)。
+1. 按一下「**[!UICONTROL 選取客群]**」按鈕，以選擇現有客群或建立您自己的客群。[進一步瞭解對象](../audience/about-recipients.md)。
 
    ![](assets/sms_create_2.png){zoomable="yes"}
 

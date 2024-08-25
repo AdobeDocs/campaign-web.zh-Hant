@@ -38,7 +38,7 @@ ht-degree: 14%
 
    ![](assets/sms_send_3.png){zoomable="yes"}
 
-您現在可以檢閱您的簡訊訊息並將其傳送給您的對象。
+您現在可以檢閱您的簡訊訊息並將其傳送給您的客群。
 
 ## 測試您的SMS傳送 {#test-sms}
 

@@ -55,12 +55,12 @@ ht-degree: 30%
 +++
 
 
-## 選取您的推播傳遞對象 {#create-audience-push}
+## 選取您的推播傳遞客群 {#create-audience-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
->title="定義推播通知對象"
->abstract="若要定義訊息對象，您必須先選取與推播傳遞相關聯的應用程式。根據預設，推播通知會傳送給應用程式的所有訂閱者。您可以點選「**選取對象**」按鈕，並調整特定對象的範圍。如果需要，請新增一個控制組來測量傳遞的影響。"
+>title="定義推播通知客群"
+>abstract="若要定義訊息客群，您必須先選取與推播傳遞相關聯的應用程式。根據預設，推播通知會傳送給應用程式的所有訂閱者。您可以點選「**選取客群**」按鈕，並調整特定客群的範圍。如果需要，請新增一個控制組來測量傳遞的影響。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-Hant" text="設定控制組"
 
 

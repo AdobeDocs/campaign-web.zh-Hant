@@ -6,7 +6,7 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ ht-degree: 100%
       + [開始使用推播通知](push/gs-push.md)
       + [建立推播通知傳遞](push/create-push.md)
       + 豐富推播 {#rich-push}
-         + [設計 Android 豐富推播傳遞](push/rich-push.md)
+         + [設計 Android 豐富的推播傳遞](push/rich-push.md)
          + [設計 iOS 豐富推播傳遞](push/rich-push-ios.md)
       + [設計推播傳遞](push/content-push.md)
       + [預覽並傳送推播傳遞](push/send-push.md)
@@ -116,8 +116,8 @@ ht-degree: 100%
    + [設計登陸頁面內容](landing-pages/lp-content.md)
    + [使用登陸頁面範本](landing-pages/lp-templates.md)
    + [透過使用案例了解](landing-pages/lp-use-cases.md)
-+ 設定檔與對象 {#audiences}
-   + [開始使用設定檔和對象](audience/gs-audiences-recipients.md)
++ 輪廓與客群 {#audiences}
+   + [開始使用輪廓和客群](audience/gs-audiences-recipients.md)
    + [目標市場選擇維度](audience/targeting-dimensions.md)
    + [隔離](audience/quarantine.md)
    + 使用設定檔 {#work-with-profiles}
@@ -125,14 +125,14 @@ ht-degree: 100%
       + [探索設定檔的詳細資料](audience/profile-view.md)
       + [建立設定檔](audience/create-profile.md)
       + [使用測試設定檔](audience/test-profiles.md)
-   + 使用對象 {#audiences}
-      + [開始使用對象](audience/manage-audience.md)
-      + [建立對象](audience/create-audience.md)
+   + 使用客群 {#audiences}
+      + [開始使用客群](audience/manage-audience.md)
+      + [建立客群](audience/create-audience.md)
    + 選取您的傳遞收件者 {#target-audiences}
-      + [開始使用對象選擇](audience/delivery-recipients.md)
-      + [選取現有對象](audience/add-audience.md)
-      + [建立一次性對象](audience/one-time-audience.md)
-      + [從檔案載入電子郵件對象](audience/file-audience.md)
+      + [開始使用客群選擇](audience/delivery-recipients.md)
+      + [選取現有客群](audience/add-audience.md)
+      + [建立一次性客群](audience/one-time-audience.md)
+      + [從檔案載入電子郵件客群](audience/file-audience.md)
       + [設定控制組](audience/control-group.md)
       + [新增捕捉器群組](audience/trap-group.md)
    + 使用訂閱服務 {#work-with-services}
@@ -158,7 +158,7 @@ ht-degree: 100%
    + 使用工作流程活動 {#design-workflows}
       + [關於工作流程活動](workflows/activities/about-activities.md)
       + [合併連結](workflows/activities/and-join.md)
-      + [建置對象](workflows/activities/build-audience.md)
+      + [建置客群](workflows/activities/build-audience.md)
       + [變更資料來源](workflows/activities/change-data-source.md)
       + [變更維度](workflows/activities/change-dimension.md)
       + [組合](workflows/activities/combine.md)
@@ -172,7 +172,7 @@ ht-degree: 100%
       + [JavaScript 程式碼](workflows/activities/javascript-code.md)
       + [載入檔案](workflows/activities/load-file.md)
       + [調和](workflows/activities/reconciliation.md)
-      + [儲存對象](workflows/activities/save-audience.md)
+      + [儲存客群](workflows/activities/save-audience.md)
       + [排程器](workflows/activities/scheduler.md)
       + [分割](workflows/activities/split.md)
       + [訂閱服務](workflows/activities/subscription-services.md)

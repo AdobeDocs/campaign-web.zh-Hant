@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: 選取現有對象
-description: 了解如何選取對象
+title: 選取現有客群
+description: 了解如何選取客群
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
@@ -11,20 +11,20 @@ ht-degree: 31%
 ---
 
 
-# 選取現有對象 {#add-audience}
+# 選取現有客群 {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="選取現有對象"
->abstract="瀏覽清單以選取現有對象。使用「顯示篩選器」圖示篩選清單，或選取特定資料夾。"
+>title="選取現有客群"
+>abstract="瀏覽清單以選取現有客群。使用「顯示篩選器」圖示篩選清單，或選取特定資料夾。"
 
 本節說明在定義傳送的目標母體時，如何選取現有的對象。 定義傳送的主要目標時，您也可以：
 * [使用查詢模組化工具建置一次性對象](one-time-audience.md)。
 * [從外部檔案載入對象](file-audience.md) （僅適用於電子郵件）。
 
-可在傳遞中鎖定的對象可從&#x200B;**對象**&#x200B;左側功能表存取。 它們源自於多個來源，例如使用者端主控台、Campaign Web對象工作流程或Adobe Experience Platform。 [進一步了解對象](manage-audience.md)
+可在傳遞中鎖定的對象可從&#x200B;**對象**&#x200B;左側功能表存取。 它們源自於多個來源，例如使用者端主控台、Campaign Web對象工作流程或Adobe Experience Platform。 [進一步了解客群](manage-audience.md)
 
-若要為您的訊息選取現有對象，請依照以下步驟進行：
+若要為您的訊息選取現有客群，請依照以下步驟進行：
 
 1. 從傳遞建立助理的&#x200B;**對象**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 選取對象]**。
 

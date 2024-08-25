@@ -42,13 +42,13 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="選取分段類型"
->abstract="選取組合對象的方式：聯合、交集或排除。"
+>abstract="選取組合客群的方式：聯合、交集或排除。"
 
 請按照以下常見步驟開始設定「**組合**」活動：
 
 ![](../assets/workflow-combine.png)
 
-1. 新增多個活動，例如「**建置對象**」活動，以形成至少兩個不同的執行分支。
+1. 新增多個活動，例如「**建置客群**」活動，以形成至少兩個不同的執行分支。
 1. 對上述的任一個分支新增「**組合**」活動。
 1. 選取分段類型：[聯合](#union)、[交集](#intersection)或是[排除](#exclusion)。
 1. 按一下&#x200B;**「繼續」**。

@@ -53,7 +53,7 @@ ht-degree: 25%
 
 1. 在&#x200B;**選取警示群組**&#x200B;欄位中，指定&#x200B;**操作員群組**&#x200B;以接收此儀表板傳送的警示。 所選操作員群組的所有成員都會收到警示。
 
-   在[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}中進一步瞭解許可權和運運算元群組
+   在[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}中進一步瞭解許可權和運運算元群組
 
 1. 在&#x200B;**傳送警示條件**&#x200B;區段中，新增您要用來傳送警示的條件。 從預先定義的條件中選擇，或建立您自己的條件以符合特定需求。 [瞭解如何使用條件](../msg/delivery-alerting-criteria.md)
 

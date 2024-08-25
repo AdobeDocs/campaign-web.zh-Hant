@@ -18,7 +18,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="傳遞"
->abstract="傳遞是透過特定管道傳送給對象的通訊：電子郵件、簡訊或推播。您可以在此畫面中編輯、複製和刪除現有的傳遞。您也可以檢視已完成傳遞的報告。按一下「**建立傳遞**」按鈕，即可新增傳遞。"
+>abstract="傳遞是透過特定管道傳送給客群的通訊：電子郵件、簡訊或推播。您可以在此畫面中編輯、複製和刪除現有的傳遞。您也可以檢視已完成傳遞的報告。按一下「**建立傳遞**」按鈕，即可新增傳遞。"
 
 ## 建立傳遞 {#create-delivery}
 
@@ -37,7 +37,7 @@ ht-degree: 91%
    ![](assets/create-a-delivery.png){zoomable="yes"}
 
 1. 選擇要用於傳遞的管道。
-1. 定義主要目標和控制組的傳遞對象。[進一步瞭解對象](../audience/about-recipients.md)。
+1. 定義主要目標和控制組的傳遞客群。[進一步瞭解對象](../audience/about-recipients.md)。
 
    ![](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
 

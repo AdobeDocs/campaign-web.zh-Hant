@@ -25,12 +25,12 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="類型"
->abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。類型和類型規則是在 Campaign 用戶端主控台中建立的。"
+>abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞客群之外。類型和類型規則是在 Campaign 用戶端主控台中建立的。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="傳遞的類型設定"
->abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。類型和類型規則是在 Campaign 用戶端主控台中建立的。"
+>abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞客群之外。類型和類型規則是在 Campaign 用戶端主控台中建立的。"
 
 型別是一組&#x200B;**型別規則**，在準備階段執行，以便一次輕鬆將多個篩選規則套用至傳遞。 因其可以控制、篩選傳送的傳遞內容，並排列其優先順序，能讓行銷人員標準化所有傳遞的業務實務。
 
@@ -102,11 +102,11 @@ ht-degree: 50%
 >
 >型別規則是在Campaign使用者端主控台中設定。 深入瞭解[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}。
 
-## 對象設定 {#audience}
+## 客群設定 {#audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
->title="傳遞的對象設定"
+>title="傳遞的客群設定"
 >abstract="在那些可用項目中選取「**目標對應**」。目標對應是在 Adobe Campaign v8 主控台中定義的。您也可以設定傳遞的排除參數。"
 
 在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。目標對應是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。 [進一步瞭解目標對應](../audience/targeting-dimensions.md)。

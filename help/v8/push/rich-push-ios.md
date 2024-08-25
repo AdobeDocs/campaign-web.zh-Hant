@@ -9,7 +9,7 @@ ht-degree: 4%
 
 ---
 
-# 設計iOS豐富推送傳送 {#rich-push}
+# 設計 iOS 豐富的推播傳遞 {#rich-push}
 
 >[!IMPORTANT]
 >

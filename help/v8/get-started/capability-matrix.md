@@ -56,7 +56,7 @@ Adobe Campaign 可讓您建立、設計和共用登陸頁面。全新介面中�
 * **線上意見調查**。您只能從用戶端主控台建立線上意見調查和收集回答。無法在 Campaign Web 使用者介面中使用此功能。[在 Campaign Classic v7 文件中了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html?lang=zh-Hant){target="_blank"}
 
 
-## 設定檔、測試設定檔和對象 {#profiles-audiences-capabilities}
+## 輪廓、測試輪廓和客群 {#profiles-audiences-capabilities}
 
 您可以在 Campaign 用戶端主控台和 Campaign Web 使用者介面中，建立、管理和更新設定檔和測試設定檔。於一個 UI 中執行的所有變更，皆會顯示在另一個 UI 中。不過，新的 Campaign Web 使用者介面可能缺少某些特定的收件者設定和進階參數。
 
@@ -64,7 +64,7 @@ Adobe Campaign 可讓您建立、設計和共用登陸頁面。全新介面中�
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
-在 Campaign 用戶端主控台或 Adobe Experience Platform 中建立的所有對象，都可以在 Campaign Web 使用者介面中使用。
+在 Campaign 用戶端主控台或 Adobe Experience Platform 中建立的所有客群，都可以在 Campaign Web 使用者介面中使用。
 
 如 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html?lang=zh-Hant#import-jobs){target="_blank"}所述， 無法在 Campaign Web 使用者介面中使用單次匯入/匯出工作。<!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 

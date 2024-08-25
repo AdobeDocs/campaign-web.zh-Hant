@@ -20,7 +20,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
 >title="查詢建模工具"
->abstract="為收件者或資料庫中的任何其他目標市場選擇維度定義篩選條件。利用 Adobe Experience Platform 對象，進一步縮小目標對象範圍並充分發揮行銷活動的影響力。"
+>abstract="為收件者或資料庫中的任何其他目標市場選擇維度定義篩選條件。利用 Adobe Experience Platform 客群，進一步縮小目標客群範圍並充分發揮行銷活動的影響力。"
 
 Adobe Campaign Web使用者介面具有查詢建模工具，可簡化根據各種條件篩選資料庫的程式。 這可確保在使用者端主控台中建立的查詢完全相容，促進到Web使用者介面的無縫轉換。
 

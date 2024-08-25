@@ -41,12 +41,12 @@ ht-degree: 31%
 
 +++
 
-### 目標對象 {#delivery-summary-sms-initial-target}
+### 目標客群 {#delivery-summary-sms-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="SMS 目標族群"
->abstract="**目標族群**&#x200B;的圖表和表格顯示與您的 SMS 對象相關的資料，包括有關要傳遞的訊息和排除的資訊。"
+>abstract="**目標族群**&#x200B;的圖表和表格顯示與您的 SMS 客群相關的資料，包括有關要傳遞的訊息和排除的資訊。"
 
 針對每個已傳送的SMS傳遞，**[!UICONTROL 目標對象]**&#x200B;表格和圖表會顯示與收件者相關的資料。 量度詳情如下。
 
@@ -67,7 +67,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_delivery_stats"
 >title="簡訊傳遞統計資料"
->abstract="**傳遞統計資料**&#x200B;報告提供了對傳送的簡訊的全面見解，提供了各種指標的詳細資訊，例如成功率、錯誤發生次數和被隔離的對象。透過這份詳細的簡報，可以全面檢查簡訊傳遞過程的整體績效和結果。"
+>abstract="**傳遞統計資料**&#x200B;報告提供了對傳送的簡訊的全面見解，提供了各種指標的詳細資訊，例如成功率、錯誤發生次數和被隔離的客群。透過這份詳細的簡報，可以全面檢查簡訊傳遞過程的整體績效和結果。"
 
 **[!UICONTROL 傳遞統計資料]**&#x200B;表格詳細說明您每次SMS傳遞的成功情況。 量度詳情如下。
 

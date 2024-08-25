@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 從檔案載入電子郵件對象
+title: 從檔案載入電子郵件客群
 description: 瞭解如何從外部檔案載入設定檔，以建立您的電子郵件對象
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
@@ -10,7 +10,7 @@ ht-degree: 28%
 
 ---
 
-# 從檔案載入電子郵件對象 {#audience-from-file}
+# 從檔案載入電子郵件客群 {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
@@ -72,7 +72,7 @@ Adobe Campaign Web使用者介面可讓您定位儲存在外部檔案中的設�
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="從檔案載入對象"
+>title="從檔案載入客群"
 >abstract="支援的檔案格式為 TXT 和 CSV。使用第一行作為欄標題。讓您的檔案格式符合以下連結所提供的檔案範例。"
 
 載入外部檔案以定位傳送中的設定檔時，請確定輸入檔案符合以下建議：

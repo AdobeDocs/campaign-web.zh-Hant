@@ -41,12 +41,12 @@ ht-degree: 25%
 
 +++
 
-### 目標對象 {#delivery-summary-push-initial-target}
+### 目標客群 {#delivery-summary-push-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_targeted_audience"
 >title="推播目標族群"
->abstract="**目標族群**&#x200B;圖表和表格顯示與推播訊息對象相關的資料，顯示有關要傳遞和排除的訊息。"
+>abstract="**目標族群**&#x200B;圖表和表格顯示與推播訊息客群相關的資料，顯示有關要傳遞和排除的訊息。"
 
 針對每個已傳送的推播通知傳遞，**[!UICONTROL 目標對象]**&#x200B;表格和圖表會顯示與收件者相關的資料。 量度詳情如下。
 

@@ -16,7 +16,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card3"
 >title="開始使用電子郵件"
->abstract="您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的環境中建立電子郵件。了解如何建立傳遞、選取對象以及設計電子郵件內容。"
+>abstract="您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的環境中建立電子郵件。了解如何建立傳遞、選取客群以及設計電子郵件內容。"
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
@@ -69,22 +69,22 @@ ht-degree: 56%
 
 1. 此外，進階設定（例如型別規則與目標對應）可透過熒幕右上角的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕存取。 這些設定已在選取的範本中預先設定，但可視需要為此特定電子郵件進行編輯。 [了解更多](../advanced-settings/delivery-settings.md)
 
-## 定義對象 {#define-audience}
+## 定義客群 {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="選取傳遞對象"
->abstract="為您的行銷訊息選取最佳對象。您可以選擇現有對象 (已在 Campaign v8 執行個體中定義或來自 Adobe Experience Platform)、使用查詢建模工具建立新對象，或上傳包含您對象的檔案。「**從檔案中選取**」選項未啟用控制組，反之亦然。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=zh-Hant" text="選取主要對象"
+>title="選取傳遞客群"
+>abstract="為您的行銷訊息選取最佳客群。您可以選擇現有客群 (已在 Campaign v8 執行個體中定義或來自 Adobe Experience Platform)、使用查詢建模工具建立新客群，或上傳包含您客群的檔案。「**從檔案中選取**」選項未啟用控制組，反之亦然。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=zh-Hant" text="選取主要客群"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-Hant" text="設定控制組"
 
 在此使用案例中，您會傳送電子郵件給現有的對象。
 
-有關如何使用對象的其他說明，請參閱[本章節](../audience/about-recipients.md)。
+有關如何使用客群的其他說明，請參閱[本章節](../audience/about-recipients.md)。
 
-1. 若要選取電子郵件的對象，請按一下「**[!UICONTROL 選取對象]**」按鈕，然後從清單選擇一個現有對象。
+1. 若要選取電子郵件的客群，請按一下「**[!UICONTROL 選取客群]**」按鈕，然後從清單選擇一個現有客群。
 
-   在此範例中，我們希望使用的現有對象其目標定位為銀級和金級忠誠積分層級的客戶。
+   在此範例中，我們希望使用的現有客群，目標為銀級和金級忠誠積分層級的客戶。
 
    ![](assets/create-audience.png){zoomable="yes"}
 
@@ -92,7 +92,7 @@ ht-degree: 56%
    >
    >清單中可用的對象源自您的Campaign v8執行個體，或若已在您的執行個體上設定目的地/Source整合，則源自Adobe Experience Platform。 此整合可讓您將Experience Platform區段傳送至Adobe Campaign，並將Campaign傳送和追蹤記錄傳送至Adobe Experience Platform。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}中瞭解如何使用Campaign和Adobe Experience Platform。
 
-1. 選取對象後，您可以套用其他規則進一步調整目標。
+1. 選取客群後，您可以套用其他規則進一步調整目標。
 
    ![](assets/audience-selected.png){zoomable="yes"}
 
@@ -156,7 +156,7 @@ ht-degree: 56%
 
 有關如何預覽電子郵件和傳送校樣的其他資訊，請參閱[本節](../preview-test/preview-test.md)。
 
-1. 若要檢閱您的電子郵件，請按一下「**[!UICONTROL 檢閱並傳送]**」。這將顯示您的電子郵件的預覽，以及所有已設定的屬性、對象和排程。您可以按一下修改按鈕來編輯任何其中一個元素。
+1. 若要檢閱您的電子郵件，請按一下「**[!UICONTROL 檢閱並傳送]**」。這將顯示您的電子郵件的預覽，以及所有已設定的屬性、客群和排程。您可以按一下修改按鈕來編輯任何其中一個元素。
 
 1. 若要預覽電子郵件並傳送校樣，請按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
 
@@ -216,6 +216,6 @@ ht-degree: 56%
 
 ## 操作說明影片 {#video}
 
-瞭解如何從草稿開始建立電子郵件傳遞、定義對象、設計內容、模擬預覽，以及傳送校訂。
+瞭解如何從草稿開始建立電子郵件傳遞、定義客群、設計內容、模擬預覽，以及傳送校訂。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

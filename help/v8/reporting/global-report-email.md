@@ -23,7 +23,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_deliveries_overview_email"
 >title="傳遞概觀"
->abstract=" **傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可深入了解您的對象如何與您傳送的電子郵件傳遞和行銷活動進行互動。"
+>abstract=" **傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可深入了解您的客群如何與您傳送的電子郵件傳遞和行銷活動進行互動。"
 
 **[!UICONTROL 傳遞總覽]**&#x200B;提供關鍵效能量度(KPI)，提供訪客與每個電子郵件傳遞互動的深入分析。 這些量度概述如下。
 
@@ -44,12 +44,12 @@ ht-degree: 25%
 * **[!UICONTROL 取消訂閱]**：點選取消訂閱的收件者人數。
 +++
 
-### 目標對象 {#delivery-summary-email-initial-target}
+### 目標客群 {#delivery-summary-email-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_email"
->title="初始目標對象統計資料"
->abstract="**目標對象**&#x200B;表格和圖表提供了有關收件者參與的見解，幫助您評估行銷活動和傳遞的有效性。"
+>title="初始目標客群統計資料"
+>abstract="**目標客群**&#x200B;表格和圖表提供了有關收件者參與的見解，幫助您評估行銷活動和傳遞的有效性。"
 
 **[!UICONTROL 目標對象]**&#x200B;的表格和圖表會展示與收件者相關的資料，其詳細量度如下。
 
