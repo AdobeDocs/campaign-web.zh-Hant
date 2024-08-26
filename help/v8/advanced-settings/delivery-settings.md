@@ -4,9 +4,9 @@ title: 設定傳送設定
 description: 瞭解如何在Campaign網頁版中設定傳遞設定
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2416'
 ht-degree: 50%
 
 ---
@@ -286,3 +286,9 @@ ht-degree: 50%
 
 * 使用證明的&#x200B;**[!UICONTROL 保留傳遞代碼]**，以便與為其相關傳遞定義的傳遞代碼相同傳遞代碼關聯到證明。
 * 依預設，校訂的主題會以「PROOF #」為前置詞，其中#是校訂的編號。 您可以在「**[!UICONTROL 標籤前置詞]**」欄位變更此前置詞。
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_settings_variable"
+>title="變數"
+>abstract="變數"
