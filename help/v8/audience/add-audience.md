@@ -3,10 +3,10 @@ audience: end-user
 title: 選取現有客群
 description: 了解如何選取客群
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 31%
+source-wordcount: '347'
+ht-degree: 36%
 
 ---
 
@@ -17,6 +17,16 @@ ht-degree: 31%
 >id="acw_deliveries_email_audience_select"
 >title="選取現有客群"
 >abstract="瀏覽清單以選取現有客群。使用「顯示篩選器」圖示篩選清單，或選取特定資料夾。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="調整目標"
+>abstract="這些規則只能在桌面控制台中變更。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_target"
+>title="其他目標"
+>abstract="這些規則只能在桌面控制台中變更。"
 
 本節說明在定義傳送的目標母體時，如何選取現有的對象。 定義傳送的主要目標時，您也可以：
 * [使用查詢模組化工具建置一次性對象](one-time-audience.md)。
