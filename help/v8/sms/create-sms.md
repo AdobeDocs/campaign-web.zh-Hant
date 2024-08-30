@@ -21,13 +21,13 @@ ht-degree: 43%
 >id="acw_deliveries_sms_audience"
 >title="定義簡訊客群"
 >abstract="您可以建立新客群，或者點選「**選擇客群**」按鈕選取現有的客群。如果需要，請新增一個控制組來測量傳遞的影響。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-Hant" text="設定控制組"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-hant" text="設定控制組"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="簡訊範本選取"
 >abstract="選取預先定義的範本，以開始進行簡訊傳遞。傳遞範本可讓您在行銷活動和傳遞中輕鬆重複使用自訂內容和設定。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-Hant" text="使用傳遞範本"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-hant" text="使用傳遞範本"
 
 
 您可以建立獨立的SMS傳送，或在行銷活動工作流程的內容中建立SMS。 以下步驟詳細說明獨立（一次性） SMS傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟為[此區段](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中的詳細資料。

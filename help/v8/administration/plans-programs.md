@@ -16,7 +16,7 @@ ht-degree: 10%
 >id="acw_homepage_welcome_rn3"
 >title="計劃和專案"
 >abstract="您現在可在 Campaign Web 使用者介面中設定行銷計劃和專案的資料夾階層。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 

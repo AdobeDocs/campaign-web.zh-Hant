@@ -17,7 +17,7 @@ ht-degree: 6%
 >id="acw_homepage_welcome_rn5"
 >title="稽核軌跡"
 >abstract="新的稽核軌跡功能會針對您在 Adobe Campaign 執行個體執行的所有動作和事件，即時提供按時間順序排列的詳細記錄。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 
 在Adobe Campaign Web使用者介面中，**[!UICONTROL 稽核軌跡]**&#x200B;功能可讓使用者完全瞭解對執行個體內重要實體所做的所有修改，通常是對執行個體的順利操作產生重大影響的修改。
