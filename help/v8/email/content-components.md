@@ -3,10 +3,10 @@ audience: end-user
 title: 使用電子郵件設計工具內容元件
 description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 13ff1f0e052ff16dcf59c2ed10c62f987f5651a8
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 67%
+source-wordcount: '1195'
+ht-degree: 65%
 
 ---
 
@@ -147,6 +147,11 @@ ht-degree: 67%
 >若要讓外部內容符合電子郵件Designer，Adobe建議[從草稿開始建立訊息](create-email-content.md)，並將現有電子郵件中的內容複製到元件中。
 
 ## 影像 {#image}
+
+>[!IMPORTANT]
+>
+>Assets功能表的存取權僅限具有有效Adobe Experience Essentials授權的使用者。 如果您沒有此授權，將無法使用Assets功能表。
+
 
 使用&#x200B;**[!UICONTROL 影像]**&#x200B;元件將電腦中的影像檔案插入到電子郵件中。
 
