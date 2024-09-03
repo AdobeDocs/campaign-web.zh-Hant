@@ -2,10 +2,10 @@
 audience: end-user
 title: 建立內容片段
 description: 瞭解如何建立內容片段
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d27bbc8647d17dc442656465aa6d5a7e4fe7f060
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 30%
+source-wordcount: '1013'
+ht-degree: 27%
 
 ---
 
@@ -141,11 +141,23 @@ ht-degree: 30%
 >
 >刪除片段時，會更新使用此片段的傳遞和範本：片段會從內容中移除，但仍會參照。 若要保留這些傳送和範本中的片段內容，您必須中斷繼承才可刪除片段，[，如本節](use-visual-fragments.md#break-inheritance)所詳述。
 
+### 封存內容片段 {#archive}
+
+您可以從不再與您的品牌相關的片段中清除片段清單。 若要這麼做，請按一下所需片段旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 封存]**。 片段會從片段清單中移除，以防止使用者在未來的電子郵件或範本中使用此片段。
+
+若要存取封存的片段，請使用篩選窗格來顯示它們。 若要取消封存片段，請按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 取消封存]**。
+
+![](assets/fragment-unarchive.png)
+
+>[!NOTE]
+>
+>如果您封存內容中使用的片段，該內容不受影響。
+
 ### 複製內容片段 {#duplicate-fragments}
 
 您可以輕鬆複製內容片段以建立新片段。 若要複製現有片段，請執行以下步驟：
 
-1. 瀏覽至片段清單，然後按一下要刪除的片段旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕。
+1. 瀏覽至片段清單，然後按一下要複製的片段旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕。
 1. 按一下&#x200B;**複製**&#x200B;並確認。
 1. 輸入新片段的標籤並儲存您的變更。
 

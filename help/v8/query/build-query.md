@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2210'
 ht-degree: 9%
 
 ---
@@ -27,6 +27,22 @@ ht-degree: 9%
   範例： *訂閱了「運動」電子報&#x200B;**和**的收件者，他們住在紐約&#x200B;**或**舊金山*。
 
   ![](assets/query-add-operator.png){zoomable="yes"}
+
+## 查詢中的值分佈 {#distribution-values-query}
+
+值的分佈有助於瞭解表格內欄位中值的百分比。 瞭解查詢中值的分佈情況，有助於精簡分段。
+
+若要存取該功能，請在查詢中按一下屬性選取按鈕，如下所示。 然後，按一下所選屬性旁的&#x200B;**[!UICONTROL 資訊]**&#x200B;圖示。 您可以在此存取&#x200B;**[!UICONTROL 值的分佈]**&#x200B;按鈕。
+
+![](assets/values_query.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> 對於具有許多值的欄位，只會顯示前20個值。 通知&#x200B;**[!UICONTROL 部分載入]**&#x200B;將會警告您。
+
+>[!NOTE]
+>
+> 每個屬性選擇器中都可以存取&#x200B;**[!UICONTROL 值分佈]**&#x200B;功能。
 
 ## 新增篩選元件 {#filtering}
 

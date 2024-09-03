@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '456'
+ht-degree: 88%
 
 ---
 
@@ -51,23 +51,23 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 7 月版已上線！]
+>[!TAB 8月版本已上線！]
 
 了解 Adobe Campaign Web 使用者介面 7 月版帶來的新功能和改善事項。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 傳遞警報]
+>[!TAB 值的分佈]
 
-「傳送警報」是警報管理系統，可讓使用者群組自動接收包含其傳送執行資訊的電子郵件通知。
+存取個人化的欄位清單時，您現在可以檢查每個欄位的值分配方式。
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![影像](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB 計劃和專案]
+>登陸頁面中的[!TAB 驗證碼]
 
-Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
+您現在可以新增驗證碼以保護登陸頁面免受機器人造成的垃圾郵件和濫用。 此功能限量提供。
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+[![影像](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]

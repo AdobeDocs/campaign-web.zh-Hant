@@ -3,10 +3,10 @@ title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 30%
+source-wordcount: '1619'
+ht-degree: 27%
 
 ---
 
@@ -98,6 +98,8 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
    依預設，登入頁面會儲存在&#x200B;**[!UICONTROL 網頁應用程式]**&#x200B;資料夾中。 您可以在&#x200B;**[!UICONTROL 其他選項]**&#x200B;中瀏覽到想要的位置來變更它。 [瞭解如何使用資料夾](../get-started/permissions.md#folders)
 
+   您也可以設定驗證碼以保護您的登陸頁面。 [在這裡瞭解更多](#captcha)。
+
    ![](assets/lp-properties.png){zoomable="yes"}
 
 1. 在&#x200B;**[!UICONTROL 資料預先載入]**&#x200B;區段中，下列兩個選項可供使用：
@@ -155,6 +157,28 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 1. 按一下&#x200B;**[!UICONTROL 檢閱並發佈]**。
 
 定義所有設定並[設計](lp-content.md)所有頁面後，您可以[測試](#test-landing-page)和[發佈](#publish-landing-page)您的登陸頁面，如下所述。
+
+## 使用驗證碼保護您的登陸頁面 {#captcha}
+
+>[!AVAILABILITY]
+>
+>此功能在有限可用性(LA)中提供。 此版本僅限使用上次修正版本&#x200B;**升級的** Adobe Campaign v8.7.2的客戶使用，且無法部署於任何其他環境。
+
+設定驗證碼可協助您保護登陸頁面免受垃圾郵件和濫用。
+
+若要使用，請移至登陸頁面的&#x200B;**[!UICONTROL 屬性]**。
+在**[!UICONTROL 其他選項]**&#x200B;中。 啟動&#x200B;**[!UICONTROL 額外啟用驗證碼解決方案]**&#x200B;切換按鈕。
+
+![](assets/lp-properties-captcha.png){zoomable="yes"}
+
+若要檢查驗證碼設定，請按一下&#x200B;**[!UICONTROL 檢閱和發佈]**&#x200B;按鈕，以及&#x200B;**[!UICONTROL 模擬內容]**。 提交表單時，您會在驗證期間看到驗證碼Widget正常運作，如下所示。
+
+![](assets/lp-captcha.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobe Campaign v8中的驗證碼Widget是以浮動模式執行的ALTCHA。 它會在驗證期間顯示，並在程式完成後消失。
+
 
 ## 測試登陸頁面 {#test-landing-page}
 

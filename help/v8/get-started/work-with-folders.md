@@ -3,10 +3,10 @@ audience: end-user
 title: 使用資料夾
 description: 了解如何在 Adobe Campaign 中管理資料夾
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 54%
 
 ---
 
@@ -77,3 +77,33 @@ ht-degree: 100%
 選擇「**[!UICONTROL 刪除資料夾]**」。
 
 ![](assets/folder_delete.png){zoomable="yes"}
+
+## 資料夾中的值分佈 {#distribution-values-folder}
+
+值的分佈有助於瞭解表格中某欄的值的百分比。
+
+若要瞭解資料夾中的值分佈，請按照以下步驟操作：
+
+例如，在傳遞中，我們想要瞭解&#x200B;**管道**&#x200B;資料行的值分佈。
+
+若要取得此資訊，請前往&#x200B;**[!UICONTROL 傳送]**&#x200B;資料夾，然後按一下&#x200B;**[!UICONTROL 設定資料行]**&#x200B;圖示。
+
+在&#x200B;**[!UICONTROL 設定資料行]**&#x200B;視窗中，按一下您要知道資料行的&#x200B;**[!UICONTROL 資訊]**&#x200B;圖示。 然後，按一下&#x200B;**[!UICONTROL 分配值]**&#x200B;按鈕。
+
+![](assets/values_deliveries.png){zoomable="yes"}
+
+您將會取得&#x200B;**[!UICONTROL 管道]**&#x200B;資料行中值的百分比。
+
+![](assets/values_percentage.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> 對於具有許多值的欄，只會顯示前20個值。 通知&#x200B;**[!UICONTROL 部分載入]**&#x200B;將會警告您。
+
+您也可以有連結值的分佈。
+
+在屬性清單中，按一下所需連結旁的&#x200B;**+**&#x200B;按鈕，如下所示。 這會新增連結至&#x200B;**[!UICONTROL 輸出資料行]**。 您現在可以有&#x200B;**[!UICONTROL 資訊]**&#x200B;圖示，讓您檢視其值的分佈。 如果您不想在&#x200B;**[!UICONTROL 輸出資料行]**&#x200B;中保留連結，請務必按一下&#x200B;**[!UICONTROL 取消]**&#x200B;按鈕。
+
+![](assets/values_link.png){zoomable="yes"}
+
+查詢模型工具中也可能有值的分佈。 [在這裡瞭解更多](../query/build-query.md#distribution-of-values-in-a-query)。

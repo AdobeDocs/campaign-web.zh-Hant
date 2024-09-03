@@ -3,10 +3,10 @@ title: 定義特定於著陸頁面的內容
 description: 瞭解如何在Campaign網頁中設計登入頁面特定內容
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 4dee53676949282b7c0e7664405b7d5a35ef64d2
+source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 15%
+source-wordcount: '1226'
+ht-degree: 16%
 
 ---
 
@@ -135,6 +135,20 @@ ht-degree: 15%
    在設計電子郵件時，如果您定義此登陸頁面的&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;型別連結，則可以從清單中選取任何服務。 接著，您可以在定義此登入頁面的其他連結時，選取其他服務。 [進一步瞭解插入連結](../email/message-tracking.md)
 
    ![](assets/email-link-to-landing-page.png){zoomable="yes"}
+
+1. 您可以在提交登入頁面時傳送訊息。 [在這裡瞭解更多](#lp-message)
+
+### 在提交後傳送訊息 {#lp-message}
+
+>[!AVAILABILITY]
+>
+>此功能在有限可用性(LA)中提供。 僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
+
+若要在提交登入頁面後自動傳送確認訊息，請執行下列步驟：
+1. 在&#x200B;**[!UICONTROL 呼叫動作]**&#x200B;區段中，核取&#x200B;**[!UICONTROL 傳送確認電子郵件]**&#x200B;選項。
+1. 在關聯的下拉式清單中，選擇需要送出的交易式訊息範本。
+
+![](assets/lp-confirmation.png){zoomable="yes"}
 
 ## 定義登陸頁面表單樣式 {#lp-form-styles}
 

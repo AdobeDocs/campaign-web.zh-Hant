@@ -3,7 +3,7 @@ audience: end-user
 title: 設定工作流程設定
 description: 瞭解如何使用Adobe Campaign Web進行工作流程設定
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 29%

@@ -4,7 +4,7 @@ description: 探索下一個 Campaign Web 使用者介面版本的新功能
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 00051db2d5c052fce55434d8dbf47502156d171a
+source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 42%
@@ -42,4 +42,6 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 
 * **登陸頁面captcha** — 您現在可以新增驗證碼以保護登陸頁面，使其免受機器人程式造成的垃圾郵件和濫用。 這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。
 
-* **Rest API** — 作為Campaign Standard移轉的使用者，您現在可以使用Rest API來處理異動訊息。 [深入了解](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hant){target="_blank"}.
+* **Rest API** — 身為Campaign Standard移轉的使用者，您現在可以使用Rest API來處理異動訊息。 [深入了解](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hant){target="_blank"}.
+
+

@@ -3,10 +3,10 @@ audience: end-user
 title: 選取現有客群
 description: 了解如何選取客群
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 36%
+source-wordcount: '323'
+ht-degree: 31%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 36%
 >id="acw_deliveries_email_audience_select"
 >title="選取現有客群"
 >abstract="瀏覽清單以選取現有客群。使用「顯示篩選器」圖示篩選清單，或選取特定資料夾。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_refine_target"
->title="調整目標"
->abstract="這些規則只能在桌面控制台中變更。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_additional_target"
->title="其他目標"
->abstract="這些規則只能在桌面控制台中變更。"
 
 本節說明在定義傳送的目標母體時，如何選取現有的對象。 定義傳送的主要目標時，您也可以：
 * [使用查詢模組化工具建置一次性對象](one-time-audience.md)。
@@ -58,4 +48,4 @@ ht-degree: 36%
 
    ![](assets/refine-audience.png){zoomable="yes"}
 
-   您也可以設定控制組來測量行銷活動的影響。控制組不會收到訊息。可讓您將收到訊息之母體的行為與未收到訊息之聯絡人的行為進行比較。[了解更多](control-group.md)
+1. 您也可以設定控制組來測量行銷活動的影響。控制組不會收到訊息。可讓您將收到訊息之群體的行為與未收到訊息之聯絡人的行為進行比較。[了解更多](control-group.md)
