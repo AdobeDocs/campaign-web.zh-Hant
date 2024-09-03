@@ -45,7 +45,7 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
->title="SMS 目標族群"
+>title="SMS 目標群體"
 >abstract="**目標族群**&#x200B;的圖表和表格顯示與您的 SMS 客群相關的資料，包括有關要傳遞的訊息和排除的資訊。"
 
 針對每個已傳送的SMS傳遞，**[!UICONTROL 目標對象]**&#x200B;表格和圖表會顯示與收件者相關的資料。 量度詳情如下。

@@ -15,7 +15,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="預覽模式"
->abstract="將測試母體納入主要目標，以預覽和測試訊息。"
+>abstract="將測試群體納入主要目標，以預覽和測試訊息。"
 
 定義訊息內容後，您可以傳送校樣到測試設定檔，以預覽和測試訊息。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 
@@ -25,8 +25,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="測試母體"
->abstract="選取測試母體模式。"
+>title="測試群體"
+>abstract="選取測試群體模式。"
 
 在傳送校樣之前，請務必定義傳送的目標對象。 [了解更多](../audience/add-audience.md)
 

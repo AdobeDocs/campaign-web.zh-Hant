@@ -4,10 +4,10 @@ title: 設定傳送設定
 description: 瞭解如何在Campaign網頁版中設定傳遞設定
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
+source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 50%
+source-wordcount: '2787'
+ht-degree: 45%
 
 ---
 
@@ -288,7 +288,68 @@ ht-degree: 50%
 * 依預設，校訂的主題會以「PROOF #」為前置詞，其中#是校訂的編號。 您可以在「**[!UICONTROL 標籤前置詞]**」欄位變更此前置詞。
 
 
+
+
+## 電子郵件傳遞的SMTP設定 {#smtp}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_smtp"
+>title="SMTP引數"
+>abstract="您可以將其他SMTP引數新增至電子郵件傳遞。"
+
+您可以將其他SMTP引數新增至電子郵件傳遞。 您可以在傳送設定的SMTP標籤中執行此作業。
+
+![](assets/smtp_tab.png){zoomable="yes"}
+
+### 字元編碼 {#character-encoding}
+
+**[!UICONTROL 字元編碼]**&#x200B;區段可讓您設定特定編碼。 預設編碼為UTF-8，適用於大多數字元。 但是，如果某些電子郵件提供者不支援UTF-8標準編碼，則可能無法正確顯示特殊字元。
+
+例如，如果您想要傳送包含日文字元的電子郵件，最好使用專門支援這些字元的編碼，好讓您在日本的對象可以正確看到所有內容。
+
+若要這麼做，請啟動&#x200B;**[!UICONTROL 強制用於訊息的編碼]**&#x200B;切換按鈕，並從支援特殊字元的清單中選取正確的編碼。
+
+![](assets/smtp_encoding.png){zoomable="yes"}
+
+### 退回電子郵件 {#bounce-emails}
+
+傳遞設定的&#x200B;**[!UICONTROL SMTP]**&#x200B;標籤可讓您同時設定退回郵件的管理。
+
+* **[!UICONTROL 錯誤對位址]**：如果您啟用&#x200B;**[!UICONTROL 使用為平台]**&#x200B;切換定義的預設錯誤位址，則會在平台的預設錯誤方塊中接收退回的電子郵件。 如果您未啟用此功能，您可以為傳送定義特定的錯誤地址。
+
+* **[!UICONTROL 退信地址]**：您也可以定義其他未處理退信電子郵件的轉寄地址。 此位址可讓您在應用程式無法自動限定電子郵件時，調查退回的原因。
+
+這兩個欄位可以個人化，如[本節](../personalization/gs-personalization.md)中所述。
+
+![](assets/smtp_bounce.png){zoomable="yes"}
+
+### 其他 SMTP 標頭 {#smtp-headers}
+
+您可以在傳遞設定的SMTP索引標籤中，將&#x200B;**[!UICONTROL SMTP標頭]**&#x200B;新增至您的電子郵件傳遞。
+
+在此視窗中輸入的指令碼必須參考以下格式的每行一個標題： name：value。
+
+如有必要，會自動對值編碼。
+
+![](assets/smtp_headers.png){zoomable="yes"}
+
+
+>[!IMPORTANT]
+>
+>會為進階使用者保留新增指令碼，以便插入其他 SMTP 標題。此指令碼的語法必須符合以下內容類型的要求：沒有未使用的空間，沒有空行等。
+
+## 新增變數 {#variables-delivery}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="變數"
 >abstract="變數"
+
+您可以將變數新增至傳送，這對追蹤相當實用。 若要這麼做，
+瀏覽至**[!UICONTROL 變數]**&#x200B;標籤，如下所示。
+
+![](assets/variables-tab.png){zoomable="yes"}
+
+按一下&#x200B;**[!UICONTROL 新增變數]**&#x200B;按鈕以輸入變數的詳細資料，然後按一下&#x200B;**[!UICONTROL 確認]**&#x200B;以儲存變更。
+
+![](assets/variables-add.png){zoomable="yes"}

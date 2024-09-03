@@ -48,7 +48,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="目標市場選擇維度"
->abstract="選取新的目標市場選擇維度。維度可讓您定義目標族群：收件者、應用程式訂閱者、操作者、訂閱者等。預設會選取目前的目標市場選擇維度。"
+>abstract="選取新的目標市場選擇維度。維度可讓您定義目標群體：收件者、應用程式訂閱者、操作者、訂閱者等。預設會選取目前的目標市場選擇維度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
@@ -76,7 +76,7 @@ ht-degree: 44%
 
 1. 將&#x200B;**調解**&#x200B;活動新增至您的工作流程。 此活動應在包含母體的轉變之後新增，其母體的目標維度不會直接來自Adobe Campaign。
 
-1. 選取新的目標市場選擇維度。維度可讓您定義目標族群：收件者、應用程式訂閱者、操作者、訂閱者等。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)。
+1. 選取新的目標市場選擇維度。維度可讓您定義目標群體：收件者、應用程式訂閱者、操作者、訂閱者等。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)。
 
 1. 選取要用於調解的欄位。 您可以使用一個或多個調和標準。
 

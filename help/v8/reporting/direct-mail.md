@@ -36,12 +36,12 @@ ht-degree: 23%
 * **[!UICONTROL 要排除]**：從目標設定檔中排除且不會收到直接郵件訊息的使用者設定檔數目。
 +++
 
-### 初始目標族群 {#direct-mail-delivery-targeted-population}
+### 初始目標群體 {#direct-mail-delivery-targeted-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target_direct_mail"
->title="初始目標族群"
->abstract="**初始目標族群**&#x200B;圖表根據傳遞準備的結果顯示與收件者和訊息相關的資料。"
+>title="初始目標群體"
+>abstract="**初始目標群體**&#x200B;圖表根據傳遞準備的結果顯示與收件者和訊息相關的資料。"
 
 **[!UICONTROL 初始目標母體]**&#x200B;圖表顯示與收件者相關的資料。 量度會在傳遞準備期間計算並顯示：初始對象、要傳送的訊息數、排除的收件者數。
 

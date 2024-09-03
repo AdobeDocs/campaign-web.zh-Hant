@@ -15,7 +15,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_save_audience"
 >title="儲存客群"
->abstract="使用此活動來更新現有的客群，或是從工作流程中的族群運算上游建立新的客群。建立的客群將新增至客群清單中，並可透過「**客群**」選單使用。"
+>abstract="使用此活動來更新現有的客群，或是從工作流程中的群體運算上游建立新的客群。建立的客群將新增至客群清單中，並可透過「**客群**」選單使用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"

@@ -21,12 +21,12 @@ ht-degree: 40%
 >title="報告傳送"
 >abstract="報告中的「**傳送**」標籤可讓您深入了解訪客與您傳遞的互動，以及他們可能遇到的任何潛在錯誤。"
 
-### 初始目標族群 {#email-delivery-targeted-population}
+### 初始目標群體 {#email-delivery-targeted-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
->title="初始目標族群"
->abstract="**初始目標族群**&#x200B;圖表根據傳遞準備的結果顯示與收件者和訊息相關的資料。"
+>title="初始目標群體"
+>abstract="**初始目標群體**&#x200B;圖表根據傳遞準備的結果顯示與收件者和訊息相關的資料。"
 
 **[!UICONTROL 初始目標母體]**&#x200B;圖表顯示與收件者相關的資料。 量度會在傳遞準備期間計算並顯示：初始對象、要傳送的訊息數、排除的收件者數。
 

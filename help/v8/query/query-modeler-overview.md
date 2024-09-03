@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查詢建模工具
 description: 瞭解如何使用Adobe Campaign Web查詢建模工具。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 20%
+source-wordcount: '620'
+ht-degree: 19%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 20%
 >id="acw_orchestration_querymodeler_querymessage"
 >title="查詢建模工具"
 >abstract="為收件者或資料庫中的任何其他目標市場選擇維度定義篩選條件。利用 Adobe Experience Platform 客群，進一步縮小目標客群範圍並充分發揮行銷活動的影響力。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="調整目標"
+>abstract="這些規則只能在使用者端主控台中變更。"
 
 Adobe Campaign Web使用者介面具有查詢建模工具，可簡化根據各種條件篩選資料庫的程式。 這可確保在使用者端主控台中建立的查詢完全相容，促進到Web使用者介面的無縫轉換。
 
@@ -38,6 +43,12 @@ Adobe Campaign Web使用者介面具有查詢建模工具，可簡化根據各�
 | **篩選報表資料**：新增規則以篩選報表中顯示的資料。 [瞭解如何使用報告](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **自訂清單**：建立自訂規則以篩選清單中顯示的資料，例如收件者、傳遞清單等。 [瞭解如何篩選清單](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **建置條件式內容**：建立條件來定義應該向不同收件者顯示的內容，確保個人化和相關的傳訊，讓電子郵件內容成為動態內容。 [瞭解如何建立條件式內容](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
+
+>[!NOTE]
+>
+>存取在已套用規則的使用者端主控台中建立的物件時（例如對象或預先定義的篩選器），可能會顯示&#x200B;**[!UICONTROL Refine target]**&#x200B;區段。 這表示已設定其他引數來調整規則目標。 這些引數只能在主控台中修改。
+>
+>![](assets/target-warning.png){zoomable="yes"}
 
 ## 查詢模組化介面 {#interface}
 

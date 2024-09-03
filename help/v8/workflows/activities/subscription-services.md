@@ -20,7 +20,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="訂閱服務一般參數"
->abstract="選擇所需的服務並選擇要執行的動作 (訂閱或取消訂閱)。將「**傳送確認訊息**」選項切換為開啟，通知族群他們正訂閱或取消訂閱所選服務。"
+>abstract="選擇所需的服務並選擇要執行的動作 (訂閱或取消訂閱)。將「**傳送確認訊息**」選項切換為開啟，通知群體他們正訂閱或取消訂閱所選服務。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
