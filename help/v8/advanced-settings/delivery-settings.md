@@ -4,9 +4,9 @@ title: 設定傳送設定
 description: 瞭解如何在Campaign網頁版中設定傳遞設定
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 78356629dc64702d81645b684350304f65b88597
+source-git-commit: 8c4e19504606ec02dd05eb4e3fbc4d21d9972860
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2826'
 ht-degree: 45%
 
 ---
@@ -343,9 +343,11 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="變數"
->abstract="變數"
+>abstract="您可以將變數新增至傳遞，這對追蹤和個人化相當實用。 您可從傳遞內容和工作流程存取這些變數。"
 
-您可以將變數新增至傳送，這對追蹤相當實用。 若要這麼做，請導覽至&#x200B;**[!UICONTROL 變數]**&#x200B;標籤，如下所示。
+您可以將變數新增至傳遞，這對追蹤和個人化相當實用。 您可從傳遞內容和工作流程存取這些變數。
+
+若要新增變數，請瀏覽至&#x200B;**[!UICONTROL 變數]**&#x200B;標籤，如下所示。
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
