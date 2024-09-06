@@ -3,9 +3,9 @@ audience: end-user
 title: 使用測試工作流程活動
 description: 瞭解如何使用測試工作流程活動
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: 8478b7101d78904b0255b728fd814a8319aa2e56
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test"
 >title="測試活動"
->abstract="**Test**&#x200B;活動可讓您根據指定的條件啟用轉換。 依預設，活動會提供簡單的布林值測試。 如果符合「True」轉變中定義的條件，則會啟用此轉變。 否則，將會啟用預設的「False」轉變。 您可以視需要設定條件。"
+>abstract="**測試**&#x200B;活動是&#x200B;**流量控制**&#x200B;活動。 它可讓您根據指定的條件啟用轉變。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test_conditions"
 >title="條件"
->abstract="按一下「**[!UICONTROL 新增條件]**」按鈕，將多個輸出轉變新增至活動。 在執行工作流程期間，會依序測試每個條件，直到符合其中一個條件為止。 如果未符合任何條件，工作流程會沿著&#x200B;**[!UICONTROL 預設條件]**&#x200B;的路徑繼續。 如果未啟用預設條件，工作流程會在此時停止。"
+>abstract="**測試**&#x200B;活動可以有多個輸出轉換。 在執行工作流程期間，會依序測試每個條件，直到符合其中一個條件為止。 如果未符合任何條件，工作流程會沿著&#x200B;**[!UICONTROL 預設條件]**&#x200B;的路徑繼續。 如果未啟用預設條件，工作流程會在此時停止。"
 
 **測試**&#x200B;活動是&#x200B;**流量控制**&#x200B;活動。 它可讓您根據指定的條件啟用轉變。
 

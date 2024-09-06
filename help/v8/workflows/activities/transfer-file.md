@@ -3,10 +3,10 @@ audience: end-user
 title: 使用傳輸檔案活動
 description: 瞭解如何使用傳輸檔案工作流程活動
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 18%
+source-wordcount: '1246'
+ht-degree: 17%
 
 ---
 
@@ -36,36 +36,6 @@ ht-degree: 18%
 >id="acw_orchestration_transferfile_source"
 >title="傳輸檔案來源"
 >abstract="輸入所需的檔案名稱。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="傳輸後刪除來源檔案"
->abstract="成功傳輸後清除來源檔案。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="顯示工作階段記錄"
->abstract="與傳輸作業相關的資訊會顯示在工作流程記錄中。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="列出所有檔案"
->abstract="此選項會將伺服器上存在的所有檔案編成索引並儲存在 **vars.filenames** 事件變數中。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="檔案歷史化"
->abstract="檔案歷史化"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="處理遺失的檔案"
->abstract="您可以使用這個選項，在活動後啟動「**無檔案**」傳出轉變。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="處理錯誤"
->abstract="您可以利用這個選項，在活動後啟動「**錯誤**」傳出轉變。"
 
 **傳輸檔案**&#x200B;活動是&#x200B;**資料管理**&#x200B;活動。 它可讓您接收或傳送檔案、測試檔案是否存在，或列出伺服器上的檔案。 使用的通訊協定可以是伺服器對伺服器通訊協定或 HTTP 通訊協定。
 
@@ -122,6 +92,11 @@ ht-degree: 18%
 
 ## 歷史化設定 {#historization}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="檔案歷史化"
+>abstract="每次執行&#x200B;**[!UICONTROL 傳輸檔案]**&#x200B;活動時，都會將已上傳或已下載的檔案儲存在專用的資料夾中。 系統會為工作流程的每個傳輸檔案活動建立一個資料夾。 依預設，檔案會先儲存在Adobe Campaign安裝資料夾(`/vars`)的預設儲存目錄中，然後再進行處理。 若要使用特定資料夾，請關閉&#x200B;**[!UICONTROL 使用預設儲存目錄]**&#x200B;選項，然後輸入目錄路徑。"
+
 每次執行&#x200B;**[!UICONTROL 傳輸檔案]**&#x200B;活動時，都會將已上傳或已下載的檔案儲存在專用的資料夾中。 系統會為工作流程的每個傳輸檔案活動建立一個資料夾。 依預設，檔案會先儲存在Adobe Campaign安裝資料夾(`/vars`)的預設儲存目錄中，然後再進行處理。 若要使用特定資料夾，請關閉&#x200B;**[!UICONTROL 使用預設儲存目錄]**&#x200B;選項，然後輸入目錄路徑。
 
 ![](../assets/workflow-transfer-file-historization.png)
@@ -139,6 +114,31 @@ ht-degree: 18%
 >如果活動未再次執行，則不會檢查或清除其資料夾。考慮到這一點，在傳輸大型檔案時請務必小心。
 
 ## 進階與錯誤管理選項 {#advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="傳輸後刪除來源檔案"
+>abstract="成功傳輸後清除來源檔案。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="顯示工作階段記錄"
+>abstract="與傳輸作業相關的資訊會顯示在工作流程記錄中。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="列出所有檔案"
+>abstract="此選項會將伺服器上存在的所有檔案編成索引並儲存在 **vars.filenames** 事件變數中。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="處理遺失的檔案"
+>abstract="您可以使用這個選項，在活動後啟動「**無檔案**」傳出轉變。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="處理錯誤"
+>abstract="您可以利用這個選項，在活動後啟動「**錯誤**」傳出轉變。"
 
 1. 在&#x200B;**[!UICONTROL 進階選項]**&#x200B;中，根據您設定的活動型別，有其他選項可供使用。 請展開下列各節以取得詳細資訊。
 

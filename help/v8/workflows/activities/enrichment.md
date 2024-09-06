@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「擴充」工作流程活動
 description: 了解如何使用「擴充」工作流程活動
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 43%
+source-wordcount: '1705'
+ht-degree: 41%
 
 ---
 
@@ -16,26 +16,6 @@ ht-degree: 43%
 >id="acw_orchestration_enrichment"
 >title="擴充活動"
 >abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的工作流程。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_data"
->title="擴充活動"
->abstract="將擴充資料新增到工作流程後，它可以用於在擴充活動之後新增的活動中，根據客戶的行為、偏好和需求將客戶分成不同群組，或是用於建立最有可能讓目標客群產生共鳴的個人化行銷訊息和行銷活動。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="連結定義"
->abstract="在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其個人資料中的此資訊。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_reconciliation"
->title="擴充調和"
->abstract="擴充調和"
-
->[!CONTEXTUALHELP]
->id="acw_targetdata_personalization_enrichmentdata"
->title="擴充資料"
->abstract="選取用於擴充工作流程的資料。您可以選取兩種類型的擴充資料：目標市場選擇維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
 
 「**擴充**」活動是一種「**目標定位**」活動。此活動可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的工作流程。
 
@@ -63,6 +43,16 @@ ht-degree: 43%
 
 ## 新增擴充資料 {#enrichment-add}
 
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="擴充資料"
+>abstract="選取用於擴充工作流程的資料。您可以選取兩種類型的擴充資料：目標市場選擇維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="擴充活動"
+>abstract="將擴充資料新增到工作流程後，它可以用於在擴充活動之後新增的活動中，根據客戶的行為、偏好和需求將客戶分成不同群組，或是用於建立最有可能讓目標客群產生共鳴的個人化行銷訊息和行銷活動。"
+
 1. 按一下&#x200B;**新增擴充資料**，並選取要用來擴充資料的屬性。
 
    您可以選取兩種擴充資料：來自目標維度的單一擴充屬性，或集合連結。 以下範例詳細說明了每種型別：
@@ -76,6 +66,11 @@ ht-degree: 43%
    ![](../assets/workflow-enrichment1.png)
 
 ## 建立表格之間的連結 {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="連結定義"
+>abstract="在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其個人資料中的此資訊。"
 
 **[!UICONTROL 連結定義]**&#x200B;區段可讓您在工作表格資料與Adobe Campaign資料庫之間建立連結。 例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其個人資料中的此資訊。
 
@@ -106,6 +101,11 @@ ht-degree: 43%
 [範例](#link-example)區段提供使用連結的工作流程範例。
 
 ## 資料調和 {#reconciliation}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_reconciliation"
+>title="調和"
+>abstract="**擴充**&#x200B;活動可用來調解來自Campaign資料庫結構描述的資料與來自其他結構描述的資料，或來自暫時結構描述的資料，例如使用載入檔案活動上傳的資料。 此型別的連結會定義對唯一記錄的調解。 Adobe Campaign會在目標表格中新增外部索引鍵，以儲存唯一記錄的參考，藉此建立指向目標表格的連結。"
 
 **擴充**&#x200B;活動可用來調解來自Campaign資料庫結構描述的資料與來自其他結構描述的資料，或來自暫時結構描述的資料，例如使用載入檔案活動上傳的資料。 此型別的連結會定義對唯一記錄的調解。 Adobe Campaign會在目標表格中新增外部索引鍵，以儲存唯一記錄的參考，藉此建立指向目標表格的連結。
 

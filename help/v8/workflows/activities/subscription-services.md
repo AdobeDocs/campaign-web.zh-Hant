@@ -3,10 +3,10 @@ audience: end-user
 title: 使用訂閱服務活動
 description: 瞭解如何使用訂閱服務工作流程活動
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 18%
+source-wordcount: '1067'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="其他資訊"
->abstract="其他資訊"
+>abstract="指定每個記錄的資料與訂閱來源。 您可以將此區段保留空白，這樣在執行工作流程時就不會設定日期或來源。 如果傳入資料包含一欄，指出服務設定檔的訂閱日期，您可以在&#x200B;**[!UICONTROL 日期]**&#x200B;欄位中選取它。 在&#x200B;**[!UICONTROL 原始路徑]**&#x200B;欄位中，定義訂閱的來源。 您可以核取&#x200B;**[!UICONTROL 將常數設定為來源]**&#x200B;選項，將其設定為輸入資料的其中一個欄位，或設定為您選擇的常數值。"
 
 **訂閱服務**&#x200B;活動是&#x200B;**資料管理**&#x200B;活動。 它可讓您為轉變中指定的母體建立或刪除資訊服務的訂閱。
 

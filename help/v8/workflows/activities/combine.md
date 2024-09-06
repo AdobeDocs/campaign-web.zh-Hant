@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「組合」工作流程活動
 description: 了解如何使用「組合」工作流程活動
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 85%
+source-wordcount: '1046'
+ht-degree: 73%
 
 ---
 
@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="選取分段類型"
->abstract="選取組合客群的方式：聯合、交集或排除。"
+>abstract="選取如何合併對象。 **Union**&#x200B;可讓您將多個活動的結果重新群組至單一目標。 **交集**&#x200B;可讓您僅保留活動中不同入站母體的共同元素。 「**排除**」可讓您根據特定條件從一個群體中排除元素。 "
 
 請按照以下常見步驟開始設定「**組合**」活動：
 
@@ -57,14 +57,9 @@ The **Combine** activity can be placed after any other activity, but not at the 
 ## 聯合 {#combine-union}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_intersection_reconciliation_options"
->title="交集調和選項"
->abstract="選取調節類型，以定義處理重複項目的方式。"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="調和選項"
->abstract="選取「**調和類型**」，以定義處理重複項目的方式。"
+>abstract="選取&#x200B;**調解型別**&#x200B;以定義如何處理重複專案。 根據預設，**索引鍵**&#x200B;選項已啟用，這表示當來自不同入站轉變的元素具有相同索引鍵時，活動只會保留一個元素。 使用&#x200B;**選取的資料行**&#x200B;選項來定義套用資料協調的資料行清單。"
 
 在&#x200B;**合併**&#x200B;活動中，您可以設定&#x200B;**聯合**。 為此，您需要選取&#x200B;**調解型別**&#x200B;以定義如何處理重複專案：
 
@@ -72,6 +67,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **選取的欄**：選取此選項可定義套用資料協調的欄清單。 首先，必須選取主要集合 (其中包含來源資料)，然後指定用於加入的欄。
 
 ## 交集 {#combine-intersection}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="交集調和選項"
+>abstract="選取&#x200B;**調解型別**&#x200B;以定義如何處理重複專案。 根據預設，**索引鍵**&#x200B;選項已啟用，這表示當來自不同入站轉變的元素具有相同索引鍵時，活動只會保留一個元素。 使用&#x200B;**選取的資料行**&#x200B;選項來定義套用資料協調的資料行清單。"
 
 在&#x200B;**組合**&#x200B;活動中，您可以設定&#x200B;**交集**。 為此，您需要遵循以下額外步驟：
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 使用「合併連結」工作流程活動
 description: 了解如何使用「合併連結」工作流程活動
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="設定 AND-join 活動"
+>title="合併選項"
 >abstract="選取您要參加的活動。在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變群體。"
 
 請按照以下步驟設定「**合併連結**」活動：
