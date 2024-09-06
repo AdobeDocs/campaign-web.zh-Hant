@@ -3,10 +3,10 @@ audience: end-user
 title: 使用JavaScript程式碼工作流程活動
 description: 瞭解如何使用JavaScript程式碼工作流程活動
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: ea448ac526fddc5875103dbb7ca00b5982fe5596
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 29%
+source-wordcount: '944'
+ht-degree: 25%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript 轉變"
->abstract="如果您想要新增多個輸出轉變，請按一下「**[!UICONTROL 新增轉變]**」按鈕。例如，這允許您根據 JavaScript 程式碼活動中定義的特定條件觸發特定轉變。此選項僅適用於「**進階**」JavaScript 程式碼活動。"
+>abstract="開啟&#x200B;**[!UICONTROL 處理錯誤]**&#x200B;選項，以便在其他輸出轉換中保留執行指令碼期間發生的錯誤。"
 
 **JavaScript程式碼**&#x200B;活動是&#x200B;**資料管理**&#x200B;活動。 使用此活動可在工作流程內容中執行JavaScript指令碼。 這可讓您從資料庫收集資訊，或執行其他複雜的作業。
 
