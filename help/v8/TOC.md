@@ -165,7 +165,7 @@ ht-degree: 99%
       + [變更資料來源](workflows/activities/change-data-source.md)
       + [變更維度](workflows/activities/change-dimension.md)
       + [組合](workflows/activities/combine.md)
-      + [去重複化](workflows/activities/deduplication.md)
+      + [重複資料刪除](workflows/activities/deduplication.md)
       + [電子郵件、簡訊、推播、直接郵件](workflows/activities/channels.md)
       + [擴充](workflows/activities/enrichment.md)
       + [外部訊號](workflows/activities/external-signal.md)
