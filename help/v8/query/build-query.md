@@ -5,8 +5,8 @@ description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第�
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -256,7 +256,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="規則屬性"
->abstract="在畫布中建立查詢後，您可以使用右側的&#x200B;**規則屬性**&#x200B;窗格進行檢查。<br/>此窗格可讓您顯示結果資料、擷取查詢的 SQL 程式碼版本，以及檢查目標記錄的數量。<br/>使用「**選取或儲存篩選器**」按鈕，將您的查詢儲存為預先定義篩選器，或將畫布內容更換為現有換的篩選器。"
+>abstract="在畫布中建立查詢後，您可以使用右側的&#x200B;**規則屬性**&#x200B;窗格進行檢查。<br/>此窗格可讓您顯示結果資料、擷取查詢的 SQL 程式碼版本，以及檢查目標記錄的數量。<br/>使用「**選取或儲存篩選器**」按鈕，將您的查詢儲存為預先定義篩選器，或將畫布內容更換為現有的篩選器。"
 
 在畫布中建立查詢後，您可以使用右側的&#x200B;**規則屬性**&#x200B;窗格來檢查查詢。建立查詢以建立對象時，會顯示此窗格。 可用的操作包括：
 

@@ -5,27 +5,27 @@ description: 瞭解如何使用重複資料刪除工作流程活動
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 53%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 去重複化 {#deduplication}
+# 重複資料刪除 {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="用於識別重複項目的欄位"
->abstract="在&#x200B;**用於識別重複項目的欄位**&#x200B;區段，按一下&#x200B;**新增屬性**&#x200B;按鈕以指定可允許識別重複之相同值的欄位，例如：電子郵件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。"
+>title="用於識別重複資料的欄位"
+>abstract="在&#x200B;**&#x200B;用於識別重複資料的欄位&#x200B;**&#x200B;區段，按一下&#x200B;**&#x200B;新增屬性**&#x200B;按鈕以指定可允許識別重複資料之相同值的欄位，例如：電子郵件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="重複項目刪除活動"
->abstract="「**重複項目刪除**」活動可讓您刪除入站活動結果中的重複項目。其主要在目標市場選擇活動之後和允許使用目標資料的活動之前使用。"
+>abstract="「**重複資料刪除**」活動可讓您刪除傳入活動結果中的重複資料。其主要在目標市場選擇活動之後和允許使用目標資料的活動之前使用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="產生補集"
->abstract="您可以使用剩餘群體 (其已因重複而排除) 產生額外的出站轉變。若要這樣做，請開啟「**產生補集**」選項"
+>abstract="您可以使用剩餘族群 (其已因重複而排除) 產生額外的傳出轉變。若要這樣做，請開啟「**產生補集**」選項"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
@@ -42,7 +42,7 @@ ht-degree: 53%
 
 1. 將&#x200B;**重複資料刪除**&#x200B;活動新增至工作流程。
 
-1. 在&#x200B;**用於識別重複項目的欄位**&#x200B;區段，按一下&#x200B;**新增屬性**&#x200B;按鈕以指定可允許識別重複之相同值的欄位，例如：電子郵件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。
+1. 在&#x200B;**&#x200B;用於識別重複資料的欄位&#x200B;**&#x200B;區段，按一下&#x200B;**&#x200B;新增屬性**&#x200B;按鈕以指定可允許識別重複資料之相同值的欄位，例如：電子郵件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。
 
 1. 在&#x200B;**重複資料刪除設定**&#x200B;區段中，選取要保留的不重複&#x200B;**重複專案數目**。 此欄位的預設值為 1。如果值為 0 則可讓您保留所有重複項目。
 

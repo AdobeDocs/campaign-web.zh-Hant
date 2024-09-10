@@ -5,8 +5,8 @@ description: 了解如何使用分割工作流程活動
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,28 +29,28 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="分割活動篩選器"
->abstract="若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並使用查詢建模工具設定所需的篩選規則。例如，將電子郵件地址存在於資料庫之傳入群體的設定檔包含在內。"
+>abstract="若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選]**」並使用查詢建模工具設定所需的篩選規則。例如，於傳入族群中，將有電子郵件地址存在於資料庫的輪廓包含在內。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查詢建模工具"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
 >title="分割活動限制"
->abstract="若要限制子集所選設定檔的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的群體大小或百分比。"
+>abstract="若要限制子集選取輪廓的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的族群數量或百分比。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"
 >title="分割活動排序"
->abstract="為子集設定群體限制時，您可以根據特定設定檔屬性按升序或降序順序來排列所選設定檔。為此，請開啟「**啟用排序**」選項。例如，您可以限制子集僅包含購買金額最高的前 50 個設定檔。"
+>abstract="為子集設定族群限制時，您可以用指定輪廓屬性按升序或降序順序來排列所選輪廓。為此，請開啟「**啟用排序**」選項。例如，您可以限制子集僅包含購買金額最高的前 50 個輪廓。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
->title="分割產生補充集"
->abstract="設定完所有子集後，您可以選擇與任何子集都不相符的剩餘群體，並將其包含在額外的輸出轉變中。為此，請開啟「**產生補充集**」選項。"
+>title="分割產生補集"
+>abstract="設定完所有子集後，您可以選擇與任何子集都不相符的剩餘族群，並將其包含在額外的傳出轉變中。為此，請開啟「**產生補充集**」選項。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
 >title="在相同表格中產生所有子集"
->abstract="切換此選項可將所有子集歸類至單一的輸出轉換。"
+>abstract="切換此選項可將所有子集歸類至單一的傳出轉換。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
@@ -82,9 +82,9 @@ ht-degree: 83%
 
    1. 開啟子集以顯示其屬性。
 
-   1. 若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並使用查詢建模工具設定所需的篩選規則。例如，將傳入母體的設定檔包含在資料庫中存在其電子郵件地址。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
+   1. 若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選]**」並使用查詢建模工具設定所需的篩選規則。例如，將傳入母體的設定檔包含在資料庫中存在其電子郵件地址。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
 
-   1. 若要限制子集所選設定檔的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的群體大小或百分比。
+   1. 若要限制子集選取輪廓的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的族群數量或百分比。
 
    1. 若要在傳入母體為空時停用轉變，請開啟&#x200B;**[!UICONTROL 略過空轉變]**&#x200B;選項。 如果沒有符合子集的設定檔，工作流程將不會轉換為下一個活動。
 
@@ -93,9 +93,9 @@ ht-degree: 83%
 
       >[!NOTE]
       >
-      >為子集設定群體限制時，您可以根據特定設定檔屬性按升序或降序順序來排列所選設定檔。為此，請開啟「**[!UICONTROL 啟用排序]**」選項。例如，您可以限制子集僅包含購買金額最高的前 50 個設定檔。
+      >為子集設定族群限制時，您可以用指定輪廓屬性按升序或降序順序來排列所選輪廓。為此，請開啟「**[!UICONTROL 啟用排序]**」選項。例如，您可以限制子集僅包含購買金額最高的前 50 個輪廓。
 
-1. 設定完所有子集後，您可以選擇與任何子集都不相符的剩餘群體，並將其包含在額外的輸出轉變中。為此，請開啟「**[!UICONTROL 產生補充集]**」選項。
+1. 設定完所有子集後，您可以選擇與任何子集都不相符的剩餘族群，並將其包含在額外的傳出轉變中。為此，請開啟「**[!UICONTROL 產生補充集]**」選項。
 
    ![](../assets/workflow-split-complement.png)
 

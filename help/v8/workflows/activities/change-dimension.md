@@ -5,8 +5,8 @@ description: 瞭解如何使用變更維度工作流程活動
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="產生補集"
->abstract="您可以使用剩餘群體 (其已因重複而排除) 產生額外的出站轉變。若要這樣做，請開啟「**產生補集**」選項"
+>abstract="您可以使用剩餘族群 (其已因重複而排除) 產生額外的傳出轉變。若要這樣做，請開啟「**產生補集**」選項"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"

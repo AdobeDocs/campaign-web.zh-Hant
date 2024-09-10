@@ -5,8 +5,8 @@ description: 瞭解如何使用傳送警報。
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,7 @@ Campaign Web使用者介面中提供預先定義的警示准則。 這些條件�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
 >title="條件頻率"
->abstract="控制每天滿足條件的每次傳遞警報頻率。"
+>abstract="控制達到此條件的傳遞，其每天的提醒頻率。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
