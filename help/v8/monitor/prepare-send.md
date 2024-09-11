@@ -3,7 +3,7 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面準備和傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
+source-git-commit: 10f8768b244b0138d055330d8d23f42076c83c49
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 38%
@@ -36,7 +36,7 @@ ht-degree: 38%
    >
    >如果您已排程傳遞並停用&#x200B;**[!UICONTROL 傳送前啟用確認]**&#x200B;選項，則準備和傳送步驟會在&#x200B;**[!UICONTROL 準備並傳送]**&#x200B;按鈕下分組。 [進一步瞭解排程](../msg/gs-deliveries.md#gs-schedule)
 
-1. 畫面會顯示準備進度。根據目標母體的大小，此操作可能需要一些時間。
+1. 畫面會顯示準備進度。根據目標群體的大小，此操作可能需要一些時間。
 
    您可以使用&#x200B;**[!UICONTROL 停止準備]**&#x200B;按鈕隨時停止準備。
 
@@ -118,34 +118,34 @@ ht-degree: 38%
 >id="acw_deliveries_email_metrics_delivered"
 >title="已傳遞"
 >abstract="已成功傳遞的訊息數。此指標每 5 分鐘會更新一次。會根據已傳送訊息的總數顯示百分比。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=zh-hant" text="瞭解 KPI"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="開啟次數"
 >abstract="開啟的訊息數。此指標每 5 分鐘會更新一次。顯示的百分比為相異開啟次數相較於已傳遞訊息數的比率。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=zh-hant" text="瞭解 KPI"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="點按次數"
 >abstract="在電子郵件中至少點按一次的收件者數量。此指標每 5 分鐘會更新一次。顯示的百分比為相異點按次數相較於已傳遞訊息數的比率。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=zh-hant" text="瞭解 KPI"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="傳送的量度"
 >abstract="傳遞分析期間處理的訊息總數。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=zh-hant" text="瞭解 KPI"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="錯誤量度"
 >abstract="傳遞和自動傳回處理期間累積的錯誤總數與已傳送之訊息總數的關係。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=zh-hant" text="瞭解 KPI"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 
 傳送完成後，您可以檢查顯示的KPI：
