@@ -3,14 +3,14 @@ audience: end-user
 title: 開始使用AI Assistant — 內容加速器
 description: 開始使用AI Assistant — 內容加速器
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: ff46f8d9c0b46d5b74dee4317ade6a496841c408
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '794'
 ht-degree: 20%
 
 ---
 
-# 開始使用AI Assistant — 內容加速器  {#generative-gs}
+# 使用AI Assistant — 內容加速器  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
