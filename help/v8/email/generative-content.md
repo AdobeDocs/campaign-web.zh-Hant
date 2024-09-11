@@ -1,16 +1,16 @@
 ---
 audience: end-user
 title: 產生式內容
-description: 開始使用Adobe Campaign網頁中的AI助理以加速內容
+description: 開始使用內容加速的AI助理
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1585'
 ht-degree: 1%
 
 ---
 
-# 使用Adobe Campaign網頁版AI助理產生電子郵件 — 內容加速器 {#generative-content}
+# 使用AI Assistant - Content Accelerator產生電子郵件 {#generative-content}
 
 >[!IMPORTANT]
 >

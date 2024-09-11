@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Adobe Campaign網頁版SMS搭配AI助理以加速內容
-description: 開始使用Adobe Campaign網頁中的AI助理以加速內容
+title: 搭配AI Assistant for Content Acceleration的簡訊
+description: 開始使用內容加速的AI助理
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '901'
 ht-degree: 2%
 
 ---
 
-# 在Adobe Campaign網頁版中使用AI助理產生簡訊 — 內容加速器 {#generative-sms}
+# 使用AI Assistant產生SMS — 內容加速器 {#generative-sms}
 
 >[!IMPORTANT]
 >

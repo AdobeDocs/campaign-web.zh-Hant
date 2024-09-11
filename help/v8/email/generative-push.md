@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 在Journey Optimizer中使用AI助理推播內容加速通知
-description: 開始使用Journey Optimizer中的AI Assistant以加速內容
+title: 使用AI Assistant進行推播通知以加速內容
+description: 開始使用內容加速的AI助理
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
 
-# 在Journey Optimizer中使用AI Assistant產生推播通知 — 內容加速器  {#generative-push}
+# 使用AI Assistant — 內容加速器產生推播通知 {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 1%
 >
 >您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能使用Adobe Campaign網路中的AI助理進行內容加速。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-適用於Content Acceleration的Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不同內容，協助您最佳化傳送的影響。
+適用於內容加速的AI助理可以建議更可能引起觀眾共鳴的不同內容，協助您最佳化傳送的影響。
 
 在以下範例中，我們將利用AI助理製作吸引人的訊息，以打造更吸引人的客戶體驗。
 
