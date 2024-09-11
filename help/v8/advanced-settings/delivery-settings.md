@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
 workflow-type: tm+mt
 source-wordcount: '2852'
-ht-degree: 44%
+ht-degree: 46%
 
 ---
 
@@ -290,12 +290,12 @@ ht-degree: 44%
 
 
 
-## 電子郵件傳遞的SMTP設定 {#smtp}
+## 電子郵件傳送適用的 SMTP 設定 {#smtp}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_smtp"
->title="SMTP引數"
->abstract="您可以將其他SMTP引數新增至電子郵件傳遞。"
+>title="SMTP 參數"
+>abstract="您可以新增電子郵件傳送的其他 SMTP 參數。"
 
 您可以將其他SMTP引數新增至電子郵件傳遞。 您可以在傳送設定的SMTP標籤中執行此作業。
 
@@ -343,9 +343,9 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="變數"
->abstract="您可以將變數新增至傳遞，這對追蹤和個人化相當實用。 您可從傳遞內容和工作流程存取這些變數。"
+>abstract="您可以在傳送中新增變數，以供追蹤和個人化使用。您可以透過傳送內容和工作流程存取這些變數。"
 
-您可以將變數新增至傳遞，這對追蹤和個人化相當實用。 您可從傳遞內容和工作流程存取這些變數。 儲存的變數可用來設定傳送內所有訊息中保持不變的值。 您也可以在傳遞範本中設定這些變數。
+您可以在傳送中新增變數，以供追蹤和個人化使用。您可從傳遞內容和工作流程存取這些變數。 儲存的變數可用來設定傳送內所有訊息中保持不變的值。 您也可以在傳遞範本中設定這些變數。
 
 若要新增變數，請瀏覽至&#x200B;**[!UICONTROL 變數]**&#x200B;標籤，如下所示。
 

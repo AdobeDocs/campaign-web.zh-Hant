@@ -6,7 +6,7 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"
 >title="調整目標"
->abstract="這些規則只能在使用者端主控台中變更。"
+>abstract="這些規則只能在用戶端控制台變更。"
 
 Adobe Campaign Web使用者介面具有查詢建模工具，可簡化根據各種條件篩選資料庫的程式。 這可確保在使用者端主控台中建立的查詢完全相容，促進到Web使用者介面的無縫轉換。
 

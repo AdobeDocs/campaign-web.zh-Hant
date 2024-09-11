@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用Adobe Campaign Web中的AI助理 — 內容加速器
 description: 開始使用Adobe Campaign網路中的AI助理 — 內容加速器
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 10448255094e1be1f2c52b67d8f1f45d862f06df
+source-git-commit: 279450c78ba83ea9f914b57ff7ade450a6a9a5e5
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 20%
@@ -33,15 +33,16 @@ ht-degree: 20%
 >
 >透過[我們的互動式示範](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)，親身體驗親身體驗，讓您親身體驗其功能，並充分瞭解其功能。
 
+
+隨著行銷業的競爭日益激烈，品牌們開始尋求有效率的方法，以有效率且快速的方式產生具影響力的內容。 Adobe Campaign Web內容加速的AI助理採用Microsoft Azure OpenAI和Adobe Firefly技術，是Adobe的AI內容產生功能，徹底改變行銷人員透過電子郵件、簡訊、推播等管道建立專業且品牌一致的內容方式。 透過進階GenAI模型和對品牌指導方針的深入瞭解，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，其內容針對品牌概述的樣式、版面、色調等最佳化。
+
+AI Assistant可以讓您在電子郵件、簡訊和推播等通路上，以直覺的方式建立和執行行銷活動，既簡單又輕鬆，同時還能節省時間、提高效率和取得更好的結果。
+
 >[!IMPORTANT]
 >
 >* 開始使用此功能之前，請先閱讀相關的[護欄和限制](#generative-guardrails)。
 >
 >* 您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能使用Adobe Campaign網路中的AI助理進行內容加速。 如需詳細資訊，請聯絡您的 Adobe 代表。
-
-隨著行銷業的競爭日益激烈，品牌們開始尋求有效率的方法，以有效率且快速的方式產生具影響力的內容。 Adobe Campaign Web內容加速的AI助理採用Microsoft Azure OpenAI和Adobe Firefly技術，是Adobe的AI內容產生功能，徹底改變行銷人員透過電子郵件、簡訊、推播等管道建立專業且品牌一致的內容方式。 透過進階GenAI模型和對品牌指導方針的深入瞭解，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，其內容針對品牌概述的樣式、版面、色調等最佳化。
-
-AI Assistant可以讓您在電子郵件、簡訊和推播等通路上，以直覺的方式建立和執行行銷活動，既簡單又輕鬆，同時還能節省時間、提高效率和取得更好的結果。
 
 ## 存取AI Assistant內容加速器 {#generative-access}
 

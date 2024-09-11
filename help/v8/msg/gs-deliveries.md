@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 存取傳遞
+title: 存取傳送內容
 description: 瞭解如何在Campaign網頁中存取及管理您的傳遞
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
@@ -9,23 +9,23 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 68%
+ht-degree: 71%
 
 ---
 
-# 存取傳遞 {#work-with-deliveries}
+# 存取傳送內容 {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="傳遞"
 >abstract="傳遞是透過特定管道傳送給客群的通訊：電子郵件、簡訊或推播。您可以在此畫面中編輯、複製和刪除現有的傳遞。您也可以檢視已完成傳遞的報告。按一下「**建立傳遞**」按鈕，即可新增傳遞。"
 
-## 存取傳遞 {#access}
+## 存取傳送內容 {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_target"
 >title="其他目標"
->abstract="這些規則只能在使用者端主控台中變更。"
+>abstract="這些規則只能在用戶端控制台變更。"
 
 可從左側導覽的&#x200B;**[!UICONTROL 傳遞]**&#x200B;功能表存取傳遞。 從使用者端主控台或Web使用者介面建立的所有傳遞都會顯示在此清單中。 您可以從此畫面監控所有現有傳送、複製或刪除傳送，或建立新傳送。
 
