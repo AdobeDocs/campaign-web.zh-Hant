@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
+source-git-commit: 8450e6e03b1d93a0dd978d45d398d5274f65b014
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 99%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 99%
    + [採用 AI 技術的內容說明](get-started/using-ai.md)
 + 訊息和傳遞{#msg}
    + [開始使用訊息](msg/gs-messages.md)
-   + [存取傳遞](msg/gs-deliveries.md)
+   + [存取傳送內容](msg/gs-deliveries.md)
    + [建立傳遞](msg/create-deliveries.md)
    + [使用傳遞範本](msg/delivery-template.md)
    + 電子郵件 {#email}
@@ -65,11 +65,6 @@ ht-degree: 99%
       + [建立新的直接郵件傳遞](direct-mail/create-direct-mail.md)
       + [設計摘取檔案](direct-mail/content-direct-mail.md)
       + [預覽並發送直接郵件傳遞](direct-mail/send-direct-mail.md)
-   + AI 助理 {#ai-assistant}
-      + [開始使用 AI 助理](email/generative-gs.md)
-      + [使用 AI 助理產生電子郵件](email/generative-content.md)
-      + [使用 AI 助理產生簡訊](email/generative-sms.md)
-      + [使用 AI 助理產生推播](email/generative-push.md)
    + [將優惠新增至您的訊息](msg/offers.md)
    + [向您的訂閱者傳送訊息](msg/send-to-subscribers.md)
    + [設定傳遞設定](advanced-settings/delivery-settings.md)
@@ -113,6 +108,11 @@ ht-degree: 99%
          + [調整垂直對齊方式和邊框間距](email/alignment-and-padding.md)
          + [定義連結樣式](email/styling-links.md)
          + [新增內嵌樣式屬性](email/inline-styling.md)
+   + 內容加速器{#ai-assistant}的AI助理
+      + [開始使用 AI 助理](email/generative-gs.md)
+      + [使用 AI 助理產生電子郵件](email/generative-content.md)
+      + [使用 AI 助理產生簡訊](email/generative-sms.md)
+      + [使用 AI 助理產生推播](email/generative-push.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](landing-pages/get-started-lp.md)
    + [建立並發佈登陸頁面](landing-pages/create-lp.md)

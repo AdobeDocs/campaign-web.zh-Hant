@@ -1,30 +1,16 @@
 ---
 audience: end-user
-title: 開始使用 AI 助理
-description: 開始使用AI助理
-badge: label="Beta"
+title: 開始使用Adobe Campaign Web中的AI助理 — 內容加速器
+description: 開始使用Adobe Campaign網路中的AI助理 — 內容加速器
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-hide: true
-hidefromtoc: true
-source-git-commit: 7de6d85036eac7289e7fcf3a82a7c11be12d9c6e
+source-git-commit: 10448255094e1be1f2c52b67d8f1f45d862f06df
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 32%
+source-wordcount: '769'
+ht-degree: 20%
 
 ---
 
-# 開始使用 AI 助理 {#generative-gs}
-
->[!BEGINSHADEBOX]
-
-**內容表**
-
-* 開始使用 AI 助理
-* [使用 AI 助理產生電子郵件](generative-content.md)
-* [使用 AI 助理產生簡訊](generative-sms.md)
-* [使用 AI 助理產生推播](generative-push.md)
-
->[!ENDSHADEBOX]
+# 開始使用Adobe Campaign Web中的AI助理 — 內容加速器  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -37,38 +23,59 @@ ht-degree: 32%
 >title="在 Campaign 中使用 AI 助理定義內容"
 >abstract="若要將所選內容做為內容生成的輸入，請啟動&#x200B;**使用目前的內容進行增強**&#x200B;切換。您也可以上傳您的品牌資產以將其做為來源。如果您不使用所選內容，則必須上傳並選取品牌資產。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 生成式 AI 詞彙"
 >abstract="若要取得此功能的存取權限，您必需同意 Adobe Experience Cloud 生成式 AI 使用者準則。請檢查此功能之任何輸出的準確性，並確保它適合您的使用案例。"
 >additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者準則"
 
-隨著行銷業的競爭日益激烈，品牌們開始尋求有效率的方法，以有效率且快速的方式產生具影響力的內容。 Campaign中的AI助理由Azure OpenAI提供技術支援，是Adobe的AI內容產生功能，徹底改變行銷人員跨電子郵件、簡訊、推播等通道建立專業且品牌一致內容的方式。 透過進階GenAI模型和對品牌指導方針的深入瞭解，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，其內容針對品牌概述的樣式、版面、色調等最佳化。
+>[!INFO]
+>
+>透過[我們的互動式示範](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)，親身體驗親身體驗，讓您親身體驗其功能，並充分瞭解其功能。
+
+>[!IMPORTANT]
+>
+>* 開始使用此功能之前，請先閱讀相關的[護欄和限制](#generative-guardrails)。
+>
+>* 您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能使用Adobe Campaign網路中的AI助理進行內容加速。 如需詳細資訊，請聯絡您的 Adobe 代表。
+
+隨著行銷業的競爭日益激烈，品牌們開始尋求有效率的方法，以有效率且快速的方式產生具影響力的內容。 Adobe Campaign Web內容加速的AI助理採用Microsoft Azure OpenAI和Adobe Firefly技術，是Adobe的AI內容產生功能，徹底改變行銷人員透過電子郵件、簡訊、推播等管道建立專業且品牌一致的內容方式。 透過進階GenAI模型和對品牌指導方針的深入瞭解，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，其內容針對品牌概述的樣式、版面、色調等最佳化。
 
 AI Assistant可以讓您在電子郵件、簡訊和推播等通路上，以直覺的方式建立和執行行銷活動，既簡單又輕鬆，同時還能節省時間、提高效率和取得更好的結果。
 
->[!NOTE]
->
->此功能在其Beta版本中提供，且可能會有所變更，恕不另行通知。
+## 存取AI Assistant內容加速器 {#generative-access}
+
++++  瞭解如何指派內容產生相關許可權
+
+1. **建立產品設定檔** — 以[Admin Console](https://stage.adminconsole.adobe.com/)建立具有此特定模式的產品設定檔： `Campaign - <instance-name> - AIAssistant`
+
+1. **新增使用者** — 將必要的使用者新增至該產品設定檔，
+或
+
+   **建立使用者群組**&#x200B;並將該使用者群組新增至產品設定檔，並將使用者新增至該產品設定檔。
+
++++
 
 ## 護欄和限制 {#generative-guardrails}
 
-在Campaign中使用AI助理產生電子郵件的一般准則如下：
+在Adobe Campaign網頁中使用AI助理來加速電子郵件產生的一般准則如下：
 
 * 產生的內容品質強烈受到您定義的行銷目標/提示所影響。 使用定義明確的提示讓GenAI模型正確解譯。 
 * 上傳品牌資產，以便對品牌內容取得準確資訊。 否則，內容會以公開可用的資訊為基礎。 上傳的內容可以有下列格式：PDF、JPEG、PNG或ZIP檔案（具有支援的檔案格式）。
 * 已上傳品牌資產的大小上限為50MB。 大型檔案或大量影像可以運作，但處理時間會增加。
-* 使用Adobe Campaign編寫的電子郵件範本（最好是[內建電子郵件範本](../email/create-email-templates.md)）、品牌特定範本或自訂範本，來建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
+* 使用[內建電子郵件範本](../email/create-email-templates.md)、品牌特定範本或自訂範本，以使用Content Accelerator建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
 * 選擇變體時，請務必使用向上縮圖、向下縮圖或標幟圖示來報告任何有問題的輸出。
-* 您使用AI助理須遵守Adobe Experience Cloud Generative AI使用指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
+* 您使用AI助理須遵守Adobe Experience Cloud Generative AI使用指南。 [了解更多](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* 作為Adobe提升在媒體建立中使用創作AI工具之透明度的承諾的一部分，Adobe將在下載或匯出內容或包含Firefly產生資產的專案時套用Content credentials。 [了解更多](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
-下列限制適用於Campaign中的AI助理：
+下列限制適用於Adobe Campaign網頁中用於內容加速的AI助理：
 
-* 支援的語言只有英文。
+* Adobe Campaign網頁中用於內容加速的AI助理目前僅支援英文版。 非英文輸入可能會產生不一致或錯誤的結果。 非英文回覆所引起的問題目前無法解決或改善。
 * 僅適用於電子郵件、推播和簡訊頻道。
 * GenAI內容可能並不一定都準確：請分享您的意見回饋，以便我們的工程師可以調整模型。
 * 您可以上傳多個品牌資產，但只能針對特定世代使用一個品牌資產。
+
+## AI Assistant內容產生功能 {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
+source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 88%
+source-wordcount: '470'
+ht-degree: 82%
 
 ---
 
@@ -51,11 +51,10 @@ ht-degree: 88%
 
 >[!BEGINTABS]
 
->[!TAB 8月版本已上線！]
+>Adobe Campaign Web中的[!TAB AI小幫手 — 內容加速器]
 
-了解 Adobe Campaign Web 使用者介面 7 月版帶來的新功能和改善事項。
-
-[![影像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+透過我們的即時功能預覽，親身體驗各項功能，讓您親身體驗各項功能，並全面瞭解各項功能。
+[![影像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)
 
 >[!TAB 值的分佈]
 
