@@ -25,7 +25,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"
 >title="調整目標"
->abstract="這些規則只能在用戶端控制台變更。"
+>abstract="這些規則只能在用戶端主控台變更。"
 
 Adobe Campaign Web使用者介面具有查詢建模工具，可簡化根據各種條件篩選資料庫的程式。 這可確保在使用者端主控台中建立的查詢完全相容，促進到Web使用者介面的無縫轉換。
 
