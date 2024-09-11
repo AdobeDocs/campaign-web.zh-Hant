@@ -2,9 +2,9 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
+source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '477'
 ht-degree: 59%
 
 ---
@@ -23,7 +23,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Campaign Web中的AI助理 — 內容加速器</strong><br/></th>
+<th><strong>AI Assistant — 內容加速器</strong><br/></th>
 </tr>
 </thead>
 <tbody>
