@@ -3,7 +3,7 @@ audience: end-user
 title: 產生式內容
 description: 開始使用Adobe Campaign網頁中的AI助理以加速內容
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 >開始使用此功能之前，請先閱讀相關的[護欄和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能使用Adobe Campaign網路中的AI助理進行內容加速。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能使用Adobe Campaign網路中的AI助理進行內容加速。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 
 建立並個人化您的電子郵件後，請使用Adobe Campaign網路中的AI助理進行由generative AI提供支援的Campaign中的內容加速，以將您的內容提升到新的境界。

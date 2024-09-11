@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 8450e6e03b1d93a0dd978d45d398d5274f65b014
+source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 99%
+source-wordcount: '756'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 99%
          + [定義連結樣式](email/styling-links.md)
          + [新增內嵌樣式屬性](email/inline-styling.md)
    + 內容加速器{#ai-assistant}的AI助理
-      + [開始使用 AI 助理](email/generative-gs.md)
+      + [開始使用AI Assistant — 內容加速器](email/generative-gs.md)
       + [使用 AI 助理產生電子郵件](email/generative-content.md)
       + [使用 AI 助理產生簡訊](email/generative-sms.md)
       + [使用 AI 助理產生推播](email/generative-push.md)
