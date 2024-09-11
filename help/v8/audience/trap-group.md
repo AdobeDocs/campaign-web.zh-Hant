@@ -2,7 +2,8 @@
 audience: end-user
 title: 使用捕捉器群組
 description: 瞭解如何在Campaign網頁使用者介面中使用陷阱群組進行傳遞
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+exl-id: 48c34581-8825-4798-b24e-c462303f7645
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 13%
@@ -12,7 +13,7 @@ ht-degree: 13%
 # 使用捕捉器群組 {#trap-group}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="捕捉器群組"
 >abstract="您可以使用捕捉器群組在交付內容中包含特定位址，以透過針對不符合定義目標條件的設定檔，來監視和驗證分發程序。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"

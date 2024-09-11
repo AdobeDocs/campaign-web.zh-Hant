@@ -1,16 +1,23 @@
 ---
 audience: end-user
-title: 開始使用Adobe Campaign Web中的AI助理 — 內容加速器
-description: 開始使用Adobe Campaign網路中的AI助理 — 內容加速器
+title: 開始使用AI Assistant — 內容加速器
+description: 開始使用AI Assistant — 內容加速器
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '795'
 ht-degree: 20%
 
 ---
 
 # 開始使用AI Assistant — 內容加速器  {#generative-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="AI Assistant內容加速器"
+>abstract="AI Assistant可以讓您在電子郵件、簡訊和推播等通路上，以直覺的方式建立和執行行銷活動，既簡單又輕鬆，同時還能節省時間、提高效率和取得更好的結果。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -44,7 +51,7 @@ AI Assistant可以讓您在電子郵件、簡訊和推播等通路上，以直�
 >
 >* 您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能使用Adobe Campaign網路中的AI助理進行內容加速。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-## 存取AI Assistant內容加速器 {#generative-access}
+## 存取AI Assistant — 內容加速器 {#generative-access}
 
 +++  瞭解如何指派內容產生相關許可權
 

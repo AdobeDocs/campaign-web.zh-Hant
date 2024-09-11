@@ -4,21 +4,14 @@ title: 稽核軌跡
 description: 瞭解如何使用Campaign稽核軌跡監控您的執行個體
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 6%
+source-wordcount: '582'
+ht-degree: 1%
 
 ---
 
 # 稽核軌跡{#audit-trail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="稽核軌跡"
->abstract="新的稽核軌跡功能會針對您在 Adobe Campaign 執行個體執行的所有動作和事件，即時提供按時間順序排列的詳細記錄。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
-
 
 在Adobe Campaign Web使用者介面中，**[!UICONTROL 稽核軌跡]**&#x200B;功能可讓使用者完全瞭解對執行個體內重要實體所做的所有修改，通常是對執行個體的順利操作產生重大影響的修改。
 
