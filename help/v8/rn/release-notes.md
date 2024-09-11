@@ -2,9 +2,9 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
+source-git-commit: c08c18d9e97401459c0f6855a1fda47cf2a01111
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '481'
 ht-degree: 59%
 
 ---
@@ -33,6 +33,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <p>透過<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，親身體驗親身體驗，讓您親身體驗功能並充分瞭解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../email/generative-gs.md">詳細文件</a>以瞭解詳情。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
+<p>推出日期： 9月12日</p>
 </td>
 </tr>
 </tbody>
