@@ -5,7 +5,7 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: ff46f8d9c0b46d5b74dee4317ade6a496841c408
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 96%
@@ -36,7 +36,7 @@ ht-degree: 96%
    + [採用 AI 技術的內容說明](get-started/using-ai.md)
 + 訊息和傳遞{#msg}
    + [開始使用訊息](msg/gs-messages.md)
-   + [存取傳送內容](msg/gs-deliveries.md)
+   + [存取傳遞內容](msg/gs-deliveries.md)
    + [建立傳遞](msg/create-deliveries.md)
    + [使用傳遞範本](msg/delivery-template.md)
    + 電子郵件 {#email}
@@ -109,7 +109,7 @@ ht-degree: 96%
          + [定義連結樣式](email/styling-links.md)
          + [新增內嵌樣式屬性](email/inline-styling.md)
    + 內容加速器{#ai-assistant}的AI助理
-      + [使用AI Assistant — 內容加速器](email/generative-gs.md)
+      + [使用AI Assistant內容加速器](email/generative-gs.md)
       + [使用人工智慧產生電子郵件](email/generative-content.md)
       + [使用AI產生簡訊](email/generative-sms.md)
       + [使用AI產生推播通知](email/generative-push.md)

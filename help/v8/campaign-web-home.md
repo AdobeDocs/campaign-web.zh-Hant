@@ -3,7 +3,7 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 82%
@@ -51,7 +51,7 @@ ht-degree: 82%
 
 >[!BEGINTABS]
 
->[!TAB AI Assistant — 內容加速器]
+>[!TAB AI助理內容加速器]
 
 ✨透過我們的[AI Assistant Content Accelerator](../v8/email/generative-gs.md)即時功能預覽，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
 
