@@ -3,7 +3,7 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: f0f77a395ac7304a516766069ca81807eabfaab8
+source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 82%
@@ -55,7 +55,7 @@ ht-degree: 82%
 
 ✨透過我們的[AI Assistant Content Accelerator](../v8/email/generative-gs.md)即時功能預覽，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
 
-[![影像](assets/do-not-localize/try-it-now-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![影像](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 值的分佈]
 
