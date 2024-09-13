@@ -4,9 +4,9 @@ title: 使用資料夾
 description: 了解如何在 Adobe Campaign 中管理資料夾
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -80,30 +80,30 @@ ht-degree: 54%
 
 ## 資料夾中的值分佈 {#distribution-values-folder}
 
-值的分佈有助於瞭解表格中某欄的值的百分比。
+值的分佈有助於了解表格中某欄的每個值所佔的百分比。
 
-若要瞭解資料夾中的值分佈，請按照以下步驟操作：
+若要了解資料夾中值的分佈，請按照以下步驟進行：
 
-例如，在傳遞中，我們想要瞭解&#x200B;**管道**&#x200B;資料行的值分佈。
+例如，在各個傳遞項目中，我們想了解&#x200B;**「管道」**&#x200B;欄的值分佈情況。
 
-若要取得此資訊，請前往&#x200B;**[!UICONTROL 傳送]**&#x200B;資料夾，然後按一下&#x200B;**[!UICONTROL 設定資料行]**&#x200B;圖示。
+若要獲取這些資訊，請前往&#x200B;**[!UICONTROL 「傳遞」]**&#x200B;資料夾，然後點擊&#x200B;**[!UICONTROL 「設定欄」]**&#x200B;圖示。
 
-在&#x200B;**[!UICONTROL 設定資料行]**&#x200B;視窗中，按一下您要知道資料行的&#x200B;**[!UICONTROL 資訊]**&#x200B;圖示。 然後，按一下&#x200B;**[!UICONTROL 分配值]**&#x200B;按鈕。
+在&#x200B;**[!UICONTROL 「設定欄」]**&#x200B;視窗中，點擊您想了解的欄旁邊的&#x200B;**[!UICONTROL 「資訊」]**&#x200B;圖示。接著，點擊&#x200B;**[!UICONTROL 「值的分佈」]**&#x200B;按鈕。
 
 ![](assets/values_deliveries.png){zoomable="yes"}
 
-您將會取得&#x200B;**[!UICONTROL 管道]**&#x200B;資料行中值的百分比。
+您將會看到&#x200B;**[!UICONTROL 「管道」]**&#x200B;欄中各值的百分比分佈。
 
 ![](assets/values_percentage.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> 對於具有許多值的欄，只會顯示前20個值。 通知&#x200B;**[!UICONTROL 部分載入]**&#x200B;將會警告您。
+> 對於具有許多值的欄，只會顯示前二十個值。系統會顯示&#x200B;**[!UICONTROL 「部分載入」]**&#x200B;通知來提醒您。
 
-您也可以有連結值的分佈。
+您也可以查看連結的值分佈。
 
-在屬性清單中，按一下所需連結旁的&#x200B;**+**&#x200B;按鈕，如下所示。 這會新增連結至&#x200B;**[!UICONTROL 輸出資料行]**。 您現在可以有&#x200B;**[!UICONTROL 資訊]**&#x200B;圖示，讓您檢視其值的分佈。 如果您不想在&#x200B;**[!UICONTROL 輸出資料行]**&#x200B;中保留連結，請務必按一下&#x200B;**[!UICONTROL 取消]**&#x200B;按鈕。
+在屬性清單中，點擊所需連結旁邊的&#x200B;**「+」**&#x200B;按鈕，如下所示。這會將連結新增到&#x200B;**[!UICONTROL 「輸出欄」]**&#x200B;中。現在，您可以看到&#x200B;**[!UICONTROL 「資訊」]**&#x200B;圖示，這樣您就可以查看其值的分佈。如果您不希望將連結保留在&#x200B;**[!UICONTROL 「輸出欄」]**&#x200B;中，請點擊&#x200B;**[!UICONTROL 「取消」]**&#x200B;按鈕。
 
 ![](assets/values_link.png){zoomable="yes"}
 
-查詢模型工具中也可能有值的分佈。 [在這裡瞭解更多](../query/build-query.md#distribution-of-values-in-a-query)。
+在查詢建模工具中也可以查看值的分佈。[如需更多詳情，請參閱此處](../query/build-query.md#distribution-of-values-in-a-query)。

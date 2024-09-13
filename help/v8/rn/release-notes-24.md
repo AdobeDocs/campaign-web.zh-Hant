@@ -1,16 +1,17 @@
 ---
-title: Campaign v8網頁使用者介面舊版發行說明
-description: 2024 Campaign網頁使用者介面發行
-source-git-commit: 0cb44b82fa19f3960f3855947a9a6178a2bd71b7
-workflow-type: tm+mt
+title: Campaign v8 Web 使用者介面先前發行說明
+description: 2024 Campaign Web 使用者介面版本
+exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+workflow-type: ht
 source-wordcount: '1869'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 2024年發行說明 {#2024-release}
+# 2024 年發行說明 {#2024-release}
 
-此頁面列出&#x200B;**2024版本**&#x200B;所有可用的變更和改良。 [此頁面](release-notes.md)提供最新的發行說明。
+此頁面列出了 **2024 年版本**&#x200B;的所有變更和改進。最新的發行說明可以在[此頁面](release-notes.md)找到。
 
 ## 7 月發行說明 {#24-7-release}
 
@@ -163,9 +164,9 @@ ht-degree: 98%
 
 **發行日期**：2024 年 3 月 19-20 日
 
-### 直接郵件頻道 {#24-3-dm}
+### 直接郵件管道 {#24-3-dm}
 
-**直接郵件**&#x200B;頻道現已可在工作流程中使用，並可作為獨立傳遞來使用。直接郵件是離線頻道，可讓您建立、個人化和產生摘取檔案，並將該檔案與您的直接郵件提供者分享，以便他們傳送郵件給您的客戶。
+**直接郵件**&#x200B;管道現已可在工作流程中使用，並可作為獨立傳遞來使用。直接郵件是離線管道，可讓您建立、個人化和產生摘取檔案，並將該檔案與您的直接郵件提供者分享，以便他們傳送郵件給您的客戶。
 
 ### 新的變更資料來源工作流程活動 {#24-3-change-data-source}
 

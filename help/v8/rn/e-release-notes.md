@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '346'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -32,16 +32,16 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 >
 >以下功能為限量開放 (LA) 版本。僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。
 >
->請參閱下列檔案頁面： [Campaign Standard轉換至Campaign v8](../rn/acs-migration.md)和[Campaign Standard使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}。
+>請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-hant){target="_blank"}」。
 
 * **直接郵件的品牌化** - 技術管理員現在可以定義一或多個品牌，以集中管理影響品牌識別的參數。這包括品牌標誌、登陸頁面存取 URL 的網域，或訊息追蹤設定。您現在可以建立這些品牌，並將其連結到訊息或登陸頁面。此設定是在範本中進行管理。
 
-* **具有登入頁面的訂閱** — 您現在可以將登入頁面連結至服務，並在使用者驗證服務時傳送確認訊息。
+* **訂閱與登陸頁面** - 現在您可以將登陸頁面連結到服務，並在使用者驗證後發送確認訊息。
 
 * **視覺片段** - 您現在可以封存視覺內容片段。
 
-* **登陸頁面captcha** — 您現在可以新增驗證碼以保護登陸頁面，使其免受機器人程式造成的垃圾郵件和濫用。 這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。
+* **登陸頁面驗證碼** - 現在您可以新增驗證碼以保護您的登陸頁面，避免受機器人程式導致的垃圾訊息和濫用侵害。這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。
 
-* **Rest API** — 身為Campaign Standard移轉的使用者，您現在可以使用Rest API來處理異動訊息。 [深入了解](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hant){target="_blank"}.
+* **REST API** - 作為 Campaign Standard 遷移使用者，您現在可以使用 REST API 來處理交易性訊息。[深入了解](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hant){target="_blank"}。
 
 
