@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 82%
+ht-degree: 92%
 
 ---
 
@@ -59,13 +59,13 @@ ht-degree: 82%
 
 >[!TAB 值的分佈]
 
-存取個人化的欄位清單時，您現在可以檢查每個欄位的值分配方式。
+當存取個人化的欄位清單時，您現在可以查看每個欄位的值如何分佈。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->登陸頁面中的[!TAB 驗證碼]
+>[!TAB 登陸頁面中的驗證碼]
 
-您現在可以新增驗證碼以保護登陸頁面免受機器人造成的垃圾郵件和濫用。 此功能限量提供。
+您現在可以新增驗證碼，以保護您的登陸頁面免受機器人程式造成的垃圾郵件和濫用。此功能為「有限可用性」的狀態。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
