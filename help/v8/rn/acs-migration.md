@@ -3,20 +3,14 @@ audience: end-user
 title: 從 Campaign Standard 轉換到 Adobe Campaign Web
 description: 探索 Campaign Web 使用者介面
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: 448b002a284b05000da80fd165b300bc24178c78
-workflow-type: ht
-source-wordcount: '716'
-ht-degree: 100%
+source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Campaign Standard 轉換到 Campaign v8 {#welcome}
-
-<!--
-We are thrilled to annonce that you, as a Campaign Standard user, can now benefit from the new version of Adobe Campaign Web User Interface. The migration is seemless and will allow you to use all the intuitive features designed to simplify the creation of personalized cross-channel campaigns. Campaign Web User Interface also brings a connected canvas with Adobe Experience Platform for a unified experience.
--->
-
-歡迎使用 Adobe Campaign Managed Cloud Services v8！
+# Campaign Standard 轉換到 Campaign v8 {#acs-to-ac}
 
 我們很高興地宣布，Adobe Campaign Standard 使用者現在可以轉換到 Adobe Campaign Managed Cloud Services v8。這項轉換有許多好處：
 
@@ -25,33 +19,39 @@ We are thrilled to annonce that you, as a Campaign Standard user, can now benefi
 * 與 Adobe Experience Platform 整合：Managed Cloud Services v8 與 Adobe Experience Platform 無縫連接，使客戶能夠善用其資料的潛力，並跨管道推動具影響力的個人化行銷活動。
 * 一致的使用者介面和體驗：請放心，轉換到 Managed Cloud Services v8 不會中斷您的工作流程。您將能繼續使用熟悉的使用者介面和使用者體驗，確保您團隊輕鬆學習並上手。
 
-## 主要功能 {#key-features}
+**作為轉換至Campaign v8的Campaign Standard使用者，請參閱此檔案](../../adoption/home.md)以瞭解如何啟動[。**
 
-作為 Campaign v8 使用者，您可以存取新的 Campaign Web 介面和 v8 控制台。資料和設定則會從一個環境同步至另一個環境。您可以在 Campaign Web 使用者介面 (從探索工具左側導覽) 中，查看用戶端主控台中可用的所有資料和設定。[了解更多](../get-started/user-interface.md#user-interface-explorer)
+<!--
+As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.
 
-Campaign Web 使用者介面是專為行銷人員所設計，用於輕鬆建立和協調其行銷活動。讓我們深入了解 Campaign v8 Web 使用者介面能為您提供哪些主要功能：
 
-* 現代化、易用且統一的體驗。[了解更多](../get-started/connect-to-campaign.md)。
-* 全新的強大功能和順暢流程。[了解更多](../get-started/user-interface.md)
-* 全新簡化且直覺的查詢建模工具。[了解更多](../query/query-modeler-overview.md)
-* 內建的跨管道行銷活動管理功能。[了解更多](../msg/gs-messages.md)
-* 全新及重新設計的行銷活動工作流程活動。[了解更多](../workflows/gs-workflows.md)
-* 輕鬆建立和管理設定檔。[了解更多](../audience/about-recipients.md)
-* 預先定義的篩選器。[了解更多](../get-started/predefined-filters.md)
-* 用於電子郵件設計的 HTML 轉換器。[了解更多](../email/existing-content.md)
-* 提供優惠的簡訊。[了解更多](../msg/offers.md)
+## Key capabilities {#key-features}
 
-Campaign 用戶端主控台是專為管理員和開發人員所設計，用於設定及自訂其環境。[此文件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/new/whats-new){target="_blank"}詳細介紹了 Campaign 用戶端主控台中可用的主要功能。
+As a Campaign v8 user, you have access to both the new Campaign Web interface and the v8 console. Data and settings are synchronized from an environment to another. All your data and settings available in the client console is visible in the Campaign Web user interface, from the Explorer left navigation. [Learn more](../get-started/user-interface.md#user-interface-explorer)
+
+Campaign web user interface is designed for marketers to easily build and orchestrate their campaigns. Let's dig deeper in what key capabilities Campaign v8 web user interface will offer you:
+
+* Modern, friendly, and unified experience. [Learn more](../get-started/connect-to-campaign.md).
+* New powerful capabilities and seamless processes. [Learn more](../get-started/user-interface.md)
+* New simplified and intuitive query modeler. [Learn more](../query/query-modeler-overview.md)
+* Built-in cross-channel campaign management capabilities. [Learn more](../msg/gs-messages.md)
+* New and redesigned campaign workflow activities. [Learn more](../workflows/gs-workflows.md)
+* Easy profile creation and management. [Learn more](../audience/about-recipients.md)
+* Predefined Filters. [Learn more](../get-started/predefined-filters.md)
+* HTML Converter for email design. [Learn more](../email/existing-content.md)
+* SMS with offers. [Learn more](../msg/offers.md)
+
+Campaign client console is designed for administrators and developers to confgure and customize their environment. Key capabilities available in Campaign client console are detailed in [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new){target="_blank"}.
 
 >[!NOTE]
 >
->如需深入了解 Campaign Web 使用者介面與 Campaign 用戶端主控台之間支援及不支援的功能以及互通性，請參閱[此頁面](../get-started/capability-matrix.md)。
+>Learn more about supported and unsupported capabilities, and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md)
 >
 
-## 術語 {#terminology}
+## Terminology {#terminology}
 
-Campaign v8 和 Campaign Standard 之間大多數概念相似。儘管如此，還是有些不同之處。以下是 Campaign Standard 和 Campaign v8 之間術語差異的一些範例：
-
+Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few differences. Here are some examples of terminology differences between Campaign Standard and the Campaign v8:
+-->
 <!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
 * Test profiles are **Seed addresses**. [Learn more](../preview-test/test-deliveries.md).
@@ -59,29 +59,30 @@ Campaign v8 和 Campaign Standard 之間大多數概念相似。儘管如此，�
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* 資源和自訂資源是指&#x200B;**結構描述**&#x200B;和&#x200B;**自訂結構描述**
-* 訊息是指&#x200B;**傳遞內容**
-* 角色設定有&#x200B;**命名權限**
-* 安全性群組為&#x200B;**操作者群組**。
-* 組織實體透過&#x200B;**資料夾權限**&#x200B;進行管理
-* 產品使用者是指用戶端主控台中的&#x200B;**操作者**
-* 傳遞準備是指用戶端主控台中的&#x200B;**傳遞分析**
-
-## 特定功能 {#new-features}
-
-為了讓您順利轉換到 Campaign v8，Campaign Standard 的主要功能已新增至 Campaign v8 中。這些功能已在[此文件](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}中詳細介紹，並且僅適用於從 Campaign Standard 轉換的使用者。
-
-* **動態報告**：動態報告提供完全可自訂的即時報告來測量行銷活動的影響。此功能新增對個人檔案資料的存取，除了開啟和點選這類功能性電子郵件行銷活動資料外，還可以按性別、城市和年齡等個人資料維度進行人口統計分析。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}。
-
-* **集中品牌化**：每家公司都有各自的品牌視覺化與技術準則。有了 Adobe Campaign，您可以定義一組規格，從標誌到技術層面 (例如電子郵件寄件者、URL 或網域)，為客戶呈現一致的品牌。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
-
-* **Rest API**  - 作為 Campaign Standard 移轉使用者，您可以使用 Rest API 為 Adobe Campaign 建立整合，並透過將 Adobe Campaign 與您使用的一組技術結合來建立自己的生態系統。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}。
-
-* **登陸頁面** - Campaign v8 登陸頁面進行了一些改進，以確保功能與 Campaign Standard 相同。請參閱[發行說明](../rn/release-notes.md#new-24-4)和登陸頁面[文件](../landing-pages/get-started-lp.md)以了解更多資訊。
-
-* **視覺片段**  - 視覺片段是可重複使用的視覺元件，可在一個或多個電子郵件傳遞或在內容範本中進行參考。修改片段時，使用該片段的所有內容都會隨之更新。此功能可讓您預先建立多個自訂內容區塊，以便行銷使用者在改進的設計流程中使用這些內容區塊來快速組裝訊息內容。[了解更多](../content/use-visual-fragments.md)
-
 <!--
+* Custom resources are **Schemas**
+* Messages are referred as **Deliveries**
+* Roles are configured with **Named Rights**
+* Security Groups are **Operator Groups**
+* Organizational units are managed through **Folder Permissions**
+* Product users are **Operators** in the client console
+* Delivery preparation is the **Delivery analysis** in the client console
+
+## Specific features {#new-features}
+
+For you to transition smoothly to Campaign v8, key Campaign Standard capabilities have been added to Campaign v8. They are detailed in [this documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}, and are only available to users transitioning from Campaign Standard.
+
+* **Dynamic Reporting**: Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
+
+* **Centralized branding**: Every company has brand visual and technical guidelines. With Adobe Campaign, you can define a set of specification to present a consistent brand to your customers, from logos to technical aspects, such as email sender, URL or domains. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+
+* **Rest APIs** - As a Campaign Stardard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+
+* **Landing pages** - Some improvements have been brought to Campaign v8 landing pages to ensure feature parity with Campaign Standard. Learn more in the [release notes](../rn/release-notes.md#new-24-4) and the landing page [documentation](../landing-pages/get-started-lp.md).
+
+* **Visual fragments** - Visual fragments are reusable visual components that can be referenced in one or more email deliveries or in content templates. When modifying a fragment, every content using it is updated. This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble message contents in an improved design process. [Learn more](../content/use-visual-fragments.md)
+
+ <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 
 
 * Landing Pages: Landing pages are web forms that can be used to capture information on your audiences, offer subscriptions to a service, display data and grow your database. Landing pages can also be used for acquiring or updating existing profiles, and to set up a double opt-in mechanism, allowing you to to protect the platform from wrong or invalid email addresses, or spambots. [Learn more](../landing-pages/get-started-lp.md)
