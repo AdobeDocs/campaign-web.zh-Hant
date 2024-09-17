@@ -5,8 +5,8 @@ description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第�
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2212'
+ht-degree: 9%
 
 ---
 

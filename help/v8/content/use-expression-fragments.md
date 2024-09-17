@@ -2,7 +2,8 @@
 audience: end-user
 title: 在運算式編輯器中新增運算式片段
 description: 瞭解如何使用內容片段建立
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 27%

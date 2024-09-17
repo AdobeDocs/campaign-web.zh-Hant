@@ -5,8 +5,8 @@ description: 瞭解如何使用變更維度工作流程活動
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '341'
+ht-degree: 26%
 
 ---
 

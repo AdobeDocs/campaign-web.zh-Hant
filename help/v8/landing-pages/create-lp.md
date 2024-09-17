@@ -98,7 +98,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
    依預設，登入頁面會儲存在&#x200B;**[!UICONTROL 網頁應用程式]**&#x200B;資料夾中。 您可以在&#x200B;**[!UICONTROL 其他選項]**&#x200B;中瀏覽到想要的位置來變更它。 [瞭解如何使用資料夾](../get-started/permissions.md#folders)
 
-   您也可以設定驗證碼以保護您的登陸頁面。 [在這裡瞭解更多](#captcha)。
+   您也可以設定驗證碼以保護您的登陸頁面。 [如需更多詳情，請參閱此處](#captcha)。
 
    ![](assets/lp-properties.png){zoomable="yes"}
 

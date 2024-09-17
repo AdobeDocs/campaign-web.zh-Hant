@@ -2,7 +2,8 @@
 audience: end-user
 title: 設計iOS豐富推送通知傳送
 description: 瞭解如何使用Adobe Campaign Web設計iOS豐富推送通知傳送
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 4%
@@ -210,4 +211,3 @@ ht-degree: 4%
 | **[!UICONTROL 執行緒ID]** | 設定用來將相關通知分組在一起的識別碼。 |
 | **[!UICONTROL 類別]** | 設定將顯示動作按鈕的類別ID名稱。 這些通知可讓使用者以更快的方式回應通知，執行不同的工作，而不需在應用程式中開啟或導覽。 |
 | **[!UICONTROL 目標內容識別碼]** | 設定識別碼，用來在開啟通知時鎖定要轉送的應用程式視窗。 |
-
