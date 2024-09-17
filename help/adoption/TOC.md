@@ -2,12 +2,13 @@
 audience: end-user
 user-guide-title: Campaign採用指南
 title: Adobe Campaign採用指南
-description: Campaign Standard轉換至Campaign v8的使用者，瞭解如何開始使用。
+user-guide-description: Campaign Standard轉換至Campaign v8的使用者，瞭解如何開始使用。
+description: Campaign Standard使用者，瞭解如何開始使用Campaign v8。
 breadcrumb-title: Campaign採用指南
-source-git-commit: c635764e5a655d4a2f3e33f629e8d768a4d9089a
+source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 3%
+source-wordcount: '67'
+ht-degree: 2%
 
 ---
 
