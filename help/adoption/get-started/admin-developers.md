@@ -3,10 +3,10 @@ title: 開始使用適用於管理員和開發人員的Adobe Campaign v8。
 description: 本教學課程概述Campaign v8的主要管理和資料管理功能。 從Campaign Standard移轉至Campaign v8的管理員和技術行銷人員適用。
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2666'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 主要變更是推出了使用者端主控台，這是與Adobe Campaign應用程式伺服器通訊的原生應用程式。
 
-Campaign使用者端主控台會集中所有功能和設定。 它與Campaign Web使用者介面保持同步，以確保兩個環境的一致性。
+Campaign使用者端主控台會集中所有功能和設定。 它會與Campaign網頁使用者介面同步，確保兩個環境的一致性。
 
 ![](assets/client_console.png){zoomable="yes"}
 
