@@ -6,7 +6,7 @@ exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '1046'
-ht-degree: 73%
+ht-degree: 87%
 
 ---
 
@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="選取分段類型"
->abstract="選取如何合併對象。 **Union**&#x200B;可讓您將多個活動的結果重新群組至單一目標。 **交集**&#x200B;可讓您僅保留活動中不同入站母體的共同元素。 「**排除**」可讓您根據特定條件從一個群體中排除元素。 "
+>abstract="選取如何結合客群。「**聯合**」讓您將多個活動的結果重新組合成單一目標。「**交集**」讓您僅保留活動中不同輸入群體的通用元素。「**排除**」可讓您根據特定條件從一個群體中排除元素。 "
 
 請按照以下常見步驟開始設定「**組合**」活動：
 
@@ -59,7 +59,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="調和選項"
->abstract="選取&#x200B;**調解型別**&#x200B;以定義如何處理重複專案。 根據預設，**索引鍵**&#x200B;選項已啟用，這表示當來自不同入站轉變的元素具有相同索引鍵時，活動只會保留一個元素。 使用&#x200B;**選取的資料行**&#x200B;選項來定義套用資料協調的資料行清單。"
+>abstract="選取「**調和類型**」，以定義處理重複項目的方式。「**金鑰**」選項預設為啟用，表示當來自不同輸入轉變的元素具有相同金鑰時，活動僅保留一個元素。使用「**欄的選取範圍**」選項來定義已套用資料調和的欄清單。"
 
 在&#x200B;**合併**&#x200B;活動中，您可以設定&#x200B;**聯合**。 為此，您需要選取&#x200B;**調解型別**&#x200B;以定義如何處理重複專案：
 
@@ -71,7 +71,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="交集調和選項"
->abstract="選取&#x200B;**調解型別**&#x200B;以定義如何處理重複專案。 根據預設，**索引鍵**&#x200B;選項已啟用，這表示當來自不同入站轉變的元素具有相同索引鍵時，活動只會保留一個元素。 使用&#x200B;**選取的資料行**&#x200B;選項來定義套用資料協調的資料行清單。"
+>abstract="選取「**調和類型**」，以定義處理重複項目的方式。「**金鑰**」選項預設為啟用，表示當來自不同輸入轉變的元素具有相同金鑰時，活動僅保留一個元素。使用「**欄的選取範圍**」選項來定義已套用資料調和的欄清單。"
 
 在&#x200B;**組合**&#x200B;活動中，您可以設定&#x200B;**交集**。 為此，您需要遵循以下額外步驟：
 

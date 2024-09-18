@@ -118,34 +118,34 @@ ht-degree: 38%
 >id="acw_deliveries_email_metrics_delivered"
 >title="已傳遞"
 >abstract="已成功傳遞的訊息數。此指標每 5 分鐘會更新一次。會根據已傳送訊息的總數顯示百分比。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="開啟次數"
 >abstract="開啟的訊息數。此指標每 5 分鐘會更新一次。顯示的百分比為相異開啟次數相較於已傳遞訊息數的比率。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="點按次數"
 >abstract="在電子郵件中至少點按一次的收件者數量。此指標每 5 分鐘會更新一次。顯示的百分比為相異點按次數相較於已傳遞訊息數的比率。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="傳送的量度"
 >abstract="傳遞分析期間處理的訊息總數。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="錯誤量度"
 >abstract="傳遞和自動傳回處理期間累積的錯誤總數與已傳送之訊息總數的關係。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 
 傳送完成後，您可以檢查顯示的KPI：

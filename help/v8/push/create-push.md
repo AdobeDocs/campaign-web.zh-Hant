@@ -16,7 +16,7 @@ ht-degree: 30%
 >id="acw_push_notification_template"
 >title="推播通知範本"
 >abstract="選取推播通知範本以開始進行推播傳遞。傳遞範本可讓您在行銷活動和傳遞中輕鬆重複使用自訂內容和設定。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-hant" text="使用傳遞範本"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-Hant" text="使用傳遞範本"
 
 
 >[!CONTEXTUALHELP]
@@ -61,7 +61,7 @@ ht-degree: 30%
 >id="acw_deliveries_push_audience"
 >title="定義推播通知客群"
 >abstract="若要定義訊息客群，您必須先選取與推播傳遞相關聯的應用程式。根據預設，推播通知會傳送給應用程式的所有訂閱者。您可以點選「**選取客群**」按鈕，並調整特定客群的範圍。如果需要，請新增一個控制組來測量傳遞的影響。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-hant" text="設定控制組"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-Hant" text="設定控制組"
 
 
 您必須先選取應用程式，然後調整推播通知對象，如下所述：

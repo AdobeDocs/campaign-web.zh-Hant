@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 17%
+ht-degree: 29%
 
 ---
 
@@ -95,9 +95,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
 >title="檔案歷史化"
->abstract="每次執行&#x200B;**[!UICONTROL 傳輸檔案]**&#x200B;活動時，都會將已上傳或已下載的檔案儲存在專用的資料夾中。 系統會為工作流程的每個傳輸檔案活動建立一個資料夾。 依預設，檔案會先儲存在Adobe Campaign安裝資料夾(`/vars`)的預設儲存目錄中，然後再進行處理。 若要使用特定資料夾，請關閉&#x200B;**[!UICONTROL 使用預設儲存目錄]**&#x200B;選項，然後輸入目錄路徑。"
+>abstract="每次執行「**[!UICONTROL 轉移檔案]**」活動時，都會將已上傳或已下載的檔案儲存在專用檔案夾中。工作流程的每個轉移檔案活動都會建立一個檔案夾。按照預設，檔案在處理之前會儲存在 Adobe Campaign 安裝資料夾 (`/vars`) 的預設儲存目錄。若要使用特定檔案夾，請關閉「**[!UICONTROL 使用預設儲存目錄]**」選項並輸入目錄路徑。"
 
-每次執行&#x200B;**[!UICONTROL 傳輸檔案]**&#x200B;活動時，都會將已上傳或已下載的檔案儲存在專用的資料夾中。 系統會為工作流程的每個傳輸檔案活動建立一個資料夾。 依預設，檔案會先儲存在Adobe Campaign安裝資料夾(`/vars`)的預設儲存目錄中，然後再進行處理。 若要使用特定資料夾，請關閉&#x200B;**[!UICONTROL 使用預設儲存目錄]**&#x200B;選項，然後輸入目錄路徑。
+每次執行「**[!UICONTROL 轉移檔案]**」活動時，都會將已上傳或已下載的檔案儲存在專用檔案夾中。工作流程的每個轉移檔案活動都會建立一個檔案夾。按照預設，檔案在處理之前會儲存在 Adobe Campaign 安裝資料夾 (`/vars`) 的預設儲存目錄。若要使用特定檔案夾，請關閉「**[!UICONTROL 使用預設儲存目錄]**」選項並輸入目錄路徑。
 
 ![](../assets/workflow-transfer-file-historization.png)
 
@@ -113,7 +113,7 @@ ht-degree: 17%
 >
 >如果活動未再次執行，則不會檢查或清除其資料夾。考慮到這一點，在傳輸大型檔案時請務必小心。
 
-## 進階與錯誤管理選項 {#advanced}
+## 進階和錯誤管理選項 {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"

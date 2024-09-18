@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 040a7f68f072d5c3a7ce56a61d3383f0baccf8a8
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 26%
+ht-degree: 30%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript 轉變"
->abstract="開啟&#x200B;**[!UICONTROL 處理錯誤]**&#x200B;選項，以便在其他輸出轉換中保留執行指令碼期間發生的錯誤。"
+>abstract="切換「**[!UICONTROL 處理錯誤]**」選項可將在指令碼執行期間發生的錯誤保留在額外的輸出轉變。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
@@ -62,7 +62,7 @@ ht-degree: 26%
 
    ![](../assets/javascript-config.png)
 
-1. 開啟&#x200B;**[!UICONTROL 處理錯誤]**&#x200B;選項，以便在其他輸出轉換中保留執行指令碼期間發生的錯誤。
+1. 切換「**[!UICONTROL 處理錯誤]**」選項可將在指令碼執行期間發生的錯誤保留在額外的輸出轉變。
 
 ## 進階JavaScript程式碼活動 {#advanced}
 

@@ -17,7 +17,7 @@ ht-degree: 19%
 >id="acw_homepage_welcome_rn5"
 >title="傳遞警報"
 >abstract="Campaign 中現已提供傳遞警報功能。此功能是警報管理系統，可讓使用者群組自動接收包含其傳送執行資訊的電子郵件通知。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 「傳送警報」是警報管理系統，可讓使用者群組自動接收包含其傳送執行資訊的電子郵件通知。收件者可監控Adobe Campaign所處理的進行中傳遞，並在發生問題時採取適當的動作。
 
