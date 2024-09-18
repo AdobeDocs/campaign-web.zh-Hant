@@ -5,7 +5,7 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 96%
@@ -33,7 +33,7 @@ ht-degree: 96%
    + [權限](get-started/permissions.md)
    + [Campaign Web 與用戶端控制台](get-started/capability-matrix.md)
    + [從 Campaign Standard 至 v8](rn/acs-migration.md)
-   + [採用 AI 技術的內容說明](get-started/-using-ai.md)
+   + [採用 AI 技術的內容說明](get-started/using-ai.md)
 + 訊息和傳遞{#msg}
    + [開始使用訊息](msg/gs-messages.md)
    + [存取傳遞內容](msg/gs-deliveries.md)
