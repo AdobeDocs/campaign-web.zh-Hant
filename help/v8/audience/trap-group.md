@@ -15,7 +15,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="捕捉器群組"
->abstract="您可以使用捕捉器群組在傳遞中包含特定位址，以透過針對不符合定義目標條件的輪廓，來監視和驗證分發程序。"
+>abstract="您可以使用捕捉器群組在交付內容中包含特定位址，以透過針對不符合定義目標條件的輪廓，來監視和驗證分發程序。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 **[!UICONTROL 陷阱群組]** （也稱為&#x200B;**[!UICONTROL 種子清單]**）可用來在您的傳遞中包含特定地址，以透過鎖定不符合定義的目標條件的設定檔來監控和驗證發佈程式。 如此一來，不在傳遞範圍的收件者可以像任何其他目標收件者一樣接收傳遞。
@@ -44,12 +44,12 @@ ht-degree: 13%
 
 若要設定&#x200B;**[!UICONTROL 補漏白群組]**，請移至傳遞的&#x200B;**[!UICONTROL 對象]**&#x200B;設定。 您有2個選項：
 
-* [選取測試設定檔](#select-test-profile)
+* [選取測試輪廓](#select-test-profile)
 * [建立條件](#create-condition)
 
 ![](assets/trap-group.png){zoomable="yes"}
 
-### 選取測試設定檔 {#select-test-profiles}
+### 選取測試輪廓 {#select-test-profiles}
 
 當您選擇&#x200B;**選取測試設定檔**&#x200B;時，可以使用&#x200B;**新增測試設定檔**&#x200B;按鈕，如下所示：
 

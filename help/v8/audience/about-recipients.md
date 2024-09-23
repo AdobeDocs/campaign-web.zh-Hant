@@ -1,5 +1,5 @@
 ---
-title: 開始使用設定檔
+title: 開始使用輪廓
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: 5a4bf85a1f70a0282405aededfb31038f9db17a8
@@ -9,12 +9,12 @@ ht-degree: 12%
 
 ---
 
-# 開始使用設定檔 {#profiles}
+# 開始使用輪廓 {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="設定檔"
->abstract="設定檔代表鎖定接收 Adobe Campaign 所傳送訊息的記錄。在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
+>title="輪廓"
+>abstract="輪廓代表鎖定接收 Adobe Campaign 所傳送訊息的記錄。在此清單中，您可以根據您的權限查看輪廓的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組輪廓屬性。"
 
 ## 什麼是設定檔？ {#what}
 

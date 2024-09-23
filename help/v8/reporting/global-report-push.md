@@ -92,7 +92,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_exclusion"
 >title="推播排除的原因"
->abstract="**排除的原因**&#x200B;圖表和表格說明了阻止使用者設定檔接收推播通知的多種原因。"
+>abstract="**「排除原因」**&#x200B;圖表和表格說明阻止使用者輪廓接收推播通知的多種原因。"
 
 排除原因&#x200B;**[!UICONTROL 圖形與表格會顯示從目標設定檔中排除的使用者設定檔無法接收訊息的原因。]**
 

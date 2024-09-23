@@ -15,7 +15,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="預覽和測試您的內容"
->abstract="定義內容後，您就可以使用設定檔和測試設定檔進行預覽及測試。"
+>abstract="定義內容後，您就可以使用輪廓和測試輪廓進行預覽及測試。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-Hant" text="傳送校樣"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#test-landing-page" text="測試登陸頁面"
 

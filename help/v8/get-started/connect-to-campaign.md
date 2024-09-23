@@ -3,7 +3,7 @@ title: 連線至 Adobe Campaign Web 介面
 description: 了解如何連線至 Adobe Campaign Web 使用者介面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
->title="收件者唯讀設定檔"
+>title="收件者唯讀輪廓"
 >abstract="您沒有編輯此設定檔的權限。如果需要，請聯絡管理員為您授予存取權。"
 
 >[!CONTEXTUALHELP]
@@ -102,7 +102,7 @@ Campaign Web 中的所有權限都會與 Campaign 用戶端控制台權限進行
 * 在 Adobe Experience Cloud 解決方案和應用程式之間切換
 * 在 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-hant){target="_blank"} 上搜尋說明
 * 查看您的產品通知
-* 編輯您的 Adobe 設定檔及管理設定，例如[更新您喜愛的語言](#language-pref)或[切換到淺色/深色主題](#dark-theme)
+* 編輯您的 Adobe 輪廓及管理設定，例如[更新您喜愛的語言](#language-pref)或[切換到淺色/深色主題](#dark-theme)
 
 ![](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
 
@@ -126,11 +126,11 @@ Adobe Campaign Web 目前提供以下語言版本：
 * 繁體中文 - CHT
 
 
-您對 Campaign Web 的預設語言是由使用者設定檔中指定的偏好語言所決定。那與您的 Campaign 伺服器和用戶端控制台的語言無關。
+Campaign Web 的預設語言是由您的使用者個人檔案中指定的偏好語言所決定。那與您的 Campaign 伺服器和用戶端控制台的語言無關。
 
 若要變更您的語言：
 
-1. 按一下右上角您的設定檔圖示，然後選取「**偏好設定**」。
+1. 按一下右上角您的個人檔案圖示，然後選取「**偏好設定**」。
 1. 然後，按一下您電子郵件地址下顯示的語言連結。
 1. 選取您偏好的語言，然後按一下「**儲存**」。您可以選取第二語言，以防您使用的元件沒有您第一語言的版本。
 
@@ -143,8 +143,8 @@ Adobe Campaign Web 目前提供以下語言版本：
 
 ## 深色和淺色主題 {#dark-theme}
 
-Adobe Campaign 提供淺色和深色主題。依據預設，使用者介面會在淺色主題中啟用。若要切換到深色主題，請按一下您的設定檔圖示，然後使用&#x200B;**深色主題**&#x200B;切換開關來啟用/停用它。
+Adobe Campaign 提供淺色和深色主題。依據預設，使用者介面會在淺色主題中啟用。若要切換到深色主題，請按一下您的檔案圖示，然後使用&#x200B;**深色主題**&#x200B;切換開關來啟用/停用它。
 
-[此章節](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hant#preferences){target="_blank"}詳細說明有關使用者設定檔設定和帳戶偏好設定的內容。
+[此章節](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hant#preferences){target="_blank"}詳細說明有關使用者檔案設定和帳戶偏好設定的內容。
 
 了解更多有關 Experience Cloud 中央介面元件的資訊，請參閱[此文件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hant){target="_blank"}。

@@ -1,5 +1,5 @@
 ---
-title: 建立設定檔
+title: 建立輪廓
 description: 瞭解如何在Campaign網頁中建立設定檔。
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
@@ -9,32 +9,32 @@ ht-degree: 48%
 
 ---
 
-# 建立設定檔 {#profiles}
+# 建立輪廓 {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="基本詳細資料"
->abstract="本區段提供對設定檔基本詳細資料的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
+>abstract="本章節提供對輪廓基本詳細資料的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="聯絡資訊"
->abstract="本區段提供對設定檔聯絡資訊的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
+>abstract="本章節提供對輪廓聯絡資訊的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="地址"
->abstract="本區段提供對設定檔郵寄地址和地址品質的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
+>abstract="本章節提供對輪廓郵寄地址和地址品質的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="帳戶詳細資料"
->abstract="本區段提供對設定檔帳戶詳細資料的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
+>abstract="本章節提供對輪廓帳戶詳細資料的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
 >title="不再聯絡"
->abstract="本區段提供對設定檔聯絡人偏好的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
+>abstract="本章節提供對輪廓聯絡偏好的深入解析。若要修改任何訊息，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"

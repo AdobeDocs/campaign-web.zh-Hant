@@ -1,5 +1,5 @@
 ---
-title: 探索設定檔的詳細資料
+title: 探索輪廓的詳細資料
 description: 瞭解如何探索設定檔的詳細資訊。
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
@@ -9,12 +9,12 @@ ht-degree: 10%
 
 ---
 
-# 探索設定檔的詳細資料 {#profile-view}
+# 探索輪廓的詳細資料 {#profile-view}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="訂閱清單"
->abstract="此標籤列出設定檔訂閱的所有服務。"
+>abstract="此標籤列出輪廓訂閱的所有服務。"
 
 若要存取設定檔的詳細資料，請瀏覽至&#x200B;**[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]**，然後按一下您要存取的設定檔。
 
