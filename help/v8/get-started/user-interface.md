@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: aec10c169f4d8cd360b819d51b4fe1a5c4be4434
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1765'
 ht-degree: 99%
 
 ---
@@ -89,7 +89,7 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
 在「客戶管理」區段中，您可以檢視輪廓、客群和訂閱。這些是唯讀清單。
 
-* **設定檔** - 建立和管理設定檔，以及存取收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。若要深入了解設定檔的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
+* **輪廓** - 建立和管理輪廓，以及存取收件者資料庫。依預設，您可以檢視其電子郵件地址、名字和姓氏。若要深入了解輪廓的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
 * **客群** - 這是您的客群清單。依預設，您可以檢視其類型、來源、建立/最後修改日期和標籤。您可以依據來源篩選清單。若要了解客群與清單的詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
 * **訂閱服務** - 瀏覽訂閱清單。預設情況下，您可以檢視其類型、模式和標籤。若要了解如何管理訂閱和取消訂閱，請參閱 [Adobe Campaign v8 (控制台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=zh-hant){target="_blank"}。
 * **預先定義的篩選器** - 預先定義的篩選器是已建立並儲存以供未來使用的自訂篩選器。在使用查詢建模工具進行任何篩選作業時 (例如篩選資料清單或建立傳遞客群時)，可以將它們當作捷徑使用。若要了解詳細資訊，請參閱[本章節](predefined-filters.md)。
@@ -224,22 +224,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
->title="模擬測試設定檔"
->abstract="模擬測試設定檔"
+>title="模擬測試輪廓"
+>abstract="模擬測試輪廓"
 
 <!--ML: not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
->title="模擬測試設定檔選擇"
->abstract="模擬測試設定檔選擇"
+>title="模擬測試輪廓選擇"
+>abstract="模擬測試輪廓選擇"
 
 <!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
->title="模擬測試設定檔傳送中"
->abstract="模擬測試設定檔傳送中"
+>title="模擬測試輪廓傳送"
+>abstract="模擬測試輪廓傳送"
 
 <!-- ML: beta wiki page - not visible in UI-->
 
@@ -415,4 +415,59 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="關於套件"
 >abstract="關於套件"
 
+<!--Schema-->
 
+>[!CONTEXTUALHELP]
+>id="acw_schema"
+>title="結構描述"
+>abstract="結構描述"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_type"
+>title="結構描述型別"
+>abstract="結構描述型別"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_properties"
+>title="結構描述屬性"
+>abstract="結構描述"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_existing"
+>title="選取現有結構描述"
+>abstract="結構描述"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_external"
+>title="選取外部資料庫"
+>abstract="結構描述"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="新增表格"
+>abstract="結構描述"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_logs_tasks"
+>title="工作流程記錄和任務"
+>abstract="結構描述"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update"
+>title="更新資料庫"
+>abstract="結構描述"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update_script"
+>title="更新指令碼"
+>abstract="結構描述"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_start_update"
+>title="開始資料庫更新"
+>abstract="結構描述"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="新增表格"
+>abstract="結構描述"
