@@ -5,8 +5,8 @@ description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
 workflow-type: tm+mt
-source-wordcount: '1762'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -424,8 +424,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_type"
->title="結構描述型別"
->abstract="結構描述型別"
+>title="結構描述類型"
+>abstract="結構描述類型"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_properties"
