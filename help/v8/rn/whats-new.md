@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 使用者介面有哪些新增功能？
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 98%
+source-wordcount: '1317'
+ht-degree: 90%
 
 ---
 
@@ -72,6 +72,13 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 * 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/delivery-reports.md)
 
 
+使用AI助理內容加速器產生&#x200B;**內容**
+
+告別手動內容建立的麻煩，透過我們由Microsoft Azure OpenAI和Adobe Firefly支援的創新內容設計工具，迎接精簡行銷活動的新時代。
+
+使用我們專為簡單和效率而設計的進階WYSIWYG拖放編輯器，重新定義內容傳送。 這款多合一工具提供順暢的AEM整合、動態內容功能以及改變遊戲規則的AI Assistant Content Accelerator，讓傳遞內容製作變得直觀、有效率且高度個人化。
+
+利用AI Assistant Content Accelerator進階演演算法的強大功能，建立吸引人、量身打造的內容來推動結果。 透過智慧型AI驅動的內容產生功能，提升您的開啟率、點進次數和轉換率。 若要了解詳細資訊，請參閱[本章節](../email/generative-gs.md)。
 
 **全新及重新設計的行銷活動工作流程活動**
 
@@ -82,9 +89,9 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 
 Adobe Campaign Web 具有&#x200B;**強大且直覺的查詢建模工具**，可簡化篩選資料庫的流程，以根據各種不同的條件選取特定目標。這包括進階運算式和運算子的使用。查詢建模工具適用於您需要定義規則以篩選資料的任何環境。若要了解詳細資訊，請參閱[本章節](../query/query-modeler-overview.md)。
 
-**輕鬆建立和管理設定檔**
+**輕鬆建立和管理輪廓**
 
-您可以使用新的 Campaign Web 使用者介面，直接透過「收件者」選單在資料庫中&#x200B;**建立和更新收件者**。透過簡化的設定檔編輯表單，您可以輸入收件者的聯絡資訊和屬性，並更新現有收件者，而無需使用用戶端主控台。若要了解詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
+您可以使用新的 Campaign Web 使用者介面，直接透過「收件者」選單在資料庫中&#x200B;**建立和更新收件者**。透過簡化的輪廓編輯表單，您可以輸入收件者的聯絡資訊和屬性，並更新現有收件者，而無需使用用戶端主控台。若要了解詳細資訊，請參閱[本章節](../audience/about-recipients.md)。
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -132,8 +139,8 @@ Ask questions and find guidance directly from the product user interface. The ne
 
 您身為現有 Campaign 使用者，請注意一些概念已重新命名以符合最新的術語標準。這些變更僅適用於 Campaign Web 使用者介面，不會反映在用戶端主控台。它們總結如下。
 
-* 收件者現在為&#x200B;**設定檔**。[了解更多](../audience/gs-audiences-recipients.md)。
-* 種子地址現在為&#x200B;**測試設定檔**。[了解更多](../preview-test/test-deliveries.md)。
+* 收件者現在為&#x200B;**輪廓**。[了解更多](../audience/gs-audiences-recipients.md)。
+* 種子地址現在為&#x200B;**測試輪廓**。[了解更多](../preview-test/test-deliveries.md)。
 * 傳遞分析現在是&#x200B;**傳遞準備**。當您需要啟動訊息準備時，按一下「**準備**」按鈕。[了解更多](../monitor/prepare-send.md)。
 * 電子郵件預覽現在可透過「**模擬內容**」按鈕取得。[了解更多](../preview-test/preview-test.md)
 * 清單現在是&#x200B;**客群**。[了解更多](../audience/gs-audiences-recipients.md)。
