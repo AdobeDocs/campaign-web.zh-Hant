@@ -4,9 +4,9 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 92%
 
 >[!BEGINTABS]
 
->[!TAB AI助理內容加速器]
+>[!TAB AI 助理內容加速器]
 
-✨透過我們的[AI Assistant Content Accelerator](../v8/email/generative-gs.md)即時功能預覽，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
+✨ 透過我們的 [AI 助理內容加速器](../v8/email/generative-gs.md)即時功能預覽，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。
 
 [![影像](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -90,7 +90,7 @@ ht-degree: 92%
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>提供動態內容</strong><br/>了解如何根據您收集的設定檔資訊自訂內容，以使內容更具吸引力並增加引人閱讀的可能性。</div>
+    <div><strong>提供動態內容</strong><br/>了解如何根據您收集的輪廓資訊自訂內容，以使內容更具吸引力並增加引人閱讀的可能性。</div>
     </td>
   </tr>
   <tr style="border: 0;">

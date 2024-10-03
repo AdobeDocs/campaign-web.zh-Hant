@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -108,11 +108,11 @@ ht-degree: 96%
          + [調整垂直對齊方式和邊框間距](email/alignment-and-padding.md)
          + [定義連結樣式](email/styling-links.md)
          + [新增內嵌樣式屬性](email/inline-styling.md)
-   + 內容加速器{#ai-assistant}的AI助理
-      + [使用AI Assistant內容加速器](email/generative-gs.md)
-      + [使用人工智慧產生電子郵件](email/generative-content.md)
-      + [使用AI產生簡訊](email/generative-sms.md)
-      + [使用AI產生推播通知](email/generative-push.md)
+   + 內容加速器的 AI 助理 {#ai-assistant}
+      + [使用 AI 助理內容加速器](email/generative-gs.md)
+      + [使用 AI 產生電子郵件](email/generative-content.md)
+      + [使用 AI 產生簡訊](email/generative-sms.md)
+      + [使用 AI 產生推播通知](email/generative-push.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](landing-pages/get-started-lp.md)
    + [建立並發佈登陸頁面](landing-pages/create-lp.md)
@@ -123,11 +123,11 @@ ht-degree: 96%
    + [開始使用輪廓和客群](audience/gs-audiences-recipients.md)
    + [目標市場選擇維度](audience/targeting-dimensions.md)
    + [隔離](audience/quarantine.md)
-   + 使用設定檔 {#work-with-profiles}
-      + [開始使用設定檔](audience/about-recipients.md)
-      + [探索設定檔的詳細資料](audience/profile-view.md)
-      + [建立設定檔](audience/create-profile.md)
-      + [使用測試設定檔](audience/test-profiles.md)
+   + 使用輪廓 {#work-with-profiles}
+      + [開始使用輪廓](audience/about-recipients.md)
+      + [探索輪廓的詳細資料](audience/profile-view.md)
+      + [建立輪廓](audience/create-profile.md)
+      + [使用測試輪廓](audience/test-profiles.md)
    + 使用客群 {#audiences}
       + [開始使用客群](audience/manage-audience.md)
       + [建立客群](audience/create-audience.md)

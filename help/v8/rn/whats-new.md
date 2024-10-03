@@ -4,9 +4,9 @@ title: Campaign Web 使用者介面有哪些新增功能？
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1317'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -72,13 +72,13 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 * 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/delivery-reports.md)
 
 
-使用AI助理內容加速器產生&#x200B;**內容**
+**使用 AI 助理內容加速器產生內容**
 
-告別手動內容建立的麻煩，透過我們由Microsoft Azure OpenAI和Adobe Firefly支援的創新內容設計工具，迎接精簡行銷活動的新時代。
+藉助我們由 Microsoft Azure OpenAI 和 Adobe Firefly 支援的創新內容設計工具，免除手動建立內容的麻煩，迎接簡化行銷活動的新時代。
 
-使用我們專為簡單和效率而設計的進階WYSIWYG拖放編輯器，重新定義內容傳送。 這款多合一工具提供順暢的AEM整合、動態內容功能以及改變遊戲規則的AI Assistant Content Accelerator，讓傳遞內容製作變得直觀、有效率且高度個人化。
+透過我們進階的 WYSIWYG 拖放編輯器來重新定義內容傳遞，此編輯器是專為實現簡單和高效所設計。這款全方位工具內含順暢的 AEM 整合、動態內容功能及革新的 AI 助理內容加速器，讓您直覺、高效且高度個人化地建立傳遞。
 
-利用AI Assistant Content Accelerator進階演演算法的強大功能，建立吸引人、量身打造的內容來推動結果。 透過智慧型AI驅動的內容產生功能，提升您的開啟率、點進次數和轉換率。 若要了解詳細資訊，請參閱[本章節](../email/generative-gs.md)。
+利用 AI 助理內容加速器先進演算法的強大功能，製作引人入勝的自訂內容，進而推動成果。透過 AI 驅動的智慧內容產生，提高開啟率、點進率和轉換率。若要了解詳細資訊，請參閱[本章節](../email/generative-gs.md)。
 
 **全新及重新設計的行銷活動工作流程活動**
 
@@ -121,7 +121,7 @@ Ask questions and find guidance directly from the product user interface. The ne
 
 **簡訊提供優惠**
 
-除了電子郵件之外，新的 Web 使用者介面現在可讓您&#x200B;**將優惠方案與簡訊整合**。透過行動裝置觸及客群，提供促銷訊息和及時通知。透過我們進階網路平台上的SMS運用整合式優惠方案的強大功能，提升您的行銷成效。 若要了解詳細資訊，請參閱[本章節](../msg/offers.md)。
+除了電子郵件之外，新的 Web 使用者介面現在可讓您&#x200B;**將優惠方案與簡訊整合**。透過行動裝置觸及客群，提供促銷訊息和及時通知。透過我們先進網路平台上的簡訊，利用整合優惠的威力提升您的行銷力度。若要了解詳細資訊，請參閱[本章節](../msg/offers.md)。
 
 ## 轉變為 Campaign Web 使用者介面
 
