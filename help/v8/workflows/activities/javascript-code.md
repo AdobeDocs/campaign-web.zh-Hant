@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 1f5bd502527d0ba285e82fdda7b3f8dc86ac2c76
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 29%
+ht-degree: 34%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript 轉變"
->abstract="若要新增一或多個輸出轉變，請按一下&#x200B;**[!UICONTROL 新增轉變]**&#x200B;按鈕，並為每個轉變指定標籤和內部名稱。"
+>abstract="若要新增一個或多個輸出轉變，按一下「**[!UICONTROL 新增轉變]**」按鈕並為每個轉變指定標籤和內部名稱。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
@@ -78,7 +78,7 @@ ht-degree: 29%
    * 按一下&#x200B;**[!UICONTROL 編輯第一次呼叫代碼]**&#x200B;以定義要在第一次呼叫期間執行的指令碼。
    * 按一下&#x200B;**[!UICONTROL 編輯下一個呼叫代碼]**&#x200B;以定義要在工作流程下一次呼叫期間執行的指令碼。 （選擇性）
 
-1. 若要新增一或多個輸出轉變，請按一下&#x200B;**[!UICONTROL 新增轉變]**&#x200B;按鈕，並為每個轉變指定標籤和內部名稱。
+1. 若要新增一個或多個輸出轉變，按一下「**[!UICONTROL 新增轉變]**」按鈕並為每個轉變指定標籤和內部名稱。
 
    在此範例中，我們已設定由程式碼片段中的指令碼根據特定條件啟動的兩個轉變。
 
