@@ -19,8 +19,8 @@ ht-degree: 49%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
->title="產品建議主張"
->abstract="產品建議主張"
+>title="產品建議提議"
+>abstract="產品建議提議"
 
 「**擴充**」活動是一種「**目標定位**」活動。此活動可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的工作流程。
 
