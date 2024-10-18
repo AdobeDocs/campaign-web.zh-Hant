@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: 搭配AI Assistant for Content Acceleration的簡訊
-description: 開始使用內容加速的AI助理
+title: SMS搭配AI Assistant內容加速器
+description: 開始使用AI Assistant內容加速器
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 2%
+source-wordcount: '894'
+ht-degree: 3%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 2%
 >開始使用此功能之前，請先閱讀相關的[護欄和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能使用Adobe Campaign網路中的AI助理進行內容加速。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Adobe Campaign網頁中使用AI Assistant內容加速器。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-一旦您製作好並個人化您的SMS訊息以符合您的受眾需求後，請利用Adobe Campaign網路中的AI助理來協助將您的通訊提升到新的境界，以透過創新的AI技術在Campaign中加速內容。
+當您製作和個人化SMS訊息以符合對象需求後，請利用Adobe Campaign Web中的AI Assistant Content Accelerator （透過創新的AI技術），將您的通訊提升到全新的境界。
 
 這個方便使用的工具提供智慧型建議，可精簡您的內容，確保您的訊息能有效地引起共鳴，並最大化參與度。
 
@@ -99,7 +99,7 @@ ht-degree: 2%
 
    ![](assets/sms-text-1.png){zoomable="yes"}
 
-1. 啟用內容加速的AI助理的&#x200B;**[!UICONTROL 使用參考內容]**&#x200B;選項，以根據選取的內容個人化新內容。
+1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 使用參考內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
