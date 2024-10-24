@@ -32,7 +32,7 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
->title="Adobe 生成式 AI 詞彙"
+>title="Adobe 生成式 AI 條款"
 >abstract="若要取得此功能的存取權限，您必需同意 Adobe Experience Cloud 生成式 AI 使用者準則。請檢查此功能之任何輸出的準確性，並確保它適合您的使用案例。"
 >additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者準則"
 
