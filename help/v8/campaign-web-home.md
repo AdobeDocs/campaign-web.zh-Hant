@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
-workflow-type: ht
-source-wordcount: '471'
-ht-degree: 100%
+source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
@@ -51,6 +51,14 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
+
+>[!TAB 2024年10月發行版本]
+
+10月版本現已上線，包括交易訊息、外部帳戶等多項改善專案。
+
+[![影像](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+
+
 >[!TAB AI 助理內容加速器]
 
 ✨ 透過我們的 [AI 助理內容加速器](../v8/email/generative-gs.md)即時功能預覽，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。
@@ -62,12 +70,6 @@ ht-degree: 100%
 當存取個人化的欄位清單時，您現在可以查看每個欄位的值如何分佈。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
-
->[!TAB 登陸頁面中的驗證碼]
-
-您現在可以新增驗證碼，以保護您的登陸頁面免受機器人程式造成的垃圾郵件和濫用。此功能為「有限可用性」的狀態。
-
-[![影像](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]
