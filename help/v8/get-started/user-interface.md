@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+source-git-commit: a146ded8206fba24e4c458f23bc6d32187c3e5ec
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '1752'
 ht-degree: 94%
 
 ---
@@ -331,30 +331,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="編輯自訂屬性"
 
 
-
-
-
-<!--about-->
-
->[!CONTEXTUALHELP]
->id="acw_about"
->title="關於"
->abstract="關於"
-
->[!CONTEXTUALHELP]
->id="acw_about_instance"
->title="關於執行個體"
->abstract="關於執行個體"
-
->[!CONTEXTUALHELP]
->id="acw_about_web"
->title="關於網頁"
->abstract="關於網頁"
-
->[!CONTEXTUALHELP]
->id="acw_about_packages"
->title="關於套件"
->abstract="關於套件"
 
 <!--Schema-->
 
