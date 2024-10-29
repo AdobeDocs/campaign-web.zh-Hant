@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「擴充」工作流程活動
 description: 了解如何使用「擴充」工作流程活動
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
+source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 49%
+source-wordcount: '2061'
+ht-degree: 39%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 49%
 >title="擴充活動"
 >abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的工作流程。"
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_offer_proposition"
->title="產品建議提議"
->abstract="產品建議提議"
 
 「**擴充**」活動是一種「**目標定位**」活動。此活動可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的工作流程。
 
@@ -140,6 +136,56 @@ ht-degree: 49%
 
 ![](../assets/enrichment-reconciliation.png)
 
+## 新增優惠方案 {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="產品建議提議"
+>abstract="「擴充」活動可讓您為每個設定檔新增優惠。"
+
+**[!UICONTROL 擴充]**&#x200B;活動可讓您為每個設定檔新增優惠。
+
+若要這麼做，請依照步驟使用選件設定&#x200B;**[!UICONTROL 擴充]**&#x200B;活動：
+
+1. 在&#x200B;**[!UICONTROL 擴充]**&#x200B;活動中，在&#x200B;**[!UICONTROL 優惠方案主張]**&#x200B;區段，按一下&#x200B;**[!UICONTROL 新增優惠方案]**&#x200B;按鈕
+
+   ![](../assets/enrichment-addoffer.png)
+
+1. 您有兩個選項可選取優惠方案：
+
+   * **[!UICONTROL 搜尋類別中的最佳優惠方案]** ：勾選此選項並指定優惠方案引擎呼叫引數（優惠方案空間、類別或主題、聯絡日期、要保留的優惠方案數目）。 引擎將根據這些引數計算要新增的最佳選件。 我們建議填寫「類別」或「主題」欄位，而不是同時填寫兩者。
+
+     ![](../assets/enrichment-bestoffer.png)
+
+   * **[!UICONTROL 預先定義的優惠方案]** ：核取此選項，並指定優惠方案空間、特定優惠方案和聯絡日期，以直接設定您要新增的優惠方案，而不呼叫優惠方案引擎。
+
+     ![](../assets/enrichment-predefinedoffer.png)
+
+1. 選取您的選件後，按一下&#x200B;**[!UICONTROL 確認]**&#x200B;按鈕。
+
+您現在可以在傳送活動中使用選件。
+
+### 使用擴充活動的選件
+
+在工作流程中，如果您想要使用在傳送中從擴充活動取得的選件，請遵循下列步驟：
+
+1. 開啟傳送活動，然後前往內容版本。 按一下&#x200B;**[!UICONTROL 優惠方案設定]**&#x200B;按鈕，然後在下拉式清單中選取與您的優惠方案對應的&#x200B;**[!UICONTROL 優惠方案空間]**。
+如果您只想檢視擴充活動的優惠方案，請將**[!UICONTROL 建議]**&#x200B;的數目設為0，然後儲存修改。
+
+   ![](../assets/offers-settings.png)
+
+1. 在電子郵件設計工具中，新增包含優惠方案的個人化時，按一下&#x200B;**[!UICONTROL 主張]**&#x200B;圖示，將顯示您從&#x200B;**[!UICONTROL 擴充]**&#x200B;活動取得的優惠。 按一下選件，開啟您要選擇的選件。
+
+   ![](../assets/offers-propositions.png)
+
+   進入&#x200B;**[!UICONTROL 呈現函式]**，並根據您的需求選擇&#x200B;**[!UICONTROL HTML呈現]**&#x200B;或&#x200B;**[!UICONTROL 文字呈現]**。
+
+   ![](../assets/offers-rendering.png)
+
+>[!NOTE]
+>
+>如果您選擇在&#x200B;**[!UICONTROL 擴充]**&#x200B;活動中於&#x200B;**[!UICONTROL 要保留的優惠方案數目]**&#x200B;選項處有多個優惠方案，則按一下&#x200B;**[!UICONTROL 主張]**&#x200B;圖示時，會顯示所有優惠方案。
+
 ## 範例 {#example}
 
 ### 單一擴充屬性 {#single-attribute}
@@ -156,10 +202,10 @@ ht-degree: 49%
 
 在這個較複雜的使用案例中，我們要選取集合連結，這是表格之間具有 1-N 基數的連結。讓我們擷取最近三筆低於 100 美元的購買。為了這麼做，您需要定義：
 
-* 擴充屬性：「**總金額**」欄位
+* 擴充屬性： **價格**&#x200B;欄位
 * 要擷取的行數：3
 * 篩選：篩除大於 100 美元的項目
-* 排序：「**訂購日期**」欄位的遞減排序。
+* 排序： **排序日期**&#x200B;欄位的降序排序。
 
 #### 新增此屬性 {#add-attribute}
 
@@ -167,9 +213,9 @@ ht-degree: 49%
 
 1. 按一下「**屬性**」欄位內部。
 1. 按一下「**顯示進階屬性**」。
-1. 選取「**總金額**」欄位 (在「**購買**」表格中)。
+1. 從&#x200B;**購買**&#x200B;資料表中選取&#x200B;**價格**&#x200B;欄位。
 
-![](../assets/workflow-enrichment3.png)
+<!-- ![](../assets/workflow-enrichment3.png) -->
 
 #### 定義集合設定{#collection-settings}
 
@@ -178,21 +224,23 @@ ht-degree: 49%
 1. 選取「**集合資料**」(從「**選取收集資料的方式**」下拉選單)。
 1. 在「**要擷取的行 (要建立的欄)**」欄位輸入「3」。
 
-![](../assets/workflow-enrichment4.png)
+![](../assets/workflow-enrichment4bis.png)
 
 例如，如果您想要取得某個客戶的平均購買金額，請改為選取「**彙總資料**」，然後選取「**平均**」(從「**彙總函數**」下拉選單)。
 
-![](../assets/workflow-enrichment5.png)
+請使用您屬性的&#x200B;**標籤**&#x200B;和&#x200B;**別名**&#x200B;欄位，使其更易於理解，如下所示。
+
+![](../assets/workflow-enrichment5bis.png)
 
 #### 定義篩選條件{#collection-filters}
 
 在這裡，我們可定義擴充屬性的最大值。我們會篩選掉大於100$的專案。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
 
-1. 按一下「**編輯篩選條件**」。
-1. 新增以下兩個篩選條件：「**總金額**&#x200B;存在」以及「**總金額**&#x200B;小於 100」。第一個會篩選出 NULL 值，因為這會顯示為最大值。
+1. 按一下&#x200B;**建立篩選器**。
+1. 新增下列兩個篩選器： **Price**&#x200B;存在且&#x200B;**Price**&#x200B;小於100。 第一個會篩選出 NULL 值，因為這會顯示為最大值。
 1. 按一下「**確認**」。
 
-![](../assets/workflow-enrichment6.png)
+![](../assets/workflow-enrichment6bis.png)
 
 #### 定義排序{#collection-sorting}
 
@@ -204,7 +252,7 @@ ht-degree: 49%
 1. 按一下「**確認**」。
 1. 選取「**遞減**」(從「**排序**」下拉選單)。
 
-![](../assets/workflow-enrichment7.png)
+![](../assets/workflow-enrichment7bis.png)
 
 ### 使用連結的資料擴充 {#link-example}
 

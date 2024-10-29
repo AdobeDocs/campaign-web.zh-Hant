@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
+source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2227'
 ht-degree: 9%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 9%
 >* 對於具有許多值的欄位，只會顯示前20個值。 在這種情況下，通知&#x200B;**[!UICONTROL 部分載入]**&#x200B;會警告您。
 >
 >* 每個屬性選擇器中都可以存取&#x200B;**[!UICONTROL 值分佈]**&#x200B;選項。
+>* 您可以使用&#x200B;**[!A進階篩選器]**&#x200B;在結果上新增條件。 [如需更多詳情，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 新增篩選元件 {#filtering}
 

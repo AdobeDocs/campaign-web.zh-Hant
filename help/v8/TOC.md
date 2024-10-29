@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 99%
+source-wordcount: '769'
+ht-degree: 98%
 
 ---
 
@@ -65,6 +65,11 @@ ht-degree: 99%
       + [建立新的直接郵件傳遞](direct-mail/create-direct-mail.md)
       + [設計摘取檔案](direct-mail/content-direct-mail.md)
       + [預覽並發送直接郵件傳遞](direct-mail/send-direct-mail.md)
+   + 交易型訊息{#transactional-messages}
+      + [開始使用異動訊息](transactional-messaging/transactional.md)
+      + [建立交易式訊息](transactional-messaging/create-transactional.md)
+      + [驗證交易式訊息](transactional-messaging/validate-transactional.md)
+      + [監視異動訊息](transactional-messaging/monitor-transactional.md)
    + [將優惠新增至您的訊息](msg/offers.md)
    + [向您的訂閱者傳送訊息](msg/send-to-subscribers.md)
    + [設定傳遞設定](advanced-settings/delivery-settings.md)
@@ -218,4 +223,5 @@ ht-degree: 99%
    + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
 + 設定 {#conf}
    + [設定自訂欄位](administration/custom-fields.md)
+   + [設定外部帳戶](administration/external-account.md)
 + [Campaign v8 (控制台) 文件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)

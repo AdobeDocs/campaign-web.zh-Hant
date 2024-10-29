@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
-workflow-type: ht
-source-wordcount: '1762'
-ht-degree: 100%
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+workflow-type: tm+mt
+source-wordcount: '1766'
+ht-degree: 94%
 
 ---
 
@@ -112,6 +112,17 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 ### 報告 {#left-nav-reporting}
 
 * **報告** - 此&#x200B;**報告**&#x200B;項目提供 Campaign 環境中每個管道的流量和參與量度的綜合整體摘要。這些報告是由各種小工具所組成，每個小工具都提供有關您的行銷活動或傳遞績效的獨特觀點。若要了解詳細資訊，請參閱[本章節](../reporting/global-reports.md)。
+
+### 管理 {#left-nav-admin}
+
+
+* **稽核軌跡** - **稽核軌跡**&#x200B;專案可讓使用者完全瞭解對執行個體內重要實體所做的所有修改，通常是對執行個體順利作業產生重大影響的修改。 [了解更多](../reporting/audit-trail.md)
+
+* **外部帳戶** — 使用Web使用者介面建立新的外部帳戶，以符合您的特定需求，並確保順暢的資料傳輸。 [了解更多](../administration/external-account.md)
+
+* **結構描述** — 自訂欄位是透過Adobe Campaign主控台新增到現成結構描述的其他屬性。 [了解更多](../administration/custom-fields.md)
+
+* **傳遞警報** — 傳遞警報是警報管理系統，可讓使用者群組自動接收電子郵件通知，其中包含其傳遞執行的資訊。 [了解更多](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 
@@ -321,77 +332,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-<!-- transac messages-->
 
->[!CONTEXTUALHELP]
->id="acw_transacmessages"
->title="交易型傳訊"
->abstract="交易型傳訊"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_properties"
->title="交易型傳訊屬性"
->abstract="交易型傳訊屬性"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_email_properties"
->title="交易型傳訊電子郵件屬性"
->abstract="交易型傳訊電子郵件屬性"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_sms_properties"
->title="交易型傳訊 SMS 屬性"
->abstract="交易型傳訊 SMS 屬性"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_push_properties"
->title="交易型傳訊推播屬性"
->abstract="交易型傳訊推播屬性"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="交易型傳訊行動應用程式"
->abstract="交易型傳訊行動應用程式"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_event"
->title="交易型傳訊事件"
->abstract="交易型傳訊事件"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
->title="交易型傳訊情境"
->abstract="交易型傳訊情境"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_content"
->title="交易型傳訊內容"
->abstract="交易型傳訊內容"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="交易型傳訊個人化"
->abstract="交易型傳訊個人化"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_exclusionlogs"
->title="交易型傳訊排除記錄"
->abstract="交易型傳訊排除記錄"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_addcontext"
->title="交易型傳訊情境"
->abstract="交易型傳訊情境"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory"
->title="交易型傳訊事件歷史記錄"
->abstract="交易型傳訊事件歷史記錄"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory_preview"
->title="交易型傳訊事件歷史記錄預覽"
->abstract="交易型傳訊事件歷史記錄預覽"
 
 <!--about-->
 

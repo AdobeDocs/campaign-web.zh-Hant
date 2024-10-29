@@ -3,10 +3,10 @@ audience: end-user
 title: 使用資料夾
 description: 了解如何在 Adobe Campaign 中管理資料夾
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="資料夾排程"
 >abstract="資料夾排程"
 
-## 關於資料夾
+## 關於資料夾 {#about-folders}
 
 資料夾是 Adobe Campaign 中的物件，可讓您組織元件和資料。
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 您可以設定資料夾類型。例如：傳遞的資料夾。
 資料夾的圖示將根據此類型而有所變更。
 
-## 建立新資料夾
+## 建立新資料夾 {#create-a-folder}
 
 若要在 Adobe Campaign Web UI 中建立新資料夾，請執行下列步驟：
 
@@ -52,8 +52,7 @@ ht-degree: 100%
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-在建立新資料夾時，依據預設，資料夾類型為父資料夾類型。
-在此範例中，我們會在「**[!UICONTROL 傳遞]**」資料夾中建立一個資料夾。
+當您建立新資料夾時，依預設，資料夾型別是資料夾父項的型別。 在此範例中，我們會在「**[!UICONTROL 傳遞]**」資料夾中建立一個資料夾。
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -67,7 +66,7 @@ ht-degree: 100%
 
 您也可以[在 Adobe Campaign 控制台中建立和管理資料夾](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/configuration/folders-and-views)。
 
-## 刪除資料夾
+## 刪除資料夾 {#delete-a-folder}
 
 >[!CAUTION]
 >
@@ -107,3 +106,11 @@ ht-degree: 100%
 ![](assets/values_link.png){zoomable="yes"}
 
 在查詢建模工具中也可以查看值的分佈。[如需更多詳情，請參閱此處](../query/build-query.md#distribution-of-values-in-a-query)。
+
+### 篩選值 {#filter-values}
+
+在值分佈視窗中使用&#x200B;**[!UICONTROL 進階篩選器]**，即可根據指定的條件篩選結果。
+
+在上面的傳遞清單範例中（顯示每個管道的分佈），您可以進行篩選以僅顯示狀態為&#x200B;**已完成**&#x200B;的傳遞。
+
+![](assets/values_filter.png){zoomable="yes"}
