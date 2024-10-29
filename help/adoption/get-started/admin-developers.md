@@ -3,9 +3,9 @@ title: 開始使用適用於管理員和開發人員的Adobe Campaign v8。
 description: 本教學課程概述Campaign v8的主要管理和資料管理功能。 從Campaign Standard移轉至Campaign v8的管理員和技術行銷人員適用。
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2657'
 ht-degree: 7%
 
 ---
@@ -229,9 +229,9 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 身為管理員，您負責設定及維護Campaign外部帳戶。 和Campaign Standard一樣，技術流程（如技術工作流程或行銷活動工作流程）會使用外部帳戶。
 
-轉換至Campaign v8的過程會處理您現有的Campaign Standard外部帳戶：現在可在使用者端主控台中使用這些帳戶。
+轉換至Campaign v8的過程會處理您現有的Campaign Standard外部帳戶。
 
-深入瞭解[外部帳戶設定](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"}。
+進一步瞭解[外部帳戶檔案](../../v8/administration/external-account.md)。
 
 
 <!--

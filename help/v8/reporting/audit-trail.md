@@ -4,9 +4,9 @@ title: 稽核軌跡
 description: 瞭解如何使用Campaign稽核軌跡監控您的執行個體
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 * **外部帳戶**&#x200B;可讓您檢查Campaign V8中對外部帳戶所做的修改，這些修改由技術流程（如技術工作流程或行銷活動工作流程）使用。
 
-  如需外部帳戶的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts)。
+  如需外部帳戶的詳細資訊，請參閱此[頁面](../administration/external-account.md)。
 
 * **傳遞對應**&#x200B;可讓您監視活動以及最近對Campaign V8中的傳遞對應所做的修改。
 

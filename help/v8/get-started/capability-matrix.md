@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 使用者介面/用戶端主控台功能比較表
 description: Campaign Web 使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 100%
+source-wordcount: '2075'
+ht-degree: 99%
 
 ---
 
@@ -58,9 +58,9 @@ Adobe Campaign 可讓您建立、設計和共用登陸頁面。全新介面中�
 
 ## 輪廓、測試輪廓和客群 {#profiles-audiences-capabilities}
 
-您可以在 Campaign 用戶端主控台和 Campaign Web 使用者介面中，建立、管理和更新設定檔和測試設定檔。於一個 UI 中執行的所有變更，皆會顯示在另一個 UI 中。不過，新的 Campaign Web 使用者介面可能缺少某些特定的收件者設定和進階參數。
+您可以在 Campaign 用戶端主控台和 Campaign Web 使用者介面中，建立、管理和更新輪廓和測試輪廓。於一個 UI 中執行的所有變更，皆會顯示在另一個 UI 中。不過，新的 Campaign Web 使用者介面可能缺少某些特定的收件者設定和進階參數。
 
-請注意，在新的網頁使用者介面中，「收件者」一詞已變更為「設定檔」，而「種子地址」現在則為「測試設定檔」
+請注意，在新的網頁使用者介面中，「收件者」一詞已變更為「輪廓」，而「種子地址」現在則為「測試輪廓」
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
@@ -68,15 +68,17 @@ Adobe Campaign 可讓您建立、設計和共用登陸頁面。全新介面中�
 
 如 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html?lang=zh-Hant#import-jobs){target="_blank"}所述， 無法在 Campaign Web 使用者介面中使用單次匯入/匯出工作。<!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
-## 交易型訊息傳遞功能 {#mc-capabilities}
+<!--
+## Transactional messaging {#mc-capabilities}
 
-目前無法在新的 Campaign Web 使用者介面中，使用訊息中心產品套件隨附的交易型訊息傳遞功能。
+Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-瀏覽 [Campaign v8  (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=zh-Hant){target="_blank"}，並深入了解即時訊息傳遞功能，例如：
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
-* 在電子郵件、簡訊和推播上的即時訊息製作和執行
-* 訊息擴充和個人化
-* 交易型訊息的報告和監視
+* Realtime message authoring and execution on email, SMS and push
+* Message enrichment and personalization
+* Reporting and monitoring on transactional messaging
+-->
 
 ## 內容設計 {#content-capabilities}
 
@@ -155,7 +157,7 @@ Campaign Web 使用者介面不顯示下列功能。這些功能僅適用於用�
 
 ### 外部帳戶 {#external}
 
-Adobe Campaign 隨附一組預先定義的外部帳戶，可與外部系統連線。作為 Campaign 系統管理員，您僅能從用戶端主控台建立及管理外部帳戶。[了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=zh-Hant){target="_blank"}
+Adobe Campaign 隨附一組預先定義的外部帳戶，可與外部系統連線。作為Campaign系統管理員，您可以建立和管理外部帳戶。 [了解更多](../administration/external-account.md)
 
 ### 綱要建立及擴充 {#schema}
 
