@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a146ded8206fba24e4c458f23bc6d32187c3e5ec
+source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 94%
+source-wordcount: '2011'
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 94%
 新的 Adobe Campaign Web 介面提供了現代直覺的使用者體驗，可簡化行銷活動的設計和傳遞。這個新介面整合 Adobe Experience Cloud 應用程式和解決方案。
 
 [在本文中](connect-to-campaign.md)了解如何連線至 Adobe Campaign，並探索 Experience Cloud 導覽基礎知識。
-
 
 >[!NOTE]
 >
@@ -39,6 +38,46 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 「**最近項目**」清單為建立和修改的傳遞提供捷徑。此清單會顯示其管道、狀態、所有者、建立與修改日期。按一下「**顯示更多**」連結以載入更多傳遞。
 
 此外，您可以從頁面的「**學習**」區段存取 Adobe Campaign Web 重要說明頁面。
+
+### 關於連結 {#user-interface-about}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="關於頁面"
+>abstract="「關於」頁面提供您Adobe Campaign執行個體的詳細資訊"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="關於執行個體"
+>abstract="「執行個體」段落提供主控台使用者端的重要資訊，包括版本和相關聯的組建編號"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="關於Web"
+>abstract="網路區段會顯示您的Campaign網路使用者介面的版本，以及上次更新日期（若有）。"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="關於已安裝的套件"
+>abstract="已安裝的套件區段會列出執行個體上存在的所有模組、功能和整合。"
+
+在頁面底部，**[!UICONTROL 關於]**&#x200B;連結提供您Adobe Campaign執行個體的詳細資訊。 這些資訊處於唯讀模式。
+
+![](assets/about-link.png){zoomable="yes"}
+
+**執行個體**&#x200B;區段提供主控台使用者端的關鍵資訊，包括&#x200B;**版本**&#x200B;和關聯的&#x200B;**組建**&#x200B;編號。
+
+* **版本**&#x200B;參考您所使用的正式發行版本，
+* **組建**&#x200B;參考該版本的特定反複專案。
+
+版本編號和組建編號對疑難排解而言都十分重要，因為它們可協助您確切判斷環境中有哪些功能和修正專案。
+
+**網頁**&#x200B;區段會顯示您的Campaign網頁使用者介面的版本，以及上次更新日期（如果有的話）。 這有助於追蹤對Campaign網頁使用者介面進行的變更或改良。
+
+**已安裝的套件**&#x200B;區段列出執行個體上存在的所有模組、功能和整合。 這些套件可擴充Adobe Campaign的功能，使其能夠執行專門工作，例如與其他Adobe解決方案整合或啟用特定工作流程。 由於套件數量眾多，您可以在此章節中進行研究，以快速檢查執行個體上是否已安裝特定模組。
+
+![](assets/about.png){zoomable="yes"}
 
 ## 左側導覽功能表 {#user-interface-left-nav}
 
