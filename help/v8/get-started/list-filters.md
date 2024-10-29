@@ -3,10 +3,10 @@ audience: end-user
 title: 瀏覽和篩選清單
 description: 探索如何瀏覽和篩選清單 Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8a68e1e95f2d030c9386e11ae3e7e07f1496bd84
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 100%
 ![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 在「**設定欄**」畫面中，可新增或移除欄，並變更欄的顯示順序。
+
+您可以透過&#x200B;**拖放**&#x200B;或使用&#x200B;**上下箭頭**&#x200B;來變更清單的順序，如下所示：
+
+![](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 例如，對於這些設定：
 

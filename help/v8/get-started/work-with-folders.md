@@ -3,10 +3,10 @@ audience: end-user
 title: 使用資料夾
 description: 了解如何在 Adobe Campaign 中管理資料夾
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
+source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 86%
+source-wordcount: '574'
+ht-degree: 79%
 
 ---
 
@@ -65,6 +65,20 @@ ht-degree: 86%
 如果您想要建立非特定類型的資料夾，請選擇「**[!UICONTROL 一般資料夾]**」類型。
 
 您也可以[在 Adobe Campaign 控制台中建立和管理資料夾](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/configuration/folders-and-views)。
+
+
+## 重新排序資料夾 {#reorder-folders}
+
+您可以視需要重新排序資料夾。 若要這麼做，請按一下&#x200B;**[!UICONTROL 重新排序資料夾]**，如下所示。
+
+在我們的範例中，資料夾&#x200B;**傳送**&#x200B;包含4個資料夾。
+
+![](assets/folder-reorder.png){zoomable="yes"}
+
+您可以透過&#x200B;**拖放**&#x200B;或使用&#x200B;**上下箭頭**&#x200B;來變更資料夾的順序。
+
+![](assets/folder-draganddrop.png){zoomable="yes"}
+
 
 ## 刪除資料夾 {#delete-a-folder}
 
