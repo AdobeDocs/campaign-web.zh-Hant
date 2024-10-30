@@ -4,10 +4,10 @@ title: 在你的電子郵件中新增視覺內容片段
 description: 瞭解如何將視覺化片段新增至您的電子郵件
 badge: label="有限可用性"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 20%
+source-wordcount: '577'
+ht-degree: 18%
 
 ---
 
@@ -68,6 +68,18 @@ ht-degree: 20%
    您也可以從內容中刪除或復製片段。 這些動作可以直接從顯示在片段頂端的內容功能表執行。
 
 1. 新增您想要的視覺化片段數，然後&#x200B;**[!UICONTROL 儲存]**&#x200B;您的變更。
+
+### 唯讀模式下的視覺化片段 {#fragment-readonly}
+
+存取許可權可套用至視覺片段。
+
+如果您沒有特定視覺化片段的編輯許可權，內容範本會以&#x200B;**唯讀模式**&#x200B;顯示。 在此情況下，**[!UICONTROL 編輯內容]**&#x200B;按鈕會取代為&#x200B;**[!UICONTROL 檢視內容]**&#x200B;按鈕，可讓您檢視片段而不做任何變更。
+
+![](assets/fragment-readonly.png){zoomable="yes"}
+
+如下所示，所有功能圖示都會停用，限制僅供檢視互動。
+
+![](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## 中斷繼承 {#break-inheritance}
 

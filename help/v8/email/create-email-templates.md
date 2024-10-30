@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 18%
+source-wordcount: '1018'
+ht-degree: 17%
 
 ---
 
@@ -47,6 +47,17 @@ ht-degree: 18%
 
 您可以從清單中編輯、複製或刪除現有的內容範本。 使用上半區段的按鈕來建立內容範本。
 
+### 唯讀模式下的內容範本 {#template-readonly}
+
+存取許可權可套用至內容範本。
+
+如果您沒有特定內容範本的編輯許可權，內容範本會以&#x200B;**唯讀模式**&#x200B;顯示。 在此情況下，**[!UICONTROL 編輯內容]**&#x200B;按鈕會取代為&#x200B;**[!UICONTROL 檢視內容]**&#x200B;按鈕，讓您檢視範本而不做任何變更。
+
+![](assets/template-readonly.png){zoomable="yes"}
+
+如下所示，所有功能圖示都會停用，限制僅供檢視互動。
+
+![](assets/template-readonly-view.png){zoomable="yes"}
 
 ## 建立內容範本 {#create-content-templates}
 
