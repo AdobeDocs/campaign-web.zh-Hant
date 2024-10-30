@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1011'
 ht-degree: 6%
 
 ---
@@ -116,3 +116,20 @@ ht-degree: 6%
 
    >[!NOTE]
    >如果傳送訊息時不符合變體中所定義的規則，內容元件將會從&#x200B;**[!UICONTROL 條件式內容]**&#x200B;窗格顯示&#x200B;**[!UICONTROL 預設變體]**&#x200B;中所定義的內容。
+
+## 對條件式內容使用變數 {#variables-conditional}
+
+變數可用於傳送中的條件式內容。
+
+深入瞭解[新增變數至傳遞](../advanced-settings/delivery-settings.md#variables-delivery)。
+
+選擇要放置條件式內容的元素。
+
+![](assets/variables-conditional.png){zoomable="yes"}
+
+若要使用變數，請使用&#x200B;**[!UICONTROL 編輯運算式]**按鈕來設定條件，如下所示。
+在此範例中，當變數的值為`launch`時會顯示此影像。
+
+![](assets/variables-condition.png){zoomable="yes"}
+
+例如，您也可以建立另一個值為`reminder`的變體，在其中顯示不同的影像。

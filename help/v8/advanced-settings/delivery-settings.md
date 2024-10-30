@@ -4,9 +4,9 @@ title: 設定傳送設定
 description: 瞭解如何在Campaign網頁版中設定傳遞設定
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2888'
 ht-degree: 46%
 
 ---
@@ -351,6 +351,8 @@ ht-degree: 46%
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-按一下&#x200B;**[!UICONTROL 新增變數]**&#x200B;按鈕以輸入變數的詳細資料，然後按一下&#x200B;**[!UICONTROL 確認]**&#x200B;以儲存變更。
+按一下&#x200B;**[!UICONTROL 新增變數]**&#x200B;按鈕以輸入變數的詳細資料。 您可以透過啟動核取方塊&#x200B;**[!UICONTROL 值是運算式]**&#x200B;的結果，直接新增其值或使用運算式。 然後按一下&#x200B;**[!UICONTROL 確認]**&#x200B;以儲存變更。
 
 ![](assets/variables-add.png){zoomable="yes"}
+
+深入瞭解[使用變數進行個人化](../personalization/personalize.md#variables-personalization)以及[使用變數進行動態內容](../personalization/conditions.md#variables-conditional)。

@@ -6,19 +6,27 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 2%
+source-wordcount: '580'
+ht-degree: 1%
 
 ---
 
 
 # 個人化您的內容 {#add-personalization}
 
-您可以使用運算式編輯器來個人化任何傳遞，使用&#x200B;**[!UICONTROL 開啟個人化對話方塊]**&#x200B;圖示的欄位可存取該編輯器，例如主旨列、電子郵件連結和文字/按鈕內容元件。 [瞭解如何存取運算式編輯器](gs-personalization.md/#access)
+傳遞內容的Personalization是一項關鍵功能，可讓您為個別收件者量身打造訊息，讓通訊更具相關性和吸引力。
 
-## Personalization語法 {#syntax}
+在Adobe Campaign中，使用設定檔名稱、位置或過去互動等[設定檔資料](#data-personalization)，以及您傳送的特定[變數](#variables-personalization)，即可動態自訂通訊中的文字、影像和選件等元素。
+
+傳遞個人化不僅可改善使用者體驗，亦可改善參與率，進而帶來更高的轉換率和客戶滿意度。
+
+## 使用個人化設定檔資料 {#data-personalization}
+
+您可以使用運算式編輯器以設定檔資料個人化任何傳遞，該編輯器可在具有&#x200B;**[!UICONTROL 開啟個人化對話方塊]**&#x200B;圖示的欄位中存取，例如主旨列、電子郵件連結和文字/按鈕內容元件。 [瞭解如何存取運算式編輯器](gs-personalization.md/#access)
+
+### Personalization語法 {#syntax}
 
 Personalization標籤遵循特定語法： `<%= table.field %>`。 例如，若要從收件者表格插入收件者的姓氏，請使用`<%= recipient.lastName %>`語法。
 
@@ -26,7 +34,7 @@ Personalization標籤遵循特定語法： `<%= table.field %>`。 例如，若�
 
 從外部檔案上傳連絡人以進行獨立電子郵件傳遞時，輸入檔案中的所有欄位都可用於個人化。 語法如下： `<%= dataSource.field %>`。
 
-## 新增個人化標籤 {#add}
+### 新增個人化標籤 {#add}
 
 若要將個人化標籤新增至傳遞，請遵循下列步驟：
 
@@ -56,3 +64,20 @@ Personalization標籤遵循特定語法： `<%= table.field %>`。 例如，若�
    ![](assets/perso-preview1.png){zoomable="yes"}{width="800" align="center"}
 
    ![](assets/perso-preview2.png){zoomable="yes"}{width="800" align="center"}
+
+## 使用變數進行個人化 {#variables-personalization}
+
+您也可以使用變數來個人化您的傳遞。
+深入瞭解[新增變數至傳遞](../advanced-settings/delivery-settings.md#variables-delivery)。
+
+例如，我們已將變數`deliveryType`定義如下。
+
+![](assets/variables-deliveryType.png){zoomable="yes"}
+
+此變數可以用在傳遞的內容中，例如，使用&#x200B;**[!UICONTROL 新增Personalization]**&#x200B;圖示和運算式`<%= variables.deliveryType %>`。
+
+![](assets/variables-perso.png){zoomable="yes"}
+
+您可以透過&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕檢查變數的使用。
+
+![](assets/variables-simulate.png){zoomable="yes"}
