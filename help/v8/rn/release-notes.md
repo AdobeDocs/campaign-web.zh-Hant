@@ -2,9 +2,9 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: a6713f451112fb5af7895f34ea4e938857c013ac
+source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 42%
 
 ---
@@ -91,3 +91,5 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 * **版本和系統資訊** — 您現在可以存取使用者端主控台和Web使用者介面執行個體版本的詳細資料。 此新區段也會列出環境中安裝的所有內建套件。 [了解更多](../get-started/user-interface.md#user-interface-about)
 
 * **清單** — 您現在可以輕鬆重新排序清單的值。 [了解更多](../get-started/work-with-folders.md)
+
+* **傳遞** — 傳遞變數現在可從個人化欄位存取。 [了解更多](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
