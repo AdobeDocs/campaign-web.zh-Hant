@@ -2,16 +2,68 @@
 title: Campaign v8 Web 使用者介面先前發行說明
 description: 2024 Campaign Web 使用者介面版本
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
 workflow-type: tm+mt
-source-wordcount: '1869'
-ht-degree: 100%
+source-wordcount: '2206'
+ht-degree: 98%
 
 ---
 
 # 2024 年發行說明 {#2024-release}
 
 此頁面列出了 **2024 年版本**&#x200B;的所有變更和改進。最新的發行說明可以在[此頁面](release-notes.md)找到。
+
+
+## 9 月更新 {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>AI 助理內容加速器</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>完成訊息的製作與量身打造後，請使用Adobe Campaign Web中的AI Assistant Content Accelerator將其提升到新的境界。 這款強大的工具可讓您產生一系列引人入勝的文字、主要標題和吸引人的視覺影像，以最佳化內容的影響力。</p>
+<p>透過<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。</a></p>
+<p>如需詳細資訊，請參閱<a href="../email/generative-gs.md">詳細的文件</a>。</p>
+<img src="assets/do-not-localize/ai-content-webui.gif"/>
+<p>推出日期：9 月 12 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## 8月發行 {#24-8-release}
+
+**發行日期**：2024 年 9 月 3 日
+
+以下功能和改良功能將從 8 月版開始提供。
+
+* **SMTP 參數** - 現在可以在電子郵件傳遞設定中找到 SMTP 設定。[了解更多](../advanced-settings/delivery-settings.md#smtp)
+
+* **全域變數** - 現在您可以定義全域變數來設定傳遞的值。[了解更多](../advanced-settings/delivery-settings.md#variables-delivery)
+
+### 限量開放版本中的新功能 {#acs-24-8}
+
+>[!AVAILABILITY]
+>
+>以下功能為限量開放 (LA) 版本。僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。
+>
+>請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-hant){target="_blank"}」。
+
+* **直接郵件的品牌化** - 技術管理員現在可以定義一或多個品牌，以集中管理影響品牌識別的參數。這包括品牌標誌、登陸頁面存取 URL 的網域，或訊息追蹤設定。您現在可以建立這些品牌，並將其連結到訊息或登陸頁面。此設定在範本中管理。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/branding/branding-assign)
+
+* **訂閱與登陸頁面** - 現在您可以將登陸頁面連結到服務，並在使用者驗證後發送確認訊息。[了解更多](../landing-pages/lp-content.md#lp-message){target="_blank"}。
+
+* **視覺片段** - 您現在可以封存視覺內容片段。[了解更多](../content/create-fragment.md#archive)
+
+* **登陸頁面中的驗證碼** - 現在您可以新增驗證碼以保護您的登陸頁面，避免受機器人程式導致的垃圾訊息和濫用侵害。這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。[了解更多](../landing-pages/create-lp.md#captcha)
+
+<!--
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
+
 
 ## 7 月發行說明 {#24-7-release}
 
@@ -34,7 +86,7 @@ ht-degree: 100%
 
 ### 捕捉器群組 {#24-7-2}
 
-**捕捉器群組**&#x200B;是一份種子地址的清單。它用於在您的傳遞中包含特定地址，然後定位與定義的目標標準不相符的設定檔。這樣，不在傳遞客群範圍內的收件者就可以像其他目標收件者一樣接收傳遞內容。您可以在傳送校樣時使用種子地址，或用它來保護您的郵寄清單。[了解更多](../audience/trap-group.md)
+**捕捉器群組**&#x200B;是一份種子地址的清單。它用於在您的傳遞中包含特定地址，然後定位與定義的目標標準不相符的輪廓。這樣，不在傳遞客群範圍內的收件者就可以像其他目標收件者一樣接收傳遞內容。您可以在傳送校樣時使用種子地址，或用它來保護您的郵寄清單。[了解更多](../audience/trap-group.md)
 
 ### 豐富推播通知範本 {#24-7-3}
 
@@ -66,7 +118,7 @@ ht-degree: 100%
 
 ### 功能改進 {#improvements-24-6}
 
-* **擴充活動中的調和**：**擴充**&#x200B;活動現在可用於調和 Campaign 資料庫結構描述中的資料與其他結構描述中的資料，或來自臨時結構描述的資料 (例如使用載入檔案活動上傳的資料)。例如，您可以使用此選項將上傳檔案中指定的設定檔所在國家/地區與 Campaign 資料庫專用表中可用的國家/地區之一進行調和。[閱讀更多](../workflows/activities/enrichment.md)
+* **擴充活動中的調和**：**擴充**&#x200B;活動現在可用於調和 Campaign 資料庫結構描述中的資料與其他結構描述中的資料，或來自臨時結構描述的資料 (例如使用載入檔案活動上傳的資料)。例如，您可以使用此選項將上傳檔案中指定的輪廓所在國家/地區與 Campaign 資料庫專用表中可用的國家/地區之一進行調和。[閱讀更多](../workflows/activities/enrichment.md)
 
 ## 5 月發行說明 {#24-5-release}
 
@@ -80,11 +132,11 @@ ht-degree: 100%
 
 ### 自訂欄位 {#24-5-2}
 
-**自訂欄位**&#x200B;是透過 Adobe Campaign 控制台新增到現成結構描述的附加屬性。在 Campaign Web 使用者介面中，這些自訂欄位現在會在各個畫面中顯示，例如設定檔或測試設定檔的詳細資訊。在 Web 使用者介面中，您無法建立自訂欄位，但現在可以更改自訂欄位的顯示方式。[閱讀更多](../administration/custom-fields.md)
+**自訂欄位**&#x200B;是透過 Adobe Campaign 控制台新增到現成結構描述的附加屬性。在 Campaign Web 使用者介面中，這些自訂欄位現在會在各個畫面中顯示，例如輪廓或測試輪廓的詳細資訊。在 Web 使用者介面中，您無法建立自訂欄位，但現在可以更改自訂欄位的顯示方式。[閱讀更多](../administration/custom-fields.md)
 
 ### 建立表格之間的連結 {#24-5-3}
 
-現在您可以在&#x200B;**擴充**&#x200B;工作流程活動中建立與另一個表格的連結。使用活動參數中的新&#x200B;**連結定義**&#x200B;區段，在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，如果您從包含收件人帳戶、國家/地區和電子郵件的文件載入資料，您現在可以建立指向國家/地區表的連結，以更新其設定檔中的此資訊。[閱讀更多](../workflows/activities/enrichment.md#create-links)
+現在您可以在&#x200B;**擴充**&#x200B;工作流程活動中建立與另一個表格的連結。使用活動參數中的新&#x200B;**連結定義**&#x200B;區段，在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，如果您從包含收件人帳戶、國家/地區和電子郵件的文件載入資料，您現在可以建立指向國家/地區表的連結，以更新其輪廓中的此資訊。[閱讀更多](../workflows/activities/enrichment.md#create-links)
 
 ### 一般改善 {#improvements-24-5}
 
@@ -106,7 +158,7 @@ ht-degree: 100%
 **新的工作流程活動**
 
 * **更新資料** - 使用此活動可以對資料庫中的欄位執行大量更新。您可以透過數個選項，依據個人需求設定資料更新。[閱讀更多](../workflows/activities/update-data.md)
-* **訂閱服務**  - 使用此活動可以透過單一動作訂閱或取消訂閱服務的多個設定檔。[閱讀更多](../workflows/activities/subscription-services.md)
+* **訂閱服務**  - 使用此活動可以透過單一動作將多個輪廓對服務訂閱或取消訂閱。[閱讀更多](../workflows/activities/subscription-services.md)
 * **擷取檔案** - 使用此活動以外部檔案的形式將資料從 Adobe Campaign 匯出到另一個系統。[閱讀更多](../workflows/activities/extract-file.md)
 * **傳輸檔案** - 使用此活動可以接收或傳送檔案、測試檔案是否存在或列出伺服器上的檔案。使用的通訊協定可以是伺服器對伺服器通訊協定或 HTTP 通訊協定。[閱讀更多](../workflows/activities/transfer-file.md)
 * **測試**  - 使用此活動可以根據指定條件啟用轉換。[閱讀更多](../workflows/activities/test.md)
@@ -133,7 +185,7 @@ ht-degree: 100%
 
 * **Rest API** - 作為 Campaign Standard 移轉使用者，您可使用 Rest API 來建立 Adobe Campaign 整合，並將 Adobe Campaign 與您使用的技術面板結合，以便建立您自己的生態系統。 [閱讀更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hant)
 
-* **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對設定檔資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依設定檔維度 (例如，性別、城市和年齡) 進行人口統計分析。[閱讀更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-hant)
+* **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。[閱讀更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-hant)
 
 * **登陸頁面** - 登陸頁面的以下改善僅適用於從 Campaign Standard 轉換的使用者：
 
