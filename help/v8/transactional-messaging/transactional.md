@@ -2,10 +2,10 @@
 audience: end-user
 title: 交易型訊息傳遞功能
 description: 關於Adobe Campaign Web的交易式訊息傳送
-source-git-commit: ccb0c7805dd063b41f0277b4afc42596444db716
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 1%
+source-wordcount: '278'
+ht-degree: 3%
 
 ---
 
@@ -16,11 +16,16 @@ ht-degree: 1%
 >title="交易型訊息傳遞功能"
 >abstract="異動訊息是Adobe Campaign中的專門模組，用於處理觸發式訊息。"
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="交易型訊息傳遞功能"
+>abstract="異動訊息是Adobe Campaign中的專門模組，用於處理觸發式訊息。 這些訊息會自動產生，以回應來自資訊系統的事件。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
+
 <!-- >>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional messaging exclusion logs"
 >abstract="Transactional messaging exclusion logs" -->
-
 
 異動訊息是Adobe Campaign中的專門模組，用於處理觸發式訊息。 這些訊息會自動產生，以回應來自資訊系統的事件。 這類事件的常見範例包括按一下按鈕或連結、放棄購買、要求產品可用性警示、建立或修改帳戶等。
 
