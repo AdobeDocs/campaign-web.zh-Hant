@@ -4,9 +4,9 @@ title: Campaign Web 使用者介面/用戶端主控台功能比較表
 description: Campaign Web 使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2075'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Campaign Web 使用者介面不顯示下列功能。這些功能僅適用於用�
 
 ### 外部帳戶 {#external}
 
-Adobe Campaign 隨附一組預先定義的外部帳戶，可與外部系統連線。作為Campaign系統管理員，您可以建立和管理外部帳戶。 [了解更多](../administration/external-account.md)
+Adobe Campaign 隨附一組預先定義的外部帳戶，可與外部系統連線。作為 Campaign 系統管理員，您可以建立和管理外部帳戶。[了解更多](../administration/external-account.md)
 
 ### 綱要建立及擴充 {#schema}
 
@@ -187,7 +187,7 @@ Campaign Web 使用者介面不會針對內容、傳遞、工作流程、行銷�
 
 ## 權限 {#permissions-capabilities}
 
-Campaign 使用者僅能透過 Adobe Identity Management System (IMS) 使用其 Adobe ID 存取 Campaign Web 使用者介面。 授予使用者的權限也會套用於 Campaign  Web 使用者介面。
+Campaign 使用者僅能透過 Adobe Identity Management System (IMS) 使用其 Adobe ID 存取 Campaign Web 使用者介面。 授予使用者的權限也會套用於 Campaign Web 使用者介面。
 
 Adobe Admin Console 與 Adobe Campaign 用戶端控制台已定義權限，如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=zh-Hant)。無法從 Adobe Campaign Web 使用者介面執行任何權限動作。
 

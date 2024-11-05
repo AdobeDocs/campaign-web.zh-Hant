@@ -4,9 +4,9 @@ title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2011'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -45,37 +45,37 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 >[!CONTEXTUALHELP]
 >id="acw_about"
 >title="關於頁面"
->abstract="「關於」頁面提供您Adobe Campaign執行個體的詳細資訊"
+>abstract="關於頁面提供關於 Adobe Campaign 執行個體的詳細資訊"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
 >title="關於執行個體"
->abstract="「執行個體」段落提供主控台使用者端的重要資訊，包括版本和相關聯的組建編號"
+>abstract="執行個體區段提供關於控制台用戶端的關鍵資訊，包括版本和相關聯的版本編號"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
->title="關於Web"
->abstract="網路區段會顯示您的Campaign網路使用者介面的版本，以及上次更新日期（若有）。"
+>title="關於 Web"
+>abstract="Web 區段顯示 Campaign Web 使用者介面版本及其最近更新日期 (如果有)。"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
 >title="關於已安裝的套件"
->abstract="已安裝的套件區段會列出執行個體上存在的所有模組、功能和整合。"
+>abstract="已安裝的套件區段列出了執行個體上存在的所有模組、功能和整合。"
 
-在頁面底部，**[!UICONTROL 關於]**&#x200B;連結提供您Adobe Campaign執行個體的詳細資訊。 這些資訊處於唯讀模式。
+在頁面底部，「**[!UICONTROL 關於]**」連結提供關於 Adobe Campaign 執行個體的詳細資訊。這些資訊處於唯讀模式。
 
 ![](assets/about-link.png){zoomable="yes"}
 
-**執行個體**&#x200B;區段提供主控台使用者端的關鍵資訊，包括&#x200B;**版本**&#x200B;和關聯的&#x200B;**組建**&#x200B;編號。
+**執行個體**&#x200B;區段提供關於控制台用戶端的關鍵資訊，包括&#x200B;**版本**&#x200B;和相關聯的&#x200B;**版本編號**。
 
-* **版本**&#x200B;參考您所使用的正式發行版本，
-* **組建**&#x200B;參考該版本的特定反複專案。
+* **版本**&#x200B;係指您正在使用的官方發行版本；
+* **版本編號**&#x200B;係指該版本的特定疊代。
 
-版本編號和組建編號對疑難排解而言都十分重要，因為它們可協助您確切判斷環境中有哪些功能和修正專案。
+版本和版本編號對於疑難排解至關重要，因為它們有助於準確地確定您的環境中存在哪些功能和修正項目。
 
-**網頁**&#x200B;區段會顯示您的Campaign網頁使用者介面的版本，以及上次更新日期（如果有的話）。 這有助於追蹤對Campaign網頁使用者介面進行的變更或改良。
+**Web** 區段顯示 Campaign Web 使用者介面版本及其最近更新日期 (如果有)。這有助於追蹤對 Campaign Web 使用者介面所做的變更或改良功能。
 
-**已安裝的套件**&#x200B;區段列出執行個體上存在的所有模組、功能和整合。 這些套件可擴充Adobe Campaign的功能，使其能夠執行專門工作，例如與其他Adobe解決方案整合或啟用特定工作流程。 由於套件數量眾多，您可以在此章節中進行研究，以快速檢查執行個體上是否已安裝特定模組。
+**已安裝的套件**&#x200B;區段列出了執行個體上存在的所有模組、功能和整合。這些套件擴充 Adobe Campaign 的功能，使其能夠執行專業任務，例如與其他 Adobe 解決方案整合或啟用特定工作流程。由於套件數量龐大，您可以在本區段中進行研究，以迅速檢查您的執行個體是否已安裝特定模組。
 
 ![](assets/about.png){zoomable="yes"}
 
@@ -155,13 +155,13 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 ### 管理 {#left-nav-admin}
 
 
-* **稽核軌跡** - **稽核軌跡**&#x200B;專案可讓使用者完全瞭解對執行個體內重要實體所做的所有修改，通常是對執行個體順利作業產生重大影響的修改。 [了解更多](../reporting/audit-trail.md)
+* **稽核軌跡** - **稽核軌跡**&#x200B;項目提供使用者在執行個體中對重要實體所進行的所有修改之完整可見性，通常是對執行個體運作順暢產生顯著影響的修改。[了解更多](../reporting/audit-trail.md)
 
-* **外部帳戶** — 使用Web使用者介面建立新的外部帳戶，以符合您的特定需求，並確保順暢的資料傳輸。 [了解更多](../administration/external-account.md)
+* **外部帳戶** - 使用 Web 使用者介面建立新的外部帳戶，以符合您的特定需求並確保順暢的資料傳輸。[了解更多](../administration/external-account.md)
 
-* **結構描述** — 自訂欄位是透過Adobe Campaign主控台新增到現成結構描述的其他屬性。 [了解更多](../administration/custom-fields.md)
+* **結構描述** - 自訂欄位是透過 Adobe Campaign 控制台新增至現成可用之結構描述的附加屬性。[了解更多](../administration/custom-fields.md)
 
-* **傳遞警報** — 傳遞警報是警報管理系統，可讓使用者群組自動接收電子郵件通知，其中包含其傳遞執行的資訊。 [了解更多](../msg/delivery-alerting.md)
+* **傳遞提醒** -「傳遞提醒」是一種警報管理系統，可讓使用者群組自動接收包含其傳送執行資訊的電子郵件通知。[了解更多](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 

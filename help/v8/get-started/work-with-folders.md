@@ -4,9 +4,9 @@ title: 使用資料夾
 description: 了解如何在 Adobe Campaign 中管理資料夾
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 79%
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-當您建立新資料夾時，依預設，資料夾型別是資料夾父項的型別。 在此範例中，我們會在「**[!UICONTROL 傳遞]**」資料夾中建立一個資料夾。
+建立新資料夾時，根據預設，資料夾類型為父資料夾類型。在此範例中，我們會在「**[!UICONTROL 傳遞]**」資料夾中建立一個資料夾。
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -69,13 +69,13 @@ ht-degree: 79%
 
 ## 重新排序資料夾 {#reorder-folders}
 
-您可以視需要重新排序資料夾。 若要這麼做，請按一下&#x200B;**[!UICONTROL 重新排序資料夾]**，如下所示。
+您可以根據需求重新排序資料夾。若要進行此動作，請按一下「**[!UICONTROL 重新排序資料夾]**」，如下所示。
 
-在我們的範例中，資料夾&#x200B;**傳送**&#x200B;包含4個資料夾。
+在此範例中，「**傳送**」資料夾包含 4 個資料夾。
 
 ![](assets/folder-reorder.png){zoomable="yes"}
 
-您可以透過&#x200B;**拖放**&#x200B;或使用&#x200B;**上下箭頭**&#x200B;來變更資料夾的順序。
+您可以透過&#x200B;**拖曳**&#x200B;或使用&#x200B;**向上鍵和向下鍵**&#x200B;來變更資料夾的順序。
 
 ![](assets/folder-draganddrop.png){zoomable="yes"}
 
@@ -123,8 +123,8 @@ ht-degree: 79%
 
 ### 篩選值 {#filter-values}
 
-在值分佈視窗中使用&#x200B;**[!UICONTROL 進階篩選器]**，即可根據指定的條件篩選結果。
+透過使用值分布視窗的「**[!UICONTROL 進階篩選器]**」，您可以根據指定條件篩選結果。
 
-在上面的傳遞清單範例中（顯示每個管道的分佈），您可以進行篩選以僅顯示狀態為&#x200B;**已完成**&#x200B;的傳遞。
+在上方的傳送清單範例中，顯示每個管道的分布情況，例如，您可以對其進行篩選，僅顯示其傳送狀態為「**已完成**」。
 
 ![](assets/values_filter.png){zoomable="yes"}

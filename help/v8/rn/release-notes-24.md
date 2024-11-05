@@ -3,9 +3,9 @@ title: Campaign v8 Web 使用者介面先前發行說明
 description: 2024 Campaign Web 使用者介面版本
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>完成訊息的製作與量身打造後，請使用Adobe Campaign Web中的AI Assistant Content Accelerator將其提升到新的境界。 這款強大的工具可讓您產生一系列引人入勝的文字、主要標題和吸引人的視覺影像，以最佳化內容的影響力。</p>
+<p>在精心製作並自訂您的訊息後，請利用 Adobe Campaign Web 的 AI 助理內容加速器，將訊息提升到新的水準。這款強大的工具可讓您產生一系列引人入勝的文字、主要標題和吸引人的視覺影像，以最佳化內容的影響力。</p>
 <p>透過<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../email/generative-gs.md">詳細的文件</a>。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -35,7 +35,7 @@ ht-degree: 98%
 </tbody>
 </table>
 
-## 8月發行 {#24-8-release}
+## 8 月版 {#24-8-release}
 
 **發行日期**：2024 年 9 月 3 日
 
@@ -110,7 +110,7 @@ ht-degree: 98%
 
 ### 傳遞警報 {#24-6-3}
 
-「傳送警報」功能是警報管理系統，可讓一組使用者自動接收包含其傳送執行資訊的通知。[閱讀更多](../msg/delivery-alerting.md)
+「傳遞提醒」功能是警報管理系統，可讓一組使用者自動接收包含其傳送執行資訊的通知。[閱讀更多](../msg/delivery-alerting.md)
 
 ### 計劃和專案 {#24-6-4}
 
@@ -212,7 +212,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->此版本適用於從 [Campaign (控制台) v8.6 發行版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-hant)開始的所有使用者。 請參閱 [Campaign v8 (控制台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hant){target="_blank"}，了解更多有關 Adob&#x200B;&#x200B;e Campaign 客戶端控制台發行版本和升級。
+>此版本適用於從 [Campaign (控制台) v8.6 發行版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-hant)開始的所有使用者。 請參閱 [Campaign v8 (控制台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hant){target="_blank"}，了解更多有關 Adobe Campaign 客戶端控制台發行版本和升級。
 
 **發行日期**：2024 年 3 月 19-20 日
 
