@@ -5,7 +5,7 @@ description: 瞭解如何在Campaign網頁使用者介面中建立交易式訊�
 source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
@@ -36,27 +36,27 @@ ht-degree: 0%
 
   ![](assets/transactional-template-configuration.png){zoomable="yes"}
 
-### 異動訊息屬性 {#transactional-properties}
+### 交易型訊息屬性 {#transactional-properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
->title="異動訊息屬性"
->abstract="填寫此表單以設定異動訊息傳送屬性"
+>title="交易型傳訊屬性"
+>abstract="填寫此表單以設定交易型傳訊屬性"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
->title="異動訊息電子郵件屬性"
->abstract="填寫此表單以設定異動訊息電子郵件屬性"
+>title="交易型傳訊電子郵件屬性"
+>abstract="填寫此表單以設定交易型傳訊電子郵件屬性"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
->title="異動訊息簡訊屬性"
->abstract="填寫此表單以設定異動訊息簡訊屬性"
+>title="交易型傳訊 SMS 屬性"
+>abstract="填寫此表單以設定交易型傳訊 SMS 屬性"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
->title="異動訊息推送屬性"
->abstract="填寫此表單以設定異動訊息推播屬性"
+>title="交易型傳訊推播屬性"
+>abstract="填寫此表單以設定交易型傳訊推播屬性"
 
 交易式訊息的&#x200B;**[!UICONTROL 屬性]**&#x200B;區段將協助您設定：
 
@@ -74,28 +74,28 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
->title="異動訊息行動應用程式"
->abstract="您可以在此段落中選取要推送訊息的應用程式。"
+>title="交易型傳訊行動應用程式"
+>abstract="在此區段，您可以選取要推播訊息的應用程式。"
 
-您可以在此段落中選取要推送訊息的應用程式。
+在此區段，您可以選取要推播訊息的應用程式。
 
 按一下「重新搜尋」圖示，即可存取Adobe Campaign例項中列出的行動應用程式。
 
 ![](assets/transactional-mobileapp.png){zoomable="yes"}
 
-### 內容樣本 {#context-sample}
+### 情境範例 {#context-sample}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
->title="異動訊息內容"
->abstract="內容範例可讓您建立測試事件，以預覽透過設定檔個人化接收的交易式訊息。"
+>title="交易型傳訊情境"
+>abstract="情境範例可讓您建立測試事件，以預覽使用客戶輪廓個人化接收的交易型訊息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
->title="異動訊息內容"
->abstract="內容範例可讓您建立測試事件，以預覽透過設定檔個人化接收的交易式訊息。 "
+>title="交易型傳訊情境"
+>abstract="情境範例可讓您建立測試事件，以預覽使用客戶輪廓個人化接收的交易型訊息。 "
 
-內容範例可讓您建立測試事件，以預覽透過設定檔個人化接收的交易式訊息。
+情境範例可讓您建立測試事件，以預覽使用客戶輪廓個人化接收的交易型訊息。
 
 此步驟為選填。您可以使用沒有上下文範例的範本，但缺點在於您無法預覽個人化內容。
 
@@ -105,17 +105,17 @@ ht-degree: 0%
 
 ![](assets/transactional-context.png){zoomable="yes"}
 
-### 異動訊息範本內容 {#transactional-content}
+### 交易型訊息範本內容 {#transactional-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
->title="異動訊息內容"
->abstract="瞭解如何建立異動訊息內容"
+>title="交易型傳訊內容"
+>abstract="了解如何建立交易型傳訊內容"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
->title="交易式訊息個人化"
->abstract="瞭解如何個人化異動訊息內容"
+>title="交易型傳訊個人化"
+>abstract="了解如何建立個人化交易型傳訊內容"
 
 處理交易式訊息的內容，就像建立傳送的內容一樣。 按一下&#x200B;**[!UICONTROL 開啟電子郵件設計工具]**&#x200B;或&#x200B;**[!UICONTROL 編輯電子郵件內文]**，然後選取範本內容或匯入您的HTML代碼。
 
@@ -173,14 +173,14 @@ ht-degree: 0%
 * 在[驗證您的交易式訊息](validate-transactional.md)之後，按一下&#x200B;**[!UICONTROL 檢閱並發佈]**按鈕以建立並發佈您的訊息。
 觸發器現在可以推送交易式訊息的傳送。
 
-### 關於事件型別 {#event-type}
+### 關於事件類型 {#event-type}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
->title="異動訊息傳送事件"
->abstract="事件型別的設定會將訊息連結至觸發事件。"
+>title="交易型傳訊事件"
+>abstract="事件類型的設定會將訊息連結至觸發事件。"
 
-事件型別的設定會將訊息連結至觸發事件。
+事件類型的設定會將訊息連結至觸發事件。
 
 在Campaign Web使用者介面中，您可以選取和已建立的事件型別，或直接在此設定頁面中建立您的事件型別。
 

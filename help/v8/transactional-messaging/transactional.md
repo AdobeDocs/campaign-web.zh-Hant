@@ -5,21 +5,21 @@ description: 關於Adobe Campaign Web的交易式訊息傳送
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 3%
+ht-degree: 24%
 
 ---
 
-# 關於異動訊息傳送 {#transactional-messaging}
+# 關於交易型傳訊 {#transactional-messaging}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
 >title="交易型訊息傳遞功能"
->abstract="異動訊息是Adobe Campaign中的專門模組，用於處理觸發式訊息。"
+>abstract="交易型傳訊是 Adobe Campaign 中專門用來處理觸發訊息的模組。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="交易型訊息傳遞功能"
->abstract="異動訊息是Adobe Campaign中的專門模組，用於處理觸發式訊息。 這些訊息會自動產生，以回應來自資訊系統的事件。"
+>abstract="交易型傳訊是 Adobe Campaign 中專門用來處理觸發訊息的模組。這些訊息是為了回應來自資訊系統的事件而自動產生的。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
 
 <!-- >>[!CONTEXTUALHELP]
@@ -27,7 +27,7 @@ ht-degree: 3%
 >title="Transactional messaging exclusion logs"
 >abstract="Transactional messaging exclusion logs" -->
 
-異動訊息是Adobe Campaign中的專門模組，用於處理觸發式訊息。 這些訊息會自動產生，以回應來自資訊系統的事件。 這類事件的常見範例包括按一下按鈕或連結、放棄購買、要求產品可用性警示、建立或修改帳戶等。
+交易型傳訊是 Adobe Campaign 中專門用來處理觸發訊息的模組。這些訊息會自動產生，以回應來自資訊系統的事件。 這類事件的常見範例包括按一下按鈕或連結、放棄購買、要求產品可用性警示、建立或修改帳戶等。
 
 交易式訊息用於傳送：
 

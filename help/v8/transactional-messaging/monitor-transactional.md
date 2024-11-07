@@ -5,7 +5,7 @@ description: 瞭解如何在Campaign網頁使用者介面中監視異動訊息
 source-git-commit: 49434faa92e11841033f0c1fbdf907504765a404
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
->title="異動訊息事件歷史記錄"
->abstract="您可以檢視觸發交易式訊息的事件。"
+>title="交易型傳訊事件歷史記錄"
+>abstract="您可以檢視觸發交易型訊息的事件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
->title="異動訊息事件歷史記錄預覽"
->abstract="您可以檢視觸發交易式訊息的事件。"
+>title="交易型傳訊事件歷史記錄預覽"
+>abstract="您可以檢視觸發交易型訊息的事件。"
 
 您也可以檢視觸發交易式訊息的事件。
 若要檢視，請移至**[!UICONTROL 事件歷史記錄]**&#x200B;區段。

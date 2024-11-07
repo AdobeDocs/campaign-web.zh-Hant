@@ -136,12 +136,12 @@ ht-degree: 39%
 
 ![](../assets/enrichment-reconciliation.png)
 
-## 新增優惠方案 {#add-offers}
+## 新增產品建議 {#add-offers}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
 >title="產品建議提議"
->abstract="「擴充」活動可讓您為每個設定檔新增優惠。"
+>abstract="擴充活動可讓您為每個客戶輪廓新增產品建議。"
 
 **[!UICONTROL 擴充]**&#x200B;活動可讓您為每個設定檔新增優惠。
 
