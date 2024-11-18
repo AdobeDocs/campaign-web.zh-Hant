@@ -56,7 +56,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 若要建立自己的查詢，請依照下列步驟進行：
 
 1. 選取「**建立您自己的 (查詢)**」。
-1. 選擇「**目標定位維度**」。目標定位維度可讓您定義作業的目標群體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)
+1. 選擇「**目標定位維度**」。目標市場選擇維度可讓您定義作業的目標群體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)
 1. 按一下&#x200B;**「繼續」**。
 1. 使用查詢建模器來定義您的查詢，就像在設計新電子郵件時建立對象一樣。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
 
