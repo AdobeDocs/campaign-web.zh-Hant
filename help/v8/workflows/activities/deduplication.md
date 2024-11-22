@@ -19,7 +19,7 @@ ht-degree: 53%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
->title="重複項目刪除活動"
+>title="重複資料刪除活動"
 >abstract="「**重複資料刪除**」活動可讓您刪除傳入活動結果中的重複資料。其主要在目標市場選擇活動之後和允許使用目標資料的活動之前使用。"
 
 >[!CONTEXTUALHELP]
