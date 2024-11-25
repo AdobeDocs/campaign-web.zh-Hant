@@ -3,9 +3,9 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何存取、建立和管理Adobe Campaign網站上的訂閱服務
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 32%
 
 若要存取您的平台所提供的訂閱服務，請遵循下列步驟。
 
-1. 瀏覽至左側導覽邊欄上的&#x200B;**[!UICONTROL 訂閱服務]**&#x200B;功能表。
+1. 瀏覽至左側導覽邊欄的&#x200B;**[!UICONTROL 訂閱服務]**&#x200B;功能表，位於&#x200B;**[!UICONTROL 客戶管理]**&#x200B;下方。
 
    ![](assets/service-list.png){zoomable="yes"}
 
