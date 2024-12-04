@@ -180,7 +180,7 @@ Campaign 設定與外部系統連線僅限進階使用者使用，且僅適用�
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_approval"
 >title="核准管理"
->abstract="只能從使用者端主控台使用核准管理。 "
+>abstract="核准管理僅能自用戶端控制台進行。 "
 
 Campaign Web 使用者介面不會針對內容、傳遞、工作流程、行銷活動與目標顯示核准管理。這些功能僅適用於用戶端主控台。
 
