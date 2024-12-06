@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -66,10 +66,10 @@ ht-degree: 97%
       + [設計摘取檔案](direct-mail/content-direct-mail.md)
       + [預覽並發送直接郵件傳遞](direct-mail/send-direct-mail.md)
    + 交易型訊息{#transactional-messages}
-      + [開始使用異動訊息](transactional-messaging/transactional.md)
-      + [建立交易式訊息](transactional-messaging/create-transactional.md)
-      + [驗證交易式訊息](transactional-messaging/validate-transactional.md)
-      + [監視異動訊息](transactional-messaging/monitor-transactional.md)
+      + [開始使用交易型訊息](transactional-messaging/transactional.md)
+      + [建立交易型訊息](transactional-messaging/create-transactional.md)
+      + [驗證您的交易型訊息](transactional-messaging/validate-transactional.md)
+      + [監視交易型訊息](transactional-messaging/monitor-transactional.md)
    + [將優惠新增至您的訊息](msg/offers.md)
    + [向您的訂閱者傳送訊息](msg/send-to-subscribers.md)
    + [設定傳遞設定](advanced-settings/delivery-settings.md)
@@ -113,12 +113,12 @@ ht-degree: 97%
          + [調整垂直對齊方式和邊框間距](email/alignment-and-padding.md)
          + [定義連結樣式](email/styling-links.md)
          + [新增內嵌樣式屬性](email/inline-styling.md)
-   + AI助理內容加速器{#ai-assistant}
+   + AI 助理內容加速器 {#ai-assistant}
       + [使用 AI 助理內容加速器](email/generative-gs.md)
       + [使用 AI 產生電子郵件](email/generative-content.md)
       + [使用 AI 產生簡訊](email/generative-sms.md)
       + [使用 AI 產生推播通知](email/generative-push.md)
-      + [AI助理使用案例](email/generative-uc.md)
+      + [AI 助理使用案例](email/generative-uc.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](landing-pages/get-started-lp.md)
    + [建立並發佈登陸頁面](landing-pages/create-lp.md)
@@ -225,4 +225,4 @@ ht-degree: 97%
 + 設定 {#conf}
    + [設定自訂欄位](administration/custom-fields.md)
    + [設定外部帳戶](administration/external-account.md)
-+ [Campaign v8 (控制台) 文件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)
++ [Campaign v8 (控制台) 文件 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)

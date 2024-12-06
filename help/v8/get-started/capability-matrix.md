@@ -4,9 +4,9 @@ title: Campaign Web 使用者介面/用戶端主控台功能比較表
 description: Campaign Web 使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2086'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Campaign Platform 可依據企業與資料需求自訂，且可透過 Campaign �
 * **行銷行事曆**。行銷活動行事曆會透過全域時間表顯示所有方案、計劃、行銷活動與傳遞。此功能僅適用用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=zh-Hant#campaign-calendar){target="_blank"}
 * **方案與計劃**。每個行銷活動都屬於某項方案，而該方案隸屬於某項計劃。在 Campaign Web 使用者介面，所有行銷活動均關聯預設內建計劃與方案。 您僅能透過用戶端主控台建立及管理計劃與方案。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=zh-Hant#work-with-plan-and-program){target="_blank"}
 * **提供者、預算與成本管理**。您可針對行銷活動內所執行的工作設定參與的服務提供者 (包括成本結構)，並管理每個方案與行銷活動內的預算。 此功能僅適用用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=zh-Hant){target="_blank"}
-* **分散式行銷** (中央/地方行銷)Adobe Campaign提供分散式行銷應用程式，可在中央實體（總部、行銷部門等）與地方實體（銷售點、地區機構等）之間實施合作行銷活動。 此功能僅適用用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hant){target="_blank"}
+* **分散式行銷** (中央/地方行銷)Adobe Campaign 提供了分散式行銷應用程式，可在中央實體 (總部、行銷部門等) 和地方實體 (銷售點、區域機構等) 之間實作合作行銷活動。此功能僅適用用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hant){target="_blank"}
 * **行銷資源管理** (MRM)、目標、模擬及成本控制。Adobe Campaign 提供行銷資源管理 (MRM) 應用程式，可讓您藉由針對相關工作、預算及行銷資源提供完整管理與即時追蹤，以合作模式控制行銷動作。此功能僅適用用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=zh-Hant){target="_blank"}
 * **任務管理**。在 MRM 應用程式中，可以從行銷活動控制面板建立、指派、追蹤及監控行銷活動工作。此功能僅適用用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=zh-Hant){target="_blank"}
 
