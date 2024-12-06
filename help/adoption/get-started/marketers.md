@@ -3,13 +3,13 @@ title: 開始使用行銷人員適用的Adobe Campaign v8
 description: 探索Campaign v8的主要功能。 它適用於從Campaign Standard移轉至Campaign v8的行銷人員。
 role: User
 level: Beginner, Experienced
-source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
+exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
+source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # 行銷人員快速入門 {#acs-gs-marketers}
 
@@ -48,7 +48,7 @@ ht-degree: 15%
 
 您可以在下方找到一些實用的連結，以供您開始使用。
 
-### 管理設定檔 {#acs-gs-marketers-profiles}
+### 管理輪廓 {#acs-gs-marketers-profiles}
 
 在Adobe Campaign中，設定檔是儲存在資料庫中的記錄，可作為關鍵元件來建立傳遞的對象，並將個人化資料新增到您的內容中。
 
@@ -210,7 +210,7 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 
    Campaign v8電子郵件設計工具類似於Campaign Standard中可用的設計工具。 提醒您，Campaign Standard[舊版電子郵件編輯器在幾年前已被取代](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}。 您應該已經轉換到Campaign電子郵件Designer ，以建立並個人化您的電子郵件內容。
 
-   瞭解如何導覽電子郵件設計工具。透過以下影片，瞭解如何從草稿開始架構和設計電子郵件、如何個人化及測試您的電子郵件：
+   了解如何導覽電子郵件設計工具。透過以下影片，瞭解如何從草稿開始架構和設計電子郵件、如何個人化及測試您的電子郵件：
 
    >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
@@ -316,7 +316,7 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 
 ### 直接郵件 {#acs-gs-marketers-direct-mail}
 
-直接郵件是一種離線頻道，可讓您產生檔案，以大量傳送個人化信件給您的客戶，例如明信片、傳單或目錄。 建立直接郵件傳送時，Adobe Campaign會自動產生擷取檔案，其中包含所有目標設定檔和選取的資料，例如郵寄地址和設定檔屬性。
+直接郵件是一種離線管道，可讓您產生檔案以向客戶大量傳遞個人化信件，例如明信片、傳單或目錄。建立直接郵件傳遞時，Adobe Campaign 會自動產生一個摘取檔案，其中包含所有目標輪廓和選定資料，例如郵寄地址和輪廓屬性。
 
 在Campaign v8中，建立、測試和傳送直接郵件傳送的詳細步驟類似於Campaign Standard。
 
@@ -373,7 +373,7 @@ Adobe Campaign提供了一組[報告工具](https://experienceleague.adobe.com/e
 
 Adobe Campaign報告工具套裝提供行銷工作有效性的寶貴見解，讓您最佳化行銷活動以發揮最大影響。 在[報告檔案](../../v8/reporting/gs-reports.md)中瞭解更多。
 
-此外，根據您的Adobe Campaign Standard體驗，您可在Campaign v8中使用動態報告來傳送電子郵件。 它提供完全可自訂的即時報表，以評估行銷活動的影響。 其可新增對設定檔資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依設定檔維度 (例如，性別、城市和年齡) 進行人口統計分析。進一步瞭解[動態報告檔案](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+此外，根據您的Adobe Campaign Standard體驗，您可在Campaign v8中使用動態報告來傳送電子郵件。 它提供完全可自訂的即時報表，以評估行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。進一步瞭解[動態報告檔案](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
 >[!AVAILABILITY]
 >
@@ -418,7 +418,7 @@ Adobe Campaign 可提供三種不同的報告：
 </div>
 <p>
 <div>
-<p>提供您Campaign執行個體中每個管道的流量和參與量度的整合整體摘要。 這些報告是由各種 Widget 所組成，每個 Widget 都提供有關您的行銷活動或傳遞績效的獨特觀點。</p>
+<p>提供您Campaign執行個體中每個管道的流量和參與量度的整合整體摘要。 這些報告是由各種小工具所組成，每個小工具都提供有關您的行銷活動或傳遞績效的獨特觀點。</p>
 </div>
 <p>
 </td>
