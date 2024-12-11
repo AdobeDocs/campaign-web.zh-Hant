@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 609f1bfffc7c3f456335e78e5ba7b01f4f9804f9
-workflow-type: ht
-source-wordcount: '2027'
-ht-degree: 100%
+source-git-commit: 1671a2036f34bab91c0f9e4ee7eae6407a4b9eba
+workflow-type: tm+mt
+source-wordcount: '2054'
+ht-degree: 98%
 
 ---
 
@@ -446,3 +446,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_start_update"
 >title="開始資料庫更新"
 >abstract="結構描述"
+
+
+
+<!-- Target Mapping -->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_properties"
+>title="目標對應屬性"
+>abstract="目標對應屬性"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_mapping"
+>title="目標對應對應"
+>abstract="目標對應對應"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_denylist"
+>title="目標對應拒絕清單"
+>abstract="目標對應拒絕清單"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_storage"
+>title="目標對應儲存體"
+>abstract="目標對應拒絕儲存"
