@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 1671a2036f34bab91c0f9e4ee7eae6407a4b9eba
 workflow-type: tm+mt
 source-wordcount: '2054'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -464,10 +464,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
->title="目標對應拒絕清單"
->abstract="目標對應拒絕清單"
+>title="目標對應封鎖清單"
+>abstract="目標對應封鎖清單"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
->title="目標對應儲存體"
->abstract="目標對應拒絕儲存"
+>title="目標對應儲存"
+>abstract="目標對應封鎖儲存"
