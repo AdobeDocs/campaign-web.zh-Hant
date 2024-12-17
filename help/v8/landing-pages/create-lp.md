@@ -60,7 +60,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="排程登陸頁面"
->abstract="您可以定義登陸頁面的開始日期和結束日期。當頁面有效期限結束時，就無法再使用該表格。會改為顯示&#x200B;**有效期**&#x200B;頁面。"
+>abstract="您可以定義登陸頁面的開始日期和結束日期。當頁面有效期限結束時，就無法再使用該表格。會改為顯示&#x200B;**期限**&#x200B;頁面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
@@ -152,7 +152,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
      >
      >如果未定義開始日期，登入頁面在發佈後就會立即上線。
 
-   * 當頁面到達結束日期時，<!--the landing page is automatically unpublished and -->表單將不再可用。 會改為顯示&#x200B;**[!UICONTROL 有效期]**&#x200B;頁面。
+   * 當頁面到達結束日期時，<!--the landing page is automatically unpublished and -->表單將不再可用。 會改為顯示&#x200B;**[!UICONTROL 期限]**&#x200B;頁面。
 
      >[!NOTE]
      >
