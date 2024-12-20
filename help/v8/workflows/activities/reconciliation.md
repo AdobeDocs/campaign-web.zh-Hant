@@ -6,7 +6,7 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
 source-wordcount: '858'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 44%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
->title="調和產生補充"
->abstract="調和產生補充"
+>title="調和產生補集"
+>abstract="調和產生補集"
 
 **調解**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動，可讓您定義Adobe Campaign資料庫中的資料與工作表中資料之間的連結，例如從外部檔案載入的資料。
 
@@ -103,7 +103,7 @@ ht-degree: 44%
 
 它是透過以下活動建置：
 
-* [載入檔案](load-file.md)活動會上傳包含從外部工具擷取之設定檔資料的檔案。
+* [載入檔案](load-file.md)活動會上傳包含從外部工具擷取之輪廓資料的檔案。
 
   例如：
 
