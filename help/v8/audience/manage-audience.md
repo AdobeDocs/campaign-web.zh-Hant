@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用客群
 description: 瞭解如何在Adobe Campaign Web中使用對象
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 25%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 25%
 >id="acw_audiences_count"
 >title="客群規模"
 >abstract="在此處可以找到客群當中的輪廓總數。按一下「**計算**」按鈕，可更新並重新計算客群結果。"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="目標定位"
+>abstract="目標定位"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
