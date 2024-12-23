@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e5dfb307ae53333b4e2e55ca57a605790d8b6d62
+source-git-commit: d99495db792293db4f4121892b073337c91f7a33
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2086'
 ht-degree: 100%
 
 ---
@@ -502,3 +502,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_javascript_codes_create"
 >title="建立 JavaScript 程式碼"
 >abstract="建立 JavaScript 程式碼"
+
+<!-- Enumerations -->
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_list"
+>title="分項清單"
+>abstract="分項清單"
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_properties"
+>title="屬性"
+>abstract="屬性"
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_values"
+>title="列舉值的清單"
+>abstract="列舉值的清單"
