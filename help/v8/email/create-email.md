@@ -162,9 +162,9 @@ ht-degree: 56%
 
    ![](assets/review-email.png){zoomable="yes"}
 
-1. 在左側，選取要用於預覽電子郵件的設定檔。
+1. 在左側，選取要用於預覽電子郵件的輪廓。
 
-   右窗格顯示根據所選設定檔的電子郵件預覽。如果您已新增多個設定檔，您可以切換設定檔以預覽對應的電子郵件。
+   右窗格顯示根據所選輪廓的電子郵件預覽。如果您已新增多個輪廓，您可以切換輪廓以預覽對應的電子郵件。
 
    ![](assets/preview.png){zoomable="yes"}
 
@@ -179,7 +179,7 @@ ht-degree: 56%
 
 1. 按一下&#x200B;**[!UICONTROL 新增地址]**&#x200B;並指定接收校樣的電子郵件地址。
 
-   對於每個電子郵件地址，選取要模擬的設定檔。您也可以讓 Adobe Campaign 從目標中選取隨機設定檔。
+   對於每個電子郵件地址，選取要模擬的輪廓。您也可以讓 Adobe Campaign 從目標中選取隨機輪廓。
 
    ![](assets/proof-test-profile.png){zoomable="yes"}
 

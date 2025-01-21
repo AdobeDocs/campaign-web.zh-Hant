@@ -15,7 +15,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="定義電子郵件內容"
->abstract="「**編輯內容**」畫面可讓您定義訊息的基本元素 (例如寄件者地址和主旨行)、執行其他操作 (例如新增附件或優惠)，以及存取電子郵件設計工具來美化訊息的外觀。"
+>abstract="「**編輯內容**」畫面可讓您定義訊息的基本元素 (例如寄件者地址和主旨行)、執行其他操作 (例如新增附件或產品建議)，以及存取電子郵件設計工具來美化訊息的外觀。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -85,7 +85,7 @@ ht-degree: 45%
 
 1. 如果您要以電子郵件傳送優惠方案，請使用&#x200B;**[!UICONTROL 設定優惠方案]**&#x200B;按鈕來選取優惠方案。
 
-   然後您可以使用個人化欄位將它們插入到電子郵件中。[了解如何傳送優惠](../msg/offers.md)
+   然後您可以使用個人化欄位將它們插入到電子郵件中。[了解如何傳送產品建議](../msg/offers.md)
 
 1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**&#x200B;按鈕，使用[電子郵件Designer](get-started-email-designer.md#start-authoring)來建構和設計電子郵件內容。 以下章節提供如何設計電子郵件內容的詳細資訊：
 

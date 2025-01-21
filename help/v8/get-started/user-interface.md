@@ -89,7 +89,7 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="探索工具"
->abstract="**探索工具**&#x200B;選單會顯示所有 Campaign 元件以及和用戶端控制台中的物件有相同資料夾階層的物件。瀏覽所有 Campaign v8 元件、資料夾和方案，檢查相關聯的權限，並從此選單建立資料夾和子資料夾。"
+>abstract="**探索工具**&#x200B;選單會顯示所有 Campaign 元件以及和用戶端控制台中的物件有相同資料夾階層的物件。瀏覽所有 Campaign v8 元件、資料夾和結構描述，檢查相關聯的權限，並從此選單建立資料夾和子資料夾。"
 
 「**探索工具**」選單會顯示所有 Campaign 資源以及和用戶端控制台中的物件有相同資料夾階層的物件。瀏覽您所有的 Campaign v8 元件、資料夾和結構描述，並建立傳遞、工作流程和行銷活動。
 
@@ -138,15 +138,15 @@ Campaign 首頁可讓您快速輕鬆地瀏覽關鍵資源、指標和元件。
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
->title="優惠"
->abstract="瀏覽已使用「**互動**」模組在控制台中建立的優惠清單和優惠範本。這些是唯讀清單。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=zh-hant" text="將優惠新增到傳遞"
+>title="產品建議"
+>abstract="瀏覽已使用「**互動**」模組在控制台中建立的產品建議清單和產品建議範本。這些是唯讀清單。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=zh-hant" text="將產品建議新增到傳遞"
 
-在「決策管理」部分，您可以檢視優惠和優惠範本。這些是唯讀清單。
+在「決策管理」部分，您可以檢視產品建議和產品建議範本。這些是唯讀清單。
 
-* **優惠** - 瀏覽透過使用「**互動**」模組在控制台建立的優惠清單和優惠範本。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供優惠範本。
+* **產品建議** - 瀏覽透過使用「**互動**」模組在控制台建立的產品建議清單和產品建議範本。依預設，您可以檢視其狀態、開始/結束日期和環境。您可以依狀態和開始/結束日期來篩選清單。也提供產品建議範本。
 
-若要了解如何在電子郵件和簡訊中建立和傳送優惠，請參閱[本章節](../msg/offers.md)。
+若要了解如何在電子郵件和簡訊中建立和傳送產品建議，請參閱[本章節](../msg/offers.md)。
 
 ### 報告 {#left-nav-reporting}
 
@@ -239,13 +239,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
->title="收件者優惠資格符合清單"
->abstract="收件者優惠資格符合清單"
+>title="收件者產品建議資格符合清單"
+>abstract="收件者產品建議資格符合清單"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
->title="收件者優惠預覽"
->abstract="收件者優惠預覽"
+>title="收件者產品建議預覽"
+>abstract="收件者產品建議預覽"
 
 
 

@@ -11,27 +11,27 @@ ht-degree: 35%
 ---
 
 
-# 將優惠新增至您的訊息 {#offers-content}
+# 將產品建議新增至您的訊息 {#offers-content}
 
 您可以在Adobe Campaign網路使用者介面中，將優惠方案新增至傳遞。 這些優惠方案可從左側的&#x200B;**優惠方案**&#x200B;功能表取得，可讓您存取優惠方案清單。 所有這些選件都是唯讀的，而且必須已使用&#x200B;**[!UICONTROL 互動]**&#x200B;模組在Campaign使用者端主控台中建立。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hant){target="_blank"}。
 
 
 透過傳送傳送優惠方案的步驟如下：
 
-1. [設定要提出的優惠](#configure)
+1. [設定要提出的產品建議](#configure)
 1. [將優惠方案插入傳遞](#insert)
 
-## 設定要提出的優惠 {#configure}
+## 設定要提出的產品建議 {#configure}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="定義優惠參數"
->abstract="透過定義優惠方案空間 (可選的類別和主題) 來設定應向收件者建議哪些優惠，並指定要插入到傳遞中的優惠數量。"
+>title="定義產品建議參數"
+>abstract="透過定義產品建議空間 (可選的類別和主題) 來設定應向收件者建議哪些產品建議，並指定要插入到傳遞中的產品建議數量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="設定優惠的進階設定"
->abstract="您可以啟用排除收件者功能來排除未符合資格優惠的收件者，並選擇當某方案不存在時處理訊息的方式。"
+>title="設定產品建議的進階設定"
+>abstract="您可以啟用排除收件者功能來排除未合格的產品建議的收件者，並選擇當某方案不存在時處理訊息的方式。"
 
 Adobe Campaign可讓您在互動期間即時回應指定聯絡人，向其建議一或多個特定優惠方案。 這些優惠方案可以是簡單的通訊訊息、一或多個產品的特殊優惠方案或服務。
 
@@ -41,21 +41,21 @@ Adobe Campaign可讓您在互動期間即時回應指定聯絡人，向其建議
 
    ![](assets/offer-setup.png){zoomable="yes"}
 
-1. 設定應向收件者提出的優惠。
+1. 設定應向收件者提出的產品建議。
 
    請先選取符合您優惠方案環境的&#x200B;**[!UICONTROL 優惠方案空間]**。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}中瞭解如何建立優惠方案空間。
 
    ![](assets/offer-create-content.png){zoomable="yes"}
 
-1. 若要縮小引擎的優惠選擇範圍，請選取特定的&#x200B;**[!UICONTROL 優惠類別]**，優惠在此類別中排序。
+1. 若要縮小引擎的產品建議選擇範圍，請選取特定的&#x200B;**[!UICONTROL 產品建議類別]**，產品建議在此類別中排序。
 
    選取資料夾時，會自動包含所有子資料夾，且無法移除。 請注意，[!DNL Campaign]介面不會反映此行為。
 
    >[!NOTE]
    >
-   >如果未指定類別，則優惠引擎會將環境包含的所有優惠考慮在內，除非有選取&#x200B;**[!UICONTROL 優惠主題]**。
+   >如果未指定類別，則產品建議引擎會將環境包含的所有產品建議考慮在內，除非有選取&#x200B;**[!UICONTROL 產品建議主題]**。
 
-1. （選擇性）輸入主題以篩選類別。 主題是類別中上游定義的關鍵字。 主題做為篩選器，在一組類別中選擇主題即可讓您調整要顯示的優惠數量。
+1. （選擇性）輸入主題以篩選類別。 主題是類別中上游定義的關鍵字。 主題做為篩選器，在一組類別中選擇主題即可讓您調整要顯示的產品建議數量。
 
 1. 使用&#x200B;**[!UICONTROL 建議]**&#x200B;欄位來指定要插入傳遞中的優惠方案數目。
 
@@ -66,7 +66,7 @@ Adobe Campaign可讓您在互動期間即時回應指定聯絡人，向其建議
    * 如果啟用該選項，則沒有足夠提議的收件者被排除在傳遞作業之外。
    * 如果該選項停用，這些收件者不會被排除在外，但他們不能擁有要求的提議數量。
 
-1. 如有必要，選取「**[!UICONTROL 如果未選取任何優惠，則隱藏所有內容]**」選項。
+1. 如有必要，選取「**[!UICONTROL 如果未選取任何產品建議，則隱藏所有內容]**」選項。
 
    此選項可讓您選擇在其中一個主張不存在時如何處理訊息：
 
