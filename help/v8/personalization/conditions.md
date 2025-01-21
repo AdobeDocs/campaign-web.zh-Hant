@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1024'
 ht-degree: 6%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 6%
 除了運算式編輯器之外，在設計可讓您為電子郵件內文的元素建立多個變體的電子郵件時，還可以利用專用的&#x200B;**條件式內容產生器**。 [瞭解如何在電子郵件中建立條件式內容](#condition-condition-builder)
 
 ## 在運算式編輯器中建立條件 {#condition-perso-editor}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_conditions"
+>title="條件"
+>abstract="此功能表可讓您善用協助程式功能來定義條件式內容。"
 
 若要使用運算式編輯器定義傳遞的條件式內容，請遵循下列步驟。 在此範例中，我們要根據收件者的語言（法文或英文）建立條件式內容。
 

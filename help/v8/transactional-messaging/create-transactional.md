@@ -2,10 +2,11 @@
 audience: end-user
 title: 建立異動訊息
 description: 瞭解如何在Campaign網頁使用者介面中建立交易式訊息
-source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
+exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 18%
+source-wordcount: '1209'
+ht-degree: 19%
 
 ---
 
@@ -117,6 +118,11 @@ ht-degree: 18%
 >title="交易型傳訊個人化"
 >abstract="了解如何建立個人化交易型傳訊內容"
 
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_event_context"
+>title="事件內容"
+>abstract="此功能表會提供觸發程式事件的變數，供您用來個人化交易式訊息內容。"
+
 處理交易式訊息的內容，就像建立傳送的內容一樣。 按一下&#x200B;**[!UICONTROL 開啟電子郵件設計工具]**&#x200B;或&#x200B;**[!UICONTROL 編輯電子郵件內文]**，然後選取範本內容或匯入您的HTML代碼。
 
 ![](assets/template-content.png){zoomable="yes"}
@@ -144,7 +150,7 @@ ht-degree: 18%
 
 ![](assets/template-preview.png){zoomable="yes"}
 
-## 建立交易式訊息 {#transactional-message}
+## 建立交易型訊息 {#transactional-message}
 
 您可以直接或使用交易式訊息範本建立交易式訊息。 [瞭解如何建立異動訊息範本](#transactional-template)。
 

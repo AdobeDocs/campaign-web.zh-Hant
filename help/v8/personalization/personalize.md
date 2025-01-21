@@ -6,15 +6,20 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 1%
+source-wordcount: '599'
+ht-degree: 2%
 
 ---
 
 
 # 個人化您的內容 {#add-personalization}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_add_current_date"
+>title="新增目前日期"
+>abstract="此功能表提供與日期格式相關的功能，您可善用這些功能來個人化您的內容。"
 
 傳遞內容的Personalization是一項關鍵功能，可讓您為個別收件者量身打造訊息，讓通訊更具相關性和吸引力。
 
