@@ -3,9 +3,9 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面準備和傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '889'
 ht-degree: 38%
 
 ---
@@ -136,14 +136,14 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="傳送的量度"
+>title="已傳送"
 >abstract="傳遞分析期間處理的訊息總數。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="錯誤量度"
+>title="錯誤次數"
 >abstract="傳遞和自動傳回處理期間累積的錯誤總數與已傳送之訊息總數的關係。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
