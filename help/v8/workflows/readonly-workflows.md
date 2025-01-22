@@ -3,7 +3,7 @@ audience: end-user
 title: 關於唯讀工作流程
 description: 瞭解工作流程處於唯讀模式的原因
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
+source-git-commit: 62d4733b9dc6bf3edf06d172069b5f8b1d0ee4a7
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 13%
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 某些工作流程可能處於唯讀模式。 您可以透過以下方式檢視：
 
-- 在&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕附近提及&#x200B;**[!UICONTROL **&#x200B;唯讀&#x200B;**]**
+- 在&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕附近提及&#x200B;**[!UICONTROL 唯讀]**
 - 無法存取動作按鈕
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
