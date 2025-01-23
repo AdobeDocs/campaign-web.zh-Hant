@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 8b627ff3116346fb09243b560b0a492d690b95fa
+source-git-commit: 7c96605fc4a9fb21692f219ceaf9067c27a9902e
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 99%
+source-wordcount: '2136'
+ht-degree: 98%
 
 ---
 
@@ -535,7 +535,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
 >title="IP 相似性"
->abstract="IP 相似性"
+>abstract="管理與IP位址的相似性可依據其傳遞動作的型別，將不同的IP位址與每種型別的流量相關聯，藉此更好地控制傳出的SMTP流量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
