@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
-workflow-type: ht
-source-wordcount: '773'
-ht-degree: 100%
+source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 99%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 100%
    + [存取傳遞內容](msg/gs-deliveries.md)
    + [建立傳遞](msg/create-deliveries.md)
    + [使用傳遞範本](msg/delivery-template.md)
+   + [使用型別](msg/typologies.md)
    + 電子郵件 {#email}
       + [建立您的第一個電子郵件](email/create-email.md)
       + [設定電子郵件內容](email/edit-content.md)
@@ -70,7 +71,7 @@ ht-degree: 100%
       + [建立交易型訊息](transactional-messaging/create-transactional.md)
       + [驗證您的交易型訊息](transactional-messaging/validate-transactional.md)
       + [監視交易型訊息](transactional-messaging/monitor-transactional.md)
-   + [將優惠新增至您的訊息](msg/offers.md)
+   + [將產品建議新增至您的訊息](msg/offers.md)
    + [向您的訂閱者傳送訊息](msg/send-to-subscribers.md)
    + [設定傳遞設定](advanced-settings/delivery-settings.md)
    + 預覽和測試您的傳遞 {#preview-test}

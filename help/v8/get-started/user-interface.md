@@ -3,10 +3,10 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7c96605fc4a9fb21692f219ceaf9067c27a9902e
+source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 98%
+source-wordcount: '2086'
+ht-degree: 100%
 
 ---
 
@@ -519,35 +519,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_enumerations_values"
 >title="列舉值的清單"
 >abstract="列舉值的清單"
-
-<!-- Typology rules -->
-
->[!CONTEXTUALHELP]
->id="acw_business_rules"
->title="業務規則"
->abstract="業務規則"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_properties"
->title="型別屬性"
->abstract="規則集屬性"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_ip_affinity"
->title="IP 相似性"
->abstract="管理與IP位址的相似性可依據其傳遞動作的型別，將不同的IP位址與每種型別的流量相關聯，藉此更好地控制傳出的SMTP流量。"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_rules_properties"
->title="型別規則屬性"
->abstract="規則屬性"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_rules_filtering"
->title="篩選"
->abstract="篩選"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_rules_code"
->title="程式碼"
->abstract="程式碼"
