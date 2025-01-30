@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '614'
 ht-degree: 19%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 19%
 >abstract="測試輪廓是額外收件者，可讓您在傳送訊息之前預覽和測試個人化和呈現方式。您可以在預覽訊息內容時選取測試輪廓，並將校樣傳送至測試輪廓以控制和驗證您的訊息內容和設定。"
 
 測試設定檔用於傳送校樣，以及驗證訊息內容和設定。 這些設定檔是其他收件者，可讓您在傳送訊息之前，預覽及測試個人化與轉譯。 您可以在預覽訊息內容時選取測試輪廓，並將校樣傳送至測試輪廓以控制和驗證您的訊息內容和設定。
+
+➡️[在影片中探索此功能](#video)
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
@@ -105,3 +107,9 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 您剛建立的測試設定檔現已準備就緒，可用來傳送校樣。 [了解更多](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
+
+## 操作說明影片 {#video}
+
+瞭解如何使用Campaign網頁使用者介面建立和管理測試設定檔。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
