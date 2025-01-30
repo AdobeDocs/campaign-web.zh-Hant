@@ -4,10 +4,10 @@ description: 探索下一個 Campaign Web 使用者介面版本的新功能
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 126ebed5066bbc8c20d58d24e237b13f096b9d02
+source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 32%
+source-wordcount: '514'
+ht-degree: 28%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 <tr>
 <td>
 <p>您現在可以在Adobe Campaign網頁使用者介面中建立型別與型別規則。 類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。型別驗證您的傳送一律包含必要元素（例如取消訂閱連結或主旨列），或篩選規則以將群組從您的預定目標中排除（例如取消訂閱者、競爭者或不忠誠客戶）。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細說明文件</a>。</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -83,7 +83,7 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 <tr>
 <td>
 <p>您現在可以直接透過Adobe Campaign網頁使用者介面建立分項清單。 分項清單是系統建議用來填入欄位的值清單。 使用列舉來標準化這些欄位的值，有助於資料輸入或在查詢中使用。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細說明文件</a>。</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,7 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 <tr>
 <td>
 <p>您現在可以存取Adobe Campaign網頁使用者介面中的技術選項，並建立自己的自訂選項以符合您的需求。 這在使用JavaScript程式碼工作流程活動來儲存中繼資料時特別有用。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細說明文件</a>。</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -109,14 +109,14 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 <table>
 <thead>
 <tr>
-<th><strong>定義並呼叫Javascript程式碼</strong><br/></th>
+<th><strong>定義和呼叫Javascript程式碼</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>您現在可以在Adobe Campaign網頁使用者介面中建立JavaScript程式碼。 這可讓您建立可重複使用的功能，以便跨工作流程使用，類似資料庫。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細說明文件</a>。</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -129,7 +129,7 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
    * 您現在可以選取要在介面中顯示的其他自訂欄位
    * 您現在可以設定顯示連結型別自訂欄位的規則，例如根據其他欄位的輸入限制清單值
    * 您現在可以更靈活地排列介面中的欄位：欄位可以跨越單一欄，或分組到子區段中以便更好地組織
-   * 您現在可以將特定欄位設定為唯讀。
+   * 您現在可以將特定欄位設定為唯讀
 
 * 最近使用的和我的最愛篩選器：若要快速重複使用常用的屬性，您現在可以將它們新增到我的最愛。 這可確保可供未來任務隨時存取。 除了我的最愛之外，您還可以檢視和使用最近選取的屬性。
 
