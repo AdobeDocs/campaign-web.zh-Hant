@@ -4,7 +4,7 @@ description: 探索下一個 Campaign Web 使用者介面版本的新功能
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
+source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 28%
@@ -67,6 +67,7 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 <tr>
 <td>
 <p>您現在可以在Adobe Campaign網頁使用者介面中建立型別與型別規則。 類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。型別驗證您的傳送一律包含必要元素（例如取消訂閱連結或主旨列），或篩選規則以將群組從您的預定目標中排除（例如取消訂閱者、競爭者或不忠誠客戶）。</p>
+<img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -83,6 +84,7 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 <tr>
 <td>
 <p>您現在可以直接透過Adobe Campaign網頁使用者介面建立分項清單。 分項清單是系統建議用來填入欄位的值清單。 使用列舉來標準化這些欄位的值，有助於資料輸入或在查詢中使用。</p>
+<img src="assets/do-not-localize/enumerations.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -99,6 +101,7 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 <tr>
 <td>
 <p>您現在可以存取Adobe Campaign網頁使用者介面中的技術選項，並建立自己的自訂選項以符合您的需求。 這在使用JavaScript程式碼工作流程活動來儲存中繼資料時特別有用。</p>
+<img src="assets/do-not-localize/options.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -116,6 +119,7 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 <tr>
 <td>
 <p>您現在可以在Adobe Campaign網頁使用者介面中建立JavaScript程式碼。 這可讓您建立可重複使用的功能，以便跨工作流程使用，類似資料庫。</p>
+<img src="assets/do-not-localize/javascript.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
