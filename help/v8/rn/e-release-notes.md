@@ -4,10 +4,10 @@ description: 探索下一個 Campaign Web 使用者介面版本的新功能
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
+source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 28%
+source-wordcount: '511'
+ht-degree: 18%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 <tbody>
 <tr>
 <td>
-<p>您現在可以在Campaign網頁使用者介面中定義外部傳遞和外部傳遞範本。 透過此模式，訊息將在輸入檔案中產生，該檔案可以與您的外部提供者共用。外部傳遞模式是直接郵件管道的預設模式。</p>
+<p>您現在可以在Campaign網頁介面中定義外部傳遞和外部傳遞範本。 在此模式中，訊息會編譯成輸入檔案，以便與外部提供者共用。 依預設，直接郵件通道會使用外部傳遞模式。</p>
 </td>
 </tr>
 </tbody>
@@ -60,13 +60,13 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 <table>
 <thead>
 <tr>
-<th><strong>控制和篩選包含型別的傳遞傳送</strong><br/></th>
+<th><strong>建立商業規則（型別規則）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在Adobe Campaign網頁使用者介面中建立型別與型別規則。 類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。型別驗證您的傳送一律包含必要元素（例如取消訂閱連結或主旨列），或篩選規則以將群組從您的預定目標中排除（例如取消訂閱者、競爭者或不忠誠客戶）。</p>
+<p>您現在可以在Adobe Campaign網頁介面中建立型別與型別規則。 型別是一組型別規則，可協助控制、篩選傳遞內容並安排其優先順序。 型別可確保您的傳送一律包含必要元素（例如取消訂閱連結或主旨列），並套用篩選規則以從目標對象中排除特定群組（例如取消訂閱者、競爭者或不忠誠客戶）。</p>
 <img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
