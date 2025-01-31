@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 使用型別
+title: 使用類型學
 description: 瞭解如何使用型別和型別規則來控制、篩選及監控傳送的傳送。
 hidefromtoc: true
 hide: true
@@ -10,11 +10,11 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: cd6424bb99ab150915889323b850273134d0d73e
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 27%
+ht-degree: 75%
 
 ---
 
-# 使用型別 {#typologies}
+# 使用類型學 {#typologies}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
@@ -29,7 +29,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
 >title="IP 相似性"
->abstract="管理與IP位址的相似性可依據其傳遞動作的型別，將不同的IP位址與每種型別的流量相關聯，藉此更好地控制傳出的SMTP流量。"
+>abstract="管理與 IP 位址的相似性可讓您根據傳遞動作的類型，將不同的 IP 位址與每種類型的流量相關聯，從而更好地控制傳出 SMTP 流量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"

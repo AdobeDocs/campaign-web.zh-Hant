@@ -6,7 +6,7 @@ exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
 >title="事件內容"
->abstract="此功能表會提供觸發程式事件的變數，供您用來個人化交易式訊息內容。"
+>abstract="此選單提供來自觸發事件的變數，您可以利用這些變數個人化您的交易訊息內容。"
 
 處理交易式訊息的內容，就像建立傳送的內容一樣。 按一下&#x200B;**[!UICONTROL 開啟電子郵件設計工具]**&#x200B;或&#x200B;**[!UICONTROL 編輯電子郵件內文]**，然後選取範本內容或匯入您的HTML代碼。
 

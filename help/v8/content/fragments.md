@@ -6,7 +6,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 58%
+ht-degree: 69%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 58%
 >id="acw_homepage_welcome_rn4"
 >title="內容片段"
 >abstract="您現在可以建立及使用內容片段。內容片段是可重複使用的元件，可在一則或多則訊息中參考。修改片段時，使用該片段的所有內容都會隨之更新。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -26,7 +26,7 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_fragments"
 >title="新增運算式片段"
->abstract="運算式片段是預先定義的內容區塊，其中包含您可以插入傳送中的特定轉譯。 例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。您也可以根據自己的需求建立自己的運算式片段。"
+>abstract="運算式片段是預先定義的內容區塊，其中包含可以插入傳遞的特定轉譯。例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。您還可以建立符合自己需求的運算式片段。"
 
 ## 什麼是內容片段？ {#what}
 
@@ -34,7 +34,7 @@ ht-degree: 58%
 
 可用的片段類型有兩種：
 
-* **運算式片段**&#x200B;是預先定義的運算式，可從運算式編輯器中的專用專案取得。 Campaign隨附一組預先定義的內容區塊，其中包含您可以插入傳送中的特定呈現。 例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。您也可以根據自己的需求建立自己的運算式片段。
+* **運算式片段**&#x200B;是預先定義的運算式，可從運算式編輯器中的專用專案取得。 Campaign隨附一組預先定義的內容區塊，其中包含您可以插入傳送中的特定呈現。 例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。您還可以建立符合自己需求的運算式片段。
 
 * **視覺片段**&#x200B;是預先定義的視覺化區塊，您可以在多個[電子郵件傳遞](../email/get-started-email-designer.md)或[內容範本](../email/use-email-templates.md)中重複使用。
 

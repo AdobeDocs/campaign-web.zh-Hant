@@ -1,7 +1,8 @@
 ---
 title: 外部帳戶
 description: 瞭解如何設定外部帳戶
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 15%
@@ -15,7 +16,7 @@ ht-degree: 15%
 >id="acw_homepage_welcome_rn2"
 >title="外部帳戶"
 >abstract="您現在可以根據工作流程需求，連線至其他平台或自訂連線。此外，您還可以輕鬆建立新的外部帳戶，以滿足特定需求，並確保順暢的資料傳輸。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 
 >[!AVAILABILITY]

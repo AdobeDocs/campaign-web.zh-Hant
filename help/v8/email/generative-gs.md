@@ -16,7 +16,7 @@ ht-degree: 29%
 >id="acw_homepage_welcome_rn3"
 >title="AI 助理內容加速器"
 >abstract="AI 助理讓您利用直覺、簡單且無繁複手續的方式在多個頻道之間，包括電子郵件、SMS 和 Push 等建立和執行行銷活動，還能節省時間、提高效率並帶來更好的結果。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-Hant" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 
 >[!CONTEXTUALHELP]
