@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 85%
 
 ---
 
@@ -20,25 +20,95 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 [此頁面](release-notes-24.md)列出先前版本可用的變更和改良功能。
 
-## 2024 年 10 月發行版本 {#24-10-release}
+## 2025 年 1 月版 {#25-1-release}
 
-**發行日期**：2024 年 10 月 29 日
+**發行日期**：2025 年 2 月 5 日
 
-以下功能和改良功能將從 10 月版開始提供。
+以下功能和改良功能將從 1 月版開始提供。
 
-### 功能
+### 功能 {#25-1-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>外部帳戶</strong><br/></th>
+<th><strong>建立並使用視覺片段</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以直接透過 Adobe Campaign Web 使用者介面設定和管理外部帳戶。這項新功能可讓您輕鬆設定不同類型的外部帳戶，例如退回電子郵件 (POP3) 或執行執行個體。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細說明文件</a>。</p>
+<p>視覺片段是預先定義的視覺區塊，可在多個電子郵件傳遞或內容範本中重複使用。此功能現已可供所有執行伺服器版本 8.6.4 及以上版本的客戶使用。</p>
+<img src="assets/do-not-localize/visual-fragment.gif">
+<p>如需詳細資訊，請參閱<a href="../content/use-visual-fragments.md">詳細說明文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>使用第三方系統來傳送傳遞</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在 Campaign Web 介面中定義外部傳遞和外部傳遞範本。在此模式中，訊息會編譯成輸出檔案，以便與外部提供者共用。 依據預設，外部傳遞模式是用於直接郵件管道。</p>
+<img src="assets/do-not-localize/external-delivery.gif">
+<p>如需詳細資訊，請參閱<a href="../msg/send-external-deliveries.md">詳細說明文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>建立業務規則 (類型規則)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在 Adobe Campaign Web 介面中建立類型和類型規則。類型是類型規則的集合，可協助控制、篩選傳遞並排定其優先順序。類型可確保您的傳遞始終包含必要元素 (例如取消訂閱連結或主旨列)，並套用篩選規則以從您的目標客群中排除特定群組 (例如取消訂閱者、競爭者或非忠誠客戶)。</p>
+<img src="assets/do-not-localize/typology.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>管理您的列舉</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以直接透過 Adobe Campaign Web 使用者介面建立列舉。列舉是系統建議填入欄位的值清單。使用列舉來標準化這些欄位的值，以協助資料輸入或在查詢中使用。</p>
+<img src="assets/do-not-localize/enumerations.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>建立自訂選項</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在 Adobe Campaign Web 使用者介面中存取技術選項，並建立自己的自訂選項來滿足您的需求。在使用 JavaScript 程式碼工作流程活動來儲存中間資料時，這特別有用。</p>
+<img src="assets/do-not-localize/options.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -48,48 +118,49 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <table>
 <thead>
 <tr>
-<th><strong>交易型訊息傳遞功能</strong><br/></th>
+<th><strong>定義並呼叫 JavaScript 程式碼</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>交易型訊息傳遞功能 (訊息中心) 目前可在 Campaign Web 使用者介面中使用。此附加元件專為觸發訊息而設計，訊息由資訊系統觸發的事件所產生，可以是：發票、訂單確認、出貨確認、密碼變更、產品無法提供的通知、帳戶對帳單、網站帳戶建立等。</p>
-<p>如需詳細資訊，請參閱<a href="../transactional-messaging/transactional.md">詳細說明文件</a>。</p>
+<p>您現在可以在 Adobe Campaign Web 使用者介面中建立 JavaScript 程式碼。這可讓您建立能夠跨工作流程使用的可重複使用函數，類似於程式庫。</p>
+<img src="assets/do-not-localize/javascript.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+
+<table>
 <thead>
 <tr>
-<th><strong>External deliveries</strong><br/></th>
+<th><strong>使用AI Assistant Content Accelerator產生登陸頁面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+<p>AI Assistant Content Accelerator現在可用於登陸頁面傳送，讓您產生文字、影像或完整頁面配置。</p>
+<p>如需AI助理內容加速器的詳細資訊，請參閱<a href="../email/generative-gs.md">詳細檔案</a>。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-### 改良功能
 
-* **工作流程活動** - 您現在可以在工作流程中，將活動及其所有子節點從一個轉變移到另一個轉變。在活動的屬性窗格中，有一個專用的&#x200B;**移動**&#x200B;按鈕可執行此操作。[了解更多](../workflows/orchestrate-activities.md#move)
 
-* **工作流程擴充活動**
+### 改良功能 {#25-1-improvements}
 
-   * 現在，您可以在&#x200B;**擴充**&#x200B;活動中建立新欄位時，定義別名和標籤。[了解更多](../workflows/activities/enrichment.md#collection-settings)
-   * 您現在可以在&#x200B;**擴充**&#x200B;活動中，為每個客戶輪廓新增優惠方案。[了解更多](../workflows/activities/enrichment.md##add-offers)
+* 自訂介面中自訂欄位的顯示：
 
-* **值的分佈** - 當存取個人化的欄位清單時，您現在可以查看每個欄位的值如何分佈。專用的快顯視窗會顯示每個值的數字和百分比。[了解更多](../query/build-query.md#distribution-values-query)
+   * 您現在可以選取要在介面中顯示的額外自訂欄位
+   * 您現在可以設定用於顯示連結類型自訂欄位的規則，例如根據另一個欄位的輸入來限制清單值
+   * 您現在可以更靈活地排列介面中的欄位：欄位可以跨越單一欄，或分組為子區段以便更好地組織
+   * 您現在可以將特定欄位設定為唯讀
 
-* **版本和系統資訊** - 您現在可以透過用戶端控制台和 Web 使用者介面，存取執行個體版本的詳細資訊。此新區段也會列出您環境中安裝的所有內建套件。[了解更多](../get-started/user-interface.md#user-interface-about)
+* 最近和我的最愛篩選器：為了快速重複使用常用的屬性，您現在可以將它們新增到我的最愛中。這可確保它們能夠輕鬆用於未來的任務中。除了我的最愛之外，您還可以檢視和使用最近選取的屬性。
 
-* **清單** - 您現在可以輕鬆重新排序清單的值。[了解更多](../get-started/work-with-folders.md)
-
-* **傳送** - 現在可以從個人化欄位存取傳送變數。[了解更多](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
+* 外部帳戶：建立新的外部帳戶時，可選取新的&#x200B;**[!UICONTROL 路由]**&#x200B;型別。 它可讓您設定特定的外部帳戶，以用於外部傳遞。 [了解更多](../administration/external-account.md#routing)

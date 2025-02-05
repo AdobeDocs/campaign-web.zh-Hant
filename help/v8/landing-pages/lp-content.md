@@ -3,7 +3,7 @@ title: 定義特定於著陸頁面的內容
 description: 瞭解如何在Campaign網頁中設計登入頁面特定內容
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 16%
@@ -87,13 +87,12 @@ ht-degree: 16%
    * **[!UICONTROL 如果勾選則訂閱]**：使用者需要勾選方塊才能同意（選擇加入）。
    * **[!UICONTROL 如果勾選則取消訂閱]**：使用者需要勾選方塊以移除其同意（選擇退出）。
 
-   如果您選取&#x200B;**[!UICONTROL 欄位]**，請從屬性清單中選取欄位，然後在下列兩個選項之間選擇：
+   如果您選取&#x200B;**[!UICONTROL 欄位]**，請從[屬性清單](../get-started/attributes.md)中選取欄位，然後在下列兩個選項之間選擇：
 
    * 如果勾選&#x200B;]**，**[!UICONTROL &#x200B;是。<!--TBC-->
-
    * **[!UICONTROL 若勾選]**.<!--TBC-->，則否
 
-1. 您可以刪除和新增儘可能多的欄位（例如文字欄位、選項按鈕、核取方塊、下拉式清單等） 視需要。
+1. 您可以視需要刪除和新增許多欄位（例如文字欄位、選項按鈕、核取方塊、下拉式清單等）。
 
 1. 新增或更新所有欄位後，按一下&#x200B;**[!UICONTROL 呼叫動作]**&#x200B;以展開對應的區段。 它可讓您定義&#x200B;**[!UICONTROL 表單]**&#x200B;元件中按鈕的行為。 [了解做法](#define-actions-on-form-submission)
 
@@ -164,7 +163,7 @@ ht-degree: 16%
 
    ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. 展開並編輯與您可能新增的其他欄位（選項按鈕、下拉式清單、日期和時間等）對應的任何其他區段 至您的表單。
+1. 展開並編輯與您可能已新增至表單的其他欄位（選項按鈕、下拉式清單、日期和時間等）相對應的任何其他區段。
 
 1. 展開&#x200B;**[!UICONTROL 呼叫動作]**&#x200B;區段，修改元件表單中按鈕的外觀。 例如，您可以變更字型、新增框線、在游標停留時編輯標籤顏色，或調整按鈕的對齊方式。
 

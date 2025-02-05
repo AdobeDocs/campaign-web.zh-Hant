@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
-workflow-type: ht
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -52,29 +52,29 @@ ht-degree: 100%
 >[!BEGINTABS]
 
 
->[!TAB 2024 年 10 月發行版本]
+>[!TAB 2025年1月發行版本]
 
-10 月版本現已上線，包括交易型訊息傳遞功能、外部帳戶和更多改良功能。
+1月版現已上線，包含異動訊息、外部帳戶等多項改善專案。
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+[![深入瞭解按鈕](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB AI 助理內容加速器]
 
 ✨ 透過我們的 [AI 助理內容加速器](../v8/email/generative-gs.md)即時功能預覽，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。
 
-[![影像](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![深入瞭解按鈕](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB 值的分佈]
+>[!TAB 常見問答集]
 
-當存取個人化的欄位清單時，您現在可以查看每個欄位的值如何分佈。
+有關Campaign網頁使用者介面的常見問題集會列於新的專屬頁面中。
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
+[![深入瞭解按鈕](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]
 
-## 從基本概念開始
+## 從基礎知識開始
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">

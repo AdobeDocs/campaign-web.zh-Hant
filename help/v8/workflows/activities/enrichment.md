@@ -3,9 +3,9 @@ audience: end-user
 title: 使用「擴充」工作流程活動
 description: 了解如何使用「擴充」工作流程活動
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2071'
 ht-degree: 39%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 39%
 >title="擴充活動"
 >abstract="將擴充資料新增到工作流程後，它可以用於在擴充活動之後新增的活動中，根據客戶的行為、偏好和需求將客戶分成不同群組，或是用於建立最有可能讓目標客群產生共鳴的個人化行銷訊息和行銷活動。"
 
-1. 按一下&#x200B;**新增擴充資料**，並選取要用來擴充資料的屬性。
+1. 按一下&#x200B;**新增擴充資料**，並選取要用來擴充資料的屬性。 [瞭解如何選取屬性並將其新增至我的最愛](../../get-started/attributes.md)
 
    您可以選取兩種擴充資料：來自目標維度的單一擴充屬性，或集合連結。 以下範例詳細說明了每種型別：
    * [單一擴充屬性](#single-attribute)

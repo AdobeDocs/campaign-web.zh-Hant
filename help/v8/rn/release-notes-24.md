@@ -2,9 +2,9 @@
 title: Campaign v8 Web 使用者介面先前發行說明
 description: 2024 Campaign Web 使用者介面版本
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: ht
-source-wordcount: '2206'
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '2506'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,66 @@ ht-degree: 100%
 # 2024 年發行說明 {#2024-release}
 
 此頁面列出了 **2024 年版本**&#x200B;的所有變更和改進。最新的發行說明可以在[此頁面](release-notes.md)找到。
+
+
+## 2024 年 10 月發行版本 {#24-10-release}
+
+**發行日期**：2024 年 10 月 29 日
+
+以下功能和改良功能將從 10 月版開始提供。
+
+### 功能
+
+<table>
+<thead>
+<tr>
+<th><strong>外部帳戶</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以直接透過 Adobe Campaign Web 使用者介面設定和管理外部帳戶。這項新功能可讓您輕鬆設定不同類型的外部帳戶，例如退回電子郵件 (POP3) 或執行執行個體。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細說明文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>交易型訊息傳遞功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>交易型訊息傳遞功能 (訊息中心) 目前可在 Campaign Web 使用者介面中使用。此附加元件專為觸發訊息而設計，訊息由資訊系統觸發的事件所產生，可以是：發票、訂單確認、出貨確認、密碼變更、產品無法提供的通知、帳戶對帳單、網站帳戶建立等。</p>
+<p>如需詳細資訊，請參閱<a href="../transactional-messaging/transactional.md">詳細說明文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 改良功能
+
+* **工作流程活動** - 您現在可以在工作流程中，將活動及其所有子節點從一個轉變移到另一個轉變。在活動的屬性窗格中，有一個專用的&#x200B;**移動**&#x200B;按鈕可執行此操作。[了解更多](../workflows/orchestrate-activities.md#move)
+
+* **工作流程擴充活動**
+
+   * 現在，您可以在&#x200B;**擴充**&#x200B;活動中建立新欄位時，定義別名和標籤。[了解更多](../workflows/activities/enrichment.md#collection-settings)
+   * 您現在可以在&#x200B;**擴充**&#x200B;活動中，為每個客戶輪廓新增產品建議。[了解更多](../workflows/activities/enrichment.md##add-offers)
+
+* **值的分佈** - 當存取個人化的欄位清單時，您現在可以查看每個欄位的值如何分佈。專用的快顯視窗會顯示每個值的數字和百分比。[了解更多](../query/build-query.md#distribution-values-query)
+
+* **版本和系統資訊** - 您現在可以透過用戶端控制台和 Web 使用者介面，存取執行個體版本的詳細資訊。此新區段也會列出您環境中安裝的所有內建套件。[了解更多](../get-started/user-interface.md#user-interface-about)
+
+* **清單** - 您現在可以輕鬆重新排序清單的值。[了解更多](../get-started/work-with-folders.md)
+
+* **傳送** - 現在可以從個人化欄位存取傳送變數。[了解更多](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
 
 
 ## 9 月更新 {#9-2024}

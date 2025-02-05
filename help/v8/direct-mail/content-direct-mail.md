@@ -3,9 +3,9 @@ audience: end-user
 title: 設計直接郵件傳送
 description: 瞭解如何使用Adobe Campaign Web設計您的直接郵件傳送
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '573'
 ht-degree: 21%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 21%
 在&#x200B;**[!UICONTROL Content]**&#x200B;區段中，指定要顯示在擷取檔案中的資料行。 要執行此操作，請依照下列步驟執行：
 
 1. 按一下&#x200B;**[!UICONTROL 新增屬性]**&#x200B;按鈕以建立新資料行。
-1. 選擇要顯示在欄中的屬性，然後確認。 請注意，您可以按一下&#x200B;**[!UICONTROL 編輯運算式]**&#x200B;按鈕，利用運算式編輯器來選取要使用的屬性。
+1. 選擇要顯示在欄中的屬性，然後確認。 請注意，您可以按一下&#x200B;**[!UICONTROL 編輯運算式]**&#x200B;按鈕，利用運算式編輯器來選取要使用的屬性。 [瞭解如何選取屬性並將其新增至我的最愛](../get-started/attributes.md)
 
    ![](assets/dm-add-attribute.png)
 

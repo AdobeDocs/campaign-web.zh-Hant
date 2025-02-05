@@ -3,10 +3,10 @@ audience: end-user
 title: 建立內容片段
 description: 瞭解如何建立內容片段
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 27%
+source-wordcount: '1003'
+ht-degree: 25%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 27%
 
    >[!AVAILABILITY]
    >
-   >視覺片段在有限可用性(LA)。 僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。
+   >視覺片段需要更新Campaign v8.6.4。進一步瞭解[Campaign v8使用者端主控台發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes)。
 
 1. 按一下&#x200B;**建立**&#x200B;按鈕。
 

@@ -4,10 +4,10 @@ title: 在你的電子郵件中新增視覺內容片段
 description: 瞭解如何將視覺化片段新增至您的電子郵件
 badge: label="有限可用性"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 18%
+source-wordcount: '570'
+ht-degree: 14%
 
 ---
 
@@ -15,11 +15,15 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
->此功能在有限可用性(LA)中提供。 僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
+>此功能需要更新Campaign v8.6.4。進一步瞭解[Campaign v8使用者端主控台發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes)。
 
-您可以在[電子郵件傳遞](../email/get-started-email-designer.md)或[內容範本](../email/use-email-templates.md)中使用視覺片段。 步驟詳述如下。 [瞭解如何建立和管理內容片段](fragments.md)。
+您可以在[電子郵件傳遞](../email/get-started-email-designer.md)或[內容範本](../email/use-email-templates.md)中使用視覺片段。 步驟詳述如下。
 
-![](assets/fragments.gif)
+![](assets/do-not-localize/fragments.gif)
+
+>[!NOTE]
+>
+>在[本節](fragments.md)中瞭解如何建立和管理內容片段。
 
 ## 使用視覺片段 {#use-fragment}
 

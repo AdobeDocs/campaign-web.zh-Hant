@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2242'
 ht-degree: 9%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 9%
 >
 >* 對於具有許多值的欄位，只會顯示前20個值。 在這種情況下，通知&#x200B;**[!UICONTROL 部分載入]**&#x200B;會警告您。
 >
->* 每個屬性選擇器中都可以存取&#x200B;**[!UICONTROL 值分佈]**&#x200B;選項。
+>* 每個屬性選擇器中都可以存取&#x200B;**[!UICONTROL 值分佈]**&#x200B;選項。 [瞭解如何選取屬性](../get-started/attributes.md)
 >* 您可以使用&#x200B;**[!A進階篩選器]**&#x200B;在結果上新增條件。 [如需更多詳情，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 新增篩選元件 {#filtering}
@@ -62,7 +62,7 @@ ht-degree: 9%
 
 1. 按一下所需節點上的&#x200B;**+**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 自訂條件]**。 自訂條件屬性窗格會在右側開啟。
 
-1. 在&#x200B;**Attribute**&#x200B;欄位中，從資料庫中選取要用來建立條件的屬性。 屬性清單包含Campaign資料庫中的所有屬性，包括連結表格的屬性。
+1. 在&#x200B;**Attribute**&#x200B;欄位中，從資料庫中選取要用來建立條件的屬性。 屬性清單包含Campaign資料庫中的所有屬性，包括連結表格的屬性。 [瞭解如何選取屬性並將其新增至我的最愛](../get-started/attributes.md)
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 

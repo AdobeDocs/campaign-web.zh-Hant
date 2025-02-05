@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2032'
 ht-degree: 100%
 
 ---
@@ -361,40 +361,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="執行初始化指令碼"
 >abstract="執行初始化指令碼"
 
-<!-- Schema edit custom fields -->
-
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields"
->title="編輯自訂詳細資料"
->abstract="編輯自訂詳細資料"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_separatorproperties"
->title="分隔符號屬性"
->abstract="分隔符號屬性"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings"
->title="屬性設定"
->abstract="屬性設定"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_general"
->title="一般"
->abstract="一般"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_link"
->title="連結屬性"
->abstract="LaLink propertiesyout"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_layout"
->title="版面配置"
->abstract="版面配置"
-
-
 <!--Schema-->
 
 >[!CONTEXTUALHELP]
@@ -471,51 +437,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetmapping_storage"
 >title="目標對應儲存"
 >abstract="目標對應封鎖儲存"
-
-<!-- Favorites & recents -->
-
->[!CONTEXTUALHELP]
->id="acw_attribute_picker_favorites_recents"
->title="最愛和最近項目"
->abstract="最愛和最近項目"
-
-<!-- Options -->
-
->[!CONTEXTUALHELP]
->id="acw_options_list"
->title="選項"
->abstract="選項"
-
->[!CONTEXTUALHELP]
->id="acw_options_create"
->title="建立選項"
->abstract="建立選項"
-
-<!-- JavaScript codes -->
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_list"
->title="JavaScript 程式碼"
->abstract="JavaScript 程式碼"
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_create"
->title="建立 JavaScript 程式碼"
->abstract="建立 JavaScript 程式碼"
-
-<!-- Enumerations -->
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_list"
->title="分項清單"
->abstract="分項清單"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_properties"
->title="屬性"
->abstract="屬性"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_values"
->title="列舉值的清單"
->abstract="列舉值的清單"

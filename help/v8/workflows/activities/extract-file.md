@@ -3,9 +3,9 @@ audience: end-user
 title: 使用擷取檔案工作流程活動
 description: 瞭解如何使用擷取檔案工作流程活動
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '885'
 ht-degree: 18%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 18%
 1. 指定要顯示在擷取檔案中的欄。 要執行此操作，請依照下列步驟執行：
 
    1. 按一下&#x200B;**[!UICONTROL 新增輸出資料行]**。
-   1. 選擇要顯示在欄中的屬性，然後確認。 可用的屬性取決於工作流程的目標維度。
+   1. 選擇要顯示在欄中的屬性，然後確認。 可用的屬性取決於工作流程的目標維度。 [瞭解如何選取屬性並將其新增至我的最愛](../../get-started/attributes.md)
    1. 新增資料行之後，您可以變更其&#x200B;**[!UICONTROL 標籤]**&#x200B;並修改相關的&#x200B;**[!UICONTROL 屬性]**。
    1. 如果要將轉換套用至欄的值，請從下拉式清單中選取它。 例如，您可以將選取欄中的所有值切換為大寫。
 
