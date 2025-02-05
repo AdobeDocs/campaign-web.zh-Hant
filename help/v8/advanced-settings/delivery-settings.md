@@ -4,10 +4,10 @@ title: 設定傳送設定
 description: 瞭解如何在Campaign網頁版中設定傳遞設定
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2888'
-ht-degree: 46%
+source-wordcount: '2765'
+ht-degree: 45%
 
 ---
 
@@ -25,24 +25,16 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="類型"
->abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞客群之外。類型和類型規則是在 Campaign 用戶端主控台中建立的。"
+>abstract="型別可讓您標準化所有傳遞的業務實務。 類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞客群之外。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="傳遞的類型設定"
->abstract="類型規則允許行銷人員將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞客群之外。類型和類型規則是在 Campaign 用戶端主控台中建立的。"
+>abstract="型別規則可讓您標準化所有傳遞的業務實務。 類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞客群之外。"
 
-型別是一組&#x200B;**型別規則**，在準備階段執行，以便一次輕鬆將多個篩選規則套用至傳遞。 因其可以控制、篩選傳送的傳遞內容，並排列其優先順序，能讓行銷人員標準化所有傳遞的業務實務。
-
-將型別與訊息或訊息範本產生關聯時，會執行包含在型別中的型別規則，以在訊息準備期間檢查傳遞是否有效。 然後，符合型別規則中之條件的設定檔會從傳送對象中排除。
-
-型別可讓您確保傳送內容一律包含特定元素（例如取消訂閱連結或主旨列）或篩選規則，以從預期目標中排除群組（例如取消訂閱者、競爭者或不忠誠客戶）。
+型別是一組&#x200B;**型別規則**，在準備階段執行，以便一次輕鬆將多個篩選規則套用至傳遞。 它們可讓行銷人員標準化所有傳送的業務實務，讓他們控制、篩選傳送內容並安排傳送內容的優先順序。 [瞭解如何建立型別與型別規則](../administration/typologies.md)
 
 ![](assets/delivery-settings-typology.png){zoomable="yes"}
-
->[!NOTE]
->
->型別與型別規則是在Campaign使用者端主控台中建立。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hant){target="_blank"}中進一步了解壓力規則以及如何設定疲勞管理。
 
 ### 壓力參數 {#pressure-parameters}
 

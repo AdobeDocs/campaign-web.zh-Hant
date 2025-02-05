@@ -1,58 +1,137 @@
 ---
 title: 自訂欄位
-description: 瞭解如何設定自訂欄位
+description: 瞭解如何設定自訂欄位，以及這些欄位在介面中的可見度。
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 8%
+source-wordcount: '898'
+ht-degree: 3%
 
 ---
 
+
 # 設定自訂欄位 {#custom-fields}
 
-自訂欄位是透過 Adobe Campaign 主控台新增到現成結構描述的附加屬性。在[Adobe Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}中進一步瞭解
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields"
+>title="編輯自訂詳細資料"
+>abstract="所有自訂欄位都會顯示在所選結構描述的介面中。 您可以使用上下箭頭來變更欄位在介面中的顯示順序，並藉由新增分隔符號將欄位分組為子區段。 若要刪除自訂欄位或編輯設定（例如可見性條件），請按一下省略符號按鈕。"
 
-這些自訂欄位會顯示在各種畫面中，例如設定檔或測試設定檔的詳細資訊。
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_general"
+>title="一般"
+>abstract="定義自訂欄位的一般設定。 如果未提供標籤，則會顯示結構描述中定義的標籤。 使用&#x200B;**Visible if**&#x200B;欄位，以使用xtk運算式定義條件，該運算式控制顯示欄位的時機。 您也可以在介面中將欄位標示為必填或唯讀。"
 
-在Web使用者介面中，您無法建立自訂欄位，但可以修改其顯示方式。 修改會套用至所有Campaign使用者。
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_link"
+>title="連結屬性"
+>abstract="使用查詢建模器指定顯示連結型別自訂欄位的規則。 例如，根據其他欄位的輸入限制清單值。"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_layout"
+>title="版面配置"
+>abstract="依預設，自訂欄位會以兩欄顯示在介面中。 開啟此選項即可跨熒幕全寬度顯示自訂欄位，而非兩欄。"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_separatorproperties"
+>title="分隔符號屬性"
+>abstract="指定要在子區段介面中顯示的名稱。"
+
+<!-- NOT USED IN THE UI?-->
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings"
+>title="屬性設定"
+>abstract="屬性設定"
+
+自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。 在[Adobe Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}中瞭解如何擴充結構描述。
+
+自訂欄位可以顯示在各種畫面中，例如Campaign網頁介面中的設定檔詳細資訊。 管理員可以控制哪些欄位可見，以及這些欄位的顯示方式。 這些變更會套用至所有Campaign使用者。
 
 >[!NOTE]
 >
->您必須有管理員許可權才能修改自訂欄位。
+>您必須擁有管理員許可權才能管理自訂欄位。
 
-自訂欄位可用於下列結構描述：
+自訂欄位適用於下列結構描述：
 
-* 收件者(nms)
 * 行銷活動(nms)
-* 傳遞(nms)
+* 計畫(nms)
+* 程式(nms)
+* 收件者(nms)
 * 種子地址(nms)
+* 傳遞(nms)
 
-若要設定自訂欄位，請執行下列步驟：
+## 新增自訂欄位至介面 {#add}
 
-1. 在&#x200B;**管理**&#x200B;下，按一下&#x200B;**結構描述**。
+若要在介面中顯示自訂欄位，請執行下列步驟：
 
-   ![](assets/custom-fields.png){zoomable="yes"}
+1. 瀏覽至左側導覽窗格中的&#x200B;**[!UICONTROL 結構描述]**&#x200B;功能表，並找出所需的結構描述。
 
-1. 找到所需的結構描述，例如&#x200B;**收件者(nms)**&#x200B;結構描述。
+   使用篩選器窗格中的&#x200B;**[!UICONTROL 可編輯]**&#x200B;篩選器，以快速識別具有自訂欄位的結構描述。
 
-   ![](assets/custom-fields2.png){zoomable="yes"}
+   ![](assets/custom-fields-list.png)
 
-1. 按一下&#x200B;**其他動作**&#x200B;按鈕，然後選取&#x200B;**編輯自訂詳細資料**。
+1. 按一下位於結構描述名稱旁的鉛筆圖示，即可存取其自訂欄位。 在此範例中，我們要為&#x200B;**[!UICONTROL 收件者]**&#x200B;結構描述新增欄位。
 
-   ![](assets/custom-fields3.png){zoomable="yes"}
+1. 在架構顯示的介面中顯示的自訂欄位清單。 在此處，「CRM ID」欄位會顯示在設定檔的詳細資訊畫面中，並已標籤為必要。
 
-   **編輯自訂詳細資料**&#x200B;畫面會顯示所有自訂欄位及其型別。
+   | 自訂欄位設定 | 在介面中轉譯 |
+   |  ---  |  ---  |
+   | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
-   ![](assets/custom-fields4.png){zoomable="yes"}
+1. 若要新增自訂欄位至介面，請按一下畫面右上角的&#x200B;**[!UICONTROL 新增]**&#x200B;按鈕，然後選擇下列其中一個選項：
 
-   此畫面可讓您執行下列動作：
+   * **[!UICONTROL 自訂屬性]**：選取一或多個自訂欄位以顯示於介面中。
+   * **[!UICONTROL 自動填寫自訂欄位清單]**：將結構描述定義的所有自訂欄位新增到介面。
 
-   * 使用向上和向下箭頭變更不同欄位的順序。
-   * 將欄位設為必要：勾選&#x200B;**必要**&#x200B;方塊。
-   * 顯示或隱藏欄位：按一下&#x200B;**顯示**&#x200B;按鈕。
-   * 新增可見性條件：按一下&#x200B;**Visible if**&#x200B;按鈕，並使用可用的xtk函式撰寫xtk運算式。
+   ![](assets/custom-fields-add.png)
 
-1. 導覽至顯示自訂欄位的畫面。 在我們的範例中，這是設定檔詳細資訊畫面。
+1. 新增自訂欄位後，您可以：
 
-   ![](assets/custom-fields5.png){zoomable="yes"}
+   * **重新排序欄位**：使用向上鍵和向下鍵。
+   * **將欄位設為必要**：選取&#x200B;**必要**&#x200B;核取方塊。
+   * **編輯欄位設定**：按一下省略符號按鈕，然後選擇&#x200B;**[!UICONTROL 編輯]**。 [了解更多](#settings)
+   * **刪除欄位**：按一下省略符號按鈕，然後選擇&#x200B;**[!UICONTROL 刪除]**。
+   * **在介面中將欄位組織成子區段**：按一下&#x200B;**[!UICONTROL 新增]**&#x200B;並選擇&#x200B;**[!UICONTROL 分隔符號]**。 [了解更多](#separator)
+
+## 設定自訂欄位設定 {#settings}
+
+若要設定每個自訂欄位的特定設定，請按一下所需欄位旁的省略符號按鈕，並選取&#x200B;**[!UICONTROL 編輯]**。
+
+![](assets/custom-fields-settings.png)
+
+可用的設定包括：
+
+* **[!UICONTROL 屬性]**：自訂欄位的名稱。
+* **[!UICONTROL 標籤（自訂）]**：要顯示在介面中的標籤。 如果未提供標籤，則會顯示結構描述中定義的標籤。
+* **[!UICONTROL 顯示條件：]**：使用控制欄位顯示時間的xtk運算式定義條件。 例如，如果另一個欄位為空，則隱藏此欄位。
+* **[!UICONTROL 必要]**：在介面中將欄位設為必要。
+* **[!UICONTROL 唯讀]**：將介面中的欄位設為唯讀。 使用者將無法編輯欄位的值。
+* **[!UICONTROL 篩選器設定]** （針對連結型別欄位）：使用查詢模組化工具來指定顯示連結型別自訂欄位的規則。 例如，根據其他欄位的輸入限制清單值。
+
+  您也可以使用語法`$(<field-name>)`，參考條件中其他欄位輸入的值。 這可讓您參照在表單中輸入的欄位目前值，即使它尚未儲存到資料庫亦然。
+
+  在以下範例中，條件會檢查@ref欄位的值是否與在@refCom欄位中輸入的值相符。 相反地，使用`@refCom`而非`$(@refCom)`會參照資料庫中@ref欄位的值。
+
+  +++檢視範例
+
+  ![](assets/custom-fields-ref.png)
+
++++
+
+* **[!UICONTROL 跨越兩欄]**：根據預設，介面中的自訂欄位會以兩欄顯示。 開啟此選項即可跨熒幕全寬度顯示自訂欄位，而非兩欄。
+
+## 組織子區段中的自訂欄位 {#separator}
+
+Campaign Web使用者介面可讓您新增分隔符號，以便將介面中的自訂欄位群組在一起，以提高可讀性。 若要這麼做，請依照以下步驟進行：
+
+1. 按一下「**[!UICONTROL 新增]**」按鈕，然後選取「**[!UICONTROL 分隔符號]**」。
+
+1. 代表分隔符號的新行會新增至清單中。 按一下省略符號按鈕，然後選擇&#x200B;**[!UICONTROL 編輯]**&#x200B;以命名子區段。
+
+1. 使用向上和向下箭頭將分隔符號移至所需位置。 分隔符號下方所列的欄位將會分組在它下方。
+
+   在此範例中，「感興趣的集合」和「品牌」欄位會分組到「集合」子區段。
+
+   | 自訂欄位設定 | 在介面中轉譯 |
+   |  ---  |  ---  |
+   | ![](assets/custom-fields-separator.png){zoomable="yes"} | ![](assets/custom-fields-section.png){zoomable="yes"} |
