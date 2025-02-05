@@ -2,9 +2,9 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 898a9d62a18de0ee27713b5f15b032103463fcef
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '663'
 ht-degree: 85%
 
 ---
@@ -74,7 +74,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <td>
 <p>您現在可以在 Adobe Campaign Web 介面中建立類型和類型規則。類型是類型規則的集合，可協助控制、篩選傳遞並排定其優先順序。類型可確保您的傳遞始終包含必要元素 (例如取消訂閱連結或主旨列)，並套用篩選規則以從您的目標客群中排除特定群組 (例如取消訂閱者、競爭者或非忠誠客戶)。</p>
 <img src="assets/do-not-localize/typology.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>如需詳細資訊，請參閱<a href="../administration/typologies.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <td>
 <p>您現在可以直接透過 Adobe Campaign Web 使用者介面建立列舉。列舉是系統建議填入欄位的值清單。使用列舉來標準化這些欄位的值，以協助資料輸入或在查詢中使用。</p>
 <img src="assets/do-not-localize/enumerations.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>如需詳細資訊，請參閱<a href="../administration/enumerations.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -108,7 +108,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <td>
 <p>您現在可以在 Adobe Campaign Web 使用者介面中存取技術選項，並建立自己的自訂選項來滿足您的需求。在使用 JavaScript 程式碼工作流程活動來儲存中間資料時，這特別有用。</p>
 <img src="assets/do-not-localize/options.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>如需詳細資訊，請參閱<a href="../administration/options.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -126,7 +126,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <td>
 <p>您現在可以在 Adobe Campaign Web 使用者介面中建立 JavaScript 程式碼。這可讓您建立能夠跨工作流程使用的可重複使用函數，類似於程式庫。</p>
 <img src="assets/do-not-localize/javascript.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>如需詳細資訊，請參閱<a href="../administration/javascript-codes.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
