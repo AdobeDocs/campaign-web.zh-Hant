@@ -4,7 +4,7 @@ title: 開始使用簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
 

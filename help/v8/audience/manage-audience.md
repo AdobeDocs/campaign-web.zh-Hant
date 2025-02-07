@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 25%
 
 * **[!UICONTROL Adobe Experience Platform：]**&#x200B;這些對象已在Adobe Experience Platform中建立，並已使用Adobe來源與目的地整合整合整合至Campaign網頁。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}中瞭解如何設定此整合。
 
-  ➡️[在影片中探索此功能](#video)
+  ➡️ [在影片中探索此功能](#video)
 
 若要取得對象的詳細資訊，請從清單中將其開啟。 對象屬性會連同對象中包含的設定檔數量一起顯示。 您可以隨時使用&#x200B;**[!UICONTROL 計算]**&#x200B;按鈕重新整理對象計數。
 

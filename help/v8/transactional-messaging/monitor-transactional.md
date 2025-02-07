@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: 監視異動訊息
+title: 監視交易型訊息
 description: 瞭解如何在Campaign網頁使用者介面中監視異動訊息
-source-git-commit: 49434faa92e11841033f0c1fbdf907504765a404
+exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
-# 監視異動訊息
+# 監視交易型訊息
 
 在發佈及傳送交易式訊息後，您可以擁有其相關報表和記錄。
 

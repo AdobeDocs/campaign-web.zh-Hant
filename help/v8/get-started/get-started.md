@@ -4,7 +4,7 @@ title: 開始使用 Adobe Campaign Web
 description: 開始使用 Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: 440fb6d303fc70b3fd0903c485cb6b5e6d3ba0c6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Adobe Campaign v8 是專為電子郵件、推播通知、簡訊和直接郵件�
 
 * **透過存取單一客戶視圖，推動個人化和參與**
 * 將電子郵件、行動裝置、線上和線下頻道&#x200B;**整合**&#x200B;至客戶歷程
-* **自動化傳送有意義的即時訊息和優惠方案**
+* **自動化傳送有意義的即時訊息和產品建議**
 
 ## 探索 Campaign Web 使用者介面 {#web}
 

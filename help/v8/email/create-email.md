@@ -22,7 +22,7 @@ ht-degree: 56%
 
 根據預先定義的[設計範本](../email/create-email-templates.md)，電子郵件也會根據客戶設定檔屬性提供個人化內容。
 
-➡️[在影片中探索此功能](#video)
+➡️ [在影片中探索此功能](#video)
 
 ## 建立電子郵件傳遞 {#create-email}
 

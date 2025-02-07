@@ -4,7 +4,7 @@ title: Campaign Web 使用者介面有哪些新增功能？
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 100%
 
@@ -119,9 +119,9 @@ Ask questions and find guidance directly from the product user interface. The ne
 您現在可以在 Campaign 的電子郵件編輯器中&#x200B;**匯入並轉換任何 HTML 內容**。內容區塊會自動識別，並可在電子郵件設計工具中使用：使用其強大的設計功能，進行更新和個人化！若要了解詳細資訊，請參閱[本章節](../email/existing-content.md)。
 
 
-**簡訊提供優惠**
+**簡訊提供產品建議**
 
-除了電子郵件之外，新的 Web 使用者介面現在可讓您&#x200B;**將優惠方案與簡訊整合**。透過行動裝置觸及客群，提供促銷訊息和及時通知。透過我們先進網路平台上的簡訊，利用整合優惠的威力提升您的行銷力度。若要了解詳細資訊，請參閱[本章節](../msg/offers.md)。
+除了電子郵件之外，新的 Web 使用者介面現在可讓您&#x200B;**將產品建議與簡訊整合**。透過行動裝置觸及客群，提供促銷訊息和及時通知。透過我們先進網路平台上的簡訊，利用整合產品建議的威力提升您的行銷力度。若要了解詳細資訊，請參閱[本章節](../msg/offers.md)。
 
 ## 轉變為 Campaign Web 使用者介面
 

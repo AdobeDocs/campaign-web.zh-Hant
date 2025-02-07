@@ -2,7 +2,8 @@
 audience: end-user
 title: 選取屬性並將其新增至我的最愛
 description: 瞭解如何使用屬性並輕鬆存取最愛和最近使用的屬性。
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
+source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 6%

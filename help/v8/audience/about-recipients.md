@@ -5,7 +5,7 @@ exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: 5a4bf85a1f70a0282405aededfb31038f9db17a8
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 12%
 
 設定檔和測試設定檔都可用來在傳送內容到達預期對象之前先行測試。 透過這樣做，您可以預覽訊息內容和個人化、傳送校樣以進行測試和驗證、評估各種平台和裝置間的電子郵件呈現，以及測試您的登入頁面。 [瞭解如何預覽和測試傳遞](../preview-test/preview-test.md)
 
-➡️[在影片中探索此功能](#video)
+➡️ [在影片中探索此功能](#video)
 
 ## 存取設定檔清單 {#access}
 

@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ Campaign Web可讓您在視覺工作流程畫布中建立新對象。 除了從�
 
 **[!UICONTROL Origin]**&#x200B;欄指出受眾的原始項： **[!UICONTROL Adobe Campaign]**&#x200B;受眾已建立Adobe Campaign v8主控台或Web使用者介面，而&#x200B;**[!UICONTROL Adobe Experience Platform：]**&#x200B;受眾已在Adobe Experience Platform中建立，並使用Adobe來源和目標整合整合至Campaign。
 
-➡️[在影片中探索此功能](#video)
+➡️ [在影片中探索此功能](#video)
 
 ## 建立您的第一個對象 {#create}
 

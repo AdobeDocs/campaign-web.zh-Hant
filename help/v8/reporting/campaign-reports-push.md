@@ -80,7 +80,7 @@ ht-degree: 18%
 
 * **[!UICONTROL 錯誤]**：傳遞期間累積的錯誤總數，以及相對於要傳遞的訊息數的自動復原處理次數。
 
-* **[!UICONTROL 新隔離]**：傳送失敗後被隔離的地址總數（註冊無效、郵件拒絕、裝載錯誤等） 相對於要傳遞的訊息數量。
+* **[!UICONTROL 新隔離]**：與要傳送的訊息數目相關的傳送失敗後（註冊無效、訊息拒絕、裝載錯誤等）被隔離的地址總數。
 
   推播通知錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
 

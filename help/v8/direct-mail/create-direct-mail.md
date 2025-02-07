@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 建立新的直接郵件傳遞
+title: 建立直接郵件傳遞
 description: 瞭解如何使用Adobe Campaign Web建立直接郵件傳送
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
@@ -10,7 +10,7 @@ ht-degree: 19%
 
 ---
 
-# 建立新的直接郵件傳遞 {#create-direct-mail}
+# 建立直接郵件傳遞 {#create-direct-mail}
 
 您可以在行銷活動工作流程的內容中，建立獨立直接郵件傳送，或建立直接郵件傳送。 以下步驟詳細說明獨立（一次性）直接郵件傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟將在[本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中詳細說明。
 

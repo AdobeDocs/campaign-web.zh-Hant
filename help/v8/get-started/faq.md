@@ -1,13 +1,13 @@
 ---
 title: 在 Campaign Web 中使用 AI 驅動的內容說明
 description: 在 Campaign Web 說明彈出視窗中提出問題
-source-git-commit: 235cc79598ed64ed2f3c53a9cb736d4626ee9c38
+exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
+source-git-commit: 0183534ca68960261fa59582dba2e2220e60b024
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 5%
 
 ---
-
 
 # 常見問題集
 

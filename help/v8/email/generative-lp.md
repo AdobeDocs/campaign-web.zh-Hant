@@ -2,7 +2,8 @@
 audience: end-user
 title: 使用AI Assistant Content Accelerator的登陸頁面
 description: 開始使用AI Assistant內容加速器
-source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
+exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
+source-git-commit: e7b93168c3827691049376ecd257d2c6df554007
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 1%

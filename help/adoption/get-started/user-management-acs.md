@@ -3,7 +3,8 @@ title: 將技術使用者移轉至Adobe Developer主控台
 description: 瞭解如何將使用者存取管理從Campaign Standard移轉至Campaign V8
 feature: Technote
 role: Admin
-source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
+exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 2%
@@ -108,11 +109,3 @@ Adobe Campaign Standard和Campaign V8會使用下列概念，來達成使用者�
 * Adobe Experience Manager應用程式管理員
 
 * 轉送帳戶
- 
-
-
- 
-
- 
-
-

@@ -6,7 +6,7 @@ exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 38%
   >
   >.zip 檔案結構沒有限制。不過，參照必須是相對參照，而且能放在.zip資料夾的樹狀結構內。
 
-➡️[在影片中探索此功能](#video)
+➡️ [在影片中探索此功能](#video)
 
 若要匯入包含HTML內容的檔案，請遵循下列步驟。
 

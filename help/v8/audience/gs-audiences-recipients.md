@@ -15,7 +15,7 @@ ht-degree: 100%
 
 **客群**&#x200B;是具有相似行為和/或特徵的輪廓集合。您可以產生、選取或載入這類人員的集合。客群建立後，即可作為您的傳遞目標群體供運用。
 
-此外，Adobe Campaign Web 可用於管理和建立電子報等&#x200B;**服務**，以及檢查這些服務的訂閱或取消訂閱。完成後，您可以新增訂閱者、取消訂閱設定檔以及向服務的訂閱者傳送訊息。
+此外，Adobe Campaign Web 可用於管理和建立電子報等&#x200B;**服務**，以及檢查這些服務的訂閱或取消訂閱。完成後，您可以新增訂閱者、取消輪廓訂閱以及向服務的訂閱者傳送訊息。
 
 由於您已經了解在 Adobe Campaign Web 中能做什麼，您現在可以深入了解這些文件章節並開始使用。
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="about-recipients.md"><strong>監視和管理設定檔</strong></a>
+<a href="about-recipients.md"><strong>監視和管理輪廓</strong></a>
 </div>
 <p>
 </td>

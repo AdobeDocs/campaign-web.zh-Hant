@@ -3,13 +3,13 @@ title: 開始使用適用於管理員和開發人員的Adobe Campaign v8。
 description: 本教學課程概述Campaign v8的主要管理和資料管理功能。 從Campaign Standard移轉至Campaign v8的管理員和技術行銷人員適用。
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 7%
 
 ---
-
 
 # 管理員與開發人員快速入門 {#acs-gs-admin}
 
@@ -305,4 +305,3 @@ Campaign v8要求使用傳遞範本，例如Campaign Standard。
 請注意，Campaign也可以與Adobe Experience Manager 6.5整合。若要設定此整合，請參閱[此檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}。
 * 如果您的Campaign Standard環境已與&#x200B;**觸發器**&#x200B;整合，您必須在Campaign v8中設定此整合，如[此頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}所詳述。
 * 如果您的Campaign Standard環境已與&#x200B;**Adobe Target**&#x200B;整合，您必須在Campaign v8中設定此整合，如[此頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}所詳述。
-

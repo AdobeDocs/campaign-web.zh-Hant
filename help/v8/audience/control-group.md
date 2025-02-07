@@ -14,7 +14,7 @@ ht-degree: 37%
 
 控制組是從傳送中排除的子族群。 您可以定義控制組以避免傳送訊息給部分對象，並將傳送後的行為與主要目標進行比較。 此選項可協助您測量行銷活動的影響。
 
-➡️[在影片中探索此功能](create-audience.md#video)
+➡️ [在影片中探索此功能](create-audience.md#video)
 
 ## 啟用控制組{#add-a-control-group}
 

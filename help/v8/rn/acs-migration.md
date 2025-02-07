@@ -4,7 +4,7 @@ title: 從 Campaign Standard 轉換到 Adobe Campaign Web
 description: 探索 Campaign Web 使用者介面
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%
 

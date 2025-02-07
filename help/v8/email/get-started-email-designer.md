@@ -23,9 +23,9 @@ The Email Designer allows you to create email content and email content template
 
 * 使用[!DNL Campaign]電子郵件設計功能，可輕鬆建置回應式電子郵件。[了解更多](create-email-content.md)
 
-* 根據客戶的設定檔屬性建立增強的個人化客戶體驗。[了解更多](../personalization/personalize.md)
+* 根據客戶的輪廓屬性建立增強的個人化客戶體驗。[了解更多](../personalization/personalize.md)
 
-* 設定條件式內容欄位以根據收件者的設定檔建立動態個人化。[了解更多](../personalization/conditions.md)
+* 設定條件式內容欄位以根據收件者的輪廓建立動態個人化。[了解更多](../personalization/conditions.md)
 
 ## 電子郵件設計最佳做法 {#best-practices}
 

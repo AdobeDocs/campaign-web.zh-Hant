@@ -27,7 +27,7 @@ ht-degree: 14%
 
    ![](assets/sms_send_1.png){zoomable="yes"}
 
-1. 按一下「**[!UICONTROL 新增測試設定檔]**」，選取一個或多個測試設定檔或設定檔。
+1. 按一下「**[!UICONTROL 新增測試輪廓]**」，選取一個或多個測試輪廓或輪廓。
 
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.

@@ -6,8 +6,8 @@ level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
 source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2453'
+ht-degree: 17%
 
 ---
 
@@ -311,7 +311,7 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 >
 >* Adobe Campaign v8同時支援Android和iOS推播頻道。 若要使用推播頻道轉換現有工作流程與傳遞，請聯絡您的Adobe Campaign轉換經理。 深入瞭解[頻道設定](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
 >
->* 請注意，行動應用程式適用的SDK V4在幾年前的Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}中已[淘汰。 您應該已經轉換到Adobe Experience Platform SDK，這與Campaign v8中使用的相同。
+>* 請注意，適用於行動應用程式的SDK V4在幾年前[已在Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}中被取代。 您應已轉換至Adobe Experience Platform SDK，此專案與Campaign v8中的專案相同。
 > 
 
 ### 直接郵件 {#acs-gs-marketers-direct-mail}

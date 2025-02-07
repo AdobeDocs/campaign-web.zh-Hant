@@ -3,13 +3,13 @@ title: 從Campaign Standard轉換後，開始使用Adobe Campaign v8
 description: 瞭解開始使用新的Campaign v8應用程式所需的步驟
 role: User, Admin, Developer
 level: Beginner
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 29%
 
 ---
-
 
 # 從 Campaign Standard 至 v8 {#ac-acs}
 
@@ -128,7 +128,7 @@ Adobe Campaign v8 可作為 Managed Cloud Services，提供主動預防性監督
 
 為了讓您順利轉換到 Campaign v8，Campaign v8 中新增了關鍵的 Campaign Standard 功能。[本文件](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}對此進行了詳細說明。
 
-* **動態報告**：動態報告提供完全可自訂的即時報告來測量行銷活動的影響。此功能新增對個人檔案資料的存取，除了開啟和點選這類功能性電子郵件行銷活動資料外，還可以按性別、城市和年齡等個人資料維度進行人口統計分析。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}。
+* **動態報告**：動態報告提供完全可自訂的即時報告來測量行銷活動的影響。此功能新增對輪廓資料的存取，除了開啟和點選這類功能性電子郵件行銷活動資料外，還可以按性別、城市和年齡等輪廓維度進行人口統計分析。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}。
 
 * **集中品牌化**：每家公司都有各自的品牌視覺化與技術準則。有了 Adobe Campaign，您可以定義一組規格，從標誌到技術層面 (例如電子郵件寄件者、URL 或網域)，為客戶呈現一致的品牌。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
@@ -146,7 +146,7 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多數概念都類似。 不
 
 以下是Campaign Standard和Campaign v8之間的一些術語差異。
 
-* 自訂資源為&#x200B;**綱要**
+* 自訂資源為&#x200B;**結構描述**
 * 訊息稱為&#x200B;**傳遞內容**
 * 產品使用者為&#x200B;**操作者**。
 * 角色設定有&#x200B;**命名權限**
@@ -155,8 +155,8 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多數概念都類似。 不
 
 此外，身為現有的Campaign使用者，請注意有些概念已重新命名，以符合最新的術語標準。 這些變更僅適用於 Campaign Web 使用者介面，不會反映在用戶端主控台。它們總結如下。
 
-* 收件者現在為&#x200B;**設定檔**。[了解更多](../../v8/audience/gs-audiences-recipients.md)。
-* 種子地址現在為&#x200B;**測試設定檔**。[了解更多](../../v8/preview-test/test-deliveries.md)。
+* 收件者現在為&#x200B;**輪廓**。[了解更多](../../v8/audience/gs-audiences-recipients.md)。
+* 種子地址現在為&#x200B;**測試輪廓**。[了解更多](../../v8/preview-test/test-deliveries.md)。
 * 傳遞分析現在是&#x200B;**傳遞準備**。當您需要啟動訊息準備時，按一下「**準備**」按鈕。[了解更多](../../v8/monitor/prepare-send.md)。
 * 電子郵件預覽現在可透過「**模擬內容**」按鈕取得。[了解更多](../../v8/preview-test/preview-test.md)
 * 清單現在是&#x200B;**客群**。[了解更多](../../v8/audience/gs-audiences-recipients.md)。
@@ -230,4 +230,3 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多數概念都類似。 不
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
 Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
-

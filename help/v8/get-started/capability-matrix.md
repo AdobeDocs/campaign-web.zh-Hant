@@ -4,7 +4,7 @@ title: Campaign Web 使用者介面/用戶端主控台功能比較表
 description: Campaign Web 使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 100%
 
@@ -122,11 +122,11 @@ Adobe Campaign Web 使用者介面隨附全新的電子郵件設計工具，可�
 
 在[這裡](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=zh-Hant){target="_blank"}的 Adobe Campaign v8 (主控台) 工作流程文件中，深入了解可用工作流程活動。
 
-## 優惠方案管理 {#offer-capabilities}
+## 產品建議管理 {#offer-capabilities}
 
-您可以在 Adobe Campaign Web 使用者介面中建立的傳遞中傳送優惠方案。務必已使用&#x200B;**[!UICONTROL 互動]**&#x200B;模組，在用戶端主控台中建立這些優惠方案。僅可在 Campaign 用戶端主控台中使用優惠方案設計、適用性規則和優惠方案管理功能。[了解更多](../msg/offers.md)
+您可以在 Adobe Campaign Web 使用者介面中建立的傳遞中傳送產品建議。務必已使用&#x200B;**[!UICONTROL 互動]**&#x200B;模組，在用戶端主控台中建立這些產品建議。僅可在 Campaign 用戶端主控台中使用產品建議設計、適用性規則和產品建議管理功能。[了解更多](../msg/offers.md)
 
-在 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hant){target="_blank"}中，了解如何管理優惠方案目錄。
+在 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hant){target="_blank"}中，了解如何管理產品建議目錄。
 
 ## 與 Adobe Experience Cloud 解決方案整合 {#exc-capabilities}
 
@@ -159,13 +159,13 @@ Campaign Web 使用者介面不顯示下列功能。這些功能僅適用於用�
 
 Adobe Campaign 隨附一組預先定義的外部帳戶，可與外部系統連線。作為 Campaign 系統管理員，您可以建立和管理外部帳戶。[了解更多](../administration/external-account.md)
 
-### 綱要建立及擴充 {#schema}
+### 結構描述建立及擴充 {#schema}
 
-方案建立、修改及擴充功能僅限進階使用者使用。這些功能僅能從用戶端主控台取得。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=zh-Hant){target="_blank"}
+結構描述建立、修改及擴充功能僅限進階使用者使用。這些功能僅能從用戶端主控台取得。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=zh-Hant){target="_blank"}
 
 ### 工作流程資料管理功能 {#data}
 
-資料管理結合了一套活動來解決複雜的目標定位問題，提供更有效且更靈活的工具，例如資料載入、擷取 (檔案)、更新資料、編輯綱要或匯入/匯出技術工作流程。[探索用戶端主控台中的工作流程資料管理功能](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=zh-Hant#data-management){target="_blank"}
+資料管理結合了一套活動來解決複雜的目標定位問題，提供更有效且更靈活的工具，例如資料載入、擷取 (檔案)、更新資料、編輯結構描述或匯入/匯出技術工作流程。[探索用戶端主控台中的工作流程資料管理功能](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=zh-Hant#data-management){target="_blank"}
 
 >[!NOTE]
 >

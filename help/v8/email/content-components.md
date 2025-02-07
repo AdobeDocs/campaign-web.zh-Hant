@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
 source-wordcount: '1199'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 65%
 
 ## 文字 {#text}
 
-使用&#x200B;**[!UICONTROL 文字]**&#x200B;元件將文字插入電子郵件，並調整樣式 (邊框、大小、邊框間距等。)使用「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤。
+使用&#x200B;**[!UICONTROL Text]**&#x200B;元件將文字插入您的電子郵件，並使用&#x200B;**[!UICONTROL 設定]**&#x200B;和&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤調整樣式（邊框、大小、邊框間距等）。
 
 1. 從&#x200B;**[!UICONTROL 內容]**&#x200B;功能表，將&#x200B;**[!UICONTROL 文字]**&#x200B;拖放到&#x200B;**[!UICONTROL 結構]**&#x200B;元件中。
 
@@ -115,8 +115,8 @@ ht-degree: 65%
    * **[!UICONTROL 顯示原始碼]**：顯示文字的原始碼。原始碼無法變更。
    * **[!UICONTROL 複製]**：新增文字元件的副本。
    * **[!UICONTROL 刪除]**：從電子郵件刪除選取的文字元件。
-   * **[!UICONTROL 新增個人化]**：新增個人化欄位以從設定檔資料自訂內容。
-   * **[!UICONTROL 啟用條件式內容]**：新增條件式內容以使元件內容適應目標設定檔。
+   * **[!UICONTROL 新增個人化]**：新增個人化欄位以從輪廓資料自訂內容。
+   * **[!UICONTROL 啟用條件式內容]**：新增條件式內容以使元件內容適應目標輪廓。
 
 1. 調整其他樣式屬性，例如文字顏色、字型系列、邊框、邊框間距、邊界等。從&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤。
 
@@ -150,7 +150,7 @@ ht-degree: 65%
 
 >[!IMPORTANT]
 >
->Assets功能表的存取權僅限具有有效Adobe Experience Manager as a Cloud Service授權的使用者使用。 如果您沒有此授權，將無法使用Assets功能表。
+>Assets功能表的存取權僅限具有有效Adobe Experience Manager as a Cloud Service授權的使用者使用。 如果您未擁有此授權，將無法使用「資產」選單。
 
 使用&#x200B;**[!UICONTROL 影像]**&#x200B;元件將電腦中的影像檔案插入到電子郵件中。
 
