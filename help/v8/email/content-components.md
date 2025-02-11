@@ -20,7 +20,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="關於內容"
->abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。"
+>abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"

@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 3%
+ht-degree: 25%
 
 ---
 
@@ -14,28 +14,28 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="編輯自訂詳細資料"
->abstract="所有自訂欄位都會顯示在所選結構描述的介面中。 您可以使用上下箭頭來變更欄位在介面中的顯示順序，並藉由新增分隔符號將欄位分組為子區段。 若要刪除自訂欄位或編輯設定（例如可見性條件），請按一下省略符號按鈕。"
+>title="編輯自訂詳細資訊"
+>abstract="在介面中顯示的所有自訂欄位根據選取的結構描述顯示。您可以使用向上鍵和向下鍵來變更其在介面中的顯示順序，並透過新增分隔符號將欄位分為子區段。若要刪除自訂欄位或編輯可見度條件等設定，請按一下省略符號按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
 >title="一般"
->abstract="定義自訂欄位的一般設定。 如果未提供標籤，則會顯示結構描述中定義的標籤。 使用&#x200B;**Visible if**&#x200B;欄位，以使用xtk運算式定義條件，該運算式控制顯示欄位的時機。 您也可以在介面中將欄位標示為必填或唯讀。"
+>abstract="定義自訂欄位的一般設定。如果沒有提供標籤，則會顯示結構描述中定義的標籤。使用「**符合條件時可見**」欄位並利用控制何時顯示該欄位的 xtk 運算式來定義條件。您也可以在介面中將欄位標記為必填或唯讀。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="連結屬性"
->abstract="使用查詢建模器指定顯示連結型別自訂欄位的規則。 例如，根據其他欄位的輸入限制清單值。"
+>abstract="使用查詢建模工具以指定顯示連結類型自訂欄位的規則。例如，根據另一個欄位的輸入來限制清單值。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
 >title="版面配置"
->abstract="依預設，自訂欄位會以兩欄顯示在介面中。 開啟此選項即可跨熒幕全寬度顯示自訂欄位，而非兩欄。"
+>abstract="預設情況下，自訂欄位在介面中顯示為兩欄。將這個選項切換為開啟，以全螢幕的寬度而非兩欄來顯示自訂欄位。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_separatorproperties"
 >title="分隔符號屬性"
->abstract="指定要在子區段介面中顯示的名稱。"
+>abstract="指定在介面中顯示的子區段名稱。"
 
 <!-- NOT USED IN THE UI?-->
 >[!CONTEXTUALHELP]
@@ -106,7 +106,7 @@ ht-degree: 3%
 * **[!UICONTROL 顯示條件：]**：使用控制欄位顯示時間的xtk運算式定義條件。 例如，如果另一個欄位為空，則隱藏此欄位。
 * **[!UICONTROL 必要]**：在介面中將欄位設為必要。
 * **[!UICONTROL 唯讀]**：將介面中的欄位設為唯讀。 使用者將無法編輯欄位的值。
-* **[!UICONTROL 篩選器設定]** （針對連結型別欄位）：使用查詢模組化工具來指定顯示連結型別自訂欄位的規則。 例如，根據其他欄位的輸入限制清單值。
+* **[!UICONTROL 篩選器設定]** （針對連結型別欄位）：使用查詢模組化工具來指定顯示連結型別自訂欄位的規則。 例如，根據另一個欄位的輸入來限制清單值。
 
   您也可以使用語法`$(<field-name>)`，參考條件中其他欄位輸入的值。 這可讓您參照在表單中輸入的欄位目前值，即使它尚未儲存到資料庫亦然。
 
@@ -118,7 +118,7 @@ ht-degree: 3%
 
 +++
 
-* **[!UICONTROL 跨越兩欄]**：根據預設，介面中的自訂欄位會以兩欄顯示。 開啟此選項即可跨熒幕全寬度顯示自訂欄位，而非兩欄。
+* **[!UICONTROL 跨越兩欄]**：根據預設，介面中的自訂欄位會以兩欄顯示。 將這個選項切換為開啟，以全螢幕的寬度而非兩欄來顯示自訂欄位。
 
 ## 組織子區段中的自訂欄位 {#separator}
 

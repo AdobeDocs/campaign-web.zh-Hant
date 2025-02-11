@@ -15,7 +15,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用內容元件"
->abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。若要定義讓使用者能夠選取並提交他們的選擇的特定內容，請使用表單元件。"
+>abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。若要定義讓使用者能夠選取並提交他們的選擇的特定內容，請使用表單元件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
