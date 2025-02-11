@@ -2,25 +2,20 @@
 title: 管理外部帳戶
 description: 瞭解如何設定外部帳戶
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 12%
+source-wordcount: '686'
+ht-degree: 8%
 
 ---
 
 # 管理外部帳戶 {#external-accounts}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="外部帳戶"
->abstract="您現在可以根據工作流程需求，連線至其他平台或自訂連線。此外，您還可以輕鬆建立新的外部帳戶，以滿足特定需求，並確保順暢的資料傳輸。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
-
 >[!AVAILABILITY]
 >
-> 請注意，外部帳戶目前僅可用於退信郵件(POP3)、路由和執行執行個體，未來將新增其他帳戶型別。
-> 在Adobe Campaign主控台中建立的不支援外部帳戶會顯示在Web使用者介面中，但無法編輯或存取。
+>* 外部帳戶目前僅可用於退回郵件(POP3)、路由及執行個體。 未來將新增其他帳戶型別。
+>
+>* 在Adobe Campaign主控台中建立的不支援外部帳戶會顯示在Web使用者介面中，但無法編輯或存取。
 
 Adobe Campaign隨附預先設定的外部帳戶，可輕鬆與各種系統整合。 如果您需要連線至其他平台或自訂連線以符合工作流程，您現在可以使用網頁使用者介面輕鬆建立新的外部帳戶，以符合您的特定需求，並確保順暢的資料傳輸。
 

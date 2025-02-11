@@ -3,14 +3,21 @@ audience: end-user
 title: 開始使用外部傳遞
 description: 瞭解如何使用Adobe Campaign Web建立並傳送外部傳遞
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 7%
+source-wordcount: '518'
+ht-degree: 12%
 
 ---
 
 # 傳送外部傳遞 {#gs-direct-mail}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="建立外部傳遞"
+>abstract="您現在可以在 Campaign Web 介面中定義外部傳遞和外部傳遞範本。在此模式中，訊息會編譯成輸出檔案，以便與外部提供者共用。 依據預設，外部傳遞模式是用於直接郵件管道。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
+
 
 Adobe Campaign可讓您處理在Campaign外部建立的傳遞，以透過外部系統大量傳遞個人化電子郵件、簡訊或推播通知(iOs和Android)。
 

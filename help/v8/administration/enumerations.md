@@ -1,15 +1,22 @@
 ---
-title: 管理分項清單
+title: 管理列舉
 description: 瞭解如何使用分項清單
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 10%
+source-wordcount: '600'
+ht-degree: 27%
 
 ---
 
-# 管理分項清單 {#enumerations}
+# 管理列舉 {#enumerations}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="建立分項清單"
+>abstract="您現在可以直接透過 Adobe Campaign Web 使用者介面建立列舉。分項清單是系統建議用來填入欄位的值清單。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"
@@ -19,12 +26,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
 >title="屬性"
->abstract="定義列舉的屬性，例如其名稱、內部名稱和型別。 **[!UICONTROL 已關閉的]**&#x200B;列舉具有只能從&#x200B;**[!UICONTROL 列舉]**&#x200B;功能表修改的固定值清單。 **[!UICONTROL 開啟]**&#x200B;列舉允許使用者根據此列舉直接在欄位中新增值。 **[!UICONTROL 系統]**&#x200B;列舉與系統欄位相關聯。 **[!UICONTROL 表情符號]**&#x200B;列舉用於更新表情符號清單。"
+>abstract="定義列舉的屬性，例如其名稱、內部名稱和類型。「**[!UICONTROL 已關閉的]**」列舉具有固定的值清單，只能從「**[!UICONTROL 列舉]**」選單中進行修改。「**[!UICONTROL 開放]**」列舉可讓使用者根據此列舉直接在欄位加入新的值。「**[!UICONTROL 系統]**」列舉與系統欄位相關。「**[!UICONTROL 表情符號]**」列舉用於更新表情符號清單。"
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
 >title="列舉值的清單"
->abstract="若要新增值至分項清單，請按一下&#x200B;**[!UICONTROL 新增值]**&#x200B;按鈕，然後視需要加以設定。"
+>abstract="若要新增數值至列舉，請按一下「**[!UICONTROL 新增數值]**」按鈕，然後依需求進行設定。"
 
 ## 什麼是分項清單？ {#about}
 
@@ -49,7 +56,7 @@ ht-degree: 10%
    * **[!UICONTROL 已關閉的]**&#x200B;列舉具有只能從&#x200B;**[!UICONTROL 列舉]**&#x200B;功能表修改的固定值清單。
    * **[!UICONTROL 開啟]**&#x200B;列舉允許使用者根據此列舉直接在欄位中新增值。
    * **[!UICONTROL 系統]**&#x200B;列舉與系統欄位相關聯。
-   * **[!UICONTROL 表情符號]**&#x200B;列舉用於更新表情符號清單。
+   * 「**[!UICONTROL 表情符號]**」列舉用於更新表情符號清單。
 
 1. 按一下 **[!UICONTROL 建立]**。列舉詳細資訊隨即顯示，可讓您新增值至清單。
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 交易型訊息傳遞功能
 description: 關於Adobe Campaign Web的交易式訊息傳送
 exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 24%
+source-wordcount: '245'
+ht-degree: 14%
 
 ---
 
@@ -16,12 +16,6 @@ ht-degree: 24%
 >id="acw_transacmessages"
 >title="交易型訊息傳遞功能"
 >abstract="交易型傳訊是 Adobe Campaign 中專門用來處理觸發訊息的模組。"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="交易型訊息傳遞功能"
->abstract="交易型傳訊是 Adobe Campaign 中專門用來處理觸發訊息的模組。這些訊息是為了回應來自資訊系統的事件而自動產生的。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 <!-- >>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"

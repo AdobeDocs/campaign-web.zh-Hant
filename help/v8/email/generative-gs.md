@@ -3,20 +3,14 @@ audience: end-user
 title: 開始使用 AI 助理內容加速器
 description: 開始使用AI Assistant內容加速器
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 29%
+source-wordcount: '797'
+ht-degree: 25%
 
 ---
 
 # 使用 AI 助理內容加速器  {#generative-gs}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="AI 助理內容加速器"
->abstract="AI 助理讓您利用直覺、簡單且無繁複手續的方式在多個頻道之間，包括電子郵件、SMS 和 Push 等建立和執行行銷活動，還能節省時間、提高效率並帶來更好的結果。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 
 >[!CONTEXTUALHELP]

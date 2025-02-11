@@ -4,26 +4,28 @@ title: 在你的電子郵件中新增視覺內容片段
 description: 瞭解如何將視覺化片段新增至您的電子郵件
 badge: label="有限可用性"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '605'
 ht-degree: 14%
 
 ---
 
 # 在你的電子郵件中新增視覺內容片段 {#use-visual-fragments}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="電子郵件視覺片段"
+>abstract="您現在可以建立和使用視覺化片段。 這些是預先定義的視覺化區塊，您可以在多個電子郵件傳遞或內容範本中重複使用。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
+
 >[!AVAILABILITY]
 >
 >此功能需要更新Campaign v8.6.4。進一步瞭解[Campaign v8使用者端主控台發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes)。
 
-您可以在[電子郵件傳遞](../email/get-started-email-designer.md)或[內容範本](../email/use-email-templates.md)中使用視覺片段。 步驟詳述如下。
+在Campaign網頁介面中，**視覺片段**&#x200B;是預先定義的視覺化區塊，您可以在多個[電子郵件傳遞](../email/get-started-email-designer.md)或[內容範本](../email/use-email-templates.md)中重複使用。 在[本節](fragments.md)中瞭解如何建立和管理內容片段。
 
 ![](assets/do-not-localize/fragments.gif)
-
->[!NOTE]
->
->在[本節](fragments.md)中瞭解如何建立和管理內容片段。
 
 ## 使用視覺片段 {#use-fragment}
 
