@@ -6,16 +6,16 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
-# 傳送外部傳遞 {#gs-direct-mail}
+# 發送外部傳遞 {#gs-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="建立外部傳遞"
->abstract="您現在可以在 Campaign Web 介面中定義外部傳遞和外部傳遞範本。在此模式中，訊息會編譯成輸出檔案，以便與外部提供者共用。 依據預設，外部傳遞模式是用於直接郵件管道。"
+>abstract="您現在可以在 Campaign Web 介面中定義外部傳遞和外部傳遞範本。在此模式中，訊息會編譯成一個輸出檔案，該檔案可以與您的外部提供者共用。依據預設，外部傳遞模式是用於直接郵件管道。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 
