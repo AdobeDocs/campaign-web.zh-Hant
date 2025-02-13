@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面先前發行說明
 description: 2024 Campaign Web 使用者介面版本
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '2506'
-ht-degree: 100%
+source-wordcount: '2502'
+ht-degree: 99%
 
 ---
 
@@ -79,13 +79,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>AI 助理內容加速器</strong><br/></th>
+<th><strong>AI 助理</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在精心製作並自訂您的訊息後，請利用 Adobe Campaign Web 的 AI 助理內容加速器，將訊息提升到新的水準。這款強大的工具可讓您產生一系列引人入勝的文字、主要標題和吸引人的視覺影像，以最佳化內容的影響力。</p>
+<p>完成訊息的製作與量身打造後，請使用Adobe Campaign網頁版的AI助理將訊息提升到全新的境界。 這款強大的工具可讓您產生一系列引人入勝的文字、主要標題和吸引人的視覺影像，以最佳化內容的影響力。</p>
 <p>透過<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../email/generative-gs.md">詳細的文件</a>。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>

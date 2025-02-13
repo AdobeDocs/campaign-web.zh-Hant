@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 96%
+source-wordcount: '794'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 + [Adobe Campaign Web 使用者介面文件](campaign-web-home.md)
 + 發行說明 {#release-notes}
    + [新增功能](rn/whats-new.md)
-   + [早期發行](rn/e-release-notes.md)
+   + [早期發行版](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
    + 先前版本 {#previous-release-notes}
       + [2024 版本](rn/release-notes-24.md)
@@ -30,7 +30,7 @@ ht-degree: 96%
    + [瀏覽和篩選清單](get-started/list-filters.md)
    + [使用預先定義的篩選器](get-started/predefined-filters.md)
    + [使用資料夾](get-started/work-with-folders.md)
-   + [選取屬性並將其新增至我的最愛](get-started/attributes.md)
+   + [選取屬性並將其加入最愛](get-started/attributes.md)
    + [權限](get-started/permissions.md)
    + [Campaign Web 與用戶端控制台](get-started/capability-matrix.md)
    + [從 Campaign Standard 至 v8](rn/acs-migration.md)
@@ -72,7 +72,7 @@ ht-degree: 96%
       + [建立交易型訊息](transactional-messaging/create-transactional.md)
       + [驗證您的交易型訊息](transactional-messaging/validate-transactional.md)
       + [監視交易型訊息](transactional-messaging/monitor-transactional.md)
-   + [傳送外部傳遞](msg/send-external-deliveries.md)
+   + [發送外部傳遞](msg/send-external-deliveries.md)
    + [將產品建議新增至您的訊息](msg/offers.md)
    + [向您的訂閱者傳送訊息](msg/send-to-subscribers.md)
    + [設定傳遞設定](advanced-settings/delivery-settings.md)
@@ -116,12 +116,12 @@ ht-degree: 96%
          + [調整垂直對齊方式和邊框間距](email/alignment-and-padding.md)
          + [定義連結樣式](email/styling-links.md)
          + [新增內嵌樣式屬性](email/inline-styling.md)
-   + AI 助理內容加速器 {#ai-assistant}
-      + [使用 AI 助理內容加速器](email/generative-gs.md)
+   + AI 助理 {#ai-assistant}
+      + [使用AI助理](email/generative-gs.md)
       + [使用 AI 產生電子郵件](email/generative-content.md)
       + [使用 AI 產生簡訊](email/generative-sms.md)
       + [使用 AI 產生推播通知](email/generative-push.md)
-      + [使用AI產生登陸頁面](email/generative-lp.md)
+      + [使用 AI 的登陸頁面生成式內容](email/generative-lp.md)
       + [AI 助理使用案例](email/generative-uc.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](landing-pages/get-started-lp.md)
@@ -230,7 +230,7 @@ ht-degree: 96%
    + [設定自訂欄位](administration/custom-fields.md)
    + [設定外部帳戶](administration/external-account.md)
    + [使用類型學](administration/typologies.md)
-   + [管理分項清單](administration/enumerations.md)
+   + [管理列舉](administration/enumerations.md)
    + [設定 [!DNL Campaign] 選項](administration/options.md)
-   + [使用JavaScript程式碼](administration/javascript-codes.md)
-+ [Campaign v8 (控制台) 文件 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)
+   + [使用 JavaScript 程式碼](administration/javascript-codes.md)
++ [Campaign v8 (主控台) 文件 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)

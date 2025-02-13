@@ -1,15 +1,15 @@
 ---
-title: 內容加速器使用案例的AI助理
-description: 透過使用案例瞭解如何使用Content Accelerator的AI Assistant
+title: AI 助理使用案例
+description: 透過使用案例瞭解如何使用AI Assistant
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: a387304ed95a6e33beb31f15f888a77edf0cad6e
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 0%
+source-wordcount: '525'
+ht-degree: 1%
 
 ---
 
-# 內容加速器使用案例的AI助理 {#generative-uc}
+# AI 助理使用案例 {#generative-uc}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. 開啟&#x200B;**[!UICONTROL AI助理]**&#x200B;區段。
 
-1. 開啟內容加速器的AI Assistant中的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;功能，根據您的傳送詳細資料（包括傳送名稱和目標對象）量身打造新內容。
+1. 開啟AI助理中的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;功能，根據您的傳送詳細資料（包括傳送名稱和目標對象）量身打造新內容。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中指定您的要求來調整內容，並視需要自訂設定。
 
@@ -89,11 +89,11 @@ ht-degree: 0%
 
 1. 設定並設定傳遞後，按一下[編輯內容]。****
 
-1. 使用Content Accelerator的AI Assistant選擇要修改的資產。
+1. 選擇您要使用AI助理修改的資產。
 
 1. 從右窗格功能表中選擇&#x200B;**[!UICONTROL AI小幫手]**。
 
-1. 開啟&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，讓Content Accelerator的AI助理可以使用參考資料產生新內容。
+1. 開啟&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，讓AI助理可以使用參考資料產生新內容。
 
 1. 按一下&#x200B;**[!UICONTROL 上傳影像]**&#x200B;以包含將內容新增至變數的影像。
 

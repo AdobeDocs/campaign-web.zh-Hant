@@ -2,80 +2,80 @@
 title: 在 Campaign Web 中使用 AI 驅動的內容說明
 description: 在 Campaign Web 說明彈出視窗中提出問題
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 0183534ca68960261fa59582dba2e2220e60b024
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 5%
+source-wordcount: '801'
+ht-degree: 97%
 
 ---
 
 # 常見問題集
 
-下節列出有關新Campaign介面的常見問題。 您有其他問題嗎？ 您想與同行分享經驗或交流想法嗎？ 或者，您是否對 Adobe 團隊的學習內容有回饋？ 在[Adobe Campaign社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}中加入交談。
+下面部分列有全新 Campaign 介面的常見問題。有其他疑問嗎？ 您想與同行分享經驗或交流想法嗎？ 或者，您是否對 Adobe 團隊的學習內容有回饋？ 在 [Adobe Campaign 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}中加入對話！
 
 
-+++ 我需要開啟哪個Adobe Campaign版本才能存取新的網頁使用者介面？
++++ 我需要使用哪個版本的 Adob&#x200B;&#x200B;e Campaign 才能存取新的 Web 使用者介面？
 
-若要存取新的使用者介面，需要Adobe Campaign 8.6版，且必須有[AdobeIdentity Management System (IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。 可在[這裡](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims){target="_blank"}檢閱IMS的其他資訊。 如果客戶使用Adobe Campaign Managed Cloud Services，且想瞭解更多升級至新版本的資訊，請聯絡您指派的轉換經理。
-
-+++
-
-+++ 在Adobe Campaign 8.6上以後，我可以在何處進一步瞭解如何開始使用？
-
-若要瞭解從何處開始，請瀏覽[此頁面](../get-started/get-started.md)。
+若要存取新的使用者介面，需要使用 Adob&#x200B;&#x200B;e Campaign 版本 8.6，且依規定要使用 [Adobe Identity Management System (IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。若要了解更多關於 IMS，可在[此處](https://experienceleague.adobe.com/zh-hant/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims){target="_blank"}查看。若是使用 Adob&#x200B;&#x200B;e Campaign Managed Cloud Services 的客戶，且希望了解有關升級至新版本的更多資訊，請聯絡您獲指定的服務轉換經理。
 
 +++
 
-+++ 新網頁使用者介面中有哪些新功能？
++++ 當我使用 Adob&#x200B;&#x200B;e Campaign 8.6 後，如何了解更多並開始使用？
 
-Adobe Campaign v8中的新使用者介面可與Adobe Experience Platform保持一致，且專為行銷效率而設計。 新的工作流程畫布為對象構成、工作流程管理和內容設計提供直覺式的進階工作區，並與Adobe Experience Platform原生應用程式(如Journey Optimizer和Real-Time CDP)整合使用案例。  透過AI Assistant Content Accelerator (原生內嵌於WYSIWYG訊息設計工具)，激發創造力、提高生產力並大規模個人化跨管道行銷活動。
-
-行銷人員可以使用創作AI來建立完整HTML的電子郵件構思，並產生包含細分和變體建議的文字和影像。 您可以在[此頁面](../rn/whats-new.md)上檢閱新功能。 若要進一步瞭解新介面並檢視其運作情況，請造訪[此頁面](../get-started/user-interface.md)。 此外，您可以造訪[Tutorials](https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/overview){target="_blank"}，透過一組操作說明影片深入瞭解新介面。
+若要了解如何開始使用，請瀏覽[此頁面](../get-started/get-started.md)。
 
 +++
 
-+++  轉換至新的網頁介面時，我們仍可以使用Campaign主控台嗎？
++++ 新的 Web 使用者介面有哪些新特點和新功能？
 
-Campaign使用者端主控台可與新介面同時使用。 但是，新的使用者介面中目前沒有可用的功能。 若要比較新Web使用者介面與Campaign使用者端主控台中的功能，請造訪[此頁面](../get-started/capability-matrix.md)。
+Adobe Campaign v8 的新使用者介面可提供與 Adob&#x200B;&#x200B;e Experience Platform 的一致性，目的在提高行銷效率。對於客群構成、工作流程管理和內容設計，全新工作流程畫布可提供直觀先進的工作空間，並可提供與 Adob&#x200B;&#x200B;e Experience Platform 原生應用程式 (如 Journey Optimizer 和 Real-Time CDP) 整合的使用案例。透過AI Assistant (原生內嵌於WYSIWYG訊息設計工具)，激發創造力、提高生產力並大規模個人化跨頻道行銷活動。
 
-+++
-
-+++ 我如何瞭解有哪些新功能和改進可用？
-
-將在發行說明及[Campaign網頁首頁](../get-started/user-interface.md#user-interface-home)中宣佈變更和新功能。 若要檢視發行說明，請造訪[此頁面](../rn/release-notes.md)。
-+++
-
-
-+++  我目前使用Adobe Campaign Classic v7 — 我使用新使用者介面的路徑為何？
-
-若要存取新的使用者介面，您必須使用Adobe Campaign v8.6，並使用您的Adobe ID連線至Campaign。 第一步是針對ManagedCloud Service、進階或企業SKU進行授權。 請聯絡您的Adobe團隊或主要聯絡點。 如果您已經使用Managed Cloud Service Advanced或Enterprise，請聯絡您的轉換經理以排程升級至v8。 如需詳細資訊，請造訪專屬的[轉換頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}。
+行銷人員可以使用生成式 AI 進行完整的 HTML 電子郵件構思以及文字和影像生成，並提供更完美和變化版本的建議。您可以在[此頁面](../rn/whats-new.md)了解新特點和功能。若要了解更多有關新介面並查看其實際運作，請瀏覽[此頁面](../get-started/user-interface.md)。此外，您還可以瀏覽[教學課程](https://experienceleague.adobe.com/zh-hant/docs/campaign-web-learn/tutorials/overview){target="_blank"}，透過一系列作法影片了解更多關於新介面的資訊。
 
 +++
 
-+++  我目前使用Adobe Campaign Classic v7混合式或內部部署 — 我使用新使用者介面的路徑為何？
++++  當我們轉換至新的 Web 介面同時，還能使用 Campaign Console 嗎？
 
-若要存取新的使用者介面，您必須使用Adobe Campaign v8.6，並使用您的Adobe ID連線至Campaign。 第一個步驟是取得受管理的Cloud Service進階或企業SKU的授權，然後在Adobe Consulting和/或合作夥伴的協助下移轉至雲端。 請聯絡您的Adobe聯絡點。 在專屬的[轉換頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}瞭解更多資訊。
-+++
-
-+++ 這是否表示已不再支援Adobe Campaign Classic v7？
-
-Adobe Campaign Classic v7的支援將持續至2027年3月31日。 請造訪[產品與技術支援期間](https://helpx.adobe.com/support/programs/eol-matrix.html){target="_blank"}頁面。
-+++
-
-+++ 我目前位於Adobe Campaign Standard — 我使用新使用者介面的路徑為何？
-
-若要存取新的使用者介面，您必須使用Adobe Campaign v8.6。第一步是針對Managed Cloud Service Advanced或Enterprise SKU進行授權。 請聯絡您的Adobe聯絡點。 如果您已經使用Managed Cloud Service Advanced或Enterprise，請聯絡您的轉換經理，以排程轉換到v8。 在專屬的[採用指南](../../adoption/home.md)中瞭解更多資訊。
+Campaign 用戶端主控台可以與新介面並行使用。但是目前，新使用者介面中有些功能還不能使用。若要比較新 Web 使用者介面和 Campaign 用戶端主控台的功能，請瀏覽[此頁面](../get-started/capability-matrix.md)。
 
 +++
 
++++ 我如何了解有哪些適用的新功能和改善功能？
 
-+++ 隨著新使用者介面的推出，是否有任何功能被取代？
-
-目前，如果新使用者介面中無法使用所有功能，將可透過主控台使用。 若要比較功能可用性，請造訪[此頁面](../get-started/capability-matrix.md)。
+關於任何變更和新功能，均已公佈在發行說明和 [Campaign 網頁首頁](../get-started/user-interface.md#user-interface-home)中。若要查看發行說明，請瀏覽[此頁面](../rn/release-notes.md)。
 +++
 
 
-+++ 新的網頁使用者介面是否有任何護欄或限制？
++++  我目前使用 Adob&#x200B;&#x200B;e Campaign Classic v7 – 我可以透過什麼途徑存取新的使用者介面？
 
-[這裡](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}列出Campaign v8的護欄和限制。 此外，特定的護欄適用於網頁使用者介面中的工作流程。 可在[此頁面](../get-started/guardrails.md)中檢閱這些專案。 另請參閱[Adobe Campaign Managed Cloud Services | 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}。
+若要存取新的使用者介面，您需要使用 Adob&#x200B;&#x200B;e Campaign v8.6，並使用您的 Adob&#x200B;&#x200B;e ID 連線至 Campaign。第一步是獲得 Managed Cloud Services 授權 (進階或企業 SKU)。請聯絡您的 Adob&#x200B;&#x200B;e 團隊或主要聯絡人。如果您已經使用 Managed Cloud Services 進階版或企業版，請聯絡您的服務轉換經理安排升級至 v8。請瀏覽專門的[轉換頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}，可取得更多資訊。
+
++++
+
++++  我目前使用 Adob&#x200B;&#x200B;e Campaign Classic v7 Hybrid 或內部部署版本 - 我可以透過什麼途徑存取新的使用者介面？
+
+若要存取新的使用者介面，您需要使用 Adob&#x200B;&#x200B;e Campaign v8.6，並使用您的 Adob&#x200B;&#x200B;e ID 連線至 Campaign。第一步是獲得 Managed Cloud Services 授權 (進階或企業 SKU)，然後在 Adob&#x200B;&#x200B;e Consulting 和/或合作夥伴的協助下移轉至雲端。請聯絡您的 Adob&#x200B;&#x200B;e 聯絡人。若要了解更多資訊，請瀏覽專用的[轉換頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}。
++++
+
++++ 這是否表示對 Adob&#x200B;&#x200B;e Campaign Classic v7 的支援將終止？
+
+Adobe Campaign Classic v7 將支援至 2027 年 3 月 31 日。請瀏覽[產品和技術支援期](https://helpx.adobe.com/tw/support/programs/eol-matrix.html){target="_blank"}頁面。
++++
+
++++ 我目前使用 Adob&#x200B;&#x200B;e Campaign Standard – 我可以透過什麼途徑存取新的使用者介面？
+
+若要存取新的使用者介面，您需要使用 Adob&#x200B;&#x200B;e Campaign v8.6。第一步是獲得 Managed Cloud Services 授權 (進階或企業 SKU)。請聯絡您的 Adob&#x200B;&#x200B;e 聯絡人。如果您已經使用 Managed Cloud Services 進階版或企業版，請聯絡您的服務轉換經理安排轉換至 v8。若要了解更多資訊，請參閱專門的[採用指南](../../adoption/home.md)。
+
++++
+
+
++++ 由於新使用者介面的推出，是否有任何功能已被淘汰？
+
+目前，有些功能在新使用者介面中無法使用，但所有功能都可透過主控台使用。若要比較功能適用性，請瀏覽[此頁面](../get-started/capability-matrix.md)。
++++
+
+
++++ 新的 Web 使用者介面是否有任何護欄或限制？
+
+Campaign v8 的護欄和限制列於[此處](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}。此外，在 Web 使用者介面中，特定的護欄適用於工作流程。您可在[此頁](../get-started/guardrails.md)中查看這些功能。另請參閱[Adobe Campaign Managed Cloud Services | 產品描述](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}。
 +++

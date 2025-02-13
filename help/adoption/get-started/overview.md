@@ -4,9 +4,9 @@ description: 瞭解開始使用新的Campaign v8應用程式所需的步驟
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1556'
 ht-degree: 29%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 29%
 
 ### Adobe Campaign v8的新功能 {#ac-new-features}
 
-作為Campaign Standard使用者轉換到Adobe Campaign v8，您現在可以使用以下功能：
+身為Campaign Standard使用者轉換至Adobe Campaign v8，您現在可以使用下列功能：
 
 * **豐富推送**
 
@@ -93,7 +93,7 @@ ht-degree: 29%
 
   Adobe Experience Manager as a Cloud Service提供雲端原生的敏捷性，可讓您加速實現價值的時間，並適應不斷變化的業務需求。 此整合不僅可增強您的內容管理功能，也可讓您透過所有接觸點，將更個人化且吸引人的體驗提供給您的客戶。
 
-* **AI Assistant — 內容加速器**
+* **AI小幫手**
 
   Campaign AI Assistant可以讓您在電子郵件、簡訊和推播等管道直觀地建立和執行行銷活動，既簡單又輕鬆，同時還能節省時間、提高效率並帶來更好的結果。
 
@@ -105,7 +105,7 @@ ht-degree: 29%
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  它提供電子郵件範本的變體，並產生和重新產生影像。 在[本節](../../v8/email/generative-content.md)中進一步瞭解AI Assistant — 內容加速器。 Adobe Campaign v8有AI助理可用於[電子郵件](../../v8/email/generative-content.md)、[簡訊](../../v8/email/generative-sms.md)和[推播](../../v8/email/generative-push.md)。
+  它提供電子郵件範本的變體，並產生和重新產生影像。 在[本節](../../v8/email/generative-content.md)中進一步瞭解AI助理。 Adobe Campaign v8有AI助理可用於[電子郵件](../../v8/email/generative-content.md)、[簡訊](../../v8/email/generative-sms.md)和[推播](../../v8/email/generative-push.md)。
 
 * **升級的SMS基礎結構 — SMS v2.0**
 
@@ -124,7 +124,7 @@ ht-degree: 29%
 
 Adobe Campaign v8 可作為 Managed Cloud Services，提供主動預防性監督、即時警報及服務管理。Adobe Managed Cloud Service 為行銷人員提供了更靈活、安全性更高、可擴充性也更大的跨頻道行銷管理解決方案，而且總體擁有成本低廉。 新產品結合了服務與主動性監督和及時警報。
 
-## v8中新增的Campaign Standard功能 {#ac-v8-added}
+## v8新增Campaign Standard功能 {#ac-v8-added}
 
 為了讓您順利轉換到 Campaign v8，Campaign v8 中新增了關鍵的 Campaign Standard 功能。[本文件](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}對此進行了詳細說明。
 
@@ -138,7 +138,7 @@ Adobe Campaign v8 可作為 Managed Cloud Services，提供主動預防性監督
 
 * **視覺片段**  - 視覺片段是可重複使用的視覺元件，可在一個或多個電子郵件傳遞或在內容範本中進行參考。修改片段時，使用該片段的所有內容都會隨之更新。此功能可讓您預先建立多個自訂內容區塊，以便行銷使用者在改進的設計流程中使用這些內容區塊來快速組裝訊息內容。[了解更多](../../v8//content/use-visual-fragments.md)
 
-## Campaign Standard和Campaign v8之間的主要差異 {#experiences}
+## Campaign Standard與Campaign v8的主要差異 {#experiences}
 
 Adobe Campaign v8和Adobe Campaign Standard中的大多數概念都類似。 不過，兩者有一些差異，如下所述。
 

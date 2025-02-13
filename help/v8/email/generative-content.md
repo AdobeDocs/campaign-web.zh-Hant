@@ -1,36 +1,36 @@
 ---
 audience: end-user
 title: 產生式內容
-description: 開始使用AI Assistant內容加速器
+description: 開始使用AI助理
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1563'
 ht-degree: 1%
 
 ---
 
-# 使用AI Assistant Content Accelerator產生電子郵件 {#generative-content}
+# 使用 AI 助理產生電子郵件 {#generative-content}
 
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Campaign網頁中使用AI助理內容加速器。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Campaign網頁中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 
-建立並個人化您的電子郵件後，在由generative AI提供支援的Campaign中使用Adobe Campaign網頁中的AI Assistant Content Accelerator，將您的內容提升到新的境界。
+建立並個人化您的電子郵件後，在由generative AI提供支援的Campaign中使用Adobe Campaign網路中的AI助理，將您的內容提升到新的境界。
 
-Adobe Campaign Web中的AI Assistant內容加速器可以產生整封電子郵件、目標文字內容，甚至特別為引起觀眾共鳴而量身打造的影像，協助您最佳化傳送的影響。 這會最佳化您的電子郵件行銷活動，以提升參與度。
+Adobe Campaign Web中的AI助理可以產生整封電子郵件、目標文字內容，甚至特別為引起觀眾共鳴而量身打造的影像，協助您最佳化傳送的影響。 這會最佳化您的電子郵件行銷活動，以提升參與度。
 
-透過您的電子郵件行銷活動，您可以使用AI助理產生完整的電子郵件、文字或影像。 探索以下標籤，瞭解如何使用Adobe Campaign網頁中的AI Assistant內容加速器。
+透過您的電子郵件行銷活動，您可以使用AI助理產生完整的電子郵件、文字或影像。 探索以下標籤，瞭解如何使用Adobe Campaign網路中的AI小幫手。
 
 >[!BEGINTABS]
 
 >[!TAB 產生完整電子郵件]
 
-在下列範例中，我們將利用Adobe Campaign網站中的AI Assistant內容加速器來調整現有電子郵件，針對特殊事件自訂它。
+在下列範例中，我們將利用Adobe Campaign網站中的AI助理來調整現有電子郵件，針對特殊事件自訂它。
 
 1. 建立並設定您的電子郵件傳遞後，請按一下[編輯內容]。****
 

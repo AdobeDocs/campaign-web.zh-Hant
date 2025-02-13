@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: 使用AI Assistant Content Accelerator的登陸頁面
-description: 開始使用AI Assistant內容加速器
+title: 具有AI助理的登陸頁面
+description: 開始使用AI助理
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 2%
+source-wordcount: '1521'
+ht-degree: 1%
 
 ---
 
-# 使用 AI 助理內容加速器的登陸頁面生成式內容 {#generative-lp}
+# 使用AI助理產生登陸頁面{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="使用AI產生登陸頁面"
->abstract="您現在可以使用AI Assistant Content Accelerator來建立您的登入頁面傳送，讓您產生文字、影像或完整的頁面配置。"
+>abstract="您現在可以使用AI助理建立登入頁面傳送，讓您產生文字、影像或完整頁面配置。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 
@@ -24,19 +24,19 @@ ht-degree: 2%
 >開始使用此功能之前，請先閱讀相關的[護欄和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Adobe Campaign網頁中使用AI Assistant內容加速器。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Adobe Campaign網頁中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-在Adobe Campaign Web中使用AI Assistant Content Accelerator，由創作AI提供技術支援，轉換您的登入頁面。
+使用由創作AI提供支援的Adobe Campaign Web中的AI助理來轉換您的登陸頁面。
 
 輕鬆建立具影響力的內容，包括完整頁面、量身打造的文字片段，以及可引起觀眾共鳴的自訂視覺效果，進而促進參與度和互動。
 
-探索以下標籤，瞭解如何使用Adobe Campaign網頁中的AI Assistant內容加速器。
+探索以下標籤，瞭解如何使用Adobe Campaign網路中的AI小幫手。
 
 >[!BEGINTABS]
 
 >[!TAB 產生完整登陸頁面]
 
-在下列範例中，我們將運用AI Assistant內容加速器來調整現有的登入頁面範本。
+在下列範例中，我們將利用AI助理來調整現有的登入頁面範本。
 
 1. 建立及設定您的登入頁面後，請按一下[編輯內容]。****
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
    ![](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
+1. 啟用AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 >[!TAB 只產生文字]
 
-在下列範例中，我們將利用AI Assistant內容加速器來增強登陸頁面的內容。
+在下列範例中，我們將利用AI助理來增強登陸頁面的內容。
 
 1. 建立及設定您的登入頁面後，請按一下[編輯內容]。****
 
@@ -109,7 +109,7 @@ ht-degree: 2%
 
    ![](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
+1. 啟用AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
@@ -159,19 +159,19 @@ ht-degree: 2%
 
 >[!TAB 只產生影像]
 
-在以下範例中，瞭解如何運用AI Assistant內容加速器來最佳化和改善您的資產，確保更方便使用者的體驗。
+在以下範例中，瞭解如何運用AI Assistant來最佳化和改善您的資產，確保更方便使用者的體驗。
 
 1. 建立及設定您的登入頁面後，請按一下[編輯內容]。****
 
    如需如何設定登入頁面的詳細資訊，請參閱[此頁面](../landing-pages/create-lp.md)。
 
-1. 選取您要使用AI Assistant Content Accelerator變更的資產。
+1. 選取您要使用AI助理變更的資產。
 
 1. 從右側功能表選取&#x200B;**[!UICONTROL AI小幫手]**。
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
+1. 啟用AI助理的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 

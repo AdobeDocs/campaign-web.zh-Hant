@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 83%
+source-wordcount: '579'
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <tbody>
 <tr>
 <td>
-<p>您現在可以在 Campaign Web 介面中定義外部傳遞和外部傳遞範本。在此模式中，訊息會編譯成輸出檔案，以便與外部提供者共用。 依據預設，外部傳遞模式是用於直接郵件管道。</p>
+<p>您現在可以在 Campaign Web 介面中定義外部傳遞和外部傳遞範本。在此模式中，訊息會編譯成一個輸出檔案，該檔案可以與您的外部提供者共用。依據預設，外部傳遞模式是用於直接郵件管道。</p>
 <img src="assets/do-not-localize/external-delivery.gif">
 <p>如需詳細資訊，請參閱<a href="../msg/send-external-deliveries.md">詳細說明文件</a>。</p>
 </td>
@@ -138,15 +138,15 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <table>
 <thead>
 <tr>
-<th><strong>使用AI Assistant Content Accelerator產生登陸頁面</strong><br/></th>
+<th><strong>使用AI助理產生登陸頁面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI Assistant Content Accelerator現在可用於登陸頁面傳送，讓您產生文字、影像或完整頁面配置。</p>
+<p>AI Assistant現在可用於登陸頁面傳送，讓您產生文字、影像或完整頁面配置。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>如需AI助理內容加速器的詳細資訊，請參閱<a href="../email/generative-lp.md">詳細檔案</a>。</p>
+<p>如需AI助理的詳細資訊，請參閱<a href="../email/generative-lp.md">詳細檔案</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -166,4 +166,4 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 * 最近和我的最愛篩選器：為了快速重複使用常用的屬性，您現在可以將它們新增到我的最愛中。這可確保它們能夠輕鬆用於未來的任務中。除了我的最愛之外，您還可以檢視和使用最近選取的屬性。
 
-* 外部帳戶：建立新的外部帳戶時，可選取新的&#x200B;**[!UICONTROL 路由]**&#x200B;型別。 它可讓您設定特定的外部帳戶，以用於外部傳遞。 [了解更多](../administration/external-account.md#routing)
+* 外部帳戶：建立新的外部帳戶時，有全新&#x200B;**[!UICONTROL 路由]**&#x200B;類型可供選擇。此帳戶允許您設定一個特定的外部帳戶，可供外部傳遞使用。[了解更多](../administration/external-account.md#routing)
