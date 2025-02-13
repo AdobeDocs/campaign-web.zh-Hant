@@ -34,7 +34,7 @@ Adobe Campaign v8 的新使用者介面可提供與 Adob&#x200B;&#x200B;e Experi
 
 +++
 
-+++  當我們轉換至新的 Web 介面同時，還能使用 Campaign Console 嗎？
++++  當我們轉換至新的 Web 介面時，是否仍能使用 Campaign Console？
 
 Campaign 用戶端主控台可以與新介面並行使用。但是目前，新使用者介面中有些功能還不能使用。若要比較新 Web 使用者介面和 Campaign 用戶端主控台的功能，請瀏覽[此頁面](../get-started/capability-matrix.md)。
 
