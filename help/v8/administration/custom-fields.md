@@ -2,10 +2,10 @@
 title: 自訂欄位
 description: 瞭解如何設定自訂欄位，以及這些欄位在介面中的可見度。
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 25%
+source-wordcount: '925'
+ht-degree: 24%
 
 ---
 
@@ -68,9 +68,11 @@ ht-degree: 25%
 
    使用篩選器窗格中的&#x200B;**[!UICONTROL 可編輯]**&#x200B;篩選器，以快速識別具有自訂欄位的結構描述。
 
-   ![](assets/custom-fields-list.png)
+   ![](assets/custom-fields-open.png)
 
-1. 按一下位於結構描述名稱旁的鉛筆圖示，即可存取其自訂欄位。 在此範例中，我們要為&#x200B;**[!UICONTROL 收件者]**&#x200B;結構描述新增欄位。
+1. 在清單中選取結構描述名稱以開啟它。 詳細的結構描述檢視會顯示[進一步瞭解結構描述詳細資料](../administration/schemas.md)。 按一下&#x200B;**[!UICONTROL 編輯自訂詳細資料]**&#x200B;按鈕以存取自訂欄位。 在此範例中，我們要為&#x200B;**[!UICONTROL 收件者]**&#x200B;結構描述新增欄位。
+
+   ![](assets/custom-fields-edit.png)
 
 1. 在架構顯示的介面中顯示的自訂欄位清單。 在此處，「CRM ID」欄位會顯示在設定檔的詳細資訊畫面中，並已標籤為必要。
 
@@ -78,9 +80,9 @@ ht-degree: 25%
    |  ---  |  ---  |
    | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
-1. 若要新增自訂欄位至介面，請按一下畫面右上角的&#x200B;**[!UICONTROL 新增]**&#x200B;按鈕，然後選擇下列其中一個選項：
+1. 若要新增自訂欄位至介面，請按一下省略符號按鈕，然後選擇下列其中一個選項：
 
-   * **[!UICONTROL 自訂屬性]**：選取一或多個自訂欄位以顯示於介面中。
+   * **[!UICONTROL 選取自訂欄位]**：選取一或多個自訂欄位以顯示於介面中。
    * **[!UICONTROL 自動填寫自訂欄位清單]**：將結構描述定義的所有自訂欄位新增到介面。
 
    ![](assets/custom-fields-add.png)
@@ -91,7 +93,7 @@ ht-degree: 25%
    * **將欄位設為必要**：選取&#x200B;**必要**&#x200B;核取方塊。
    * **編輯欄位設定**：按一下省略符號按鈕，然後選擇&#x200B;**[!UICONTROL 編輯]**。 [了解更多](#settings)
    * **刪除欄位**：按一下省略符號按鈕，然後選擇&#x200B;**[!UICONTROL 刪除]**。
-   * **在介面中將欄位組織成子區段**：按一下&#x200B;**[!UICONTROL 新增]**&#x200B;並選擇&#x200B;**[!UICONTROL 分隔符號]**。 [了解更多](#separator)
+   * **在介面中將欄位組織成子區段**：按一下上下箭頭旁的省略符號按鈕，然後選擇&#x200B;**[!UICONTROL 新增分隔符號]**。 [了解更多](#separator)
 
 ## 設定自訂欄位設定 {#settings}
 
@@ -124,7 +126,7 @@ ht-degree: 25%
 
 Campaign Web使用者介面可讓您新增分隔符號，以便將介面中的自訂欄位群組在一起，以提高可讀性。 若要這麼做，請依照以下步驟進行：
 
-1. 按一下「**[!UICONTROL 新增]**」按鈕，然後選取「**[!UICONTROL 分隔符號]**」。
+1. 按一下上下箭頭旁邊的省略符號按鈕，並選取&#x200B;**[!UICONTROL 新增分隔符號]**。
 
 1. 代表分隔符號的新行會新增至清單中。 按一下省略符號按鈕，然後選擇&#x200B;**[!UICONTROL 編輯]**&#x200B;以命名子區段。
 

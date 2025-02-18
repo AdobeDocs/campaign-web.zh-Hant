@@ -3,9 +3,9 @@ audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: ffe6c2b2f8b022876eb4b1754915b5753aab7c1a
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2003'
 ht-degree: 100%
 
 ---
@@ -361,12 +361,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="執行初始化指令碼"
 >abstract="執行初始化指令碼"
 
-<!--Schema-->
-
->[!CONTEXTUALHELP]
->id="acw_schema"
->title="結構描述"
->abstract="結構描述"
+<!-- Schema creation -->
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_type"
@@ -412,32 +407,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_start_update"
 >title="開始資料庫更新"
 >abstract="結構描述"
-
-
-
-<!-- Target Mapping -->
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_list"
->title="目標對應"
->abstract="目標對應"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_properties"
->title="目標對應屬性"
->abstract="目標對應屬性"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_mapping"
->title="目標對應對應"
->abstract="目標對應對應"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_denylist"
->title="目標對應封鎖清單"
->abstract="目標對應封鎖清單"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_storage"
->title="目標對應儲存"
->abstract="目標對應封鎖儲存"

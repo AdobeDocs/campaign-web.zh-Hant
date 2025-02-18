@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 99%
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 99%
    + [早期發行版](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
    + 先前版本 {#previous-release-notes}
+      + [2025 版本](rn/release-notes-25.md)
       + [2024 版本](rn/release-notes-24.md)
    + [文件更新](rn/documentation-updates.md)
 + 開始使用 Adobe Campaign {#start}
@@ -227,10 +228,12 @@ ht-degree: 99%
    + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
 + 設定 {#conf}
+   + [使用商業規則（型別）](administration/typologies.md)
+   + [管理目標對應](administration/target-mappings.md)
+   + [使用結構描述](administration/schemas.md)
    + [設定自訂欄位](administration/custom-fields.md)
-   + [設定外部帳戶](administration/external-account.md)
-   + [使用類型學](administration/typologies.md)
-   + [管理列舉](administration/enumerations.md)
    + [設定 [!DNL Campaign] 選項](administration/options.md)
+   + [設定外部帳戶](administration/external-account.md)
+   + [管理列舉](administration/enumerations.md)
    + [使用 JavaScript 程式碼](administration/javascript-codes.md)
 + [Campaign v8 (主控台) 文件 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)
