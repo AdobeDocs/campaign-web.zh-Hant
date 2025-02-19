@@ -2,7 +2,7 @@
 title: 關鍵績效指標
 description: 瞭解如何瞭解關鍵績效指標
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 27e44682178267353418de210af51067eee4141b
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 79%
@@ -17,6 +17,7 @@ ht-degree: 79%
 >abstract="「**關鍵績效指標**」區段可讓您使用常見的 KPI 值來檢查平台的服務效率。"
 
 <!-- à enlever? -->
+
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="垃圾郵件"
