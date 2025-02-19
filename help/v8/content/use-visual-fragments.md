@@ -4,20 +4,14 @@ title: 在你的電子郵件中新增視覺內容片段
 description: 瞭解如何將視覺化片段新增至您的電子郵件
 badge: label="有限可用性"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '573'
 ht-degree: 14%
 
 ---
 
 # 在你的電子郵件中新增視覺內容片段 {#use-visual-fragments}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="電子郵件視覺片段"
->abstract="您現在可以建立和使用視覺化片段。 這些是預先定義的視覺化區塊，您可以在多個電子郵件傳遞或內容範本中重複使用。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 >[!AVAILABILITY]
 >

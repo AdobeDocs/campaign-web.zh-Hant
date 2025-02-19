@@ -1,19 +1,27 @@
 ---
 title: 使用結構描述
 description: 瞭解如何使用結構描述。
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 1%
+source-wordcount: '467'
+ht-degree: 2%
 
 ---
 
 # 使用結構描述 {#schemas}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="使用方案"
+>abstract="您現在可以在清單中選取結構描述的名稱，以存取其詳細資訊。 自訂欄位版本也可從&#x200B;**編輯自訂詳細資料**&#x200B;按鈕存取。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
+
+
+
+>[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="結構描述"
->abstract="**[!DNL Adobe Campaign]**&#x200B;使用XML架構來定義應用程式中資料的實體和邏輯結構。 在此畫面中，您可以檢視所有現有結構。 篩選器有助於調整清單，例如僅顯示可編輯的結構描述。"
+>abstract="**[!DNL Adobe Campaign]**&#x200B;使用XML架構來定義應用程式中資料的實體和邏輯結構。 在此畫面中，您可以檢視所有現有綱要，並透過在清單中選取綱要名稱來存取綱要的詳細資訊。 篩選器有助於調整清單，例如僅顯示可編輯的結構描述。"
 
 ## 關於綱要 {#about}
 

@@ -2,20 +2,14 @@
 title: 設定 [!DNL Campaign] 選項
 description: 瞭解如何設定Campaign選項及建立自己的自訂選項。
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 3%
+source-wordcount: '383'
+ht-degree: 2%
 
 ---
 
 # 設定 [!DNL Campaign] 選項 {#options}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="建立自訂選項"
->abstract="您現在可以建立自己的技術自訂選項，以符合您的需求。 使用&#x200B;**JavaScript程式碼**&#x200B;工作流程活動來儲存中繼資料時，這會特別有用。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"
@@ -31,7 +25,7 @@ Adobe Campaign Web隨附技術選項，可讓您更具體設定應用程式。 �
 
 >[!IMPORTANT]
 >
->內建選項已預先設定，僅供進階使用者修改。 如果您有任何問題或請求，請聯絡您的Adobe代表。
+>內建選項已預先設定，僅供進階使用者修改。 如有任何問題或請求，請聯絡您的Adobe代表。
 
 ## 存取Campaign選項 {#access}
 

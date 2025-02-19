@@ -3,14 +3,21 @@ audience: end-user
 title: 使用商業規則（型別）
 description: 瞭解如何使用型別和型別規則來控制、篩選及監控傳送的傳送。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1449'
 ht-degree: 22%
 
 ---
 
 # 使用商業規則（型別） {#typologies}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="業務規則"
+>abstract="您現在可以在Adobe Campaign網頁使用者介面中建立型別與型別規則。 型別可讓您控制、篩選傳遞內容，並設定其優先順序。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"

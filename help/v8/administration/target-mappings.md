@@ -1,14 +1,21 @@
 ---
 title: 管理目標對應
 description: 瞭解如何管理目標對應。
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 2%
+source-wordcount: '787'
+ht-degree: 3%
 
 ---
 
 # 管理目標對應 {#target-mappings}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="目標對應"
+>abstract="您現在可以在Campaign Web使用者介面中建立目標對應。 目標對應定義不同傳送通道（電子郵件、簡訊、推播通知）連結至結構描述資料欄位的方式。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"
