@@ -49,7 +49,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
 >title="SMS 目標群體"
->abstract="**目標群體**&#x200B;圖表和資料表顯示與您的 SMS 客群相關的資料：要傳遞的訊息和排除項目。"
+>abstract="**目標群體**&#x200B;圖表和資料表顯示與您的 SMS 對象相關的資料：要傳遞的訊息和排除項目。"
 
 **目標母體**&#x200B;圖表和表格會顯示與您的對象相關的資料。 量度詳情如下。
 

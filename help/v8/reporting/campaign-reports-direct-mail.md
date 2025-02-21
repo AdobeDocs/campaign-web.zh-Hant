@@ -39,12 +39,12 @@ ht-degree: 21%
 
 +++
 
-### 初始目標客群統計資料 {#delivery-summary-direct-initial-target}
+### 初始目標對象統計資料 {#delivery-summary-direct-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
->title="初始目標客群統計資料"
->abstract="收件者資料和訊息資訊顯示在&#x200B;**初始目標客群統計資料**&#x200B;表格中，反映了傳遞準備分析。"
+>title="初始目標對象統計資料"
+>abstract="收件者資料和訊息資訊顯示在&#x200B;**初始目標對象統計資料**&#x200B;表格中，反映了傳遞準備分析。"
 
 **[!UICONTROL 初始目標對象統計資料]**&#x200B;表格會顯示與收件者相關的資料。 量度會在傳遞準備期間計算並顯示：初始對象、要傳送的訊息數、排除的收件者數。
 

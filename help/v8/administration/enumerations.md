@@ -5,7 +5,7 @@ exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 27%
+ht-degree: 30%
 
 ---
 
@@ -13,8 +13,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
->title="建立分項清單"
->abstract="您現在可以直接透過 Adobe Campaign Web 使用者介面建立列舉。分項清單是系統建議用來填入欄位的值清單。"
+>title="建立列舉"
+>abstract="您現在可以直接透過 Adobe Campaign Web 使用者介面建立列舉。列舉是系統建議可以填入欄位的一組數值。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 

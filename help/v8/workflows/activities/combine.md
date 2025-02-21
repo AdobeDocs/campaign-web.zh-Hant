@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="選取分段類型"
->abstract="選取如何結合客群。「**聯合**」讓您將多個活動的結果重新組合成單一目標。「**交集**」讓您僅保留活動中不同輸入群體的通用元素。「**排除**」可讓您根據特定條件從一個群體中排除元素。 "
+>abstract="選取如何結合對象。「**聯合**」讓您將多個活動的結果重新組合成單一目標。「**交集**」讓您僅保留活動中不同輸入群體的通用元素。「**排除**」可讓您根據特定條件從一個群體中排除元素。 "
 
 請按照以下常見步驟開始設定「**組合**」活動：
 

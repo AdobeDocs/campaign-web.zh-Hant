@@ -20,7 +20,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="定義簡訊客群"
->abstract="您可以建立新客群，或者點選「**選擇客群**」按鈕選取現有的客群。如果需要，請新增一個控制組來測量傳遞的影響。"
+>abstract="您可以建立新對象，或者點選「**選擇對象**」按鈕選取現有的對象。如果需要，請新增一個控制組來測量傳遞的影響。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-hant" text="設定控制組"
 
 >[!CONTEXTUALHELP]

@@ -16,7 +16,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card3"
 >title="開始使用電子郵件"
->abstract="您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的環境中建立電子郵件。了解如何建立傳遞、選取客群以及設計電子郵件內容。"
+>abstract="您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的環境中建立電子郵件。了解如何建立傳遞、選取對象以及設計電子郵件內容。"
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
@@ -73,9 +73,9 @@ ht-degree: 56%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="選取傳遞客群"
->abstract="為您的行銷訊息選取最佳客群。您可以選擇現有客群 (已在 Campaign v8 執行個體中定義或來自 Adobe Experience Platform)、使用查詢建模工具建立新客群，或上傳包含您客群的檔案。「**從檔案中選取**」選項未啟用控制組，反之亦然。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=zh-hant" text="選取主要客群"
+>title="選取傳遞對象"
+>abstract="為您的行銷訊息選取最佳對象。您可以選擇現有對象 (已在 Campaign v8 執行個體中定義或來自 Adobe Experience Platform)、使用查詢建模工具建立新對象，或上傳包含您對象的檔案。「**從檔案中選取**」選項未啟用控制組，反之亦然。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=zh-hant" text="選取主要對象"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-hant" text="設定控制組"
 
 在此使用案例中，您會傳送電子郵件給現有的對象。

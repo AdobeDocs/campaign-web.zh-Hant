@@ -67,7 +67,7 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
->title="將測試輪廓納入主要客群"
+>title="將測試輪廓納入主要對象"
 >abstract="啟用此選項也可將最終訊息傳送給校訂收件者。"
 
 測試設定檔是資料庫中的其他收件者。 它們是從&#x200B;**[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]**&#x200B;功能表建立的。 [了解更多](../audience/test-profiles.md#create-test-profiles)

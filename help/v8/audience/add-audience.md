@@ -16,13 +16,13 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="選取現有客群"
->abstract="瀏覽清單以選取現有客群。使用「顯示篩選器」圖示篩選清單，或選取特定資料夾。"
+>abstract="瀏覽清單以選取現有對象。使用「顯示篩選器」圖示篩選清單，或選取特定資料夾。"
 
 本節說明在定義傳送的目標母體時，如何選取現有的對象。 定義傳送的主要目標時，您也可以：
 * [使用查詢模組化工具建置一次性對象](one-time-audience.md)。
 * [從外部檔案載入對象](file-audience.md) （僅適用於電子郵件）。
 
-可在傳遞中鎖定的對象可從&#x200B;**對象**&#x200B;左側功能表存取。 它們源自於多個來源，例如使用者端主控台、Campaign Web對象工作流程或Adobe Experience Platform。 [進一步了解客群](manage-audience.md)
+可在傳遞中鎖定的對象可從&#x200B;**對象**&#x200B;左側功能表存取。 它們源自於多個來源，例如使用者端主控台、Campaign Web對象工作流程或Adobe Experience Platform。 [進一步了解對象](manage-audience.md)
 
 若要為您的訊息選取現有客群，請依照以下步驟進行：
 

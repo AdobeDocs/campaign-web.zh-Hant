@@ -25,12 +25,12 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="類型"
->abstract="您可以利用類型將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞客群之外。"
+>abstract="您可以利用類型將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞對象之外。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="傳遞的類型設定"
->abstract="您可以利用類型規則將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞客群之外。"
+>abstract="您可以利用類型規則將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞對象之外。"
 
 型別是一組&#x200B;**型別規則**，在準備階段執行，以便一次輕鬆將多個篩選規則套用至傳遞。 它們可讓行銷人員標準化所有傳送的業務實務，讓他們控制、篩選傳送內容並安排傳送內容的優先順序。 [瞭解如何建立型別與型別規則](../administration/typologies.md)
 
@@ -79,7 +79,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="傳遞的容量設定"
->abstract="在傳遞訊息之前，請使用容量規則以確保您的組織可以處理傳遞、傳遞可能生成的傳入訊息，以及用於聯絡訂閱者的呼叫次數等。容量規則是在 Adobe Campaign v8 主控台中定義。在此畫面中，選取一個與頻道關聯的規則。"
+>abstract="在傳遞訊息之前，請使用容量規則以確保您的組織可以處理傳遞、傳遞可能產生的傳入訊息，以及用於聯絡訂閱者的呼叫次數等。容量規則是在 Adobe Campaign v8 主控台中定義。在此畫面中，選取一個與頻道關聯的規則。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -94,11 +94,11 @@ ht-degree: 46%
 >
 >型別規則是在Campaign使用者端主控台中設定。 深入瞭解[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}。
 
-## 客群設定 {#audience}
+## 對象設定 {#audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
->title="傳遞的客群設定"
+>title="傳遞的對象設定"
 >abstract="在那些可用項目中選取「**目標對應**」。目標對應是在 Adobe Campaign v8 主控台中定義的。您也可以設定傳遞的排除參數。"
 
 在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。目標對應是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。 [進一步瞭解目標對應](../audience/targeting-dimensions.md)。

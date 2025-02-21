@@ -35,7 +35,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="項目 3"
->abstract="客群、訂閱、AEM Assets、登陸頁面的使用者體驗重新設計"
+>abstract="對象、訂閱、AEM Assets、登陸頁面的使用者體驗重新設計"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"

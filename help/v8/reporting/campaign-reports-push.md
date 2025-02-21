@@ -38,13 +38,13 @@ ht-degree: 18%
 
 +++
 
-### 初始目標客群統計資料 {#delivery-summary-push-initial-target}
+### 初始目標對象統計資料 {#delivery-summary-push-initial-target}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
->title="初始目標客群統計資料"
->abstract="**初始目標客群統計資料**&#x200B;表可顯示與您收件者相關的資料"
+>title="初始目標對象統計資料"
+>abstract="**初始目標對象統計資料**&#x200B;表可顯示與您收件者相關的資料"
 
 **[!UICONTROL 初始目標對象統計資料]**&#x200B;表格會顯示與收件者相關的資料。 量度詳情如下。
 

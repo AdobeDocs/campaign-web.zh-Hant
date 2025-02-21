@@ -28,7 +28,7 @@ ht-degree: 9%
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
-## 查詢中的值分佈 {#distribution-values-query}
+## 查詢中的數值分佈 {#distribution-values-query}
 
 根據目前的查詢引數，值分佈會顯示表格中欄位每個值的百分比。 瞭解查詢中值的分佈情況，有助於精簡細分範圍。
 
@@ -171,8 +171,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
->title="選取客群"
->abstract="透過使用「**選取客群**」選項，您可以選擇要用來篩選查詢的客群。"
+>title="選取對象"
+>abstract="透過使用「**選取對象**」選項，您可以選擇要用來篩選查詢的對象。"
 
 若要使用現有對象篩選查詢，請執行下列步驟：
 
@@ -248,7 +248,7 @@ ht-degree: 9%
 
 此外，您可以按一下轉變上的&#x200B;**+**&#x200B;按鈕，以建立中繼元件群組。 這可讓您在此特定位置新增運運算元，以將多個元件分組在一起，並調整查詢。
 
-在以下範例中，我們已建立中繼群組以包含「VIP to reward」或「Super VIP」受眾的結果。
+在下列範例中，我們已建立中繼群組以包含「要獎勵的VIP」或「超級VIP」對象的結果。
 
 ![](assets/query-intermediate-group.png){zoomable="yes"}
 

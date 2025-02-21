@@ -49,7 +49,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
 >title="推播目標群體"
->abstract="**目標群體**&#x200B;圖表和資料表顯示與您的推播傳訊客群相關的資料：要傳遞的訊息和排除項目。"
+>abstract="**目標群體**&#x200B;圖表和資料表顯示與您的推播傳訊對象相關的資料：要傳遞的訊息和排除項目。"
 
 **目標母體**&#x200B;圖表和表格會顯示與您的對象相關的資料：要傳送的訊息和排除專案。 量度詳情如下。
 

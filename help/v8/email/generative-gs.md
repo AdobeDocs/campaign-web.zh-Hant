@@ -6,11 +6,11 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
-# 使用AI助理 {#generative-gs}
+# 使用 AI 助理 {#generative-gs}
 
 
 >[!CONTEXTUALHELP]
@@ -22,7 +22,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
 >title="在 Campaign 中使用 AI 助理定義內容"
->abstract="若要將所選內容做為內容生成的輸入，請啟動&#x200B;**使用目前的內容進行增強**&#x200B;切換。您也可以上傳您的品牌資產以將其做為來源。如果您不使用所選內容，則必須上傳並選取品牌資產。"
+>abstract="若要將所選內容做為內容產生的輸入，請啟動&#x200B;**使用目前的內容進行增強**&#x200B;切換。您也可以上傳您的品牌資產以將其做為來源。如果您不使用所選內容，則必須上傳並選取品牌資產。"
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"

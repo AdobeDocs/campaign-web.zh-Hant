@@ -52,7 +52,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="擴充活動"
->abstract="將擴充資料新增到工作流程後，它可以用於在擴充活動之後新增的活動中，根據客戶的行為、偏好和需求將客戶分成不同群組，或是用於建立最有可能讓目標客群產生共鳴的個人化行銷訊息和行銷活動。"
+>abstract="將擴充資料新增到工作流程後，它可以用於在擴充活動之後新增的活動中，根據客戶的行為、偏好和需求將客戶分成不同群組，或是用於建立最有可能讓目標對象產生共鳴的個人化行銷訊息和行銷活動。"
 
 1. 按一下&#x200B;**新增擴充資料**，並選取要用來擴充資料的屬性。 [瞭解如何選取屬性並將其新增至我的最愛](../../get-started/attributes.md)
 
@@ -178,7 +178,7 @@ ht-degree: 39%
 
    ![](../assets/offers-propositions.png)
 
-   進入&#x200B;**[!UICONTROL 呈現函式]**，並根據您的需求選擇&#x200B;**[!UICONTROL HTML呈現]**&#x200B;或&#x200B;**[!UICONTROL 文字呈現]**。
+   進入&#x200B;**[!UICONTROL 演算函式]**，並根據您的需求選擇&#x200B;**[!UICONTROL HTML演算]**&#x200B;或&#x200B;**[!UICONTROL 文字演算]**。
 
    ![](../assets/offers-rendering.png)
 

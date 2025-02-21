@@ -6,16 +6,16 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# 使用AI助理產生登陸頁面{#generative-lp}
+# 使用 AI 助理產生登陸頁面{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="使用AI產生登陸頁面"
->abstract="您現在可以使用AI助理建立登入頁面傳送，讓您產生文字、影像或完整頁面配置。"
+>title="使用 AI 產生登陸頁面"
+>abstract="您現在可以使用 AI 助理來建立要傳遞的登陸頁面，讓您能夠產生文字、影像或完整的網頁版面。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 

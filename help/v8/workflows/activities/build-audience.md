@@ -14,10 +14,10 @@ ht-degree: 70%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="建置客群活動"
->abstract="「**建置客群**」活動可讓您定義會進入工作流程的客群。在工作流程中傳送訊息時，訊息客群不會在管道活動中定義，而是在「**建置客群**」活動中定義。"
+>title="建置對象活動"
+>abstract="「**建置對象**」活動可讓您定義會進入工作流程的對象。在工作流程中傳送訊息時，訊息對象不會在管道活動中定義，而是在「**建置對象**」活動中定義。"
 
-「**建置客群**」活動是一種「**目標定位**」活動。此活動可讓您定義會進入工作流程的客群。在工作流程中傳送訊息時，訊息客群不會在管道活動中定義，而是在「**建置客群**」活動中定義。
+「**建置客群**」活動是一種「**目標定位**」活動。此活動可讓您定義會進入工作流程的客群。在工作流程中傳送訊息時，訊息對象不會在管道活動中定義，而是在「**建置對象**」活動中定義。
 
 若要定義客群群體，您可以：
 
@@ -33,12 +33,12 @@ ht-degree: 70%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 設定建置客群活動 {#build-audience-configuration}
+## 設定建置對象活動 {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="客群"
->abstract="選取您的客群，與您設計新傳遞時使用客群的方式相同。"
+>abstract="選取您的對象，與您設計新傳遞時使用對象的方式相同。"
 
 請按照以下步驟設定「**建置客群**」活動：
 
