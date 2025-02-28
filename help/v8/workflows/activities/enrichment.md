@@ -71,9 +71,9 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="連結定義"
->abstract="在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其輪廓中的此資訊。"
+>abstract="在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其設定檔中的此資訊。"
 
-**[!UICONTROL 連結定義]**&#x200B;區段可讓您在工作表格資料與Adobe Campaign資料庫之間建立連結。 例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其輪廓中的此資訊。
+**[!UICONTROL 連結定義]**&#x200B;區段可讓您在工作表格資料與Adobe Campaign資料庫之間建立連結。 例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其設定檔中的此資訊。
 
 有數種可用的連結型別：
 
@@ -141,7 +141,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
 >title="產品建議提議"
->abstract="擴充活動可讓您為每個客戶輪廓新增產品建議。"
+>abstract="擴充活動可讓您為每個客戶設定檔新增產品建議。"
 
 **[!UICONTROL 擴充]**&#x200B;活動可讓您為每個設定檔新增優惠。
 

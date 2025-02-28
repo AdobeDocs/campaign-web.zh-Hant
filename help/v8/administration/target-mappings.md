@@ -1,10 +1,11 @@
 ---
 title: 管理目標對應
 description: 瞭解如何管理目標對應。
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="目標對應"
->abstract="您現在可以在Campaign Web使用者介面中建立目標對應。 目標對應定義不同傳送通道（電子郵件、簡訊、推播通知）連結至結構描述資料欄位的方式。"
+>abstract="現在您可以在 Campaign Web 使用者介面中建立目標對應。目標對應定義不同的傳遞管道 (電子郵件、SMS、推播通知) 如何連結到結構描述的資料欄位。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]
@@ -37,12 +38,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
 >title="目標對應屬性"
->abstract="**[!UICONTROL 屬性]**&#x200B;區段可讓您定義目標對應與目標母體的一般設定。"
+>abstract="您可以利用「**[!UICONTROL 屬性]**」區段定義目標對應的一般設定以及目標群體。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
 >title="目標對應對應"
->abstract="**[!UICONTROL 對應]**&#x200B;區段可讓您識別目標對應結構描述中的哪些屬性要用於各種傳遞位址列位。"
+>abstract="您可以利用「**[!UICONTROL 對應]**」區段來確認目標對應的結構描述中有哪些屬性可在各個傳遞位址欄位中使用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
@@ -52,7 +53,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
 >title="目標對應儲存"
->abstract="**[!UICONTROL 儲存]**&#x200B;區段可讓您識別必須儲存記錄檔的位置。"
+>abstract="您可以利用「**[!UICONTROL 儲存]**」區段來確認記錄必須儲存在什麼地方。"
 
 若要建立新的目標對應，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 目標對應]**&#x200B;功能表。 按一下&#x200B;**[!UICONTROL 建立對應]**&#x200B;按鈕，然後遵循以下各節中詳述的步驟。
 

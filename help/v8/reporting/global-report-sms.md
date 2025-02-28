@@ -92,7 +92,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_exclusions"
 >title="簡訊排除的原因"
->abstract="**「排除原因」**&#x200B;圖表和表格說明阻止使用者輪廓接收簡訊推播通知的多種原因。"
+>abstract="**「排除原因」**&#x200B;圖表和表格說明阻止使用者設定檔接收簡訊推播通知的多種原因。"
 
 排除原因&#x200B;**[!UICONTROL 圖形與表格會顯示從目標設定檔中排除的使用者設定檔無法接收簡訊傳送的原因。]**
 

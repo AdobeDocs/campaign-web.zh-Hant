@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 27e44682178267353418de210af51067eee4141b
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="連結屬性"
->abstract="使用查詢建模工具以指定顯示連結類型自訂欄位的規則。例如，根據其他欄位的輸入限制清單值。"
+>abstract="使用查詢建模工具以指定顯示連結類型自訂欄位的規則。例如，根據另一個欄位的輸入來限制清單值。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
@@ -109,7 +109,7 @@ ht-degree: 22%
 * **[!UICONTROL 顯示條件：]**：使用控制欄位顯示時間的xtk運算式定義條件。 例如，如果另一個欄位為空，則隱藏此欄位。
 * **[!UICONTROL 必要]**：在介面中將欄位設為必要。
 * **[!UICONTROL 唯讀]**：將介面中的欄位設為唯讀。 使用者將無法編輯欄位的值。
-* **[!UICONTROL 篩選器設定]** （針對連結型別欄位）：使用查詢模組化工具來指定顯示連結型別自訂欄位的規則。 例如，根據其他欄位的輸入限制清單值。
+* **[!UICONTROL 篩選器設定]** （針對連結型別欄位）：使用查詢模組化工具來指定顯示連結型別自訂欄位的規則。 例如，根據另一個欄位的輸入來限制清單值。
 
   您也可以使用語法`$(<field-name>)`，參考條件中其他欄位輸入的值。 這可讓您參照在表單中輸入的欄位目前值，即使它尚未儲存到資料庫亦然。
 

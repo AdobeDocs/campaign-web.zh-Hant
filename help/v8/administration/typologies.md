@@ -1,32 +1,32 @@
 ---
 audience: end-user
-title: 使用商業規則（型別）
+title: 使用業務規則 (類型)
 description: 瞭解如何使用型別和型別規則來控制、篩選及監控傳送的傳送。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
 source-wordcount: '1449'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
-# 使用商業規則（型別） {#typologies}
+# 使用業務規則 (類型) {#typologies}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="業務規則"
->abstract="您現在可以在Adobe Campaign網頁使用者介面中建立型別與型別規則。 型別可讓您控制、篩選傳遞內容，並設定其優先順序。"
+>abstract="您現在可以在 Adobe Campaign Web 使用者介面中建立類型和類型規則。您可以使用類型來控制、篩選及優先處理傳遞內容的傳送。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
 >title="類型和類型規則"
->abstract="您可以利用類型將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞對象之外。"
+>abstract="您可以利用類型將所有傳遞的業務實務標準化。類型是類型規則的集合，可讓您控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。"
 
 ## 關於型別
 
-您可以利用類型將所有傳遞的業務實務標準化。**型別**&#x200B;是&#x200B;**型別規則**&#x200B;的集合，可讓您控制、篩選傳遞內容，並排定其優先順序。 在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞對象之外。
+您可以利用類型將所有傳遞的業務實務標準化。**型別**&#x200B;是&#x200B;**型別規則**&#x200B;的集合，可讓您控制、篩選傳遞內容，並排定其優先順序。 在準備階段，與類型規則中的標準相符的設定檔會排除在傳遞對象之外。
 
 型別可確保您的傳送一律包含特定元素（例如取消訂閱連結或主旨列）或篩選規則，以從您的預期目標（例如取消訂閱者、競爭者或不忠誠客戶）中排除群組。
 

@@ -274,22 +274,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
->title="模擬測試輪廓"
->abstract="模擬測試輪廓"
+>title="模擬測試設定檔"
+>abstract="模擬測試設定檔"
 
 <!--ML: not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
->title="模擬測試輪廓選擇"
->abstract="模擬測試輪廓選擇"
+>title="模擬測試設定檔選擇"
+>abstract="模擬測試設定檔選擇"
 
 <!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
->title="模擬測試輪廓傳送"
->abstract="模擬測試輪廓傳送"
+>title="模擬測試設定檔傳送"
+>abstract="模擬測試設定檔傳送"
 
 <!-- ML: beta wiki page - not visible in UI-->
 

@@ -15,7 +15,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="訂閱服務活動"
->abstract="「訂閱服務」活動允許在單一動作中訂閱或取消訂閱多個輪廓。"
+>abstract="「訂閱服務」活動允許在單一動作中訂閱或取消訂閱多個設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
@@ -30,7 +30,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="其他資訊"
->abstract="指定每筆記錄的資料和訂閱來源。您可以將這個區段留白，使其在執行工作流程時不會設定任何日期或來源。如果輸入資料包含一欄而其中顯示輪廓的服務訂閱日期，您可以在「**[!UICONTROL 日期]**」欄位中選取該欄。在「**[!UICONTROL 來源路徑]**」欄位中，定義訂閱的來源。您可以勾選「**[!UICONTROL 設定一個常數做為來源]**」選項，將該欄設為輸入資料的其中一個欄位，或設為您選取的常數值。"
+>abstract="指定每筆記錄的資料和訂閱來源。您可以將這個區段留白，使其在執行工作流程時不會設定任何日期或來源。如果輸入資料包含一欄而其中顯示設定檔的服務訂閱日期，您可以在「**[!UICONTROL 日期]**」欄位中選取該欄。在「**[!UICONTROL 來源路徑]**」欄位中，定義訂閱的來源。您可以勾選「**[!UICONTROL 設定一個常數做為來源]**」選項，將該欄設為輸入資料的其中一個欄位，或設為您選取的常數值。"
 
 **訂閱服務**&#x200B;活動是&#x200B;**資料管理**&#x200B;活動。 它可讓您為轉變中指定的母體建立或刪除資訊服務的訂閱。
 

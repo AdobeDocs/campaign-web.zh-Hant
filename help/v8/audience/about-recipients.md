@@ -14,7 +14,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="輪廓"
->abstract="輪廓代表鎖定接收 Adobe Campaign 所傳送訊息的記錄。在此清單中，您可以根據您的權限查看輪廓的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組輪廓屬性。"
+>abstract="設定檔代表鎖定接收 Adobe Campaign 所傳送訊息的記錄。在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
 
 ## 什麼是設定檔？ {#what}
 

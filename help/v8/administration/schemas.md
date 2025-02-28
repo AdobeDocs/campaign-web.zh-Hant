@@ -1,10 +1,11 @@
 ---
 title: 使用結構描述
 description: 瞭解如何使用結構描述。
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 2%
+ht-degree: 26%
 
 ---
 
@@ -12,8 +13,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="使用方案"
->abstract="您現在可以在清單中選取結構描述的名稱，以存取其詳細資訊。 自訂欄位版本也可從&#x200B;**編輯自訂詳細資料**&#x200B;按鈕存取。"
+>title="使用結構描述"
+>abstract="現在您可以在清單中選取結構描述的名稱來存取其詳細資訊。您也可以透過「**編輯自訂詳細資料**」按鈕存取自訂欄位版本。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 
@@ -21,11 +22,11 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="結構描述"
->abstract="**[!DNL Adobe Campaign]**&#x200B;使用XML架構來定義應用程式中資料的實體和邏輯結構。 在此畫面中，您可以檢視所有現有綱要，並透過在清單中選取綱要名稱來存取綱要的詳細資訊。 篩選器有助於調整清單，例如僅顯示可編輯的結構描述。"
+>abstract="**[!DNL Adobe Campaign]** 使用 XML 型結構描述來定義應用程式內資料的物理和邏輯結構。在這個畫面，您可以查看所有現有結構描述，而且在清單中選取結構描述名稱可存取其詳細資訊。您可以使用篩選器來調整清單顯示項目，例如僅顯示可編輯的結構描述。"
 
 ## 關於綱要 {#about}
 
-**[!DNL Adobe Campaign]**&#x200B;使用XML架構來定義應用程式中資料的實體和邏輯結構。 架構是連結至資料庫表格的XML檔案，其定義：
+**[!DNL Adobe Campaign]** 使用 XML 型結構描述來定義應用程式內資料的物理和邏輯結構。架構是連結至資料庫表格的XML檔案，其定義：
 
 * SQL表格結構（表格名稱、欄位、關係）。
 * xml資料結構（元素、屬性、階層、型別、預設值、標籤）。
@@ -46,7 +47,7 @@ Adobe Campaign中的每個實體都有專屬的結構描述，以確保資料一
 
 ![](assets/schemas-list.png)
 
-在此畫面中，您可以檢視所有現有結構。 篩選器有助於調整清單，例如僅顯示可編輯的結構描述。
+在此畫面中，您可以檢視所有現有結構。 您可以使用篩選器來調整清單顯示項目，例如僅顯示可編輯的結構描述。
 
 若要開啟結構描述，請選取其名稱。 詳細結構檢視隨即顯示。
 

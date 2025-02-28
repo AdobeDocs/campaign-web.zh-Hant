@@ -89,7 +89,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
 >title="推播排除"
->abstract="**「排除」**&#x200B;圖表和表格顯示多種原因，禁止從目標輪廓中排除的使用者輪廓接收訊息。"
+>abstract="**「排除」**&#x200B;圖表和表格顯示多種原因，禁止從目標設定檔中排除的使用者設定檔接收訊息。"
 
 **[!UICONTROL 排除專案]**&#x200B;圖表和表格會顯示各種原因，導致從目標設定檔中排除的使用者設定檔無法接收訊息。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}中有詳細說明。
 

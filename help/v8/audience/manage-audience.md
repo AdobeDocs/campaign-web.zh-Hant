@@ -20,7 +20,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="對象規模"
->abstract="在此處可以找到對象當中的輪廓總數。按一下「**計算**」按鈕，可更新並重新計算對象結果。"
+>abstract="在此處可以找到對象當中的設定檔總數。按一下「**計算**」按鈕，可更新並重新計算對象結果。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"

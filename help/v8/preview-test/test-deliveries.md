@@ -21,7 +21,7 @@ ht-degree: 13%
 
 若要偵測訊息內容或個人化設定中可能出現的錯誤，請先傳送校樣至測試設定檔，再傳送給目標對象。 每次進行變更時都應傳送校樣，以驗證最新內容。 傳送校樣是驗證行銷活動和識別潛在問題的重要步驟。 校樣收件者可以檢查各種元素，例如連結、選擇退出連結、影像或映象頁面，並偵測轉譯、內容、個人化設定和傳遞設定中的任何錯誤。
 
-## 模擬測試輪廓的內容 {#simulate-content-test-deliveries}
+## 模擬測試設定檔的內容 {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -48,7 +48,7 @@ ht-degree: 13%
 
    每種模式的詳細設定如下。
 
-## 使用測試輪廓 {#test-profiles}
+## 使用測試設定檔 {#test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
@@ -57,8 +57,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
->title="上傳輪廓"
->abstract="如果想要透過和已經用於主要目標不同的集合測試您的傳遞，則可以上傳包含其他輪廓的第二個檔案。"
+>title="上傳設定檔"
+>abstract="如果想要透過和已經用於主要目標不同的集合測試您的傳遞，則可以上傳包含其他設定檔的第二個檔案。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
@@ -67,7 +67,7 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
->title="將測試輪廓納入主要對象"
+>title="將測試設定檔納入主要對象"
 >abstract="啟用此選項也可將最終訊息傳送給校訂收件者。"
 
 測試設定檔是資料庫中的其他收件者。 它們是從&#x200B;**[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]**&#x200B;功能表建立的。 [了解更多](../audience/test-profiles.md#create-test-profiles)

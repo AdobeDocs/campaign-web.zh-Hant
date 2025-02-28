@@ -14,7 +14,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="訂閱清單"
->abstract="此標籤列出輪廓訂閱的所有服務。"
+>abstract="此標籤列出設定檔訂閱的所有服務。"
 
 若要存取設定檔的詳細資料，請瀏覽至&#x200B;**[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]**，然後按一下您要存取的設定檔。
 

@@ -41,7 +41,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="擷取模式"
->abstract="對照組是一組從傳遞排除的輪廓。若要定義控制組，您可以選擇從目標群體中隨機或基於排序、百分比或固定數量的輪廓中擷取。"
+>abstract="對照組是一組從傳遞排除的設定檔。若要定義控制組，您可以選擇從目標群體中隨機或基於排序、百分比或固定數量的輪廓中擷取。"
 
 
 ### 建立控制組 {#build-extract-target}
@@ -105,7 +105,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="額外群體"
->abstract="對照組是一組從傳遞排除的輪廓。定義控制組的另一種方法是選取現有對象或定義查詢從傳遞對象中排除特定群體。"
+>abstract="對照組是一組從傳遞排除的設定檔。定義控制組的另一種方法是選取現有對象或定義查詢從傳遞對象中排除特定群體。"
 
 定義控制組的另一種方式是選取現有對象中的特定母體，或藉由定義查詢來進行。
 
