@@ -3,9 +3,9 @@ title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 [此頁面](release-notes-24.md)列出先前版本可用的變更和改良功能。
 
-## 2025年2月發行 {#25-2-release}
+## 2025 年 2 月發行版本 {#25-2-release}
 
 **發行日期**：2025 年 2 月 18 日
 
-從2月發行版本開始，將推出下列功能和改善專案。
+以下功能和改良功能將從 2 月版開始提供。
 
 ### 功能 {#25-2-features}
 
@@ -37,7 +37,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <tbody>
 <tr>
 <td>
-<p>您現在可以在Adobe Campaign網頁使用者介面中建立型別與型別規則。 型別可讓您控制、篩選傳遞內容，並設定其優先順序。 型別用於驗證傳遞一律包含必要元件（例如取消訂閱連結或主旨行）或篩選規則，以從您的對象中排除群組（例如取消訂閱者、競爭者或不忠誠客戶）。</p>
+<p>您現在可以在 Adobe Campaign Web 使用者介面中建立類型和類型規則。您可以使用類型來控制、篩選及優先處理傳遞內容的傳送。類型可用於驗證傳遞是否始終包含強制元件 (例如取消訂閱連結或主旨列)，或套用篩選規則以從您的客群中排除群組 (例如取消訂閱者、競爭者或非忠誠客戶)。</p>
 <img src="assets/do-not-localize/typology.gif">
 <p>如需詳細資訊，請參閱<a href="../administration/typologies.md">詳細說明文件</a>。</p>
 </td>
@@ -54,7 +54,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <tbody>
 <tr>
 <td>
-<p>您現在可以在Campaign Web使用者介面中建立目標對應。 目標對應定義不同傳送通道（電子郵件、簡訊、推播通知）連結至結構描述資料欄位的方式。 目標對應可讓您定義目標對象：設定檔、合約受益人、操作員、訂閱者、潛在客戶等。</p>
+<p>現在您可以在 Campaign Web 使用者介面中建立目標對應。目標對應定義了不同的傳遞管道 (電子郵件、簡訊、推播通知) 如何連結到結構描述的資料欄位。目標對應可讓您定義目標客群：輪廓、合約受益人、操作者、訂閱者、潛在客戶等。</p>
 <img src="assets/do-not-localize/target-mapping.gif">
 <p>如需詳細資訊，請參閱<a href="../administration/target-mappings.md">詳細說明文件</a>。</p>
 </td>
@@ -71,7 +71,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <tbody>
 <tr>
 <td>
-<p>您現在可以在清單中選取結構描述的名稱，以存取其詳細資訊。 自訂欄位版本現在可從結構描述詳細資料中可用的<b>編輯自訂欄位</b>按鈕存取。</p>
+<p>現在您可以在清單中選取結構描述的名稱來存取其詳細資料。自訂欄位版本現在可以透過結構描述詳細資料中的「<b>編輯自訂欄位</b>」按鈕存取。</p>
 <img src="assets/do-not-localize/schemas.gif">
 <p>如需詳細資訊，請參閱<a href="../administration/schemas.md">詳細說明文件</a>。</p>
 </td>
@@ -177,15 +177,15 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 <table>
 <thead>
 <tr>
-<th><strong>使用AI助理產生登陸頁面</strong><br/></th>
+<th><strong>使用 AI 助理產生登陸頁面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI Assistant現在可用於登陸頁面傳送，讓您產生文字、影像或完整頁面配置。</p>
+<p>AI 助理現在可用於您的登陸頁面傳遞，讓您能夠產生文字、影像或完整的網頁版面。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>如需AI助理的詳細資訊，請參閱<a href="../email/generative-lp.md">詳細檔案</a>。</p>
+<p>如需有關 AI 助理的詳細資訊，請參閱<a href="../email/generative-lp.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>

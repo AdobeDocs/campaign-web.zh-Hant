@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 98%
    + [早期發行版](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
    + 先前版本 {#previous-release-notes}
-      + [2025 版本](rn/release-notes-25.md)
-      + [2024 版本](rn/release-notes-24.md)
+      + [2025 年版本](rn/release-notes-25.md)
+      + [2024 年版本](rn/release-notes-24.md)
    + [文件更新](rn/documentation-updates.md)
 + 開始使用 Adobe Campaign {#start}
    + [開始使用](get-started/get-started.md)
@@ -118,7 +118,7 @@ ht-degree: 98%
          + [定義連結樣式](email/styling-links.md)
          + [新增內嵌樣式屬性](email/inline-styling.md)
    + AI 助理 {#ai-assistant}
-      + [使用AI助理](email/generative-gs.md)
+      + [使用 AI 助理](email/generative-gs.md)
       + [使用 AI 產生電子郵件](email/generative-content.md)
       + [使用 AI 產生簡訊](email/generative-sms.md)
       + [使用 AI 產生推播通知](email/generative-push.md)
@@ -228,7 +228,7 @@ ht-degree: 98%
    + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
 + 設定 {#conf}
-   + [使用商業規則（型別）](administration/typologies.md)
+   + [使用業務規則 (類型)](administration/typologies.md)
    + [管理目標對應](administration/target-mappings.md)
    + [使用結構描述](administration/schemas.md)
    + [設定自訂欄位](administration/custom-fields.md)

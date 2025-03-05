@@ -4,9 +4,9 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -52,16 +52,16 @@ ht-degree: 90%
 >[!BEGINTABS]
 
 
->[!TAB 2025年2月發行版本]
+>[!TAB 2025 年 2 月發行版本]
 
-2月版現已上線，包括商業規則、目標對應及更多改善專案。
+2 月版現已上線，其中包括業務規則、目標對應和更多改良功能。
 
 [![了解更多按鈕](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->[!TAB AI小幫手]
+>[!TAB AI 助理]
 
-✨透過我們的[AI Assistant](../v8/email/generative-gs.md)即時功能預覽，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
+✨ 透過我們的 [AI 助理](../v8/email/generative-gs.md)即時功能預覽，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。
 
 [![了解更多按鈕](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

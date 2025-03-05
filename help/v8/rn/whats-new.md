@@ -4,9 +4,9 @@ title: Campaign Web 使用者介面有哪些新增功能？
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1311'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,13 +72,13 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 * 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/delivery-reports.md)
 
 
-使用AI助理產生&#x200B;**內容**
+**使用 AI 助理產生內容**
 
 藉助我們由 Microsoft Azure OpenAI 和 Adobe Firefly 支援的創新內容設計工具，免除手動建立內容的麻煩，迎接簡化行銷活動的新時代。
 
-透過我們進階的 WYSIWYG 拖放編輯器來重新定義內容傳遞，此編輯器是專為實現簡單和高效所設計。此多合一工具採用緊密整合的AEM、動態內容功能及改變遊戲規則的AI Assistant，能以直覺的方式有效率地建立傳遞，並高度個人化。
+透過我們進階的「所見即所得」拖放編輯器來重新定義內容傳遞，此編輯器是專為實現簡單和高效所設計。這款全方位工具內含順暢的 AEM 整合、動態內容功能及革新的 AI 助理，讓您直覺、高效且高度個人化地建立傳遞。
 
-利用AI Assistant進階演演算法的強大功能，建立吸引人、量身打造的內容來推動結果。 透過 AI 驅動的智慧內容產生，提高開啟率、點進率和轉換率。若要了解詳細資訊，請參閱[本章節](../email/generative-gs.md)。
+利用 AI 助理進階演算法的強大功能，製作引人入勝的自訂內容，進而推動成果。透過 AI 驅動的智慧內容產生，提高開啟率、點進率和轉換率。若要了解詳細資訊，請參閱[本章節](../email/generative-gs.md)。
 
 **全新及重新設計的行銷活動工作流程活動**
 
