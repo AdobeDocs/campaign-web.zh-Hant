@@ -4,7 +4,7 @@ description: 瞭解如何將使用者存取管理從Campaign Standard移轉至Ca
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
+source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 2%
@@ -89,7 +89,9 @@ Adobe Campaign Standard和Campaign V8會使用下列概念，來達成使用者�
 由於Campaign V8將&#x200B;**方案**&#x200B;視為&#x200B;**資料夾**，因此其存取的管理方式與任何其他資料夾相同。 移轉後，Campaign Standard管理員可依照下列步驟操作：
 
 1. 在檔案總管中，對任何資料夾按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 內容……]**。
+
 1. 瀏覽至&#x200B;**[!UICONTROL 安全性]**&#x200B;標籤。
+
 1. 根據所需的存取模式修改操作員群組許可權。 
 
 ## 用於存取REST API的產品設定檔對應 
