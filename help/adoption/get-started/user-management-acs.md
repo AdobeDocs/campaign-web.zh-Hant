@@ -4,9 +4,9 @@ description: 瞭解如何將使用者存取管理從Campaign Standard移轉至Ca
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '982'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Adobe Campaign Standard和Campaign V8會使用下列概念，來達成使用者�
 >
 >這些角色/已命名許可權的功能在實施中可能會有所不同，這可能會造成授權問題（例如，許可權提升或功能中斷）。 我們建議使用者在轉換後檢閱這些對應，以確保適當的存取控制。 [進一步瞭解許可權](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
-下表概述從Adobe Campaign Standard轉換至Campaign V8時，使用者角色群組的移轉方法。 在Campaign Standard中，Campaign V8中稱為&#x200B;**操作員群組**&#x200B;的&#x200B;**安全性群組**&#x200B;用於將一組角色指派給使用者。 雖然有些安全性群組/運運算元群組是現成可用的群組，但使用者可視需要建立新群組或修改現有群組。
+下表概述從Adobe Campaign Standard轉換至Campaign V8時，使用者角色群組的移轉方法。 在Campaign Standard中，**安全性群組** （在Campaign V8中稱為&#x200B;**運運算元群組**）是用來指派一組角色給使用者。 雖然有些安全性群組/運運算元群組是現成可用的群組，但使用者可視需要建立新群組或修改現有群組。
 
 | | **Campaign Standard** | **促銷活動V8** |
 |---------|----------|---------|
@@ -46,7 +46,11 @@ Adobe Campaign Standard和Campaign V8會使用下列概念，來達成使用者�
 
 ## 從使用者角色移轉至已命名許可權的方法
 
-在Adobe Campaign Standard中，術語&#x200B;**使用者角色**&#x200B;在Campaign V8中稱為&#x200B;**已命名許可權**。 下表概述Campaign V8中與Campaign Standard中&#x200B;**使用者角色**&#x200B;對應的&#x200B;**已命名許可權**&#x200B;所使用的術語。
+>[!CAUTION]
+>
+>從Adobe Campaign Standard移轉至Campaign V8期間，具有&#x200B;**資料模型**&#x200B;角色但不具有&#x200B;**管理**&#x200B;角色的使用者將自動取得&#x200B;**管理**&#x200B;存取權，因為Campaign V8中的結構描述建立需要管理許可權。 若要避免此問題，請在移轉前移除其&#x200B;**資料模型**&#x200B;角色。
+
+在Adobe Campaign Standard中，術語&#x200B;**使用者角色**&#x200B;在Campaign V8中稱為&#x200B;**已命名許可權**。 下表概述Campaign V8中與Campaign Standard中的&#x200B;**使用者角色**&#x200B;相對應的&#x200B;**已命名許可權**&#x200B;所使用的術語。
 
 | **Campaign Standard使用者角色** | **行銷活動V8已命名許可權** | **描述**  |
 |----------|---------|---------|
@@ -63,6 +67,12 @@ Adobe Campaign Standard和Campaign V8會使用下列概念，來達成使用者�
 | 工作流程 | 工作流程 | 管理工作流程開始、停止、暫停等的執行。 |
 
 ## 從組織單位移轉方法
+
+>[!CAUTION]
+>
+>Adobe Campaign Standard中沒有&#x200B;**所有（所有）**作為直接或間接父級的組織單位將不會移轉至Campaign V8。
+></br>
+>系統會為多個安全性群組中的使用者指派最高級別安全性群組的組織單位。 如果多個群組有平行的頂層單位，Campaign Standard會限制登入，但移轉後會授予Campaign v8更廣泛的存取權，且許可權可能會提升。 為避免此問題，請避免將使用者指派給具有平行組織單位的安全性群組。
 
 在Adobe Campaign Standard中，**組織uni** t對應至Campaign V8中的現有&#x200B;**資料夾**&#x200B;階層模型，以維護類似的存取控制。 [進一步瞭解資料夾管理](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
@@ -84,9 +94,9 @@ Adobe Campaign Standard和Campaign V8會使用下列概念，來達成使用者�
 
 ## 用於存取REST API的產品設定檔對應 
 
-若要從Campaign V8的執行執行個體存取交易API，除了&#x200B;**管理員**&#x200B;和&#x200B;**訊息中心**&#x200B;產品設定檔之外，還需要新的&#x200B;**產品設定檔**。 這個新的&#x200B;**產品設定檔**&#x200B;將新增至Campaign Standard中現有或預先建立的技術帳戶。
+若要從Campaign V8的執行執行個體存取交易API，除了&#x200B;**管理員**&#x200B;和&#x200B;**訊息中心**&#x200B;產品設定檔之外，還需要新的&#x200B;**產品設定檔**。 這個新的&#x200B;**產品設定檔**&#x200B;將新增至Campaign Standard中現有的或預先建立的技術帳戶。
 
-移轉後，如果Campaign Standard使用者不想將其&#x200B;**技術帳戶**&#x200B;連結至&#x200B;**管理員**&#x200B;產品設定檔，則應檢閱其&#x200B;**產品設定檔對應**，並指派適當的&#x200B;**產品設定檔**。 若是未來的整合，我們建議在&#x200B;**REST URL**&#x200B;中使用Campaign V8 **租使用者ID**，而不是使用先前的Campaign Standard **租使用者ID**。
+移轉後，若不想將其&#x200B;**技術帳戶**&#x200B;連結至&#x200B;**管理員**&#x200B;產品設定檔，Campaign Standard使用者應檢閱其&#x200B;**產品設定檔對應**，並指派適當的&#x200B;**產品設定檔**。 若是未來的整合，我們建議在&#x200B;**REST URL**&#x200B;中使用Campaign V8 **租使用者ID**，而非先前的Campaign Standard **租使用者ID**。
 
 ## 移轉Campaign Standard操作員的內建Campaign資源存取權
 
@@ -109,3 +119,5 @@ Adobe Campaign Standard和Campaign V8會使用下列概念，來達成使用者�
 * Adobe Experience Manager應用程式管理員
 
 * 轉送帳戶
+
+請注意，在Adobe Campaign Standard中建立並指派給使用者的自訂角色不會移轉至Campaign V8。
