@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: ht
-source-wordcount: '804'
-ht-degree: 100%
+source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 99%
 
 ---
 
@@ -124,6 +124,7 @@ ht-degree: 100%
       + [使用 AI 產生推播通知](email/generative-push.md)
       + [使用 AI 的登陸頁面生成式內容](email/generative-lp.md)
       + [AI 助理使用案例](email/generative-uc.md)
+      + [建立並管理您的品牌（測試版）](content/brands.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](landing-pages/get-started-lp.md)
    + [建立並發佈登陸頁面](landing-pages/create-lp.md)
