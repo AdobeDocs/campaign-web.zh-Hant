@@ -5,7 +5,7 @@ description: 瞭解如何建立和管理您的品牌指引
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: e6e23a758cce657b582174e522d61193dc7326cf
+source-git-commit: 4baa86395b3cbd062d641ea53ef337523bc7772d
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 1%
@@ -104,6 +104,6 @@ ht-degree: 1%
 
    ![](assets/brands_5.png)
 
-您現在可以從AI助理功能表的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉式清單存取品牌指南，使其產生符合您規格的內容和資產。 [進一步瞭解AI助理](gs-generative.md)
+您現在可以從AI助理功能表的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉式清單存取品牌指南，使其產生符合您規格的內容和資產。 [進一步瞭解AI助理](../email/generative-gs.md)
 
 ![](assets/brands_6.png)
