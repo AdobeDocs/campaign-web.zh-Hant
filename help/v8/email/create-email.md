@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送您的第一個電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
+source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1492'
 ht-degree: 51%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 51%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 模擬內容]**&#x200B;按鈕在特定使用案例中已停用。 限制在此區段](#content-simulation-limitations)中詳細說明[。
+   >**[!UICONTROL 模擬內容]**&#x200B;按鈕在特定內容中已停用。 限制在此區段](#content-simulation-limitations)中詳細說明[。
 
 1. 在左側，選取要用於預覽電子郵件的輪廓。
 
@@ -195,7 +195,7 @@ ht-degree: 51%
 
    您可以隨時按一下模擬內容畫面中的&#x200B;**[!UICONTROL 檢視校樣]**&#x200B;按鈕，以檢查傳送的狀態並存取傳送的校樣。
 
-## 內容模擬限制 {#content-simulation-limitations}
+### 內容模擬限制 {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"

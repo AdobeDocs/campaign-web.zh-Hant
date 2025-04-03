@@ -22,7 +22,7 @@ ht-degree: 100%
 
 此活動只會在所有傳入轉變啟動後，才會觸發其傳出轉變，換句話說，會在所有之前的活動完成後觸發。這讓您可以在確保特定活動已完成後再繼續執行工作流程。
 
-## 設定 And-join 活動{#and-join-configuration}
+## 設定合併連結活動{#and-join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"

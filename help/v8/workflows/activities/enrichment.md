@@ -47,7 +47,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
 >title="擴充資料"
->abstract="選取用於擴充工作流程的資料。您可以選取兩種類型的擴充資料：目標市場選擇維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
+>abstract="選取用於擴充工作流程的資料。您可以選取兩種類型的擴充資料：目標維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
