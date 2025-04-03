@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送您的第一個電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 56%
+source-wordcount: '1493'
+ht-degree: 51%
 
 ---
 
@@ -162,6 +162,10 @@ ht-degree: 56%
 
    ![](assets/review-email.png){zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >**[!UICONTROL 模擬內容]**&#x200B;按鈕在特定使用案例中已停用。 限制在此區段](#content-simulation-limitations)中詳細說明[。
+
 1. 在左側，選取要用於預覽電子郵件的輪廓。
 
    右窗格顯示根據所選輪廓的電子郵件預覽。如果您已新增多個輪廓，您可以切換輪廓以預覽對應的電子郵件。
@@ -190,6 +194,37 @@ ht-degree: 56%
    ![](assets/proof-sent.png){zoomable="yes"}
 
    您可以隨時按一下模擬內容畫面中的&#x200B;**[!UICONTROL 檢視校樣]**&#x200B;按鈕，以檢查傳送的狀態並存取傳送的校樣。
+
+## 內容模擬限制 {#content-simulation-limitations}
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_multilingual"
+>title="不支援內容模擬"
+>abstract="**模擬內容**&#x200B;按鈕已停用，因為多語言傳遞僅包含一個地區設定。"
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_reconcilied_deliveries"
+>title="不支援內容模擬"
+>abstract="**模擬內容**&#x200B;按鈕已停用，因為它與此階段的已調解傳遞不相容。"
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_ffda"
+>title="不支援內容模擬"
+>abstract="**模擬內容**&#x200B;按鈕已停用，因為Campaign企業完整同盟存取(FFDA)模式不支援。"
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_no_file"
+>title="不支援內容模擬"
+>abstract="**模擬內容**&#x200B;按鈕已停用，因為尚未上傳任何內容。"
+
+在某些情況下，您無法執行內容模擬，而且&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕已停用。
+
+下列情況不支援內容模擬：
+
+<!--* When a multilingual delivery contains only one locale,-->
+* 使用已調解的傳遞，
+* 當您的Campaign部署模型為[Adobe Campaign企業完整同盟存取(FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}時
+* 未上傳任何檔案時。
 
 ## 傳送並監控電子郵件 {#prepare-send}
 
