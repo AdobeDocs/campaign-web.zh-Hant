@@ -2,10 +2,10 @@
 title: 連線至 Adobe Campaign Web 介面
 description: 了解如何連線至 Adobe Campaign Web 使用者介面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -19,9 +19,9 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
 若要登入 Adobe Experience Cloud，基本步驟如下：
 
-1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}。
+1. 瀏覽Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}。[
 
-1. 使用 Adobe ID 或 Enterprise ID 來登入。 了解更多有關 Adobe 身分類型的資訊，請參閱[此文章](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
+1. 使用 Adobe ID 或 Enterprise ID 來登入。 如需詳細瞭解 IDENFITY 類型，請參閱 Adobe Systems [](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}本文。
 
    登入 Experience Cloud 後，您可以快速存取所有解決方案和應用程式。
 
@@ -31,7 +31,7 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
    ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   了解更多有關 Adobe Experience Cloud 中組織的詳細資訊，請參閱[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-hant){target="_blank"}。
+   在本文中詳細瞭解Adobe Experience Cloud[](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-hant){target="_blank"}中的組織。
 
 
 ## 存取 Adobe Campaign {#access-to-campaign}
@@ -100,7 +100,7 @@ Campaign Web 中的所有權限都會與 Campaign 用戶端控制台權限進行
 * 分享有關 Campaign Web 使用者介面的意見
 * 在組織之間切換
 * 在 Adobe Experience Cloud 解決方案和應用程式之間切換
-* 在 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-hant){target="_blank"} 上搜尋說明
+* 搜尋 Experience League 的 [協助Adobe Systems](https://experienceleague.adobe.com/docs/?lang=zh-hant){target="_blank"}
 * 查看您的產品通知
 * 編輯您的 Adobe 輪廓及管理設定，例如[更新您喜愛的語言](#language-pref)或[切換到淺色/深色主題](#dark-theme)
 
@@ -134,17 +134,10 @@ Campaign Web 的預設語言是由您的使用者個人檔案中指定的偏好�
 1. 然後，按一下您電子郵件地址下顯示的語言連結。
 1. 選取您偏好的語言，然後按一下「**儲存**」。您可以選取第二語言，以防您使用的元件沒有您第一語言的版本。
 
-<!--
->[!CAUTION]
->
->If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
->
--->
-
 ## 深色和淺色主題 {#dark-theme}
 
 Adobe Campaign 提供淺色和深色主題。依據預設，使用者介面會在淺色主題中啟用。若要切換到深色主題，請按一下您的檔案圖示，然後使用&#x200B;**深色主題**&#x200B;切換開關來啟用/停用它。
 
-[此章節](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hant#preferences){target="_blank"}詳細說明有關使用者檔案設定和帳戶偏好設定的內容。
+本節](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hant#preferences){target="_blank"}詳細介紹[了用戶設定檔設置和帳戶首選項。
 
-了解更多有關 Experience Cloud 中央介面元件的資訊，請參閱[此文件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hant){target="_blank"}。
+在本文檔中](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-hant){target="_blank"}了解有關Experience Cloud中央介面元件[的更多資訊。
