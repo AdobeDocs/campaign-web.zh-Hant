@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模工具
 description: 瞭解如何使用Adobe Campaign Web查詢建模工具。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
+source-git-commit: bf7ee45a0702b66af6962453893cf9c50c140d54
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '639'
 ht-degree: 20%
 
 ---
@@ -51,6 +51,11 @@ Adobe Campaign Web使用者介面具有查詢建模工具，可簡化根據各�
 >![](assets/target-warning.png){zoomable="yes"}
 
 ## 查詢模組化介面 {#interface}
+
+>[!CONTEXTUALHELP]
+>id="acw_rule_builder_switch_button"
+>title="新的使用者體驗"
+>abstract="使用此切換在傳統查詢建模程式與新規則產生器體驗之間切換。"
 
 查詢模型工具會提供一個中央畫布，您可在其中建立查詢，以及一個右窗格，提供查詢的相關資訊。
 
