@@ -4,10 +4,10 @@ title: 使用登入頁面內容範本
 description: 瞭解如何將登入頁面內容儲存為設計範本，並在Campaign Web中重複使用
 feature: Landing Pages
 exl-id: 2298265b-6ca6-461f-8c69-c60d98e8f445
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 13%
+source-wordcount: '255'
+ht-degree: 3%
 
 ---
 
@@ -15,43 +15,43 @@ ht-degree: 13%
 
 ## 將頁面儲存為範本 {#save-as-template}
 
-一旦您設計[登陸頁面內容](lp-content.md)後，您就可以儲存它以供日後重複使用。 請依照下列步驟以執行此操作。
+一旦您設計[登陸頁面內容](lp-content.md)，就可以儲存以供日後重複使用。 若要將頁面儲存為範本，請遵循下列步驟。
 
-1. 按一下熒幕右上方的&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕。
+1. 按一下熒幕右上角的&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕。
 
 1. 從下拉式功能表中選取&#x200B;**[!UICONTROL 另存為內容範本]**。
 
-   ![](assets/lp-save-as-template.png){zoomable="yes"}
+   ![在下拉式功能表中顯示[另存為內容範本]選項的熒幕擷圖](assets/lp-save-as-template.png){zoomable="yes"}
 
 1. 為此範本新增名稱。
 
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-下次建立登入頁面時，您可以使用此範本建立內容。 在以下[小節](#use-saved-template)中瞭解如何操作。
+您可以使用此範本在下次建立登入頁面時建置內容。 在以下[小節](#use-saved-template)中瞭解如何操作。
 
-![](assets/lp-saved-template.png){zoomable="yes"}
+![在登入頁面介面中顯示已儲存範本的熒幕擷圖](assets/lp-saved-template.png){zoomable="yes"}
 
 ## 使用儲存的範本 {#use-saved-template}
 
 <!--Not for GA?-->
 
-1. 編輯登入頁面內容時，請按一下&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 變更您的設計]**。
+1. 編輯登入頁面內容時，按一下&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 變更您的設計]**。
 
-   ![](assets/lp-change-your-design.png){zoomable="yes"}
+   ![在下拉式功能表中顯示[變更您的設計]選項的熒幕擷圖](assets/lp-change-your-design.png){zoomable="yes"}
 
 1. 確認您的選取。
 
    >[!NOTE]
    >
-   >此動作會刪除目前的內容，並以新範本中的內容取代。
+   >此動作會刪除目前的內容，並以新範本的內容取代。
 
-1. 所有先前儲存的範本清單會顯示在&#x200B;**[!UICONTROL 已儲存的範本]**&#x200B;索引標籤中。 你可以&#x200B;**[!UICONTROL 依名稱]**、**[!UICONTROL 上次修改日期]**&#x200B;和&#x200B;**[!UICONTROL 上次建立日期]**&#x200B;來排序儲存的範本。
+1. 所有先前儲存的範本清單會顯示在&#x200B;**[!UICONTROL 已儲存的範本]**&#x200B;索引標籤中。 您可以依名稱&#x200B;]**、**[!UICONTROL &#x200B;上次修改時間&#x200B;]**和**[!UICONTROL &#x200B;上次建立時間&#x200B;]**來排序它們**[!UICONTROL 。
 
-   ![](assets/lp-saved-templates.png){zoomable="yes"}
+   ![熒幕擷圖顯示[儲存的範本]索引標籤，並附排序選項](assets/lp-saved-templates.png){zoomable="yes"}
 
-1. 從清單中選取您選擇的範本。 選取後，您可以使用左右箭頭在所有儲存的範本之間導覽。
+1. 從清單中選取您選擇的範本。 選取後，使用左右箭頭在所有儲存的範本之間導覽。
 
-   ![](assets/lp-select-saved-template.png){zoomable="yes"}
+   ![熒幕擷圖顯示使用箭號在儲存的範本之間導覽](assets/lp-select-saved-template.png){zoomable="yes"}
 
 1. 按一下&#x200B;**[!UICONTROL 使用此範本]**。
 

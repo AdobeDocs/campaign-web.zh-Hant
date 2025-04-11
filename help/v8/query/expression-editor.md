@@ -3,16 +3,17 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 53%
+source-wordcount: '2106'
+ht-degree: 37%
 
 ---
 
+
 # 編輯運算式 {#expression}
 
-編輯運算式需要手動輸入條件以形成規則。 此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位、排序等。
+編輯運算式需要手動輸入條件以形成規則。 此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位和排序。
 
 >[!IMPORTANT]
 >
@@ -23,24 +24,24 @@ ht-degree: 53%
 設定自訂條件時，**[!UICONTROL 屬性]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;欄位可使用查詢模型器&#x200B;**[!UICONTROL 編輯運算式]**&#x200B;按鈕中的運算式編輯器。
 
 | 從&#x200B;**屬性**&#x200B;欄位存取 | 從&#x200B;**值**&#x200B;欄位存取 |
-|  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| --- | --- |
+| 屬性欄位](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 | 值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 |
 
 運算式編輯器提供：
 
 * 定義運算式的&#x200B;**輸入欄位(1)**。
-* 可用的&#x200B;**欄位(2)**&#x200B;清單，可用於運算式中，並對應於查詢的目標維度。
+* 可用的&#x200B;**欄位(2)**&#x200B;清單，可用於運算式中，並對應至查詢的目標維度。
 * **協助程式函式(3)**，依類別排序。
 
 直接在輸入欄位中輸入運算式以編輯運算式。 若要新增欄位或協助程式函式，請將游標置於要新增的運算式中，然後按一下+按鈕。
 
-![](assets/expression-editor.png){zoomable="yes"}
+![運算式編輯器介面](assets/expression-editor.png){zoomable="yes"}
 
 當運算式準備就緒時，請按一下&#x200B;**[!UICONTROL 確認]**&#x200B;按鈕。 運算式會顯示在選取的欄位中。 若要編輯，請開啟運算式編輯器並進行所需的變更。
 
-下列範例顯示為&#x200B;**[!UICONTROL 值]**&#x200B;欄位設定的運算式。 若要編輯它，您必須使用&#x200B;**[!UICONTROL 編輯運算式]**&#x200B;按鈕開啟運算式編輯器。
+下列範例顯示為&#x200B;**[!UICONTROL 值]**&#x200B;欄位設定的運算式。 若要編輯它，請使用&#x200B;**[!UICONTROL 編輯運算式]**&#x200B;按鈕開啟運算式編輯器。
 
-![](assets/edit-expression-value.png){zoomable="yes"}
+![編輯值欄位](assets/edit-expression-value.png){zoomable="yes"}的運算式範例
 
 ## 協助程式功能
 
@@ -48,330 +49,326 @@ ht-degree: 53%
 
 ### 彙總
 
-彙總函式用於對一組值執行計算。
+彙總函式會針對一組值執行計算。
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>名稱</strong><br /> </td> 
-   <td> <strong>說明</strong><br /> </td> 
-   <td> <strong>語法</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>平均</strong><br /> </td> 
-   <td> 傳回數字型別資料行<br />的平均值 </td> 
-   <td> Avg(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>計數</strong><br /> </td> 
-   <td> 計算資料行<br />的非空值 </td> 
-   <td> Count(&lt;value&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>CountAll</strong><br /> </td> 
-   <td> 計算傳回的值（所有欄位）<br /> </td> 
-   <td> CountAll()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Countdistinct</strong><br /> </td> 
-   <td> 計算資料行<br />的相異非null值 </td> 
-   <td> Countdistinct(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>最大</strong><br /> </td> 
-   <td> 傳回數字、字串或日期型別資料行<br />的最大值 </td> 
-   <td> Max(&lt;value&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>分鐘</strong><br /> </td> 
-   <td> 傳回數字、字串或日期型別資料行<br />的最小值 </td> 
-   <td> Min(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>StdDev</strong><br /> </td> 
-   <td> 傳回數字、字串或日期資料行<br />的標準差 </td> 
-   <td> stdev(&lt;value&gt;)<br /></td> 
-  </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong><br /> </td> 
-   <td> 傳回字串型別資料行值的串連，以第二個引數<br />中的字元分隔 </td> 
-   <td> StringAgg(&lt;Value&gt;， &lt;String&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>總和</strong><br /> </td> 
-   <td> 傳回數字、字串或日期型別資料行<br />的值總和 </td> 
-   <td> Sum(&lt;value&gt;)<br /></td> 
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>名稱</strong></td>
+<td><strong>說明</strong></td>
+<td><strong>語法</strong></td>
+</tr>
+<tr>
+<td><strong>平均</strong></td>
+<td>傳回數字型別欄的平均值</td>
+<td>Avg(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>計數</strong></td>
+<td>計算資料行的非空值</td>
+<td>Count(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>全部計數</strong></td>
+<td>計算傳回的值（所有欄位）</td>
+<td>CountAll()</td>
+</tr>
+<tr>
+<td><strong>Countdistinct</strong></td>
+<td>計算資料行的不同非空值</td>
+<td>Countdistinct(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>最大</strong></td>
+<td>傳回數字、字串或日期型別欄的最大值</td>
+<td>Max(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>最小</strong></td>
+<td>傳回數字、字串或日期型別欄的最小值</td>
+<td>Min(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>StdDev</strong></td>
+<td>傳回數字、字串或日期欄的標準差</td>
+<td>stdev(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>StringAgg</strong></td>
+<td>傳回字串類型欄的值的串連，以第二個引數中的字元分隔</td>
+<td>StringAgg(&lt;Value&gt;， &lt;String&gt;)</td>
+</tr>
+<tr>
+<td><strong>總和</strong></td>
+<td>傳回數字、字串或日期型別欄的值總和</td>
+<td>Sum(&lt;value&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 ### 日期
 
-日期函式可用來控制日期或時間值。
+日期函式會操控日期或時間值。
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>名稱</strong><br /> </td> 
-   <td> <strong>說明</strong><br /> </td> 
-   <td> <strong>語法</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>AddDays</strong><br /> </td> 
-   <td> 新增日期的天數<br /> </td> 
-   <td> AddDays(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddHours</strong><br /> </td> 
-   <td> 將小時數新增至日期<br /> </td> 
-   <td> AddHours(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMinutes</strong><br /> </td> 
-   <td> 將分鐘數新增至日期<br /> </td> 
-   <td> AddMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMonths</strong><br /> </td> 
-   <td> 新增月份至日期<br /> </td> 
-   <td> AddMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddSeconds</strong><br /> </td> 
-   <td> 新增秒數至日期<br /> </td> 
-   <td> AddSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddYears</strong><br /> </td> 
-   <td> 在日期中新增多年<br /> </td> 
-   <td> AddYears(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> 套用定義的工作階段TZ<br/>，將時間戳記NTZ （沒有時區的時間戳記）轉換為TZ （有時區的時間戳記） </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
-   <td> <br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
-  </tr>-->
-  <tr> 
-   <td> <strong>DateCmp</strong><br /> </td> 
-   <td> 比較兩個日期<br/> </td> 
-   <td> DateCmp(&lt;date&gt;，&lt;date&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>DateOnly</strong><br /> </td> 
-   <td> 只傳回日期（時間為00:00）*<br /> </td> 
-   <td> DateOnly(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Day</strong><br /> </td> 
-   <td> 傳回代表日期的數字<br /> </td> 
-   <td> Day(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> 傳回日期<br />年中的天數 </td> 
-   <td> DayOfYear(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgo</strong><br /> </td> 
-   <td> 傳回與目前日期對應的日期減去n天<br /> </td> 
-   <td> DaysAgo(&lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> 傳回與目前日期對應的日期（整數yyyymmdd）減去n天<br /> </td> 
-   <td> DaysAgoInt(&lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysDiff</strong><br /> </td> 
-   <td> 兩個日期之間的天數<br /> </td> 
-   <td> DaysDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysOld</strong><br /> </td> 
-   <td> 傳回日期的年齡（以天為單位）<br /> </td> 
-   <td> DaysOld(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>GetDate</strong><br /> </td> 
-   <td> 返回伺服器的目前系統日期<br /> </td> 
-   <td> GetDate()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Hour</strong><br /> </td> 
-   <td> 傳回日期的小時數<br /> </td> 
-   <td> Hour(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>HoursDiff</strong><br /> </td> 
-   <td> 傳回兩個日期之間的小時數<br /> </td> 
-   <td> HoursDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Minute</strong><br /> </td> 
-   <td> 傳回日期的分鐘數<br /> </td> 
-   <td> Minute(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MinutesDiff</strong><br /> </td> 
-   <td> 傳回兩個日期之間的分鐘數<br /> </td> 
-   <td> MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Month</strong><br /> </td> 
-   <td> 傳回代表日期月份的數字<br /> </td> 
-   <td> Month(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsAgo</strong><br /> </td> 
-   <td> 傳回與目前日期對應的日期減去n個月<br /> </td> 
-   <td> MonthsAgo(&lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsDiff</strong><br /> </td> 
-   <td> 傳回兩個日期之間的月數<br /> </td> 
-   <td> MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsOld</strong><br /> </td> 
-   <td> 傳回日期的月份<br /> </td> 
-   <td> MonthsOld(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Oldest</strong><br /> </td> 
-   <td> 傳回範圍<br />中最早的日期 </td> 
-   <td> 最舊(&lt;date， date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Second</strong><br /> </td> 
-   <td> 傳回日期的秒數<br /> </td> 
-   <td> Second(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SecondsDiff</strong><br /> </td> 
-   <td> 傳回兩個日期之間的秒數<br /> </td> 
-   <td> SecondsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubDays</strong><br /> </td> 
-   <td> 從日期減去天數<br /> </td> 
-   <td> SubDays(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubHours</strong><br /> </td> 
-   <td> 從日期減去數小時<br /> </td> 
-   <td> SubHours(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMinutes</strong><br /> </td> 
-   <td> 從日期減去分鐘數<br /> </td> 
-   <td> SubMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMonths</strong><br /> </td> 
-   <td> 從日期減去幾個月<br /> </td> 
-   <td> SubMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubSeconds</strong><br /> </td> 
-   <td> 從日期減去秒數<br /> </td> 
-   <td> SubSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubYears</strong><br /> </td> 
-   <td> 從日期減去數年<br /> </td> 
-   <td> SubYears(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDate</strong><br /> </td> 
-   <td> 將日期　+　時間轉換為日期<br /> </td> 
-   <td> ToDate(&lt;date + time&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDateTime</strong><br /> </td> 
-   <td> 將字串轉換為日期+時間<br /> </td> 
-   <td> ToDateTime(&lt;string&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToTimestamp</strong><br /> </td> 
-   <td> 將字串轉換為時間戳記<br /> </td> 
-   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToTimeZone</strong><br /> </td> 
-   <td> 將日期+時間轉換為時區<br /> </td> 
-   <td> ToTimeZone(&lt;date&gt;，&lt;time zone&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDate</strong><br /> </td> 
-   <td> 將日期+時間四捨五入至最接近的秒數<br /> </td> 
-   <td> TruncDate(@lastModified, &lt;number of seconds&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDateTZ</strong><br /> </td> 
-   <td> 將日期+時間四捨五入為以秒為單位的指定精確度<br /> </td> 
-   <td> TruncDateTZ(&lt;date&gt;, &lt;number of seconds&gt;, &lt;time zone&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncQuarter</strong><br /> </td> 
-   <td> 將日期捨入為季度<br /> </td> 
-   <td> TruncQuarter(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncTime</strong><br /> </td> 
-   <td> 將時間部分捨入到最接近的秒數<br /> </td> 
-   <td> TruncTim(e&lt;date&gt;， &lt;number of seconds&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> 將日期捨入為一週<br /> </td> 
-   <td> TruncWeek(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncYear</strong><br /> </td> 
-   <td> 將日期+時間捨入至年度的　1　月　1　日<br /> </td> 
-   <td> TruncYear(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>WeekDay</strong><br /> </td> 
-   <td> 傳回代表日期當週中某天的數字（0=星期一，6=星期日）<br /> </td> 
-   <td> WeekDay(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>年</strong><br /> </td> 
-   <td> 傳回代表日期年份的數字<br /> </td> 
-   <td> Year(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearAnd Month</strong><br /> </td> 
-   <td> 傳回代表日期的年份和月份的數字<br /> </td> 
-   <td> YearAndMonth(&lt;date&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>年前</strong><br /> </td> 
-   <td> 傳回指定日期與目前日期之間的年數<br /> </td> 
-   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsDiff</strong><br /> </td> 
-   <td> 傳回兩個日期之間的年數<br /> </td> 
-   <td> YearsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsOld</strong><br /> </td> 
-   <td> 傳回日期的年齡<br /> </td> 
-   <td> YearsOld(&lt;date&gt;)<br /> </td>  
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>名稱</strong></td>
+<td><strong>說明</strong></td>
+<td><strong>語法</strong></td>
+</tr>
+<tr>
+<td><strong>AddDays</strong></td>
+<td>在日期中加上天數</td>
+<td>AddDays(&lt;date&gt;， &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddHours</strong></td>
+<td>在日期中加上小時數</td>
+<td>AddHours(&lt;date&gt;， &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMinutes</strong></td>
+<td>在日期中加上分鐘數</td>
+<td>AddMinutes(&lt;date&gt;， &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMonths</strong></td>
+<td>在日期中加上月數</td>
+<td>AddMonths(&lt;date&gt;， &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddSeconds</strong></td>
+<td>在日期中加上秒數</td>
+<td>AddSeconds(&lt;date&gt;， &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddYears</strong></td>
+<td>在日期中加上年數</td>
+<td>AddYears(&lt;date&gt;， &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>ConvertNTZ</strong></td>
+<td>套用定義的工作階段TZ，將時間戳記NTZ （沒有時區的時間戳記）轉換為TZ （有時區的時間戳記）</td>
+<td>ConvertNTZ(&lt;date+time&gt;)</td>
+</tr>
+<tr>
+<td><strong>DateCmp</strong></td>
+<td>比較兩個日期</td>
+<td>DateCmp(&lt;date&gt;， &lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Dateonly</strong></td>
+<td>僅傳回日期（時間為00:00）</td>
+<td>DateOnly(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>日</strong></td>
+<td>傳回表示該日期的天數的數字</td>
+<td>Day(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>DayOfYear</strong></td>
+<td>傳回日期當年的日數</td>
+<td>DayOfYear(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Daysago</strong></td>
+<td>傳回與目前日期對應的日期減去n天</td>
+<td>DaysAgo(&lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysAgoInt</strong></td>
+<td>傳回與目前日期對應的日期（整數yyyymmdd）減去n天</td>
+<td>DaysAgoInt(&lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysDiff</strong></td>
+<td>傳回兩個日期之間的天數</td>
+<td>DaysDiff(&lt;end date&gt;， &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysOld</strong></td>
+<td>傳回日期的年齡（以天為單位）</td>
+<td>DaysOld(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>GetDate</strong></td>
+<td>傳回伺服器的目前系統日期</td>
+<td>GetDate()</td>
+</tr>
+<tr>
+<td><strong>小時</strong></td>
+<td>傳回日期的小時數</td>
+<td>Hour(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>HoursDiff</strong></td>
+<td>傳回兩個日期之間的小時數</td>
+<td>HoursDiff(&lt;end date&gt;， &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>分鐘</strong></td>
+<td>傳回該日期的分鐘數</td>
+<td>Minute(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>MinutesDiff</strong></td>
+<td>傳回兩個日期之間的分鐘數</td>
+<td>MinutesDiff(&lt;end date&gt;， &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>月</strong></td>
+<td>傳回表示該日期的月數的數字</td>
+<td>Month(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsAgo</strong></td>
+<td>傳回與目前日期對應的日期減去n個月</td>
+<td>MonthsAgo(&lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsDiff</strong></td>
+<td>傳回兩個日期之間的月數</td>
+<td>MonthsDiff(&lt;end date&gt;， &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsOld</strong></td>
+<td>傳回日期的年齡（月數）</td>
+<td>MonthsOld(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Oldest</strong></td>
+<td>傳回範圍中最早的日期</td>
+<td>Oldest(&lt;date， date&gt;)</td>
+</tr>
+<tr>
+<td><strong>第二</strong></td>
+<td>傳回該日期的秒數</td>
+<td>Second(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>SecondsDiff</strong></td>
+<td>傳回兩個日期之間的秒數</td>
+<td>SecondsDiff(&lt;end date&gt;， &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>subdays</strong></td>
+<td>從日期中減去天數</td>
+<td>SubDays(&lt;date&gt;， &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>subhours</strong></td>
+<td>從日期中減去小時數</td>
+<td>SubHours(&lt;date&gt;， &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>subminutes</strong></td>
+<td>從日期中減去分鐘數</td>
+<td>SubMinutes(&lt;date&gt;， &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>submonths</strong></td>
+<td>從日期中減去月數</td>
+<td>SubMonths(&lt;date&gt;， &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>subseconds</strong></td>
+<td>從日期中減去秒數</td>
+<td>SubSeconds(&lt;date&gt;， &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>subyears</strong></td>
+<td>從日期中減去年數</td>
+<td>SubYears(&lt;date&gt;， &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDate</strong></td>
+<td>將日期+時間轉換為日期</td>
+<td>ToDate(&lt;date + time&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDateTime</strong></td>
+<td>將字串轉換為日期+時間</td>
+<td>ToDateTime(&lt;string&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToTimestamp</strong></td>
+<td>將字串轉換為時間戳記</td>
+<td>ToTimestamp(&lt;string&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToTimeZone</strong></td>
+<td>將日期+時間轉換為時區</td>
+<td>ToTimeZone(&lt;date&gt;， &lt;time zone&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDate</strong></td>
+<td>將日期+時間舍入至最接近的秒數</td>
+<td>TruncDate(@lastModified， &lt;number of seconds&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDateTZ</strong></td>
+<td>將日期+時間四捨五入為以秒為單位的指定精確度</td>
+<td>TruncDateTZ(&lt;date&gt;， &lt;number of seconds&gt;， &lt;time zone&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncQuarter</strong></td>
+<td>將日期舍入為季度</td>
+<td>TruncQuarter(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncTime</strong></td>
+<td>將時間部分捨入到最接近的秒數</td>
+<td>TruncTime(&lt;date&gt;， &lt;number of seconds&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncWeek</strong></td>
+<td>將日期舍入為一週</td>
+<td>TruncWeek(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncYear</strong></td>
+<td>將日期+時間舍入至年度的1月1日</td>
+<td>TruncYear(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>WeekDay</strong></td>
+<td>傳回一個數字，表示該日期是該週的星期幾 (0=星期一，6=星期日)</td>
+<td>WeekDay(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>年</strong></td>
+<td>傳回表示該日期的年數的數字</td>
+<td>Year(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearAndMonth</strong></td>
+<td>傳回代表日期的年份和月份的數字</td>
+<td>YearAndMonth（&lt;日期&gt;）</td>
+</tr>
+<tr>
+<td><strong>YearAgo</strong></td>
+<td>傳回指定日期與目前日期之間的年數</td>
+<td>YearsAgo(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearsDiff</strong></td>
+<td>傳回兩個日期之間的年數</td>
+<td>YearsDiff(&lt;end date&gt;， &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearsOld</strong></td>
+<td>傳回日期的年齡</td>
+<td>YearsOld(&lt;date&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 >[!NOTE]
 >
->請注意，**Dateonly**&#x200B;函式會考量伺服器的時區，而非運運算元的時區。
+>請注意，**DateOnly**&#x200B;函式會考量伺服器的時區，而非運運算元的時區。
+
 
 ### 地理行銷
 

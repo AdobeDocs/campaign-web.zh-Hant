@@ -3,46 +3,45 @@ audience: end-user
 title: Campaign Web 使用者介面中的權限管理
 description: 深入了解 Campaign Web 使用者介面的權限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: f352f4e726eff50527d0b9a04d0506600c12b822
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '239'
+ht-degree: 14%
 
 ---
 
-
 # 權限 {#permissions}
 
-Adobe Campaign 中的每位使用者在應用程式中都有其權限和限制。使用者可以是操作者群組的一員，並繼承該群組的權限。
+Adobe Campaign中的每個使用者在應用程式中都有特定的許可權和限制。 使用者可屬於操作者群組並繼承群組的許可權。
 
-根據其權限，操作者可以：
+運運算元可以根據其許可權：
 
 * 存取特定功能
 * 存取特定資料
-* 存取特定動作 (建立、修改、刪除)
+* 存取特定動作（建立、修改、刪除）
 
-若要了解在 Adobe Campaign 中設定權限的詳細程序，請參閱 [Adobe Campaign v8 (控制台) 文件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}。
+在Adobe Campaign中設定許可權的詳細程式可在[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}中取得。
 
 ## 資料夾權限 {#folder-permissions}
 
-根據您的權限，您可以在「**[!UICONTROL 資料夾設定]**」中檢視和管理資料夾權限。
+根據您的許可權，您可以在&#x200B;**[!UICONTROL 資料夾設定]**&#x200B;中檢視和管理資料夾的許可權。
 
 以下是傳遞資料夾的範例：
 
-![](assets/folder_settings.png){zoomable="yes"}
+![Adobe Campaign中的資料夾設定範例](assets/folder_settings.png){zoomable="yes"}
 
-在「**[!UICONTROL 資料夾設定]**」的「**[!UICONTROL 安全性]**」區段中，您可以檢視和管理 (新增或刪除) 可存取該資料夾的操作者或群組。
+在&#x200B;**[!UICONTROL 資料夾設定]**&#x200B;的&#x200B;**[!UICONTROL 安全性]**&#x200B;區段中，您可以檢視及管理（新增或刪除）可存取資料夾的操作者或群組。
 
-![](assets/folder_security.png){zoomable="yes"}
+![Adobe Campaign中的資料夾安全性設定範例](assets/folder_security.png){zoomable="yes"}
 
-您可以直接按一下該權限，並將其變更為「**[!UICONTROL 已允許]**」或「**[!UICONTROL 已拒絕]**」。
+您可以直接按一下許可權，然後將其變更為&#x200B;**[!UICONTROL 允許]**&#x200B;或&#x200B;**[!UICONTROL 拒絕]**。
 
-![](assets/folder_security_denied.png){zoomable="yes"}
+![資料夾安全性設定中拒絕的許可權範例](assets/folder_security_denied.png){zoomable="yes"}
 
-如果啟用「**[!UICONTROL 傳播]**」選項，針對資料夾定義的所有權限都會套用至其所有的子資料夾。每個子資料夾都可以過載這些權限。
+如果&#x200B;**[!UICONTROL Propagate]**&#x200B;選項已啟用，則為資料夾定義的所有許可權都會套用至其所有子資料夾。 每個子檔案夾都可以覆寫這些許可權。
 
-如果勾選了「**[!UICONTROL 系統資料夾]**」選項，則所有操作者都可以存取 (無論其權限為何)。
+如果選取了&#x200B;**[!UICONTROL 系統資料夾]**&#x200B;選項，則允許所有操作者存取，無論其許可權為何。
 
 您也可以[在 Adobe Campaign 控制台中管理資料夾權限](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}。
 
-Campaign Web 使用者介面中的所有權限都會與 Campaign 用戶端控制台權限進行同步。
+Campaign Web使用者介面中的所有許可權會與Campaign使用者端主控台許可權同步。

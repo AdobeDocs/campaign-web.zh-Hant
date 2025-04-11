@@ -4,23 +4,23 @@ title: 稽核軌跡
 description: 瞭解如何使用Campaign稽核軌跡監控您的執行個體
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
 
-# 稽核軌跡{#audit-trail}
+# 稽核軌跡 {#audit-trail}
 
 在Adobe Campaign Web使用者介面中，**[!UICONTROL 稽核軌跡]**&#x200B;功能可讓使用者完全瞭解對執行個體內重要實體所做的所有修改，通常是對執行個體的順利操作產生重大影響的修改。
 
 >[!IMPORTANT]
 >
->* Adobe Campaign Web使用者介面不會稽核使用者許可權、範本、個人化或行銷活動中所做的變更。
->* 稽核軌跡只能由執行個體的管理員管理。
+>* Adobe Campaign網頁使用者介面不會稽核使用者許可權、範本、個人化或行銷活動中所做的變更。
+>* 只有執行個體的管理員可以管理稽核軌跡。
 
-**[!UICONTROL 稽核軌跡]**&#x200B;功能會持續即時記錄Adobe Campaign執行個體內發生的動作和事件的詳細記錄。 它提供一種便利的方法，可存取按時間順序排列的資料記錄，並解決以下查詢：工作流程的狀態、要修改它們的最新個人，或使用者在執行個體內執行的活動。
+**[!UICONTROL 稽核軌跡]**&#x200B;功能會持續即時記錄Adobe Campaign執行個體內發生的動作和事件的詳細記錄。 它提供一種便利的方法，用於存取按時間順序排列的資料記錄，解決諸如工作流程狀態、要修改它們的最新個人，或使用者在執行個體內執行的活動等查詢。
 
 +++ 深入瞭解稽核軌跡可用實體
 
@@ -34,9 +34,9 @@ ht-degree: 1%
    * 暫停
    * 停止
    * 重新啟動
-   * 清除等於動作清除歷史記錄
-   * 模擬在模擬模式下等於動作「開始」的專案
-   * 立即喚醒等於動作執行擱置中的工作
+   * 清除，等於「整個清除」歷程記錄動作
+   * 模擬，等於在模擬模式中啟動動作
+   * 喚醒，等於「立即執行擱置中的工作」動作
    * 無條件停止
 
   如需工作流程的詳細資訊，請參閱此[頁面](../workflows/gs-workflows.md)。
@@ -77,13 +77,13 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL 管理]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL 稽核軌跡]**。
 
-   ![](assets/audit-trail-1.png)
+   ![熒幕擷圖顯示[管理]功能表，其中已選取[稽核軌跡]選項](assets/audit-trail-1.png)
 
 1. **[!UICONTROL 稽核軌跡]**&#x200B;視窗會開啟，其中包含您實體的清單。 Adobe Campaign Web使用者介面會稽核工作流程、選項、傳送和結構的建立、編輯和刪除動作。
 
    選取其中一個實體以深入瞭解最後的修改。
 
-1. **[!UICONTROL 稽核實體]**&#x200B;視窗會提供您所選實體的詳細資訊，例如：
+1. **[!UICONTROL 稽核實體]**&#x200B;視窗提供有關所選實體的詳細資訊，例如：
 
    * **[!UICONTROL 型別]**：工作流程、選項、傳遞或結構描述。
    * **[!UICONTROL 實體]**：活動的內部名稱。
@@ -93,4 +93,4 @@ ht-degree: 1%
 
    程式碼區塊會針對實體中的確切變更提供詳細資訊。
 
-   ![](assets/audit-trail-2.png)
+   ![熒幕擷圖顯示[稽核]實體視窗，其中包含修改詳細資訊](assets/audit-trail-2.png)

@@ -3,12 +3,13 @@ audience: end-user
 title: 開始使用簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 97%
 
 ---
+
 
 # 開始使用簡訊傳遞 {#sms}
 
@@ -27,7 +28,7 @@ ht-degree: 100%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="銷售機會" src="assets/do-not-localize/create_sms.png">
+<img alt="建立簡訊傳遞" src="assets/do-not-localize/create_sms.png">
 </a>
 <div><a href="create-sms.md"><strong>建立簡訊傳遞</strong>
 </div>
@@ -35,7 +36,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="content-sms.md">
-<img alt="不常使用" src="assets/do-not-localize/design_sms.png">
+<img alt="設計簡訊傳遞" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
 <a href="content-sms.md"><strong>設計簡訊傳遞<strong></strong></a>
@@ -43,7 +44,7 @@ ht-degree: 100%
 <p></td>
 <td>
 <a href="send-sms.md">
-<img alt="驗證" src="assets/do-not-localize/send_sms.png">
+<img alt="傳送簡訊傳遞" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
 <a href="send-sms.md"><strong>傳送簡訊傳遞</strong></a>
@@ -52,7 +53,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="send-sms.md">
-<img alt="驗證" src="assets/do-not-localize/report_sms.jpeg">
+<img alt="以簡訊傳送傳遞報告" src="assets/do-not-localize/report_sms.jpeg">
 </a>
 <div>
 <a href="send-sms.md"><strong>以簡訊傳送傳遞報告</strong></a>

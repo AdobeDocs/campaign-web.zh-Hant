@@ -2,9 +2,9 @@
 title: AI 助理使用案例
 description: 透過使用案例瞭解如何使用AI Assistant
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '542'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## 使用現有內容
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![示範透過AI助理重複使用現有內容](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. 設定傳遞之後，請選取&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -25,17 +25,17 @@ ht-degree: 1%
 
 1. 開啟AI助理中的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;功能，根據您的傳送詳細資料（包括傳送名稱和目標對象）量身打造新內容。
 
-1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中指定您的要求來調整內容，並視需要自訂設定。
+1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中指定您的要求，並視需要自訂設定，以調整內容。
 
-1. 當您對提示感到滿意時，請按一下[產生]。****
+1. 對提示感到滿意時，請按一下[產生]。****
 
 1. 探索可用的&#x200B;**[!UICONTROL 變數]**&#x200B;並按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以全熒幕檢視選取的變數。
 
-當您定義內容、對象和排程時，就能準備好準備您的傳送。
+定義內容、對象和排程後，請準備您的傳送。
 
 ## 調整變數
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![使用AI助理示範精簡內容變化](assets/do-not-localize/gen-ai-variation.gif)
 
 1. 設定並設定您的傳遞後，按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -43,13 +43,13 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中輸入您想要的請求，並視需要修改設定，以調整內容。
 
-1. 準備就緒後，按一下[產生]。****
+1. 準備就緒後，按一下&#x200B;**[!UICONTROL 產生]**。
 
 1. 檢閱產生的&#x200B;**[!UICONTROL 變數]**&#x200B;並選取&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選選項的全熒幕檢視。
 
 1. 在&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中，移至&#x200B;**[!UICONTROL 調整]**&#x200B;選項以進行進一步自訂，包括：
 
-   * **[!UICONTROL 使用作為參考內容]**：選取的變數將作為參考，以產生更多內容。
+   * **[!UICONTROL 使用作為參考內容]**：選取的變數作為參考，以產生更多內容。
 
    * **[!UICONTROL 精心設計]**：讓AI助理在特定點上擴展，提供更深入和細節的資訊，以提升參與度。
 
@@ -59,21 +59,21 @@ ht-degree: 1%
 
    * **[!UICONTROL 使用較簡單的語言]**：使用AI助理簡化語言，以確保訊息清晰且所有讀者都能存取。
 
-   此外，您可以調整內容的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
+   此外，請調整內容的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
-1. 找到正確的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
+1. 內容準備就緒後，按一下&#x200B;**[!UICONTROL 選取]**。
 
 ## 產生類似影像
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![使用AI助理產生類似影像的示範](assets/do-not-localize/uc-image-similar.gif)
 
 1. 設定傳遞之後，請選取&#x200B;**[!UICONTROL 編輯內容]**。
 
 1. 開啟&#x200B;**[!UICONTROL AI助理]**&#x200B;區段。
 
-1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中指定您的要求來調整內容，並視需要自訂設定。
+1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中指定您的要求，並視需要自訂設定，以調整內容。
 
-1. 當您對提示感到滿意時，請按一下[產生]。****
+1. 對提示感到滿意時，請按一下[產生]。****
 
 1. 瀏覽&#x200B;**[!UICONTROL 變數建議]**&#x200B;以尋找所需的資產。
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ## 上傳樣式參考
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![上傳AI助理樣式參考的示範](assets/do-not-localize/uc-image-reference.gif)
 
 1. 設定並設定傳遞後，按一下[編輯內容]。****
 
@@ -97,9 +97,9 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 上傳影像]**&#x200B;以包含將內容新增至變數的影像。
 
-1. 指定要在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中產生的內容，並視需要調整設定，以精簡內容。
+1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中指定您要產生的內容，並視需要調整設定，以精簡內容。
 
-1. 當您對提示感到滿意時，請按一下[產生]。****
+1. 對您的提示感到滿意時，請按一下[產生]。****
 
 1. 檢閱&#x200B;**[!UICONTROL 變數建議]**，以找出您偏好的資產。
 

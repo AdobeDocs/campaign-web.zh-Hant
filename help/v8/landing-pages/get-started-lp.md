@@ -4,10 +4,10 @@ title: 開始使用登陸頁面
 description: 了解 Campaign Web 的登陸頁面
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 60%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 100%
 
 [!DNL Adobe Campaign] 可讓您建立、設計及共用登陸頁面。
 
-對於行銷活動內容而言，登陸頁面是獨立網頁，當訪客按一下傳遞或網站連結之後，系統會將其引導至該網頁。
+在行銷活動的內容中，登入頁面是獨立的網頁，當訪客點按傳送或網站上的連結後，即會被導向至該網頁。
 
-登陸頁面可讓您引導使用者至線上表單，他們可在此更新資料、針對接收您的通訊選擇加入/退出，或訂閱電子報等特定服務。
+登入頁面可讓您將使用者導向至線上表單，以便他們更新資料、選擇加入或退出接收您的通訊，或訂閱電子報等特定服務。
 
 >[!CAUTION]
 >
 >您在 Campaign Web 使用者介面建立的登陸頁面，與從使用者端主控台建立的網路表單不同。對於在用戶端主控台建立的網路表單，您無法透過 Campaign Web 使用者介面來顯示或加以編輯。
 >
->請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=zh-Hant){target="_blank"}，進一步了解網路表單。
+>在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=zh-Hant){target="_blank"}中進一步瞭解網路表單。
 
 登陸頁面主要功能列示如下：
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="銷售機會" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="使用預填範本建立登入頁面" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>建立登陸頁面</strong>
 </div>
@@ -45,7 +45,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="../audience/manage-services.md">
-<img alt="不常使用" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="設定使用者的訂閱服務" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="../audience/manage-services.md"><strong>建立訂閱服務</strong></a>
@@ -53,7 +53,7 @@ ht-degree: 100%
 <p></td>
 <td>
 <a href="lp-content.md">
-<img alt="驗證" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="設計回應式登陸頁面" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
 <a href="lp-content.md"><strong>設計登陸頁面</strong></a>
@@ -62,7 +62,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="lp-templates.md">
-<img alt="驗證" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="使用登入頁面的內容範本" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
 <a href="lp-templates.md"><strong>使用內容範本</strong></a>

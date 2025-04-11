@@ -3,26 +3,26 @@ audience: end-user
 title: 篩選清單
 description: 瞭解如何使用內建和自訂篩選器來篩選Adobe Campaign網路清單。
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 5%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
 # 篩選清單 {#filter-lists}
 
-Adobe Campaign Web在每個物件清單中提供篩選器，可讓您根據特定的內容條件篩選資訊。 例如，您可以根據狀態、管道、聯絡日期或資料夾對傳遞進行篩選。您也可以隱藏校樣。
+Adobe Campaign Web在每個物件清單中提供篩選器，可讓您根據特定的內容條件篩選資訊。 例如，您可以根據傳送的狀態、頻道、聯絡日期或資料夾來篩選傳送。 您也可以隱藏校樣。
 
-## 套用篩選器{#apply}
+## 套用篩選器 {#apply}
 
 若要將篩選器套用至清單，請按一下搜尋列旁的清單左上角的&#x200B;**[!UICONTROL 顯示篩選器]**&#x200B;按鈕。
 
-篩選器窗格隨即開啟，顯示所選清單的可用篩選器。 例如，您可以依行銷活動的狀態、開始和結束日期或儲存資料夾來篩選行銷活動，而訂閱服務清單則可依其頻道和儲存資料夾來篩選。
+篩選器窗格隨即開啟，顯示所選清單的可用篩選器。 例如，您可以根據行銷活動的狀態、開始和結束日期或儲存資料夾來篩選行銷活動，而訂閱服務清單則可根據其頻道和儲存資料夾來篩選。
 
-![](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![篩選器窗格，顯示清單的可用篩選器](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-若要根據您自己的條件來篩選清單，請建立自訂篩選器。 若要這麼做，請瀏覽至篩選器窗格的底部，然後按一下&#x200B;**新增規則**&#x200B;按鈕。 [瞭解如何建立自訂篩選器](#custom)
+若要根據您自己的條件來篩選清單，請建立自訂篩選器。 若要這麼做，請瀏覽至篩選器窗格的底部，然後按一下&#x200B;**新增規則**&#x200B;按鈕。 [瞭解如何建立自訂篩選器](#custom)。
 
 篩選器一旦套用至清單，就會顯示在搜尋列下方。 您可以隨時移除個別篩選器，或按一下&#x200B;**全部清除**&#x200B;按鈕以移除所有篩選器。
 
@@ -34,8 +34,8 @@ Adobe Campaign Web在每個物件清單中提供篩選器，可讓您根據特�
 
 1. 查詢建模器隨即開啟。 定義並結合您的篩選條件以符合您的需求。 有關如何使用查詢模型工具的詳細資訊，請參閱[本節](../query/query-modeler-overview.md)。
 
-   以下範例顯示自訂篩選器，其設計為在行銷活動清單中顯示SMS行銷活動，由執行或瑜伽部門的操作者執行。
+   以下範例顯示自訂篩選器，其設計旨在顯示在行銷活動清單中，由執行或瑜伽部門的操作者所執行的SMS行銷活動。
 
-   ![](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+   ![自訂篩選器範例，顯示依部門](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}篩選的SMS行銷活動
 
 1. 設定自訂篩選器後，按一下&#x200B;**[!UICONTROL 確認]**&#x200B;以將其套用至清單。

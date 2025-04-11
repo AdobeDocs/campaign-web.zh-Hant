@@ -3,13 +3,12 @@ audience: end-user
 title: 定義連結樣式
 description: 了解如何定義連結樣式
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 43%
 
 ---
-
 
 # 定義連結樣式 {#styling-links}
 
@@ -17,22 +16,22 @@ ht-degree: 100%
 
 1. 在插入連結的&#x200B;**[!UICONTROL 文字]**&#x200B;元件中，選取您的連結。
 
-1. 在「**[!UICONTROL 設定]**」索引標籤中，勾選「**[!UICONTROL 連結加底線]**」為標籤加底線。
+1. 在&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤中，核取&#x200B;**[!UICONTROL 加底線連結]**&#x200B;以加底線標籤。
 
-   ![](assets/link_1.png){zoomable="yes"}
+   ![熒幕擷圖顯示[設定]索引標籤中的[底線連結]選項。](assets/link_1.png){zoomable="yes"}
 
 1. 使用「**[!UICONTROL 目標]**」下拉式選單選擇如何重新導向您的客群：
 
-   * **[!UICONTROL 無]**：當框架被點按時在相同框架中開啟連結 (預設)。
-   * **[!UICONTROL 空白]**：在新的視窗或索引標籤中開啟連結。
-   * **[!UICONTROL 自我]**：當框架被點按時在相同框架中開啟連結。
+   * **[!UICONTROL 無]**：在按一下連結的相同框架中開啟連結（預設）。
+   * **[!UICONTROL 空白]**：在新視窗或索引標籤中開啟連結。
+   * **[!UICONTROL Self]**：在同一個框架中開啟連結（與按一下連結時相同）。
    * **[!UICONTROL 父系]**：在父框架中開啟連結。
-   * **[!UICONTROL 頂端]**：在視窗的完整內文中開啟連結。
+   * **[!UICONTROL Top]**：在視窗的整個內文中開啟連結。
 
-   ![](assets/link_2.png){zoomable="yes"}
+   ![熒幕擷圖顯示[設定]索引標籤中的[Target]下拉式選項。](assets/link_2.png){zoomable="yes"}
 
 1. 若要變更連結的顏色，請從「**[!UICONTROL 樣式]**&#x200B;索引標籤，按一下「**[!UICONTROL 連結顏色]**」。
 
-   ![](assets/link_3.png){zoomable="yes"}
+   ![熒幕擷圖顯示[樣式]索引標籤中的[連結顏色]選項。](assets/link_3.png){zoomable="yes"}
 
 1. 儲存您的變更。

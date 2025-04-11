@@ -5,12 +5,13 @@ description: 瞭解如何使用查詢建模器。
 hide: true
 hidefromtoc: true
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '179'
 ht-degree: 2%
 
 ---
+
 
 # 查詢範例 {#query-samples}
 
@@ -28,7 +29,7 @@ ht-degree: 2%
 
 * 過去7天內未開啟電子郵件的收件者。
 
-* 過去2週內開啟傳送的設定檔：
+* 過去2週內開啟傳送的設定檔。
 
 * 上次傳遞後跟進。
 
