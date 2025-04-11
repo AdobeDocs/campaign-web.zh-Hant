@@ -3,10 +3,10 @@ audience: end-user
 title: 在電子郵件設計工具新增預覽文字
 description: 了解如何設計您的電子郵件內容
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 47%
+source-wordcount: '249'
+ht-degree: 34%
 
 ---
 
@@ -29,19 +29,19 @@ ht-degree: 47%
 
 1. 從[電子郵件Designer](create-email-content.md)，新增至少&#x200B;**[!UICONTROL 結構]**&#x200B;元件以開始設計您的電子郵件。
 
-1. 按一下左窗格中的&#x200B;**[!UICONTROL 導覽樹狀目錄]**&#x200B;圖示，然後選取「**[!UICONTROL 內文]**」。
+1. 從左窗格按一下&#x200B;**[!UICONTROL 導覽樹狀結構]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 內文]**。
 
-   ![](assets/preheader_body.png){zoomable="yes"}
+   ![熒幕擷圖顯示Email Designer介面中的「導覽」樹狀圖示和「內文」選取專案。](assets/preheader_body.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤，輸入一些文字給預覽文字。
 
 1. 若要進一步個人化，請按一下&#x200B;**[!UICONTROL 預覽標題]**&#x200B;欄位左側的&#x200B;**[!UICONTROL 新增個人化]**&#x200B;圖示。
 
-   ![](assets/preheader_body_settings.png){zoomable="yes"}
+   ![熒幕擷圖顯示[設定]索引標籤，並在電子郵件Designer介面中新增個人化圖示。](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 編輯Personalization]**&#x200B;視窗，您可以使用左側的專用專案來新增[個人化欄位](../personalization/personalize.md)、[運算式片段](../content/use-expression-fragments.md)和[條件式內容](../personalization/conditions.md)。
+1. 從&#x200B;**[!UICONTROL 編輯Personalization]**&#x200B;視窗，使用左側的專用專案新增[個人化欄位](../personalization/personalize.md)、[運算式片段](../content/use-expression-fragments.md)及[條件式內容](../personalization/conditions.md)。
 
-   ![](assets/preheader_body_personalization.png){zoomable="yes"}
+   ![熒幕擷圖顯示「編輯Personalization」視窗，其中包含個人化欄位、運算式片段和條件式內容的選項。](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. 按一下「**[!UICONTROL 確認]**」。
 

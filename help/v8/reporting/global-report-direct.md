@@ -3,10 +3,10 @@ audience: end-user
 title: 直接郵件通道的全域報告
 description: 深入瞭解直接郵件通道的全域報告
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
+source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 32%
+source-wordcount: '659'
+ht-degree: 27%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 32%
 >title="傳遞概觀"
 >abstract="**傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可讓您深入了解訪客與每次直接郵件傳遞的互動情況。這些量度概述如下。"
 
-**[!UICONTROL 傳遞概觀]**&#x200B;提供了關鍵績效指標 (KPI)，可讓您深入了解訪客與每次直接郵件傳遞的互動情況。這些量度概述如下。
+**[!UICONTROL 傳遞總覽]**&#x200B;提供關鍵效能量度(KPI)，提供深入分析訪客與每個直接郵件傳遞的互動。 這些量度概述如下。
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
+![此影像顯示直接郵件傳遞的傳遞概述量度。](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解傳送概述量度。
 
@@ -35,9 +35,10 @@ ht-degree: 32%
 
 * **[!UICONTROL 已傳遞]**：與已傳送訊息總數相關的成功傳送訊息數。
 
-* **[!UICONTROL 錯誤]**：傳遞期間累積的錯誤總數，以及相對於已傳送訊息總數，的自動傳回處理。
+* **[!UICONTROL 錯誤]**：傳遞與自動傳回處理期間累積的錯誤總數，與已傳送的訊息總數相關。
 
-* **[!UICONTROL 取消訂閱]**：點選取消訂閱的收件者人數。
+* **[!UICONTROL 取消訂閱]**：點按取消訂閱連結的收件者人數。
+
 +++
 
 ### 目標對象 {#delivery-summary-direct-initial-target}
@@ -54,7 +55,7 @@ ht-degree: 32%
 
 **[!UICONTROL 目標對象]**&#x200B;的表格和圖表會展示與收件者相關的資料，其詳細量度如下。
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
+![此影像顯示直接郵件傳遞的目標對象量度。](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++深入瞭解鎖定目標對象量度。
 
@@ -62,7 +63,7 @@ ht-degree: 32%
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備後要傳遞的訊息總數。
 
-* **[!UICONTROL 排除]**：套用規則時，分析期間忽略的地址總數：地址遺失、隔離、封鎖清單等。
+* **[!UICONTROL 排除]**：套用規則時，如位址遺失、被隔離或加入封鎖清單時，分析期間忽略的位址總數。
 
 +++
 
@@ -84,11 +85,11 @@ ht-degree: 32%
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備後要傳遞的訊息總數。
 
-* **[!UICONTROL 成功]**：已順利處理的訊息數與要傳遞的訊息數有關。
+* **[!UICONTROL 成功]**：已成功處理的訊息數目，與要傳遞的訊息數目相關。
 
-* **[!UICONTROL 錯誤/退信]**：傳遞期間累積的錯誤總數，以及相對於要傳遞的訊息數的自動復原處理次數。
+* **[!UICONTROL 錯誤/退信]**：傳遞和自動復原處理期間累積的錯誤總數，與要傳遞的訊息數目相關。
 
-* **[!UICONTROL 新隔離]**：在傳送失敗（使用者不明、網域無效）之後被隔離的地址總數，與要傳送的訊息數目相關。
+* **[!UICONTROL 新隔離]**：與要傳送的訊息數目相關的傳送失敗後（例如，使用者不明、無效的網域）被隔離的地址總數。
 
 +++
 
@@ -104,17 +105,17 @@ ht-degree: 32%
 >title="排除的原因"
 >abstract="**排除原因**&#x200B;圖表顯示傳遞準備期間被拒絕之郵件的分佈，依每個規則進行分類。"
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
+![此影像顯示直接郵件傳遞排除量度的原因。](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 排除專案圖表和表格說明了從目標設定檔排除的使用者設定檔無法接收訊息的原因。
 
 +++深入瞭解排除量度發生的原因。
 
-* **[!UICONTROL 隔離中的地址]**：將地址置於隔離中時產生錯誤型別。
+* **[!UICONTROL 隔離中的地址]**：將地址置於隔離中時產生的錯誤型別。
 
 * **[!UICONTROL 未指定地址]**：傳送傳遞時產生錯誤型別，指出地址不存在。
 
-* **[!UICONTROL 品質不良的地址]**：當郵寄地址品質評等太低時產生的錯誤型別。
+* **[!UICONTROL 品質不良的地址]**：當郵寄地址品質評等太低時，會產生錯誤型別。
 
 * **[!UICONTROL 已加入封鎖清單的地址]**：執行傳遞時，收件者已加入封鎖清單時產生錯誤型別。
 

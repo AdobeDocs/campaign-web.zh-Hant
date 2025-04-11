@@ -3,9 +3,9 @@ audience: end-user
 title: 設計豐富推送通知傳送
 description: 瞭解如何使用Adobe Campaign Web設計Android豐富推送通知傳送
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '3372'
+source-wordcount: '3379'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * **[!UICONTROL 通知訊息]**，由FCM SDK自動處理。 FCM會自動代表使用者端應用程式在使用者裝置上顯示訊息。 通知訊息包含預先定義的一組引數和選項，但仍可使用自訂應用程式變數進一步個人化。
 
-![](assets/rich_push.png){zoomable="yes"}
+在Android頁面上傳遞的![熒幕畫面](assets/rich_push.png){zoomable="yes"}
 
 ## 定義通知的內容 {#push-message}
 

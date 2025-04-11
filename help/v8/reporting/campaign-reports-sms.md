@@ -3,16 +3,16 @@ audience: end-user
 title: 簡訊頻道的行銷活動報告
 description: 瞭解簡訊頻道的行銷活動報告
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 18%
+source-wordcount: '521'
+ht-degree: 15%
 
 ---
 
 # 簡訊頻道的行銷活動報告 {#campaign-reports-sms-channel}
 
-每個行銷活動報告都會分成不同的Widget，詳細說明行銷活動的成功和錯誤。 SMS頻道的報表和量度詳情如下。 在[此頁面](campaign-reports.md)中瞭解如何存取您的行銷活動報告。
+每個行銷活動報告都會分成不同的Widget，詳細說明行銷活動的成功和錯誤。 SMS頻道的報表和量度詳情如下。 在[此頁面](campaign-reports.md)瞭解如何存取您的行銷活動報告。
 
 ## 傳遞摘要 {#delivery-summary-sms}
 
@@ -21,10 +21,9 @@ ht-degree: 18%
 >title="傳遞概觀"
 >abstract="**傳遞概觀**&#x200B;報告可提供關鍵績效指標 (KPI)，其中包含訪客參與 SMS 傳遞的詳細資訊。"
 
-
 **[!UICONTROL 傳遞總覽]**&#x200B;報告提供關鍵績效指標(KPI)，可提供訪客如何與您的SMS傳遞互動的詳細資訊。 量度詳情如下。
 
-![](assets/campaign_report_sms_1.png){zoomable="yes"}
+顯示SMS量度的![傳遞概述報告](assets/campaign_report_sms_1.png){zoomable="yes"}
 
 +++進一步瞭解簡訊行銷活動報告量度。
 
@@ -32,24 +31,22 @@ ht-degree: 18%
 
 * **[!UICONTROL 已傳遞]**：與已傳送訊息總數相關的成功傳送訊息數。
 
-* **[!UICONTROL 錯誤]**：傳遞期間累積的錯誤總數，以及相對於已傳送訊息總數，的自動傳回處理。
+* **[!UICONTROL 錯誤]**：傳遞與自動傳回處理期間累積的錯誤總數，與已傳送的訊息總數相關。
 
 * **[!UICONTROL 不同點按次數]**：在傳遞中至少點選一次的不同收件者總數。
 
 +++
-
 
 ### 初始目標對象統計資料 {#delivery-summary-sms-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
 >title="初始目標對象統計資料"
->abstract="**初始目標對象統計資料**&#x200B;表可顯示與您收件者相關的資料"
+>abstract="**初始目標對象統計資料**&#x200B;表格會顯示與收件者相關的資料。"
 
 **[!UICONTROL 初始目標對象統計資料]**&#x200B;表格會顯示與收件者相關的資料。 量度詳情如下。
 
-
-![](assets/campaign_report_sms_2.png){zoomable="yes"}
+![顯示收件者資料的初始目標對象統計資料表](assets/campaign_report_sms_2.png){zoomable="yes"}
 
 +++進一步瞭解簡訊行銷活動報告量度。
 
@@ -57,32 +54,28 @@ ht-degree: 18%
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備後要傳遞的訊息總數。
 
-* **[!UICONTROL 被規則拒絕]**：套用規則時分析期間忽略的位址總數：位址遺失、被隔離、在封鎖清單上等。
+* **[!UICONTROL 被規則拒絕]**：套用規則時，分析期間忽略的地址總數，例如地址遺失、被隔離或列入封鎖清單。
 
 +++
 
-
 ### 執行統計資料 {#delivery-summary-sms-exec-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_exec_stats"
 >title="執行統計資料"
 >abstract="**執行統計資料**&#x200B;資料表詳細說明您的傳遞成功：要傳遞的訊息、成功、錯誤和新隔離。"
 
-
 **[!UICONTROL 執行統計資料]**&#x200B;資料表詳細說明您的傳送是否成功。 量度詳情如下。
 
-
-![](assets/campaign_report_sms_3.png){zoomable="yes"}
+![顯示傳遞成功量度的執行統計資料表](assets/campaign_report_sms_3.png){zoomable="yes"}
 
 +++進一步瞭解簡訊行銷活動報告量度。
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備後要傳遞的訊息總數。
 
-* **[!UICONTROL 成功]**：已順利處理的訊息數與要傳遞的訊息數有關。
+* **[!UICONTROL 成功]**：已成功處理的訊息數目，與要傳遞的訊息數目相關。
 
-* **[!UICONTROL 錯誤]**：傳遞期間累積的錯誤總數，以及相對於要傳遞的訊息數的自動復原處理次數。
+* **[!UICONTROL 錯誤]**：在傳遞與自動復原處理期間累積的錯誤總數，與要傳遞的訊息數目相關。
 
 * **[!UICONTROL 新隔離]**：在傳送失敗（使用者不明、網域無效）之後被隔離的地址總數，與要傳送的訊息數目相關。
 
@@ -92,7 +85,6 @@ ht-degree: 18%
 
 ### 產生的點按資料流 {#delivery-summary-sms-click-streams}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_click_streams"
 >title="產生的點按資料流"
@@ -100,7 +92,7 @@ ht-degree: 18%
 
 **[!UICONTROL 產生的點按資料流]**&#x200B;表格會顯示收件者與傳遞互動的相關資料。 量度詳情如下。
 
-![](assets/campaign_report_sms_4.png){zoomable="yes"}
+![已產生顯示收件者互動資料的點按資料流表格](assets/campaign_report_sms_4.png){zoomable="yes"}
 
 +++進一步瞭解簡訊行銷活動報告量度。
 

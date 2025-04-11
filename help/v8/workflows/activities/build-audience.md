@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「建置客群」工作流程活動
 description: 了解如何使用「建置客群」工作流程活動
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 70%
+source-wordcount: '414'
+ht-degree: 62%
 
 ---
 
@@ -42,7 +42,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 請按照以下步驟設定「**建置客群**」活動：
 
-![](../assets/workflow-audience.png)
+![顯示工作流程對象設定介面的熒幕擷圖。](../assets/workflow-audience.png)
 
 1. 新增「**建置客群**」活動。
 1. 定義標籤。
@@ -56,7 +56,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 若要建立自己的查詢，請依照下列步驟進行：
 
 1. 選取「**建立您自己的 (查詢)**」。
-1. 選擇「**目標定位維度**」。目標市場選擇維度可讓您定義作業的目標群體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)
+1. 選擇「**目標定位維度**」。目標維度可讓您定義作業的目標母體，例如收件者、合約受益者、操作者或訂閱者。 預設情況下，會從收件者中選取目標。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)
 1. 按一下&#x200B;**「繼續」**。
 1. 使用查詢建模器來定義您的查詢，就像在設計新電子郵件時建立對象一樣。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
 
@@ -70,8 +70,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 >[!ENDTABS]
 
-## 範例{#build-audience-examples}
+## 範例 {#build-audience-examples}
 
 以下範例是一個包含兩個「**建置客群**」活動的工作流程。第一個目標是撲克玩家客群，然後是電子郵件傳遞。第二個目標是 VIP 用戶端客群，然後是簡訊傳遞。
 
-![](../assets/workflow-audience-example.png)
+![熒幕擷圖顯示具有兩個以不同對象為目標的組建對象活動的範例工作流程。](../assets/workflow-audience-example.png)

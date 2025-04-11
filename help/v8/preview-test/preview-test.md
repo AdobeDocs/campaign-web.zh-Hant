@@ -3,9 +3,9 @@ audience: end-user
 title: 關於傳遞預覽和測試
 description: 瞭解如何預覽和測試傳送
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '192'
 ht-degree: 17%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 17%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-hant" text="傳送校樣"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#test-landing-page" text="測試登陸頁面"
 
-定義您的傳送內容後，您可以使用設定檔和測試設定檔，在傳送訊息之前進行預覽和測試。 這是確保正確性的重要步驟，但內容與個人化設定中也不會有錯誤。
+定義傳遞內容後，您可以使用設定檔和測試設定檔，在傳送訊息之前進行預覽和測試。 此步驟可確保準確性並消除內容和個人化設定中的錯誤。
 
 [!DNL Adobe Campaign Web user interface]允許您：
 
@@ -28,9 +28,9 @@ ht-degree: 17%
 * [在熱門的案頭、行動裝置和網頁型使用者端中檢查電子郵件呈現](email-rendering.md)
 * [預覽和測試您的登入頁面](../landing-pages/create-lp.md#test-landing-page)
 
-這些動作可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕執行，您可從傳遞的編輯內容畫面或[電子郵件Designer](../email/get-started-email-designer.md)存取該按鈕。
+使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕執行這些動作，您可從傳遞的編輯內容畫面或[電子郵件Designer](../email/get-started-email-designer.md)存取該按鈕。
 
-![](assets/simulate-button.png){zoomable="yes"}
+![在傳遞的編輯內容畫面中模擬內容按鈕](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >

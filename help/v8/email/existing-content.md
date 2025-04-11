@@ -3,10 +3,10 @@ audience: end-user
 title: 匯入您的電子郵件內容
 description: 了解如何匯入電子郵件內容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 41%
+source-wordcount: '291'
+ht-degree: 29%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 41%
 您可以在電子郵件Designer中匯入現有的HTML內容。 此內容可以是：
 
 * **HTML 檔案**，內含整合的樣式表，
-* **.zip 資料夾**，內含 HTML 檔案、樣式表 (.css) 和影像。
+* 含有HTML檔案、樣式表(.css)和影像的&#x200B;**.zip資料夾**。
 
-  >[!NOTE]
-  >
-  >.zip 檔案結構沒有限制。不過，參照必須是相對參照，而且能放在.zip資料夾的樹狀結構內。
+>[!NOTE]
+>
+>.zip 檔案結構沒有限制。不過，參照必須是相對參照，而且能放在.zip資料夾的樹狀結構內。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -32,28 +32,28 @@ ht-degree: 41%
 
 1. 在[電子郵件Designer](get-started-email-designer.md)首頁上，選取&#x200B;**[!UICONTROL 匯入HTML]**。
 
-   ![](assets/html-import.png){zoomable="yes"}
+   ![熒幕擷圖顯示[電子郵件Designer]首頁中的[匯入HTML]選項。](assets/html-import.png){zoomable="yes"}
 
-1. 拖放包含 HTML 內容的 HTML 或 .zip 檔案，然後按一下「**[!UICONTROL 匯入]**」。
+1. 拖放包含HTML內容的HTML或.zip檔案，然後按一下&#x200B;**[!UICONTROL 匯入]**。
 
 1. 上傳HTML內容後，您的內容將處於&#x200B;**[!UICONTROL 相容性模式]**。
 
-   在此模式中，您只能個人化您的文字、新增連結或包含資產至您的內容。
+   在此模式中，您可以將文字個人化、新增連結或包含資產至您的內容。
 
-   ![](assets/html-imported.png){zoomable="yes"}
+   ![熒幕擷圖顯示以相容模式上傳的HTML內容。](assets/html-imported.png){zoomable="yes"}
 
-1. 若要能夠利用電子郵件Designer內容元件，請存取&#x200B;**[!UICONTROL HTML轉換工具]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 轉換]**。
+1. 若要利用電子郵件Designer內容元件，請存取&#x200B;**[!UICONTROL HTML轉換工具]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 轉換]**。
 
-   ![](assets/html-imported-2.png){zoomable="yes"}
+   ![熒幕擷圖顯示HTML轉換器索引標籤與轉換按鈕。](assets/html-imported-2.png){zoomable="yes"}
 
-   >[!NOTE]
-   >
-   > 使用`<table>`標籤做為HTML檔案中的第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
+>[!NOTE]
+>
+>在HTML檔案中使用`<table>`標籤做為第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
 
-1. 您現在可以根據需要，使用電子郵件Designer功能[瞭解更多](content-components.md)個人化匯入的檔案。
+1. 使用電子郵件Designer功能，視需要個人化您匯入的檔案。 [了解更多](content-components.md)
 
 ## 操作說明影片 {#video}
 
-瞭解如何透過上傳HTML來建立電子郵件、如何使其與電子郵件設計工具相容以及如何將其轉換為範本。
+瞭解如何透過上傳HTML建立電子郵件、使其與電子郵件Designer相容，並將其轉換為範本。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

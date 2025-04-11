@@ -3,10 +3,10 @@ audience: end-user
 title: 直接郵件頻道的行銷活動報告
 description: 瞭解直接郵件頻道的行銷活動報告
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 21%
+source-wordcount: '554'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 21%
 
 **[!UICONTROL 傳遞總覽]**&#x200B;提供關鍵效能量度(KPI)，提供深入分析訪客與每個直接郵件傳遞的互動。 這些量度概述如下。
 
-![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
+![直接郵件行銷活動傳遞量度概觀](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解傳送概述量度。
 
@@ -33,7 +33,7 @@ ht-degree: 21%
 
 * **[!UICONTROL 已傳遞]**：與已傳送訊息總數相關的成功傳送訊息數。
 
-* **[!UICONTROL 錯誤]**：傳遞期間累積的錯誤總數，以及相對於已傳送訊息總數，的自動傳回處理。
+* **[!UICONTROL 錯誤]**：傳遞與自動傳回處理期間累積的錯誤總數，與已傳送的訊息總數相關。
 
 * **[!UICONTROL 點按總數]**：在傳遞中至少點按一次的不同收件者總數。
 
@@ -46,9 +46,9 @@ ht-degree: 21%
 >title="初始目標對象統計資料"
 >abstract="收件者資料和訊息資訊顯示在&#x200B;**初始目標對象統計資料**&#x200B;表格中，反映了傳遞準備分析。"
 
-**[!UICONTROL 初始目標對象統計資料]**&#x200B;表格會顯示與收件者相關的資料。 量度會在傳遞準備期間計算並顯示：初始對象、要傳送的訊息數、排除的收件者數。
+**[!UICONTROL 初始目標對象統計資料]**&#x200B;表格會顯示與收件者相關的資料。 量度會在傳遞準備期間計算，並顯示初始對象、要傳送的訊息數，以及排除的收件者數。
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
+![直接郵件行銷活動的初始目標對象統計資料](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++進一步瞭解初始目標對象統計量度。
 
@@ -56,7 +56,7 @@ ht-degree: 21%
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備後要傳遞的訊息總數。
 
-* **[!UICONTROL 被規則拒絕]**：套用規則時分析期間忽略的位址總數：位址遺失、被隔離、在封鎖清單上等。
+* **[!UICONTROL 被規則拒絕]**：在套用規則時，分析期間忽略的地址總數，例如遺失的地址、隔離的地址或封鎖清單上的地址。
 
 +++
 
@@ -67,7 +67,7 @@ ht-degree: 21%
 >title="傳遞統計資料"
 >abstract="**執行統計資料**&#x200B;表格詳細說明直接郵件傳遞成功以及發生的錯誤。"
 
-![](assets/direct-mail-campaign-exec.png)
+![直接郵件行銷活動的執行統計資料](assets/direct-mail-campaign-exec.png)
 
 **[!UICONTROL 執行統計資料]**&#x200B;表格提供每個直接郵件傳送成功的明細，其詳細度量如下所述。
 
@@ -75,11 +75,11 @@ ht-degree: 21%
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備後要傳遞的訊息總數。
 
-* **[!UICONTROL 成功]**：已順利處理的訊息數與要傳遞的訊息數有關。
+* **[!UICONTROL 成功]**：已成功處理的訊息數目，與要傳遞的訊息數目相關。
 
-* **[!UICONTROL 錯誤]**：傳遞期間累積的錯誤總數，以及相對於要傳遞的訊息數的自動復原處理次數。
+* **[!UICONTROL 錯誤]**：在傳遞和自動復原處理期間累積的錯誤總數，與要傳遞的訊息數目相關。
 
-* **[!UICONTROL 新隔離]**：在傳送失敗（使用者不明、網域無效）之後被隔離的地址總數，與要傳送的訊息數目相關。
+* **[!UICONTROL 新隔離]**：與要傳送的訊息數目相關的傳送失敗後（例如，使用者不明、無效的網域）被隔離的地址總數。
 
 +++
 
@@ -90,7 +90,7 @@ ht-degree: 21%
 >title="產生的點按資料流"
 >abstract="**產生的點按資料流**&#x200B;資料表顯示收件者如何與您的傳遞互動的相關可用資料。"
 
-![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
+![直接郵件行銷活動的點按資料流資料](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
 **產生的點按資料流**&#x200B;表格說明了無法從目標設定檔排除的使用者設定檔接收訊息的原因。
 
@@ -100,6 +100,6 @@ ht-degree: 21%
 
 * **[!UICONTROL 點按總數]**：傳遞中連結的點按總數。
 
-* **[!UICONTROL 反應性]**：已點按傳遞的目標收件者數目與已開啟傳遞的目標收件者預估數目之間的比率。
+* **[!UICONTROL 反應性]**：點選傳遞的目標收件者數目與開啟傳遞的目標收件者預估數目之間的比率。
 
 +++

@@ -3,10 +3,10 @@ audience: end-user
 title: 推播通道的全域報表
 description: 瞭解推播通道的全域報表
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 25%
+source-wordcount: '600'
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 25%
 
 **[!UICONTROL 傳遞總覽]**&#x200B;報告提供關鍵績效指標(KPI)，可提供訪客如何與每個推播通知傳遞互動的詳細資訊。 量度詳情如下。
 
-![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
+![傳遞總覽量度，顯示與推播通知效能相關的KPI。](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++進一步瞭解傳送概述量度。
 
@@ -50,7 +50,7 @@ ht-degree: 25%
 
 針對每個已傳送的推播通知傳遞，**[!UICONTROL 目標對象]**&#x200B;表格和圖表會顯示與收件者相關的資料。 量度詳情如下。
 
-![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
+![目標對象量度，顯示與推播通知的收件者和排除專案相關的資料。](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++深入瞭解鎖定目標對象量度。
 
@@ -58,7 +58,7 @@ ht-degree: 25%
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備後要傳遞的訊息總數。
 
-* **[!UICONTROL 排除]**：套用規則時，分析期間忽略的地址總數：地址遺失、隔離、封鎖清單等。
+* **[!UICONTROL 排除]**：套用規則時，分析期間忽略的地址總數：地址遺失、隔離、加入封鎖清單及類似原因。
 
 +++
 
@@ -71,7 +71,7 @@ ht-degree: 25%
 
 **[!UICONTROL 傳遞統計資料]**&#x200B;表格詳細說明每個推播通知傳遞的成功情況。 量度詳情如下。
 
-![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
+![傳遞統計量度，顯示推播通知的成功率、錯誤和隔離。](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++進一步瞭解傳遞統計量度。
 
@@ -81,7 +81,7 @@ ht-degree: 25%
 
 * **[!UICONTROL 錯誤/退信]**：傳遞期間累積的錯誤總數，以及相對於要傳遞的訊息數的自動復原處理次數。
 
-* **[!UICONTROL 新隔離]**：與要傳送的訊息數目相關的傳送失敗後（註冊無效、訊息拒絕、裝載錯誤等）被隔離的地址總數。
+* **[!UICONTROL 新隔離]**：在傳送失敗（無效註冊、郵件拒絕、裝載錯誤及類似原因）之後被隔離的地址總數，與要傳送的郵件數相關。
 
   推播通知錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
 
@@ -105,6 +105,6 @@ ht-degree: 25%
 >title="傳遞輸送量報告"
 >abstract="**傳遞輸送量**&#x200B;報告提供有關特定期間內整個平台推播通知傳遞輸送量的詳細資訊。"
 
-![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
+![傳遞輸送量度，顯示特定期間推播通知的成功和錯誤率。](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 **[!UICONTROL 傳遞輸送量]**&#x200B;報表提供推播通知傳遞系統有效性的全面深入分析，提供指定期間成功率和錯誤率的詳細摘要。

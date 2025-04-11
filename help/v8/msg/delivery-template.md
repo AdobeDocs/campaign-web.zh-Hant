@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 24%
+source-wordcount: '1102'
+ht-degree: 11%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="傳遞範本"
->abstract="為了加速和改善設計流程，您可以建立傳遞範本並在多個行銷活動中輕鬆重複使用自訂內容和設定。這項功能可以將創意外觀和風格標準化，以更快速地執行和啟動行銷活動"
+>abstract="為了加速及改善設計流程，請建立傳遞範本以在行銷活動中重複使用自訂內容和設定。 此功能可標準化創意外觀，讓行銷活動更快執行和啟動。"
 
-為了加速和改善設計流程，您可以建立傳遞範本並在多個行銷活動中輕鬆重複使用自訂內容和設定。這項功能可以將創意外觀和風格標準化，以更快速地執行和啟動行銷活動
+為了加速及改善設計流程，請建立傳遞範本以在行銷活動中重複使用自訂內容和設定。 此功能可標準化創意外觀，讓行銷活動更快執行和啟動。
 
-範本可能包括：
+範本包括：
 
 * 範本的&#x200B;**資料夾**&#x200B;和&#x200B;**執行資料夾**。 資料夾是儲存傳遞範本的位置。 執行資料夾是儲存根據此範本建立的傳遞的資料夾。
 * [型別](../advanced-settings/delivery-settings.md#typology)，
@@ -35,37 +35,35 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->傳遞範本與[內容範本](../email/create-email-templates.md)不同，後者僅允許您重複使用電子郵件的內容，並開始使用其中一個現成的範例電子郵件範本建立內容。
-
+>傳遞範本與[內容範本](../email/create-email-templates.md)不同，後者可讓您僅重複使用電子郵件內容，並開始使用其中一個現成的範例電子郵件範本建立內容。
 
 ## 存取並管理傳遞範本 {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="使用傳遞範本"
->abstract="使用傳遞範本建立並儲存傳遞設定，以供將來在您的行銷活動中使用。您可以從頭開始建立傳遞範本、複製現有範本或將傳遞轉換為範本。"
+>abstract="使用傳遞範本建立並儲存傳遞設定，以供將來在您的行銷活動中使用。從頭開始建立傳遞範本、複製現有範本，或將傳遞轉換為範本。"
 
+若要存取內容範本清單，請從左側功能表選取&#x200B;**[!UICONTROL 行銷活動管理]** > **[!UICONTROL 傳遞]**，然後瀏覽至&#x200B;**範本**&#x200B;索引標籤。
 
-若要存取內容範本清單，請從左側功能表選取&#x200B;**[!UICONTROL Campaign Management]** > **[!UICONTROL 傳送]**，然後瀏覽至&#x200B;**範本**&#x200B;索引標籤。
+![傳遞功能表中的[範本]索引標籤](assets/templates-tab.png){zoomable="yes"}
 
-![](assets/templates-tab.png){zoomable="yes"}
+目前環境中建立的所有範本都會顯示出來。
 
-目前環境上[建立](#create-a-delivery-template)的所有範本都會顯示。
+您可以依管道和資料夾篩選內容範本。 您也可以使用傳遞屬性建置規則，以設定進階篩選器。 [進一步瞭解查詢模型工具](../audience/../query/query-modeler-overview.md)
 
-您可以在頻道和資料夾上篩選內容範本。 您也可以使用傳遞屬性建置規則，以設定進階篩選器。 [進一步瞭解查詢模型工具](../audience/../query/query-modeler-overview.md)
-
-![](assets/templates-filters.png){zoomable="yes"}
+![範本的篩選選項](assets/templates-filters.png){zoomable="yes"}
 
 若要編輯範本，請從清單中按一下所需的專案。 從那裡：
 
-* 您可以修改其內容、屬性、對象及附加至該對象的任何選件。
-* 您也可以測試範本。 [了解更多](#test-template)
+* 修改其內容、屬性、對象及附加至該選件的任何選件。
+* 測試您的範本。 [了解更多](#test-template)
 
-![](assets/templates-edition.png){zoomable="yes"}
+![編輯範本](assets/templates-edition.png){zoomable="yes"}
 
 若要刪除或[複製](#copy-an-existing-template)範本，請從&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表（從&#x200B;**[!UICONTROL 範本]**&#x200B;清單或範本版本畫面中）選取對應的動作。
 
-![](assets/templates-more-actions.png){zoomable="yes"}
+範本的![其他動作功能表](assets/templates-more-actions.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -81,30 +79,30 @@ ht-degree: 24%
 
 ### 複製現有的傳遞範本 {#copy-an-existing-template}
 
-Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊。 建立傳遞範本最簡單的方法是複製和自訂內建範本。
+Campaign包含每個管道的內建範本：電子郵件、推播和簡訊。 建立傳遞範本最簡單的方法是複製和自訂內建範本。
 
 >[!NOTE]
 >
 >您也可以複製任何自訂範本。
 
-若要複製傳遞範本，請依照以下步驟進行：
+若要複製傳遞範本，請遵循下列步驟：
 
 1. 從左側&#x200B;**傳送**&#x200B;功能表瀏覽至&#x200B;**範本**&#x200B;索引標籤。 [了解更多](#access-manage-templates)
 1. 按一下所需範本名稱右側的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 複製]**。
 
-   您也可以從清單中選取範本，然後從範本版本畫面中選取此選項。
+   您也可以從清單中選取範本，然後從範本版本畫面中選擇此選項。
 
 1. 確認複製。
 
-   ![](assets/templates-duplicate-confirm.png){zoomable="yes"}
+   ![複製範本的確認對話方塊](assets/templates-duplicate-confirm.png){zoomable="yes"}
 
 1. 新範本控制面板會在中央畫面中開啟。 視需要編輯範本設定。
 
-   ![](assets/templates-duplicated-item.png){zoomable="yes"}
+   ![重複的範本儀表板](assets/templates-duplicated-item.png){zoomable="yes"}
 
 1. 按一下&#x200B;**[!UICONTROL 檢閱]**&#x200B;按鈕以儲存並檢閱您的範本。 您仍然可以編輯其所有設定、刪除及複製它。
 
-   ![](assets/templates-review-screen.png){zoomable="yes"}
+   ![範本的檢閱畫面](assets/templates-review-screen.png){zoomable="yes"}
 
 1. 視需要測試範本呈現。 [了解更多](#test-template)
 
@@ -114,14 +112,14 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 任何傳遞都可以轉換為範本，以供日後重複傳遞動作使用。
 
-若要將傳送儲存為範本，請遵循下列步驟：
+若要將傳送儲存為範本，請執行下列步驟：
 
 1. 瀏覽至&#x200B;**[!UICONTROL 行銷活動管理]** > **[!UICONTROL 傳遞]**&#x200B;功能表。
 1. 從&#x200B;**[!UICONTROL 瀏覽]**&#x200B;索引標籤中，按一下所要傳遞名稱右側的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 復製為範本]**。
 
-   ![](assets/templates-convert-delivery.png){zoomable="yes"}
+   ![將傳遞復製為範本的選項](assets/templates-convert-delivery.png){zoomable="yes"}
 
-   您也可以從清單中選取範本，然後從範本版本畫面中選取此選項。
+   您也可以從清單中選取範本，然後從範本版本畫面中選擇此選項。
 
 1. 確認複製。
 
@@ -137,19 +135,20 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 >[!NOTE]
 >
->為避免發生設定錯誤，Adobe 建議您[複製內建範本](#copy-an-existing-template)並自訂其屬性，而不是建立新範本。
+>為避免設定錯誤，Adobe建議[複製內建範本](#copy-an-existing-template)並自訂其屬性，而非建立新範本。
 
-若要從頭設定傳遞範本，請依照以下步驟進行：
+若要從頭開始設定傳送範本，請遵循下列步驟：
 
 1. 從左側&#x200B;**傳送**&#x200B;功能表瀏覽至&#x200B;**範本**&#x200B;索引標籤。 [了解更多](#access-manage-templates)
 1. 按一下&#x200B;**[!UICONTROL 建立範本]**&#x200B;按鈕。
 
-   ![](assets/templates-create-button.png){zoomable="yes"}
+   ![建立範本按鈕](assets/templates-create-button.png){zoomable="yes"}
 
 1. 選取您要用於範本的管道。
 1. 預設會使用該管道的內建傳遞範本，協助您建立自己的範本。 使用所選管道右側的專用按鈕，根據需要選擇另一個範本。
 
-   ![](assets/templates-channel-browse.png){zoomable="yes"}
+   新範本的![頻道選擇](assets/templates-channel-browse.png){zoomable="yes"}
+
 
 1. 再次按一下&#x200B;**[!UICONTROL 建立範本]**&#x200B;按鈕。
 
@@ -173,26 +172,24 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 ## 測試傳遞範本 {#test-template}
 
-您可以測試任何傳遞範本的轉譯，不論是從草稿建立還是從現有內容建立。 請依照下列步驟以執行此操作。
+您可以測試任何傳遞範本的轉譯，不論是從草稿建立還是從現有內容建立。 若要這麼做，請依照以下步驟進行：
 
 1. 透過&#x200B;**[!UICONTROL 行銷活動管理]** > **[!UICONTROL 傳送]**&#x200B;功能表瀏覽至&#x200B;**範本**&#x200B;索引標籤，並選取任何範本。 [了解更多](#access-manage-templates)
 
-1. 按一下熒幕右上方的&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
+1. 按一下熒幕右上角的&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
 
-   ![](assets/templates-simulate-button.png){zoomable="yes"}
+   ![模擬內容按鈕](assets/templates-simulate-button.png){zoomable="yes"}
 
 1. 選取一或多個測試設定檔，以檢查您的電子郵件呈現。 您也可以從資料庫中選取真正的設定檔。 [進一步瞭解測試設定檔](../audience/test-profiles.md)
 
 1. 在不同的設定檔之間切換，以根據選取的設定檔取得訊息的個人化表示。 您也可以調整縮放等級，並選擇案頭或行動檢視。
 
-[進一步瞭解預覽內容](../preview-test/preview-content.md)
+[深入瞭解預覽內容](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png){zoomable="yes"}
+   ![模擬的內容預覽](assets/templates-stimulate.png){zoomable="yes"}
 
 1. 關閉視窗以返回範本版本畫面。
 
 >[!NOTE]
 >
 >您無法在傳遞範本中使用電子郵件呈現或傳送校樣。
-
-

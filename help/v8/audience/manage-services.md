@@ -3,10 +3,10 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何存取、建立和管理Adobe Campaign網站上的訂閱服務
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 32%
+source-wordcount: '1156'
+ht-degree: 24%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="建立和管理服務"
->abstract="使用 Adobe Campaign 建立和監視您的服務 (例如電子報)，並檢查這些服務的訂閱或取消訂閱。訂閱僅適用於電子郵件和簡訊傳遞。"
+>abstract="使用Adobe Campaign建立及監控您的服務（例如電子報），以及檢查這些服務的訂閱或取消訂閱。 訂閱僅適用於電子郵件和簡訊傳遞。"
 
 使用Adobe Campaign網頁管理及建立您的服務（例如電子報），以及檢查這些服務的訂閱或取消訂閱。
 
-數個服務可並行定義，例如：特定產品類別、網站主題或區域的電子報、各種警報訊息型別的訂閱以及即時通知。
+可同時定義數個服務，例如：特定產品類別、主題或網站區域的電子報、各種警報訊息型別的訂閱以及即時通知。
 
 >[!NOTE]
 >
@@ -31,15 +31,15 @@ ht-degree: 32%
 
 1. 瀏覽至左側導覽邊欄的&#x200B;**[!UICONTROL 訂閱服務]**&#x200B;功能表，位於&#x200B;**[!UICONTROL 客戶管理]**&#x200B;下方。
 
-   ![](assets/service-list.png){zoomable="yes"}
+   ![熒幕擷圖顯示[客戶管理]下左側導覽邊欄的[訂閱服務]功能表](assets/service-list.png){zoomable="yes"}
 
-1. 此時會顯示所有現有訂閱服務的清單。 您可以使用[查詢模型工具](../query/query-modeler-overview.md)來搜尋服務並篩選頻道、資料夾或新增規則。
+1. 此時會顯示所有現有訂閱服務的清單。 您可以使用[查詢模型工具](../query/query-modeler-overview.md)，依頻道、資料夾或新增規則來搜尋服務並篩選。
 
-   ![](assets/service-filters.png){zoomable="yes"}
+   ![熒幕擷圖顯示訂閱服務清單，其中包含頻道、資料夾和規則的篩選器](assets/service-filters.png){zoomable="yes"}
 
 1. 若要編輯現有服務，請按一下其名稱。
 
-1. 您可以使用服務名稱旁邊的三個點圖示來刪除或複製任何服務。<!--so all subscribers are unsubscribed - need to mention?-->
+1. 使用服務名稱旁邊的三個點圖示，刪除或複製任何服務。<!--so all subscribers are unsubscribed - need to mention?-->
 
 ## 建立您的第一個訂閱服務 {#create-service}
 
@@ -62,41 +62,41 @@ ht-degree: 32%
 
 1. 選取&#x200B;**[!UICONTROL 建立訂閱服務]**&#x200B;按鈕。
 
-   ![](assets/service-create-button.png){zoomable="yes"}
+   ![顯示[建立訂閱服務]按鈕的熒幕擷圖](assets/service-create-button.png){zoomable="yes"}
 
 1. 選取頻道： **[!UICONTROL 電子郵件]**&#x200B;或&#x200B;**[!UICONTROL 簡訊]**。
 
 1. 在服務屬性中，輸入標籤，並視需要定義&#x200B;**[!UICONTROL 其他選項]**。
 
-   ![](assets/service-create-properties.png){zoomable="yes"}
+   ![熒幕擷圖顯示具有標籤和其他選項的服務屬性區段](assets/service-create-properties.png){zoomable="yes"}
 
 1. 依預設，服務儲存在&#x200B;**[!UICONTROL 服務和訂閱]**&#x200B;資料夾中。 您可以瀏覽至所需的位置來變更它。 [瞭解如何使用資料夾](../get-started/permissions.md#folders)
 
 1. 依預設，訂閱沒有限制。
 
-   您可以停用&#x200B;**[!UICONTROL 無限有效期間]**&#x200B;選項，以定義服務的有效期間。 有效期間結束後：
-   * 沒有設定檔可以再訂閱此服務
-   * 此服務的所有訂閱者都會自動取消訂閱
+   停用&#x200B;**[!UICONTROL 無限有效期間]**&#x200B;選項，以定義服務的有效期間。 有效期間結束後：
+   * 沒有設定檔可以再訂閱此服務。
+   * 此服務的所有訂閱者都會自動取消訂閱。
 
-   ![](assets/service-create-validity-period.png){zoomable="yes"}
+   ![顯示訂閱服務有效期間設定的熒幕擷圖](assets/service-create-validity-period.png){zoomable="yes"}
 
 1. 當使用者訂閱服務或取消訂閱時，您可以傳送確認訊息。根據您的使用案例，選取要用於該訊息的範本。 這些範本必須以&#x200B;**[!UICONTROL 訂閱]**&#x200B;目標對應來設定。 [了解更多](#create-confirmation-message)
 
-   ![](assets/service-create-confirmation-msg.png){zoomable="yes"}
+   ![顯示確認訊息範本選取範圍的熒幕擷圖](assets/service-create-confirmation-msg.png){zoomable="yes"}
 
 1. 按一下&#x200B;**[!UICONTROL 儲存並檢閱]**。 新服務已新增至&#x200B;**[!UICONTROL 訂閱服務]**&#x200B;清單。
 
-1. 您也可以選取與此服務關聯的預設訂閱和取消訂閱登入頁面。
+1. 選取與此服務關聯的預設訂閱和取消訂閱登入頁面。
 
    >[!AVAILABILITY]
    >
    >此功能在有限可用性(LA)中提供。 僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 
-   ![](assets/service-create-default-lp.png){zoomable="yes"}
+   ![熒幕擷圖顯示訂閱服務的預設登陸頁面設定](assets/service-create-default-lp.png){zoomable="yes"}
 
    完成之後，當[在電子郵件中插入連結](../email/message-tracking.md)時，請選取&#x200B;**[!UICONTROL 訂閱連結]**&#x200B;或&#x200B;**[!UICONTROL 取消訂閱連結]**。 按一下該連結後，系統會將使用者導向至服務中參照的訂閱或取消訂閱登陸頁面。<!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
 
-   ![](assets/service-create-default-lp-link.png){zoomable="yes"}
+   ![顯示訂閱和取消訂閱連結設定的熒幕擷圖](assets/service-create-default-lp-link.png){zoomable="yes"}
 
 1. 儲存並檢閱您的變更。
 
@@ -115,33 +115,32 @@ ht-degree: 32%
 >title="選取訂閱傳遞範本"
 >abstract="若要向訂閱您服務的使用者傳送確認訊息，您必須根據&#x200B;**[!UICONTROL 訂閱]**&#x200B;目標對應選取特定的傳遞範本，而無需定義目標。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_unsubscriptions_delivery_template"
 >title="選取取消訂閱傳遞範本"
 >abstract="若要向取消訂閱您服務的使用者傳送確認訊息，您必須根據&#x200B;**[!UICONTROL 訂閱]**&#x200B;目標對應選取特定的傳遞範本，而無需定義目標。"
 
-若要傳送確認訊息給訂閱或取消訂閱您服務的使用者，您必須使用&#x200B;**[!UICONTROL 訂閱]**&#x200B;目標對應建立傳遞範本，而且沒有定義目標。 要執行此操作，請遵循下列步驟：
+若要傳送確認訊息給訂閱或取消訂閱您服務的使用者，請建立具有&#x200B;**[!UICONTROL 訂閱]**&#x200B;目標對應的傳遞範本，而不需要定義目標。 請遵循以下步驟：
 
 1. 建立訂閱確認的傳遞範本。 [瞭解如何建立範本](../msg/delivery-template.md)
 
-1. 請勿選取此傳遞的對象。 請改為存取傳遞&#x200B;**[!UICONTROL 設定]**，前往[對象](../advanced-settings/delivery-settings.md#audience)標籤，並從清單中選取&#x200B;**[!UICONTROL 訂閱]**&#x200B;目標對應。
+1. 請勿選取此傳遞的對象。 請改為存取傳遞&#x200B;**[!UICONTROL 設定]**，前往[對象](../advanced-settings/delivery-settings.md#audience)標籤，然後從清單中選取&#x200B;**[!UICONTROL 訂閱]**&#x200B;目標對應。
 
-   ![](assets/service-confirmation-template-mapping.png){zoomable="yes"}
+   ![熒幕擷圖顯示傳遞範本的目標對應選取專案](assets/service-confirmation-template-mapping.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >如果您未選取&#x200B;**[!UICONTROL 訂閱]**&#x200B;目標對應，您的訂閱者將不會收到確認訊息。 在[本節](../audience/targeting-dimensions.md)中進一步瞭解目標對應。
 
-1. 編輯傳遞範本的內容，儲存並關閉。
+1. 編輯傳遞範本的內容，儲存並關閉它。
 
-   ![](assets/service-confirmation-template.png){zoomable="yes"}
+   ![顯示傳遞範本內容編輯器的熒幕擷圖](assets/service-confirmation-template.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >在[電子郵件頻道](../email/create-email.md)和[簡訊頻道](../sms/create-sms.md)區段中進一步瞭解傳遞頻道，以及如何定義傳遞內容。
 
-1. 重複上述步驟，建立取消訂閱確認的傳遞範本。
+1. 重複上述步驟，為取消訂閱確認建立傳遞範本。
 
 您現在可以在[建立訂閱服務](#create-service)時選取這些訊息。 訂閱或取消訂閱該服務的使用者將收到所選的確認訊息。
 
@@ -150,7 +149,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="訂閱者計數"
->abstract="按一下「**計算**」，取得此服務的訂閱者總數。"
+>abstract="按一下&#x200B;**計算**&#x200B;以取得此服務的訂閱者總數。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"
@@ -165,43 +164,28 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="訂閱整體演變"
->abstract="此圖顯示按期間劃分的詳細資料，包括訂閱、取消訂閱、數量變化和忠誠度百分比。"
+>abstract="此圖表顯示依期間的劃分，包括訂閱、取消訂閱、數量演化以及忠誠度百分比。"
 
-若要衡量簡訊和電子郵件通道訂閱服務的成效，您可以存取特定服務的記錄檔和報告。
+若要評估簡訊和電子郵件通道訂閱服務的成效，請存取指定服務的記錄檔和報告。
 
 1. 從&#x200B;**[!UICONTROL 訂閱服務]**&#x200B;清單中選取現有的服務。 按一下&#x200B;**[!UICONTROL 計算]**&#x200B;以取得訂閱者總數。
 
-   ![](assets/service-logs-subscribers-count.png){zoomable="yes"}
+   ![熒幕擷圖顯示訂閱者計算總數](assets/service-logs-subscribers-count.png){zoomable="yes"}
 
 1. 從服務儀表板，選取&#x200B;**[!UICONTROL 記錄檔]**&#x200B;以檢視此服務的訂閱者清單。
 
-   您可以檢查訂閱者總數、每個收件者的姓名和地址，以及他們訂閱或取消訂閱的時間。 您也可以對其進行篩選。
+   您可以檢查訂閱者總數、每個收件者的姓名和地址，以及他們訂閱或取消訂閱的時間。 您也可以進行篩選。
 
-   ![](assets/service-logs.png){zoomable="yes"}
+   ![熒幕擷圖顯示包含訂閱者詳細資料的記錄區段](assets/service-logs.png){zoomable="yes"}
 
 1. 從服務儀表板，選取&#x200B;**[!UICONTROL 報表]**。 檢查下列指標：
 
    * 顯示&#x200B;**[!UICONTROL 訂閱者總數]**。
 
-   * 您可以檢視選定期間內的訂閱和取消訂閱數目。 使用下拉式清單來變更時間範圍。
+   * 檢視所選期間內的訂閱和取消訂閱數目。 使用下拉式清單來變更時間範圍。
 
-     ![](assets/service-reports.png){zoomable="yes"}
+     ![熒幕擷圖顯示具有訂閱和取消訂閱資料的報告區段](assets/service-reports.png){zoomable="yes"}
 
-   * **[!UICONTROL 訂閱的整體演化]**&#x200B;圖表顯示依期間的劃分，包括訂閱、取消訂閱、人數的演化以及忠誠度百分比。<!--what is Registered?-->
+   * **[!UICONTROL 訂閱的整體演化]**&#x200B;圖表顯示依期間的劃分，包括訂閱、取消訂閱、數量的演化以及忠誠度百分比。<!--what is Registered?-->
 
-1. 使用&#x200B;**[!UICONTROL 重新載入]**&#x200B;按鈕，從追蹤工作流程的執行和排程中擷取最後的值。
-
-<!--## Best practices {#best-practices}
-
-It is recommended to send a confirmation message to the new subscribers of a service. To do so, create a delivery template and select it when creating a subscription service. [Learn more](#create-confirmation-message).
-
-Send communications targeting your subscribers only. [Learn how](../msg/send-to-subscribers.md)
-
-Always provide your subscribers the capability to unsubscribe from your services. [Learn how](consent.md#email-opt-out)
-
-* When creating a confirmation message:
-
-    * Do not select an audience for this delivery.
-
-    * Select the **[!UICONTROL Subscriptions]** target mapping. Otherwise, your subscribers will not receive the confirmation message.
--->
+1. 使用&#x200B;**[!UICONTROL 重新載入]**&#x200B;按鈕，從追蹤工作流程的執行和排程中擷取最新值。

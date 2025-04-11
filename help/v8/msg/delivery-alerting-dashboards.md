@@ -3,10 +3,10 @@ audience: end-user
 title: 傳遞警報
 description: 瞭解如何使用傳送警報。
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 25%
+source-wordcount: '1115'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 25%
 
 傳送警報儀表板可讓您指定接收電子郵件警報的人員、選擇並設定用於傳送這些警報的警報條件，以及存取所有已傳送通知的歷史記錄。 可從左側導覽窗格中&#x200B;**儀表板**&#x200B;標籤下的&#x200B;**傳送警報**&#x200B;功能表存取這些區段。
 
-![](assets/alerting-dashboard-list.png)
+![熒幕擷圖顯示[傳送警示]功能表中警示儀表板的清單。](assets/alerting-dashboard-list.png)
 
 ## 建立傳遞儀表板 {#dashboards}
 
@@ -47,7 +47,7 @@ ht-degree: 25%
 
 1. 導覽至左側導覽窗格中的&#x200B;**傳遞警報**&#x200B;功能表，然後按一下&#x200B;**建立傳遞儀表板**。
 
-   ![](assets/alerting-dashboard.png)
+   ![在傳送警示功能表中顯示[建立傳送儀表板]選項的熒幕擷圖。](assets/alerting-dashboard.png)
 
 1. 在&#x200B;**標籤**&#x200B;欄位中命名您的儀表板。 **內部名稱**&#x200B;欄位會自動填入且為唯讀。
 
@@ -57,9 +57,9 @@ ht-degree: 25%
 
 1. 在&#x200B;**傳送警示條件**&#x200B;區段中，新增您要用來傳送警示的條件。 從預先定義的條件中選擇，或建立您自己的條件以符合特定需求。 [瞭解如何使用條件](../msg/delivery-alerting-criteria.md)
 
-1. 條件具有預設參數值，是用於定義必須如何套用這些參數。您可以從&#x200B;**條件引數**&#x200B;區段變更這些值，以符合您的需求。
+1. 條件具有預設引數值，可定義必須如何套用條件。 您可以從&#x200B;**條件引數**&#x200B;區段變更這些值，以符合您的需求。
 
-   ![](assets/alerting-criteria-parameters.png)
+   ![在傳遞儀表板中顯示[條件引數]區段的熒幕擷圖。](assets/alerting-criteria-parameters.png)
 
    例如，根據預設，**傳遞目標最小大小**&#x200B;條件引數設為50，這表示只有當傳遞目標至少為50個設定檔時，才會將傳遞包含在此控制面板所傳送的警示中。 如果您想要包含目標為少於50個設定檔的傳送，可以變更此引數。
 
@@ -81,9 +81,9 @@ ht-degree: 25%
 
 1. 預設會停用警示儀表板，這表示連結至此儀表板的電子郵件警示不會傳送。 若要立即啟用儀表板，請切換警示群組選擇欄位旁邊&#x200B;**一般**&#x200B;區段中的&#x200B;**已啟用**&#x200B;選項。
 
-   您也可以儲存控制面板，並於稍後啟用。
+   您也可以儲存控制面板並於稍後啟用。
 
-   ![](assets/alerting-dashboard-enable.png)
+   ![在傳遞儀表板設定中顯示[已啟用]切換選項的熒幕擷圖。](assets/alerting-dashboard-enable.png)
 
 1. 若要儲存警示儀表板，請按一下&#x200B;**儲存**&#x200B;按鈕。
 
@@ -105,12 +105,12 @@ ht-degree: 25%
 
 可從&#x200B;**儀表板**&#x200B;標籤中的&#x200B;**傳送警報**&#x200B;功能表存取所有已建立的警報儀表板。
 
-![](assets/alerting-dashboard-list.png)
+![熒幕擷圖顯示[傳送警示]功能表中警示儀表板的清單。](assets/alerting-dashboard-list.png)
 
 您可以使用位於儀表板名稱旁邊的&#x200B;**更多動作**&#x200B;按鈕來複製或刪除儀表板。
 
 若要存取儀表板的詳細檢視，請從清單中按一下其名稱。 您可以在此畫面中視覺化最新傳送的警報。 所有已傳送的警報都會列在左窗格中。 按一下項目可存取在該特定時間傳送的相應警報。
 
-![](assets/alerting-dashboard-details.png)
+![熒幕擷圖顯示警示儀表板的詳細檢視。](assets/alerting-dashboard-details.png)
 
 若要編輯儀表板，請按一下右上角的&#x200B;**設定**&#x200B;按鈕，並進行所需的變更。

@@ -3,9 +3,9 @@ audience: end-user
 title: 使用變更資料來源工作流程活動
 description: 瞭解如何使用變更資料來源工作流程活動
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '354'
 ht-degree: 13%
 
 ---
@@ -23,15 +23,15 @@ ht-degree: 13%
 
 在某些情況下，目前的資料庫中可能沒有資料，或是資料執行效率不夠高，無法執行單一作業。 因此，您可能需要藉由新增&#x200B;**[!UICONTROL 變更資料來源]**&#x200B;活動，強制工作流程使用不同的資料庫來執行這類作業。
 
-有關Campaign架構的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+有關Campaign架構的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)。
 
 >[!IMPORTANT]
 >
->請注意，不應將&#x200B;**[!UICONTROL 變更維度]**&#x200B;和&#x200B;**[!UICONTROL 變更資料來源]**&#x200B;活動新增到一列。 如果您需要連續使用這兩個活動，請務必在它們之間包含&#x200B;**[!UICONTROL 擴充]**&#x200B;活動。 這可確保正確執行並防止潛在的衝突或錯誤。
+>請注意，不應將&#x200B;**[!UICONTROL 變更維度]**&#x200B;和&#x200B;**[!UICONTROL 變更資料來源]**&#x200B;活動新增到一列。 如果您需要連續使用這兩個活動，請在它們之間加入&#x200B;**[!UICONTROL 擴充]**&#x200B;活動。 這可確保正確執行並防止潛在的衝突或錯誤。
 
 <!--
 
-Let's say you want to send to your  VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
+Let's say you want to send VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
 
 1. Query VIP customers on the "Profiles" table located on the Cloud database,
 1. Retrieve an offer code for each targeted profile through API calls,
@@ -45,9 +45,9 @@ Before executing the operation, the working table is copied to the local databas
 
 ## 設定變更資料來源活動 {#configure}
 
-請依照下列步驟設定&#x200B;**變更維度**&#x200B;活動：
+請依照下列步驟設定&#x200B;**變更資料來源**&#x200B;活動：
 
-![](../assets/workflow-change-data-source-add.png)
+![熒幕擷圖顯示如何將[變更資料來源]活動新增至工作流程。](../assets/workflow-change-data-source-add.png)
 
 1. 新增&#x200B;**變更資料來源**&#x200B;活動至您的工作流程。
 
@@ -65,6 +65,6 @@ Before executing the operation, the working table is copied to the local databas
 <!--
 ## Example {#example}
 
-The workflow belows illustrates the use case detailed earlier, i.e. sending VIP customers offer codes that they can redeem on our online store.
+The workflow below illustrates the use case detailed earlier, sending VIP customers offer codes that they can redeem on our online store.
 
 -->

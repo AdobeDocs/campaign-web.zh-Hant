@@ -2,20 +2,19 @@
 title: 自訂欄位
 description: 瞭解如何設定自訂欄位，以及這些欄位在介面中的可見度。
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 27e44682178267353418de210af51067eee4141b
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 24%
+source-wordcount: '1003'
+ht-degree: 20%
 
 ---
-
 
 # 設定自訂欄位 {#custom-fields}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="編輯自訂詳細資訊"
->abstract="在介面中顯示的所有自訂欄位根據選取的結構描述顯示。您可以使用向上鍵和向下鍵來變更其在介面中的顯示順序，並透過新增分隔符號將欄位分為子區段。若要刪除自訂欄位或編輯可見度條件等設定，請按一下省略符號按鈕。"
+>abstract="在介面中顯示的所有自訂欄位根據選取的結構描述顯示。您可以使用上下箭頭來變更它們在介面中的顯示順序，並藉由新增分隔符號將欄位分組為子區段。 若要刪除自訂欄位或編輯可見度條件等設定，請按一下省略符號按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
@@ -46,7 +45,7 @@ ht-degree: 24%
 
 自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。 在[Adobe Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}中瞭解如何擴充結構描述。
 
-自訂欄位可以顯示在各種畫面中，例如Campaign網頁介面中的設定檔詳細資訊。 管理員可以控制哪些欄位可見，以及這些欄位的顯示方式。 這些變更會套用至所有Campaign使用者。
+自訂欄位可顯示在各種畫面中，例如Campaign網頁介面中的設定檔詳細資料。 管理員可以控制哪些欄位可見，以及這些欄位的顯示方式。 這些變更會套用至所有Campaign使用者。
 
 >[!NOTE]
 >
@@ -69,24 +68,24 @@ ht-degree: 24%
 
    使用篩選器窗格中的&#x200B;**[!UICONTROL 可編輯]**&#x200B;篩選器，以快速識別具有自訂欄位的結構描述。
 
-   ![](assets/custom-fields-open.png)
+   ![在導覽窗格中顯示[結構描述]功能表與[可編輯]篩選器的熒幕擷圖](assets/custom-fields-open.png)
 
-1. 在清單中選取結構描述名稱以開啟它。 詳細的結構描述檢視會顯示[進一步瞭解結構描述詳細資料](../administration/schemas.md)。 按一下&#x200B;**[!UICONTROL 編輯自訂詳細資料]**&#x200B;按鈕以存取自訂欄位。 在此範例中，我們要為&#x200B;**[!UICONTROL 收件者]**&#x200B;結構描述新增欄位。
+1. 在清單中選取結構描述名稱以開啟它。 詳細結構檢視隨即顯示。 [進一步瞭解結構描述詳細資料](../administration/schemas.md)。 按一下&#x200B;**[!UICONTROL 編輯自訂詳細資料]**&#x200B;按鈕以存取自訂欄位。 在此範例中，已為&#x200B;**[!UICONTROL 收件者]**&#x200B;結構描述新增欄位。
 
-   ![](assets/custom-fields-edit.png)
+   ![在結構描述檢視中顯示[編輯自訂詳細資訊]按鈕的熒幕擷圖](assets/custom-fields-edit.png)
 
-1. 在架構顯示的介面中顯示的自訂欄位清單。 在此處，「CRM ID」欄位會顯示在設定檔的詳細資訊畫面中，並已標籤為必要。
+1. 隨即顯示架構介面中所顯示的自訂欄位清單。 在此處，「CRM ID」欄位會顯示在設定檔的詳細資訊畫面中，並已標籤為必要。
 
    | 自訂欄位設定 | 在介面中轉譯 |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+   | ![熒幕擷圖顯示自訂欄位設定](assets/custom-fields-detail.png){zoomable="yes"} | ![顯示介面中CRM ID欄位演算的熒幕擷圖](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
 1. 若要新增自訂欄位至介面，請按一下省略符號按鈕，然後選擇下列其中一個選項：
 
    * **[!UICONTROL 選取自訂欄位]**：選取一或多個自訂欄位以顯示於介面中。
    * **[!UICONTROL 自動填寫自訂欄位清單]**：將結構描述定義的所有自訂欄位新增到介面。
 
-   ![](assets/custom-fields-add.png)
+   ![熒幕擷圖顯示新增自訂欄位的選項](assets/custom-fields-add.png)
 
 1. 新增自訂欄位後，您可以：
 
@@ -100,7 +99,7 @@ ht-degree: 24%
 
 若要設定每個自訂欄位的特定設定，請按一下所需欄位旁的省略符號按鈕，並選取&#x200B;**[!UICONTROL 編輯]**。
 
-![](assets/custom-fields-settings.png)
+![熒幕擷圖顯示自訂欄位的設定功能表](assets/custom-fields-settings.png)
 
 可用的設定包括：
 
@@ -117,7 +116,7 @@ ht-degree: 24%
 
   +++檢視範例
 
-  ![](assets/custom-fields-ref.png)
+  ![熒幕擷圖顯示自訂欄位篩選設定範例](assets/custom-fields-ref.png)
 
 +++
 
@@ -125,9 +124,9 @@ ht-degree: 24%
 
 ## 組織子區段中的自訂欄位 {#separator}
 
-Campaign Web使用者介面可讓您新增分隔符號，以便將介面中的自訂欄位群組在一起，以提高可讀性。 若要這麼做，請依照以下步驟進行：
+Campaign Web使用者介面可讓您新增分隔符號，以便將介面中的自訂欄位分組，以提高可讀性。 若要這麼做，請依照以下步驟進行：
 
-1. 按一下上下箭頭旁邊的省略符號按鈕，並選取&#x200B;**[!UICONTROL 新增分隔符號]**。
+1. 按一下上下箭頭旁邊的省略符號按鈕，然後選取&#x200B;**[!UICONTROL 新增分隔符號]**。
 
 1. 代表分隔符號的新行會新增至清單中。 按一下省略符號按鈕，然後選擇&#x200B;**[!UICONTROL 編輯]**&#x200B;以命名子區段。
 
@@ -137,4 +136,4 @@ Campaign Web使用者介面可讓您新增分隔符號，以便將介面中的�
 
    | 自訂欄位設定 | 在介面中轉譯 |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-separator.png){zoomable="yes"} | ![](assets/custom-fields-section.png){zoomable="yes"} |
+   | ![熒幕擷圖顯示分隔符號的組態](assets/custom-fields-separator.png){zoomable="yes"} | ![顯示介面中子區段轉譯的熒幕擷圖](assets/custom-fields-section.png){zoomable="yes"} |

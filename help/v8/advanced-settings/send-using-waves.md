@@ -4,10 +4,10 @@ title: 使用波段傳送
 description: 進一步瞭解Campaign網頁中的傳遞設定
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 14%
+source-wordcount: '803'
+ht-degree: 13%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 14%
 
 如果選取此選項，則所有波段的大小都相同（最後一個波段除外），而且每個波段之間的延遲始終相同。
 
-![](assets/waves-same-size.png){zoomable="yes"}
+![大小相同的波段範例](assets/waves-same-size.png){zoomable="yes"}
 
 * 指定您要分割傳遞的所有波段的大小。 您可以輸入百分比或數值。 只有最後一個波段的大小可以不同，因為它必須包含剩餘的訊息數量。
 
@@ -70,17 +70,17 @@ ht-degree: 14%
 
 若要這麼做，請選取&#x200B;**[!UICONTROL 排程多個相同大小的波段]**&#x200B;選項。 輸入&#x200B;**[!UICONTROL 20]**&#x200B;作為波段大小，並在&#x200B;**[!UICONTROL 間隔]**&#x200B;欄位中輸入&#x200B;**[!UICONTROL 1天]**。
 
-![](assets/waves-call-center.png){zoomable="yes"}
+![呼叫中心處理的波段範例](assets/waves-call-center.png){zoomable="yes"}
 
 ## 根據行事曆排定波段 {#waves-calendar}
 
-如果選取此選項，您必須定義要傳送之每個波次的開始日/時間，以及每個波次的大小。
+如果您選取此選項，請定義您傳送之每個波次的開始日/時間，以及每個波次的大小。
 
 * 在&#x200B;**[!UICONTROL 開始]**&#x200B;欄位中，指定兩個連續波段開始之間的延遲。
 
 * 在&#x200B;**[!UICONTROL 大小]**&#x200B;欄中，輸入固定數字或百分比。
 
-新增任意數量的波段。 您可以視需要重新排序。
+視需要新增多個波段。 根據您的要求重新排序。
 
 >[!NOTE]
 >
@@ -88,14 +88,14 @@ ht-degree: 14%
 
 在以下範例中，第一個波段代表傳送中包含之訊息總數的25%，而且會立即開始。 接下來的兩個批次會完成傳遞，並設定為每六小時開始一次。
 
-![](assets/waves-calendar.png){zoomable="yes"}
+![行事曆排程的波段範例](assets/waves-calendar.png){zoomable="yes"}
 
 根據行事曆使用多個波段的常見使用案例是在向上移動過程中。
 
 使用新平台傳送電子郵件時，網際網路服務提供者(ISP)會懷疑無法辨識的IP位址。 如果突然傳送大量電子郵件，ISP通常會將其標籤為垃圾郵件。
 
-為避免被標籤為垃圾訊息，您可以逐步增加使用波段傳送的數量。 這應該可以確保啟動階段的順利發展，並且讓您降低無效的位址的整體比率。
+為避免標籤為垃圾訊息，請逐步增加使用波段傳送的數量。 這可以確保啟動階段的順利發展，並降低無效位址的整體比率。
 
 若要這麼做，請使用&#x200B;**[!UICONTROL 根據行事曆]**&#x200B;選項排程波段。 例如，將第一個波段設為10%，將第二個波段設為15%，將第三個波段設為20%，以此類推。
 
-![](assets/waves-ramp-up.png){zoomable="yes"}
+![遞增流程的波次範例](assets/waves-ramp-up.png){zoomable="yes"}

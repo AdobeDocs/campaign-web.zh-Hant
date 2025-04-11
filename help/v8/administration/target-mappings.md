@@ -2,15 +2,14 @@
 title: 管理目標對應
 description: 瞭解如何管理目標對應。
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 15%
+source-wordcount: '808'
+ht-degree: 14%
 
 ---
 
 # 管理目標對應 {#target-mappings}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
@@ -29,7 +28,7 @@ ht-degree: 15%
 
 目標對應可從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 目標對應]**&#x200B;功能表存取。 您可以從此畫面存取每個目標對應的詳細資訊，或建立新的目標對應以符合您的需求。
 
-![](assets/target-mappings-list.png)
+![目標對應清單畫面顯示可用的對應](assets/target-mappings-list.png)
 
 如需Adobe Campaign隨附的內建目標對應詳細資訊，請參閱[Campaign v8使用者端主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
 
@@ -64,11 +63,11 @@ ht-degree: 15%
 1. 選取目標母體。 您可以：
 
    * **[!UICONTROL 直接使用目標維度]**：從可用維度清單中直接選取要定位的維度。
-   * **[!UICONTROL 使用連結的資料]**：此選項可讓您從目標維度開始（例如訂閱），然後切換到您要鎖定的目標維度（例如收件者）。
+   * **[!UICONTROL 使用連結的資料]**：從目標維度（例如訂閱）開始，然後切換到您要鎖定的目標維度（例如收件者）。
 
-   ![](assets/target-mappings-properties.png)
+   ![顯示母體選項的目標對應屬性畫面](assets/target-mappings-properties.png)
 
-1. 如果選取的維度尚未由現有目標對應使用，則需要建立儲存記錄的結構描述。 若要這麼做，可在&#x200B;**[!UICONTROL 儲存體]**&#x200B;區段中取得其他選項。 展開下列區段以取得詳細資訊。
+1. 如果選取的維度尚未由現有目標對應使用，則需要建立儲存記錄的結構描述。 **[!UICONTROL 儲存體]**&#x200B;區段中提供其他選項。 展開下列區段以取得詳細資訊。
 
    +++新目標維度的儲存選項
 
@@ -77,42 +76,42 @@ ht-degree: 15%
 
       在下列範例中，broadlog名稱將是「cusbroadlogSupplier」。
 
-      ![](assets/target-mappings-new.png)
+      ![新目標維度的儲存選項範例](assets/target-mappings-new.png)
 
-   1. **[!UICONTROL 傳遞記錄]**：啟用此區段中的選項，以區段代碼欄位或包含傳遞IP位址的欄位來擴充傳送記錄。 例如，您可以在工作流程期間計算的區段代碼儲存至傳送記錄檔，以便稍後調整目標。 這可讓您定位具有此特定區段代碼的設定檔。
+   1. **[!UICONTROL 傳遞記錄]**：啟用此區段中的選項，以區段代碼欄位或包含傳遞IP位址的欄位來擴充傳送記錄。 例如，將工作流程期間計算的區段代碼儲存到傳送記錄檔中，以便稍後調整目標。 這允許使用此特定區段代碼來定位設定檔。
 
-   1. **[!UICONTROL 排除專案]**：指定您要如何儲存排除專案記錄檔。
+   1. **[!UICONTROL 排除專案]**：指定如何儲存排除專案記錄檔。
 
-   1. **[!UICONTROL 追蹤記錄]**：啟用&#x200B;**[!UICONTROL 產生追蹤的結構描述]**&#x200B;選項，以產生追蹤記錄的儲存結構描述
+   1. **[!UICONTROL 追蹤記錄]**：啟用&#x200B;**[!UICONTROL 產生追蹤的結構描述]**&#x200B;選項，以產生追蹤記錄的儲存結構描述。
 
 +++
 
-1. 使用&#x200B;**[!UICONTROL 對應]**&#x200B;區段來識別目標對應結構描述中要用於每個傳遞位址列位的屬性。 對於每個欄位，選取要對應的所需屬性。 您也可以建立運算式來識別欄位。 例如，您可以將下層函式套用至地址屬性。
+1. 使用&#x200B;**[!UICONTROL 對應]**&#x200B;區段來識別目標對應結構描述中要用於每個傳遞位址列位的屬性。 對於每個欄位，選取要對應的所需屬性。 您也可以建立運算式來識別欄位。 例如，將下層函式套用至地址屬性。
 
-   ![](assets/target-mappings-mapping.png)
+   ![顯示傳遞位址列位屬性選擇的對應區段](assets/target-mappings-mapping.png)
 
-1. 當目標對應準備就緒時，請按一下&#x200B;**[!UICONTROL 建立]**&#x200B;按鈕。 系統會自動建立記錄檔的目標對應及所有相關結構描述。
+1. 當目標對應準備就緒時，請按一下&#x200B;**[!UICONTROL 建立]**&#x200B;按鈕。 系統會自動建立記錄檔的目標對應和所有相關的結構描述。
 
 建立目標對應後，畫面上會顯示兩個額外的區段：
 
 * **[!UICONTROL 加入封鎖清單]**：此區段可讓您識別目標對應結構描述中要用於封鎖清單的屬性。
 
-  ![](assets/target-mappings-denylisting.png)
+  ![顯示屬性選取範圍的封鎖清單區段](assets/target-mappings-denylisting.png)
 
 * **[!UICONTROL 儲存體]**：此區段可讓您識別要用來儲存記錄檔的資料表。
 
-  ![](assets/target-mappings-storage.png)
+  ![儲存區段，顯示記錄檔的資料表選項](assets/target-mappings-storage.png)
 
    * **[!UICONTROL 訊息結構描述]**：識別要用來儲存傳送記錄檔的結構描述。
-   * **[!UICONTROL 已排除的郵件]**：本節指定如何管理傳遞和排除記錄儲存體。
+   * **[!UICONTROL 已排除的郵件]**：指定如何管理傳遞和排除記錄儲存體。
 
       * **[!UICONTROL 將排除專案和訊息儲存在相同資料表中]**
       * **[!UICONTROL 僅儲存郵件]**：不儲存排除專案。
       * **[!UICONTROL 將排除專案和訊息儲存在不同的資料表]**：選取要用來在&#x200B;**[!UICONTROL 拒絕結構描述]**&#x200B;欄位中儲存排除記錄的結構描述。
 
    * **[!UICONTROL 追蹤記錄]**：選擇儲存追蹤記錄和預設流量來源的位置。
-   * **[!UICONTROL 其他欄位]**：此區段可讓您指定要儲存至傳遞記錄檔的其他欄位清單。 這些欄位可永久儲存有關目標個別成員的資訊(例如 `recipient/@firstName`)或儲存工作流程期間計算的其他資料（例如`[targetData/@offeCode]`）
+   * **[!UICONTROL 其他欄位]**：指定要儲存在傳送記錄檔中的其他欄位清單。 這些欄位可永久儲存目標個別成員（例如`recipient/@firstName`）的資訊，或儲存工作流程期間計算的其他資料（例如`[targetData/@offeCode]`）。
 
-     若要這麼做，請選取&#x200B;**[!UICONTROL 新增欄位]**。 識別您要儲存在&#x200B;**[!UICONTROL Source]**&#x200B;欄位中的資訊，以及要用於傳送記錄檔的屬性，以將此資訊儲存在&#x200B;**[!UICONTROL 目的地]**&#x200B;欄位中。
+     若要這麼做，請選取&#x200B;**[!UICONTROL 新增欄位]**。 識別要儲存在&#x200B;**[!UICONTROL Source]**&#x200B;欄位中的資訊，以及要用於傳送記錄檔的屬性，以將此資訊儲存在&#x200B;**[!UICONTROL 目的地]**&#x200B;欄位中。
 
-     ![](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+     ![其他欄位區段，顯示儲存額外資料的選項](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

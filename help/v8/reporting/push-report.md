@@ -3,10 +3,10 @@ audience: end-user
 title: 推播傳遞報告
 description: 瞭解如何存取及使用推播傳遞報告
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 38%
+source-wordcount: '567'
+ht-degree: 32%
 
 ---
 
@@ -30,17 +30,14 @@ ht-degree: 38%
 
 **[!UICONTROL 傳遞總覽]**&#x200B;報告提供關鍵績效指標(KPI)，可提供訪客如何與您的推送訊息互動的詳細資訊。
 
-![](assets/reporting_push_3.png){zoomable="yes"}
+![此熒幕擷圖顯示傳遞概述報告，該報告提供有關訪客參與推播訊息的KPI。](assets/reporting_push_3.png){zoomable="yes"}
 
 +++進一步瞭解推播傳送報告量度。
 
 * **[!UICONTROL 已傳送總計]**：傳遞準備期間處理的訊息總數。
-
 * **[!UICONTROL 已傳遞]**：與已傳送訊息總數相關的成功傳送訊息數。
-
 * **[!UICONTROL 點按]**：與推送訊息互動的收件者總數。
-
-* **[!UICONTROL 錯誤]**：傳送期間發生無法傳送至設定檔的錯誤總數。
+* **[!UICONTROL 錯誤]**：傳遞期間發生的錯誤總數，無法傳送給設定檔。
 
 +++
 
@@ -53,12 +50,11 @@ ht-degree: 38%
 
 **目標母體**&#x200B;圖表和表格會顯示與您的對象相關的資料：要傳送的訊息和排除專案。 量度詳情如下。
 
-![](assets/reporting_push_4.png){zoomable="yes"}
+![此熒幕擷圖顯示目標母體圖形和表格，其中顯示要傳送和排除的訊息相關資料。](assets/reporting_push_4.png){zoomable="yes"}
 
 +++進一步瞭解推播傳送報告量度。
 
 * **[!UICONTROL 要傳遞]**：傳遞準備期間處理的訊息總數。
-
 * **[!UICONTROL 排除專案]**：已從分析中排除的設定檔數目。
 
 +++
@@ -72,14 +68,12 @@ ht-degree: 38%
 
 **整體統計資料**&#x200B;報告會顯示已傳送推播通知的資料：成功、錯誤和隔離。 量度詳情如下。
 
-![](assets/reporting_push_5.png){zoomable="yes"}
+![此熒幕擷圖顯示整體統計報告，其中顯示已傳送推播通知的成功、錯誤和隔離的相關資料。](assets/reporting_push_5.png){zoomable="yes"}
 
 +++進一步瞭解推播傳送報告量度。
 
 * **[!UICONTROL 成功]**：已成功處理的訊息數。
-
 * **[!UICONTROL 錯誤]**：傳遞期間發生的總錯誤數，無法將訊息傳送至特定設定檔。
-
 * **[!UICONTROL 新隔離]**：已排除並新增至隔離的設定檔數目。
 
 +++
@@ -93,8 +87,7 @@ ht-degree: 38%
 
 **[!UICONTROL 排除專案]**&#x200B;圖表和表格會顯示各種原因，導致從目標設定檔中排除的使用者設定檔無法接收訊息。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}中有詳細說明。
 
-
-![](assets/reporting_push_6.png){zoomable="yes"}
+![此熒幕擷圖顯示排除專案圖表和表格，這些圖表和表格會顯示排除的使用者設定檔無法接收訊息的原因。](assets/reporting_push_6.png){zoomable="yes"}
 
 ## 傳遞總處理能力 {#delivery-throughput}
 
@@ -105,4 +98,4 @@ ht-degree: 38%
 
 **傳遞輸送量**&#x200B;報告提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。
 
-![](assets/reporting_push_2.png){zoomable="yes"}
+![此熒幕擷圖顯示傳遞輸送量報告，該報告提供指定時間範圍內平台訊息傳遞速度的詳細資料。](assets/reporting_push_2.png){zoomable="yes"}

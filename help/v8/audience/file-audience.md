@@ -3,10 +3,10 @@ audience: end-user
 title: 從檔案載入電子郵件客群
 description: 瞭解如何從外部檔案載入設定檔，以建立您的電子郵件對象
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 28%
+source-wordcount: '691'
+ht-degree: 24%
 
 ---
 
@@ -53,20 +53,20 @@ Adobe Campaign Web使用者介面可讓您定位儲存在外部檔案中的設�
 1. 開啟現有的電子郵件傳遞，或[建立新的電子郵件傳遞](../email/create-email.md)。
 1. 在&#x200B;**對象**&#x200B;區段中，按一下&#x200B;**選取對象**&#x200B;按鈕，然後選擇&#x200B;**從檔案選取**。
 
-   ![](assets/select-from-file.png){zoomable="yes"}
+   ![熒幕擷圖顯示「對象」區段中的「從檔案選取」選項](assets/select-from-file.png){zoomable="yes"}
 
 1. 選取要載入的本機檔案。 檔案格式必須與[範例檔案](#sample-file)對齊。
 1. 在畫面中央區段預覽並檢查資料的對應方式。
 
-   ![](assets/select-from-file-map.png)
+   ![顯示中央區段中資料對應預覽的熒幕擷圖](assets/select-from-file-map.png)
 
-1. 從&#x200B;**位址列位**&#x200B;下拉式清單中指定包含電子郵件地址的欄。 如果輸入檔案中有這類資訊，您也可以選取「封鎖清單」欄。
-1. 調整欄設定，以及如何從可用選項格式化資料。
+1. 從&#x200B;**位址列位**&#x200B;下拉式清單中指定包含電子郵件地址的欄。 如果輸入檔案中有這類資訊，您也可以選取封鎖清單欄。
+1. 調整欄設定並使用可用選項定義資料格式。
 1. 當設定正確時，按一下「**確認**」。
 
-建立訊息內容時，您可以利用輸入檔案中的欄位來新增個人化。 [了解如何個人化內容](../personalization/personalize.md)
+建立訊息內容時，運用輸入檔案中的欄位來新增個人化。 [了解如何個人化內容](../personalization/personalize.md)
 
-![](assets/select-external-perso.png){zoomable="yes"}
+![熒幕擷圖顯示使用輸入檔案中的欄位個人化選項](assets/select-external-perso.png){zoomable="yes"}
 
 ## 範例檔案 {#sample-file}
 
@@ -97,11 +97,11 @@ Adobe Campaign Web使用者介面可讓您定位儲存在外部檔案中的設�
 
 1. 從您的傳遞內容編輯畫面按一下&#x200B;**[!UICONTROL 模擬內容按鈕]**，然後按一下&#x200B;**[!UICONTROL 新增測試設定檔]**&#x200B;按鈕。
 
-1. 上傳的檔案中包含的設定檔隨即顯示。 選取要用來預覽內容的設定檔，然後按一下&#x200B;**[!UICONTROL 選取]**。
+1. 上傳的檔案中包含的設定檔隨即顯示。 選取您要用來預覽內容的設定檔，然後按一下&#x200B;**[!UICONTROL 選取]**。
 
 1. 傳遞內容的預覽會顯示在畫面的右側窗格中。 個人化元素會取代為左側窗格中選取之設定檔的資料。 [進一步瞭解傳遞內容預覽](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png){zoomable="yes"}
+   ![熒幕擷圖顯示具有個人化元素的傳遞內容預覽](assets/file-upload-preview.png){zoomable="yes"}
 
 1. 若要傳送校樣，請按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕。
 
@@ -111,8 +111,8 @@ Adobe Campaign Web使用者介面可讓您定位儲存在外部檔案中的設�
    >
    >確保檔案格式符合用來上傳對象的格式。 任何格式錯誤都會顯示警報。
 
-1. 新增校訂設定檔且您已準備好傳送校訂時，請按一下&#x200B;**[!UICONTROL 傳送校訂]**&#x200B;按鈕並確認傳送。
+1. 新增校訂設定檔且您已準備好傳送校訂時，請按一下&#x200B;**[!UICONTROL 傳送校訂]**&#x200B;按鈕，並確認傳送。
 
-   ![](assets/file-upload-test.png){zoomable="yes"}
+   ![顯示證明傳送程式的熒幕擷圖](assets/file-upload-test.png){zoomable="yes"}
 
-1. 您可以隨時使用&#x200B;**[!UICONTROL 檢視校樣]**&#x200B;按鈕來監視校樣的傳送。 [進一步瞭解校訂監視](../preview-test/test-deliveries.md#access-test-deliveries)
+1. 隨時使用&#x200B;**[!UICONTROL 檢視校樣]**&#x200B;按鈕監視校樣的傳送。 [進一步瞭解校訂監視](../preview-test/test-deliveries.md#access-test-deliveries)

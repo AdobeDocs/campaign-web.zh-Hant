@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用內容片段
 description: 瞭解如何使用內容片段建立
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 62%
+source-wordcount: '366'
+ht-degree: 58%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 62%
 
 ## 什麼是內容片段？ {#what}
 
-內容片段是可重複使用的元件，可在一則或多則訊息中參考。修改片段時，使用該片段的所有內容都會隨之更新。此功能可讓您預先建立多個自訂內容區塊，以便行銷使用者在改進的設計流程中使用這些內容區塊來快速組裝訊息內容。
+內容片段是可重複使用的元件，可在一則或多則訊息中參考。修改片段時，使用該片段的所有內容都會隨之更新。此功能可讓行銷使用者預先建立多個自訂內容區塊，並在改良的設計程式中快速組合訊息內容。
 
 可用的片段類型有兩種：
 
-* **運算式片段**&#x200B;是預先定義的運算式，可從運算式編輯器中的專用專案取得。 Campaign隨附一組預先定義的內容區塊，其中包含您可以插入傳送中的特定呈現。 例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。您還可以建立符合自己需求的運算式片段。
+* **運算式片段**&#x200B;是運算式編輯器中專用專案所提供的預先定義運算式。 Campaign包含一組預先定義的內容區塊，其中包含您可插入傳送中的特定轉譯。 例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。您還可以建立符合自己需求的運算式片段。
 
 * **視覺片段**&#x200B;是預先定義的視覺化區塊，您可以在多個[電子郵件傳遞](../email/get-started-email-designer.md)或[內容範本](../email/use-email-templates.md)中重複使用。
 
@@ -38,7 +38,7 @@ ht-degree: 62%
 
 ## 讓我們深入探討
 
-現在您已瞭解什麼是內容片段，以及您可以在Adobe Campaign中處理這些片段的方法，您是時候深入探討這些檔案區段，以開始使用此功能了。
+現在您已瞭解內容片段以及可在Adobe Campaign中對其執行的操作，請探索以下檔案區段以開始使用功能。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -52,7 +52,7 @@ ht-degree: 62%
 </td>
 <td>
 <a href="use-visual-fragments.md">
-<img alt="在你的電子郵件中新增視覺內容片段" src="assets/do-not-localize/visual.png">
+<img alt="在您的電子郵件中新增視覺片段" src="assets/do-not-localize/visual.png">
 </a>
 <div><a href="use-visual-fragments.md"><strong>將視覺片段新增至您的電子郵件</strong>
 </div>

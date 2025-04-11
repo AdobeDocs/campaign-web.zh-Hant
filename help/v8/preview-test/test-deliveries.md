@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送校樣
 description: 瞭解如何定義和傳送校樣
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1161'
 ht-degree: 13%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 13%
 1. 按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
 1. 按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕以傳送校樣。
 
-   ![](assets/simulate-test-button-email.png){zoomable="yes"}
+   ![類比電子郵件測試的內容按鈕](assets/simulate-test-button-email.png){zoomable="yes"}
 
 1. 選取您的校訂收件者。
 
@@ -78,17 +78,17 @@ ht-degree: 13%
 
 1. 從&#x200B;**[!UICONTROL 模式]**&#x200B;下拉式清單中，選擇&#x200B;**[!UICONTROL 測試設定檔]**，將目標設定為將接收校樣或簡訊傳遞的虛擬收件者。
 
-   ![](assets/simulate-profile-mode.png){zoomable="yes"}
+   ![測試設定檔模式選擇](assets/simulate-profile-mode.png){zoomable="yes"}
 
 1. 如果您已選取設定檔以在內容模擬畫面中[預覽訊息](preview-content.md)，則會預先選取這些設定檔作為校樣收件者。 您可以使用&#x200B;**[!UICONTROL 新增測試設定檔]**&#x200B;按鈕來清除您的選擇和/或新增其他收件者。
 
-1. 瀏覽測試設定檔或設定檔清單時，您可以使用篩選器來縮小搜尋範圍。 例如，您可以定義規則以尋找所有狀態為&#x200B;**[!UICONTROL 潛在客戶]**&#x200B;的測試設定檔。 瞭解如何使用[查詢模型工具](../query/query-modeler-overview.md)來新增規則。
+1. 瀏覽測試設定檔或設定檔清單時，您可以使用篩選器來縮小搜尋範圍。 例如，您可以定義規則以尋找所有具有&#x200B;**[!UICONTROL 潛在客戶]**&#x200B;狀態的測試設定檔。 瞭解如何使用[查詢模型工具](../query/query-modeler-overview.md)來新增規則。
 
-   ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
+   ![篩選測試設定檔](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
 1. 若要也傳送最終訊息給校訂的收件者，請選取&#x200B;**[!UICONTROL 在主要目標中包含測試母體]**&#x200B;選項。
 
-   ![](assets/simulate-include-test.png){zoomable="yes"}
+   ![包含測試母體選項](assets/simulate-include-test.png){zoomable="yes"}
 
 1. 選取測試設定檔後，您可以[傳送校樣](#send-test)。
 
@@ -108,7 +108,7 @@ ht-degree: 13%
 
 1. 按一下&#x200B;**[!UICONTROL 新增地址]**&#x200B;按鈕，並指定將接收校訂的電子郵件地址或電話號碼。
 
-   ![](assets/simulate-add-substitution-address.png){zoomable="yes"}
+   ![新增替代地址](assets/simulate-add-substitution-address.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -118,7 +118,7 @@ ht-degree: 13%
 
 1. 確認收件者並重複作業，視需要新增電子郵件地址或電話號碼。
 
-   ![](assets/simulate-profile-substitute.png){zoomable="yes"}
+   ![替代設定檔資料](assets/simulate-profile-substitute.png){zoomable="yes"}
 
 1. 若要也傳送最終訊息給校訂的收件者，請選取&#x200B;**[!UICONTROL 在主要目標中包含測試母體]**&#x200B;選項。
 
@@ -126,17 +126,17 @@ ht-degree: 13%
 
 ## 傳送校樣給應用程式訂閱者 {#subscribers}
 
-使用推播通知進行設計時，校樣只能傳送給應用程式訂閱者。 請依照下列步驟進行選取。
+使用推播通知進行設計時，校樣只能傳送給您的應用程式訂閱者。 請依照下列步驟進行選取。
 
 1. 從推播傳遞的內容中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以及&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕。
 
-   ![](assets/simulate-test-button-push.png){zoomable="yes"}
+   ![模擬推播通知的內容按鈕](assets/simulate-test-button-push.png){zoomable="yes"}
 
 1. 如果您已在內容模擬畫面中選取[預覽傳遞](preview-content.md)的訂閱者，則會預先選取這些設定檔作為測試訂閱者。
 
    您可以使用專用按鈕清除您的選擇和/或新增其他訂閱者。
 
-   ![](assets/simulate-test-subscribers.png){zoomable="yes"}
+   ![新增測試訂閱者](assets/simulate-test-subscribers.png){zoomable="yes"}
 
 1. 若要將最終推播通知傳送給測試訂閱者，請選取&#x200B;**[!UICONTROL 在主要目標中包含測試母體]**&#x200B;選項。
 
@@ -150,7 +150,7 @@ ht-degree: 13%
 
 1. 確認傳送。
 
-   ![](assets/simulate-send-test.png){zoomable="yes"}
+   ![傳送證明確認](assets/simulate-send-test.png){zoomable="yes"}
 
 1. 傳送所需數量的校樣，直到您完成傳送內容為止。
 
@@ -162,12 +162,12 @@ ht-degree: 13%
 
 ## 存取已傳送的校樣 {#access-test-deliveries}
 
-傳送校樣後，您可以從&#x200B;**[!UICONTROL 模擬內容]**&#x200B;畫面存取其記錄。
+傳送校樣後，您可以從&#x200B;**[!UICONTROL 模擬內容]**&#x200B;畫面存取其記錄檔。
 
-這些記錄可讓您存取針對所選傳遞傳送的所有校樣，並視覺化與其傳送相關的特定統計資料。 [了解如何監控傳遞記錄](../monitor/delivery-logs.md)
+這些記錄可讓您存取針對所選傳送傳送的所有校樣，並視覺化與其傳送相關的特定統計資料。 [了解如何監控傳遞記錄](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png){zoomable="yes"}
+![存取校訂記錄](assets/simulate-test-log.png){zoomable="yes"}
 
 您也可以存取從[傳遞清單](../msg/gs-messages.md)傳送的校樣，就像任何傳遞一樣。
 
-![](assets/simulate-deliveries-list.png){zoomable="yes"}
+![傳遞清單檢視](assets/simulate-deliveries-list.png){zoomable="yes"}

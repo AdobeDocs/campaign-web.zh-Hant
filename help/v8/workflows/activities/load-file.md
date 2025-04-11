@@ -3,10 +3,10 @@ audience: end-user
 title: 使用載入檔案工作流程活動
 description: 瞭解如何使用載入檔案工作流程活動
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 38%
+source-wordcount: '1241'
+ht-degree: 30%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="載入檔案活動"
->abstract="**載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動可以處理儲存在外部檔案中的資料。設定檔和資料不會新增到資料庫中，但輸入檔中的所有欄位皆可用於個人化，或用於更新設定檔或任何其他表格。 "
+>abstract="**載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動可以處理儲存在外部檔案中的資料。設定檔和資料不會新增到資料庫中，但輸入檔中的所有欄位皆可用於個人化，或用於更新設定檔或任何其他表格。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -27,7 +27,6 @@ ht-degree: 38%
 >title="拒絕管理拒絕的傳出轉變"
 >abstract="拒絕管理拒絕的傳出轉變"
 
-
 **載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動來處理儲存在外部檔案中的設定檔和資料。 設定檔和資料未新增至資料庫，但輸入檔案中的所有欄位都可用於[個人化](../../personalization/gs-personalization.md)，或更新設定檔或任何其他表格。
 
 >[!NOTE]
@@ -37,9 +36,9 @@ ht-degree: 38%
 
 ## 設定載入檔案活動 {#load-configuration}
 
-**載入檔案**&#x200B;活動組態包含兩個步驟。 首先，您需要透過上傳範例檔案來定義預期的檔案結構。完成此操作後，您可以指定要匯入其資料的檔案原點。 請依照下列步驟設定活動。
+**載入檔案**&#x200B;活動組態包含兩個步驟。 首先，透過上傳範例檔案來定義預期的檔案結構。 完成此操作後，請指定要匯入其資料的檔案來源。 請依照下列步驟設定活動。
 
-![](../assets/workflow-load-file.png)
+![工作流程載入檔案活動設定熒幕擷圖](../assets/workflow-load-file.png)
 
 ### 設定範例檔案 {#sample}
 
@@ -56,7 +55,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="載入檔案活動的值重新對應"
->abstract="使用此選項可將載入檔案中的特定值與新值相對應。例如，如果欄包含「True」/「False」值，您可以新增對應以自動將這些值取代為「0」/「1」字元。"
+>abstract="使用此選項可將載入檔案中的特定值與新值相對應。例如，如果欄包含&#39;True&#39;/&#39;False&#39;值，您可以新增對應以自動將這些值取代為&#39;0&#39;/&#39;1&#39;字元。"
 
 請依照下列步驟，設定用來定義預期檔案結構的範例檔案：
 
@@ -66,13 +65,13 @@ ht-degree: 38%
 
    >[!NOTE]
    >
-   >範例檔案的資料用於設定活動，但不匯入。我們建議使用包含少量資料的範例檔案。 檔案格式必須與此[範例檔案](../../audience/file-audience.md#sample-file)對齊。
+   >範例檔案的資料用於設定活動，但不匯入。使用包含少量資料的範例檔案。 檔案格式必須與此[範例檔案](../../audience/file-audience.md#sample-file)對齊。
 
 1. 此時會顯示範例檔案的預覽，最多顯示30行。
 
 1. 在&#x200B;**[!UICONTROL 檔案型別]**&#x200B;下拉式清單中，指定檔案是使用分隔欄還是固定寬度欄。
 
-   ![](../assets/workflow-load-file-sample.png)
+   ![範例檔案設定熒幕擷圖](../assets/workflow-load-file-sample.png)
 
 1. 對於分隔欄檔案型別，請使用&#x200B;**欄**&#x200B;區段來設定每個欄的屬性。
 
@@ -83,7 +82,7 @@ ht-degree: 38%
    * **[!UICONTROL 寬度]** （字串資料型別）：欄中可顯示的最大字元數。
    * **[!UICONTROL 資料轉換]** （字串資料型別）：將轉換套用至資料行中包含的值。
    * **[!UICONTROL 空白字元管理]** （字串資料型別）：指定如何管理資料行中包含的空格。
-   * **[!UICONTROL 分隔符號]** （日期、時間、整數和數字資料型別）*：指定要做為分隔符號使用的字元。
+   * **[!UICONTROL 分隔符號]** （日期、時間、整數和數字資料型別）：指定要做為分隔符號使用的字元。
    * **[!UICONTROL 允許NULL]**：指定如何管理資料行中的空白值。 如果出現空值，「Adobe Campaign預設」選項會擲回錯誤。
    * **[!UICONTROL 處理]**&#x200B;時發生錯誤（字串資料型別）：請指定其中一行發生錯誤時的行為。
    * **[!UICONTROL 值重新對應]**：此選項可讓您將特定值與新值對應。 例如，如果欄包含「True」/「False」值，您可以新增對應以自動將這些值取代為「0」/「1」字元。
@@ -107,12 +106,12 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="目標資料庫"
->abstract="如果您正在存取已在用戶端控制台中設定的「**[!UICONTROL 載入檔案]**」活動，則在您已設定將檔案上傳到外部資料庫的活動時，有額外的「**[!UICONTROL 目標資料庫]**」區段可用。"
+>abstract="如果您正在存取已在使用者端主控台中設定的&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動，如果您已將活動設定為上傳檔案至外部資料庫，則可以使用額外的&#x200B;**[!UICONTROL 目標資料庫]**&#x200B;區段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="載入檔案命令"
->abstract="允許任意命令進行預處理是一個安全性問題，停用安全選項 XtkSecurity_Disable_Preproc 以強制使用預先定義的命令清單。"
+>abstract="允許任意命令進行前置處理是安全性考量。 停用安全性選項XtkSecurity_Disable_Preproc以強制使用預先定義的命令清單。"
 
 >[!CAUTION]
 >
@@ -130,7 +129,7 @@ ht-degree: 38%
 
    * **[!UICONTROL 已計算]**：上傳在&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄位中指定的檔案。 按一下「**[!UICONTROL 開啟個人化對話框]**」圖示以利用運算式編輯器 (包含事件變數) 來計算檔案名稱。
 
-   ![](../assets/workflow-load-file-config.png)
+   ![目標檔案設定熒幕擷圖](../assets/workflow-load-file-config.png)
 
    >[!NOTE]
    >
@@ -148,7 +147,6 @@ ht-degree: 38%
 >title="匯入後刪除檔案"
 >abstract="切換「**匯入後刪除檔案**」在匯入檔案後，從伺服器刪除原始檔案。"
 
-
 1. 在&#x200B;**拒絕管理**&#x200B;區段中，指定活動在發生錯誤時的行為方式：
 
    * 在&#x200B;**[!UICONTROL 允許的錯誤數]**&#x200B;欄位中，指定處理要載入的檔案時授權的錯誤數上限。 例如，如果該值設定為「20」，則當載入檔案時出現超過20個錯誤時，工作流程執行將失敗。
@@ -159,7 +157,7 @@ ht-degree: 38%
 
 1. 若要在執行工作流程後從伺服器刪除上傳的檔案，請切換&#x200B;**[!UICONTROL 匯入後刪除檔案]**&#x200B;選項。
 
-   ![](../assets/workflow-load-file-options.png)
+   ![其他選項設定熒幕擷圖](../assets/workflow-load-file-options.png)
 
 1. 當設定正確時，按一下「**確認**」。
 

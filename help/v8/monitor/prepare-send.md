@@ -3,13 +3,12 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面準備和傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 38%
+source-wordcount: '949'
+ht-degree: 29%
 
 ---
-
 
 # 準備並傳送您的電子郵件 {#prepare-send}
 
@@ -17,7 +16,7 @@ ht-degree: 38%
 
 當您定義[內容](../email/edit-content.md)、[對象](../audience/add-audience.md)和[排程](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)時，您就可以準備電子郵件傳遞了。
 
-在傳遞準備期間，會計算目標母體，並針對目標中包含的每個設定檔產生訊息內容。 完成準備工作後，即可立即或依排程的日期和時間傳送訊息。
+在準備傳送期間，會計算目標母體，並針對目標中包含的每個設定檔產生訊息內容。 準備完成後，訊息即可立即傳送，或在排程的日期和時間傳送。
 
 傳遞準備期間使用的驗證規則在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}中進行了說明。
 
@@ -25,29 +24,28 @@ ht-degree: 38%
 
 1. 從傳遞儀表板，按一下&#x200B;**[!UICONTROL 檢閱並傳送]**。
 
-   ![](assets/email-review-and-send.png){zoomable="yes"}
+   ![在傳遞儀表板中檢閱並傳送按鈕](assets/email-review-and-send.png){zoomable="yes"}
 
+1. 按一下右上角的&#x200B;**[!UICONTROL 準備]**&#x200B;按鈕，然後確認。
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 準備]**&#x200B;按鈕並確認。
-
-   ![](assets/email-prepare.png){zoomable="yes"}
+   傳遞儀表板中的![準備按鈕](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >如果您已排程傳遞並停用&#x200B;**[!UICONTROL 傳送前啟用確認]**&#x200B;選項，則準備和傳送步驟會在&#x200B;**[!UICONTROL 準備並傳送]**&#x200B;按鈕下分組。 [進一步瞭解排程](../msg/gs-deliveries.md#gs-schedule)
+   >如果您排程傳遞並停用&#x200B;**[!UICONTROL 傳送前啟用確認]**&#x200B;選項，準備和傳送步驟會在&#x200B;**[!UICONTROL 準備並傳送]**&#x200B;按鈕下分組。 [進一步瞭解排程](../msg/gs-deliveries.md#gs-schedule)
 
 1. 畫面會顯示準備進度。根據目標群體的大小，此操作可能需要一些時間。
 
    您可以使用&#x200B;**[!UICONTROL 停止準備]**&#x200B;按鈕隨時停止準備。
 
-   ![](assets/email-stop-preparation.png){zoomable="yes"}
+   傳遞儀表板中的![停止準備按鈕](assets/email-stop-preparation.png){zoomable="yes"}
 
    >[!NOTE]
-   >在準備階段，不傳送任何訊息。因此，您可以開始或停止準備而不會影響任何東西。
+   >在準備階段，不傳送任何訊息。您可以開始或停止此動作，而不會影響任何專案。
 
-1. 準備作業完成後，請檢查 KPI。如果要傳送的訊息數與您的預期不符，請修改您的客群並重新開始準備。
+1. 準備完成時，請檢查KPI。 如果要傳送的訊息數與您的預期不符，請修改您的客群並重新開始準備。
 
-   ![](assets/email-preparation-complete.png){zoomable="yes"}
+   ![顯示KPI的準備完成畫面](assets/email-preparation-complete.png){zoomable="yes"}
 
    以下是顯示的不同 KPI：
 
@@ -55,24 +53,23 @@ ht-degree: 38%
    * **[!UICONTROL 要傳遞]**：將傳送的訊息數。
    * **[!UICONTROL 要排除]**： [型別規則](../advanced-settings/delivery-settings.md#typology)排除的訊息數。
 
-1. 按一下「**[!UICONTROL 記錄]**」按鈕並檢查沒有錯誤。最後的記錄訊息顯示所有錯誤訊息和錯誤數量。[了解更多](delivery-logs.md)
+1. 按一下「**[!UICONTROL 記錄檔]**」按鈕，然後檢查是否有錯誤。 最後的記錄訊息顯示所有錯誤訊息和錯誤數量。[了解更多](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png){zoomable="yes"}
+   傳遞儀表板中的![記錄檔按鈕](assets/email-prepare-logs.png){zoomable="yes"}
 
 1. 如果準備作業偵測到阻止傳送傳遞的嚴重錯誤，則在傳遞儀表板中準備狀態顯示為失敗。
 
-   ![](assets/email-prepare-error.png){zoomable="yes"}
+   傳遞儀表板中的![錯誤狀態](assets/email-prepare-error.png){zoomable="yes"}
 
-1. 如果您在準備後對傳送進行任何變更，則必須重新開始準備，才能將這些變更納入考量。
+1. 如果您在準備後對傳送進行任何變更，請重新啟動準備作業，以便將這些變更納入考量。
 
-完成準備工作且無錯誤後，即可傳送您的訊息。
+完成準備工作且沒有錯誤後，即可傳送您的訊息。
 
 ## 傳送訊息 {#send}
 
+[準備](#prepare)完成後，您可以傳送電子郵件。
 
-[準備](#prepare)完成後，您現在可以傳送電子郵件。
-
-如果已排程訊息，則會在定義的日期和時間傳送訊息。 [了解更多](../msg/gs-deliveries.md#gs-schedule)
+如果已排程訊息，則會在定義的日期和時間傳送訊息。 [進一步瞭解排程](../msg/gs-deliveries.md#gs-schedule)
 
 ### 立即傳送 {#send-immediately}
 
@@ -80,7 +77,7 @@ ht-degree: 38%
 
 1. 從傳遞控制面板中，按一下右上角的&#x200B;**[!UICONTROL 傳送]**&#x200B;按鈕。
 
-   ![](assets/email-send.png){zoomable="yes"}
+   傳遞儀表板中的![傳送按鈕](assets/email-send.png){zoomable="yes"}
 
 1. 確認此動作以立即將訊息傳送至主要目標。
 
@@ -88,15 +85,15 @@ ht-degree: 38%
 
 ### 排程傳送 {#schedule-the-send}
 
-如果您已排程在稍後日期及時間傳送電子郵件，請遵循下列步驟。
+如果您排程在稍後日期及時間傳送電子郵件，請遵循下列步驟。
 
-1. 在您按下&#x200B;**[!UICONTROL 檢閱並傳送]**&#x200B;按鈕之前，請確定您已定義電子郵件的排程。 [了解更多](../msg/gs-deliveries.md#gs-schedule)
+1. 在您按一下&#x200B;**[!UICONTROL 檢閱並傳送]**&#x200B;按鈕之前，請確定您為電子郵件定義排程。 [進一步瞭解排程](../msg/gs-deliveries.md#gs-schedule)
 
-1. 在傳遞控制面板中，按一下右上角的&#x200B;**[!UICONTROL 依排程傳送按鈕]**&#x200B;按鈕。
+1. 從傳遞儀表板，按一下右上角的&#x200B;**[!UICONTROL 依排程傳送]**。
 
-   ![](assets/email-send-as-scheduled.png){zoomable="yes"}
+   ![在傳遞儀表板中依排程傳送按鈕](assets/email-send-as-scheduled.png){zoomable="yes"}
 
-1. 按一下&#x200B;**[!UICONTROL 確認傳送]**。 系統會在排程日期將傳遞傳送至主要目標。
+1. 按一下&#x200B;**[!UICONTROL 確認傳送]**。 會在排程日期傳送傳遞至主要目標。
 
    >[!NOTE]
    >
@@ -110,7 +107,7 @@ ht-degree: 38%
 
 * 按一下&#x200B;**[!UICONTROL 停止傳送]**&#x200B;以立即中斷傳送。 一旦停止，準備和傳送作業將無法恢復。
 
-![](assets/email-send-pause-or-stop.png){zoomable="yes"}
+![在傳遞儀表板中暫停或停止傳送按鈕](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
 ## 檢查 KPI {#check-kpis}
 
@@ -126,13 +123,11 @@ ht-degree: 38%
 >abstract="開啟的訊息數。此指標每 5 分鐘會更新一次。顯示的百分比為相異開啟次數相較於已傳遞訊息數的比率。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="點按次數"
->abstract="在電子郵件中至少點按一次的收件者數量。此指標每 5 分鐘會更新一次。顯示的百分比為相異點按次數相較於已傳遞訊息數的比率。"
+>abstract="在電子郵件中至少點按一次的收件者人數。 此指標每 5 分鐘會更新一次。顯示的百分比為相異點按次數相較於已傳遞訊息數的比率。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -140,17 +135,15 @@ ht-degree: 38%
 >abstract="傳遞分析期間處理的訊息總數。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="錯誤次數"
 >abstract="傳遞和自動傳回處理期間累積的錯誤總數與已傳送之訊息總數的關係。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
-
 傳送完成後，您可以檢查顯示的KPI：
 
-![](assets/email-send-kpis.png){zoomable="yes"}
+傳送後顯示![個KPI](assets/email-send-kpis.png){zoomable="yes"}
 
 * **[!UICONTROL 已傳送]**：已傳遞的訊息數。 顯示的百分比是以要傳送的訊息總數為基礎。
 
@@ -164,8 +157,8 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->所有指標在傳遞開始後每 5 分鐘更新一次。傳遞準備指標為即時。
+>所有指標在傳遞開始後每5分鐘更新一次。 傳遞準備指標為即時。
 
-在[此頁面](../reporting/kpis.md)中進一步瞭解KPI。
+在[此頁面](../reporting/kpis.md)上進一步瞭解KPI。
 
 您也可以檢查記錄。[了解更多](delivery-logs.md)

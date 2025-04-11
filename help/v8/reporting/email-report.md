@@ -3,10 +3,10 @@ audience: end-user
 title: 以電子郵件傳送報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2289'
-ht-degree: 40%
+source-wordcount: '2449'
+ht-degree: 37%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 40%
 
 **[!UICONTROL 初始目標母體]**&#x200B;圖表顯示與收件者相關的資料。 量度會在傳遞準備期間計算並顯示：初始對象、要傳送的訊息數、排除的收件者數。
 
-![](assets/reporting_email_1.png){zoomable="yes"}
+![顯示資料的圖表熒幕擷圖](assets/reporting_email_1.png){zoomable="yes"}
 
 將滑鼠移至圖表的一部分上以顯示確切的數字。
 
-![](assets/reporting_email_1.1.png){zoomable="yes"}
+![將滑鼠移到部分上以顯示正確數字的圖形熒幕擷圖](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
@@ -54,7 +54,7 @@ ht-degree: 40%
 
 **[!UICONTROL 傳遞統計資料]**&#x200B;圖表詳細說明您的傳遞是否成功。 量度詳情如下。
 
-![](assets/reporting_email_2.png){zoomable="yes"}
+![顯示傳遞統計資料詳細資訊的圖形熒幕擷圖](assets/reporting_email_2.png){zoomable="yes"}
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
@@ -77,7 +77,7 @@ ht-degree: 40%
 
 **[!UICONTROL 排除原因]**&#x200B;圖形與表格會顯示傳遞準備期間拒絕之訊息的每條規則劃分。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}中有詳細說明。
 
-![](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
+![排除圖表與資料表起因的熒幕擷圖](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
@@ -106,7 +106,7 @@ ht-degree: 40%
 
 此報表提供指定時間範圍內整個平台傳遞輸送量的詳細資訊。 用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。
 
-![](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
+![傳遞輸送量的熒幕擷圖](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 
 ## 廣播統計資料 {#broadcast-statistics}
@@ -118,7 +118,7 @@ ht-degree: 40%
 
 **[!UICONTROL 廣播統計資料]**&#x200B;表格包含每個網域可能發生的錯誤的可用資料。 量度詳情如下。
 
-![](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
+![廣播統計資料的熒幕擷圖](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
@@ -155,7 +155,7 @@ ht-degree: 40%
 
 此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
-![](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
+![每個型別錯誤劃分的熒幕擷圖](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
@@ -189,11 +189,11 @@ ht-degree: 40%
 
 每個網域&#x200B;]**表格和圖形的**[!UICONTROL &#x200B;錯誤劃分會顯示每個網域可能遇到的錯誤的可用資料。
 
-![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
+![每個網域的錯誤劃分熒幕擷圖](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 按一下每個網域名稱旁邊的圖示以檢視詳細資訊。
 
-![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
+![每個網域之錯誤劃分的熒幕擷圖，包含每個網域的詳細資料](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 可用的量度與上述[依型別](#email-delivery-breakdown-type)劃分的錯誤相同。
 
@@ -216,7 +216,7 @@ ht-degree: 40%
 
 **[!UICONTROL 傳遞統計資料]**&#x200B;報告提供關鍵績效指標(KPI)，可提供已傳送電子郵件之可用資料的詳細資訊。 量度詳情如下。
 
-![](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
+![傳遞統計資料的熒幕擷圖](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
@@ -244,7 +244,7 @@ ht-degree: 40%
 
 **[!UICONTROL 開啟及點進率]**&#x200B;表格會顯示與收件者相關的資料。 量度詳情如下。
 
-![](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
+![開啟及點進率表的熒幕擷圖](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
@@ -269,7 +269,7 @@ ht-degree: 40%
 
 **[!UICONTROL URL 和點按資料流]**&#x200B;報告提供可詳細說明傳遞期間點按次數最多的 URL 的關鍵績效指標 (KPI)。
 
-![](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
+![URL和點按資料流報告的熒幕擷圖](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
@@ -294,7 +294,7 @@ ht-degree: 40%
 
 **[!UICONTROL 造訪量最高的前 10 個連結]**&#x200B;圖表和資料表包含每個連結收件者行為的可用資料。
 
-![](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
+![前10個最常造訪的連結圖表的熒幕擷圖](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
@@ -315,7 +315,7 @@ ht-degree: 40%
 
 **[!UICONTROL 隨著時間點選的劃分]**&#x200B;圖表包含每個連結的收件者行為可用資料。
 
-![](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
+![隨著時間圖表的點選劃分熒幕擷圖](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## 使用者活動 {#user-activities-email}
 
@@ -326,7 +326,7 @@ ht-degree: 40%
 
 **[!UICONTROL 使用者活動]**&#x200B;報告會以圖表形式顯示開啟和點按的劃分。 您可以選擇目標資料的時段：最近一天、最近一小時或最近 30 分鐘。
 
-![](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
+![使用者活動報告的熒幕擷圖](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
@@ -345,7 +345,7 @@ ht-degree: 40%
 
 **[!UICONTROL 追蹤統計資料]**&#x200B;圖表提供開啟和點按數的統計資料。您可以選擇特定時間段來目標市場選擇資料。
 
-![](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
+![追蹤統計資料圖形的熒幕擷圖](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
@@ -368,7 +368,7 @@ ht-degree: 40%
 
 每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個裝置類型的確切數量和百分比。
 
-![](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
+![依裝置劃分報告的熒幕擷圖](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
 
 ### 依作業系統開啟的劃分 {#breakdown-opens-os}
@@ -382,7 +382,7 @@ ht-degree: 40%
 
 每個類別有兩個圖表。第一個會顯示有關電腦和行動作業系統開啟的統計資料。 第二個顯示每個作業系統的確切數目和百分比。
 
-![](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
+![依作業系統劃分報表的熒幕擷圖](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
 ### 依瀏覽器開啟的劃分 {#breakdown-opens-browser}
 
@@ -395,7 +395,7 @@ ht-degree: 40%
 
 每個類別有兩個圖表。第一個會顯示有關電腦和行動作業系統開啟的統計資料。 第二個圖表顯示每個瀏覽器的確切數量和百分比。
 
-![](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
+![瀏覽器報告開啟的劃分熒幕擷圖](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
 
 ## 熱門點按 {#hotclicks}
@@ -407,4 +407,4 @@ ht-degree: 40%
 
 此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。個人化區塊取消訂閱連結、鏡像頁面連結和產品建議連結有計入總累計點按數，但不顯示在報告中。
 
-![](assets/reporting11.png){zoomable="yes"}
+![熱門點選報告的熒幕擷圖](assets/reporting11.png){zoomable="yes"}

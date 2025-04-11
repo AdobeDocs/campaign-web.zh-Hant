@@ -3,10 +3,10 @@ audience: end-user
 title: 電子郵件頻道的行銷活動報告
 description: 進一步瞭解電子郵件頻道的行銷活動報告
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 21%
+source-wordcount: '1677'
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 21%
 
 **[!UICONTROL 傳遞總覽]**&#x200B;報告提供關鍵績效指標(KPI)，可提供訪客如何與您的電子郵件傳遞互動的詳細資訊。 量度詳情如下。
 
-![](assets/campaign_report_email_1.png){zoomable="yes"}
+![傳遞概述報告的熒幕擷圖](assets/campaign_report_email_1.png){zoomable="yes"}
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
@@ -50,7 +50,7 @@ ht-degree: 21%
 
 **[!UICONTROL 初始目標對象統計資料]**&#x200B;表格會顯示與收件者相關的資料。 量度詳情如下。
 
-![](assets/campaign_report_email_2.png){zoomable="yes"}
+![初始目標對象統計資料表的熒幕擷圖](assets/campaign_report_email_2.png){zoomable="yes"}
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
@@ -71,7 +71,7 @@ ht-degree: 21%
 
 **[!UICONTROL 執行統計資料]**&#x200B;資料表詳細說明您的傳送是否成功。 量度詳情如下。
 
-![](assets/campaign_report_email_3.png){zoomable="yes"}
+![執行統計資料表的熒幕擷圖，詳述傳遞成功與否](assets/campaign_report_email_3.png){zoomable="yes"}
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
@@ -96,7 +96,7 @@ ht-degree: 21%
 
 **[!UICONTROL 回應統計資料]**&#x200B;表格包含您傳遞的收件者活動可用資料。 量度詳情如下。
 
-![](assets/campaign_report_email_4.png){zoomable="yes"}
+![包含傳遞之收件者活動可用資料的反應統計資料表熒幕擷圖](assets/campaign_report_email_4.png){zoomable="yes"}
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
@@ -120,7 +120,7 @@ ht-degree: 21%
 
 **[!UICONTROL 產生的點按資料流]**&#x200B;表格會顯示收件者與傳遞互動的相關資料。 量度詳情如下。
 
-![](assets/campaign_report_email_5.png){zoomable="yes"}
+![產生的點選串流表格的熒幕擷圖](assets/campaign_report_email_5.png){zoomable="yes"}
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
@@ -145,7 +145,7 @@ ht-degree: 21%
 
 此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
-![](assets/campaign_report_email_6.png){zoomable="yes"}
+![每個型別圖表和資料表的錯誤劃分熒幕擷圖](assets/campaign_report_email_6.png){zoomable="yes"}
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
@@ -185,7 +185,7 @@ ht-degree: 21%
 
 **[!UICONTROL 傳遞統計資料]**&#x200B;量度提供關鍵績效指標(KPI)，可提供已傳送電子郵件之可用資料的詳細資訊。 量度詳情如下。
 
-![](assets/campaign_report_email_7.png){zoomable="yes"}
+![傳遞統計量度的熒幕擷圖](assets/campaign_report_email_7.png){zoomable="yes"}
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
@@ -211,7 +211,7 @@ ht-degree: 21%
 
 **[!UICONTROL 開啟及點進率]**&#x200B;表格會顯示與收件者相關的資料。 量度詳情如下。
 
-![](assets/campaign_report_email_8.png){zoomable="yes"}
+![開啟及點進率表的熒幕擷圖](assets/campaign_report_email_8.png){zoomable="yes"}
 
 +++ 進一步瞭解電子郵件行銷活動報告度量。
 
@@ -236,7 +236,7 @@ ht-degree: 21%
 
 **[!UICONTROL URL和點選串流]**&#x200B;報告提供關鍵績效指標(KPI)，可提供傳遞期間點選次數最多的URL的詳細資訊。 量度詳情如下。
 
-![](assets/campaign_report_email_9.png){zoomable="yes"}
+![URL的熒幕擷圖並按一下串流報告](assets/campaign_report_email_9.png){zoomable="yes"}
 
 +++ 進一步瞭解電子郵件行銷活動報告度量。
 
@@ -259,7 +259,7 @@ ht-degree: 21%
 
 **[!UICONTROL 前10個最常造訪的連結]**&#x200B;圖表和表格包含每個連結的收件者行為可用資料。 量度詳情如下。
 
-![](assets/campaign_report_email_10.png){zoomable="yes"}
+![前10個最常造訪的連結圖表的熒幕擷圖](assets/campaign_report_email_10.png){zoomable="yes"}
 
 +++進一步瞭解電子郵件促銷活動報告量度。
 
@@ -278,7 +278,7 @@ ht-degree: 21%
 
 **[!UICONTROL 隨著時間點選的劃分]**&#x200B;圖表包含每個連結的收件者行為可用資料。
 
-![](assets/campaign_report_email_11.png){zoomable="yes"}
+![隨著時間圖表的點選劃分熒幕擷圖](assets/campaign_report_email_11.png){zoomable="yes"}
 
 ## 使用者活動 {#user-activities-email}
 
@@ -289,7 +289,7 @@ ht-degree: 21%
 
 **[!UICONTROL 使用者活動]**&#x200B;報告會以圖表形式顯示開啟和點按的劃分。 此報表的量度詳情如下。
 
-![](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
+![使用者活動報告的熒幕擷圖](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
 +++進一步瞭解電子郵件傳送報告量度。
 
