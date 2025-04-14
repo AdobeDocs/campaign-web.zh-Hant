@@ -13,8 +13,9 @@ ht-degree: 9%
 # 排程器 {#scheduler}
 
 >[!CONTEXTUALHELP]
->
->**排程器**&#x200B;活動是&#x200B;**流程控制**&#x200B;活動。 它可讓您排程工作流程何時開始。 此活動應視為已排程的開始。其只能當作工作流程的第一個活動。
+>id="acw_orchestration_scheduler"
+>title="Scheduler activity"
+>abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
 
 ## 最佳實務 {#scheduler-best-practices}
 

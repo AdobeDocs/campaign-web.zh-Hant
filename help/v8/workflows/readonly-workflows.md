@@ -13,8 +13,9 @@ ht-degree: 4%
 # 關於唯讀工作流程 {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
->
-有些工作流程是唯讀的。 內建的技術工作流程一律為唯讀，但此限制也可套用至其他型別的工作流程。
+>id="acw_wf_read_only_canvas"
+>title="This workflow is read only"
+>abstract="You cannot edit this workflow due to your rights or the type of the workflow."
 
 Campaign使用者存取Adobe Campaign資料的能力可能受到限制。 Campaign管理員可以授予他們檢視特定功能的許可權，但不授予他們編輯或修改這些功能的許可權。 資料的使用者許可權是確保資料和流程安全性的基本要素。 在[本節](../get-started/permissions.md)中進一步瞭解Campaign的許可權管理。
 
