@@ -25,7 +25,7 @@ ht-degree: 37%
 
 | 從&#x200B;**屬性**&#x200B;欄位存取 | 從&#x200B;**值**&#x200B;欄位存取 |
 | --- | --- |
-| 屬性欄位](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 | 值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 |
+| ![運算式編輯器屬性欄位](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的 | ![運算式編輯器值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的 |
 
 運算式編輯器提供：
 
