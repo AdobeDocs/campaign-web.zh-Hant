@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >
-**排程器**&#x200B;活動是&#x200B;**流程控制**&#x200B;活動。 它可讓您排程工作流程何時開始。 此活動應視為已排程的開始。其只能當作工作流程的第一個活動。
+>**排程器**&#x200B;活動是&#x200B;**流程控制**&#x200B;活動。 它可讓您排程工作流程何時開始。 此活動應視為已排程的開始。其只能當作工作流程的第一個活動。
 
 ## 最佳實務 {#scheduler-best-practices}
 
@@ -24,9 +24,15 @@ ht-degree: 9%
 
 ## 設定排程器活動 {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Scheduler validity"
+>abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Scheduler options"
+>abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
 
 請依照下列步驟設定&#x200B;**排程器**&#x200B;活動：
 

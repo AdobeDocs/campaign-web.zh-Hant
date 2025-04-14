@@ -13,12 +13,24 @@ ht-degree: 5%
 # 開始使用客群 {#monitor-manage}
 
 >[!CONTEXTUALHELP]
->
-[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Properties"
+>abstract="Here you can find a summary of the audience properties, such as its origin or its storage folder. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Audience size"
+>abstract="Here you can find the total number of profiles within the audience. Click the **Calculate** button to update and recalculate the audience results."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="Targeting"
+>abstract="Targeting"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Audience error"
+>abstract="Audience data is not available. Please wait for the end of the workflow execution."
 
 對象是您傳送的主要目標：接收訊息的設定檔。 可從&#x200B;**[!UICONTROL 對象]**&#x200B;功能表存取Campaign網頁中可用的對象清單。
 
