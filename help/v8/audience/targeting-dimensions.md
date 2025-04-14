@@ -12,8 +12,9 @@ ht-degree: 5%
 # 目標市場選擇維度 {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
->
-目標維度（也稱為目標對應）是作業處理的資料型別。 它定義目標母體，例如設定檔、合約受益人、運運算元或訂閱者。
+>id="acw_orchestration_build_audience_dimension"
+>title="Select the targeting dimension"
+>abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
 
 ## 工作流程的目標維度 {#workflow}
 

@@ -13,8 +13,10 @@ ht-degree: 12%
 # 選取現有客群 {#add-audience}
 
 >[!CONTEXTUALHELP]
->
-本節說明在定義傳送的目標母體時，如何選取現有的對象。 定義傳送的主要目標時，您也可以：
+>id="acw_deliveries_email_audience_select"
+>title="Select an existing audience"
+>abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
+
 * [使用查詢模組化工具建置一次性對象](one-time-audience.md)。
 * [從外部檔案載入對象](file-audience.md) （僅適用於電子郵件）。
 
