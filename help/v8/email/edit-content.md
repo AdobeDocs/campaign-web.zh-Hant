@@ -90,7 +90,7 @@ ht-degree: 20%
 1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**&#x200B;按鈕，使用[電子郵件Designer](get-started-email-designer.md#start-authoring)來建構和設計電子郵件內容。 有關如何設計電子郵件內容的其他資訊，請參閱以下章節：
 
    * [從頭開始撰寫電子郵件](create-email-content.md)
-   * [建立內容樣式](get-started-email-style.md)
+   * [設定內容樣式](get-started-email-style.md)
 
    >[!NOTE]
    >
