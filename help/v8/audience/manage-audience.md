@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用客群
 description: 瞭解如何在Adobe Campaign Web中使用對象
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 5%
+source-wordcount: '371'
+ht-degree: 19%
 
 ---
 
@@ -14,23 +14,23 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
->title="Properties"
->abstract="Here you can find a summary of the audience properties, such as its origin or its storage folder. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
+>title="屬性"
+>abstract="您可以在這裡找到對象屬性的摘要，例如其來源或儲存資料夾。 按一下&#x200B;**上一個工作流程**&#x200B;區段中的連結，開啟用於建立對象的工作流程。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
->title="Audience size"
->abstract="Here you can find the total number of profiles within the audience. Click the **Calculate** button to update and recalculate the audience results."
+>title="對象規模"
+>abstract="在此處可以找到對象當中的設定檔總數。按一下「**計算**」按鈕，可更新並重新計算對象結果。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"
->title="Targeting"
->abstract="Targeting"
+>title="目標定位"
+>abstract="目標定位"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
->title="Audience error"
->abstract="Audience data is not available. Please wait for the end of the workflow execution."
+>title="對象錯誤"
+>abstract="無法取得對象資料。請等候工作流程執行結束。"
 
 對象是您傳送的主要目標：接收訊息的設定檔。 可從&#x200B;**[!UICONTROL 對象]**&#x200B;功能表存取Campaign網頁中可用的對象清單。
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用排程器工作流程活動
 description: 瞭解如何使用排程器工作流程活動
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 9%
+source-wordcount: '505'
+ht-degree: 24%
 
 ---
 
@@ -14,8 +14,10 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
->title="Scheduler activity"
->abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
+>title="排程器活動"
+>abstract="「**排程器**」活動可讓您安排工作流程何時開始。此活動應視為已排程的開始。其只能當作工作流程的第一個活動。"
+
+**排程器**&#x200B;活動是&#x200B;**流程控制**&#x200B;活動。 它可讓您排程工作流程何時開始。 此活動應視為已排程的開始。其只能當作工作流程的第一個活動。
 
 ## 最佳實務 {#scheduler-best-practices}
 
@@ -27,13 +29,13 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
->title="Scheduler validity"
->abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
+>title="排程器有效性"
+>abstract="您可以定義排程器的有效期限。它可以是永久的 (預設)，也可以在特定日期之前有效。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Scheduler options"
->abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
+>title="排程器選項"
+>abstract="定義排程器的頻率。它可以在特定時刻執行，可每天、每週或每月執行一次或多次。"
 
 請依照下列步驟設定&#x200B;**排程器**&#x200B;活動：
 
@@ -59,7 +61,7 @@ ht-degree: 9%
    * **有效期間**：工作流程會根據指定的頻率執行，直到特定日期為止。 指定開始和結束日期。
 
 >[!NOTE]\
-若要立即啟動工作流程，請按一下排程器頂端動作列中的&#x200B;**執行擱置中的工作**。 此按鈕僅在工作流程啟動後才能使用。
+>若要立即啟動工作流程，請按一下排程器頂端動作列中的&#x200B;**執行擱置中的工作**。 此按鈕僅在工作流程啟動後才能使用。
 
 ## 範例 {#scheduler-example}
 

@@ -2,10 +2,10 @@
 title: 目標市場選擇維度
 description: 進一步瞭解Adobe Campaign網頁中的目標維度功能
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 5%
+source-wordcount: '408'
+ht-degree: 11%
 
 ---
 
@@ -13,8 +13,10 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
->title="Select the targeting dimension"
->abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
+>title="選取目標市場選擇維度"
+>abstract="目標維度可讓您定義作業的目標母體：收件者、合約受益者、操作者、訂閱者等。 對於電子郵件和簡訊，依預設，目標是從收件者內建表格中選取。對於推播通知，預設目標市場選擇維度是訂閱者應用程式。"
+
+目標維度（也稱為目標對應）是作業處理的資料型別。 它定義目標母體，例如設定檔、合約受益人、運運算元或訂閱者。
 
 ## 工作流程的目標維度 {#workflow}
 

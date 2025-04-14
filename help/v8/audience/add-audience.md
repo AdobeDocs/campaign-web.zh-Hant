@@ -3,10 +3,10 @@ audience: end-user
 title: 選取現有客群
 description: 了解如何選取客群
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 12%
+source-wordcount: '381'
+ht-degree: 18%
 
 ---
 
@@ -14,9 +14,10 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="Select an existing audience"
->abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
+>title="選取現有客群"
+>abstract="瀏覽清單以選取現有對象。使用「顯示篩選器」圖示篩選清單，或選取特定資料夾。"
 
+本節說明在定義傳送的目標母體時，如何選取現有的對象。 定義傳送的主要目標時，您也可以：
 * [使用查詢模組化工具建置一次性對象](one-time-audience.md)。
 * [從外部檔案載入對象](file-audience.md) （僅適用於電子郵件）。
 

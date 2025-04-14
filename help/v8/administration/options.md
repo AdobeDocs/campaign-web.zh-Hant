@@ -2,10 +2,10 @@
 title: 設定 [!DNL Campaign] 選項
 description: 瞭解如何設定Campaign選項及建立自己的自訂選項。
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 4%
+source-wordcount: '431'
+ht-degree: 5%
 
 ---
 
@@ -13,18 +13,18 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"
->title="Options"
->abstract="Options"
+>title="選項"
+>abstract="選項"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_create"
->title="Create option"
->abstract="Create option"
+>title="建立選項"
+>abstract="建立選項"
 
 Adobe Campaign網頁版包含技術選項，可讓您更明確地設定應用程式。 這些選項中有些是內建的，有些則可視需要手動新增。
 
 >[!IMPORTANT]\
-內建選項已預先設定，僅供進階使用者修改。 如果您有任何問題或請求，請聯絡您的Adobe代表。
+>內建選項已預先設定，僅供進階使用者修改。 如果您有任何問題或請求，請聯絡您的Adobe代表。
 
 ## 存取Campaign選項 {#access}
 
@@ -34,7 +34,7 @@ Adobe Campaign網頁版包含技術選項，可讓您更明確地設定應用程
 [選項清單顯示在[管理] / [選項]功能表中]
 
 >[!NOTE]\
-雖然選項功能表位置在Adobe Campaign主控台和Web使用者介面之間有所不同，但清單仍相同，而且就像映象一樣運作。 如需可用選項的詳細資訊，請參閱[Campaign v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}中的選項清單。
+>雖然選項功能表位置在Adobe Campaign主控台和Web使用者介面之間有所不同，但清單仍相同，而且就像映象一樣運作。 如需可用選項的詳細資訊，請參閱[Campaign v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}中的選項清單。
 
 從選項清單中，您可以：
 
