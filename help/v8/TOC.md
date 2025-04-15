@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 99%
    + [從 Campaign Standard 至 v8](rn/acs-migration.md)
    + [採用 AI 技術的內容說明](get-started/using-ai.md)
    + [常見問答集](get-started/faq.md)
-+ 訊息和傳遞{#msg}
++ 訊息和傳遞 {#msg}
    + [開始使用訊息](msg/gs-messages.md)
    + [存取傳遞內容](msg/gs-deliveries.md)
    + [建立傳遞](msg/create-deliveries.md)
@@ -63,12 +63,12 @@ ht-degree: 99%
       + [建立簡訊傳遞](sms/create-sms.md)
       + [設計簡訊傳遞](sms/content-sms.md)
       + [預覽並傳送簡訊傳遞](sms/send-sms.md)
-   + 直接郵件{#direct-mail}
+   + 直接郵件 {#direct-mail}
       + [開始使用直接郵件傳遞](direct-mail/gs-direct-mail.md)
       + [建立新的直接郵件傳遞](direct-mail/create-direct-mail.md)
       + [設計摘取檔案](direct-mail/content-direct-mail.md)
       + [預覽並發送直接郵件傳遞](direct-mail/send-direct-mail.md)
-   + 交易型訊息{#transactional-messages}
+   + 交易型訊息 {#transactional-messages}
       + [開始使用交易型訊息](transactional-messaging/transactional.md)
       + [建立交易型訊息](transactional-messaging/create-transactional.md)
       + [驗證您的交易型訊息](transactional-messaging/validate-transactional.md)
@@ -82,7 +82,7 @@ ht-degree: 99%
       + [預覽訊息內容。](preview-test/preview-content.md)
       + [傳送校樣](preview-test/test-deliveries.md)
       + [測試電子郵件轉譯](preview-test/email-rendering.md)
-   + 傳遞警報{#delivery-alerting}
+   + 傳遞警報 {#delivery-alerting}
       + [開始使用傳遞警報](msg/delivery-alerting.md)
       + [傳遞警報儀表板](msg/delivery-alerting-dashboards.md)
       + [傳遞警報條件](msg/delivery-alerting-criteria.md)
@@ -105,13 +105,13 @@ ht-degree: 99%
          + [匯入您的電子郵件內容](email/existing-content.md)
          + [為自己的內容撰寫程式碼](email/code-content.md)
          + [使用電子郵件內容範本](email/use-email-templates.md)
-      + 設計內容 {#design-content}
+      + 設計您的內容 {#design-content}
          + [使用內容元件](email/content-components.md)
          + [新增連結和追蹤訊息](email/message-tracking.md)
          + [新增鏡像頁面連結](email/mirror-page.md)
          + [新增預覽文字](email/preheader.md)
          + [產生文字版本](email/text-version-email.md)
-      + 建立內容樣式 {#style}
+      + 設定內容樣式 {#style}
          + [開始使用電子郵件樣式](email/get-started-email-style.md)
          + [編輯背景設定](email/backgrounds.md)
          + [調整垂直對齊方式和邊框間距](email/alignment-and-padding.md)
@@ -124,7 +124,7 @@ ht-degree: 99%
       + [使用 AI 產生推播通知](email/generative-push.md)
       + [使用 AI 的登陸頁面生成式內容](email/generative-lp.md)
       + [AI 助理使用案例](email/generative-uc.md)
-      + [建立並管理您的品牌（測試版）](content/brands.md)
+      + [建立和管理您的品牌 (Beta)](content/brands.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](landing-pages/get-started-lp.md)
    + [建立並發佈登陸頁面](landing-pages/create-lp.md)
@@ -164,7 +164,7 @@ ht-degree: 99%
    + [工作流程事件變數](workflows/event-variables.md)
    + [存取並管理工作流程](workflows/access-monitor.md)
    + [關於唯讀工作流程](workflows/readonly-workflows.md)
-   + 建立和執行第一個工作流程 {#create-workflow}
+   + 建立和執行您的第一個工作流程 {#create-workflow}
       + [用於建立工作流程的主要原則](workflows/gs-workflow-creation.md)
       + [建立工作流程](workflows/create-workflow.md)
       + [協調活動](workflows/orchestrate-activities.md)
