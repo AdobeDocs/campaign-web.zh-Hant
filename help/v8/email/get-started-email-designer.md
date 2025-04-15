@@ -3,10 +3,10 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 了解如何使用 Campaign Web 使用者介面中的電子郵件設計工具開始建置您的內容
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 45%
+source-wordcount: '409'
+ht-degree: 61%
 
 ---
 
@@ -31,7 +31,9 @@ The Email Designer allows you to create email content and email content template
 
 傳送電子郵件時，請考量收件者可能會轉寄電子郵件，這有時會導致電子郵件轉譯發生問題。 使用用於轉送的電子郵件提供者可能不支援的CSS類別時，尤其如此。 例如，如果您使用「is-desktop-hidden」CSS類別來隱藏行動裝置上的影像，該類別可能無法正確呈現。
 
-若要將這些轉譯問題降至最低，請儘可能簡化您的電子郵件設計結構。 請使用適用於案頭和行動裝置的單一設計，並避免使用複雜的CSS類別或其他設計元素，因為並非所有電子郵件使用者端都完全支援這些元素。 透過遵循這些最佳實務，有助於確保您的電子郵件可一致地呈現，無論收件者如何檢視或轉寄電子郵件。
+為了盡量減少這些呈現問題，我們建議保持您的電子郵件設計結構盡可能簡單。可嘗試使用同時適用於桌上型電腦和行動裝置的單一設計，並且避免使用複雜的 CSS 類別或其他並非所有電子郵件用戶端都可完全支援的設計元素。在電子郵件中使用影像時，請避免使用大於2 MB的影像或使用編碼的影像連結。
+
+若能按照這些最佳做法進行，即有助於確保電子郵件會始終如一地正確呈現，無論收件者以什麼方式檢視或轉寄。
 
 ## 開始編寫您的內容  {#start-authoring}
 
