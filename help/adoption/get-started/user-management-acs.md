@@ -4,9 +4,9 @@ description: 瞭解如何將使用者存取管理從Campaign Standard移轉至Ca
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1dd416d0a1a3579075462821edd4d55e738e602f
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1404'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,9 @@ Adobe Campaign Standard和Campaign v8會使用下列概念，來達成使用者�
 
 ## 從安全性群組移轉至操作員群組的方法
 
-### 警告注意事項
-
-這些角色/已命名許可權的功能在實施中可能會有所不同，這可能會造成授權問題（例如，許可權提升或功能中斷）。 我們建議使用者在轉換後檢閱這些對應，以確保適當的存取控制。 [進一步瞭解許可權](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
-
-### 安全性群組與操作員群組
+>[!IMPORTANT]
+>
+>這些角色/已命名許可權的功能在實施中可能會有所不同，這可能會造成授權問題（例如，許可權提升或功能中斷）。 我們建議使用者在轉換後檢閱這些對應，以確保適當的存取控制。 [進一步瞭解許可權](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 下表概述從Adobe Campaign Standard轉換至Campaign v8時，使用者角色群組的移轉方法。 在Campaign Standard中，**安全性群組** （在Campaign v8中稱為&#x200B;**運運算元群組**）是用來指派一組角色給使用者。 雖然有些安全性群組/運運算元群組是現成可用的群組，但使用者可視需要建立新群組或修改現有群組。
 
@@ -48,11 +46,9 @@ Adobe Campaign Standard和Campaign v8會使用下列概念，來達成使用者�
 
 ## 從使用者角色移轉至已命名許可權的方法
 
-### 警告注意事項
-
-從Adobe Campaign Standard移轉至Campaign v8期間，具有&#x200B;**資料模型**&#x200B;角色但不具有&#x200B;**管理**&#x200B;角色的使用者將自動取得&#x200B;**管理**&#x200B;存取權，因為Campaign v8中的結構描述建立需要管理許可權。 若要避免此問題，請在移轉前移除其&#x200B;**資料模型**&#x200B;角色。
-
-### 使用者角色和已命名的許可權
+>[!IMPORTANT]
+>
+>從Adobe Campaign Standard移轉至Campaign v8期間，具有&#x200B;**資料模型**&#x200B;角色但不具有&#x200B;**管理**&#x200B;角色的使用者將自動取得&#x200B;**管理**&#x200B;存取權，因為Campaign v8中的結構描述建立需要管理許可權。 若要避免此問題，請在移轉前移除其&#x200B;**資料模型**&#x200B;角色。
 
 在Adobe Campaign Standard中，術語&#x200B;**使用者角色**&#x200B;在Campaign v8中稱為&#x200B;**已命名許可權**。 下表概述Campaign v8中與Campaign Standard中的&#x200B;**使用者角色**&#x200B;相對應的&#x200B;**已命名許可權**&#x200B;所使用的術語。
 
@@ -72,13 +68,12 @@ Adobe Campaign Standard和Campaign v8會使用下列概念，來達成使用者�
 
 ## 從組織單位移轉方法
 
-### 警告注意事項
+>[!IMPORTANT]
+>
+>Adobe Campaign Standard中沒有&#x200B;**所有（所有）**作為直接或間接父級的組織單位將不會移轉至Campaign v8。
+></br>
+>系統會為多個安全性群組中的使用者指派最高級別安全性群組的組織單位。 如果多個群組有平行的頂層單位，則系統會為Campaign Standard中的使用者選取組織單位，該使用者將只能存取系統選取的組織單位及其子項。 在移轉後的Campaign v8中，使用者將可存取&#x200B;**所有指派的組織單位及其子項**，可能會增加許可權。 為避免此問題，請避免將使用者指派給具有平行組織單位的安全性群組。 深入瞭解[平行組織單位指派](#parallel-assignments)。
 
-Adobe Campaign Standard中沒有&#x200B;**所有（所有）**&#x200B;作為直接或間接父級的組織單位將不會移轉至Campaign v8。
-
-系統會為多個安全性群組中的使用者指派最高級別安全性群組的組織單位。 如果多個群組有平行的頂層單位，則系統會為Campaign Standard中的使用者選取組織單位，該使用者將只能存取系統選取的組織單位及其子項。 在移轉後的Campaign v8中，使用者將可存取&#x200B;**所有指派的組織單位及其子項**，可能會增加許可權。 為避免此問題，請避免將使用者指派給具有平行組織單位的安全性群組。 深入瞭解[平行組織單位指派](#parallel-assignments)。
-
-### 組織單位和資料夾管理
 
 在Adobe Campaign Standard中，**組織單位**&#x200B;對應至Campaign v8中的現有&#x200B;**資料夾**&#x200B;階層模型，以維持類似的存取控制。 [進一步瞭解資料夾管理](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
