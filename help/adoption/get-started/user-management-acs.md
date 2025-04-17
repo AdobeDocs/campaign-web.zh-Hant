@@ -4,9 +4,9 @@ description: 瞭解如何將使用者存取管理從Campaign Standard移轉至Ca
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 1dd416d0a1a3579075462821edd4d55e738e602f
+source-git-commit: 9354c07f173f67c23ce64e591f869bdd374c3334
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1403'
 ht-degree: 2%
 
 ---
@@ -178,4 +178,6 @@ Adobe Campaign Standard和Campaign v8會使用下列概念，來達成使用者�
 
 * 轉送帳戶
 
-請注意，在Adobe Campaign Standard中建立並指派給使用者的自訂角色不會移轉至Campaign v8。
+>[!NOTE]
+>
+>在Adobe Campaign Standard中建立並指派給使用者的自訂角色不會移轉至Adobe Campaign v8。
