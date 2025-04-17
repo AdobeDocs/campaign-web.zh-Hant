@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 37%
+ht-degree: 42%
 
 ---
 
@@ -198,23 +198,23 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
->title="不支援內容模擬"
->abstract="**模擬內容**&#x200B;按鈕已停用，因為多語言傳遞僅包含一個地區設定。"
+>title="不支援進行內容模擬"
+>abstract="「**模擬內容**」按鈕已停用，因為多語言傳送作業僅包含一個地區設定。"
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_reconcilied_deliveries"
->title="不支援內容模擬"
->abstract="**模擬內容**&#x200B;按鈕已停用，因為它與此階段的已調解傳遞不相容。"
+>title="不支援進行內容模擬"
+>abstract="「**模擬內容**」按鈕已停用，因為它與此階段的已調解傳遞不相容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_ffda"
->title="不支援內容模擬"
->abstract="**模擬內容**&#x200B;按鈕已停用，因為Campaign企業完整同盟存取(FFDA)模式不支援。"
+>title="不支援進行內容模擬"
+>abstract="「**模擬內容**」按鈕已停用，因為 Campaign Enterprise Full Federated Access (FFDA) 模式不支援。"
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_no_file"
->title="不支援內容模擬"
->abstract="**模擬內容**&#x200B;按鈕已停用，因為尚未上傳任何內容。"
+>title="不支援進行內容模擬"
+>abstract="「**模擬內容**」按鈕已停用，因為未上傳任何內容。"
 
 在某些情況下，您無法執行內容模擬，而且&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕已停用。
 
