@@ -3,7 +3,7 @@ audience: end-user
 title: 直接郵件通道的全域報告
 description: 深入瞭解直接郵件通道的全域報告
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 27%
@@ -29,7 +29,7 @@ ht-degree: 27%
 
 ![此影像顯示直接郵件傳遞的傳遞概述量度。](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++進一步瞭解傳送概述量度。
++++進一步瞭解傳遞概述量度。
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備期間處理的訊息總數。
 
@@ -109,7 +109,7 @@ ht-degree: 27%
 
 排除專案圖表和表格說明了從目標設定檔排除的使用者設定檔無法接收訊息的原因。
 
-+++深入瞭解排除量度發生的原因。
++++深入瞭解排除量度的原因。
 
 * **[!UICONTROL 隔離中的地址]**：將地址置於隔離中時產生的錯誤型別。
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 推播通道的全域報表
 description: 瞭解推播通道的全域報表
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 23%
@@ -29,7 +29,7 @@ ht-degree: 23%
 
 ![傳遞總覽量度，顯示與推播通知效能相關的KPI。](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++進一步瞭解傳送概述量度。
++++進一步瞭解傳遞概述量度。
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備期間處理的訊息總數。
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 直接郵件報表
 description: 瞭解如何存取及使用直接郵件報告
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '677'
 ht-degree: 20%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 20%
 
 ![傳遞總覽量度圖表，顯示直接郵件傳遞的關鍵績效指標。](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++進一步瞭解傳送概述量度。
++++進一步瞭解傳遞概述量度。
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備期間處理的訊息總數。
 * **[!UICONTROL 目標]**：符合直接郵件訊息目標設定檔資格的使用者設定檔數目。
@@ -49,7 +49,7 @@ ht-degree: 20%
 
 ![具有暫留功能的初始目標母體圖形的詳細檢視。](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++深入瞭解直接郵件傳遞報告度量。
++++進一步瞭解直接郵件傳遞報告度量。
 
 * **[!UICONTROL 初始對象]**：目標收件者的總數。
 * **[!UICONTROL 要傳遞]**：傳遞準備後要傳遞的訊息總數。
@@ -86,7 +86,7 @@ ht-degree: 20%
 
 ![排除圖顯示依規則之拒絕訊息分佈的原因。](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++深入瞭解排除量度發生的原因。
++++深入瞭解排除量度的原因。
 
 * **[!UICONTROL 隔離中的地址]**：將地址置於隔離中時產生的錯誤型別。
 * **[!UICONTROL 未指定地址]**：地址不存在時產生錯誤型別。

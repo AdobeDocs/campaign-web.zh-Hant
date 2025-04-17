@@ -3,7 +3,7 @@ audience: end-user
 title: 選取現有客群
 description: 了解如何選取客群
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 18%
@@ -21,7 +21,7 @@ ht-degree: 18%
 * [使用查詢模組化工具建置一次性對象](one-time-audience.md)。
 * [從外部檔案載入對象](file-audience.md) （僅適用於電子郵件）。
 
-可在傳遞中鎖定的對象可從&#x200B;**對象**&#x200B;左側功能表存取。 它們源自多個來源，例如使用者端主控台、Campaign Web對象工作流程或Adobe Experience Platform。 [進一步了解對象](manage-audience.md)
+可在傳遞中鎖定的對象可從&#x200B;**對象**&#x200B;左側功能表存取。 它們源自多個來源，例如使用者端主控台、Campaign Web對象工作流程或Adobe Experience Platform。 [了解更多關於客群](manage-audience.md)
 
 若要為您的訊息選取現有客群，請依照以下步驟進行：
 

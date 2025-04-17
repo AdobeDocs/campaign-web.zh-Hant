@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用 Adobe Campaign Web
 description: 開始使用 Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 31%
+ht-degree: 28%
 
 ---
 
@@ -59,7 +59,7 @@ Campaign 資料儲存在應用程式伺服器中。可從使用者端主控台�
 
 某些物件只能在用戶端主控台中建立和管理。這些物件可以在Campaign Web使用者介面中看到和使用，但無法從此環境建立或修改它們。 所有Campaign物件和元件都可從瀏覽器檢視取得，並可從左側導覽存取。
 
-如需如何透過其用戶端主控台使用 Campaign v8 的詳細資訊，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"}。
+如需如何搭配使用者端主控台使用Campaign v8的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"}。
 
 <!--
 ## How-to video {#video}
@@ -143,7 +143,7 @@ Once your delivery content has been defined, you can use profiles and test profi
 
     Learn how to download, install, and manage the Adobe Campaign Client Console with this documentation.
 
-* **Discover console client interface** - Learn about the Adobe Campaign V8 user interface and how to navigate the main features with this tutorial video.
+* **Discover console client interface** - Learn about the Adobe Campaign v8 user interface and how to navigate the main features with this tutorial video.
 
     You can access Adobe Campaign via its client console or its Web user interface. You can also use APIs to manage data and perform tasks in your Campaign platform.
 

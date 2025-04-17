@@ -3,7 +3,7 @@ audience: end-user
 title: 直接郵件頻道的行銷活動報告
 description: 瞭解直接郵件頻道的行銷活動報告
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 19%
@@ -27,7 +27,7 @@ ht-degree: 19%
 
 ![直接郵件行銷活動傳遞量度概觀](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
-+++進一步瞭解傳送概述量度。
++++進一步瞭解傳遞概述量度。
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備期間處理的訊息總數。
 

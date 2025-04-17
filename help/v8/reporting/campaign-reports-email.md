@@ -3,7 +3,7 @@ audience: end-user
 title: 電子郵件頻道的行銷活動報告
 description: 進一步瞭解電子郵件頻道的行銷活動報告
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 20%
@@ -213,7 +213,7 @@ ht-degree: 20%
 
 ![開啟及點進率表的熒幕擷圖](assets/campaign_report_email_8.png){zoomable="yes"}
 
-+++ 進一步瞭解電子郵件行銷活動報告度量。
++++ 進一步瞭解電子郵件促銷活動報告度量。
 
 * **[!UICONTROL 已傳送]**：已傳送的訊息總數。
 
@@ -238,7 +238,7 @@ ht-degree: 20%
 
 ![URL的熒幕擷圖並按一下串流報告](assets/campaign_report_email_9.png){zoomable="yes"}
 
-+++ 進一步瞭解電子郵件行銷活動報告度量。
++++ 進一步瞭解電子郵件促銷活動報告度量。
 
 * **[!UICONTROL 反應性]**：已點按傳遞的目標收件者數目與已開啟傳遞的目標收件者預估數目之間的比率。
 

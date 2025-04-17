@@ -1,10 +1,10 @@
 ---
 title: 開始使用適用於管理員和開發人員的Adobe Campaign v8。
-description: 本教學課程概述Campaign v8的主要管理和資料管理功能。 從Campaign Standard移轉至Campaign v8的管理員和技術行銷人員適用。
+description: 本教學課程概述Campaign v8的主要管理和資料管理功能。 它針對從Campaign Standard移轉至Campaign v8的管理員和技術行銷人員。
 role: Admin, Developer
 level: Beginner, Experienced
 exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 7%
@@ -35,7 +35,7 @@ Campaign v8 （主控台）檔案中會詳細說明Campaign架構。 在[此頁�
 
 <!--Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA)** deployment (P4). As a customer transitioning from Campaign Standard, your deployment model is **Campaign FDA**.-->
 
-* 異動訊息（訊息中心）是專為管理觸發式訊息而設計的Campaign v8模組。 它依賴特定的架構模型，此模型在[此區段](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}中有詳細說明。
+* 異動訊息（訊息中心）是專為管理觸發式訊息而設計的Campaign v8模組。 它依賴特定架構模型，此模型在[本節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}中有詳細說明。
 
 ## Campaign使用者端主控台 {#acs-gs-console}
 
@@ -55,7 +55,7 @@ Campaign使用者端主控台是原生應用程式，可透過標準網際網路
 
 ### 探索使用者端主控台介面  {#acs-gs-ui}
 
-瞭解Adobe Campaign V8使用者介面，以及如何透過本教學課程影片導覽主要功能。
+瞭解Adobe Campaign v8使用者介面，以及如何透過本教學課程影片導覽主要功能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
@@ -63,7 +63,7 @@ Campaign使用者端主控台是原生應用程式，可透過標準網際網路
 
 ## 管理環境 {#acs-gs-admin-env}
 
-安裝使用者端主控台後，請依照本檔案中的步驟建立應用程式伺服器的連線： [應用程式伺服器檔案的連線](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}。
+安裝使用者端主控台後，請依照本檔案中的步驟建立與應用程式伺服器的連線： [與應用程式伺服器檔案的連線](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}。
 
 安全性實務已深深植入我們的內部軟體開發和作業流程及工具，我們的跨職能團隊也嚴格遵循這些實務准則，以迅速預防、偵測和回應事件。 深入瞭解[Campaign安全性最佳實務](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security){target="_blank"}。
 
@@ -71,7 +71,7 @@ Campaign使用者端主控台是原生應用程式，可透過標準網際網路
 
 Adobe Campaign可讓您定義並管理指派給使用者的許可權。 這些許可權是透過結合操作員群組許可權、已命名的許可權和檔案夾許可權來定義。
 
-作為轉換至Campaign v8的Campaign Standard使用者，您的許可權和存取權維持不變。 安全性群組已依Adobe移至Campaign v8運運算元群組，而您的每個組織單位的許可權已轉換為檔案夾許可權。 Campaign使用者   使用他們的Adobe ID連線至Campaign v8，然後可以使用與Campaign Standard相同的登入和密碼。
+身為Campaign Standard使用者轉換至Campaign v8，您的許可權和存取權維持不變。 Adobe已將安全性群組移至Campaign v8運運算元群組，而且您的每個組織單位的許可權已轉換為檔案夾許可權。 Campaign使用者   使用他們的Adobe ID連線至Campaign v8，然後可以使用與Campaign Standard相同的登入和密碼。
 
 行銷活動[資料夾](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"}為使用者端主控台之瀏覽器樹狀結構中的節點。 根據它們的型別，它們包含特定型別的資料。 程式會由Campaign v8中的資料夾具體化。 您可以建立檔案夾並管理其許可權以限制存取。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}。
 
@@ -80,7 +80,7 @@ Adobe Campaign可讓您定義並管理指派給使用者的許可權。 這些�
 
 ### Campaign 控制面板 {#acs-gs-admin-cp}
 
-至於Campaign Standard，您可以使用「控制面板」來管理環境。 請注意，對於v8，「控制面板」提供額外功能。
+至於Campaign Standard，您可以使用「控制面板」來管理您的環境。 請注意，對於v8，「控制面板」提供額外功能。
 
 您可以透過「Campaign 控制面板」，以 Adobe Campaign 產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。其直覺式介面可讓您輕鬆監視主要資產的使用情況，並執行管理工作，例如 IP 位址允許清單新增、SFTP 儲存空間監控、金鑰管理等等。
 
@@ -96,13 +96,13 @@ Adobe Campaign可讓您定義並管理指派給使用者的許可權。 這些�
 
 ### 稽核軌跡 {#acs-gs-admin-audit-trail}
 
-稽核軌跡在Campaign Standard中已可用，可用於Campaign v8以存取執行個體內所做變更的完整歷史記錄。
+如同Campaign Standard已提供的功能，稽核軌跡可在Campaign v8中使用，以存取執行個體中所做變更的完整歷史記錄。
 
 在Adobe Campaign Web使用者介面中，稽核軌跡功能可讓使用者完全瞭解對您執行個體內重要實體所做的所有修改，通常是對執行個體的順利操作產生重大影響的修改。 進一步瞭解[稽核軌跡檔案](../../v8/reporting/audit-trail.md)
 
 ### 資料套件 {#acs-gs-admin-audit-packages}
 
-與Campaign Standard中可達到的類似，管理員可以定義套件，以透過結構化XML檔案在不同Adobe Campaign執行個體之間交換資源。 這些項目可能是設定參數或資料。
+與Campaign Standard中類似，管理員可以定義套件，以透過結構化XML檔案在不同Adobe Campaign執行個體之間交換資源。 這些項目可能是設定參數或資料。
 
 您可以使用資料包來匯出和匯入平台自訂設定和資料。 套件可以包含不同型別的設定和元件，無論是否經過篩選。 在[本檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}中瞭解如何在Campaign v8中使用資料套件。
 
@@ -116,7 +116,7 @@ MISSING LINKS:
 
 您可以使用幾個選項來自訂使用者端主控台中的使用者介面，例如：
 
-* **清單和資料顯示** — 此檔案提供管理使用者介面設定（例如清單、單位或資料顯示）的准則： [使用者介面設定檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
+* **清單和資料顯示** — 管理使用者介面設定（例如清單、單位或資料顯示）的准則已在此檔案中提供： [使用者介面設定檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
 
 * **資料夾管理** — 資料夾是Adobe Campaign中的物件，可讓您組織元件和資料。 也可用來管理許可權。 瞭解如何[使用資料夾](../../v8/get-started/work-with-folders.md)。
 
@@ -126,7 +126,7 @@ MISSING LINKS:
 
 每家公司都有品牌准則，對視覺元素和技術細節加以定義。 至於Adobe Campaign Standard，Adobe Campaign v8可協助您集中管理這些方針，您所做的一切（從電子郵件中的標誌，到您的行銷活動中使用的URL和網域）都可以向客戶呈現一致的品牌形象。 作為技術管理員，您可以在Adobe Campaign中建立和管理多個品牌。
 
-在[品牌檔案](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}中進一步瞭解
+在[品牌推廣檔案](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}中進一步瞭解
 
 ## 瞭解資料模型建立 {#acs-gs-admin-data-model-creation}
 
@@ -138,7 +138,7 @@ MISSING LINKS:
 
 >[!VIDEO](https://video.tv.adobe.com/v/337939?quality=12&learn=on){transcript=true}
 
-與Campaign Standard中可用的功能類似，您可以建立自訂資源。 在Campaign v8中，自訂資源為自訂或延伸&#x200B;**結構描述**。
+與Campaign Standard中的可用功能類似，您可以建立自訂資源。 在Campaign v8中，自訂資源為自訂或延伸&#x200B;**結構描述**。
 
 * 在[此頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}中瞭解如何使用結構描述。
 
@@ -150,7 +150,7 @@ MISSING LINKS:
 
 ## 工作流程和資料管理 {#acs-gs-admin-data-management}
 
-與Adobe Campaign Standard相同，Adobe Campaign v8也包含工作流程模組，可讓您在應用程式伺服器的不同模組間協調所有流程和任務。 此全方位的圖形環境可讓您設計各式流程，包括細分、行銷活動執行、檔案處理、人員參與等。 工作流程引擎會執行並追蹤這些流程。 在[本檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}中瞭解如何在Campaign v8中開始使用工作流程。
+與Adobe Campaign Standard相同，Adobe Campaign v8也包含工作流程模組，可讓您在應用程式伺服器的不同模組間協調所有流程和任務。 此全方位的圖形環境可讓您設計各式流程，包括細分、行銷活動執行、檔案處理、人員參與等。 工作流程引擎會執行並追蹤這些流程。 在[本檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}中瞭解如何開始使用Campaign v8的工作流程。
 
 請參閱下列其他實用資源的連結：
 
@@ -160,13 +160,13 @@ MISSING LINKS:
 
 * Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動化多個連絡人更新、在網路上收集資料，或直接在收件者表格中輸入設定檔資訊。  在[匯入資料（主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}中進一步瞭解。
 
-* 您可以輕鬆地將不同的報表匯出為PDF或CSV格式，讓您能夠共用、操作或列印報表。 進一步瞭解[匯出資料檔案](../../v8/reporting/export-reports.md)。
+* 您可以輕鬆地將不同的報表匯出為PDF或CSV格式，讓您能夠共用、操縱或列印它們。 進一步瞭解[匯出資料檔案](../../v8/reporting/export-reports.md)。
 
 ## REST API {#acs-gs-admin-apis}
 
 Campaign REST API的目的是讓您建立Adobe Campaign的整合，並將Adobe Campaign與您使用的技術面板結合，以建立您自己的生態系統。
 
-作為轉換至Campaign v8的Campaign Standard使用者，您可使用REST API。
+身為Campaign Standard使用者轉換至Campaign v8，您可使用REST API。
 
 在[Rest API檔案](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}中進一步瞭解。
 
@@ -202,7 +202,7 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 ## 訂閱服務 {#acs-gs-admin-sub}
 
-就像Campaign Standard一樣，身為管理員，您可以建立訂閱服務，而行銷人員可以傳送訊息給訂閱者。 重要概念和實施步驟均與Campaign Standard一致。 您可以在下方找到有用的連結和影片。
+如同在Campaign Standard中，身為管理員，您可以建立訂閱服務，而行銷人員可以傳送訊息給訂閱者。 重要概念和實施步驟均與Campaign Standard一致。 您可以在下方找到有用的連結和影片。
 
 瞭解如何設定及管理訂閱並目標定位訂閱者。
 
@@ -212,22 +212,22 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 * 另請參閱[本區段](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}中有關在使用者端主控台中設定訂閱服務的檔案。
 
-## 訊息與傳遞{#acs-gs-msg}
+## 訊息和傳遞{#acs-gs-msg}
 
 ### 設定傳送通道 {#acs-gs-admin-channels}
 
-作為Campaign Standard，Adobe Campaign v8可協助您傳送跨頻道行銷活動，包括電子郵件、簡訊、推播通知和直接郵件，並使用各種專屬報告來衡量其成效。 這些訊息會經過設計並透過傳遞傳送，而且可針對每位收件者進行個人化。核心功能包括目標定位、定義和個人化訊息、通訊執行及相關的營運報告。 主要功能存取點是傳送助理。 此存取點可導向 Adobe Campaign 涵括的多種功能。
+Adobe Campaign v8身為Campaign Standard，可協助您傳送跨頻道行銷活動，包括電子郵件、簡訊、推播通知和直接郵件，並使用各種專屬報告來評估行銷的成效。 這些訊息會經過設計並透過傳遞傳送，而且可針對每位收件者進行個人化。核心功能包括目標定位、定義和個人化訊息、通訊執行及相關的營運報告。 主要功能存取點是傳送助理。 此存取點可導向 Adobe Campaign 涵括的多種功能。
 
 作為管理員，您必須定義您的頻道設定。 請參閱下列連結以瞭解更多資訊。
 
 * **電子郵件** — 電子郵件設定全部在[此頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}中詳細說明。
 * **簡訊** — 在[本檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}中瞭解如何設定您的簡訊頻道。
 * **推播通知** — 設定推播通知頻道的步驟已在本節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}中詳細說明[。
-* **異動訊息** — 在Campaign v8中設定[異動訊息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}的步驟[在本節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)中有詳細說明
+* **異動訊息** — 在Campaign v8中設定[異動訊息](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}的步驟已在本節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)中詳細說明[
 
 ### 外部帳戶 {#acs-gs-ext-accounts}
 
-身為管理員，您負責設定及維護Campaign外部帳戶。 和Campaign Standard一樣，技術流程（如技術工作流程或行銷活動工作流程）會使用外部帳戶。
+身為管理員，您負責設定及維護Campaign外部帳戶。 和Campaign Standard一樣，技術流程（例如技術工作流程或行銷活動工作流程）會使用外部帳戶。
 
 轉換至Campaign v8的過程會處理您現有的Campaign Standard外部帳戶。
 
@@ -275,7 +275,7 @@ MISSING LINKS:
 
 ### 傳遞範本 {#acs-gs-templates}
 
-Campaign v8要求使用傳遞範本，例如Campaign Standard。
+在Campaign v8中(例如在Campaign Standard中)需要使用傳遞範本。
 
 為了加快並改善設計流程，請建立傳遞範本，以輕鬆地在行銷活動中重複使用自訂內容和設定。 此功能可讓您標準化創意外觀和風格，以便更快速地執行和啟動行銷活動。 瞭解如何在[Campaign網頁使用者介面](../../v8/msg/delivery-template.md)中建立傳遞範本。 另請參閱[本節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates){target="_blank"}中有關如何在使用者端主控台中建立傳遞範本。
 
@@ -285,7 +285,7 @@ Campaign v8要求使用傳遞範本，例如Campaign Standard。
 
 從Campaign Standard環境轉換至Campaign v8時，您的型別規則會移至Campaign v8。
 
-在Campaign v8中，型別規則會隨特定的Campaign Optimization附件提供。 此模組可讓您控制、篩選及監控傳遞的傳送。 為了避免行銷活動之間發生衝突，Adobe Campaign 可以套用特定限制規則來測試各種組合。這可確保傳送的訊息符合客戶和公司通訊政策的需求與期望。 在[型別規則檔案](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}中進一步瞭解。
+在Campaign v8中，型別規則會隨特定的Campaign Optimization附件提供。 此模組可讓您控制、篩選及監控傳遞的傳送。 為了避免行銷活動之間發生衝突，Adobe Campaign 可以套用特定限制規則來測試各種組合。這可確保傳送的訊息符合客戶和公司通訊政策的需求與期望。 在[型別規則檔案](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}中瞭解更多。
 
 ### 隔離管理 {#acs-gs-admin-quarantine}
 
@@ -298,9 +298,9 @@ Campaign v8要求使用傳遞範本，例如Campaign Standard。
 
 您可以將Campaign執行個體連線至Adobe Experience Cloud解決方案，以便結合功能。 Adobe Campaign隨附數個聯結器，可讓您與外部應用程式通訊、連線至資料庫引擎、共用及同步資料。 在[本檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target="_blank"}中瞭解如何結合您的解決方案。
 
-遷移到Campaign v8的Campaign Standard使用者適用於您：
+遷移到Campaign v8後，身為Campaign Standard使用者，以下適用於您：
 
-* 如果您將這些整合與Campaign Standard搭配使用，您的&#x200B;**Adobe Analytics**&#x200B;和&#x200B;**Audience Manager**&#x200B;設定和資料已由Adobe移轉。
+* 如果您使用這些與Campaign Standard的整合，Adobe已移轉您的&#x200B;**Adobe Analytics**&#x200B;和&#x200B;**Audience Manager**&#x200B;設定和資料。
 * 如果您的Campaign Standard環境已與&#x200B;**Adobe Experience Manager**&#x200B;整合，Adobe建議您改用&#x200B;**Adobe Experience Manager as a Cloud Service**，以便在Campaign Web使用者介面中設計電子郵件時使用此功能，並直接在您的Adobe Experience Manager環境中簡化電子郵件傳遞內容和表單的管理。 在[此頁面](../../v8/integrations/aem-content.md)瞭解更多資訊。
 請注意，Campaign也可以與Adobe Experience Manager 6.5整合。若要設定此整合，請參閱[此檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}。
 * 如果您的Campaign Standard環境已與&#x200B;**觸發器**&#x200B;整合，您必須在Campaign v8中設定此整合，如[此頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}所詳述。

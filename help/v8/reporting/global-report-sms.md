@@ -3,7 +3,7 @@ audience: end-user
 title: 簡訊通道的全域報告
 description: 瞭解SMS頻道的全域報告
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 23%
@@ -29,7 +29,7 @@ ht-degree: 23%
 
 ![傳遞概述報告的熒幕擷圖，顯示SMS傳遞的關鍵績效指標。](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++進一步瞭解傳送概述量度。
++++進一步瞭解傳遞概述量度。
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備期間處理的訊息總數。
 

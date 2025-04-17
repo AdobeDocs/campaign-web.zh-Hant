@@ -4,7 +4,7 @@ title: 稽核軌跡
 description: 瞭解如何使用Campaign稽核軌跡監控您的執行個體
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 +++ 深入瞭解稽核軌跡可用實體
 
-* **Source結構描述稽核軌跡**&#x200B;可讓您在Campaign V8使用者端主控台中監視活動以及最近對結構描述所做的修改。
+* **Source結構描述稽核軌跡**&#x200B;可讓您在Campaign v8使用者端主控台中監視活動以及最近對結構描述所做的修改。
 
   如需結構描述的詳細資訊，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas)。
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
   如需工作流程的詳細資訊，請參閱此[頁面](../workflows/gs-workflows.md)。
 
-* **選項稽核軌跡**&#x200B;可讓您監視活動以及最近對Campaign V8中選項所做的修改。
+* **選項稽核軌跡**&#x200B;可讓您監視活動以及最近對Campaign v8中選項所做的修改。
 
   如需選項的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
 
@@ -49,15 +49,15 @@ ht-degree: 1%
 
   如需傳遞的詳細資訊，請參閱此[頁面](../msg/gs-deliveries.md)。
 
-* **外部帳戶**&#x200B;可讓您檢查Campaign V8中對外部帳戶所做的修改，這些修改由技術流程（如技術工作流程或行銷活動工作流程）使用。
+* **外部帳戶**&#x200B;可讓您檢查Campaign v8中對外部帳戶所做的修改，這些修改由技術流程（如技術工作流程或行銷活動工作流程）使用。
 
   如需外部帳戶的詳細資訊，請參閱此[頁面](../administration/external-account.md)。
 
-* **傳遞對應**&#x200B;可讓您監視活動以及最近對Campaign V8中的傳遞對應所做的修改。
+* **傳遞對應**&#x200B;可讓您監視活動以及最近在Campaign v8中對傳遞對應所做的修改。
 
   如需傳遞對應的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)。
 
-* **網頁應用程式**&#x200B;可讓您檢查在Campaign V8中對網頁表單所做的修改，這些修改用於建立具有輸入和選擇欄位的頁面，並且可能包含來自資料庫的資料。
+* **網頁應用程式**&#x200B;可讓您檢查在Campaign v8中對網頁表單所做的修改，這些修改用於建立具有輸入和選擇欄位的頁面，並且可能包含來自資料庫的資料。
 
   如需網頁應用程式的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps)。
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
   如需優惠方案的詳細資訊，請參閱此[頁面](../msg/offers.md)。
 
-* **操作員**&#x200B;可讓您監視活動以及最近在Campaign V8中對操作員所做的修改。
+* **操作員**&#x200B;可讓您監視活動以及最近在Campaign v8中對操作員進行的修改。
 
   如需運運算元的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)。
 

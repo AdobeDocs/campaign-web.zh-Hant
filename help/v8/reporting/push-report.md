@@ -3,9 +3,9 @@ audience: end-user
 title: 推播傳遞報告
 description: 瞭解如何存取及使用推播傳遞報告
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '566'
 ht-degree: 32%
 
 ---

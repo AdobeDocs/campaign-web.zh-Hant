@@ -3,7 +3,7 @@ audience: end-user
 title: 建立直接郵件傳遞
 description: 瞭解如何使用Adobe Campaign Web建立直接郵件傳送
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 17%
@@ -57,7 +57,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >在工作流程內容中傳送傳遞時，您必須使用&#x200B;**排程器**&#x200B;活動。 在[此頁面](../workflows/activities/scheduler.md)瞭解更多資訊。
+   >在工作流程內容中傳送傳遞時，您必須使用&#x200B;**排程器**&#x200B;活動。 深入瞭解[此頁面](../workflows/activities/scheduler.md)。
 
 1. 按一下&#x200B;**[!UICONTROL 設定]**&#x200B;以存取與您的傳遞範本相關的進階選項。 [了解更多](../advanced-settings/delivery-settings.md)
 

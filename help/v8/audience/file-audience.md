@@ -3,7 +3,7 @@ audience: end-user
 title: 從檔案載入電子郵件客群
 description: 瞭解如何從外部檔案載入設定檔，以建立您的電子郵件對象
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 24%

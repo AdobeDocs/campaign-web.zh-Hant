@@ -3,7 +3,7 @@ audience: end-user
 title: 推播頻道的行銷活動報表
 description: 瞭解推播頻道的行銷活動報表
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 15%

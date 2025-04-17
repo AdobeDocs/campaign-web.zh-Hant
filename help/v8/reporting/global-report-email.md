@@ -3,7 +3,7 @@ audience: end-user
 title: 電子郵件通道的全域報告
 description: 進一步瞭解電子郵件通道的全域報告
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 21%
@@ -29,7 +29,7 @@ ht-degree: 21%
 
 ![傳遞總覽量度](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++進一步瞭解傳送概述量度。
++++進一步瞭解傳遞概述量度。
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備期間處理的訊息總數。
 
@@ -205,7 +205,7 @@ ht-degree: 21%
 
 ![開啟及點進率量度](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++進一步瞭解開啟和點進率量度。
++++進一步瞭解「開啟」和「點進」率量度。
 
 * **[!UICONTROL 已傳送]**：已傳送的訊息總數。
 
@@ -231,7 +231,7 @@ ht-degree: 21%
 
 ![個URL和點按資料流量度](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++進一步瞭解URL和點選串流量度。
++++深入瞭解URL和點按資料流測量結果。
 
 * **[!UICONTROL 反應性]**：已點按傳遞的目標收件者數目與已開啟傳遞的目標收件者預估數目之間的比率。
 

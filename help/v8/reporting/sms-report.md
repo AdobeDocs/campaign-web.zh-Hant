@@ -3,9 +3,9 @@ audience: end-user
 title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 32%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 32%
 
 ![說明：此影像顯示傳遞概述報告，其中包括成功率、錯誤率和訪客參與度等KPI。](assets/reporting_sms_3.png){zoomable="yes"}
 
-+++進一步瞭解SMS傳送報告量度。
++++進一步瞭解SMS傳送報告度量。
 
 * **[!UICONTROL 傳送的總數]**：傳遞準備期間處理的訊息百分比與總數。
 
@@ -55,7 +55,7 @@ ht-degree: 32%
 
 ![說明：此影像顯示目標母體圖形和表格，其中包含要傳遞的訊息和排除等量度。](assets/reporting_sms_4.png){zoomable="yes"}
 
-+++進一步瞭解SMS傳送報告量度。
++++進一步瞭解SMS傳送報告度量。
 
 * **[!UICONTROL 要傳遞]**：傳遞準備期間處理的訊息總數和百分比率。
 
@@ -73,7 +73,7 @@ ht-degree: 32%
 
 ![說明：此影像顯示整體統計報表，其中包含成功率、錯誤和隔離等量度。](assets/reporting_sms_5.png){zoomable="yes"}
 
-+++進一步瞭解SMS傳送報告量度。
++++進一步瞭解SMS傳送報告度量。
 
 * **[!UICONTROL 成功]**：已成功處理的訊息數目和百分比率。
 
