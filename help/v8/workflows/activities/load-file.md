@@ -3,9 +3,9 @@ audience: end-user
 title: 使用載入檔案工作流程活動
 description: 瞭解如何使用載入檔案工作流程活動
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1264'
 ht-degree: 30%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 30%
 **載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動來處理儲存在外部檔案中的設定檔和資料。 設定檔和資料未新增至資料庫，但輸入檔案中的所有欄位都可用於[個人化](../../personalization/gs-personalization.md)，或更新設定檔或任何其他表格。
 
 >[!NOTE]
->支援的檔案格式包括：文字 (TXT) 和逗號分隔值 (CSV)。您可以載入大小上限為50MB的檔案。
+>支援的檔案格式包括：文字 (TXT) 和逗號分隔值 (CSV)。使用Web使用者介面控制檯，您可以載入大小上限為50MB的檔案。 在使用者端主控台中，資料載入活動具有150MB的限制。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 此活動可與[調解](reconciliation.md)活動搭配使用，以將未識別的資料連結至現有資源。 例如，如果您將非標準資料匯入資料庫中，**載入檔案**&#x200B;活動可以放在&#x200B;**調解**&#x200B;活動之前。
 
