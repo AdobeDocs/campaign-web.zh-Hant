@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: 開始使用 AI 助理
+title: 開始使用AI助理
 description: 開始使用AI助理
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 8%
+source-wordcount: '732'
+ht-degree: 6%
 
 ---
 
-# 使用 AI 助理 {#generative-gs}
+# 使用AI助理 {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="AI 助理"
->abstract="精心打造並個人化您的傳遞內容後，請使用AI助理增強您的內容。 此功能可讓您描述要產生的內容，以微調內容，進而簡化個人化和內容改善。"
+>abstract="精心打造並個人化您的傳遞內容後，請使用AI Assistant增強您的內容。 此功能可讓您描述要產生的內容，以微調內容，進而簡化個人化和內容改善。"
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
@@ -40,11 +40,11 @@ AI Assistant可簡化跨管道（例如電子郵件、簡訊和推播通知）�
 >
 >* 使用此功能之前，請先檢閱相關的[護欄和限制](#generative-guardrails)。
 >
->* 您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Adobe Campaign網頁中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>* 您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Adobe Campaign Web中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 ## 存取AI助理 {#generative-access}
 
-適用於電子郵件、推播通知和簡訊的AI助理現在為「一般可用性(GA)」，可供所有使用者使用。 授予使用者存取權的必要許可權和步驟詳述如下。
+電子郵件、推播通知和簡訊的AI助理現在已全面推出(GA)，可供所有使用者使用。 授予使用者存取權的必要許可權和步驟詳述如下。
 
 +++ 瞭解如何指派內容產生相關許可權
 
@@ -103,7 +103,7 @@ AI Assistant可簡化跨管道（例如電子郵件、簡訊和推播通知）�
 <img alt="[使用AI助理產生推播通知]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-使用AI助理產生<a href="generative-push.md"><strong>推播通知</strong></a>
+<a href="generative-push.md"><strong>使用AI助理產生推播通知</strong></a>
 </div>
 <p></td>
 </tr></table>

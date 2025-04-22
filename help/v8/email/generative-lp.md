@@ -3,19 +3,19 @@ audience: end-user
 title: 具有AI助理的登陸頁面
 description: 開始使用AI助理
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 3%
+source-wordcount: '1494'
+ht-degree: 1%
 
 ---
 
-# 使用 AI 助理產生登陸頁面{#generative-lp}
+# 使用AI助理產生登陸頁面{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="使用 AI 產生登陸頁面"
->abstract="您現在可以使用 AI 助理來建立要傳遞的登陸頁面，讓您能夠產生文字、影像或完整的網頁版面。"
+>abstract="您現在可以使用AI Assistant建立您的登入頁面傳送，讓您產生文字、影像或完整頁面配置。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 >[!IMPORTANT]
@@ -25,11 +25,11 @@ ht-degree: 3%
 >
 >您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Adobe Campaign網頁中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-使用由創作AI提供支援的Adobe Campaign Web中的AI助理來轉換您的登陸頁面。
+使用Adobe Campaign Web中的AI助理來轉換您的登入頁面，該助理由創作AI提供技術支援。
 
 輕鬆建立具影響力的內容，包括完整頁面、量身打造的文字片段，以及可引起觀眾共鳴的自訂視覺效果，進而促進參與度和互動。
 
-探索以下標籤，瞭解如何使用Adobe Campaign網路中的AI小幫手。
+探索以下標籤，瞭解如何在Adobe Campaign網頁中使用AI助理。
 
 >[!BEGINTABS]
 
@@ -56,7 +56,7 @@ ht-degree: 3%
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
-   * **[!UICONTROL 膚色]**：登陸頁面的膚色應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力， AI Assistant都能據以調整訊息。
+   * **[!UICONTROL 膚色]**：登陸頁面的膚色應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
 
    ![熒幕擷圖顯示文字設定選項。](assets/lp_full_gen_3.png){zoomable="yes"}
 
@@ -70,7 +70,7 @@ ht-degree: 3%
 
    ![顯示影像設定選項的熒幕擷圖。](assets/lp_full_gen_4.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何為AI助理提供額外內容的品牌資產，或選取先前上傳的品牌資產。
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**&#x200B;以新增任何為AI助理提供額外內容的品牌資產，或選取先前上傳的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 切換您要納入產生程式的資產。
 
@@ -82,7 +82,7 @@ ht-degree: 3%
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
-   * **[!UICONTROL 重述]**： AI助理可以不同的方式重述您的訊息，讓您的寫作保持新鮮，並吸引不同受眾。
+   * **[!UICONTROL 重述]**： AI Assistant可以不同的方式重述您的訊息，讓您的寫作保持新鮮，並吸引不同受眾。
    * **[!UICONTROL 使用較簡單的語言]**：簡化您的語言，確保更廣大的受眾能夠清楚無誤地使用。
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
@@ -118,12 +118,12 @@ ht-degree: 3%
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
-   * **[!UICONTROL 膚色]**：登陸頁面的膚色應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力， AI Assistant都能據以調整訊息。
+   * **[!UICONTROL 膚色]**：登陸頁面的膚色應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
    * **文字長度**：使用滑桿來選取所要的文字長度。
 
    ![熒幕擷圖顯示文字設定選項。](assets/lp-text-genai-3.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何為AI助理提供額外內容的品牌資產，或選取先前上傳的品牌資產。
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**&#x200B;以新增任何為AI助理提供額外內容的品牌資產，或選取先前上傳的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 切換您要納入產生程式的資產。
 
@@ -184,7 +184,7 @@ ht-degree: 3%
 
    ![顯示影像設定選項的熒幕擷圖。](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何為AI助理提供額外內容的品牌資產，或選取先前上傳的品牌資產。
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**&#x200B;以新增任何為AI助理提供額外內容的品牌資產，或選取先前上傳的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 切換您要納入產生程式的資產。
 
