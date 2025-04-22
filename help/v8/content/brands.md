@@ -6,9 +6,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '508'
 ht-degree: 2%
 
 ---
@@ -104,6 +104,6 @@ ht-degree: 2%
 
    品牌儀表板中的![進階功能表選項](assets/brands_5.png)
 
-您現在可以從AI助理功能表的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉式清單存取品牌指南。 這可讓AI助理產生符合您規格的內容和資產。 [進一步瞭解AI助理](../email/generative-gs.md)
+您現在可以從AI助理功能表的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉式清單存取品牌指南。 這可讓AI助理產生符合您規格的內容和資產。 [進一步瞭解AI小幫手](../email/generative-gs.md)
 
 ![AI助理功能表與品牌下拉式清單](assets/brands_6.png)

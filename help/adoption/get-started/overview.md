@@ -4,9 +4,9 @@ description: 瞭解開始使用新的Campaign v8應用程式所需的步驟
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1555'
 ht-degree: 29%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 29%
 
   Adobe Experience Manager as a Cloud Service提供雲端原生的敏捷性，可讓您加速實現價值的時間，並適應不斷變化的業務需求。 此整合不僅可增強您的內容管理功能，也可讓您透過所有接觸點，將更個人化且吸引人的體驗提供給您的客戶。
 
-* **AI小幫手**
+* **AI 助理**
 
   Campaign AI Assistant可以讓您在電子郵件、簡訊和推播等管道直觀地建立和執行行銷活動，既簡單又輕鬆，同時還能節省時間、提高效率並帶來更好的結果。
 
@@ -126,7 +126,7 @@ Adobe Campaign v8 可作為 Managed Cloud Services，提供主動預防性監督
 
 ## v8新增Campaign Standard功能 {#ac-v8-added}
 
-為了讓您順利轉換到 Campaign v8，Campaign v8 中新增了關鍵的 Campaign Standard 功能。[本文件](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}對此進行了詳細說明。
+為了讓您順利轉換到 Campaign v8，Campaign Standard 的主要功能已新增至 Campaign v8 中。在[此檔案](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}中有詳細說明。
 
 * **動態報告**：動態報告提供完全可自訂的即時報告來測量行銷活動的影響。此功能新增對輪廓資料的存取，除了開啟和點選這類功能性電子郵件行銷活動資料外，還可以按性別、城市和年齡等輪廓維度進行人口統計分析。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}。
 

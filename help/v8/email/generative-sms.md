@@ -3,23 +3,23 @@ audience: end-user
 title: 含AI助理的簡訊
 description: 開始使用AI助理
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
 
-# 使用 AI 助理產生簡訊 {#generative-sms}
+# 使用AI助理產生簡訊 {#generative-sms}
 
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Adobe Campaign網頁中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Adobe Campaign Web中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-一旦您製作並個人化SMS訊息以符合您的受眾，利用創新的AI技術，在Adobe Campaign Web中使用AI助理提升您的通訊品質。
+一旦您製作並個人化SMS訊息以符合您的受眾，利用Adobe Campaign Web中的AI助手（由創新的AI技術提供技術支援）提升您的通訊品質。
 
 此工具提供智慧型建議，可精簡您的內容，確保您的訊息能有效地引起共鳴，並最大化參與度。
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
-   * **[!UICONTROL 語調]**：確定您的電子郵件語調可與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力， AI Assistant都會據以調整訊息。
+   * **[!UICONTROL 語調]**：確定您的電子郵件語調可與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力的聲音，AI Assistant都會據以調整訊息。
    * **文字長度**：使用滑桿來選取所要的文字長度。
 
    ![熒幕擷圖顯示文字設定選項](assets/sms-genai-3.png){zoomable="yes"}
@@ -125,8 +125,8 @@ ht-degree: 2%
 1. 瀏覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能並微調您的偏好設定變化：
 
    * **[!UICONTROL 使用作為參考內容]**：選擇的變體作為參考內容以產生其他結果。
-   * **[!UICONTROL 重述]**： AI助理可以不同的方式重述您的訊息，讓您的寫作保持新鮮，並吸引不同受眾。
-   * **[!UICONTROL 使用較簡單的語言]**：利用AI助理簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
+   * **[!UICONTROL 重述]**： AI Assistant可以不同的方式重述您的訊息，讓您的寫作保持新鮮，並吸引不同受眾。
+   * **[!UICONTROL 使用較簡單的語言]**：利用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰易懂的語言。
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 

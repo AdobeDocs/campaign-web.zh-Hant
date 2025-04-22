@@ -3,25 +3,25 @@ audience: end-user
 title: 使用AI助理的推播通知
 description: 開始使用AI助理
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 3%
+source-wordcount: '548'
+ht-degree: 2%
 
 ---
 
-# 使用 AI 助理產生推播 {#generative-push}
+# 使用AI助理產生推播通知 {#generative-push}
 
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Adobe Campaign網頁中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Adobe Campaign Web中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-AI Assistant可建議與您的對象產生共鳴的不同內容，有助於最佳化傳送的影響。
+AI Assistant可建議與您的對象產生共鳴的不同內容，以協助最佳化傳送的影響。
 
-在以下範例中，AI Assistant用於製作吸引人的訊息，以打造更吸引人的客戶體驗。
+在下列範例中，AI Assistant用來製作吸引人的訊息，以打造更吸引人的客戶體驗。
 
 1. 建立及設定推播通知傳遞之後，請按一下[編輯內容]。****
 
@@ -44,7 +44,7 @@ AI Assistant可建議與您的對象產生共鳴的不同內容，有助於最�
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
-   * **[!UICONTROL 音調]**：調整您的電子郵件音調，與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力， AI Assistant都會據以調整訊息。
+   * **[!UICONTROL 音調]**：調整您的電子郵件音調，與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力的聲音，AI Assistant都會據以調整訊息。
 
    ![熒幕擷圖顯示文字設定選項](assets/push-genai-3.png){zoomable="yes"}
 

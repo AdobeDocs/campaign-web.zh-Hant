@@ -2,9 +2,9 @@
 title: AI 助理使用案例
 description: 透過使用案例瞭解如何使用AI Assistant
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
@@ -53,11 +53,11 @@ ht-degree: 1%
 
    * **[!UICONTROL 精心設計]**：讓AI助理在特定點上擴展，提供更深入和細節的資訊，以提升參與度。
 
-   * **[!UICONTROL 摘要]**：如需冗長的資訊，請使用AI助理建立簡短的摘要，讓電子郵件收件者更容易摘要。
+   * **[!UICONTROL 摘要]**：如需冗長的資訊，請使用AI助理建立簡短的摘要，讓電子郵件收件者更容易理解。
 
    * **[!UICONTROL 重述]**： AI助理可以不同的方式呈現您的訊息，協助讓各種對象保持內容新鮮。
 
-   * **[!UICONTROL 使用較簡單的語言]**：使用AI助理簡化語言，以確保訊息清晰且所有讀者都能存取。
+   * **[!UICONTROL 使用較簡單的語言]**：使用AI Assistant簡化語言，以確保訊息清晰且所有讀者都能存取。
 
    此外，請調整內容的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 

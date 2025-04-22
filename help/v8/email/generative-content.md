@@ -3,27 +3,27 @@ audience: end-user
 title: 產生式內容
 description: 開始使用AI助理
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1525'
 ht-degree: 1%
 
 ---
 
-# 使用 AI 助理產生電子郵件 {#generative-content}
+# 使用AI助理產生電子郵件 {#generative-content}
 
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Campaign網頁中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Campaign Web中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 當您建立並個人化您的電子郵件後，請使用Adobe Campaign網路中的AI助理來增強您的內容。
 
-Adobe Campaign Web中的AI助理可以產生整封電子郵件、鎖定目標的文字內容和影像，以引起觀眾的共鳴，協助最佳化傳送的影響。 這可改善您的電子郵件行銷活動，以提升參與度。
+Adobe Campaign Web中的AI助理可以產生整封電子郵件、鎖定目標的文字內容，以及量身打造的影像，引起觀眾的共鳴，協助您最佳化傳送的影響。 這可改善您的電子郵件行銷活動，以提升參與度。
 
-在您的電子郵件行銷活動中，使用AI助理產生完整的電子郵件、文字或影像。 探索以下標籤，瞭解如何使用Adobe Campaign網路中的AI小幫手。
+在您的電子郵件行銷活動中，使用AI助理產生完整的電子郵件、文字或影像。 探索以下標籤，瞭解如何在Adobe Campaign網頁中使用AI助理。
 
 >[!BEGINTABS]
 
@@ -52,7 +52,7 @@ Adobe Campaign Web中的AI助理可以產生整封電子郵件、鎖定目標的
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
-   * **[!UICONTROL 語調]**：確定您的電子郵件語調可與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力， AI Assistant都會據以調整訊息。
+   * **[!UICONTROL 語調]**：確定您的電子郵件語調可與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力的聲音，AI Assistant都會據以調整訊息。
 
    ![熒幕擷圖顯示Adobe Campaign Web中的文字設定選項](assets/full-email-3.png){zoomable="yes"}
 
@@ -66,7 +66,7 @@ Adobe Campaign Web中的AI助理可以產生整封電子郵件、鎖定目標的
 
    ![顯示Adobe Campaign Web影像設定選項的熒幕擷圖](assets/full-email-4.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何為AI助理提供額外內容的品牌資產，或選取先前上傳的品牌資產。
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**&#x200B;以新增任何為AI助理提供額外內容的品牌資產，或選取先前上傳的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 切換您要納入產生程式的資產。
 
@@ -76,7 +76,7 @@ Adobe Campaign Web中的AI助理可以產生整封電子郵件、鎖定目標的
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
-   * **[!UICONTROL 重述]**： AI Assistant會以不同的方式重述您的訊息，讓您的寫作保持新鮮，並吸引不同受眾。
+   * **[!UICONTROL 重述]**： AI Assistant會以不同方式重述您的訊息，讓您撰寫內容保持新鮮，並吸引不同受眾。
    * **[!UICONTROL 使用較簡單的語言]**：簡化您的語言，確保更廣大的受眾能夠清楚無誤地使用。
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
@@ -114,12 +114,12 @@ Adobe Campaign Web中的AI助理可以產生整封電子郵件、鎖定目標的
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
-   * **[!UICONTROL 語調]**：確定您的電子郵件語調可與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力， AI Assistant都會據以調整訊息。
+   * **[!UICONTROL 語調]**：確定您的電子郵件語調可與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力的聲音，AI Assistant都會據以調整訊息。
    * **文字長度**：使用滑桿來選取所要的文字長度。
 
    ![熒幕擷圖顯示Adobe Campaign Web中的文字設定選項](assets/text-genai-3.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何為AI助理提供額外內容的品牌資產，或選取先前上傳的品牌資產。
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**&#x200B;以新增任何為AI助理提供額外內容的品牌資產，或選取先前上傳的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 切換您要納入產生程式的資產。
 
@@ -180,7 +180,7 @@ Adobe Campaign Web中的AI助理可以產生整封電子郵件、鎖定目標的
 
    ![顯示Adobe Campaign Web影像設定選項的熒幕擷圖](assets/image-genai-3.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何為AI助理提供額外內容的品牌資產，或選取先前上傳的品牌資產。
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**&#x200B;以新增任何為AI助理提供額外內容的品牌資產，或選取先前上傳的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 切換您要納入產生程式的資產。
 

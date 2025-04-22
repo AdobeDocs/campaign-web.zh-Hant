@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面先前發行說明
 description: 2024 Campaign Web 使用者介面版本
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 100%
+source-wordcount: '2501'
+ht-degree: 99%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>在精心製作並自訂您的訊息後，請利用 Adobe Campaign Web 的 AI 助理，將訊息提升到新的水準。這款強大的工具可讓您產生一系列引人入勝的文字、主要標題和吸引人的視覺影像，以最佳化內容的影響力。</p>
+<p>完成訊息的製作與量身打造後，請使用Adobe Campaign網路中的AI助理將其提升到新的境界。 這款強大的工具可讓您產生一系列引人入勝的文字、主要標題和吸引人的視覺影像，以最佳化內容的影響力。</p>
 <p>透過<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../email/generative-gs.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -156,7 +156,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->此功能需要更新到 Campaign v8.6.3 <!--or v8.7.2-->。如需詳細資訊，請參閱 Campaign v8 用戶端控制台[發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
+>此功能需要更新到 Campaign v8.6.3 <!--or v8.7.2-->。若要了解更多資訊，請參閱 Campaign v8 用戶端主控台[發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
 
 ### 改良功能 {#improvements-24-7}
 
@@ -272,7 +272,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->此版本適用於從 [Campaign (控制台) v8.6 發行版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-hant)開始的所有使用者。 請參閱 [Campaign v8 (控制台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hant){target="_blank"}，了解更多有關 Adobe Campaign 客戶端控制台發行版本和升級。
+>此版本適用於從 [Campaign (主控台) v8.6 發行版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-hant)開始的所有使用者。若要了解更多關於 Adobe Campaign 用戶端主控台發行版本和升級的內容，請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hant){target="_blank"}。
 
 **發行日期**：2024 年 3 月 19-20 日
 
