@@ -4,7 +4,7 @@ title: 探索介面
 description: Adobe Campaign Web 使用者介面
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1548'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Campaign 首頁讓您能夠快速輕鬆地瀏覽關鍵資源、指標和元件�
 
 ![顯示具有功能卡片和導覽選項之首頁的螢幕擷圖](assets/home.png){zoomable="yes"}
 
-**關鍵績效指標**&#x200B;區段讓您能夠使用常見的 KPI 值來確認平台的服務效率。在[此頁面](../reporting/kpis.md)中了解更多關於這些 KPI 的資訊。
+**關鍵效能指標**&#x200B;區段讓您能夠使用常見的 KPI 值來確認平台的服務效率。在[此頁面](../reporting/kpis.md)中了解更多關於這些 KPI 的資訊。
 
 **最近項目**&#x200B;清單是前往最近建立和修改的傳遞之捷徑。此清單會顯示其管道、狀態、所有者、建立與修改日期。按一下「**顯示更多**」連結，載入其他傳遞。
 
@@ -146,7 +146,7 @@ Campaign 首頁讓您能夠快速輕鬆地瀏覽關鍵資源、指標和元件�
 
 ### 報告 {#left-nav-reporting}
 
-* **報告** - 此&#x200B;**報告**&#x200B;項目提供 Campaign 環境中每個管道的流量和參與量度的綜合整體摘要。這些報告是由各種小工具所組成，每個小工具都提供有關您的行銷活動或傳遞績效的獨特觀點。若要了解詳細資訊，請參閱[本章節](../reporting/global-reports.md)。
+* **報告** - 此&#x200B;**報告**&#x200B;項目提供 Campaign 環境中每個管道的流量和參與量度的綜合整體摘要。這些報告是由各種小工具所組成，每個小工具都提供有關您的行銷活動或傳遞效能的獨特觀點。若要了解詳細資訊，請參閱[本章節](../reporting/global-reports.md)。
 
 ### 管理 {#left-nav-admin}
 

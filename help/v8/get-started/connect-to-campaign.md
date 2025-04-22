@@ -3,7 +3,7 @@ title: 連線至 Adobe Campaign Web 介面
 description: 了解如何連線至 Adobe Campaign Web 使用者介面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
 ht-degree: 100%
 
