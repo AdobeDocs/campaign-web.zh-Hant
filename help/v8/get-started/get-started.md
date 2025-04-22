@@ -6,7 +6,7 @@ exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
@@ -27,25 +27,25 @@ ht-degree: 28%
 >title="開始使用"
 >abstract="新的 Adobe Campaign Web 介面提供了整合、直覺和一致性的使用者體驗。"
 
-Adobe Campaign為跨頻道客戶體驗設計提供平台，並為視覺行銷活動的策劃、即時互動管理和跨頻道執行提供環境。
+Adobe Campaign 提供跨管道客戶體驗設計的平台，也提供進行視覺化行銷活動協調、Real-time Interaction Management 以及 Cross-channel Execution 的環境。
 
-Adobe Campaign v8是新一代的行銷活動工具，專為各種行銷管道而建置，例如電子郵件、推播通知、簡訊和直接郵件。 它提供強大的 ETL 和資料管理功能，有助於製作和策畫完美的促銷活動。 其協調引擎可啟用豐富的多點觸控行銷方案，其核心是批次驅動歷程。 它還包含可擴充的即時傳訊伺服器，可讓行銷團隊根據來自任何IT系統的完整裝載，傳送預先定義的訊息以進行通訊，例如密碼重設、訂單確認、電子收據等等。
+Adobe Campaign v8 是專為電子郵件、推播、簡訊和直接郵件等各種行銷管道打造的新一代行銷活動工具。其提供強大的 ETL 和資料管理功能，協助製作和策畫完美的行銷活動。其協調流程引擎能落實豐富的多點接觸行銷方案，並以批次主導的歷程為重點。此工具還包括可擴充的即時傳送訊息伺服器，讓行銷團隊能夠根據來自任何 IT 系統的全面性承載傳送預先定義的訊息，進行如密碼重設、訂單確認、電子收據等通訊。
 
 使用 Campaign 可以：
 
-* **透過單一可存取的客戶檢視，推動**&#x200B;個人化和參與。
-* **將**&#x200B;電子郵件、行動裝置、線上和離線管道整合至客戶歷程。
-* **自動化**&#x200B;傳送有意義的即時訊息和優惠方案。
+* 透過單一可存取的客戶視圖，**推動**&#x200B;個人化和參與度。
+* 將電子郵件、行動裝置、線上和離線管道&#x200B;**整合**&#x200B;至客戶歷程中。
+* 將有意義之即時訊息和優惠方案的傳遞&#x200B;**自動化**。
 
 ## 探索 Campaign Web 使用者介面 {#web}
 
-Campaign最初只能透過豐富的[使用者端主控台](#ac-client)使用，現在提供全新的Web使用者介面(UI)，具備增強的可用性、協助工具，以及大幅改善使用者體驗的新設計。 這個現代化的UI可簡化行銷活動的設計和傳遞，並與其他Adobe解決方案(包括Adobe Experience Platform)保持一致。
+最初只能透過擁有豐富功能的[用戶端主控台](#ac-client)使用的 Campaign，現在提供新的 Web 使用者介面 (UI)，易用性和可及性更高，而且採用全新設計，能大幅提升使用者體驗。這個現代的使用者介面簡化行銷活動的設計和傳遞過程，並與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 介面保持一致性。
 
-![Adobe Campaign Web使用者介面首頁熒幕擷圖](assets/home.png){zoomable="yes"}
+![顯示 Adobe Campaign Web 使用者介面首頁畫面的螢幕擷圖](assets/home.png){zoomable="yes"}
 
-這個新的Web使用者介面主要滿足&#x200B;**商務從業者**&#x200B;的需求。 一般的管理工作在此初始版本中無法使用，但將在後續版本中解決。 請注意，並非使用者端主控台中可用的所有功能或選專案前都可在新UI中存取。 未來版本將推出新的使用案例、選項和功能。
+這個新的 Web 使用者介面主要是為了滿足&#x200B;**商務從業人員**&#x200B;的需求。在此初始版本中無法進行一般的管理工作，但在後續版本中會解決這個問題。請注意，用戶端主控台中可使用的功能或選項，目前並非每項皆可在新的使用者介面中存取。新的使用案例、選項和功能將在未來的版本中引入。
 
-作為管理員或專家使用者，如果您需要存取Campaign Web使用者介面中未提供的Campaign v8功能，請連線至[使用者端主控台](#ac-client)。
+做為管理員或專家使用者，如果您需要存取未在 Campaign Web 使用者介面中提供的 Campaign v8 功能，請連線至[用戶端主控台](#ac-client)。
 
 在[此頁面](connect-to-campaign.md)中了解如何連線至 Adobe Campaign Web。
 
@@ -53,13 +53,13 @@ Campaign最初只能透過豐富的[使用者端主控台](#ac-client)使用，�
 
 ## 關於 Campaign 用戶端主控台 {#ac-client}
 
-此用戶端主控台是專為管理員和進階使用者所設計，用於執行其任務。Campaign使用者端主控台是安裝在您系統上的瀏覽器型應用程式。 它使用 Web 服務 API 連接到您的 Campaign 應用程式伺服器。
+此用戶端主控台是專為管理員和進階使用者所設計，用於執行其任務。Campaign 用戶端主控台是安裝在您的系統上並以瀏覽器為基礎的應用程式。其使用 Web 服務 API 連接至您的 Campaign 應用程式伺服器。
 
-Campaign 資料儲存在應用程式伺服器中。可從使用者端主控台和Campaign Web使用者介面存取資料。 例如，如果您使用使用者端主控台建立傳遞範本，Campaign Web使用者介面中也可使用該範本。 同樣地，如果您在Campaign Web使用者介面中建立電子郵件傳送，則可透過使用者端主控台存取此傳送。
+Campaign 資料儲存在應用程式伺服器中。從用戶端主控台以及 Campaign Web 使用者介面皆可存取資料。例如，若您使用用戶端主控台建立傳遞範本，則該範本也可以在 Campaign Web 使用者介面中使用。同樣地，若您在 Campaign Web 使用者介面中建立電子郵件傳遞，也可以從用戶端主控台存取此傳遞。
 
-某些物件只能在用戶端主控台中建立和管理。這些物件可以在Campaign Web使用者介面中看到和使用，但無法從此環境建立或修改它們。 所有Campaign物件和元件都可從瀏覽器檢視取得，並可從左側導覽存取。
+某些物件只能在用戶端主控台中建立和管理。您可以在 Campaign Web 使用者介面中看到並使用這些物件，但不能在這個環境中建立或修改物件。所有的 Campaign 物件和元件都能透過探索工具使用，並且從左側導覽存取。
 
-如需如何搭配使用者端主控台使用Campaign v8的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"}。
+如需關於如何透過其用戶端主控台使用 Campaign v8 的詳細資訊，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant){target="_blank"}。
 
 <!--
 ## How-to video {#video}
