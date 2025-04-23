@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web 使用者介面/用戶端主控台功能比較表
 description: Campaign Web 使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '2102'
+source-git-commit: 031d157feb122283c0b9bec24fb3ffafc3e63297
+workflow-type: tm+mt
+source-wordcount: '2072'
 ht-degree: 100%
 
 ---
@@ -30,10 +30,10 @@ Campaign 平台依據企業和資料需求所自訂的內容，以及與其他�
 
 * **行銷行事曆**。行銷活動行事曆會以全域時間軸顯示所有方案、計劃、行銷活動與傳遞。此功能僅適用於用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=zh-Hant#campaign-calendar){target="_blank"}
 * **方案與計劃**。每個行銷活動都屬於某項方案，而該方案則隸屬於某個計劃。在 Campaign Web 使用者介面中，所有行銷活動都會和預設的內建計劃及方案相關聯。您僅能透過用戶端主控台建立和管理計劃及方案。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=zh-Hant#work-with-plan-and-program){target="_blank"}
-* **提供者、預算與成本管理**。您可針對行銷活動內所執行的工作設定參與的服務提供者 (包括成本結構)，並管理每個方案與行銷活動內的預算。 此功能僅適用用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=zh-Hant){target="_blank"}
+* **提供者、預算與成本管理**。您可針對行銷活動內所執行的工作設定參與的服務提供者 (包括成本結構)，並管理每個方案與行銷活動內的預算。 此功能僅適用於用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=zh-Hant){target="_blank"}
 * **分散式行銷** (中央/地方行銷)。Adobe Campaign 提供分散式行銷應用程式，可以讓中央實體 (總公司、行銷部門等) 和地方實體 (銷售點、地區代理商等) 合作實施行銷活動。此功能僅適用於用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hant){target="_blank"}
 * **行銷資源管理** (MRM)、目標、模擬及成本控制。Adobe Campaign 提供行銷資源管理 (MRM) 應用程式，對於相關的任務、預算及行銷資源可進行完整的管理與即時追蹤，讓您透過合作模式控制行銷動作。此功能僅適用於用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=zh-Hant){target="_blank"}
-* **任務管理**。在 MRM 應用程式中，可以從行銷活動控制面板建立、指派、追蹤及監控行銷活動工作。此功能僅適用用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=zh-Hant){target="_blank"}
+* **任務管理**。在 MRM 應用程式中，可以從行銷活動控制面板建立、指派、追蹤及監控行銷活動工作。此功能僅適用於用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=zh-Hant){target="_blank"}
 
 ## 通訊管道 {#channels-capabilities}
 
@@ -103,12 +103,18 @@ Adobe Campaign Web 使用者介面隨附全新的電子郵件設計工具，可�
 
 使用提供的連結來瀏覽 Campaign v8 (用戶端主控台) 文件，並深入了解類型規則：
 
-* 建立控制規則。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=zh-Hant){target="_blank"}
+<!--
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+-->
 * 建立疲勞/壓力規則。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant){target="_blank"}
-* 建立篩選規則。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=zh-Hant){target="_blank"}
-* 管理類型規則。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=zh-Hant){target="_blank"}
+<!--
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
+-->
 * 模擬行銷活動。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=zh-Hant){target="_blank"}
-* 編寫製作類型規則的 JavaScript 程式碼。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant#use-cases-on-pressure-rules){target="_blank"}
+<!--
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
+-->
 
 ## 工作流程 {#wf-capabilities}
 
@@ -116,7 +122,10 @@ Adobe Campaign Web 使用者介面隨附全新的電子郵件設計工具，可�
 
 請注意，下列功能僅可在 Campaign 用戶端主控台中使用：
 
-* 工作流程中的指令碼編寫
+<!--
+* Scripting in workflows
+-->
+
 * ETL 活動：匯出、編輯結構描述、資料載入、資料擷取、SQL 程式碼
 
 閱讀[此處](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=zh-Hant){target="_blank"}的 Adobe Campaign v8 (主控台) 工作流程文件，了解更多關於可使用的工作流程活動。
