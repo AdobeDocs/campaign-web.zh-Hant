@@ -6,7 +6,7 @@ exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 8%
+ht-degree: 19%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="摘取檔案內容"
->abstract="按一下&#x200B;**編輯內容**&#x200B;按鈕開始設計直接郵件提供者要求的摘取檔案。這可讓您定義檔案屬性（例如其標籤和格式），並指定要包含在檔案中的欄。"
+>abstract="按一下&#x200B;**編輯內容**&#x200B;按鈕開始設計直接郵件提供者要求的摘取檔案。這樣，您便可以定義檔案屬性 (例如標籤和格式)，並指定要包含在檔案中的欄位。"
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
 >title="檔案屬性"
->abstract="設定解壓縮檔案的屬性，例如名稱和格式。 您可以使用運算式編輯器，使用資料庫中的屬性來個人化檔案名稱。"
+>abstract="設定摘取檔案的屬性，例如名稱和格式。您可以透過運算式編輯器，運用資料庫中的屬性來個人化檔案名稱。"
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="內容"
->abstract="在此區段中，指定要在摘取檔案中顯示的欄。完成後，您可以使用&#x200B;**模擬內容**&#x200B;按鈕預覽解壓縮檔案。"
+>abstract="在此區段中，指定要在摘取檔案中顯示的欄。完成後，您可以使用「**模擬內容**」按鈕來預覽摘取檔案。"
 
 若要設計直接郵件傳遞所產生之擷取檔案的內容，請從傳遞頁面按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，然後設定檔案屬性和內容。
 

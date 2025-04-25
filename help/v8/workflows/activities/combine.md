@@ -6,7 +6,7 @@ exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 32%
+ht-degree: 61%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="組合活動"
->abstract="「**組合**」活動可讓您對傳入群體執行分段。您可以合併多個母體、排除部分母體，或僅保留數個目標通用的資料。"
+>abstract="「**組合**」活動可讓您對傳入群體執行分段。您可以組合數個群體、排除其中一部分，或僅保留幾個目標通用的資料。"
 
 **合併**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動。 此活動則可讓您對傳入群體執行分段。您可以合併多個母體、排除部分母體，或僅保留數個目標通用的資料。 以下是可用的分段類型：
 
@@ -25,24 +25,24 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 * **聯合**&#x200B;會將多個活動的結果重新分組到單一目標中。
 * **交集**&#x200B;只保留活動中不同入站母體的共同元素。
-* **排除專案**&#x200B;會根據特定條件從一個母體中排除元素。
+* **排除**&#x200B;功能會根據特定條件排除一個群體中的元素。
 
 ## 設定合併活動 {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
 >title="交集合併選項"
->abstract="交集只會保留活動中不同入站母體的共同元素。 在「要加入的集合」區段中，勾選所有先前要加入的活動。"
+>abstract="交集僅會保留活動中不同傳入群體通用的元素。在「要加入的集合」區段中，勾選您之前想要加入的所有活動。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_merging_options"
 >title="排除合併選項"
->abstract="此排除專案會根據特定條件從一個母體中排除元素。 在「要加入的集合」區段中，勾選所有先前要加入的活動。"
+>abstract="排除功能會根據特定條件排除一個群體中的元素。在「要加入的集合」區段中，勾選您之前想要加入的所有活動。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="選取分段類型"
->abstract="選取如何結合對象。**聯合**&#x200B;會將多個活動的結果重新分組到單一目標中。 **交集**&#x200B;只保留活動中不同入站母體的共同元素。 **排除專案**&#x200B;會根據特定條件從一個母體中排除元素。"
+>abstract="選取如何結合對象。**聯合**&#x200B;功能可以將多個活動的結果重新組合成單一目標。**交集**&#x200B;僅會保留活動中不同傳入群體通用的元素。**排除**&#x200B;功能會根據特定條件排除一個群體中的元素。"
 
 請依照下列一般步驟設定&#x200B;**合併**&#x200B;活動：
 
@@ -59,7 +59,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="調和選項"
->abstract="選取「**調和類型**」，以定義處理重複項目的方式。根據預設，**索引鍵**&#x200B;選項已啟用，這表示當來自不同入站轉變的元素具有相同索引鍵時，活動只會保留一個元素。 使用「**欄的選取範圍**」選項來定義已套用資料調和的欄清單。"
+>abstract="選取「**調和類型**」，以定義處理重複項目的方式。**索引鍵**&#x200B;選項預設為啟用，表示當來自不同傳入轉變的元素具有相同的索引鍵時，活動僅保留一個元素。使用「**欄的選取範圍**」選項來定義已套用資料調和的欄清單。"
 
 在&#x200B;**組合**&#x200B;活動中，選取&#x200B;**調解型別**&#x200B;來設定&#x200B;**聯合**&#x200B;以定義如何處理重複專案：
 
@@ -71,7 +71,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="交集調和選項"
->abstract="選取「**調和類型**」，以定義處理重複項目的方式。根據預設，**索引鍵**&#x200B;選項已啟用，這表示當來自不同入站轉變的元素具有相同索引鍵時，活動只會保留一個元素。 使用「**欄的選取範圍**」選項來定義已套用資料調和的欄清單。"
+>abstract="選取「**調和類型**」，以定義處理重複項目的方式。**索引鍵**&#x200B;選項預設為啟用，表示當來自不同傳入轉變的元素具有相同的索引鍵時，活動僅保留一個元素。使用「**欄的選取範圍**」選項來定義已套用資料調和的欄清單。"
 
 在&#x200B;**合併**&#x200B;活動中，請依照下列額外步驟設定&#x200B;**交集**：
 
@@ -83,7 +83,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
 >title="排除規則"
->abstract="必要時，處理傳入表格。 若要從其他維度排除目標，請將此目標傳回至與主要目標相同的目標維度。 按一下「排除規則」區段中的「新增規則」 ，並指定維度變更條件。 資料調節會透過屬性或加入執行。"
+>abstract="如有必要，請操控傳入表格。若要排除另一個維度的目標，將此目標傳回與主要目標相同的目標選擇維度。按一下「排除規則」區段中的「新增規則」，並指定維度變更條件。資料調節會透過屬性或加入執行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_sets"
@@ -93,7 +93,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
 >title="排除規則"
->abstract="必要時，處理傳入表格。 若要從其他維度排除目標，請將此目標傳回至與主要目標相同的目標維度。 按一下「排除規則」區段中的「新增規則」 ，並指定維度變更條件。 資料調節會透過屬性或加入執行。"
+>abstract="如有必要，請操控傳入表格。若要排除另一個維度的目標，將此目標傳回與主要目標相同的目標選擇維度。按一下「排除規則」區段中的「新增規則」，並指定維度變更條件。資料調節會透過屬性或加入執行。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
@@ -103,7 +103,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 在&#x200B;**合併**&#x200B;活動中，依照下列額外步驟設定&#x200B;**排除專案**：
 
 1. 在「**要加入的集合**」一節中，從傳入轉變中選取「**主要集合**」。這是從中排除元素的集。其他集會先設定相符的元素，然後才會從主要集予以排除。
-1. 必要時，處理傳入表格。 若要從其他維度排除目標，請將此目標傳回至與主要目標相同的目標維度。 按一下&#x200B;**排除規則**&#x200B;區段中的&#x200B;**新增規則**&#x200B;並指定維度變更條件。 資料調節會透過屬性或加入執行。
+1. 如有必要，請操控傳入表格。若要排除另一個維度的目標，將此目標傳回與主要目標相同的目標選擇維度。按一下&#x200B;**排除規則**&#x200B;區段中的&#x200B;**新增規則**&#x200B;並指定維度變更條件。 資料調節會透過屬性或加入執行。
 1. 如果要處理剩餘母體，請核取&#x200B;**產生補充**&#x200B;選項。 請參閱[交集](#intersection)一節。
 
 ## 範例 {#combine-examples}

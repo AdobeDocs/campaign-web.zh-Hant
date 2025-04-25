@@ -6,7 +6,7 @@ exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -41,12 +41,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
 >title="交易型傳訊事件歷史記錄"
->abstract="您可以檢視觸發交易式訊息的事件。"
+>abstract="您可以檢視觸發交易型訊息的事件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
 >title="交易型傳訊事件歷史記錄預覽"
->abstract="您可以檢視觸發交易式訊息的事件。"
+>abstract="您可以檢視觸發交易型訊息的事件。"
 
 您可以檢視觸發交易式訊息的事件。 若要存取它們，請移至&#x200B;**[!UICONTROL 事件歷史記錄]**&#x200B;區段。
 

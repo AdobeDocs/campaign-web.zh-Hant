@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '2043'
-ht-degree: 29%
+ht-degree: 35%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="擴充活動"
->abstract="擴充資料新增至工作流程後，即可用於後續活動，根據客戶行為、偏好和需求將客戶分組成不同的群組，或建立個人化行銷訊息和行銷活動，引起目標受眾的共鳴。"
+>abstract="將擴充資料新增到工作流程後，可以在後續活動中使用這些擴充資料並根據客戶的行為、偏好和需求將其分成不同群組，或是用於建立最有可能讓目標客群產生共鳴的個人化行銷訊息和行銷活動。"
 
 1. 按一下&#x200B;**新增擴充資料**，並選取要用於擴充的屬性。 [瞭解如何選取屬性並將其新增至我的最愛](../../get-started/attributes.md)。
 
@@ -69,9 +69,9 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="連結定義"
->abstract="在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，如果您從包含收件者帳號、國家/地區和電子郵件的檔案載入資料，則必須建立國家/地區表格的連結，以更新其設定檔中的此資訊。"
+>abstract="在工作表資料和 Adobe Campaign 資料庫之間建立連結。例如，若您從包含收件者帳戶號碼、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表格的連結，才能在其輪廓中更新這項資訊。"
 
-**[!UICONTROL 連結定義]**&#x200B;區段可讓您在工作表格資料與Adobe Campaign資料庫之間建立連結。 例如，如果您從包含收件者帳號、國家/地區和電子郵件的檔案載入資料，則必須建立國家/地區表格的連結，以更新其設定檔中的此資訊。
+**[!UICONTROL 連結定義]**&#x200B;區段可讓您在工作表格資料與Adobe Campaign資料庫之間建立連結。 例如，若您從包含收件者帳戶號碼、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表格的連結，才能在其輪廓中更新這項資訊。
 
 有數種可用的連結型別：
 

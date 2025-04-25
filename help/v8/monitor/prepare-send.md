@@ -6,7 +6,7 @@ exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 29%
 
 在準備傳送期間，會計算目標母體，並針對目標中包含的每個設定檔產生訊息內容。 準備完成後，訊息即可立即傳送，或在排程的日期和時間傳送。
 
-傳遞準備期間使用的驗證規則在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}中進行了說明。
+傳遞準備期間使用的驗證規則在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}中有說明。
 
 準備傳送的主要步驟如下。
 
@@ -126,7 +126,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="點按次數"
->abstract="在電子郵件中至少點按一次的收件者人數。 此指標每 5 分鐘會更新一次。顯示的百分比為相異點按次數相較於已傳遞訊息數的比率。"
+>abstract="在電子郵件中至少點按一次的收件者數量。此指標每 5 分鐘會更新一次。顯示的百分比為相異點按次數相較於已傳遞訊息數的比率。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 >[!CONTEXTUALHELP]

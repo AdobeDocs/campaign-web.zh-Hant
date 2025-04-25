@@ -9,7 +9,7 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 34%
+ht-degree: 38%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="傳遞"
->abstract="傳送是指透過特定通道傳送給閱聽眾的通訊：電子郵件、簡訊或推播。 您可以在此畫面中編輯、複製和刪除現有的傳遞。您也可以檢視已完成傳遞的報告。按一下「**建立傳遞**」按鈕，即可新增傳遞。"
+>abstract="傳遞是指透過特定管道傳送給客群的通訊，例如電子郵件、簡訊或推播。您可以在此畫面中編輯、複製和刪除現有的傳遞。您也可以檢視已完成傳遞的報告。按一下「**建立傳遞**」按鈕，即可新增傳遞。"
 
 ## 存取傳遞內容 {#access}
 

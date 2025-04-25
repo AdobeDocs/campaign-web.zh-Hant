@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 30%
+ht-degree: 36%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="載入檔案活動的值重新對應"
->abstract="使用此選項可將載入檔案中的特定值與新值相對應。例如，如果欄包含&#39;True&#39;/&#39;False&#39;值，您可以新增對應以自動將這些值取代為&#39;0&#39;/&#39;1&#39;字元。"
+>abstract="使用此選項可將載入檔案中的特定值與新值相對應。例如，如果欄包含「True」或「False」值，您可以新增對應，自動將這些值取代為字元「0」或「1」。"
 
 請依照下列步驟，設定用來定義預期檔案結構的範例檔案：
 
@@ -106,12 +106,12 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="目標資料庫"
->abstract="如果您正在存取已在使用者端主控台中設定的&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動，如果您已將活動設定為上傳檔案至外部資料庫，則可以使用額外的&#x200B;**[!UICONTROL 目標資料庫]**&#x200B;區段。"
+>abstract="如果您正在存取已在用戶端主控台中設定的「**[!UICONTROL 載入檔案]**」活動，則在您已設定將檔案上傳到外部資料庫的活動時，可使用額外的「**[!UICONTROL 目標資料庫]**」區段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="載入檔案命令"
->abstract="允許任意命令進行前置處理是安全性考量。 停用安全性選項XtkSecurity_Disable_Preproc以強制使用預先定義的命令清單。"
+>abstract="我們是基於安全性考量而允許使用任意命令進行預處理。停用安全性選項 XtkSecurity_Disable_Preproc，以強制使用預先定義的命令清單。"
 
 >[!CAUTION]
 >

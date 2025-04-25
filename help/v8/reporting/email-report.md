@@ -233,7 +233,7 @@ ht-degree: 37%
 * **[!UICONTROL 轉送次數估計]**：目標收件者轉送的電子郵件數量估計。
 +++
 
-### 開啟及點進率 {#email-tracking-click-through}
+### 開啟及點按率 {#email-tracking-click-through}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"

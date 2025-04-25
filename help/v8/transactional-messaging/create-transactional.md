@@ -6,7 +6,7 @@ exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1312'
-ht-degree: 11%
+ht-degree: 18%
 
 ---
 
@@ -41,22 +41,22 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
 >title="交易型傳訊屬性"
->abstract="填寫此表單以設定異動訊息傳送屬性。"
+>abstract="填寫此表單，設定交易型傳訊屬性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
 >title="交易型傳訊電子郵件屬性"
->abstract="填寫此表單以設定異動訊息電子郵件屬性。"
+>abstract="填寫此表單，設定交易型傳訊電子郵件屬性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
->title="交易型傳訊 SMS 屬性"
->abstract="填寫此表單以設定異動訊息SMS屬性。"
+>title="交易型傳訊簡訊屬性"
+>abstract="填寫此表單，設定交易型傳訊簡訊屬性。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
 >title="交易型傳訊推播屬性"
->abstract="填寫此表單以設定異動訊息「推送」屬性。"
+>abstract="填寫此表單，設定交易型傳訊推播屬性。"
 
 交易式訊息的&#x200B;**[!UICONTROL 屬性]**&#x200B;區段可協助您設定：
 
@@ -110,12 +110,12 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
 >title="交易型傳訊內容"
->abstract="瞭解如何建立異動訊息內容。"
+>abstract="了解如何建立交易型傳訊內容。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
 >title="交易型傳訊個人化"
->abstract="瞭解如何個人化異動訊息內容。"
+>abstract="了解如何將交易型傳訊內容個人化。"
 
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
@@ -176,14 +176,14 @@ ht-degree: 11%
 
 * 在[驗證您的交易式訊息](validate-transactional.md)之後，按一下&#x200B;**[!UICONTROL 檢閱並發佈]**&#x200B;按鈕以建立並發佈您的訊息。 觸發器現在可以推送交易式訊息的傳送。
 
-### 關於事件型別 {#event-type}
+### 關於事件類型 {#event-type}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
 >title="交易型傳訊事件"
->abstract="事件型別的設定會將訊息連結至觸發事件。"
+>abstract="事件類型的設定會將訊息連結至觸發事件。"
 
-事件型別的設定會將訊息連結至觸發事件。
+事件類型的設定會將訊息連結至觸發事件。
 
 在Campaign Web使用者介面中，選取已建立的事件型別，或直接在此設定頁面中建立您的事件型別。
 

@@ -6,7 +6,7 @@ exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 39%
+ht-degree: 47%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
 >title="等待活動"
->abstract="**等待**&#x200B;活動用於延遲從一個活動到另一個活動的轉換。"
+>abstract="**等待**&#x200B;活動用於延遲從一項活動到另一項活動的轉變。"
 
 「**等待**」活動是一種&#x200B;**流程控制**&#x200B;活動。它允許在執行兩個活動之間傳遞的特定時間。 例如，它可用於在電子郵件傳送活動後等候數天，然後分析在此期間產生的開啟次數和點按次數，再執行後續操作，例如傳送提醒電子郵件或建立對象。
 

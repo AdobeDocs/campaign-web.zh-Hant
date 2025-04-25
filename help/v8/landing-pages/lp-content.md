@@ -6,7 +6,7 @@ exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用內容元件"
->abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。若要定義可讓使用者選取並提交其選擇的特定內容，請使用表單元件。"
+>abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。若要定義讓使用者能夠選取並提交其選擇的特定內容，請使用表單元件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="定義主要頁面設定"
->abstract="使用者按一下登陸頁面的連結後（例如從電子郵件或網站），主要頁面會立即顯示給使用者。"
+>abstract="在使用者點選您的登陸頁面連結 (例如從電子郵件或網站) 之後，會立即向使用者顯示主要頁面。"
 
 您可以編輯登入頁面之任何頁面的內容。
 

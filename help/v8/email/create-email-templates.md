@@ -11,7 +11,7 @@ exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1085'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="定義您的範本屬性"
->abstract="定義您的電子郵件內容範本屬性，以便在需要時輕鬆擷取。"
+>abstract="定義您的電子郵件內容範本屬性，以便在需要時輕鬆獲取。"
 
 若要從內容範本控制面板建立新的內容範本，請執行下列步驟：
 

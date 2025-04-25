@@ -5,7 +5,7 @@ exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="選取目標市場選擇維度"
->abstract="目標維度可讓您定義作業的目標母體：收件者、合約受益者、操作者、訂閱者等。 對於電子郵件和簡訊，依預設，目標是從收件者內建表格中選取。對於推播通知，預設目標市場選擇維度是訂閱者應用程式。"
+>abstract="目標選擇維度讓您可以定義操作所針對的目標群體，包括收件者、合約受益人、操作者、訂閱者等。對於電子郵件和簡訊，依預設，目標是從收件者內建表格中選取。對於推播通知，預設目標市場選擇維度是訂閱者應用程式。"
 
 目標維度（也稱為目標對應）是作業處理的資料型別。 它定義目標母體，例如設定檔、合約受益人、運運算元或訂閱者。
 
@@ -44,4 +44,4 @@ ht-degree: 11%
 | 外部檔案 | 透過包含所有必要資訊的檔案傳遞 | 沒有連結的結構描述，沒有輸入目標 |
 | 訂閱者應用程式 | 訂閱應用程式的設定檔 | nms：appSubscriptionRcp |
 
-此外，根據特定需求建立新的目標對應。 僅從使用者端主控台執行此作業。 深入瞭解[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}。
+此外，根據特定需求建立新的目標對應。 僅從使用者端主控台執行此作業。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}中進一步瞭解。

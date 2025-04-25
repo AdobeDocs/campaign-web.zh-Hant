@@ -6,7 +6,7 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 22%
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="調和活動"
->abstract="**調解**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動，其定義了Adobe Campaign資料庫中的資料與工作表中的資料之間的連結。 例如，可以將&#x200B;**調和**&#x200B;活動放在&#x200B;**載入檔案**&#x200B;活動之後，以將非標準資料匯入資料庫。在這種情況下，**調解**&#x200B;活動會定義Adobe Campaign資料庫中的資料與外部資料表中的資料之間的連結。"
+>abstract="**調和**&#x200B;活動是&#x200B;**目標選擇**&#x200B;活動，能定義 Adobe Campaign 資料庫的資料與工作表的資料之間的連結。例如，可以在&#x200B;**載入檔案**&#x200B;活動之後執行&#x200B;**調和**&#x200B;活動，以便將非標準資料匯入資料庫。在此情況下，**調和**&#x200B;活動定義 Adobe Campaign 資料庫的資料與外部資料表的資料之間的連結。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
@@ -34,7 +34,7 @@ ht-degree: 22%
 
 **調解**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動，其定義了Adobe Campaign資料庫中的資料與工作表中的資料（例如從外部檔案載入的資料）之間的連結。
 
-例如，可以將&#x200B;**調和**&#x200B;活動放在&#x200B;**載入檔案**&#x200B;活動之後，以將非標準資料匯入資料庫。在這種情況下，**調解**&#x200B;活動會定義Adobe Campaign資料庫中的資料與工作表中的資料之間的連結。
+例如，可以在&#x200B;**載入檔案**&#x200B;活動之後執行&#x200B;**調和**&#x200B;活動，以便將非標準資料匯入資料庫。在這種情況下，**調解**&#x200B;活動會定義Adobe Campaign資料庫中的資料與工作表中的資料之間的連結。
 
 ## 最佳實務 {#reconciliation-best-practices}
 
@@ -48,12 +48,12 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="目標市場選擇維度"
->abstract="選取新的目標市場選擇維度。維度會定義目標母體：收件者、應用程式訂閱者、操作者、訂閱者等。 預設會選取目前的目標市場選擇維度。"
+>abstract="選取新的目標市場選擇維度。維度能定義目標群體，包括收件者、應用程式訂閱者、操作者、訂閱者等。預設會選取目前的目標市場選擇維度。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="調和規則"
->abstract="選取重複資料刪除的調解規則。 若要使用屬性，請選取&#x200B;**簡單屬性**&#x200B;選項，然後選擇來源欄位和目的地欄位。若要使用查詢建模工具建立您自己的調和條件，請選取&#x200B;**進階調和條件**&#x200B;選項。"
+>abstract="選取用於重複資料刪除的調和規則。若要使用屬性，請選取&#x200B;**簡單屬性**&#x200B;選項，然後選擇來源欄位和目的地欄位。若要使用查詢建模工具建立您自己的調和條件，請選取&#x200B;**進階調和條件**&#x200B;選項。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查詢建模工具"
 
 >[!CONTEXTUALHELP]
@@ -65,18 +65,18 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
 >title="保留未調和的資料"
->abstract="依預設，未調解的資料會保留在出站轉變中，並可在工作表中供未來使用。 若要移除未調解的資料，請停用&#x200B;**保留未調解的資料**&#x200B;選項。"
+>abstract="預設情況下，未調和的資料會保留在傳出轉變中，而且未來可以透過工作表使用。若要移除未調和的資料，請停用「**保留未調和的資料**」選項。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="調和屬性"
->abstract="選取要用來調解資料的屬性，然後按一下確認。"
+>abstract="選取用於調和資料的屬性，然後按一下「確認」。"
 
 請依照下列步驟設定&#x200B;**調解**&#x200B;活動：
 
 1. 將&#x200B;**調解**&#x200B;活動新增至工作流程。 此活動應緊跟在包含母體的轉變之後，該母體的目標維度不會直接來自Adobe Campaign。
 
-1. 選取新的目標市場選擇維度。維度會定義目標母體：收件者、應用程式訂閱者、操作者、訂閱者等。 [進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)。
+1. 選取新的目標市場選擇維度。維度能定義目標群體，包括收件者、應用程式訂閱者、操作者、訂閱者等。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)。
 
 1. 選取要用於調解的欄位。 您可以使用一個或多個調和標準。
 
@@ -90,7 +90,7 @@ ht-degree: 22%
 
 1. 使用&#x200B;**建立篩選器**&#x200B;按鈕來篩選要調解的資料。 這可讓您使用查詢建模器建立自訂條件。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)。
 
-依預設，未調解的資料會保留在出站轉變中，並可在工作表中供未來使用。 若要移除未調解的資料，請停用&#x200B;**保留未調解的資料**&#x200B;選項。
+預設情況下，未調和的資料會保留在傳出轉變中，而且未來可以透過工作表使用。若要移除未調和的資料，請停用「**保留未調和的資料**」選項。
 
 ## 範例 {#reconciliation-example}
 

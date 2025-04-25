@@ -5,7 +5,7 @@ exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="輪廓"
->abstract="設定檔是目標為接收Adobe Campaign傳送之訊息的記錄。 在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
+>abstract="輪廓是專門接收 Adobe Campaign 所傳送之訊息的記錄。在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
 
 ## 什麼是設定檔？ {#what}
 

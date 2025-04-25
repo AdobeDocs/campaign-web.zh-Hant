@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 20%
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="定義電子郵件內容"
->abstract="**編輯內容**&#x200B;畫面可讓您定義訊息的基本元素，例如寄件者地址和主旨列、執行新增附件或優惠方案等其他動作，以及存取Email Designer讓您的訊息呈現精美的外觀。"
+>abstract="您可以透過「**編輯內容**」畫面定義訊息的基本元素 (例如寄件者地址和主旨行)、執行其他操作 (例如新增附件或產品建議)，以及存取電子郵件設計工具來美化訊息的外觀。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -25,7 +25,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="將檔案附加到電子郵件"
->abstract="選取要插入訊息的一或多個檔案。 為避免效能問題，建議每封電子郵件不要包含多個附件。"
+>abstract="選取一個或多個檔案插入訊息中。為避免出現效能問題，建議每封電子郵件不要包含多個附件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
@@ -79,7 +79,7 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >為避免效能問題，建議每封電子郵件不要包含多個附件。
+   >為避免出現效能問題，建議每封電子郵件不要包含多個附件。
 
    <!--limitation on size + number of files?-->
 

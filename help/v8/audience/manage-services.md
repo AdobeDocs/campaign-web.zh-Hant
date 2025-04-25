@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1156'
-ht-degree: 24%
+ht-degree: 29%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="建立和管理服務"
->abstract="使用Adobe Campaign建立及監控您的服務（例如電子報），以及檢查這些服務的訂閱或取消訂閱。 訂閱僅適用於電子郵件和簡訊傳遞。"
+>abstract="使用 Adobe Campaign 建立和監視您的服務 (例如電子報)，並確認這些服務訂閱或取消訂閱的情形。訂閱僅適用於電子郵件和簡訊傳遞。"
 
 使用Adobe Campaign網頁管理及建立您的服務（例如電子報），以及檢查這些服務的訂閱或取消訂閱。
 
@@ -149,7 +149,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="訂閱者計數"
->abstract="按一下&#x200B;**計算**&#x200B;以取得此服務的訂閱者總數。"
+>abstract="按一下「**計算**」，取得此服務的訂閱者總數。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"
@@ -164,7 +164,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="訂閱整體演變"
->abstract="此圖表顯示依期間的劃分，包括訂閱、取消訂閱、數量演化以及忠誠度百分比。"
+>abstract="此圖表顯示依照期間劃分的資料，包括訂閱、取消訂閱、數量變化和忠誠度百分比。"
 
 若要評估簡訊和電子郵件通道訂閱服務的成效，請存取指定服務的記錄檔和報告。
 

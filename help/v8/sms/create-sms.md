@@ -6,7 +6,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 29%
+ht-degree: 40%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="簡訊傳遞屬性"
->abstract="屬性包含常見的傳送引數，可協助您為傳送命名並分類。 如果您的傳送使用延伸結構描述，則特定自訂選項欄位可供使用。"
+>abstract="屬性包含常見的傳遞參數，可幫助您對傳遞進行命名和分類。如果您的傳遞使用擴充型結構描述，可使用特定的自訂選項欄位。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="定義簡訊客群"
->abstract="按一下&#x200B;**選取對象**&#x200B;按鈕，以建立新對象或選取現有對象。 如果需要，請新增一個控制組來測量傳遞的影響。"
+>abstract="建立新客群，或者按一下「**選取客群**」按鈕，選取現有的客群。如果需要，請新增一個控制組來測量傳遞的影響。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-hant" text="設定控制組"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="簡訊範本選取"
->abstract="選取預先定義的範本，以開始進行簡訊傳遞。傳遞範本可讓您在行銷活動和傳遞中重複使用自訂內容和設定。"
+>abstract="選取預先定義的範本，以開始進行簡訊傳遞。傳遞範本讓您能夠在行銷活動和傳遞中重複使用自訂內容和設定。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-hant" text="使用傳遞範本"
 
 您可以建立獨立的SMS傳送，或在行銷活動工作流程的內容中建立SMS。 以下步驟說明獨立（一次性） SMS傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟將在[本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中說明。

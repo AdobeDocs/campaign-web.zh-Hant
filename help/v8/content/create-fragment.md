@@ -6,7 +6,7 @@ exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1026'
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="另存為片段"
->abstract="若要將內容儲存為視覺片段，請選取要包含在片段中的元素，包括個人化欄位和動態內容。 只能選取相鄰截面。 無法選取空的結構或其他內容片段。 然後，內容將變成獨立片段，新增到片段清單中，並可從專用功能表存取。 在Campaign中建立任何電子郵件或內容範本時，都可以使用此片段。"
+>abstract="若要將內容另存為視覺片段，選取要加入片段中的元素，包括個人化欄位和動態內容。僅可選取相鄰區段。不能選取空結構或其他內容片段。然後，內容會成為一個獨立的片段並新增到片段清單中，而您可從專用選單中存取。在 Campaign 中建置任何電子郵件或內容範本時，都可以使用此片段。"
 
 <!--pas vu dans l'UI-->
 
@@ -95,7 +95,7 @@ ht-degree: 14%
 
    >[!CAUTION]
    >
-   >只能選取相鄰截面。 無法選取空的結構或其他內容片段。
+   >僅可選取相鄰區段。無法選取空的結構或其他內容片段。
 
    ![另存為片段熒幕，顯示專案選擇](assets/fragment-save-as-screen.png)
 

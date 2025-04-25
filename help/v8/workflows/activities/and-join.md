@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 45%
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="AND-join 活動"
->abstract="**合併連結**&#x200B;活動可讓您同步處理工作流程的多個執行分支。一旦所有前面的活動完成，就會觸發此活動。這可確保在繼續執行工作流程之前已完成某些活動。"
+>abstract="**合併連結**&#x200B;活動可讓您同步處理工作流程的多個執行分支。一旦所有前面的活動完成，就會觸發此活動。這樣能確保特定活動已完成後再繼續執行工作流程。"
 
 「**合併連結**」活動是一種&#x200B;**流程控制**&#x200B;活動。它會同步工作流程的多個執行分支。
 

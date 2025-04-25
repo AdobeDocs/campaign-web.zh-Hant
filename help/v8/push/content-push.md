@@ -6,7 +6,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '1569'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
 >title="iOS 的靜音通知"
->abstract="靜音推播模式允許將「靜音」通知傳送至行動應用程式。 使用者不會發現有通知傳到。而是直接傳輸到應用程式。"
+>abstract="靜音推播模式允許將「靜音」通知傳送到行動應用程式。使用者不會發現有通知傳到。而是直接傳輸到應用程式。"
 
 建立推播傳送後，請定義其內容。 引數和設定取決於行動作業系統：Android或iOS。 瀏覽下列標籤，瞭解如何針對每個作業系統撰寫訊息。
 

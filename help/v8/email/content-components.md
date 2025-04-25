@@ -15,7 +15,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="關於內容"
->abstract="內容元件指可用於建立電子郵件版面的空白內容預留位置。"
+>abstract="內容元件是可用於建立電子郵件版面的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"

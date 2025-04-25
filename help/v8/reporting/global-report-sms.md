@@ -6,7 +6,7 @@ exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 23%
+ht-degree: 27%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="SMS 目標群體"
->abstract="**目標母體**&#x200B;的圖形和表格呈現與您的SMS對象相關的資料，包括要傳送的訊息和排除專案的資訊。"
+>abstract="**目標群體**&#x200B;圖表和表格顯示與您的簡訊客群相關的資料，包括要傳遞和排除之訊息的相關資訊。"
 
 針對每個已傳送的SMS傳遞，**[!UICONTROL 目標對象]**&#x200B;表格和圖表會顯示與收件者相關的資料。 量度詳情如下。
 

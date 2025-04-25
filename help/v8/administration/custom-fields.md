@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="編輯自訂詳細資訊"
->abstract="在介面中顯示的所有自訂欄位根據選取的結構描述顯示。您可以使用上下箭頭來變更它們在介面中的顯示順序，並藉由新增分隔符號將欄位分組為子區段。 若要刪除自訂欄位或編輯可見度條件等設定，請按一下省略符號按鈕。"
+>abstract="在介面中顯示的所有自訂欄位根據選取的結構描述顯示。您可以使用向上鍵和向下鍵來變更其在介面中的顯示順序，並透過新增分隔符號將欄位分組到子區段中。若要刪除自訂欄位或編輯可見度條件等設定，請按一下省略符號按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"

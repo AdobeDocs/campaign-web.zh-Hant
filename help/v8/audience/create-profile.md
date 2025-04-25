@@ -5,7 +5,7 @@ exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 7%
+ht-degree: 46%
 
 ---
 
@@ -14,37 +14,37 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="基本詳細資料"
->abstract="本節提供設定檔基本詳細資訊的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下畫面右上角的&#x200B;**儲存**&#x200B;按鈕。"
+>abstract="此區段深入分析輪廓的基本詳細資料。若要修改任何資訊，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="聯絡資訊"
->abstract="本節提供設定檔之聯絡資訊的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下畫面右上角的&#x200B;**儲存**&#x200B;按鈕。"
+>abstract="此區段深入分析輪廓的聯絡資訊。若要修改任何資訊，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="地址"
->abstract="本節提供設定檔郵寄地址和地址品質的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下畫面右上角的&#x200B;**儲存**&#x200B;按鈕。"
+>abstract="此區段深入分析輪廓的郵寄地址和地址品質。若要修改任何資訊，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="帳戶詳細資料"
->abstract="本節提供設定檔之帳戶詳細資訊的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下畫面右上角的&#x200B;**儲存**&#x200B;按鈕。"
+>abstract="此區段深入分析輪廓的帳戶詳細資料。若要修改任何資訊，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
 >title="不再聯絡"
->abstract="本節提供設定檔之聯絡人偏好設定的深入分析。 若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下畫面右上角的&#x200B;**儲存**&#x200B;按鈕。"
+>abstract="此區段深入分析輪廓的聯絡偏好設定。若要修改任何資訊，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="自訂欄位"
->abstract="自訂欄位是根據您的需求量身打造且已設定在執行個體中的特定屬性。若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下畫面右上角的&#x200B;**儲存**&#x200B;按鈕。"
+>abstract="自訂欄位是根據您的需求量身打造且已設定在執行個體中的特定屬性。若要修改任何資訊，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
 >title="其他"
->abstract="本區段提供額外的內建屬性。若要修改任何資訊，請直接在個別欄位中進行變更，然後按一下畫面右上角的&#x200B;**儲存**&#x200B;按鈕。"
+>abstract="本區段提供額外的內建屬性。若要修改任何資訊，請直接在對應欄位中進行變更，然後按一下螢幕右上角的「**儲存**」按鈕。"
 
 若要建立設定檔，請遵循下列步驟：
 

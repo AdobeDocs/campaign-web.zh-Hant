@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -117,13 +117,13 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="傳輸後刪除來源檔案"
->abstract="成功傳輸後清除來源檔案。"
+>title="轉移後刪除來源檔案"
+>abstract="成功轉移後清除來源檔案。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="顯示工作階段記錄"
->abstract="與傳輸作業相關的資訊會顯示在工作流程記錄檔中。"
+>abstract="與轉移作業相關的資訊會顯示在工作流程記錄中。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"

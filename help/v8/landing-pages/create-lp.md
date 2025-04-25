@@ -6,7 +6,7 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1731'
-ht-degree: 20%
+ht-degree: 25%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="建立和管理登陸頁面"
->abstract="Adobe Campaign可讓您建立、設計和共用登入頁面，將您的使用者引導至線上網頁，您可以在其中根據內建範本管理贏取、訂閱/取消訂閱和封鎖清單使用案例。"
+>abstract="您可以透過 Adobe Campaign 建立、設計和共用登陸頁面，將使用者導向線上網頁，而您可以在這些網頁中根據內建範本來管理贏取、訂閱/取消訂閱和封鎖清單使用案例。"
 
 Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發佈後，您可以在傳送中插入表單的連結。 收件者按一下該連結後，即會被導向相對應的登陸頁面。
 
@@ -55,12 +55,12 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="定義每個頁面的內容"
->abstract="調整屬於此登入頁面一部分的每個頁面的內容，例如表單本身、提交表單時顯示的確認頁面，或發生錯誤時將使用者導向到的頁面。"
+>abstract="調整此登陸頁面中每個頁面的內容，例如表單本身、提交表單時顯示的確認頁面，或發生錯誤時引導使用者的頁面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="排程登陸頁面"
->abstract="定義登入頁面的開始日期和結束日期。 當頁面有效期限結束時，就無法再使用該表格。會改為顯示&#x200B;**期限**&#x200B;頁面。"
+>abstract="定義登陸頁面的開始日期和結束日期。當頁面有效期限結束時，就無法再使用該表格。會改為顯示&#x200B;**期限**&#x200B;頁面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
@@ -102,7 +102,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
    依預設，登入頁面會儲存在&#x200B;**[!UICONTROL 網頁應用程式]**&#x200B;資料夾中。 您可以在&#x200B;**[!UICONTROL 其他選項]**&#x200B;中瀏覽到想要的位置來變更它。 [瞭解如何使用資料夾](../get-started/permissions.md#folders)。
 
-   您也可以設定驗證碼以保護您的登陸頁面。 [如需更多詳情，請參閱此處](#captcha)。
+   您也可以設定驗證碼以保護您的登陸頁面。 [若要了解更多資訊，請參閱此處](#captcha)。
 
    ![顯示登入頁面屬性區段的熒幕擷圖。](assets/lp-properties.png){zoomable="yes"}
 

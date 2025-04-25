@@ -6,7 +6,7 @@ exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 21%
+ht-degree: 24%
 
 ---
 
@@ -171,7 +171,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="傳遞統計資料"
->abstract="**傳遞統計資料**&#x200B;關鍵績效指標(KPI)提供傳遞和行銷活動績效的完整總覽，提供成功傳遞、發生錯誤和使用者參與情況的深入分析。"
+>abstract="**傳遞統計資料**&#x200B;關鍵績效指標 (KPI) 會詳盡地概述您的傳遞和行銷活動績效，提供關於成功傳遞、遇到的錯誤以及使用者參與的深入分析。"
 
 **[!UICONTROL 傳遞統計資料]**&#x200B;量度提供關鍵績效指標(KPI)，提供有關每個電子郵件傳遞相關資料的詳細資訊。 這些量度的進一步詳細資訊如下。
 
@@ -194,7 +194,7 @@ ht-degree: 21%
 * **[!UICONTROL 轉送次數估計]**：目標收件者轉送的電子郵件數量估計。
 +++
 
-### 開啟及點進率 {#delivery-summary-open-rate}
+### 開啟及點按率 {#delivery-summary-open-rate}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_open_clickthrough_email"
@@ -247,7 +247,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_top10_email"
 >title="造訪量最高的前 10 個連結"
->abstract="**前10個最常造訪的連結**&#x200B;圖表和表格會顯示收件者與每個連結互動的完整資料。"
+>abstract="**造訪次數最多的 10 個連結**&#x200B;圖表和表格顯示收件者與每個連結互動的詳盡資料。"
 
 **[!UICONTROL 前10個最常造訪的連結]**&#x200B;圖表和表格包含每個連結的收件者行為可用資料。 量度詳情如下。
 

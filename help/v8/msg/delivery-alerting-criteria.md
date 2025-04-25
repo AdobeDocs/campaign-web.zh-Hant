@@ -6,7 +6,7 @@ exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 20%
+ht-degree: 26%
 
 ---
 
@@ -49,12 +49,12 @@ Campaign Web使用者介面中提供預先定義的警示准則。 這些條件�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="要在警報中新增的指標"
->abstract="選取要顯示為電子郵件警示「詳細資訊」區段欄的指標。"
+>abstract="選取要在電子郵件警報「詳細資料」區段中顯示為欄位的指標。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="警報類型"
->abstract="指定條件的&#x200B;**警示型別**，表示要在警示的[摘要]區段中，顯示在傳遞條件旁的標籤和色彩。"
+>abstract="指定該條件的&#x200B;**警報類型**，即警報的「摘要」區段中傳遞條件旁顯示的標籤和顏色。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"

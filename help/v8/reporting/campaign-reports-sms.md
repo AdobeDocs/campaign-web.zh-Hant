@@ -6,7 +6,7 @@ exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
 >title="初始目標對象統計資料"
->abstract="**初始目標對象統計資料**&#x200B;表格會顯示與收件者相關的資料。"
+>abstract="**初始目標客群統計資料**&#x200B;表格會顯示與您的收件者相關的資料。"
 
 **[!UICONTROL 初始目標對象統計資料]**&#x200B;表格會顯示與收件者相關的資料。 量度詳情如下。
 

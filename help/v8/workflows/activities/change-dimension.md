@@ -6,7 +6,7 @@ exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 21%
+ht-degree: 25%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="變更維度活動"
->abstract="此活動可讓您在建立對象時變更目標市場選擇維度。其會根據資料範本和輸入維度來移動軸。例如，您可以從「合約」維度切換至「客戶」維度。"
+>abstract="此活動可讓您在建立對象時變更目標市場選擇維度。其會根據資料範本和輸入維度來移動軸。例如，您可以從「合約」維度切換到「用戶端」維度。"
 
 **變更維度**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動。 此活動可讓您在建立工作流程時變更目標維度。 其會根據資料範本和輸入維度來移動軸。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)。
 

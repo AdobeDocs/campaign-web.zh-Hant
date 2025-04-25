@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 42%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
->title="選擇電子郵件範本"
->abstract="電子郵件範本是特定的傳遞組態，其中包含預先定義的設定，例如型別規則、個人化或路由引數。 範本在 Campaign 用戶端主控台中定義。"
+>title="選取一個電子郵件範本"
+>abstract="電子郵件範本是一種特定的傳遞設定，其中包含預先定義的設定，例如類型規則、個人化內容或路由參數。範本在 Campaign 用戶端主控台中定義。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="定義電子郵件屬性"
->abstract="屬性是常見的傳送引數，可協助您為傳送命名及分類。 附加設定是選擇性的。如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充結構描述，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
+>abstract="這些屬性是常見的傳遞參數，能幫助您對傳遞進行命名和分類。附加設定是選擇性的。如果您的傳遞是根據 Adobe Campaign v8 主控台中定義的擴充結構描述，則可使用某些特定&#x200B;**自訂選項**&#x200B;欄位。"
 
 您可以建立獨立的電子郵件傳遞，或在行銷活動工作流程的環境中建立電子郵件。以下步驟詳細說明獨立（一次性）電子郵件傳送的程式。 在[此頁面](../msg/gs-deliveries.md)中進一步瞭解Adobe Campaign的傳遞建立步驟。
 

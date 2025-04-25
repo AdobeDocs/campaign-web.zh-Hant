@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="訂閱服務活動"
->abstract="「訂閱服務」活動允許多個設定檔在單一動作中訂閱或取消訂閱服務。"
+>abstract="訂閱服務活動允許在單一動作中讓多個輪廓訂閱或取消訂閱服務。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="訂閱服務一般參數"
->abstract="選擇所需的服務並選擇要執行的動作 (訂閱或取消訂閱)。開啟&#x200B;**傳送確認訊息**&#x200B;選項，通知母體已訂閱或取消訂閱選取的服務。"
+>abstract="選擇所需的服務並選擇要執行的動作 (訂閱或取消訂閱)。將「**傳送確認訊息**」選項切換為開啟，通知群體其已訂閱或取消訂閱所選服務。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
@@ -30,7 +30,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="其他資訊"
->abstract="指定每筆記錄的資料和訂閱來源。您可以將這個區段留白，使其在執行工作流程時不會設定任何日期或來源。如果傳入資料包含指示設定檔訂閱服務的日期的欄，您可以在&#x200B;**[!UICONTROL Date]**&#x200B;欄位中選取它。 在「**[!UICONTROL 來源路徑]**」欄位中，定義訂閱的來源。您可以勾選「**[!UICONTROL 設定一個常數做為來源]**」選項，將該欄設為輸入資料的其中一個欄位，或設為您選取的常數值。"
+>abstract="指定每筆記錄的資料和訂閱來源。您可以將這個區段留白，使其在執行工作流程時不會設定任何日期或來源。如果傳入資料包含顯示輪廓之服務訂閱日期的欄位，您可以在「**[!UICONTROL 日期]**」欄位中選取該欄。在「**[!UICONTROL 來源路徑]**」欄位中，定義訂閱的來源。您可以勾選「**[!UICONTROL 設定一個常數做為來源]**」選項，將該欄設為輸入資料的其中一個欄位，或設為您選取的常數值。"
 
 **訂閱服務**&#x200B;活動是&#x200B;**資料管理**&#x200B;活動。 它可讓您為轉變中指定的母體建立或刪除資訊服務的訂閱。
 

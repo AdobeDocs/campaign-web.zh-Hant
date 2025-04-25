@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 22%
+ht-degree: 32%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 程式碼"
->abstract="「**JavaScript 程式碼**」活動可讓您在工作流程過程中執行 JavaScript 程式碼。這可讓您執行動作或從資料庫收集資訊。 使用&#x200B;**簡單** JavaScript程式碼活動，在工作流程執行期間執行一個程式碼片段。 **進階** JavaScript程式碼活動可讓您依序執行兩個不同的程式碼片段，以執行更複雜的作業。 工作流程第一次開始時，就會執行第一個呼叫。 工作流程每次重新執行時，會執行第二次呼叫中定義的程式碼。"
+>abstract="「**JavaScript 程式碼**」活動可讓您在工作流程過程中執行 JavaScript 程式碼。這讓您能夠執行動作或從資料庫收集資訊。使用&#x200B;**簡單** JavaScript 程式碼活動在工作流程執行時執行一個程式碼片段。**進階** JavaScript 程式碼活動讓您能夠依序執行兩個不同的程式碼片段，以執行更複雜的操作。工作流程第一次開始時，會執行第一次呼叫。工作流程每次重新執行時，會執行第二次呼叫中定義的程式碼。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript 片段"
->abstract="定義執行活動時要執行的指令碼。如果您正在設定&#x200B;**進階** JavaScript活動，請編輯兩個程式碼片段：在第一個工作流程執行期間執行的第一個呼叫程式碼，以及在後續工作流程執行期間執行的下一個呼叫程式碼。"
+>abstract="定義執行活動時要執行的指令碼。如果您要設定&#x200B;**進階** JavaScript 活動，請編輯兩個程式碼片段：第一個片段在第一次執行工作流程時呼叫要執行的程式碼，而下一個片段在後續工作流程執行時呼叫要執行的程式碼。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
