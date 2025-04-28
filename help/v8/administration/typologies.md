@@ -3,10 +3,10 @@ audience: end-user
 title: 使用業務規則 (類型)
 description: 瞭解如何使用型別和型別規則來控制、篩選及監控傳送的傳送。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 24%
+source-wordcount: '1474'
+ht-degree: 23%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 24%
 >id="acw_business_rules"
 >title="類型和類型規則"
 >abstract="您可以利用類型將所有傳遞的業務實務標準化。類型是類型規則的集合，讓您可以控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞對象之外。"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_typology_rules_type"
+>title="篩選"
+>abstract=" 有兩種型別規則可供使用： <br/><br/>**控制**&#x200B;規則可確保訊息品質和預先傳送的有效性，例如字元顯示、簡訊長度、位址格式或URL縮短。 <br/><br/>**篩選**&#x200B;規則，此規則會根據特定條件（例如年齡、地點、國家/地區或電話號碼）排除目標對象的區段。"
 
 ## 關於型別
 
