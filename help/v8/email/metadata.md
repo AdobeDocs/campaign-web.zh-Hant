@@ -3,10 +3,10 @@ audience: end-user
 title: 將中繼資料新增至電子郵件內容
 description: 瞭解如何使用中繼資料改善電子郵件內容的可讀性和可存取性
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 929151c9907a6a508fef37ef1da9157f8a52d9eb
+source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '326'
+ht-degree: 25%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 內文]** （從左邊的&#x200B;**[!UICONTROL 導覽樹狀結構]**&#x200B;或右窗格頂端）。
 
-   ![](assets/email_body.png)
+   ![](assets/email_body.png){width="90%"}
 
 1. 從&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤中，在&#x200B;**[!UICONTROL Preheader]**、**[!UICONTROL 檔案標題]**&#x200B;和/或&#x200B;**[!UICONTROL 檔案語言]**&#x200B;欄位中鍵入一些文字。
 
 1. 您也可以按一下每個欄位旁的個人化圖示，從設定檔屬性、對象、內容屬性等自訂您的內容。 [進一步瞭解個人化](../personalization/gs-personalization.md)
 
-   ![](assets/email_body_settings.png)
+   ![](assets/email_body_settings.png){width="70%"}
 
 1. 按一下[儲存]確認您的變更。****
