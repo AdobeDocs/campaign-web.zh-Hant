@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
+source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 97%
          + [使用內容元件](email/content-components.md)
          + [新增連結和追蹤訊息](email/message-tracking.md)
          + [新增鏡像頁面連結](email/mirror-page.md)
-         + [新增預覽文字](email/preheader.md)
+         + [新增中繼資料](email/metadata.md)
          + [產生文字版本](email/text-version-email.md)
       + 設定內容樣式 {#style}
          + [開始使用電子郵件樣式](email/get-started-email-style.md)
