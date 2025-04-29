@@ -3,10 +3,10 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 瞭解如何在Campaign網頁使用者介面中編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 498162045a2a58a5326a3cf311a153cf9dfef5c3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 33%
+source-wordcount: '687'
+ht-degree: 31%
 
 ---
 
@@ -32,6 +32,11 @@ ht-degree: 33%
 >title="編輯追蹤"
 >abstract="預設會啟用傳遞追蹤，這表示系統會追蹤訊息內容中包含的所有連結。您可以從此處停用此選項。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="新增連結和追蹤訊息"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_multilingual"
+>title="新增語言"
+>abstract="在此索引標籤中，您會找到要傳送傳遞的語言清單。 您可以按一下「新增語言」按鈕，或透過此索引標籤複製其他語言，以新增更多語言。"
 
 電子郵件&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面可讓您：
 
