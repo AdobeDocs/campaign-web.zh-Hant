@@ -3,9 +3,9 @@ audience: end-user
 title: 計劃和專案
 description: 瞭解如何在Adobe Campaign中建立和設定計畫和方案
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '522'
 ht-degree: 3%
 
 ---
@@ -38,9 +38,13 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 
 1. 瀏覽至&#x200B;**[!UICONTROL 結構描述]**。
 1. 選擇篩選器中的&#x200B;**[!UICONTROL 可編輯]**&#x200B;結構描述。
-1. 按一下&#x200B;**[!UICONTROL 編輯自訂詳細資料]**&#x200B;圖示。
+1. 按一下結構。
 
 ![熒幕擷圖顯示計畫自訂詳細資料的編輯](assets/plan_edit.png){zoomable="yes"}
+
+1. 按一下&#x200B;**[!UICONTROL 熒幕版本]**&#x200B;按鈕。
+
+   ![](assets/plan_edit2.png){zoomable="yes"}
 
 設定自訂選項：
 
@@ -64,9 +68,13 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 
 1. 瀏覽至&#x200B;**[!UICONTROL 結構描述]**。
 1. 選擇篩選器中的&#x200B;**[!UICONTROL 可編輯]**&#x200B;結構描述。
-1. 按一下&#x200B;**[!UICONTROL 編輯自訂詳細資料]**&#x200B;圖示。
+1. 按一下結構。
 
 ![熒幕擷圖顯示編輯程式的自訂詳細資料](assets/program_edit.png){zoomable="yes"}
+
+1. 按一下&#x200B;**[!UICONTROL 熒幕版本]**&#x200B;按鈕。
+
+   ![](assets/program_edit2.png){zoomable="yes"}
 
 設定自訂選項：
 

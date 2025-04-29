@@ -2,10 +2,10 @@
 title: 使用結構描述
 description: 瞭解如何使用結構描述。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 24%
+source-wordcount: '513'
+ht-degree: 21%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="使用結構描述"
->abstract="現在您可以在清單中選取結構描述的名稱來存取其詳細資料。您也可以透過「**編輯自訂詳細資料**」按鈕存取自訂欄位版本。"
+>abstract="現在您可以在清單中選取結構描述的名稱來存取其詳細資料。自訂欄位版本也可從&#x200B;**熒幕版本**&#x200B;按鈕存取。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]
@@ -37,7 +37,7 @@ ht-degree: 24%
 
 Adobe Campaign中的每個實體都有專屬的結構描述，以確保資料一致性和組織。
 
-結構描述的詳細資訊可在[Campaign主控台檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}中取得。
+有關綱要的詳細資訊，請參閱[Campaign主控台檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
 
 ## 在網頁使用者介面中存取綱要 {#access}
 
@@ -73,8 +73,10 @@ Adobe Campaign中的每個實體都有專屬的結構描述，以確保資料一
 
 自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。
 
-自訂欄位可顯示在各種畫面中，例如Campaign網頁介面中的設定檔詳細資料。 您可以控制哪些欄位可見，以及它們在介面中的顯示方式。 若要這麼做，請按一下&#x200B;**[!UICONTROL 結構描述]**&#x200B;功能表中的&#x200B;**[!UICONTROL 編輯自訂詳細資料]**&#x200B;按鈕。
+自訂欄位可顯示在各種畫面中，例如Campaign網頁介面中的設定檔詳細資料。 您可以控制哪些欄位可見，以及它們在介面中的顯示方式。 若要這麼做，請按一下&#x200B;**[!UICONTROL 結構描述]**&#x200B;功能表中的&#x200B;**[!UICONTROL 熒幕版本]**&#x200B;按鈕。
 
 ![顯示可編輯屬性的自訂欄位畫面](assets/schemas-custom.png)
+
+按一下&#x200B;**[!UICONTROL 預覽]**，在範例畫面中顯示自訂欄位。
 
 如需如何在結構描述中編輯自訂欄位的詳細資訊，請參閱本節： [設定自訂欄位](../administration/custom-fields.md)。

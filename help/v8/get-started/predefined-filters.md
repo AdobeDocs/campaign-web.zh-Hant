@@ -2,10 +2,10 @@
 title: 使用預先定義的篩選器
 description: 了解如何在 Adobe Campaign Web 中建立和管理預先定義的篩選器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '785'
-ht-degree: 100%
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,11 @@ ht-degree: 100%
 >id="acw_predefined-filters-dashboard"
 >title="預先定義的篩選器"
 >abstract="Campaign Web 使用者介面提供簡單易用的介面，能輕鬆管理和自訂預先定義的篩選器，以符合您的特定需求。建立一次並儲存以供未來使用。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="建立警報標準"
+>abstract="您可以從「客戶管理>預先定義的篩選器」功能表，建立自己的傳遞篩選器。"
 
 預先定義的篩選器是建立並儲存供將來使用的自訂篩選器。在使用查詢建模器進行篩選操作時，這些篩選器可用作捷徑。例如，在篩選資料清單或建立傳遞的客群時可以使用這些篩選器。
 

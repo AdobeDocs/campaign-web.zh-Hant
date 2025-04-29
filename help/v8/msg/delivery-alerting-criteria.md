@@ -3,10 +3,10 @@ audience: end-user
 title: 傳遞警報
 description: 瞭解如何使用傳送警報。
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 7b78b6d710fa88be1be60f514b2fe8219bd04d75
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 26%
+source-wordcount: '712'
+ht-degree: 24%
 
 ---
 
@@ -61,11 +61,6 @@ Campaign Web使用者介面中提供預先定義的警示准則。 這些條件�
 >title="條件頻率"
 >abstract="控制達到此條件的傳遞，其每天的提醒頻率。"
 
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="建立警報標準"
->abstract="若要建立您自己的傳遞篩選器，請在 Campaign v8 主控台中，透「**管理**」>「**設定**」>「**預先定義的篩選器**」節點建立新的預先定義篩選器。"
-
 若要建立新條件，請遵循下列步驟：
 
 1. 導覽至左側導覽窗格中的&#x200B;**傳送警報**&#x200B;功能表，然後選取&#x200B;**條件**&#x200B;標籤。
@@ -79,7 +74,7 @@ Campaign Web使用者介面中提供預先定義的警示准則。 這些條件�
 
    >[!NOTE]
    >
-   >如果沒有符合您需求的預先定義篩選器，請聯絡您的管理員以建立您自己的篩選器。 有關如何在Campaign主控台中建立預先定義篩選器的詳細資訊，請參閱[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}。
+   >如果沒有任何預先定義的篩選器符合您的需求，您可以從&#x200B;**客戶管理** > **預先定義的篩選器**&#x200B;功能表建立自己的篩選器。 [閱讀更多](../get-started/predefined-filters.md)
    >
    >這項作業只能由進階使用者執行。
 

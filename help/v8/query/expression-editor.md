@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 37%
+source-wordcount: '2192'
+ht-degree: 36%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 37%
 
 編輯運算式需要手動輸入條件以形成規則。 此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位和排序。
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >下節提供如何使用運算式編輯器建立規則的資訊。 請記住，用來建置規則的語法與用來新增個人化的語法不同。
+
+>[!IMPORTANT]
+>
+>有一個全新的查詢建模器介面可供使用，若要切換至這個新的規則產生器體驗，請按一下右上角的切換按鈕。 您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。 您可以在此新介面中套用與查詢建模程式相同的原則。
+>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
 
 ## 使用運算式編輯器 {#edit}
 
@@ -25,7 +30,7 @@ ht-degree: 37%
 
 | 從&#x200B;**屬性**&#x200B;欄位存取 | 從&#x200B;**值**&#x200B;欄位存取 |
 | --- | --- |
-| ![運算式編輯器屬性欄位](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的 | ![運算式編輯器值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的 |
+| 屬性欄位](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 | 值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 |
 
 運算式編輯器提供：
 
@@ -41,7 +46,17 @@ ht-degree: 37%
 
 下列範例顯示為&#x200B;**[!UICONTROL 值]**&#x200B;欄位設定的運算式。 若要編輯它，請使用&#x200B;**[!UICONTROL 編輯運算式]**&#x200B;按鈕開啟運算式編輯器。
 
+>[!BEGINTABS]
+
+>[!TAB 傳統查詢模型工具]
+
 ![編輯值欄位](assets/edit-expression-value.png){zoomable="yes"}的運算式範例
+
+>[!TAB 新規則產生器]
+
+![編輯值欄位](assets/ruleb-12.png){zoomable="yes"}的運算式範例
+
+>[!ENDTABS]
 
 ## 協助程式功能
 

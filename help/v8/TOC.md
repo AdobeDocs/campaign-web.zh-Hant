@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 99%
+source-wordcount: '823'
+ht-degree: 97%
 
 ---
 
@@ -68,6 +68,9 @@ ht-degree: 99%
       + [建立新的直接郵件傳遞](direct-mail/create-direct-mail.md)
       + [設計摘取檔案](direct-mail/content-direct-mail.md)
       + [預覽並發送直接郵件傳遞](direct-mail/send-direct-mail.md)
+   + 客服中心 {#call-center}
+      + [開始使用客服中心傳遞](call-center/gs-call-center.md)
+      + [建立並傳送客服中心傳遞](call-center/create-call-center.md)
    + 交易型訊息 {#transactional-messages}
       + [開始使用交易型訊息](transactional-messaging/transactional.md)
       + [建立交易型訊息](transactional-messaging/create-transactional.md)

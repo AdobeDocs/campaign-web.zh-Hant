@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用客群
 description: 瞭解如何在Adobe Campaign Web中使用對象
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 26%
+source-wordcount: '388'
+ht-degree: 25%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 26%
   ➡️ [在影片中探索此功能](#video)
 
 若要取得對象的其他資訊，請從清單中將其開啟。 畫面會顯示對象屬性，以及對象中包含的設定檔數量。 隨時使用&#x200B;**[!UICONTROL 計算]**&#x200B;按鈕重新整理對象計數。
+
+若要預覽對象的暫存結構描述，請按一下「屬性」區段下的&#x200B;**[!UICONTROL 結構描述預覽]**&#x200B;按鈕。
 
 **[!UICONTROL 資料]**&#x200B;索引標籤可讓您以視覺化方式呈現屬於對象的設定檔。 新增其他欄或使用進階篩選器來調整顯示的資料，以自訂此檢視。
 

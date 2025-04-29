@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 662b5e6c041b9caa90ac78f1a2ff60bfb9af6101
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 97%
+ht-degree: 94%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 97%
 >[!BEGINTABS]
 
 
->[!TAB 2025 年 2 月發行版本]
+>[!TAB 2025年4月發行版本]
 
-2 月版現已上線，其中包括業務規則、目標對應和更多改良功能。
+4月版本現已上線，包括商業規則、目標對應及更多改善專案。
 
 [![了解更多按鈕](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

@@ -3,16 +3,21 @@ audience: end-user
 title: 篩選清單
 description: 瞭解如何使用內建和自訂篩選器來篩選Adobe Campaign網路清單。
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
 # 篩選清單 {#filter-lists}
 
 Adobe Campaign Web在每個物件清單中提供篩選器，可讓您根據特定的內容條件篩選資訊。 例如，您可以根據傳送的狀態、頻道、聯絡日期或資料夾來篩選傳送。 您也可以隱藏校樣。
+
+>[!IMPORTANT]
+>
+>可以使用全新的查詢建模器介面。 全新的規則產生器擁有簡化的介面，讓您更輕鬆地建立查詢。 若要切換至此體驗，請按一下右上角的切換按鈕。 您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。 您可以在此新介面中套用與查詢建模程式相同的原則。
+>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
 
 ## 套用篩選器 {#apply}
 

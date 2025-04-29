@@ -3,10 +3,10 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2310'
-ht-degree: 9%
+source-wordcount: '2780'
+ht-degree: 7%
 
 ---
 
@@ -15,19 +15,48 @@ ht-degree: 9%
 
 若要開始建立查詢，請根據您要執行的動作，從您選擇的位置存取查詢建模器。 查詢建模器會以空白畫布開啟。 按一下&#x200B;**+**&#x200B;按鈕，設定查詢的第一個節點。
 
+>[!IMPORTANT]
+>
+>可以使用全新的查詢建模器介面。 全新的規則產生器擁有簡化的介面，讓您更輕鬆地建立查詢。 若要切換至此體驗，請按一下右上角的切換按鈕。 您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。 您可以在此新介面中套用與查詢建模程式相同的原則。
+>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
+
 您可以新增兩種型別的元素：
 
 * **篩選元件** （自訂條件、選取對象、預先定義的篩選器）可讓您建立自己的規則、選取對象，或使用預先定義的篩選器來縮小查詢範圍。 它們會新增在查詢的開頭和虛線轉變上。 [瞭解如何使用篩選元件](#filtering)
 
   範例： *訂閱了&#39;Sports&#39;電子報的收件者*、*住在紐約的收件者*、*住在舊金山的收件者*
 
-  ![新增篩選元件至查詢的範例。](assets/query-add-component.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB 傳統查詢模型工具]
+
+![新增篩選元件至查詢的範例。](assets/query-add-component.png){zoomable="yes"}
+
+
+>[!TAB 新規則產生器]
+
+![新增篩選元件至查詢的範例。](assets/ruleb-1.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+
 
 * **群組運運算元** (AND、OR、EXCEPT)可讓您將圖表中的篩選元件分組。 它們會在篩選元件之前新增到現有轉變上。 [瞭解如何使用運運算元](#filtering)
 
-  範例： *訂閱了「運動」電子報&#x200B;**和**的收件者，他們住在紐約&#x200B;**或**舊金山*。
+  範例： *超級VIP **和** VIP的收件者，可獎勵&#x200B;**或** VIP示範，**EXCEPT** 21歲或以上（含）的收件者。
 
-  ![描述：將群組運運算元新增至查詢的範例。](assets/query-add-operator.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB 傳統查詢模型工具]
+
+![描述：將群組運運算元新增至查詢的範例。](assets/ruleb-13.png){zoomable="yes"}
+
+>[!TAB 新規則產生器]
+
+![新增篩選元件至查詢的範例。](assets/ruleb-14.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 
 ## 查詢中的數值分佈 {#distribution-values-query}
 
@@ -41,7 +70,7 @@ ht-degree: 9%
 >
 >* 對於具有許多值的欄位，只會顯示前20個值。 在這種情況下，通知&#x200B;**[!UICONTROL 部分載入]**&#x200B;會警告您。
 >* 每個屬性選擇器中都可以存取&#x200B;**[!UICONTROL 值分佈]**&#x200B;選項。 [瞭解如何選取屬性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[!A進階篩選器]**&#x200B;在結果上新增條件。 [如需更多詳情，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[!A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 新增篩選元件 {#filtering}
 
@@ -99,11 +128,31 @@ ht-degree: 9%
 
    *傳回21歲或以上所有設定檔的查詢範例：*
 
-   ![以年齡為21歲或以上的設定檔為目標的查詢範例。](assets/query-custom-condition.png){zoomable="yes"}
+>[!BEGINTABS]
 
-   對於日期型別屬性，預先定義的值可使用&#x200B;**[!UICONTROL 預設集]**&#x200B;選項。
+>[!TAB 傳統查詢模型工具]
 
-   ![在查詢中使用日期預設集的範例。](assets/date-presets.png){zoomable="yes"}
+![以年齡為21歲或以上的設定檔為目標的查詢範例。](assets/query-custom-condition.png){zoomable="yes"}
+
+>[!TAB 新規則產生器]
+
+![以年齡為21歲或以上的設定檔為目標的查詢範例。](assets/ruleb-3.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+對於日期型別屬性，預先定義的值可使用&#x200B;**[!UICONTROL 預設集]**&#x200B;選項。
+
+>[!BEGINTABS]
+
+>[!TAB 傳統查詢模型工具]
+
+![在查詢中使用日期預設集的範例。](assets/date-presets.png){zoomable="yes"}
+
+>[!TAB 新規則產生器]
+
+![在查詢中使用日期預設集的範例。](assets/ruleb-4.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 #### 連結表格的自訂條件（1-1和1-N連結）{#links}
 
@@ -165,7 +214,17 @@ ht-degree: 9%
 
 1. 在屬性窗格中，開啟&#x200B;**彙總資料**&#x200B;選項並選取所需的彙總函式。
 
-   ![彙總資料選項的熒幕擷圖](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+>[!BEGINTABS]
+
+>[!TAB 傳統查詢模型工具]
+
+![彙總資料選項的熒幕擷圖](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!TAB 新規則產生器]
+
+![彙總資料選項的熒幕擷圖](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!ENDTABS]
 
 ### 選取客群 {#audiences}
 
@@ -176,6 +235,10 @@ ht-degree: 9%
 
 若要使用現有對象篩選查詢，請執行下列步驟：
 
+>[!BEGINTABS]
+
+>[!TAB 傳統查詢模型工具]
+
 1. 按一下所需節點上的&#x200B;**+**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 選取對象]**。
 
 1. **選取對象**&#x200B;屬性窗格會在右側開啟。 選擇您要用來篩選查詢的對象。
@@ -183,6 +246,18 @@ ht-degree: 9%
    *查詢範例，傳回所有屬於「節日出席者」對象的設定檔：*
 
    ![查詢範例的Screenshof](assets/query-audience.png){zoomable="yes"}
+
+>[!TAB 新規則產生器]
+
+1. 按一下&#x200B;**[!UICONTROL 新增條件]**&#x200B;按鈕旁的&#x200B;**展開**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 選取對象]**。
+
+1. **選取對象**&#x200B;屬性窗格會在右側開啟。 選擇您要用來篩選查詢的對象。
+
+   *查詢範例，傳回屬於「Coffee Works」對象的所有設定檔：*
+
+   ![查詢範例的Screenshof](assets/ruleb-7.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ### 使用預先定義的篩選器 {#predefined-filters}
 
@@ -193,6 +268,10 @@ ht-degree: 9%
 
 若要使用預先定義的篩選器來篩選查詢，請執行下列步驟：
 
+>[!BEGINTABS]
+
+>[!TAB 傳統查詢模型工具]
+
 1. 按一下所需節點上的&#x200B;**+**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 預先定義的篩選器]**。
 
 1. **預先定義的篩選器**&#x200B;屬性窗格會在右側開啟。 從自訂篩選器清單或我的最愛選取預先定義的篩選器。
@@ -201,6 +280,18 @@ ht-degree: 9%
 
    ![查詢範例的熒幕擷圖](assets/query-predefined-filter.png){zoomable="yes"}
 
+>[!TAB 新規則產生器]
+
+1. 按一下&#x200B;**[!UICONTROL 新增條件]**&#x200B;按鈕旁的&#x200B;**展開**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 預先定義的篩選器]**。
+
+1. **預先定義的篩選器**&#x200B;屬性窗格會在右側開啟。 從自訂篩選器清單或我的最愛選取預先定義的篩選器。
+
+   *查詢範例，傳回與「非使用中客戶」預先定義篩選器對應的所有設定檔：*
+
+   ![查詢範例的熒幕擷圖](assets/ruleb-8.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 ### 複製貼上元件 {#copy}
 
 查詢建模器可讓您複製一個或多個篩選元件，並在轉變結束時貼上這些元件。 此操作可在目前查詢畫布內執行，或在您執行個體內的任何畫布中執行。
@@ -208,6 +299,11 @@ ht-degree: 9%
 >[!NOTE]
 >
 >只要您正在執行個體中工作，就會保留複製的選取範圍。 如果您登出並重新登入，您的選取範圍將無法再用於貼上。
+
+>[!IMPORTANT]
+>
+>目前無法複製和貼上新規則產生器體驗中的元件。 若要依照這些後續步驟進行，請按一下頂端的&#x200B;**[!UICONTROL 回到傳統體驗]**&#x200B;切換按鈕，以使用傳統查詢模型工具。
+
 
 若要複製貼上篩選元件，請執行下列步驟：
 
@@ -232,7 +328,11 @@ ht-degree: 9%
 
 每次將新的篩選元件新增到查詢時，它都會由&#x200B;**AND**&#x200B;運運算元自動連結到另一個元件。 這表示兩個篩選元件的結果會合併。
 
-在此範例中，我們在第二個轉變中新增了對象型別的篩選元件。 元件連結到具有&#x200B;**AND**&#x200B;運運算元的預先定義篩選條件，這表示查詢結果包含以「Madridians」預先定義篩選器為目標的收件者，且屬於「折扣獵手」對象。
+在此範例中，我們在第二個轉變中新增了對象型別的篩選元件。 元件連結至具有&#x200B;**AND**&#x200B;運運算元的預先定義篩選條件，這表示查詢結果包含「電子報訂閱者 — 馬德里」預先定義篩選器鎖定的收件者，且屬於「購買者（所有時間）」對象。
+
+>[!BEGINTABS]
+
+>[!TAB 傳統查詢模型工具]
 
 ![查詢範例](assets/query-operator.png){zoomable="yes"}
 
@@ -246,11 +346,37 @@ ht-degree: 9%
 
 ![查詢範例](assets/query-operator-change.png){zoomable="yes"}
 
-此外，您可以按一下轉變上的&#x200B;**+**&#x200B;按鈕，以建立中繼元件群組。 這可讓您在此特定位置新增運運算元，以將多個元件分組在一起，並調整查詢。
+此外，您可以將元件分組到相同群組中，並將它們連結在一起，以建立中繼元件群組。 如此一來，預設會放入AND運運算元，然後您可以將其變更為所需的運運算元。
+
+>[!TAB 新規則產生器]
+
+![查詢範例](assets/ruleb-9.png){zoomable="yes"}
+
+若要變更用來將篩選條件連結在一起的運運算元，請按一下該運運算元，它將會變更為「或」、「除外」，然後變更回「與」，並選取所需的運運算元。
+
+可用的運運算元包括：
+
+* **AND （交集）**：結合符合出站轉變中所有篩選元件的結果。
+* **OR （聯集）**：包含至少符合出站轉變中一個篩選元件的結果。
+* **EXCEPT （排除）**：排除符合出站轉變中所有篩選元件的結果。
+
+![查詢範例](assets/ruleb-10.gif){zoomable="yes"}
+
+>[!ENDTABS]
 
 在下列範例中，我們已建立中繼群組以包含「要獎勵的VIP」或「超級VIP」對象的結果。
 
+>[!BEGINTABS]
+
+>[!TAB 傳統查詢模型工具]
+
 ![查詢範例](assets/query-intermediate-group.png){zoomable="yes"}
+
+>[!TAB 新規則產生器]
+
+![新規則產生器中的查詢範例](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## 檢查並驗證您的查詢
 
@@ -272,7 +398,19 @@ ht-degree: 9%
 
 當您的查詢準備就緒時，請按一下右上角的&#x200B;**[!UICONTROL 確認]**&#x200B;按鈕以儲存查詢。
 
+
+>[!BEGINTABS]
+
+>[!TAB 傳統查詢模型工具]
+
 您可以隨時透過開啟查詢來修改查詢。 請記住，開啟現有查詢時，它會顯示於簡化檢視中，而沒有&#x200B;**+**&#x200B;按鈕的可見度。 若要新增元素至查詢，請在畫布上選取元件或運運算元以顯示&#x200B;**+**&#x200B;按鈕。
 
 ![查詢範例](assets/edit-audience.png){zoomable="yes"}
 
+>[!TAB 新規則產生器]
+
+您可以隨時透過開啟查詢來修改查詢，若要這樣做，請按一下左上角的&#x200B;**[!UICONTROL 新增條件]**&#x200B;按鈕。
+
+![新規則產生器中的查詢範例](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]

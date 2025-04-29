@@ -2,10 +2,10 @@
 title: 連線至 Adobe Campaign Web 介面
 description: 了解如何連線至 Adobe Campaign Web 使用者介面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: ht
-source-wordcount: '884'
-ht-degree: 100%
+source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
+workflow-type: tm+mt
+source-wordcount: '919'
+ht-degree: 97%
 
 ---
 
@@ -123,6 +123,14 @@ Adobe Campaign Web 目前提供以下語言版本：
 * 韓文 - KR
 * 簡體中文 - CHS
 * 繁體中文 - CHT
+
+此外，特定地區設定的格式（例如日期、時間、行事曆、數字）也可能以使用者介面支援的語言變體提供：
+
+* 英文 (以色列)
+* 英文 (英國)
+* 西班牙文 (墨西哥)
+* 西班牙文 (拉丁美洲)
+* 法文 (加拿大)
 
 Campaign Web 的預設語言是由您的使用者個人檔案中指定的偏好語言所決定。那與您的 Campaign 伺服器和用戶端控制台的語言無關。
 

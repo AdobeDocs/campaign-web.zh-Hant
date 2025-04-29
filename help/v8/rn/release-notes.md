@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 589d78737a498ffe91cb49a6f689f4104b244d0b
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 96%
+source-wordcount: '681'
+ht-degree: 34%
 
 ---
 
@@ -16,30 +16,31 @@ ht-degree: 96%
 >title="發行說明"
 >abstract="Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，Campaign 發行說明每月更新數次，提供最新功能、改進和修正。我們建議您定期檢查。"
 
-Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，能以具有擴充性且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新多次。請定期查看。
+Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，這些發行說明每月會更新多次。請定期進行檢查。
 
-先前版本的可使用變更和改良功能列於[此頁面](release-notes-24.md)。
+舊版可用的變更和改善專案列於[2024](release-notes-24.md)和[2025](release-notes-25.md)。
 
-## 2025 年 2 月發行版本 {#25-2-release}
+## 2025年4月發行 {#25-4-release}
 
-**發行日期**：2025 年 2 月 18 日
+**發行日期**： 2025年4月29日
 
-以下功能和改良功能將從 2 月版開始提供。
 
-### 功能 {#25-2-features}
+### 新功能 {#25-4-features}
+
+從 4 月版本開始，所有使用者都可以使用以下功能。
 
 <table>
 <thead>
 <tr>
-<th><strong>建立業務規則 (類型規則)</strong><br/></th>
+<th><strong>呼叫中心管道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在 Adobe Campaign Web 使用者介面中建立類型和類型規則。類型可以控制、篩選及優先處理傳遞內容的傳送。類型會驗證傳遞是否始終包含強制元件 (例如取消訂閱連結或主旨列)，或者從您客群中排除某些群組 (例如取消訂閱者、競爭者或非忠誠客戶) 的篩選規則。</p>
-<img src="assets/do-not-localize/typology.gif" alt="在 Adobe Campaign Web 使用者介面中建立類型規則的插圖">
-<p>如需詳細資訊，請參閱<a href="../administration/typologies.md">詳細說明文件</a>。</p>
+<p>客服中心頻道現在可在Campaign網頁使用者介面中使用。 此管道是指用於管理和追蹤透過呼叫中心處理的通訊或互動的通訊方法，通常是由代理對客戶或潛在客戶進行的電話。</p>
+<img src="assets/do-not-localize/call-center.gif">
+<p>如需詳細資訊，請參閱<a href="../call-center/gs-call-center.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -48,15 +49,15 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，能�
 <table>
 <thead>
 <tr>
-<th><strong>目標對應</strong><br/></th>
+<th><strong>新增規則產生器</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在您可以在 Campaign Web 使用者介面中建立目標對應。目標對應定義了不同的傳遞管道 (電子郵件、簡訊、推播通知) 如何連結到結構描述的資料欄位。目標對應會定義目標客群：輪廓、合約受益人、操作者、訂閱者、潛在客戶及其他。</p>
-<img src="assets/do-not-localize/target-mapping.gif" alt="在 Adobe Campaign Web 使用者介面中建立目標對應的插圖">
-<p>如需詳細資訊，請參閱<a href="../administration/target-mappings.md">詳細說明文件</a>。</p>
+<p>現在有新的規則產生器可用，以協助您在改良的使用者介面中定義複雜條件。 您可以視需要從舊規則產生器切換到新規則產生器。</p>
+<img src="assets/do-not-localize/rule-builder-release.gif">
+<p>如需詳細資訊，請參閱<a href="../query/query-modeler-overview.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -65,138 +66,56 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，能�
 <table>
 <thead>
 <tr>
-<th><strong>結構描述詳細資料</strong><br/></th>
+<th><strong>外部帳戶編寫</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在您可以在清單中選取結構描述的名稱來存取其詳細資料。現在可以透過結構描述詳細資料中的「<b>編輯自訂欄位</b>」按鈕存取自訂欄位編輯功能。</p>
-<img src="assets/do-not-localize/schemas.gif" alt="在 Adobe Campaign Web 使用者介面中的結構描述詳細資料和自訂欄位編輯的插圖">
-<p>如需詳細資訊，請參閱<a href="../administration/schemas.md">詳細說明文件</a>。</p>
+<p>身為Campaign管理員，您現在可以從Campaign Web使用者介面設定與外部系統的新連線。
+您也可以檢視、更新及管理現有的外部帳戶。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## 2025 年 1 月版 {#25-1-release}
+### 改良功能 {#25-4-improvements}
 
-**發行日期**：2025 年 2 月 5 日
+**一般介面改善**
 
-以下功能和改良功能將從 1 月版開始提供。
+* 結構描述屬性的「欄位」說明、「新增至我的最愛」和「值分佈」選項現在可更加顯示在使用者介面中。 如需詳細資訊，請參閱[詳細說明文件](../get-started/attributes.md)。
+* 在介面中，現在會根據Experience League偏好設定中設定的主要語言顯示日期和時間。 這項改善僅適用於數種語言。 若要檢視支援語言的完整清單，請參閱[詳細檔案](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}。
 
-### 功能 {#25-1-features}
+<!--
+ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
+ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
+-->
 
-<table>
-<thead>
-<tr>
-<th><strong>建立並使用視覺片段</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>視覺片段是預先定義的視覺區塊，可在多個電子郵件傳遞或內容範本中重複使用。此功能現已可供所有執行伺服器版本 8.6.4 及以上的客戶使用。</p>
-<img src="assets/do-not-localize/visual-fragment.gif" alt="在 Adobe Campaign Web 使用者介面中建立和使用視覺片段的插圖">
-<p>如需詳細資訊，請參閱<a href="../content/use-visual-fragments.md">詳細說明文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
+**電子郵件編輯器**：為了增強Campaign Web UI的協助工具，電子郵件Designer現在提供兩個新欄位：它們對應至您電子郵件內容`html`元素中的`title`元素和lang屬性。 除了電子郵件內文區段的「預覽文字」欄位外，您還可以定義這些設定。
 
-<table>
-<thead>
-<tr>
-<th><strong>使用第三方系統來傳送傳遞</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以在 Campaign Web 介面中定義外部傳遞和外部傳遞範本。在此模式中，訊息會編譯成一個輸出檔案，該檔案可以與您的外部提供者共用。依據預設，外部傳遞模式是用於直接郵件管道。</p>
-<img src="assets/do-not-localize/external-delivery.gif" alt="在 Adobe Campaign Web 使用者介面中設定外部傳遞的插圖">
-<p>如需詳細資訊，請參閱<a href="../msg/send-external-deliveries.md">詳細說明文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
+<!--
+**Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
+-->
 
-<table>
-<thead>
-<tr>
-<th><strong>管理您的列舉</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以直接透過 Adobe Campaign Web 使用者介面建立列舉。列舉是系統建議填入欄位的值清單。使用分項清單來標準化這些欄位的值、協助資料輸入，或在查詢中使用。</p>
-<img src="assets/do-not-localize/enumerations.gif" alt="在 Adobe Campaign Web 使用者介面中管理分項清單的插圖">
-<p>如需詳細資訊，請參閱<a href="../administration/enumerations.md">詳細說明文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
+**結構描述**
 
-<table>
-<thead>
-<tr>
-<th><strong>建立自訂選項</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以在 Adobe Campaign Web 使用者介面中存取技術選項，並建立自己的自訂選項來滿足您的需求。在使用 JavaScript 程式碼工作流程活動來儲存中間資料時，這特別有用。</p>
-<img src="assets/do-not-localize/options.gif" alt="在 Adobe Campaign Web 使用者介面中建立自訂選項的插圖">
-<p>如需詳細資訊，請參閱<a href="../administration/options.md">詳細說明文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
+* 您現在可以從Campaign網頁使用者介面編輯清單的暫時綱要。 如需詳細資訊，請參閱[詳細說明文件](../audience/manage-audience.md)。
+* 您現在可以在範例畫面中預覽結構的自訂欄位。 如需詳細資訊，請參閱[詳細說明文件](../administration/custom-fields.md#add)。
+* 您現在可以使用拖放來移動清單中的自訂欄位。 如需詳細資訊，請參閱[詳細說明文件](../administration/custom-fields.md#add)。
 
-<table>
-<thead>
-<tr>
-<th><strong>定義及呼叫 JavaScript 程式碼</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以在 Adobe Campaign Web 使用者介面中建立 JavaScript 程式碼。這樣您便能夠建立可以跨工作流程使用的可重複使用函數，類似於程式庫。</p>
-<img src="assets/do-not-localize/javascript.gif" alt="在 Adobe Campaign Web 使用者介面中建立 JavaScript 程式碼的插圖">
-<p>如需詳細資訊，請參閱<a href="../administration/javascript-codes.md">詳細說明文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>使用AI助理產生登陸頁面</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI Assistant現在可用於您的登入頁面傳送，讓您產生文字、影像或完整頁面配置。</p>
-<img src="assets/do-not-localize/ai-lp.gif" alt="在 Adobe Campaign Web 使用者介面中使用 AI 助理產生登陸頁面的插圖">
-<p>如需有關 AI 助理的詳細資訊，請參閱<a href="../email/generative-lp.md">詳細說明文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
+### 限量開放版本中的新功能 {#25-4-features-la}
 
-### 改良功能 {#25-1-improvements}
+>[!AVAILABILITY]
+>
+>以下功能為限量開放 (LA) 版本。這些環境僅限於將&#x200B;**從Adobe Campaign Standard移轉至Adobe Campaign v8**&#x200B;的客戶，無法部署在任何其他環境中。 這些要求將Campaign伺服器升級至v8.7.4。
+>
+>請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-hant)」。
 
-* 自訂介面中自訂欄位的顯示：
-   * 選取要在介面中顯示的其他自訂欄位。
-   * 設定用於顯示連結類型自訂欄位的規則，例如根據另一個欄位的輸入來限制清單值。
-   * 更靈活地排列介面中的欄位：欄位可以跨越單一資料欄或分組為子區段，方便組織整理。
-   * 將特定欄位設為唯讀。
+* **建立多語言傳遞** — 您現在可以在Adobe Campaign網頁使用者介面中以不同語言傳送多封電子郵件。 多語言傳送功能可讓您選擇傳送的預設語言，以及傳送傳送時所使用的不同語言。 您也可以使用所選的語言預覽這些傳送。 如需詳細資訊，請參閱[詳細說明文件](../email/edit-content.md)。
 
-* 最近使用和最愛篩選器：將常用屬性新增至最愛，便於快速存取。除了最愛之外，還可以檢視和使用最近選取的屬性。
+* **多語言的動態報告** — 多語言電子郵件傳遞現在可使用動態報告。 如需詳細資訊，請參閱[詳細說明文件](../reporting/global-reports.md)。
 
-* 外部帳戶：建立新的外部帳戶時，有全新&#x200B;**[!UICONTROL 路由]**&#x200B;類型可供選擇。此帳戶允許您設定一個特定的外部帳戶，可供外部傳遞使用。[了解更多](../administration/external-account.md#routing)。
+* **SMS REST API支援(LA)** — 異動訊息REST API現在可用於SMS頻道。 當電子郵件和行動電話都出現在有效負載中時，您可以使用「widedChannel」欄位來指定頻道。 如果未提供，則預設會使用電子郵件，除非widedChannel明確要求SMS。 如需詳細資訊，請參閱[詳細說明文件](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}。
+

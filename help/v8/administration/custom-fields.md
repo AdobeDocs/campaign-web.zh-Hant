@@ -2,10 +2,10 @@
 title: 自訂欄位
 description: 瞭解如何設定自訂欄位，以及這些欄位在介面中的可見度。
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 22%
+source-wordcount: '988'
+ht-degree: 23%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="編輯自訂詳細資訊"
+>title="畫面版本"
 >abstract="在介面中顯示的所有自訂欄位根據選取的結構描述顯示。您可以使用向上鍵和向下鍵來變更其在介面中的顯示順序，並透過新增分隔符號將欄位分組到子區段中。若要刪除自訂欄位或編輯可見度條件等設定，請按一下省略符號按鈕。"
 
 >[!CONTEXTUALHELP]
@@ -70,15 +70,19 @@ ht-degree: 22%
 
    ![在導覽窗格中顯示[結構描述]功能表與[可編輯]篩選器的熒幕擷圖](assets/custom-fields-open.png)
 
-1. 在清單中選取結構描述名稱以開啟它。 詳細結構檢視隨即顯示。 [進一步瞭解結構描述詳細資料](../administration/schemas.md)。 按一下&#x200B;**[!UICONTROL 編輯自訂詳細資料]**&#x200B;按鈕以存取自訂欄位。 在此範例中，已為&#x200B;**[!UICONTROL 收件者]**&#x200B;結構描述新增欄位。
+1. 在清單中選取結構描述名稱以開啟它。 詳細結構檢視隨即顯示。 [進一步瞭解結構描述詳細資料](../administration/schemas.md)。 按一下&#x200B;**[!UICONTROL 熒幕版本]**&#x200B;按鈕以存取自訂欄位。 在此範例中，已為&#x200B;**[!UICONTROL 收件者]**&#x200B;結構描述新增欄位。
 
-   ![在結構描述檢視中顯示[編輯自訂詳細資訊]按鈕的熒幕擷圖](assets/custom-fields-edit.png)
+   ![在結構描述檢視中顯示熒幕定義按鈕的熒幕擷圖](assets/custom-fields-edit.png)
 
-1. 隨即顯示架構介面中所顯示的自訂欄位清單。 在此處，「CRM ID」欄位會顯示在設定檔的詳細資訊畫面中，並已標籤為必要。
+   隨即顯示架構介面中所顯示的自訂欄位清單。
 
-   | 自訂欄位設定 | 在介面中轉譯 |
-   |  ---  |  ---  |
-   | ![熒幕擷圖顯示自訂欄位設定](assets/custom-fields-detail.png){zoomable="yes"} | ![顯示介面中CRM ID欄位演算的熒幕擷圖](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+1. 按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;按鈕，在範例畫面中顯示自訂欄位。
+
+   ![](assets/custom-fields-edit2.png)
+
+   在此處，「金額」欄位已標籤為必要。
+
+   ![](assets/custom-fields-edit3.png)
 
 1. 若要新增自訂欄位至介面，請按一下省略符號按鈕，然後選擇下列其中一個選項：
 
@@ -89,7 +93,7 @@ ht-degree: 22%
 
 1. 新增自訂欄位後，您可以：
 
-   * **重新排序欄位**：使用向上鍵和向下鍵。
+   * **重新排序欄位**：使用上下箭頭，或使用拖放方式來移動欄位。
    * **將欄位設為必要**：選取&#x200B;**必要**&#x200B;核取方塊。
    * **編輯欄位設定**：按一下省略符號按鈕，然後選擇&#x200B;**[!UICONTROL 編輯]**。 [了解更多](#settings)
    * **刪除欄位**：按一下省略符號按鈕，然後選擇&#x200B;**[!UICONTROL 刪除]**。
