@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 開始使用客服中心傳遞
+title: 開始使用客服中心頻道
 description: 瞭解如何使用Adobe Campaign網路建立並傳送客服中心傳遞
-source-git-commit: 86f45da9787e1c5835dcd9b3b2f232c3240c0bd4
+exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
+source-git-commit: 053b2b16552543f6fc241d15bff60c0164ad20b0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '191'
 ht-degree: 5%
 
 ---
 
-
-# 開始使用客服中心郵件傳遞 {#gs-call-center}
+# 開始使用客服中心頻道 {#gs-call-center}
 
 客服中心管道可讓您直接從Adobe Campaign網路UI匯出目標連絡人清單，以用於對外電話促銷活動。 使用它來協調透過內部團隊或外部聯絡中心的來電。
 
