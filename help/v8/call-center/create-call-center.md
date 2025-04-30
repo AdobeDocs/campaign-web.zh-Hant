@@ -2,9 +2,10 @@
 audience: end-user
 title: 建立呼叫中心傳遞
 description: 瞭解如何使用Adobe Campaign網路建立客服中心傳遞
-source-git-commit: 0721d20ddec3271d9fac5f5645bd5865380ef9ba
+exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
+source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 3%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 3%
 若要建立並傳送新的獨立客服中心傳遞，請遵循下列主要步驟：
 
 1. 建立傳遞，[瞭解詳情](#create-delivery)
-1. 選取對象，[瞭解詳情](#select-audience)
+1. 定義對象，[瞭解詳情](#select-audience)
 1. 編輯內容，[瞭解詳情](#edit-content)
 1. 預覽並傳送傳遞，[瞭解詳情](#preview-send)
 
@@ -42,7 +43,7 @@ ht-degree: 3%
 >
 >您可以排程在特定日期傳送您的傳遞。 如需詳細資訊，請參閱本[區段](../msg/gs-deliveries.md#gs-schedule)。
 
-## 選取客群{#select-audience}
+## 定義客群{#select-audience}
 
 現在，您需要定義擷取檔案的目標對象。
 
@@ -65,7 +66,7 @@ ht-degree: 3%
 
 ## 編輯內容{#edit-content}
 
-現在，讓我們設計呼叫中心傳遞產生的擷取檔案內容。
+現在，讓我們編輯呼叫中心傳遞產生的擷取檔案內容。
 
 1. 從傳遞頁面，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕。
 
@@ -101,7 +102,7 @@ ht-degree: 3%
 
 預覽和傳送解壓縮檔案的主要步驟如下。 [此頁面](../direct-mail/send-direct-mail.md)中有更多詳細資料。
 
-1. 從傳遞內容頁面，使用&#x200B;**[!UICONTROL 模擬內容]**。
+1. 從傳遞內容頁面，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
 
    ![在傳遞內容頁面中顯示模擬內容選項的熒幕擷圖](assets/cc-simulate0.png){zoomable="yes"}
 
@@ -124,5 +125,3 @@ ht-degree: 3%
 從您的傳遞頁面追蹤您的KPI （關鍵績效指標）資料，並從&#x200B;**[!UICONTROL 記錄檔]**&#x200B;功能表追蹤資料。
 
 開始使用內建報告測量訊息的影響。 [了解更多](../reporting/direct-mail.md)
-
-
