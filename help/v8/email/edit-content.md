@@ -129,7 +129,7 @@ ht-degree: 21%
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL 新增語言]**&#x200B;按鈕只有在目標維度包含語言結構描述時才可用。 若要進一步瞭解結構描述和Target維度，請參閱[詳細檔案](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}。
+   >**[!UICONTROL 新增語言]**&#x200B;按鈕只有在目標維度包含語言結構描述時才可用。 若要進一步瞭解結構描述和Target維度，請參閱[詳細檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}。
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ ht-degree: 21%
 
    >[!NOTE]
    >
-   >此清單提供的語言取決於語言屬性所定義的值（例如：system、user、dbenum等） 在此[區段](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}中進一步瞭解列舉管理。
+   >此清單提供的語言取決於語言屬性所定義的值（例如：system、user、dbenum等） 在此[區段](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/conf/enumerations){target=_blank}中進一步瞭解列舉管理。
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

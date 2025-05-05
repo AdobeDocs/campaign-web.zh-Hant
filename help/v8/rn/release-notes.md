@@ -85,7 +85,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 **一般介面改善**
 
 * 結構描述屬性的「欄位」說明、「新增至我的最愛」和「值分佈」選項現在可更加顯示在使用者介面中。 如需詳細資訊，請參閱[詳細說明文件](../get-started/attributes.md)。
-* 在介面中，現在會根據Experience League偏好設定中設定的主要語言顯示日期和時間。 這項改善僅適用於數種語言。 若要檢視支援語言的完整清單，請參閱[詳細檔案](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}。
+* 在介面中，現在會根據Experience League偏好設定中設定的主要語言顯示日期和時間。 這項改善僅適用於數種語言。 若要檢視支援語言的完整清單，請參閱[詳細檔案](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/browser-language){target=_blank}。
 
 <!--
 ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
@@ -117,5 +117,5 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **多語言的動態報告** — 多語言電子郵件傳遞現在可使用動態報告。 如需詳細資訊，請參閱[詳細說明文件](../reporting/global-reports.md)。
 
-* **SMS REST API支援(LA)** — 異動訊息REST API現在可用於SMS頻道。 當電子郵件和行動電話都出現在有效負載中時，您可以使用「widedChannel」欄位來指定頻道。 如果未提供，則預設會使用電子郵件，除非widedChannel明確要求SMS。 如需詳細資訊，請參閱[詳細說明文件](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}。
+* **SMS REST API支援(LA)** — 異動訊息REST API現在可用於SMS頻道。 當電子郵件和行動電話都出現在有效負載中時，您可以使用「widedChannel」欄位來指定頻道。 如果未提供，則預設會使用電子郵件，除非widedChannel明確要求SMS。 如需詳細資訊，請參閱[詳細說明文件](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}。
 

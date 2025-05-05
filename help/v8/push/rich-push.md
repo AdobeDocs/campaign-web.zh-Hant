@@ -21,7 +21,7 @@ ht-degree: 3%
 >
 >* 此功能需要更新到 Campaign v8.6.3 <!--or v8.7.2-->。如需詳細資訊，請參閱 Campaign v8 用戶端控制台[發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
 >
->* 在設計豐富推送通知之前，您必須先設定V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}。
+>* 在設計豐富推送通知之前，您必須先設定V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}。
 
 
 使用Firebase Cloud Messaging時，您可以選擇兩種型別的訊息：

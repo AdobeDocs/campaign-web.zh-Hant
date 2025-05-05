@@ -30,7 +30,7 @@ ht-degree: 14%
 
 ![目標對應清單畫面顯示可用的對應](assets/target-mappings-list.png)
 
-如需Adobe Campaign隨附的內建目標對應詳細資訊，請參閱[Campaign v8使用者端主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
+如需Adobe Campaign隨附的內建目標對應詳細資訊，請參閱[Campaign v8使用者端主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hant){target="_blank"}。
 
 ## 建立目標對應 {#create-mapping}
 

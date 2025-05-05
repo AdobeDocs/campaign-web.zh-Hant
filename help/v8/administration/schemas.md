@@ -37,7 +37,7 @@ ht-degree: 21%
 
 Adobe Campaign中的每個實體都有專屬的結構描述，以確保資料一致性和組織。
 
-有關綱要的詳細資訊，請參閱[Campaign主控台檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
+有關綱要的詳細資訊，請參閱[Campaign主控台檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
 
 ## 在網頁使用者介面中存取綱要 {#access}
 
