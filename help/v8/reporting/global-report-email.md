@@ -131,7 +131,7 @@ ht-degree: 24%
 
 ![每個型別量度的錯誤劃分](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
-每個型別&#x200B;]**資料表與圖表的**[!UICONTROL &#x200B;錯誤劃分會顯示與不同網域中可能發生的錯誤相關的資料，具體量度如下。
+每個型別&#x200B;**資料表與圖表的**&#x200B;錯誤劃分會顯示與不同網域中可能發生的錯誤相關的資料，具體量度如下。
 
 此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -162,7 +162,7 @@ ht-degree: 24%
 
 ![每個網域量度的錯誤劃分](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
-每個網域&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分可顯示與每個網域中潛在錯誤相關的資料。 量度通常與上面詳述的每種型別&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分有關。
+每個網域&#x200B;**資料表和圖表的**&#x200B;[!UICONTROL &#x200B;錯誤劃分可顯示與每個網域中潛在錯誤相關的資料。 量度通常與上面詳述的每種型別&#x200B;]&#x200B;**資料表和圖表的**&#x200B;錯誤劃分有關。
 
 ## 追蹤指標 {#tracking-indicators-email}
 

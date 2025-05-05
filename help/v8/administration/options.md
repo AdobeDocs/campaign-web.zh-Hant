@@ -23,7 +23,8 @@ ht-degree: 5%
 
 Adobe Campaign網頁版包含技術選項，可讓您更明確地設定應用程式。 這些選項中有些是內建的，有些則可視需要手動新增。
 
->[!IMPORTANT]\
+>[!IMPORTANT]
+>\
 >內建選項已預先設定，僅供進階使用者修改。 如果您有任何問題或請求，請聯絡您的Adobe代表。
 
 ## 存取Campaign選項 {#access}
@@ -33,7 +34,8 @@ Adobe Campaign網頁版包含技術選項，可讓您更明確地設定應用程
 ![](assets/options-list.png)\
 [選項清單顯示在[管理] / [選項]功能表中]
 
->[!NOTE]\
+>[!NOTE]
+>\
 >雖然選項功能表位置在Adobe Campaign主控台和Web使用者介面之間有所不同，但清單仍相同，而且就像映象一樣運作。 如需可用選項的詳細資訊，請參閱[Campaign v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}中的選項清單。
 
 從選項清單中，您可以：

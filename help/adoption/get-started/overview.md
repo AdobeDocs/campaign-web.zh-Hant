@@ -19,7 +19,7 @@ ht-degree: 29%
 
 1. 首先瞭解[Adobe Campaign v8](#new)的新增功能。
 
-1. 接下來，根據您的角色](#experiences)，瞭解Adobe Campaign Standard與Adobe Campaign v8之間的[體驗差異。
+1. 接下來，根據您的角色[&#128279;](#experiences)，瞭解Adobe Campaign Standard與Adobe Campaign v8之間的體驗差異。
 
 ## 新增功能 {#new}
 
