@@ -2,20 +2,14 @@
 title: 使用結構描述
 description: 瞭解如何使用結構描述。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 21%
+source-wordcount: '479'
+ht-degree: 18%
 
 ---
 
 # 使用結構描述 {#schemas}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="使用結構描述"
->abstract="現在您可以在清單中選取結構描述的名稱來存取其詳細資料。自訂欄位版本也可從&#x200B;**熒幕版本**&#x200B;按鈕存取。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
@@ -37,7 +31,7 @@ ht-degree: 21%
 
 Adobe Campaign中的每個實體都有專屬的結構描述，以確保資料一致性和組織。
 
-有關綱要的詳細資訊，請參閱[Campaign主控台檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
+有關綱要的詳細資訊，請參閱[Campaign主控台檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
 
 ## 在網頁使用者介面中存取綱要 {#access}
 

@@ -2,20 +2,14 @@
 title: 管理列舉
 description: 瞭解如何使用分項清單
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 27%
+source-wordcount: '640'
+ht-degree: 23%
 
 ---
 
 # 管理列舉 {#enumerations}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="建立列舉"
->abstract="您現在可以直接透過 Adobe Campaign Web 使用者介面建立列舉。列舉是系統建議可以填入欄位的一組數值。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"

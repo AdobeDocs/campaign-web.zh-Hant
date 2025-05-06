@@ -3,20 +3,14 @@ audience: end-user
 title: 具有AI助理的登陸頁面
 description: 開始使用AI助理
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1463'
 ht-degree: 1%
 
 ---
 
-# 使用AI助理產生登陸頁面{#generative-lp}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="使用 AI 產生登陸頁面"
->abstract="您現在可以使用AI Assistant建立您的登入頁面傳送，讓您產生文字、影像或完整頁面配置。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
+# 使用 AI 助理產生登陸頁面{#generative-lp}
 
 >[!IMPORTANT]
 >
@@ -37,7 +31,7 @@ ht-degree: 1%
 
 在以下範例中，瞭解如何運用AI助理來調整現有的登入頁面範本。
 
-1. 建立及設定您的登入頁面後，請按一下[編輯內容]。**&#x200B;**
+1. 建立及設定您的登入頁面後，請按一下[編輯內容]。****
 
    如需如何設定登入頁面的詳細資訊，請參閱[此頁面](../landing-pages/create-lp.md)。
 
@@ -76,7 +70,7 @@ ht-degree: 1%
 
    ![顯示品牌資產功能表的熒幕擷圖。](assets/lp_full_gen_5.png){zoomable="yes"}
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**，然後按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本。
 
@@ -99,7 +93,7 @@ ht-degree: 1%
 
 在以下範例中，瞭解如何運用AI助理來增強登入頁面的內容。
 
-1. 建立及設定您的登入頁面後，請按一下[編輯內容]。**&#x200B;**
+1. 建立及設定您的登入頁面後，請按一下[編輯內容]。****
 
    如需如何設定登入頁面的詳細資訊，請參閱[此頁面](../landing-pages/create-lp.md)。
 
@@ -129,7 +123,7 @@ ht-degree: 1%
 
    ![顯示品牌資產功能表的熒幕擷圖。](assets/lp-text-genai-4.png){zoomable="yes"}
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**，然後按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本。
 
@@ -155,7 +149,7 @@ ht-degree: 1%
 
 在以下範例中，瞭解如何運用AI Assistant來最佳化和改善您的資產，確保更方便使用者的體驗。
 
-1. 建立及設定您的登入頁面後，請按一下[編輯內容]。**&#x200B;**
+1. 建立及設定您的登入頁面後，請按一下[編輯內容]。****
 
    如需如何設定登入頁面的詳細資訊，請參閱[此頁面](../landing-pages/create-lp.md)。
 
@@ -188,7 +182,7 @@ ht-degree: 1%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 切換您要納入產生程式的資產。
 
-1. 在您滿意提示組態之後，請按一下[產生]。**&#x200B;**
+1. 在您滿意提示組態之後，請按一下[產生]。****
 
 1. 瀏覽&#x200B;**[!UICONTROL 變數建議]**&#x200B;以尋找所需的資產。
 
