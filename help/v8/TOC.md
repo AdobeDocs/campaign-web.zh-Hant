@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '822'
+ht-degree: 100%
 
 ---
 
@@ -68,9 +68,9 @@ ht-degree: 0%
       + [建立新的直接郵件傳遞](direct-mail/create-direct-mail.md)
       + [設計摘取檔案](direct-mail/content-direct-mail.md)
       + [預覽並發送直接郵件傳遞](direct-mail/send-direct-mail.md)
-   + 客服中心 {#call-center}
-      + [開始使用客服中心傳遞](call-center/gs-call-center.md)
-      + [建立並傳送客服中心傳遞](call-center/create-call-center.md)
+   + 呼叫中心 {#call-center}
+      + [開始使用呼叫中心傳遞](call-center/gs-call-center.md)
+      + [建立和傳送呼叫中心傳遞](call-center/create-call-center.md)
    + 交易型訊息 {#transactional-messages}
       + [開始使用交易型訊息](transactional-messaging/transactional.md)
       + [建立交易型訊息](transactional-messaging/create-transactional.md)
@@ -121,7 +121,7 @@ ht-degree: 0%
          + [定義連結樣式](email/styling-links.md)
          + [新增內嵌樣式屬性](email/inline-styling.md)
    + AI 助理 {#ai-assistant}
-      + [使用AI助理](email/generative-gs.md)
+      + [使用 AI 助理](email/generative-gs.md)
       + [使用 AI 產生電子郵件](email/generative-content.md)
       + [使用 AI 產生簡訊](email/generative-sms.md)
       + [使用 AI 產生推播通知](email/generative-push.md)

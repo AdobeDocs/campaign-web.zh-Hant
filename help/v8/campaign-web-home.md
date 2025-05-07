@@ -4,9 +4,9 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 93%
 >[!BEGINTABS]
 
 
->[!TAB 2025年4月發行版本]
+>[!TAB 2025 年 4 月版]
 
-4月版本現已上線，包括客服中心管道、新的規則產生器及更多改善專案。
+4 月版現已上線，其中包括呼叫中心管道、新的規則產生器以及更多改進。
 
 [![了解更多按鈕](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -63,7 +63,7 @@ ht-degree: 93%
 
 ✨ 透過我們的 [AI 助理](../v8/email/generative-gs.md)即時功能預覽，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。
 
-[![深入瞭解按鈕](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![了解更多按鈕](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 常見問答集]
 
@@ -132,5 +132,5 @@ ht-degree: 93%
 
 ## 額外資源
 
-* [Adobe Campaign產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-hant){target="_blank"}
+* [Adobe Campaign 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign v8 文件](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-hant){target="_blank"}
