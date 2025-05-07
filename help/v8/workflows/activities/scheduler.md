@@ -3,7 +3,7 @@ audience: end-user
 title: 使用排程器工作流程活動
 description: 瞭解如何使用排程器工作流程活動
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: 058a9347329b35e49463b7d74bffa5b3c69b4a92
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 24%
@@ -61,7 +61,6 @@ ht-degree: 24%
    * **有效期間**：工作流程會根據指定的頻率執行，直到特定日期為止。 指定開始和結束日期。
 
 >[!NOTE]
->\
 >若要立即啟動工作流程，請按一下排程器頂端動作列中的&#x200B;**執行擱置中的工作**。 此按鈕僅在工作流程啟動後才能使用。
 
 ## 範例 {#scheduler-example}
