@@ -3,7 +3,7 @@ title: 使用預先定義的篩選器
 description: 了解如何在 Adobe Campaign Web 中建立和管理預先定義的篩選器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
 

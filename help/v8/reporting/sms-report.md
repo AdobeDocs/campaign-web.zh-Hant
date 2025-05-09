@@ -26,7 +26,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS 傳遞概觀"
->abstract="**SMS 傳遞概觀** 呈現 SMS 傳遞的全面概觀，提供廣泛的深入解析和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
+>abstract="**SMS 傳遞概觀** 呈現 SMS 傳遞的全面概觀，提供廣泛的深入見解和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
 
 **[!UICONTROL 傳遞總覽]**&#x200B;報告提供關鍵績效指標(KPI)，可提供成功和錯誤率的詳細資訊，以及訪客如何與您的SMS訊息互動。
 
@@ -89,7 +89,7 @@ ht-degree: 32%
 >title="SMS 排除項目"
 >abstract="**「排除」**&#x200B;圖表和表格顯示多種原因，禁止從目標設定檔中排除的使用者設定檔接收訊息。"
 
-**[!UICONTROL 排除專案]**&#x200B;圖表和表格會顯示使用者設定檔無法接收訊息的原因，這些設定檔已從目標設定檔中排除。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#sms-quarantines){_blank}中有詳細說明。
+**[!UICONTROL 排除專案]**&#x200B;圖表和表格會顯示使用者設定檔無法接收訊息的原因，這些設定檔已從目標設定檔中排除。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}中有詳細說明。
 
 ![說明：此影像顯示排除專案圖表和表格，詳細說明拒絕使用者設定檔接收訊息的原因。](assets/reporting_sms_6.png){zoomable="yes"}
 
