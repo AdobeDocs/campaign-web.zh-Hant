@@ -2,10 +2,14 @@
 audience: end-user
 title: 探索介面
 description: Adobe Campaign Web 使用者介面
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '1548'
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+workflow-type: tm+mt
+source-wordcount: '1521'
 ht-degree: 100%
 
 ---
@@ -156,7 +160,7 @@ Campaign 首頁讓您能夠快速輕鬆地瀏覽關鍵資源、指標和元件�
 
 * **結構描述**：自訂欄位是透過 Adobe Campaign 主控台新增至現成可用之結構描述的附加屬性。[了解更多](../administration/custom-fields.md)。
 
-* **傳遞提醒**：傳遞提醒是一種警報管理系統，可讓使用者群組自動接收包含其傳遞執行資訊的電子郵件通知。[了解更多](../msg/delivery-alerting.md)。
+<!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 
 ## 了解更多 {#learn-more}
 

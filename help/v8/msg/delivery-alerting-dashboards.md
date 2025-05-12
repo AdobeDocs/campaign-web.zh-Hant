@@ -2,8 +2,12 @@
 audience: end-user
 title: 傳遞警報
 description: 瞭解如何使用傳送警報。
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 22%
@@ -77,7 +81,7 @@ ht-degree: 22%
    * **最小預期輸送量（以每小時傳送的訊息數表示）**：只有輸送量低於指定值的傳遞才會考慮輸送量低的傳遞條件。
    * **「進行中的傳遞」條件所需的最小處理比例**：只考慮處理訊息百分比高於指定百分比的傳遞。
 
-   +++
++++
 
 1. 預設會停用警示儀表板，這表示連結至此儀表板的電子郵件警示不會傳送。 若要立即啟用儀表板，請切換警示群組選擇欄位旁邊&#x200B;**一般**&#x200B;區段中的&#x200B;**已啟用**&#x200B;選項。
 

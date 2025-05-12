@@ -2,8 +2,12 @@
 audience: end-user
 title: 傳遞警報
 description: 瞭解如何使用傳送警報。
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -16,7 +20,7 @@ ht-degree: 2%
 
 通知是根據透過Adobe Campaign Web使用者介面定義的特定警報條件而自訂。
 
-如需管理傳送失敗的詳細資訊，請參閱[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}。
+如需管理傳送失敗的詳細資訊，請參閱[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}。
 
 ## 電子郵件通知內容 {#content}
 

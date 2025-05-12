@@ -2,8 +2,12 @@
 audience: end-user
 title: 傳遞警報
 description: 瞭解如何使用傳送警報。
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 7b78b6d710fa88be1be60f514b2fe8219bd04d75
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 24%
@@ -39,7 +43,7 @@ Campaign Web使用者介面中提供預先定義的警示准則。 這些條件�
 >
 >預設值會套用至上述條件的所有引數。 這些值可以在傳送警示控制面板的&#x200B;**條件引數**&#x200B;區段中自訂，這些引數正在使用中。 [瞭解如何使用儀表板](../msg/delivery-alerting-dashboards.md)
 
-## 建立警報標準 {#criteria}
+## 建立警報條件 {#criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
