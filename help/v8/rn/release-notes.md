@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e825b7859bff299906725eddf3ba014ed0b5e1b7
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
+workflow-type: tm+mt
+source-wordcount: '737'
+ht-degree: 94%
 
 ---
 
@@ -20,10 +20,28 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 中列出了先前版本可用的變更和改進。
 
+## 2025年5月更新 {#25-5-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>品牌一致性分數(Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>品牌一致性分數功能可直接在電子郵件設計工具中提供清楚的意見回饋，協助您檢視內容是否與品牌的語調、風格和指導方針一致。 Beta提供此功能。</p>
+<p>如需詳細資訊，請參閱<a href="../content/brands-score.md">詳細說明文件</a>。</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 2025 年 4 月版 {#25-4-release}
 
 **發行日期**：2025 年 4 月 29 日
-
 
 ### 新功能 {#25-4-features}
 
@@ -111,7 +129,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >以下功能為限量開放 (LA) 版本。僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。這些功能需要將 Campaign 伺服器升級到 v8.7.4。
 >
->請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hant)」。
+>請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html)」。
 
 * **建立多語言傳遞** - 您現在可以在 Adobe Campaign Web 使用者介面中，使用不同語言傳送多個電子郵件傳遞。多語言傳遞功能可讓您選擇傳遞的預設語言，以及可以傳送傳遞的不同語言。您也可以使用您選擇的語言來預覽這些傳遞。如需詳細資訊，請參閱[詳細說明文件](../email/edit-content.md)。
 
