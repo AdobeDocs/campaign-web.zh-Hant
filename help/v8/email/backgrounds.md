@@ -3,7 +3,7 @@ audience: end-user
 title: 個人化您的電子郵件背景
 description: 了解如何個人化您的電子郵件背景
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: bf5bfdf94748c526e18adf8687ef5dd12c67f655
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 44%
@@ -41,7 +41,6 @@ ht-degree: 44%
   ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >請勿設定檢視區背景顏色，因為它可能會隱藏結構背景顏色。
 
 * 為結構元件的內容設定&#x200B;**[!UICONTROL 背景影像]**。
@@ -50,7 +49,6 @@ ht-degree: 44%
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >某些電子郵件程式不支援背景影像。若不支援，則改用列背景顏色。 選取適當的後援背景顏色，以防影像無法顯示。
 
 * 在欄層級設定背景顏色。
@@ -59,7 +57,6 @@ ht-degree: 44%
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >這是最常見的使用案例。Adobe建議在欄層級設定背景顏色，因為在編輯整個電子郵件內容時，這可提供更大的彈性。
 
   您也可以在欄層級設定背景影像，但這很少使用。
