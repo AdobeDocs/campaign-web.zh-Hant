@@ -6,7 +6,7 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 17%
+ht-degree: 22%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="新增規則產生器"
+>title="全新的規則產生器"
 >abstract="您現在可以使用新的規則產生器，協助您在改進的使用者介面中定義複雜的條件。您可以視需要從舊的規則產生器切換到新的規則產生器。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
@@ -69,7 +69,7 @@ Adobe Campaign Web使用者介面具有查詢建模工具，可簡化根據各�
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="新的規則產生器體驗"
->abstract="使用此切換在Classic Query Modeler和New rule Builder體驗之間切換。 全新的規則產生器擁有簡化且直覺式的介面，讓您更輕鬆地建立查詢。"
+>abstract="使用此切換功能，可在傳統查詢建模工具和新的規則產生器體驗之間切換。新的規則產生器具有簡化且直覺的介面，可讓您更輕鬆地建置查詢。"
 
 ![顯示查詢模組介面的影像](assets/query-interface.png){zoomable="yes"}
 

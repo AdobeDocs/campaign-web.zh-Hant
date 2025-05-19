@@ -6,7 +6,7 @@ exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="呼叫中心管道"
->abstract="呼叫中心管道現在已可在 Campaign Web 使用者介面中使用。此管道是指用於管理和追蹤透過呼叫中心處理的通訊的通訊方法。"
+>title="客服中心管道"
+>abstract="呼叫中心管道現在已可在 Campaign Web 使用者介面中使用。此管道是指用於管理和追蹤透過客服中心處理之通訊的通訊方法。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
 
 透過呼叫中心管道，您可以直接從 Adobe Campaign Web 使用者介面中匯出用於傳出電話行銷活動的目標聯絡人清單。用它來協調透過內部團隊或外部聯絡中心的呼叫。

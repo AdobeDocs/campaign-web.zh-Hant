@@ -6,7 +6,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_type"
 >title="篩選"
->abstract=" 有兩種型別規則可供使用： <br/><br/>**控制**&#x200B;規則可確保訊息品質和預先傳送的有效性，例如字元顯示、簡訊長度、位址格式或URL縮短。 <br/><br/>**篩選**&#x200B;規則，此規則會根據特定條件（例如年齡、地點、國家/地區或電話號碼）排除目標對象的區段。"
+>abstract=" 有兩種類型規則可用：<br/><br/>**控制**&#x200B;規則，確保傳送前的訊息品質和有效性，例如字元顯示、簡訊長度、地址格式或 URL 縮短。<br/><br/>**篩選**&#x200B;規則會根據特定標準 (例如年齡、地點、國家或電話號碼) 來排除目標客群區段。"
 
 ## 關於型別
 
@@ -40,7 +40,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->**[!UICONTROL 型別規則]**&#x200B;清單會顯示目前在Web使用者介面或使用者端主控台中建立的所有現有規則。 不過，在Web使用者介面中只能建立&#x200B;**控制**&#x200B;和&#x200B;**篩選**&#x200B;規則。 若要建立其他型別的型別規則，例如壓力或容量規則，請使用Campaign v8使用者端主控台。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL 型別規則]**&#x200B;清單會顯示目前在Web使用者介面或使用者端主控台中建立的所有現有規則。 不過，在Web使用者介面中只能建立&#x200B;**控制**&#x200B;和&#x200B;**篩選**&#x200B;規則。 若要建立其他型別的型別規則，例如壓力或容量規則，請使用Campaign v8使用者端主控台。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 將型別套用至訊息的主要步驟如下：
 
@@ -108,7 +108,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >目前只能從Web使用者介面建立&#x200B;**控制**&#x200B;與&#x200B;**篩選**&#x200B;型別規則。 若要建立其他型別的規則，請使用「使用者端主控台」。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+   >目前只能從Web使用者介面建立&#x200B;**控制**&#x200B;與&#x200B;**篩選**&#x200B;型別規則。 若要建立其他型別的規則，請使用「使用者端主控台」。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. 選取要與規則關聯的&#x200B;**[!UICONTROL 管道]**。
 
@@ -134,7 +134,7 @@ ht-degree: 23%
 
    **[!UICONTROL 在分析結束時]**：套用需要完整訊息個人化的檢查。
 
-   +++
++++
 
    * **[!UICONTROL 層級]**：指定規則的警示層級。 展開以下區段以取得詳細資訊。
 
@@ -148,7 +148,7 @@ ht-degree: 23%
 
    **[!UICONTROL 詳細資訊]**：顯示伺服器記錄檔中的資訊。
 
-   +++
++++
 
 ### 建置規則內容 {#build}
 
