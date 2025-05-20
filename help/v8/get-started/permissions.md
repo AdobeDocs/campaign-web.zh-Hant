@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 使用者介面中的權限管理
 description: 深入了解 Campaign Web 使用者介面的權限
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 80%
 
 ---
 
@@ -37,6 +37,12 @@ Adobe Campaign 中的每位使用者在應用程式中都有特定權限和限�
 您可以直接按一下該權限，並將其變更為「**[!UICONTROL 已允許]**」或「**[!UICONTROL 已拒絕]**」。
 
 ![資料夾安全性設定中拒絕權限的範例](assets/folder_security_denied.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>您應該無法建立物件，因為您沒有至少一個具有寫入許可權的資料夾。
+>
+>您不需要是管理員就能建立片段，但您必須擁有至少一個「內容視覺片段」資料夾的寫入許可權。 否則，您將無法建立視覺化片段。
 
 如果啟用&#x200B;**[!UICONTROL 傳播]**&#x200B;選項，針對資料夾定義的所有權限都會套用至其所有的子資料夾。每個子資料夾都可以覆寫這些權限。
 

@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+source-git-commit: c47d0fd299d55520d66b08dd8bbfd2cc33e698cc
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '831'
 ht-degree: 99%
 
 ---
@@ -71,6 +71,7 @@ ht-degree: 99%
    + 呼叫中心 {#call-center}
       + [開始使用呼叫中心傳遞](call-center/gs-call-center.md)
       + [建立和傳送呼叫中心傳遞](call-center/create-call-center.md)
+   + [自訂外部管道](call-center/gs-custom-channel.md)
    + 交易型訊息 {#transactional-messages}
       + [開始使用交易型訊息](transactional-messaging/transactional.md)
       + [建立交易型訊息](transactional-messaging/create-transactional.md)
@@ -127,7 +128,7 @@ ht-degree: 99%
       + [使用 AI 產生推播通知](email/generative-push.md)
       + [使用 AI 的登陸頁面生成式內容](email/generative-lp.md)
       + [AI 助理使用案例](email/generative-uc.md)
-      + 品牌（測試版） {#ai-assistant}
+      + 品牌 (Beta) {#ai-assistant}
          + [建立和管理您的品牌](content/brands.md)
          + [評估您的品牌一致性分數](content/brands-score.md)
 + 登陸頁面 {#landing-pages}

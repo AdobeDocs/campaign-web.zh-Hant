@@ -3,14 +3,14 @@ audience: end-user
 title: 建立呼叫中心傳遞
 description: 瞭解如何使用Adobe Campaign網路建立客服中心傳遞
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
+source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 3%
+source-wordcount: '756'
+ht-degree: 4%
 
 ---
 
-# 建立並傳送客服中心傳遞 {#create-call-center}
+# 建立和傳送呼叫中心傳遞 {#create-call-center}
 
 您可以建立獨立的客服中心傳遞，或在行銷活動工作流程的內容中建立一個。 以下步驟詳細說明獨立（一次性）傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟將在[本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中詳細說明。
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 >
 >客服中心收件者必須至少包含其姓名和電話號碼。 所有資訊不完整的收件者都會從客服中心傳遞中排除。
 >
->若要瞭解如何設定控制群組，請參閱此[頁面](../audience/control-group.md)
+>若要瞭解如何設定控制群組，請參閱此[頁面](../audience/control-group.md)。
 
 ## 編輯內容{#edit-content}
 
@@ -72,7 +72,7 @@ ht-degree: 3%
 
    ![顯示呼叫中心傳遞內容編輯的熒幕擷圖](assets/cc-content0.png){zoomable="yes"}
 
-1. 指定&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄位。 若要瞭解如何個人化檔案名稱，請參閱此[頁面](../personalization/personalize.md)。
+1. 指定&#x200B;**[!UICONTROL 檔案名稱]**。 若要瞭解如何個人化檔案名稱，請參閱此[頁面](../personalization/personalize.md)。
 
 1. 選取&#x200B;**[!UICONTROL 檔案格式]**： **文字**、**使用固定寬度資料行的文字**、**CSV (Excel)**&#x200B;或&#x200B;**XML**。
 
@@ -120,7 +120,7 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**[!UICONTROL 傳送]**&#x200B;以繼續進行最後的傳送程式，然後確認。
 
-傳送傳遞後，擷取檔案會自動產生，並匯出至傳遞範本的[進階設定](../advanced-settings/delivery-settings.md)中所選&#x200B;**[!UICONTROL 路由]**&#x200B;外部帳戶中指定的位置。
+傳送傳遞後，擷取檔案會自動產生，並匯出至傳遞範本的[進階設定](../advanced-settings/delivery-settings.md)中所選&#x200B;**[!UICONTROL 路由]**&#x200B;外部帳戶中指定的位置。 您也可以按一下熒幕&#x200B;**內容**&#x200B;區段中的&#x200B;**預覽檔案**&#x200B;按鈕，預覽檔案。
 
 從您的傳遞頁面追蹤您的KPI （關鍵績效指標）資料，並從&#x200B;**[!UICONTROL 記錄檔]**&#x200B;功能表追蹤資料。
 

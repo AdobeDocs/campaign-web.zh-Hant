@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用呼叫中心管道
 description: 了解如何使用 Adobe Campaign Web 建立和傳送呼叫中心傳遞
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: ffd0075e79a94443df4a957ee4a72da37476b21b
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '267'
+ht-degree: 81%
 
 ---
 
@@ -14,15 +14,19 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="客服中心管道"
->abstract="呼叫中心管道現在已可在 Campaign Web 使用者介面中使用。此管道是指用於管理和追蹤透過客服中心處理之通訊的通訊方法。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
+>title="呼叫中心管道"
+>abstract="呼叫中心管道現在已可在 Campaign Web 使用者介面中取得。此管道是指用於管理和追蹤透過呼叫中心處理之通訊的通訊方法。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 透過呼叫中心管道，您可以直接從 Adobe Campaign Web 使用者介面中匯出用於傳出電話行銷活動的目標聯絡人清單。用它來協調透過內部團隊或外部聯絡中心的呼叫。
 
-您可以在工作流程中或作為獨立傳遞來設定呼叫傳遞、定義您的客群，並產生包含所有必要聯絡人和個人化資料的可自訂匯出檔案。
+您可以在工作流程中設定客服中心傳遞，或將其設定為獨立傳遞、定義對象，並使用所有必要的聯絡和個人化資料產生可自訂的匯出檔案。
 
 此管道非常適合商機的後續跟進、客戶保留呼叫或服務拓展，並有助於透過個人化的語音互動來擴展您的全管道策略。
+
+>[!NOTE]
+>
+>在呼叫中心頻道的網頁UI中無法使用報表。 您必須瀏覽至「使用者端主控台」才能存取報表。
 
 您可以透過下列其中一個方式來使用呼叫中心管道：
 
