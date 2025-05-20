@@ -2,7 +2,7 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ea6c38d4c640c15994035d96c7a05934cf22d04b
+source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 62%
