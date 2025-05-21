@@ -43,7 +43,7 @@ ht-degree: 6%
 
    ![電子郵件Designer中的已儲存範本索引標籤](assets/email_designer-saved-templates-tab.png){zoomable="yes"}
 
-1. 所有[儲存的範本](#save-as-template)的清單會顯示。您可以依名稱&#x200B;**、**&#x200B;[!UICONTROL &#x200B;上次修改時間&#x200B;]&#x200B;**和**&#x200B;[!UICONTROL &#x200B;上次建立時間&#x200B;]&#x200B;**來排序它們**。
+1. 所有[儲存的範本](#save-as-template)的清單會顯示。您可以依名稱&#x200B;]**、**[!UICONTROL &#x200B;上次修改時間&#x200B;]**和**[!UICONTROL &#x200B;上次建立時間&#x200B;]**來排序它們**[!UICONTROL 。
 
    ![電子郵件Designer中已儲存的範本清單](assets/email_designer-saved-templates.png){zoomable="yes"}
 

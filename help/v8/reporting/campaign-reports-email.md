@@ -83,7 +83,7 @@ ht-degree: 20%
 
 * **[!UICONTROL 新隔離]**：在傳送失敗（使用者不明、網域無效）之後被隔離的地址總數，與要傳送的訊息數目相關。
 
-  電子郵件錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#email-error-types){target="_blank"}中。
+  電子郵件錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
 
 +++
 
@@ -141,9 +141,9 @@ ht-degree: 20%
 >title="依類型的錯誤劃分"
 >abstract="**依類型的錯誤劃分**&#x200B;資料表和圖表包含發生的每個錯誤類型的可用資料：使用者未知、郵箱已滿、網域無效等。"
 
-每個型別&#x200B;**資料表和圖表的**&#x200B;錯誤劃分包含每個網域型別可能遇到的錯誤的可用資料。 量度詳情如下。
+每個型別&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分包含每個網域型別可能遇到的錯誤的可用資料。 量度詳情如下。
 
-此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hant){target="_blank"}。
+此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
 ![每個型別圖表和資料表的錯誤劃分熒幕擷圖](assets/campaign_report_email_6.png){zoomable="yes"}
 
@@ -172,7 +172,7 @@ ht-degree: 20%
 >title="依網域的錯誤劃分"
 >abstract="**依網域的錯誤劃分**&#x200B;資料表和圖表顯示根據每個網域發生的每個錯誤類型的可用資料。"
 
-每個網域&#x200B;**資料表和圖表的**&#x200B;[!UICONTROL &#x200B;錯誤劃分包含每個網域可能遇到的錯誤的可用資料。 量度通常與上面詳述的每種型別&#x200B;]&#x200B;**資料表和圖表的**&#x200B;錯誤劃分有關。
+每個網域&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分包含每個網域可能遇到的錯誤的可用資料。 量度通常與上面詳述的每種型別&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分有關。
 
 ## 追蹤指標 {#tracking-indicators-email}
 

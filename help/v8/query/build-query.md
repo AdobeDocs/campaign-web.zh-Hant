@@ -70,7 +70,7 @@ ht-degree: 7%
 >
 >* 對於具有許多值的欄位，只會顯示前20個值。 在這種情況下，通知&#x200B;**[!UICONTROL 部分載入]**&#x200B;會警告您。
 >* 每個屬性選擇器中都可以存取&#x200B;**[!UICONTROL 值分佈]**&#x200B;選項。 [瞭解如何選取屬性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[ !A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[!A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 新增篩選元件 {#filtering}
 
@@ -122,7 +122,7 @@ ht-degree: 7%
    | 類似 | 與Contains運運算元類似，它可讓您在值中插入%萬用字元。 | 姓氏(@lastName)類似&#39;Jon%s&#39;。 萬用字元可當做「小丑」來尋找「Jones」之類的名稱。 |
    | Not like | 與Contains運運算元類似，它可讓您在值中插入%萬用字元。 | 姓氏(@lastName)不像&#39;Smi%h&#39;。 不會傳回姓氏為&#39;Smith&#39;的收件者。 |
 
-   +++
++++
 
 1. 在&#x200B;**值**&#x200B;欄位中，定義預期的值。 您也可以使用Campaign網頁運算式編輯器，以使用資料庫和協助程式函式的欄位，手動定義運算式。 若要這麼做，請按一下&#x200B;**編輯運算式**&#x200B;按鈕。 [瞭解如何編輯運算式](expression-editor.md)
 

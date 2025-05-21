@@ -42,13 +42,13 @@ ht-degree: 13%
 
    根據訊息通道，校樣可以傳送給下列型別的收件者：
 
-   * 對於簡訊與電子郵件，您可以使用[測試設定檔](#test-profiles)，這些設定檔是資料庫中特定的其他收件者。 您也可以使用主要目標[&#128279;](#substitution-profiles)模式的替代，這會將證明傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
+   * 對於簡訊與電子郵件，您可以使用[測試設定檔](#test-profiles)，這些設定檔是資料庫中特定的其他收件者。 您也可以使用主要目標](#substitution-profiles)模式的[替代，這會將證明傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
 
-   * 對於推播訊息，您可以使用[訂閱者](#subscribers)，這是新增到資料庫的虛擬訂閱者。 已在[!DNL Campaign]主控台中建立。 深入瞭解[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=zh-Hant){target="_blank"}
+   * 對於推播訊息，您可以使用[訂閱者](#subscribers)，這是新增到資料庫的虛擬訂閱者。 已在[!DNL Campaign]主控台中建立。 深入瞭解[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    每種模式的詳細設定如下。
 
-## 使用測試設定檔 {#test-profiles}
+## 使用測試輪廓 {#test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
@@ -67,8 +67,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
->title="將測試設定檔納入主要對象"
->abstract="啟用此選項也可將最終訊息傳送給校訂收件者。"
+>title="將測試輪廓納入主要客群"
+>abstract="啟用此選項也可將最終訊息傳送給校樣收件者。"
 
 測試設定檔是資料庫中的其他收件者。 它們是從&#x200B;**[!UICONTROL 客戶管理]** > **[!UICONTROL 設定檔]**&#x200B;功能表建立的。 [了解更多](../audience/test-profiles.md#create-test-profiles)
 

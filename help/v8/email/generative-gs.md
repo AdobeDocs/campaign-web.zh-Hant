@@ -30,7 +30,7 @@ ht-degree: 21%
 
 >[!INFO]
 >
->透過[我們的即時功能預覽](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator)，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
+>透過[我們的即時功能預覽](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
 
 隨著行銷產業變得更具競爭力，品牌們開始尋求有效率的方式，以迅速產生具影響力的內容。 Adobe Campaign Web中的AI助理採用Microsoft Azure OpenAI和Adobe Firefly技術，是Adobe的AI內容產生功能，可轉變行銷人員如何跨電子郵件、簡訊和推播通知等管道建立專業且品牌一致的內容。 透過進階GenAI模型和對品牌指導方針的深入瞭解，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，針對品牌概述的樣式、版面、色調等最佳化內容。
 
@@ -69,7 +69,7 @@ AI Assistant可簡化跨管道（例如電子郵件、簡訊和推播通知）�
 * 使用[內建電子郵件範本](../email/create-email-templates.md)、品牌特定範本或自訂範本，以使用AI助理建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
 * 選擇變體時，使用向上縮圖、向下縮圖或標幟圖示，報告任何有問題的輸出。
 * 您使用AI助理須遵守Adobe Experience Cloud Generative AI使用者指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
-* 作為Adobe承諾在媒體建立中使用創作AI工具時提高透明度的其中一環，Adobe在下載或匯出內容或專案(包含Firefly產生的資產)時套用Content Credentials。 [了解更多](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)。
+* 作為Adobe承諾在媒體建立中使用創作AI工具時提高透明度的其中一環，Adobe在下載或匯出內容或專案(包含Firefly產生的資產)時套用Content Credentials。 [了解更多](https://helpx.adobe.com/firefly/using/content-credentials.html)。
 
 下列限制適用於Adobe Campaign Web中的AI助理：
 

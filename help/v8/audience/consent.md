@@ -24,7 +24,7 @@ Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。依照資�
 
 ## 管理選擇退出 {#opt-out}
 
-法律規定必須讓收件者能夠取消訂閱來自品牌的通訊。 也必須確保遵循此選擇。<!--Learn more about the applicable legislation in the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#privacy-regulations){target="_blank"}.-->
+法律規定必須讓收件者能夠取消訂閱來自品牌的通訊。 也必須確保遵循此選擇。<!--Learn more about the applicable legislation in the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#privacy-regulations){target="_blank"}.-->
 
 **為什麼這很重要？**
 
@@ -87,6 +87,6 @@ QUESTION: When a user marks an email as spam, is the profile's No longer contact
 >
 >The **[!UICONTROL Denylisted]** status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications.
 
-Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#feedback-loops){target="_blank"}.
+Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
-Learn more about quarantine in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=zh-Hant#non-deliverable-bounces){target="_blank"}.-->
+Learn more about quarantine in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html#non-deliverable-bounces){target="_blank"}.-->

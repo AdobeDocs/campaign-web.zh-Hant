@@ -26,7 +26,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在[本區段](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)的Campaign v8 （使用者端主控台）檔案中，有提供指令碼以及Adobe Campaign中公開之物件和變數的其他資訊。
+>在[本區段](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)的Campaign v8 （使用者端主控台）檔案中，有提供指令碼以及Adobe Campaign中公開之物件和變數的其他資訊。
 >
 >請注意，雖然此資源提供有價值的深入分析，但差異可能存在，因為其僅適用於使用者端主控台，而非Campaign Web使用者介面。
 

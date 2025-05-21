@@ -25,7 +25,7 @@ ht-degree: 1%
 
 若要存取[!DNL Adobe Campaign Web]中的&#x200B;**[!UICONTROL 品牌]**&#x200B;功能表，必須指派使用者&#x200B;**[!UICONTROL 管理員（管理員）]**&#x200B;和&#x200B;**[!UICONTROL 品牌套件]**&#x200B;產品設定檔，才能建立和管理品牌。 若為唯讀存取，使用者需要[!UICONTROL AI助理]產品設定檔。
 
-[了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[了解更多](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ 瞭解如何指派品牌相關許可權
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 1. 輸入您的使用者名稱、使用者群組或電子郵件地址。
 
-1. 按一下[儲存]以套用變更。**&#x200B;**
+1. 按一下[儲存]以套用變更。****
 
 已指派給此角色的使用者會自動更新其許可權。
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 1. 設定之後，按一下&#x200B;**[!UICONTROL 儲存]**，然後按一下&#x200B;**[!UICONTROL 發佈]**，讓您的品牌指引可在AI助理中取得。
 
-1. 若要修改您發佈的品牌，請按一下[編輯品牌]。**&#x200B;**
+1. 若要修改您發佈的品牌，請按一下[編輯品牌]。****
 
    >[!NOTE]
    >
@@ -246,7 +246,7 @@ ht-degree: 1%
 
 1. 從&#x200B;**[!UICONTROL 寫入樣式]**&#x200B;索引標籤，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增建議、例外或排除專案。
 
-1. 輸入您的建議、例外或排除專案，然後按一下[新增]。**&#x200B;**
+1. 輸入您的建議、例外或排除專案，然後按一下[新增]。****
 
    ![](assets/brands-3.png)
 
@@ -303,7 +303,7 @@ ht-degree: 1%
 
 1. 從&#x200B;**[!UICONTROL 視覺內容]**&#x200B;索引標籤，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增指引、排除專案或範例。
 
-1. 輸入您的建議、排除專案或範例，然後按一下[新增]。**&#x200B;**
+1. 輸入您的建議、排除專案或範例，然後按一下[新增]。****
 
    ![新增排除專案或範例按鈕](assets/brands-4.png)
 
