@@ -37,7 +37,7 @@ ht-degree: 1%
 1. 建立新的路由外部帳戶。
 1. 建立與新頻道關聯的新傳遞範本。
 
-如需詳細資訊，請參閱[使用者端主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
+如需詳細資訊，請參閱[使用者端主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=zh-Hant)
 
 ## 建立傳遞{#create-delivery}
 
