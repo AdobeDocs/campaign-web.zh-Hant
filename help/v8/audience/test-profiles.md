@@ -23,7 +23,7 @@ ht-degree: 14%
 
 ➡️ [在影片中探索此功能](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=zh-Hant){target="_blank"}.-->
 
 傳送校樣到測試設定檔的步驟在[本節](../preview-test/test-deliveries.md#test-profiles)中有詳細說明。
 
