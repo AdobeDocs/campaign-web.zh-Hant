@@ -51,7 +51,8 @@ ht-degree: 30%
    * **[!UICONTROL 傳遞代碼]**：使用您自己的命名慣例整理您的傳遞。
    * **[!UICONTROL 說明]**：提供傳遞的說明。
    * **[!UICONTROL 性質]**：指定傳遞的性質，以進行分類。
-+++
+
+   +++
 
 ## 選取您的推播傳遞對象 {#create-audience-push}
 
@@ -77,7 +78,7 @@ ht-degree: 30%
 
 ## 定義推播通知內容 {#create-content-push}
 
-若要定義通知的內容，請按一下[編輯內容]。**** [了解更多](content-push.md)。
+若要定義通知的內容，請按一下[編輯內容]。**&#x200B;** [了解更多](content-push.md)。
 
 ![熒幕擷圖顯示編輯推送傳遞的內容](assets/push_create_5.png){zoomable="yes"}
 
