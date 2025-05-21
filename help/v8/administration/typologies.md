@@ -16,7 +16,7 @@ ht-degree: 26%
 >id="acw_homepage_welcome_rn4"
 >title="業務規則"
 >abstract="您現在可以在 Adobe Campaign Web 使用者介面中建立類型和類型規則。您可以使用類型來控制、篩選及優先處理傳遞內容的傳送。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
@@ -40,7 +40,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->**[!UICONTROL 型別規則]**&#x200B;清單會顯示目前在Web使用者介面或使用者端主控台中建立的所有現有規則。 不過，在Web使用者介面中只能建立&#x200B;**控制**&#x200B;和&#x200B;**篩選**&#x200B;規則。 若要建立其他型別的型別規則，例如壓力或容量規則，請使用Campaign v8使用者端主控台。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL 型別規則]**&#x200B;清單會顯示目前在Web使用者介面或使用者端主控台中建立的所有現有規則。 不過，在Web使用者介面中只能建立&#x200B;**控制**&#x200B;和&#x200B;**篩選**&#x200B;規則。 若要建立其他型別的型別規則，例如壓力或容量規則，請使用Campaign v8使用者端主控台。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 將型別套用至訊息的主要步驟如下：
 
@@ -108,7 +108,7 @@ ht-degree: 26%
 
    >[!NOTE]
    >
-   >目前只能從Web使用者介面建立&#x200B;**控制**&#x200B;與&#x200B;**篩選**&#x200B;型別規則。 若要建立其他型別的規則，請使用「使用者端主控台」。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+   >目前只能從Web使用者介面建立&#x200B;**控制**&#x200B;與&#x200B;**篩選**&#x200B;型別規則。 若要建立其他型別的規則，請使用「使用者端主控台」。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. 選取要與規則關聯的&#x200B;**[!UICONTROL 管道]**。
 
@@ -134,7 +134,7 @@ ht-degree: 26%
 
    **[!UICONTROL 在分析結束時]**：套用需要完整訊息個人化的檢查。
 
-   +++
++++
 
    * **[!UICONTROL 層級]**：指定規則的警示層級。 展開以下區段以取得詳細資訊。
 
@@ -148,7 +148,7 @@ ht-degree: 26%
 
    **[!UICONTROL 詳細資訊]**：顯示伺服器記錄檔中的資訊。
 
-   +++
++++
 
 ### 建置規則內容 {#build}
 

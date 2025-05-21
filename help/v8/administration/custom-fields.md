@@ -43,7 +43,7 @@ ht-degree: 23%
 >title="屬性設定"
 >abstract="屬性設定"
 
-自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。 在[Adobe Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=zh-Hant){target="_blank"}中瞭解如何擴充結構描述。
+自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。 在[Adobe Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}中瞭解如何擴充結構描述。
 
 自訂欄位可顯示在各種畫面中，例如Campaign網頁介面中的設定檔詳細資料。 管理員可以控制哪些欄位可見，以及這些欄位的顯示方式。 這些變更會套用至所有Campaign使用者。
 
@@ -122,7 +122,7 @@ ht-degree: 23%
 
   ![熒幕擷圖顯示自訂欄位篩選設定範例](assets/custom-fields-ref.png)
 
-  +++
++++
 
 * **[!UICONTROL 跨越兩欄]**：根據預設，介面中的自訂欄位會以兩欄顯示。 將這個選項切換為開啟，以全螢幕的寬度而非兩欄來顯示自訂欄位。
 

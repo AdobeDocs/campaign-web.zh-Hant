@@ -15,7 +15,7 @@ ht-degree: 14%
 >id="acw_homepage_welcome_rn5"
 >title="目標對應"
 >abstract="現在您可以在 Campaign Web 使用者介面中建立目標對應。目標對應定義不同的傳遞管道 (電子郵件、SMS、推播通知) 如何連結到結構描述的資料欄位。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"
@@ -30,7 +30,7 @@ ht-degree: 14%
 
 ![目標對應清單畫面顯示可用的對應](assets/target-mappings-list.png)
 
-如需Adobe Campaign隨附的內建目標對應詳細資訊，請參閱[Campaign v8使用者端主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hant){target="_blank"}。
+如需Adobe Campaign隨附的內建目標對應詳細資訊，請參閱[Campaign v8使用者端主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
 
 ## 建立目標對應 {#create-mapping}
 
@@ -84,7 +84,7 @@ ht-degree: 14%
 
    1. **[!UICONTROL 追蹤記錄]**：啟用&#x200B;**[!UICONTROL 產生追蹤的結構描述]**&#x200B;選項，以產生追蹤記錄的儲存結構描述。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 對應]**&#x200B;區段來識別目標對應結構描述中要用於每個傳遞位址列位的屬性。 對於每個欄位，選取要對應的所需屬性。 您也可以建立運算式來識別欄位。 例如，將下層函式套用至地址屬性。
 

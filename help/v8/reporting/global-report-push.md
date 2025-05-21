@@ -83,7 +83,7 @@ ht-degree: 23%
 
 * **[!UICONTROL 新隔離]**：在傳送失敗（無效註冊、郵件拒絕、裝載錯誤及類似原因）之後被隔離的地址總數，與要傳送的郵件數相關。
 
-  推播通知錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#push-error-types){target="_blank"}中。
+  推播通知錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
 
 +++
 
@@ -96,7 +96,7 @@ ht-degree: 23%
 
 排除原因&#x200B;**[!UICONTROL 圖形與表格會顯示從目標設定檔中排除的使用者設定檔無法接收訊息的原因。]**
 
-推播通知錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#push-error-types){target="_blank"}中。
+推播通知錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
 
 ## 傳遞總處理能力 {#delivery-throughput-sms}
 

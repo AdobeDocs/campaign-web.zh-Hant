@@ -5,7 +5,7 @@ description: 了解如何從頭開始設計您的電子郵件內容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 54%
 
 ---
@@ -110,4 +110,4 @@ ht-degree: 54%
 
 了解如何導覽電子郵件設計工具。瞭解如何從草稿開始架構和設計電子郵件、個人化並測試您的電子郵件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453576/?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

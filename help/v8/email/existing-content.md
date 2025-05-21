@@ -5,7 +5,7 @@ description: 了解如何匯入電子郵件內容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '290'
 ht-degree: 29%
 
 ---
@@ -56,4 +56,4 @@ ht-degree: 29%
 
 瞭解如何透過上傳HTML建立電子郵件、使其與電子郵件Designer相容，並將其轉換為範本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447043/?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

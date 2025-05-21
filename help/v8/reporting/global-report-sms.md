@@ -83,7 +83,7 @@ ht-degree: 27%
 
 * **[!UICONTROL 新隔離]**：與要傳送的訊息數目相關的傳送失敗後（例如，使用者不明、無效的網域）被隔離的地址總數。
 
-  SMS錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#sms-quarantines){target="_blank"}中。
+  SMS錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}中。
 
 +++
 
@@ -96,7 +96,7 @@ ht-degree: 27%
 
 排除原因&#x200B;**[!UICONTROL 圖形與表格會顯示從目標設定檔中排除的使用者設定檔無法接收簡訊傳送的原因。]**
 
-錯誤型別列於[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#email-error-types){target="_blank"}中。
+錯誤型別列於[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
 
 ![排除原因報告的熒幕擷圖，顯示SMS傳遞排除的原因。](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 

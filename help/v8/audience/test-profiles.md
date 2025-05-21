@@ -7,7 +7,7 @@ level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 14%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 14%
 
 ➡️ [在影片中探索此功能](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=zh-Hant){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 傳送校樣到測試設定檔的步驟在[本節](../preview-test/test-deliveries.md#test-profiles)中有詳細說明。
 
@@ -112,4 +112,4 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 瞭解如何使用Campaign網頁使用者介面建立和管理測試設定檔。
 
->[!VIDEO](https://video.tv.adobe.com/v/3442906?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

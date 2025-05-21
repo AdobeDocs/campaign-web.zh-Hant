@@ -30,7 +30,7 @@ ht-degree: 36%
 
 | 從&#x200B;**屬性**&#x200B;欄位存取 | 從&#x200B;**值**&#x200B;欄位存取 |
 | --- | --- |
-| ![屬性欄位](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的運算式編輯器 | 值欄位![&#128279;](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的運算式編輯器 |
+| 屬性欄位](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 | 值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 |
 
 運算式編輯器提供：
 
@@ -258,7 +258,7 @@ ht-degree: 36%
 <td>Oldest(&lt;date， date&gt;)</td>
 </tr>
 <tr>
-<td><strong>第二</strong></td>
+<td><strong>第二個</strong></td>
 <td>傳回該日期的秒數</td>
 <td>Second(&lt;date&gt;)</td>
 </tr>

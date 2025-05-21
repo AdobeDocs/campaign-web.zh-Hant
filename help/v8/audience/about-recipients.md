@@ -4,7 +4,7 @@ description: 瞭解如何在Campaign網頁中監視和管理設定檔。
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '439'
 ht-degree: 14%
 
 ---
@@ -46,4 +46,4 @@ ht-degree: 14%
 
 瞭解如何使用Campaign網頁使用者介面存取、管理和探索設定檔。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448375?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

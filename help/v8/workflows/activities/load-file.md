@@ -30,7 +30,7 @@ ht-degree: 36%
 **載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動來處理儲存在外部檔案中的設定檔和資料。 設定檔和資料未新增至資料庫，但輸入檔案中的所有欄位都可用於[個人化](../../personalization/gs-personalization.md)，或更新設定檔或任何其他表格。
 
 >[!NOTE]
->支援的檔案格式包括：文字 (TXT) 和逗號分隔值 (CSV)。使用Web使用者介面控制檯，您可以載入大小上限為50MB的檔案。 在使用者端主控台中，資料載入活動具有150MB的限制。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=zh-Hant){target="_blank"}
+>支援的檔案格式包括：文字 (TXT) 和逗號分隔值 (CSV)。使用Web使用者介面控制檯，您可以載入大小上限為50MB的檔案。 在使用者端主控台中，資料載入活動具有150MB的限制。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 此活動可與[調解](reconciliation.md)活動搭配使用，以將未識別的資料連結至現有資源。 例如，如果您將非標準資料匯入資料庫中，**載入檔案**&#x200B;活動可以放在&#x200B;**調解**&#x200B;活動之前。
 
@@ -87,7 +87,7 @@ ht-degree: 36%
    * **[!UICONTROL 處理]**&#x200B;時發生錯誤（字串資料型別）：請指定其中一行發生錯誤時的行為。
    * **[!UICONTROL 值重新對應]**：此選項可讓您將特定值與新值對應。 例如，如果欄包含「True」/「False」值，您可以新增對應以自動將這些值取代為「0」/「1」字元。
 
-   +++
++++
 
 1. 在「**格式化**」區段中，指定檔案設定格式的方式，以確保可正確匯入該資料。
 

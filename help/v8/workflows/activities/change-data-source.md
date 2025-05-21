@@ -23,7 +23,7 @@ ht-degree: 13%
 
 在某些情況下，目前的資料庫中可能沒有資料，或是資料執行效率不夠高，無法執行單一作業。 因此，您可能需要藉由新增&#x200B;**[!UICONTROL 變更資料來源]**&#x200B;活動，強制工作流程使用不同的資料庫來執行這類作業。
 
-有關Campaign架構的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=zh-Hant)。
+有關Campaign架構的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)。
 
 >[!IMPORTANT]
 >
@@ -58,7 +58,7 @@ Before executing the operation, the working table is copied to the local databas
 
      >[!AVAILABILITY]
      >
-     >Campaign 設定與外部系統連線僅限進階使用者使用，且僅適用於用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hant){target="_blank"}
+     >Campaign 設定以及與外部系統的連線僅限進階使用者使用，且僅適用於用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hant){target="_blank"}
 
 1. 設定您的工作流程，以使用新資料來源執行所需的作業。
 

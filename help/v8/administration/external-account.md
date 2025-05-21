@@ -15,7 +15,7 @@ ht-degree: 7%
 >id="acw_homepage_welcome_rn3"
 >title="外部帳戶製作"
 >abstract="身為 Campaign 管理員，您現在可以從 Campaign Web 使用者介面中設定與外部系統的新連線。您也可以檢視、更新和管理現有的外部帳戶。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱版本注意事項"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 Adobe Campaign包括預先設定的外部帳戶，可輕鬆與各種系統整合。 若要連線到其他平台或自訂連線以符合您的工作流程，請使用Web使用者介面建立新的外部帳戶。 這可確保順暢的資料傳輸。
 
@@ -55,7 +55,7 @@ Adobe Campaign包括預先設定的外部帳戶，可輕鬆與各種系統整合
 
    ![熒幕擷圖顯示[更多]功能表，其中包含複製或刪除外部帳戶的選項。](assets/external_account_create_4.png)
 
-1. 組態完成後，按一下[儲存]。**&#x200B;**
+1. 組態完成後，按一下[儲存]。****
 
 ## 促銷活動特定外部帳戶 {#campaign-specific}
 
@@ -154,7 +154,7 @@ Adobe Campaign包括預先設定的外部帳戶，可輕鬆與各種系統整合
 
 * **[!UICONTROL 方法]** — 在Web服務或同盟資料存取(FDA)之間選擇。
 
-  針對FDA，請選取您的FDA帳戶。 請注意，與外部系統的Campaign連線僅限於進階使用者，而且只能從使用者端主控台使用。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/connect/fda#_blank)
+  針對FDA，請選取您的FDA帳戶。 請注意，與外部系統的Campaign連線僅限於進階使用者，而且只能從使用者端主控台使用。 [了解更多](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL 建立封存工作流程]** — 對於在訊息中心中註冊的每個執行執行個體，無論您是否有一或多個執行個體，請為與該執行個體相關聯的每個外部帳戶建立個別的封存工作流程。
 
@@ -206,7 +206,7 @@ Adobe Campaign包括預先設定的外部帳戶，可輕鬆與各種系統整合
 
 ### Amazon簡單儲存服務(S3) {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service (S3)聯結器可用來匯入或匯出資料至Adobe Campaign。 您可以在工作流程活動中設定它。 如需詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
+Amazon Simple Storage Service (S3)聯結器可用來匯入或匯出資料至Adobe Campaign。 您可以在工作流程活動中設定它。 如需詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
 
 ![顯示Amazon Simple Storage Service S3外部帳戶設定欄位的熒幕擷圖。](assets/external-AWS.png)
 
@@ -237,7 +237,7 @@ Amazon Simple Storage Service (S3)聯結器可用來匯入或匯出資料至Adob
 
 ### Azure Blob 儲存體 {#azure-blob-external-account}
 
-**[!UICONTROL Azure Blob儲存體]**&#x200B;外部帳戶可用來匯入或匯出資料至Adobe Campaign，使用&#x200B;**[!UICONTROL 傳輸檔案]**&#x200B;工作流程活動。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
+**[!UICONTROL Azure Blob儲存體]**&#x200B;外部帳戶可用來匯入或匯出資料至Adobe Campaign，使用&#x200B;**[!UICONTROL 傳輸檔案]**&#x200B;工作流程活動。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
 
 ![顯示Azure Blob儲存外部帳戶設定欄位的熒幕擷圖。](assets/external-azure.png)
 
@@ -257,7 +257,7 @@ Amazon Simple Storage Service (S3)聯結器可用來匯入或匯出資料至Adob
 
 ## Hadoop
 
-Hadoop外部帳戶可讓您將您的Campaign執行個體連線至Hadoop外部資料庫。 您可以在[Campaign V7主控台檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}中進一步瞭解Hadoop。
+Hadoop外部帳戶可讓您將您的Campaign執行個體連線至Hadoop外部資料庫。 您可以在[Campaign V7主控台檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}中進一步瞭解Hadoop。
 
 ![顯示Hadoop外部帳戶設定的熒幕擷圖。](assets/external-hadoop.png)
 

@@ -16,7 +16,7 @@ ht-degree: 18%
 
 ## 建立異動訊息範本 {#transactional-template}
 
-在Campaign Web使用者介面中，交易式訊息設定的第一步是建立範本或直接建立訊息。 這與使用者端主控台[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/real-time/transactional)上的異動訊息組態不同。
+在Campaign Web使用者介面中，交易式訊息設定的第一步是建立範本或直接建立訊息。 這與使用者端主控台](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional)上的[異動訊息組態不同。
 
 交易式訊息範本可用於在設定檔收到的傳送內容到達最終對象之前進行預覽。 例如，管理員可以設定並設定範本，讓行銷使用者可以隨時使用。
 
@@ -66,7 +66,7 @@ ht-degree: 18%
 * **[!UICONTROL 執行資料夾]**，在執行後儲存郵件。
 * **[!UICONTROL 傳遞代碼]**，如有需要，此代碼可協助識別要報告的訊息。
 * **[!UICONTROL 描述]**。
-* **[!UICONTROL Nature]**，這是您傳送的性質，列於列舉&#x200B;*deliveryNature*&#x200B;中。 [進一步瞭解列舉](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)。
+* **[!UICONTROL Nature]**，這是您傳送的性質，列於列舉&#x200B;*deliveryNature*&#x200B;中。 [進一步瞭解列舉](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)。
 
 ![顯示異動訊息範本之屬性區段的熒幕擷圖。](assets/template-properties.png){zoomable="yes"}
 

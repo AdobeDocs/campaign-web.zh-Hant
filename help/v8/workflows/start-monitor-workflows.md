@@ -6,7 +6,7 @@ exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 4%
 | ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 活動發生錯誤。 若要解決此問題，請開啟工作流程記錄檔以取得詳細資訊。 |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 已成功執行活動。 |
 
-## 監視日誌和任務 {#logs-tasks}
+## 監視記錄和任務 {#logs-tasks}
 
 監視工作流程記錄和任務是分析工作流程並確保其正常執行的關鍵步驟。 可從動作工具列和每個活動的屬性窗格中的&#x200B;**[!UICONTROL 記錄檔]**&#x200B;圖示存取記錄檔和工作。
 
