@@ -30,7 +30,7 @@ Adobe Campaign會管理電子郵件、推播和簡訊通道的隔離地址。
 
 隔離功能可將錯誤的電話號碼排除在遞送服務之外，藉此降低SMS傳送成本。
 
-在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}中進一步瞭解隔離。
+在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}中進一步瞭解隔離。
 
 ## 為何將地址傳送至隔離區 {#quarantines-why}
 
@@ -41,7 +41,7 @@ Adobe Campaign會管理電子郵件、推播和簡訊通道的隔離地址。
 * 針對電子郵件，在您的郵件回報為垃圾郵件時。 郵件會自動重新導向至Adobe管理的技術信箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為「已加入封鎖清單」的隔離區。
 * 舉例來說，信箱已滿、地址不存在或電子郵件伺服器無法使用時，可以隔離電子郵件地址。
 
-在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}中進一步瞭解傳遞失敗。
+在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}中進一步瞭解傳遞失敗。
 
 ## 在何處尋找隔離地址 {#quarantines-where}
 
@@ -57,4 +57,4 @@ Adobe Campaign會管理電子郵件、推播和簡訊通道的隔離地址。
 
 ![顯示隔離地址的傳遞摘要報告](assets/quarantine_delivery.png){zoomable="yes"}
 
-您可以探索更多選項，以在Adobe Campaign主控台中管理隔離地址。 [了解更多](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses)。
+您可以探索更多選項，以在Adobe Campaign主控台中管理隔離地址。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses)。
