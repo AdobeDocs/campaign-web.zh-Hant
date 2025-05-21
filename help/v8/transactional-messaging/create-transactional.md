@@ -16,7 +16,7 @@ ht-degree: 18%
 
 ## 建立異動訊息範本 {#transactional-template}
 
-在Campaign Web使用者介面中，交易式訊息設定的第一步是建立範本或直接建立訊息。 這與使用者端主控台](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional)上的[異動訊息組態不同。
+在Campaign Web使用者介面中，交易式訊息設定的第一步是建立範本或直接建立訊息。 這與使用者端主控台[&#128279;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional)上的異動訊息組態不同。
 
 交易式訊息範本可用於在設定檔收到的傳送內容到達最終對象之前進行預覽。 例如，管理員可以設定並設定範本，讓行銷使用者可以隨時使用。
 

@@ -151,7 +151,7 @@ ht-degree: 37%
 >title="依類型的錯誤劃分"
 >abstract=" **依類型的錯誤劃分**&#x200B;表格提供每種錯誤類型發生次數的全面劃分。"
 
-每個型別&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分包含錯誤型別的可用資料。 量度詳情如下。
+每個型別&#x200B;**資料表和圖表的**&#x200B;錯誤劃分包含錯誤型別的可用資料。 量度詳情如下。
 
 此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -187,7 +187,7 @@ ht-degree: 37%
 >title="依網域的錯誤劃分"
 >abstract=" **依網域的錯誤劃分** 表格根據所使用網域提供每種錯誤發生次數的全面劃分。"
 
-每個網域&#x200B;]**表格和圖形的**[!UICONTROL &#x200B;錯誤劃分會顯示每個網域可能遇到的錯誤的可用資料。
+每個網域&#x200B;**表格和圖形的**&#x200B;錯誤劃分會顯示每個網域可能遇到的錯誤的可用資料。
 
 ![每個網域的錯誤劃分熒幕擷圖](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 

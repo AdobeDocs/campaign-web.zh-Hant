@@ -51,7 +51,7 @@ ht-degree: 8%
 
      ![熒幕擷圖在其標籤旁顯示工作流程的內部名稱。](../assets/external-signal-workflow-name.png)
 
-+++
+     +++
 
    * **外部訊號活動的名稱**，顯示在工作流程的&#x200B;**[!UICONTROL 執行選項]**&#x200B;中。
 
@@ -59,7 +59,7 @@ ht-degree: 8%
 
      ![熒幕擷圖顯示[執行]選項中的[外部訊號]活動名稱。](../assets/external-signal-name.png)
 
-+++
+     +++
 
 1. 若要觸發工作流程，請執行`PostEvent` JavaScript函式。 此函式可讓您使用您選擇的值傳遞變數，並在觸發的工作流程中使用它們。
 
@@ -79,6 +79,6 @@ ht-degree: 8%
 
    ![熒幕擷圖顯示使用PostEvent函式觸發External Signal活動的範例。](../assets/external-signal-sample.png)
 
-+++
+   +++
 
    * 若要從API呼叫觸發&#x200B;**[!UICONTROL 外部訊號]**&#x200B;活動，請依照Campaign API檔案中詳述的步驟操作。 [瞭解如何使用靜態`PostEvent`方法](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)。

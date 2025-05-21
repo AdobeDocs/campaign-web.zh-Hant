@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Adobe Campaign網頁介面與Adobe Experience Manager的整合，使得直接在Adobe Experience Manager平台中管理電子郵件傳遞內容和表單的工作得以簡化。
 
-![](assets/do-not-localize/book.png)[進一步瞭解Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png) [進一步瞭解Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
 ## 在[!DNL Adobe Experience Manager as a Cloud Service]中建立範本{#create-aem-template}
 
@@ -24,7 +24,7 @@ Adobe Campaign網頁介面與Adobe Experience Manager的整合，使得直接在
 
 1. 存取&#x200B;**[!UICONTROL 行銷活動>品牌名稱>主要區域>頁面名稱]**。
 
-1. 按一下「建立&#x200B;****」，然後從下拉式功能表中選取「**[!UICONTROL 頁面]**」。
+1. 按一下「建立&#x200B;**&#x200B;**」，然後從下拉式功能表中選取「**[!UICONTROL 頁面]**」。
 
    ![在下拉式功能表中顯示[建立]按鈕和[頁面]選項的熒幕擷圖。](assets/aem_1.png)
 

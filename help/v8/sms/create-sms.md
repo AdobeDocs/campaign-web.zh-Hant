@@ -49,7 +49,8 @@ ht-degree: 40%
    * **[!UICONTROL 傳遞代碼]**：使用您自己的命名慣例整理您的傳遞。
    * **[!UICONTROL 說明]**：提供傳遞的說明。
    * **[!UICONTROL 性質]**：指定傳遞的性質，以進行分類。
-+++
+
+   +++
 
 1. 按一下「**[!UICONTROL 選取客群]**」按鈕，以選擇現有客群或建立您自己的客群。[進一步瞭解對象](../audience/about-recipients.md)。
 
