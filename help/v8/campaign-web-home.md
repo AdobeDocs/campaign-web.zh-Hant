@@ -63,7 +63,7 @@ ht-degree: 89%
 
 ✨透過我們的[AI Assistant](../v8/email/generative-gs.md)即時功能預覽，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
 
-[![了解更多按鈕](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![了解更多按鈕](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 常見問答集]
 
