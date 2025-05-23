@@ -15,9 +15,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="預覽和測試您的內容"
->abstract="定義內容後，您就可以使用設定檔和測試設定檔進行預覽及測試。"
+>abstract="定義內容後，您就可以使用輪廓和測試輪廓進行預覽及測試。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-hant" text="傳送校樣"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hant&#test-landing-page" text="測試登陸頁面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#test-landing-page" text="測試登陸頁面"
 
 定義傳遞內容後，您可以使用設定檔和測試設定檔，在傳送訊息之前進行預覽和測試。 此步驟可確保準確性並消除內容和個人化設定中的錯誤。
 
