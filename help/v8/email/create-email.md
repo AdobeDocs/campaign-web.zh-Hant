@@ -252,4 +252,4 @@ ht-degree: 44%
 
 瞭解如何從草稿開始建立電子郵件傳遞、定義客群、設計內容、模擬預覽，以及傳送校訂。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3454016/?quality=12&captions=chi_hant)
