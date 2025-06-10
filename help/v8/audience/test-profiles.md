@@ -17,13 +17,13 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="建立測試輪廓"
->abstract="測試設定檔是額外收件者，可讓您在傳送訊息之前預覽和測試個人化和呈現方式。您可以在預覽訊息內容時選取測試設定檔，並將校樣傳送至測試設定檔以控制和驗證您的訊息內容和設定。"
+>abstract="測試輪廓是額外收件者，可讓您在傳送訊息之前預覽和測試個人化和呈現方式。您可以在預覽訊息內容時選取測試輪廓，並將校樣傳送至測試輪廓以控制和驗證您的訊息內容和設定。"
 
 測試設定檔用於傳送校樣及驗證訊息內容和設定。 這些設定檔是額外的收件者，可讓您在傳送訊息之前，預覽及測試個人化與轉譯。 您可以在預覽訊息內容時選取測試設定檔，並將校樣傳送至測試設定檔，以控制和驗證訊息內容和設定。
 
 ➡️ [在影片中探索此功能](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=zh-Hant){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 傳送校樣到測試設定檔的步驟在[本節](../preview-test/test-deliveries.md#test-profiles)中有詳細說明。
 
@@ -63,7 +63,7 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
->title="測試設定檔的附加資料"
+>title="測試輪廓的附加資料"
 >abstract="輸入個人化資料，此個人化資料用於資料管理工作流程中建立的傳遞，並且您要為其指派特定值。"
 
 若要建立測試設定檔，請遵循下列步驟：
@@ -112,4 +112,4 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 瞭解如何使用Campaign網頁使用者介面建立和管理測試設定檔。
 
->[!VIDEO](https://video.tv.adobe.com/v/3442906?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

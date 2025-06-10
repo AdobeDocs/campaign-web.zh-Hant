@@ -14,7 +14,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="輪廓"
->abstract="輪廓是專門接收 Adobe Campaign 所傳送之訊息的記錄。在此清單中，您可以根據您的權限查看設定檔的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組設定檔屬性。"
+>abstract="輪廓是專門接收 Adobe Campaign 所傳送之訊息的記錄。在此清單中，您可以根據您的權限查看輪廓的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組輪廓屬性。"
 
 ## 什麼是設定檔？ {#what}
 
@@ -46,4 +46,4 @@ ht-degree: 14%
 
 瞭解如何使用Campaign網頁使用者介面存取、管理和探索設定檔。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448375?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
