@@ -112,4 +112,4 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 瞭解如何使用Campaign網頁使用者介面建立和管理測試設定檔。
 
->[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442906?quality=12&captions=chi_hant)
