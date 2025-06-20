@@ -134,6 +134,7 @@ ht-degree: 8%
   }
 }
 ```
+
 +++
 
 +++ 無效CSS的範例
@@ -160,6 +161,7 @@ ht-degree: 8%
 body {
   background: red;
 ```
+
 +++
 
 ## 技術實作 {#implementation}
