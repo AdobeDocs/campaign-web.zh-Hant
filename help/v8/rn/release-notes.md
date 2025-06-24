@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 45%
 
 ---
 
@@ -20,45 +20,22 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 中列出了先前版本可用的變更和改進。
 
-## 2025 年 5 月版 {#25-5-release}
+## 2025年6月發行 {#25-6-release}
 
-從 5 月版開始，所有使用者都可以使用以下功能。
+### 改良功能 {#25-6-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>品牌一致性分數 (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>品牌一致性分數功能可直接在電子郵件設計工具中提供清晰的回饋意見，協助您了解內容是否符合品牌的基調、風格和方針。此功能目前提供 Beta 版。</p>
-<p>如需詳細資訊，請參閱<a href="../content/brands-score.md">詳細說明文件</a>。</p>
-<img src="assets/do-not-localize/brand-score.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* 「傳送摘要」報告現在可同時用於客服中心和自訂頻道。 [了解更多](../reporting/direct-mail.md)
 
-<table>
-<thead>
-<tr>
-<th><strong>外部傳遞的自訂管道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以直接從 Adobe Campaign Web UI 中，根據自訂外部管道來協調和執行傳遞。這些傳遞可以是獨立的，也可以是工作流程的一部分。與第三方整合的自訂外部管道的建立是在控制台中進行的。</p>
-<p>注意：Web UI 中不提供自訂管道的報告功能。您必須瀏覽到用戶端控制台才能存取報告。</p>
-<p>如需詳細資訊，請參閱<a href="../call-center/gs-custom-channel.md">詳細說明文件</a>。</p>
-<img src="assets/do-not-localize/custom-channel.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* 設定SMS傳送時，您現在可以存取特定SMS引數。 這些是使用者端主控台中可用的相同引數。 [了解更多](../advanced-settings/delivery-settings.md#sms-tab)
 
-### 改良功能 {#25-5-improvements}
+* 您最愛的資料夾現在會出現在Explorer頁面的左側面板上方，讓您更容易存取。 [了解更多](../get-started/work-with-folders.md#favorite-folders)
 
-類型規則建立畫面已更新，以方便選擇規則類型。
+* 規則產生器現在支援拖放功能，讓您更有效率地重新排列查詢元件。 [了解更多](../query/build-query.md#drag-and-drop)
+
+* 規則產生器中的「人體條件」已得到改善。 這是您規則的書面純語言版本，顯示在畫面底部：
+
+   * 屬性現在會反白顯示，並顯示相關聯的結構描述。
+   * 您可以按一下這些元素以檢視更多詳細資訊。
+   * 您現在可以使用對應的按鈕來複製人體狀態。
+
+* 現在限制對「技術工作流程」和「自動建立的物件」資料夾的存取權，以防止檢視這些資料夾。 [了解更多](../get-started/work-with-folders.md#about-folders)

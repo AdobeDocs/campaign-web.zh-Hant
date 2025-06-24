@@ -3,16 +3,18 @@ audience: end-user
 title: 直接郵件報表
 description: 瞭解如何存取及使用直接郵件報告
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 20%
+source-wordcount: '696'
+ht-degree: 19%
 
 ---
 
-# 直接郵件傳遞報告 {#direct-mail-report}
+# 外部傳遞報告 {#direct-mail-report}
 
-**直接郵件傳遞報告**&#x200B;提供您直接郵件傳遞的特定完整見解和資料。 其中包含個別傳送的效能、成效和結果的詳細資訊，提供完整的概覽。
+**外部傳遞報告**&#x200B;提供您外部傳遞的特定全面見解和資料。 其中包含個別傳送的效能、成效和結果的詳細資訊，提供完整的概覽。
+
+下列報表會在直接郵件的內容中說明。 此外，它也可用於客服中心和自訂外部管道。
 
 ## 傳遞摘要 {#delivery-summary-direct-mail}
 
@@ -82,7 +84,7 @@ ht-degree: 20%
 >title="傳遞排除原因"
 >abstract="**排除原因**&#x200B;圖表顯示傳遞準備期間被拒絕之郵件的分佈，依每個規則進行分類。"
 
-**[!UICONTROL 排除原因]**&#x200B;圖表提供傳遞準備期間訊息拒絕原因的明細。 此劃分會依各種規則組織，提供造成訊息排除的因素詳細檢視。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#email-error-types){_blank}中有詳細說明。
+**[!UICONTROL 排除原因]**&#x200B;圖表提供傳遞準備期間訊息拒絕原因的明細。 此劃分會依各種規則組織，提供造成訊息排除的因素詳細檢視。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}中有詳細說明。
 
 ![排除圖顯示依規則之拒絕訊息分佈的原因。](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 

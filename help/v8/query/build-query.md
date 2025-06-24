@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2863'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 7%
 >[!IMPORTANT]
 >
 >可以使用全新的查詢建模器介面。 全新的規則產生器擁有簡化的介面，讓您更輕鬆地建立查詢。 若要切換至此體驗，請按一下右上角的切換按鈕。 您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。 您可以在此新介面中套用與查詢建模程式相同的原則。
->![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
+>>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
 
 您可以新增兩種型別的元素：
 
@@ -70,7 +70,7 @@ ht-degree: 7%
 >
 >* 對於具有許多值的欄位，只會顯示前20個值。 在這種情況下，通知&#x200B;**[!UICONTROL 部分載入]**&#x200B;會警告您。
 >* 每個屬性選擇器中都可以存取&#x200B;**[!UICONTROL 值分佈]**&#x200B;選項。 [瞭解如何選取屬性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[ !A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[!A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 新增篩選元件 {#filtering}
 
@@ -122,7 +122,7 @@ ht-degree: 7%
    | 類似 | 與Contains運運算元類似，它可讓您在值中插入%萬用字元。 | 姓氏(@lastName)類似&#39;Jon%s&#39;。 萬用字元可當做「小丑」來尋找「Jones」之類的名稱。 |
    | Not like | 與Contains運運算元類似，它可讓您在值中插入%萬用字元。 | 姓氏(@lastName)不像&#39;Smi%h&#39;。 不會傳回姓氏為&#39;Smith&#39;的收件者。 |
 
-   +++
++++
 
 1. 在&#x200B;**值**&#x200B;欄位中，定義預期的值。 您也可以使用Campaign網頁運算式編輯器，以使用資料庫和協助程式函式的欄位，手動定義運算式。 若要這麼做，請按一下&#x200B;**編輯運算式**&#x200B;按鈕。 [瞭解如何編輯運算式](expression-editor.md)
 
@@ -318,6 +318,18 @@ ht-degree: 7%
 1. 若要貼上元件，請按一下所需轉變結尾的+按鈕，並選取&#x200B;**貼上專案**。
 
    ![貼上元件的範例](assets/copy-paste.png){zoomable="yes"}
+
+## 拖放元件 {#drag-and-drop}
+
+>[!IMPORTANT]
+>
+>此功能僅適用於新的規則產生器體驗。
+
+將元件新增至查詢時，您可以使用拖放功能上下移動元件。
+
+在每個元件的左側，您可以按一下這些點並按住它們，以根據您想要放置和群組元件的位置來上下拖曳元件。
+
+![Gif顯示如何在新規則產生器中拖放元件](assets/ruleb-drag.gif){zoomable="yes"}
 
 ## 將篩選元件與運算子結合 {#operators}
 

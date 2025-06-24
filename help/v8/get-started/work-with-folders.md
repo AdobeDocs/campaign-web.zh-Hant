@@ -3,10 +3,10 @@ audience: end-user
 title: 使用資料夾
 description: 了解如何在 Adobe Campaign 中管理資料夾
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 86%
 
 ---
 
@@ -23,19 +23,9 @@ ht-degree: 100%
 >abstract="資料夾安全性"
 
 >[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="資料夾限制"
->abstract="資料夾限制"
-
->[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
 >title="資料夾排程"
 >abstract="資料夾排程"
-
->[!CONTEXTUALHELP]
->id="acw_folder_favorites"
->title="我的最愛"
->abstract="我的最愛"
 
 ## 關於資料夾 {#about-folders}
 
@@ -46,6 +36,16 @@ ht-degree: 100%
 ![顯示資料夾組織的資料夾介面](assets/folders.png){zoomable="yes"}
 
 您可以設定資料夾類型。例如，傳遞用的資料夾。資料夾圖示會根據其類型而變更。
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="資料夾限制"
+>abstract="「自動建立的物件」資料夾和「技術工作流程」資料夾受到限制，無法在左側面板中檢視。"
+
+>[!IMPORTANT]
+>
+>資料夾&#x200B;**[!UICONTROL 自動建立的物件]**&#x200B;和&#x200B;**[!UICONTROL 技術工作流程]**&#x200B;受到限制，無法在左側面板上檢視。
+
 
 ## 建立新資料夾 {#create-a-folder}
 
@@ -80,6 +80,19 @@ ht-degree: 100%
 您可以透過&#x200B;**拖放**&#x200B;方式，或使用&#x200B;**向上鍵和向下鍵**&#x200B;來變更資料夾的順序。
 
 ![用於資料夾重新排序的拖放功能](assets/folder-draganddrop.png){zoomable="yes"}
+
+### 我的最愛資料夾 {#favorite-folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="我的最愛"
+>abstract="您最愛的資料夾將顯示在左側標籤的最上方。"
+
+標示為「我的最愛」的資料夾將一律顯示於左側標籤頂端。
+
+您可以在檢視資料夾時按一下右上角的星形按鈕，將資料夾新增為最愛。
+
+![最愛資料夾位置熒幕擷圖](assets/folders-favorite.png){zoomable="yes"}
 
 ## 刪除資料夾 {#delete-a-folder}
 

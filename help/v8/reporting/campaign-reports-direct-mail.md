@@ -3,16 +3,18 @@ audience: end-user
 title: 直接郵件頻道的行銷活動報告
 description: 瞭解直接郵件頻道的行銷活動報告
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '574'
 ht-degree: 19%
 
 ---
 
-# 直接郵件頻道的行銷活動報告 {#campaign-reports-direct-mail}
+# 外部傳遞管道的行銷活動報告 {#campaign-reports-direct-mail}
 
-每個行銷活動報告都會分成不同的Widget，詳細說明行銷活動的成功和錯誤。 直接郵件通道的報告和量度如下所述。 在[此頁面](campaign-reports.md)中瞭解如何存取您的行銷活動報告。
+每個行銷活動報告都會分成不同的Widget，詳細說明行銷活動的成功和錯誤。 對於外部傳遞管道，報表和量度詳情如下。 在[此頁面](campaign-reports.md)中瞭解如何存取您的行銷活動報告。
+
+下列報表會在直接郵件的內容中說明。 此外，它也可用於客服中心和自訂外部管道。
 
 ## 傳遞摘要 {#delivery-summary-direct}
 

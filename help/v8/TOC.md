@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: a9e4d1750cc920b8de87b54faa712c80bece95d2
+source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 99%
+source-wordcount: '834'
+ht-degree: 98%
 
 ---
 
@@ -218,13 +218,13 @@ ht-degree: 99%
       + [以電子郵件寄送傳遞報告 ](reporting/email-report.md)
       + [推播傳遞報告 ](reporting/push-report.md)
       + [以簡訊傳送傳遞報告](reporting/sms-report.md)
-      + [直接郵件傳遞報告](reporting/direct-mail.md)
+      + [外部傳遞報告](reporting/direct-mail.md)
    + 行銷活動報告 {#campaign-report}
       + [開始使用行銷活動報告](reporting/campaign-reports.md)
       + [電子郵件行銷活動報告](reporting/campaign-reports-email.md)
       + [推播行銷活動報告](reporting/campaign-reports-push.md)
       + [簡訊行銷活動報告](reporting/campaign-reports-sms.md)
-      + [直接郵件行銷活動報告](reporting/campaign-reports-direct-mail.md)
+      + [外部傳遞行銷活動報告](reporting/campaign-reports-direct-mail.md)
    + 全域報告 {#global-report}
       + [開始使用全域報告](reporting/global-reports.md)
       + [電子郵件全域報告](reporting/global-report-email.md)
