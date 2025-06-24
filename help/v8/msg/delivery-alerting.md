@@ -2,15 +2,12 @@
 audience: end-user
 title: 傳遞警報
 description: 瞭解如何使用傳送警報。
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
+badge: label="有限可用性"
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 2%
+source-wordcount: '346'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +17,11 @@ ht-degree: 2%
 
 通知是根據透過Adobe Campaign Web使用者介面定義的特定警報條件而自訂。
 
-如需管理傳送失敗的詳細資訊，請參閱[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}。
+如需管理傳送失敗的詳細資訊，請參閱[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}。
+
+>[!AVAILABILITY]
+>
+>此功能在有限可用性(LA)中提供。 僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 
 ## 電子郵件通知內容 {#content}
 
