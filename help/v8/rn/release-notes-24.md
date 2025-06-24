@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面先前發行說明
 description: 2024 Campaign Web 使用者介面版本
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
-source-wordcount: '2470'
-ht-degree: 100%
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+workflow-type: tm+mt
+source-wordcount: '2535'
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>在製作並自訂您的訊息後，請利用 Adobe Campaign Web 的 AI 助理，將訊息提升到新的水準。這款強大的工具可讓您產生一系列引人入勝的文字、主要標題和吸引人的視覺影像，以最佳化內容的影響力。</p>
-<p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。</a></p>
+<p>透過<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../email/generative-gs.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>推出日期：9 月 12 日</p>
@@ -122,7 +122,7 @@ ht-degree: 100%
 * **登陸頁面中的驗證碼** - 現在您可以新增驗證碼以保護您的登陸頁面，避免受機器人程式導致的垃圾訊息和濫用侵害。這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。[了解更多](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-Hant){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## 7 月發行說明 {#24-7-release}
@@ -168,9 +168,6 @@ ht-degree: 100%
 
 從 6 月版本開始，所有使用者都可以使用以下功能和改善內容。
 
-<!--### Delivery alerting {#24-6-3}
-
-The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)-->
 
 ### 計劃和專案 {#24-6-4}
 
@@ -179,6 +176,18 @@ The Delivery alerting feature is an alert management system that enables a group
 ### 功能改進 {#improvements-24-6}
 
 * **擴充活動中的調和**：**擴充**&#x200B;活動現在可用於調和 Campaign 資料庫結構描述中的資料與其他結構描述中的資料，或來自臨時結構描述的資料 (例如使用載入檔案活動上傳的資料)。例如，您可以使用此選項將上傳檔案中指定的輪廓所在國家/地區與 Campaign 資料庫專用表中可用的國家/地區之一進行調和。[閱讀更多](../workflows/activities/enrichment.md)
+
+
+### 有限可用中的新功能 {#acs-24-6}
+
+>[!AVAILABILITY]
+>
+>下列功能屬於「有限可用性(LA)」。 這僅限於將&#x200B;**從Adobe Campaign Standard移轉至Adobe Campaign v8**&#x200B;的客戶，且無法部署在任何其他環境中。
+
+* **傳遞警報**
+
+「傳遞提醒」功能是警報管理系統，可讓一組使用者自動接收包含其傳送執行資訊的通知。[閱讀更多](../msg/delivery-alerting.md)
+
 
 ## 5 月發行說明 {#24-5-release}
 
