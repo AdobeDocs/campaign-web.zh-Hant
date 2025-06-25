@@ -4,10 +4,10 @@ title: 設定傳送設定
 description: 瞭解如何在Campaign網頁版中設定傳遞設定
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 73c9e30ab93787630e973da71f0381b14c64cc2c
+source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
 workflow-type: tm+mt
-source-wordcount: '3324'
-ht-degree: 39%
+source-wordcount: '3159'
+ht-degree: 41%
 
 ---
 
@@ -88,11 +88,11 @@ ht-degree: 39%
 
 在此區段中，您可以選取Adobe Campaign v8主控台中定義的容量規則。 此規則已與管道相關聯。
 
-收件者&#x200B;**欄位的**&#x200B;重要性是公式，用來決定超過容量型別規則時保留哪些設定檔。
+收件者&#x200B;]**欄位的**[!UICONTROL &#x200B;重要性是公式，用來決定超過容量型別規則時保留哪些設定檔。
 
 >[!NOTE]
 >
->型別規則是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+>型別規則是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}中進一步瞭解。
 
 ## 對象設定 {#audience}
 
@@ -103,7 +103,7 @@ ht-degree: 39%
 
 在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。目標對應是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。 [進一步瞭解目標對應](../audience/targeting-dimensions.md)。
 
-在&#x200B;**[!UICONTROL 排除]**&#x200B;欄位中，您可以選取排除不想再聯絡或隔離的設定檔。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=zh-Hant){target="_blank"}
+在&#x200B;**[!UICONTROL 排除]**&#x200B;欄位中，您可以選取排除不想再聯絡或隔離的設定檔。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## 傳遞 {#delivery}
 
@@ -130,7 +130,7 @@ ht-degree: 39%
 
 * **[!UICONTROL 測試SMTP傳遞]** （電子郵件通道）：此選項用於測試透過SMTP的傳送。 電子郵件會處理到連線至SMTP伺服器，但不會傳送：對於每個電子郵件收件者，Campaign會連線至SMTP提供者伺服器、執行SMTP RCPT TO命令，並在SMTP DATA命令之前關閉連線。
 
-* **[!UICONTROL 電子郵件密件副本]** （電子郵件頻道）：此選項是用來透過密件副本在外部系統上儲存電子郵件，只要將密件副本電子郵件地址新增到您的郵件目標即可。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+* **[!UICONTROL 電子郵件密件副本]** （電子郵件頻道）：此選項是用來透過密件副本在外部系統上儲存電子郵件，只要將密件副本電子郵件地址新增到您的郵件目標即可。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}中進一步瞭解。
 
 在&#x200B;**[!UICONTROL 波段定義]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 使用多個波段傳送]**&#x200B;選項，以逐步增加使用波段傳送的音量。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 [了解更多](send-using-waves.md)
 
@@ -159,7 +159,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->Web Analytics功能是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=zh-Hant#external-account-ac){target="_blank"}中進一步瞭解。
+>Web Analytics功能是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}中進一步瞭解。
 
 ## 重試次數 {#retries}
 
@@ -228,7 +228,7 @@ ht-degree: 39%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hant#validity-period){target="_blank"}中進一步瞭解傳遞有效期。
+在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}中進一步瞭解傳遞有效期。
 
 ### 映象頁面管理（電子郵件通道） {#mirror}
 
@@ -288,16 +288,20 @@ ht-degree: 39%
 
 SMS傳送引數是套用至SMS傳送的技術設定。 您可以定義寄件者地址、服務引數、傳輸模式等。 這些選項僅限於專業使用者。
 
-* **[!UICONTROL 寄件者地址]**
+<!--
 
-  根據SMPP規格，欄位限製為21個字元，但某些提供者可能允許較長的值。 另請注意，某些國家/地區可能會套用非常嚴格的限制（長度、內容、允許的字元……），因此您可能需要再次檢查您在此處放置的內容是否合法。 使用個人化欄位時請格外小心。
+* **[!UICONTROL Sender address]**
+
+  The field is limited to 21 characters by the SMPP specification, but some providers may allow longer values. Note also that very strict restrictions may be applied in some countries (length, content, allowed characters, …), so you may need to double-check that the content you place here is legal. Be especially careful when using personalized fields.
 
 
-  此選擇性欄位可讓您覆寫寄件者地址(oADC)。 其內容置於SUBMIT_SM PDU的&#x200B;*source_addr*&#x200B;欄位中。
+  This optional field allows you to override the sender address (oADC). Its content is placed in the *source_addr* field of the SUBMIT_SM PDU.
 
-  雖然SMPP規格限制此欄位為21個字元，但有些提供者可能支援較長的值。 請注意，某些國家/地區對寄件者地址有嚴格的規定（關於長度、內容、允許的字元等），因此請務必確認您的輸入符合當地要求。 使用個人化欄位時請格外小心。
+  Although the SMPP specification limits this field to 21 characters, some providers may support longer values. Be aware that certain countries impose strict regulations on sender addresses (regarding length, content, allowed characters, etc.), so always verify that your input complies with local requirements. Use extra caution when working with personalized fields.
 
-  如果此欄位留空，將改用外部帳戶中定義的Source編號欄位的值。 如果兩個值都為空，*source_addr*&#x200B;欄位將會留空。
+  If this field is left empty, the value of the Source number field defined in the external account will be used instead. If both values are empty, the *source_addr* field will be left empty.
+
+-->
 
 * **[!UICONTROL 服務型別]**：
 
