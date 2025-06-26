@@ -2,9 +2,9 @@
 title: Campaign v8 Web 使用者介面先前發行說明
 description: 2025 Campaign Web 使用者介面版本
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
-workflow-type: ht
-source-wordcount: '1281'
+source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
+workflow-type: tm+mt
+source-wordcount: '1438'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,49 @@ ht-degree: 100%
 # 2025 年發行說明 {#2025-release}
 
 此頁面列出了 **2025 年版本**&#x200B;的所有變更和改進。最新的發行說明可以在[此頁面](release-notes.md)找到。
+
+## 2025 年 5 月版 {#25-5-release}
+
+從 5 月版開始，所有使用者都可以使用以下功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>品牌一致性分數 (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>品牌一致性分數功能可直接在電子郵件設計工具中提供清晰的回饋意見，協助您了解內容是否符合品牌的基調、風格和方針。此功能目前提供 Beta 版。</p>
+<p>如需詳細資訊，請參閱<a href="../content/brands-score.md">詳細說明文件</a>。</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>外部傳遞的自訂管道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以直接從 Adobe Campaign Web UI 中，根據自訂外部管道來協調和執行傳遞。這些傳遞可以是獨立的，也可以是工作流程的一部分。與第三方整合的自訂外部管道的建立是在控制台中進行的。</p>
+<p>注意：Web UI 中不提供自訂管道的報告功能。您必須瀏覽到用戶端控制台才能存取報告。</p>
+<p>如需詳細資訊，請參閱<a href="../call-center/gs-custom-channel.md">詳細說明文件</a>。</p>
+<img src="assets/do-not-localize/custom-channel.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改良功能 {#25-5-improvements}
+
+類型規則建立畫面已更新，以方便選擇規則類型。
 
 ## 2025 年 4 月版 {#25-4-release}
 
@@ -104,7 +147,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >以下功能為限量開放 (LA) 版本。僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。這些功能需要將 Campaign 伺服器升級到 v8.7.4。
 >
->請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hant)」。
+>請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html)」。
 
 * **建立多語言傳遞** - 您現在可以在 Adobe Campaign Web 使用者介面中，使用不同語言傳送多個電子郵件傳遞。多語言傳遞功能可讓您選擇傳遞的預設語言，以及可以傳送傳遞的不同語言。您也可以使用您選擇的語言來預覽這些傳遞。如需詳細資訊，請參閱[詳細說明文件](../email/edit-content.md)。
 
