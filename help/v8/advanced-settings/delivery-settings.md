@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
 workflow-type: tm+mt
 source-wordcount: '3159'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
@@ -88,11 +88,11 @@ ht-degree: 41%
 
 在此區段中，您可以選取Adobe Campaign v8主控台中定義的容量規則。 此規則已與管道相關聯。
 
-收件者&#x200B;**欄位的**&#x200B;重要性是公式，用來決定超過容量型別規則時保留哪些設定檔。
+收件者&#x200B;]**欄位的**[!UICONTROL &#x200B;重要性是公式，用來決定超過容量型別規則時保留哪些設定檔。
 
 >[!NOTE]
 >
->型別規則是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+>型別規則是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}中進一步瞭解。
 
 ## 對象設定 {#audience}
 
@@ -103,7 +103,7 @@ ht-degree: 41%
 
 在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。目標對應是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。 [進一步瞭解目標對應](../audience/targeting-dimensions.md)。
 
-在&#x200B;**[!UICONTROL 排除]**&#x200B;欄位中，您可以選取排除不想再聯絡或隔離的設定檔。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=zh-Hant){target="_blank"}
+在&#x200B;**[!UICONTROL 排除]**&#x200B;欄位中，您可以選取排除不想再聯絡或隔離的設定檔。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## 傳遞 {#delivery}
 
@@ -130,7 +130,7 @@ ht-degree: 41%
 
 * **[!UICONTROL 測試SMTP傳遞]** （電子郵件通道）：此選項用於測試透過SMTP的傳送。 電子郵件會處理到連線至SMTP伺服器，但不會傳送：對於每個電子郵件收件者，Campaign會連線至SMTP提供者伺服器、執行SMTP RCPT TO命令，並在SMTP DATA命令之前關閉連線。
 
-* **[!UICONTROL 電子郵件密件副本]** （電子郵件頻道）：此選項是用來透過密件副本在外部系統上儲存電子郵件，只要將密件副本電子郵件地址新增到您的郵件目標即可。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+* **[!UICONTROL 電子郵件密件副本]** （電子郵件頻道）：此選項是用來透過密件副本在外部系統上儲存電子郵件，只要將密件副本電子郵件地址新增到您的郵件目標即可。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}中進一步瞭解。
 
 在&#x200B;**[!UICONTROL 波段定義]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 使用多個波段傳送]**&#x200B;選項，以逐步增加使用波段傳送的音量。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 [了解更多](send-using-waves.md)
 
@@ -159,7 +159,7 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->Web Analytics功能是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=zh-Hant#external-account-ac){target="_blank"}中進一步瞭解。
+>Web Analytics功能是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}中進一步瞭解。
 
 ## 重試次數 {#retries}
 
@@ -228,7 +228,7 @@ ht-degree: 41%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hant#validity-period){target="_blank"}中進一步瞭解傳遞有效期。
+在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}中進一步瞭解傳遞有效期。
 
 ### 映象頁面管理（電子郵件通道） {#mirror}
 
@@ -283,10 +283,10 @@ ht-degree: 41%
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_delivery_settings"
->title="簡訊傳送設定"
->abstract="SMS傳送引數是套用至SMS傳送的技術設定。 您可以定義寄件者地址、服務引數、傳輸模式等。 這些選項僅限於專業使用者。"
+>title="簡訊傳遞設定"
+>abstract="簡訊傳遞參數是套用到簡訊傳遞的技術設定。您可以定義寄件者地址、服務參數、傳輸模式等。這些選項僅限於專業使用者。"
 
-SMS傳送引數是套用至SMS傳送的技術設定。 您可以定義寄件者地址、服務引數、傳輸模式等。 這些選項僅限於專業使用者。
+簡訊傳遞參數是套用到簡訊傳遞的技術設定。您可以定義寄件者地址、服務參數、傳輸模式等。這些選項僅限於專業使用者。
 
 <!--
 

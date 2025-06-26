@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 22%
+ht-degree: 27%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 22%
 >title="屬性設定"
 >abstract="屬性設定"
 
-自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。 在[Adobe Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=zh-Hant){target="_blank"}中瞭解如何擴充結構描述。
+自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。 在[Adobe Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}中瞭解如何擴充結構描述。
 
 自訂欄位可顯示在各種畫面中，例如Campaign網頁介面中的設定檔詳細資料。 管理員可以控制哪些欄位可見，以及這些欄位的顯示方式。 這些變更會套用至所有Campaign使用者。
 
@@ -60,12 +60,12 @@ ht-degree: 22%
 * 種子地址(nms)
 * 傳遞(nms)
 
-## 新增自訂欄位至介面 {#add-custom}
+## 將自訂欄位新增到介面 {#add-custom}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_screen_definition"
 >title="畫面定義"
->abstract="定義要針對結構描述編輯的自訂欄位清單及其屬性。 按一下&#x200B;**預覽**&#x200B;按鈕，在範例畫面中顯示自訂欄位。"
+>abstract="定義要為結構描述及其屬性編輯的自訂欄位清單。按一下「**預覽**」按鈕可在範例畫面中顯示自訂欄位。"
 
 
 若要在介面中顯示自訂欄位，請執行下列步驟：
@@ -82,7 +82,7 @@ ht-degree: 22%
 
    隨即顯示架構介面中所顯示的自訂欄位清單。
 
-1. 按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;按鈕，在範例畫面中顯示自訂欄位。
+1. 按一下「**[!UICONTROL 預覽]**」按鈕可在範例畫面中顯示自訂欄位。
 
    ![](assets/custom-fields-edit2.png)
 
@@ -128,7 +128,7 @@ ht-degree: 22%
 
   ![熒幕擷圖顯示自訂欄位篩選設定範例](assets/custom-fields-ref.png)
 
-  +++
++++
 
 * **[!UICONTROL 跨越兩欄]**：根據預設，介面中的自訂欄位會以兩欄顯示。 將這個選項切換為開啟，以全螢幕的寬度而非兩欄來顯示自訂欄位。
 
