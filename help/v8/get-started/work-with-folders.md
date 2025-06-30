@@ -6,7 +6,7 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
 >title="資料夾限制"
->abstract="「自動建立的物件」資料夾和「技術工作流程」資料夾受到限制，無法在左側面板中檢視。"
+>abstract="自動建立的「物件」資料夾和技術工作流程會受到限制，無法在左側面板上檢視。"
 
 >[!IMPORTANT]
 >
@@ -86,7 +86,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_folder_favorites"
 >title="我的最愛"
->abstract="您最愛的資料夾將顯示在左側標籤的最上方。"
+>abstract="您最愛的資料夾將顯示在左側標籤的頂端。"
 
 標示為「我的最愛」的資料夾將一律顯示於左側標籤頂端。
 
