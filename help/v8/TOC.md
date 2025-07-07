@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,10 +86,10 @@ ht-degree: 98%
       + [預覽訊息內容。](preview-test/preview-content.md)
       + [傳送校樣](preview-test/test-deliveries.md)
       + [測試電子郵件轉譯](preview-test/email-rendering.md)
-   + 傳遞警報 {#delivery-alerting}
+   + 傳遞提醒 {#delivery-alerting}
       + [開始使用傳遞警報](msg/delivery-alerting.md)
-      + [傳遞警報儀表板](msg/delivery-alerting-dashboards.md)
-      + [傳遞警報條件](msg/delivery-alerting-criteria.md)
+      + [傳遞提醒儀表板](msg/delivery-alerting-dashboards.md)
+      + [傳遞提醒條件](msg/delivery-alerting-criteria.md)
 + 內容管理 {#content}
    + 建立動態內容 {#dynamic-content}
       + [如何製作動態內容？ ](personalization/gs-personalization.md)
@@ -121,7 +121,7 @@ ht-degree: 98%
          + [調整垂直對齊方式和邊框間距](email/alignment-and-padding.md)
          + [定義連結樣式](email/styling-links.md)
          + [新增內嵌樣式屬性](email/inline-styling.md)
-         + [新增自訂CSS](email/custom-css.md)
+         + [新增自訂 CSS](email/custom-css.md)
    + AI 助理 {#ai-assistant}
       + [使用 AI 助理](email/generative-gs.md)
       + [使用 AI 產生電子郵件](email/generative-content.md)

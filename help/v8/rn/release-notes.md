@@ -3,9 +3,9 @@ title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -20,22 +20,22 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 中列出了先前版本可用的變更和改進。
 
-## 2025年6月發行 {#25-6-release}
+## 2025 年 6 月版 {#25-6-release}
 
-### 改良功能 {#25-6-improvements}
+### 功能改善 {#25-6-improvements}
 
-* 「傳送摘要」報告現在可同時用於客服中心和自訂頻道。 [了解更多](../reporting/direct-mail.md)
+* 現在，呼叫中心和自訂管道均可取得傳遞摘要報告。[了解更多](../reporting/direct-mail.md)
 
-* 設定SMS傳送時，您現在可以存取特定SMS引數。 這些是使用者端主控台中可用的相同引數。 [了解更多](../advanced-settings/delivery-settings.md#sms-tab)
+* 設定簡訊傳遞時，您現在可以存取特定的簡訊參數。這些參數與用戶端控制台中可用的參數相同。[了解更多](../advanced-settings/delivery-settings.md#sms-tab)
 
-* 您最愛的資料夾現在會出現在Explorer頁面的左側面板上方，讓您更容易存取。 [了解更多](../get-started/work-with-folders.md#favorite-folders)
+* 您最愛的資料夾現在會顯示在「探索工具」頁面上左側面板的頂端，使其更易於存取。[了解更多](../get-started/work-with-folders.md#favorite-folders)
 
-* 規則產生器現在支援拖放功能，讓您更有效率地重新排列查詢元件。 [了解更多](../query/build-query.md#drag-and-drop)
+* 規則產生器現在支援拖放功能，讓您能更高效地重新排列查詢的元件。[了解更多](../query/build-query.md#drag-and-drop)
 
-* 規則產生器中的「人體條件」已得到改善。 這是您規則的書面純語言版本，顯示在畫面底部：
+* 規則產生器中的「人類狀況」已獲得改善。這是您規則的書面、通俗易懂版本，會顯示在畫面的底部：
 
-   * 屬性現在會反白顯示，並顯示相關聯的結構描述。
-   * 您可以按一下這些元素以檢視更多詳細資訊。
-   * 您現在可以使用對應的按鈕來複製人體狀態。
+   * 現在會醒目標示屬性，並會顯示關聯的結構描述。
+   * 您可以按一下這些元素，以檢視更詳細的資訊。
+   * 您現在可以使用相應的按鈕來複製人類狀況。
 
-* 現在限制對「技術工作流程」和「自動建立的物件」資料夾的存取權，以防止檢視這些資料夾。 [了解更多](../get-started/work-with-folders.md#about-folders)
+* 對「技術工作流程」和「自動建立的物件」資料夾的存取現在會受到限制，以防止它們遭到檢視。[了解更多](../get-started/work-with-folders.md#about-folders)

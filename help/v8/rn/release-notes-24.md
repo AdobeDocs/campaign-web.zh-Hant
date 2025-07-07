@@ -3,9 +3,9 @@ title: Campaign v8 Web 使用者介面先前發行說明
 description: 2024 Campaign Web 使用者介面版本
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2535'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
 </table>
 
 
-### 改良功能
+### 功能改善
 
 * **工作流程活動** - 您現在可以在工作流程中，將活動及其所有子節點從一個轉變移到另一個轉變。在活動的屬性窗格中，有一個專用的&#x200B;**移動**&#x200B;按鈕可執行此操作。[了解更多](../workflows/orchestrate-activities.md#move)
 
@@ -122,7 +122,7 @@ ht-degree: 98%
 * **登陸頁面中的驗證碼** - 現在您可以新增驗證碼以保護您的登陸頁面，避免受機器人程式導致的垃圾訊息和濫用侵害。這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。[了解更多](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-Hant){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## 7 月發行說明 {#24-7-release}
@@ -158,7 +158,7 @@ ht-degree: 98%
 >
 >此功能需要更新到 Campaign v8.6.3 <!--or v8.7.2-->。若要了解更多資訊，請參閱 Campaign v8 用戶端主控台[發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
 
-### 改良功能 {#improvements-24-7}
+### 功能改善 {#improvements-24-7}
 
 **資料夾管理**  - 您現在可以管理資料夾的權限和限制。
 
@@ -173,18 +173,18 @@ ht-degree: 98%
 
 現在您可以建立計劃和專案來組織您的活動。透過定義資料夾階層，您可以將行銷活動組織成專案，並將專案組織成計劃。[閱讀更多](../administration/plans-programs.md)
 
-### 功能改進 {#improvements-24-6}
+### 功能改善 {#improvements-24-6}
 
 * **擴充活動中的調和**：**擴充**&#x200B;活動現在可用於調和 Campaign 資料庫結構描述中的資料與其他結構描述中的資料，或來自臨時結構描述的資料 (例如使用載入檔案活動上傳的資料)。例如，您可以使用此選項將上傳檔案中指定的輪廓所在國家/地區與 Campaign 資料庫專用表中可用的國家/地區之一進行調和。[閱讀更多](../workflows/activities/enrichment.md)
 
 
-### 有限可用中的新功能 {#acs-24-6}
+### 可用性受限的新功能 {#acs-24-6}
 
 >[!AVAILABILITY]
 >
->下列功能屬於「有限可用性(LA)」。 這僅限於將&#x200B;**從Adobe Campaign Standard移轉至Adobe Campaign v8**&#x200B;的客戶，且無法部署在任何其他環境中。
+>以下功能處於可用性受限 (LA) 狀態。它僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 
-* **傳遞警報**
+* **傳遞提醒**
 
 「傳遞提醒」功能是警報管理系統，可讓一組使用者自動接收包含其傳送執行資訊的通知。[閱讀更多](../msg/delivery-alerting.md)
 

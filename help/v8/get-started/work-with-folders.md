@@ -4,9 +4,9 @@ title: 使用資料夾
 description: 了解如何在 Adobe Campaign 中管理資料夾
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->資料夾&#x200B;**[!UICONTROL 自動建立的物件]**&#x200B;和&#x200B;**[!UICONTROL 技術工作流程]**&#x200B;受到限制，無法在左側面板上檢視。
+>「**[!UICONTROL 自動建立的物件]**」和「**[!UICONTROL 技術工作流程]**」資料夾會受到限制，且無法在左側面板上檢視。
 
 
 ## 建立新資料夾 {#create-a-folder}
@@ -88,11 +88,11 @@ ht-degree: 91%
 >title="我的最愛"
 >abstract="您最愛的資料夾將顯示在左側標籤的頂端。"
 
-標示為「我的最愛」的資料夾將一律顯示於左側標籤頂端。
+已標記為「我的最愛」的資料夾將始終顯示在左側標籤的頂端。
 
-您可以在檢視資料夾時按一下右上角的星形按鈕，將資料夾新增為最愛。
+您可以在檢視資料夾時，按一下右上角的星形按鈕，即可將資料夾加入為最愛項目。
 
-![最愛資料夾位置熒幕擷圖](assets/folders-favorite.png){zoomable="yes"}
+![我的最愛資料夾位置螢幕擷圖](assets/folders-favorite.png){zoomable="yes"}
 
 ## 刪除資料夾 {#delete-a-folder}
 
