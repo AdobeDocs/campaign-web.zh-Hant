@@ -247,7 +247,7 @@ body {
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * 確保您的CSS不會被其他CSS規則覆寫。
 
