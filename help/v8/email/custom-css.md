@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: css，編輯器，摘要，電子郵件
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
+source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '692'
 ht-degree: 7%
 
 ---
@@ -138,9 +138,9 @@ ht-degree: 7%
 
 +++
 
-+++ 無效CSS的範例
-
 如果輸入的CSS無效，則會顯示錯誤訊息，指出CSS無法儲存。 以下是無效的CSS範例。
+
++++ 無效CSS的範例
 
 不接受使用`<style>`標籤：
 
@@ -208,17 +208,19 @@ body {
 
 電子郵件Designer的&#x200B;**[!UICONTROL 設定]**&#x200B;窗格不會解譯或驗證自訂CSS。 它是完全獨立的，而且只能透過&#x200B;**[!UICONTROL 新增自訂CSS]**&#x200B;選項進行修改。
 
-如果`global-custom`樣式標籤將屬性`data-disabled`設定為`true`，則不會套用自訂CSS。
+<!--
+If the `global-custom` style tag has the attribute `data-disabled` set to `true`, the custom CSS will not be applied. 
 
-+++ 請參閱範例
++++ See sample
 
-例如：
+For example:
 
 ```html
 <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
 ```
 
 +++
+-->
 
 ## 護欄 — 匯入內容
 
@@ -247,7 +249,7 @@ body {
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
 * 確保您的CSS不會被其他CSS規則覆寫。
 
