@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2c79d81c70d86a3b7c626389870d921ee378bd67
-workflow-type: ht
-source-wordcount: '459'
-ht-degree: 100%
+source-git-commit: bf1b45af28305c07060097280d7cb1e12db87368
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 91%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 100%
 >[!BEGINTABS]
 
 
->[!TAB 2025 年 5 月版]
+>[!TAB 7月25日更新]
 
-5 月版現已上線，其中包含新的自訂管道、品牌一致性分數和類型規則改進。
+Campaign網路使用者介面現在提供新功能和增強功能。 若要善用這些改良功能，請務必將Campaign環境升級至8.8版。如需完整總覽，請參閱發行說明。
 
 [![了解更多按鈕](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 ✨ 透過我們的 [AI 助理](../v8/email/generative-gs.md)即時功能預覽，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。
 
-[![了解更多按鈕](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![了解更多按鈕](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 常見問答集]
 
