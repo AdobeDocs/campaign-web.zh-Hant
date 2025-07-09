@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
-workflow-type: ht
-source-wordcount: '834'
-ht-degree: 100%
+source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 97%
 
 ---
 
@@ -209,33 +209,64 @@ ht-degree: 100%
    + [查詢範例](query/query-samples.md)
    + [篩選清單](query/filter.md)
 + 報告 {#reports}
-   + [開始使用報告](reporting/gs-reports.md)
    + [稽核軌跡](reporting/audit-trail.md)
-   + [匯出您的報告](reporting/export-reports.md)
    + [關鍵績效指標](reporting/kpis.md)
-   + 傳遞報告 {#delivery-report}
-      + [開始使用傳遞報告](reporting/delivery-reports.md)
-      + [以電子郵件寄送傳遞報告 ](reporting/email-report.md)
-      + [推播傳遞報告 ](reporting/push-report.md)
-      + [以簡訊傳送傳遞報告](reporting/sms-report.md)
-      + [外部傳遞報告](reporting/direct-mail.md)
-   + 行銷活動報告 {#campaign-report}
-      + [開始使用行銷活動報告](reporting/campaign-reports.md)
-      + [電子郵件行銷活動報告](reporting/campaign-reports-email.md)
-      + [推播行銷活動報告](reporting/campaign-reports-push.md)
-      + [簡訊行銷活動報告](reporting/campaign-reports-sms.md)
-      + [外部傳遞行銷活動報告](reporting/campaign-reports-direct-mail.md)
-   + 全域報告 {#global-report}
-      + [開始使用全域報告](reporting/global-reports.md)
-      + [電子郵件全域報告](reporting/global-report-email.md)
-      + [推播全域報告](reporting/global-report-push.md)
-      + [簡訊全域報告](reporting/global-report-sms.md)
-      + [直接郵件全域報告](reporting/global-report-direct.md)
+   + 標準報表 {#standard-reports}
+      + [開始使用報告](reporting/gs-reports.md)
+      + [匯出您的報告](reporting/export-reports.md)
+      + 傳遞報告 {#delivery-report}
+         + [開始使用傳遞報告](reporting/delivery-reports.md)
+         + [以電子郵件寄送傳遞報告 ](reporting/email-report.md)
+         + [推播傳遞報告 ](reporting/push-report.md)
+         + [以簡訊傳送傳遞報告](reporting/sms-report.md)
+         + [外部傳遞報告](reporting/direct-mail.md)
+      + 行銷活動報告 {#campaign-report}
+         + [開始使用行銷活動報告](reporting/campaign-reports.md)
+         + [電子郵件行銷活動報告](reporting/campaign-reports-email.md)
+         + [推播行銷活動報告](reporting/campaign-reports-push.md)
+         + [簡訊行銷活動報告](reporting/campaign-reports-sms.md)
+         + [外部傳遞行銷活動報告](reporting/campaign-reports-direct-mail.md)
+      + 全域報告 {#global-report}
+         + [開始使用全域報告](reporting/global-reports.md)
+         + [電子郵件全域報告](reporting/global-report-email.md)
+         + [推播全域報告](reporting/global-report-push.md)
+         + [簡訊全域報告](reporting/global-report-sms.md)
+         + [直接郵件全域報告](reporting/global-report-direct.md)
+   + 動態報告 {#dynamic-reporting}
+      + [開始使用動態報告](reporting/dynamic-reporting/get-started-reporting.md)
+      + 關於報告 {#about-reporting}
+         + [關於動態報告](reporting/dynamic-reporting/about-dynamic-reports.md)
+         + [報告介面](reporting/dynamic-reporting/reporting-interface.md)
+         + [元件清單](reporting/dynamic-reporting/list-of-components.md)
+         + [指標計算](reporting/dynamic-reporting/indicator-calculation.md)
+         + [疑難排解](reporting/dynamic-reporting/troubleshooting.md)
+      + 報告清單 {#list-of-reports}
+         + [定義報告期間](reporting/dynamic-reporting/defining-the-report-period.md)
+         + [退回摘要](reporting/dynamic-reporting/bounce-summary.md)
+         + [依網域劃分](reporting/dynamic-reporting/breakdown-by-domains.md)
+         + [投訴](reporting/dynamic-reporting/complaints.md)
+         + [傳遞摘要](reporting/dynamic-reporting/delivery-summary.md)
+         + [傳遞總處理能力](reporting/dynamic-reporting/delivery-throughput.md)
+         + [傳遞失敗和退回次數](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
+         + [開啟次數](reporting/dynamic-reporting/opens.md)
+         + [追蹤指標](reporting/dynamic-reporting/tracking-indicators.md)
+         + [取消訂閱次數](reporting/dynamic-reporting/unsubscriptions.md)
+         + [URL 和點擊流量](reporting/dynamic-reporting/urls-and-click-streams.md)
+      + 自訂報表 {#customizing-reports}
+         + [新增面板](reporting/dynamic-reporting/adding-panels.md)
+         + [新增視覺效果](reporting/dynamic-reporting/adding-visualizations.md)
+         + [新增元件](reporting/dynamic-reporting/adding-components.md)
+         + [建立自訂輪廓維度](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
+         + [動態報告使用協定](reporting/dynamic-reporting/pii-agreement.md)
 + 整合 {#integrations}
    + [使用其他 Adobe 解決方案](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
 + 設定 {#conf}
+   + 品牌 {#branding}
+      + [關於品牌](administration/branding/branding-gs.md)
+      + [設定品牌](administration/branding/branding-configure.md)
+      + [指派品牌](administration/branding/branding-assign.md)
    + [使用業務規則 (類型)](administration/typologies.md)
    + [管理目標對應](administration/target-mappings.md)
    + [使用結構描述](administration/schemas.md)

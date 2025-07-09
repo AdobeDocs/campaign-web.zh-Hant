@@ -1,17 +1,16 @@
 ---
 audience: end-user
-title: 傳遞警報
+title: 傳遞提醒
 description: 瞭解如何使用傳送警報。
-badge: label="有限可用性"
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 26%
+source-wordcount: '712'
+ht-degree: 24%
 
 ---
 
-# 傳遞警報條件 {#delivery-alerting-criteria}
+# 傳遞提醒條件 {#delivery-alerting-criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
@@ -23,10 +22,6 @@ Campaign Web使用者介面提供預先定義的警示准則，例如低輸送�
 可從左側導覽窗格的&#x200B;**傳送警報**&#x200B;功能表（**條件**&#x200B;標籤下）存取警報條件。
 
 ![傳送警示功能表中顯示的警示條件清單](assets/alerting-criteria-list.png)
-
->[!AVAILABILITY]
->
->此功能在有限可用性(LA)中提供。 僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 
 ## 預先定義的警示准則 {#ootb-criteria}
 

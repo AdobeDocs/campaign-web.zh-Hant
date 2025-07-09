@@ -3,10 +3,10 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何存取、建立和管理Adobe Campaign網站上的訂閱服務
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 29%
+source-wordcount: '1127'
+ht-degree: 28%
 
 ---
 
@@ -87,10 +87,6 @@ ht-degree: 29%
 1. 按一下&#x200B;**[!UICONTROL 儲存並檢閱]**。 新服務已新增至&#x200B;**[!UICONTROL 訂閱服務]**&#x200B;清單。
 
 1. 選取與此服務關聯的預設訂閱和取消訂閱登入頁面。
-
-   >[!AVAILABILITY]
-   >
-   >此功能在有限可用性(LA)中提供。 僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 
    ![熒幕擷圖顯示訂閱服務的預設登陸頁面設定](assets/service-create-default-lp.png){zoomable="yes"}
 

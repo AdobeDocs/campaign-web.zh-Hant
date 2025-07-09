@@ -3,7 +3,7 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 瞭解如何在Campaign網頁使用者介面中編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: d64e4c2833757239be181cbd333a9d2ce95aa35f
 workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 24%
@@ -53,7 +53,7 @@ ht-degree: 24%
 
 若要設定或編輯電子郵件內容，請遵循下列步驟。
 
-1. 從[電子郵件傳遞儀表板](../email/create-email.md)畫面按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕。
+1. 從&#x200B;**[!UICONTROL 電子郵件傳遞儀表板]**&#x200B;畫面按一下[編輯內容](../email/create-email.md)按鈕。
 
    ![在電子郵件傳遞控制面板上顯示[編輯內容]按鈕的熒幕擷圖。](assets/email-edit-content-button.png){zoomable="yes"}
 
@@ -113,7 +113,7 @@ ht-degree: 24%
 
 1. 定義好電子郵件內容後，請使用「**[!UICONTROL 模擬內容]**」按鈕在傳送前檢查其如何顯示。[瞭解如何預覽和測試您的電子郵件](../preview-test/preview-test.md)。
 
-## 設定多語言傳遞
+## 設定多語言傳遞 {#multilingual-delivery}
 
 在Campaign網頁使用者介面中，您可以將電子郵件傳送設定為多語言，這可讓您根據設定檔的偏好語言傳送訊息。 未定義偏好設定時，訊息會以預設語言傳送。
 
@@ -129,7 +129,7 @@ ht-degree: 24%
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL 新增語言]**&#x200B;按鈕只有在目標維度包含語言結構描述時才可用。 若要進一步瞭解結構描述和Target維度，請參閱[詳細檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}。
+   >**[!UICONTROL 新增語言]**&#x200B;按鈕只有在目標維度包含語言結構描述時才可用。 若要進一步瞭解結構描述和Target維度，請參閱[詳細檔案](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}。
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >此清單提供的語言取決於語言屬性所定義的值（例如：system、user、dbenum等） 在此[區段](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/conf/enumerations){target=_blank}中進一步瞭解列舉管理。
+   >此清單提供的語言取決於語言屬性所定義的值（例如：system、user、dbenum等） 在此[區段](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}中進一步瞭解列舉管理。
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}
@@ -162,7 +162,7 @@ ht-degree: 24%
 
 若要定義電子郵件內容，請執行下列步驟：
 
-1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**&#x200B;按鈕，開啟[電子郵件Designer](get-started-email-designer.md#start-authoring)。
+1. 按一下[編輯電子郵件內文](get-started-email-designer.md#start-authoring)按鈕，開啟&#x200B;**[!UICONTROL 電子郵件Designer]**。
 
    >[!NOTE]
    >

@@ -3,10 +3,10 @@ title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 25%
+source-wordcount: '1643'
+ht-degree: 24%
 
 ---
 
@@ -116,10 +116,6 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
    * **[!UICONTROL 授權缺少ID]**&#x200B;選項可讓任何訪客存取登入頁面。 取消選取此選項可防止匿名訪客使用它，這表示只有已識別的使用者才能存取及提交表單。
 
-     >[!AVAILABILITY]
-     >
-     >此功能在有限可用性(LA)中提供。 僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
-
      對於&#x200B;**[!UICONTROL 贏取]**&#x200B;與&#x200B;**[!UICONTROL 訂閱]**&#x200B;範本，預設會選取此選項。 對於&#x200B;**[!UICONTROL 取消訂閱]**&#x200B;和&#x200B;**[!UICONTROL 封鎖清單]**&#x200B;範本，此選項預設為取消選取，且無法修改。
 
 1. 登入頁面可以有後續頁面。 若要新增頁面，請瀏覽&#x200B;**[!UICONTROL 頁面]**&#x200B;區段，然後按一下您想要為此登入頁面設計的每個頁面的&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕。 每個頁面的內容均已預先填滿。 視需要編輯。 [了解更多](lp-content.md)。
@@ -133,10 +129,6 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
    ![熒幕擷圖顯示登陸頁面的儲存選項。](assets/lp-storage.png){zoomable="yes"}
 
 1. 建立&#x200B;**[!UICONTROL 其他資料]**，以便在提交登入頁面時儲存內部資料。 造訪頁面的使用者不會看見此資料。 只會考慮常數值。
-
-   >[!AVAILABILITY]
-   >
-   >此功能在有限可用性(LA)中提供。 僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 
    ![顯示其他資料區段的熒幕擷圖。](assets/lp-additional-data.png){zoomable="yes"}
 
@@ -162,14 +154,10 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 ## 使用驗證碼保護您的登陸頁面 {#captcha}
 
->[!AVAILABILITY]
->
->此功能在有限可用性(LA)中提供。 此版本僅限使用上次修正版本&#x200B;**升級的** Adobe Campaign v8.7.2的客戶使用，且無法部署於任何其他環境。
-
 設定驗證碼可協助您保護登陸頁面免受垃圾郵件和濫用。
 
 若要使用，請移至登陸頁面的&#x200B;**[!UICONTROL 屬性]**。
-在&#x200B;**[!UICONTROL 其他選項]**&#x200B;中。 啟動&#x200B;**[!UICONTROL 額外啟用驗證碼解決方案]**&#x200B;切換按鈕。
+在**[!UICONTROL 其他選項]**&#x200B;中。 啟動&#x200B;**[!UICONTROL 額外啟用驗證碼解決方案]**&#x200B;切換按鈕。
 
 ![熒幕擷圖顯示[額外啟用驗證碼]解決方案切換](assets/lp-properties-captcha.png){zoomable="yes"}
 
@@ -218,7 +206,7 @@ Campaign Web使用者介面可讓您建立、設計和發佈登入頁面。 發�
 
 1. 登入頁面的預覽會在新標籤中開啟。 個人化元素會由選取的測試設定檔資料取代。
 
-   如果您在登入頁面設定中選取了表單&#x200B;**中參考資料的**&#x200B;預先填入選項，則表單欄位會自動預先填入對應的測試設定檔資料。<!--TBC-->
+   如果您在登入頁面設定中選取了表單&#x200B;**[!UICONTROL 中參考資料的]**&#x200B;預先填入選項，則表單欄位會自動預先填入對應的測試設定檔資料。<!--TBC-->
 
    ![傳遞範例](assets/lp-preview.png){zoomable="yes"}
 

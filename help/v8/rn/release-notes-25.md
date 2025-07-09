@@ -2,16 +2,36 @@
 title: Campaign v8 Web 使用者介面先前發行說明
 description: 2025 Campaign Web 使用者介面版本
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
-workflow-type: ht
-source-wordcount: '1438'
-ht-degree: 100%
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+workflow-type: tm+mt
+source-wordcount: '1604'
+ht-degree: 99%
 
 ---
 
 # 2025 年發行說明 {#2025-release}
 
 此頁面列出了 **2025 年版本**&#x200B;的所有變更和改進。最新的發行說明可以在[此頁面](release-notes.md)找到。
+
+## 2025 年 6 月版 {#25-6-release}
+
+### 功能改善 {#25-6-improvements}
+
+* 現在，呼叫中心和自訂管道均可取得傳遞摘要報告。[了解更多](../reporting/direct-mail.md)
+
+* 設定簡訊傳遞時，您現在可以存取特定的簡訊參數。這些參數與用戶端控制台中可用的參數相同。[了解更多](../advanced-settings/delivery-settings.md#sms-tab)
+
+* 您最愛的資料夾現在會顯示在「探索工具」頁面上左側面板的頂端，使其更易於存取。[了解更多](../get-started/work-with-folders.md#favorite-folders)
+
+* 規則產生器現在支援拖放功能，讓您能更高效地重新排列查詢的元件。[了解更多](../query/build-query.md#drag-and-drop)
+
+* 規則產生器中的「人類狀況」已獲得改善。這是您規則的書面、通俗易懂版本，會顯示在畫面的底部：
+
+   * 現在會醒目標示屬性，並會顯示關聯的結構描述。
+   * 您可以按一下這些元素，以檢視更詳細的資訊。
+   * 您現在可以使用相應的按鈕來複製人類狀況。
+
+* 對「技術工作流程」和「自動建立的物件」資料夾的存取現在會受到限制，以防止它們遭到檢視。[了解更多](../get-started/work-with-folders.md#about-folders)
 
 ## 2025 年 5 月版 {#25-5-release}
 
@@ -52,7 +72,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 改良功能 {#25-5-improvements}
+### 功能改善 {#25-5-improvements}
 
 類型規則建立畫面已更新，以方便選擇規則類型。
 
@@ -116,7 +136,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 改良功能 {#25-4-improvements}
+### 功能改善 {#25-4-improvements}
 
 **一般使用者介面改善**
 
@@ -147,13 +167,13 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >以下功能為限量開放 (LA) 版本。僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。這些功能需要將 Campaign 伺服器升級到 v8.7.4。
 >
->請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hant)」。
+>請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html)」。
 
 * **建立多語言傳遞** - 您現在可以在 Adobe Campaign Web 使用者介面中，使用不同語言傳送多個電子郵件傳遞。多語言傳遞功能可讓您選擇傳遞的預設語言，以及可以傳送傳遞的不同語言。您也可以使用您選擇的語言來預覽這些傳遞。如需詳細資訊，請參閱[詳細說明文件](../email/edit-content.md)。
 
 * **多語言動態報告** - 動態報告現可用於多語言電子郵件傳遞。如需詳細資訊，請參閱[詳細說明文件](../reporting/global-reports.md)。
 
-* **簡訊 REST API 支援 (LA)** - 交易型傳訊 REST API 現在已可用於簡訊管道。當承載中同時存在 email 和 mobilePhone 時，您可以使用「wishedChannel」欄位來指定管道。如果未提供，除非 wishedChannel 明確地要求簡訊，否則預設會使用電子郵件。如需詳細資訊，請參閱[詳細說明文件](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}。
+* **簡訊 REST API 支援 (LA)** - 交易型傳訊 REST API 現在已可用於簡訊管道。當承載中同時存在 email 和 mobilePhone 時，您可以使用「wishedChannel」欄位來指定管道。如果未提供，除非 wishedChannel 明確地要求簡訊，否則預設會使用電子郵件。如需詳細資訊，請參閱[詳細說明文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}。
 
 ## 2025 年 2 月版 {#25-2-release}
 
