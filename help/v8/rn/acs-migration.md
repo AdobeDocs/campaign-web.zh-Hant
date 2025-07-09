@@ -70,7 +70,7 @@ Campaign v8 和 Campaign Standard 之間大多數概念相似。但是，在術�
 
 ## 特定功能 {#new-features}
 
-為確保能順暢轉換到 Campaign v8，Campaign Standard 的主要功能已新增至 Campaign v8 中。這些功能在[此文件](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target=&quot;_blank}中有詳細介紹，並且僅適用於從 Campaign Standard 轉換的使用者。
+為確保能順暢轉換到 Campaign v8，Campaign Standard 的主要功能已新增至 Campaign v8 中。這些功能在[此文件](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target=_blank}中有詳細介紹，並且僅適用於從 Campaign Standard 轉換的使用者。
 
 * **動態報告**：動態報告提供可自訂的即時報告，方便衡量行銷活動的影響。動態報告亦可以存取輪廓資料，以便按照維度 (例如性別、城市和年齡) 以及功能性電子郵件行銷活動資料 (例如開啟和點按次數)，進行人口統計分析。[了解更多](../reporting/dynamic-reporting/get-started-reporting.md)。
 
