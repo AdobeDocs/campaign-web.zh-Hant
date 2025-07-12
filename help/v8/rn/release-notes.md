@@ -59,7 +59,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 除了上述功能以外，此版本也隨附使用者端主控台中提供的一組功能：
 
 * [新的SMS傳送聯結器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=zh-Hant)。
-* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
+* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant)
 
 請參閱使用者端主控台[發行說明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-hant){target="_blank"}。
 
