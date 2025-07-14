@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -211,7 +211,7 @@ ht-degree: 97%
 + 報告 {#reports}
    + [稽核軌跡](reporting/audit-trail.md)
    + [關鍵績效指標](reporting/kpis.md)
-   + 標準報表 {#standard-reports}
+   + 標準報告 {#standard-reports}
       + [開始使用報告](reporting/gs-reports.md)
       + [匯出您的報告](reporting/export-reports.md)
       + 傳遞報告 {#delivery-report}
@@ -252,19 +252,19 @@ ht-degree: 97%
          + [追蹤指標](reporting/dynamic-reporting/tracking-indicators.md)
          + [取消訂閱次數](reporting/dynamic-reporting/unsubscriptions.md)
          + [URL 和點擊流量](reporting/dynamic-reporting/urls-and-click-streams.md)
-      + 自訂報表 {#customizing-reports}
+      + 自訂報告 {#customizing-reports}
          + [新增面板](reporting/dynamic-reporting/adding-panels.md)
          + [新增視覺效果](reporting/dynamic-reporting/adding-visualizations.md)
          + [新增元件](reporting/dynamic-reporting/adding-components.md)
          + [建立自訂輪廓維度](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
-         + [動態報告使用協定](reporting/dynamic-reporting/pii-agreement.md)
+         + [動態報告使用合約](reporting/dynamic-reporting/pii-agreement.md)
 + 整合 {#integrations}
    + [使用其他 Adobe 解決方案](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
 + 設定 {#conf}
-   + 品牌 {#branding}
-      + [關於品牌](administration/branding/branding-gs.md)
+   + 品牌化 {#branding}
+      + [關於品牌化](administration/branding/branding-gs.md)
       + [設定品牌](administration/branding/branding-configure.md)
       + [指派品牌](administration/branding/branding-assign.md)
    + [使用業務規則 (類型)](administration/typologies.md)
