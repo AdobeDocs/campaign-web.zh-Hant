@@ -24,14 +24,14 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 >[!AVAILABILITY]
 >
->若要從這些更新中受益，您的伺服器必須至少升級至 8.8.1 版。請參閱用戶端控制台[發行說明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}。
+>若要從這些更新中受益，您的伺服器必須至少升級至 8.8.1 版。請參閱用戶端控制台[發行說明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant){target="_blank"}。
 
 下列功能先前在可用性受限的狀態下發行，現在已可供所有環境使用 (全面發佈)：
 
 * **建立多語言傳遞** - 您現在可以在 Adobe Campaign Web 使用者介面中，使用不同語言傳送多個電子郵件傳遞。多語言傳遞功能可讓您選擇傳遞的預設語言，以及可以傳送傳遞的不同語言。您也可以使用您選擇的語言來預覽這些傳遞。[閱讀更多](../email/edit-content.md#multilingual-delivery)。
 
 <!--
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=zh-Hant){target="_blank"}
 -->
 
 * **傳遞提醒** - 傳遞提醒功能是一個警報管理系統，可讓一組使用者自動接收包含其傳遞執行資訊的通知。[閱讀更多](../msg/delivery-alerting.md)
@@ -58,14 +58,14 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 除了上方列出的功能外，此版本還隨附一組用戶端控制台中可用的功能：
 
-* [新的簡訊傳送連接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html)。
-* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
+* [新的簡訊傳送連接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=zh-Hant)。
+* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant)
 
-請參閱用戶端控制台[發行說明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}。
+請參閱用戶端控制台[發行說明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant){target="_blank"}。
 
 <!--
-ACC * **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html){target="_blank"}
-web - * **Branding for Direct Mail** - Technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates. [Learn more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
+ACC * **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-Hant){target="_blank"}
+web - * **Branding for Direct Mail** - Technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates. [Learn more](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/branding/branding-assign)
 ACC - Branding - As a Campaign Standard migrated user, your technical administrators can now define one or several brands to centralize the parameters that affect a brand’s identity. This includes the brand logo, the domain of the landing pages’ access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates. Read more
 Previously released in Limited Availability, the following capability is now available **on demand, only for [Campaign FDA deployments](../architecture/fda-deployment.md)**. To gain access, contact your Adobe representative.
 Previously released in Limited Availability, the following capability is now available by default **for new implementations**, and available **on demand for existing environments**. To gain access, contact your Adobe representative.

@@ -70,13 +70,13 @@ Campaign v8 和 Campaign Standard 之間大多數概念相似。但是，在術�
 
 ## 特定功能 {#new-features}
 
-為確保能順暢轉換到 Campaign v8，Campaign Standard 的主要功能已新增至 Campaign v8 中。這些功能在[此文件](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target=&quot;_blank}中有詳細介紹，並且僅適用於從 Campaign Standard 轉換的使用者。
+為確保能順暢轉換到 Campaign v8，Campaign Standard 的主要功能已新增至 Campaign v8 中。這些功能在[此文件](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hant){target=&quot;_blank}中有詳細介紹，並且僅適用於從 Campaign Standard 轉換的使用者。
 
 * **動態報告**：動態報告提供可自訂的即時報告，方便衡量行銷活動的影響。動態報告亦可以存取輪廓資料，以便按照維度 (例如性別、城市和年齡) 以及功能性電子郵件行銷活動資料 (例如開啟和點按次數)，進行人口統計分析。[了解更多](../reporting/dynamic-reporting/get-started-reporting.md)。
 
 * **集中品牌化**：各家公司可以利用 Adobe Campaign 定義品牌視覺化與技術準則。使用者可以向客戶呈現一致的品牌形象，包含標誌以及電子郵件發送者、URL 或網域等技術層面。[了解更多](../administration/branding/branding-gs.md)。
 
-* **REST API**：從 Campaign Standard 移轉的使用者，可以透過 REST API 為 Adobe Campaign 建立整合，以及將 Adobe Campaign 與其他技術進行連結來建置生態系統。[了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}。
+* **REST API**：從 Campaign Standard 移轉的使用者，可以透過 REST API 為 Adobe Campaign 建立整合，以及將 Adobe Campaign 與其他技術進行連結來建置生態系統。[了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant){target="_blank"}。
 
 * **登陸頁面**：Campaign v8 登陸頁面已有改進，確保功能與 Campaign Standard 相同。請參閱[發行說明](../rn/release-notes.md#new-24-4)和登陸頁面[文件](../landing-pages/get-started-lp.md)以了解更多資訊。
 
