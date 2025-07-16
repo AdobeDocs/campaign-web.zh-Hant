@@ -3,10 +3,10 @@ audience: end-user
 title: 追蹤您的訊息
 description: 了解如何新增連結和追蹤已傳送的訊息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 23%
+source-wordcount: '568'
+ht-degree: 21%
 
 ---
 
@@ -31,10 +31,6 @@ ht-degree: 23%
    ![熒幕擷圖顯示在郵件追蹤工具中插入連結的介面](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL 外部連結]**：插入外部URL的連結。
-
-     >[!AVAILABILITY]
-     >
-     >下列功能（連結至&#x200B;**[!UICONTROL 登陸頁面]**、**[!UICONTROL 訂閱連結]**&#x200B;和&#x200B;**[!UICONTROL 取消訂閱連結]**）為有限可用性(LA)。 僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。
 
    * **[!UICONTROL 登陸頁面]**：插入登陸頁面的連結。 如果您選取動態登入頁面（已選取&#x200B;**[!UICONTROL 來自URL的服務]**&#x200B;選項），則您可以從清單中選取任何服務。 [了解更多](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
