@@ -4,7 +4,7 @@ title: 使用資料夾
 description: 了解如何在 Adobe Campaign 中管理資料夾
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_folder_favorites"
 >title="我的最愛"
->abstract="您最愛的資料夾將顯示在左側標籤的頂端。"
+>abstract="您最愛的資料夾將顯示在左側分頁的最上方。"
 
 已標記為「我的最愛」的資料夾將始終顯示在左側標籤的頂端。
 
