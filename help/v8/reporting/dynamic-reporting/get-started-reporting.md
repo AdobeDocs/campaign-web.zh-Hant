@@ -4,10 +4,10 @@ description: 在內建或自訂的動態報表中分析促銷活動的成功。
 audience: end-user
 level: Beginner
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
-source-git-commit: 605633bd8351ad3d27edac5de14148f149ff2797
+source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 12%
+source-wordcount: '292'
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 12%
 
 >[!AVAILABILITY]
 >
->此功能只能隨選使用。 若要取得存取權，請聯絡您的Adobe代表。
+>此功能僅於需要時提供。 若要取得存取權，請聯絡您的Adobe代表。
 
 動態報告提供完全可自訂的即時報告，以評估行銷活動的影響。 它新增對設定檔資料的存取權，除了功能性電子郵件促銷活動資料（如開啟和點按）外，還支援依設定檔維度（如性別、城市和年齡）進行人口統計分析。
 
