@@ -2,19 +2,18 @@
 audience: end-user
 title: 品牌一致性
 description: 瞭解如何使用品牌分數建立、驗證和管理品牌上內容。
-badge: label="Beta" type="Informative"
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 4%
+source-wordcount: '226'
+ht-degree: 5%
 
 ---
 
-# 品牌一致性(Beta){#brands-score}
+# 品牌一致性 {#brands-score}
 
 >[!AVAILABILITY]
 >
->此功能已發佈私人測試版。 未來版本將逐步開放所有客戶使用。
 >您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 「品牌一致性」功能可協助您建立、檢閱及管理符合品牌指引的內容。 它可確保您的電子郵件行銷活動的語調、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。

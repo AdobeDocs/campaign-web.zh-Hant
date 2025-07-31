@@ -3,9 +3,9 @@ audience: end-user
 title: 具有AI助理的登陸頁面
 description: 開始使用AI助理
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1595'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄和限制](generative-gs.md#generative-guardrails)。
-></br>
+>></br>
 >
 >您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Adobe Campaign網頁中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 在以下範例中，瞭解如何運用AI助理來調整現有的登入頁面範本。
 
-1. 建立及設定您的登入頁面後，請按一下[編輯內容]。**&#x200B;**
+1. 建立及設定您的登入頁面後，請按一下[編輯內容]。****
 
    如需如何設定登入頁面的詳細資訊，請參閱[此頁面](../landing-pages/create-lp.md)。
 
@@ -68,11 +68,15 @@ ht-degree: 1%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 切換您要納入產生程式的資產。
 
-   ![顯示品牌資產功能表的熒幕擷圖。](assets/lp_full_gen_5.png){zoomable="yes"}
+1. 提示就緒後，請按一下[產生]。****
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**，然後按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本，或按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以取代您目前的內容。
 
-1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**，然後按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本。
+1. 按一下百分比圖示可檢視您的&#x200B;**[!UICONTROL 品牌一致性分數]**，並識別與您的品牌之間的任何不一致性。
+
+   深入瞭解[品牌一致性分數](../content/brands-score.md)。
+
+   ![](assets/lp_full_gen_5.png){zoomable="yes"}
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -82,6 +86,8 @@ ht-degree: 1%
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
    ![熒幕擷圖顯示精簡選項。](assets/lp_full_gen_6.png){zoomable="yes"}
+
+1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](../content/brands.md)一致。
 
 1. 找到適當的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
 
@@ -93,7 +99,7 @@ ht-degree: 1%
 
 在以下範例中，瞭解如何運用AI助理來增強登入頁面的內容。
 
-1. 建立及設定您的登入頁面後，請按一下[編輯內容]。**&#x200B;**
+1. 建立及設定您的登入頁面後，請按一下[編輯內容]。****
 
    如需如何設定登入頁面的詳細資訊，請參閱[此頁面](../landing-pages/create-lp.md)。
 
@@ -123,9 +129,15 @@ ht-degree: 1%
 
    ![顯示品牌資產功能表的熒幕擷圖。](assets/lp-text-genai-4.png){zoomable="yes"}
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
-1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**，然後按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本。
+1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**，然後按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本，或按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以取代您目前的內容。
+
+1. 按一下百分比圖示可檢視您的&#x200B;**[!UICONTROL 品牌一致性分數]**，並識別與您的品牌之間的任何不一致性。
+
+   深入瞭解[品牌一致性分數](../content/brands-score.md)。
+
+   ![顯示品牌資產功能表的熒幕擷圖。](assets/lp-text-genai-4.png){zoomable="yes"}
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -139,6 +151,8 @@ ht-degree: 1%
 
    ![熒幕擷圖顯示精簡選項。](assets/lp-text-genai-5.png){zoomable="yes"}
 
+1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](../content/brands.md)一致。
+
 1. 找到適當的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
 
 1. 插入個人化欄位，以根據設定檔資料自訂您的登入頁面內容。 然後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以控制轉譯，並使用測試設定檔檢查個人化設定。 [了解更多](../landing-pages/create-lp.md#test-landing-page)。
@@ -149,7 +163,7 @@ ht-degree: 1%
 
 在以下範例中，瞭解如何運用AI Assistant來最佳化和改善您的資產，確保更方便使用者的體驗。
 
-1. 建立及設定您的登入頁面後，請按一下[編輯內容]。**&#x200B;**
+1. 建立及設定您的登入頁面後，請按一下[編輯內容]。****
 
    如需如何設定登入頁面的詳細資訊，請參閱[此頁面](../landing-pages/create-lp.md)。
 
@@ -169,7 +183,7 @@ ht-degree: 1%
 
 1. 使用&#x200B;**[!UICONTROL 影像設定]**&#x200B;選項量身打造您的提示：
 
-   * **[!UICONTROL 外觀比例]**：決定資產的寬度和高度。 從常見比例（如16:9、4:3、3:2或1:1）中選擇，或輸入自訂大小。
+   * **[!UICONTROL 外觀比例]**：決定資產的寬度和高度。 從一般比率（例如16:9、4:3、3:2或1:1）中選擇，或輸入自訂大小。
    * **[!UICONTROL 內容型別]**：將視覺元素的本質分類，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
    * **[!UICONTROL 視覺強度]**：調整影像的強度，控制影像的影響。 較低的設定(2)可建立較柔和的外觀，而較高的設定(10)則使影像更鮮豔。
    * **[!UICONTROL 色彩和色調]**：調整影像中顏色的整體外觀及其傳達的氣氛或氣氛。
@@ -182,15 +196,19 @@ ht-degree: 1%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 切換您要納入產生程式的資產。
 
-1. 在您滿意提示組態之後，請按一下[產生]。**&#x200B;**
+1. 在您滿意提示組態之後，請按一下[產生]。****
 
-1. 瀏覽&#x200B;**[!UICONTROL 變數建議]**&#x200B;以尋找所需的資產。
+1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**，然後按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本，或按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以取代您目前的內容。
 
-   按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本。
+1. 按一下百分比圖示可檢視您的&#x200B;**[!UICONTROL 品牌一致性分數]**，並識別與您的品牌之間的任何不一致性。
 
-1. 如果要檢視與此變體相關的影像，請選擇&#x200B;**[!UICONTROL 產生類似專案]**。
+   深入瞭解[品牌一致性分數](../content/brands-score.md)。
 
-   ![顯示變數建議介面的熒幕擷圖。](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![顯示品牌資產功能表的熒幕擷圖。](assets/lp-image-gen-4.png){zoomable="yes"}
+
+1. 如果要檢視與此變體相關的影像，請在&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中選擇&#x200B;**[!UICONTROL 產生類似專案]**。
+
+1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](../content/brands.md)一致。
 
 1. 找到適當的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
 
