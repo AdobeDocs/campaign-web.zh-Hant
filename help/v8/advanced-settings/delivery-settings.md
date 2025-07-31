@@ -4,10 +4,10 @@ title: 設定傳送設定
 description: 瞭解如何在Campaign網頁版中設定傳遞設定
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
+source-git-commit: 49457bf8d6ac292ad20df28867c0eefc92e26dea
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 43%
+source-wordcount: '3449'
+ht-degree: 39%
 
 ---
 
@@ -88,11 +88,11 @@ ht-degree: 43%
 
 在此區段中，您可以選取Adobe Campaign v8主控台中定義的容量規則。 此規則已與管道相關聯。
 
-收件者&#x200B;**欄位的**&#x200B;重要性是公式，用來決定超過容量型別規則時保留哪些設定檔。
+收件者&#x200B;**[!UICONTROL 欄位的]**&#x200B;重要性是公式，用來決定超過容量型別規則時保留哪些設定檔。
 
 >[!NOTE]
 >
->型別規則是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+>型別規則是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}中進一步瞭解。
 
 ## 對象設定 {#audience}
 
@@ -103,7 +103,7 @@ ht-degree: 43%
 
 在此區段中，您可以選取其中可用的&#x200B;**目標對應**。目標對應是在 Adobe Campaign v8 主控台中定義的。目標對應是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、操作者、訂閱者等。 [進一步瞭解目標對應](../audience/targeting-dimensions.md)。
 
-在&#x200B;**[!UICONTROL 排除]**&#x200B;欄位中，您可以選取排除不想再聯絡或隔離的設定檔。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=zh-Hant){target="_blank"}
+在&#x200B;**[!UICONTROL 排除]**&#x200B;欄位中，您可以選取排除不想再聯絡或隔離的設定檔。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## 傳遞 {#delivery}
 
@@ -130,7 +130,7 @@ ht-degree: 43%
 
 * **[!UICONTROL 測試SMTP傳遞]** （電子郵件通道）：此選項用於測試透過SMTP的傳送。 電子郵件會處理到連線至SMTP伺服器，但不會傳送：對於每個電子郵件收件者，Campaign會連線至SMTP提供者伺服器、執行SMTP RCPT TO命令，並在SMTP DATA命令之前關閉連線。
 
-* **[!UICONTROL 電子郵件密件副本]** （電子郵件頻道）：此選項是用來透過密件副本在外部系統上儲存電子郵件，只要將密件副本電子郵件地址新增到您的郵件目標即可。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+* **[!UICONTROL 電子郵件密件副本]** （電子郵件頻道）：此選項是用來透過密件副本在外部系統上儲存電子郵件，只要將密件副本電子郵件地址新增到您的郵件目標即可。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}中進一步瞭解。
 
 在&#x200B;**[!UICONTROL 波段定義]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 使用多個波段傳送]**&#x200B;選項，以逐步增加使用波段傳送的音量。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 [了解更多](send-using-waves.md)
 
@@ -159,7 +159,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->Web Analytics功能是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=zh-Hant#external-account-ac){target="_blank"}中進一步瞭解。
+>Web Analytics功能是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}中進一步瞭解。
 
 ## 重試次數 {#retries}
 
@@ -228,7 +228,7 @@ ht-degree: 43%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hant#validity-period){target="_blank"}中進一步瞭解傳遞有效期。
+在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}中進一步瞭解傳遞有效期。
 
 ### 映象頁面管理（電子郵件通道） {#mirror}
 
@@ -340,6 +340,29 @@ ht-degree: 43%
 
   將此值設定為0會停用限制。
 
+* **[!UICONTROL 選用的SMPP引數(TLV)]**
+
+  您可以指定額外的欄位，以作為選用的SMPP引數(TLV)傳送。 這些額外的欄位會與每個MT一併傳送，而個人化欄位可讓每個MT有不同的值。
+此表格列出要隨每則訊息傳送的選用引數。 欄包含下列資訊：
+
+   * **標籤**：這是選用的自由格式標籤。 不會傳輸給提供者。 您可以提供引數的文字說明。
+   * **標籤**：標籤值，以十進位格式(例如12345)或具有0x首碼的十六進位（例如0x12ab）。 標籤可介於0到65535之間。 向SMPP服務提供者詢問他們支援的標籤。
+   * **值**：要傳入選用引數的值。 此為個人化欄位。
+   * **格式**：用於引數的編碼。 您可以選取任何支援的文字編碼或最常見的二進位格式。 向SMPP服務提供者詢問所需的格式。
+   * **最大長度**：此引數的最大位元組數。 由於二進位欄位的大小固定，因此二進位欄位會忽略此項。
+
+  **使用TLV的二進位格式**
+
+  Campaign支援以二進位格式傳送TLV。 二進位檔僅限於傳送數字。
+
+  由於個人化欄位一律會輸出文字，因此個人化欄位必須包含數字的十進位表示法（任何字串只要只包含數字就沒問題）。 值可以同時為已簽署和未簽署，個人化引擎只會將其轉換為正確的二進位表示法。
+
+  使用二進位格式時，特殊值「 」（空字串）、「null」和「undefined」會完全停用欄位，而不會擲回錯誤。 在這三種特殊情況下，完全不會傳遞標籤。 這允許在個人化欄位中使用精心編制的Javascript時，僅針對某些訊息傳遞特定的TLV。
+
+  >[!NOTE]
+  >
+  >二進位格式一律會編碼為big-endian格式。
+
 ## 電子郵件傳遞適用的 SMTP 設定 {#smtp}
 
 >[!CONTEXTUALHELP]
@@ -377,7 +400,7 @@ ht-degree: 43%
 
 您可以在傳遞設定的SMTP索引標籤中，將&#x200B;**[!UICONTROL SMTP標頭]**&#x200B;新增至您的電子郵件傳遞。
 
-在此視窗中輸入的指令碼必須參考以下格式的每行一個標題： name：value。
+在此視窗中輸入的指令碼必須參考下列格式的每行一個標題： name:value。
 
 如有必要，會自動對值編碼。
 

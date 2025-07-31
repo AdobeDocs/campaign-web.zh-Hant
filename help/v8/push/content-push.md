@@ -3,10 +3,10 @@ audience: end-user
 title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 39%
+source-wordcount: '1632'
+ht-degree: 37%
 
 ---
 
@@ -50,8 +50,8 @@ ht-degree: 39%
 
 * **[!UICONTROL 資料訊息]**&#x200B;已由使用者端應用程式處理。 這些訊息會直接傳送至行動應用程式，在裝置上產生和顯示Android通知。 資料訊息僅包含您的自訂應用程式變數。
 
-  若要定義內容、個人化資料及新增動態內容，請按一下&#x200B;**[!UICONTROL 訊息]**&#x200B;欄位並使用運算式編輯器。 存取此編輯器以自訂您的訊息。
-在&#x200B;**[!UICONTROL 應用程式變數]**&#x200B;功能表中，您的應用程式變數會自動新增。 這些變數可讓您定義通知行為。 例如，設定使用者啟動通知時顯示的特定應用程式畫面。
+  若要定義內容、個人化資料及新增動態內容，請按一下&#x200B;**[!UICONTROL 訊息]**欄位並使用運算式編輯器。 存取此編輯器以自訂您的訊息。
+在**[!UICONTROL 應用程式變數]**&#x200B;功能表中，您的應用程式變數會自動新增。 這些變數可讓您定義通知行為。 例如，設定使用者啟動通知時顯示的特定應用程式畫面。
 
   ![說明：在Android通知中定義資料訊息內容的範例](assets/push_content_4.png){zoomable="yes"}
 
@@ -143,6 +143,7 @@ ht-degree: 39%
 | **[!UICONTROL 通知計數]** | 設定將直接顯示在應用程式圖示上的數字，表示新的未讀取資訊的數量。 這可提供使用者的快速視覺參考。 |
 | **[!UICONTROL 磁碟區]** | 音量從0到100。 |
 | **[!UICONTROL 可變內容]** | 啟用此選項可允許行動應用程式下載與通知相關的媒體內容。 有關詳細資訊，請參閱 [Apple 開發人員文件](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 |
+| **[!UICONTROL 可用的內容]** | 啟用此選項可允許您的通知在iOS裝置上觸發背景更新，即使應用程式未主動開啟亦然。 這可確保訊息或資料更新等內容可在應用程式收件匣中處理和儲存，而無需使用者互動。 選取後，會根據Apple推播通知服務(APNS)標準，將`content-available: 1`旗標新增至`aps`裝載。 |
 | **[!UICONTROL 關聯性分數]** | 設定 0 到 100 之間的關聯性計分，在通知摘要中安排通知的優先順序。分數愈高，表示通知愈重要。 |
 | **[!UICONTROL 中斷層級]** | <ul> <li>**[!UICONTROL 作用中]**：預設設定，系統會立即顯示通知、點亮熒幕，並可播放音效。 通知不會突破焦點模式。</li><li>**[!UICONTROL 被動]**：系統會將通知新增至通知清單，而不需開啟熒幕或播放音效。 通知不會突破焦點模式。</li><li>**[!UICONTROL 有時效性]**：系統立即顯示通知、讓熒幕亮起、可以播放聲音，並突破焦點模式。 此層級不需要Apple的特殊許可權。</li> <li>**[!UICONTROL 關鍵]**：系統立即顯示通知、讓熒幕亮起，並略過靜音切換或聚焦模式。 請注意，此層級需要Apple的特殊許可權。</ul> |
 | **[!UICONTROL 執行緒ID]** | 用於將相關通知分組在一起的識別碼。 具有相同對話串ID的通知會在通知清單中整理為單一對話或對話串。 |

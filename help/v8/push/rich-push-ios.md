@@ -3,9 +3,9 @@ audience: end-user
 title: 設計iOS豐富推送通知傳送
 description: 瞭解如何使用Adobe Campaign Web設計iOS豐富推送通知傳送
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1625'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->在設計豐富推送通知之前，您需要設定您的V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)。
+>在設計豐富推送通知之前，您需要設定您的V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)。
 
 ## 定義通知的內容 {#push-message}
 
@@ -203,6 +203,7 @@ ht-degree: 4%
 | 參數 | 說明 |
 |-----------|-------------|
 | **[!UICONTROL 可變內容]** | 啟用此選項可允許行動應用程式下載媒體內容。 |
+| **[!UICONTROL 可用的內容]** | 啟用此選項可允許您的通知在iOS裝置上觸發背景更新，即使應用程式未主動開啟亦然。 這可確保訊息或資料更新等內容可在應用程式收件匣中處理和儲存，而無需使用者互動。 選取後，會根據Apple推播通知服務(APNS)標準，將`content-available: 1`旗標新增至`aps`裝載。 |
 | **[!UICONTROL 關聯性分數]** | 將關聯性分數從0設定為100。 系統會使用此選項來排序通知摘要中的通知。 |
 | **[!UICONTROL 中斷層級]** | <ul><li>**作用中**：預設設定，系統會立即顯示通知、點亮熒幕，並可播放音效。 通知不會破壞焦點模式。</li><li>**被動**：系統會將通知新增至通知清單，而不需開啟熒幕或播放音效。 通知不會破壞焦點模式。</li><li>**有時效性**：系統會立即顯示通知、讓熒幕亮起、播放聲音，並中斷焦點模式。 此層級不需要Apple的特殊許可權。</li><li>**關鍵**：系統立即顯示通知、讓熒幕亮起，並略過靜音切換或聚焦模式。 請注意，此層級需要Apple的特殊許可權。</li></ul> |
 | **[!UICONTROL 執行緒ID]** | 設定用來將相關通知分組在一起的識別碼。 |
