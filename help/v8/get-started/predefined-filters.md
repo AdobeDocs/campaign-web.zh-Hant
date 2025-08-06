@@ -3,9 +3,9 @@ title: 使用預先定義的篩選器
 description: 了解如何在 Adobe Campaign Web 中建立和管理預先定義的篩選器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 3136381c92a19a7b918372868fb3c242cb312ec1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 93%
 * 複製預先定義的篩選器。
 * 刪除預先定義的篩選器。
 
-您也可以直接從規則產生器編輯或刪除預先定義的篩選器。 從預先定義的篩選器選取視窗，使用&#x200B;**其他動作**&#x200B;按鈕。 您可以刪除或編輯篩選器。 您可以變更標籤、新增說明並將其新增為最愛。
+您也可以直接從規則產生器中編輯或刪除預先定義的篩選器。在預先定義的篩選器選擇視窗中，使用「**更多動作**」按鈕。您可以刪除篩選器或加以編輯。您可以變更標籤、新增說明，並將其新增為最愛項目。
 
 ![預先定義的篩選器版本](assets/filter-edit.png){zoomable="yes"}
 

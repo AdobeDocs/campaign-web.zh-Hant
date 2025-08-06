@@ -4,9 +4,9 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 8f8c1645952c6a7f73c083573e18d2b04e9d9ac7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 99%
 >[!BEGINTABS]
 
 
->[!TAB 2025年7月發行版本]
+>[!TAB 2025 年 7 月版]
 
 新功能和增強功能現已在 Campaign Web 使用者介面中提供。若要充分利用這些改進，請務必將您的 Campaign 環境升級至 8.8 版。如需完整概觀，請查看發行說明。
 
@@ -63,7 +63,7 @@ ht-degree: 99%
 
 ✨ 透過我們的 [AI 助理](../v8/email/generative-gs.md)即時功能預覽，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。
 
-[![了解更多按鈕](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![了解更多按鈕](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 常見問答集]
 
