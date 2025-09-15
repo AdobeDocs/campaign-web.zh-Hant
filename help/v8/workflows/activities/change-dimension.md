@@ -15,7 +15,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="產生補集"
->abstract="您可以使用剩餘族群 (其已因重複而排除) 產生額外的傳出轉變。為此，請開啟「**產生補集**」選項。"
+>abstract="您可以使用剩餘群體 (其已因重複而排除) 產生額外的傳出轉變。為此，請開啟「**產生補集**」選項。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"

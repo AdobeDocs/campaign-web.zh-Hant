@@ -33,12 +33,12 @@ ht-degree: 62%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 設定建置對象活動 {#build-audience-configuration}
+## 設定建置客群活動 {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="客群"
->abstract="選取您的對象，與您設計新傳遞時使用對象的方式相同。"
+>abstract="選取您的客群，與您設計新傳遞時使用客群的方式相同。"
 
 請按照以下步驟設定「**建置客群**」活動：
 
