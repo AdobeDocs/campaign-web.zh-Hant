@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 875e60defa2d96a6d7b3663516b757f3cc8cd154
+source-git-commit: a10ec6bf3ec5675d62d4031660d5196babd55403
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 63%
+source-wordcount: '221'
+ht-degree: 54%
 
 ---
 
@@ -19,6 +19,12 @@ ht-degree: 63%
 Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，這些發行說明每月會更新多次。請定期進行檢查。
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 頁面中列出了先前版本可用的變更和改進。
+
+## 2025年9月更新 {#25-9-updates}
+
+已發佈下列改善專案：
+
+* 使用電子郵件Designer的條件式內容功能設定條件時，已新增一組新運運算元。
 
 ## 2025年8月發行 {#25-8-release}
 
