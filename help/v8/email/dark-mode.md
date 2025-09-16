@@ -1,7 +1,6 @@
 ---
 title: 切換至深色模式
 description: 瞭解如何在Adobe Campaign電子郵件Designer中使用深色模式
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -9,9 +8,9 @@ level: Beginner, Intermediate
 keywords: 深色模式，電子郵件，顏色，編輯器
 hide: true
 hidefromtoc: true
-source-git-commit: 795a18d14c353666e081c70f6095924bb6d918e1
+source-git-commit: b85a78cf89586679630398f5f3c7d732a59711fd
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1515'
 ht-degree: 4%
 
 ---
