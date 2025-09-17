@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
-source-git-commit: 3acaa4c2bad2f265d8bb24c0840d12ad77a5d248
+source-git-commit: b271ae6ade10fae32253768029dee109b24fd4e1
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1536'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 0%
 
 <!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
-
 ## 確保文字可讀性 {#text-readability}
 
 運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 [了解更多](content-components.md#text)
@@ -138,15 +137,19 @@ ht-degree: 0%
 
 ## 使用深色模式 {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
+在深色模式中設計內容的最佳實務中，請使用透明的PNG或SVG、設定適當的中繼標籤和CSS，並在不支援深色模式時提供可存取的遞補樣式。
 
-深色模式可增強對光線敏感度或視覺障礙的使用者的視覺協助功能，進而改善觀看體驗。
+<!--TO PUBLISH WHEN DARK MODE IS RELEASED
+
+Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
-在深色模式中設計內容的最佳實務中，請使用透明的PNG或SVG、設定適當的中繼標籤和CSS，並在不支援深色模式時提供可存取的遞補樣式。 最後，透過在淺色和深色模式下測試所有電子郵件內容和UI元素，確保您的電子郵件在深色模式下正確呈現。
+Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
 
-[本節](dark-mode.md#best-practices)中列出了深色模式的詳細最佳實務，包括確保協助工具的准則。<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices).
+
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## 針對協助工具使用特定屬性 {#attributes}
 
