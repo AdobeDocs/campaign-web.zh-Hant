@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 開始使用 AI 助理
-description: 開始使用AI助理
+description: 開始使用 AI 助理
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -69,7 +69,7 @@ AI Assistant可簡化跨管道（例如電子郵件、簡訊和推播通知）�
 * 使用[內建電子郵件範本](../email/create-email-templates.md)、品牌特定範本或自訂範本，以使用AI助理建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
 * 選擇變體時，使用向上縮圖、向下縮圖或標幟圖示，報告任何有問題的輸出。
 * 您使用AI助理須遵守Adobe Experience Cloud Generative AI使用者指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
-* 作為Adobe承諾在媒體建立中使用創作AI工具時提高透明度的其中一環，Adobe在下載或匯出內容或專案(包含Firefly產生的資產)時套用Content Credentials。 [了解更多](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)。
+* 作為Adobe承諾在媒體建立中使用創作AI工具時提高透明度的其中一環，Adobe在下載或匯出內容或專案(包含Firefly產生的資產)時套用Content Credentials。 [了解更多](https://helpx.adobe.com/firefly/using/content-credentials.html)。
 
 下列限制適用於Adobe Campaign Web中的AI助理：
 
