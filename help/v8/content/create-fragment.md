@@ -3,7 +3,7 @@ audience: end-user
 title: 建立內容片段
 description: 瞭解如何建立內容片段
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 22%
@@ -44,7 +44,7 @@ ht-degree: 22%
 
 若要從頭開始建立內容片段，請遵循下列步驟。
 
-1. [透過&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**&#x200B;左側功能表存取片段清單](#access-manage-fragments)，並選取&#x200B;**[!UICONTROL 建立片段]**。
+1. [透過](#access-manage-fragments)內容管理&#x200B;**[!UICONTROL >]**&#x200B;片段&#x200B;**[!UICONTROL 左側功能表存取片段清單]**，並選取&#x200B;**[!UICONTROL 建立片段]**。
 
    顯示[建立片段]選項的![片段清單畫面](assets/fragments-list.png)
 
@@ -70,7 +70,7 @@ ht-degree: 22%
 
 1. 內容準備就緒後，按一下&#x200B;**儲存**。
 
-內容片段現在已準備好在Campaign中建置任何傳遞或[內容範本](../email/use-email-templates.md)時使用。 在以下章節中瞭解如何使用視覺效果和運算式片段：
+內容片段現在已準備好在Campaign中建置任何傳遞或[內容範本](../content/use-email-templates.md)時使用。 在以下章節中瞭解如何使用視覺效果和運算式片段：
 * [在您的電子郵件中新增視覺片段](use-visual-fragments.md)
 * [將運算式片段新增至運算式編輯器](use-expression-fragments.md)
 
@@ -83,7 +83,7 @@ ht-degree: 22%
 
 <!--pas vu dans l'UI-->
 
-任何電子郵件內容都可儲存為視覺片段，以供日後重複使用。 設計[內容範本](../email/use-email-templates.md)或[電子郵件](../email/get-started-email-designer.md)傳遞時，請將部分內容儲存為視覺片段。 要執行此操作，請遵循下列步驟：
+任何電子郵件內容都可儲存為視覺片段，以供日後重複使用。 設計[內容範本](../content/use-email-templates.md)或[電子郵件](../email/get-started-email-designer.md)傳遞時，請將部分內容儲存為視覺片段。 要執行此操作，請遵循下列步驟：
 
 1. 在[電子郵件Designer](../email/get-started-email-designer.md)中，按一下畫面右上方的&#x200B;**更多**&#x200B;按鈕。
 
@@ -103,7 +103,7 @@ ht-degree: 22%
 
    ![儲存視覺片段的確認畫面](assets/fragment-save-confirm.png)
 
-   此內容現在是獨立片段，新增到[片段清單](#manage-fragments)中，並可從專用功能表存取。 在Campaign中建置任何[電子郵件](../email/get-started-email-designer.md)或[內容範本](../email/use-email-templates.md)時，使用此片段。 [了解做法](../content/use-visual-fragments.md)
+   此內容現在是獨立片段，新增到[片段清單](#manage-fragments)中，並可從專用功能表存取。 在Campaign中建置任何[電子郵件](../email/get-started-email-designer.md)或[內容範本](../content/use-email-templates.md)時，使用此片段。 [了解做法](../content/use-visual-fragments.md)
 
 >[!NOTE]
 >

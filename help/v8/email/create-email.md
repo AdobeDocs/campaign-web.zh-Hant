@@ -3,7 +3,7 @@ audience: end-user
 title: 傳送您的第一個電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 44%
@@ -19,7 +19,7 @@ ht-degree: 44%
 
 了解如何建立您的第一個目標電子郵件。在此使用案例，您排程在特定日期傳送電子郵件給銀級和金級忠誠會員。
 
-根據預先定義的[設計範本](../email/create-email-templates.md)，電子郵件也會根據客戶設定檔屬性提供個人化內容。
+根據預先定義的[設計範本](../content/create-email-templates.md)，電子郵件也會根據客戶設定檔屬性提供個人化內容。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -89,7 +89,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >清單中可用的對象源自您的Campaign v8執行個體，或若已在執行個體上設定目的地/Source整合，則來源為Adobe Experience Platform。 此整合可讓您將Experience Platform區段傳送至Adobe Campaign，並將Campaign傳送和追蹤記錄傳送至Adobe Experience Platform。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hant){target="_blank"}中瞭解如何使用Campaign和Adobe Experience Platform。
+   >清單中可用的對象源自您的Campaign v8執行個體，或若已在執行個體上設定目的地/Source整合，則來源為Adobe Experience Platform。 此整合可讓您將Experience Platform區段傳送至Adobe Campaign，並將Campaign傳送和追蹤記錄傳送至Adobe Experience Platform。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}中瞭解如何使用Campaign和Adobe Experience Platform。
 
 1. 選取客群後，您可以套用其他規則進一步調整目標。
 
@@ -117,7 +117,7 @@ ht-degree: 44%
 
 1. 若要設計電子郵件的內容，按一下「**[!UICONTROL 編輯電子郵件內文]**」按鈕。
 
-   選擇用於建立電子郵件內容的方法。在此範例中，使用[預先定義的內容範本](create-email-templates.md)。
+   選擇用於建立電子郵件內容的方法。在此範例中，使用[預先定義的內容範本](../content/create-email-templates.md)。
 
    ![熒幕擷圖顯示選取預先定義的內容範本](assets/select-template.png){zoomable="yes"}
 
@@ -163,7 +163,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 模擬內容]**&#x200B;按鈕在特定內容中已停用。 限制在此區段[&#128279;](#content-simulation-limitations)中詳細說明。
+   >**[!UICONTROL 模擬內容]**&#x200B;按鈕在特定內容中已停用。 限制在此區段[中詳細說明](#content-simulation-limitations)。
 
 1. 在左側，選取要用於預覽電子郵件的輪廓。
 
@@ -176,7 +176,7 @@ ht-degree: 44%
 
 1. 若要傳送校樣，請按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕，然後選擇您要使用的模式。
 
-   在此範例中，使用主要目標&#x200B;**模式的**&#x200B;替代，會傳送校樣到特定電子郵件地址，同時類比電子郵件所定位的部分設定檔。
+   在此範例中，使用主要目標&#x200B;**[!UICONTROL 模式的]**&#x200B;替代，會傳送校樣到特定電子郵件地址，同時類比電子郵件所定位的部分設定檔。
 
    ![熒幕擷圖顯示證明傳送模式選項](assets/proof-mode.png){zoomable="yes"}
 
@@ -222,7 +222,7 @@ ht-degree: 44%
 
 <!--* When a multilingual delivery contains only one locale,-->
 * 使用已調解的傳遞，
-* 當您的Campaign部署模型為[Adobe Campaign企業完整同盟存取(FFDA)](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}時
+* 當您的Campaign部署模型為[Adobe Campaign企業完整同盟存取(FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}時
 * 未上傳任何檔案時。
 
 ## 傳送並監控電子郵件 {#prepare-send}
@@ -252,4 +252,4 @@ ht-degree: 44%
 
 瞭解如何從草稿開始建立電子郵件傳遞、定義客群、設計內容、模擬預覽，以及傳送校訂。
 
->[!VIDEO](https://video.tv.adobe.com/v/3454016/?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

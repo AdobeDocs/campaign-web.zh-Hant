@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「建置客群」工作流程活動
 description: 了解如何使用「建置客群」工作流程活動
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 62%
+source-wordcount: '454'
+ht-degree: 57%
 
 ---
 
@@ -56,7 +56,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 若要建立自己的查詢，請依照下列步驟進行：
 
 1. 選取「**建立您自己的 (查詢)**」。
-1. 選擇「**目標定位維度**」。目標維度可讓您定義作業的目標母體，例如收件者、合約受益者、操作者或訂閱者。 預設情況下，會從收件者中選取目標。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)
+1. 選擇「**目標定位維度**」。目標維度可讓您定義作業的目標母體，例如收件者、合約受益者、操作者或訂閱者。 預設情況下，會從收件者中選取目標。[進一步瞭解目標維度](../../audience/targeting-dimensions.md#targeting)
+1. 按一下目標維度旁的圖示，選擇&#x200B;**篩選維度**。 篩選維度可讓您參照相關條件，將篩選器套用至目標母體，而不變更主要目標維度。 [進一步瞭解目標維度](../../audience/targeting-dimensions.md#filtering)
 1. 按一下&#x200B;**「繼續」**。
 1. 使用查詢建模器來定義您的查詢，就像在設計新電子郵件時建立對象一樣。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
 

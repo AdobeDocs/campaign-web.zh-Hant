@@ -1,24 +1,24 @@
 ---
-title: 目標市場選擇維度
-description: 進一步瞭解Adobe Campaign網頁中的目標維度功能
+title: 目標定位和篩選維度
+description: 進一步瞭解Adobe Campaign Web UI中的目標定位和篩選維度
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 16%
+source-wordcount: '571'
+ht-degree: 14%
 
 ---
 
-# 目標市場選擇維度 {#targeting-dimensions}
+# 目標定位和篩選維度 {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="選取目標市場選擇維度"
 >abstract="目標選擇維度讓您可以定義操作所針對的目標群體，包括收件者、合約受益人、操作者、訂閱者等。對於電子郵件和簡訊，依預設，目標是從收件者內建表格中選取。對於推播通知，預設目標市場選擇維度是訂閱者應用程式。"
 
-目標維度（也稱為目標對應）是作業處理的資料型別。 它定義目標母體，例如設定檔、合約受益人、運運算元或訂閱者。
+目標維度（也稱為目標對應）是作業處理的資料型別。 它定義目標母體，例如設定檔、合約受益人、運運算元或訂閱者。 篩選維度可讓您參照相關條件，將篩選器套用至目標母體，而不變更主要目標維度。
 
-## 工作流程的目標維度 {#workflow}
+## 目標市場選擇維度 {#targeting}
 
 工作流程的目標維度是由第一個&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動所定義，並用於所有後續活動，直到工作流程結束為止。 例如，從資料庫查詢設定檔時，出站轉變包含「recipient」型別的資料，這會傳輸到下一個活動。
 
@@ -28,20 +28,33 @@ ht-degree: 16%
 
 ![熒幕擷圖顯示目標維度介面，並啟用[顯示所有結構描述]按鈕。](assets/targeting-dimension-show-all.png){zoomable="yes"}
 
-## 目標市場選擇維度 {#list}
-
-依預設，電子郵件和簡訊傳遞範本會定位設定檔。 他們的目標維度使用&#x200B;**nms：recipient**&#x200B;資料表的欄位。 對於推播通知，預設目標維度為連結至收件者表格的&#x200B;**訂閱者應用程式nms：appSubscriptionRcp**。
+依預設，電子郵件和簡訊傳遞範本會定位設定檔。 其目標維度使用&#x200B;**nms:recipient**&#x200B;資料表的欄位。 對於推播通知，預設目標維度是連結至收件者表格的&#x200B;**訂閱者應用程式nms:appSubscriptionRcp**。
 
 在工作流程與傳遞中使用其他內建的目標對應，如下所列：
 
 | 名稱 | 使用傳送至 | 結構描述 |
 |-----------------------|-------------------------------------------------------|-------------------------|
-| 收件者 | 設定檔/收件者（內建收件者表格） | nms：recipient |
-| 訪客 | 透過反向連結收集設定檔的訪客（例如病毒式行銷） | mns：visitor |
-| 訂閱 | 訂閱新聞稿等資訊服務的設定檔 | nms：subscription |
-| 訪客訂閱 | 訂閱資訊服務的訪客 | nms：visitorSub |
-| 運算子 | Adobe Campaign運運算元 | nms：operator |
+| 收件者 | 設定檔/收件者（內建收件者表格） | nms:recipient |
+| 訪客 | 透過反向連結收集設定檔的訪客（例如病毒式行銷） | mns:visitor |
+| 訂閱 | 訂閱新聞稿等資訊服務的設定檔 | nms:subscription |
+| 訪客訂閱 | 訂閱資訊服務的訪客 | nms:visitorSub |
+| 運算子 | Adobe Campaign運運算元 | nms:operator |
 | 外部檔案 | 透過包含所有必要資訊的檔案傳遞 | 沒有連結的結構描述，沒有輸入目標 |
-| 訂閱者應用程式 | 訂閱應用程式的設定檔 | nms：appSubscriptionRcp |
+| 訂閱者應用程式 | 訂閱應用程式的設定檔 | nms:appSubscriptionRcp |
 
-此外，根據特定需求建立新的目標對應。 僅從使用者端主控台執行此作業。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hant#new-mapping){target="_blank"}中進一步瞭解。
+此外，根據特定需求建立新的目標對應。 僅從使用者端主控台執行此作業。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}中進一步瞭解。
+
+## 篩選維度 {#filtering}
+
+目標市場選擇維度可讓您定義作業的目標群體：收件者、合約受益人、操作者、訂閱者等。篩選維度可讓您參照相關資料，在不變更主要目標維度的情況下，將篩選器套用至此母體。 例如，您可以根據特定條件選取母體，例如合約持有人或電子報訂閱者。
+
+篩選維度僅適用於&#x200B;**組建對象**&#x200B;活動。
+
+若要選取持有人壽保險單超過5年的客戶，請選擇下列選項：
+
+* 目標維度： **使用者端**
+* 正在篩選維度： **合約持有者**。
+
+然後，您可以在&#x200B;**建置對象**&#x200B;活動中定義篩選條件。 請參見此[頁面](../workflows/activities/build-audience.md)。
+
+在選取目標維度期間，介面中只會顯示相容的篩選維度。 這兩個維度必須相關，因此篩選維度清單的內容取決於在第一個欄位中選取的目標維度。

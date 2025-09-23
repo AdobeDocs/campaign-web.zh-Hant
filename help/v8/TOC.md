@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 94098841096c06894a5bfed4cbc8ea58b60b96d7
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 99%
+source-wordcount: '929'
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 99%
    + 呼叫中心 {#call-center}
       + [開始使用呼叫中心傳遞](call-center/gs-call-center.md)
       + [建立和傳送呼叫中心傳遞](call-center/create-call-center.md)
-   + [自訂外部管道](call-center/gs-custom-channel.md)
+   + [自訂管道](call-center/gs-custom-channel.md)
    + 交易型訊息 {#transactional-messages}
       + [開始使用交易型訊息](transactional-messaging/transactional.md)
       + [建立交易型訊息](transactional-messaging/create-transactional.md)
@@ -96,7 +96,10 @@ ht-degree: 99%
       + [新增個人化](personalization/personalize.md)
       + [建立條件內容](personalization/conditions.md)
    + 重複使用內容 {#manage-reusable-content}
-      + [使用內容範本](email/create-email-templates.md)
+      + 內容範本 {#content-templates}
+         + [使用內容範本](content/create-email-templates.md)
+         + [使用電子郵件內容範本](content/use-email-templates.md)
+         + [鎖定電子郵件範本中的內容](content/content-locking.md)
       + 內容片段 {#fragments}
          + [開始使用內容片段](content/fragments.md)
          + [建立和編輯內容片段](content/create-fragment.md)
@@ -108,7 +111,6 @@ ht-degree: 99%
          + [從頭開始](email/create-email-content.md)
          + [匯入您的電子郵件內容](email/existing-content.md)
          + [為自己的內容撰寫程式碼](email/code-content.md)
-         + [使用電子郵件內容範本](email/use-email-templates.md)
       + 設計您的內容 {#design-content}
          + [使用內容元件](email/content-components.md)
          + [新增連結和追蹤訊息](email/message-tracking.md)
@@ -122,7 +124,7 @@ ht-degree: 99%
          + [定義連結樣式](email/styling-links.md)
          + [新增內嵌樣式屬性](email/inline-styling.md)
          + [新增自訂 CSS](email/custom-css.md)
-      + [建立無障礙內容](email/accessible-content.md)
+      + [建立可存取內容](email/accessible-content.md)
    + AI 助理 {#ai-assistant}
       + [使用 AI 助理](email/generative-gs.md)
       + [使用 AI 產生電子郵件](email/generative-content.md)
@@ -273,7 +275,13 @@ ht-degree: 99%
    + [使用結構描述](administration/schemas.md)
    + [設定自訂欄位](administration/custom-fields.md)
    + [設定 [!DNL Campaign] 選項](administration/options.md)
-   + [設定外部帳戶](administration/external-account.md)
+   + 外部帳戶 {#external-accounts}
+      + [建立外部帳戶](administration/create-external-account.md)
+      + [Adobe解決方案整合](administration/integration-external-account.md)
+      + [促銷活動專用](administration/external-account.md)
+      + [外部資料庫](administration/external-account-database.md)
+      + [Hadoop](administration/external-hadoop.md)
+      + [傳輸資料](administration/transfer-external-account.md)
    + [管理列舉](administration/enumerations.md)
    + [使用 JavaScript 程式碼](administration/javascript-codes.md)
 + [Campaign v8 (主控台) 文件 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)

@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: a10ec6bf3ec5675d62d4031660d5196babd55403
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 54%
+source-wordcount: '334'
+ht-degree: 71%
 
 ---
 
@@ -20,16 +20,155 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 頁面中列出了先前版本可用的變更和改進。
 
-## 2025年9月更新 {#25-9-updates}
+## 2025年9月發行 {#25-9-release}
 
-已發佈下列改善專案：
+_2025 年 9 月 23 日_
 
-* 使用電子郵件Designer的條件式內容功能設定條件時，已新增一組新運運算元。
+以下功能將於9月發行版本開始提供。
 
-## 2025年8月發行 {#25-8-release}
+<table>
+<thead>
+<tr>
+<th><strong>API傳遞的自訂頻道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以直接從Adobe Campaign Web UI，根據自訂API通道來協調和執行傳送。 這些傳遞可以是獨立的，也可以是工作流程的一部分。自訂API頻道的設定是在主控台中執行。</p>
+<p>如需詳細資訊，請參閱<a href="../call-center/gs-custom-channel.md">詳細說明文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-此版本隨附一系列錯誤修正，包括：
+<table>
+<thead>
+<tr>
+<th><strong>外部帳戶製作</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>身為 Campaign 管理員，您現在可以從 Campaign Web 使用者介面中設定與外部系統的新連線。您也可以檢視、更新和管理現有的外部帳戶。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/create-external-account.md">詳細說明文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* 設定檔復製程式已經過改善，以符合使用者端主控台的行為，確保兩個介面之間有一致的體驗。 這修正了無法建立重複設定檔的問題。
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件內容鎖定</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Campaign現在可讓您透過鎖定整個範本或特定結構和元件，來鎖定電子郵件範本中的內容。 這樣做讓您可以防止無意間不小心編輯或刪除內容，讓您更能掌控範本自訂，進而提高電子郵件行銷活動的效率和可靠性。</p>
+<p>如需詳細資訊，請參閱<a href="../content/content-locking.md">詳細說明文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* 傳遞設定畫面中的&#x200B;**[!UICONTROL 電子郵件BCC]**&#x200B;選項現在可與Momentum (Enhanced MTA)搭配使用。 此功能先前僅在使用者端主控台中提供。
+<!--table>
+<thead>
+<tr>
+<th><strong>Integration with Adobe GenStudio</strong><br/></th>  LA? sort? Juliette
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>To enhance marketing efficiency and to maintain brand consistency, you can now seamlessly integrate GenStudio for Performance Marketing experiences with Campaign. This enables you to leverage GenStudio's AI-power content creation alongside Campaign's advanced orchestration capabilities.<p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Dark mode support in the Email designer</strong><br/></th> -> pas sept, modifier composant... -> Juliette
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings. Note that the final rendering depends on the recipient's email client, and not all email clients support dark mode.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>>
+<thead>
+<tr>
+<th><strong>Multilingual capabilities for transactional messaging and push notifications (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now send multiple transactional messages and push notifications in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.</p>
+<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Profile enrichment in Transactional Messages (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>This capability allows you to personalize transactional messages (Email, SMS, Push) by linking Adobe Campaign database fields to the message content. You can select target mappings, enrichment columns, and a reconciliation key to ensure accurate, real-time personalization while maintaining performance thresholds.</p>
+<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Dynamic reporting for transactional messaging (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### 功能改善 {#25-9-improvements}
+
+* 在使用電子郵件設計工具的條件式內容功能設定條件時，已新增一組新的運算子。
+* 篩選維度現在可在&#x200B;**組建對象**&#x200B;工作流程活動中使用。 若要檢視或變更，請按一下目標維度旁的圖示。 [了解更多](../workflows/activities/build-audience.md#build-audience-configuration)。
+<!--
+
+NEO-84915 Stop button for deliveries???? ->>> met pas, juste bouton ajouté dans webUI meme comportement que console. bleu, marche, marche pas.
+NEO-90345 WebUI - Extended operators for dynamic content ->>>> deja mis
+NEO-88858 WebUI - Send proof from execution recurring delivery -> bug
+NEO-89777 Content locking on create email template -> juliette
+NEO-90365 Multi-lingual – Identify fields editable from variants???? -> fix pour SMS
+query activity -> query ds workflow fitleting dimentsion 
+
+-->
+

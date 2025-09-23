@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用內容片段
 description: 瞭解如何使用內容片段建立
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 58%
@@ -30,7 +30,7 @@ ht-degree: 58%
 
 * **運算式片段**&#x200B;是運算式編輯器中專用專案所提供的預先定義運算式。 Campaign包含一組預先定義的內容區塊，其中包含您可插入傳送中的特定轉譯。 例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。您還可以建立符合自己需求的運算式片段。
 
-* **視覺片段**&#x200B;是預先定義的視覺化區塊，您可以在多個[電子郵件傳遞](../email/get-started-email-designer.md)或[內容範本](../email/use-email-templates.md)中重複使用。
+* **視覺片段**&#x200B;是預先定義的視覺化區塊，您可以在多個[電子郵件傳遞](../email/get-started-email-designer.md)或[內容範本](../content/use-email-templates.md)中重複使用。
 
   >[!AVAILABILITY]
   >

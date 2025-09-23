@@ -7,8 +7,8 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ Campaign 首頁讓您能夠快速輕鬆地瀏覽關鍵資源、指標和元件�
 
 在&#x200B;**內容管理**&#x200B;區段中，您可以檢視內容範本和片段。
 
-* **內容範本** - 為了加快和改進設計流程，您可以建立獨立範本，以輕鬆地在 [!DNL Adobe Campaign] 重複使用自訂內容。此功能僅適用於電子郵件，讓內容導向的使用者能夠使用獨立範本，以便行銷使用者在自己的電子郵件行銷活動中重複使用和予以調整。 若要了解詳細資訊，請參閱[本章節](../email/create-email-templates.md)。
+* **內容範本** - 為了加快和改進設計流程，您可以建立獨立範本，以輕鬆地在 [!DNL Adobe Campaign] 重複使用自訂內容。此功能僅適用於電子郵件，讓內容導向的使用者能夠使用獨立範本，以便行銷使用者在自己的電子郵件行銷活動中重複使用和予以調整。 若要了解詳細資訊，請參閱[本章節](../content/create-email-templates.md)。
 
 * **片段** - 片段是可重複使用的元件，可跨行銷活動在一個或多個傳遞中進行參考。修改片段時，使用該片段的所有內容都會隨之更新。[了解如何使用片段](../content/fragments.md)。
 

@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 19%
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->傳遞範本與[內容範本](../email/create-email-templates.md)不同，後者可讓您僅重複使用電子郵件內容，並開始使用其中一個現成的範例電子郵件範本建立內容。
+>傳遞範本與[內容範本](../content/create-email-templates.md)不同，後者可讓您僅重複使用電子郵件內容，並開始使用其中一個現成的範例電子郵件範本建立內容。
 
 ## 存取並管理傳遞範本 {#access-manage-templates}
 
@@ -174,7 +174,7 @@ Campaign包含每個管道的內建範本：電子郵件、推播和簡訊。 �
 
 您可以測試任何傳遞範本的轉譯，不論是從草稿建立還是從現有內容建立。 若要這麼做，請依照以下步驟進行：
 
-1. 透過&#x200B;**[!UICONTROL 行銷活動管理]** > **[!UICONTROL 傳送]**&#x200B;功能表瀏覽至&#x200B;**範本**&#x200B;索引標籤，並選取任何範本。 [了解更多](#access-manage-templates)
+1. 透過&#x200B;**行銷活動管理** > **[!UICONTROL 傳送]**&#x200B;功能表瀏覽至&#x200B;**[!UICONTROL 範本]**&#x200B;索引標籤，並選取任何範本。 [了解更多](#access-manage-templates)
 
 1. 按一下熒幕右上角的&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
 
