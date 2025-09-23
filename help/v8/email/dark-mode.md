@@ -11,7 +11,7 @@ hidefromtoc: true
 source-git-commit: b85a78cf89586679630398f5f3c7d732a59711fd
 workflow-type: tm+mt
 source-wordcount: '1515'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="切換至深色模式"
->abstract="切換到深色模式，您可以在其中預覽其呈現方式，並定義特定的自訂設定。 <br>最終呈現取決於收件者的電子郵件使用者端。 請注意，所有電子郵件使用者端都不支援自訂深色模式。"
+>abstract="切換至深色模式，而您可以預覽其轉譯方式並定義特定的自訂設定。<br>最終的轉譯結果取決於收件者的電子郵件用戶端。請注意，所有電子郵件用戶端都不支援自訂深色模式。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="切換至深色模式"
->abstract="切換至深色模式，以預覽它在支援的電子郵件用戶端上的呈現方式。<br>最終呈現取決於收件者的電子郵件使用者端。 請注意，所有電子郵件使用者端都不支援深色模式。"
+>abstract="切換至深色模式，以預覽它在支援的電子郵件用戶端上的呈現方式。<br>最終的轉譯結果取決於收件者的電子郵件用戶端。請注意，所有電子郵件用戶端都不支援深色模式。"
 
 設計電子郵件時，[!DNL Adobe Campaign] [電子郵件Designer](get-started-email-designer.md)可讓您切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;檢視。
 
@@ -138,7 +138,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="將特定影像用於深色模式"
->abstract="您可以選取另一張影像，以在深色模式開啟時顯示。<br>新增深色模式的特定影像，無法保證在所有電子郵件使用者端中都能正確轉譯。 請注意，所有電子郵件使用者端都不支援自訂深色模式。"
+>abstract="您可以選取另一張影像，以在深色模式開啟時顯示。<br>新增用於深色模式的特定影像，並不能保證其會在所有電子郵件用戶端中正確轉譯。請注意，所有電子郵件用戶端都不支援自訂深色模式。"
 
 切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;後，您可以選擇編輯內容的特定樣式元素，這些樣式元素只有在收件者的電子郵件使用者端中啟用深色模式時才會顯示，前提是它支援該功能。
 
