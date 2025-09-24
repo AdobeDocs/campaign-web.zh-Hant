@@ -3,20 +3,14 @@ audience: end-user
 title: 開始使用呼叫中心管道
 description: 了解如何使用 Adobe Campaign Web 建立和傳送呼叫中心傳遞
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: ffd0075e79a94443df4a957ee4a72da37476b21b
-workflow-type: ht
-source-wordcount: '267'
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
+workflow-type: tm+mt
+source-wordcount: '230'
 ht-degree: 100%
 
 ---
 
 # 開始使用呼叫中心管道 {#gs-call-center}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="呼叫中心管道"
->abstract="呼叫中心管道現在已可在 Campaign Web 使用者介面中取得。此管道是指用於管理和追蹤透過呼叫中心處理之通訊的通訊方法。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 透過呼叫中心管道，您可以直接從 Adobe Campaign Web 使用者介面中匯出用於傳出電話行銷活動的目標聯絡人清單。用它來協調透過內部團隊或外部聯絡中心的呼叫。
 

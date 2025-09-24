@@ -3,20 +3,14 @@ audience: end-user
 title: 使用查詢建模工具
 description: 瞭解如何使用Adobe Campaign Web查詢建模工具。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 22%
+source-wordcount: '888'
+ht-degree: 19%
 
 ---
 
 # 使用查詢建模工具 {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="全新的規則產生器"
->abstract="您現在可以使用新的規則產生器，協助您在改進的使用者介面中定義複雜的條件。您可以視需要從舊的規則產生器切換到新的規則產生器。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
@@ -63,7 +57,7 @@ Adobe Campaign Web使用者介面具有查詢建模工具，可簡化根據各�
 >[!IMPORTANT]
 >
 >可以使用全新的查詢建模器介面。 全新的規則產生器擁有簡化的介面，讓您更輕鬆地建立查詢。 若要切換至此體驗，請按一下右上角的切換按鈕。 您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。 您可以在此新介面中套用與查詢建模程式相同的原則。
->&#x200B;>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
+>>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
 
 
 >[!CONTEXTUALHELP]
