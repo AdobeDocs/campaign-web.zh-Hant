@@ -4,7 +4,7 @@ title: 開始使用呼叫中心管道
 description: 了解如何使用 Adobe Campaign Web 建立和傳送呼叫中心傳遞
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
 ht-degree: 100%
 
