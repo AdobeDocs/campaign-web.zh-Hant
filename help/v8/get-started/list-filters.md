@@ -3,7 +3,7 @@ audience: end-user
 title: 瀏覽和篩選清單
 description: 探索如何瀏覽和篩選清單 Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: b81f80655b1becf6e1e23f8c0095970c95ebcb05
+source-git-commit: f5ef0f8d7c3396bdd031e5b3b7c690f90adc0e86
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
@@ -18,21 +18,21 @@ ht-degree: 100%
 
 清單顯示在欄中。您可以變更欄設定來顯示其他資訊。若要這麼做，請按一下清單右上角的「**設定自訂版面的欄**」圖示。
 
-[顯示用於自訂清單資料欄版面之「設定」資料欄圖示的螢幕擷圖。](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
+![顯示用於自訂清單資料欄版面之「設定」資料欄圖示的螢幕擷圖。](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
 
 在&#x200B;**設定資料欄**&#x200B;畫面中，可新增或移除資料欄，以及變更資料欄的顯示順序。
 
 您可以透過&#x200B;**拖曳**&#x200B;或使用&#x200B;**向上鍵和向下鍵**&#x200B;來變更清單的順序，如下所示：
 
-[示範如何使用拖放或箭頭按鈕重新排序清單欄位的螢幕擷圖。](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
+![示範如何使用拖放或箭頭按鈕重新排序清單欄位的螢幕擷圖。](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
 
 例如，對於這些設定：
 
-[顯示「設定」資料欄畫面中資料欄設定之範例的螢幕擷圖。](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![顯示「設定」資料欄畫面中資料欄設定之範例的螢幕擷圖。](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 清單會顯示以下資料欄：
 
-[顯示根據範例設定設定的資料欄結果清單的螢幕擷圖。](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
+![顯示根據範例設定設定的資料欄結果清單的螢幕擷圖。](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
 
 ## 排序資料 {#sort-lists}
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 若要更快地找到項目，您可以使用搜尋列或內建及自訂篩選器，根據內容條件來調整清單。
 
-[呈現可用於調整清單視圖之篩選選項的螢幕擷圖。](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
+![呈現可用於調整清單視圖之篩選選項的螢幕擷圖。](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
 
 如需有關如何使用篩選器和建立自己的自訂篩選器的詳細資訊，請參閱[此區段](../query/filter.md)。
 
