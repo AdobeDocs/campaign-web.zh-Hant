@@ -6,7 +6,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
-source-git-commit: b271ae6ade10fae32253768029dee109b24fd4e1
+exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
+source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 0%
@@ -24,10 +25,7 @@ ht-degree: 0%
 因此，以下列出使用[!DNL Adobe Campaign]設計無障礙內容的最佳實務。
 
 此頁面旨在讓您的內容可供所有收件者存取，以確保身心障礙人士可以閱讀、理解並互動您使用[!DNL Adobe Campaign]設計的電子郵件和登入頁面。
-
-<!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
-
 ## 確保文字可讀性 {#text-readability}
 
 運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 [了解更多](content-components.md#text)
