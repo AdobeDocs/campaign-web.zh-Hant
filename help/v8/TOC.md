@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -277,8 +277,8 @@ ht-degree: 98%
    + [設定 [!DNL Campaign] 選項](administration/options.md)
    + 外部帳戶 {#external-accounts}
       + [建立外部帳戶](administration/create-external-account.md)
-      + [Adobe解決方案整合](administration/integration-external-account.md)
-      + [促銷活動專用](administration/external-account.md)
+      + [Adobe 解決方案整合](administration/integration-external-account.md)
+      + [行銷活動特定](administration/external-account.md)
       + [外部資料庫](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [傳輸資料](administration/transfer-external-account.md)
