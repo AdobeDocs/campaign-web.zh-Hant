@@ -2,9 +2,9 @@
 audience: end-user
 title: 設定多語言傳遞
 description: 瞭解如何設定多語言傳送
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 在多語言傳遞中，語言管理會根據變體。 每個變體代表一種語言。 在建立傳遞期間，您可以新增多種語言變體，以符合訊息中所需語言的數量。 您也可以在新增這些變體後，隨時變更預設語言。
 
-多語言功能目前可用於電子郵件、推播通知和異動訊息。
+多語言功能目前可用於電子郵件、推播通知、異動訊息和簡訊。
 
 >[!AVAILABILITY]
 >
