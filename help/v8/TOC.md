@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
-source-wordcount: '929'
-ht-degree: 100%
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 98%
 
 ---
 
@@ -77,8 +77,10 @@ ht-degree: 100%
       + [建立交易型訊息](transactional-messaging/create-transactional.md)
       + [驗證您的交易型訊息](transactional-messaging/validate-transactional.md)
       + [監視交易型訊息](transactional-messaging/monitor-transactional.md)
+      + [使用設定檔資料擴充交易式訊息](transactional-messaging/profile-enrichment.md)
    + [發送外部傳遞](msg/send-external-deliveries.md)
    + [將產品建議新增至您的訊息](msg/offers.md)
+   + [設定多語言傳遞](msg/multilingual.md)
    + [向您的訂閱者傳送訊息](msg/send-to-subscribers.md)
    + [設定傳遞設定](advanced-settings/delivery-settings.md)
    + 預覽和測試您的傳遞 {#preview-test}
