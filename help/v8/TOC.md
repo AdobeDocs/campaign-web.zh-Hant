@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 98%
       + [建立交易型訊息](transactional-messaging/create-transactional.md)
       + [驗證您的交易型訊息](transactional-messaging/validate-transactional.md)
       + [監視交易型訊息](transactional-messaging/monitor-transactional.md)
-      + [使用設定檔資料擴充交易式訊息](transactional-messaging/profile-enrichment.md)
+      + [使用輪廓資料來擴充交易型訊息](transactional-messaging/profile-enrichment.md)
    + [發送外部傳遞](msg/send-external-deliveries.md)
    + [將產品建議新增至您的訊息](msg/offers.md)
    + [設定多語言傳遞](msg/multilingual.md)
@@ -94,7 +94,7 @@ ht-degree: 98%
       + [傳遞提醒條件](msg/delivery-alerting-criteria.md)
 + 內容管理 {#content}
    + 建立動態內容 {#dynamic-content}
-      + [如何製作動態內容？ &#x200B;](personalization/gs-personalization.md)
+      + [如何製作動態內容？ ](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
       + [建立條件內容](personalization/conditions.md)
    + 重複使用內容 {#manage-reusable-content}
@@ -221,8 +221,8 @@ ht-degree: 98%
       + [匯出您的報告](reporting/export-reports.md)
       + 傳遞報告 {#delivery-report}
          + [開始使用傳遞報告](reporting/delivery-reports.md)
-         + [以電子郵件寄送傳遞報告 &#x200B;](reporting/email-report.md)
-         + [推播傳遞報告 &#x200B;](reporting/push-report.md)
+         + [以電子郵件寄送傳遞報告 ](reporting/email-report.md)
+         + [推播傳遞報告 ](reporting/push-report.md)
          + [以簡訊傳送傳遞報告](reporting/sms-report.md)
          + [外部傳遞報告](reporting/direct-mail.md)
       + 行銷活動報告 {#campaign-report}

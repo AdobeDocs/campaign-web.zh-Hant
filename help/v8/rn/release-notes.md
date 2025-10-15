@@ -3,9 +3,9 @@ title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 頁面中列出了先前版本可用的變更和改進。
 
-## 2025年10月更新 {#25-9-updates}
+## 2025 年 10 月更新 {#25-9-updates}
 
-_2025年10月9日_
+_2025 年 10 月 9 日_
 
 <table>
 <thead>
 <tr>
-<th><strong>異動訊息、推播通知和簡訊(LA)的多語言功能</strong><br/></th> 
+<th><strong>交易型訊息、推播通知和簡訊的多語言功能 (LA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在Adobe Campaign網頁使用者介面中，以不同語言傳送多則交易式訊息、推播通知和SMS訊息。 多語言傳遞功能可讓您選擇傳遞的預設語言，以及可以傳送傳遞的不同語言。您也可以使用所選的語言預覽這些傳送。</p>
-<p>注意：此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。</p>
+<p>您現在可以在 Adobe Campaign Web 使用者介面中，以不同語言傳送多則交易型訊息、推播通知和簡訊。多語言傳遞功能可讓您選擇傳遞的預設語言，以及可以傳送傳遞的不同語言。您也可以使用您選擇的語言來預覽這些傳遞。</p>
+<p>注意：此功能目前僅開放給某些組織使用 (有限開放)，並將在未來版本中在全面推出。</p>
 <p>如需詳細資訊，請參閱<a href="../msg/multilingual.md">詳細說明文件</a>。</p>
 </td>
 </tr>
@@ -44,14 +44,14 @@ _2025年10月9日_
 <table>
 <thead>
 <tr>
-<th><strong>異動訊息(LA)中的設定檔擴充</strong><br/></th> 
+<th><strong>交易型訊息中的輪廓擴充 (LA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此功能可讓您將Adobe Campaign資料庫欄位連結至訊息內容，以個人化交易式訊息。 您可以選取目標對應、擴充欄以及調解金鑰，以確保準確且即時的個人化，同時維持效能臨界值。</p>
-<p>注意：此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。 此功能目前僅適用於電子郵件。</p>
+<p>此功能可讓您將 Adobe Campaign 資料庫欄位連結至訊息內容，以便個人化交易型訊息。您可以選取目標對應、擴充欄和調和索引鍵，以確保準確且即時的個人化，同時維持績效臨界值。</p>
+<p>注意：此功能目前僅開放給某些組織使用 (有限開放)，並將在未來版本中在全面推出。此功能目前僅適用於電子郵件。</p>
 <p>如需詳細資訊，請參閱<a href="../transactional-messaging/profile-enrichment.md">詳細說明文件</a>。</p>
 </td>
 </tr>
