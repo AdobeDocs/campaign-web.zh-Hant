@@ -3,10 +3,10 @@ audience: end-user
 title: 設定工作流程設定
 description: 瞭解如何使用Adobe Campaign Web進行工作流程設定
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 24%
+source-wordcount: '1083'
+ht-degree: 23%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 24%
 * 當工作流程失敗時，屬於&#x200B;**[!UICONTROL 監督員]**&#x200B;欄位中所選操作員群組的操作員會收到電子郵件通知。
 * 輸入工作流程的&#x200B;**[!UICONTROL 描述]**。
 
-當工作流程是與行銷活動[&#128279;](create-workflow.md)相關聯的時，會顯示在&#x200B;**[!UICONTROL 連結的行銷活動]**&#x200B;欄位中。 從該欄位開啟關聯的行銷活動。
+當工作流程是與行銷活動[相關聯的](create-workflow.md)時，會顯示在&#x200B;**[!UICONTROL 連結的行銷活動]**&#x200B;欄位中。 從該欄位開啟關聯的行銷活動。
 
 ## 細分設定 {#segmentation-settings}
 
@@ -100,5 +100,10 @@ ht-degree: 24%
 * **[!UICONTROL 連續錯誤]**：在&#x200B;**[!UICONTROL 發生錯誤]**&#x200B;欄位中選取&#x200B;**[!UICONTROL 忽略]**&#x200B;值時，此欄位將可供使用。 指定程式停止前可忽略的錯誤數目。 一旦達到此數目，工作流程狀態就會變更為&#x200B;**[!UICONTROL 失敗]**。 如果此欄位的值為 0，則無論錯誤數為何，工作流程都不會停止。
 
 ## 初始化指令碼 {#initialization-script}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initialization"
+>title="初始化指令碼"
+>abstract="本節可讓您定義在工作流程開始時執行的JavaScript程式碼。 它可用來在執行任何工作流程活動之前初始化變數、設定引數或準備資料。"
 
 **初始化指令碼**&#x200B;可讓您初始化變數或修改活動屬性。 按一下&#x200B;**編輯程式碼**&#x200B;按鈕，然後輸入要執行的程式碼片段。 執行工作流程時會呼叫指令碼。 請參閱與[事件變數](../workflows/event-variables.md)相關的章節。

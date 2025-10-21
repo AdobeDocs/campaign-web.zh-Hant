@@ -3,9 +3,9 @@ audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1302'
 ht-degree: 3%
 
 ---
@@ -106,7 +106,12 @@ Journey Optimizer可讓您將活動及其子節點的全部內容（包括其內
 
 ![執行選項面板](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### 屬性
+### 屬性 {#properties}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_properties"
+>title="活動屬性"
+>abstract="此區段可讓您定義活動執行的方式和位置。 您可以設定執行動作、限制執行持續時間、選擇時區、指派電腦相似性、管理非同步行為，以及指定發生錯誤時的情形。"
 
 **Execution**&#x200B;欄位可讓您定義工作開始時要執行的動作。
 
@@ -118,11 +123,21 @@ Journey Optimizer可讓您將活動及其子節點的全部內容（包括其內
 
 **行為**&#x200B;欄位可讓您定義在使用非同步工作時要遵循的程式。
 
-### 錯誤管理
+### 錯誤管理 {#execution-options}
 
-**發生錯誤**&#x200B;欄位可讓您指定活動發生錯誤時要執行的動作。
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_error"
+>title="初始化指令碼"
+>abstract="此區段可讓您定義活動失敗時會發生什麼情況。 您可以選擇停止工作流程、移至下一個活動或觸發自訂錯誤處理程式等動作。"
 
-### 初始化指令碼
+**發生錯誤**&#x200B;欄位可讓您指定活動發生錯誤時要執行的動作。 請參閱本[章節](workflow-settings.md#error-settings)。
+
+### 初始化指令碼 {#initialization-options}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_initialization"
+>title="初始化指令碼"
+>abstract="本節可讓您新增在活動開始時執行的JavaScript。 用它來初始化變數、設定引數，或準備該活動執行特有的資料。"
 
 **初始化指令碼**&#x200B;可讓您初始化變數或修改活動屬性。 按一下&#x200B;**編輯程式碼**&#x200B;按鈕，然後輸入要執行的程式碼片段。 當活動執行時，會呼叫指令碼。 請參閱與[事件變數](../workflows/event-variables.md)相關的章節。
 
