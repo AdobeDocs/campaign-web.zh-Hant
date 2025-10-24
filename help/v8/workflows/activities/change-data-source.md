@@ -3,10 +3,10 @@ audience: end-user
 title: 使用變更資料來源工作流程活動
 description: 瞭解如何使用變更資料來源工作流程活動
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 13%
+source-wordcount: '380'
+ht-degree: 12%
 
 ---
 
@@ -23,11 +23,15 @@ ht-degree: 13%
 
 在某些情況下，目前的資料庫中可能沒有資料，或是資料執行效率不夠高，無法執行單一作業。 因此，您可能需要藉由新增&#x200B;**[!UICONTROL 變更資料來源]**&#x200B;活動，強制工作流程使用不同的資料庫來執行這類作業。
 
-有關Campaign架構的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=zh-Hant)。
+有關Campaign架構的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)。
 
 >[!IMPORTANT]
 >
 >請注意，不應將&#x200B;**[!UICONTROL 變更維度]**&#x200B;和&#x200B;**[!UICONTROL 變更資料來源]**&#x200B;活動新增到一列。 如果您需要連續使用這兩個活動，請在它們之間加入&#x200B;**[!UICONTROL 擴充]**&#x200B;活動。 這可確保正確執行並防止潛在的衝突或錯誤。
+
+>[!NOTE]
+>
+>**變更資料Source**&#x200B;活動最多可以在每次執行時處理一百萬筆記錄。 如果您需要提高此上限，請聯絡您的Adobe代表。
 
 <!--
 

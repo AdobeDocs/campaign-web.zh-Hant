@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送校樣
 description: 瞭解如何定義和傳送校樣
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: fc794f4eceaed7ca5f49ef8add8e9da8306b6a69
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1193'
 ht-degree: 13%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_proof_target"
->title="其他校訂目標"
+>title="其他校樣目標"
 >abstract="其他校訂目標。"
 
 定義訊息內容後，您可以傳送校樣到測試設定檔，以預覽和測試訊息。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
@@ -49,7 +49,7 @@ ht-degree: 13%
 
    * 對於簡訊與電子郵件，您可以使用[測試設定檔](#test-profiles)，這些設定檔是資料庫中特定的其他收件者。 您也可以使用主要目標[模式的](#substitution-profiles)替代，這會將證明傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
 
-   * 對於推播訊息，您可以使用[訂閱者](#subscribers)，這是新增到資料庫的虛擬訂閱者。 已在[!DNL Campaign]主控台中建立。 深入瞭解[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=zh-Hant){target="_blank"}
+   * 對於推播訊息，您可以使用[訂閱者](#subscribers)，這是新增到資料庫的虛擬訂閱者。 已在[!DNL Campaign]主控台中建立。 深入瞭解[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    每種模式的詳細設定如下。
 
@@ -109,7 +109,7 @@ ht-degree: 13%
 
    >[!CAUTION]
    >
-   >如果您尚未為您的傳遞選取[對象](../audience/about-recipients.md)，**[!UICONTROL 從主要目標]**&#x200B;替代選項將會呈現灰色，而且您將無法選取替代設定檔。
+   >如果您尚未為您的傳遞選取[對象](../audience/about-recipients.md)，**[!UICONTROL 從主要目標]**&#x200B;替代選項將會呈現灰色，而且您將無法選取替代設定檔。 此外，即使已選取目標對象，對於週期性型別傳送，此選項仍會呈現灰色，因為主要傳送是範本。
 
 1. 按一下&#x200B;**[!UICONTROL 新增地址]**&#x200B;按鈕，並指定將接收校訂的電子郵件地址或電話號碼。
 

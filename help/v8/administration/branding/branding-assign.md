@@ -1,15 +1,15 @@
 ---
-title: 品牌
+title: 品牌化
 description: 瞭解如何指派您的品牌
 audience: administration
 context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 19%
+source-wordcount: '617'
+ht-degree: 14%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 19%
 
 >[!TAB Adobe Campaign V8]
 
-若要建立傳遞範本，您可以複製內建範本、將現有傳遞轉換為範本或從頭開始建立傳遞範本。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=zh-Hant)
+若要建立傳遞範本，您可以複製內建範本、將現有傳遞轉換為範本或從頭開始建立傳遞範本。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 建立範本後，您就可以將其連結至品牌。操作步驟：
 
@@ -126,3 +126,27 @@ ht-degree: 19%
 1. 進一步個人化您的傳遞。 如需建立電子郵件的詳細資訊，請參閱[設計和傳送電子郵件](../../email/create-email.md)區段。
 
 >[!ENDTABS]
+
+## 檢查與異動訊息關聯的品牌 {#check-branding-transactional}
+
+>[!IMPORTANT]
+>
+>本節僅適用於異動訊息（訊息中心）。
+>
+>雖然Campaign Web UI提供交易功能，但必須在Campaign v8使用者端主控台（控制執行個體）中執行下列驗證步驟。
+
+從即時(RT)執行例項同步至控制例項的異動傳送不會複製路由或品牌等屬性。 這些同步傳送每週會從相同範本產生，以復原控制執行個體中的傳送指標。
+
+因此，控制例項會顯示預設品牌。 訊息執行期間使用的實際品牌和路由設定是在控制例項上的異動訊息範本中定義的。
+
+若要確認交易式訊息使用了哪個品牌：
+
+1. 識別發佈至Real-Time的交易式範本的內部名稱（例如，`TransactionalMessaging4768`）。
+
+   ![](assets/branding-transactional.png)
+
+1. 在控制項執行個體中，在&#x200B;**異動訊息範本**&#x200B;下搜尋此內部名稱。
+
+   ![](assets/branding-transactional2.png)
+
+1. 開啟範本以檢視品牌與其他相關屬性。
