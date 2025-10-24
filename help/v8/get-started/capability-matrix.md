@@ -89,7 +89,7 @@ Adobe Campaign Web 使用者介面隨附全新的電子郵件設計工具，可�
 
 * **自訂個人化區塊建立功能**。除了預設的個人化區塊之外，您還可以從用戶端主控台建立自訂區塊。Campaign Web 使用者介面並未提供這項功能。[了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=zh-Hant#create-custom-personalization-blocks){target="_blank"}
 * **自訂表單中的內容**。內容管理模組可讓您建立和管理表單，協助使用者在 Campaign 中建立內容。此功能僅適用於用戶端主控台。[閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html?lang=zh-Hant){target="_blank"}
-* **電子郵件 AMP**。透過電子郵件 AMP 格式，您可以在訊息中加入 AMP 元件，並使用豐富的可操作內容來改善電子郵件體驗。此功能僅適用於用戶端主控台。[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html?lang=zh-Hant){target="_blank"}
+* **電子郵件 AMP**。透過電子郵件 AMP 格式，您可以在訊息中加入 AMP 元件，並使用豐富的可操作內容來改善電子郵件體驗。此功能僅適用於用戶端主控台。[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html?lang=zh-Hant){target="_blank"}
 <!--
 * Content from a URL`*`
 * Email fragments`*`
