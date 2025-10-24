@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: ht
-source-wordcount: '939'
+source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+workflow-type: tm+mt
+source-wordcount: '941'
 ht-degree: 100%
 
 ---
@@ -277,6 +277,7 @@ ht-degree: 100%
    + [使用結構描述](administration/schemas.md)
    + [設定自訂欄位](administration/custom-fields.md)
    + [設定 [!DNL Campaign] 選項](administration/options.md)
+   + [時區管理](administration/timezone-management.md)
    + 外部帳戶 {#external-accounts}
       + [建立外部帳戶](administration/create-external-account.md)
       + [Adobe 解決方案整合](administration/integration-external-account.md)
