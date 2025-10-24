@@ -3,9 +3,9 @@ audience: end-user
 title: 使用業務規則 (類型)
 description: 瞭解如何使用型別和型別規則來控制、篩選及監控傳送的傳送。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1506'
 ht-degree: 26%
 
 ---
@@ -40,12 +40,12 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->**[!UICONTROL 型別規則]**&#x200B;清單會顯示目前在Web使用者介面或使用者端主控台中建立的所有現有規則。 不過，在Web使用者介面中只能建立&#x200B;**控制**&#x200B;和&#x200B;**篩選**&#x200B;規則。 若要建立其他型別的型別規則，例如壓力或容量規則，請使用Campaign v8使用者端主控台。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL 型別規則]**&#x200B;清單會顯示目前在Web使用者介面或使用者端主控台中建立的所有現有規則。 不過，在Web使用者介面中只能建立&#x200B;**控制**&#x200B;和&#x200B;**篩選**&#x200B;規則。 若要建立其他型別的型別規則，例如壓力或容量規則，請使用Campaign v8使用者端主控台。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 將型別套用至訊息的主要步驟如下：
 
 1. [建立型別](#typology)。
-1. [建立型別規則](#typology-rules)。
+1. [建立型別規則](#typology-rule)。
 1. [在型別](#add-rules)中參考型別規則。
 1. [套用型別至訊息](#message)。
 
@@ -96,7 +96,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->目前只能從Web使用者介面建立&#x200B;**控制**&#x200B;與&#x200B;**篩選**&#x200B;型別規則。 若要建立其他型別的規則，請使用「使用者端主控台」。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>目前只能從Web使用者介面建立&#x200B;**控制**&#x200B;與&#x200B;**篩選**&#x200B;型別規則。 若要建立其他型別的規則，請使用「使用者端主控台」。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 若要建立型別規則，請遵循下列步驟：
 
@@ -104,7 +104,7 @@ ht-degree: 26%
 
 1. 按一下&#x200B;**[!UICONTROL 建立型別規則]**&#x200B;按鈕，然後遵循以下詳細步驟。
 
-[建立類型規則](assets/business-rules-create-typo.png)
+   ![建立型別規則](assets/business-rules-create-typo.png)
 
 ### 定義規則的主要屬性 {#properties}
 
@@ -118,7 +118,7 @@ ht-degree: 26%
 >title="程式碼"
 >abstract="**控制**&#x200B;規則會在傳送前驗證訊息品質和有效性 (例如字元顯示、簡訊長度、地址格式或 URL 縮短)。這些規則是使用 JavaScript 程式碼所建立的。"
 
-這是建立新型別規則時的主要屬性。
+以下是建立新型別規則時要定義的主要屬性：
 
 >[!BEGINTABS]
 
@@ -126,11 +126,11 @@ ht-degree: 26%
 
 1. 輸入規則的&#x200B;**[!UICONTROL 標籤]**。
 
-[建立控制規則](assets/business-rules-create-typo1.png)
+   ![建立控制規則](assets/business-rules-create-typo1.png)
 
-1. 展開&#x200B;**[!UICONTROL 其他選項]**&#x200B;區段以存取進階設定，例如規則的內部名稱、資料夾儲存和說明。 您也可以指定何時應套用規則及其警示等級。 請展開下列各節以取得詳細資訊。
+1. **[!UICONTROL 其他選項]**&#x200B;區段可讓您存取進階設定，例如規則的內部名稱、資料夾儲存和說明。 您也可以指定何時應套用規則及其警示等級。 請展開下列各節以取得詳細資訊。
 
-   +++階段：
+   +++階段
 
    指定在傳遞生命週期的哪個時間點套用規則。 在&#x200B;**[!UICONTROL 階段]**&#x200B;下拉式清單中選取值：
 
@@ -144,17 +144,17 @@ ht-degree: 26%
 
    +++
 
-   +++等級：
+   +++層級
 
    指定規則的警示等級：
 
-   * **[!UICONTROL 錯誤]**：停止訊息準備。
+   * **[!UICONTROL 錯誤]**：停止訊息準備
 
-   * **[!UICONTROL 警告]**：在準備記錄檔中顯示警告。
+   * **[!UICONTROL 警告]**：在準備記錄檔中顯示警告
 
-   * **[!UICONTROL 資訊]**：在準備記錄檔中顯示資訊。
+   * **[!UICONTROL 資訊]**：在準備記錄檔中顯示資訊
 
-   * **[!UICONTROL 詳細資訊]**：顯示伺服器記錄檔中的資訊。
+   * **[!UICONTROL 詳細資訊]**：顯示伺服器記錄檔中的資訊
 
    +++
 
@@ -169,7 +169,7 @@ ht-degree: 26%
 
 1. 輸入規則的&#x200B;**[!UICONTROL 標籤]**。
 
-[建立篩選規則](assets/business-rules-create-typo2.png)
+   ![建立篩選規則](assets/business-rules-create-typo2.png)
 
 1. 展開&#x200B;**[!UICONTROL 其他選項]**&#x200B;區段以存取進階設定，例如規則的內部名稱、資料夾儲存和說明。
 
@@ -185,7 +185,7 @@ ht-degree: 26%
 
 現在來定義其他引數。 在此畫面中，您仍可變更先前定義的主要屬性。
 
-[建立其他篩選規則](assets/business-rules-create-typo2.png)
+![另外建立篩選規則](assets/business-rules-create-typo3.png)
 
 1. 如果您不希望規則在建立後立即啟用，請將&#x200B;**[!UICONTROL 啟用]**&#x200B;選項切換為關閉。
 
