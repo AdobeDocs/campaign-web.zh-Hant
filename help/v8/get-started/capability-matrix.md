@@ -4,9 +4,9 @@ title: Campaign Web 使用者介面/用戶端主控台功能比較表
 description: Campaign Web 使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2134'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Campaign 可讓您建立、設計和共用登陸頁面。全新介面中�
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=zh-Hant){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -89,7 +89,7 @@ Adobe Campaign Web 使用者介面隨附全新的電子郵件設計工具，可�
 
 * **自訂個人化區塊建立功能**。除了預設的個人化區塊之外，您還可以從用戶端主控台建立自訂區塊。Campaign Web 使用者介面並未提供這項功能。[了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=zh-Hant#create-custom-personalization-blocks){target="_blank"}
 * **自訂表單中的內容**。內容管理模組可讓您建立和管理表單，協助使用者在 Campaign 中建立內容。此功能僅適用於用戶端主控台。[閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html?lang=zh-Hant){target="_blank"}
-* **電子郵件 AMP**。透過電子郵件 AMP 格式，您可以在訊息中加入 AMP 元件，並使用豐富的可操作內容來改善電子郵件體驗。此功能僅適用於用戶端主控台。[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html?lang=zh-Hant){target="_blank"}
+* **電子郵件 AMP**。透過電子郵件 AMP 格式，您可以在訊息中加入 AMP 元件，並使用豐富的可操作內容來改善電子郵件體驗。此功能僅適用於用戶端主控台。[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html?lang=zh-Hant){target="_blank"}
 <!--
 * Content from a URL`*`
 * Email fragments`*`
@@ -104,16 +104,16 @@ Adobe Campaign Web 使用者介面隨附全新的電子郵件設計工具，可�
 使用提供的連結來瀏覽 Campaign v8 (用戶端主控台) 文件，並深入了解類型規則：
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=zh-Hant){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 -->
-* 建立疲勞/壓力規則。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant){target="_blank"}
+* 建立疲勞/壓力規則。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=zh-Hant){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=zh-Hant){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 -->
-* 模擬行銷活動。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=zh-Hant){target="_blank"}
+* 模擬行銷活動。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## 工作流程 {#wf-capabilities}
@@ -215,6 +215,6 @@ Campaign 平台監視功能僅適用於用戶端主控台和 Campaign 控制面�
 
 ## 時區管理 {#timezone-management}
 
-Adobe Campaign Web UI會根據使用者網頁瀏覽器&#x200B;**的**&#x200B;當地時區，顯示所有日期和時間值。 在Web UI和使用者端主控台之間比較時間戳記時，此行為可能會導致差異。
+Adobe Campaign Web UI 會根據&#x200B;**使用者網頁瀏覽器的當地時區**，顯示所有日期和時間值。在 Web UI 和用戶端主控台之間比較時間戳記時，此行為可能會導致差異。
 
-請參閱此[頁面](../administration/timezone-management.md)，深入瞭解&#x200B;**Web UI**、**使用者端主控台**&#x200B;與&#x200B;**工作流程執行**&#x200B;時區之間的差異。
+請參閱此[頁面](../administration/timezone-management.md)，以了解更多 **Web UI**、**用戶端主控台**&#x200B;與&#x200B;**工作流程執行**&#x200B;時區之間的差異。
