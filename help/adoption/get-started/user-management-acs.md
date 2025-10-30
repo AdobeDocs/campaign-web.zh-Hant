@@ -70,9 +70,9 @@ Adobe Campaign Standard和Campaign v8會使用下列概念，來達成使用者�
 
 >[!IMPORTANT]
 >
->Adobe Campaign Standard中沒有&#x200B;**所有（所有）**作為直接或間接父級的組織單位將不會移轉至Campaign v8。
->></br>
->>系統會為多個安全性群組中的使用者指派最高級別安全性群組的組織單位。 如果多個群組有平行的頂層單位，則系統會為Campaign Standard中的使用者選取組織單位，該使用者將只能存取系統選取的組織單位及其子項。 在移轉後的Campaign v8中，使用者將可存取&#x200B;**所有指派的組織單位及其子項**，可能會增加許可權。 為避免此問題，請避免將使用者指派給具有平行組織單位的安全性群組。 深入瞭解[平行組織單位指派](#parallel-assignments)。
+>Adobe Campaign Standard中沒有&#x200B;**所有（所有）**&#x200B;作為直接或間接父級的組織單位將不會移轉至Campaign v8。
+>&#x200B;></br>
+>&#x200B;>系統會為多個安全性群組中的使用者指派最高級別安全性群組的組織單位。 如果多個群組有平行的頂層單位，則系統會為Campaign Standard中的使用者選取組織單位，該使用者將只能存取系統選取的組織單位及其子項。 在移轉後的Campaign v8中，使用者將可存取&#x200B;**所有指派的組織單位及其子項**，可能會增加許可權。 為避免此問題，請避免將使用者指派給具有平行組織單位的安全性群組。 深入瞭解[平行組織單位指派](#parallel-assignments)。
 
 
 在Adobe Campaign Standard中，**組織單位**&#x200B;對應至Campaign v8中的現有&#x200B;**資料夾**&#x200B;階層模型，以維持類似的存取控制。 [進一步瞭解資料夾管理](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
