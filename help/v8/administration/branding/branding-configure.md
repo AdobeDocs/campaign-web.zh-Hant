@@ -1,5 +1,5 @@
 ---
-title: 品牌
+title: 品牌化
 description: 瞭解如何設定您的品牌
 audience: administration
 context-tags: branding,overview;branding,main

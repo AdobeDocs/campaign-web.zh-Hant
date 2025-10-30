@@ -5,7 +5,7 @@ exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 17%
 1. 輸入您的&#x200B;**[!UICONTROL 標籤]**&#x200B;並選取外部帳戶&#x200B;**[!UICONTROL 型別]**。
 
    * [促銷活動特定型別](external-account.md)
-   * [Adobe解決方案整合](integration-external-account.md)
+   * [Adobe 解決方案整合](integration-external-account.md)
    * [傳輸資料](transfer-external-account.md)
    * [外部資料庫](external-account-database.md)
 
@@ -52,4 +52,4 @@ ht-degree: 17%
 
    ![熒幕擷圖顯示[更多]功能表，其中包含複製或刪除外部帳戶的選項。](assets/external_account_create_4.png)
 
-1. 組態完成後，按一下[儲存]。**&#x200B;**
+1. 組態完成後，按一下[儲存]。****

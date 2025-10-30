@@ -6,7 +6,7 @@ exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -28,13 +28,12 @@ ht-degree: 17%
 
    ![熒幕擷圖顯示直接郵件傳遞的內容組態](assets/dm-properties.png){zoomable="yes"}
 
-   +++根據您的要求設定下列設定。
+   +++根據您的需求設定下列設定。
    * **[!UICONTROL 內部名稱]**：指派唯一識別碼給傳遞。
    * **[!UICONTROL 資料夾]**：將傳遞儲存在特定資料夾中。
    * **[!UICONTROL 傳遞代碼]**：使用您自己的命名慣例整理您的傳遞。
    * **[!UICONTROL 說明]**：提供傳遞的說明。
    * **[!UICONTROL 性質]**：指定傳遞的性質，以進行分類。
-
    +++
 
 1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，以鎖定現有對象或建立您自己的對象。

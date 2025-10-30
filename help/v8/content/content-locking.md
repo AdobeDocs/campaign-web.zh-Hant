@@ -20,7 +20,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
 >title="治理"
->abstract="透過鎖定整個範本或特定結構和元件，切換治理以鎖定範本內容。這樣做讓您可以防止無意間不小心編輯或刪除內容，讓您更能掌控範本自訂，進而提高電子郵件行銷活動的效率和可靠性。"
+>abstract="透過鎖定整個範本或特定結構和元件，切換治理以鎖定範本內容。這樣做可讓您避免無意間編輯或刪除內容，並更能掌控範本自訂，進而提高電子郵件行銷活動的效率和可靠性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_mode"
@@ -201,4 +201,4 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451618?quality=12&captions=chi_hant)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)-->

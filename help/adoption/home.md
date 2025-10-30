@@ -20,7 +20,7 @@ ht-degree: 57%
 * 與 Adobe Experience Platform 整合：Managed Cloud Services v8 與 Adobe Experience Platform 無縫連接，使客戶能夠善用其資料的潛力，並跨管道推動具影響力的個人化行銷活動。
 * 一致的使用者介面和體驗：請放心，轉換到 Managed Cloud Services v8 不會中斷您的工作流程。您將能繼續使用熟悉的使用者介面和使用者體驗，確保您團隊輕鬆學習並上手。
 
-作為轉換至Campaign v8的Campaign Standard，本檔案可協助您開始使用。
+作為Campaign Standard轉換至Campaign v8，本檔案可協助您開始使用。
 
 >[!BEGINTABS]
 
@@ -93,4 +93,4 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多數概念都類似。 以
 
 ## 額外資源
 
-[Adobe Campaign v8產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web使用者介面檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"} - [Adobe Campaign使用者端主控台檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [使用者端主控台Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"} - [[!DNL Adobe Campaign] 自動化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant){target="_blank"} - [Campaign v8的控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}
+[Adobe Campaign v8產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web使用者介面檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"} - [Adobe Campaign使用者端主控台檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [使用者端主控台教學課程](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"} - [[!DNL Adobe Campaign] 自動化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant){target="_blank"} - [Campaign v8控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}

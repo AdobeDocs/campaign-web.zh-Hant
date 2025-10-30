@@ -34,7 +34,7 @@ ht-degree: 14%
 >
 >根據您的許可權，您可能無法存取儲存在資料庫中的完整設定檔清單。 [進一步瞭解許可權](../get-started/permissions.md)
 
-使用&#x200B;**顯示篩選器**&#x200B;按鈕提供的搜尋欄位或篩選器來篩選&#x200B;**[!UICONTROL 設定檔]**&#x200B;清單。 使用下拉式清單將結果限製為特定[資料夾](../get-started/permissions.md#folders)，或使用[查詢模型工具](../query/query-modeler-overview.md)新增規則。
+使用&#x200B;**[!UICONTROL 顯示篩選器]**&#x200B;按鈕提供的搜尋欄位或篩選器來篩選&#x200B;**設定檔**&#x200B;清單。 使用下拉式清單將結果限製為特定[資料夾](../get-started/permissions.md#folders)，或使用[查詢模型工具](../query/query-modeler-overview.md)新增規則。
 
 ![設定檔清單中可用的篩選器](assets/profiles-list-filters.png){zoomable="yes"}
 
@@ -46,4 +46,4 @@ ht-degree: 14%
 
 瞭解如何使用Campaign網頁使用者介面存取、管理和探索設定檔。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448375?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

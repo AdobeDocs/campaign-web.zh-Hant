@@ -10,7 +10,7 @@ exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 source-git-commit: 8f8c1645952c6a7f73c083573e18d2b04e9d9ac7
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 >title="輸入自己的 CSS"
 >abstract="若想要擁有更大的彈性與控制力來決定內容的外觀，您可以直接在電子郵件設計工具中新增自訂 CSS 來套用進階和特定樣式。"
 
-在設計電子郵件時，您可以直接在[電子郵件Designer](get-started-email-designer.md)中新增您自己的自訂CSS。 此功能可讓您套用進階和特定的樣式，以更靈活的方式控制內容的外觀。
+在設計電子郵件時，您可以直接在[電子郵件Designer](get-started-email-designer.md)中新增您自己的自訂CSS。 此功能可讓您套用進階和特定的樣式，從而獲得更大的靈活性並控制內容的外觀。
 
 ## 定義自訂CSS {#define-custom-css}
 
@@ -167,7 +167,7 @@ body {
 
 您的自訂CSS已新增到`<head>`區段的結尾，做為具有`<style>`屬性的`data-name="global-custom"`標籤的一部分，如下面的範例所示。 這可確保自訂樣式可全域套用至內容。
 
-+++ 請參閱範例
++++ 請參閱範例 
 
 ```html
 <!DOCTYPE html>
@@ -255,7 +255,7 @@ For example:
 
    * 請考慮將`!important`加入宣告中，以確保它們優先。
 
-+++ 例如：
+     +++ 例如：
 
      ```css
      .acr-Form {
@@ -263,4 +263,4 @@ For example:
      }
      ```
 
-+++
+     +++

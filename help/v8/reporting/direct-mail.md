@@ -51,7 +51,7 @@ ht-degree: 19%
 
 ![具有暫留功能的初始目標母體圖形的詳細檢視。](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++進一步瞭解直接郵件傳遞報告度量。
++++深入瞭解直接郵件傳遞報告度量。
 
 * **[!UICONTROL 初始對象]**：目標收件者的總數。
 * **[!UICONTROL 要傳遞]**：傳遞準備後要傳遞的訊息總數。
@@ -84,7 +84,7 @@ ht-degree: 19%
 >title="傳遞排除原因"
 >abstract="**排除原因**&#x200B;圖表顯示傳遞準備期間被拒絕之郵件的分佈，依每個規則進行分類。"
 
-**[!UICONTROL 排除原因]**&#x200B;圖表提供傳遞準備期間訊息拒絕原因的明細。 此劃分會依各種規則組織，提供造成訊息排除的因素詳細檢視。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#email-error-types){_blank}中有詳細說明。
+**[!UICONTROL 排除原因]**&#x200B;圖表提供傳遞準備期間訊息拒絕原因的明細。 此劃分會依各種規則組織，提供造成訊息排除的因素詳細檢視。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}中有詳細說明。
 
 ![排除圖顯示依規則之拒絕訊息分佈的原因。](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 

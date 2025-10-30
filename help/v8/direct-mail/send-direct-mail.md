@@ -68,7 +68,7 @@ ht-degree: 1%
 
    如果直接郵件傳遞已排程，請按一下&#x200B;**[!UICONTROL 依排程傳送]**&#x200B;按鈕。 在[本節](../msg/gs-messages.md#schedule-the-delivery-sending)中進一步瞭解傳遞排程。
 
-傳送傳遞後，擷取檔案會自動產生，並匯出至傳遞範本的[進階設定](../advanced-settings/delivery-settings.md)中所選&#x200B;**[!UICONTROL 路由]**&#x200B;外部帳戶中指定的位置。
+傳送傳遞後，擷取檔案會自動產生，並匯出至傳遞範本的&#x200B;**[!UICONTROL 進階設定]**&#x200B;中所選[路由](../advanced-settings/delivery-settings.md)外部帳戶中指定的位置。
 
 從您的傳遞頁面追蹤您的KPI （關鍵績效指標）資料，並從&#x200B;**[!UICONTROL 記錄檔]**&#x200B;功能表追蹤資料。
 

@@ -4,9 +4,9 @@ title: 開始使用 Adobe Campaign Web
 description: 開始使用 Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '566'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign v8 是專為電子郵件、推播、簡訊和直接郵件等各�
 
 在[此頁面](connect-to-campaign.md)中了解如何連線至 Adobe Campaign Web。
 
-➡️ [在影片中探索 Campaign Web](#video)
+➡️ [在影片中探索Campaign網頁](#video)
 
 ## 關於 Campaign 用戶端主控台 {#ac-client}
 
@@ -66,7 +66,7 @@ Campaign 資料儲存在應用程式伺服器中。從用戶端主控台以及 C
 
 Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI-powered Knowledge Assistant.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453433?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
 -->
 
 <!--
@@ -96,7 +96,7 @@ With workflows, you can orchestrate the full range of processes and tasks, impro
 
 Understand how workflows work and how to create a targeting workflow in this how-to video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3448375?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
 
 Adobe Campaign Web user interface features a query modeler that simplifies the process of filtering the database based on various criteria. Learn how to use it in [this section](../query/query-modeler-overview.md)
 

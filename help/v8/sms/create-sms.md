@@ -6,7 +6,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -43,13 +43,12 @@ ht-degree: 40%
 
 1. 輸入傳遞的&#x200B;**[!UICONTROL 標籤]**，並存取&#x200B;**[!UICONTROL 其他選項]**&#x200B;下拉式清單。 如果您的傳遞使用延伸結構描述，則有特定的&#x200B;**自訂選項**&#x200B;欄位可供使用。
 
-   +++根據您的要求設定下列設定。
+   +++根據您的需求設定下列設定。
    * **[!UICONTROL 內部名稱]**：指派唯一識別碼給傳遞。
    * **[!UICONTROL 資料夾]**：將傳遞儲存在特定資料夾中。
    * **[!UICONTROL 傳遞代碼]**：使用您自己的命名慣例整理您的傳遞。
    * **[!UICONTROL 說明]**：提供傳遞的說明。
    * **[!UICONTROL 性質]**：指定傳遞的性質，以進行分類。
-
    +++
 
 1. 按一下「**[!UICONTROL 選取客群]**」按鈕，以選擇現有客群或建立您自己的客群。[進一步瞭解對象](../audience/about-recipients.md)。

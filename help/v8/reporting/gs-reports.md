@@ -4,7 +4,7 @@ title: 開始使用報告
 description: 了解如何在 Campaign Web 中存取和管理報告
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 

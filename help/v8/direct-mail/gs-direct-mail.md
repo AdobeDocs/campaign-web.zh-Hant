@@ -5,8 +5,8 @@ description: 了解如何使用 Adobe Campaign Web 建立和傳送直接郵件�
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '201'
+ht-degree: 100%
 
 ---
 

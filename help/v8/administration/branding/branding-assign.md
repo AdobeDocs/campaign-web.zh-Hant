@@ -47,7 +47,7 @@ ht-degree: 14%
 
 >[!TAB Adobe Campaign V8]
 
-若要建立傳遞範本，您可以複製內建範本、將現有傳遞轉換為範本或從頭開始建立傳遞範本。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=zh-Hant)
+若要建立傳遞範本，您可以複製內建範本、將現有傳遞轉換為範本或從頭開始建立傳遞範本。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 建立範本後，您就可以將其連結至品牌。操作步驟：
 

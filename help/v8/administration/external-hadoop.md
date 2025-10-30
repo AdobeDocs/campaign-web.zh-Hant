@@ -1,7 +1,8 @@
 ---
 title: 管理外部帳戶
 description: 瞭解如何設定Hadoop外部帳戶
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: d2dc4d88-a97d-48bb-b668-ed970e138dfd
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -10,7 +11,7 @@ ht-degree: 0%
 
 # Hadoop外部帳戶 {#external-hadoop}
 
-Hadoop外部帳戶可讓您將您的Campaign執行個體連線至Hadoop外部資料庫。 您可以在[Campaign V7主控台檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}中進一步瞭解Hadoop。
+Hadoop外部帳戶可讓您將您的Campaign執行個體連線至Hadoop外部資料庫。 您可以在[Campaign V7主控台檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}中進一步瞭解Hadoop。
 
 ![顯示Hadoop外部帳戶設定的熒幕擷圖。](assets/external-hadoop.png)
 

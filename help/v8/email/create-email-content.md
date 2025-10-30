@@ -5,8 +5,8 @@ description: 了解如何從頭開始設計您的電子郵件內容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 54%
+source-wordcount: '650'
+ht-degree: 51%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 54%
 
    ![顯示電子郵件Designer中結構元件窗格的熒幕擷圖。](assets/email_designer_structure_components.png){zoomable="yes"}
 
-1. 選取&#x200B;**[!UICONTROL n:n 欄]**&#x200B;元件來定義您選擇的欄數 (3 到 10 之間)。移動每欄底部的箭頭，以定義每欄的寬度。
+1. 選取&#x200B;**[!UICONTROL n:n資料行]**&#x200B;元件以定義您所選擇的資料行數目（介於3到10之間）。 移動每欄底部的箭頭，以定義每欄的寬度。
 
    >[!NOTE]
    >
@@ -110,4 +110,4 @@ ht-degree: 54%
 
 了解如何導覽電子郵件設計工具。瞭解如何從草稿開始架構和設計電子郵件、個人化並測試您的電子郵件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453576/?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

@@ -4,7 +4,7 @@ title: 開始在 Adobe Campaign Web 中使用訊息和傳遞
 description: 了解如何使用 Campaign Web 處理傳遞和傳送訊息
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
 

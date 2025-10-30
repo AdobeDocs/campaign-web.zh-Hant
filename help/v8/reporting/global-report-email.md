@@ -99,7 +99,7 @@ ht-degree: 24%
 
 排除圖表和表格說明了從目標設定檔排除的使用者設定檔無法接收訊息的原因。
 
-電子郵件錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#email-error-types){target="_blank"}中。
+電子郵件錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
 
 ## 傳遞總處理能力 {#delivery-throughput}
 
@@ -112,7 +112,7 @@ ht-degree: 24%
 
 「傳送輸送量」報表提供傳送流程效率的深入分析，詳細說明指定時間範圍內的成功和錯誤率。
 
-+++進一步瞭解傳送輸送量量度。
++++進一步瞭解傳遞輸送量度。
 
 * **[!UICONTROL 成功]**：已順利處理的訊息數與要傳遞的訊息數有關。
 
@@ -131,9 +131,9 @@ ht-degree: 24%
 
 ![每個型別量度的錯誤劃分](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
-每個型別&#x200B;**資料表與圖表的**&#x200B;錯誤劃分會顯示與不同網域中可能發生的錯誤相關的資料，具體量度如下。
+每個型別&#x200B;**[!UICONTROL 資料表與圖表的]**&#x200B;錯誤劃分會顯示與不同網域中可能發生的錯誤相關的資料，具體量度如下。
 
-此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hant){target="_blank"}。
+此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
 +++深入瞭解每個型別量度的錯誤劃分。
 
@@ -162,7 +162,7 @@ ht-degree: 24%
 
 ![每個網域量度的錯誤劃分](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
-每個網域&#x200B;**資料表和圖表的**&#x200B;[!UICONTROL &#x200B;錯誤劃分可顯示與每個網域中潛在錯誤相關的資料。 量度通常與上面詳述的每種型別&#x200B;]&#x200B;**資料表和圖表的**&#x200B;錯誤劃分有關。
+每個網域&#x200B;**[!UICONTROL 資料表和圖表的]**&#x200B;錯誤劃分可顯示與每個網域中潛在錯誤相關的資料。 量度通常與上面詳述的每種型別&#x200B;**[!UICONTROL 資料表和圖表的]**&#x200B;錯誤劃分有關。
 
 ## 追蹤指標 {#tracking-indicators-email}
 
@@ -231,7 +231,7 @@ ht-degree: 24%
 
 ![個URL和點按資料流量度](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++深入瞭解URL和點按資料流測量結果。
++++深入瞭解URL和點選串流量度。
 
 * **[!UICONTROL 反應性]**：已點按傳遞的目標收件者數目與已開啟傳遞的目標收件者預估數目之間的比率。
 
@@ -253,7 +253,7 @@ ht-degree: 24%
 
 ![前10個最常造訪的連結量度](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++進一步瞭解前10個最常造訪的連結量度。
++++深入瞭解前10名最常造訪的連結量度。
 
 * **[!UICONTROL 點按總數]**：傳遞中連結的點按總數。
 

@@ -30,7 +30,7 @@ ht-degree: 0%
 
    ![熒幕擷圖顯示新增訂閱者的設定檔選取介面。](assets/service-subscribers-select-profiles.png){zoomable="yes"}
 
-1. 按一下&#x200B;**[!UICONTROL 傳送]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->，讓選取的收件者接收您在[建立服務](manage-services.md#create-service)時所定義的訂閱[確認訊息](manage-services.md#create-confirmation-message)。
+1. 按一下&#x200B;**[!UICONTROL 傳送]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->，讓選取的收件者接收您在[建立服務](manage-services.md#create-confirmation-message)時所定義的訂閱[確認訊息](manage-services.md#create-service)。
 
    ![熒幕擷圖顯示新增訂閱者的確認訊息介面。](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 確認刪除。
 
-1. 按一下&#x200B;**[!UICONTROL 傳送]**，讓選取的收件者收到您在[建立服務](manage-services.md#create-service)時所定義的取消訂閱[確認訊息](manage-services.md#create-confirmation-message)。
+1. 按一下&#x200B;**[!UICONTROL 傳送]**，讓選取的收件者收到您在[建立服務](manage-services.md#create-confirmation-message)時所定義的取消訂閱[確認訊息](manage-services.md#create-service)。
 
    ![熒幕擷圖顯示取消訂閱設定檔的確認訊息介面。](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
 

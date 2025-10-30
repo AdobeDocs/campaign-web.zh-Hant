@@ -5,8 +5,8 @@ description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 30%
+source-wordcount: '738'
+ht-degree: 28%
 
 ---
 
@@ -45,13 +45,12 @@ ht-degree: 30%
 
 1. 視需要瀏覽&#x200B;**[!UICONTROL 其他選項]**&#x200B;下拉式清單，以自訂選項。 如果您的傳遞是以延伸結構描述為基礎，則可以使用特定的&#x200B;**自訂選項**&#x200B;欄位。
 
-   +++根據您的要求設定下列設定。
+   +++根據您的需求設定下列設定。
    * **[!UICONTROL 內部名稱]**：指派唯一識別碼給傳遞。
    * **[!UICONTROL 資料夾]**：將傳遞儲存在特定資料夾中。
    * **[!UICONTROL 傳遞代碼]**：使用您自己的命名慣例整理您的傳遞。
    * **[!UICONTROL 說明]**：提供傳遞的說明。
    * **[!UICONTROL 性質]**：指定傳遞的性質，以進行分類。
-
    +++
 
 ## 選取您的推播傳遞對象 {#create-audience-push}
@@ -68,7 +67,7 @@ ht-degree: 30%
 
    ![熒幕擷圖顯示推播傳遞的對象選擇](assets/push_create_2.png){zoomable="yes"}
 
-1. 選取現有對象，或建立自己的對象，以調整推播傳送的目標母體。 對於推播通知，預設的[目標維度](../audience/about-recipients.md#targeting-dimensions)為連結至收件者資料表的&#x200B;**訂閱者應用程式** (nms：appSubscriptionRcp)。
+1. 選取現有對象，或建立自己的對象，以調整推播傳送的目標母體。 對於推播通知，預設[目標維度](../audience/about-recipients.md#targeting-dimensions)為連結至收件者資料表的&#x200B;**訂閱者應用程式** (nms:appSubscriptionRcp)。
 
    瞭解如何在[此頁面](../audience/add-audience.md)中選取現有對象。
 
@@ -78,7 +77,7 @@ ht-degree: 30%
 
 ## 定義推播通知內容 {#create-content-push}
 
-若要定義通知的內容，請按一下[編輯內容]。**&#x200B;** [了解更多](content-push.md)。
+若要定義通知的內容，請按一下[編輯內容]。**** [了解更多](content-push.md)。
 
 ![熒幕擷圖顯示編輯推送傳遞的內容](assets/push_create_5.png){zoomable="yes"}
 

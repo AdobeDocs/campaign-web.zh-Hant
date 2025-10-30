@@ -20,5 +20,5 @@ ht-degree: 32%
 + [行銷人員快速入門](get-started/marketers.md)
 + [管理員/開發人員快速入門](get-started/admin-developers.md)
 + [使用者存取管理](get-started/user-management-acs.md)
-+ [&lt;返回Campaign v8 （網頁）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/campaign-web-home)
++ [&lt;返回Campaign v8 （網頁）檔案](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home)
 + [&lt;返回Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)

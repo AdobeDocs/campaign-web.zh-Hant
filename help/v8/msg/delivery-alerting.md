@@ -16,7 +16,7 @@ ht-degree: 2%
 
 通知是根據透過Adobe Campaign Web使用者介面定義的特定警報條件而自訂。
 
-如需管理傳送失敗的詳細資訊，請參閱[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}。
+如需管理傳送失敗的詳細資訊，請參閱[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}。
 
 ## 電子郵件通知內容 {#content}
 

@@ -3,7 +3,7 @@ title: Campaign Web 使用者介面工作流程的護欄和限制
 description: 在 Campaign Web 使用者介面中使用工作流程時的護欄和限制
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 

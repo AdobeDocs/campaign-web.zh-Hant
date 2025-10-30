@@ -26,7 +26,7 @@ ht-degree: 1%
 
 * **Source結構描述稽核軌跡**&#x200B;可讓您在Campaign v8使用者端主控台中監視活動以及最近對結構描述所做的修改。
 
-  如需結構描述的詳細資訊，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/shemas-forms/schemas)。
+  如需結構描述的詳細資訊，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas)。
 
 * **工作流程稽核軌跡**&#x200B;可讓您追蹤活動及最近對工作流程所做的變更，包括其目前狀態，例如：
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 * **選項稽核軌跡**&#x200B;可讓您監視活動以及最近對Campaign v8中選項所做的修改。
 
-  如需選項的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
+  如需選項的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
 
 * **傳遞稽核軌跡**&#x200B;可讓您檢查活動和對傳遞進行的最後修改。
 
@@ -55,11 +55,11 @@ ht-degree: 1%
 
 * **傳遞對應**&#x200B;可讓您監視活動以及最近在Campaign v8中對傳遞對應所做的修改。
 
-  如需傳遞對應的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)。
+  如需傳遞對應的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)。
 
 * **網頁應用程式**&#x200B;可讓您檢查在Campaign v8中對網頁表單所做的修改，這些修改用於建立具有輸入和選擇欄位的頁面，並且可能包含來自資料庫的資料。
 
-  如需網頁應用程式的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/content/webapps)。
+  如需網頁應用程式的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps)。
 
 * **選件**&#x200B;可讓您檢查活動和對您的選件進行的最後修改。
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 * **操作員**&#x200B;可讓您監視活動以及最近在Campaign v8中對操作員進行的修改。
 
-  如需運運算元的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)。
+  如需運運算元的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)。
 
 +++
 

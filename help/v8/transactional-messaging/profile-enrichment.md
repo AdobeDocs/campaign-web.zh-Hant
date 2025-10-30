@@ -5,12 +5,12 @@ description: 瞭解如何在Campaign網頁使用者介面中建立交易式訊�
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
 
-# 使用設定檔資料擴充交易式訊息{#profile-enrichment}
+# 使用輪廓資料來擴充交易型訊息{#profile-enrichment}
 
 >[!AVAILABILITY]
 >
@@ -18,7 +18,7 @@ ht-degree: 6%
 >
 >此功能目前僅適用於電子郵件。
 
-此功能可讓您將Adobe Campaign資料庫欄位連結至訊息內容，以個人化異動訊息。 您可以選取目標對應、擴充欄以及調解金鑰，以確保準確且即時的個人化，同時維持效能臨界值。
+此功能可讓您將Adobe Campaign資料庫欄位連結至訊息內容，以個人化異動訊息。 您可以選取目標對應、擴充欄和調和索引鍵，以確保準確且即時的個人化，同時維持績效臨界值。
 
 * 事件型交易式訊息會使用事件本身包含的資料。
 * 設定檔交易式訊息使用Adobe Campaign資料庫中包含的資料。

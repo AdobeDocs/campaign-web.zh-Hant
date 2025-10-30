@@ -27,7 +27,7 @@ ht-degree: 20%
 
 ![傳遞概述報告的熒幕擷圖](assets/campaign_report_email_1.png){zoomable="yes"}
 
-+++進一步瞭解電子郵件促銷活動報告量度。
++++進一步瞭解電子郵件促銷活動報告度量。
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備期間處理的訊息總數。
 
@@ -52,7 +52,7 @@ ht-degree: 20%
 
 ![初始目標對象統計資料表的熒幕擷圖](assets/campaign_report_email_2.png){zoomable="yes"}
 
-+++進一步瞭解電子郵件促銷活動報告量度。
++++進一步瞭解電子郵件促銷活動報告度量。
 
 * **[!UICONTROL 初始對象]**：目標收件者的總數。
 
@@ -73,7 +73,7 @@ ht-degree: 20%
 
 ![執行統計資料表的熒幕擷圖，詳述傳遞成功與否](assets/campaign_report_email_3.png){zoomable="yes"}
 
-+++進一步瞭解電子郵件促銷活動報告量度。
++++進一步瞭解電子郵件促銷活動報告度量。
 
 * **[!UICONTROL 要傳遞的訊息]**：傳遞準備後要傳遞的訊息總數。
 
@@ -83,7 +83,7 @@ ht-degree: 20%
 
 * **[!UICONTROL 新隔離]**：在傳送失敗（使用者不明、網域無效）之後被隔離的地址總數，與要傳送的訊息數目相關。
 
-  電子郵件錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#email-error-types){target="_blank"}中。
+  電子郵件錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
 
 +++
 
@@ -98,7 +98,7 @@ ht-degree: 20%
 
 ![包含傳遞之收件者活動可用資料的反應統計資料表熒幕擷圖](assets/campaign_report_email_4.png){zoomable="yes"}
 
-+++進一步瞭解電子郵件促銷活動報告量度。
++++進一步瞭解電子郵件促銷活動報告度量。
 
 * **[!UICONTROL 唯一開啟次數]**：至少開啟過一次訊息的目標收件者總數。
 
@@ -122,7 +122,7 @@ ht-degree: 20%
 
 ![產生的點選串流表格的熒幕擷圖](assets/campaign_report_email_5.png){zoomable="yes"}
 
-+++進一步瞭解電子郵件促銷活動報告量度。
++++進一步瞭解電子郵件促銷活動報告度量。
 
 * **[!UICONTROL 不重複點按]**：在傳遞中至少點選一次的不重複收件者總數。
 
@@ -141,13 +141,13 @@ ht-degree: 20%
 >title="依類型的錯誤劃分"
 >abstract="**依類型的錯誤劃分**&#x200B;資料表和圖表包含發生的每個錯誤類型的可用資料：使用者未知、郵箱已滿、網域無效等。"
 
-每個型別&#x200B;**資料表和圖表的**&#x200B;錯誤劃分包含每個網域型別可能遇到的錯誤的可用資料。 量度詳情如下。
+每個型別&#x200B;**[!UICONTROL 資料表和圖表的]**&#x200B;錯誤劃分包含每個網域型別可能遇到的錯誤的可用資料。 量度詳情如下。
 
-此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hant){target="_blank"}。
+此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
 ![每個型別圖表和資料表的錯誤劃分熒幕擷圖](assets/campaign_report_email_6.png){zoomable="yes"}
 
-+++進一步瞭解電子郵件促銷活動報告量度。
++++進一步瞭解電子郵件促銷活動報告度量。
 
 * **[!UICONTROL 使用者不明]**：傳送期間產生錯誤型別，指出電子郵件地址無效。
 
@@ -172,7 +172,7 @@ ht-degree: 20%
 >title="依網域的錯誤劃分"
 >abstract="**依網域的錯誤劃分**&#x200B;資料表和圖表顯示根據每個網域發生的每個錯誤類型的可用資料。"
 
-每個網域&#x200B;**資料表和圖表的**&#x200B;[!UICONTROL &#x200B;錯誤劃分包含每個網域可能遇到的錯誤的可用資料。 量度通常與上面詳述的每種型別&#x200B;]&#x200B;**資料表和圖表的**&#x200B;錯誤劃分有關。
+每個網域&#x200B;**[!UICONTROL 資料表和圖表的]**&#x200B;錯誤劃分包含每個網域可能遇到的錯誤的可用資料。 量度通常與上面詳述的每種型別&#x200B;**[!UICONTROL 資料表和圖表的]**&#x200B;錯誤劃分有關。
 
 ## 追蹤指標 {#tracking-indicators-email}
 
@@ -187,7 +187,7 @@ ht-degree: 20%
 
 ![傳遞統計量度的熒幕擷圖](assets/campaign_report_email_7.png){zoomable="yes"}
 
-+++進一步瞭解電子郵件促銷活動報告量度。
++++進一步瞭解電子郵件促銷活動報告度量。
 
 * **[!UICONTROL 要傳遞的訊息數]**：已順利處理的訊息數與要傳遞的訊息數有關。
 
@@ -261,7 +261,7 @@ ht-degree: 20%
 
 ![前10個最常造訪的連結圖表的熒幕擷圖](assets/campaign_report_email_10.png){zoomable="yes"}
 
-+++進一步瞭解電子郵件促銷活動報告量度。
++++進一步瞭解電子郵件促銷活動報告度量。
 
 * **[!UICONTROL 點按]**：傳遞中連結的點按總數。
 
@@ -291,7 +291,7 @@ ht-degree: 20%
 
 ![使用者活動報告的熒幕擷圖](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
-+++進一步瞭解電子郵件傳送報告量度。
++++深入瞭解電子郵件傳遞報告度量。
 
 * **[!UICONTROL 點按]**：傳遞中連結的點按總數。
 

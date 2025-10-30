@@ -5,7 +5,7 @@ description: 瞭解如何傳送訊息給服務的訂閱者
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 建立傳遞。 建立傳遞的步驟已詳載於[此頁面](../msg/gs-messages.md#create-delivery)。
 
-1. 瀏覽至您的傳遞設定，並將預設目標對應變更為&#x200B;**訂閱(nms：subscriptions)**。
+1. 瀏覽至您的傳遞設定，並將預設目標對應變更為&#x200B;**訂閱(nms:subscriptions)**。
 
    ![熒幕擷圖顯示傳遞設定，其中目標對應已變更為Adobe Campaign中的訂閱。](assets/service-delivery-change-mapping.png){zoomable="yes"}
 

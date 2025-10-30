@@ -4,7 +4,7 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%
 

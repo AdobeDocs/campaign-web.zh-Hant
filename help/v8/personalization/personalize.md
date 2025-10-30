@@ -53,7 +53,7 @@ Personalization標籤遵循特定語法： `<%= table.field %>`。 例如，若�
    | 選單 | 說明 |
    |------|-------------|
    | ![訂閱者應用程式功能表圖示](assets/do-not-localize/perso-subscribers-menu.png){zoomable="yes"} | **[!UICONTROL 訂閱者應用程式]**&#x200B;功能表會列出與應用程式訂閱者相關的欄位，例如使用的終端機或作業系統。 *此功能表僅適用於推播通知。* |
-   | ![收件者功能表圖示](assets/do-not-localize/perso-recipients-menu.png){zoomable="yes"} | **[!UICONTROL 收件者]**&#x200B;功能表列出在收件者表格中定義的欄位，例如收件者的名稱、年齡或地址。 從外部檔案[&#128279;](../audience/file-audience.md)上傳獨立電子郵件傳遞的連絡人時，此功能表會列出輸入檔案中可用的所有欄位。 |
+   | ![收件者功能表圖示](assets/do-not-localize/perso-recipients-menu.png){zoomable="yes"} | **[!UICONTROL 收件者]**&#x200B;功能表列出在收件者表格中定義的欄位，例如收件者的名稱、年齡或地址。 從外部檔案[上傳獨立電子郵件傳遞的連絡人時，此功能表會列出輸入檔案中可用的所有欄位。](../audience/file-audience.md) |
    | ![訊息功能表圖示](assets/do-not-localize/perso-message-menu.png){zoomable="yes"} | **[!UICONTROL 訊息]**&#x200B;功能表會列出與傳送記錄檔相關的欄位，包括跨所有通道傳送給收件者或裝置的所有訊息，例如與指定收件者最後一次事件的日期。 |
    | ![傳遞功能表圖示](assets/do-not-localize/perso-delivery-menu.png){zoomable="yes"} | **[!UICONTROL 傳遞]**&#x200B;功能表會列出與執行傳遞所需引數相關的欄位，例如傳遞通道或標籤。 |
 

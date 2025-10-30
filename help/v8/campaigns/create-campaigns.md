@@ -6,7 +6,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 35%
 
 若要建立新的行銷活動，請定義其設定、排程並包含工作流程與傳送。
 
-## 建立行銷活動 {#campaign-create}
+## 建立行銷活動。 {#campaign-create}
 
 若要建立新的行銷活動，請遵循下列步驟：
 
@@ -32,7 +32,7 @@ ht-degree: 35%
 
    ![在行銷活動功能表中顯示[建立行銷活動]按鈕的熒幕擷圖](assets/create-campaign-button.png)
 
-1. 選取要使用的&#x200B;**範本**，並提供促銷活動的標籤。 [閱讀全文](manage-campaigns.md#manage-campaign-templates)。
+1. 選取要使用的&#x200B;**範本**，並提供促銷活動的標籤。 [閱讀更多](manage-campaigns.md#manage-campaign-templates)。
 1. 如有需要，請變更下列&#x200B;**其他選項**：內部名稱、資料夾、工作負責人、說明和性質。
 1. 定義行銷活動的&#x200B;**排程**。 在[本節](#campaign-schedule)中瞭解如何設定行銷活動排程。
 1. 按一下「**建立**」。

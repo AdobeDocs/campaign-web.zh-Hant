@@ -22,7 +22,7 @@ ht-degree: 36%
 >[!IMPORTANT]
 >
 >有一個全新的查詢建模器介面可供使用，若要切換至這個新的規則產生器體驗，請按一下右上角的切換按鈕。 您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。 您可以在此新介面中套用與查詢建模程式相同的原則。
->![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
+>>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
 
 ## 使用運算式編輯器 {#edit}
 
@@ -30,7 +30,7 @@ ht-degree: 36%
 
 | 從&#x200B;**屬性**&#x200B;欄位存取 | 從&#x200B;**值**&#x200B;欄位存取 |
 | --- | --- |
-| 屬性欄位![&#128279;](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的運算式編輯器 | ![值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的運算式編輯器 |
+| 屬性欄位![的](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}運算式編輯器 | 值欄位![的](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}運算式編輯器 |
 
 運算式編輯器提供：
 
@@ -58,7 +58,7 @@ ht-degree: 36%
 
 >[!ENDTABS]
 
-## 協助程式功能
+## 協助功能
 
 查詢編輯工具可讓您使用進階功能，根據所需結果和操作資料的型別執行複雜的篩選。 可使用下列函式：
 

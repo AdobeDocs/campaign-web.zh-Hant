@@ -6,7 +6,7 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -38,9 +38,9 @@ Adobe Campaign可讓您管理在Campaign外部建立的傳送，以透過外部�
 
    您有三個選項：
 
-   * **在工作流程中**：新增外部通道活動（電子郵件、簡訊或推播）至工作流程。 如需設定工作流程的詳細說明，請參閱[此頁面](../workflows/gs-workflow-creation.md)。
-   * **在行銷活動中**：建立行銷活動後，您可以建立電子郵件、簡訊或推播通道外部傳遞。 如需有關設定行銷活動的詳細資訊，請參閱[本頁面](../campaigns/gs-campaigns.md)。
-   * **獨立傳遞**：透過個別的外部傳遞，直接及立即與客戶互動。 [瞭解如何建立傳遞](../msg/gs-deliveries.md)
+   * **在工作流程中**：新增外部通道活動（電子郵件、簡訊或推播）至工作流程。 如需有關設定工作流程的詳細說明，請參閱[此頁面](../workflows/gs-workflow-creation.md)。
+   * **在行銷活動中**：建立行銷活動後，您可以建立電子郵件、簡訊或推播通道外部傳遞。 如需有關設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/gs-campaigns.md)。
+   * **獨立傳遞**：透過個別的外部傳遞，直接及立即與客戶互動。 [了解如何建立傳遞](../msg/gs-deliveries.md)
 
 1. 在傳遞或傳遞範本[設定](../advanced-settings/delivery-settings.md)中，選取為您所選管道（在此範例中為SMS管道）建立的外部帳戶並儲存。
 
@@ -48,7 +48,7 @@ Adobe Campaign可讓您管理在Campaign外部建立的傳送，以透過外部�
 
    >[!NOTE]
    >
-   >如果您正在建立傳遞，請確定您已使用&#x200B;**[!UICONTROL 路由]**&#x200B;型別的外部帳戶選取[傳遞範本](delivery-template.md)。 否則，您將無法選取在[以上](#routing-external-account)建立的專用帳戶。
+   >如果您正在建立傳遞，請確定您已使用[路由](delivery-template.md)型別的外部帳戶選取&#x200B;**[!UICONTROL 傳遞範本]**。 否則，您將無法選取在[以上](#routing-external-account)建立的專用帳戶。
 
 1. 在傳遞&#x200B;**[!UICONTROL 內容]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 編輯內容]**。
 

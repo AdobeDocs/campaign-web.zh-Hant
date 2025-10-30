@@ -1,7 +1,8 @@
 ---
 title: 管理外部帳戶
 description: 瞭解如何設定外部帳戶
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: 99648377-112b-428a-8faf-5268d730f19a
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 1%

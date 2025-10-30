@@ -4,7 +4,7 @@ description: 瞭解如何管理目標對應。
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '806'
 ht-degree: 14%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 14%
 
 ## 關於目標對應 {#about}
 
-每個通訊通道都會使用預設的目標對應來定位其收件者。 例如，根據預設，電子郵件和簡訊傳遞範本的目標為&#x200B;**[!UICONTROL 收件者]**。 因此，它們的目標對應使用&#x200B;**nms：recipient**&#x200B;資料表的欄位。 對於推播通知，預設的目標對應是連結到收件者表格的&#x200B;**訂閱者應用程式(nms：appSubscriptionRcp)**。
+每個通訊通道都會使用預設的目標對應來定位其收件者。 例如，根據預設，電子郵件和簡訊傳遞範本的目標為&#x200B;**[!UICONTROL 收件者]**。 因此，它們的目標對應使用&#x200B;**nms:recipient**&#x200B;資料表的欄位。 對於推播通知，預設的目標對應是連結到收件者資料表的&#x200B;**訂閱者應用程式(nms:appSubscriptionRcp)**。
 
 目標對應可從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 目標對應]**&#x200B;功能表存取。 您可以從此畫面存取每個目標對應的詳細資訊，或建立新的目標對應以符合您的需求。
 
 ![目標對應清單畫面顯示可用的對應](assets/target-mappings-list.png)
 
-如需Adobe Campaign隨附的內建目標對應詳細資訊，請參閱[Campaign v8使用者端主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hant){target="_blank"}。
+如需Adobe Campaign隨附的內建目標對應詳細資訊，請參閱[Campaign v8使用者端主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
 
 ## 建立目標對應 {#create-mapping}
 
