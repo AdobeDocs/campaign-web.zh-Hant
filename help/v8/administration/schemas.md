@@ -89,7 +89,7 @@ Adobe Campaign中的每個實體都有專屬的結構描述，以確保資料一
 
    ![集合清單建立](assets/schemas-collection1.png)
 
-1. 選取其中一個可用的自訂清單，例如購買專案，然後按一下[確認]。****
+1. 選取其中一個可用的自訂清單，例如購買專案，然後按一下[確認]。**&#x200B;**
 
    ![集合清單建立](assets/schemas-collection2.png)
 

@@ -130,7 +130,7 @@ Microsoft Dynamics CRM外部帳戶可讓您將您的Campaign執行個體連線�
 
 1. 按一下&#x200B;**[!UICONTROL Salesforce連結建立精靈……]**，在Salesforce中產生網頁連結。
 
-   然後，按一下[下一步]****&#x200B;從Salesforce擷取&#x200B;**潛在客戶**&#x200B;和&#x200B;**連絡人**&#x200B;的網頁連結。
+   然後，按一下[下一步]&#x200B;**&#x200B;**&#x200B;從Salesforce擷取&#x200B;**潛在客戶**&#x200B;和&#x200B;**連絡人**&#x200B;的網頁連結。
 
 1. 選取連結以匯出至Salesforce網頁連結清單。
 
