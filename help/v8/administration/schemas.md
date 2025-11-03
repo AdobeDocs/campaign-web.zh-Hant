@@ -2,10 +2,10 @@
 title: 使用結構描述
 description: 瞭解如何使用結構描述。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 18%
+source-wordcount: '597'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 18%
 
 Adobe Campaign中的每個實體都有專屬的結構描述，以確保資料一致性和組織。
 
-有關綱要的詳細資訊，請參閱[Campaign主控台檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
+有關綱要的詳細資訊，請參閱[Campaign主控台檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
 
 ## 在網頁使用者介面中存取綱要 {#access}
 
@@ -63,7 +63,9 @@ Adobe Campaign中的每個實體都有專屬的結構描述，以確保資料一
 
 ![顯示資料結構和屬性的結構描述資料標籤](assets/schemas-data.png)
 
-## 編輯自訂欄位 {#fields}
+## 設定熒幕定義 {#screen-definition}
+
+### 編輯自訂欄位 {#fields}
 
 自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。
 
@@ -74,3 +76,27 @@ Adobe Campaign中的每個實體都有專屬的結構描述，以確保資料一
 按一下&#x200B;**[!UICONTROL 預覽]**，在範例畫面中顯示自訂欄位。
 
 如需如何在結構描述中編輯自訂欄位的詳細資訊，請參閱本節： [設定自訂欄位](../administration/custom-fields.md)。
+
+### 新增集合清單 {#collection-lists}
+
+此&#x200B;**自訂清單清單**&#x200B;區段可讓您定義集合連結，例如購買。 然後，相關資料會透過專用索引標籤顯示在設定檔畫面中。
+
+>[!NOTE]
+>
+>目前，此功能僅適用於收件者結構描述。
+
+1. 若要新增集合清單至介面，請按一下省略符號按鈕，然後選擇&#x200B;**選取自訂清單**。
+
+   ![集合清單建立](assets/schemas-collection1.png)
+
+1. 選取其中一個可用的自訂清單，例如購買專案，然後按一下[確認]。****
+
+   ![集合清單建立](assets/schemas-collection2.png)
+
+1. 瀏覽至&#x200B;**設定檔**&#x200B;功能表，並篩選已購買的設定檔。
+
+   ![集合清單建立](assets/schemas-collection3.png)
+
+1. 按一下設定檔。 您會注意到新標籤隨即顯示。 您可以視需要新增更多欄。
+
+   ![集合清單建立](assets/schemas-collection4.png)

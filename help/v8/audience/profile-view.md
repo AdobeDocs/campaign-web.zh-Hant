@@ -2,10 +2,10 @@
 title: 探索輪廓的詳細資料
 description: 瞭解如何探索設定檔的詳細資訊。
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 8%
+source-wordcount: '246'
+ht-degree: 7%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 8%
 * **[!UICONTROL 訂閱]**&#x200B;索引標籤可讓insight使用設定檔訂閱的服務。 [進一步瞭解訂閱服務](manage-services.md)
 
   ![熒幕擷圖顯示「訂閱」標籤，列出設定檔訂閱的服務。](assets/profile-subscriptions.png){zoomable="yes"}
+
+* 您可以在收件者綱要的畫面定義中定義集合連結，以顯示自訂標籤，例如購買。 [進一步瞭解集合連結](../administration/schemas.md#collection-lists)
+
+  ![熒幕擷圖顯示自訂標籤](assets/schemas-collection4.png){zoomable="yes"}
 
 * 此外，位於畫面右上角的&#x200B;**[!UICONTROL 記錄]**&#x200B;按鈕可讓您透過傳送、排除和追蹤記錄來檢視設定檔互動的歷史記錄。 [進一步瞭解傳遞記錄](../monitor/delivery-logs.md)
 

@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 38%
+source-wordcount: '486'
+ht-degree: 36%
 
 ---
 
@@ -35,11 +35,13 @@ ht-degree: 38%
 
 ![傳遞詳細資訊畫面，顯示引數和報告](assets/delivery-details.png)
 
->[!NOTE]
->
->如果您開啟在使用者端主控台中建立的傳遞，可能會針對對象顯示&#x200B;**[!UICONTROL 其他目標]**&#x200B;區段。 這表示已為此傳遞設定多個目標。 這些引數只能在主控台中修改。
->
->![有關其他目標組態的警告訊息](assets/target-warning-audience.png){zoomable="yes"}
+如果您開啟在使用者端主控台中建立的傳送，可能會針對對象顯示兩個新區段。 這些引數只能在主控台中修改。
+
+* **[!UICONTROL 其他目標]**：表示已為此傳遞設定多個目標。
+
+* **[!UICONTROL 其他校訂目標]**：表示已針對此傳遞中的校訂目標定義動態條件。
+
+![有關其他目標組態的警告訊息](assets/target-warning-audience.png){zoomable="yes"}
 
 ## 複製傳遞 {#delivery-duplicate}
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 0%
+source-wordcount: '1623'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 0%
 
 此頁面旨在讓您的內容可供所有收件者存取，以確保身心障礙人士可以閱讀、理解並互動您使用[!DNL Adobe Campaign]設計的電子郵件和登入頁面。
  
-
 ## 確保文字可讀性 {#text-readability}
 
 運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 [了解更多](content-components.md#text)
@@ -137,19 +136,17 @@ ht-degree: 0%
 
 ## 使用深色模式 {#dark-mode}
 
-在深色模式中設計內容的最佳實務中，請使用透明的PNG或SVG、設定適當的中繼標籤和CSS，並在不支援深色模式時提供可存取的遞補樣式。
+深色模式可增強對光線敏感度或視覺障礙的使用者的視覺協助功能，進而改善觀看體驗。
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED
-
-Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
+電子郵件Designer可讓您切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;檢視，並定義支援電子郵件使用者端顯示的特定自訂設定。 [了解更多](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
-Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
+在深色模式中設計內容的最佳實務中，請使用透明的PNG或SVG、設定適當的中繼標籤和CSS，並在不支援深色模式時提供可存取的遞補樣式。 最後，透過在淺色和深色模式下測試所有電子郵件內容和UI元素，確保您的電子郵件在深色模式下正確呈現。
 
-Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices).
+[本節](dark-mode.md#best-practices)列出深色模式的詳細最佳實務，包括確保協助工具的准則。
 
-KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## 針對協助工具使用特定屬性 {#attributes}
 

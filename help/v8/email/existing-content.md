@@ -3,7 +3,7 @@ audience: end-user
 title: 匯入您的電子郵件內容
 description: 了解如何匯入電子郵件內容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 29%
@@ -46,9 +46,9 @@ ht-degree: 29%
 
    ![熒幕擷圖顯示HTML轉換器索引標籤與轉換按鈕。](assets/html-imported-2.png){zoomable="yes"}
 
->[!NOTE]
->
->在HTML檔案中使用`<table>`標籤做為第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
+   >[!NOTE]
+   >
+   >在HTML檔案中使用`<table>`標籤做為第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
 
 1. 使用電子郵件Designer功能，視需要個人化您匯入的檔案。 [了解更多](content-components.md)
 
@@ -56,4 +56,4 @@ ht-degree: 29%
 
 瞭解如何透過上傳HTML建立電子郵件、使其與電子郵件Designer相容，並將其轉換為範本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447043/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
