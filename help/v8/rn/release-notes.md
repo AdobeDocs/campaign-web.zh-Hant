@@ -2,7 +2,7 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 64%
@@ -22,7 +22,7 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 ## 2025年10月發行 {#25-10-updates}
 
-_2025 年 10 月 28 日_
+_2025年11月3日_
 
 <table>
 <thead>

@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
+source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 91%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 100%
 >[!BEGINTABS]
 
 
->[!TAB 2025 年 9 月版]
+>[!TAB 2025年10月發行版本]
 
-9 月版已上線。Campaign Web 使用者介面中現在提供新功能和增強功能，包括 API 傳遞的自訂管道、外部帳戶製作和電子郵件內容鎖定。如需完整概觀，請參閱發行說明。
+10月版本已上線。 Campaign Web使用者介面現在提供新功能和增強功能，包括異動訊息、推播通知和SMS的多語言功能、與Adobe GenStudio的整合以及異動訊息中的設定檔擴充。 如需完整概觀，請參閱發行說明。
 
 [![了解更多按鈕](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
