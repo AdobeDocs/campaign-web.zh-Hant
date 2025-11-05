@@ -3,7 +3,7 @@ audience: end-user
 title: 建立客群
 description: 瞭解如何在Adobe Campaign Web中建立對象
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 2890e5b19cb9b668f3f429cf60dbfd98278b3649
+source-git-commit: ba7ba504a8ea62ad6ecea65f9b93ee5848077201
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 13%
@@ -108,4 +108,4 @@ Campaign Web可讓您在視覺化工作流程畫布中建立新對象。 除了�
 
 瞭解如何建立和管理對象、如何選取傳送對象以及定義控制群組。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453213?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
