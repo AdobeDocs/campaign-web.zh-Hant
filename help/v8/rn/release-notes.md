@@ -2,7 +2,7 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
+source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 64%
@@ -88,7 +88,7 @@ _2025年11月3日_
 <tr>
 <td>
 <p>電子郵件Designer現在提供切換到深色模式檢視的功能，您可以在此處額外定義特定自訂設定。 請注意，最終呈現取決於收件者的電子郵件使用者端，而且並非所有電子郵件使用者端都支援深色模式。</p>
-<p>如需詳細資訊，請參閱<a href="../email/accessible-content.md#dark-mode">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/dark-mode.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
