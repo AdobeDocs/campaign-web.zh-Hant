@@ -2,7 +2,7 @@
 title: 使用預先定義的篩選器
 description: 了解如何在 Adobe Campaign Web 中建立和管理預先定義的篩選器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: a12ddf56a72e62ec8f4d668f686672dcdc195a09
+source-git-commit: f2a3bb0ba95466d9574cab2915980d4fad3c328b
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
@@ -87,7 +87,7 @@ ht-degree: 100%
 
 將篩選器另存為最愛後，所有使用者都可以在篩選器建立清單的&#x200B;**最愛篩選器**&#x200B;區段中使用該篩選器，如下所示：
 
-![最愛篩選器區段](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
+![最愛篩選器區段](assets/predefined-filters-favorite.png){zoomable="yes"}
 
 ## 使用預先定義的篩選器 {#use-predefined-filter}
 
