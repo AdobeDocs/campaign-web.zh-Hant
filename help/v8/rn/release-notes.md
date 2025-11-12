@@ -3,9 +3,9 @@ title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 頁面中列出了先前版本可用的變更和改進。
 
-## 2025年10月發行 {#25-10-updates}
+## 2025 年 10 月發行版本 {#25-10-updates}
 
-_2025年11月3日_
+_2025 年 11 月 3 日_
 
 <table>
 <thead>
@@ -65,13 +65,13 @@ _2025年11月3日_
 <table>
 <thead>
 <tr>
-<th><strong>與Adobe GenStudio整合</strong><br/></th>
+<th><strong>與 Adobe GenStudio 整合</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>為了提升行銷效率及維持品牌一致性，您現在可以將GenStudio for Performance Marketing體驗與Campaign緊密整合。 這可讓您運用GenStudio的AI支援內容建立作業以及Campaign的進階協調功能。<p>
+<p>您現在可以將 GenStudio for Performance Marketing 體驗與 Campaign 緊密整合，以便提高行銷效率及維持品牌一致性。藉由這樣的整合，您便可以搭配 Campaign 的進階協調功能，使用 GenStudio 由 AI 驅動的內容創作。<p>
 <p>如需詳細資訊，請參閱<a href="../integrations/genstudio.md">詳細說明文件</a>。</p>
 </td>
 </tr>
@@ -87,7 +87,7 @@ _2025年11月3日_
 <tbody>
 <tr>
 <td>
-<p>電子郵件Designer現在提供切換到深色模式檢視的功能，您可以在此處額外定義特定自訂設定。 請注意，最終呈現取決於收件者的電子郵件使用者端，而且並非所有電子郵件使用者端都支援深色模式。</p>
+<p>電子郵件設計工具現在可以切換成深色模式的視圖，而且您可以在這裡定義其他特定的自訂設定。請注意，最終轉譯的結果取決於收件者的電子郵件用戶端，而並非所有電子郵件用戶端都支援深色模式。</p>
 <p>如需詳細資訊，請參閱<a href="../email/dark-mode.md">詳細說明文件</a>。</p>
 </td>
 </tr>
@@ -112,13 +112,13 @@ _2025年11月3日_
 
 ### 功能改善 {#25-10-improvements}
 
-* 在使用者端主控台中建立的傳遞中，**對象**&#x200B;區段現在會指出是否已為校訂目標定義動態條件。<!-- [Learn more](../msg/gs-deliveries.md#access)-->
+* 在用戶端控制台所建立的傳遞中，**客群**&#x200B;區段現在會指出是否已經定義校訂目標的動態條件。<!-- [Learn more](../msg/gs-deliveries.md#access)-->
 
-* 您現在可以使用電子郵件Designer的條件式內容功能設定條件，在新的和舊版規則產生器之間切換。<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+* 現在，您使用電子郵件設計工具的條件式內容功能來設定條件時，可以在新版和舊版規則產生器之間切換。<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-* 您現在可以在收件者綱要的畫面定義中選取集合連結，例如購買。 這會透過專用索引標籤，在設定檔畫面上顯示相關資料。<!-- [Learn more](../administration/schemas.md#collection-lists)-->
+* 您現在可以在收件者結構描述的畫面定義中選取集合連結，例如購買。這樣做會透過專用的索引標籤，在輪廓畫面上顯示相關資料。<!-- [Learn more](../administration/schemas.md#collection-lists)-->
 
-* 身為Campaign管理員，您現在可以設定與Salesforce CRM和Microsoft Dynamics的連線。
+* 身為 Campaign 管理員，您現在可以設定與 Salesforce CRM 和 Microsoft Dynamics 的連線。
   [了解更多](../administration/external-crm.md)
 
 <!--
