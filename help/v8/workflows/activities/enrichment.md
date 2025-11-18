@@ -3,9 +3,9 @@ audience: end-user
 title: 使用「擴充」工作流程活動
 description: 了解如何使用「擴充」工作流程活動
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 29e8ad045155fc561b1645f91d4a980911bdf259
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2053'
 ht-degree: 35%
 
 ---
@@ -51,6 +51,13 @@ ht-degree: 35%
 >id="acw_orchestration_enrichment_data"
 >title="擴充活動"
 >abstract="將擴充資料新增到工作流程後，可以在後續活動中使用這些擴充資料並根據客戶的行為、偏好和需求將其分成不同群組，或是用於建立最有可能讓目標客群產生共鳴的個人化行銷訊息和行銷活動。"
+
+<!-- /NEO-92684 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_settings"
+>title="擴充設定"
+>abstract="擴充設定：目標維度、其他屬性和選項。"
 
 1. 按一下&#x200B;**新增擴充資料**，並選取要用於擴充的屬性。 [瞭解如何選取屬性並將其新增至我的最愛](../../get-started/attributes.md)。
 
@@ -168,7 +175,7 @@ ht-degree: 35%
 在工作流程中，如果您想要使用在傳送中從擴充活動取得的選件，請遵循下列步驟：
 
 1. 開啟傳送活動，然後前往內容版本。 按一下&#x200B;**[!UICONTROL 優惠方案設定]**&#x200B;按鈕，然後在下拉式清單中選取與您的優惠方案對應的&#x200B;**[!UICONTROL 優惠方案空間]**。
-如果您只想檢視擴充活動的優惠方案，請將&#x200B;**[!UICONTROL 建議]**&#x200B;的數目設為0，然後儲存修改。
+如果您只想檢視擴充活動的優惠方案，請將**[!UICONTROL 建議]**&#x200B;的數目設為0，然後儲存修改。
 
    ![](../assets/offers-settings.png)
 
