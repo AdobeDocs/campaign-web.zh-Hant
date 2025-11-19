@@ -46,4 +46,4 @@ ht-degree: 14%
 
 瞭解如何使用Campaign網頁使用者介面存取、管理和探索設定檔。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448375?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
