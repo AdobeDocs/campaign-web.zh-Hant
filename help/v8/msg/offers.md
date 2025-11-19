@@ -41,7 +41,7 @@ Adobe Campaign可讓您在互動期間提出一或多個特定優惠方案，即
 
 1. 設定應向收件者提出的產品建議。
 
-   首先，選取符合您優惠方案環境的&#x200B;**[!UICONTROL 優惠方案空間]**。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=zh-Hant){target="_blank"}中瞭解如何建立優惠方案空間。
+   首先，選取符合您優惠方案環境的&#x200B;**[!UICONTROL 優惠方案空間]**。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}中瞭解如何建立優惠方案空間。
 
    ![熒幕擷圖顯示優惠方案建立內容中的優惠方案空間選擇](assets/offer-create-content.png){zoomable="yes"}
 
@@ -101,7 +101,7 @@ Adobe Campaign可讓您在互動期間提出一或多個特定優惠方案，即
 
    >[!NOTE]
    >
-   >可用的主張數量取決於引擎呼叫的設定方式，而其順序則取決於優惠方案的優先順序。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+   >可用的主張數量取決於引擎呼叫的設定方式，而其順序則取決於優惠方案的優先順序。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}中進一步瞭解。
 
 1. 儲存您的變更。
 
