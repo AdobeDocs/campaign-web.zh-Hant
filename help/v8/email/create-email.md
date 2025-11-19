@@ -89,7 +89,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >清單中可用的對象源自您的Campaign v8執行個體，或若已在執行個體上設定目的地/Source整合，則來源為Adobe Experience Platform。 此整合可讓您將Experience Platform區段傳送至Adobe Campaign，並將Campaign傳送和追蹤記錄傳送至Adobe Experience Platform。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hant){target="_blank"}中瞭解如何使用Campaign和Adobe Experience Platform。
+   >清單中可用的對象源自您的Campaign v8執行個體，或若已在執行個體上設定目的地/Source整合，則來源為Adobe Experience Platform。 此整合可讓您將Experience Platform區段傳送至Adobe Campaign，並將Campaign傳送和追蹤記錄傳送至Adobe Experience Platform。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}中瞭解如何使用Campaign和Adobe Experience Platform。
 
 1. 選取客群後，您可以套用其他規則進一步調整目標。
 
@@ -252,4 +252,4 @@ ht-degree: 44%
 
 瞭解如何從草稿開始建立電子郵件傳遞、定義客群、設計內容、模擬預覽，以及傳送校訂。
 
->[!VIDEO](https://video.tv.adobe.com/v/3454016/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
