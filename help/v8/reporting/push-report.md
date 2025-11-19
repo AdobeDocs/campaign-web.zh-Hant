@@ -85,7 +85,7 @@ ht-degree: 32%
 >title="推播排除"
 >abstract="**「排除」**&#x200B;圖表和表格顯示多種原因，禁止從目標設定檔中排除的使用者設定檔接收訊息。"
 
-**[!UICONTROL 排除專案]**&#x200B;圖表和表格會顯示各種原因，導致從目標設定檔中排除的使用者設定檔無法接收訊息。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#push-error-types){_blank}中有詳細說明。
+**[!UICONTROL 排除專案]**&#x200B;圖表和表格會顯示各種原因，導致從目標設定檔中排除的使用者設定檔無法接收訊息。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}中有詳細說明。
 
 ![此熒幕擷圖顯示排除專案圖表和表格，這些圖表和表格會顯示排除的使用者設定檔無法接收訊息的原因。](assets/reporting_push_6.png){zoomable="yes"}
 
