@@ -99,7 +99,7 @@ ht-degree: 24%
 
 排除圖表和表格說明了從目標設定檔排除的使用者設定檔無法接收訊息的原因。
 
-電子郵件錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
+電子郵件錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#email-error-types){target="_blank"}中。
 
 ## 傳遞總處理能力 {#delivery-throughput}
 
@@ -133,7 +133,7 @@ ht-degree: 24%
 
 每個型別&#x200B;**[!UICONTROL 資料表與圖表的]**&#x200B;錯誤劃分會顯示與不同網域中可能發生的錯誤相關的資料，具體量度如下。
 
-此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
+此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hant){target="_blank"}。
 
 +++深入瞭解每個型別量度的錯誤劃分。
 
