@@ -110,4 +110,4 @@ ht-degree: 51%
 
 了解如何導覽電子郵件設計工具。瞭解如何從草稿開始架構和設計電子郵件、個人化並測試您的電子郵件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453576/?captions=chi_hant&quality=12)
