@@ -45,4 +45,4 @@ ht-degree: 26%
 
    ![](assets/email_body_settings.png){width="70%"}
 
-1. 按一下[儲存]確認您的變更。****
+1. 按一下[儲存]確認您的變更。**&#x200B;**
