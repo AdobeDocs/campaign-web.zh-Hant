@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 43%
+source-wordcount: '548'
+ht-degree: 29%
 
 ---
 
@@ -60,3 +60,29 @@ ht-degree: 43%
   使用&#x200B;**[!UICONTROL 其他URL引數]**&#x200B;功能表，建立其他引數做為機碼值組及其適用性條件。 每個引數名稱必須是唯一的且非空白，而且每個引數值都必須非空白。 適用性條件可以為空白，但這些值都不能包含JST標籤。
 
   這些引數將套用至與&#x200B;**[!UICONTROL 網域名稱清單]**&#x200B;中指定的任何網域名稱相符的追蹤URL，其中可包含規則運算式。
+
+  **範例：**&#x200B;當為該網域設定其他引數`https://www.example.com`和`https://www.example.com/?age=21&deliveryName=DM101`時，類似`age=21`的追蹤URL將變成`deliveryName=DM101`。
+
+## 設定異動訊息的品牌 {#branding-transactional-config}
+
+>[!IMPORTANT]
+>
+>本節僅適用於異動訊息（訊息中心）。
+>
+>雖然Campaign Web UI提供交易功能，但必須在Campaign v8使用者端主控台（控制執行個體）中執行下列步驟。
+
+如果您正在使用交易式訊息（訊息中心）與品牌，則需要額外設定。
+
+### 即時執行個體的追蹤公式
+
+在即時(RT)控制執行個體上啟用品牌化時，會使用特定的追蹤選項來管理追蹤公式。 這些公式是在RT Control執行個體上集中設定，而不是在每個RT Execution執行個體上個別設定。
+
+下列選項會定義RT傳送使用的追蹤公式：
+
+* **`NmsTracking_RT_ClickFormula`**：指定在RT執行個體上用於點選追蹤的公式
+
+* **`NmsTracking_RT_OpenFormula`**：指定用於在RT執行個體上開啟追蹤的公式
+
+如果您的實作需要交易式訊息的自訂追蹤公式，請使用下列選項：
+
+* **`Branding_RT_ListXtkOptions_toPublish`**：在這裡列出自訂公式的XTK選項名稱（以逗號分隔）。 這可確保RT傳送可套用自訂追蹤公式。

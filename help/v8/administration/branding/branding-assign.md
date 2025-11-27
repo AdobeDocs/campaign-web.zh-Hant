@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 14%
+source-wordcount: '651'
+ht-degree: 13%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 14%
 
 >[!TAB Adobe Campaign V8]
 
-若要建立傳遞範本，您可以複製內建範本、將現有傳遞轉換為範本或從頭開始建立傳遞範本。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=zh-Hant)
+若要建立傳遞範本，您可以複製內建範本、將現有傳遞轉換為範本或從頭開始建立傳遞範本。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 建立範本後，您就可以將其連結至品牌。操作步驟：
 
@@ -125,7 +125,10 @@ ht-degree: 14%
 
 1. 進一步個人化您的傳遞。 如需建立電子郵件的詳細資訊，請參閱[設計和傳送電子郵件](../../email/create-email.md)區段。
 
+1. 您也可以使用個人化欄位來新增品牌資訊。 導覽至&#x200B;**[!UICONTROL 品牌]**，並選取您要插入的品牌相關個人化區塊（例如品牌名稱、標誌URL、網站URL、寄件者資訊等）。
+
 >[!ENDTABS]
+
 
 ## 檢查與異動訊息關聯的品牌 {#check-branding-transactional}
 
