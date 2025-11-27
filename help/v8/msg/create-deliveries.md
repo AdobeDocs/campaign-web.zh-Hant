@@ -6,14 +6,21 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 54%
+source-wordcount: '939'
+ht-degree: 53%
 
 ---
 
 # 建立傳遞 {#create-delivery}
+
+<!-- /NEO-92684 / DOCAC-13767-->
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_profile_enrichment_settings"
+>title="啟用輪廓擴充"
+>abstract="選取設定檔擴充的欄位。"
 
 您可以從「**[!UICONTROL 傳遞]**」左側選單建立獨立的傳遞，或在工作流程的內容中建立傳遞，無論是否在行銷活動之內。
 
