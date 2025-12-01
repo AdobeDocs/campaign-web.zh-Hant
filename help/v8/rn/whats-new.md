@@ -3,7 +3,7 @@ audience: end-user
 title: Campaign Web 使用者介面有哪些新增功能？
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 100%
@@ -78,7 +78,7 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 
 透過我們進階的「所見即所得」拖放編輯器來重新定義內容傳遞，此編輯器是專為實現簡單和高效所設計。這款全方位工具內含順暢的 AEM 整合、動態內容功能及革新的 AI 助理，讓您直覺、高效且高度個人化地建立傳遞。
 
-利用 AI 助理進階演算法的強大功能，製作引人入勝的自訂內容，進而推動成果。透過 AI 驅動的智慧內容產生，提高開啟率、點進率和轉換率。若要了解詳細資訊，請參閱[本章節](../email/generative-gs.md)。
+利用 AI 助理進階演算法的強大功能，製作引人入勝的自訂內容，進而推動成果。透過 AI 驅動的智慧內容產生，提高開啟率、點進率和轉換率。若要了解詳細資訊，請參閱[本章節](../content/generative-gs.md)。
 
 **全新及重新設計的行銷活動工作流程活動**
 
