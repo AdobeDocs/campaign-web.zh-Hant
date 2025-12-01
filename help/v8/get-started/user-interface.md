@@ -7,9 +7,9 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1525'
 ht-degree: 100%
 
 ---
@@ -165,3 +165,12 @@ Campaign 首頁讓您能夠快速輕鬆地瀏覽關鍵資源、指標和元件�
 ## 了解更多 {#learn-more}
 
 了解如何瀏覽、搜尋和篩選 Campaign 環境中的可用清單 ([在此頁面](list-filters.md))。
+
+
+
+<!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_notification"
+>title="持續傳遞"
+>abstract="持續傳遞"
