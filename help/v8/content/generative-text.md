@@ -2,9 +2,9 @@
 audience: end-user
 title: 產生式內容
 description: 瞭解如何使用AI助理產生文字內容體驗
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1441'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ AI助理可以為您的電子郵件傳遞和登陸頁面產生高品質的文字
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#refine-finalize}
 
@@ -113,8 +113,6 @@ AI Assistant可以為您的推播通知和SMS訊息產生引人入勝的文字�
    * **推播通知**：建立並設定您的推播通知傳遞後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../push/create-push.md)
    * **簡訊**：建立並設定您的簡訊傳遞後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../sms/create-sms.md)
 
-1. 填寫傳遞的&#x200B;**[!UICONTROL 基本詳細資料]**。 完成後，按一下&#x200B;**[!UICONTROL 編輯內容]**。
-
 1. 視需要個人化您的訊息：
    * **推播通知**： [深入瞭解](../push/content-push.md)
    * **簡訊**： [深入瞭解](../sms/content-sms.md)
@@ -150,7 +148,7 @@ AI Assistant可以為您的推播通知和SMS訊息產生引人入勝的文字�
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#mobile-refine-finalize}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 管理品牌
 description: 瞭解如何建立和管理您的品牌指引
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 1%
@@ -18,9 +18,7 @@ ht-degree: 1%
 
 ## 存取品牌 {#generative-access}
 
-若要存取&#x200B;**[!UICONTROL 中的]**&#x200B;品牌[!DNL Adobe Campaign Web]功能表，必須指派使用者&#x200B;**[!UICONTROL 管理員（管理員）]**&#x200B;和&#x200B;**[!UICONTROL 品牌套件]**&#x200B;產品設定檔，才能建立和管理品牌。 若為唯讀存取，使用者需要[!UICONTROL AI助理]產品設定檔。
-
-[了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+若要存取&#x200B;**[!UICONTROL 中的]**&#x200B;品牌[!DNL Adobe Campaign Web]功能表，必須指派使用者&#x200B;**[!UICONTROL 管理員（管理員）]**&#x200B;和&#x200B;**[!UICONTROL 品牌套件]**&#x200B;產品設定檔，才能建立和管理品牌。 若為唯讀存取，使用者需要[!UICONTROL AI助理]產品設定檔。 [了解更多](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ 瞭解如何指派品牌相關許可權
 
@@ -38,7 +36,7 @@ ht-degree: 1%
 
 1. 輸入您的使用者名稱、使用者群組或電子郵件地址。
 
-1. 按一下[儲存]以套用變更。**&#x200B;**
+1. 按一下[儲存]以套用變更。****
 
 已指派給此角色的使用者會自動更新其許可權。
 
@@ -72,7 +70,7 @@ ht-degree: 1%
 
 1. 設定之後，按一下&#x200B;**[!UICONTROL 儲存]**，然後按一下&#x200B;**[!UICONTROL 發佈]**，讓您的品牌指引可在AI助理中取得。
 
-1. 若要修改您發佈的品牌，請按一下[編輯品牌]。**&#x200B;**
+1. 若要修改您發佈的品牌，請按一下[編輯品牌]。****
 
    >[!NOTE]
    >
@@ -253,7 +251,7 @@ ht-degree: 1%
 
    ![](assets/brands-16.png)
 
-1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。**&#x200B;**
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
 1. 如有需要，請選取其中一個准則或排除專案來更新或刪除。
 
 1. 按一下![Dive image alt text](assets/do-not-localize/Smock_Edit_18_N.svg "Edit")以編輯您的範例，或按一下![潛水影像替代文字](assets/do-not-localize/Smock_Delete_18_N.svg "刪除")圖示以刪除範例。
@@ -319,7 +317,7 @@ ht-degree: 1%
 
      ![新增使用內容](assets/brands-17.png)
 
-1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。**&#x200B;**
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
 
 1. 若要新增顯示正確使用方式的影像，請選取&#x200B;**[!UICONTROL 範例]**，然後按一下&#x200B;**[!UICONTROL 選取影像]**。 您也可以新增使用方式不正確的影像，作為排除範例。
 

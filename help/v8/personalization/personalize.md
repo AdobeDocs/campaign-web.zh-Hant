@@ -3,10 +3,11 @@ title: 在 Campaign 中個人化您的內容
 description: 瞭解如何在Adobe Campaign網頁中個人化您的內容
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+old-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 4%
@@ -28,7 +29,7 @@ ht-degree: 4%
 
 ## 使用個人化設定檔資料 {#data-personalization}
 
-您可使用運算式編輯器以設定檔資料個人化任何傳遞，該編輯器可使用&#x200B;**[!UICONTROL 開啟個人化對話方塊]**&#x200B;圖示的欄位進行存取，例如主旨列、電子郵件連結和文字/按鈕內容元件。 [瞭解如何存取運算式編輯器](gs-personalization.md/#access)。
+您可使用運算式編輯器以設定檔資料個人化任何傳遞，該編輯器可使用&#x200B;**[!UICONTROL 開啟個人化對話方塊]**&#x200B;圖示的欄位進行存取，例如主旨列、電子郵件連結和文字/按鈕內容元件。 [瞭解如何存取運算式編輯器](gs-personalization.md#access)。
 
 ### Personalization語法 {#syntax}
 
@@ -42,7 +43,7 @@ Personalization標籤遵循特定語法： `<%= table.field %>`。 例如，若�
 
 若要將個人化標籤新增至傳遞，請遵循下列步驟：
 
-1. 使用&#x200B;**[!UICONTROL 開啟個人化對話方塊]**&#x200B;圖示開啟運算式編輯器，可從文字型別編輯欄位（例如主旨行或簡訊內文）存取。 [瞭解如何存取運算式編輯器](gs-personalization.md/#access)。
+1. 使用&#x200B;**[!UICONTROL 開啟個人化對話方塊]**&#x200B;圖示開啟運算式編輯器，可從文字型別編輯欄位（例如主旨行或簡訊內文）存取。 [瞭解如何存取運算式編輯器](gs-personalization.md#access)。
 
    ![顯示如何存取個人化對話方塊的熒幕擷圖](assets/perso-access.png){zoomable="yes"}{width="800" align="center"}
 
