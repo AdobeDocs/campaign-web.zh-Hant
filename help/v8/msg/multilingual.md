@@ -16,7 +16,7 @@ ht-degree: 7%
 >title="新增語言"
 >abstract="在此索引標籤中，您將找到要用來傳遞內容的語言清單。您可以按一下「新增語言」按鈕，或透過此索引標籤複製其他語言來新增更多語言。"
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id=&quot;acw_multilingual_file_upload&quot;
 >title=&quot;匯入語言變體&quot;
 >abstract=&quot;使用此對話方塊可透過匯入CSV檔案來新增語言變體。 檔案會自動填入所選語言的所有可用欄位。 您可以在確認之前拖放檔案或從電腦中選擇檔案。」
