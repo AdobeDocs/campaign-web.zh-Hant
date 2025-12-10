@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 98%
       + [傳遞提醒條件](msg/delivery-alerting-criteria.md)
 + 內容管理 {#content}
    + 建立動態內容 {#dynamic-content}
-      + [如何製作動態內容？ &#x200B;](personalization/gs-personalization.md)
+      + [如何製作動態內容？ ](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
       + [建立條件內容](personalization/conditions.md)
    + 重複使用內容 {#manage-reusable-content}
@@ -130,10 +130,10 @@ ht-degree: 98%
       + [建立可存取內容](email/accessible-content.md)
    + AI 助理 {#ai-assistant}
       + [使用 AI 助理](content/generative-gs.md)
-      + [AI提示最佳實務](content/ai-assistant-prompting-guide.md)
-      + [使用AI產生完整內容](content/generative-full-content.md)
-      + [使用人工智慧產生文字](content/generative-text.md)
-      + [使用AI產生影像](content/generative-image.md)
+      + [AI 提示最佳做法](content/ai-assistant-prompting-guide.md)
+      + [運用 AI 產生完整內容](content/generative-full-content.md)
+      + [運用 AI 產生文字](content/generative-text.md)
+      + [運用 AI 產生影像](content/generative-image.md)
       + [AI 助理使用案例](content/generative-uc.md)
       + 品牌 {#ai-assistant}
          + [建立和管理您的品牌](content/brands.md)
@@ -222,8 +222,8 @@ ht-degree: 98%
       + [匯出您的報告](reporting/export-reports.md)
       + 傳遞報告 {#delivery-report}
          + [開始使用傳遞報告](reporting/delivery-reports.md)
-         + [以電子郵件寄送傳遞報告 &#x200B;](reporting/email-report.md)
-         + [推播傳遞報告 &#x200B;](reporting/push-report.md)
+         + [以電子郵件寄送傳遞報告 ](reporting/email-report.md)
+         + [推播傳遞報告 ](reporting/push-report.md)
          + [以簡訊傳送傳遞報告](reporting/sms-report.md)
          + [外部傳遞報告](reporting/direct-mail.md)
       + 行銷活動報告 {#campaign-report}

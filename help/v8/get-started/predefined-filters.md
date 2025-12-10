@@ -3,9 +3,9 @@ title: 使用預先定義的篩選器
 description: 了解如何在 Adobe Campaign Web 中建立和管理預先定義的篩選器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-select"
 >title="儲存篩選器"
->abstract="選取現有的預先定義篩選。 預先定義的篩選器是建立並儲存供將來使用的自訂篩選器。在使用查詢建模器進行篩選操作時，這些篩選器可用作捷徑。例如，在篩選資料清單或建立傳遞的客群時可以使用這些篩選器。"
+>abstract="選取現有之預先定義的篩選器。預先定義的篩選器是建立並儲存供將來使用的自訂篩選器。在使用查詢建模器進行篩選操作時，這些篩選器可用作捷徑。例如，在篩選資料清單或建立傳遞的客群時可以使用這些篩選器。"
 
 預先定義的篩選器是建立並儲存供將來使用的自訂篩選器。在使用查詢建模器進行篩選操作時，這些篩選器可用作捷徑。例如，在篩選資料清單或建立傳遞的客群時可以使用這些篩選器。
 
@@ -52,7 +52,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-save"
 >title="儲存篩選器"
->abstract="此畫面可讓您將規則儲存為預先定義的篩選器。 您可以建立新的預先定義篩選器，或覆寫現有的篩選器。 若要將篩選器儲存為最愛，請開啟&#x200B;**[!UICONTROL 最愛篩選器]**&#x200B;選項。 您也可以啟用&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;選項，讓其他使用者可以存取該篩選器。"
+>abstract="您可以透過此畫面將規則儲存為預先定義的篩選器。您可以建立一個新的預先定義的篩選器，或覆寫現有的篩選器。若要將篩選器另存為最愛，請切換開啟「**[!UICONTROL 最愛篩選器]**」選項。您也可以啟用「**[!UICONTROL 共用篩選器]**」選項，讓其他使用者可以存取該篩選器。"
 
 ### 從查詢建模工具建立篩選器 {#create-from-rule-builder}
 
