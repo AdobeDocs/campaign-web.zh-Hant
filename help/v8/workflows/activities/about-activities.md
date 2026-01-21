@@ -3,10 +3,10 @@ audience: end-user
 title: '使用工作流程活動 '
 description: 了解如何使用工作流程活動
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 21%
+source-wordcount: '562'
+ht-degree: 20%
 
 ---
 
@@ -58,6 +58,11 @@ Adobe Campaign Web可讓您跨多個管道自動執行行銷活動。 將管道�
 >id="acw_orchestration_end"
 >title="結束活動"
 >abstract="「**結束**」活動可讓您以圖形方式標記工作流程的終點。此活動並不會造成任何功能性影響，因此為選用。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_signal"
+>title="外部訊號"
+>abstract="結束活動引數中外部訊號區段的預留位置。 僅適用於協調的行銷活動。 不要DELETE"
 
 下列活動僅限於整理和執行工作流程。這些活動的主要任務是協調其他活動：
 
