@@ -4,7 +4,7 @@ title: 用於建立工作流程的主要原則
 description: 了解使用 Adobe Campaign Web 的關鍵工作流程原則
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
 ht-degree: 100%
 

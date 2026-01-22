@@ -4,7 +4,7 @@ title: 從 Campaign Standard 轉換到 Adobe Campaign Web
 description: 探索 Campaign Web 使用者介面
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
 ht-degree: 100%
 
@@ -31,15 +31,15 @@ Campaign v8 使用者可以存取新的 Campaign Web 介面以及 v8 主控台�
 
 Campaign Web 使用者介面專為行銷人員所設計，能用於輕鬆建置和協調其行銷活動。Campaign v8 Web 使用者介面的主要功能包括：
 
-* **現代化、易用且統一的體驗**。[了解更多](../get-started/connect-to-campaign.md)。
-* **全新的強大功能和順暢流程**。[了解更多](../get-started/user-interface.md)。
-* **易用的簡化版查詢建模工具**。[了解更多](../query/query-modeler-overview.md)。
-* **內建的跨管道行銷活動管理功能**。[了解更多](../msg/gs-messages.md)。
-* **重新設計的行銷活動工作流程活動**。[了解更多](../workflows/gs-workflows.md)。
-* **輕鬆建立和管理輪廓**。[了解更多](../audience/about-recipients.md)。
-* **預先定義的篩選器**。[了解更多](../get-started/predefined-filters.md)。
-* **用於電子郵件設計的 HTML 轉換器**。[了解更多](../email/existing-content.md)。
-* **提供產品建議的簡訊**。[了解更多](../msg/offers.md)。
+* **現代化、易用且統一的體驗**。[了解更多資訊](../get-started/connect-to-campaign.md)。
+* **全新的強大功能和順暢流程**。[了解更多資訊](../get-started/user-interface.md)。
+* **易用的簡化版查詢建模工具**。[了解更多資訊](../query/query-modeler-overview.md)。
+* **內建的跨管道行銷活動管理功能**。[了解更多資訊](../msg/gs-messages.md)。
+* **重新設計的行銷活動工作流程活動**。[了解更多資訊](../workflows/gs-workflows.md)。
+* **輕鬆建立和管理輪廓**。[了解更多資訊](../audience/about-recipients.md)。
+* **預先定義的篩選器**。[了解更多資訊](../get-started/predefined-filters.md)。
+* **用於電子郵件設計的 HTML 轉換器**。[了解更多資訊](../email/existing-content.md)。
+* **提供產品建議的簡訊**。[了解更多資訊](../msg/offers.md)。
 
 Campaign 用戶端主控台專為管理員和開發人員所設計，能用於設定及自訂其環境。關於 Campaign 用戶端主控台中可使用之主要功能的詳細資訊，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/new/whats-new){target="_blank"}。
 
@@ -70,17 +70,17 @@ Campaign v8 和 Campaign Standard 之間大多數概念相似。但是，在術�
 
 ## 特定功能 {#new-features}
 
-為確保能順暢轉換到 Campaign v8，Campaign Standard 的主要功能已新增至 Campaign v8 中。這些功能在[此文件](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hant){target=&quot;_blank}中有詳細介紹，並且僅適用於從 Campaign Standard 轉換的使用者。
+為確保能順暢轉換到 Campaign v8，Campaign Standard 的主要功能已新增至 Campaign v8 中。這些功能在[此文件](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target=&quot;_blank}中有詳細介紹，並且僅適用於從 Campaign Standard 轉換的使用者。
 
-* **動態報告**：動態報告提供可自訂的即時報告，方便衡量行銷活動的影響。動態報告亦可以存取輪廓資料，以便按照維度 (例如性別、城市和年齡) 以及功能性電子郵件行銷活動資料 (例如開啟和點按次數)，進行人口統計分析。[了解更多](../reporting/dynamic-reporting/get-started-reporting.md)。
+* **動態報告**：動態報告提供可自訂的即時報告，方便衡量行銷活動的影響。動態報告亦可以存取輪廓資料，以便按照維度 (例如性別、城市和年齡) 以及功能性電子郵件行銷活動資料 (例如開啟和點按次數)，進行人口統計分析。[了解更多資訊](../reporting/dynamic-reporting/get-started-reporting.md)。
 
-* **集中品牌化**：各家公司可以利用 Adobe Campaign 定義品牌視覺化與技術準則。使用者可以向客戶呈現一致的品牌形象，包含標誌以及電子郵件發送者、URL 或網域等技術層面。[了解更多](../administration/branding/branding-gs.md)。
+* **集中品牌化**：各家公司可以利用 Adobe Campaign 定義品牌視覺化與技術準則。使用者可以向客戶呈現一致的品牌形象，包含標誌以及電子郵件發送者、URL 或網域等技術層面。[了解更多資訊](../administration/branding/branding-gs.md)。
 
-* **REST API**：從 Campaign Standard 移轉的使用者，可以透過 REST API 為 Adobe Campaign 建立整合，以及將 Adobe Campaign 與其他技術進行連結來建置生態系統。[了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant){target="_blank"}。
+* **REST API**：從 Campaign Standard 移轉的使用者，可以透過 REST API 為 Adobe Campaign 建立整合，以及將 Adobe Campaign 與其他技術進行連結來建置生態系統。[了解更多資訊](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}。
 
 * **登陸頁面**：Campaign v8 登陸頁面已有改進，確保功能與 Campaign Standard 相同。請參閱[發行說明](../rn/release-notes.md#new-24-4)和登陸頁面[文件](../landing-pages/get-started-lp.md)以了解更多資訊。
 
-* **視覺片段**：視覺片段為在一或多個電子郵件傳遞或者內容範本中參照的可重複使用視覺元件。修改片段會更新使用該片段的所有內容。透過改進過的設計流程，行銷使用者可以利用這項功能預先建置多個自訂的內容區塊，以便快速組裝訊息內容。[了解更多](../content/use-visual-fragments.md)。
+* **視覺片段**：視覺片段為在一或多個電子郵件傳遞或者內容範本中參照的可重複使用視覺元件。修改片段會更新使用該片段的所有內容。透過改進過的設計流程，行銷使用者可以利用這項功能預先建置多個自訂的內容區塊，以便快速組裝訊息內容。[了解更多資訊](../content/use-visual-fragments.md)。
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 

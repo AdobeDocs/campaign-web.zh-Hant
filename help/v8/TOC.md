@@ -21,8 +21,8 @@ ht-degree: 100%
    + [早期發行版](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
    + 先前版本 {#previous-release-notes}
-      + [2025 年版本](rn/release-notes-25.md)
-      + [2024 年版本](rn/release-notes-24.md)
+      + [2025 版本](rn/release-notes-25.md)
+      + [2024 版本](rn/release-notes-24.md)
    + [文件更新](rn/documentation-updates.md)
 + 開始使用 Adobe Campaign {#start}
    + [開始使用](get-started/get-started.md)
@@ -55,17 +55,17 @@ ht-degree: 100%
       + [建立推播通知傳遞](push/create-push.md)
       + 豐富推播 {#rich-push}
          + [設計 Android 豐富的推播傳遞](push/rich-push.md)
-         + [設計 iOS 豐富推播傳遞](push/rich-push-ios.md)
+         + [設計 iOS 豐富的推播傳遞](push/rich-push-ios.md)
       + [設計推播傳遞](push/content-push.md)
       + [預覽並傳送推播傳遞](push/send-push.md)
    + 簡訊 {#sms}
       + [開始使用簡訊傳遞](sms/gs-sms.md)
-      + [建立簡訊傳遞](sms/create-sms.md)
+      + [建立簡訊傳送](sms/create-sms.md)
       + [設計簡訊傳遞](sms/content-sms.md)
       + [預覽並傳送簡訊傳遞](sms/send-sms.md)
    + 直接郵件 {#direct-mail}
       + [開始使用直接郵件傳遞](direct-mail/gs-direct-mail.md)
-      + [建立新的直接郵件傳遞](direct-mail/create-direct-mail.md)
+      + [建立直接郵件傳遞](direct-mail/create-direct-mail.md)
       + [設計摘取檔案](direct-mail/content-direct-mail.md)
       + [預覽並發送直接郵件傳遞](direct-mail/send-direct-mail.md)
    + 呼叫中心 {#call-center}
@@ -73,7 +73,7 @@ ht-degree: 100%
       + [建立和傳送呼叫中心傳遞](call-center/create-call-center.md)
    + [自訂管道](call-center/gs-custom-channel.md)
    + 交易型訊息 {#transactional-messages}
-      + [開始使用交易型訊息](transactional-messaging/transactional.md)
+      + [開始使用異動訊息](transactional-messaging/transactional.md)
       + [建立交易型訊息](transactional-messaging/create-transactional.md)
       + [驗證您的交易型訊息](transactional-messaging/validate-transactional.md)
       + [監視交易型訊息](transactional-messaging/monitor-transactional.md)
@@ -153,7 +153,7 @@ ht-degree: 100%
       + [探索輪廓的詳細資料](audience/profile-view.md)
       + [建立輪廓](audience/create-profile.md)
       + [使用測試輪廓](audience/test-profiles.md)
-   + 使用客群 {#audiences}
+   + 配合客群 {#audiences}
       + [開始使用客群](audience/manage-audience.md)
       + [建立客群](audience/create-audience.md)
    + 選取您的傳遞收件者 {#target-audiences}

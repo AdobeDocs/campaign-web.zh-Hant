@@ -32,7 +32,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以直接透過 Adobe Campaign Web 使用者介面設定和管理外部帳戶。這項新功能可讓您輕鬆設定不同類型的外部帳戶，例如退回電子郵件 (POP3) 或執行執行個體。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -49,14 +49,14 @@ ht-degree: 100%
 <tr>
 <td>
 <p>交易型訊息傳遞功能 (訊息中心) 目前可在 Campaign Web 使用者介面中使用。此附加元件專為觸發訊息而設計，訊息由資訊系統觸發的事件所產生，可以是：發票、訂單確認、出貨確認、密碼變更、產品無法提供的通知、帳戶對帳單、網站帳戶建立等。</p>
-<p>如需詳細資訊，請參閱<a href="../transactional-messaging/transactional.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../transactional-messaging/transactional.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### 功能改善
+### 功能改進
 
 * **工作流程活動** - 您現在可以在工作流程中，將活動及其所有子節點從一個轉變移到另一個轉變。在活動的屬性窗格中，有一個專用的&#x200B;**移動**&#x200B;按鈕可執行此操作。[了解更多](../workflows/orchestrate-activities.md#move)
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 <td>
 <p>在製作並自訂您的訊息後，請利用 Adobe Campaign Web 的 AI 助理，將訊息提升到新的水準。這款強大的工具可讓您產生一系列引人入勝的文字、主要標題和吸引人的視覺影像，以最佳化內容的影響力。</p>
 <p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。</a></p>
-<p>如需詳細資訊，請參閱<a href="../content/generative-gs.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content/generative-gs.md">詳細文件</a>以瞭解詳情。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>推出日期：9 月 12 日</p>
 </td>
@@ -111,18 +111,18 @@ ht-degree: 100%
 >
 >以下功能為限量開放 (LA) 版本。僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。
 >
->請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hant){target="_blank"}」。
+>請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}」。
 
-* **直接郵件的品牌化** - 技術管理員現在可以定義一或多個品牌，以集中管理影響品牌識別的參數。這包括品牌標誌、登陸頁面存取 URL 的網域，或訊息追蹤設定。您現在可以建立這些品牌，並將其連結到訊息或登陸頁面。此設定在範本中管理。 [了解更多](../administration/branding/branding-assign.md)
+* **直接郵件的品牌化** - 技術管理員現在可以定義一或多個品牌，以集中管理影響品牌識別的參數。這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。您現在可以建立這些品牌，並將其連結到訊息或登陸頁面。此設定在範本中管理。 [了解更多](../administration/branding/branding-assign.md)
 
-* **訂閱與登陸頁面** - 現在您可以將登陸頁面連結到服務，並在使用者驗證後發送確認訊息。[了解更多](../landing-pages/lp-content.md#lp-message){target="_blank"}。
+* **訂閱與登陸頁面** - 現在您可以將登陸頁面連結到服務，並在使用者驗證後發送確認訊息。[了解更多資訊](../landing-pages/lp-content.md#lp-message){target="_blank"}。
 
 * **視覺片段** - 您現在可以封存視覺內容片段。[了解更多](../content/create-fragment.md#archive)
 
 * **登陸頁面中的驗證碼** - 現在您可以新增驗證碼以保護您的登陸頁面，避免受機器人程式導致的垃圾訊息和濫用侵害。這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。[了解更多](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## 7 月發行說明 {#24-7-release}
@@ -158,7 +158,7 @@ ht-degree: 100%
 >
 >此功能需要更新到 Campaign v8.6.3 <!--or v8.7.2-->。若要了解更多資訊，請參閱 Campaign v8 用戶端主控台[發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
 
-### 功能改善 {#improvements-24-7}
+### 功能改進 {#improvements-24-7}
 
 **資料夾管理**  - 您現在可以管理資料夾的權限和限制。
 
@@ -173,7 +173,7 @@ ht-degree: 100%
 
 現在您可以建立計劃和專案來組織您的活動。透過定義資料夾階層，您可以將行銷活動組織成專案，並將專案組織成計劃。[閱讀更多](../administration/plans-programs.md)
 
-### 功能改善 {#improvements-24-6}
+### 功能改進 {#improvements-24-6}
 
 * **擴充活動中的調和**：**擴充**&#x200B;活動現在可用於調和 Campaign 資料庫結構描述中的資料與其他結構描述中的資料，或來自臨時結構描述的資料 (例如使用載入檔案活動上傳的資料)。例如，您可以使用此選項將上傳檔案中指定的輪廓所在國家/地區與 Campaign 資料庫專用表中可用的國家/地區之一進行調和。[閱讀更多](../workflows/activities/enrichment.md)
 
@@ -237,7 +237,7 @@ ht-degree: 100%
 
 **多媒體推播通知範本**
 
-現在您可以透過 Android 發送多媒體推播通知。多媒體推播通知是行動裝置通知的加強版，除了簡單的文字訊息，還可以加入多媒體元素，例如影像、互動式按鈕或其他多媒體內容。[閱讀更多](../push/rich-push.md)
+現在您可以透過 Android 發送多媒體推播通知。豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 [閱讀更多](../push/rich-push.md)
 
 請注意，此功能為&#x200B;**限量開放** (LA) 版本。
 
@@ -248,11 +248,11 @@ ht-degree: 100%
 >
 >以下功能為限量開放 (LA) 版本。僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。
 >
->請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hant)」。
+>請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html)」。
 
-* **品牌化** - 作為 Campaign Standard 移轉使用者，您的技術管理員現在可以定義一或多個品牌，以集中管理影響品牌識別的參數。這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 [閱讀更多](../administration/branding/branding-gs.md)
+* **品牌化** - 作為 Campaign Standard 移轉使用者，您的技術管理員現可定義一個或多個品牌，以便集中影響品牌識別的參數。 這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 [閱讀更多](../administration/branding/branding-gs.md)
 
-* **Rest API** - 作為 Campaign Standard 移轉使用者，您可使用 Rest API 來建立 Adobe Campaign 整合，並將 Adobe Campaign 與您使用的技術面板結合，以便建立您自己的生態系統。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant)
+* **Rest API** - 作為 Campaign Standard 移轉使用者，您可使用 Rest API 來建立 Adobe Campaign 整合，並將 Adobe Campaign 與您使用的技術面板結合，以便建立您自己的生態系統。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
 
 * **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。[閱讀更多](../reporting/dynamic-reporting/get-started-reporting.md)
 
@@ -281,7 +281,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->此版本適用於從 [Campaign (主控台) v8.6 發行版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant)開始的所有使用者。若要了解更多關於 Adobe Campaign 用戶端主控台發行版本和升級的內容，請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hant){target="_blank"}。
+>此版本適用於從 [Campaign (主控台) v8.6 發行版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html)開始的所有使用者。若要了解更多關於 Adobe Campaign 用戶端主控台發行版本和升級的內容，請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hant){target="_blank"}。
 
 **發行日期**：2024 年 3 月 19-20 日
 

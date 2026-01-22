@@ -29,7 +29,7 @@ _2025 年 9 月 23 日_
 <tr>
 <td>
 <p>您現在可以直接從 Adobe Campaign Web 使用者介面中，根據自訂 API 管道來協調和執行傳遞。這些傳遞可以是獨立的，也可以是工作流程的一部分。自訂 API 管道的設定是在控制台中執行。</p>
-<p>如需詳細資訊，請參閱<a href="../call-center/gs-custom-channel.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../call-center/gs-custom-channel.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -45,7 +45,7 @@ _2025 年 9 月 23 日_
 <tr>
 <td>
 <p>身為 Campaign 管理員，您現在可以從 Campaign Web 使用者介面中設定與外部系統的新連線。您也可以檢視、更新和管理現有的外部帳戶。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/create-external-account.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/create-external-account.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -61,7 +61,7 @@ _2025 年 9 月 23 日_
 <tr>
 <td>
 <p>Campaign 現在允許您透過鎖定整個範本或特定結構和元件，來鎖定電子郵件範本中的內容。這樣做可讓您避免無意間編輯或刪除內容，並更能掌控範本自訂，進而提高電子郵件行銷活動的效率和可靠性。</p>
-<p>如需詳細資訊，請參閱<a href="../content/content-locking.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content/content-locking.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -150,10 +150,10 @@ _2025 年 9 月 23 日_
 </table-->
 
 
-### 功能改善 {#25-9-improvements}
+### 功能改進 {#25-9-improvements}
 
 * 已新增一組新的運算子供電子郵件設計工具的條件式內容功能設定條件時使用。
-* 此篩選維度現在可在&#x200B;**建立客群**&#x200B;工作流程活動中使用。若要檢視或變更，請按一下目標選擇維度旁的圖示。[了解更多](../workflows/activities/build-audience.md#build-audience-configuration)。
+* 此篩選維度現在可在&#x200B;**建立客群**&#x200B;工作流程活動中使用。若要檢視或變更，請按一下目標選擇維度旁的圖示。[了解更多資訊](../workflows/activities/build-audience.md#build-audience-configuration)。
 <!--
 
 NEO-84915 Stop button for deliveries???? ->>> met pas, juste bouton ajouté dans webUI meme comportement que console. bleu, marche, marche pas.
@@ -190,7 +190,7 @@ query activity -> query ds workflow fitleting dimentsion
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -223,7 +223,7 @@ query activity -> query ds workflow fitleting dimentsion
 <tr>
 <td>
 <p>在設計電子郵件時，您現在可以在電子郵件設計工具中直接新增自己的自訂 CSS。此功能可讓您套用進階和特定的樣式，從而獲得更大的靈活性並控制內容的外觀。</p>
-<p>如需詳細資訊，請參閱<a href="../email/custom-css.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/custom-css.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -240,7 +240,7 @@ query activity -> query ds workflow fitleting dimentsion
 <td>
 <p>您現在可以建立和自訂自己的品牌，以在整個通訊過程中清楚地定義您的視覺和語言識別。透過品牌一致性分數，您可以收到即時回饋，以了解您的內容對您的品牌基調、風格和方針的反映程度，協助您在傳送的每則訊息中始終保持一致的品牌形象。
 </p>
-<p>如需詳細資訊，請參閱<a href="../content/brands.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content/brands.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -256,7 +256,7 @@ query activity -> query ds workflow fitleting dimentsion
 <tr>
 <td>
 <p>「傳送警報」功能是警報管理系統，可讓一組使用者自動接收包含其傳送執行資訊的通知。</p>
-<p>如需詳細資訊，請參閱<a href="../msg/delivery-alerting.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../msg/delivery-alerting.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -296,9 +296,9 @@ query activity -> query ds workflow fitleting dimentsion
 <tbody>
 <tr>
 <td>
-<p>您現在可以存取動態報告，該報告提供完全可自訂的即時報告來衡量您行銷活動的影響。它新增了對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟數和點按數) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。動態報告也適用於多語言電子郵件傳遞和交易型訊息。</p>
-<p>此功能僅以隨選方式提供。若要取得存取權，請聯絡您的 Adobe 代表。您的伺服器必須至少升級到 8.8.1 版。請參閱用戶端主控台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">發行說明</a>。
-<p>如需詳細資訊，請參閱<a href="../reporting/dynamic-reporting/get-started-reporting.md">詳細說明文件</a>。</p>
+<p>您現在可以存取動態報告，該報告提供完全可自訂的即時報告來衡量您行銷活動的影響。其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。動態報告也適用於多語言電子郵件傳遞和交易型訊息。</p>
+<p>此功能僅以隨選方式提供。若要取得存取權，請聯絡您的 Adobe 代表。您的伺服器必須至少升級到 8.8.1 版。請參閱用戶端主控台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">發行說明</a>。
+<p>如需詳細資訊，請參閱<a href="../reporting/dynamic-reporting/get-started-reporting.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -314,8 +314,8 @@ query activity -> query ds workflow fitleting dimentsion
 <tr>
 <td>
 <p>您的技術管理員現在可以定義一個或多個品牌，以集中管理會影響品牌識別的參數。這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 品牌化選項適用於所有管道，包括簡訊和直接郵件。</p>
-<p>此功能僅針對新實作以隨選方式提供。若要取得存取權，請聯絡您的 Adobe 代表。您的伺服器必須至少升級到 8.8.1 版。請參閱用戶端主控台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">發行說明</a>。
-<p>如需詳細資訊，請參閱<a href="../administration/branding/branding-gs.md">詳細說明文件</a>。</p>
+<p>此功能僅針對新實作以隨選方式提供。若要取得存取權，請聯絡您的 Adobe 代表。您的伺服器必須至少升級到 8.8.1 版。請參閱用戶端主控台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">發行說明</a>。
+<p>如需詳細資訊，請參閱<a href="../administration/branding/branding-gs.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -323,10 +323,10 @@ query activity -> query ds workflow fitleting dimentsion
 
 除了上方列出的功能外，此版本還隨附一組用戶端主控台中可用的功能：
 
-* [新的簡訊傳送連接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=zh-Hant) (FDA 環境)
-* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant) (隨選，FDA 環境)
+* [新的簡訊傳送連接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA 環境)
+* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (隨選，FDA 環境)
 
-請參閱用戶端主控台[發行說明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant){target="_blank"}。
+請參閱用戶端主控台[發行說明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}。
 
 <!--
 
@@ -334,14 +334,14 @@ query activity -> query ds workflow fitleting dimentsion
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=zh-Hant){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -368,14 +368,14 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=zh-Hant) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
-### 功能改善 {#25-7-improvements}
+### 功能改進 {#25-7-improvements}
 
 * 您現在可以根據規則產生器中的每個條件和群組，直接計算目標群體。按一下結果數字即可檢視詳細的記錄清單。[了解更多](../query/build-query.md#validate-query)
 
@@ -397,7 +397,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 ## 2025 年 6 月版 {#25-6-release}
 
-### 功能改善 {#25-6-improvements}
+### 功能改進 {#25-6-improvements}
 
 * 現在，呼叫中心和自訂管道均可取得傳遞摘要報告。[了解更多](../reporting/direct-mail.md)
 
@@ -429,7 +429,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <tr>
 <td>
 <p>品牌一致性分數功能可直接在電子郵件設計工具中提供清晰的回饋意見，協助您了解內容是否符合品牌的基調、風格和方針。此功能目前提供 Beta 版。</p>
-<p>如需詳細資訊，請參閱<a href="../content/brands-score.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content/brands-score.md">詳細文件</a>以瞭解詳情。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
@@ -447,14 +447,14 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <td>
 <p>您現在可以直接從 Adobe Campaign Web UI 中，根據自訂外部管道來協調和執行傳遞。這些傳遞可以是獨立的，也可以是工作流程的一部分。與第三方整合的自訂外部管道的建立是在控制台中進行的。</p>
 <p>注意：Web UI 中不提供自訂管道的報告功能。您必須瀏覽到用戶端控制台才能存取報告。</p>
-<p>如需詳細資訊，請參閱<a href="../call-center/gs-custom-channel.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../call-center/gs-custom-channel.md">詳細文件</a>以瞭解詳情。</p>
 <img src="assets/do-not-localize/custom-channel.gif">
 </td>
 </tr>
 </tbody>
 </table>
 
-### 功能改善 {#25-5-improvements}
+### 功能改進 {#25-5-improvements}
 
 類型規則建立畫面已更新，以方便選擇規則類型。
 
@@ -478,7 +478,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <p>呼叫中心管道現在已可在 Campaign Web 使用者介面中取得。此管道是指用於管理和追蹤透過呼叫中心處理的通訊或互動的通訊方法 — 通常是專員撥打給客戶或潛在客戶的電話。</p>
 <p>注意：Web UI 中不提供呼叫中心管道的報告功能。您必須瀏覽到用戶端控制台才能存取報告。</p>
 <img src="assets/do-not-localize/call-center.gif">
-<p>如需詳細資訊，請參閱<a href="../call-center/gs-call-center.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../call-center/gs-call-center.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -495,7 +495,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <td>
 <p>您現在可以使用新的規則產生器，協助您在改進的使用者介面中定義複雜的條件。您可以視需要從舊的規則產生器切換到新的規則產生器。</p>
 <img src="assets/do-not-localize/rule-builder-release.gif">
-<p>如需詳細資訊，請參閱<a href="../query/query-modeler-overview.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../query/query-modeler-overview.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -512,17 +512,17 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <td>
 <p>身為 Campaign 管理員，您現在可以從 Campaign Web 使用者介面中建立與外部系統的新連線。
 您也可以檢視、更新和管理現有的外部帳戶。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 功能改善 {#25-4-improvements}
+### 功能改進 {#25-4-improvements}
 
 **一般使用者介面改善**
 
-* 現在，使用者介面中可以更清楚地看到結構描述屬性的「欄位說明」、「新增至最愛項目」和「數值分佈」選項。如需詳細資訊，請參閱[詳細說明文件](../get-started/attributes.md)。
+* 現在，使用者介面中可以更清楚地看到結構描述屬性的「欄位說明」、「新增至最愛項目」和「數值分佈」選項。如需詳細資訊，請參閱[詳細文件](../get-started/attributes.md)以瞭解詳情。
 * 在介面中，日期和時間現在會根據 Experience League 偏好設定中設定的主要語言來進行顯示。這項改進僅適用於幾種語言。若要查看受支援語言的完整清單，請參閱[詳細說明文件](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/browser-language){target=_blank}。
 
 <!--
@@ -530,7 +530,7 @@ ko * Built-in options are now only visible in the list of options if the **Show 
 ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
 -->
 
-**電子郵件編輯器**：為了增強 Campaign Web 使用者介面中的可存取性，電子郵件設計工具中現在提供兩個新欄位：它們對應至您電子郵件內容的 `html` 元素中的 `title` 元素和 lang 屬性。除了「預覽文字」欄位之外，您還可以在電子郵件的「內文」區段中定義這些設定。如需詳細資訊，請參閱[詳細說明文件](../email/metadata.md)。
+**電子郵件編輯器**：為了增強 Campaign Web 使用者介面中的可存取性，電子郵件設計工具中現在提供兩個新欄位：它們對應至您電子郵件內容的 `html` 元素中的 `title` 元素和 lang 屬性。除了「預覽文字」欄位之外，您還可以在電子郵件的「內文」區段中定義這些設定。如需詳細資訊，請參閱[詳細文件](../email/metadata.md)以瞭解詳情。
 
 <!--
 **Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
@@ -538,9 +538,9 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 **結構描述**
 
-* 您現在可以從 Campaign Web 使用者介面中編輯清單的臨時結構描述。如需詳細資訊，請參閱[詳細說明文件](../audience/manage-audience.md)。
-* 您現在可以在範例畫面中預覽結構描述的自訂欄位。如需詳細資訊，請參閱[詳細說明文件](../administration/custom-fields.md#add)。
-* 您現在可以使用拖放方式，移動清單中的自訂欄位。如需詳細資訊，請參閱[詳細說明文件](../administration/custom-fields.md#add)。
+* 您現在可以從 Campaign Web 使用者介面中編輯清單的臨時結構描述。如需詳細資訊，請參閱[詳細文件](../audience/manage-audience.md)以瞭解詳情。
+* 您現在可以在範例畫面中預覽結構描述的自訂欄位。如需詳細資訊，請參閱[詳細文件](../administration/custom-fields.md#add)以瞭解詳情。
+* 您現在可以使用拖放方式，移動清單中的自訂欄位。如需詳細資訊，請參閱[詳細文件](../administration/custom-fields.md#add)以瞭解詳情。
 
 
 ### 限量開放版本中的新功能 {#25-4-features-la}
@@ -549,13 +549,13 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >以下功能為限量開放 (LA) 版本。僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。這些功能需要將 Campaign 伺服器升級到 v8.7.4。
 >
->請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hant)」。
+>請參閱以下文件頁面：「[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)」和「[適用於 Campaign Standard 使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html)」。
 
-* **建立多語言傳遞** - 您現在可以在 Adobe Campaign Web 使用者介面中，使用不同語言傳送多個電子郵件傳遞。多語言傳遞功能可讓您選擇傳遞的預設語言，以及可以傳送傳遞的不同語言。您也可以使用您選擇的語言來預覽這些傳遞。如需詳細資訊，請參閱[詳細說明文件](../email/edit-content.md)。
+* **建立多語言傳遞** - 您現在可以在 Adobe Campaign Web 使用者介面中，使用不同語言傳送多個電子郵件傳遞。多語言傳遞功能可讓您選擇傳遞的預設語言，以及可以傳送傳遞的不同語言。您也可以使用您選擇的語言來預覽這些傳遞。如需詳細資訊，請參閱[詳細文件](../email/edit-content.md)以瞭解詳情。
 
-* **多語言動態報告** - 動態報告現可用於多語言電子郵件傳遞。如需詳細資訊，請參閱[詳細說明文件](../reporting/global-reports.md)。
+* **多語言動態報告** - 動態報告現可用於多語言電子郵件傳遞。如需詳細資訊，請參閱[詳細文件](../reporting/global-reports.md)以瞭解詳情。
 
-* **簡訊 REST API 支援 (LA)** - 交易型傳訊 REST API 現在已可用於簡訊管道。當承載中同時存在 email 和 mobilePhone 時，您可以使用「wishedChannel」欄位來指定管道。如果未提供，除非 wishedChannel 明確地要求簡訊，否則預設會使用電子郵件。如需詳細資訊，請參閱[詳細說明文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant){target=_blank}。
+* **簡訊 REST API 支援 (LA)** - 交易型傳訊 REST API 現在已可用於簡訊管道。當承載中同時存在 email 和 mobilePhone 時，您可以使用「wishedChannel」欄位來指定管道。如果未提供，除非 wishedChannel 明確地要求簡訊，否則預設會使用電子郵件。如需詳細資訊，請參閱[詳細文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}以瞭解詳情。
 
 ## 2025 年 2 月版 {#25-2-release}
 
@@ -576,7 +576,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>您現在可以在 Adobe Campaign Web 使用者介面中建立類型和類型規則。您可以使用類型來控制、篩選及優先處理傳遞內容的傳送。類型可用於驗證傳遞是否始終包含強制元件 (例如取消訂閱連結或主旨列)，或套用篩選規則以從您的客群中排除群組 (例如取消訂閱者、競爭者或非忠誠客戶)。</p>
 <img src="assets/do-not-localize/typology.gif">
-<p>如需詳細資訊，請參閱<a href="../administration/typologies.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/typologies.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -593,7 +593,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>現在您可以在 Campaign Web 使用者介面中建立目標對應。目標對應定義了不同的傳遞管道 (電子郵件、簡訊、推播通知) 如何連結到結構描述的資料欄位。目標對應可讓您定義目標客群：輪廓、合約受益人、操作者、訂閱者、潛在客戶等。</p>
 <img src="assets/do-not-localize/target-mapping.gif">
-<p>如需詳細資訊，請參閱<a href="../administration/target-mappings.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/target-mappings.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -610,7 +610,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>現在您可以在清單中選取結構描述的名稱來存取其詳細資料。自訂欄位版本現在可以透過結構描述詳細資料中的「<b>編輯自訂欄位</b>」按鈕存取。</p>
 <img src="assets/do-not-localize/schemas.gif">
-<p>如需詳細資訊，請參閱<a href="../administration/schemas.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/schemas.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -636,7 +636,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>視覺片段是預先定義的視覺區塊，可在多個電子郵件傳遞或內容範本中重複使用。此功能現已可供所有執行伺服器版本 8.6.4 及以上版本的客戶使用。</p>
 <img src="assets/do-not-localize/visual-fragment.gif">
-<p>如需詳細資訊，請參閱<a href="../content/use-visual-fragments.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content/use-visual-fragments.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -653,7 +653,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>您現在可以在 Campaign Web 介面中定義外部傳遞和外部傳遞範本。在此模式中，訊息會編譯成一個輸出檔案，該檔案可以與您的外部提供者共用。依據預設，外部傳遞模式是用於直接郵件管道。</p>
 <img src="assets/do-not-localize/external-delivery.gif">
-<p>如需詳細資訊，請參閱<a href="../msg/send-external-deliveries.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../msg/send-external-deliveries.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -670,7 +670,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>您現在可以直接透過 Adobe Campaign Web 使用者介面建立列舉。列舉是系統建議填入欄位的值清單。使用列舉來標準化這些欄位的值，以協助資料輸入或在查詢中使用。</p>
 <img src="assets/do-not-localize/enumerations.gif">
-<p>如需詳細資訊，請參閱<a href="../administration/enumerations.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/enumerations.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -687,7 +687,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>您現在可以在 Adobe Campaign Web 使用者介面中存取技術選項，並建立自己的自訂選項來滿足您的需求。在使用 JavaScript 程式碼工作流程活動來儲存中間資料時，這特別有用。</p>
 <img src="assets/do-not-localize/options.gif">
-<p>如需詳細資訊，請參閱<a href="../administration/options.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/options.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -705,7 +705,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>您現在可以在 Adobe Campaign Web 使用者介面中建立 JavaScript 程式碼。這可讓您建立能夠跨工作流程使用的可重複使用函數，類似於程式庫。</p>
 <img src="assets/do-not-localize/javascript.gif">
-<p>如需詳細資訊，請參閱<a href="../administration/javascript-codes.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/javascript-codes.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -729,7 +729,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 </table>
 
 
-### 改良功能 {#25-1-improvements}
+### 功能改進 {#25-1-improvements}
 
 * 自訂介面中自訂欄位的顯示：
 

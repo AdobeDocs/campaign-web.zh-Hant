@@ -4,7 +4,7 @@ title: 開始使用簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="建立簡訊傳遞" src="assets/do-not-localize/create_sms.png">
+<img alt="建立簡訊傳送" src="assets/do-not-localize/create_sms.png">
 </a>
 <div><a href="create-sms.md"><strong>建立簡訊傳遞</strong>
 </div>

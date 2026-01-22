@@ -5,7 +5,7 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 <td>
 <p>您現在可以在 Adobe Campaign Web 使用者介面中建立類型和類型規則。您可以使用類型來控制、篩選及優先處理傳遞內容的傳送。類型會驗證傳遞是否始終包含強制元件 (例如取消訂閱連結或主旨列)，或者從您客群中排除某些群組 (例如取消訂閱者、競爭者或非忠誠客戶) 的篩選規則。</p>
 <img src="assets/do-not-localize/typology.gif" alt="示範在 Adobe Campaign Web 使用者介面中建立類型規則">
-<p>如需詳細資訊，請參閱<a href="../administration/typologies.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/typologies.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -53,7 +53,7 @@ Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強�
 <tr>
 <td>
 <p>現在您可以在 Campaign Web 使用者介面中建立目標對應。目標對應定義了不同的傳遞管道 (電子郵件、簡訊、推播通知) 如何連結到結構描述的資料欄位。目標對應會定義目標客群：輪廓、合約受益人、操作者、訂閱者、潛在客戶等。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/typologies.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/typologies.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>

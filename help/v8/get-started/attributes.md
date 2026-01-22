@@ -4,7 +4,7 @@ title: 選取屬性並將其加入最愛
 description: 了解如何使用屬性並輕鬆存取最愛的和最近使用的屬性。
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
 ht-degree: 100%
 

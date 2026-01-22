@@ -4,7 +4,7 @@ title: 開始使用推播通知
 description: 了解如何使用 Adobe Campaign Web 建立和傳送推播通知
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 * **獨立傳遞**：透過個別的推播傳遞，直接與客戶立即進行互動，而不需要工作流程或行銷活動。
 
-![](../assets/do-not-localize/book.png)若要了解如何設定推播管道，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=zh-Hant){target="_blank"}。
+![](../assets/do-not-localize/book.png)若要了解如何設定推播管道，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
