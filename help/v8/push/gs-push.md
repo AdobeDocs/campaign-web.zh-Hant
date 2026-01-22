@@ -22,7 +22,7 @@ ht-degree: 100%
 
 * **獨立傳遞**：透過個別的推播傳遞，直接與客戶立即進行互動，而不需要工作流程或行銷活動。
 
-![](../assets/do-not-localize/book.png)若要了解如何設定推播管道，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}。
+![](../assets/do-not-localize/book.png)若要了解如何設定推播管道，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=zh-Hant){target="_blank"}。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
