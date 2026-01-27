@@ -23,7 +23,7 @@ Adobe Experience Manager整合可讓您使用Adobe Experience Manager語言副�
 在建立多語言電子郵件傳遞前，請確定您已：
 
 * 存取為Adobe Campaign Web介面整合設定的Adobe Experience Manager執行個體。
-* 已建立和核准含有語言副本的Adobe Experience Manager內容。 在[Adobe Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中進一步瞭解語言副本精靈
+* 已建立和核准含有語言副本的Adobe Experience Manager內容。 在[Adobe Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中進一步瞭解語言副本精靈
 * 設定為接收Adobe Experience Manager內容的電子郵件傳遞範本。 請參閱[啟用多語言模式](#enable-multilingual)一節中詳述的步驟。
 
 ## 建立您的多語言傳遞
