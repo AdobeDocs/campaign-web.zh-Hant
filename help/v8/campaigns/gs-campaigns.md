@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '214'
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '221'
 ht-degree: 100%
 
 ---
@@ -29,4 +29,5 @@ ht-degree: 100%
 
 * [存取和管理您的行銷活動](manage-campaigns.md)
 * [建立您的第一個行銷活動](create-campaigns.md)
+* [設定及管理核准流程](campaign-approvals.md)
 * [瀏覽行銷活動報告](../reporting/campaign-reports.md)。

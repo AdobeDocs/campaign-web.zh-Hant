@@ -3,14 +3,14 @@ audience: end-user
 title: 建立簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 39%
+source-wordcount: '532'
+ht-degree: 37%
 
 ---
 
-# 建立簡訊傳遞 {#create-sms}
+# 建立簡訊傳送 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
@@ -60,6 +60,8 @@ ht-degree: 39%
    瞭解如何在[此頁面](../audience/one-time-audience.md)中建立新的對象。
 
 1. 開啟&#x200B;**[!UICONTROL 啟用控制群組]**&#x200B;選項，設定控制群組以測量傳遞的影響。 訊息不會傳送給該控制組，因此您可以將收到訊息的母體的行為與未收到訊息的連絡人的行為進行比較。 [了解更多](../audience/control-group.md)
+
+1. 您可以將SMS傳送設定為多語言傳送，以根據設定檔的偏好語言傳送訊息。 [了解更多資訊](../msg/multilingual.md)。
 
 1. 按一下&#x200B;**[!UICONTROL 編輯內容]**，開始設計簡訊的內容。 [了解更多](content-sms.md)
 

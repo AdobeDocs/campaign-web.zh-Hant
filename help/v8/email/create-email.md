@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送您的第一個電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1648'
 ht-degree: 44%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >清單中可用的對象源自您的Campaign v8執行個體，或若已在執行個體上設定目的地/Source整合，則來源為Adobe Experience Platform。 此整合可讓您將Experience Platform區段傳送至Adobe Campaign，並將Campaign傳送和追蹤記錄傳送至Adobe Experience Platform。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hant){target="_blank"}中瞭解如何使用Campaign和Adobe Experience Platform。
+   >清單中可用的對象源自您的Campaign v8執行個體，或若已在執行個體上設定目的地/Source整合，則來源為Adobe Experience Platform。 此整合可讓您將Experience Platform區段傳送至Adobe Campaign，並將Campaign傳送和追蹤記錄傳送至Adobe Experience Platform。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}中瞭解如何使用Campaign和Adobe Experience Platform。
 
 1. 選取客群後，您可以套用其他規則進一步調整目標。
 
@@ -152,6 +152,8 @@ ht-degree: 44%
 在傳送電子郵件之前，您可以預覽和測試以確保它符合您的期望。
 
 在此使用案例中，您會預覽電子郵件並傳送校樣到特定電子郵件地址，同時模擬一些目標設定檔。
+
+您也可以驗證內容品質，以檢查可讀性、CTA有效性、主旨行品質等。 [進一步瞭解內容品質驗證](../content/brands-score.md#validate-quality)
 
 有關如何預覽電子郵件和傳送校樣的其他資訊，請參閱[本節](../preview-test/preview-test.md)。
 
@@ -252,4 +254,4 @@ ht-degree: 44%
 
 瞭解如何從草稿開始建立電子郵件傳遞、定義客群、設計內容、模擬預覽，以及傳送校訂。
 
->[!VIDEO](https://video.tv.adobe.com/v/3454016/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

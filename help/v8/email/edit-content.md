@@ -3,10 +3,10 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 瞭解如何在Campaign網頁使用者介面中編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 36%
+source-wordcount: '683'
+ht-degree: 35%
 
 ---
 
@@ -106,4 +106,6 @@ ht-degree: 36%
 
 1. 依預設，傳遞追蹤會啟用。您可以從「**[!UICONTROL 選擇性功能]**」區段停用此選項。[了解如何新增連結和管理追蹤](message-tracking.md)
 
-1. 定義好電子郵件內容後，請使用「**[!UICONTROL 模擬內容]**」按鈕在傳送前檢查其如何顯示。[瞭解如何預覽和測試您的電子郵件](../preview-test/preview-test.md)。
+1. 定義好電子郵件內容後，請使用「**[!UICONTROL 模擬內容]**」按鈕在傳送前檢查其如何顯示。您也可以驗證內容品質，以評估可讀性、CTA效能和整體品質。 [進一步瞭解內容品質驗證](../content/brands-score.md#validate-quality)
+
+1. [瞭解如何預覽和測試您的電子郵件](../preview-test/preview-test.md)。

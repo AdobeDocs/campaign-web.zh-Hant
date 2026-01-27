@@ -2,10 +2,10 @@
 title: 使用預先定義的篩選器
 description: 了解如何在 Adobe Campaign Web 中建立和管理預先定義的篩選器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '1055'
+ht-degree: 85%
 
 ---
 
@@ -67,11 +67,11 @@ ht-degree: 100%
 
    ![儲存篩選器詳細資訊介面](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
-   如果需要，您可以將篩選器儲存為最愛。若要了解更多資訊，請參閱[此區段](#fav-filter)。
+   如果需要，您可以將篩選器儲存為最愛。在[本節](#fav-filter)中瞭解更多資訊。 您也可以啟用&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;選項，讓其他使用者可以存取該篩選器。 若要了解更多資訊，請參閱[此區段](#share-filter)。
 
 1. 按一下「**確認**」以儲存您的變更。
 
-您的自訂篩選器現在可以在「**預先定義的篩選器**」清單中取得，並可供所有 Campaign 使用者存取。
+您的自訂篩選器現在可在&#x200B;**預先定義的篩選器**&#x200B;清單中使用。
 
 ### 從篩選器清單中建立篩選器 {#create-filter-from-list}
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
    ![已儲存新篩選器的介面](assets/new-filter.png){zoomable="yes"}
 
-此篩選器便會新增至預先定義的篩選器清單。如果需要，您可以將篩選器儲存為最愛。若要了解更多資訊，請參閱[此區段](#fav-filter)。
+此篩選器便會新增至預先定義的篩選器清單。如果需要，您可以將篩選器儲存為最愛。在[本節](#fav-filter)中瞭解更多資訊。 您也可以啟用&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;選項，將篩選器與其他使用者共用。 若要了解更多資訊，請參閱[此區段](#share-filter)。
 
 ## 將您的篩選器另存為最愛 {#fav-filter}
 
@@ -98,6 +98,14 @@ ht-degree: 100%
 將篩選器另存為最愛後，所有使用者都可以在篩選器建立清單的&#x200B;**最愛篩選器**&#x200B;區段中使用該篩選器，如下所示：
 
 ![最愛篩選器區段](assets/predefined-filters-favorite.png){zoomable="yes"}
+
+## 共用預先定義的篩選器 {#share-filter}
+
+依預設，您建立的預先定義篩選器是私人的且僅供您檢視。 若要讓組織中的其他操作者可存取篩選器，請啟用&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;選項。
+
+![共用篩選器選項](assets/predefined-filters-shared.png){zoomable="yes"}
+
+共用的篩選器會出現在所有使用者的預先定義篩選器清單中，讓他們可以在自己的工作流程和查詢中使用這些篩選器。
 
 ## 使用預先定義的篩選器 {#use-predefined-filter}
 
@@ -121,6 +129,8 @@ ht-degree: 100%
 
    ![預先定義的篩選器清單介面](assets/build-audience-filter-list.png){zoomable="yes"}
 
+   您也可以使用![](../content/assets/do-not-localize/Smock_More_18_N.svg)按鈕編輯或刪除現有的預先定義篩選器。
+
 1. 檢查此篩選器的規則屬性並進行確認。
 
    此篩選器現在將用作「**查詢**」活動中的查詢。
@@ -141,7 +151,7 @@ ht-degree: 100%
 * 複製預先定義的篩選器。
 * 刪除預先定義的篩選器。
 
-您也可以直接從規則產生器中編輯或刪除預先定義的篩選器。在預先定義的篩選器選擇視窗中，使用「**更多動作**」按鈕。您可以刪除篩選器或加以編輯。您可以變更標籤、新增說明，並將其新增為最愛項目。
+您也可以直接從規則產生器中編輯或刪除預先定義的篩選器。在預先定義的篩選器選擇視窗中，使用「**更多動作**」按鈕。您可以刪除篩選器或加以編輯。您可以變更標籤、新增說明、將其新增為我的最愛，或切換&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;選項以控制誰可以存取篩選器。
 
 ![預先定義的篩選器版本](assets/filter-edit.png){zoomable="yes"}
 

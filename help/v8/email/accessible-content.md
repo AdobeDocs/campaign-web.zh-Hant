@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1643'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 1%
 
 此頁面旨在讓您的內容可供所有收件者存取，以確保身心障礙人士可以閱讀、理解並互動您使用[!DNL Adobe Campaign]設計的電子郵件和登入頁面。
  
-
 ## 確保文字可讀性 {#text-readability}
 
 運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 [了解更多](content-components.md#text)
@@ -124,6 +123,8 @@ ht-degree: 1%
 * 使用測試設定檔預覽您的內容。 [了解做法](../preview-test/preview-content.md)
 
 * 使用[電子郵件呈現](../preview-test/email-rendering.md)選項，利用Litmus模擬您跨主要電子郵件使用者端(Apple Mail、Gmail、Outlook)的設計，並檢視文字、色彩和影像是否可讓您存取內容。<!--Litmus includes accessibility testing-->
+
+* 驗證內容品質以評估可讀性，這是協助工具的關鍵部分。 [進一步瞭解內容品質驗證](../content/brands-score.md#validate-quality)
 
 * 傳送校樣以測試內容的轉譯，然後再傳送給真正的對象。 [了解做法](../preview-test/test-deliveries.md)
 

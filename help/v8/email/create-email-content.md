@@ -3,10 +3,10 @@ audience: end-user
 title: 在電子郵件設計工具中設計電子郵件
 description: 了解如何從頭開始設計您的電子郵件內容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 51%
+source-wordcount: '673'
+ht-degree: 49%
 
 ---
 
@@ -104,10 +104,12 @@ ht-degree: 51%
 
    ![顯示電子郵件Designer中模擬選項的熒幕擷圖。](assets/email_designer-simulate.png){zoomable="yes"}
 
+1. 您也可以驗證內容品質，以評估可讀性、CTA效益、主旨行品質等。 [進一步瞭解內容品質驗證](../content/brands-score.md#validate-quality)
+
 1. 當您的電子郵件準備就緒時，按一下「**[!UICONTROL 儲存]**」。
 
 ## 操作說明影片 {#video}
 
 了解如何導覽電子郵件設計工具。瞭解如何從草稿開始架構和設計電子郵件、個人化並測試您的電子郵件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453576/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

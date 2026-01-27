@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
-workflow-type: ht
-source-wordcount: '506'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 31%
 
 ---
 
@@ -20,42 +20,43 @@ Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透�
 
 [2024](release-notes-24.md) 和 [2025](release-notes-25.md) 頁面中列出了先前版本可用的變更和改進。
 
-## 2025 年 10 月發行版本 {#25-10-updates}
+## 2026年1月發行 {#26-1-release}
 
-_2025 年 11 月 3 日_
+_2026 年 1 月 27 日_
+
+### 新功能 {#26-1-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>交易型訊息、推播通知和簡訊的多語言功能 (LA)</strong><br/></th> 
+<th><strong>多語言傳送功能(GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在 Adobe Campaign Web 使用者介面中，以不同語言傳送多則交易型訊息、推播通知和簡訊。多語言傳遞功能可讓您選擇傳遞的預設語言，以及可以傳送傳遞的不同語言。您也可以使用您選擇的語言來預覽這些傳遞。</p>
-<p>注意：此功能目前僅開放給某些組織使用 (有限開放)，並將在未來版本中在全面推出。</p>
+<p>所有客戶現在都能使用多語言傳送功能(GA)。 此功能可讓您在Adobe Campaign網頁使用者介面中，以不同語言傳送多則訊息。 您可以選擇傳送的預設語言，以及傳送傳送時所使用的不同語言。 您也可以使用您選擇的語言來預覽這些傳遞。 
 <p>如需詳細資訊，請參閱<a href="../msg/multilingual.md">詳細文件</a>以瞭解詳情。</p>
+<p>已針對多語言推播通知進行下列改良：</p>
+<ul>
+<li>您現在可以上傳包含多語言內容的CSV檔案，快速填入所有語言變體。 <a href="../msg/multilingual.md#csv-upload">閱讀更多</a>
+</li>
+<li>現在支援豐富推送通知。</li>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
-* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
--->
-
 <table>
 <thead>
 <tr>
-<th><strong>交易型訊息中的輪廓擴充 (LA)</strong><br/></th> 
+<th><strong>異動訊息(GA)中的設定檔擴充</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此功能可讓您將 Adobe Campaign 資料庫欄位連結至訊息內容，以便個人化交易型訊息。您可以選取目標對應、擴充欄和調和索引鍵，以確保準確且即時的個人化，同時維持績效臨界值。</p>
-<p>注意：此功能目前僅開放給某些組織使用 (有限開放)，並將在未來版本中在全面推出。此功能目前僅適用於電子郵件。</p>
+<p>現在所有客戶都可以使用「異動訊息」功能中的設定檔擴充(GA)。 除了電子郵件之外，現在也支援簡訊和推播通知。 此功能可讓您將Adobe Campaign資料庫欄位連結至訊息內容，以個人化交易式訊息。 您可以選取目標對應、擴充欄和調和索引鍵，以確保準確且即時的個人化，同時維持績效臨界值。</p>
 <p>如需詳細資訊，請參閱<a href="../transactional-messaging/profile-enrichment.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -65,14 +66,14 @@ _2025 年 11 月 3 日_
 <table>
 <thead>
 <tr>
-<th><strong>與 Adobe GenStudio 整合</strong><br/></th>
+<th><strong>Adobe Experience Manager即時和語言副本</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以將 GenStudio for Performance Marketing 體驗與 Campaign 緊密整合，以便提高行銷效率及維持品牌一致性。藉由這樣的整合，您便可以搭配 Campaign 的進階協調功能，使用 GenStudio 由 AI 驅動的內容創作。<p>
-<p>如需詳細資訊，請參閱<a href="../integrations/genstudio.md">詳細文件</a>以瞭解詳情。</p>
+<p>Adobe Experience Manager內容整合可讓您在建立傳遞內容時，直接在Campaign中存取在Adobe Experience Manager中建立的所有語言和即時副本。 您可以即時重新整理內容以擷取最新的Adobe Experience Manager版本。 此整合可避免Adobe Experience Manager與Campaign之間的手動內容同步，簡化您的多語言行銷活動工作流程。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/aem-multilingual.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -81,47 +82,55 @@ _2025 年 11 月 3 日_
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件設計工具中的深色模式支援</strong><br/></th> 
+<th><strong>內容實驗 — A/B測試</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>電子郵件設計工具現在可以切換成深色模式的視圖，而且您可以在這裡定義其他特定的自訂設定。請注意，最終轉譯的結果取決於收件者的電子郵件用戶端，而並非所有電子郵件用戶端都支援深色模式。</p>
-<p>如需詳細資訊，請參閱<a href="../email/dark-mode.md">詳細文件</a>以瞭解詳情。</p>
+<p>Adobe Campaign網站中的內容實驗可讓您定義多個A/B測試傳送變體，以測量哪些變體最適合您的目標對象。 您可以變更傳遞內容、主旨或寄件者，以測試不同版本並判斷哪個變體產生最佳結果。 您可以對各種電子郵件元素進行A/B測試，例如主旨列、寄件者名稱和電子郵件內文內容。</p>
+<p>如需詳細資訊，請參閱<a href="../email/ab-testing.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!-- table>
+<table>
 <thead>
 <tr>
-<th><strong>Continuous delivery activity</strong><br/></th> not ready
+<th><strong>持續傳遞活動</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Continuous delivery activity</p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>「持續傳遞」活動可讓您將新收件者新增至現有傳遞。 此傳送型別可避免每次都必須建立新傳送，因此可更有效地視需要傳送低流量警報或通知。 持續傳遞會建立單一傳遞執行個體。 所有傳遞記錄(broadLog)和追蹤記錄都參考這個傳遞，藉此簡化監控和報告。</p>
+<p>如需詳細資訊，請參閱<a href="../workflows/activities/continuous-delivery.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
-### 功能改進 {#25-10-improvements}
+<table>
+<thead>
+<tr>
+<th><strong>行銷活動核准管理</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>核准程式可協助協調多個利害關係人，並確保在傳送前進行品質控制。 當您的組織需要來自不同團隊的驗證時（例如行銷經理稽核內容或資料分析師驗證目標對象），請使用核准。</p>
+<p>如需詳細資訊，請參閱<a href="../campaigns/campaign-approvals.md">詳細文件</a>以瞭解詳情。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* 在用戶端控制台所建立的傳遞中，**客群**&#x200B;區段現在會指出是否已經定義校訂目標的動態條件。<!-- [Learn more](../msg/gs-deliveries.md#access)-->
+### 功能改進 {#26-1-improvements}
 
-* 現在，您使用電子郵件設計工具的條件式內容功能來設定條件時，可以在新版和舊版規則產生器之間切換。<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
-
-* 您現在可以在收件者結構描述的畫面定義中選取集合連結，例如購買。這樣做會透過專用的索引標籤，在輪廓畫面上顯示相關資料。<!-- [Learn more](../administration/schemas.md#collection-lists)-->
-
-* 身為 Campaign 管理員，您現在可以設定與 Salesforce CRM 和 Microsoft Dynamics 的連線。
-  [了解更多](../administration/external-crm.md)
-
-<!--
-* Stop button for deliveries not linked to release and no info
--->
-
+* 動態報告現在支援推播通知和SMS。 [了解更多](../reporting/dynamic-reporting/get-started-reporting.md)
+* 預先定義的篩選器 — 新的「共用篩選器」選項可讓您為組織中的其他使用者提供預先定義的篩選器。 [了解更多](../get-started/predefined-filters.md#share-filter)
+* 現在包含在Adobe Experience Manager中建立的個人化欄位，例如名稱、電子郵件、日期和地址，而且可在使用內容範本時使用這些欄位。
+* 內容品質評估現在會檢查可讀性、連貫性和有效性問題，而不受品牌指南的影響，找出不清楚的訊息、不一致的語調或結構性差距。 [了解更多](../content/brands-score.md)
+* 品牌指南現在包含色彩區段，定義品牌色彩系統的標準，確保所有體驗中的主要、次要、輔色和中性色彩使用的一致性。 [了解更多](../content/brands-personalize.md)

@@ -3,10 +3,10 @@ audience: end-user
 title: 關於傳遞預覽和測試
 description: 瞭解如何預覽和測試傳送
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 17%
+source-wordcount: '206'
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 >title="預覽和測試您的內容"
 >abstract="定義內容後，您就可以使用輪廓和測試輪廓進行預覽及測試。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=zh-hant" text="傳送校樣"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hant&#test-landing-page" text="測試登陸頁面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#test-landing-page" text="測試登陸頁面"
 
 定義傳遞內容後，您可以使用設定檔和測試設定檔，在傳送訊息之前進行預覽和測試。 此步驟可確保準確性並消除內容和個人化設定中的錯誤。
 
@@ -26,6 +26,7 @@ ht-degree: 17%
 * [預覽訊息內容及個人化](preview-content.md)
 * [傳送校樣](test-deliveries.md)給特定收件者或訂閱者，以進行測試和驗證
 * [在熱門的案頭、行動裝置和網頁型使用者端中檢查電子郵件呈現](email-rendering.md)
+* [驗證您的內容品質](../content/brands-score.md#validate-quality)以評估可讀性、CTA有效性、主旨行品質等
 * [預覽和測試您的登入頁面](../landing-pages/create-lp.md#test-landing-page)
 
 使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕執行這些動作，您可從傳遞的編輯內容畫面或[電子郵件Designer](../email/get-started-email-designer.md)存取該按鈕。

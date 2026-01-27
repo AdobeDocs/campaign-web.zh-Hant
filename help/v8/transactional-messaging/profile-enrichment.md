@@ -2,21 +2,15 @@
 audience: end-user
 title: 異動訊息中的設定檔擴充
 description: 瞭解如何在Campaign網頁使用者介面中建立交易式訊息
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 13%
+source-wordcount: '464'
+ht-degree: 11%
 
 ---
 
 
 # 使用輪廓資料來擴充交易型訊息{#profile-enrichment}
-
->[!AVAILABILITY]
->
->此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。 您的伺服器必須升級至8.8.2或更新版本。
->
->此功能目前僅適用於電子郵件。
 
 此功能可讓您將Adobe Campaign資料庫欄位連結至訊息內容，以個人化異動訊息。 您可以選取目標對應、擴充欄和調和索引鍵，以確保準確且即時的個人化，同時維持績效臨界值。
 
@@ -30,6 +24,12 @@ ht-degree: 13%
 1. 設定擴充設定，[瞭解詳情](#settings-enrichment)
 1. 定義內容，[瞭解詳情](#content-enrichment)
 1. 驗證並傳送，[瞭解詳情](#send-enrichment)
+
+>[!NOTE]
+>
+>您的伺服器必須升級至8.8.2或更新版本。
+>
+>此功能目前僅適用於電子郵件、簡訊和推播通知。
 
 ## 建立交易式訊息{#create-enrichment}
 

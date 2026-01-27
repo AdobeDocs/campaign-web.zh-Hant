@@ -3,9 +3,9 @@ audience: end-user
 title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '759'
 ht-degree: 28%
 
 ---
@@ -53,6 +53,8 @@ ht-degree: 28%
    * **[!UICONTROL 性質]**：指定傳遞的性質，以進行分類。
    +++
 
+1. 您可以將推播通知設定為多語言傳送，以根據設定檔的偏好語言傳送訊息。 [了解更多資訊](../msg/multilingual.md)。
+
 ## 選取您的推播傳遞對象 {#create-audience-push}
 
 >[!CONTEXTUALHELP]
@@ -73,11 +75,11 @@ ht-degree: 28%
 
    瞭解如何在[此頁面](../audience/one-time-audience.md)中建立新的對象。
 
-1. 開啟&#x200B;**[!UICONTROL 啟用控制群組]**&#x200B;選項，設定控制群組以測量傳遞的影響。 訊息不會傳送給該控制組，因此您可以將收到訊息的母體的行為與未收到訊息的連絡人的行為進行比較。 [了解更多](../audience/control-group.md)。
+1. 開啟&#x200B;**[!UICONTROL 啟用控制群組]**&#x200B;選項，設定控制群組以測量傳遞的影響。 訊息不會傳送給該控制組，因此您可以將收到訊息的母體的行為與未收到訊息的連絡人的行為進行比較。 [了解更多資訊](../audience/control-group.md)。
 
 ## 定義推播通知內容 {#create-content-push}
 
-若要定義通知的內容，請按一下[編輯內容]。**&#x200B;** [了解更多](content-push.md)。
+若要定義通知的內容，請按一下[編輯內容]。**** [了解更多資訊](content-push.md)。
 
 ![熒幕擷圖顯示編輯推送傳遞的內容](assets/push_create_5.png){zoomable="yes"}
 
@@ -103,6 +105,6 @@ ht-degree: 28%
 
 ## 傳遞進階設定 {#adv-push}
 
-按一下&#x200B;**[!UICONTROL 設定傳遞設定]**&#x200B;以存取與傳遞範本相關的進階選項。 [了解更多](../advanced-settings/delivery-settings.md)。
+按一下&#x200B;**[!UICONTROL 設定傳遞設定]**&#x200B;以存取與傳遞範本相關的進階選項。 [了解更多資訊](../advanced-settings/delivery-settings.md)。
 
 ![顯示推播傳遞進階設定的熒幕擷圖](assets/push_create_4.png){zoomable="yes"}

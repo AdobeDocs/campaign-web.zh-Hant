@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '973'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
    + [從 Campaign Standard 至 v8](rn/acs-migration.md)
    + [採用 AI 技術的內容說明](get-started/using-ai.md)
    + [常見問答集](get-started/faq.md)
-+ 訊息和傳遞 {#msg}
+   + 訊息和傳遞 {#msg}
    + [開始使用訊息](msg/gs-messages.md)
    + [存取傳遞內容](msg/gs-deliveries.md)
    + [建立傳遞](msg/create-deliveries.md)
@@ -45,11 +45,12 @@ ht-degree: 100%
    + 電子郵件 {#email}
       + [建立您的第一個電子郵件](email/create-email.md)
       + [設定電子郵件內容](email/edit-content.md)
+      + [建立內容實驗](email/ab-testing.md)
       + 傳送並監控電子郵件 {#monitor}
          + [準備並傳送電子郵件](monitor/prepare-send.md)
          + [使用多個波段傳送](advanced-settings/send-using-waves.md)
          + [監控傳遞記錄](monitor/delivery-logs.md)
-         + [排程傳遞傳送](monitor/schedule-sending.md)
+         + [排程傳送作業](monitor/schedule-sending.md)
    + 推播通知 {#push}
       + [開始使用推播通知](push/gs-push.md)
       + [建立推播通知傳遞](push/create-push.md)
@@ -137,7 +138,8 @@ ht-degree: 100%
       + [AI 助理使用案例](content/generative-uc.md)
       + 品牌 {#ai-assistant}
          + [建立和管理您的品牌](content/brands.md)
-         + [評估您的品牌一致性分數](content/brands-score.md)
+         + [個人化您的品牌](content/brands-personalize.md)
+         + [評估您的內容](content/brands-score.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](landing-pages/get-started-lp.md)
    + [建立並發佈登陸頁面](landing-pages/create-lp.md)
@@ -170,6 +172,7 @@ ht-degree: 100%
    + [開始使用行銷活動](campaigns/gs-campaigns.md)
    + [存取和管理您的行銷活動](campaigns/manage-campaigns.md)
    + [建立您的第一個行銷活動](campaigns/create-campaigns.md)
+   + [設定及管理核准流程](campaigns/campaign-approvals.md)
    + [計劃和專案](administration/plans-programs.md)
 + 工作流程 {#wf}
    + [開始使用工作流程](workflows/gs-workflows.md)
@@ -190,6 +193,7 @@ ht-degree: 100%
       + [變更資料來源](workflows/activities/change-data-source.md)
       + [變更維度](workflows/activities/change-dimension.md)
       + [組合](workflows/activities/combine.md)
+      + [持續傳遞](workflows/activities/continuous-delivery.md)
       + [重複資料刪除](workflows/activities/deduplication.md)
       + [電子郵件、簡訊、推播、直接郵件](workflows/activities/channels.md)
       + [擴充](workflows/activities/enrichment.md)
@@ -268,6 +272,7 @@ ht-degree: 100%
    + [使用其他 Adobe 解決方案](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
+   + [使用Adobe Experience Manager管理語言副本](integrations/aem-multilingual.md)
    + [使用 GenStudio for Performance Marketing](integrations/genstudio.md)
 + 設定 {#conf}
    + 品牌化 {#branding}
