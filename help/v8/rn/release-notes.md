@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 31%
+source-wordcount: '670'
+ht-degree: 32%
 
 ---
 
@@ -133,4 +133,3 @@ _2026 年 1 月 27 日_
 * 預先定義的篩選器 — 新的「共用篩選器」選項可讓您為組織中的其他使用者提供預先定義的篩選器。 [了解更多](../get-started/predefined-filters.md#share-filter)
 * 現在包含在Adobe Experience Manager中建立的個人化欄位，例如名稱、電子郵件、日期和地址，而且可在使用內容範本時使用這些欄位。
 * 內容品質評估現在會檢查可讀性、連貫性和有效性問題，而不受品牌指南的影響，找出不清楚的訊息、不一致的語調或結構性差距。 [了解更多](../content/brands-score.md)
-* 品牌指南現在包含色彩區段，定義品牌色彩系統的標準，確保所有體驗中的主要、次要、輔色和中性色彩使用的一致性。 [了解更多](../content/brands-personalize.md)
