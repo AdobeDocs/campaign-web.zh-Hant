@@ -7,10 +7,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
-workflow-type: ht
+source-git-commit: 4e5840f8566fb511ef2d862833a09b581f0250c2
+workflow-type: tm+mt
 source-wordcount: '1525'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -140,7 +140,7 @@ Campaign 首頁讓您能夠快速輕鬆地瀏覽關鍵資源、指標和元件�
 >id="acw_offers_list"
 >title="產品建議"
 >abstract="瀏覽已使用「**互動**」模組在控制台中建立的產品建議清單和產品建議範本。這些是唯讀清單。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=zh-hant" text="將產品建議新增到傳遞"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/offers" text="將產品建議新增到傳遞"
 
 在&#x200B;**決策管理**&#x200B;區段，您可以檢視產品建議和產品建議範本。這些是唯讀清單。
 
