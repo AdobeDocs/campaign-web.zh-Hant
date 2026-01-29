@@ -78,7 +78,7 @@ ht-degree: 28%
 
 ## 定義推播通知內容 {#create-content-push}
 
-若要定義通知的內容，請按一下[編輯內容]。**** [了解更多資訊](content-push.md)。
+若要定義通知的內容，請按一下[編輯內容]。**&#x200B;** [了解更多資訊](content-push.md)。
 
 ![熒幕擷圖顯示編輯推送傳遞的內容](assets/push_create_5.png){zoomable="yes"}
 
