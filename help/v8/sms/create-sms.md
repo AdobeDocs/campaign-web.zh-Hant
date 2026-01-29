@@ -3,9 +3,9 @@ audience: end-user
 title: 建立簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 7f7063572b95df9c289e614cb217239f579ddb27
+source-git-commit: eb18e2cfc97c13bb0cffac0f8a5bcfa5b18ceabb
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '528'
 ht-degree: 37%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 37%
 >id="acw_deliveries_sms_template_selection"
 >title="簡訊範本選取"
 >abstract="選取預先定義的範本，以開始進行簡訊傳遞。傳遞範本讓您能夠在行銷活動和傳遞中重複使用自訂內容和設定。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/delivery-template" text="使用傳遞範本"
 
 您可以建立獨立的SMS傳送，或在行銷活動工作流程的內容中建立SMS。 以下步驟說明獨立（一次性） SMS傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟將在[本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中說明。
 
