@@ -16,7 +16,7 @@ ht-degree: 28%
 >id="acw_push_notification_template"
 >title="推播通知範本"
 >abstract="選取推播通知範本以開始進行推播傳遞。傳遞範本可讓您在行銷活動和傳遞中輕鬆重複使用自訂內容和設定。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="使用傳遞範本"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/delivery-template" text="使用傳遞範本"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
