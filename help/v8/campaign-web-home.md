@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+source-git-commit: 43bf37b2886afb7ba64f06f699637b8a3019f861
+workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 >[!BEGINTABS]
 
 
->[!TAB 2025 年 10 月發行版本]
+>[!TAB Jannyary &#39;26版本]
 
 10 月發行版本已上線。Campaign Web 使用者介面現在可以使用新功能和增強功能，包括交易型訊息、推播和簡訊適用的多語言功能、與 Adobe GenStudio 的整合以及交易型訊息中的輪廓擴充。如需完整概觀，請參閱發行說明。
 
