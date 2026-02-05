@@ -2,14 +2,20 @@
 audience: end-user
 title: 建立內容實驗
 description: 瞭解如何在Adobe Campaign網頁中建立內容實驗
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1154'
 ht-degree: 2%
 
 ---
 
 # 建立內容實驗 {#content-experiment}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="內容實驗 — A/B測試"
+>abstract="您現在可以定義多個傳遞變體，以測試哪個變體的效能最佳。 依電子郵件元素來變更內容、主旨或寄件者，以決定最佳結果。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 ## 關於內容實驗 {#about-content-experiment}
 

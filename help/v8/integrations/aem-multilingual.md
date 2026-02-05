@@ -6,15 +6,21 @@ feature: Email
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 1%
+source-wordcount: '546'
+ht-degree: 2%
 
 ---
 
 
 # 使用Adobe Experience Manager建立多語言電子郵件 {#aem-multilingual}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Experience Manager即時和語言副本"
+>abstract="您現在可以直接在Campaign存取Adobe Experience Manager語言和即時副本。 即時內容重新整理可省去手動同步處理簡化的多語言工作流程的麻煩。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 Adobe Experience Manager整合可讓您使用Adobe Experience Manager語言副本來建立多語言電子郵件傳送。 這可讓您管理不同語言的內容變體，並根據收件者語言偏好設定傳送個人化電子郵件。
 
@@ -23,7 +29,7 @@ Adobe Experience Manager整合可讓您使用Adobe Experience Manager語言副�
 在建立多語言電子郵件傳遞前，請確定您已：
 
 * 存取為Adobe Campaign Web介面整合設定的Adobe Experience Manager執行個體。
-* 已建立和核准含有語言副本的Adobe Experience Manager內容。 在[Adobe Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中進一步瞭解語言副本精靈
+* 已建立和核准含有語言副本的Adobe Experience Manager內容。 在[Adobe Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中進一步瞭解語言副本精靈
 * 設定為接收Adobe Experience Manager內容的電子郵件傳遞範本。 請參閱[啟用多語言模式](#enable-multilingual)一節中詳述的步驟。
 
 ## 建立您的多語言傳遞
@@ -97,7 +103,7 @@ Adobe Experience Manager整合可讓您使用Adobe Experience Manager語言副�
 
    ![](assets/lg-copy-9.png)
 
-1. 選取其他語言復本以包含更多變體，然後按一下[儲存]。**&#x200B;**
+1. 選取其他語言復本以包含更多變體，然後按一下[儲存]。****
 
    ![](assets/lg-copy-11.png)
 

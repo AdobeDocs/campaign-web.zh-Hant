@@ -3,9 +3,9 @@ audience: end-user
 title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: eb18e2cfc97c13bb0cffac0f8a5bcfa5b18ceabb
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '759'
 ht-degree: 28%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 28%
 >id="acw_push_notification_template"
 >title="推播通知範本"
 >abstract="選取推播通知範本以開始進行推播傳遞。傳遞範本可讓您在行銷活動和傳遞中輕鬆重複使用自訂內容和設定。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="使用傳遞範本"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
@@ -78,7 +79,7 @@ ht-degree: 28%
 
 ## 定義推播通知內容 {#create-content-push}
 
-若要定義通知的內容，請按一下[編輯內容]。**&#x200B;** [了解更多資訊](content-push.md)。
+若要定義通知的內容，請按一下[編輯內容]。**** [了解更多資訊](content-push.md)。
 
 ![熒幕擷圖顯示編輯推送傳遞的內容](assets/push_create_5.png){zoomable="yes"}
 
