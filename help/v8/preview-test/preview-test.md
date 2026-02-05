@@ -3,7 +3,7 @@ audience: end-user
 title: 關於傳遞預覽和測試
 description: 瞭解如何預覽和測試傳送
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 2906239bb1f13496da3777a27675de8a50f259f0
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 16%
@@ -16,8 +16,8 @@ ht-degree: 16%
 >id="acw_deliveries_simulate"
 >title="預覽和測試您的內容"
 >abstract="定義內容後，您就可以使用輪廓和測試輪廓進行預覽及測試。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/preview-test/preview-test" text="傳送校樣"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hant&#test-landing-page" text="測試登陸頁面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="傳送校樣"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#test-landing-page" text="測試登陸頁面"
 
 定義傳遞內容後，您可以使用設定檔和測試設定檔，在傳送訊息之前進行預覽和測試。 此步驟可確保準確性並消除內容和個人化設定中的錯誤。
 
