@@ -2,13 +2,13 @@
 audience: end-user
 title: 異動訊息中的設定檔擴充
 description: 瞭解如何在Campaign網頁使用者介面中建立交易式訊息
-source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
+exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 12%
 
 ---
-
 
 # 使用輪廓資料來擴充交易型訊息{#profile-enrichment}
 
@@ -131,4 +131,3 @@ Once the event has been published, a transactional message linked to the new eve
 
 Integrate the event into your website (see Integrate the event triggering).
 -->
-

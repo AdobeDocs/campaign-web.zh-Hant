@@ -6,13 +6,13 @@ feature: Email
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 2%
 
 ---
-
 
 # 使用Adobe Experience Manager建立多語言電子郵件 {#aem-multilingual}
 
@@ -29,7 +29,7 @@ Adobe Experience Manager整合可讓您使用Adobe Experience Manager語言副�
 在建立多語言電子郵件傳遞前，請確定您已：
 
 * 存取為Adobe Campaign Web介面整合設定的Adobe Experience Manager執行個體。
-* 已建立和核准含有語言副本的Adobe Experience Manager內容。 在[Adobe Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中進一步瞭解語言副本精靈
+* 已建立和核准含有語言副本的Adobe Experience Manager內容。 在[Adobe Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)中進一步瞭解語言副本精靈
 * 設定為接收Adobe Experience Manager內容的電子郵件傳遞範本。 請參閱[啟用多語言模式](#enable-multilingual)一節中詳述的步驟。
 
 ## 建立您的多語言傳遞
@@ -103,7 +103,7 @@ Adobe Experience Manager整合可讓您使用Adobe Experience Manager語言副�
 
    ![](assets/lg-copy-9.png)
 
-1. 選取其他語言復本以包含更多變體，然後按一下[儲存]。**&#x200B;**
+1. 選取其他語言復本以包含更多變體，然後按一下[儲存]。****
 
    ![](assets/lg-copy-11.png)
 
@@ -116,5 +116,3 @@ Adobe Experience Manager整合可讓您使用Adobe Experience Manager語言副�
    >[!CAUTION]
    >
    >取消連結後，您無法從Adobe Experience Manager重新整理內容或建立新變體。 內容會獨立於Adobe Experience Manager。
-
-

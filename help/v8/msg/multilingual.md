@@ -2,7 +2,8 @@
 audience: end-user
 title: 設定多語言傳遞
 description: 瞭解如何設定多語言傳送
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: eea0e997-4da2-4998-b010-234626b21353
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 3%
@@ -256,4 +257,3 @@ title,messageBody,sound,badge,deeplinkURI,category,iosMediaAttachmentURL,android
 | 欄名稱大小寫不符 | 欄名稱不完全相符 | 資料行名稱區分大小寫 — 使用如上所示的確切名稱（例如，`badge`，而非`Badge`或`BADGE`） |
 
 >此[區段](#csv-best-practices)列出最佳實務。 此[區段](#csv-columns)中有詳細的資料行結構。
-
