@@ -11,7 +11,7 @@ ht-degree: 98%
 
 # 常見問題集
 
-下面部分列有全新 Campaign 介面的常見問題。您有其他的疑問嗎？您想與同行分享經驗或交流想法嗎？ 或者，您是否對 Adobe 團隊的學習內容有回饋？ 加入 [Adobe Campaign 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}中的對話。
+下面部分列有全新 Campaign 介面的常見問題。您有其他的疑問嗎？您想與同行分享經驗或交流想法嗎？ 或者，您是否對 Adobe 團隊的學習內容有回饋？ 加入 [Adobe Campaign 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}中的對話。
 
 +++ 我需要使用哪個版本的 Adobe Campaign 才能存取新的 Web 使用者介面？
 
