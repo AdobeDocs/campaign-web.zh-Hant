@@ -2,16 +2,16 @@
 title: 常見問題集
 description: Campaign Web 使用者介面常見問題集
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: ht
-source-wordcount: '782'
-ht-degree: 100%
+source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 98%
 
 ---
 
 # 常見問題集
 
-下面部分列有全新 Campaign 介面的常見問題。您有其他的疑問嗎？您想與同行分享經驗或交流想法嗎？ 或者，您是否對 Adobe 團隊的學習內容有回饋？ 加入 [Adobe Campaign 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}中的對話。
+下面部分列有全新 Campaign 介面的常見問題。您有其他的疑問嗎？您想與同行分享經驗或交流想法嗎？ 或者，您是否對 Adobe 團隊的學習內容有回饋？ 加入 [Adobe Campaign 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}中的對話。
 
 +++ 我需要使用哪個版本的 Adobe Campaign 才能存取新的 Web 使用者介面？
 
@@ -59,7 +59,7 @@ Campaign 用戶端主控台可以與新介面並行使用。但是目前，新�
 
 +++ 這是否表示對 Adobe Campaign Classic v7 的支援將終止？
 
-將支援 Adobe Campaign Classic v7 至 2027 年 3 月 31 日為止。造訪[產品和技術支援期間](https://helpx.adobe.com/tw/support/programs/eol-matrix.html){target="_blank"}頁面。
+造訪[產品和技術支援期間](https://helpx.adobe.com/tw/support/programs/eol-matrix.html){target="_blank"}頁面，瞭解Adobe Campaign Classic v7支援終止日期。
 
 +++
 
