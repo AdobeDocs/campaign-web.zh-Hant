@@ -7,7 +7,7 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 100%
@@ -158,7 +158,7 @@ Campaign 首頁讓您能夠快速輕鬆地瀏覽關鍵資源、指標和元件�
 
 * **外部帳戶**：透過 Web 使用者介面建立新的外部帳戶，以符合您的特定需求並確保順暢的資料傳輸。[了解更多資訊](../administration/external-account.md)。
 
-* **結構描述**：自訂欄位是透過 Adobe Campaign 主控台新增至現成可用之結構描述的附加屬性。[了解更多資訊](../administration/custom-fields.md)。
+* **結構描述**：自訂欄位是透過 Adobe Campaign 主控台新增至現成可用之結構描述的附加屬性。[了解更多資訊](../administration/schemas-custom-fields.md)。
 
 <!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 

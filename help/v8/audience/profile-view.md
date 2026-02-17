@@ -2,7 +2,7 @@
 title: 探索輪廓的詳細資料
 description: 瞭解如何探索設定檔的詳細資訊。
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 8815abf9a7851b67f45038acad5ff8bff84db81b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 7%
@@ -28,7 +28,7 @@ ht-degree: 7%
 
   ![熒幕擷圖顯示「訂閱」標籤，列出設定檔訂閱的服務。](assets/profile-subscriptions.png){zoomable="yes"}
 
-* 您可以在收件者綱要的畫面定義中定義集合連結，以顯示自訂標籤，例如購買。 [進一步瞭解集合連結](../administration/schemas.md#collection-lists)
+* 您可以在收件者綱要的畫面定義中定義集合連結，以顯示自訂標籤，例如購買。 [進一步瞭解集合連結](../administration/schemas-collection-lists.md)
 
   ![熒幕擷圖顯示自訂標籤](assets/schemas-collection4.png){zoomable="yes"}
 
