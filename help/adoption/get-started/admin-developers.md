@@ -57,7 +57,7 @@ Campaign使用者端主控台是原生應用程式，可透過標準網際網路
 
 瞭解Adobe Campaign v8使用者介面，以及如何透過本教學課程影片導覽主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426445?captions=chi_hant&quality=12&learn=on){transcript=true}
 
 如需詳細資訊，請參閱[使用使用者端主控台](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}。
 
@@ -214,7 +214,7 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 瞭解如何設定及管理訂閱並目標定位訂閱者。
 
->[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426555?captions=chi_hant&quality=12&learn=on){transcript=true}
 
 * 請參閱訂閱服務[網頁使用者介面檔案](../../v8/audience/manage-subscribers.md)。
 
@@ -272,7 +272,7 @@ MISSING LINKS:
 
 透過Campaign v8，管理員可以定義動態內容區塊，並在此影片中如何使用動態內容區塊來個人化您的電子郵件傳送內容：
 
->[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3449017?captions=chi_hant&quality=12&learn=on){transcript=true}
 
 有用的連結：
 
