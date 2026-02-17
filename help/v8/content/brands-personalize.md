@@ -4,9 +4,10 @@ title: 管理品牌
 description: 瞭解如何個人化您的品牌指引
 role: User
 level: Beginner, Intermediate
-source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
+exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
+source-git-commit: 3426490deea7dc8653b30f29c530ecc21b52f7b6
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,7 @@ ht-degree: 0%
 * **[!UICONTROL 關於品牌]**&#x200B;建立您品牌的核心身分和值。
 * **[!UICONTROL 書寫樣式]**&#x200B;定義語言和內容標準。
 * **[!UICONTROL 視覺內容]**&#x200B;設定影像和設計准則。
+* **[!UICONTROL 色彩]**&#x200B;管理您品牌的色彩系統與使用方式。
 
 設定後，您可以使用品牌指引來驗證內容品質和品牌一致性。 [進一步瞭解內容品質驗證](brands-score.md#validate-quality)
 
@@ -168,7 +170,7 @@ ht-degree: 0%
 
    ![](assets/brands-16.png)
 
-1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。**&#x200B;**
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
 1. 如有需要，請選取其中一個准則或排除專案來更新或刪除。
 
 1. 按一下![Dive image alt text](assets/do-not-localize/Smock_Edit_18_N.svg "Edit")以編輯您的範例，或按一下![潛水影像替代文字](assets/do-not-localize/Smock_Delete_18_N.svg "刪除")圖示以刪除範例。
@@ -234,7 +236,7 @@ ht-degree: 0%
 
      ![新增使用內容](assets/brands-17.png)
 
-1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。**&#x200B;**
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
 
 1. 若要新增顯示正確使用方式的影像，請選取&#x200B;**[!UICONTROL 範例]**，然後按一下&#x200B;**[!UICONTROL 選取影像]**。 您也可以新增使用方式不正確的影像，作為排除範例。
 
@@ -248,61 +250,60 @@ ht-degree: 0%
 
 您現在可以進一步個人化您的品牌，或[發佈您的品牌](#create-brand-kit)。
 
-<!--
-## Colors {#colors}
+## 顏色 {#colors}
 
-The **[!UICONTROL Colors]** section the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to maintain a cohesive, accessible, and recognizable brand identity.
+**[!UICONTROL 色彩]**&#x200B;區段是您品牌色彩系統的標準，概述如何選擇、組織及套用不同體驗的色彩。 它可確保主色、次色、輔色和中性色的一致使用，以維持一致的、可存取和可辨識的品牌識別。
 
-+++ Available categories and examples
++++ 可用的類別和範例
 
 <table>
   <thead>
     <tr>
-      <th>Category</th>
-      <th>Guidelines Example</th>
-      <th>Exclusions Example</th>
+      <th>類別</th>
+      <th>指引範例</th>
+      <th>排除專案範例</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Primary colors</td>
-      <td>Use primary brand colors for logos, headers, and main call-to-action elements.</td>
-      <td>Do not substitute or modify primary brand colors.</td>
+      <td>主要顏色</td>
+      <td>針對圖志、標題和主要call-to-action元素使用主要品牌顏色。</td>
+      <td>請勿取代或修改主要品牌顏色。</td>
     </tr>
     <tr>
-      <td>Secondary colors</td>
-      <td>Use secondary colors to support layouts, illustrations, and UI components.</td>
-      <td>Do not let secondary colors overpower primary brand colors.</td>
+      <td>次要顏色</td>
+      <td>使用次要顏色來支援版面、插圖和UI元件。</td>
+      <td>不要讓次要色彩超過主要品牌色彩。</td>
     </tr>
     <tr>
-      <td>Accent colors</td>
-      <td>Use accent colors sparingly for buttons, links, and alerts.</td>
-      <td>Do not use accent colors for large background areas.</td>
+      <td>輔色</td>
+      <td>謹慎使用按鈕、連結和警示的強調色。</td>
+      <td>請勿在大型背景區域使用強調色。</td>
     </tr>
     <tr>
-      <td>Neutral colors</td>
-      <td>Use neutral colors for text, dividers, borders, and subtle UI elements.</td>
-      <td>Avoid using neutrals with poor contrast or heavy color casts.</td>
+      <td>中性色</td>
+      <td>針對文字、分隔線、框線及細微的UI元素使用中性色。</td>
+      <td>避免使用對比度差或色彩投射過大的中性色片。</td>
     </tr>
     <tr>
-      <td>Background colors</td>
-      <td>Use light or neutral backgrounds to ensure readability and visual clarity.</td>
-      <td>Do not place text or logos on low-contrast backgrounds.</td>
+      <td>背景顏色</td>
+      <td>使用淺色或中性背景，確保可讀性和視覺清晰度。</td>
+      <td>請勿在低對比度的背景上放置文字或標誌。</td>
     </tr>
     <tr>
-      <td>Additional colors</td>
-      <td>Use additional colors only for data visualization or approved campaigns.</td>
-      <td>Do not introduce unapproved or off-brand colors.</td>
+      <td>其他顏色</td>
+      <td>僅針對資料視覺效果或核准的行銷活動使用其他顏色。</td>
+      <td>請勿引入未經核准或品牌外的顏色。</td>
     </tr>
     <tr>
-      <td>Color scales</td>
-      <td>Use approved tints and shades for UI states such as hover, active, and disabled.</td>
-      <td>Do not create unofficial shades or gradients.</td>
+      <td>色彩比例</td>
+      <td>針對UI狀態（例如暫留、作用中及停用）使用核准的色調和陰影。</td>
+      <td>請勿建立非官方的陰影或漸層。</td>
     </tr>
     <tr>
-      <td>Usage guidelines</td>
-      <td>Maintain consistent color usage and accessible contrast across all assets.</td>
-      <td>Do not mix conflicting palettes or apply colors inconsistently.</td>
+      <td>使用指南</td>
+      <td>維持所有資產一致的色彩使用方式及可存取的對比。</td>
+      <td>請勿混合衝突的調色盤或套用顏色不一致。</td>
     </tr>
 </table>
 
@@ -310,40 +311,39 @@ The **[!UICONTROL Colors]** section the standards for your brand's color system,
 
 </br>
 
-To personalize your **[!UICONTROL Colors]**:
+若要個人化您的&#x200B;**[!UICONTROL 色彩]**：
 
-1. From the **[!UICONTROL Colors]** tab, click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add a color, guideline or exclusion. 
+1. 從&#x200B;**[!UICONTROL 色彩]**&#x200B;索引標籤，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增色彩、指引或排除專案。
 
-1. Enter your color information to define it accurately:
+1. 輸入您的色彩資訊以精確定義：
 
-    * **Color name**: Provide a clear, descriptive name to identify the color within your brand system.
+   * **色彩名稱**：提供清楚的描述性名稱，以識別品牌系統內的色彩。
 
-    * **Color value**: Choose your color using the hue picker or enter precise values using RGB, HEX, or Pantone name/code to ensure consistency across digital and print assets.
+   * **色彩值**：使用色相選擇器選擇您的色彩，或使用RGB、十六進位或Pantone名稱/程式碼輸入精確值，以確保數位和列印資產的一致性。
 
-    ![](assets/brands-color-1.png)
+   ![](assets/brands-color-1.png)
 
-1. Review your selection to confirm accuracy and visual consistency and click **[!UICONTROL Add]** to save your color.
+1. 檢閱您的選取範圍以確認正確性和視覺一致性，然後按一下[新增] **[!UICONTROL 以儲存您的色彩。]**
 
-1. Then, enter your guideline or exclusion.
+1. 然後，輸入您的指引或排除。
 
-1. Specify the Usage context for your guideline or exclusion:
+1. 指定指引或排除專案的使用內容：
 
-    * **[!UICONTROL Channel type]**: Choose where this guideline, exception, or exclusion should apply. For example, you may want a specific writing style to appear only in Email, Mobile, Prints, or other communication channels.
+   * **[!UICONTROL 管道型別]**：選擇此建議、例外或排除的適用位置。 例如，您可能希望特定的書寫樣式僅顯示在電子郵件、行動裝置、列印或其他通訊通道中。
 
-    * **[!UICONTROL Element type]**: Specify which content element the rule applies to. This could include elements such as Headings, Buttons, Links, or other components within your content.
+   * **[!UICONTROL 專案型別]**：指定規則套用的內容專案。 這可能包括標題、按鈕、連結或內容中的其他元件等元素。
 
-      ![](assets/brands-color-2.png)
-  
-1. Once your guideline, exception, or exclusion is set up, click **[!UICONTROL Add]**. 
+     ![](assets/brands-color-2.png)
 
-1. If needed, select one of your guideline or exclusion to update or delete.
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
 
-1. Select one your guideline or exclusion to update it. Click the ![Dive image alt text](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")icon to delete it. 
+1. 如有需要，請選取其中一個准則或排除專案來更新或刪除。
 
-    ![](assets/brands-color-3.png)
+1. 選取您的指引或排除專案以更新它。 按一下![Dive image alt text](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")圖示以刪除它。
 
-1. Click **[!UICONTROL Add group]** to define additional colors for your brand or to add a color scale group.
+   ![](assets/brands-color-3.png)
 
-You can now further personalize your brand or [publish your brand](brands.md#create-brand-kit).
+1. 按一下「**[!UICONTROL 新增群組]**」，為您的品牌定義其他顏色或新增色階群組。
 
--->
+您現在可以進一步個人化您的品牌，或[發佈您的品牌](brands.md#create-brand-kit)。
+
