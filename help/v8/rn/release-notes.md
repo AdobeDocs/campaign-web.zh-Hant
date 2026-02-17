@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 43%
+source-wordcount: '274'
+ht-degree: 47%
 
 ---
 
@@ -66,7 +66,7 @@ _2026 年 2 月 17 日_
 <tr>
 <td>
 <p>行銷活動詳細目錄現在包含時間軸檢視，可讓您隨著時間視覺化和管理行銷活動：在清單和時間軸之間切換、依周、月或日導覽、使用「今天」按鈕跳至目前日期，以及在右側面板中開啟行銷活動詳細資訊（狀態、工作流程、傳送），且篩選器和搜尋與清單檢視相同。</p>
-<!--p>For more information, refer to the detailed documentation.</p-->
+<p>如需詳細資訊，請參閱<a href="../campaigns/manage-campaigns.md#timeline">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -82,16 +82,16 @@ _2026 年 2 月 17 日_
 <tr>
 <td>
 <p>您現在可以直接從Campaign網頁使用者介面建立和管理方案。 此功能可讓您建立新表格、擴充現有方案和建立自訂表單。 您可以定義自訂資料結構，以支援您的特定業務需求，而不需要存取使用者端主控台。</p>
-<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
+<p>如需詳細資訊，請參閱<a href="../administration/schemas.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 功能改進 {#26-2-improvements}
+### 改進 {#26-2-improvements}
 
 * 品牌指南現在包含色彩區段，定義品牌色彩系統的標準，確保所有體驗中的主要、次要、輔色和中性色彩使用的一致性。
-  <!--[Learn more](../content/brands-personalize.md)-->
+  [了解更多](../content/brands-personalize.md)
 
 
 
