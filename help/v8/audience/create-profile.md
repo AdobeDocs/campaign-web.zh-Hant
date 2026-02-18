@@ -64,6 +64,6 @@ ht-degree: 46%
    | **自訂欄位** | 如果自訂欄位已設定，則會顯示在此區段中。 自訂欄位是透過Adobe Campaign主控台新增到&#x200B;**[!UICONTROL 設定檔]**&#x200B;結構描述的其他屬性。 在[Adobe Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}中進一步瞭解 |
    | **其他** | 其他內建屬性。 |
 
-1. 設定設定檔之後，按一下[建立]，將其儲存到資料庫中。****
+1. 設定設定檔之後，按一下[建立]，將其儲存到資料庫中。**&#x200B;**
 
    儲存後，您可以隨時從設定檔清單中開啟設定檔來編輯設定檔。 [瞭解如何探索設定檔的詳細資料](profile-view.md)。
