@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
+source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 47%
+source-wordcount: '243'
+ht-degree: 52%
 
 ---
 
@@ -88,10 +88,12 @@ _2026 年 2 月 17 日_
 </tbody>
 </table>
 
-### 改進 {#26-2-improvements}
+<!--
 
-* 品牌指南現在包含色彩區段，定義品牌色彩系統的標準，確保所有體驗中的主要、次要、輔色和中性色彩使用的一致性。
-  [了解更多](../content/brands-personalize.md)
+### Improvement {#26-2-improvements}
+
+* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
+[Learn more](../content/brands-personalize.md)-->
 
 
 
