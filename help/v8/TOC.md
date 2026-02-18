@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 0f12c504e92d564bdd7a07915a54905975ffbe10
+source-git-commit: 039d5447d7283072feb1a8555d203e15b0fadcc7
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 97%
+source-wordcount: '998'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 97%
    + [早期發行版](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
    + 先前版本 {#previous-release-notes}
+      + [2026 版本](rn/release-notes-26.md)
       + [2025 版本](rn/release-notes-25.md)
       + [2024 版本](rn/release-notes-24.md)
    + [文件更新](rn/documentation-updates.md)
@@ -95,7 +96,7 @@ ht-degree: 97%
       + [傳遞提醒條件](msg/delivery-alerting-criteria.md)
 + 內容管理 {#content}
    + 建立動態內容 {#dynamic-content}
-      + [如何製作動態內容？ &#x200B;](personalization/gs-personalization.md)
+      + [如何製作動態內容？ ](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
       + [建立條件內容](personalization/conditions.md)
    + 重複使用內容 {#manage-reusable-content}
@@ -226,8 +227,8 @@ ht-degree: 97%
       + [匯出您的報告](reporting/export-reports.md)
       + 傳遞報告 {#delivery-report}
          + [開始使用傳遞報告](reporting/delivery-reports.md)
-         + [以電子郵件寄送傳遞報告 &#x200B;](reporting/email-report.md)
-         + [推播傳遞報告 &#x200B;](reporting/push-report.md)
+         + [以電子郵件寄送傳遞報告 ](reporting/email-report.md)
+         + [推播傳遞報告 ](reporting/push-report.md)
          + [以簡訊傳送傳遞報告](reporting/sms-report.md)
          + [外部傳遞報告](reporting/direct-mail.md)
       + 行銷活動報告 {#campaign-report}
@@ -281,7 +282,14 @@ ht-degree: 97%
       + [指派品牌](administration/branding/branding-assign.md)
    + [使用業務規則 (類型)](administration/typologies.md)
    + [管理目標對應](administration/target-mappings.md)
-   + [使用結構描述](administration/schemas.md)
+   + 使用結構描述 {#schemas}
+      + [關於綱要](administration/schemas.md)
+      + [存取和設定方案](administration/schemas-browse-access.md)
+      + [設定清單欄](administration/schemas-list-columns.md)
+      + [編輯自訂欄位](administration/schemas-custom-fields.md)
+      + [新增集合清單](administration/schemas-collection-lists.md)
+      + [建立和發佈結構描述](administration/schemas-create-publish.md)
+      + [使用自訂表格](administration/schemas-custom-forms.md)
    + [設定自訂欄位](administration/custom-fields.md)
    + [設定 [!DNL Campaign] 選項](administration/options.md)
    + [時區管理](administration/timezone-management.md)
