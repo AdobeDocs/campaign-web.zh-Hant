@@ -23,7 +23,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_deliveries_overview_email"
 >title="傳遞概觀"
->abstract=" **傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可深入了解您的對象如何與您傳送的電子郵件傳遞和行銷活動進行互動。"
+>abstract="**傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可深入了解您的對象如何與您傳送的電子郵件傳遞和行銷活動進行互動。"
 
 **[!UICONTROL 傳遞總覽]**&#x200B;提供關鍵效能量度(KPI)，提供訪客與每個電子郵件傳遞互動的深入分析。 這些量度概述如下。
 
@@ -49,7 +49,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_email"
 >title="初始目標對象統計資料"
->abstract="**目標對象**&#x200B;表格和圖表提供了有關收件者參與的見解，幫助您評估行銷活動和傳遞的有效性。"
+>abstract="**目標對象**&#x200B;表格和圖表提供了有關收件者參與的洞察，幫助您評估行銷活動和傳遞的有效性。"
 
 **[!UICONTROL 目標對象]**&#x200B;的表格和圖表會展示與收件者相關的資料，其詳細量度如下。
 
@@ -99,7 +99,7 @@ ht-degree: 24%
 
 排除圖表和表格說明了從目標設定檔排除的使用者設定檔無法接收訊息的原因。
 
-電子郵件錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#email-error-types){target="_blank"}中。
+電子郵件錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
 
 ## 傳遞總處理能力 {#delivery-throughput}
 
@@ -133,7 +133,7 @@ ht-degree: 24%
 
 每個型別&#x200B;**[!UICONTROL 資料表與圖表的]**&#x200B;錯誤劃分會顯示與不同網域中可能發生的錯誤相關的資料，具體量度如下。
 
-此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hant){target="_blank"}。
+此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
 +++深入瞭解每個型別量度的錯誤劃分。
 
@@ -171,7 +171,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="傳遞統計資料"
->abstract="**傳遞統計資料**&#x200B;關鍵績效指標 (KPI) 會詳盡地概述您的傳遞和行銷活動績效，提供關於成功傳遞、遇到的錯誤以及使用者參與的深入分析。"
+>abstract="**傳遞統計資料**&#x200B;關鍵績效指標 (KPI) 會詳盡地概述您的傳遞和行銷活動績效，提供關於成功傳遞、遇到的錯誤以及使用者參與的洞察。"
 
 **[!UICONTROL 傳遞統計資料]**&#x200B;量度提供關鍵績效指標(KPI)，提供有關每個電子郵件傳遞相關資料的詳細資訊。 這些量度的進一步詳細資訊如下。
 

@@ -23,7 +23,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_sms_global_report_overview"
 >title="SMS 傳遞概觀"
->abstract=" **SMS 傳遞概觀** KPI 提供了 SMS 傳遞的全面摘要，提供詳細的見解和具體資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
+>abstract="**SMS 傳遞概觀** KPI 提供了 SMS 傳遞的全面摘要，提供詳細的洞察和具體資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
 
 **[!UICONTROL 傳遞概覽]**&#x200B;報告提供全面的關鍵績效指標(KPI)，深入分析訪客與每個SMS傳遞的互動模式。 以下為下列量度。
 
@@ -67,7 +67,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_delivery_stats"
 >title="簡訊傳遞統計資料"
->abstract="**傳遞統計資料**&#x200B;報告提供了對傳送的簡訊的全面見解，提供了各種指標的詳細資訊，例如成功率、錯誤發生次數和被隔離的對象。透過這份詳細的簡報，可以全面檢查簡訊傳遞過程的整體績效和結果。"
+>abstract="**傳遞統計資料**&#x200B;報告提供了對傳送的簡訊的全面洞察，提供了各種指標的詳細資訊，例如成功率、錯誤發生次數和被隔離的對象。透過這份詳細的簡報，可以全面檢查簡訊傳遞過程的整體績效和結果。"
 
 **[!UICONTROL 傳遞統計資料]**&#x200B;表格詳細說明每次SMS傳遞的成功情況。 量度詳情如下。
 
@@ -83,7 +83,7 @@ ht-degree: 27%
 
 * **[!UICONTROL 新隔離]**：與要傳送的訊息數目相關的傳送失敗後（例如，使用者不明、無效的網域）被隔離的地址總數。
 
-  SMS錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#sms-quarantines){target="_blank"}中。
+  SMS錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}中。
 
 +++
 
@@ -96,7 +96,7 @@ ht-degree: 27%
 
 排除原因&#x200B;**[!UICONTROL 圖形與表格會顯示從目標設定檔中排除的使用者設定檔無法接收簡訊傳送的原因。]**
 
-錯誤型別列於[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#email-error-types){target="_blank"}中。
+錯誤型別列於[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}中。
 
 ![排除原因報告的熒幕擷圖，顯示SMS傳遞排除的原因。](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
@@ -105,7 +105,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_sms"
 >title="簡訊傳遞輸送量"
->abstract="**傳遞輸送量**&#x200B;報告提供了有關簡訊傳遞系統效率的廣泛見解，詳細概述了指定時間範圍內的成功率和錯誤率。"
+>abstract="**傳遞輸送量**&#x200B;報告提供了有關簡訊傳遞系統效率的廣泛洞察，詳細概述了指定時間範圍內的成功率和錯誤率。"
 
 ![傳遞輸送量報告的熒幕擷圖，顯示一段時間內SMS傳遞的成功和錯誤率。](assets/global_report_sms_delivery_throughput.png){zoomable="yes"}
 

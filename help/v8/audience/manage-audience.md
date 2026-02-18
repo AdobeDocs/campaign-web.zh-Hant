@@ -38,13 +38,13 @@ ht-degree: 25%
 
 對象可以源自多個來源。 **[!UICONTROL Origin]**&#x200B;欄指出特定對象的建立位置：
 
-* **[!UICONTROL Adobe Campaign]**：這些對象已在[Adobe Campaign Web使用者介面](create-audience.md)或[Adobe Campaign v8使用者端主控台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=zh-Hant){target="_blank"}中建立。
+* **[!UICONTROL Adobe Campaign]**：這些對象已在[Adobe Campaign Web使用者介面](create-audience.md)或[Adobe Campaign v8使用者端主控台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}中建立。
 
-* **[!UICONTROL Adobe Experience Platform：]**&#x200B;這些對象已在Adobe Experience Platform中建立，並已使用Adobe來源和目標整合整合功能整合至Campaign Web。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hant){target="_blank"}中瞭解如何設定這項整合。
+* **[!UICONTROL Adobe Experience Platform：]**&#x200B;這些對象已在Adobe Experience Platform中建立，並已使用Adobe來源和目標整合整合功能整合至Campaign Web。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}中瞭解如何設定這項整合。
 
   ➡️ [在影片中探索此功能](#video)
 
-若要取得對象的其他資訊，請從清單中將其開啟。 畫面會顯示對象屬性，以及對象中包含的設定檔數量。 隨時使用&#x200B;**[!UICONTROL 計算]**&#x200B;按鈕重新整理對象計數。
+若要取得對象的其他資訊，請從清單中將其開啟。 畫面會顯示對象屬性，以及對象中包含的設定檔數量。 隨時使用&#x200B;**[!UICONTROL 計算]**&#x200B;按鈕重新整理受眾規模。
 
 若要預覽對象的暫存結構描述，請按一下「屬性」區段下的&#x200B;**[!UICONTROL 結構描述預覽]**&#x200B;按鈕。
 
@@ -60,4 +60,4 @@ ht-degree: 25%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-有關如何設定Adobe來源與目的地整合的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hant){target="_blank"}。
+有關如何設定Adobe來源與目的地整合的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}。

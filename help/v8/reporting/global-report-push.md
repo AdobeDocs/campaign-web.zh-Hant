@@ -23,7 +23,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_push_global_report_overview"
 >title="推播傳遞概觀"
->abstract="推播&#x200B;**傳遞概觀** KPI 可對您的推播傳遞進行徹底檢查，提供詳細的見解和特定資料。它提供了有關傳遞績效、有效性和結果的全面詳細資訊。"
+>abstract="推播&#x200B;**傳遞概觀** KPI 可對您的推播傳遞進行徹底檢查，提供詳細的洞察和特定資料。它提供了有關傳遞績效、有效性和結果的全面詳細資訊。"
 
 **[!UICONTROL 傳遞總覽]**&#x200B;報告提供關鍵績效指標(KPI)，可提供訪客如何與每個推播通知傳遞互動的詳細資訊。 量度詳情如下。
 
@@ -83,7 +83,7 @@ ht-degree: 23%
 
 * **[!UICONTROL 新隔離]**：在傳送失敗（無效註冊、郵件拒絕、裝載錯誤及類似原因）之後被隔離的地址總數，與要傳送的郵件數相關。
 
-  推播通知錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#push-error-types){target="_blank"}中。
+  推播通知錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
 
 +++
 
@@ -96,7 +96,7 @@ ht-degree: 23%
 
 排除原因&#x200B;**[!UICONTROL 圖形與表格會顯示從目標設定檔中排除的使用者設定檔無法接收訊息的原因。]**
 
-推播通知錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#push-error-types){target="_blank"}中。
+推播通知錯誤型別列在[Adobe Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}中。
 
 ## 傳遞總處理能力 {#delivery-throughput-sms}
 

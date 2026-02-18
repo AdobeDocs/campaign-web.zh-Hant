@@ -84,7 +84,7 @@ ht-degree: 19%
 >title="傳遞排除原因"
 >abstract="**排除原因**&#x200B;圖表顯示傳遞準備期間被拒絕之郵件的分佈，依每個規則進行分類。"
 
-**[!UICONTROL 排除原因]**&#x200B;圖表提供傳遞準備期間訊息拒絕原因的明細。 此劃分會依各種規則組織，提供造成訊息排除的因素詳細檢視。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=zh-Hant#email-error-types){_blank}中有詳細說明。
+**[!UICONTROL 排除原因]**&#x200B;圖表提供傳遞準備期間訊息拒絕原因的明細。 此劃分會依各種規則組織，提供造成訊息排除的因素詳細檢視。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}中有詳細說明。
 
 ![排除圖顯示依規則之拒絕訊息分佈的原因。](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
