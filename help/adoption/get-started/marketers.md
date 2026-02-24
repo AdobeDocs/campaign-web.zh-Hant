@@ -33,7 +33,7 @@ ht-degree: 18%
 
 在以下影片中，瞭解如何存取和導覽Campaign網頁使用者介面，以及如何自訂詳細目錄清單。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453433?captions=chi_hant&quality=12&learn=on){transcript=true}
 
 如需更多詳細資料，請參閱以下檔案：
 
@@ -54,13 +54,13 @@ ht-degree: 18%
 
 1. 透過此影片瞭解如何使用Campaign網頁使用者介面存取、管理和探索設定檔：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3448375?captions=chi_hant&quality=12&learn=on){transcript=true}
 
    在[開始使用設定檔](../../v8/audience/about-recipients.md)檔案中進一步瞭解。
 
 1. 瞭解如何在Campaign v8中建立和管理測試設定檔
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3442906?captions=chi_hant&quality=12&learn=on){transcript=true}
 
 ### 管理對象 {#acs-gs-marketers-audiences}
 
@@ -68,7 +68,7 @@ ht-degree: 18%
 
 透過此影片瞭解如何建立及管理對象、如何選取傳送對象及定義控制群組：
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453213?captions=chi_hant&quality=12&learn=on){transcript=true}
 
 如需詳細資訊，請參閱[開始使用對象](../../v8/audience/manage-audience.md){target="_blank"}。
 
@@ -146,7 +146,7 @@ Campaign Web使用者介面已完全重新構想工作流程使用者介面，�
 
 透過此影片瞭解工作流程的工作原理以及如何建立目標工作流程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453983?captions=chi_hant&quality=12&learn=on){transcript=true}
 
 透過[Worklow檔案](../../v8/workflows/gs-workflows.md)取得更多詳細資料。
 
@@ -202,7 +202,7 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 
 在本影片中瞭解如何從頭開始建立電子郵件傳送、定義對象、設計內容、模擬預覽和傳送校樣：
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3454016?captions=chi_hant&quality=12&learn=on){transcript=true}
 
 在[建立您的第一封電子郵件檔案](../../v8/email/create-email.md)中瞭解如何建立您的第一封目標電子郵件
 
@@ -214,13 +214,13 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 
    了解如何導覽電子郵件設計工具。透過以下影片，瞭解如何從草稿開始架構和設計電子郵件、如何個人化及測試您的電子郵件：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3453576?captions=chi_hant&quality=12&learn=on){transcript=true}
 
    電子郵件設計工具提供直覺易用的拖放介面，協助您建立引人注目、個別量身打造的電子郵件。在[電子郵件Designer檔案](../../v8/email/get-started-email-designer.md)中進一步瞭解
 
    在本影片中瞭解如何透過上傳HTML建立電子郵件、如何使其與電子郵件Designer相容，以及如何將其轉換為範本：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3447043?captions=chi_hant&quality=12&learn=on){transcript=true}
 
    內容片段是可重複使用的元件，可在一則或多則訊息中參考。深入瞭解[內容片段](../../v8/content/fragments.md)，以簡化電子郵件傳遞的建立。
 
@@ -230,7 +230,7 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 
    在此影片中，瞭解如何在熱門的案頭、行動裝置和網頁型使用者端中預覽電子郵件訊息內容及個人化、傳送測試傳送（校樣）並檢查電子郵件呈現：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3450348?captions=chi_hant&quality=12&learn=on){transcript=true}
 
 1. **傳送電子郵件並檢查記錄**
 
@@ -320,7 +320,7 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 
 直接郵件是一種離線管道，可讓您產生檔案以向客戶大量傳遞個人化信件，例如明信片、傳單或目錄。建立直接郵件傳遞時，Adobe Campaign 會自動產生一個摘取檔案，其中包含所有目標輪廓和選定資料，例如郵寄地址和輪廓屬性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3433316/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451794/?captions=chi_hant&learn=on)
 
 在Campaign v8中，建立、測試和傳送直接郵件傳送的詳細步驟類似於Campaign Standard。
 
