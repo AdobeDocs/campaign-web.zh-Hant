@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用行銷活動
 description: 了解如何開始使用跨管道行銷活動
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 176b6abeee5391cc806b1660b2fd5bb39c654945
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 24%
@@ -29,7 +29,7 @@ ht-degree: 24%
 
 **[!UICONTROL 瀏覽]**&#x200B;索引標籤提供行銷活動的目前狀態、開始和結束日期、建立日期、上次修改行銷活動的時間等資訊。 按一下清單右上角的「**設定自訂版面的欄**」圖示，即可自訂要顯示的欄。這可讓您新增或移除行銷活動清單中的欄，以及重新排序資訊。
 
-### 搜尋和篩選詳細目錄 {#search}
+### 搜尋和篩選詳細目錄 {#search-and-filter}
 
 搜尋列和篩選器可方便您在清單中輕鬆搜尋。 [進一步瞭解](../get-started/user-interface.md#list-screens)。例如，您可以根據您的行銷活動排程進行篩選。開啟篩選器面板並使用&#x200B;**開始 - 結束日期**&#x200B;區段：
 

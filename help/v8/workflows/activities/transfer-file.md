@@ -3,7 +3,7 @@ audience: end-user
 title: 使用傳輸檔案活動
 description: 瞭解如何使用傳輸檔案工作流程活動
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 27%
@@ -155,6 +155,8 @@ ht-degree: 27%
    * **[!UICONTROL 遵循重新導向]**：檔案重新導向可讓您使用覆寫，將資料輸入或輸出導向到其他型別的裝置。
    * **[!UICONTROL 將HTTP標頭新增至檔案]**：在某些情況下，您可能想要將額外的HTTP標頭新增至檔案。 最常見的情況是，這些標頭將用於提供其他資訊以進行疑難排解、用於[跨原始資源共用(CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS)，或用於設定特定的快取指示。
    * **[!UICONTROL 忽略HTTP傳回碼]**： HTTP傳回碼（也稱為HTTP狀態碼）表示HTTP要求的結果。
+
+   +++
 
 1. 如果傳輸期間發生任何錯誤，**[!UICONTROL 處理錯誤]**&#x200B;選項可讓您在活動後啟動「錯誤」出站轉變。
 
