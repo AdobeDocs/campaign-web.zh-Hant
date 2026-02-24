@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 52%
+source-wordcount: '267'
+ht-degree: 56%
 
 ---
 
@@ -75,13 +75,14 @@ _2026 年 2 月 17 日_
 <table>
 <thead>
 <tr>
-<th><strong>結構描述製作</strong><br/></th> 
+<th><strong>結構描述製作(LA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>您現在可以直接從Campaign網頁使用者介面建立和管理方案。 此功能可讓您建立新表格、擴充現有方案和建立自訂表單。 您可以定義自訂資料結構，以支援您的特定業務需求，而不需要存取使用者端主控台。</p>
+<p>注意：此功能目前僅開放給某些組織使用 (有限開放)，並將在未來版本中在全面推出。</p>
 <p>如需詳細資訊，請參閱<a href="../administration/schemas.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
