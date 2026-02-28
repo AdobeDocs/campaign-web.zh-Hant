@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
 source-wordcount: '1083'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -104,6 +104,6 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_initialization"
 >title="初始化指令碼"
->abstract="本節可讓您定義在工作流程開始時執行的JavaScript程式碼。 它可用來在執行任何工作流程活動之前初始化變數、設定引數或準備資料。"
+>abstract="您可以透過此區段定義在工作流程開始時執行的 JavaScript 程式碼。其可用於在執行任何工作流程活動之前初始化變數、設定參數或準備資料。"
 
 **初始化指令碼**&#x200B;可讓您初始化變數或修改活動屬性。 按一下&#x200B;**編輯程式碼**&#x200B;按鈕，然後輸入要執行的程式碼片段。 執行工作流程時會呼叫指令碼。 請參閱與[事件變數](../workflows/event-variables.md)相關的章節。

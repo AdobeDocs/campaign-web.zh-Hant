@@ -6,7 +6,7 @@ exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="輪廓擴充"
->abstract="您現在可以將Campaign資料庫欄位連結至內容，以個人化交易式訊息。 選取目標對應、擴充欄及調解金鑰，以精確即時個人化。"
+>abstract="您現在可以將 Campaign 資料庫欄位連結至內容，將交易型訊息個人化。選取目標對應、擴充欄及調和索引鍵，達到精確的即時個人化。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 此功能可讓您將Adobe Campaign資料庫欄位連結至訊息內容，以個人化異動訊息。 您可以選取目標對應、擴充欄和調和索引鍵，以確保準確且即時的個人化，同時維持績效臨界值。

@@ -7,7 +7,7 @@ exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn6"
 >title="行銷活動核准管理"
->abstract="您現在可以在傳送傳遞前協調利害關係人驗證。 需要行銷經理、資料分析師或其他團隊的核准，以進行品質控制。"
+>abstract="您現在可於傳送傳遞前協調利害關係人驗證。需要行銷經理、資料分析師或其他團隊的核准，以此進行品質控制。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 >[!IMPORTANT]

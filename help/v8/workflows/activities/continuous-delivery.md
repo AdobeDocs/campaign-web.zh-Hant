@@ -6,7 +6,7 @@ exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 3%
+ht-degree: 25%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="持續傳遞活動"
->abstract="您現在可以將新收件者新增至現有傳遞。 此傳送型別可避免每次都必須建立新傳送，因此可更有效地視需要傳送低流量警報或通知。"
+>abstract="您現在可以將新收件者新增至現有傳遞中。此傳遞類型不需要每次都建立新的傳遞，對於低頻率的警示或依需求傳送的通知而言，能大幅提升效率。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
-**持續傳遞**&#x200B;活動可讓您新增收件者到現有的傳遞。 此傳送型別可避免每次都必須建立新傳送，因此可更有效地視需要傳送低流量警報或通知。
+**持續傳遞**&#x200B;活動可讓您新增收件者到現有的傳遞。 此傳遞類型不需要每次都建立新的傳遞，對於低頻率的警示或依需求傳送的通知而言，能大幅提升效率。
 
 持續傳遞會建立單一傳遞執行個體。 所有傳遞記錄(broadLog)和追蹤記錄都參考這個傳遞，藉此簡化監控和報告。
 

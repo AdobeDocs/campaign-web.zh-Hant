@@ -9,7 +9,7 @@ exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="啟用輪廓擴充"
->abstract="選取設定檔擴充的欄位。 只有具有索引的欄位才能選取為調和索引鍵。不支援的欄位會呈現灰色。"
+>abstract="選取用於輪廓擴充的欄位。只有具備索引的欄位才能選取為調和索引鍵。不支援的欄位會顯示為灰色。"
 
 您可以從「**[!UICONTROL 傳遞]**」左側選單建立獨立的傳遞，或在工作流程的內容中建立傳遞，無論是否在行銷活動之內。
 

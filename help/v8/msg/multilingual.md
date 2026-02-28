@@ -6,7 +6,7 @@ exl-id: eea0e997-4da2-4998-b010-234626b21353
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1514'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="多語言傳遞"
->abstract="您現在可以在Campaign網頁UI中以多種語言傳送訊息。 針對推播通知，請上傳CSV檔案來填入所有語言變體。"
+>abstract="您現在可於 Campaign 網頁使用者介面中以多種語言傳送訊息。針對推播通知，請上傳 CSV 檔案填入所有語言變化版本。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 >[!CONTEXTUALHELP]
@@ -25,8 +25,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_multilingual_file_upload"
->title="匯入語言變體"
->abstract="使用此對話方塊可透過匯入CSV檔案來新增語言變體。 檔案會自動填入所選語言的所有可用欄位。 您可以拖放檔案，或在確認之前從電腦中選擇檔案。"
+>title="匯入語言變化版本"
+>abstract="使用此對話框，匯入 CSV 檔案，新增語言變化版本。檔案會自動填入所選語言的所有可用欄位。您可以拖放檔案，或在確認之前從電腦中選擇檔案。"
 
 在Campaign Web UI中，您可以將傳送設定為多語言，這可讓您根據設定檔的偏好語言傳送訊息。 未定義偏好設定時，訊息會以預設語言傳送。
 

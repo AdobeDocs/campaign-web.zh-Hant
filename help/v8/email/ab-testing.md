@@ -6,7 +6,7 @@ exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
->title="內容實驗 — A/B測試"
->abstract="您現在可以定義多個傳遞變體，以測試哪個變體的效能最佳。 依電子郵件元素來變更內容、主旨或寄件者，以決定最佳結果。"
+>title="內容實驗 - A/B 測試"
+>abstract="您現在可以定義多個傳遞變化版本，測試哪個版本的績效最佳。變更電子郵件元素的內容、主旨或寄件者，決定最佳結果。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 ## 關於內容實驗 {#about-content-experiment}
