@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 039d5447d7283072feb1a8555d203e15b0fadcc7
+source-git-commit: 881412b57de83ed7a7098653a03a77523e86c790
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1003'
 ht-degree: 95%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 95%
       + [傳遞提醒條件](msg/delivery-alerting-criteria.md)
 + 內容管理 {#content}
    + 建立動態內容 {#dynamic-content}
-      + [如何製作動態內容？ &#x200B;](personalization/gs-personalization.md)
+      + [如何製作動態內容？ ](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
       + [建立條件內容](personalization/conditions.md)
    + 重複使用內容 {#manage-reusable-content}
@@ -140,6 +140,7 @@ ht-degree: 95%
       + 品牌 {#ai-assistant}
          + [建立和管理您的品牌](content/brands.md)
          + [個人化您的品牌](content/brands-personalize.md)
+         + [建立和管理產生模型](content/generative-models.md)
          + [評估您的內容](content/brands-score.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](landing-pages/get-started-lp.md)
@@ -227,8 +228,8 @@ ht-degree: 95%
       + [匯出您的報告](reporting/export-reports.md)
       + 傳遞報告 {#delivery-report}
          + [開始使用傳遞報告](reporting/delivery-reports.md)
-         + [以電子郵件寄送傳遞報告 &#x200B;](reporting/email-report.md)
-         + [推播傳遞報告 &#x200B;](reporting/push-report.md)
+         + [以電子郵件寄送傳遞報告 ](reporting/email-report.md)
+         + [推播傳遞報告 ](reporting/push-report.md)
          + [以簡訊傳送傳遞報告](reporting/sms-report.md)
          + [外部傳遞報告](reporting/direct-mail.md)
       + 行銷活動報告 {#campaign-report}
