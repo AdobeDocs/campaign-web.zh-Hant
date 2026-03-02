@@ -2,10 +2,10 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
+source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 56%
+source-wordcount: '369'
+ht-degree: 42%
 
 ---
 
@@ -17,6 +17,26 @@ ht-degree: 56%
 >abstract="Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，Campaign 發行說明每月更新數次，提供最新功能、改進和修正。我們建議您定期檢查。"
 
 Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，這些發行說明每月會更新多次。請定期進行檢查。
+
+## 2026年3月更新 {#26-3-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>整合自訂Firefly模型與協力廠商影像產生模型</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>可緊密整合標準與自訂Firefly模型，以及經核准的協力廠商影像模型，以便在產生影像時提供更大的彈性、控制力及品牌一致性。</p>
+<p>選擇符合您需求的正確模式：</p>
+<ul><li> <strong>Adobe模型</strong> (由Firefly Image Model 4提供技術支援)可立即產生影像，無需額外設定</li><li> <strong>合作夥伴機型</strong> （由Gemini 2.5 Flash提供），提供專門的功能</li><li><strong>自訂模型</strong> （在您自己的資產上訓練的品牌特定模型），用於品牌上產生，完全符合您的品牌識別、風格和視覺准則。</li></ul>
+<p>如需詳細資訊，請參閱<a href="../content/generative-models.md">詳細文件</a>以瞭解詳情。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2026年2月發行 {#26-2-release}
 
