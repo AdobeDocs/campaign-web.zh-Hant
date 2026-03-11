@@ -34,7 +34,7 @@ ht-degree: 22%
 
 隨著行銷產業變得更具競爭力，品牌們開始尋求有效率的方式，以迅速產生具影響力的內容。 Adobe Campaign Web中的AI助理採用Microsoft Azure OpenAI和Adobe Firefly技術，是Adobe的AI內容產生功能，可轉變行銷人員如何跨電子郵件、SMS和推播通知等管道建立專業且品牌一致的內容。 透過進階GenAI模型和對品牌指導方針的深入瞭解，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，針對品牌概述的樣式、版面、色調等最佳化內容。
 
-AI Assistant支援多種語言產生&#x200B;****，讓您能夠觸及並吸引不同的全球對象。 AI助理提供下列語言版本：
+AI Assistant支援多種語言產生&#x200B;**&#x200B;**，讓您能夠觸及並吸引不同的全球對象。 AI助理提供下列語言版本：
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
