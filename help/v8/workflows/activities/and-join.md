@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: f0929390f9873516afec641d2febf3e58cb67e3d
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 48%
+ht-degree: 51%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
->title="加入活動"
->abstract="加入活動的預留位置。"
+>title="連接活動"
+>abstract="連接活動的預留位置。"
 
 「**合併連結**」活動是一種&#x200B;**流程控制**&#x200B;活動。它會同步工作流程的多個執行分支。
 

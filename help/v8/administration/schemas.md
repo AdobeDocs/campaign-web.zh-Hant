@@ -1,20 +1,20 @@
 ---
-title: 關於綱要
+title: 關於結構描述
 description: 瞭解如何使用結構描述。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 6%
+ht-degree: 23%
 
 ---
 
-# 關於綱要 {#schemas}
+# 關於結構描述 {#schemas}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="結構描述"
->abstract="Adobe Campaign使用XML型結構描述來定義應用程式中資料的實體和邏輯結構。 在此畫面中，您可以直接從Web使用者介面檢視所有現有方案、存取方案詳細資料、設定自訂表單，以及建立或擴充方案。"
+>abstract="Adobe Campaign 使用 XML 型結構描述來定義應用程式內資料的物理和邏輯結構。在此畫面中，您可以直接從 Web 使用者介面檢視所有現有結構描述、存取結構描述詳細資料、設定自訂表單，以及建立或擴充結構描述。"
 
 **[!DNL Adobe Campaign]** 使用 XML 型結構描述來定義應用程式內資料的物理和邏輯結構。架構是連結至資料庫表格的XML檔案，其定義：
 
