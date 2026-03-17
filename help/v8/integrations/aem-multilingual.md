@@ -103,7 +103,7 @@ Adobe Experience Manager整合可讓您使用Adobe Experience Manager語言副�
 
    ![](assets/lg-copy-9.png)
 
-1. 選取其他語言復本以包含更多變體，然後按一下[儲存]。****
+1. 選取其他語言復本以包含更多變體，然後按一下[儲存]。**&#x200B;**
 
    ![](assets/lg-copy-11.png)
 
