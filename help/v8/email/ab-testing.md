@@ -3,9 +3,9 @@ audience: end-user
 title: 建立內容實驗
 description: 瞭解如何在Adobe Campaign網頁中建立內容實驗
 exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 6ed7b0bc20d456b781339eb2d82607691e9e7dd7
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1198'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 5%
 >title="內容實驗 - A/B 測試"
 >abstract="您現在可以定義多個傳遞變化版本，測試哪個版本的績效最佳。變更電子郵件元素的內容、主旨或寄件者，決定最佳結果。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_content_experiment"
+>title="內容實驗"
+>abstract="內容實驗可定義多個A/B測試傳送變體，以測量哪些變體最適合您的目標對象。 您可以變更傳遞內容、主旨或寄件者，以測試不同版本並判斷哪個變體產生最佳結果。"
 
 ## 關於內容實驗 {#about-content-experiment}
 
@@ -64,7 +69,7 @@ Adobe Campaign網站中的內容實驗可讓您定義多個A/B測試傳送變體
 
 例如，如果目標對象為10,000位收件者以及對象人數為10%，則會隨機選取1,000位收件者參與實驗。 實驗結束後，其餘9,000位收件者將收到成功變體。
 
-### 成功策略 {#winning-strategy}
+### 獲勝策略 {#winning-strategy}
 
 選取將用於決定成功變體的量度：
 
