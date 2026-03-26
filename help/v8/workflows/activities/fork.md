@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「分支」工作流程活動
 description: 了解如何使用「分支」工作流程活動
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 55%
+source-wordcount: '184'
+ht-degree: 51%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 55%
 >abstract="依預設，透過&#x200B;**分支**&#x200B;活動建立二個轉變。按一下&#x200B;**新增轉變**&#x200B;按鈕以定義額外的傳出轉變，並輸入其標籤。"
 
 「**分支**」活動是一種&#x200B;**流程控制**&#x200B;活動。它可讓您建立出站轉變，以同時啟動多個活動。
+
+您也可以使用&#x200B;**新增分支** (**+**)工具列按鈕來建立個別分支。 請參閱[協調活動](../orchestrate-activities.md#toolbar)。
 
 ## 設定分叉活動 {#fork-configuration}
 

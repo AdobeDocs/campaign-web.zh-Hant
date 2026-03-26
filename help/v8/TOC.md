@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 881412b57de83ed7a7098653a03a77523e86c790
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1011'
 ht-degree: 95%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 95%
       + [傳遞提醒條件](msg/delivery-alerting-criteria.md)
 + 內容管理 {#content}
    + 建立動態內容 {#dynamic-content}
-      + [如何製作動態內容？ &#x200B;](personalization/gs-personalization.md)
+      + [如何製作動態內容？ ](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
       + [建立條件內容](personalization/conditions.md)
    + 重複使用內容 {#manage-reusable-content}
@@ -115,6 +115,7 @@ ht-degree: 95%
          + [從頭開始](email/create-email-content.md)
          + [匯入您的電子郵件內容](email/existing-content.md)
          + [為自己的內容撰寫程式碼](email/code-content.md)
+         + [對您的電子郵件內容套用主題](email/apply-email-themes.md)
       + 設計您的內容 {#design-content}
          + [使用內容元件](email/content-components.md)
          + [新增連結和追蹤訊息](email/message-tracking.md)
@@ -190,7 +191,7 @@ ht-degree: 95%
       + [開始並監控工作流程](workflows/start-monitor-workflows.md)
    + 使用工作流程活動 {#design-workflows}
       + [關於工作流程活動](workflows/activities/about-activities.md)
-      + [合併連結](workflows/activities/and-join.md)
+      + [自動化傳遞](workflows/activities/automated-delivery.md)
       + [建置客群](workflows/activities/build-audience.md)
       + [變更資料來源](workflows/activities/change-data-source.md)
       + [變更維度](workflows/activities/change-dimension.md)
@@ -204,6 +205,7 @@ ht-degree: 95%
       + [分支](workflows/activities/fork.md)
       + [增量查詢](workflows/activities/incremental-query.md)
       + [JavaScript 程式碼](workflows/activities/javascript-code.md)
+      + [加入](workflows/activities/join.md)
       + [載入檔案](workflows/activities/load-file.md)
       + [調和](workflows/activities/reconciliation.md)
       + [儲存客群](workflows/activities/save-audience.md)
@@ -228,8 +230,8 @@ ht-degree: 95%
       + [匯出您的報告](reporting/export-reports.md)
       + 傳遞報告 {#delivery-report}
          + [開始使用傳遞報告](reporting/delivery-reports.md)
-         + [以電子郵件寄送傳遞報告 &#x200B;](reporting/email-report.md)
-         + [推播傳遞報告 &#x200B;](reporting/push-report.md)
+         + [以電子郵件寄送傳遞報告 ](reporting/email-report.md)
+         + [推播傳遞報告 ](reporting/push-report.md)
          + [以簡訊傳送傳遞報告](reporting/sms-report.md)
          + [外部傳遞報告](reporting/direct-mail.md)
       + 行銷活動報告 {#campaign-report}
@@ -284,7 +286,7 @@ ht-degree: 95%
    + [使用業務規則 (類型)](administration/typologies.md)
    + [管理目標對應](administration/target-mappings.md)
    + 使用結構描述 {#schemas}
-      + [關於綱要](administration/schemas.md)
+      + [關於結構描述](administration/schemas.md)
       + [存取和設定方案](administration/schemas-browse-access.md)
       + [設定清單欄](administration/schemas-list-columns.md)
       + [編輯自訂欄位](administration/schemas-custom-fields.md)

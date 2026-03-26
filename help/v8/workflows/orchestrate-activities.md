@@ -3,10 +3,10 @@ audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 10%
+source-wordcount: '1321'
+ht-degree: 9%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 10%
 工具列位於畫布的右上角，提供可輕鬆操控活動並在畫布中導覽的選項：
 
 * **多重選取模式**：選取多個活動以一次刪除所有活動，或複製並貼上這些活動。 請參閱[本節](#copy)。
+* **新增分支**：按一下工具列中的&#x200B;**+**&#x200B;按鈕，在畫布上建立單獨的執行分支。 結果等同於對平行路徑使用[分支](activities/fork.md)，但圖表會以圖形方式更清楚。
 * **旋轉**：垂直切換畫布。
 * **符合熒幕大小**：調整畫布縮放等級以符合熒幕。
 * **縮小** / **放大**：縮小或進入畫布。
@@ -143,7 +144,7 @@ Journey Optimizer可讓您將活動及其子節點的全部內容（包括其內
 
 ## 範例 {#example}
 
-以下是工作流程範例，其設計是透過電子郵件傳送電子郵件給所有對咖啡機感興趣的客戶(VIP客戶除外)。
+以下是工作流程範例，其設計是透過電子郵件傳送電子郵件給所有對咖啡機感興趣的客戶（VIP客戶除外）。
 
 ![工作流程範例圖表](assets/workflow-example.png){zoomable="yes"}
 
