@@ -3,20 +3,14 @@ audience: end-user
 title: 建立內容實驗
 description: 瞭解如何在Adobe Campaign網頁中建立內容實驗
 exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
-source-git-commit: 6ed7b0bc20d456b781339eb2d82607691e9e7dd7
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 5%
+source-wordcount: '1165'
+ht-degree: 3%
 
 ---
 
 # 建立內容實驗 {#content-experiment}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="內容實驗 - A/B 測試"
->abstract="您現在可以定義多個傳遞變化版本，測試哪個版本的績效最佳。變更電子郵件元素的內容、主旨或寄件者，決定最佳結果。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content_experiment"

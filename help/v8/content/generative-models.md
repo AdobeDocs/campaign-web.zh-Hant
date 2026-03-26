@@ -4,14 +4,21 @@ description: 瞭解如何建立及管理您的創造性模型
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
+exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
 
 # 建立和管理產生模型 {#generative-models}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="整合影像產生模型"
+>abstract="可緊密整合標準與自訂Firefly模型，以及經核准的協力廠商影像模型，以便在產生影像時提供更大的彈性、控制力及品牌一致性。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 使用內建模型、自訂Firefly模型和協力廠商影像產生提供者，擴展您的AI影像建立功能，以符合您的特定需求並改善品牌一致性。
 
@@ -21,7 +28,7 @@ ht-degree: 0%
 - 由Gemini 2.5 Flash支援的&#x200B;**[!UICONTROL 合作夥伴機型]**&#x200B;針對特定使用案例提供特殊功能。
 - **[!UICONTROL 自訂模型]**&#x200B;是在您自己的資產上訓練並由您的組織新增的品牌特定模型。
 
-  在&#x200B;**[!UICONTROL Adobe Firefly檔案]**&#x200B;中進一步瞭解[自訂模型](https://helpx.adobe.com/tw/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  在&#x200B;**[!UICONTROL Adobe Firefly檔案]**&#x200B;中進一步瞭解[自訂模型](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
 在設定之後，當您在內容中建立影像時，可以選取任何產生模型。 [進一步瞭解如何產生影像](generative-image.md)。
 
@@ -45,7 +52,7 @@ ht-degree: 0%
 
    ![](assets/gen-model-manage-6.png){zoomable="yes"}
 
-1. 按一下[新增模型]&#x200B;**&#x200B;**，從頭開始建立新的產生模型。
+1. 按一下[新增模型]****，從頭開始建立新的產生模型。
 
 現在當您在內容中建立影像時，可以選取任何產生模型。 [進一步瞭解如何產生影像](generative-image.md)。
 
@@ -59,7 +66,7 @@ ht-degree: 0%
 
 透過建立自訂Firefly模型提供者，您可以將AI功能擴展至預設模型之外，並確保產生的內容一致地反映您品牌獨特的審美觀和要求。
 
-➡️ [瞭解如何訓練您的自訂模型](https://helpx.adobe.com/tw/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [瞭解如何訓練您的自訂模型](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. 從&#x200B;**[!UICONTROL 品牌]**&#x200B;功能表，存取&#x200B;**[!UICONTROL 產生式模型]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增模型]**。
 
@@ -69,7 +76,7 @@ ht-degree: 0%
 
 1. 輸入您的&#x200B;**[!UICONTROL 模型識別碼]**。
 
-   若要尋找Firefly模型ID，請存取Firefly網站並導覽至您訓練的模型。 發佈後，模型的管理區段中會提供唯一識別碼。 如需詳細資訊，請參閱[Firefly自訂模型檔案](https://helpx.adobe.com/tw/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)。
+   若要尋找Firefly模型ID，請存取Firefly網站並導覽至您訓練的模型。 發佈後，模型的管理區段中會提供唯一識別碼。 如需詳細資訊，請參閱[Firefly自訂模型檔案](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)。
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 

@@ -3,10 +3,10 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 48e7712a3471a063537f4e8e05d389acd77c7123
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 98%
+source-wordcount: '530'
+ht-degree: 84%
 
 ---
 
@@ -52,9 +52,15 @@ ht-degree: 98%
 >[!BEGINTABS]
 
 
->[!TAB 2026年2月發行版本]
+>[!TAB 2026年3月版本]
 
-2月版本已上線。 新功能和增強功能現已在 Campaign Web 使用者介面中提供。如需完整概觀，請參閱發行說明。
+3月版本已上線。 Campaign網路使用者介面現在提供新功能和增強功能。 重點包括：
+
+* **結構描述編寫(GA)** — 直接在Campaign Web UI中建立和管理結構描述。
+* **電子郵件Designer (LA)中的主題** — 套用可重複使用的主題樣式和變數，讓電子郵件內容與您的品牌保持一致。
+* **工作流程增強功能** - **自動傳送**&#x200B;和&#x200B;**開始**&#x200B;活動現已可用，且&#x200B;**加入**&#x200B;現在支援OR選項。 您現在也可以將多個分支新增至工作流程。
+
+如需完整概觀，請參閱發行說明。
 
 [![了解更多按鈕](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

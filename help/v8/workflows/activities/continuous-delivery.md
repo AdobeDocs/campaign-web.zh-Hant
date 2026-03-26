@@ -3,20 +3,14 @@ audience: end-user
 title: 使用持續傳遞工作流程活動
 description: 瞭解如何使用持續傳遞工作流程活動
 exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 25%
+source-wordcount: '241'
+ht-degree: 14%
 
 ---
 
 # 持續傳遞 {#continuous-delivery}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="持續傳遞活動"
->abstract="您現在可以將新收件者新增至現有傳遞中。此傳遞類型不需要每次都建立新的傳遞，對於低頻率的警示或依需求傳送的通知而言，能大幅提升效率。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 **持續傳遞**&#x200B;活動可讓您新增收件者到現有的傳遞。 此傳遞類型不需要每次都建立新的傳遞，對於低頻率的警示或依需求傳送的通知而言，能大幅提升效率。
 
@@ -45,5 +39,6 @@ ht-degree: 25%
 ## 相關主題 {#related}
 
 * [關於工作流程活動](about-activities.md)
+* [自動化傳遞](automated-delivery.md)
 * [電子郵件、簡訊、推播、直接郵件活動](channels.md)
 * [傳遞範本](../../msg/delivery-template.md)

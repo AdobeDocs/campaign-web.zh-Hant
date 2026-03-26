@@ -4,20 +4,14 @@ title: 設定及管理核准流程
 description: 瞭解如何在Campaign Web中管理行銷活動的核准
 feature: Approvals, Campaigns
 exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 8%
+source-wordcount: '694'
+ht-degree: 5%
 
 ---
 
 # 管理核准流程 {#campaign-approvals}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn6"
->title="行銷活動核准管理"
->abstract="您現在可於傳送傳遞前協調利害關係人驗證。需要行銷經理、資料分析師或其他團隊的核准，以此進行品質控制。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 >[!IMPORTANT]
 >

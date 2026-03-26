@@ -3,20 +3,14 @@ audience: end-user
 title: 設定多語言傳遞
 description: 瞭解如何設定多語言傳送
 exl-id: eea0e997-4da2-4998-b010-234626b21353
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 8%
+source-wordcount: '1484'
+ht-degree: 6%
 
 ---
 
 # 設定多語言傳遞 {#multilingual-delivery}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="多語言傳遞"
->abstract="您現在可於 Campaign 網頁使用者介面中以多種語言傳送訊息。針對推播通知，請上傳 CSV 檔案填入所有語言變化版本。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
