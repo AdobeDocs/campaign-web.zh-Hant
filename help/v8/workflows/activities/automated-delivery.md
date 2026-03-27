@@ -51,7 +51,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->轉換&#x200B;**中指定的**&#x200B;和&#x200B;**由指令碼計算**&#x200B;選項（用於進階使用案例）只能在使用者端主控台中設定。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}。
+>轉換&#x200B;**中指定的**&#x200B;和&#x200B;**由指令碼計算**&#x200B;選項（用於進階使用案例）只能在使用者端主控台中設定。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}。
 
 ## 選取要執行的動作 {#action-to-execute}
 
