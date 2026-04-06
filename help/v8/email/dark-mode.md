@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 深色模式，電子郵件，顏色，編輯器
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 10%
@@ -69,7 +69,7 @@ ht-degree: 10%
 
 例如，這些使用者端為：
 
-* Gmail (案頭網頁郵件、iOS、Android、行動網頁郵件)
+* Gmail （案頭網頁郵件、iOS、Android、行動網頁郵件）
 * Outlook Windows
 * Outlook Windows Mail
 
@@ -148,7 +148,8 @@ ht-degree: 10%
 <!--
 >[!WARNING]
 >
->Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.-->
+>Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.
+-->
 
 若要運用Email Designer自訂深色模式樣式，Journey Optimizer會使用<!-- `@media (prefers-color-scheme: dark)` method--> `@media (prefers-color-scheme: dark)` CSS查詢，會偵測使用者的電子郵件使用者端是否已設為深色模式，並套用您電子郵件中定義的深色主題設計。
 
@@ -204,15 +205,19 @@ ht-degree: 10%
 
 * 避免僅依賴背景顏色處理重要內容。 有些使用者端會以深色模式覆寫背景顏色，因此請確定關鍵資訊仍然可見。
 
-<!--**Inline critical styles**
+<!--
+**Inline critical styles**
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.
+-->
 
 **在深色模式中設計可存取的內容**
 
-<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
+<!--
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
-The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).-->
+The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
+-->
 
 * 使用顏色組合，可輕鬆區別色盲人士。
 

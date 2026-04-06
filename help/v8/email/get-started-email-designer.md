@@ -3,8 +3,8 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 了解如何使用 Campaign Web 使用者介面中的電子郵件設計工具開始建置您的內容
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 
@@ -17,9 +17,11 @@ ht-degree: 100%
 
 電子郵件設計工具提供直覺易用的拖放介面，協助您建立引人注目、個別量身打造的電子郵件。無論是從空白顯示窗開始，還是匯入現有內容或者利用現有範本，您都可以針對每封電子郵件 (不論是促銷型或交易型) 設計和調整所有內容。
 
-<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or content fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+<!--
+Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or content fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
 
-The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
+The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.
+-->
 
 * 使用[!DNL Campaign]電子郵件設計功能，可輕鬆建置回應式電子郵件。[了解更多](create-email-content.md)
 

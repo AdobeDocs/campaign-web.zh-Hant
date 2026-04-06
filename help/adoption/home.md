@@ -3,7 +3,7 @@ keywords: Campaign Classic;home;popular topics
 description: 轉換到 Campaign v8 的 Campaign Standard 使用者，了解如何開始使用。
 title: Adobe Campaign採用指南
 exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 57%
@@ -89,7 +89,8 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多數概念都類似。 以
       <strong>Developer resources</strong><br/><a href="../v8/dev/datamodel.md">Campaign v8 datamodel</a> - <a href="../v8/dev/schemas.md">Schemas</a> - <a href="../v8/dev/api.md">APIs</a>
     </td>
   </tr>
-</table> -->
+</table> 
+-->
 
 ## 額外資源
 

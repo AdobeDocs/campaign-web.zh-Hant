@@ -3,7 +3,7 @@ audience: end-user
 title: 傳送簡訊傳遞
 description: 瞭解如何使用Adobe Campaign網頁版傳送簡訊
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 12%
@@ -32,7 +32,7 @@ ht-degree: 12%
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
     ![Selecting test profiles for SMS preview](assets/sms_send_2.png){zoomable="yes"}
-    -->
+—>
 
 1. 在右窗格中，檢視SMS傳送的預覽，其中個人化元素會以所選設定檔的資料動態取代。
 

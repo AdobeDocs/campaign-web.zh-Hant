@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 2835c114-0878-4c41-9071-165d71840941
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 30%
@@ -46,7 +46,8 @@ Adobe Campaign可讓您鎖定電子郵件範本中的內容，鎖定整個範本
 <!--
 >[!IMPORTANT]
 >
->Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.-->
+>Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.
+-->
 
 可在&#x200B;**結構**&#x200B;層級或&#x200B;**元件**&#x200B;層級套用內容鎖定。 以下是鎖定範本中的內容時，在結構和元件層級套用的主要原則：
 
@@ -67,7 +68,8 @@ Adobe Campaign可讓您鎖定電子郵件範本中的內容，鎖定整個範本
 >擁有建立內容範本許可權的使用者可以啟用內容鎖定。
 
 <!--
-➡️ [Discover this feature in video](#video)-->
+➡️ [Discover this feature in video](#video)
+-->
 
 ## 鎖定電子郵件範本 {#define}
 
@@ -201,4 +203,5 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451618?captions=chi_hant&quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+-->

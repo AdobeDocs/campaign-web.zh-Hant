@@ -3,7 +3,7 @@ audience: end-user
 title: 交易型訊息傳遞功能
 description: 關於Adobe Campaign Web的交易式訊息傳送
 exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 13%
@@ -17,10 +17,12 @@ ht-degree: 13%
 >title="交易型訊息傳遞功能"
 >abstract="交易型傳訊是 Adobe Campaign 中專門用來處理觸發訊息的模組。"
 
-<!-- >>[!CONTEXTUALHELP]
+<!--
+>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional messaging exclusion logs"
->abstract="Transactional messaging exclusion logs" -->
+>abstract="Transactional messaging exclusion logs" 
+-->
 
 交易型傳訊是 Adobe Campaign 中專門用來處理觸發訊息的模組。這些訊息會自動產生，以回應來自資訊系統的事件。 此類事件的常見範例包括按一下按鈕或連結、放棄購買、要求產品可用性警示、建立或修改帳戶。
 

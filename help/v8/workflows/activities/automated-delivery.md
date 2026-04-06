@@ -3,7 +3,7 @@ audience: end-user
 title: 自動化傳送工作流程活動
 description: 瞭解如何使用自動傳送工作流程活動
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 4%
@@ -26,7 +26,8 @@ ht-degree: 4%
 **自動傳遞**&#x200B;活動可讓您直接在您的工作流程中建立、設定及執行傳遞動作。 當您想要依排程執行預先定義的交貨，或作為自動化流程的一部份，或當您想要在每次活動執行時從樣版產生新交貨時，使用此選項。
 
 <!--
-**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. -->
+**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. 
+-->
 
 若要設定此活動，請遵循下列步驟：
 
@@ -51,7 +52,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->轉換&#x200B;**中指定的**&#x200B;和&#x200B;**由指令碼計算**&#x200B;選項（用於進階使用案例）只能在使用者端主控台中設定。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}。
+>轉換&#x200B;**中指定的**&#x200B;和&#x200B;**由指令碼計算**&#x200B;選項（用於進階使用案例）只能在使用者端主控台中設定。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}。
 
 ## 選取要執行的動作 {#action-to-execute}
 

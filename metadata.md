@@ -9,16 +9,16 @@ landing-page-breadcrumb-title: Campaign
 type: Documentation
 git-repo: https://github.com/AdobeDocs/campaign-web.zh-Hant
 index: true
-source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 98%
+ht-degree: 71%
 
 ---
 
 
-# 內部使用的中繼資料
+# 內部專用中繼資料
 
-Metadata.md 檔案包含回購層級中繼資料，這些中繼資料傳遞至回購中的使用手冊 TOC.md 檔案。如果您想要變更任何使用手冊的 metadata.md 內容，請於任何 TOC.md 檔案進行變更。
+metadata.md 檔案包含存放庫層級的中繼資料，會將以上資料傳遞至存放庫中的使用者指南 TOC.md 檔案。若您想針對任何使用者指南，變更 metadata.md 的內容，請開啟任何 TOC.md 檔案，就能變更資料。
 
-如需&#x200B;**解決方案**、**產品**&#x200B;和&#x200B;**類型**&#x200B;的有效值清單，請參閱[中繼資料](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=zh-Hant)。
+請參閱[中繼資料](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=en)，以取得&#x200B;**解決方案**、**產品**&#x200B;和&#x200B;**型別**&#x200B;的有效值清單。

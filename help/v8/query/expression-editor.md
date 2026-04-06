@@ -3,7 +3,7 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 36%
@@ -22,7 +22,7 @@ ht-degree: 36%
 >[!IMPORTANT]
 >
 >有一個全新的查詢建模器介面可供使用，若要切換至這個新的規則產生器體驗，請按一下右上角的切換按鈕。 您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。 您可以在此新介面中套用與查詢建模程式相同的原則。
->&#x200B;>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
+>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
 
 ## 使用運算式編輯器 {#edit}
 
@@ -524,11 +524,13 @@ ht-degree: 36%
    <td> 如果值1 =值2，則傳回值3。 如果未傳回值4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <!--
+<tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> -->
+  </tr> 
+-->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 傳回值　1（只能用作　case　函式的參數）<br /> </td> 

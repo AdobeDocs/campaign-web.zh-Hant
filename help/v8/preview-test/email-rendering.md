@@ -3,7 +3,7 @@ audience: end-user
 title: 測試電子郵件轉譯
 description: 瞭解如何在Campaign網頁使用者介面中測試電子郵件呈現
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -68,4 +68,5 @@ To test the email rendering, follow these steps:
     >
     >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.
 
- -->
+ 
+-->

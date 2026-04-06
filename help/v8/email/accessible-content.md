@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 1%
@@ -26,7 +26,6 @@ ht-degree: 1%
 
 此頁面旨在讓您的內容可供所有收件者存取，以確保身心障礙人士可以閱讀、理解並互動您使用[!DNL Adobe Campaign]設計的電子郵件和登入頁面。
  
-
 ## 確保文字可讀性 {#text-readability}
 
 運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 [了解更多](content-components.md#text)
@@ -49,7 +48,7 @@ ht-degree: 1%
 **色彩對比**
 
 * 維持文字與背景之間的對比率至少為4.5:1。
-* 對於大型文字(≥24px或粗體18px)，請確定至少3:1對比度。
+* 對於大型文字（≥24px或粗體18px），請確定至少3:1對比度。
 * 避免白色背景上的淺灰色或淡色文字。
 * 請勿僅仰賴顏色來傳達意義，而是要使用底線、圖示等。
 
@@ -135,7 +134,7 @@ ht-degree: 1%
 
 * [WebAim對比檢查程式](https://webaim.org/resources/contrastchecker/){target="_blank"}和[WAVE網頁協助工具評估工具](https://wave.webaim.org/){target="_blank"}，以評估對比和相容性；
 
-* 熒幕助讀程式之類的輔助技術(例如： [NVDA](https://www.nvaccess.org/download/){target="_blank"}，或iPhone上的[VoiceOver](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"})，可從視障使用者的角度體驗電子郵件。
+* 熒幕助讀程式之類的輔助技術（例如： [NVDA](https://www.nvaccess.org/download/){target="_blank"}，或iPhone上的[VoiceOver](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"}），可從視障使用者的角度體驗電子郵件。
 
 ## 使用深色模式 {#dark-mode}
 
@@ -316,7 +315,8 @@ ht-degree: 1%
 <!--
 >[!TIP]
 >
->Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
+>Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.
+-->
 
 ## 提供鍵盤導覽和焦點支援 {#keyboard}
 

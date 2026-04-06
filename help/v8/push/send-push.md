@@ -3,7 +3,7 @@ audience: end-user
 title: 傳送推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web傳送推播通知傳遞
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 2%
@@ -24,8 +24,10 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**[!UICONTROL 新增訂閱者]**&#x200B;以選取一或多個設定檔，以便在推播通知內容中預覽其資料。
 
-   <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png){zoomable="yes"}-->
+   <!--
+    Once your test subscribers are selected, click **[!UICONTROL Select]**.
+    ![](assets/push_send_5.png){zoomable="yes"}
+    -->
 
 1. 在右窗格中，尋找推播通知的預覽，其中個人化元素會以所選設定檔的資料動態取代。
 
@@ -63,4 +65,4 @@ ht-degree: 2%
 
 傳送傳遞後，從傳遞頁面追蹤關鍵績效指標(KPI)資料，並從&#x200B;**[!UICONTROL 記錄檔]**&#x200B;功能表追蹤資料。
 
-開始使用內建報告測量訊息的影響。 [了解更多](../reporting/push-report.md)。
+開始使用內建報告測量訊息的影響。 [了解更多資訊](../reporting/push-report.md)。
