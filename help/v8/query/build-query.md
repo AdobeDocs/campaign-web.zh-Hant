@@ -70,7 +70,7 @@ ht-degree: 7%
 >
 >* 對於具有許多值的欄位，只會顯示前20個值。 在這種情況下，通知&#x200B;**[!UICONTROL 部分載入]**&#x200B;會警告您。
 >* 每個屬性選擇器中都可以存取&#x200B;**[!UICONTROL 值分佈]**&#x200B;選項。 [瞭解如何選取屬性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[!A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[ !A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 新增篩選元件 {#filtering}
 
