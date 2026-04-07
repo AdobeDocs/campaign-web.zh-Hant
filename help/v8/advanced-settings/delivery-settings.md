@@ -92,7 +92,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->型別規則是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+>型別規則是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}中進一步瞭解。
 
 ## 對象設定 {#audience}
 
@@ -130,7 +130,7 @@ ht-degree: 39%
 
 * **[!UICONTROL 測試SMTP傳遞]** （電子郵件通道）：此選項用於測試透過SMTP的傳送。 電子郵件會處理到連線至SMTP伺服器，但不會傳送：對於每個電子郵件收件者，Campaign會連線至SMTP提供者伺服器、執行SMTP RCPT TO命令，並在SMTP DATA命令之前關閉連線。
 
-* **[!UICONTROL 電子郵件密件副本]** （電子郵件頻道）：此選項是用來透過密件副本在外部系統上儲存電子郵件，只要將密件副本電子郵件地址新增到您的郵件目標即可。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+* **[!UICONTROL 電子郵件密件副本]** （電子郵件頻道）：此選項是用來透過密件副本在外部系統上儲存電子郵件，只要將密件副本電子郵件地址新增到您的郵件目標即可。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}中進一步瞭解。
 
 在&#x200B;**[!UICONTROL 波段定義]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 使用多個波段傳送]**&#x200B;選項，以逐步增加使用波段傳送的音量。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 [了解更多](send-using-waves.md)
 
@@ -159,7 +159,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->Web Analytics功能是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=zh-Hant#external-account-ac){target="_blank"}中進一步瞭解。
+>Web Analytics功能是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}中進一步瞭解。
 
 ## 重試次數 {#retries}
 
@@ -346,7 +346,7 @@ ht-degree: 39%
 此表格列出要隨每則訊息傳送的選用引數。 欄包含下列資訊：
 
    * **標籤**：這是選用的自由格式標籤。 不會傳輸給提供者。 您可以提供引數的文字說明。
-   * **標籤**：標籤值，以十進位格式(例如12345)或具有0x首碼的十六進位（例如0x12ab）。 標籤可介於0到65535之間。 向SMPP服務提供者詢問他們支援的標籤。
+   * **標籤**：標籤值，以十進位格式（例如12345）或具有0x首碼的十六進位（例如0x12ab）。 標籤可介於0到65535之間。 向SMPP服務提供者詢問他們支援的標籤。
    * **值**：要傳入選用引數的值。 此為個人化欄位。
    * **格式**：用於引數的編碼。 您可以選取任何支援的文字編碼或最常見的二進位格式。 向SMPP服務提供者詢問所需的格式。
    * **最大長度**：此引數的最大位元組數。 由於二進位欄位的大小固定，因此二進位欄位會忽略此項。
