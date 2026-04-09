@@ -4,10 +4,10 @@ title: 開始使用登陸頁面
 description: 了解 Campaign Web 的登陸頁面
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
+workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -61,11 +61,11 @@ ht-degree: 100%
 <p>
 </td>
 <td>
-<a href="lp-templates.md">
-<img alt="使用登陸頁面的內容範本" src="../assets/do-not-localize/lp-reporting.jpg">
+<a href="lp-use-cases.md">
+<img alt="登入頁面使用案例與內建範本" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="lp-templates.md"><strong>使用內容範本</strong></a>
+<a href="lp-use-cases.md"><strong>登陸頁面使用案例</strong></a>
 </div>
 <p>
 </td>
