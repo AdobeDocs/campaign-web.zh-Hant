@@ -2,10 +2,9 @@
 title: Campaign v8 Web 使用者介面早期發行說明
 description: 探索下一個 Campaign Web 使用者介面版本的新功能
 hide: true
-hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
+workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
 
