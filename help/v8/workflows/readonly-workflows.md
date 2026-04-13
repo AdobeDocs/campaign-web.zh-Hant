@@ -52,4 +52,4 @@ Campaign使用者存取Adobe Campaign資料的能力可能受到限制。 Campai
 
 ![技術工作流程介面處於唯讀模式，顯示暫停或停止工作流程的選項。](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-在[本節](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)中進一步瞭解技術工作流程。
+在[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)中進一步瞭解技術工作流程。
