@@ -159,7 +159,7 @@ The main steps to create landing pages are as follows:
 設定驗證碼可協助您保護登陸頁面免受垃圾郵件和濫用。
 
 若要使用，請移至登陸頁面的&#x200B;**[!UICONTROL 屬性]**。
-在**[!UICONTROL 其他選項]**&#x200B;中。 啟動&#x200B;**[!UICONTROL 額外啟用驗證碼解決方案]**&#x200B;切換按鈕。
+在&#x200B;**[!UICONTROL 其他選項]**&#x200B;中。 啟動&#x200B;**[!UICONTROL 額外啟用驗證碼解決方案]**&#x200B;切換按鈕。
 
 ![熒幕擷圖顯示[額外啟用驗證碼]解決方案切換](assets/lp-properties-captcha.png){zoomable="yes"}
 
