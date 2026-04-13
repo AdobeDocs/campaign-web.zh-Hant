@@ -3,9 +3,8 @@ title: 在 Campaign Web 中使用 AI 驅動的內容說明
 description: 在 Campaign Web 說明彈出視窗中提出問題
 badge: label="Beta"
 hide: true
-hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%

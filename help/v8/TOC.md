@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 95%
 + [Adobe Campaign Web 使用者介面文件](campaign-web-home.md)
 + 發行說明 {#release-notes}
    + [新增功能](rn/whats-new.md)
-   + [早期發行版](rn/e-release-notes.md)
+   + {hide-from-toc}[早期發行](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
    + 先前版本 {#previous-release-notes}
       + [2026 版本](rn/release-notes-26.md)
       + [2025 版本](rn/release-notes-25.md)
       + [2024 版本](rn/release-notes-24.md)
-   + [文件更新](rn/documentation-updates.md)
+   + {hide-from-toc}[檔案更新](rn/documentation-updates.md)
 + 開始使用 Adobe Campaign {#start}
    + [開始使用](get-started/get-started.md)
    + [連線至 Campaign](get-started/connect-to-campaign.md)
-   + [探索介面](get-started/user-interface.md)
+   + {hide-from-toc}[探索介面](get-started/user-interface.md)
    + [瀏覽和篩選清單](get-started/list-filters.md)
    + [使用預先定義的篩選器](get-started/predefined-filters.md)
    + [使用資料夾](get-started/work-with-folders.md)
@@ -36,7 +36,7 @@ ht-degree: 95%
    + [權限](get-started/permissions.md)
    + [Campaign Web 與用戶端控制台](get-started/capability-matrix.md)
    + [從 Campaign Standard 至 v8](rn/acs-migration.md)
-   + [採用 AI 技術的內容說明](get-started/using-ai.md)
+   + {hide-from-toc}[AI支援的內容說明](get-started/using-ai.md)
    + [常見問答集](get-started/faq.md)
 + 訊息和傳遞 {#msg}
    + [開始使用訊息](msg/gs-messages.md)
@@ -219,7 +219,7 @@ ht-degree: 95%
    + [使用查詢建模工具](query/query-modeler-overview.md)
    + [建置您的第一個查詢](query/build-query.md)
    + [編輯運算式](query/expression-editor.md)
-   + [查詢範例](query/query-samples.md)
+   + {hide-from-toc}[查詢範例](query/query-samples.md)
    + [篩選清單](query/filter.md)
 + 報告 {#reports}
    + [稽核軌跡](reporting/audit-trail.md)
@@ -292,7 +292,7 @@ ht-degree: 95%
       + [新增集合清單](administration/schemas-collection-lists.md)
       + [建立和發佈結構描述](administration/schemas-create-publish.md)
       + [使用自訂表格](administration/schemas-custom-forms.md)
-   + [設定自訂欄位](administration/custom-fields.md)
+   + {hide-from-toc}[設定自訂欄位](administration/custom-fields.md)
    + [設定 [!DNL Campaign] 選項](administration/options.md)
    + [時區管理](administration/timezone-management.md)
    + 外部帳戶 {#external-accounts}

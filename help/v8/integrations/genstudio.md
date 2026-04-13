@@ -22,7 +22,7 @@ ht-degree: 7%
 
 ## 開始使用GenStudio {#gs-genstudio}
 
-[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}是創作AI優先的應用程式，可讓行銷團隊建立自己的廣告和電子郵件，以推動具影響力、個人化的行銷活動，符合您的品牌標準並遵守您的企業政策。 透過運用Adobe AI技術，提供一套完整的工具，可簡化內容建立及管理的複雜性，讓創意人員可專注在創新上。
+[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}是創作AI優先的應用程式，可讓行銷團隊建立自己的廣告和電子郵件，以推動具影響力、個人化的行銷活動，符合您的品牌標準並遵守您的企業政策。 善用Adobe AI技術，提供一套完整的工具，簡化內容建立及管理的複雜性，讓創意人員可專注在創新上。
 
 >[!AVAILABILITY]
 >

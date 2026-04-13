@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送您的第一個電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d69042d4d968325d9d7d3e58f02d804cf435f8f6
+source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 43%
+source-wordcount: '1648'
+ht-degree: 44%
 
 ---
 
@@ -173,10 +173,7 @@ ht-degree: 43%
 
    ![根據選取的設定檔顯示電子郵件預覽的熒幕擷圖](assets/preview.png){zoomable="yes"}
 
-   <!--
-此外，**[!UICONTROL 轉譯電子郵件]**&#x200B;按鈕可讓您使用多個裝置或郵件提供者來預覽電子郵件。 瞭解如何預覽電子郵件呈現
-
-—>
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering-->
 
 1. 若要傳送校樣，請按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕，然後選擇您要使用的模式。
 
