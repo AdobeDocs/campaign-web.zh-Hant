@@ -26,7 +26,7 @@ ht-degree: 9%
 >id="acw_landingpages_templates"
 >title="請謹慎複製 URL"
 >abstract="建立登陸頁面時，四個現成的範本可讓您實作不同的使用案例：新增或更新設定檔至行銷活動資料庫、為客戶訂閱服務、取消訂閱服務，或選擇將使用者登出。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hant&#create-landing-page" text="設定登陸頁面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#create-landing-page" text="設定登陸頁面"
 
 若要正確使用登入頁面，請使用專用選項，將其參照為訊息中的連結。 您無法將已發佈傳遞控制面板中顯示的連結直接複製並貼到您的傳遞或網頁中。 請改用&#x200B;**模擬內容**&#x200B;功能來測試。
 

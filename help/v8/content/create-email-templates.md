@@ -113,7 +113,7 @@ ht-degree: 13%
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
-1. 範本準備就緒後，請按一下[儲存]。**&#x200B;**
+1. 範本準備就緒後，請按一下[儲存]。****
 
    如有需要，請按一下範本名稱旁的箭頭，返回&#x200B;**[!UICONTROL 詳細資料]**&#x200B;畫面並編輯您的範本。
 

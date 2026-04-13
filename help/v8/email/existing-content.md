@@ -56,4 +56,4 @@ ht-degree: 29%
 
 瞭解如何透過上傳HTML建立電子郵件、使其與電子郵件Designer相容，並將其轉換為範本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447043/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

@@ -29,7 +29,7 @@ ht-degree: 99%
 
 Adobe Campaign 提供跨管道客戶體驗設計的平台，也提供進行視覺化行銷活動協調、Real-time Interaction Management 以及 Cross-channel Execution 的環境。
 
-Adobe Campaign v8 是專為電子郵件、推播、簡訊和直接郵件等各種行銷管道打造的新一代行銷活動工具。其提供強大的 ETL 和資料管理功能，協助製作和策畫完美的行銷活動。其協調流程引擎能落實豐富的多點接觸行銷方案，並以批次主導的歷程為重點。此工具還包括可擴充的即時傳送訊息伺服器，讓行銷團隊能夠根據來自任何 IT 系統的全面性承載傳送預先定義的訊息，進行如密碼重設、訂單確認、電子收據等通訊。
+Adobe Campaign v8 是專為電子郵件、推播、簡訊和直接郵件等各種行銷管道打造的新一代行銷活動工具。它提供強大的 ETL 和資料管理功能，有助於製作和策畫完美的促銷活動。 其協調流程引擎能落實豐富的多點接觸行銷方案，並以批次主導的歷程為重點。此工具還包括可擴充的即時傳送訊息伺服器，讓行銷團隊能夠根據來自任何 IT 系統的全面性承載傳送預先定義的訊息，進行如密碼重設、訂單確認、電子收據等通訊。
 
 使用 Campaign 可以：
 
@@ -66,7 +66,7 @@ Campaign 資料儲存在應用程式伺服器中。從用戶端主控台以及 C
 
 Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI-powered Knowledge Assistant.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453433?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
 -->
 
 <!--
@@ -96,7 +96,7 @@ With workflows, you can orchestrate the full range of processes and tasks, impro
 
 Understand how workflows work and how to create a targeting workflow in this how-to video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3448375?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
 
 Adobe Campaign Web user interface features a query modeler that simplifies the process of filtering the database based on various criteria. Learn how to use it in [this section](../query/query-modeler-overview.md)
 
