@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 464be736082dfd895954388d879a9244d06824c9
+source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 94%
+source-wordcount: '1014'
+ht-degree: 93%
 
 ---
 
@@ -73,6 +73,8 @@ ht-degree: 94%
    + 呼叫中心 {#call-center}
       + [開始使用呼叫中心傳遞](call-center/gs-call-center.md)
       + [建立和傳送呼叫中心傳遞](call-center/create-call-center.md)
+   + {hide-from-toc}[開始使用WhatsApp](whatsapp/get-started-whatsapp.md)
+   + {hide-from-toc}[建立WhatsApp傳遞](whatsapp/create-whatsapp.md)
    + [自訂管道](call-center/gs-custom-channel.md)
    + 交易型訊息 {#transactional-messages}
       + [開始使用異動訊息](transactional-messaging/transactional.md)
