@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 使用者介面的產品文件。
 title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
-source-git-commit: 464be736082dfd895954388d879a9244d06824c9
+source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 94%
+source-wordcount: '1014'
+ht-degree: 93%
 
 ---
 
@@ -73,6 +73,8 @@ ht-degree: 94%
    + 呼叫中心 {#call-center}
       + [開始使用呼叫中心傳遞](call-center/gs-call-center.md)
       + [建立和傳送呼叫中心傳遞](call-center/create-call-center.md)
+   + {hide-from-toc}[開始使用WhatsApp](whatsapp/get-started-whatsapp.md)
+   + {hide-from-toc}[建立WhatsApp傳遞](whatsapp/create-whatsapp.md)
    + [自訂管道](call-center/gs-custom-channel.md)
    + 交易型訊息 {#transactional-messages}
       + [開始使用異動訊息](transactional-messaging/transactional.md)
@@ -96,7 +98,7 @@ ht-degree: 94%
       + [傳遞提醒條件](msg/delivery-alerting-criteria.md)
 + 內容管理 {#content}
    + 建立動態內容 {#dynamic-content}
-      + [如何製作動態內容？ &#x200B;](personalization/gs-personalization.md)
+      + [如何製作動態內容？ ](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
       + [建立條件內容](personalization/conditions.md)
    + 重複使用內容 {#manage-reusable-content}
@@ -229,8 +231,8 @@ ht-degree: 94%
       + [匯出您的報告](reporting/export-reports.md)
       + 傳遞報告 {#delivery-report}
          + [開始使用傳遞報告](reporting/delivery-reports.md)
-         + [以電子郵件寄送傳遞報告 &#x200B;](reporting/email-report.md)
-         + [推播傳遞報告 &#x200B;](reporting/push-report.md)
+         + [以電子郵件寄送傳遞報告 ](reporting/email-report.md)
+         + [推播傳遞報告 ](reporting/push-report.md)
          + [以簡訊傳送傳遞報告](reporting/sms-report.md)
          + [外部傳遞報告](reporting/direct-mail.md)
       + 行銷活動報告 {#campaign-report}
