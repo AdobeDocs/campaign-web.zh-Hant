@@ -2,10 +2,10 @@
 title: AI 助理使用案例
 description: 透過使用案例瞭解如何使用AI Assistant
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
+source-git-commit: 1580057d519aa1c9b2822cefc7fcf4c363c7a7e6
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 1%
+source-wordcount: '1237'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 1%
 ## 使用現有內容
 
 ![示範透過AI助理重複使用現有內容](assets/do-not-localize/gen-ai-reuse-text.gif)
+
+從行銷活動中的內容和內容產生變體，以便與您的訊息和對象保持一致。
 
 1. 設定傳遞之後，請選取&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -36,6 +38,8 @@ ht-degree: 1%
 ## 調整變數 {#refine}
 
 ![使用AI助理示範精簡內容變化](assets/do-not-localize/gen-ai-variation.gif)
+
+在選取最終文字之前，先在原位、色調、長度、措辭和策略中調整AI產生的變數。
 
 1. 設定並設定您的傳遞後，按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -67,6 +71,8 @@ ht-degree: 1%
 
 ![使用AI助理產生類似影像的示範](assets/do-not-localize/uc-image-similar.gif)
 
+如果影像幾乎適合，請產生其他選項，保留相同的整體外觀和主題。
+
 1. 設定傳遞之後，請選取&#x200B;**[!UICONTROL 編輯內容]**。
 
 1. 開啟&#x200B;**[!UICONTROL AI助理]**&#x200B;區段。
@@ -86,6 +92,8 @@ ht-degree: 1%
 ## 上傳樣式參考
 
 ![上傳AI助理樣式參考的示範](assets/do-not-localize/uc-image-reference.gif)
+
+上傳參考影像，讓新的視覺效果遵循所需的樣式、調色盤或構成。
 
 1. 設定並設定傳遞後，按一下[編輯內容]。**&#x200B;**
 
@@ -111,6 +119,8 @@ ht-degree: 1%
 
 ![AI Assistant的動畫示範，產生多種語言的內容，包括法文、西班牙文和德文](assets/do-not-localize/ai-language.gif)
 
+結合您的提示與明確的語言設定，以AI助理支援的語言產生文字。
+
 1. 設定並設定您的傳遞後，按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
 1. 開啟&#x200B;**[!UICONTROL AI助理]**&#x200B;功能表。
@@ -124,3 +134,94 @@ ht-degree: 1%
 1. 以您選取的語言檢閱&#x200B;**[!UICONTROL 變數建議]**。
 
 1. 找到適合的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
+
+## 使用參考內容進行產生
+
+![產生參考內容之AI助理的動畫示範](assets/do-not-localize/gen-url.gif)
+
+您可以新增&#x200B;**參考內容**、網頁或上傳的檔案，為AI助理提供更多內容，讓產生的副本和建議更接近您的原始資料。
+
+1. 當您的行銷活動準備就緒時，請按一下&#x200B;**[!UICONTROL 編輯內容]**。
+
+1. 開啟&#x200B;**[!UICONTROL AI助理]**。
+
+1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中顯示的內容。
+
+1. 在&#x200B;**[!UICONTROL 參考內容]**&#x200B;中，輸入頁面URL和識別它的名稱。
+
+1. 按一下「![上傳」圖示](assets/do-not-localize/Smock_UploadToCloudOutline_18_N.svg)以擷取頁面，並將其新增為參考內容以供產生。
+
+1. 若要改用檔案，請選擇&#x200B;**[!UICONTROL 上傳檔案選項]**&#x200B;並選取您的檔案。 支援的格式包括.pdf、.png、.jpg、.jpeg、.zip、.md、.doc、.txt和.docx。
+
+1. 在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;中，啟用或停用個別參考，或刪除您不再需要的內容。
+
+1. 視需要調整您的提示，然後按一下[產生]。**&#x200B;**
+
+1. 檢閱&#x200B;**[!UICONTROL 變數建議]**，然後針對您要使用的變數按一下&#x200B;**[!UICONTROL 選取]**。
+
+## 使用您的產生模型 {#generative-model}
+
+![使用自訂模型產生內容的AI助理動畫示範](assets/do-not-localize/gen-ai-model.gif)
+
+註冊自訂產生模型，並從AI Assistant透過它路由影像產生。
+
+1. 從&#x200B;**[!UICONTROL 品牌]**&#x200B;功能表，開啟&#x200B;**[!UICONTROL 產生式模型]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 新增模型]**。
+
+1. 輸入模型的&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 模型識別碼]**。
+
+1. 選擇性地輸入&#x200B;**[!UICONTROL 描述]**&#x200B;以區分清單中的這個模型。
+
+1. 按一下[測試連線]&#x200B;**[!UICONTROL 以驗證模型組態，然後按一下[儲存]]**。 **&#x200B;**&#x200B;模型會加入模型清單中。
+
+1. 從行銷活動中，按一下&#x200B;**[!UICONTROL 編輯內容]**。
+
+1. 選取要用AI助理修改的資產，並開啟&#x200B;**[!UICONTROL AI助理]**。
+
+1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中指定您的要求，並適當調整其餘設定。
+
+1. 開啟&#x200B;**[!UICONTROL 影像設定]**&#x200B;並選取您先前設定的&#x200B;**[!UICONTROL 產生式模型]**。
+
+1. 視需要調整提示，然後按一下[產生]。**&#x200B;**
+
+1. 檢閱所選語言的&#x200B;**[!UICONTROL 變化建議]**，並在識別出適當的變化後按一下&#x200B;**[!UICONTROL 選取]**。
+
+## 使用Gemini作為文字覆蓋影像的產生模型
+
+![使用Gemini作為產生模型產生AI助理內容的動畫示範](assets/do-not-localize/gen-nano.gif)
+
+選取&#x200B;**Gemini 2.5**&#x200B;作為產生式模型後，您可以在AI Assistant中產生影像變體、從URL、檔案或AI產生的提示新增文字覆蓋，然後在套用最終變體之前定位覆蓋。
+
+1. 當您的行銷活動準備就緒時，請按一下&#x200B;**[!UICONTROL 編輯內容]**。
+
+1. 選取要做為基本影像的資產，並開啟&#x200B;**[!UICONTROL AI小幫手]**。
+
+1. 按一下&#x200B;**[!UICONTROL 開啟設定]**&#x200B;以調整影像產生選項。
+
+1. 在&#x200B;**[!UICONTROL 產生模型]**&#x200B;下，選取&#x200B;**Gemini 2.5 (nano-banana)**。
+
+1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中輸入您的要求。
+
+1. 選擇您想要的變體數目，然後按一下[產生]。**&#x200B;**
+
+1. 在產生之後，預覽變體或調整設定以進行再生。 從進階功能表，您也可以：
+
+   * **[!UICONTROL 建立影像覆蓋]**
+   * **[!UICONTROL 產生類似專案]**
+   * **[!UICONTROL 裁切影像]**
+   * **[!UICONTROL 儲存至AEM資產]**
+   * **[!UICONTROL 刪除]**
+
+1. 選取&#x200B;**[!UICONTROL 建立影像覆蓋]**。 從URL新增覆蓋、上傳檔案，或使用&#x200B;**[!UICONTROL 使用AI產生文字覆蓋]**，並在&#x200B;**[!UICONTROL 提示]**&#x200B;中描述覆蓋。
+
+1. 按一下&#x200B;**[!UICONTROL 產生]**。
+
+1. 檢閱&#x200B;**[!UICONTROL 覆蓋變化]**&#x200B;並按一下&#x200B;**[!UICONTROL 套用]**。
+
+1. 視需要在影像上放置覆蓋圖。 從進階功能表，您可以：
+
+   * **[!UICONTROL 刪除覆蓋]**
+   * **[!UICONTROL 前進]**
+   * **[!UICONTROL 向後移動]**
+   * **[!UICONTROL 重複]**
+
+1. 當文字覆蓋看起來正確時，按一下&#x200B;**[!UICONTROL 儲存]**，然後按一下您要使用的變數&#x200B;**[!UICONTROL 套用]**。
