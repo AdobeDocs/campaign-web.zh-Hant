@@ -1,5 +1,5 @@
 ---
-title: 建立和管理產生模型
+title: 建立和管理生成模型
 description: 瞭解如何建立及管理您的創造性模型
 topic: Content Management
 role: User
@@ -8,16 +8,16 @@ exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# 建立和管理產生模型 {#generative-models}
+# 建立和管理生成模型 {#generative-models}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="整合影像產生模型"
->abstract="可緊密整合標準與自訂Firefly模型，以及經核准的協力廠商影像模型，以便在產生影像時提供更大的彈性、控制力及品牌一致性。"
+>title="影像生成模型整合"
+>abstract="啟用標準與自訂 Firefly 模型，以及經核准的第三方影像模型的緊密整合，以便在生成影像時提供更大的彈性、控制力及品牌一致性。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 使用內建模型、自訂Firefly模型和協力廠商影像產生提供者，擴展您的AI影像建立功能，以符合您的特定需求並改善品牌一致性。
