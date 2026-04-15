@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 20%
+ht-degree: 36%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="多個工作流程分支和加入活動"
->abstract="現在支援多個分支。 您可以按一下工具列上的「新增分支」 ，而不使用「分支」 。 合併連結活動也已改善。 它現在是通用的「聯結」活動，可讓您在「與」和「或」聯結選項之間選擇。"
+>title="多個工作流程分支和「加入」活動"
+>abstract="現已支援多個分支。您可以在工具列按一下「新增分支」，無需使用「分岔」。AND-join 活動同樣已改善。它現在是通用的「加入」活動，可讓您在「AND」和「OR」加入選項之間選擇。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 >[!CONTEXTUALHELP]
@@ -26,9 +26,9 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
 >title="連接活動"
->abstract="**加入**&#x200B;活動可讓您合併多個入站轉變。 選擇在所有入站轉變完成(AND)時還是任何入站轉變完成(OR)時繼續。"
+>abstract="「**加入**」活動可讓您合併多個入站轉變。選擇 (AND) 在所有入站轉變完成時繼續，或選擇 (OR) 在任一入站轉變完成時繼續。"
 
-**加入**&#x200B;活動是&#x200B;**流量控制**&#x200B;活動。 它會同步工作流程的多個執行分支。
+**加入**&#x200B;活動是&#x200B;**流量控制**活動。 它會同步工作流程的多個執行分支。
 您可以選擇如何評估入站轉變：
 
 * **AND**：僅在啟動所有選取的入站轉變後繼續。
@@ -38,7 +38,7 @@ ht-degree: 20%
 
 選取&#x200B;**或**&#x200B;時，只要其中一個選取的入站轉變啟動，就會繼續執行。 不會等待每個分支。
 
-## 設定加入活動 {#join-configuration}
+## 設定「加入」活動 {#join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
