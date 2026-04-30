@@ -4,9 +4,9 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
-workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 84%
+workflow-type: ht
+source-wordcount: '547'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
 >title="說明和文件"
->abstract="Campaign 現在會提供新的 Web 使用者介面 (UI)，具有增強的可用性、可存取性和新設計，可大幅提升您的使用者體驗。這個新的現代 UI 會簡化行銷活動的設計和傳遞，並帶來一致性和其他 Adobe 解決方案。"
+>abstract="Campaign 現在會提供新的 Web 使用者介面 (UI)，具有增強的可用性、可存取性和新設計，可大幅提升您的使用者體驗。 這個新的現代 UI 會簡化行銷活動的設計和傳遞，並帶來一致性和其他 Adobe 解決方案。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
@@ -43,22 +43,22 @@ ht-degree: 84%
 >abstract="新一代查詢建模工具和電子郵件設計工具"
 
 
-我們很高興推出 Adobe Campaign Web 使用者介面的新版本。我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。這個新的現代 UI 簡化行銷活動的設計和傳遞，並帶來一致性，與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 相符。
+我們很高興推出 Adobe Campaign Web 使用者介面的新版本。 我們的最新版本包含直覺的功能，旨在簡化個人化跨管道行銷活動的建立，推動卓越的成果，並為您提供跨所有管道的競爭優勢。 這個新的現代 UI 簡化行銷活動的設計和傳遞，並帶來一致性，與其他 Adobe 解決方案 (包括 Adobe Experience Platform) 相符。
 
 ## 有哪些新功能
 
-快速一覽 Adobe Campaign Web 產品和文件的最新增強功能！如需完整的關鍵功能和版本更新功能清單，請參閱[此頁面](rn/whats-new.md)。
+快速一覽 Adobe Campaign Web 產品和文件的最新增強功能！ 如需完整的關鍵功能和版本更新功能清單，請參閱[此頁面](rn/whats-new.md)。
 
 >[!BEGINTABS]
 
 
->[!TAB 2026年3月版本]
+>[!TAB 2026 年 3 月發行]
 
-3月版本已上線。 Campaign網路使用者介面現在提供新功能和增強功能。 重點包括：
+3 月版本已上線。新功能和強化現已在 Campaign Web 使用者介面中提供。重點包括：
 
-* **結構描述編寫(GA)** — 直接在Campaign Web UI中建立和管理結構描述。
-* **電子郵件Designer (LA)中的主題** — 套用可重複使用的主題樣式和變數，讓電子郵件內容與您的品牌保持一致。
-* **工作流程增強功能** - **自動傳送**&#x200B;和&#x200B;**開始**&#x200B;活動現已可用，且&#x200B;**加入**&#x200B;現在支援OR選項。 您現在也可以將多個分支新增至工作流程。
+* **結構描述編寫 (正式推出)**，直接在 Campaign Web 使用者介面中建立和管理結構描述。
+* **電子郵件設計工具的主題 (有限開放)**，套用可重複使用的主題樣式和變數，使電子郵件內容與您的品牌保持一致。 
+* **工作流程強化**，**自動傳送**&#x200B;和&#x200B;**開始**&#x200B;活動現已可用，且&#x200B;**連接**&#x200B;現在支援 OR 選項。 您現在也可以將多個分支新增至工作流程。
 
 如需完整概觀，請參閱發行說明。
 
@@ -116,22 +116,22 @@ ht-degree: 84%
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>開始使用</strong><br/><a href="get-started/user-interface.md">使用者介面</a> - <a href="get-started/connect-to-campaign.md">連線至 Campaign</a> - <a href="get-started/permissions.md">存取權與權限</a>
+      <strong>開始使用</strong><br/><a href="get-started/user-interface.md">使用者介面</a>，<a href="get-started/connect-to-campaign.md">連線至 Campaign</a>，<a href="get-started/permissions.md">存取權與權限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>客戶體驗</strong><br/><a href="workflows/gs-workflows.md" target="_blank">使用工作流程自動化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Campaign 協調流程</a> - <a href="personalization/gs-personalization.md">動態內容</a> - <a href="reporting/gs-reports.md">報告與分析</a>
+      <strong>客戶體驗</strong><br/><a href="workflows/gs-workflows.md" target="_blank">工作流程自動化</a>，<a href="campaigns/gs-campaigns.md" target="_blank">行銷活動協調流程</a>，<a href="personalization/gs-personalization.md">動態內容</a>，<a href="reporting/gs-reports.md">報告與分析</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>傳送訊息</strong><br/><a href="msg/gs-deliveries.md">建立傳遞</a> - <a href="email/create-email.md">電子郵件</a> -  <a href="push/gs-push.md">推播通知</a> - <a href="sms/gs-sms.md">簡訊</a> - <a href="msg/delivery-template.md">傳遞範本</a> - <a href="preview-test/preview-test.md">預覽與測試</a> 
+      <strong>傳送訊息</strong><br/><a href="msg/gs-deliveries.md">建立傳遞</a>，<a href="email/create-email.md">電子郵件</a>，<a href="push/gs-push.md">推播通知</a>，<a href="sms/gs-sms.md">簡訊</a>，<a href="msg/delivery-template.md">傳遞範本</a>，<a href="preview-test/preview-test.md">預覽與測試</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>輪廓與客群</strong><br/><a href="audience/gs-audiences-recipients.md">開始使用</a> - <a href="audience/create-audience.md">建立客群</a> - <a href="audience/test-profiles.md">測試輪廓</a> - <a href="audience/manage-services.md">訂閱服務</a> - <a href="query/query-modeler-overview.md">查詢建模工具</a>
+      <strong>輪廓與客群</strong><br/><a href="audience/gs-audiences-recipients.md">開始使用</a>，<a href="audience/create-audience.md">建立客群</a>，<a href="audience/test-profiles.md">測試輪廓</a>，<a href="audience/manage-services.md">訂閱服務</a>，<a href="query/query-modeler-overview.md">查詢建模工具</a>
     </td>
   </tr>
 </table>

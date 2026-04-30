@@ -1,23 +1,23 @@
 ---
 audience: end-user
 title: 開始在 Adobe Campaign Web 中使用訊息和傳遞
-description: 瞭解如何使用Adobe Campaign網頁使用者介面處理傳遞和傳送訊息
+description: 了解如何使用 Adobe Campaign Web 使用者介面處理傳遞和傳送訊息
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
-workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 75%
+workflow-type: ht
+source-wordcount: '172'
+ht-degree: 100%
 
 ---
 
 
 # 開始使用訊息{#gs-messages}
 
-透過Adobe Campaign，您可以傳送跨頻道行銷活動，包括電子郵件、簡訊、推播通知、[WhatsApp](../whatsapp/get-started-whatsapp.md)和直接郵件，並使用各種專屬報告來評估其影響。
+透過 Adobe Campaign，您可以傳送跨管道行銷活動，包括電子郵件、簡訊、推播、[WhatsApp](../whatsapp/get-started-whatsapp.md) 和直接郵件，並使用各種專用報告來衡量其影響力。
 
-這些訊息經過設計並透過傳遞傳送出去，而且可針對每位收件者進行個人化。這些傳遞可以是獨立的，也可以包含在行銷活動內容的工作流程中。若要了解如何在 Adobe Campaign 中建立和管理傳遞，請參閱[此區段](gs-deliveries.md)。
+這些訊息經過設計並透過傳遞傳送出去，而且可針對每位收件者進行個人化。 這些傳遞可以是獨立的，也可以包含在行銷活動內容的工作流程中。 若要了解如何在 Adobe Campaign 中建立和管理傳遞，請參閱[此區段](gs-deliveries.md)。
 
-Adobe Campaign v8 包括以下傳遞管道：電子郵件、SMS、推播和直接郵件。尚未支援其他管道，例如應用程式內傳送訊息或使用 X (Twitter) 進行社交行銷。
+Adobe Campaign v8 包括以下傳遞管道：電子郵件、SMS、推播和直接郵件。 尚未支援其他管道，例如應用程式內傳送訊息或使用 X (Twitter) 進行社交行銷。
 
 瀏覽以下區段，了解如何建立和傳送訊息。
 
