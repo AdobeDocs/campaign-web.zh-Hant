@@ -5,9 +5,9 @@ description: 了解 Campaign Web 的登陸頁面
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
-workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->您在 Campaign Web 使用者介面建立的登陸頁面，與從使用者端主控台建立的網路表單不同。對於在用戶端主控台建立的網路表單，您無法透過 Campaign Web 使用者介面來顯示或加以編輯。
+>您在 Campaign Web 使用者介面建立的登陸頁面，與從使用者端主控台建立的網路表單不同。 對於在用戶端主控台建立的網路表單，您無法透過 Campaign Web 使用者介面來顯示或加以編輯。
 >
 >若要了解更多關於網路表單的資訊，請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=zh-Hant){target="_blank"}。
 
 登陸頁面主要功能列示如下：
 
 * 使用立即可用的&#x200B;**預填範本**，立即建立、設計及共用登陸頁面，匹配不同使用案例。 [了解更多](create-lp.md)
-* 善用[!DNL Adobe Campaign]內容設計功能來輕鬆建置&#x200B;**回應式登陸頁面**。[了解更多](lp-content.md)
+* 善用[!DNL Adobe Campaign]內容設計功能來輕鬆建置&#x200B;**回應式登陸頁面**。 [了解更多](lp-content.md)
 * 設定&#x200B;**選擇加入與選擇退出流程**，快速且順暢無礙。 [了解更多](lp-use-cases.md)
-* 建立訂閱服務以便使用者能夠&#x200B;**訂閱服務**。[了解更多](lp-use-cases.md#lp-subscription)
-* 針對接收您的通訊，向收件者提供&#x200B;**取消訂閱功能**。[了解更多](lp-use-cases.md#lp-unsubscription)
+* 建立訂閱服務以便使用者能夠&#x200B;**訂閱服務**。 [了解更多](lp-use-cases.md#lp-subscription)
+* 針對接收您的通訊，向收件者提供&#x200B;**取消訂閱功能**。 [更多詳情](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -62,7 +62,7 @@ ht-degree: 95%
 </td>
 <td>
 <a href="lp-use-cases.md">
-<img alt="登入頁面使用案例與內建範本" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="登陸頁面使用案例與內建範本" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
 <a href="lp-use-cases.md"><strong>登陸頁面使用案例</strong></a>

@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '1027'
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 93%
 + [Adobe Campaign Web 使用者介面文件](campaign-web-home.md)
 + 發行說明 {#release-notes}
    + [新增功能](rn/whats-new.md)
-   + {hide-from-toc}[早期發行](rn/e-release-notes.md)
+   + {hide-from-toc}[早期發行版](rn/e-release-notes.md)
    + [最新版本](rn/release-notes.md)
    + 先前版本 {#previous-release-notes}
       + [2026 版本](rn/release-notes-26.md)
       + [2025 版本](rn/release-notes-25.md)
       + [2024 版本](rn/release-notes-24.md)
-   + {hide-from-toc}[檔案更新](rn/documentation-updates.md)
+   + {hide-from-toc}[文件更新](rn/documentation-updates.md)
 + 開始使用 Adobe Campaign {#start}
    + [開始使用](get-started/get-started.md)
    + [連線至 Campaign](get-started/connect-to-campaign.md)
@@ -36,7 +36,7 @@ ht-degree: 93%
    + [權限](get-started/permissions.md)
    + [Campaign Web 與用戶端控制台](get-started/capability-matrix.md)
    + [從 Campaign Standard 至 v8](rn/acs-migration.md)
-   + {hide-from-toc}[AI支援的內容說明](get-started/using-ai.md)
+   + {hide-from-toc}[採用 AI 技術的內容說明](get-started/using-ai.md)
    + [常見問答集](get-started/faq.md)
 + 訊息和傳遞 {#msg}
    + [開始使用訊息](msg/gs-messages.md)
@@ -51,7 +51,7 @@ ht-degree: 93%
          + [準備並傳送電子郵件](monitor/prepare-send.md)
          + [使用多個波段傳送](advanced-settings/send-using-waves.md)
          + [監控傳遞記錄](monitor/delivery-logs.md)
-         + [排程傳送作業](monitor/schedule-sending.md)
+         + [排程傳遞傳送](monitor/schedule-sending.md)
    + 推播通知 {#push}
       + [開始使用推播通知](push/gs-push.md)
       + [建立推播通知傳遞](push/create-push.md)
@@ -73,8 +73,8 @@ ht-degree: 93%
    + 呼叫中心 {#call-center}
       + [開始使用呼叫中心傳遞](call-center/gs-call-center.md)
       + [建立和傳送呼叫中心傳遞](call-center/create-call-center.md)
-   + {hide-from-toc}[開始使用WhatsApp](whatsapp/get-started-whatsapp.md)
-   + {hide-from-toc}[建立WhatsApp傳遞](whatsapp/create-whatsapp.md)
+   + {hide-from-toc}[開始使用 WhatsApp](whatsapp/get-started-whatsapp.md)
+   + {hide-from-toc}[建立 WhatsApp 傳遞](whatsapp/create-whatsapp.md)
    + [自訂管道](call-center/gs-custom-channel.md)
    + 交易型訊息 {#transactional-messages}
       + [開始使用異動訊息](transactional-messaging/transactional.md)
@@ -98,7 +98,7 @@ ht-degree: 93%
       + [傳遞提醒條件](msg/delivery-alerting-criteria.md)
 + 內容管理 {#content}
    + 建立動態內容 {#dynamic-content}
-      + [如何製作動態內容？ &#x200B;](personalization/gs-personalization.md)
+      + [如何製作動態內容？](personalization/gs-personalization.md)
       + [新增個人化](personalization/personalize.md)
       + [建立條件內容](personalization/conditions.md)
    + 重複使用內容 {#manage-reusable-content}
@@ -143,7 +143,7 @@ ht-degree: 93%
       + 品牌 {#ai-assistant}
          + [建立和管理您的品牌](content/brands.md)
          + [個人化您的品牌](content/brands-personalize.md)
-         + [建立和管理產生模型](content/generative-models.md)
+         + [建立和管理生成模型](content/generative-models.md)
          + [評估您的內容](content/brands-score.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](landing-pages/get-started-lp.md)
@@ -206,7 +206,7 @@ ht-degree: 93%
       + [分支](workflows/activities/fork.md)
       + [增量查詢](workflows/activities/incremental-query.md)
       + [JavaScript 程式碼](workflows/activities/javascript-code.md)
-      + [加入](workflows/activities/join.md)
+      + [連接](workflows/activities/join.md)
       + [載入檔案](workflows/activities/load-file.md)
       + [調和](workflows/activities/reconciliation.md)
       + [儲存客群](workflows/activities/save-audience.md)
@@ -231,8 +231,8 @@ ht-degree: 93%
       + [匯出您的報告](reporting/export-reports.md)
       + 傳遞報告 {#delivery-report}
          + [開始使用傳遞報告](reporting/delivery-reports.md)
-         + [以電子郵件寄送傳遞報告 &#x200B;](reporting/email-report.md)
-         + [推播傳遞報告 &#x200B;](reporting/push-report.md)
+         + [以電子郵件寄送傳遞報告](reporting/email-report.md)
+         + [推播傳遞報告](reporting/push-report.md)
          + [以簡訊傳送傳遞報告](reporting/sms-report.md)
          + [外部傳遞報告](reporting/direct-mail.md)
       + 行銷活動報告 {#campaign-report}
@@ -277,7 +277,7 @@ ht-degree: 93%
    + [使用其他 Adobe 解決方案](integrations/integration.md)
    + [使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產](integrations/aem-assets.md)
    + [使用 Adobe Experience Manager as a Cloud Service 來管理範本](integrations/aem-content.md)
-   + [使用Adobe Experience Manager管理語言副本](integrations/aem-multilingual.md)
+   + [使用 Adobe Experience Manager 管理語言副本](integrations/aem-multilingual.md)
    + [使用 GenStudio for Performance Marketing](integrations/genstudio.md)
 + 設定 {#conf}
    + 品牌化 {#branding}
@@ -288,12 +288,12 @@ ht-degree: 93%
    + [管理目標對應](administration/target-mappings.md)
    + 使用結構描述 {#schemas}
       + [關於結構描述](administration/schemas.md)
-      + [存取和設定方案](administration/schemas-browse-access.md)
+      + [存取和設定結構描述](administration/schemas-browse-access.md)
       + [設定清單欄](administration/schemas-list-columns.md)
       + [編輯自訂欄位](administration/schemas-custom-fields.md)
       + [新增集合清單](administration/schemas-collection-lists.md)
       + [建立和發佈結構描述](administration/schemas-create-publish.md)
-      + [使用自訂表格](administration/schemas-custom-forms.md)
+      + [使用自訂表單](administration/schemas-custom-forms.md)
    + {hide-from-toc}[設定自訂欄位](administration/custom-fields.md)
    + [設定 [!DNL Campaign] 選項](administration/options.md)
    + [時區管理](administration/timezone-management.md)
