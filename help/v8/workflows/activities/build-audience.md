@@ -3,10 +3,10 @@ audience: end-user
 title: 使用「建置客群」工作流程活動
 description: 了解如何使用「建置客群」工作流程活動
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 57%
+source-wordcount: '514'
+ht-degree: 53%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="建置客群活動"
->abstract="「**建置客群**」活動可讓您定義會進入工作流程的客群。在工作流程中傳送訊息時，訊息客群不會在管道活動中定義，而是在「**建置客群**」活動中定義。"
+>abstract="「**建置客群**」活動可讓您定義會進入工作流程的客群。 在工作流程中傳送訊息時，訊息客群不會在管道活動中定義，而是在「**建置客群**」活動中定義。"
 
-「**建置客群**」活動是一種「**目標定位**」活動。此活動可讓您定義會進入工作流程的客群。在工作流程中傳送訊息時，訊息客群不會在管道活動中定義，而是在「**建置客群**」活動中定義。
+「**建置客群**」活動是一種「**目標定位**」活動。 此活動可讓您定義會進入工作流程的客群。 在工作流程中傳送訊息時，訊息客群不會在管道活動中定義，而是在「**建置客群**」活動中定義。
 
 若要定義客群群體，您可以：
 
@@ -56,10 +56,11 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 若要建立自己的查詢，請依照下列步驟進行：
 
 1. 選取「**建立您自己的 (查詢)**」。
-1. 選擇「**目標定位維度**」。目標維度可讓您定義作業的目標母體，例如收件者、合約受益者、操作者或訂閱者。 預設情況下，會從收件者中選取目標。[進一步瞭解目標維度](../../audience/targeting-dimensions.md#targeting)
+1. 選擇「**目標定位維度**」。 目標維度可讓您定義作業的目標母體，例如收件者、合約受益者、操作者或訂閱者。 預設情況下，會從收件者中選取目標。 [進一步瞭解目標維度](../../audience/targeting-dimensions.md#targeting)
 1. 按一下目標維度旁的圖示，選擇&#x200B;**篩選維度**。 篩選維度可讓您參照相關條件，將篩選器套用至目標母體，而不變更主要目標維度。 [進一步瞭解目標維度](../../audience/targeting-dimensions.md#filtering)
 1. 按一下&#x200B;**「繼續」**。
 1. 使用查詢建模器來定義您的查詢，就像在設計新電子郵件時建立對象一樣。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
+1. 使用&#x200B;**擴充資料**&#x200B;區段，以資料庫中的其他資訊（例如合約參考或電子報訂閱）來增強目標資料。 該資料會與工作流程&#x200B;**工作表格**&#x200B;中的對象一起儲存，並可供後續的活動使用。 您可以新增單一擴充屬性、集合連結或運算式。 如需詳細步驟和範例，請參閱[新增擴充資料](enrichment.md#enrichment-add)。
 
 >[!TAB 讀取客群]
 
@@ -67,12 +68,12 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 1. 選取「**讀取客群**」。
 1. 按一下&#x200B;**「繼續」**。
-1. 選取您的對象，就像在設計新傳送時使用對象一樣。 請參閱本[章節](../../audience/add-audience.md)。
+1. 選取您的客群，與您設計新傳遞時使用客群的方式相同。 請參閱本[章節](../../audience/add-audience.md)。
 
 >[!ENDTABS]
 
 ## 範例 {#build-audience-examples}
 
-以下範例是一個包含兩個「**建置客群**」活動的工作流程。第一個目標是撲克玩家客群，然後是電子郵件傳遞。第二個目標是 VIP 用戶端客群，然後是簡訊傳遞。
+以下範例是一個包含兩個「**建置客群**」活動的工作流程。 第一個目標是撲克玩家客群，然後是電子郵件傳遞。 第二個目標是 VIP 用戶端客群，然後是簡訊傳遞。
 
 ![熒幕擷圖顯示具有兩個以不同對象為目標的組建對象活動的範例工作流程。](../assets/workflow-audience-example.png)
