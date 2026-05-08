@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 469165c375718dfe71fe7eac8e5711db1731843b
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2199'
 ht-degree: 36%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 36%
 
 | 從&#x200B;**屬性**&#x200B;欄位存取 | 從&#x200B;**值**&#x200B;欄位存取 |
 | --- | --- |
-| 屬性欄位![的](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}運算式編輯器 | 值欄位![的](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}運算式編輯器 |
+| 屬性欄位![&#128279;](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的|![運算式編輯器  值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的運算式編輯器 |
 
 運算式編輯器提供：
 
@@ -525,12 +525,12 @@ ht-degree: 36%
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
   <!--
-<tr> 
+  <tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
--->
+  -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 傳回值　1（只能用作　case　函式的參數）<br /> </td> 
