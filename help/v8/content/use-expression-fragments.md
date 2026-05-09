@@ -3,7 +3,7 @@ audience: end-user
 title: 在運算式編輯器中新增運算式片段
 description: 瞭解如何使用內容片段建立
 exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 26%
@@ -15,7 +15,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="片段"
->abstract="在目前沙箱上建立的所有運算式片段都顯示在此清單中。若要使用片段，按一下 + 按鈕將片段 ID 新增至編輯器中。"
+>abstract="在目前沙箱上建立的所有運算式片段都顯示在此清單中。 若要使用片段，按一下 + 按鈕將片段 ID 新增至編輯器中。"
 
 <!-- pas vu dans l'UI-->
 

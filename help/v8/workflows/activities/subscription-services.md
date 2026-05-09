@@ -3,10 +3,10 @@ audience: end-user
 title: 使用訂閱服務活動
 description: 瞭解如何使用訂閱服務工作流程活動
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 24%
+ht-degree: 28%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="訂閱服務一般參數"
->abstract="選擇所需的服務並選擇要執行的動作 (訂閱或取消訂閱)。將「**傳送確認訊息**」選項切換為開啟，通知群體其已訂閱或取消訂閱所選服務。"
+>abstract="選擇所需的服務並選擇要執行的動作 (訂閱或取消訂閱)。 將「**傳送確認訊息**」選項切換為開啟，通知群體其已訂閱或取消訂閱所選服務。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
@@ -30,7 +30,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="其他資訊"
->abstract="指定每筆記錄的資料和訂閱來源。您可以將這個區段留白，使其在執行工作流程時不會設定任何日期或來源。如果傳入資料包含顯示輪廓之服務訂閱日期的欄位，您可以在「**[!UICONTROL 日期]**」欄位中選取該欄。在「**[!UICONTROL 來源路徑]**」欄位中，定義訂閱的來源。您可以勾選「**[!UICONTROL 設定一個常數做為來源]**」選項，將該欄設為輸入資料的其中一個欄位，或設為您選取的常數值。"
+>abstract="指定每筆記錄的資料和訂閱來源。 您可以將這個區段留白，使其在執行工作流程時不會設定任何日期或來源。 如果傳入資料包含顯示輪廓之服務訂閱日期的欄位，您可以在「**[!UICONTROL 日期]**」欄位中選取該欄。 在「**[!UICONTROL 來源路徑]**」欄位中，定義訂閱的來源。 您可以勾選「**[!UICONTROL 設定一個常數做為來源]**」選項，將該欄設為輸入資料的其中一個欄位，或設為您選取的常數值。"
 
 **訂閱服務**&#x200B;活動是&#x200B;**資料管理**&#x200B;活動。 它可讓您為轉變中指定的母體建立或刪除資訊服務的訂閱。
 
@@ -66,11 +66,11 @@ ht-degree: 24%
 
 1. 若要通知收件者他們已訂閱或取消訂閱選取的服務，請開啟&#x200B;**[!UICONTROL 傳送確認訊息]**&#x200B;選項。 此通知的內容是在與資訊服務相關的傳遞範本中定義的。
 
-1. 如果您使用來自入站轉變的資料，則會顯示&#x200B;**[!UICONTROL 其他資訊]**&#x200B;區段，讓您指定每個記錄的資料和訂閱來源。 您可以將此區段保留空白，這樣在執行工作流程時就不會設定日期或來源。
+1. 如果您使用來自入站轉變的資料，則會顯示&#x200B;**[!UICONTROL 其他資訊]**&#x200B;區段，讓您指定每個記錄的資料和訂閱來源。 您可以將這個區段留白，使其在執行工作流程時不會設定任何日期或來源。
 
-   * 如果傳入資料包含指示設定檔訂閱服務的日期的欄，您可以在&#x200B;**[!UICONTROL Date]**&#x200B;欄位中選取它。
+   * 如果傳入資料包含顯示輪廓之服務訂閱日期的欄位，您可以在「**[!UICONTROL 日期]**」欄位中選取該欄。
 
-   * 在「**[!UICONTROL 來源路徑]**」欄位中，定義訂閱的來源。您可以勾選「**[!UICONTROL 設定一個常數做為來源]**」選項，將該欄設為輸入資料的其中一個欄位，或設為您選取的常數值。
+   * 在「**[!UICONTROL 來源路徑]**」欄位中，定義訂閱的來源。 您可以勾選「**[!UICONTROL 設定一個常數做為來源]**」選項，將該欄設為輸入資料的其中一個欄位，或設為您選取的常數值。
 
    ![工作流程訂閱服務其他資訊介面的熒幕擷圖。](../assets/workflow-subscription-service-additional.png)
 
@@ -105,13 +105,13 @@ ht-degree: 24%
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  如您所注意的，作業在檔案中指定為「sub」或「unsub」。 此系統需要一個 **Boolean** 或 **Integer** 整數值來識別要執行的操作：&quot;0&quot; 為取消訂閱與 &quot;1&quot; 為訂閱。若要符合此需求：
+  如您所注意的，作業在檔案中指定為「sub」或「unsub」。 此系統需要一個 **Boolean** 或 **Integer** 整數值來識別要執行的操作：&quot;0&quot; 為取消訂閱與 &quot;1&quot; 為訂閱。 若要符合此需求：
    * 「作業」資料行的&#x200B;**資料型別**&#x200B;已設定為整數。
    * 必須執行&#x200B;**值重新對應**，以比對&quot;sub&quot;和&quot;unsub&quot;值與&quot;1&quot;和&quot;0&quot;值。
 
   ![工作流程訂閱服務對應介面的熒幕擷圖。](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  如果您的檔案已使用 &quot;0&quot; 及 &quot;1&quot; 來識別此操作，則不需要重新映射這些值。僅確定在範例檔案資料行中，資料行是以&#x200B;**Boolean**&#x200B;或&#x200B;**Integer**&#x200B;處理。
+  如果您的檔案已使用 &quot;0&quot; 及 &quot;1&quot; 來識別此操作，則不需要重新映射這些值。 僅確定在範例檔案資料行中，資料行是以&#x200B;**Boolean**&#x200B;或&#x200B;**Integer**&#x200B;處理。
 
 * **[!UICONTROL 調解]**&#x200B;活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 檔案的&#x200B;**電子郵件**&#x200B;欄位與設定檔資源的&#x200B;**電子郵件**&#x200B;欄位相符。
 
@@ -123,6 +123,6 @@ ht-degree: 24%
 
 * **[!UICONTROL 訂閱服務]**&#x200B;將要更新的服務識別為來自轉換。
 
-  **[!UICONTROL 作業型別]**&#x200B;被識別為來自檔案的&#x200B;**作業**&#x200B;欄位。 此處只能選取 Boolean 或 Integer 欄位。如果檔案中包含要執行的操作欄未出現在清單中，請確保您已正確設定&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動中的欄格式，如本範例前面所述。
+  **[!UICONTROL 作業型別]**&#x200B;被識別為來自檔案的&#x200B;**作業**&#x200B;欄位。 此處只能選取 Boolean 或 Integer 欄位。 如果檔案中包含要執行的操作欄未出現在清單中，請確保您已正確設定&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動中的欄格式，如本範例前面所述。
 
   ![工作流程訂閱服務訂閱介面的熒幕擷圖。](../assets/workflow-subscription-service-uc2-subscription.png)

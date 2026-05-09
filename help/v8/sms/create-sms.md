@@ -3,10 +3,10 @@ audience: end-user
 title: 建立簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 37%
+source-wordcount: '552'
+ht-degree: 39%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="簡訊傳遞屬性"
->abstract="屬性包含常見的傳遞參數，可幫助您對傳遞進行命名和分類。如果您的傳遞使用擴充型結構描述，可使用特定的自訂選項欄位。"
+>abstract="屬性包含常見的傳遞參數，可幫助您對傳遞進行命名和分類。 如果您的傳遞使用擴充型結構描述，可使用特定的自訂選項欄位。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="定義簡訊客群"
->abstract="建立新客群，或者按一下「**選取客群**」按鈕，選取現有的客群。如果需要，請新增一個控制組來測量傳遞的影響。"
+>abstract="建立新客群，或者按一下「**選取客群**」按鈕，選取現有的客群。 如果需要，請新增一個控制組來測量傳遞的影響。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-hant" text="設定控制組"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="簡訊範本選取"
->abstract="選取預先定義的範本，以開始進行簡訊傳遞。傳遞範本讓您能夠在行銷活動和傳遞中重複使用自訂內容和設定。"
+>abstract="選取預先定義的範本，以開始進行簡訊傳遞。 傳遞範本讓您能夠在行銷活動和傳遞中重複使用自訂內容和設定。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-hant" text="使用傳遞範本"
 
 您可以建立獨立的SMS傳送，或在行銷活動工作流程的內容中建立SMS。 以下步驟說明獨立（一次性） SMS傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟將在[本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中說明。
@@ -51,7 +51,7 @@ ht-degree: 37%
    * **[!UICONTROL 性質]**：指定傳遞的性質，以進行分類。
    +++
 
-1. 按一下「**[!UICONTROL 選取客群]**」按鈕，以選擇現有客群或建立您自己的客群。[進一步瞭解對象](../audience/about-recipients.md)。
+1. 按一下「**[!UICONTROL 選取客群]**」按鈕，以選擇現有客群或建立您自己的客群。 [進一步瞭解對象](../audience/about-recipients.md)。
 
    ![顯示[選取對象]按鈕的熒幕擷圖](assets/sms_create_2.png){zoomable="yes"}
 
@@ -69,7 +69,7 @@ ht-degree: 37%
 
    從這個熒幕，您也可以[模擬您的內容](../preview-test/preview-test.md)和[設定選件](../msg/offers.md)。
 
-1. 若要將您的傳遞安排在特定的日期和時間，請開啟「**[!UICONTROL 啟用排程]**」選項。在您啟動傳遞後，訊息會在您為收件者定義的確切日期和時間自動傳送。 在[本節](../msg/gs-deliveries.md#gs-schedule)中進一步瞭解傳遞排程。
+1. 若要將您的傳遞安排在特定的日期和時間，請開啟「**[!UICONTROL 啟用排程]**」選項。 在您啟動傳遞後，訊息會在您為收件者定義的確切日期和時間自動傳送。 在[本節](../msg/gs-deliveries.md#gs-schedule)中進一步瞭解傳遞排程。
 
    >[!NOTE]
    >

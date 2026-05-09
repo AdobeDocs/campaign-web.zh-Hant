@@ -3,10 +3,10 @@ audience: end-user
 title: 推播頻道的行銷活動報表
 description: 瞭解推播頻道的行銷活動報表
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 17%
+source-wordcount: '545'
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >title="傳遞概觀"
 >abstract="**傳遞概觀**&#x200B;報告可提供關鍵績效指標 (KPI)，其中包含訪客參與推播通知傳遞的詳細資訊。"
 
-**[!UICONTROL 傳遞總覽]**&#x200B;報告提供關鍵績效指標(KPI)，可提供訪客如何與您的推播通知傳遞互動的詳細資訊。 量度詳情如下。
+**[!UICONTROL 傳遞概觀]**&#x200B;報告可提供關鍵績效指標 (KPI)，其中包含訪客參與推播通知傳遞的詳細資訊。 量度詳情如下。
 
 ![傳遞概述報告中顯示的傳遞摘要量度](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 >title="初始目標對象統計資料"
 >abstract="**初始目標客群統計資料**&#x200B;表格會顯示與您的收件者相關的資料。"
 
-**[!UICONTROL 初始目標對象統計資料]**&#x200B;表格會顯示與收件者相關的資料。 量度詳情如下。
+**[!UICONTROL 初始目標客群統計資料]**&#x200B;表格會顯示與您的收件者相關的資料。 量度詳情如下。
 
 ![報表中顯示的初始目標對象統計資料](assets/campaign-reporting-push-target.png){zoomable="yes"}
 

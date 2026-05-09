@@ -3,10 +3,10 @@ audience: end-user
 title: 編輯電子郵件內容
 description: 瞭解如何在Campaign網頁使用者介面中編輯電子郵件內容
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 35%
+source-wordcount: '699'
+ht-degree: 36%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="將檔案附加到電子郵件"
->abstract="選取一個或多個檔案插入訊息中。為避免出現效能問題，建議每封電子郵件不要包含多個附件。"
+>abstract="選取一個或多個檔案插入訊息中。 為避免出現效能問題，建議每封電子郵件不要包含多個附件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="編輯追蹤"
->abstract="預設會啟用傳遞追蹤，這表示系統會追蹤訊息內容中包含的所有連結。您可以從此處停用此選項。"
+>abstract="預設會啟用傳遞追蹤，這表示系統會追蹤訊息內容中包含的所有連結。 您可以從此處停用此選項。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="新增連結和追蹤訊息"
 
 電子郵件&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面可讓您：
@@ -48,7 +48,7 @@ ht-degree: 35%
 
 若要設定或編輯電子郵件內容，請遵循下列步驟。
 
-1. 從&#x200B;**[!UICONTROL 電子郵件傳遞儀表板]**&#x200B;畫面按一下[編輯內容](../email/create-email.md)按鈕。
+1. 從[電子郵件傳遞儀表板](../email/create-email.md)畫面按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕。
 
    ![在電子郵件傳遞控制面板上顯示[編輯內容]按鈕的熒幕擷圖。](assets/email-edit-content-button.png){zoomable="yes"}
 
@@ -76,7 +76,7 @@ ht-degree: 35%
 
    ![在電子郵件內容編輯器中顯示[回覆欄位]區段的熒幕擷圖。](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. 定義電子郵件 **[!UICONTROL 主旨行]**。直接在專用欄位中輸入您的主旨，或開啟運算式編輯器以使用各種屬性、運算式片段或選件來新增[個人化](../personalization/personalize.md)。
+1. 定義電子郵件 **[!UICONTROL 主旨行]**。 直接在專用欄位中輸入您的主旨，或開啟運算式編輯器以使用各種屬性、運算式片段或選件來新增[個人化](../personalization/personalize.md)。
 
 1. 如果要將檔案附加至電子郵件，請按一下&#x200B;**[!UICONTROL 新增附件]**&#x200B;按鈕，然後選取一或多個檔案。
 
@@ -104,8 +104,8 @@ ht-degree: 35%
    * [從頭開始撰寫電子郵件](create-email-content.md)
    * [設定內容樣式](get-started-email-style.md)
 
-1. 依預設，傳遞追蹤會啟用。您可以從「**[!UICONTROL 選擇性功能]**」區段停用此選項。[了解如何新增連結和管理追蹤](message-tracking.md)
+1. 依預設，傳遞追蹤會啟用。 您可以從「**[!UICONTROL 選擇性功能]**」區段停用此選項。 [了解如何新增連結和管理追蹤](message-tracking.md)
 
-1. 定義好電子郵件內容後，請使用「**[!UICONTROL 模擬內容]**」按鈕在傳送前檢查其如何顯示。您也可以驗證內容品質，以評估可讀性、CTA效能和整體品質。 [進一步瞭解內容品質驗證](../content/brands-score.md#validate-quality)
+1. 定義好電子郵件內容後，請使用「**[!UICONTROL 模擬內容]**」按鈕在傳送前檢查其如何顯示。 您也可以驗證內容品質，以評估可讀性、CTA效能和整體品質。 [進一步瞭解內容品質驗證](../content/brands-score.md#validate-quality)
 
 1. [瞭解如何預覽和測試您的電子郵件](../preview-test/preview-test.md)。

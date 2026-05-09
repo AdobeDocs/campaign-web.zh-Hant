@@ -2,9 +2,9 @@
 title: 探索輪廓的詳細資料
 description: 瞭解如何探索設定檔的詳細資訊。
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: 8815abf9a7851b67f45038acad5ff8bff84db81b
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '249'
 ht-degree: 7%
 
 ---

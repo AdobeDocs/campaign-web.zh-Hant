@@ -3,10 +3,10 @@ audience: end-user
 title: 自動化傳送工作流程活動
 description: 瞭解如何使用自動傳送工作流程活動
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 15%
+source-wordcount: '643'
+ht-degree: 19%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="自動化傳遞活動"
->abstract="工作流程浮動面板現已提供「自動化」傳遞工作流程活動。您可以用它直接在您的工作流程中建立或執行傳遞動作（準備、傳送證明、準備和開始等）。"
+>abstract="工作流程浮動面板現已提供「自動化」傳遞工作流程活動。 您可以使用此功能，直接在工作流程中建立或執行傳遞動作 (準備、傳送校訂、準備並開始等) 。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
 >title="自動化傳遞活動"
->abstract="「**自動化傳遞**」活動是用於自動化：在您的工作流程中建立或重複使用傳遞，然後選擇要執行的動作 (準備、準備並開始、傳送校訂等)。您可以選取在工作流程之外建立的現有明確傳遞，或在每次活動執行時從範本建立新的傳遞。"
+>abstract="「**自動化傳遞**」活動是用於自動化：在您的工作流程中建立或重複使用傳遞，然後選擇要執行的動作 (準備、準備並開始、傳送校訂等)。 您可以選取在工作流程之外建立的現有明確傳遞，或在每次活動執行時從範本建立新的傳遞。"
 
 **自動傳遞**&#x200B;活動可讓您直接在您的工作流程中建立、設定及執行傳遞動作。 當您想要依排程執行預先定義的交貨，或作為自動化流程的一部份，或當您想要在每次活動執行時從樣版產生新交貨時，使用此選項。
 

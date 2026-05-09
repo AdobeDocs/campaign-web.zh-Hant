@@ -3,9 +3,9 @@ audience: end-user
 title: 傳遞提醒
 description: 瞭解如何使用傳送警報。
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '718'
 ht-degree: 24%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="傳遞警報條件儀表板"
->abstract="Campaign Web 使用者介面提供了預先定義的警報標準 (輸送量低的傳遞、準備失敗的傳遞…)，您可以將其新增至儀表板。您還可以建立符合自己需求的條件。"
+>abstract="Campaign Web 使用者介面提供了預先定義的警報標準 (輸送量低的傳遞、準備失敗的傳遞…)，您可以將其新增至儀表板。 您還可以建立符合自己需求的條件。"
 
 Campaign Web使用者介面提供預先定義的警示准則，例如低輸送量的傳遞或準備失敗的傳遞，您可將其新增至您的儀表板。 您還可以建立符合自己需求的條件。
 

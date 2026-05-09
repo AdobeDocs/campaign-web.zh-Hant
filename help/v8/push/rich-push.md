@@ -3,9 +3,9 @@ audience: end-user
 title: 設計豐富推送通知傳送
 description: 瞭解如何使用Adobe Campaign Web設計Android豐富推送通知傳送
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3472'
 ht-degree: 3%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="稍後提醒按鈕"
->abstract="「**稍後提醒**」按鈕會提供排程提醒選項。時間戳記欄位需要一個表示 epoch (以秒為單位) 的值。"
+>abstract="「**稍後提醒**」按鈕會提供排程提醒選項。 時間戳記欄位需要一個表示 epoch (以秒為單位) 的值。"
 
 >[!IMPORTANT]
 >
->* 此功能需要更新到 Campaign v8.6.3 <!--or v8.7.2-->。若要了解更多資訊，請參閱 Campaign v8 用戶端主控台[發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
+>* 此功能需要更新到 Campaign v8.6.3 <!--or v8.7.2-->。 若要了解更多資訊，請參閱 Campaign v8 用戶端主控台[發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}。
 >
 >* 在設計豐富推送通知之前，您必須先設定V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}。
 
@@ -326,7 +326,7 @@ ht-degree: 3%
 
 1. 若要進一步個人化您的推播通知，您可以選擇要新增至推播通知的&#x200B;**[!UICONTROL 影像]** URL，以及要在設定檔裝置上顯示的通知&#x200B;**[!UICONTROL 圖示]**。
 
-1. 新增處於未選取狀態的&#x200B;**[!UICONTROL 評等圖示]**&#x200B;以及處於選取狀態的&#x200B;**[!UICONTROL 個URL中的]**&#x200B;評等圖示。
+1. 新增處於未選取狀態的&#x200B;**[!UICONTROL 評等圖示]**&#x200B;以及處於選取狀態的&#x200B;**個URL中的**&#x200B;評等圖示。
 
    ![](assets/rich_push_rating_3.png)
 

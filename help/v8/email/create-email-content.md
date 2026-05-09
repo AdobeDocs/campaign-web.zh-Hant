@@ -3,9 +3,9 @@ audience: end-user
 title: 在電子郵件設計工具中設計電子郵件
 description: 了解如何從頭開始設計您的電子郵件內容
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 49%
 
 ---
@@ -15,22 +15,22 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="新增結構"
->abstract="結構會定義電子郵件的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的電子郵件內容。"
+>abstract="結構會定義電子郵件的版面。 將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的電子郵件內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="新增結構"
->abstract="結構會定義登陸頁面的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的登陸頁面。"
+>abstract="結構會定義登陸頁面的版面。 將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的登陸頁面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="新增結構"
->abstract="結構會定義內容片段的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的片段內容。"
+>abstract="結構會定義內容片段的版面。 將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的片段內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="新增結構"
->abstract="結構會定義範本的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的範本內容。"
+>abstract="結構會定義範本的版面。 將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的範本內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
@@ -52,7 +52,7 @@ ht-degree: 49%
 >title="定義範本欄"
 >abstract="電子郵件設計工具可讓您透過定義欄結構輕鬆定義範本的版面。"
 
-電子郵件設計工具可讓您輕鬆定義電子郵件的結構。透過使用簡單的拖放動作新增和移動結構元素，您可以在數秒內設計電子郵件的內文。
+電子郵件設計工具可讓您輕鬆定義電子郵件的結構。 透過使用簡單的拖放動作新增和移動結構元素，您可以在數秒內設計電子郵件的內文。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -66,7 +66,7 @@ ht-degree: 49%
 
    >[!NOTE]
    >
-   >堆疊欄與所有電子郵件程式都不相容。不支援時，不會堆疊欄。
+   >堆疊欄與所有電子郵件程式都不相容。 不支援時，不會堆疊欄。
 
 1. 視需要新增多個&#x200B;**[!UICONTROL 結構]**，並在右側的專用窗格中編輯其設定。
 
@@ -76,7 +76,7 @@ ht-degree: 49%
 
    >[!NOTE]
    >
-   >每個欄的大小不能小於結構元件總寬度的 10%。如果欄不是空的，則無法移除。
+   >每個欄的大小不能小於結構元件總寬度的 10%。 如果欄不是空的，則無法移除。
 
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;區段，視需要拖放多個元素至一或多個結構。 [進一步了解內容元件](content-components.md)
 
@@ -90,7 +90,7 @@ ht-degree: 49%
 
    從左窗格按一下&#x200B;**[!UICONTROL 連結]**&#x200B;索引標籤，以顯示您要追蹤之內容的所有URL。 修改其&#x200B;**[!UICONTROL 追蹤型別]**&#x200B;或&#x200B;**[!UICONTROL 標籤]**，並視需要新增&#x200B;**[!UICONTROL 類別]**。
 
-[進一步瞭解連結和訊息追蹤](message-tracking.md)
+   [進一步瞭解連結和訊息追蹤](message-tracking.md)
 
    ![顯示[電子郵件Designer]中[連結]索引標籤的熒幕擷圖。](assets/email_designer-links.png){zoomable="yes"}
 
@@ -100,7 +100,7 @@ ht-degree: 49%
    >
    >切換到程式碼編輯器後，您無法恢復到此電子郵件的視覺化設計工具。
 
-1. 當您的內容備就緒時，按一下「**[!UICONTROL 模擬內容]**」檢查您的電子郵件轉譯。選擇案頭或行動檢視。 [進一步了解如何預覽您的電子郵件](../preview-test/preview-test.md)
+1. 當您的內容備就緒時，按一下「**[!UICONTROL 模擬內容]**」檢查您的電子郵件轉譯。 選擇案頭或行動檢視。 [進一步了解如何預覽您的電子郵件](../preview-test/preview-test.md)
 
    ![顯示電子郵件Designer中模擬選項的熒幕擷圖。](assets/email_designer-simulate.png){zoomable="yes"}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 使用變更資料來源工作流程活動
 description: 瞭解如何使用變更資料來源工作流程活動
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 12%
+source-wordcount: '395'
+ht-degree: 13%
 
 ---
 
@@ -62,7 +62,7 @@ Before executing the operation, the working table is copied to the local databas
 
      >[!AVAILABILITY]
      >
-     >Campaign 設定以及與外部系統的連線僅限進階使用者使用，且僅適用於用戶端主控台。[了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hant){target="_blank"}
+     >Campaign 設定以及與外部系統的連線僅限進階使用者使用，且僅適用於用戶端主控台。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hant){target="_blank"}
 
 1. 設定您的工作流程，以使用新資料來源執行所需的作業。
 

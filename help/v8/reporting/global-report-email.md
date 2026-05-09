@@ -3,10 +3,10 @@ audience: end-user
 title: 電子郵件通道的全域報告
 description: 進一步瞭解電子郵件通道的全域報告
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 24%
+source-wordcount: '1689'
+ht-degree: 25%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_email_delivery_stats"
 >title="傳遞統計資料"
->abstract=" **傳遞統計資料**&#x200B;圖表和表格概觀了關鍵量度，包括成功傳遞、錯誤和新隔離，提供了評估傳遞效能的簡明概觀。"
+>abstract="**傳遞統計資料**&#x200B;圖表和表格概觀了關鍵量度，包括成功傳遞、錯誤和新隔離，提供了評估傳遞效能的簡明概觀。"
 
 **[!UICONTROL 傳遞統計資料]**&#x200B;表格提供每個電子郵件傳遞成功的明細，包含下列詳細量度。
 
@@ -131,7 +131,7 @@ ht-degree: 24%
 
 ![每個型別量度的錯誤劃分](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
-每個型別&#x200B;**[!UICONTROL 資料表與圖表的]**&#x200B;錯誤劃分會顯示與不同網域中可能發生的錯誤相關的資料，具體量度如下。
+每個型別&#x200B;**資料表與圖表的**&#x200B;錯誤劃分會顯示與不同網域中可能發生的錯誤相關的資料，具體量度如下。
 
 此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -162,7 +162,7 @@ ht-degree: 24%
 
 ![每個網域量度的錯誤劃分](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
-每個網域&#x200B;**[!UICONTROL 資料表和圖表的]**&#x200B;錯誤劃分可顯示與每個網域中潛在錯誤相關的資料。 量度通常與上面詳述的每種型別&#x200B;**[!UICONTROL 資料表和圖表的]**&#x200B;錯誤劃分有關。
+每個網域&#x200B;**資料表和圖表的**&#x200B;[!UICONTROL &#x200B;錯誤劃分可顯示與每個網域中潛在錯誤相關的資料。 量度通常與上面詳述的每種型別&#x200B;]&#x200B;**資料表和圖表的**&#x200B;錯誤劃分有關。
 
 ## 追蹤指標 {#tracking-indicators-email}
 
@@ -249,7 +249,7 @@ ht-degree: 24%
 >title="造訪量最高的前 10 個連結"
 >abstract="**造訪次數最多的 10 個連結**&#x200B;圖表和表格顯示收件者與每個連結互動的詳盡資料。"
 
-**[!UICONTROL 前10個最常造訪的連結]**&#x200B;圖表和表格包含每個連結的收件者行為可用資料。 量度詳情如下。
+**[!UICONTROL 造訪量最高的前 10 個連結]**&#x200B;圖表和資料表包含每個連結收件者行為的可用資料。 量度詳情如下。
 
 ![前10個最常造訪的連結量度](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 

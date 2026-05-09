@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 36%
@@ -18,7 +18,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="傳遞"
->abstract="傳遞是指透過特定管道傳送給客群的通訊，例如電子郵件、簡訊或推播。您可以在此畫面中編輯、複製和刪除現有的傳遞。您也可以檢視已完成傳遞的報告。按一下「**建立傳遞**」按鈕，即可新增傳遞。"
+>abstract="傳遞是指透過特定管道傳送給客群的通訊，例如電子郵件、簡訊或推播。 您可以在此畫面中編輯、複製和刪除現有的傳遞。 您也可以檢視已完成傳遞的報告。 按一下「**建立傳遞**」按鈕，即可新增傳遞。"
 
 ## 存取傳遞內容 {#access}
 
@@ -71,12 +71,12 @@ ht-degree: 36%
 
 ![從傳遞清單介面刪除傳遞](assets/delete-delivery-from-list.png)
 
-所有傳遞都可在這些清單中找到，但無法從那裡刪除在工作流程中建立的傳遞。若要刪除在工作流程內容中建立的傳遞，請從工作流程中刪除傳遞活動。
+所有傳遞都可在這些清單中找到，但無法從那裡刪除在工作流程中建立的傳遞。 若要刪除在工作流程內容中建立的傳遞，請從工作流程中刪除傳遞活動。
 
 若要從工作流程中刪除傳遞，請依照以下步驟進行：
 
 1. 選取傳送活動。
 1. 按一下右側面板上的&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示。
-1. 確認刪除。如果傳送有子節點，請一併刪除或保留。
+1. 確認刪除。 如果傳送有子節點，請一併刪除或保留。
 
 ![在工作流程中刪除傳遞活動](assets/delete-delivery-from-wf.png)

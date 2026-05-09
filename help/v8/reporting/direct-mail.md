@@ -3,9 +3,9 @@ audience: end-user
 title: 直接郵件報表
 description: 瞭解如何存取及使用直接郵件報告
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '710'
 ht-degree: 19%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="傳遞概觀"
->abstract="**傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可讓您深入了解訪客與每次直接郵件傳遞的互動情況。這些量度概述如下。"
+>abstract="**傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可讓您深入了解訪客與每次直接郵件傳遞的互動情況。 這些量度概述如下。"
 
 **[!UICONTROL 傳遞總覽]**&#x200B;提供訪客與每個直接郵件傳遞互動的詳細深入分析，展示重要的關鍵績效量度(KPI)。 這些量度概述如下。
 

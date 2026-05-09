@@ -3,9 +3,9 @@ title: 定義特定於著陸頁面的內容
 description: 瞭解如何在Campaign網頁中設計登入頁面特定內容
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1170'
 ht-degree: 11%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用內容元件"
->abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。若要定義讓使用者能夠選取並提交其選擇的特定內容，請使用表單元件。"
+>abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。 若要定義讓使用者能夠選取並提交其選擇的特定內容，請使用表單元件。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -28,7 +28,7 @@ ht-degree: 11%
 
 **[!UICONTROL Confirmation]**、**[!UICONTROL Error]**&#x200B;及&#x200B;**[!UICONTROL Expiration]**&#x200B;頁面的內容也已預先填入。 視需要編輯。
 
-您也可以為登入頁面[定義](#lp-form-styles)樣式。
+您也可以為登入頁面[&#128279;](#lp-form-styles)定義樣式。
 
 若要進一步設計登入頁面內容：
 
@@ -66,7 +66,7 @@ ht-degree: 11%
 
 1. 展開第一個文字欄位（如果有的話），或使用&#x200B;**[!UICONTROL 新增]**&#x200B;按鈕新增一個欄位。 從&#x200B;**[!UICONTROL 文字欄位1]**&#x200B;區段中，編輯欄位型別、要更新的資料庫欄位、標籤，以及在使用者輸入值之前顯示在欄位中的文字。
 
-   表單元件![中的](assets/lp-form-text-field.png){zoomable="yes"}文字欄位設定
+   表單元件![&#128279;](assets/lp-form-text-field.png){zoomable="yes"}中的文字欄位設定
 
 1. 視需要核取&#x200B;**[!UICONTROL 將表單欄位設為必填]**&#x200B;選項。 在此情況下，只有在使用者已填入此欄位時，才能提交登入頁面。
 
@@ -86,9 +86,9 @@ ht-degree: 11%
    如果您選取&#x200B;**[!UICONTROL 欄位]**，請從[屬性清單](../get-started/attributes.md)中選取欄位，然後在下列兩個選項之間選擇：
 
    * **[!UICONTROL 如果勾選，則為]**。
-   * 如果選取&#x200B;**[!UICONTROL ，則為]**&#x200B;否。
+   * 如果選取&#x200B;**，則為**&#x200B;否。
 
-1. 視需要刪除和新增更多欄位（例如文字欄位、選項按鈕、核取方塊、下拉式清單等）。
+1. 刪除並新增儘可能多的欄位（例如文字欄位、選項按鈕、核取方塊、下拉式清單等） 視需要。
 
 1. 新增或更新所有欄位後，按一下&#x200B;**[!UICONTROL Call to action]**&#x200B;以展開對應的區段。 它可讓您定義&#x200B;**[!UICONTROL 表單]**&#x200B;元件中按鈕的行為。 [了解做法](#define-actions-on-form-submission)
 
@@ -151,7 +151,7 @@ ht-degree: 11%
 
    ![核取方塊樣式設定](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. 展開並編輯與您可能已新增至表單的其他欄位（選項按鈕、下拉式清單、日期和時間等）相對應的任何其他區段。
+1. 展開並編輯與您可能新增的其他欄位（選項按鈕、下拉式清單、日期和時間等）對應的任何其他區段 至您的表單。
 
 1. 展開&#x200B;**[!UICONTROL Call to action]**&#x200B;區段以修改元件表單中按鈕的外觀。 例如，變更字型、新增邊框、在游標停留時編輯標籤顏色，或調整按鈕的對齊方式。
 

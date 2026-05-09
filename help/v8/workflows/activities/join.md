@@ -3,10 +3,10 @@ audience: end-user
 title: 使用加入工作流程活動
 description: 瞭解如何使用加入工作流程活動
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 36%
+source-wordcount: '489'
+ht-degree: 38%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="多個工作流程分支和「加入」活動"
->abstract="現已支援多個分支。您可以在工具列按一下「新增分支」，無需使用「分岔」。AND-join 活動同樣已改善。它現在是通用的「加入」活動，可讓您在「AND」和「OR」加入選項之間選擇。"
+>abstract="現已支援多個分支。 您可以在工具列按一下「新增分支」，無需使用「分岔」。 AND-join 活動同樣已改善。 它現在是通用的「加入」活動，可讓您在「AND」和「OR」加入選項之間選擇。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="合併連結活動"
->abstract="**合併連結**&#x200B;活動可讓您同步處理工作流程的多個執行分支。一旦所有前面的活動完成，就會觸發此活動。這樣能確保特定活動已完成後再繼續執行工作流程。"
+>abstract="**合併連結**&#x200B;活動可讓您同步處理工作流程的多個執行分支。 一旦所有前面的活動完成，就會觸發此活動。 這樣能確保特定活動已完成後再繼續執行工作流程。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
 >title="連接活動"
->abstract="「**加入**」活動可讓您合併多個入站轉變。選擇 (AND) 在所有入站轉變完成時繼續，或選擇 (OR) 在任一入站轉變完成時繼續。"
+>abstract="「**加入**」活動可讓您合併多個入站轉變。 選擇 (AND) 在所有入站轉變完成時繼續，或選擇 (OR) 在任一入站轉變完成時繼續。"
 
 **加入**&#x200B;活動是&#x200B;**流量控制**&#x200B;活動。 它會同步工作流程的多個執行分支。
 您可以選擇如何評估入站轉變：
@@ -43,7 +43,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
 >title="合併選項"
->abstract="選取您要參加的活動。在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變群體。"
+>abstract="選取您要參加的活動。 在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變群體。"
 
 請依照下列步驟設定&#x200B;**加入**&#x200B;活動：
 
@@ -67,6 +67,6 @@ ht-degree: 36%
 
 ## 範例 {#join-example}
 
-以下範例顯示兩個工作流程分支，各包含電子郵件和簡訊傳遞。啟用兩個入站轉變時，會觸發設定為&#x200B;**AND**&#x200B;的&#x200B;**加入**&#x200B;活動。 推播通知只會在兩個傳送完成後傳送。 如果您將加入選項設為&#x200B;**或**，則當第一個傳入傳遞活動完成時，就會立即傳送推送訊息。
+以下範例顯示兩個工作流程分支，各包含電子郵件和簡訊傳遞。 啟用兩個入站轉變時，會觸發設定為&#x200B;**AND**&#x200B;的&#x200B;**加入**&#x200B;活動。 推播通知只會在兩個傳送完成後傳送。 如果您將加入選項設為&#x200B;**或**，則當第一個傳入傳遞活動完成時，就會立即傳送推送訊息。
 
 ![具有兩個分支的工作流程範例，顯示電子郵件和SMS傳遞後接推播通知。](../assets/workflow-join4.png){zoomable="yes"}

@@ -3,9 +3,9 @@ audience: end-user
 title: 傳送簡訊傳遞
 description: 瞭解如何使用Adobe Campaign網頁版傳送簡訊
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 2bcb1c890ca90b73183fe5e168fb3ec3b08dea1f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 12%
 
 ---

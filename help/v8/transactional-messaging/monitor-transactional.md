@@ -3,10 +3,10 @@ audience: end-user
 title: 監視交易型訊息
 description: 瞭解如何在Campaign網頁使用者介面中監視異動訊息
 exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 12%
 >title="交易型傳訊事件歷史記錄預覽"
 >abstract="您可以檢視觸發交易型訊息的事件。"
 
-您可以檢視觸發交易式訊息的事件。 若要存取它們，請移至&#x200B;**[!UICONTROL 事件歷史記錄]**&#x200B;區段。
+您可以檢視觸發交易型訊息的事件。 若要存取它們，請移至&#x200B;**[!UICONTROL 事件歷史記錄]**&#x200B;區段。
 
 事件會顯示其事件型別名稱。
 

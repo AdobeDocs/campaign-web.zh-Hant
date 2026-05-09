@@ -3,10 +3,10 @@ audience: end-user
 title: 傳遞提醒
 description: 瞭解如何使用傳送警報。
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 22%
+source-wordcount: '1130'
+ht-degree: 27%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
 >title="傳遞提醒儀表板"
->abstract="「傳送警報」是警報管理系統，可讓使用者群組自動接收包含其傳送執行資訊的電子郵件通知。傳遞警報儀表板可讓您指定誰將接收電子郵件警報，選擇和設定用於傳送這些警報的警報條件，以及存取所有已傳送通知的歷史記錄。"
+>abstract="「傳送警報」是警報管理系統，可讓使用者群組自動接收包含其傳送執行資訊的電子郵件通知。 傳遞警報儀表板可讓您指定誰將接收電子郵件警報，選擇和設定用於傳送這些警報的警報條件，以及存取所有已傳送通知的歷史記錄。"
 
-傳送警報儀表板可讓您指定接收電子郵件警報的人員、選擇並設定用於傳送這些警報的警報條件，以及存取所有已傳送通知的歷史記錄。 可從左側導覽窗格中&#x200B;**儀表板**&#x200B;標籤下的&#x200B;**傳送警報**&#x200B;功能表存取這些區段。
+傳遞警報儀表板可讓您指定誰將接收電子郵件警報，選擇和設定用於傳送這些警報的警報條件，以及存取所有已傳送通知的歷史記錄。 可從左側導覽窗格中&#x200B;**儀表板**&#x200B;標籤下的&#x200B;**傳送警報**&#x200B;功能表存取這些區段。
 
 ![熒幕擷圖顯示[傳送警示]功能表中警示儀表板的清單。](assets/alerting-dashboard-list.png)
 
@@ -36,12 +36,12 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
 >title="傳遞提醒條件"
->abstract="在此區段中，新增要用於從此儀表板傳送警報的條件。從預先定義的條件中進行選擇，或建立您自己的條件以滿足特定需求。"
+>abstract="在此區段中，新增要用於從此儀表板傳送警報的條件。 從預先定義的條件中進行選擇，或建立您自己的條件以滿足特定需求。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="條件參數"
->abstract="條件具有預設參數值，是用於定義必須如何套用這些參數。您可以在此區段中變更這些值，以滿足您的需求。"
+>abstract="條件具有預設參數值，是用於定義必須如何套用這些參數。 您可以在此區段中變更這些值，以滿足您的需求。"
 
 若要建立傳送控制面板，請依照下列步驟進行：
 
@@ -55,7 +55,7 @@ ht-degree: 22%
 
    在[Adobe Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}中進一步瞭解許可權和運運算元群組
 
-1. 在&#x200B;**傳送警示條件**&#x200B;區段中，新增您要用來傳送警示的條件。 從預先定義的條件中選擇，或建立您自己的條件以符合特定需求。 [瞭解如何使用條件](../msg/delivery-alerting-criteria.md)
+1. 在&#x200B;**傳送警示條件**&#x200B;區段中，新增您要用來傳送警示的條件。 從預先定義的條件中進行選擇，或建立您自己的條件以滿足特定需求。 [瞭解如何使用條件](../msg/delivery-alerting-criteria.md)
 
 1. 條件具有預設引數值，可定義必須如何套用條件。 您可以從&#x200B;**條件引數**&#x200B;區段變更這些值，以符合您的需求。
 
@@ -101,7 +101,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
 >title="傳遞警報歷史記錄"
->abstract="**歷史記錄**&#x200B;窗格包含從此儀表板傳送的所有警報。按一下項目可存取在該特定時間傳送的相應警報。"
+>abstract="**歷史記錄**&#x200B;窗格包含從此儀表板傳送的所有警報。 按一下項目可存取在該特定時間傳送的相應警報。"
 
 可從&#x200B;**儀表板**&#x200B;標籤中的&#x200B;**傳送警報**&#x200B;功能表存取所有已建立的警報儀表板。
 

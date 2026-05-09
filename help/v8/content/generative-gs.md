@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用 AI 助理
 description: 開始使用 AI 助理
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: dbaf192b6d5200d8606859a1a09972df6bb3c26b
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 21%
+source-wordcount: '887'
+ht-degree: 24%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="AI 助理"
->abstract="在精心製作您的傳遞並進行個人化之後，使用 AI 助理增強您的內容。透過此功能，您只要描述想要生成的內容便可以調整內容，使個人化和內容改善的工作變得更簡單。"
+>abstract="在精心製作您的傳遞並進行個人化之後，使用 AI 助理增強您的內容。 透過此功能，您只要描述想要生成的內容便可以調整內容，使個人化和內容改善的工作變得更簡單。"
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
 >title="在 Campaign 中使用 AI 助理定義內容"
->abstract="若要將所選取的內容用作內容生成的輸入，請啟動「**使用目前的內容進行增強**」切換。您也可以上傳您的品牌資產並用作內容來源。如果您不使用所選取的內容，則必須上傳並選取品牌資產。"
+>abstract="若要將所選取的內容用作內容生成的輸入，請啟動「**使用目前的內容進行增強**」切換。 您也可以上傳您的品牌資產並用作內容來源。 如果您不使用所選取的內容，則必須上傳並選取品牌資產。"
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 生成式 AI 條款"
->abstract="若要存取此功能，您必須同意 Adobe Experience Cloud 生成式 AI 使用者準則。檢查此功能的任何輸出以確保其準確性而且適合您的使用案例。"
+>abstract="若要存取此功能，您必須同意 Adobe Experience Cloud 生成式 AI 使用者準則。 檢查此功能的任何輸出以確保其準確性而且適合您的使用案例。"
 >additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者準則"
 
 >[!INFO]

@@ -3,9 +3,9 @@ audience: end-user
 title: 使用增量查詢工作流程活動
 description: 瞭解如何使用增量查詢工作流程活動
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '717'
 ht-degree: 11%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="增量查詢"
->abstract="「**增量查詢**」活動是一個「**目標市場選擇**」活動，可讓您使用查詢建模工具查詢資料庫。每次執行此活動時，都會排除先前執行的結果。這可讓您只鎖定新元素。"
+>abstract="「**增量查詢**」活動是一個「**目標市場選擇**」活動，可讓您使用查詢建模工具查詢資料庫。 每次執行此活動時，都會排除先前執行的結果。 這可讓您只鎖定新元素。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
@@ -27,7 +27,7 @@ ht-degree: 11%
 >title="增量查詢處理的資料"
 >abstract="增量查詢處理的資料"
 
-**增量查詢**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動，可讓您依排程查詢資料庫。 每次執行此活動時，都會排除先前執行的結果。這可讓您僅鎖定新元素。
+**增量查詢**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動，可讓您依排程查詢資料庫。 每次執行此活動時，都會排除先前執行的結果。 這可讓您僅鎖定新元素。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 11%
 
 1. 在&#x200B;**[!UICONTROL 對象]**&#x200B;區段中，選擇&#x200B;**目標維度**，然後按一下&#x200B;**[!UICONTROL 繼續]**。
 
-   目標維度會定義作業的目標母體，例如收件者、合約受益者、操作者或訂閱者。 預設情況下，會從收件者中選取目標。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)
+   目標維度會定義作業的目標母體，例如收件者、合約受益者、操作者或訂閱者。 預設情況下，會從收件者中選取目標。 [進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)
 
 1. 使用查詢建模器來定義您的查詢，類似於在設計新電子郵件時建立受眾的方式。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
 

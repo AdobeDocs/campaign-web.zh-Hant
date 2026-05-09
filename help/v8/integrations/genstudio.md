@@ -6,9 +6,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 61e6dcf13fc6a405f5e25328bf336e863701b2fe
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '562'
 ht-degree: 7%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 7%
 
 >[!INFO]
 >
->若要更進一步，請檢視此[總覽](https://business.adobe.com/tw/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}以及[的](https://business.adobe.com/tw/products/genstudio-for-performance-marketing.html#demo){target="_blank"}示範[!DNL Adobe GenStudio for Performance Marketing]。
+>若要更進一步，請檢視此[總覽](https://business.adobe.com/tw/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}以及[!DNL Adobe GenStudio for Performance Marketing]的[示範](https://business.adobe.com/tw/products/genstudio-for-performance-marketing.html#demo){target="_blank"}。
 
 ## 在Adobe Campaign中使用GenStudio功能 {#use-genstudio}
 
@@ -56,7 +56,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >在[!DNL GenStudio]HTML使用手冊[專屬區段中，瞭解如何將Adobe GenStudio for Performance Marketing範本上傳至](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。<!--GenStudio doc to be updated with Campaign-->
+   >在[HTML使用手冊](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}專屬區段中，瞭解如何將Adobe GenStudio for Performance Marketing範本上傳至[!DNL GenStudio]。<!--GenStudio doc to be updated with Campaign-->
 
 1. 在GenStudio中，使用此範本建立具有AI提示的多個電子郵件變體並儲存。
 
@@ -94,7 +94,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >從[範本 [!DNL Adobe Campaign] 建立的GenStudio體驗](#export-from-ajo-to-genstudio)會直接匯入電子郵件Designer。 未使用[!DNL Adobe Campaign]範本建立的GenStudio體驗已匯入至[相容性模式](../email/existing-content.md)。
+   >從 [!DNL Adobe Campaign] 範本[&#128279;](#export-from-ajo-to-genstudio)建立的GenStudio體驗會直接匯入電子郵件Designer。 未使用[!DNL Adobe Campaign]範本建立的GenStudio體驗已匯入至[相容性模式](../email/existing-content.md)。
 
    使用[電子郵件內容編輯工具](../email/create-email-content.md)和[個人化欄位](../personalization/personalize.md)，依需要編輯您的電子郵件。 儲存您的內容。
 

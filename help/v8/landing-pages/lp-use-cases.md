@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 9%
+source-wordcount: '1445'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_url"
 >title="請謹慎複製 URL"
->abstract="若要全面測試或善用您的登陸頁面，您不得將此連結直接複製並貼上到網頁瀏覽器或您的傳遞內容中。請改用&#x200B;**模擬內容**&#x200B;功能對其進行測試，並按照文件中所述的步驟正確使用您的登陸頁面。"
+>abstract="若要全面測試或善用您的登陸頁面，您不得將此連結直接複製並貼上到網頁瀏覽器或您的傳遞內容中。 請改用&#x200B;**模擬內容**&#x200B;功能對其進行測試，並按照文件中所述的步驟正確使用您的登陸頁面。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
@@ -133,7 +133,7 @@ ht-degree: 9%
 
 1. 頁面內容隨即顯示。 選取與登入頁面表單相對應的部分，並展開&#x200B;**[!UICONTROL 核取方塊1]**&#x200B;區段。
 
-1. 在&#x200B;**[!UICONTROL 訂閱與服務]**&#x200B;欄位中，選取您為事件建立的服務。 如果啟用&#x200B;**[!UICONTROL 選項，請保留]**&#x200B;訂閱狀態。
+1. 在&#x200B;**[!UICONTROL 訂閱與服務]**&#x200B;欄位中，選取您為事件建立的服務。 如果啟用&#x200B;**選項，請保留**&#x200B;訂閱狀態。
 
    ![顯示訂閱核取方塊介面的熒幕擷圖。](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--

@@ -3,9 +3,9 @@ audience: end-user
 title: 設定多語言傳遞
 description: 瞭解如何設定多語言傳送
 exl-id: eea0e997-4da2-4998-b010-234626b21353
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1489'
 ht-degree: 6%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
 >title="新增語言"
->abstract="在此索引標籤中，您將找到要用來傳遞內容的語言清單。您可以按一下「新增語言」按鈕，或透過此索引標籤複製其他語言來新增更多語言。"
+>abstract="在此索引標籤中，您將找到要用來傳遞內容的語言清單。 您可以按一下「新增語言」按鈕，或透過此索引標籤複製其他語言來新增更多語言。"
 
 >[!CONTEXTUALHELP]
 >id="acw_multilingual_file_upload"
 >title="匯入語言變化版本"
->abstract="使用此對話框，匯入 CSV 檔案，新增語言變化版本。檔案會自動填入所選語言的所有可用欄位。您可以拖放檔案，或在確認之前從電腦中選擇檔案。"
+>abstract="使用此對話框，匯入 CSV 檔案，新增語言變化版本。 檔案會自動填入所選語言的所有可用欄位。 您可以拖放檔案，或在確認之前從電腦中選擇檔案。"
 
 在Campaign Web UI中，您可以將傳送設定為多語言，這可讓您根據設定檔的偏好語言傳送訊息。 未定義偏好設定時，訊息會以預設語言傳送。
 

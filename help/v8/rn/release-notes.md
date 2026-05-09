@@ -2,7 +2,7 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f1f207785ad25ceb8f9891bfad74193768cb2937
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 91%
@@ -44,7 +44,7 @@ _2026年3月_ 24日_
 <tr>
 <td>
 <p>結構描述編寫功能現在可供所有客戶使用 (正式推出)。 此功能可以直接在 Campaign Web 使用者介面中建立和管理結構描述。 您可以建立新表格、擴充現有結構描述和建立自訂表單。 您可以定義自訂資料結構，不需要存取用戶端主控台，便能支援特定業務需求。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/schemas.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/schemas.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -53,7 +53,7 @@ _2026年3月_ 24日_
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件設計工具中的主題 (有限開放)</strong><br/></th> 
+<th><strong>電子郵件設計工具中的主題 (限制性開放)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
@@ -79,7 +79,7 @@ _2026年3月_ 24日_
 <p>啟用標準與自訂 Firefly 模型，以及經核准的第三方影像模型的緊密整合，以便在生成影像時提供更大的彈性、控制力及品牌一致性。</p>
 <p>選擇符合您需求的正確模型：</p>
 <ul><li> <strong>Adobe 模型</strong> (由 Firefly Image Model 4 提供技術支援) 可立即產生影像，無需額外設定</li><li> <strong>合作夥伴模型</strong> (由 Gemini 2.5 Flash 提供)，提供專門的功能</li><li><strong>自訂模型</strong> (在您自己的資產上訓練的品牌特定模型)，用於品牌產生，完全符合您的品牌識別、風格和視覺指引。</li></ul>
-<p>如需詳細資訊，請參閱<a href="../content/generative-models.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content/generative-models.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -105,7 +105,7 @@ _2026年3月_ 24日_
 <table>
 <thead>
 <tr>
-<th><strong>多個工作流程分支和「連接」活動</strong><br/></th>
+<th><strong>多個工作流程分支和「加入」活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
