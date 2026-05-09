@@ -3,9 +3,9 @@ audience: end-user
 title: 選取現有客群
 description: 了解如何選取客群
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 18%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="選取現有客群"
->abstract="瀏覽清單以選取現有對象。使用「顯示篩選器」圖示篩選清單，或選取特定資料夾。"
+>abstract="瀏覽清單以選取現有對象。 使用「顯示篩選器」圖示篩選清單，或選取特定資料夾。"
 
 本節說明在定義傳送的目標母體時，如何選取現有的對象。 定義傳送的主要目標時，您也可以：
 * [使用查詢模組化工具建置一次性對象](one-time-audience.md)。
@@ -37,7 +37,7 @@ ht-degree: 18%
 
    [此熒幕擷圖顯示已選取AEP Audiences資料夾的篩選區段。](assets/select-audience-folder.png){zoomable="yes"}
 
-1. 篩選區段可讓您存取篩選選項，以調整對象清單。 若要這麼做，請按一下[新增規則] **&#x200B;**&#x200B;以存取查詢模型工具，讓您為對象清單建立進階篩選器。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
+1. 篩選區段可讓您存取篩選選項，以調整對象清單。 若要這麼做，請按一下[新增規則] ****&#x200B;以存取查詢模型工具，讓您為對象清單建立進階篩選器。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
 
    例如，您可以定義規則以篩選對象的來源，如下所示：
 
@@ -47,4 +47,4 @@ ht-degree: 18%
 
    [此熒幕擷圖顯示&#x200B;**編輯規則**&#x200B;按鈕，以精簡對象。](assets/refine-audience.png){zoomable="yes"}
 
-1. 您也可以設定控制組來測量行銷活動的影響。控制組未收到訊息。 這可讓您比較收到訊息的母體的行為與未收到訊息的連絡人的行為。 [了解更多](control-group.md)
+1. 您也可以設定控制組來測量行銷活動的影響。 控制組未收到訊息。 這可讓您比較收到訊息的母體的行為與未收到訊息的連絡人的行為。 [了解更多](control-group.md)

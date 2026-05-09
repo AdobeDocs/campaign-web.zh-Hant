@@ -3,10 +3,10 @@ audience: end-user
 title: 準備並傳送電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面準備和傳送電子郵件
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 31%
+source-wordcount: '998'
+ht-degree: 33%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 31%
 
 在準備傳送期間，會計算目標母體，並針對目標中包含的每個設定檔產生訊息內容。 準備完成後，訊息即可立即傳送，或在排程的日期和時間傳送。
 
-傳遞準備期間使用的驗證規則在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=zh-Hant){target="_blank"}中有說明。
+傳遞準備期間使用的驗證規則在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}中有說明。
 
 準備傳送的主要步驟如下。
 
@@ -34,14 +34,14 @@ ht-degree: 31%
    >
    >如果您排程傳遞並停用&#x200B;**[!UICONTROL 傳送前啟用確認]**&#x200B;選項，準備和傳送步驟會在&#x200B;**[!UICONTROL 準備並傳送]**&#x200B;按鈕下分組。 [進一步瞭解排程](../msg/gs-deliveries.md#gs-schedule)
 
-1. 畫面會顯示準備進度。根據目標群體的大小，此操作可能需要一些時間。
+1. 畫面會顯示準備進度。 根據目標群體的大小，此操作可能需要一些時間。
 
    您可以使用&#x200B;**[!UICONTROL 停止準備]**&#x200B;按鈕隨時停止準備。
 
    傳遞儀表板中的![停止準備按鈕](assets/email-stop-preparation.png){zoomable="yes"}
 
    >[!NOTE]
-   >在準備階段，不傳送任何訊息。您可以開始或停止此動作，而不會影響任何專案。
+   >在準備階段，不傳送任何訊息。 您可以開始或停止此動作，而不會影響任何專案。
 
 1. 準備完成時，請檢查KPI。 如果要傳送的訊息數與您的預期不符，請修改您的客群並重新開始準備。
 
@@ -53,7 +53,7 @@ ht-degree: 31%
    * **[!UICONTROL 要傳遞]**：將傳送的訊息數。
    * **[!UICONTROL 要排除]**： [型別規則](../advanced-settings/delivery-settings.md#typology)排除的訊息數。
 
-1. 按一下「**[!UICONTROL 記錄檔]**」按鈕，然後檢查是否有錯誤。 最後的記錄訊息顯示所有錯誤訊息和錯誤數量。[了解更多](delivery-logs.md)
+1. 按一下「**[!UICONTROL 記錄檔]**」按鈕，然後檢查是否有錯誤。 最後的記錄訊息顯示所有錯誤訊息和錯誤數量。 [了解更多](delivery-logs.md)
 
    傳遞儀表板中的![記錄檔按鈕](assets/email-prepare-logs.png){zoomable="yes"}
 
@@ -114,19 +114,19 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
 >title="已傳遞"
->abstract="已成功傳遞的訊息數。此指標每 5 分鐘會更新一次。會根據已傳送訊息的總數顯示百分比。"
+>abstract="已成功傳遞的訊息數。 此指標每 5 分鐘會更新一次。 會根據已傳送訊息的總數顯示百分比。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="開啟次數"
->abstract="開啟的訊息數。此指標每 5 分鐘會更新一次。顯示的百分比為相異開啟次數相較於已傳遞訊息數的比率。"
+>abstract="開啟的訊息數。 此指標每 5 分鐘會更新一次。 顯示的百分比為相異開啟次數相較於已傳遞訊息數的比率。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="點按次數"
->abstract="在電子郵件中至少點按一次的收件者數量。此指標每 5 分鐘會更新一次。顯示的百分比為相異點按次數相較於已傳遞訊息數的比率。"
+>abstract="在電子郵件中至少點按一次的收件者數量。 此指標每 5 分鐘會更新一次。 顯示的百分比為相異點按次數相較於已傳遞訊息數的比率。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/kpis" text="瞭解 KPI"
 
 >[!CONTEXTUALHELP]
@@ -147,9 +147,9 @@ ht-degree: 31%
 
 * **[!UICONTROL 已傳送]**：已傳遞的訊息數。 顯示的百分比是以要傳送的訊息總數為基礎。
 
-* **[!UICONTROL 已傳遞]**：已成功傳遞的訊息數。會根據已傳送訊息的總數顯示百分比。
+* **[!UICONTROL 已傳遞]**：已成功傳遞的訊息數。 會根據已傳送訊息的總數顯示百分比。
 
-* **[!UICONTROL 開啟]**：已開啟的訊息數。顯示的百分比是不同開啟次數與已傳送訊息次數的比較。
+* **[!UICONTROL 開啟]**：已開啟的訊息數。 顯示的百分比是不同開啟次數與已傳送訊息次數的比較。
 
 * **[!UICONTROL 點按]**：在電子郵件中至少點按一次的收件者人數。 顯示的百分比是相較於已傳遞訊息數量的不同點按次數。
 
@@ -161,4 +161,4 @@ ht-degree: 31%
 
 在[此頁面](../reporting/kpis.md)上進一步瞭解KPI。
 
-您也可以檢查記錄。[了解更多](delivery-logs.md)
+您也可以檢查記錄。 [了解更多](delivery-logs.md)

@@ -3,7 +3,7 @@ audience: end-user
 title: 使用變更維度工作流程活動
 description: 瞭解如何使用變更維度工作流程活動
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 25%
@@ -15,14 +15,14 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="產生補集"
->abstract="您可以使用剩餘群體 (其已因重複而排除) 產生額外的傳出轉變。為此，請開啟「**產生補集**」選項。"
+>abstract="您可以使用剩餘群體 (其已因重複而排除) 產生額外的傳出轉變。 為此，請開啟「**產生補集**」選項。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="變更維度活動"
->abstract="此活動可讓您在建立對象時變更目標市場選擇維度。其會根據資料範本和輸入維度來移動軸。例如，您可以從「合約」維度切換到「用戶端」維度。"
+>abstract="此活動可讓您在建立對象時變更目標市場選擇維度。 其會根據資料範本和輸入維度來移動軸。 例如，您可以從「合約」維度切換到「用戶端」維度。"
 
-**變更維度**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動。 此活動可讓您在建立工作流程時變更目標維度。 其會根據資料範本和輸入維度來移動軸。[進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)。
+**變更維度**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動。 此活動可讓您在建立工作流程時變更目標維度。 其會根據資料範本和輸入維度來移動軸。 [進一步瞭解目標維度](../../audience/about-recipients.md#targeting-dimensions)。
 
 例如，您可以將工作流程的目標維度從「收件者」切換為「訂閱者應用程式」，以傳送推播通知給已鎖定的收件者。
 

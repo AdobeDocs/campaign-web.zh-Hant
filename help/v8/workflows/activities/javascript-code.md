@@ -3,9 +3,9 @@ audience: end-user
 title: 使用JavaScript程式碼工作流程活動
 description: 瞭解如何使用JavaScript程式碼工作流程活動
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '966'
 ht-degree: 32%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 程式碼"
->abstract="「**JavaScript 程式碼**」活動可讓您在工作流程過程中執行 JavaScript 程式碼。這讓您能夠執行動作或從資料庫收集資訊。使用&#x200B;**簡單** JavaScript 程式碼活動在工作流程執行時執行一個程式碼片段。**進階** JavaScript 程式碼活動讓您能夠依序執行兩個不同的程式碼片段，以執行更複雜的操作。工作流程第一次開始時，會執行第一次呼叫。工作流程每次重新執行時，會執行第二次呼叫中定義的程式碼。"
+>abstract="「**JavaScript 程式碼**」活動可讓您在工作流程過程中執行 JavaScript 程式碼。 這讓您能夠執行動作或從資料庫收集資訊。 使用&#x200B;**簡單** JavaScript 程式碼活動在工作流程執行時執行一個程式碼片段。 **進階** JavaScript 程式碼活動讓您能夠依序執行兩個不同的程式碼片段，以執行更複雜的操作。 工作流程第一次開始時，會執行第一次呼叫。 工作流程每次重新執行時，會執行第二次呼叫中定義的程式碼。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript 片段"
->abstract="定義執行活動時要執行的指令碼。如果您要設定&#x200B;**進階** JavaScript 活動，請編輯兩個程式碼片段：第一個片段在第一次執行工作流程時呼叫要執行的程式碼，而下一個片段在後續工作流程執行時呼叫要執行的程式碼。"
+>abstract="定義執行活動時要執行的指令碼。 如果您要設定&#x200B;**進階** JavaScript 活動，請編輯兩個程式碼片段：第一個片段在第一次執行工作流程時呼叫要執行的程式碼，而下一個片段在後續工作流程執行時呼叫要執行的程式碼。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript 執行"
->abstract="設定執行延遲以在執行一段時間後停止活動。依預設，執行階段不能超過 1 小時。在這類延遲之後，此流程將中止並顯示錯誤訊息，並且活動執行會失敗。若要忽略此限制，請將值設為 0。"
+>abstract="設定執行延遲以在執行一段時間後停止活動。 依預設，執行階段不能超過 1 小時。 在這類延遲之後，此流程將中止並顯示錯誤訊息，並且活動執行會失敗。 若要忽略此限制，請將值設為 0。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
@@ -58,7 +58,7 @@ ht-degree: 32%
 
    JavaScript程式碼活動的![運算式編輯器介面](../assets/javascript-editor.png)
 
-1. 在&#x200B;**[!UICONTROL 執行]**&#x200B;區段中，設定延遲以在執行期間後停止活動。 依預設，執行階段不能超過 1 小時。在這類延遲之後，此流程將中止並顯示錯誤訊息，並且活動執行會失敗。若要忽略此限制，請將值設為 0。
+1. 在&#x200B;**[!UICONTROL 執行]**&#x200B;區段中，設定延遲以在執行期間後停止活動。 依預設，執行階段不能超過 1 小時。 在這類延遲之後，此流程將中止並顯示錯誤訊息，並且活動執行會失敗。 若要忽略此限制，請將值設為 0。
 
    ![執行延遲的設定介面](../assets/javascript-config.png)
 
@@ -139,4 +139,4 @@ ht-degree: 32%
        task.postEvent(task.transitionByName("yoga"));
    ```
 
-1. 完成每個轉變的設定以符合您的需求，然後開始工作流程。 已根據透過`interest`外部訊號&#x200B;**活動傳遞的**&#x200B;變數值，啟動兩個輸出轉換之一。
+1. 完成每個轉變的設定以符合您的需求，然後開始工作流程。 已根據透過&#x200B;**外部訊號**&#x200B;活動傳遞的`interest`變數值，啟動兩個輸出轉換之一。

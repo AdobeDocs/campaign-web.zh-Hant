@@ -3,8 +3,8 @@ audience: end-user
 title: Campaign Web 使用者介面/用戶端主控台功能比較表
 description: Campaign Web 使用者介面支援的功能清單
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: ht
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+workflow-type: tm+mt
 source-wordcount: '2548'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Adobe Campaign 可讓您建立、設計和共用登陸頁面。 全新介面中�
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=zh-Hant){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -106,16 +106,16 @@ Adobe Campaign Web 使用者介面隨附全新的電子郵件設計工具，可�
 使用提供的連結來瀏覽 Campaign v8 (用戶端主控台) 文件，並深入了解類型規則：
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=zh-Hant){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 -->
-* 建立疲勞/壓力規則。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant){target="_blank"}
+* 建立疲勞/壓力規則。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=zh-Hant){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=zh-Hant){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 -->
-* 模擬行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=zh-Hant){target="_blank"}
+* 模擬行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## 工作流程 {#wf-capabilities}

@@ -4,10 +4,10 @@ title: 在您的電子郵件中新增視覺片段
 description: 瞭解如何將視覺化片段新增至您的電子郵件
 badge: label="有限可用性"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 13%
+source-wordcount: '623'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 >[!AVAILABILITY]
 >
->此功能需要更新Campaign v8.6.4。進一步瞭解[Campaign v8使用者端主控台發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes)。
+>此功能需要更新Campaign v8.6.4。 進一步瞭解[Campaign v8使用者端主控台發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes)。
 
 在Campaign網頁介面中，**視覺片段**&#x200B;是預先定義的視覺化區塊，您可以在多個[電子郵件傳遞](../email/get-started-email-designer.md)或[內容範本](../content/use-email-templates.md)中重複使用。 在[本節](fragments.md)中瞭解如何建立和管理內容片段。
 
@@ -26,7 +26,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="片段選項"
->abstract="此窗格提供與所選片段相關的選項。它可讓您選擇要顯示片段的裝置，並打開該片段的內容。可使用「**[!UICONTROL 樣式]**」標籤進一步自訂您的片段。您還可以打破與原始視覺片段的繼承。"
+>abstract="此窗格提供與所選片段相關的選項。 它可讓您選擇要顯示片段的裝置，並打開該片段的內容。 可使用「**[!UICONTROL 樣式]**」標籤進一步自訂您的片段。 您還可以打破與原始視覺片段的繼承。"
 
 <!-- pas vu dans l'UI-->
 

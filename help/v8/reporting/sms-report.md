@@ -3,10 +3,10 @@ audience: end-user
 title: 簡訊傳遞報告
 description: 瞭解如何存取及使用簡訊傳遞報告
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 32%
+source-wordcount: '620'
+ht-degree: 31%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS 傳遞概觀"
->abstract="**SMS 傳遞概觀** 呈現 SMS 傳遞的全面概觀，提供廣泛的深入洞察和特定資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
+>abstract="**SMS 傳遞概觀** 呈現 SMS 傳遞的全面概觀，提供廣泛的深入洞察和特定資料。 它提供有關傳遞的績效、成效和結果的全面資訊。"
 
 **[!UICONTROL 傳遞總覽]**&#x200B;報告提供關鍵績效指標(KPI)，可提供成功和錯誤率的詳細資訊，以及訪客如何與您的SMS訊息互動。
 
@@ -98,7 +98,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="簡訊傳遞輸送量"
->abstract="**傳遞輸送量**&#x200B;報告提供有關特定期間內傳遞輸送量的詳細資訊。用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。"
+>abstract="**傳遞輸送量**&#x200B;報告提供有關特定期間內傳遞輸送量的詳細資訊。 用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。"
 
 此報表提供有關指定時間範圍內傳送輸送量的詳細資訊。 用於測量訊息傳遞速度的主要量度是每小時傳送的訊息數。
 

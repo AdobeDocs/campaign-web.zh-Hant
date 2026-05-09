@@ -2,10 +2,10 @@
 title: 管理列舉
 description: 瞭解如何使用分項清單
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 23%
+source-wordcount: '646'
+ht-degree: 25%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"
 >title="分項清單"
->abstract="列舉是系統建議填入欄位的值清單。使用列舉來標準化這些欄位的值，以協助資料輸入或在查詢中使用。"
+>abstract="列舉是系統建議填入欄位的值清單。 使用列舉來標準化這些欄位的值，以協助資料輸入或在查詢中使用。"
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
 >title="屬性"
->abstract="定義列舉的屬性，例如其名稱、內部名稱和類型。「**[!UICONTROL 已關閉的]**」列舉具有固定的值清單，只能從「**[!UICONTROL 列舉]**」選單中進行修改。「**[!UICONTROL 開放]**」列舉可讓使用者根據此列舉直接在欄位加入新的值。「**[!UICONTROL 系統]**」列舉與系統欄位相關。「**[!UICONTROL 表情符號]**」列舉用於更新表情符號清單。"
+>abstract="定義列舉的屬性，例如其名稱、內部名稱和類型。 「**[!UICONTROL 已關閉的]**」列舉具有固定的值清單，只能從「**[!UICONTROL 列舉]**」選單中進行修改。 「**[!UICONTROL 開放]**」列舉可讓使用者根據此列舉直接在欄位加入新的值。 「**[!UICONTROL 系統]**」列舉與系統欄位相關。 「**[!UICONTROL 表情符號]**」列舉用於更新表情符號清單。"
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
@@ -28,7 +28,7 @@ ht-degree: 23%
 
 ## 什麼是分項清單？ {#about}
 
-列舉是系統建議填入欄位的值清單。使用列舉來標準化這些欄位的值，協助資料輸入或在查詢中使用。 值清單會以下拉式清單的形式顯示，您可以從中選取要在欄位中輸入的值。 下拉式清單也會啟用預測性輸入：輸入第一個字母，應用程式會填入其餘字母。
+列舉是系統建議填入欄位的值清單。 使用列舉來標準化這些欄位的值，協助資料輸入或在查詢中使用。 值清單會以下拉式清單的形式顯示，您可以從中選取要在欄位中輸入的值。 下拉式清單也會啟用預測性輸入：輸入第一個字母，應用程式會填入其餘字母。
 
 此型別欄位的值是透過左側導覽窗格中的&#x200B;**[!UICONTROL 管理]** / **[!UICONTROL 列舉]**&#x200B;功能表來定義。
 
@@ -47,11 +47,11 @@ ht-degree: 23%
 1. 選取分項清單&#x200B;**[!UICONTROL 型別]**：
 
    * **[!UICONTROL 已關閉的]**&#x200B;列舉有固定的值清單，只能從&#x200B;**[!UICONTROL 列舉]**&#x200B;功能表修改它。
-   * **[!UICONTROL 開啟]**&#x200B;列舉允許使用者根據此列舉直接在欄位中新增值。
+   * 「**[!UICONTROL 開放]**」列舉可讓使用者根據此列舉直接在欄位加入新的值。
    * **[!UICONTROL 系統]**&#x200B;列舉與系統欄位相關聯。
    * 「**[!UICONTROL 表情符號]**」列舉用於更新表情符號清單。
 
-1. 按一下 **[!UICONTROL 建立]**。列舉詳細資訊隨即顯示，可讓您新增值至清單。
+1. 按一下 **[!UICONTROL 建立]**。 列舉詳細資訊隨即顯示，可讓您新增值至清單。
 
    ![列舉詳細資訊畫面顯示新增值的選項](assets/enumeration-details.png)
 
@@ -63,7 +63,7 @@ ht-degree: 23%
 
    ![新增值熒幕，顯示標籤、內部名稱和Unicode代碼的欄位](assets/enumeration-emoticon.png)
 
-1. 儲存您的變更。分項清單會在使用它的畫面中更新。
+1. 儲存您的變更。 分項清單會在使用它的畫面中更新。
 
 ## 使用案例：將預先定義的值新增至分項清單 {#uc}
 

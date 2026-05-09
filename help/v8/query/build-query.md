@@ -3,9 +3,9 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2921'
+source-wordcount: '2946'
 ht-degree: 7%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 7%
 >
 >* 對於具有許多值的欄位，只會顯示前20個值。 在這種情況下，通知&#x200B;**[!UICONTROL 部分載入]**&#x200B;會警告您。
 >* 每個屬性選擇器中都可以存取&#x200B;**[!UICONTROL 值分佈]**&#x200B;選項。 [瞭解如何選取屬性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[ !A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[!A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 新增篩選元件 {#filtering}
 
@@ -249,7 +249,7 @@ ht-degree: 7%
 
 >[!TAB 新規則產生器]
 
-1. 按一下&#x200B;**新增條件**&#x200B;按鈕旁的&#x200B;**[!UICONTROL 展開]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 選取對象]**。
+1. 按一下&#x200B;**[!UICONTROL 新增條件]**&#x200B;按鈕旁的&#x200B;**展開**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 選取對象]**。
 
 1. **選取對象**&#x200B;屬性窗格會在右側開啟。 選擇您要用來篩選查詢的對象。
 
@@ -282,7 +282,7 @@ ht-degree: 7%
 
 >[!TAB 新規則產生器]
 
-1. 按一下&#x200B;**新增條件**&#x200B;按鈕旁的&#x200B;**[!UICONTROL 展開]**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 預先定義的篩選器]**。
+1. 按一下&#x200B;**[!UICONTROL 新增條件]**&#x200B;按鈕旁的&#x200B;**展開**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 預先定義的篩選器]**。
 
 1. **預先定義的篩選器**&#x200B;屬性窗格會在右側開啟。 從自訂篩選器清單或我的最愛選取預先定義的篩選器。
 

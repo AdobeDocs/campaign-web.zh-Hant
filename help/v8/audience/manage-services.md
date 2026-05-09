@@ -3,9 +3,9 @@ audience: end-user
 title: 使用訂閱服務
 description: 瞭解如何存取、建立和管理Adobe Campaign網站上的訂閱服務
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1130'
 ht-degree: 28%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="建立和管理服務"
->abstract="使用 Adobe Campaign 建立和監視您的服務 (例如電子報)，並確認這些服務訂閱或取消訂閱的情形。訂閱僅適用於電子郵件和簡訊傳遞。"
+>abstract="使用 Adobe Campaign 建立和監視您的服務 (例如電子報)，並確認這些服務訂閱或取消訂閱的情形。 訂閱僅適用於電子郵件和簡訊傳遞。"
 
 使用Adobe Campaign網頁管理及建立您的服務（例如電子報），以及檢查這些服務的訂閱或取消訂閱。
 
@@ -51,7 +51,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
 >title="選取一個確認訊息"
->abstract="當使用者訂閱服務或取消訂閱時，您可以傳送確認訊息。選取要用於該訊息的範本。"
+>abstract="當使用者訂閱服務或取消訂閱時，您可以傳送確認訊息。 選取要用於該訊息的範本。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
@@ -80,7 +80,7 @@ ht-degree: 28%
 
    ![顯示訂閱服務有效期間設定的熒幕擷圖](assets/service-create-validity-period.png){zoomable="yes"}
 
-1. 當使用者訂閱服務或取消訂閱時，您可以傳送確認訊息。根據您的使用案例，選取要用於該訊息的範本。 這些範本必須以&#x200B;**[!UICONTROL 訂閱]**&#x200B;目標對應來設定。 [了解更多](#create-confirmation-message)
+1. 當使用者訂閱服務或取消訂閱時，您可以傳送確認訊息。 根據您的使用案例，選取要用於該訊息的範本。 這些範本必須以&#x200B;**[!UICONTROL 訂閱]**&#x200B;目標對應來設定。 [了解更多](#create-confirmation-message)
 
    ![顯示確認訊息範本選取範圍的熒幕擷圖](assets/service-create-confirmation-msg.png){zoomable="yes"}
 

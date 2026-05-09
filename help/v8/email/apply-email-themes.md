@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件主題，模組，可重複使用，品牌一致性，電子郵件設計，自訂CSS，行動裝置最佳化
 exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2077'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="電子郵件設計工具中的主題 (限制性開放)"
->abstract="套用可重複使用的主題樣式和變數，使電子郵件內容與您的品牌保持一致。此功能僅適用於一組組織 (限制性開放)"
+>abstract="套用可重複使用的主題樣式和變數，使電子郵件內容與您的品牌保持一致。 此功能僅適用於一組組織 (限制性開放)"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant" text="請參閱發行說明"
 
 >[!CONTEXTUALHELP]
@@ -123,7 +123,7 @@ ht-degree: 4%
 
    ![主題編輯器右邊欄中的按鈕樣式控制項](assets/theme-buttons.png)
 
-1. 按一下[儲存]儲存此佈景主題以供日後使用。 **&#x200B;**&#x200B;它現在顯示在&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤中。
+1. 按一下[儲存]儲存此佈景主題以供日後使用。 ****&#x200B;它現在顯示在&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤中。
 
 <!--A little strange upon hitting Save, because once the theme is created, you need to hit Close to go back to Design your template screen, then click Cancel if you don't want to proceed with template creation.-->
 
@@ -261,8 +261,8 @@ ht-degree: 4%
 
 1. 提供主題的名稱。
 
-1. 視需要自行調整，就像從頭開始建立主題時一樣，例如新增顏色變體、編輯字型等。 [了解做法](#create-and-edit-themes)
+1. 視需要自行調整，就像從頭開始建立主題時一樣，例如新增顏色變體、編輯字型等。[瞭解如何進行](#create-and-edit-themes)
 
    ![在編輯器中產生主題，顯示調色盤和變體控制項](assets/generate-theme-colors.png){width=90%}
 
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解做法](#apply-themes-email)
+1. 按一下[儲存]****&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解做法](#apply-themes-email)

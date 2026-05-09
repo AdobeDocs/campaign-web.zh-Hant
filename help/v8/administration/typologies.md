@@ -3,10 +3,10 @@ audience: end-user
 title: 使用業務規則 (類型)
 description: 瞭解如何使用型別和型別規則來控制、篩選及監控傳送的傳送。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 25%
+source-wordcount: '1500'
+ht-degree: 24%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
 >title="類型和類型規則"
->abstract="您可以利用類型將所有傳遞的業務實務標準化。類型是類型規則的集合，讓您可以控制、篩選傳遞的傳送並排定其優先順序。在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞對象之外。"
+>abstract="您可以利用類型將所有傳遞的業務實務標準化。 類型是類型規則的集合，讓您可以控制、篩選傳遞的傳送並排定其優先順序。 在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞對象之外。"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_type"
 >title="篩選"
->abstract=" 有兩種類型規則可用：<br/><br/>**控制**&#x200B;規則，確保傳送前的訊息品質和有效性，例如字元顯示、簡訊長度、地址格式或 URL 縮短。<br/><br/>**篩選**&#x200B;規則會根據特定標準 (例如年齡、地點、國家或電話號碼) 來排除目標客群區段。"
+>abstract=" 有兩種類型規則可用：<br/><br/>**控制**&#x200B;規則，確保傳送前的訊息品質和有效性，例如字元顯示、簡訊長度、地址格式或 URL 縮短。 <br/><br/>**篩選**&#x200B;規則會根據特定標準 (例如年齡、地點、國家或電話號碼) 來排除目標客群區段。"
 
 ## 關於型別
 
-您可以利用類型將所有傳遞的業務實務標準化。**型別**&#x200B;是&#x200B;**型別規則**&#x200B;的集合，可讓您控制、篩選傳遞內容，並設定其優先順序。 在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞對象之外。
+您可以利用類型將所有傳遞的業務實務標準化。 **型別**&#x200B;是&#x200B;**型別規則**&#x200B;的集合，可讓您控制、篩選傳遞內容，並設定其優先順序。 在準備階段，與類型規則中的標準相符的輪廓會排除在傳遞對象之外。
 
 型別可確保您的傳送一律包含特定元素，例如取消訂閱連結或主旨行，或用於從預期目標中排除群組的篩選規則，例如取消訂閱者、競爭者或不忠誠客戶。
 
@@ -34,7 +34,7 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->**[!UICONTROL 型別規則]**&#x200B;清單會顯示目前在Web使用者介面或使用者端主控台中建立的所有現有規則。 不過，在Web使用者介面中只能建立&#x200B;**控制**&#x200B;和&#x200B;**篩選**&#x200B;規則。 若要建立其他型別的型別規則，例如壓力或容量規則，請使用Campaign v8使用者端主控台。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL 型別規則]**&#x200B;清單會顯示目前在Web使用者介面或使用者端主控台中建立的所有現有規則。 不過，在Web使用者介面中只能建立&#x200B;**控制**&#x200B;和&#x200B;**篩選**&#x200B;規則。 若要建立其他型別的型別規則，例如壓力或容量規則，請使用Campaign v8使用者端主控台。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 將型別套用至訊息的主要步驟如下：
 
@@ -48,7 +48,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_properties"
 >title="類型屬性"
->abstract="定義類型的屬性並展開「**[!UICONTROL 附加選項]**」區段，以存取進階設定。使用「**[!UICONTROL IP 親和原則]**」欄位，使 IP 親和原則與類型相關聯。這樣，您便能夠定義每個親和原則可使用哪些特定的 IP 位址，更好地控制 SMTP 傳出流量。"
+>abstract="定義類型的屬性並展開「**[!UICONTROL 附加選項]**」區段，以存取進階設定。 使用「**[!UICONTROL IP 親和原則]**」欄位，使 IP 親和原則與類型相關聯。 這樣，您便能夠定義每個親和原則可使用哪些特定的 IP 位址，更好地控制 SMTP 傳出流量。"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
@@ -80,7 +80,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
 >title="類型規則屬性"
->abstract="定義類型規則的屬性。**控制**&#x200B;規則在傳送前驗證訊息品質和有效性，而&#x200B;**篩選**&#x200B;規則會根據特定標準排除目標對象的區段。<br/><br/>在同一個訊息處理階段執行數個相同類型的規則時，您也可以變更此規則的執行順序，藉以管理類型規則的執行順序。"
+>abstract="定義類型規則的屬性。 **控制**&#x200B;規則在傳送前驗證訊息品質和有效性，而&#x200B;**篩選**&#x200B;規則會根據特定標準排除目標對象的區段。<br/><br/>在同一個訊息處理階段執行數個相同類型的規則時，您也可以變更此規則的執行順序，藉以管理類型規則的執行順序。"
 
 有兩種型別規則可供使用：
 
@@ -90,7 +90,7 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->目前只能從Web使用者介面建立&#x200B;**控制**&#x200B;與&#x200B;**篩選**&#x200B;型別規則。 若要建立其他型別的規則，請使用「使用者端主控台」。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>目前只能從Web使用者介面建立&#x200B;**控制**&#x200B;與&#x200B;**篩選**&#x200B;型別規則。 若要建立其他型別的規則，請使用「使用者端主控台」。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 若要建立型別規則，請遵循下列步驟：
 
@@ -105,12 +105,12 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
 >title="篩選"
->abstract="**篩選**&#x200B;規則會根據特定標準 (例如年齡、地點、國家或電話號碼) 排除目標客群區段。選取類型規則的目標維度，然後按一下「**[!UICONTROL 新增規則]**」按鈕以存取查詢建模工具並建置規則。"
+>abstract="**篩選**&#x200B;規則會根據特定標準 (例如年齡、地點、國家或電話號碼) 排除目標客群區段。 選取類型規則的目標維度，然後按一下「**[!UICONTROL 新增規則]**」按鈕以存取查詢建模工具並建置規則。"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_code"
 >title="程式碼"
->abstract="**控制**&#x200B;規則會在傳送前驗證訊息品質和有效性 (例如字元顯示、簡訊長度、地址格式或 URL 縮短)。這些規則是使用 JavaScript 程式碼所建立的。"
+>abstract="**控制**&#x200B;規則會在傳送前驗證訊息品質和有效性 (例如字元顯示、簡訊長度、地址格式或 URL 縮短)。 這些規則是使用 JavaScript 程式碼所建立的。"
 
 以下是建立新型別規則時要定義的主要屬性：
 

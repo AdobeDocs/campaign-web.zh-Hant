@@ -3,7 +3,7 @@ audience: end-user
 title: 設計簡訊傳遞
 description: 了解如何設計您的簡訊傳遞
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 50%
@@ -15,12 +15,12 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="簡訊內容"
->abstract="建立簡訊傳遞的內容，並使用個人化欄位、運算式片段和動態內容對其進行個人化設定。若要開始撰寫訊息，請按一下「**編輯內容**」按鈕。"
+>abstract="建立簡訊傳遞的內容，並使用個人化欄位、運算式片段和動態內容對其進行個人化設定。 若要開始撰寫訊息，請按一下「**編輯內容**」按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
 >title="簡訊訊息內容"
->abstract="定義簡訊內容。若要撰寫訊息，請按一下「**訊息**」欄位並輸入訊息內容。使用運算式編輯器來新增個人化資料和動態內容。您也可以自訂寄件者名稱。預設情況下，所有簡訊傳遞都會啟用追蹤，讓您能夠測量收件人點按連結的時機。"
+>abstract="定義簡訊內容。 若要撰寫訊息，請按一下「**訊息**」欄位並輸入訊息內容。 使用運算式編輯器來新增個人化資料和動態內容。 您也可以自訂寄件者名稱。 預設情況下，所有簡訊傳遞都會啟用追蹤，讓您能夠測量收件人點按連結的時機。"
 
 若要設計SMS傳送的內容，請遵循下列步驟：
 
@@ -36,7 +36,7 @@ ht-degree: 50%
 
    ![熒幕擷圖顯示訊息欄位，其中包含新增動態內容的選項](assets/sms_content_2.png){zoomable="yes"}
 
-1. 依預設，傳遞會啟用追蹤。如有需要，請從&#x200B;**[!UICONTROL 選用功能區段]**&#x200B;停用此選項。
+1. 依預設，傳遞會啟用追蹤。 如有需要，請從&#x200B;**[!UICONTROL 選用功能區段]**&#x200B;停用此選項。
 
 1. 按一下&#x200B;**[!UICONTROL 設定]**&#x200B;以存取與您的傳遞範本相關的進階選項。 [了解更多](../advanced-settings/delivery-settings.md)
 

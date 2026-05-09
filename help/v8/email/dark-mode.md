@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 深色模式，電子郵件，顏色，編輯器
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 10%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="切換至深色模式"
->abstract="切換至深色模式，而您可以預覽其轉譯方式並定義特定的自訂設定。<br>最終的轉譯結果取決於收件者的電子郵件用戶端。請注意，所有電子郵件用戶端都不支援自訂深色模式。"
+>abstract="切換至深色模式，而您可以預覽其轉譯方式並定義特定的自訂設定。 <br>最終的轉譯結果取決於收件者的電子郵件用戶端。 請注意，所有電子郵件用戶端都不支援自訂深色模式。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="切換至深色模式"
->abstract="切換至深色模式，以預覽它在支援的電子郵件用戶端上的呈現方式。<br>最終的轉譯結果取決於收件者的電子郵件用戶端。請注意，所有電子郵件用戶端都不支援深色模式。"
+>abstract="切換至深色模式，以預覽它在支援的電子郵件用戶端上的呈現方式。 <br>最終的轉譯結果取決於收件者的電子郵件用戶端。 請注意，所有電子郵件用戶端都不支援深色模式。"
 
 設計電子郵件時，[!DNL Adobe Campaign] [電子郵件Designer](get-started-email-designer.md)可讓您切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;檢視。
 
@@ -63,7 +63,7 @@ ht-degree: 10%
 
 ### 使用者端套用自己的深色模式 {#default-support}
 
-有些電子郵件使用者端會系統地將其本身的預設深色模式套用至所收到的所有電子郵件。 顏色、背景、影像等 會使用電子郵件使用者端特有的深色模式設定自動調整，這表示無法進行外部修改。
+有些電子郵件使用者端會系統地將其本身的預設深色模式套用至所收到的所有電子郵件。 顏色、背景、影像等會使用電子郵件使用者端特有的深色模式設定自動調整，這表示無法進行外部修改。
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
@@ -106,7 +106,7 @@ ht-degree: 10%
 
 * 您可以預覽預設深色模式在大多數支援的電子郵件使用者端中的呈現方式。 [了解更多](#preview-dark-mode)
 
-* 如果您要覆寫支援自訂深色模式[之電子郵件使用者端](#custom-support)的預設設定，您可以為正在編輯的電子郵件定義自訂設定。 [了解更多](#define-custom-dark-mode)
+* 如果您要覆寫支援自訂深色模式](#custom-support)之電子郵件使用者端[的預設設定，您可以為正在編輯的電子郵件定義自訂設定。 [了解更多](#define-custom-dark-mode)
 
 ### 預覽預設深色模式 {#preview-dark-mode}
 
@@ -137,7 +137,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="將特定影像用於深色模式"
->abstract="您可以選取另一張影像，以在深色模式開啟時顯示。<br>新增用於深色模式的特定影像，並不能保證其會在所有電子郵件用戶端中正確轉譯。請注意，所有電子郵件用戶端都不支援自訂深色模式。"
+>abstract="您可以選取另一張影像，以在深色模式開啟時顯示。 <br>新增用於深色模式的特定影像，並不能保證其會在所有電子郵件用戶端中正確轉譯。 請注意，所有電子郵件用戶端都不支援自訂深色模式。"
 
 切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;後，您可以選擇編輯內容的特定樣式元素，這些樣式元素只有在收件者的電子郵件使用者端中啟用深色模式時才會顯示，前提是它支援該功能。
 

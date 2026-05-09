@@ -3,10 +3,10 @@ audience: end-user
 title: 建立內容片段
 description: 瞭解如何建立內容片段
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 22%
+source-wordcount: '1038'
+ht-degree: 23%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="定義您自己的內容片段"
->abstract="定義您要建立的片段屬性和片段類型。然後，您可以使用電子郵件設計工具或運算式編輯器來設定片段的內容。"
+>abstract="定義您要建立的片段屬性和片段類型。 然後，您可以使用電子郵件設計工具或運算式編輯器來設定片段的內容。"
 
 <!-- pas vu dans l'UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="片段屬性"
->abstract="輸入片段的標籤。如果需要，您可以定義其他選項，例如片段內部名稱、其資料夾和描述。"
+>abstract="輸入片段的標籤。 如果需要，您可以定義其他選項，例如片段內部名稱、其資料夾和描述。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="內容片段的類型"
->abstract="選擇您想要建立之片段的類型。**視覺片段**&#x200B;是預先定義的視覺區塊，可在多個電子郵件傳遞或內容範本中重複使用。**運算式片段**&#x200B;是預先定義的運算式，可從運算式編輯器的專用項目中取得。"
+>abstract="選擇您想要建立之片段的類型。 **視覺片段**&#x200B;是預先定義的視覺區塊，可在多個電子郵件傳遞或內容範本中重複使用。 **運算式片段**&#x200B;是預先定義的運算式，可從運算式編輯器的專用項目中取得。"
 
 建立內容片段的方式有兩種：
 
@@ -44,11 +44,11 @@ ht-degree: 22%
 
 若要從頭開始建立內容片段，請遵循下列步驟。
 
-1. [透過](#access-manage-fragments)內容管理&#x200B;**[!UICONTROL >]**&#x200B;片段&#x200B;**[!UICONTROL 左側功能表存取片段清單]**，並選取&#x200B;**[!UICONTROL 建立片段]**。
+1. [透過&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**&#x200B;左側功能表存取片段清單](#access-manage-fragments)，並選取&#x200B;**[!UICONTROL 建立片段]**。
 
    顯示[建立片段]選項的![片段清單畫面](assets/fragments-list.png)
 
-1. 輸入片段的標籤。如有需要，請定義其他選項，例如片段內部名稱、其資料夾和說明。
+1. 輸入片段的標籤。 如有需要，請定義其他選項，例如片段內部名稱、其資料夾和說明。
 
 1. 選擇要建立的片段型別： **視覺化片段**&#x200B;或&#x200B;**運算式片段**。 [瞭解視覺和運算式片段之間的差異](fragments.md)
 
@@ -56,7 +56,7 @@ ht-degree: 22%
 
    >[!AVAILABILITY]
    >
-   >視覺片段需要更新Campaign v8.6.4。進一步瞭解[Campaign v8使用者端主控台發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes)。
+   >視覺片段需要更新Campaign v8.6.4。 進一步瞭解[Campaign v8使用者端主控台發行說明](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/releases/release-notes)。
 
 1. 按一下&#x200B;**建立**&#x200B;按鈕。
 
@@ -79,7 +79,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="另存為片段"
->abstract="若要將內容另存為視覺片段，選取要加入片段中的元素，包括個人化欄位和動態內容。僅可選取相鄰區段。不能選取空結構或其他內容片段。然後，內容會成為一個獨立的片段並新增到片段清單中，而您可從專用選單中存取。在 Campaign 中建置任何電子郵件或內容範本時，都可以使用此片段。"
+>abstract="若要將內容另存為視覺片段，選取要加入片段中的元素，包括個人化欄位和動態內容。 僅可選取相鄰區段。 不能選取空結構或其他內容片段。 然後，內容會成為一個獨立的片段並新增到片段清單中，而您可從專用選單中存取。 在 Campaign 中建置任何電子郵件或內容範本時，都可以使用此片段。"
 
 <!--pas vu dans l'UI-->
 
@@ -95,11 +95,11 @@ ht-degree: 22%
 
    >[!CAUTION]
    >
-   >僅可選取相鄰區段。無法選取空的結構或其他內容片段。
+   >僅可選取相鄰區段。 不能選取空結構或其他內容片段。
 
    ![另存為片段熒幕，顯示專案選擇](assets/fragment-save-as-screen.png)
 
-1. 按一下 **[!UICONTROL 建立]**。填寫片段名稱並儲存。
+1. 按一下 **[!UICONTROL 建立]**。 填寫片段名稱並儲存。
 
    ![儲存視覺片段的確認畫面](assets/fragment-save-confirm.png)
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 匯出您的報告
 description: 瞭解如何匯出報告
 exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 26%
@@ -23,6 +23,6 @@ ht-degree: 26%
 
    ![熒幕擷圖顯示全域報告介面中的匯出選項](assets/global_report_export.png){zoomable="yes"}
 
-1. 找到您要儲存檔案的資料夾，視需要重新命名，然後按一下[儲存]。**&#x200B;**
+1. 找到您要儲存檔案的資料夾，視需要重新命名，然後按一下[儲存]。****
 
 您的報表現在可以在PDF或CSV檔案中檢視或共用。

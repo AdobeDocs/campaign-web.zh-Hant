@@ -3,10 +3,10 @@ audience: end-user
 title: 推播通道的全域報表
 description: 瞭解推播通道的全域報表
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 23%
+source-wordcount: '624'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_push_global_report_overview"
 >title="推播傳遞概觀"
->abstract="推播&#x200B;**傳遞概觀** KPI 可對您的推播傳遞進行徹底檢查，提供詳細的洞察和特定資料。它提供了有關傳遞績效、有效性和結果的全面詳細資訊。"
+>abstract="推播&#x200B;**傳遞概觀** KPI 可對您的推播傳遞進行徹底檢查，提供詳細的洞察和特定資料。 它提供了有關傳遞績效、有效性和結果的全面詳細資訊。"
 
 **[!UICONTROL 傳遞總覽]**&#x200B;報告提供關鍵績效指標(KPI)，可提供訪客如何與每個推播通知傳遞互動的詳細資訊。 量度詳情如下。
 

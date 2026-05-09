@@ -3,10 +3,10 @@ audience: end-user
 title: 使用 Adobe Campaign Web 建立行銷活動
 description: 了解如何使用 Adobe Campaign Web 建置跨管道行銷活動
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: f1fe8e08401f6ad98ab6920c9ae33fa6336c209d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 36%
+source-wordcount: '455'
+ht-degree: 40%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Campaign 建立屬性"
->abstract="在此畫面中，定義您的行銷活動設定：選取範本，然後輸入行銷活動的標籤。瀏覽到其他設定以變更預設內部名稱、資料夾、新增說明並選取受託人。"
+>abstract="在此畫面中，定義您的行銷活動設定：選取範本，然後輸入行銷活動的標籤。 瀏覽到其他設定以變更預設內部名稱、資料夾、新增說明並選取受託人。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="行銷活動屬性"
->abstract="在此畫面中，您可以檢查和更新行銷活動設定：其標籤、內部名稱、資料夾和說明。您還可以檢視其指派的使用者。"
+>abstract="在此畫面中，您可以檢查和更新行銷活動設定：其標籤、內部名稱、資料夾和說明。 您還可以檢視其指派的使用者。"
 
 若要建立新的行銷活動，請定義其設定、排程並包含工作流程與傳送。
 
@@ -56,11 +56,11 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="行銷活動排程"
->abstract="選取行銷活動排程。您可以建立行銷活動，它會在到達開始日期時展開。預設情況下，行銷活動開始日期為建立日期，並持續 5 天。開始和結束日期會顯示在行銷活動清單中，並當成篩選器使用。"
+>abstract="選取行銷活動排程。 您可以建立行銷活動，它會在到達開始日期時展開。 預設情況下，行銷活動開始日期為建立日期，並持續 5 天。 開始和結束日期會顯示在行銷活動清單中，並當成篩選器使用。"
 
 行銷活動在到達開始日期時開始。 只要未到達開始日期，行銷活動就會具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態。 當到達開始日期時，它會變成&#x200B;**[!UICONTROL 進行中]**。 一旦到達結束日期，行銷活動就會設為&#x200B;**[!UICONTROL 已完成]**。
 
-開始和結束日期會顯示在行銷活動清單中，並作為篩選條件使用。 請參閱本[章節](manage-campaigns.md#access-campaigns)。
+開始和結束日期會顯示在行銷活動清單中，並當成篩選器使用。 請參閱本[章節](manage-campaigns.md#access-campaigns)。
 
 >[!NOTE]
 >

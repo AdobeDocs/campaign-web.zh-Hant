@@ -3,10 +3,10 @@ title: 自訂欄位
 description: 瞭解如何設定自訂欄位，以及這些欄位在介面中的可見度。
 hide: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 27%
+source-wordcount: '1043'
+ht-degree: 28%
 
 ---
 
@@ -15,22 +15,22 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="螢幕版本"
->abstract="介面中顯示的所有自訂欄位，以供顯示選取的結構描述。您可以使用向上鍵和向下鍵來變更其在介面中的顯示順序，並透過新增分隔符號將欄位分組到子區段中。若要刪除自訂欄位或編輯可見度條件等設定，請按一下省略符號按鈕。"
+>abstract="介面中顯示的所有自訂欄位，以供顯示選取的結構描述。 您可以使用向上鍵和向下鍵來變更其在介面中的顯示順序，並透過新增分隔符號將欄位分組到子區段中。 若要刪除自訂欄位或編輯可見度條件等設定，請按一下省略符號按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
 >title="一般"
->abstract="定義自訂欄位的一般設定。如果沒有提供標籤，則會顯示結構描述中定義的標籤。使用「**符合條件時可見**」欄位並利用控制何時顯示該欄位的 xtk 運算式來定義條件。您也可以在介面中將欄位標記為必填或唯讀。"
+>abstract="定義自訂欄位的一般設定。 如果沒有提供標籤，則會顯示結構描述中定義的標籤。 使用「**符合條件時可見**」欄位並利用控制何時顯示該欄位的 xtk 運算式來定義條件。 您也可以在介面中將欄位標記為必填或唯讀。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="連結屬性"
->abstract="使用查詢建模工具以指定顯示連結類型自訂欄位的規則。例如，根據另一個欄位的輸入來限制清單值。"
+>abstract="使用查詢建模工具以指定顯示連結類型自訂欄位的規則。 例如，根據另一個欄位的輸入來限制清單值。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
 >title="版面配置"
->abstract="預設情況下，自訂欄位在介面中顯示為兩欄。將這個選項切換為開啟，以全螢幕的寬度而非兩欄來顯示自訂欄位。"
+>abstract="預設情況下，自訂欄位在介面中顯示為兩欄。 將這個選項切換為開啟，以全螢幕的寬度而非兩欄來顯示自訂欄位。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_separatorproperties"
@@ -66,7 +66,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_schema_screen_definition"
 >title="畫面定義"
->abstract="定義要為結構描述及其屬性編輯的自訂欄位清單。按一下「**預覽**」按鈕可在範例畫面中顯示自訂欄位。"
+>abstract="定義要為結構描述及其屬性編輯的自訂欄位清單。 按一下「**預覽**」按鈕可在範例畫面中顯示自訂欄位。"
 
 
 若要在介面中顯示自訂欄位，請執行下列步驟：
@@ -115,7 +115,7 @@ ht-degree: 27%
 可用的設定包括：
 
 * **[!UICONTROL 屬性]**：自訂欄位的名稱。
-* **[!UICONTROL 標籤（自訂）]**：要顯示在介面中的標籤。 如果未提供標籤，則會顯示結構描述中定義的標籤。
+* **[!UICONTROL 標籤（自訂）]**：要顯示在介面中的標籤。 如果沒有提供標籤，則會顯示結構描述中定義的標籤。
 * **[!UICONTROL 顯示條件：]**：使用控制欄位顯示時間的xtk運算式定義條件。 例如，如果另一個欄位為空，則隱藏此欄位。
 * **[!UICONTROL 必要]**：在介面中將欄位設為必要。
 * **[!UICONTROL 唯讀]**：將介面中的欄位設為唯讀。 使用者將無法編輯欄位的值。

@@ -2,10 +2,10 @@
 title: 管理目標對應
 description: 瞭解如何管理目標對應。
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 10%
+source-wordcount: '781'
+ht-degree: 11%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 
 ![目標對應清單畫面顯示可用的對應](assets/target-mappings-list.png)
 
-如需Adobe Campaign隨附的內建目標對應詳細資訊，請參閱[Campaign v8使用者端主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hant){target="_blank"}。
+如需Adobe Campaign隨附的內建目標對應詳細資訊，請參閱[Campaign v8使用者端主控台檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}。
 
 ## 建立目標對應 {#create-mapping}
 

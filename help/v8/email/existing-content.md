@@ -3,9 +3,9 @@ audience: end-user
 title: 匯入您的電子郵件內容
 description: 了解如何匯入電子郵件內容
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 29%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="使用現有的電子郵件內容"
->abstract="電子郵件設計工具可讓您匯入現有的 HTML 內容。此內容可以是附有整合樣式表的 HTML 檔案，或是附有 HTML 檔案、樣式表 (.css) 和影像的 .zip 資料夾。"
+>abstract="電子郵件設計工具可讓您匯入現有的 HTML 內容。 此內容可以是附有整合樣式表的 HTML 檔案，或是附有 HTML 檔案、樣式表 (.css) 和影像的 .zip 資料夾。"
 
 您可以在電子郵件Designer中匯入現有的HTML內容。 此內容可以是：
 
@@ -24,7 +24,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->.zip 檔案結構沒有限制。不過，參照必須是相對參照，而且能放在.zip資料夾的樹狀結構內。
+>.zip 檔案結構沒有限制。 不過，參照必須是相對參照，而且能放在.zip資料夾的樹狀結構內。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -56,4 +56,4 @@ ht-degree: 29%
 
 瞭解如何透過上傳HTML建立電子郵件、使其與電子郵件Designer相容，並將其轉換為範本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447043/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

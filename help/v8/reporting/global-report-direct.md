@@ -3,9 +3,9 @@ audience: end-user
 title: 直接郵件通道的全域報告
 description: 深入瞭解直接郵件通道的全域報告
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '661'
 ht-degree: 27%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_overview_direct_mail"
 >title="傳遞概觀"
->abstract="**傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可讓您深入了解訪客與每次直接郵件傳遞的互動情況。這些量度概述如下。"
+>abstract="**傳遞概觀**&#x200B;提供了關鍵績效指標 (KPI)，可讓您深入了解訪客與每次直接郵件傳遞的互動情況。 這些量度概述如下。"
 
 **[!UICONTROL 傳遞總覽]**&#x200B;提供關鍵效能量度(KPI)，提供深入分析訪客與每個直接郵件傳遞的互動。 這些量度概述如下。
 

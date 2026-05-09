@@ -3,10 +3,10 @@ audience: end-user
 title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 28%
+source-wordcount: '779'
+ht-degree: 32%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="推播通知範本"
->abstract="選取推播通知範本以開始進行推播傳遞。傳遞範本可讓您在行銷活動和傳遞中輕鬆重複使用自訂內容和設定。"
+>abstract="選取推播通知範本以開始進行推播傳遞。 傳遞範本可讓您在行銷活動和傳遞中輕鬆重複使用自訂內容和設定。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-hant" text="使用傳遞範本"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="推播傳遞屬性"
->abstract="定義您的推送傳遞屬性。輸入推播的標籤，並使用「**其他選項**」設定內部名稱、傳遞資料夾和代碼。您也可以輸入自訂說明。"
+>abstract="定義您的推送傳遞屬性。 輸入推播的標籤，並使用「**其他選項**」設定內部名稱、傳遞資料夾和代碼。 您也可以輸入自訂說明。"
 
 您可以建立獨立的推播通知傳送，或在行銷活動工作流程的內容中建立推播通知。 以下步驟詳細說明獨立（一次性）推播傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟將在[本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中詳細說明。
 
@@ -60,12 +60,12 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
 >title="定義推播通知對象"
->abstract="若要定義訊息客群，您必須先選取與推播傳遞相關聯的應用程式。根據預設，推播通知會傳送給應用程式的所有訂閱者。您可以點選「**選取對象**」按鈕，並調整特定對象的範圍。如果需要，請新增一個控制組來測量傳遞的影響。"
+>abstract="若要定義訊息客群，您必須先選取與推播傳遞相關聯的應用程式。 根據預設，推播通知會傳送給應用程式的所有訂閱者。 您可以點選「**選取對象**」按鈕，並調整特定對象的範圍。 如果需要，請新增一個控制組來測量傳遞的影響。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=zh-hant" text="設定控制組"
 
 您必須先選取應用程式，然後調整推播通知對象，如下所述：
 
-1. 從&#x200B;**[!UICONTROL 對象]**&#x200B;區段中，選取您要用於此傳遞的應用程式。 根據預設，推播通知會傳送給應用程式的所有訂閱者。您可以按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，以調整為特定對象。
+1. 從&#x200B;**[!UICONTROL 對象]**&#x200B;區段中，選取您要用於此傳遞的應用程式。 根據預設，推播通知會傳送給應用程式的所有訂閱者。 您可以點選「**[!UICONTROL 選取對象]**」按鈕，並調整特定對象的範圍。
 
    ![熒幕擷圖顯示推播傳遞的對象選擇](assets/push_create_2.png){zoomable="yes"}
 
@@ -79,7 +79,7 @@ ht-degree: 28%
 
 ## 定義推播通知內容 {#create-content-push}
 
-若要定義通知的內容，請按一下[編輯內容]。**&#x200B;** [了解更多資訊](content-push.md)。
+若要定義通知的內容，請按一下[編輯內容]。**** [了解更多資訊](content-push.md)。
 
 ![熒幕擷圖顯示編輯推送傳遞的內容](assets/push_create_5.png){zoomable="yes"}
 
@@ -87,7 +87,7 @@ ht-degree: 28%
 
 ## 排程您的傳遞傳送 {#schedule-push}
 
-在工作流程內容中傳送傳遞時，您必須使用&#x200B;**排程器**&#x200B;活動。 在[此頁面](../workflows/activities/scheduler.md)瞭解更多資訊。 下列步驟僅適用於獨立傳送。
+在工作流程內容中傳送傳遞時，您必須使用&#x200B;**排程器**&#x200B;活動。 在[本頁](../workflows/activities/scheduler.md)中瞭解更多。 下列步驟僅適用於獨立傳送。
 
 若要將獨立推送傳送排程至特定日期和時間，請遵循下列步驟：
 

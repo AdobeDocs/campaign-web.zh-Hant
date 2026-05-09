@@ -3,10 +3,10 @@ audience: end-user
 title: 使用電子郵件設計工具內容元件
 description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 35%
+source-wordcount: '1402'
+ht-degree: 34%
 
 ---
 
@@ -60,9 +60,9 @@ ht-degree: 35%
 
 ## 容器 {#container}
 
-您可以新增一個簡單容器，在其中新增另一個內容元件。這可讓您將特定樣式套用至容器，這與容器內使用的元件不同。
+您可以新增一個簡單容器，在其中新增另一個內容元件。 這可讓您將特定樣式套用至容器，這與容器內使用的元件不同。
 
-例如，新增&#x200B;**[!UICONTROL 容器]**&#x200B;元件，然後在該容器內部新增[按鈕](#button)元件。為容器使用特定背景，為按鈕使用另一個背景。
+例如，新增&#x200B;**[!UICONTROL 容器]**&#x200B;元件，然後在該容器內部新增[按鈕](#button)元件。 為容器使用特定背景，為按鈕使用另一個背景。
 
 ![顯示如何在電子郵件Designer中新增容器元件的熒幕擷圖。](assets/email_designer_container_component.png){zoomable="yes"}
 
@@ -94,7 +94,7 @@ ht-degree: 35%
 
 ## 文字 {#text}
 
-使用&#x200B;**[!UICONTROL Text]**&#x200B;元件將文字插入您的電子郵件，並使用&#x200B;**[!UICONTROL 設定]**&#x200B;和&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤調整樣式（邊框、大小、邊框間距等）。
+使用&#x200B;**[!UICONTROL 文字]**&#x200B;元件將文字插入您的電子郵件，並調整樣式（邊框、大小、邊框間距等） 使用&#x200B;**[!UICONTROL 設定]**&#x200B;和&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤。
 
 1. 從&#x200B;**[!UICONTROL 內容]**&#x200B;功能表，將&#x200B;**[!UICONTROL 文字]**&#x200B;拖放到&#x200B;**[!UICONTROL 結構]**&#x200B;元件中。
 
@@ -112,7 +112,7 @@ ht-degree: 35%
    * **[!UICONTROL 設定標題]**：為文字新增標題，最多六層。
    * **字型大小**：選取文字的字型大小 (以像素為單位)。
    * **[!UICONTROL 編輯影像]**：將影像或資產新增到文字元件。
-   * **[!UICONTROL 顯示原始碼]**：顯示文字的原始碼。原始碼無法變更。
+   * **[!UICONTROL 顯示原始碼]**：顯示文字的原始碼。 原始碼無法變更。
    * **[!UICONTROL 複製]**：新增文字元件的副本。
    * **[!UICONTROL 刪除]**：從電子郵件刪除選取的文字元件。
    * **[!UICONTROL 新增個人化]**：新增個人化欄位以從輪廓資料自訂內容。
@@ -160,7 +160,7 @@ ht-degree: 35%
 
 1. 按一下&#x200B;**[!UICONTROL 瀏覽]**，從您的資產中選擇影像檔案。 您也可以選擇&#x200B;**[!UICONTROL 匯入您的媒體]**。
 
-   若要進一步瞭解如何在Adobe Experience Manager中上傳和新增資產，請參閱[Adobe Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=zh-Hant)。
+   若要進一步瞭解如何在Adobe Experience Manager中上傳和新增資產，請參閱[Adobe Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html)。
 
    ![熒幕擷圖顯示電子郵件Designer中影像元件的瀏覽選項。](assets/email_designer_28.png){zoomable="yes"}
 
@@ -173,7 +173,7 @@ ht-degree: 35%
 1. 按一下您新新增的元件，並使用&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤來設定影像屬性：
 
    * **[!UICONTROL 影像標題]**&#x200B;可讓您定義影像的標題。
-   * **[!UICONTROL 替代文字]**&#x200B;可讓您定義連結到影像的註解。這對應於替代 HTML 屬性。
+   * **[!UICONTROL 替代文字]**&#x200B;可讓您定義連結到影像的註解。 這對應於替代 HTML 屬性。
 
    ![顯示[電子郵件Designer]中影像元件之設定索引標籤的熒幕擷圖。](assets/email_designer_10.png){zoomable="yes"}
 

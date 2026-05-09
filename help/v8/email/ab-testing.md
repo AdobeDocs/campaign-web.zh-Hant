@@ -3,10 +3,10 @@ audience: end-user
 title: 建立內容實驗
 description: 瞭解如何在Adobe Campaign網頁中建立內容實驗
 exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 8%
+source-wordcount: '1170'
+ht-degree: 10%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content_experiment"
 >title="內容實驗"
->abstract="內容實驗能定義多個 A/B 測試傳遞變化版本，測量哪些變化版本最適合您的目標客群。您可以變更傳遞內容、主旨或寄件者，測試不同版本並判斷哪個變化版本能產生最佳結果。"
+>abstract="內容實驗能定義多個 A/B 測試傳遞變化版本，測量哪些變化版本最適合您的目標客群。 您可以變更傳遞內容、主旨或寄件者，測試不同版本並判斷哪個變化版本能產生最佳結果。"
 
 ## 關於內容實驗 {#about-content-experiment}
 
-Adobe Campaign網站中的內容實驗可讓您定義多個A/B測試傳送變體，以測量哪些變體最適合您的目標對象。 您可以變更傳遞內容、主旨或寄件者，測試不同版本並判斷哪個變化版本能產生最佳結果。
+Adobe Campaign Web 的內容實驗能定義多個 A/B 測試傳遞變化版本，測量哪些變化版本最適合您的目標客群。 您可以變更傳遞內容、主旨或寄件者，測試不同版本並判斷哪個變化版本能產生最佳結果。
 
 您可以對各種電子郵件元素執行A/B測試，例如：
 

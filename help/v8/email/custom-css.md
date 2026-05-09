@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 keywords: css，編輯器，摘要，電子郵件
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 10%
@@ -165,7 +165,7 @@ body {
 
 ## 技術實作 {#implementation}
 
-您的自訂CSS已新增到`<head>`區段的結尾，做為具有`<style>`屬性的`data-name="global-custom"`標籤的一部分，如下面的範例所示。 這可確保自訂樣式可全域套用至內容。
+您的自訂CSS已新增到`<head>`區段的結尾，做為具有`data-name="global-custom"`屬性的`<style>`標籤的一部分，如下面的範例所示。 這可確保自訂樣式可全域套用至內容。
 
 +++ 請參閱範例 
 
@@ -238,7 +238,7 @@ For example:
 
 * 請確定您的CSS有效，且沒有語法錯誤（例如缺少大括弧、屬性名稱不正確）。 [了解做法](#use-valid-css)
 
-* 確定您的CSS已新增至具有`<style>`屬性的`data-name="global-custom"`標籤。
+* 確定您的CSS已新增至具有`data-name="global-custom"`屬性的`<style>`標籤。
 
 * 檢查`global-custom`樣式標籤是否已將屬性`data-disabled`設定為`true`。 若是如此，則不會套用自訂CSS。
 

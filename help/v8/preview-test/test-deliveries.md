@@ -3,10 +3,10 @@ audience: end-user
 title: 傳送校樣
 description: 瞭解如何定義和傳送校樣
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 3afb50f14fbc6b7efcedb43f4c8c323fd21d1e70
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 14%
+source-wordcount: '1215'
+ht-degree: 13%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 14%
 
    根據訊息通道，校樣可以傳送給下列型別的收件者：
 
-   * 對於簡訊與電子郵件，您可以使用[測試設定檔](#test-profiles)，這些設定檔是資料庫中特定的其他收件者。 您也可以使用主要目標[模式的](#substitution-profiles)替代，這會將證明傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
+   * 對於簡訊與電子郵件，您可以使用[測試設定檔](#test-profiles)，這些設定檔是資料庫中特定的其他收件者。 您也可以使用主要目標](#substitution-profiles)模式的[替代，這會將證明傳送至電子郵件測試地址或電話號碼，並使用現有設定檔的個人化資料。 這可讓您以收件者的方式體驗訊息，讓您精確呈現設定檔將收到的內容。
 
-   * 對於推播訊息，您可以使用[訂閱者](#subscribers)，這是新增到資料庫的虛擬訂閱者。 已在[!DNL Campaign]主控台中建立。 深入瞭解[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=zh-Hant){target="_blank"}
+   * 對於推播訊息，您可以使用[訂閱者](#subscribers)，這是新增到資料庫的虛擬訂閱者。 已在[!DNL Campaign]主控台中建立。 深入瞭解[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    每種模式的詳細設定如下。
 
@@ -68,7 +68,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
 >title="範本檔案"
->abstract="檔案格式必須與原始檔案相同。<br/>支援的檔案格式：txt、csv。檔案大小上限：15MB。使用第一行作為欄標題。"
+>abstract="檔案格式必須與原始檔案相同。<br/>支援的檔案格式：txt、csv。 檔案大小上限：15MB。 使用第一行作為欄標題。"
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"

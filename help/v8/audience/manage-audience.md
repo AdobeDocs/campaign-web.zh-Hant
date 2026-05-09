@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用客群
 description: 瞭解如何在Adobe Campaign Web中使用對象
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 25%
+source-wordcount: '418'
+ht-degree: 26%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="屬性"
->abstract="您可以在此處找到客群屬性的摘要，例如其來源或其儲存資料夾。按一下&#x200B;**上一個工作流程**&#x200B;區段中的連結，開啟用於建立對象的工作流程。"
+>abstract="您可以在此處找到客群屬性的摘要，例如其來源或其儲存資料夾。 按一下&#x200B;**上一個工作流程**&#x200B;區段中的連結，開啟用於建立對象的工作流程。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="對象規模"
->abstract="在此處可以找到對象當中的設定檔總數。按一下「**計算**」按鈕，可更新並重新計算對象結果。"
+>abstract="在此處可以找到對象當中的設定檔總數。 按一下「**計算**」按鈕，可更新並重新計算對象結果。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"
@@ -30,7 +30,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
 >title="對象錯誤"
->abstract="無法取得對象資料。請等待工作流程執行結束。"
+>abstract="無法取得對象資料。 請等待工作流程執行結束。"
 
 對象是您傳送的主要目標：接收訊息的設定檔。 可從&#x200B;**[!UICONTROL 對象]**&#x200B;功能表存取Campaign網頁中可用的對象清單。
 
@@ -38,9 +38,9 @@ ht-degree: 25%
 
 對象可以源自多個來源。 **[!UICONTROL Origin]**&#x200B;欄指出特定對象的建立位置：
 
-* **[!UICONTROL Adobe Campaign]**：這些對象已在[Adobe Campaign Web使用者介面](create-audience.md)或[Adobe Campaign v8使用者端主控台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=zh-Hant){target="_blank"}中建立。
+* **[!UICONTROL Adobe Campaign]**：這些對象已在[Adobe Campaign Web使用者介面](create-audience.md)或[Adobe Campaign v8使用者端主控台](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}中建立。
 
-* **[!UICONTROL Adobe Experience Platform：]**&#x200B;這些對象已在Adobe Experience Platform中建立，並已使用Adobe來源和目標整合整合功能整合至Campaign Web。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hant){target="_blank"}中瞭解如何設定這項整合。
+* **[!UICONTROL Adobe Experience Platform：]**&#x200B;這些對象已在Adobe Experience Platform中建立，並已使用Adobe來源和目標整合整合功能整合至Campaign Web。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}中瞭解如何設定這項整合。
 
   ➡️ [在影片中探索此功能](#video)
 
@@ -60,4 +60,4 @@ ht-degree: 25%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-有關如何設定Adobe來源與目的地整合的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=zh-Hant){target="_blank"}。
+有關如何設定Adobe來源與目的地整合的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}。

@@ -2,9 +2,9 @@
 title: 開始使用輪廓
 description: 瞭解如何在Campaign網頁中監視和管理設定檔。
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 14%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="輪廓"
->abstract="輪廓是專門接收 Adobe Campaign 所傳送之訊息的記錄。在此清單中，您可以根據您的權限查看輪廓的詳細資料。使用篩選選項瀏覽此清單。您可以編輯和更新一小組輪廓屬性。"
+>abstract="輪廓是專門接收 Adobe Campaign 所傳送之訊息的記錄。 在此清單中，您可以根據您的權限查看輪廓的詳細資料。 使用篩選選項瀏覽此清單。 您可以編輯和更新一小組輪廓屬性。"
 
 ## 什麼是設定檔？ {#what}
 
@@ -34,7 +34,7 @@ ht-degree: 14%
 >
 >根據您的許可權，您可能無法存取儲存在資料庫中的完整設定檔清單。 [進一步瞭解許可權](../get-started/permissions.md)
 
-使用&#x200B;**[!UICONTROL 顯示篩選器]**&#x200B;按鈕提供的搜尋欄位或篩選器來篩選&#x200B;**設定檔**&#x200B;清單。 使用下拉式清單將結果限製為特定[資料夾](../get-started/permissions.md#folders)，或使用[查詢模型工具](../query/query-modeler-overview.md)新增規則。
+使用&#x200B;**顯示篩選器**&#x200B;按鈕提供的搜尋欄位或篩選器來篩選&#x200B;**[!UICONTROL 設定檔]**&#x200B;清單。 使用下拉式清單將結果限製為特定[資料夾](../get-started/permissions.md#folders)，或使用[查詢模型工具](../query/query-modeler-overview.md)新增規則。
 
 ![設定檔清單中可用的篩選器](assets/profiles-list-filters.png){zoomable="yes"}
 
@@ -46,4 +46,4 @@ ht-degree: 14%
 
 瞭解如何使用Campaign網頁使用者介面存取、管理和探索設定檔。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448375?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

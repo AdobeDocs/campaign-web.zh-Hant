@@ -3,8 +3,8 @@ keywords: Campaign Web;首頁;熱門主題
 description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
-workflow-type: ht
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 100%
 
@@ -54,10 +54,10 @@ ht-degree: 100%
 
 >[!TAB 2026 年 3 月發行]
 
-3 月版本已上線。新功能和強化現已在 Campaign Web 使用者介面中提供。重點包括：
+3 月版本已上線。 新功能和強化現已在 Campaign Web 使用者介面中提供。 重點包括：
 
 * **結構描述編寫 (正式推出)**，直接在 Campaign Web 使用者介面中建立和管理結構描述。
-* **電子郵件設計工具的主題 (有限開放)**，套用可重複使用的主題樣式和變數，使電子郵件內容與您的品牌保持一致。 
+* **電子郵件設計工具的主題 (有限開放)**，套用可重複使用的主題樣式和變數，使電子郵件內容與您的品牌保持一致。
 * **工作流程強化**，**自動傳送**&#x200B;和&#x200B;**開始**&#x200B;活動現已可用，且&#x200B;**連接**&#x200B;現在支援 OR 選項。 您現在也可以將多個分支新增至工作流程。
 
 如需完整概觀，請參閱發行說明。
@@ -126,7 +126,7 @@ ht-degree: 100%
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>傳送訊息</strong><br/><a href="msg/gs-deliveries.md">建立傳遞</a>，<a href="email/create-email.md">電子郵件</a>，<a href="push/gs-push.md">推播通知</a>，<a href="sms/gs-sms.md">簡訊</a>，<a href="msg/delivery-template.md">傳遞範本</a>，<a href="preview-test/preview-test.md">預覽與測試</a>
+      <strong>傳送訊息</strong><br/><a href="msg/gs-deliveries.md">建立傳遞</a>，<a href="email/create-email.md">電子郵件</a>，<a href="push/gs-push.md">推播通知</a>，<a href="sms/gs-sms.md">簡訊</a>，<a href="msg/delivery-template.md">傳遞範本</a>，<a href="preview-test/preview-test.md">預覽與測試</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">

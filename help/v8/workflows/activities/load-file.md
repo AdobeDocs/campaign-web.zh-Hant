@@ -3,9 +3,9 @@ audience: end-user
 title: 使用載入檔案工作流程活動
 description: 瞭解如何使用載入檔案工作流程活動
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1281'
 ht-degree: 36%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="載入檔案活動"
->abstract="**載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動可以處理儲存在外部檔案中的資料。設定檔和資料不會新增到資料庫中，但輸入檔中的所有欄位皆可用於個人化，或用於更新設定檔或任何其他表格。"
+>abstract="**載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。 使用此活動可以處理儲存在外部檔案中的資料。 設定檔和資料不會新增到資料庫中，但輸入檔中的所有欄位皆可用於個人化，或用於更新設定檔或任何其他表格。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -27,10 +27,10 @@ ht-degree: 36%
 >title="拒絕管理拒絕的傳出轉變"
 >abstract="拒絕管理拒絕的傳出轉變"
 
-**載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。使用此活動來處理儲存在外部檔案中的設定檔和資料。 設定檔和資料未新增至資料庫，但輸入檔案中的所有欄位都可用於[個人化](../../personalization/gs-personalization.md)，或更新設定檔或任何其他表格。
+**載入檔案**&#x200B;活動為&#x200B;**資料管理**&#x200B;活動。 使用此活動來處理儲存在外部檔案中的設定檔和資料。 設定檔和資料未新增至資料庫，但輸入檔案中的所有欄位都可用於[個人化](../../personalization/gs-personalization.md)，或更新設定檔或任何其他表格。
 
 >[!NOTE]
->支援的檔案格式包括：文字 (TXT) 和逗號分隔值 (CSV)。使用Web使用者介面控制檯，您可以載入大小上限為50MB的檔案。 在使用者端主控台中，資料載入活動具有150MB的限制。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=zh-Hant){target="_blank"}
+>支援的檔案格式包括：文字 (TXT) 和逗號分隔值 (CSV)。 使用Web使用者介面控制檯，您可以載入大小上限為50MB的檔案。 在使用者端主控台中，資料載入活動具有150MB的限制。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 此活動可與[調解](reconciliation.md)活動搭配使用，以將未識別的資料連結至現有資源。 例如，如果您將非標準資料匯入資料庫中，**載入檔案**&#x200B;活動可以放在&#x200B;**調解**&#x200B;活動之前。
 
@@ -55,17 +55,17 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="載入檔案活動的值重新對應"
->abstract="使用此選項可將載入檔案中的特定值與新值相對應。例如，如果欄包含「真」或「假」值，您可以新增對應，自動將這些值取代為字元「0」或「1」。"
+>abstract="使用此選項可將載入檔案中的特定值與新值相對應。 例如，如果欄包含「真」或「假」值，您可以新增對應，自動將這些值取代為字元「0」或「1」。"
 
 請依照下列步驟，設定用來定義預期檔案結構的範例檔案：
 
 1. 新增&#x200B;**載入檔案**&#x200B;活動至您的工作流程。
 
-1. 選取要用來定義預期檔案結構的範例檔案。 若要這麼做，請按一下&#x200B;**範例檔案**&#x200B;區段中的&#x200B;**[!UICONTROL 選取檔案]**&#x200B;按鈕，並選取要使用的本機檔案。
+1. 選取要用來定義預期檔案結構的範例檔案。 若要這麼做，請按一下&#x200B;**[!UICONTROL 範例檔案]**&#x200B;區段中的&#x200B;**選取檔案**&#x200B;按鈕，並選取要使用的本機檔案。
 
    >[!NOTE]
    >
-   >範例檔案的資料用於設定活動，但不匯入。使用包含少量資料的範例檔案。 檔案格式必須與此[範例檔案](../../audience/file-audience.md#sample-file)對齊。
+   >範例檔案的資料用於設定活動，但不匯入。 使用包含少量資料的範例檔案。 檔案格式必須與此[範例檔案](../../audience/file-audience.md#sample-file)對齊。
 
 1. 此時會顯示範例檔案的預覽，最多顯示30行。
 
@@ -101,7 +101,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_nameofthefile"
 >title="檔案名稱"
->abstract="指定要上傳到伺服器上的欄位名稱。按一下「**[!UICONTROL 開啟個人化對話框]**」圖示以利用運算式編輯器 (包含事件變數) 來計算檔案名稱。"
+>abstract="指定要上傳到伺服器上的欄位名稱。 按一下「**[!UICONTROL 開啟個人化對話框]**」圖示以利用運算式編輯器 (包含事件變數) 來計算檔案名稱。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
@@ -111,7 +111,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="載入檔案命令"
->abstract="我們是基於安全性考量而允許使用任意命令進行預處理。停用安全性選項 XtkSecurity_Disable_Preproc，以強制使用預先定義的命令清單。"
+>abstract="我們是基於安全性考量而允許使用任意命令進行預處理。 停用安全性選項 XtkSecurity_Disable_Preproc，以強制使用預先定義的命令清單。"
 
 >[!CAUTION]
 >
@@ -140,7 +140,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
 >title="拒絕載入檔案活動的管理"
->abstract="在「**拒絕管理**」區段中，指定活動在發生錯誤時應有的行為。您可以定義允許的最大錯誤數，並切換「**[!UICONTROL 將拒絕保留在檔案中]**」選項以在伺服器上下載包含匯入期間發生之錯誤的檔案。"
+>abstract="在「**拒絕管理**」區段中，指定活動在發生錯誤時應有的行為。 您可以定義允許的最大錯誤數，並切換「**[!UICONTROL 將拒絕保留在檔案中]**」選項以在伺服器上下載包含匯入期間發生之錯誤的檔案。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
@@ -163,4 +163,4 @@ ht-degree: 36%
 
 ## 範例 {#load-example}
 
-**此區段**&#x200B;中有與[調解](reconciliation.md#reconciliation-example)活動搭配使用的外部檔案載入範例。
+[此區段](reconciliation.md#reconciliation-example)中有與&#x200B;**調解**&#x200B;活動搭配使用的外部檔案載入範例。

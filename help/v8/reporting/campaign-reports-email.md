@@ -3,10 +3,10 @@ audience: end-user
 title: 電子郵件頻道的行銷活動報告
 description: 進一步瞭解電子郵件頻道的行銷活動報告
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 20%
+source-wordcount: '1707'
+ht-degree: 23%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 20%
 >title="初始目標對象統計資料"
 >abstract="初始目標對象統計資料表可顯示與您收件者相關的資料。"
 
-**[!UICONTROL 初始目標對象統計資料]**&#x200B;表格會顯示與收件者相關的資料。 量度詳情如下。
+**[!UICONTROL 初始目標客群統計資料]**&#x200B;表格會顯示與您的收件者相關的資料。 量度詳情如下。
 
 ![初始目標對象統計資料表的熒幕擷圖](assets/campaign_report_email_2.png){zoomable="yes"}
 
@@ -141,7 +141,7 @@ ht-degree: 20%
 >title="依類型的錯誤劃分"
 >abstract="**依類型的錯誤劃分**&#x200B;資料表和圖表包含發生的每個錯誤類型的可用資料：使用者未知、郵箱已滿、網域無效等。"
 
-每個型別&#x200B;**[!UICONTROL 資料表和圖表的]**&#x200B;錯誤劃分包含每個網域型別可能遇到的錯誤的可用資料。 量度詳情如下。
+每個型別&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分包含每個網域型別可能遇到的錯誤的可用資料。 量度詳情如下。
 
 此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -172,7 +172,7 @@ ht-degree: 20%
 >title="依網域的錯誤劃分"
 >abstract="**依網域的錯誤劃分**&#x200B;資料表和圖表顯示根據每個網域發生的每個錯誤類型的可用資料。"
 
-每個網域&#x200B;**[!UICONTROL 資料表和圖表的]**&#x200B;錯誤劃分包含每個網域可能遇到的錯誤的可用資料。 量度通常與上面詳述的每種型別&#x200B;**[!UICONTROL 資料表和圖表的]**&#x200B;錯誤劃分有關。
+每個網域&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分包含每個網域可能遇到的錯誤的可用資料。 量度通常與上面詳述的每種型別&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分有關。
 
 ## 追蹤指標 {#tracking-indicators-email}
 
@@ -234,7 +234,7 @@ ht-degree: 20%
 >title="URL 和點擊流量"
 >abstract="**URL 和點按資料流**&#x200B;報告提供可詳細說明傳遞期間點按次數最多的 URL 的關鍵績效指標 (KPI)。"
 
-**[!UICONTROL URL和點選串流]**&#x200B;報告提供關鍵績效指標(KPI)，可提供傳遞期間點選次數最多的URL的詳細資訊。 量度詳情如下。
+**[!UICONTROL URL 和點按資料流]**&#x200B;報告提供可詳細說明傳遞期間點按次數最多的 URL 的關鍵績效指標 (KPI)。 量度詳情如下。
 
 ![URL的熒幕擷圖並按一下串流報告](assets/campaign_report_email_9.png){zoomable="yes"}
 
@@ -257,7 +257,7 @@ ht-degree: 20%
 >title="造訪量最高的前 10 個連結"
 >abstract="**造訪量最高的前 10 個連結**&#x200B;圖表和資料表包含每個連結收件者行為的可用資料。"
 
-**[!UICONTROL 前10個最常造訪的連結]**&#x200B;圖表和表格包含每個連結的收件者行為可用資料。 量度詳情如下。
+**[!UICONTROL 造訪量最高的前 10 個連結]**&#x200B;圖表和資料表包含每個連結收件者行為的可用資料。 量度詳情如下。
 
 ![前10個最常造訪的連結圖表的熒幕擷圖](assets/campaign_report_email_10.png){zoomable="yes"}
 

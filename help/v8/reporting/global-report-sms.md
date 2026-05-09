@@ -3,10 +3,10 @@ audience: end-user
 title: 簡訊通道的全域報告
 description: 瞭解SMS頻道的全域報告
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 27%
+source-wordcount: '689'
+ht-degree: 26%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_sms_global_report_overview"
 >title="SMS 傳遞概觀"
->abstract="**SMS 傳遞概觀** KPI 提供了 SMS 傳遞的全面摘要，提供詳細的洞察和具體資料。它提供有關傳遞的績效、成效和結果的全面資訊。"
+>abstract="**SMS 傳遞概觀** KPI 提供了 SMS 傳遞的全面摘要，提供詳細的洞察和具體資料。 它提供有關傳遞的績效、成效和結果的全面資訊。"
 
 **[!UICONTROL 傳遞概覽]**&#x200B;報告提供全面的關鍵績效指標(KPI)，深入分析訪客與每個SMS傳遞的互動模式。 以下為下列量度。
 
@@ -67,7 +67,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_delivery_stats"
 >title="簡訊傳遞統計資料"
->abstract="**傳遞統計資料**&#x200B;報告提供了對傳送的簡訊的全面洞察，提供了各種指標的詳細資訊，例如成功率、錯誤發生次數和被隔離的對象。透過這份詳細的簡報，可以全面檢查簡訊傳遞過程的整體績效和結果。"
+>abstract="**傳遞統計資料**&#x200B;報告提供了對傳送的簡訊的全面洞察，提供了各種指標的詳細資訊，例如成功率、錯誤發生次數和被隔離的對象。 透過這份詳細的簡報，可以全面檢查簡訊傳遞過程的整體績效和結果。"
 
 **[!UICONTROL 傳遞統計資料]**&#x200B;表格詳細說明每次SMS傳遞的成功情況。 量度詳情如下。
 

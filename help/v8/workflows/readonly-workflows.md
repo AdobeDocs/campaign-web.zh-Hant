@@ -3,10 +3,10 @@ audience: end-user
 title: 關於唯讀工作流程
 description: 瞭解工作流程處於唯讀模式的原因
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 11%
+source-wordcount: '295'
+ht-degree: 10%
 
 ---
 
@@ -52,4 +52,4 @@ Campaign使用者存取Adobe Campaign資料的能力可能受到限制。 Campai
 
 ![技術工作流程介面處於唯讀模式，顯示暫停或停止工作流程的選項。](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-在[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)中進一步瞭解技術工作流程。
+在[本節](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)中進一步瞭解技術工作流程。

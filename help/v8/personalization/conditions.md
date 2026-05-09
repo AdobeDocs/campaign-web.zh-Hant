@@ -7,9 +7,9 @@ old-role: Data Engineer
 role: Developer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1072'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"
 >title="新增條件內容"
->abstract="設定條件內容欄位，以根據收件者的設定檔資料建立進階的動態個人化。在滿足特定條件時，會更換訊息內容中的文字區塊、連結、主題行和/或影像。"
+>abstract="設定條件內容欄位，以根據收件者的設定檔資料建立進階的動態個人化。 在滿足特定條件時，會更換訊息內容中的文字區塊、連結、主題行和/或影像。"
 
 ## 開始使用條件式內容 {#gs}
 
@@ -60,7 +60,7 @@ ht-degree: 6%
 
 1. 指定收件者不符合條件時要顯示的內容。 使用&#x200B;**else**&#x200B;協助程式函式：
 
-   1. 將游標放在運算式結束標籤`%>`之前，然後按一下`+`Else **函式旁的**。
+   1. 將游標放在運算式結束標籤`%>`之前，然後按一下&#x200B;**Else**&#x200B;函式旁的`+`。
 
    1. 以要顯示給不符合if函式條件的設定檔的內容取代`Insert content here`。
 

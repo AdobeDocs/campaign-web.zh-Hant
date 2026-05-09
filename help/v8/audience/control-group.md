@@ -3,9 +3,9 @@ audience: end-user
 title: 設定控制組
 description: 瞭解如何在Campaign網頁使用者介面中設定訊息的控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '800'
 ht-degree: 21%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 21%
 >
 >[從外部檔案](file-audience.md)載入目標群體時，您不能使用控制組。
 
-若要將控制組新增至傳遞，請從傳遞建立畫面的&#x200B;**[!UICONTROL 對象]**&#x200B;區段啟動&#x200B;**啟用控制組**&#x200B;切換按鈕。
+若要將控制組新增至傳遞，請從傳遞建立畫面的&#x200B;**對象**&#x200B;區段啟動&#x200B;**[!UICONTROL 啟用控制組]**&#x200B;切換按鈕。
 
 ![在傳遞建立畫面中啟用控制組選項切換](assets/control-group1.png)
 
@@ -40,7 +40,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="擷取模式"
->abstract="對照組是一組從傳遞排除的設定檔。若要定義控制組，您可以選擇從目標群體中隨機或基於排序、百分比或固定數量的輪廓中擷取。"
+>abstract="對照組是一組從傳遞排除的設定檔。 若要定義控制組，您可以選擇從目標群體中隨機或基於排序、百分比或固定數量的輪廓中擷取。"
 
 ### 建立控制組 {#build-extract-target}
 
@@ -102,7 +102,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="額外群體"
->abstract="對照組是一組從傳遞排除的設定檔。定義控制組的另一種方法是選取現有對象或定義查詢從傳遞對象中排除特定群體。"
+>abstract="對照組是一組從傳遞排除的設定檔。 定義控制組的另一種方法是選取現有對象或定義查詢從傳遞對象中排除特定群體。"
 
 定義控制組的另一種方式是選取現有對象中的特定母體或定義查詢。
 
@@ -110,7 +110,7 @@ ht-degree: 21%
 
 ![額外母體選取畫面](assets/control-group3.png){zoomable="yes"}
 
-* 若要使用現有客群，按一下「**選取客群**」。若要了解更多資訊，請參閱[此區段](add-audience.md)。
+* 若要使用現有客群，按一下「**選取客群**」。 若要了解更多資訊，請參閱[此區段](add-audience.md)。
 * 若要定義新的查詢，請選取&#x200B;**建立您自己的**，並使用查詢模型工具定義排除條件。 若要了解更多資訊，請參閱[此區段](../query/query-modeler-overview.md)。
 
 包含在對象中或符合查詢結果的設定檔是從傳遞目標中排除的&#x200B;**個**。 他們未收到任何訊息。
@@ -119,4 +119,4 @@ ht-degree: 21%
 
 傳送後，擷取傳送記錄檔，以比較未接收通訊的設定檔與有效目標之間的行為。 使用傳送記錄來建置新目標定位。
 
-若要檢視已從目標移除的設定檔，請檢查&#x200B;**傳遞記錄**。 在本節[瞭解更多](#check-control-group)。
+若要檢視已從目標移除的設定檔，請檢查&#x200B;**傳遞記錄**。 在本節](#check-control-group)瞭解更多[。

@@ -3,14 +3,14 @@ audience: end-user
 title: 以電子郵件傳送報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2448'
-ht-degree: 37%
+source-wordcount: '2481'
+ht-degree: 38%
 
 ---
 
-# 以電子郵件寄送傳遞報告  {#email-report}
+# 以電子郵件寄送傳遞報告 {#email-report}
 
 **電子郵件傳遞報告**&#x200B;提供電子郵件通道特定的全面深入分析和資料。 其中會提供有關您的個別傳遞的效能、效益和成果的詳細資訊，為您提供全方位的概觀。
 
@@ -75,7 +75,7 @@ ht-degree: 37%
 >title="傳遞排除原因"
 >abstract="**排除的原因**&#x200B;圖表和資料表顯示傳遞準備期間遭拒訊息每個規則的劃分。"
 
-**[!UICONTROL 排除原因]**&#x200B;圖形與表格會顯示傳遞準備期間拒絕之訊息的每條規則劃分。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}中有詳細說明。
+**[!UICONTROL 排除的原因]**&#x200B;圖表和資料表顯示傳遞準備期間遭拒訊息每個規則的劃分。 排除規則在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}中有詳細說明。
 
 ![排除圖表與資料表起因的熒幕擷圖](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -149,9 +149,9 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="依類型的錯誤劃分"
->abstract=" **依類型的錯誤劃分**&#x200B;表格提供每種錯誤類型發生次數的全面劃分。"
+>abstract="**依類型的錯誤劃分**&#x200B;表格提供每種錯誤類型發生次數的全面劃分。"
 
-每個型別&#x200B;**[!UICONTROL 資料表和圖表的]**&#x200B;錯誤劃分包含錯誤型別的可用資料。 量度詳情如下。
+每個型別&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分包含錯誤型別的可用資料。 量度詳情如下。
 
 此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -185,9 +185,9 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="依網域的錯誤劃分"
->abstract=" **依網域的錯誤劃分** 表格根據所使用網域提供每種錯誤發生次數的全面劃分。"
+>abstract="**依網域的錯誤劃分** 表格根據所使用網域提供每種錯誤發生次數的全面劃分。"
 
-每個網域&#x200B;**[!UICONTROL 表格和圖形的]**&#x200B;錯誤劃分會顯示每個網域可能遇到的錯誤的可用資料。
+每個網域&#x200B;]**表格和圖形的**[!UICONTROL &#x200B;錯誤劃分會顯示每個網域可能遇到的錯誤的可用資料。
 
 ![每個網域的錯誤劃分熒幕擷圖](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
@@ -322,7 +322,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="使用者活動"
->abstract="**使用者活動**&#x200B;圖以圖表的形式顯示開啟和點按數的劃分。您可以選擇目標資料的時段：最近一天、最近一小時或最近 30 分鐘。"
+>abstract="**使用者活動**&#x200B;圖以圖表的形式顯示開啟和點按數的劃分。 您可以選擇目標資料的時段：最近一天、最近一小時或最近 30 分鐘。"
 
 **[!UICONTROL 使用者活動]**&#x200B;報告會以圖表形式顯示開啟和點按的劃分。 您可以選擇目標資料的時段：最近一天、最近一小時或最近 30 分鐘。
 
@@ -341,9 +341,9 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="追蹤統計資料"
->abstract="**追蹤統計資料**&#x200B;圖表提供開啟和點按數的統計資料。您可以選擇特定時間段來目標市場選擇資料。"
+>abstract="**追蹤統計資料**&#x200B;圖表提供開啟和點按數的統計資料。 您可以選擇特定時間段來目標市場選擇資料。"
 
-**[!UICONTROL 追蹤統計資料]**&#x200B;圖表提供開啟和點按數的統計資料。您可以選擇特定時間段來目標市場選擇資料。
+**[!UICONTROL 追蹤統計資料]**&#x200B;圖表提供開啟和點按數的統計資料。 您可以選擇特定時間段來目標市場選擇資料。
 
 ![追蹤統計資料圖形的熒幕擷圖](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
@@ -362,11 +362,11 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="依裝置劃分"
->abstract="**依裝置劃分**&#x200B;報告顯示期間內依裝置的開啟數劃分。每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個裝置類型的確切數量和百分比。"
+>abstract="**依裝置劃分**&#x200B;報告顯示期間內依裝置的開啟數劃分。 每個類別有兩個圖表。 第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。 第二個圖表顯示每個裝置類型的確切數量和百分比。"
 
 **依裝置劃分**&#x200B;報表會顯示該期間依裝置開啟的劃分：個人電腦、Android裝置、Apple裝置或其他。
 
-每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個裝置類型的確切數量和百分比。
+每個類別有兩個圖表。 第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。 第二個圖表顯示每個裝置類型的確切數量和百分比。
 
 ![依裝置劃分報告的熒幕擷圖](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
@@ -376,11 +376,11 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="依作業系統劃分"
->abstract="**依作業系統劃分**&#x200B;報告顯示相關期間內依作業系統的開啟數劃分。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個作業系統的確切數量和百分比。"
+>abstract="**依作業系統劃分**&#x200B;報告顯示相關期間內依作業系統的開啟數劃分。 第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。 第二個圖表顯示每個作業系統的確切數量和百分比。"
 
 「**依作業系統劃分**」報表會顯示該期間依作業系統劃分的開啟次數：Windows系統、Android系統、iOS系統或其他。
 
-每個類別有兩個圖表。第一個會顯示有關電腦和行動作業系統開啟的統計資料。 第二個顯示每個作業系統的確切數目和百分比。
+每個類別有兩個圖表。 第一個會顯示有關電腦和行動作業系統開啟的統計資料。 第二個顯示每個作業系統的確切數目和百分比。
 
 ![依作業系統劃分報表的熒幕擷圖](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
@@ -389,11 +389,11 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="依瀏覽器劃分"
->abstract="**依瀏覽器劃分**&#x200B;顯示期間內依瀏覽器的開啟數劃分。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表顯示每個瀏覽器的確切數量和百分比。"
+>abstract="**依瀏覽器劃分**&#x200B;顯示期間內依瀏覽器的開啟數劃分。 第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。 第二個圖表顯示每個瀏覽器的確切數量和百分比。"
 
 **依瀏覽器劃分**&#x200B;報表會顯示依瀏覽器開啟的劃分： Chrome、Safari、Internet Explorer等。
 
-每個類別有兩個圖表。第一個會顯示有關電腦和行動作業系統開啟的統計資料。 第二個圖表顯示每個瀏覽器的確切數量和百分比。
+每個類別有兩個圖表。 第一個會顯示有關電腦和行動作業系統開啟的統計資料。 第二個圖表顯示每個瀏覽器的確切數量和百分比。
 
 ![瀏覽器報告開啟的劃分熒幕擷圖](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
@@ -403,8 +403,8 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
 >title="熱門點按報告"
->abstract="**熱門點按**&#x200B;報告顯示電子郵件內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。個人化區塊取消訂閱連結、鏡像頁面連結和產品建議連結有計入總累計點按數，但不顯示在報告中。"
+>abstract="**熱門點按**&#x200B;報告顯示電子郵件內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。 個人化區塊取消訂閱連結、鏡像頁面連結和產品建議連結有計入總累計點按數，但不顯示在報告中。"
 
-此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。個人化區塊取消訂閱連結、鏡像頁面連結和產品建議連結有計入總累計點按數，但不顯示在報告中。
+此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。 個人化區塊取消訂閱連結、鏡像頁面連結和產品建議連結有計入總累計點按數，但不顯示在報告中。
 
 ![熱門點選報告的熒幕擷圖](assets/reporting11.png){zoomable="yes"}
