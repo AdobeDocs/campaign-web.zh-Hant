@@ -34,7 +34,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->**[!UICONTROL 型別規則]**&#x200B;清單會顯示目前在Web使用者介面或使用者端主控台中建立的所有現有規則。 不過，在Web使用者介面中只能建立&#x200B;**控制**&#x200B;和&#x200B;**篩選**&#x200B;規則。 若要建立其他型別的型別規則，例如壓力或容量規則，請使用Campaign v8使用者端主控台。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL 型別規則]**&#x200B;清單會顯示目前在Web使用者介面或使用者端主控台中建立的所有現有規則。 不過，在Web使用者介面中只能建立&#x200B;**控制**&#x200B;和&#x200B;**篩選**&#x200B;規則。 若要建立其他型別的型別規則，例如壓力或容量規則，請使用Campaign v8使用者端主控台。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 將型別套用至訊息的主要步驟如下：
 
@@ -90,7 +90,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->目前只能從Web使用者介面建立&#x200B;**控制**&#x200B;與&#x200B;**篩選**&#x200B;型別規則。 若要建立其他型別的規則，請使用「使用者端主控台」。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>目前只能從Web使用者介面建立&#x200B;**控制**&#x200B;與&#x200B;**篩選**&#x200B;型別規則。 若要建立其他型別的規則，請使用「使用者端主控台」。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 若要建立型別規則，請遵循下列步驟：
 
