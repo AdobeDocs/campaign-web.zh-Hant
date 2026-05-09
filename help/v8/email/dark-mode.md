@@ -106,7 +106,7 @@ ht-degree: 10%
 
 * 您可以預覽預設深色模式在大多數支援的電子郵件使用者端中的呈現方式。 [了解更多](#preview-dark-mode)
 
-* 如果您要覆寫支援自訂深色模式](#custom-support)之電子郵件使用者端[的預設設定，您可以為正在編輯的電子郵件定義自訂設定。 [了解更多](#define-custom-dark-mode)
+* 如果您要覆寫支援自訂深色模式[&#128279;](#custom-support)之電子郵件使用者端的預設設定，您可以為正在編輯的電子郵件定義自訂設定。 [了解更多](#define-custom-dark-mode)
 
 ### 預覽預設深色模式 {#preview-dark-mode}
 
