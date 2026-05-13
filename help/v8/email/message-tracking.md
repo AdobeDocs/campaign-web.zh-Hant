@@ -3,9 +3,11 @@ audience: end-user
 title: 追蹤您的訊息
 description: 了解如何新增連結和追蹤已傳送的訊息
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
+TQID: https://experienceleague.adobe.com/0cPQ1ZElguYmeDUybrkRyzW0l-ZXxoxSdQTesjPLrps
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 571
 ht-degree: 21%
 
 ---
@@ -59,7 +61,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->行銷類型電子郵件訊息必須包含選擇退出連結，而異動訊息則不需要。訊息類別（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）是在頻道介面層級建立訊息時定義的。
+>行銷類型電子郵件訊息必須包含選擇退出連結，而異動訊息則不需要。 訊息類別（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）是在頻道介面層級建立訊息時定義的。
 
 在您的所有電子郵件訊息中加入映象頁面的特定連結。 若要了解鏡像頁面的詳細資訊，請參閱[本章節](mirror-page.md)。
 
@@ -90,4 +92,4 @@ ht-degree: 21%
 
    ![熒幕擷圖顯示新增類別至郵件追蹤工具中追蹤連結的介面](assets/message-tracking-edit-a-link_2.png){zoomable="yes"}
 
-1. 傳送您的傳遞後，存取傳遞報告。在「**[!UICONTROL 追蹤]**」選單下，**[!UICONTROL URL 和點按資料流]** 報告顯示您的傳遞中哪些 URL 造訪次數最多。[了解更多](../reporting/gs-reports.md)
+1. 傳送您的傳遞後，存取傳遞報告。 在「**[!UICONTROL 追蹤]**」選單下，**[!UICONTROL URL 和點按資料流]** 報告顯示您的傳遞中哪些 URL 造訪次數最多。 [了解更多](../reporting/gs-reports.md)

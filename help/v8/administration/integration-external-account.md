@@ -2,10 +2,13 @@
 title: 管理外部帳戶
 description: 瞭解如何設定外部帳戶
 exl-id: 99648377-112b-428a-8faf-5268d730f19a
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+TQID: https://experienceleague.adobe.com/ZkfG6g4YYAkefJI1Pi7xsdulm1zS1BFJdXBTS37x2T8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 1%
+source-wordcount: 213
+ht-degree: 5%
 
 ---
 
@@ -43,7 +46,7 @@ ht-degree: 1%
 
 * **[!UICONTROL IMS組織ID]**
 
-  您組織的ID。 若要尋找您的組織識別碼，請參閱[此頁面](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-hant){target=_blank}。
+  您組織的ID。 若要尋找您的組織識別碼，請參閱[此頁面](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant){target=_blank}。
 
 * **[!UICONTROL 關聯遮罩]**
 

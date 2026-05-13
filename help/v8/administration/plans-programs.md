@@ -3,10 +3,14 @@ audience: end-user
 title: 計劃和專案
 description: 瞭解如何在Adobe Campaign中建立和設定計畫和方案
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
+TQID: https://experienceleague.adobe.com/FSiHCjupRlS0zoI9HPdcU--Y2PZot5fQOzWICwmV-oQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 3%
+source-wordcount: 522
+ht-degree: 6%
 
 ---
 
@@ -17,7 +21,7 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 為了更妥善地組織這些元件，Adobe建議使用下列階層：計畫`>`方案`>`行銷活動。
 
 * **計畫**&#x200B;可能包含多個計畫。 它會定義特定期間的策略目標。
-* **方案**&#x200B;可能包含其他方案，以及行銷活動、工作流程和登入頁面。
+* **方案**&#x200B;可能包含其他方案，以及行銷活動、工作流程和登錄頁面。
 * **行銷活動**&#x200B;可能包含傳遞、工作流程和登入頁面。
 
 ## 建立及設定計畫 {#create-plan}

@@ -3,16 +3,19 @@ audience: end-user
 title: 新增鏡像頁面連結
 description: 了解如何新增和管理鏡像頁面連結
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/iigr3vwibRH-qRbWaTXszxTuJqgdFJG6QEC1T9Z487s
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 16%
+source-wordcount: 397
+ht-degree: 19%
 
 ---
 
 # 鏡像頁面 {#mirror-page}
 
-映象頁面是電子郵件的線上版本。 在電子郵件行銷中，將連結新增至映象頁面是很好的做法。 例如，使用者在收件匣中檢視電子郵件時遇到轉譯問題或影像損毀時，可以存取該電子郵件的映象頁面。 也建議基於協助工具原因或鼓勵社交分享，提供線上版本。
+鏡像頁面是您電子郵件的線上版本。 在電子郵件行銷中，將連結新增至映象頁面是很好的做法。 例如，使用者在收件匣中檢視電子郵件時遇到轉譯問題或影像損毀時，可以存取該電子郵件的映象頁面。 也建議基於協助工具原因或鼓勵社交分享，提供線上版本。
 
 Adobe Campaign產生的映象頁面包含所有個人化資料。
 
@@ -24,7 +27,7 @@ Adobe Campaign產生的映象頁面包含所有個人化資料。
 
 若要在電子郵件中新增映象頁面的連結，請執行下列步驟：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![顯示[插入連結]選項的內容工具列](assets/message-tracking-mirror-page.png){zoomable="yes"}
 

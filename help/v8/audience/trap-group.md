@@ -3,9 +3,12 @@ audience: end-user
 title: 使用捕捉器群組
 description: 瞭解如何在Campaign網頁使用者介面中使用陷阱群組進行傳遞
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: 429
 ht-degree: 4%
 
 ---
@@ -77,4 +80,4 @@ ht-degree: 4%
 
 設定您&#x200B;**[!UICONTROL 測試設定檔]**&#x200B;的所有設定，就像任何設定檔一樣：
 
-[測試設定檔組態熒幕擷圖](assets/trap-create-contact.png){zoomable="yes"}
+[測試設定檔設定熒幕擷圖](assets/trap-create-contact.png){zoomable="yes"}

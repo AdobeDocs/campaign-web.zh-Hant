@@ -3,9 +3,13 @@ audience: end-user
 title: 電子郵件通道的全域報告
 description: 進一步瞭解電子郵件通道的全域報告
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/fG2Ob4lanHv2egHLy75-0Cob6OR1nV0Q5UZKiLb67b8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: 1689
 ht-degree: 25%
 
 ---
@@ -131,7 +135,7 @@ ht-degree: 25%
 
 ![每個型別量度的錯誤劃分](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
-每個型別&#x200B;**資料表與圖表的**&#x200B;錯誤劃分會顯示與不同網域中可能發生的錯誤相關的資料，具體量度如下。
+每個型別&#x200B;]**資料表與圖表的**[!UICONTROL &#x200B;錯誤劃分會顯示與不同網域中可能發生的錯誤相關的資料，具體量度如下。
 
 此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -162,7 +166,7 @@ ht-degree: 25%
 
 ![每個網域量度的錯誤劃分](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
-每個網域&#x200B;**資料表和圖表的**&#x200B;[!UICONTROL &#x200B;錯誤劃分可顯示與每個網域中潛在錯誤相關的資料。 量度通常與上面詳述的每種型別&#x200B;]&#x200B;**資料表和圖表的**&#x200B;錯誤劃分有關。
+每個網域&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分可顯示與每個網域中潛在錯誤相關的資料。 量度通常與上面詳述的每種型別&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分有關。
 
 ## 追蹤指標 {#tracking-indicators-email}
 

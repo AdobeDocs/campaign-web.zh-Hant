@@ -3,10 +3,13 @@ audience: end-user
 title: 關於隔離
 description: 瞭解隔離地址的管理
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+TQID: https://experienceleague.adobe.com/HRR7lWqh4GbMQiZ-Wm7EHr60452-HusFd0e4cG2G11E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 0%
+source-wordcount: 431
+ht-degree: 2%
 
 ---
 
@@ -18,7 +21,7 @@ Adobe Campaign會管理電子郵件、推播和簡訊通道的隔離地址。
 
 >[!CAUTION]
 >
->Adobe Campaign中的隔離區會區分大小寫。
+>Adobe Campaign　中的隔離區會區分大小寫。
 
 ## 什麼是隔離 {#quarantines-what}
 
@@ -30,7 +33,7 @@ Adobe Campaign會管理電子郵件、推播和簡訊通道的隔離地址。
 
 隔離功能可將錯誤的電話號碼排除在遞送服務之外，藉此降低SMS傳送成本。
 
-在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}中進一步瞭解隔離。
+在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}中進一步瞭解隔離。
 
 ## 為何將地址傳送至隔離區 {#quarantines-why}
 
@@ -41,7 +44,7 @@ Adobe Campaign會管理電子郵件、推播和簡訊通道的隔離地址。
 * 針對電子郵件，在您的郵件回報為垃圾郵件時。 郵件會自動重新導向至Adobe管理的技術信箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為「已加入封鎖清單」的隔離區。
 * 舉例來說，信箱已滿、地址不存在或電子郵件伺服器無法使用時，可以隔離電子郵件地址。
 
-在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}中進一步瞭解傳遞失敗。
+在[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}中進一步瞭解傳遞失敗。
 
 ## 在何處尋找隔離地址 {#quarantines-where}
 
@@ -57,4 +60,4 @@ Adobe Campaign會管理電子郵件、推播和簡訊通道的隔離地址。
 
 ![顯示隔離地址的傳遞摘要報告](assets/quarantine_delivery.png){zoomable="yes"}
 
-您可以探索更多選項，以在Adobe Campaign主控台中管理隔離地址。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses)。
+您可以探索更多選項，以在Adobe Campaign主控台中管理隔離地址。 [了解更多資訊](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses)。

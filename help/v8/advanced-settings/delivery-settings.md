@@ -4,13 +4,16 @@ title: 設定傳送設定
 description: 瞭解如何在Campaign網頁版中設定傳遞設定
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '3516'
+source-wordcount: 3516
 ht-degree: 40%
 
 ---
-
 
 # 設定傳遞設定 {#del-settings}
 
@@ -88,11 +91,11 @@ ht-degree: 40%
 
 在此區段中，您可以選取Adobe Campaign v8主控台中定義的容量規則。 此規則已與管道相關聯。
 
-收件者&#x200B;**欄位的**&#x200B;重要性是公式，用來決定超過容量型別規則時保留哪些設定檔。
+收件者&#x200B;]**欄位的**[!UICONTROL &#x200B;重要性是公式，用來決定超過容量型別規則時保留哪些設定檔。
 
 >[!NOTE]
 >
->型別規則是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+>型別規則是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}中進一步瞭解。
 
 ## 對象設定 {#audience}
 
@@ -130,7 +133,7 @@ ht-degree: 40%
 
 * **[!UICONTROL 測試SMTP傳遞]** （電子郵件通道）：此選項用於測試透過SMTP的傳送。 電子郵件會處理到連線至SMTP伺服器，但不會傳送：對於每個電子郵件收件者，Campaign會連線至SMTP提供者伺服器、執行SMTP RCPT TO命令，並在SMTP DATA命令之前關閉連線。
 
-* **[!UICONTROL 電子郵件密件副本]** （電子郵件頻道）：此選項是用來透過密件副本在外部系統上儲存電子郵件，只要將密件副本電子郵件地址新增到您的郵件目標即可。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+* **[!UICONTROL 電子郵件密件副本]** （電子郵件頻道）：此選項是用來透過密件副本在外部系統上儲存電子郵件，只要將密件副本電子郵件地址新增到您的郵件目標即可。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}中進一步瞭解。
 
 在&#x200B;**[!UICONTROL 波段定義]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 使用多個波段傳送]**&#x200B;選項，以逐步增加使用波段傳送的音量。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 [了解更多](send-using-waves.md)
 
@@ -159,7 +162,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->Web Analytics功能是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=zh-Hant#external-account-ac){target="_blank"}中進一步瞭解。
+>Web Analytics功能是在Campaign使用者端主控台中設定。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}中進一步瞭解。
 
 ## 重試次數 {#retries}
 

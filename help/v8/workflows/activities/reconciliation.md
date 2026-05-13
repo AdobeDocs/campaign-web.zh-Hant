@@ -3,9 +3,11 @@ audience: end-user
 title: 使用調解工作流程活動
 description: 瞭解如何使用協調工作流程活動
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/tq8es8g36fkqJOjufSCwi15W4uN27o1FLTrXAJprMaE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: 850
 ht-degree: 42%
 
 ---
@@ -60,7 +62,7 @@ ht-degree: 42%
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="選取目標市場選擇維度"
 >abstract="選取要調和之輸入資料的目標市場選擇維度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hant&#targeting-dimensions" text="目標市場選擇維度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目標市場選擇維度"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"

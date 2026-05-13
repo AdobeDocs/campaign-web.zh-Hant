@@ -3,9 +3,12 @@ audience: end-user
 title: 測試電子郵件轉譯
 description: 瞭解如何在Campaign網頁使用者介面中測試電子郵件呈現
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/EY2zw8-EfxmTKS3kCcigZY5f-piIO7S2s-gT8knFbeY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 245
 ht-degree: 2%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 2%
 
 在傳送電子郵件之前，請確定您的訊息在各種Web使用者端與裝置間以最佳方式向收件者顯示。
 
-若要達成此目的，請使用&#x200B;**中您的** Litmus[!DNL Adobe Campaign]帳戶，在不同的內容中立即預覽電子郵件呈現。 這可讓您檢查與主要案頭應用程式、網頁郵件服務、行動裝置等的相容性。
+若要達成此目的，請使用[!DNL Adobe Campaign]中您的&#x200B;**Litmus**&#x200B;帳戶，在不同的內容中立即預覽電子郵件呈現。 這可讓您檢查與主要案頭應用程式、網頁郵件服務、行動裝置等的相容性。
 
 >[!CAUTION]
 >

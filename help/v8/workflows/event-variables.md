@@ -3,9 +3,12 @@ audience: end-user
 title: 工作流程事件變數
 description: 瞭解如何在工作流程中善用事件變數。
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/jAIMH7uI-9k8Fij7eGITONONHDaVMReEOpyZU9X6we0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: 370
 ht-degree: 1%
 
 ---
@@ -26,7 +29,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在[本區段](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)的Campaign v8 （使用者端主控台）檔案中，有提供指令碼以及Adobe Campaign中公開之物件和變數的其他資訊。
+>在[本區段](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)的Campaign v8 （使用者端主控台）檔案中，有提供指令碼以及Adobe Campaign中公開之物件和變數的其他資訊。
 >
 >請注意，雖然此資源提供有價值的深入分析，但差異可能存在，因為其僅適用於使用者端主控台，而非Campaign Web使用者介面。
 

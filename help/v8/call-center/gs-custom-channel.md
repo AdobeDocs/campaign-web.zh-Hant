@@ -3,9 +3,12 @@ audience: end-user
 title: 開始使用自訂頻道
 description: 瞭解如何使用Adobe Campaign Web建立並傳送自訂通道傳遞
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+TQID: https://experienceleague.adobe.com/OJ-3-J3wnbTyQ3qiIYauUtPnhCjk-CgM-tUyVALnVUw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: 740
 ht-degree: 2%
 
 ---
@@ -32,11 +35,11 @@ ht-degree: 2%
 
 首先，您需要設定自訂頻道。 以下是要在使用者端主控台中執行的主要步驟。 自訂外部和API管道共用以下步驟：
 
-1. 設定結構以新增通道至可用通道清單。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=zh-Hant#configure-schema){target="_blank"}
-1. 建立新的路由外部帳戶。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=zh-Hant#create-ext-account){target="_blank"}
-1. 建立與新頻道關聯的新傳遞範本。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=zh-Hant#create-template){target="_blank"}
+1. 設定結構以新增通道至可用通道清單。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#configure-schema){target="_blank"}
+1. 建立新的路由外部帳戶。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-ext-account){target="_blank"}
+1. 建立與新頻道關聯的新傳遞範本。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-template){target="_blank"}
 
-自訂API通道需要其他設定。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=zh-Hant#api-additional){target="_blank"}
+自訂API通道需要其他設定。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional){target="_blank"}
 
 ## 建立傳遞{#create-delivery}
 
@@ -84,7 +87,7 @@ ht-degree: 2%
 
 1. 在傳遞控制面板中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕。
 
-1. 視需要填寫欄位。 若要瞭解如何設定此熒幕，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=zh-Hant#api-additional-screen){target="_blank"}。
+1. 視需要填寫欄位。 若要瞭解如何設定此熒幕，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-screen){target="_blank"}。
 
    ![顯示API通道屬性組態選項的熒幕擷圖。](assets/cc-content-attributes-api.png)
 
@@ -112,7 +115,7 @@ ht-degree: 2%
 
 1. 從傳遞內容頁面，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕並選取測試設定檔。
 
-1. 按一下右邊的&#x200B;**開啟預覽**。 需要使用JSSP來設定此功能。 請參見此[頁面](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=zh-Hant#api-additional-preview){target="_blank"}。
+1. 按一下右邊的&#x200B;**開啟預覽**。 需要使用JSSP來設定此功能。 請參見此[頁面](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-preview){target="_blank"}。
 
    ![熒幕擷圖顯示API傳遞內容頁面中的模擬內容選項](assets/cus-simulate-api.png){zoomable="yes"}
 

@@ -3,25 +3,27 @@ audience: end-user
 title: 開始使用直接郵件傳遞
 description: 了解如何使用 Adobe Campaign Web 建立和傳送直接郵件傳遞
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
-source-wordcount: '201'
+TQID: https://experienceleague.adobe.com/hpwPpLBk28eQ58sahnuBCostJpXhW7PDssUgjxainYY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 202
 ht-degree: 100%
 
 ---
-
 
 # 開始使用直接郵件傳遞 {#gs-direct-mail}
 
 直接郵件是一種離線管道，可讓您產生檔案以向客戶大量傳遞個人化信件，例如明信片、傳單或目錄。
 
-建立直接郵件傳遞時，Adobe Campaign 會產生一個摘取檔案，其中包含所有目標輪廓和選定資料，例如郵寄地址和輪廓屬性。此檔案將傳送到您選擇的伺服器，讓您選擇的直接郵件提供者能夠存取它，並由該提供者處理實際的郵寄程序。
+建立直接郵件傳遞時，Adobe Campaign 會產生一個摘取檔案，其中包含所有目標輪廓和選定資料，例如郵寄地址和輪廓屬性。 此檔案將傳送到您選擇的伺服器，讓您選擇的直接郵件提供者能夠存取它，並由該提供者處理實際的郵寄程序。
 
 若要建立直接郵件傳遞，您有三種選項：
 
-* **工作流程**：在將直接郵件管道活動新增至您的工作流程並設定基本設定後，您就可以從右側窗格選單中製作直接郵件傳遞的內容。如需有關設定工作流程的詳細說明，請參閱[此頁面](../workflows/gs-workflow-creation.md)。
-* **行銷活動**：在建立行銷活動後，您就可以建立直接郵件傳遞。如需有關設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/gs-campaigns.md)。
-* **獨立傳遞**：使用個別的直接郵件傳遞，與客戶進行直接和立即的互動，而不需要透過工作流程或行銷活動。[了解如何建立傳遞](../msg/gs-deliveries.md)
+* **工作流程**：在將直接郵件管道活動新增至您的工作流程並設定基本設定後，您就可以從右側窗格選單中製作直接郵件傳遞的內容。 如需有關設定工作流程的詳細說明，請參閱[此頁面](../workflows/gs-workflow-creation.md)。
+* **行銷活動**：在建立行銷活動後，您就可以建立直接郵件傳遞。 如需有關設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/gs-campaigns.md)。
+* **獨立傳遞**：使用個別的直接郵件傳遞，與客戶進行直接和立即的互動，而不需要透過工作流程或行銷活動。 [了解如何建立傳遞](../msg/gs-deliveries.md)
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">

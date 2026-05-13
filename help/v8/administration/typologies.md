@@ -3,9 +3,12 @@ audience: end-user
 title: 使用業務規則 (類型)
 description: 瞭解如何使用型別和型別規則來控制、篩選及監控傳送的傳送。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/LUgINZylWuInxi4LabDWk5-xp6wAv01gsNYT8dnNdx8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: 1500
 ht-degree: 24%
 
 ---
@@ -34,7 +37,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->**[!UICONTROL 型別規則]**&#x200B;清單會顯示目前在Web使用者介面或使用者端主控台中建立的所有現有規則。 不過，在Web使用者介面中只能建立&#x200B;**控制**&#x200B;和&#x200B;**篩選**&#x200B;規則。 若要建立其他型別的型別規則，例如壓力或容量規則，請使用Campaign v8使用者端主控台。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL 型別規則]**&#x200B;清單會顯示目前在Web使用者介面或使用者端主控台中建立的所有現有規則。 不過，在Web使用者介面中只能建立&#x200B;**控制**&#x200B;和&#x200B;**篩選**&#x200B;規則。 若要建立其他型別的型別規則，例如壓力或容量規則，請使用Campaign v8使用者端主控台。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 將型別套用至訊息的主要步驟如下：
 
@@ -90,7 +93,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->目前只能從Web使用者介面建立&#x200B;**控制**&#x200B;與&#x200B;**篩選**&#x200B;型別規則。 若要建立其他型別的規則，請使用「使用者端主控台」。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>目前只能從Web使用者介面建立&#x200B;**控制**&#x200B;與&#x200B;**篩選**&#x200B;型別規則。 若要建立其他型別的規則，請使用「使用者端主控台」。 [瞭解如何在使用者端主控台中建立型別規則](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 若要建立型別規則，請遵循下列步驟：
 

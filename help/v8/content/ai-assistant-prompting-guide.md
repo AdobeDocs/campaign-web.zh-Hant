@@ -3,14 +3,21 @@ title: AI助理內容提示指南
 description: 瞭解如何使用CO-STAR框架為產生AI支援的內容製作有效提示，以建立高轉換率、符合品牌的行銷內容。
 role: User
 level: Intermediate
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
+TQID: https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: 2111
 ht-degree: 0%
 
 ---
 
-# AI助理提示最佳實務 {#ai-assistant-prompting-guide}
+# AI 助理提示最佳做法 {#ai-assistant-prompting-guide}
 
 本指南可協助您建構請求、清楚傳達意圖，並確保AI產生的訊息符合您的品牌指引、對象需求和行銷活動目標。
 瞭解如何撰寫有效提示，讓AI助理產生為您的目標量身打造的高品質品牌行銷內容。
@@ -113,19 +120,19 @@ ht-degree: 0%
 
 在產生內容之前，請先確定下列事項：
 
-&amp;amp；檢查； **清除目標**：清楚說明動作、產品/服務、值和內容。
+&amp;check； **清除目標**：清楚說明動作、產品/服務、值和內容。
 
-&amp;amp；檢查； **已定義的目標對象**：指定人口統計、角色或區段。
+&amp;check； **已定義的目標對象**：指定人口統計、角色或區段。
 
-&amp;amp；檢查； **內容型別對齊方式**：目標符合選取的通道或格式。
+&amp;check； **內容型別對齊**：目標符合選取的通道或格式。
 
-&amp;amp；check； **已設定的下拉式選取專案**：已選擇音調、策略和地區設定，請勿在提示中納入它們。
+&amp;check； **已設定的下拉式清單選項**：已選擇音調、策略和區域設定，請勿將其包含在提示中。
 
-&amp;amp；檢查； **指定的檔案焦點**：反白標示要參照的內容或區段。
+&amp;check； **指定的檔案焦點**：反白標示要參照的內容或區段。
 
-&amp;amp；檢查； **已套用品牌**：已選取適當的品牌准則。
+&amp;check； **已套用品牌**：已選取適當的品牌准則。
 
-&amp;amp；檢查； **真實範圍**：避免請求配置變更、樣式或結構編輯。
+&amp;check； **真實範圍**：避免請求配置變更、樣式或結構編輯。
 
 ## 撰寫有效的行銷目標 {#marketing-objectives}
 
@@ -135,11 +142,11 @@ ht-degree: 0%
 
 **好目標的範例：**
 
-&amp;amp；check； 「全新AI支援的分析儀表板，讓我們在30天免費試用期內快速註冊」
+&amp;check； 「全新AI支援的分析儀表板，讓我們在30天免費試用期內完成註冊」
 
-&amp;amp；check； 「為將於3月15日舉行的『將雲端成本降低40%』的B2B網路研討會創造銷售機會」
+&amp;check； 「為將於3月15日舉行的『將雲端成本降低40%』的B2B網路研討會創造銷售機會」
 
-&amp;amp；check； 「促銷我們針對付費訂閱提供的限時25%假日折扣，於12月25日結束」
+&amp;check； 「在12月25日結束前，推廣我們針對付費訂閱的限時25%假日折扣」
 
 **要避免的範例：**
 
@@ -156,11 +163,11 @@ ht-degree: 0%
 
 **好目標的範例：**
 
-&amp;amp；check； 「鼓勵下載我們新的行動應用程式，協助使用者透過個人化的環保建議追蹤可持續的生活習慣」
+&amp;check； 「鼓勵下載我們新的行動應用程式，協助使用者透過個人化的環保建議追蹤可持續的生活習慣」
 
-&amp;amp；check； 「為行銷專業人員推廣我們進階資料視覺化技術專屬研討會的報名」
+&amp;check； 「促進行銷專業人員進階資料視覺化技術專屬研討會的報名」
 
-&amp;amp；check； 「提升產品上市活動的出席率，展示革命性的AI撰寫助理，每週可節省5小時以上的時間」
+&amp;check； 「提升產品上市活動的出席率，展示革命性的AI撰寫助理，每週可節省5小時以上的時間」
 
 **要避免的範例：**
 
@@ -302,7 +309,7 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td><strong>電子郵件</strong></td>
-<td>「透過詳細ROI指標展示三個客戶成功案例，以培育企業潛在客戶(IBM：成本降低45%、Accenture：銷售機會增加200%、Microsoft：節省時間60%)，鎖定擁有1000多名員工的企業的IT主管」</td>
+<td>「透過詳細ROI指標展示三個客戶成功案例，以培育企業潛在客戶（IBM：成本降低45%、Accenture：銷售機會增加200%、Microsoft：節省時間60%），鎖定擁有1000多名員工的企業的IT主管」</td>
 </tr>
 <tr>
 <td><strong>簡訊</strong></td>

@@ -3,9 +3,11 @@ audience: end-user
 title: 在電子郵件設計工具中調整垂直對齊方式和邊框間距
 description: 了解如何調整垂直對齊方式和邊框間距
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/5KgmbJc0yXRXl8-jCKBR7evxfcVHEcvQtdMxU-rV28s
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: 204
 ht-degree: 35%
 
 ---
@@ -26,7 +28,7 @@ ht-degree: 35%
 
    ![熒幕擷圖顯示[樣式]索引標籤中的對齊調整選項](assets/alignment_3.png){zoomable="yes"}
 
-   例如，選取「**[!UICONTROL 底部]**」。內容元件會移至欄的底部。
+   例如，選取「**[!UICONTROL 底部]**」。 內容元件會移至欄的底部。
 
 1. 在&#x200B;**[!UICONTROL 邊框間距]**&#x200B;下，定義欄內的上邊框間距，並為該欄設定左和右邊框間距。
 

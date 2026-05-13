@@ -3,18 +3,21 @@ audience: end-user
 title: 使用持續傳遞工作流程活動
 description: 瞭解如何使用持續傳遞工作流程活動
 exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/uWGhvUmHdS0ixFI4d-uEPgpxSnZoOwNRMbn8aZfqA98
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 14%
+source-wordcount: 242
+ht-degree: 24%
 
 ---
 
 # 持續傳遞 {#continuous-delivery}
 
-**持續傳遞**&#x200B;活動可讓您新增收件者到現有的傳遞。 此傳遞類型不需要每次都建立新的傳遞，對於低頻率的警示或依需求傳送的通知而言，能大幅提升效率。
+**持續傳遞**&#x200B;活動可讓您新增收件者到現有的傳遞。 此傳遞類型不需要每次都建立新的傳遞，對於少量的警示或依需求傳送的通知而言，能大幅提升效率。
 
-持續傳遞會建立單一傳遞執行個體。 所有傳遞記錄(broadLog)和追蹤記錄都參考這個傳遞，藉此簡化監控和報告。
+一個持續傳遞建立一個傳遞實例。 所有傳遞記錄 (broadLog) 和追蹤記錄都參考這個傳遞，藉此簡化監控和報告。
 
 ## 設定持續傳遞活動 {#configure}
 

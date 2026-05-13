@@ -2,9 +2,13 @@
 title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: 631
 ht-degree: 91%
 
 ---
@@ -122,6 +126,6 @@ _2026年3月_ 24日_
 
 ### 功能改進 {#26-3-improvements}
 
-* 已新增&#x200B;**開始**&#x200B;工作流程活動，以改善與用戶端主控台的相容性。 此活動為選用，預設不會插入新工作流程中。 不過，會自動新增至現有的工作流程。
+* 已新增&#x200B;**開始**工作流程活動，以改善與用戶端主控台的相容性。 此活動為選用，預設不會插入新工作流程中。 不過，會自動新增至現有的工作流程。
   [了解更多](../workflows/activities/about-activities.md#flow-control)
 * 傳遞的&#x200B;**排程**&#x200B;設定中的時區選取欄位已移動到&#x200B;**聯絡日期**&#x200B;欄位下方。 [了解更多](../msg/create-deliveries.md#gs-schedule)

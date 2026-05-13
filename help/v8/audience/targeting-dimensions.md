@@ -2,9 +2,13 @@
 title: 目標選擇和篩選維度
 description: 進一步瞭解Adobe Campaign Web UI中的目標定位和篩選維度
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/MhYxb45yBenENo-YGBuRDE28l-0Rq891a5PyTS2FlFQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 587
 ht-degree: 12%
 
 ---
@@ -42,7 +46,7 @@ ht-degree: 12%
 | 外部檔案 | 透過包含所有必要資訊的檔案傳遞 | 沒有連結的結構描述，沒有輸入目標 |
 | 訂閱者應用程式 | 訂閱應用程式的設定檔 | nms:appSubscriptionRcp |
 
-此外，根據特定需求建立新的目標對應。 僅從使用者端主控台執行此作業。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hant#new-mapping){target="_blank"}中進一步瞭解。
+此外，根據特定需求建立新的目標對應。 僅從使用者端主控台執行此作業。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}中進一步瞭解。
 
 ## 篩選維度 {#filtering}
 

@@ -3,9 +3,12 @@ audience: end-user
 title: 關於傳遞預覽和測試
 description: 瞭解如何預覽和測試傳送
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/o4jYAJjBPMecytLyeZ9sks-Sshww-hYJW-A8QO5ObNs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: 229
 ht-degree: 24%
 
 ---
@@ -16,8 +19,8 @@ ht-degree: 24%
 >id="acw_deliveries_simulate"
 >title="預覽和測試您的內容"
 >abstract="定義內容後，您就可以使用輪廓和測試輪廓進行預覽及測試。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html?lang=zh-Hant" text="傳送校樣"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hant&#test-landing-page" text="測試登陸頁面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="傳送校樣"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#test-landing-page" text="測試登陸頁面"
 
 定義傳遞內容後，您可以使用設定檔和測試設定檔，在傳送訊息之前進行預覽和測試。 此步驟可確保準確性並消除內容和個人化設定中的錯誤。
 

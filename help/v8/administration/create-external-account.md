@@ -2,9 +2,12 @@
 title: 管理外部帳戶
 description: 瞭解如何設定外部帳戶
 exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+TQID: https://experienceleague.adobe.com/YS9Wajit0WQlARuXk-6m0cTI87bUjAOfDIkRH-ahV7E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: 213
 ht-degree: 5%
 
 ---
@@ -46,4 +49,4 @@ ht-degree: 5%
 
    ![熒幕擷圖顯示[更多]功能表，其中包含複製或刪除外部帳戶的選項。](assets/external_account_create_4.png)
 
-1. 組態完成後，按一下[儲存]。**&#x200B;**
+1. 組態完成後，按一下[儲存]。****

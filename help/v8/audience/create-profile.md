@@ -2,9 +2,11 @@
 title: 建立輪廓
 description: 瞭解如何在Campaign網頁中建立設定檔。
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/2Drc20HXHEXs7hYFXa6IA9yfLoGI4bXpKeWGpUGC7pY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: 601
 ht-degree: 45%
 
 ---
@@ -64,6 +66,6 @@ ht-degree: 45%
    | **自訂欄位** | 如果自訂欄位已設定，則會顯示在此區段中。 自訂欄位是透過Adobe Campaign主控台新增到&#x200B;**[!UICONTROL 設定檔]**&#x200B;結構描述的其他屬性。 在[Adobe Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}中進一步瞭解 |
    | **其他** | 其他內建屬性。 |
 
-1. 設定設定檔之後，按一下[建立]，將其儲存到資料庫中。**&#x200B;**
+1. 設定設定檔之後，按一下[建立]，將其儲存到資料庫中。****
 
    儲存後，您可以隨時從設定檔清單中開啟設定檔來編輯設定檔。 [瞭解如何探索設定檔的詳細資料](profile-view.md)。

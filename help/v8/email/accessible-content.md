@@ -7,9 +7,15 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/TdKnrX1xVgdzvOq9npp-UR2GlDYA2RBmCLumqg2cjjY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: 1687
 ht-degree: 1%
 
 ---
@@ -26,7 +32,6 @@ ht-degree: 1%
 
 此頁面旨在讓您的內容可供所有收件者存取，以確保身心障礙人士可以閱讀、理解並互動您使用[!DNL Adobe Campaign]設計的電子郵件和登入頁面。
  
-
 ## 確保文字可讀性 {#text-readability}
 
 運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 [了解更多](content-components.md#text)
@@ -91,7 +96,7 @@ ht-degree: 1%
 若要在數位產品中使用有效的替代文字，請遵循以下准則：
 
 * 簡潔且情境化地描述影像用途。
-* 請避免「影像……」等多餘的片語，並使用裝飾性影像的空白替代文字。
+* 避免多餘的詞句，例如「影像……」 並將空的替代文字用於裝飾性影像。
 * 對於具有意義的圖示，提供有意義的標籤；對於複雜的影像，請使用簡短替代文字，並在其他位置使用較長的說明。
 
 ## 使用可讀格式 {#readable-format}

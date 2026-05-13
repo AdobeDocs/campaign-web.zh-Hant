@@ -3,9 +3,11 @@ audience: end-user
 title: 建立推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web建立推播通知傳遞
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/J2FB-oR-oGwBw18HLWt3F3nzu-mHXVnRlyPlSr5ISiI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: 779
 ht-degree: 32%
 
 ---
@@ -79,7 +81,7 @@ ht-degree: 32%
 
 ## 定義推播通知內容 {#create-content-push}
 
-若要定義通知的內容，請按一下[編輯內容]。**&#x200B;** [了解更多資訊](content-push.md)。
+若要定義通知的內容，請按一下[編輯內容]。**** [了解更多資訊](content-push.md)。
 
 ![熒幕擷圖顯示編輯推送傳遞的內容](assets/push_create_5.png){zoomable="yes"}
 

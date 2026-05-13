@@ -4,10 +4,14 @@ title: 設定及管理核准流程
 description: 瞭解如何在Campaign Web中管理行銷活動的核准
 feature: Approvals, Campaigns
 exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/Gpk7fY-VSFdgvgJo2STGjJ8-mHBkVZnp8cD-bFZrWpU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 5%
+source-wordcount: 696
+ht-degree: 10%
 
 ---
 
@@ -17,7 +21,7 @@ ht-degree: 5%
 >
 >核准僅適用於行銷活動內建立的傳送。 這不適用於獨立傳送或在行銷活動內容以外的工作流程中建立的傳送。
 
-核准程式可協助協調多個利害關係人，並確保在傳送前進行品質控制。 當您的組織需要來自不同團隊的驗證時（例如行銷經理稽核內容或資料分析師驗證目標對象），請使用核准。
+核准程序有助於協調多個利害關係人，並在傳送前確認品質管控。 當您的組織需要來自不同團隊的驗證時 (例如行銷經理審閱內容或資料分析師驗證目標客群)，請使用核准。
 
 啟用核準時，您必須提交內容或目標以供核准。 指定的稽核者會收到要求驗證的電子郵件通知，並可直接從Web UI介面核准或拒絕。 在授予所有必要的核准之前，無法傳送傳遞。 您可以啟用：
 
