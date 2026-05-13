@@ -5,13 +5,26 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: a50f3269-b559-4dbf-bd8f-af046f332d23
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+TQID: https://experienceleague.adobe.com/IIloBQfXp9vdAyFlAT9i-ND86F-e6QuBF-6UNlMmSzI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: 286
 ht-degree: 2%
 
 ---
-
 
 # 合作使用Campaign和其他Adobe解決方案 {#gs-integration}
 
@@ -32,7 +45,7 @@ Adobe Campaign包含數個聯結器，可與外部應用程式通訊、連線至
 
 ## GenStudio for Performance Marketing {#integration-genstudio}
 
-Adobe GenStudio for Performance Marketing是創作AI優先的應用程式，可讓行銷團隊建立自己的廣告和電子郵件，以推動符合您的品牌標準並符合您企業政策的、具影響力的個人化行銷活動。 透過運用Adobe AI技術，提供一套完整的工具，可簡化內容建立及管理的複雜性，讓創意人員可專注在創新上。
+Adobe GenStudio for Performance Marketing是創作AI優先的應用程式，可讓行銷團隊建立自己的廣告和電子郵件，以推動符合您的品牌標準並符合您企業政策的、具影響力的個人化行銷活動。 善用Adobe AI技術，提供一套完整的工具，簡化內容建立及管理的複雜性，讓創意人員可專注在創新上。
 
 若要提升行銷效率並維持品牌一致性，您可以將&#x200B;[!DNL **GenStudio for Performance Marketing**]&#x200B;體驗與&#x200B;[!DNL **Adobe Campaign**]&#x200B;緊密整合。 這可讓您運用[!DNL GenStudio]的AI支援內容建立以及[!DNL Adobe Campaign]的進階協調功能。
 

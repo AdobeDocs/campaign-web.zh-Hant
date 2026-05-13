@@ -3,9 +3,14 @@ audience: end-user
 title: 使用更新資料工作流程活動
 description: 瞭解如何使用更新資料工作流程活動
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/XEGIeWi9D0dUYRFTD-fRY3P2BEpbOTvmm9aD06uq8RA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: 480
 ht-degree: 11%
 
 ---
@@ -55,7 +60,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ### 要更新的欄位
 
-在要更新的&#x200B;**欄位**&#x200B;區段中，新增將套用更新的欄位。 如有必要，請新增條件，以執行此更新。 使用&#x200B;**Taken account if**&#x200B;欄位來定義條件。 條件會依清單順序套用。 使用右邊的箭頭以變更更新順序。您可以多次使用相同的目的地欄位。
+在要更新的&#x200B;**欄位**&#x200B;區段中，新增將套用更新的欄位。 如有必要，請新增條件，以執行此更新。 使用&#x200B;**Taken account if**&#x200B;欄位來定義條件。 條件會依清單順序套用。 使用右邊的箭頭以變更更新順序。 您可以多次使用相同的目的地欄位。
 
 使用&#x200B;**自動對應**&#x200B;按鈕自動連結欄位。 自動連結會偵測具有相同名稱的欄位。
 

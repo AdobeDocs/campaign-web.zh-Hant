@@ -4,10 +4,31 @@ description: 瞭解開始使用新的Campaign v8應用程式所需的步驟
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 29%
+source-wordcount: 1621
+ht-degree: 30%
 
 ---
 
@@ -19,7 +40,7 @@ ht-degree: 29%
 
 1. 首先瞭解[Adobe Campaign v8](#new)的新增功能。
 
-1. 接下來，根據您的角色[，瞭解Adobe Campaign Standard與Adobe Campaign v8之間的](#experiences)體驗差異。
+1. 接下來，根據您的角色[&#128279;](#experiences)，瞭解Adobe Campaign Standard與Adobe Campaign v8之間的體驗差異。
 
 ## 新增功能 {#new}
 
@@ -39,7 +60,7 @@ ht-degree: 29%
 
   ![](assets/home.png){zoomable="yes"}
 
-  所有新功能和改進專案都列在[發行說明](../../v8/rn/release-notes.md)中。 Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。因此，這些發行說明每月會更新多次。請定期進行檢查。
+  所有新功能和改進專案都列在[發行說明](../../v8/rn/release-notes.md)中。 Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。 因此，這些發行說明每月會更新多次。 請定期進行檢查。
 
 
 * **效能**
@@ -122,21 +143,21 @@ ht-degree: 29%
 
 ## Managed Services {#ac-managed-services}
 
-Adobe Campaign v8 可作為 Managed Cloud Services，提供主動預防性監督、即時警報及服務管理。Adobe Managed Cloud Service 為行銷人員提供了更靈活、安全性更高、可擴充性也更大的跨頻道行銷管理解決方案，而且總體擁有成本低廉。 新產品結合了服務與主動性監督和及時警報。
+Adobe Campaign v8 可作為 Managed Cloud Services，提供主動預防性監督、即時警報及服務管理。 Adobe Managed Cloud Service 為行銷人員提供了更靈活、安全性更高、可擴充性也更大的跨頻道行銷管理解決方案，而且總體擁有成本低廉。 新產品結合了服務與主動性監督和及時警報。
 
 ## v8新增Campaign Standard功能 {#ac-v8-added}
 
-為了讓您順利轉換到 Campaign v8，Campaign Standard 的主要功能已新增至 Campaign v8 中。在[此檔案](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hant){target="_blank"}中有詳細說明。
+為了讓您順利轉換到 Campaign v8，Campaign Standard 的主要功能已新增至 Campaign v8 中。 在[此檔案](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=zh-Hant){target="_blank"}中有詳細說明。
 
-* **動態報告**：動態報告提供完全可自訂的即時報告來測量行銷活動的影響。其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。[了解更多資訊](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"}。
+* **動態報告**：動態報告提供完全可自訂的即時報告來測量行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 [了解更多資訊](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"}。
 
-* **集中品牌化**：每家公司都有各自的品牌視覺化與技術準則。有了 Adobe Campaign，您可以定義一組規格，從標誌到技術層面 (例如電子郵件寄件者、URL 或網域)，為客戶呈現一致的品牌。[了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-Hant)
+* **集中品牌化**：每家公司都有各自的品牌視覺化與技術準則。 有了 Adobe Campaign，您可以定義一組規格，從標誌到技術層面 (例如電子郵件寄件者、URL 或網域)，為客戶呈現一致的品牌。 [了解更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-Hant)
 
-* **Rest API**  - 作為 Campaign Standard 移轉使用者，您可以使用 Rest API 為 Adobe Campaign 建立整合，並透過將 Adobe Campaign 與您使用的一組技術結合來建立自己的生態系統。[了解更多資訊](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hant){target="_blank"}。
+* **Rest API**  - 作為 Campaign Standard 移轉使用者，您可以使用 Rest API 為 Adobe Campaign 建立整合，並透過將 Adobe Campaign 與您使用的一組技術結合來建立自己的生態系統。 [了解更多資訊](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hant){target="_blank"}。
 
-* **登陸頁面** - Campaign v8 登陸頁面進行了一些改進，以確保功能與 Campaign Standard 相同。請參閱[發行說明](../../v8/rn/release-notes.md#new-24-4)和登陸頁面[文件](../../v8/landing-pages/get-started-lp.md)以了解更多資訊。
+* **登陸頁面** - Campaign v8 登陸頁面進行了一些改進，以確保功能與 Campaign Standard 相同。 請參閱[發行說明](../../v8/rn/release-notes.md#new-24-4)和登陸頁面[文件](../../v8/landing-pages/get-started-lp.md)以了解更多資訊。
 
-* **視覺片段**  - 視覺片段是可重複使用的視覺元件，可在一個或多個電子郵件傳遞或在內容範本中進行參考。修改片段時，使用該片段的所有內容都會隨之更新。此功能可讓您預先建立多個自訂內容區塊，以便行銷使用者在改進的設計流程中使用這些內容區塊來快速組裝訊息內容。[了解更多](../../v8//content/use-visual-fragments.md)
+* **視覺片段**  - 視覺片段是可重複使用的視覺元件，可在一個或多個電子郵件傳遞或在內容範本中進行參考。 修改片段時，使用該片段的所有內容都會隨之更新。 此功能可讓您預先建立多個自訂內容區塊，以便行銷使用者在改進的設計流程中使用這些內容區塊來快速組裝訊息內容。 [了解更多](../../v8//content/use-visual-fragments.md)
 
 ## Campaign Standard與Campaign v8的主要差異 {#experiences}
 
@@ -151,13 +172,13 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多數概念都類似。 不
 * 安全性群組為&#x200B;**操作者群組**。
 * 組織實體透過&#x200B;**資料夾權限**&#x200B;進行管理
 
-此外，身為現有的Campaign使用者，請注意有些概念已重新命名，以符合最新的術語標準。 這些變更僅適用於 Campaign Web 使用者介面，不會反映在用戶端主控台。它們總結如下。
+此外，身為現有的Campaign使用者，請注意有些概念已重新命名，以符合最新的術語標準。 這些變更僅適用於 Campaign Web 使用者介面，不會反映在用戶端主控台。 它們總結如下。
 
-* 收件者現在為&#x200B;**輪廓**。[了解更多資訊](../../v8/audience/gs-audiences-recipients.md)。
-* 種子地址現在為&#x200B;**測試輪廓**。[了解更多資訊](../../v8/preview-test/test-deliveries.md)。
-* 傳遞分析現在是&#x200B;**傳遞準備**。當您需要啟動訊息準備時，按一下「**準備**」按鈕。[了解更多資訊](../../v8/monitor/prepare-send.md)。
-* 電子郵件預覽現在可透過「**模擬內容**」按鈕取得。[了解更多](../../v8/preview-test/preview-test.md)
-* 清單現在是&#x200B;**客群**。[了解更多資訊](../../v8/audience/gs-audiences-recipients.md)。
+* 收件者現在為&#x200B;**輪廓**。 [了解更多資訊](../../v8/audience/gs-audiences-recipients.md)。
+* 種子地址現在為&#x200B;**測試輪廓**。 [了解更多資訊](../../v8/preview-test/test-deliveries.md)。
+* 傳遞分析現在是&#x200B;**傳遞準備**。 當您需要啟動訊息準備時，按一下「**準備**」按鈕。 [了解更多資訊](../../v8/monitor/prepare-send.md)。
+* 電子郵件預覽現在可透過「**模擬內容**」按鈕取得。 [了解更多](../../v8/preview-test/preview-test.md)
+* 清單現在是&#x200B;**客群**。 [了解更多資訊](../../v8/audience/gs-audiences-recipients.md)。
 
 
 ## 新的使用者體驗

@@ -3,9 +3,14 @@ audience: end-user
 title: 使用 Adobe Experience Manager Assets as a Cloud Service 來管理資產
 description: 瞭解如何使用Adobe Experience Manager Assets as a Cloud Service管理資產
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/19ACKL1Wbosl3o2plsBkdlOZQtjK1meaH3k-UBoQ8UE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: 494
 ht-degree: 3%
 
 ---
@@ -50,7 +55,7 @@ ht-degree: 3%
 
    ![顯示Adobe Experience Manager Assets中進階資產管理功能表的熒幕擷圖](assets/assets_4.png){zoomable="yes"}
 
-1. 若要使用Adobe Photoshop Express進一步編輯您的資產，請連按兩下資產。 然後，從右側功能表選取&#x200B;**[!UICONTROL 編輯模式]**&#x200B;圖示。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=zh-Hant#edit-using-express){target="_blank"}。
+1. 若要使用Adobe Photoshop Express進一步編輯您的資產，請連按兩下資產。 然後，從右側功能表選取&#x200B;**[!UICONTROL 編輯模式]**&#x200B;圖示。 [了解更多資訊](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=zh-Hant#edit-using-express){target="_blank"}。
 
 1. 從[!DNL Adobe Campaign]，從電子郵件設計工具的左窗格中選取&#x200B;**[!UICONTROL 資產選擇器]**&#x200B;功能表。
 

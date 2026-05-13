@@ -3,10 +3,13 @@ audience: end-user
 title: 建立直接郵件傳遞
 description: 瞭解如何使用Adobe Campaign Web建立直接郵件傳送
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 15%
+source-wordcount: 504
+ht-degree: 18%
 
 ---
 
@@ -36,7 +39,7 @@ ht-degree: 15%
    * **[!UICONTROL 性質]**：指定傳遞的性質，以進行分類。
    +++
 
-1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，以鎖定現有對象或建立您自己的對象。
+1. 按一下「**[!UICONTROL 選取客群]**」按鈕，以選擇現有客群或建立您自己的客群。
 
    * [瞭解如何選取現有對象](../audience/add-audience.md)
    * [瞭解如何建立新受眾](../audience/one-time-audience.md)
@@ -53,7 +56,7 @@ ht-degree: 15%
 
    ![熒幕擷圖顯示直接郵件傳遞的內容編輯](assets/dm-content.png){zoomable="yes"}
 
-1. 若要將您的傳遞安排在特定的日期和時間，請開啟「**[!UICONTROL 啟用排程]**」選項。啟動傳送後，擷取檔案會在您定義的確切日期和時間自動產生。 [瞭解如何排程傳遞](../msg/gs-deliveries.md#gs-schedule)。
+1. 若要將您的傳遞安排在特定的日期和時間，請開啟「**[!UICONTROL 啟用排程]**」選項。 啟動傳送後，擷取檔案會在您定義的確切日期和時間自動產生。 [瞭解如何排程傳遞](../msg/gs-deliveries.md#gs-schedule)。
 
    >[!NOTE]
    >

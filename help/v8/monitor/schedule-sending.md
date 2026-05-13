@@ -1,16 +1,19 @@
 ---
 audience: end-user
-title: 排程傳送作業
+title: 排程傳遞傳送
 description: 瞭解如何排程傳遞
 exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/H3QUVSdkbLfPhBEo3J-T1Wjj5Xguriva1E43S2kCKyE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 6%
+source-wordcount: 534
+ht-degree: 8%
 
 ---
 
-# 排程傳送作業 {#schedule-sending}
+# 排程傳遞傳送 {#schedule-sending}
 
 您可以排程傳遞的傳送。 步驟取決於是否為獨立（一次性）傳遞，或您是否正在行銷活動工作流程的內容中工作。
 
@@ -30,7 +33,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->預設會選取「**[!UICONTROL 啟用傳送前確認]**」選項。此選項要求您在排程的日期和時間傳遞之前確認傳送。如果您需要在排程的日期和時間自動傳送傳遞，請停用此選項。
+>預設會選取「**[!UICONTROL 啟用傳送前確認]**」選項。 此選項要求您在排程的日期和時間傳遞之前確認傳送。 如果您需要在排程的日期和時間自動傳送傳遞，請停用此選項。
 >
 
 1. 檢查排程是否正確，然後按一下&#x200B;**[!UICONTROL 準備]**&#x200B;按鈕。

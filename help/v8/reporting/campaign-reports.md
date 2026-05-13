@@ -3,16 +3,23 @@ audience: end-user
 title: 行銷活動報告
 description: 瞭解如何存取及使用行銷活動報告
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/wabkxP1ZzkHbK3A8FUFFE0TKdlqvMrhE6PMzLuZaPbU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: 315
 ht-degree: 8%
 
 ---
 
 # 開始使用行銷活動報告 {#campaign-reports}
 
-**行銷活動報告**&#x200B;提供您&#x200B;**行銷活動**&#x200B;的全方位概觀，結合關於所包含之不同傳遞的所有相關資訊。這些報表提供每個通道每個傳送績效的詳細分析，包括成功率、對象參與和其他關鍵量度。 它們可協助您評估行銷活動的整體成效和影響。
+**行銷活動報告**&#x200B;提供您&#x200B;**行銷活動**&#x200B;的全方位概觀，結合關於所包含之不同傳遞的所有相關資訊。 這些報表提供每個通道每個傳送績效的詳細分析，包括成功率、對象參與和其他關鍵量度。 它們可協助您評估行銷活動的整體成效和影響。
 
 各管道的完整報表和相關量度清單可在下列頁面上取得：
 

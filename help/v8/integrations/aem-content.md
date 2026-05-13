@@ -3,10 +3,18 @@ audience: end-user
 title: 使用Adobe Experience Manager as a Cloud Service管理資產
 description: 瞭解如何使用Adobe Experience Manager as a Cloud Service管理內容
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/gzygZHjIMZx5Zq-dnSiaUSUKyYdwhrkxFB4eFUXrS90
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 4%
+source-wordcount: 615
+ht-degree: 5%
 
 ---
 
@@ -86,10 +94,10 @@ Adobe Campaign網頁介面與Adobe Experience Manager的整合，使得直接在
 
 1. 如果您已將個人化內容新增至Experience Manager範本，請按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以使用測試設定檔預覽其顯示在訊息中的方式。
 
-[進一步瞭解預覽和測試設定檔](../preview-test/preview-content.md)
+   [進一步瞭解預覽和測試設定檔](../preview-test/preview-content.md)
 
 1. 檢視訊息預覽時，任何個人化元素都會自動取代為所選測試設定檔中的對應資料。
 
    如有需要，請透過&#x200B;**[!UICONTROL 管理測試設定檔]**&#x200B;按鈕新增其他測試設定檔。
 
-您的傳送現已準備就緒，可供傳送。
+您的傳送現已準備就緒而可傳送。

@@ -3,9 +3,12 @@ audience: end-user
 title: 建立呼叫中心傳遞
 description: 瞭解如何使用Adobe Campaign網路建立客服中心傳遞
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
+TQID: https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: 759
 ht-degree: 4%
 
 ---
@@ -120,7 +123,7 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**[!UICONTROL 傳送]**&#x200B;以繼續進行最後的傳送程式，然後確認。
 
-傳送傳遞後，擷取檔案會自動產生，並匯出至傳遞範本的&#x200B;**[!UICONTROL 進階設定]**&#x200B;中所選[路由](../advanced-settings/delivery-settings.md)外部帳戶中指定的位置。 您也可以按一下熒幕&#x200B;**內容**&#x200B;區段中的&#x200B;**預覽檔案**&#x200B;按鈕，預覽檔案。
+傳送傳遞後，擷取檔案會自動產生，並匯出至傳遞範本的[進階設定](../advanced-settings/delivery-settings.md)中所選&#x200B;**[!UICONTROL 路由]**&#x200B;外部帳戶中指定的位置。 您也可以按一下熒幕&#x200B;**內容**&#x200B;區段中的&#x200B;**預覽檔案**&#x200B;按鈕，預覽檔案。
 
 從您的傳遞頁面追蹤您的KPI （關鍵績效指標）資料，並從&#x200B;**[!UICONTROL 記錄檔]**&#x200B;功能表追蹤資料。
 

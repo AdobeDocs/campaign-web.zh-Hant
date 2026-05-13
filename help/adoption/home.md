@@ -3,22 +3,29 @@ keywords: Campaign Classic;home;popular topics
 description: 轉換到 Campaign v8 的 Campaign Standard 使用者，了解如何開始使用。
 title: Adobe Campaign採用指南
 exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/OYw8d-1Yp38vJ-T6TZ3k1-F4j3KMbGzycBQEzDkwSuo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 57%
+source-wordcount: 366
+ht-degree: 63%
 
 ---
 
-# Adobe Campaign v8採用指南 {#campaign-adoption}
+# Adobe Campaign v8 採用指南 {#campaign-adoption}
 
 
-我們很高興地宣布，Adobe Campaign Standard 使用者現在可以轉換到 Adobe Campaign Managed Cloud Services v8。這項轉換有許多好處：
+我們很高興地宣布，Adobe Campaign Standard 使用者現在可以轉換到 Adobe Campaign Managed Cloud Services v8。 這項轉換有許多好處：
 
 * 強大的 IT 基礎架構：透過 Managed Cloud Services v8，客戶可以利用更強大的 IT 基礎架構，確保行銷活動具備更高的成效、可靠性和擴充性。
-* 加強支援：我們的 Managed Cloud Services 團隊致力於提供一流的協助，確保您的平台轉換流暢並持續監控。從疑難排解到主動維護，我們都可為您提供可靠支援。
+* 加強支援：我們的 Managed Cloud Services 團隊致力於提供一流的協助，確保您的平台轉換流暢並持續監控。 從疑難排解到主動維護，我們都可為您提供可靠支援。
 * 與 Adobe Experience Platform 整合：Managed Cloud Services v8 與 Adobe Experience Platform 無縫連接，使客戶能夠善用其資料的潛力，並跨管道推動具影響力的個人化行銷活動。
-* 一致的使用者介面和體驗：請放心，轉換到 Managed Cloud Services v8 不會中斷您的工作流程。您將能繼續使用熟悉的使用者介面和使用者體驗，確保您團隊輕鬆學習並上手。
+* 一致的使用者介面和體驗：請放心，轉換到 Managed Cloud Services v8 不會中斷您的工作流程。 您將能繼續使用熟悉的使用者介面和使用者體驗，確保您團隊輕鬆學習並上手。
 
 作為Campaign Standard轉換至Campaign v8，本檔案可協助您開始使用。
 

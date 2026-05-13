@@ -2,9 +2,15 @@
 title: 管理外部帳戶
 description: 瞭解如何設定外部帳戶
 exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+TQID: https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: 743
 ht-degree: 6%
 
 ---
@@ -43,7 +49,7 @@ Amazon Simple Storage Service (S3)聯結器可用來匯入或匯出資料至Adob
 
 ## Azure Blob 儲存體 {#azure-blob-external-account}
 
-**[!UICONTROL Azure Blob儲存體]**&#x200B;外部帳戶可用來匯入或匯出資料至Adobe Campaign，使用&#x200B;**[!UICONTROL 傳輸檔案]**&#x200B;工作流程活動。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
+**[!UICONTROL Azure Blob儲存體]**&#x200B;外部帳戶可用來使用&#x200B;**[!UICONTROL 傳輸檔案]**&#x200B;工作流程活動，將資料匯入或匯出至Adobe Campaign。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
 
 ![顯示Azure Blob儲存外部帳戶設定欄位的熒幕擷圖。](assets/external-azure.png)
 
