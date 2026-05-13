@@ -4,7 +4,8 @@ title: 建立直接郵件傳遞
 description: 瞭解如何使用Adobe Campaign Web建立直接郵件傳送
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 504

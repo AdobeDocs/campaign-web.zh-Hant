@@ -4,8 +4,11 @@ title: 傳送您的第一個電子郵件
 description: 瞭解如何使用Campaign網頁使用者介面傳送您的第一封電子郵件
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 TQID: https://experienceleague.adobe.com/3pZPhEZkXmt4Ma9klxulMH8SB0G-e-RuNL-nwqcgo-8
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1695
@@ -168,7 +171,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 模擬內容]**&#x200B;按鈕在特定內容中已停用。 限制在此區段](#content-simulation-limitations)中詳細說明[。
+   >**[!UICONTROL 模擬內容]**&#x200B;按鈕在特定內容中已停用。 限制在此區段[&#128279;](#content-simulation-limitations)中詳細說明。
 
 1. 在左側，選取要用於預覽電子郵件的輪廓。
 
@@ -180,7 +183,7 @@ ht-degree: 44%
 
 1. 若要傳送校樣，請按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕，然後選擇您要使用的模式。
 
-   在此範例中，使用主要目標&#x200B;]**模式的**[!UICONTROL &#x200B;替代，會傳送校樣到特定電子郵件地址，同時類比電子郵件所定位的部分設定檔。
+   在此範例中，使用主要目標&#x200B;**模式的**&#x200B;替代，會傳送校樣到特定電子郵件地址，同時類比電子郵件所定位的部分設定檔。
 
    ![熒幕擷圖顯示證明傳送模式選項](assets/proof-mode.png){zoomable="yes"}
 

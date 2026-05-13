@@ -4,8 +4,10 @@ title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 TQID: https://experienceleague.adobe.com/o2K9C4wrjB9N85UbQKqA19jdZPFSZW4VDhdyB-4-7NE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
 workflow-type: tm+mt
 source-wordcount: 2199
@@ -32,7 +34,7 @@ ht-degree: 36%
 
 | 從&#x200B;**屬性**&#x200B;欄位存取 | 從&#x200B;**值**&#x200B;欄位存取 |
 | --- | --- |
-| 屬性欄位](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 | 值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 |
+| 屬性欄位![&#128279;](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的|![運算式編輯器  值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的運算式編輯器 |
 
 運算式編輯器提供：
 

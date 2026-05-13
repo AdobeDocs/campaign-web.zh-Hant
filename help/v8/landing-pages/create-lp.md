@@ -4,8 +4,11 @@ description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 TQID: https://experienceleague.adobe.com/qoRSCg0-BzcmBJ6-NapGqdg2pUrkXq4QXbb2OPx-new
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1661
@@ -161,7 +164,7 @@ The main steps to create landing pages are as follows:
 設定驗證碼可協助您保護登陸頁面免受垃圾郵件和濫用。
 
 若要使用，請移至登陸頁面的&#x200B;**[!UICONTROL 屬性]**。
-在**[!UICONTROL 其他選項]**&#x200B;中。 啟動&#x200B;**[!UICONTROL 額外啟用驗證碼解決方案]**&#x200B;切換按鈕。
+在&#x200B;**[!UICONTROL 其他選項]**&#x200B;中。 啟動&#x200B;**[!UICONTROL 額外啟用驗證碼解決方案]**&#x200B;切換按鈕。
 
 ![熒幕擷圖顯示[額外啟用驗證碼]解決方案切換](assets/lp-properties-captcha.png){zoomable="yes"}
 
@@ -210,7 +213,7 @@ The main steps to create landing pages are as follows:
 
 1. 登入頁面的預覽會在新標籤中開啟。 個人化元素會由選取的測試設定檔資料取代。
 
-   如果您在登入頁面設定中選取了表單&#x200B;]**中參考資料的**[!UICONTROL &#x200B;預先填入選項，則表單欄位會自動預先填入對應的測試設定檔資料。<!--TBC-->
+   如果您在登入頁面設定中選取了表單&#x200B;**中參考資料的**&#x200B;預先填入選項，則表單欄位會自動預先填入對應的測試設定檔資料。<!--TBC-->
 
    ![傳遞範例](assets/lp-preview.png){zoomable="yes"}
 

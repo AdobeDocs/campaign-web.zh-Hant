@@ -4,8 +4,10 @@ title: 管理訂閱者
 description: 瞭解如何在Adobe Campaign Web中管理服務並交付給訂閱者
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 TQID: https://experienceleague.adobe.com/4-ZuptAIqEcFECF-a-ocCGG8kImzn-OHp34UnSToF9c
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 359

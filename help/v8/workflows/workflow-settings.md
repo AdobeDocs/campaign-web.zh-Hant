@@ -4,7 +4,8 @@ title: 設定工作流程設定
 description: 瞭解如何使用Adobe Campaign Web進行工作流程設定
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1087
@@ -50,7 +51,7 @@ ht-degree: 26%
 * 當工作流程失敗時，屬於&#x200B;**[!UICONTROL 監督員]**&#x200B;欄位中所選操作員群組的操作員會收到電子郵件通知。
 * 輸入工作流程的&#x200B;**[!UICONTROL 描述]**。
 
-當工作流程是與行銷活動](create-workflow.md)相關聯的[時，會顯示在&#x200B;**[!UICONTROL 連結的行銷活動]**&#x200B;欄位中。 從該欄位開啟關聯的行銷活動。
+當工作流程是與行銷活動[&#128279;](create-workflow.md)相關聯的時，會顯示在&#x200B;**[!UICONTROL 連結的行銷活動]**&#x200B;欄位中。 從該欄位開啟關聯的行銷活動。
 
 ## 細分設定 {#segmentation-settings}
 

@@ -4,7 +4,8 @@ description: 瞭解如何在Campaign網頁中設計登入頁面特定內容
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 TQID: https://experienceleague.adobe.com/Q9tP0Cf1np2-49fxWzaqEwfqiTX4UIfUV4evNCd3PLM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1170
@@ -30,7 +31,7 @@ ht-degree: 11%
 
 **[!UICONTROL Confirmation]**、**[!UICONTROL Error]**&#x200B;及&#x200B;**[!UICONTROL Expiration]**&#x200B;頁面的內容也已預先填入。 視需要編輯。
 
-您也可以為登入頁面](#lp-form-styles)定義[樣式。
+您也可以為登入頁面[&#128279;](#lp-form-styles)定義樣式。
 
 若要進一步設計登入頁面內容：
 
@@ -68,7 +69,7 @@ ht-degree: 11%
 
 1. 展開第一個文字欄位（如果有的話），或使用&#x200B;**[!UICONTROL 新增]**&#x200B;按鈕新增一個欄位。 從&#x200B;**[!UICONTROL 文字欄位1]**&#x200B;區段中，編輯欄位型別、要更新的資料庫欄位、標籤，以及在使用者輸入值之前顯示在欄位中的文字。
 
-   表單元件](assets/lp-form-text-field.png){zoomable="yes"}中的![文字欄位設定
+   表單元件![&#128279;](assets/lp-form-text-field.png){zoomable="yes"}中的文字欄位設定
 
 1. 視需要核取&#x200B;**[!UICONTROL 將表單欄位設為必填]**&#x200B;選項。 在此情況下，只有在使用者已填入此欄位時，才能提交登入頁面。
 
@@ -88,7 +89,7 @@ ht-degree: 11%
    如果您選取&#x200B;**[!UICONTROL 欄位]**，請從[屬性清單](../get-started/attributes.md)中選取欄位，然後在下列兩個選項之間選擇：
 
    * **[!UICONTROL 如果勾選，則為]**。
-   * 如果選取&#x200B;]**，則為**[!UICONTROL &#x200B;否。
+   * 如果選取&#x200B;**，則為**&#x200B;否。
 
 1. 刪除並新增儘可能多的欄位（例如文字欄位、選項按鈕、核取方塊、下拉式清單等） 視需要。
 
