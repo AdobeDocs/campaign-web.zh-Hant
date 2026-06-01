@@ -132,13 +132,13 @@ ht-degree: 29%
 
   SMS的簡易性和易用性使其成為非常寶貴的通訊通道，此外還有其穩健性和在數十億台終端機上無與倫比的相容性。
 
-  Adobe Campaign v8隨附新的基礎架構，可改善SMS的傳送。 [進一步瞭解新的簡訊設定](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}。
+  Adobe Campaign v8隨附新的基礎架構，可改善SMS的傳送。 [進一步瞭解新的簡訊設定](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}。
 
 * **已升級的推送基礎結構**
 
   Adobe Campaign v8隆重推出最新推播通知服務，以現代尖端技術為基礎打造的強大架構提供支援。 此服務旨在解鎖全新等級的擴充能力，確保您的通知能夠以順暢的效率觸及更廣泛的對象。 透過我們增強的基礎架構和最佳化程式，您可以期待更大規模且更可靠的服務，讓您以前所未有的方式與行動應用程式使用者互動和交流。
 
-  [進一步瞭解升級的推送基礎結構](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
+  [進一步瞭解升級的推送基礎結構](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
 
 
 ## Managed Services {#ac-managed-services}
@@ -153,7 +153,7 @@ Adobe Campaign v8 可作為 Managed Cloud Services，提供主動預防性監督
 
 * **集中品牌化**：每家公司都有各自的品牌視覺化與技術準則。 有了 Adobe Campaign，您可以定義一組規格，從標誌到技術層面 (例如電子郵件寄件者、URL 或網域)，為客戶呈現一致的品牌。 [了解更多](../../v8/administration/branding/branding-gs.md)
 
-* **Rest API**  - 作為 Campaign Standard 移轉使用者，您可以使用 Rest API 為 Adobe Campaign 建立整合，並透過將 Adobe Campaign 與您使用的一組技術結合來建立自己的生態系統。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}
+* **Rest API**  - 作為 Campaign Standard 移轉使用者，您可以使用 Rest API 為 Adobe Campaign 建立整合，並透過將 Adobe Campaign 與您使用的一組技術結合來建立自己的生態系統。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant){target="_blank"}
 
 * **登陸頁面** - Campaign v8 登陸頁面進行了一些改進，以確保功能與 Campaign Standard 相同。 請參閱[發行說明](../../v8/rn/release-notes.md#new-24-4)和登陸頁面[文件](../../v8/landing-pages/get-started-lp.md)以了解更多資訊。
 
@@ -249,5 +249,5 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多數概念都類似。 不
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/zh-hant/docs/campaign-standard/using/release-notes/deprecated-features).
 -->
