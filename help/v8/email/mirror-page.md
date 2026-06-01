@@ -4,8 +4,13 @@ title: 新增鏡像頁面連結
 description: 了解如何新增和管理鏡像頁面連結
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 TQID: https://experienceleague.adobe.com/iigr3vwibRH-qRbWaTXszxTuJqgdFJG6QEC1T9Z487s
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 397
@@ -27,7 +32,7 @@ Adobe Campaign產生的映象頁面包含所有個人化資料。
 
 若要在電子郵件中新增映象頁面的連結，請執行下列步驟：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
 
    ![顯示[插入連結]選項的內容工具列](assets/message-tracking-mirror-page.png){zoomable="yes"}
 
