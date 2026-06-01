@@ -41,10 +41,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 3258
-ht-degree: 11%
+source-wordcount: 3217
+ht-degree: 12%
 
 ---
 
@@ -164,7 +164,7 @@ MISSING LINKS:
 
 每家公司都有品牌准則，對視覺元素和技術細節加以定義。 至於Adobe Campaign Standard，Adobe Campaign v8可協助您集中管理這些方針，您所做的一切（從電子郵件中的標誌，到您的行銷活動中使用的URL和網域）都可以向客戶呈現一致的品牌形象。 作為技術管理員，您可以在Adobe Campaign中建立和管理多個品牌。
 
-在[品牌推廣檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}中進一步瞭解
+在[品牌推廣檔案](../../v8/administration/branding/branding-gs.md)中進一步瞭解
 
 ## 瞭解資料模型建立 {#acs-gs-admin-data-model-creation}
 
@@ -206,9 +206,9 @@ Campaign REST API的目的是讓您建立Adobe Campaign的整合，並將Adobe C
 
 身為Campaign Standard使用者轉換至Campaign v8，您可使用REST API。
 
-在[Rest API檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}中進一步瞭解。
+在[Rest API檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 
-請注意，從Campaign Standard轉換至Campaign v8時，某些建議和限制適用於REST API。 它們列在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/apis/limitations){target="_blank"}中。 轉換至Campaign v8時，如下列可用性注意事項中所列，也會套用特定限制：
+請注意，從Campaign Standard轉換至Campaign v8時，某些建議和限制適用於REST API。 它們列在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/apis/limitations){target="_blank"}中。 轉換至Campaign v8時，如下列可用性注意事項中所列，也會套用特定限制：
 
 >[!AVAILABILITY]
 >
@@ -348,7 +348,7 @@ MISSING LINKS:
 遷移到Campaign v8後，身為Campaign Standard使用者，以下適用於您：
 
 * 如果您使用這些與Campaign Standard的整合，Adobe已移轉您的&#x200B;**Adobe Analytics**&#x200B;和&#x200B;**Audience Manager**&#x200B;設定和資料。
-* 如果您的Campaign Standard環境已與&#x200B;**Adobe Experience Manager**&#x200B;整合，Adobe建議您改用&#x200B;**Adobe Experience Manager as a Cloud Service**，以便在Campaign Web使用者介面中設計電子郵件時使用此功能，並直接在您的Adobe Experience Manager環境中簡化電子郵件傳遞內容和表單的管理。 在[本頁](../../v8/integrations/aem-content.md)中瞭解更多。
-請注意，Campaign也可以與Adobe Experience Manager 6.5整合。 若要設定此整合，請參閱[此檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}。
+* 如果您的Campaign Standard環境已與&#x200B;**Adobe Experience Manager**&#x200B;整合，Adobe建議您改用&#x200B;**Adobe Experience Manager as a Cloud Service**，以便在Campaign Web使用者介面中設計電子郵件時使用此功能，並直接在您的Adobe Experience Manager環境中簡化電子郵件傳遞內容和表單的管理。在[此頁面](../../v8/integrations/aem-content.md)瞭解更多資訊。
+請注意，Campaign也可以與Adobe Experience Manager 6.5整合。若要設定此整合，請參閱[此檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}。
 * 如果您的Campaign Standard環境已與&#x200B;**觸發器**&#x200B;整合，您必須在Campaign v8中設定此整合，如[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}所詳述。
 * 如果您的Campaign Standard環境已與&#x200B;**Adobe Target**&#x200B;整合，您必須在Campaign v8中設定此整合，如[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}所詳述。
