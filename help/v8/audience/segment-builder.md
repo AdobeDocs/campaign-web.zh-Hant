@@ -3,9 +3,9 @@ audience: end-user
 title: 使用Campaign規則產生器建立對象
 description: 瞭解如何使用規則產生器
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '624'
 ht-degree: 24%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 浮動視窗位於左側，包含您可篩選以建立對象的所有元素。 使用搜尋列快速尋找元素。 將浮動視窗中包含的圖磚移至中央畫布以進行設定並加以考慮。
 
-![顯示篩選選項和索引標籤的調色盤介面](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
+![顯示篩選選項和索引標籤的調色盤介面](assets/segment-builder2.png){zoomable="yes"}{width="70%"}
 
 調色盤分為兩個索引標籤：
 
@@ -35,15 +35,15 @@ ht-degree: 24%
 
 ## 畫布
 
-畫布是中央區域，您可以在其中根據從浮動視窗新增的元素設定及合併規則。 若要加入新規則，請從調色盤將方磚拖放到畫布。上下文特定選項是根據要新增的資料型別而顯示的。
+畫布是中央區域，您可以在其中根據從浮動視窗新增的元素設定及合併規則。 若要加入新規則，請從調色盤將方磚拖放到畫布。 上下文特定選項是根據要新增的資料型別而顯示的。
 
-![顯示規則組態選項的畫布介面](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
+![顯示規則組態選項的畫布介面](assets/segment-builder4.png){zoomable="yes"}{width="70%"}
 
 ## 規則屬性窗格
 
 在右側，**規則屬性**&#x200B;窗格可讓您執行下列動作。
 
-![顯示可用動作的規則屬性窗格](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
+![顯示可用動作的規則屬性窗格](assets/segment-builder5.png){zoomable="yes"}{width="70%"}
 
 * **檢視結果：**&#x200B;顯示對象定位的設定檔清單。
 * **程式碼檢視**：顯示SQL中對象的程式碼型版本。
@@ -53,7 +53,7 @@ ht-degree: 24%
 
   >[!IMPORTANT]
   >
-  >在此版本的產品中，使用者介面中無法使用某些預先定義的篩選器。 您仍然可以使用它們。[了解更多](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)。
+  >在此版本的產品中，使用者介面中無法使用某些預先定義的篩選器。 您仍然可以使用它們。 [了解更多資訊](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)。
 
 * **屬性**：顯示已建立對象的說明。
 
@@ -61,7 +61,7 @@ ht-degree: 24%
 
 在此範例中，建立受眾的目標是居住亞特蘭大或西雅圖且出生於1980年之後的所有客戶。
 
-1. 在調色盤的「**屬性**」索引標籤中，搜尋「**生日**」欄位。將方磚拖放到畫布上。
+1. 在調色盤的「**屬性**」索引標籤中，搜尋「**生日**」欄位。 將方磚拖放到畫布上。
 
    ![新增出生日期欄位至畫布](assets/segment-builder6.png){zoomable="yes"}
 
@@ -81,7 +81,7 @@ ht-degree: 24%
 
    ![在「城市」欄位中輸入第二個城市名稱](assets/segment-builder10.png){zoomable="yes"}
 
-1. 按一下「**檢視結果**」以顯示符合此查詢的收件者清單和數量。新增欄以視覺化及檢查資料。 在此範例中，新增&#x200B;**City**&#x200B;欄以檢視亞特蘭大和西雅圖。
+1. 按一下「**檢視結果**」以顯示符合此查詢的收件者清單和數量。 新增欄以視覺化及檢查資料。 在此範例中，新增&#x200B;**City**&#x200B;欄以檢視亞特蘭大和西雅圖。
 
    ![檢視City資料行新增的結果](assets/segment-builder11.png){zoomable="yes"}
 

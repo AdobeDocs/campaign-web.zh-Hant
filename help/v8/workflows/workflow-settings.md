@@ -6,10 +6,10 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 26%
+source-wordcount: 1070
+ht-degree: 27%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 
 這些設定在建立工作流程時，會在選取的範本中預先設定，但可視需要為此特定工作流程進行編輯。
 
-![工作流程設定按鈕介面](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
+![工作流程設定按鈕介面](assets/workflow-settings-button.png){zoomable="yes"}{width="70%"}
 
 ## 工作流程屬性 {#properties}
 
@@ -35,14 +35,14 @@ ht-degree: 26%
 
 **[!UICONTROL 屬性]**&#x200B;區段提供一般設定，可在建立工作流程時進行設定。 若要存取現有工作流程的內容，請按一下工作流程畫布上方動作列中的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
 
-![工作流程設定介面](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
+![工作流程設定介面](assets/workflow-settings.png){zoomable="yes"}{width="70%"}
 
 這些屬性包括：
 
 * 顯示在清單中的工作流程的&#x200B;**[!UICONTROL 標籤]**。
 * 工作流程的&#x200B;**[!UICONTROL 內部名稱]**。
 * 工作流程應儲存的&#x200B;**[!UICONTROL 資料夾]**。
-* 用於工作流程所有活動的預設&#x200B;**[!UICONTROL 時區]**。 依預設，工作流程的時區是為目前的Campaign運運算元定義的時區。
+* 用於工作流程所有活動的預設&#x200B;**[!UICONTROL 時區]**。依預設，工作流程的時區是為目前的Campaign運運算元定義的時區。
 可能的值包括：
    * **伺服器時區**，以使用Adobe Campaign應用程式伺服器的時區。
    * **操作員時區**，使用執行工作流程之Adobe Campaign操作員的時區，如使用者端主控台中操作員的設定檔所定義。

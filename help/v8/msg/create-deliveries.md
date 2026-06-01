@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 48%
@@ -50,7 +50,7 @@ ht-degree: 48%
 1. 選擇要用於傳遞的管道。
 1. 定義主要目標和控制組的傳送對象。 [進一步瞭解對象](../audience/about-recipients.md)。
 
-   ![顯示對象選取介面的熒幕擷圖](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
+   ![顯示對象選取介面的熒幕擷圖](assets/select-audience.png){zoomable="yes"}{width="70%"}
 
 1. 定義訊息內容。 在以下章節中進一步瞭解傳遞頻道，以及如何定義傳遞內容：
 

@@ -8,7 +8,7 @@ product_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 964
 ht-degree: 95%
@@ -35,7 +35,7 @@ Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服�
 
 1. 確認您位於正確的組織。
 
-   ![顯示 Adobe Experience Cloud 中組織選取的螢幕擷圖](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
+   ![顯示 Adobe Experience Cloud 中組織選取的螢幕擷圖](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
 
    若要了解更多關於 Adobe Experience Cloud 中組織的資訊，請參閱[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant){target="_blank"}。
 
