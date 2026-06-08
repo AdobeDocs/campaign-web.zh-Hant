@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2580
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 99%
 >
 >以下功能為限量開放 (LA) 版本。 僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。
 >
->請參閱下列檔案頁面： [Campaign Standard轉換至Campaign v8](../rn/acs-migration.md)
+>請參閱下列文件頁面：[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)
 
 * **直接郵件的品牌化** - 技術管理員現在可以定義一或多個品牌，以集中管理影響品牌識別的參數。 這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。 您現在可以建立這些品牌，並將其連結到訊息或登陸頁面。 此設定在範本中管理。 [了解更多](../administration/branding/branding-assign.md)
 
@@ -264,7 +264,7 @@ ht-degree: 99%
 >
 >以下功能為限量開放 (LA) 版本。 僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。
 >
->請參閱下列檔案頁面： [Campaign Standard轉換至Campaign v8](../rn/acs-migration.md)
+>請參閱下列文件頁面：[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)
 
 * **品牌化** - 作為 Campaign Standard 移轉使用者，您的技術管理員現可定義一個或多個品牌，以便集中影響品牌識別的參數。 這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。 您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 [閱讀更多](../administration/branding/branding-gs.md)
 

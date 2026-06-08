@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3032
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -375,7 +375,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>您現在可以建立與自訂您自己的品牌，以清楚定義跨通訊的視覺與口頭身分。透過品牌一致性分數，您可以即時收到內容反映品牌語調、風格和指引的意見反應，協助您以一致的方式與品牌保持溝通，處理您傳送的每則訊息。
+<p>您現在可以建立並自訂品牌，以便清楚地定義您在所有通訊內容中的視覺和語言識別。透過品牌一致性分數，您可以獲得即時回饋，了解您的內容與品牌基調、風格和準則的契合度，協助您確保傳送的每則訊息都與品牌形象保持一致。
 </p>
 <p>如需詳細資訊，請參閱<a href="../content/brands.md">詳細文件</a>以瞭解詳情。</p>
 </td>
@@ -436,7 +436,7 @@ table>
 <tr>
 <td>
 <p>您現在可以存取動態報告，該報告提供完全可自訂的即時報告來衡量您行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 動態報告也適用於多語言電子郵件傳遞和交易型訊息。</p>
-<p>此功能僅於需要時提供。若要取得存取權，請聯絡您的Adobe代表。您的伺服器必須升級至8.8.1以下。請參閱使用者端主控台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">發行說明</a>。
+<p>此功能僅按需提供。若要取得存取權，請聯絡您的 Adobe 代表。您的伺服器必須至少升級至 8.8.1 版。請參閱用戶端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">發行說明</a>。
 <p>如需詳細資訊，請參閱<a href="../reporting/dynamic-reporting/get-started-reporting.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -453,7 +453,7 @@ table>
 <tr>
 <td>
 <p>您的技術管理員現在可以定義一個或多個品牌，以集中管理會影響品牌識別的參數。 這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。 您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 品牌化選項適用於所有管道，包括簡訊和直接郵件。</p>
-<p>此功能僅適用於新的實作，且僅於需要時提供。若要取得存取權，請聯絡您的Adobe代表。您的伺服器必須升級至8.8.1以下。請參閱使用者端主控台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">發行說明</a>。
+<p>此功能僅針對新的實作按需提供。若要取得存取權，請聯絡您的 Adobe 代表。您的伺服器必須至少升級至 8.8.1 版。請參閱用戶端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">發行說明</a>。
 <p>如需詳細資訊，請參閱<a href="../administration/branding/branding-gs.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -649,7 +649,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <tbody>
 <tr>
 <td>
-<p>身為Campaign管理員，您現在可以從Campaign Web使用者介面設定與外部系統的新連線。
+<p>身為 Campaign 管理員，您現在可以透過 Campaign Web 使用者介面來設定與外部系統的新連線。
 您也可以檢視、更新及管理現有的外部帳戶。</p>
 <p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細文件</a>以瞭解詳情。</p>
 </td>
@@ -688,7 +688,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >以下功能為限量開放 (LA) 版本。 僅限適用於&#x200B;**從 Adobe Campaign Standard 移轉到 Adobe Campaign v8** 的客戶，且無法部署在任何其他環境中。 這些功能需要將 Campaign 伺服器升級到 v8.7.4。
 >
->請參閱下列檔案頁面： [Campaign Standard轉換至Campaign v8](../rn/acs-migration.md)
+>請參閱下列文件頁面：[Campaign Standard 轉換到 Campaign v8](../rn/acs-migration.md)
 
 * **建立多語言傳遞** - 您現在可以在 Adobe Campaign Web 使用者介面中，使用不同語言傳送多個電子郵件傳遞。 多語言傳遞功能可讓您選擇傳遞的預設語言，以及可以傳送傳遞的不同語言。 您也可以使用您選擇的語言來預覽這些傳遞。 如需詳細資訊，請參閱[詳細文件](../email/edit-content.md)以瞭解詳情。
 

@@ -17,9 +17,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 570
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 
 ## 特定功能 {#new-features}
 
-為確保順利轉換至Campaign v8，Campaign v8中已新增重要的Campaign Standard功能：
+為確保能順暢轉換到 Campaign v8，Campaign Standard 的主要功能已新增至 Campaign v8：
 
 * **動態報告**：動態報告提供可自訂的即時報告，方便衡量行銷活動的影響。 動態報告亦可以存取輪廓資料，以便按照維度 (例如性別、城市和年齡) 以及功能性電子郵件行銷活動資料 (例如開啟和點按次數)，進行人口統計分析。 [了解更多資訊](../reporting/dynamic-reporting/get-started-reporting.md)。
 

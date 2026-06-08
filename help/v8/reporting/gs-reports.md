@@ -12,7 +12,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 233
 ht-degree: 100%
 
@@ -61,10 +61,10 @@ Adobe Campaign 提供三種不同類型的報告：
 <p></td>
 <td>
 <a href="kpis.md">
-<img alt="[關鍵效能指標概觀]" src="assets/do-not-localize/kpis.jpeg">
+<img alt="[關鍵績效指標概觀]" src="assets/do-not-localize/kpis.jpeg">
 </a>
 <div>
-<a href="kpis.md"><strong>關鍵效能指標</strong></a>
+<a href="kpis.md"><strong>關鍵績效指標</strong></a>
 </div>
 <p>
 </td>

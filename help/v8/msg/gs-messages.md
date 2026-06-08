@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 172
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Adobe Campaign v8 包括以下傳遞管道：電子郵件、SMS、推播和直�
     </td>
     <td align="center">
     <a href="../push/create-push.md">
-      <img alt="建立推播區段" src="assets/do-not-localize/push.jpg">
+      <img alt="建立推播通知區段" src="assets/do-not-localize/push.jpg">
     </a>
     <div>
     <a href="../push/gs-push.md"><strong>建立推播</strong></a>
