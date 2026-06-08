@@ -3,12 +3,10 @@ title: 常見問題集
 description: Campaign Web 使用者介面常見問題集
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 TQID: https://experienceleague.adobe.com/ArGP0QngUR7EiLAsdQb6FcneQ1fj4vcna40-tVEMXwE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 865
 ht-degree: 100%
 
@@ -16,7 +14,7 @@ ht-degree: 100%
 
 # 常見問題集
 
-下面部分列有全新 Campaign 介面的常見問題。 您有其他的疑問嗎？ 您想與同行分享經驗或交流想法嗎？ 或者，您是否對 Adobe 團隊的學習內容有回饋？ 加入 [Adobe Campaign 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}中的對話。
+下面部分列有全新 Campaign 介面的常見問題。 您有其他的疑問嗎？ 您想與同行分享經驗或交流想法嗎？ 或者，您是否對 Adobe 團隊的學習內容有回饋？ 加入 [Adobe Campaign 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}中的對話。
 
 +++ 我需要使用哪個版本的 Adobe Campaign 才能存取新的 Web 使用者介面？
 

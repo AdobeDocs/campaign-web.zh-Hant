@@ -4,14 +4,12 @@ title: 開始使用簡訊傳遞
 description: 了解如何使用 Adobe Campaign Web 建立並傳送簡訊
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 TQID: https://experienceleague.adobe.com/o-0MeELRewgw68-diUevmn9qDYgEK8rzDlHv54Kx00A
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 173
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +55,7 @@ ht-degree: 97%
 </td>
 <td>
 <a href="send-sms.md">
-<img alt="以簡訊傳送傳遞報告" src="assets/do-not-localize/report_sms.jpeg">
+<img alt="簡訊傳遞報告" src="assets/do-not-localize/report_sms.jpeg">
 </a>
 <div>
 <a href="send-sms.md"><strong>簡訊傳遞報告</strong></a>

@@ -3,15 +3,12 @@ title: 連線至 Adobe Campaign Web 介面
 description: 了解如何連線至 Adobe Campaign Web 使用者介面
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 TQID: https://experienceleague.adobe.com/TSbgkDH1v-9HH-szfGQx0z6-6fP8tny4s7Vx2SE8gUo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 964
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -100,18 +97,18 @@ Campaign Web 中的所有權限都會與 Campaign 用戶端主控台權限進行
 
 ## Adobe Experience Cloud 頂端導覽 {#top-bar}
 
-介面的頂端列可讓您快速存取核心Experience Cloud功能。
+介面的頂端列可讓您快速存取 Experience Cloud 的核心功能。
 
 ![顯示 Adobe Experience Cloud 頂端導覽列的螢幕擷圖](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
-使用頂端列可以：
+此頂端列可用於：
 
 * 提供有關 Campaign Web 使用者介面的意見回饋。
 * 切換至不同的組織。
 * 切換至您不同的 Adobe Experience Cloud 解決方案與應用程式。
 * 在 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-hant){target="_blank"} 上搜尋說明。
 * 檢視您的產品通知。
-* 編輯您的Adobe設定檔並管理設定，例如[更新您偏好的語言](#language-pref)或[在淺色和深色主題之間切換](#dark-theme)。
+* 編輯您的 Adobe 設定檔及管理設定，例如[更新偏好語言](#language-pref)或[在淺色和深色主題之間切換](#dark-theme)。
 
 ## 支援的瀏覽器 {#browsers}
 

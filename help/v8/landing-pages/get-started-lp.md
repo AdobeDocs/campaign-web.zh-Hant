@@ -5,15 +5,12 @@ description: 了解 Campaign Web 的登陸頁面
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 TQID: https://experienceleague.adobe.com/2iCdY2zsGGy6us4VqszVNGpB1LeVmtZ2D1jKImBUuMA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 268
+workflow-type: ht
+source-wordcount: 266
 ht-degree: 100%
 
 ---
@@ -38,7 +35,7 @@ ht-degree: 100%
 * 善用[!DNL Adobe Campaign]內容設計功能來輕鬆建置&#x200B;**回應式登陸頁面**。 [了解更多](lp-content.md)
 * 設定&#x200B;**選擇加入與選擇退出流程**，快速且順暢無礙。 [了解更多](lp-use-cases.md)
 * 建立訂閱服務以便使用者能夠&#x200B;**訂閱服務**。 [了解更多](lp-use-cases.md#lp-subscription)
-* 針對接收您的通訊，向收件者提供&#x200B;**取消訂閱功能**。 [更多詳情](lp-use-cases.md#lp-unsubscription)
+* 為您的收件者提供&#x200B;**取消訂閱功能**，使其不再收到您的通訊內容。[了解更多](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
