@@ -11,10 +11,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 506
-ht-degree: 100%
+source-git-commit: e6737eef2f3566d5a62f36e54ae02d81fbb1716c
+workflow-type: tm+mt
+source-wordcount: 523
+ht-degree: 96%
 
 ---
 
@@ -148,3 +148,4 @@ ht-degree: 100%
 
 * [Adobe Campaign 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Adobe Campaign v8 文件](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-hant){target="_blank"}
+* [電子郵件追蹤畫素和CNIL指引](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
