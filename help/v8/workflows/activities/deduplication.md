@@ -6,10 +6,10 @@ exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: bf9d5d07ffca9c79821559e7fc75a930728e2f5a
 workflow-type: tm+mt
-source-wordcount: 582
-ht-degree: 39%
+source-wordcount: 769
+ht-degree: 30%
 
 ---
 
@@ -23,7 +23,12 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="重複資料刪除活動"
->abstract="**重複資料刪除**&#x200B;活動會刪除傳入活動結果中的重複項目。 其主要在目標選擇活動之後，以及使用目標資料的活動之前使用。"
+>abstract="**重複資料刪除**&#x200B;活動會刪除傳入活動結果中的重複項目。 其主要在目標選擇活動之後，以及使用目標資料的活動之前使用。 當有多個入站轉變可用時，請使用&#x200B;**要聯結的集合**&#x200B;區段，以選取要連線到活動的轉變。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_sets"
+>title="要連接的集合"
+>abstract="檢查您先前要連線的活動，作為&#x200B;**重複資料刪除**&#x200B;活動的入站轉變。 接著選取的活動會連線至&#x200B;**重複資料刪除**。 僅當有多個入站轉變可供連線到活動時，才會顯示此區段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -37,6 +42,8 @@ ht-degree: 39%
 
 **重複資料刪除**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動。 此活動會刪除入站活動結果中的重複專案，例如收件者清單中的重複設定檔。 **重複資料刪除**&#x200B;活動通常用於目標定位活動之後，以及使用目標定位資料的活動之前。
 
+活動支援多個入站轉變。 當有多個入站轉變可用時，請使用活動屬性中的&#x200B;**要聯結的集合**&#x200B;區段，以選取要連線到活動的轉變。 然後，選取的轉變會連結至工作流程畫布中的&#x200B;**重複資料刪除**。
+
 ## 設定重複資料刪除活動 {#deduplication-configuration}
 
 請依照下列步驟設定&#x200B;**重複資料刪除**&#x200B;活動：
@@ -44,6 +51,12 @@ ht-degree: 39%
 ![工作流程重複資料刪除組態程式](../assets/workflow-deduplication.png)
 
 1. 將&#x200B;**重複資料刪除**&#x200B;活動新增至工作流程。
+
+1. 在&#x200B;**要加入**&#x200B;的集合區段中，檢查您先前要連線的活動，作為&#x200B;**重複資料刪除**&#x200B;活動的入站轉變。 接著選取的活動會連結至工作流程畫布中的&#x200B;**重複資料刪除**。 使用&#x200B;**主要集**&#x200B;欄位來定義參考入站轉變。 來自其他集的記錄會與主要集進行比對，以識別重複專案。
+
+   >[!NOTE]
+   >
+   >只有在有多個入站轉變可用時，才會顯示此區段。
 
 1. 在&#x200B;**用於識別重複項目的欄位**&#x200B;區段，按一下「**新增屬性**」按鈕，指定其相同數值可用來識別重複項目的欄位，例如電子郵件地址、名字和姓氏。 欄位的順序會指定要先處理的項目。 [瞭解如何選取屬性並將其新增至我的最愛](../../get-started/attributes.md)。
 
