@@ -2,7 +2,7 @@
 title: Campaign v8 Web 使用者介面先前發行說明
 description: 2026 Campaign Web 使用者介面版本
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: ed3fd4bbe8466c049af13304526daea948ab4706
+source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 97%
