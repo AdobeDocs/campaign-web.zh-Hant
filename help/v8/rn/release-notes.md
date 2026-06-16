@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6581a2d6ab44b711ed6aea6736d60f932a7ce315
+source-git-commit: cbecd07b053d0ceb4e9114aa3c6d37752392febc
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: 243
 ht-degree: 45%
 
 ---
@@ -42,11 +42,7 @@ _2026年6月16日_
 
 * **重複資料刪除**&#x200B;和&#x200B;**結束**&#x200B;工作流程活動現在支援多個入站轉變。 時間
 有一個以上的入站轉變可用，請使用活動中的&#x200B;**集合以聯結**&#x200B;區段
-屬性以選取要連線的轉變。 在以下頁面瞭解更多資訊： [重複資料刪除](../workflows/activities/deduplication.md)，
-
-<!--
-[End](../workflows/activities/end.md)
--->
+屬性以選取要連線的轉變。 在以下頁面瞭解更多資訊： [重複資料刪除](../workflows/activities/deduplication.md)，[結束](../workflows/activities/end.md)
 
 * 進階引數現在顯示在&#x200B;**組建對象** （查詢型別）和&#x200B;**擴充**&#x200B;工作流程活動的&#x200B;**擴充資料**&#x200B;區段中。 這些引數可讓您微調擴充資料的建置方式，包括分組、重複資料刪除、主要金鑰處理和傳入事件資料。 [了解更多](../workflows/activities/enrichment.md)
 
