@@ -6,10 +6,10 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaBpanE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 53%
+source-wordcount: 518
+ht-degree: 52%
 
 ---
 
@@ -63,7 +63,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 按一下目標維度旁的圖示，選擇&#x200B;**篩選維度**。 篩選維度可讓您參照相關條件，將篩選器套用至目標母體，而不變更主要目標維度。 [進一步瞭解目標維度](../../audience/targeting-dimensions.md#filtering)
 1. 按一下&#x200B;**「繼續」**。
 1. 使用查詢建模器來定義您的查詢，就像在設計新電子郵件時建立對象一樣。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
-1. 使用&#x200B;**擴充資料**&#x200B;區段，以資料庫中的其他資訊（例如合約參考或電子報訂閱）來增強目標資料。 該資料會與工作流程&#x200B;**工作表格**&#x200B;中的對象一起儲存，並可供後續的活動使用。 您可以新增單一擴充屬性、集合連結或運算式。 如需詳細步驟和範例，請參閱[新增擴充資料](enrichment.md#enrichment-add)。
+1. 使用&#x200B;**擴充資料**&#x200B;區段，以資料庫中的其他資訊（例如合約參考或電子報訂閱）來增強目標資料。 該資料會與工作流程&#x200B;**工作表格**&#x200B;中的對象一起儲存，並可供後續的活動使用。 您可以新增單一擴充屬性、集合連結或運算式，並存取進階選項。 如需詳細步驟和範例，請參閱[新增擴充資料](enrichment.md#enrichment-add)。
 
 >[!TAB 讀取客群]
 
