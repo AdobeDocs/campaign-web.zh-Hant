@@ -4,12 +4,11 @@ title: 監控傳遞記錄
 description: 了解如何監控傳遞記錄
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 58%
+source-wordcount: 456
+ht-degree: 54%
 
 ---
 
@@ -23,6 +22,10 @@ ht-degree: 58%
 在準備傳遞並按一下&#x200B;**傳送**&#x200B;按鈕後，瀏覽至傳遞記錄檔以檢查警告、錯誤、狀態、排除和追蹤資料。 可直接從訊息儀表板存取這些記錄。 其中會顯示傳送的詳細資料、已排除的目標、原因，以及開啟和點按數等追蹤資訊。
 
 若要檢視記錄，請存取您的傳遞儀表板，然後按一下「**記錄**」按鈕。
+
+>[!TIP]
+>
+>您可以使用清單上方的&#x200B;**將載入的資料列匯出為CSV**&#x200B;按鈕，將每個記錄標籤匯出為CSV檔案。 深入瞭解[匯出清單資料](../get-started/list-filters.md#export-list)。
 
 可使用下列標籤：
 
