@@ -8,16 +8,16 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 325
-ht-degree: 100%
+source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
+workflow-type: tm+mt
+source-wordcount: 433
+ht-degree: 72%
 
 ---
 
 # 瀏覽和篩選清單 {#list-screens}
 
-左側導覽功能表中的大部分連結會顯示物件清單，例如&#x200B;**傳遞**&#x200B;或&#x200B;**行銷活動**&#x200B;的清單。 這些清單畫面部分為唯讀。 您可以自訂清單顯示並篩選這些清單，如下所述。
+左側導覽功能表中的大部分連結會顯示物件清單，例如&#x200B;**傳遞**&#x200B;或&#x200B;**行銷活動**&#x200B;的清單。 這些清單畫面部分為唯讀。 您可以自訂清單顯示、篩選這些清單，以及將清單資料匯出為CSV檔案，如下所述。
 
 ## 自訂清單畫面 {#custom-lists}
 
@@ -52,6 +52,18 @@ ht-degree: 100%
 ![呈現可用於調整清單視圖之篩選選項的螢幕擷圖。](assets/filter.png){zoomable="yes"}{width="70%"}
 
 如需有關如何使用篩選器和建立自己的自訂篩選器的詳細資訊，請參閱[此區段](../query/filter.md)。
+
+## 匯出清單資料 {#export-list}
+
+您可以從任何清單畫面匯出資料，包括追蹤記錄。 若要匯出清單，請遵循下列步驟：
+
+1. 開啟您要匯出的清單。
+1. 調整顯示的欄並套用所需的搜尋或篩選器。 匯出會考慮畫面上顯示的欄以及任何作用中的搜尋或篩選器。
+1. 視需要向下捲動以顯示更多列。 只匯出目前載入清單中的列。
+1. 按一下清單上方的&#x200B;**將載入的資料列匯出為CSV**&#x200B;按鈕。 檔案會儲存至瀏覽器的預設下載資料夾。
+
+![熒幕擷圖顯示清單的匯出。](assets/filter-export.png){zoomable="yes"}
+
 
 <!--
 ## Use advanced attributes {#adv-attributes}
