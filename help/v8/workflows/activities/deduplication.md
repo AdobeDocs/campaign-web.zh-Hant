@@ -4,12 +4,11 @@ title: 使用重複資料刪除工作流程活動
 description: 瞭解如何使用重複資料刪除工作流程活動
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
 workflow-type: tm+mt
 source-wordcount: 769
-ht-degree: 30%
+ht-degree: 39%
 
 ---
 
@@ -23,12 +22,12 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="重複資料刪除活動"
->abstract="**重複資料刪除**&#x200B;活動會刪除傳入活動結果中的重複項目。 其主要在目標選擇活動之後，以及使用目標資料的活動之前使用。 當有多個入站轉變可用時，請使用&#x200B;**要聯結的集合**&#x200B;區段，以選取要連線到活動的轉變。"
+>abstract="**重複資料刪除**&#x200B;活動會刪除傳入活動結果中的重複項目。 其主要在目標選擇活動之後，以及使用目標資料的活動之前使用。 若有多個傳入轉變可供使用，請使用「**要加入的集合**」區段以選取要連接到該活動的轉變。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_sets"
->title="要連接的集合"
->abstract="檢查您先前要連線的活動，作為&#x200B;**重複資料刪除**&#x200B;活動的入站轉變。 接著選取的活動會連線至&#x200B;**重複資料刪除**。 僅當有多個入站轉變可供連線到活動時，才會顯示此區段。"
+>title="要加入的集合"
+>abstract="勾選您要連接的先前活動，作為&#x200B;**重複資料刪除**&#x200B;活動的傳入轉變。 所選活動接著會連接到&#x200B;**重複資料刪除**。 若有多個傳入轉變可以連接到該活動時，才會顯示此區段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"

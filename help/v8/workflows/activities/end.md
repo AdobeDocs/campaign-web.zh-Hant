@@ -5,7 +5,7 @@ description: 瞭解如何使用結束工作流程活動
 source-git-commit: a9c701b9c3ac2d16d8a2dda8e851f09ac801a13e
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 20%
+ht-degree: 54%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
 >title="結束活動"
->abstract="「**結束**」活動可讓您以圖形方式標記工作流程的終點。 當有多個入站轉變可用時，請使用&#x200B;**要聯結的集合**&#x200B;區段，以選取要連線到活動的轉變。"
+>abstract="「**結束**」活動可讓您以圖形方式標記工作流程的終點。 若有多個傳入轉變可供使用，請使用「**要加入的集合**」區段以選取要連接到該活動的轉變。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_sets"
->title="要連接的集合"
->abstract="檢查您先前要連線作為&#x200B;**結束**&#x200B;活動之入站轉變的活動。 接著選取的活動會連線至&#x200B;**End**。 僅當有多個入站轉變可供連線到活動時，才會顯示此區段。"
+>title="要加入的集合"
+>abstract="勾選您想要連接的先前活動，作為&#x200B;**結束**&#x200B;活動的傳入轉變。 所選的活動接著會連接到&#x200B;**結束**。 若有多個傳入轉變可以連接到該活動時，才會顯示此區段。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
