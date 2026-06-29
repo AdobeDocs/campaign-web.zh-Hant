@@ -4,20 +4,18 @@ title: 瀏覽和篩選清單
 description: 探索如何瀏覽和篩選清單 Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 TQID: https://experienceleague.adobe.com/GKGmvMJtlQgAftvZuOb33tQSgqHC9s8qlYJMVFnWjz0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 433
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # 瀏覽和篩選清單 {#list-screens}
 
-左側導覽功能表中的大部分連結會顯示物件清單，例如&#x200B;**傳遞**&#x200B;或&#x200B;**行銷活動**&#x200B;的清單。 這些清單畫面部分為唯讀。 您可以自訂清單顯示、篩選這些清單，以及將清單資料匯出為CSV檔案，如下所述。
+左側導覽功能表中的大部分連結會顯示物件清單，例如&#x200B;**傳遞**&#x200B;或&#x200B;**行銷活動**&#x200B;的清單。 這些清單畫面部分為唯讀。 您可以自訂清單顯示、篩選這些清單，以及將清單資料匯出為 CSV 檔案，如下所述。
 
 ## 自訂清單畫面 {#custom-lists}
 
@@ -55,14 +53,14 @@ ht-degree: 72%
 
 ## 匯出清單資料 {#export-list}
 
-您可以從任何清單畫面匯出資料，包括追蹤記錄。 若要匯出清單，請遵循下列步驟：
+您可以從任何清單畫面中匯出資料，包括追蹤記錄。若要匯出清單，請依照下列步驟進行：
 
-1. 開啟您要匯出的清單。
-1. 調整顯示的欄並套用所需的搜尋或篩選器。 匯出會考慮畫面上顯示的欄以及任何作用中的搜尋或篩選器。
-1. 視需要向下捲動以顯示更多列。 只匯出目前載入清單中的列。
-1. 按一下清單上方的&#x200B;**將載入的資料列匯出為CSV**&#x200B;按鈕。 檔案會儲存至瀏覽器的預設下載資料夾。
+1. 開啟您想要匯出的清單。
+1. 調整顯示的欄，並套用所需的搜尋或篩選條件。匯出時會考慮畫面上顯示的欄以及任何作用中的搜尋或篩選條件。
+1. 視需要向下捲動以顯示更多列。只會匯出目前已載入清單中的列。
+1. 按一下清單上方的「**將載入的列匯出為 CSV**」按鈕。檔案會儲存至瀏覽器的預設下載資料夾。
 
-![熒幕擷圖顯示清單的匯出。](assets/filter-export.png){zoomable="yes"}
+![此螢幕擷圖顯示了清單的匯出。](assets/filter-export.png){zoomable="yes"}
 
 
 <!--

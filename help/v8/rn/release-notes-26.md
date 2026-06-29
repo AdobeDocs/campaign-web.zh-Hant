@@ -3,9 +3,9 @@ title: Campaign v8 Web 使用者介面先前發行說明
 description: 2026 Campaign Web 使用者介面版本
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -213,17 +213,17 @@ _2026 年 1 月 27 日_
 <table>
 <thead>
 <tr>
-<th><strong>多語言傳送功能 (正式推出)</strong><br/></th> 
+<th><strong>多語言傳遞功能 (正式推出)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>所有客戶現在都能使用多語言傳送功能(GA)。此功能可讓您在Adobe Campaign網頁使用者介面中，以不同語言傳送多則訊息。您可以選擇傳送的預設語言，以及傳送傳送時所使用的不同語言。您也可以使用所選的語言預覽這些傳送。 
+<p>多語言傳遞功能現已開放給所有客戶 (正式推出)。此功能可讓您在 Adobe Campaign Web 使用者介面中以不同語言傳送多則訊息。您可以選擇傳遞內容的預設語言，以及可用來傳送傳遞內容的其他語言。您也可以使用所選的語言來預覽這些傳遞內容。
 <p>如需詳細資訊，請參閱<a href="../msg/multilingual.md">詳細文件</a>以瞭解詳情。</p>
 <p>已為多語言推播通知進行下列改進：</p>
 <ul>
-<li>您現在可以上傳包含多語言內容的CSV檔案，快速填入所有語言變體。<a href="../msg/multilingual.md#csv-upload">瞭解詳情</a>
+<li>您現在可以上傳包含多語言內容的 CSV 檔案，快速填入您的所有語言變體。<a href="../msg/multilingual.md#csv-upload">閱讀更多</a>
 </li>
 <li>現在支援富文字推播通知。</li>
 </td>
