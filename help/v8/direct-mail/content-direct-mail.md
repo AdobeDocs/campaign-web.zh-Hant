@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 3890701b9c04bd404848c5447d08522b3cee64d5
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 19%
+source-wordcount: 648
+ht-degree: 18%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 19%
    * **[!UICONTROL 欄分隔符號]** （文字格式）：指定要在解壓縮檔案中做為欄分隔符號使用的字元。
    * **[!UICONTROL 字串分隔符號]** （文字格式）：指定如何在擷取檔案中分隔字串。
    * **[!UICONTROL 行尾]** （文字格式）：指定解壓縮檔案中行尾的分界方式。
-   * **[!UICONTROL 編碼]**：選擇解壓縮檔案的編碼。
+   * **[!UICONTROL 編碼]**：選擇解壓縮檔案的編碼。 預設編碼為&#x200B;**Latin-1 (1252)**。 建立以CJK語言（日文、韓文、簡體中文、繁體中文）為目標的直接郵件傳遞時，請選取&#x200B;**UTF-8 (65001)**。 Latin-1無法代表CJK字元，且將導致空白的檔案預覽。
    * **[!UICONTROL 日期格式和分隔符號]**：指定在解壓縮檔案中日期應如何格式化。
    * **[!UICONTROL 數字格式]**：指定解壓縮檔案中數字的格式設定。
    * **[!UICONTROL 匯出標籤，而非列舉的內部值]**：如果您匯出列舉值，而且想要擷取資料行標籤（而非內部ID），請開啟此選項。
