@@ -1,14 +1,20 @@
 ---
 title: 設定預設清單欄
 description: 瞭解如何設定清單檢視中預設顯示的欄。
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 3%
 
 ---
 
 # 設定清單欄 {#list-columns}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_inventory_list_configuration"
+>title="庫存清單設定"
+>abstract="設定清單檢視中預設顯示的欄。 每一欄會顯示其標籤和對應的屬性。"
 
 **[!UICONTROL 詳細目錄清單組態]**&#x200B;區段可讓您設定哪些欄預設顯示在清單檢視中。 每一欄會顯示其標籤和對應的屬性。
 
