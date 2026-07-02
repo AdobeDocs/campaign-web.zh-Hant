@@ -1,14 +1,21 @@
 ---
 title: 編輯自訂欄位
 description: 瞭解如何設定自訂欄位，以及這些欄位在介面中的可見度。
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 1b531722-0935-4787-a673-60d97f776936
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 5%
+source-wordcount: '745'
+ht-degree: 8%
 
 ---
 
 # 編輯自訂欄位 {#fields}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_detail_screen_configuration"
+>title="詳細的畫面設定"
+>abstract="設定哪些自訂欄位會顯示在詳細畫面中，並將它們組織成區段。 新增集合清單，以在設定檔畫面中顯示相關資料。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="新增集合清單"
 
 自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。
 
@@ -22,7 +29,7 @@ ht-degree: 5%
 
 1. 選取清單中的結構描述名稱以開啟它，然後按一下結構描述詳細資料檢視中的&#x200B;**[!UICONTROL 熒幕版本]**&#x200B;按鈕以存取熒幕定義。
 
-1. 按一下&#x200B;**[!UICONTROL 自訂欄位清單]**&#x200B;表格上方的省略符號圖示，然後選擇&#x200B;**[!UICONTROL 選取屬性]**&#x200B;以選取一或多個自訂欄位以顯示於介面中。
+1. 按一下&#x200B;**[!UICONTROL 自訂欄位清單]**&#x200B;表格上方的省略符號圖示，然後選擇&#x200B;**[!UICONTROL 選取屬性]**以選取一或多個自訂欄位以顯示於介面中。
    ![顯示可編輯屬性的自訂欄位畫面](assets/schemas-custom5.png)
 1. 選取您要新增的自訂欄位並進行確認。
 
@@ -43,7 +50,7 @@ ht-degree: 5%
 可用的設定包括：
 
 * **[!UICONTROL 屬性]**：自訂欄位的名稱（唯讀）。
-* **[!UICONTROL 標籤（自訂）]**：要顯示在介面中的標籤。 如果未提供標籤，則會顯示結構描述中定義的標籤。
+* **[!UICONTROL 標籤（自訂）]**：要顯示在介面中的標籤。 如果沒有提供標籤，則會顯示結構描述中定義的標籤。
 * **[!UICONTROL 顯示條件：]**：使用控制欄位顯示時間的xtk運算式定義條件。 例如，如果另一個欄位為空，則隱藏此欄位。
 * **[!UICONTROL 必要]**：在介面中將欄位設為必要。
 * **[!UICONTROL 唯讀]**：將介面中的欄位設為唯讀。 使用者將無法編輯欄位的值。
