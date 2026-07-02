@@ -2,9 +2,9 @@
 title: 編輯自訂欄位
 description: 瞭解如何設定自訂欄位，以及這些欄位在介面中的可見度。
 exl-id: 1b531722-0935-4787-a673-60d97f776936
-source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
+source-git-commit: 6f835141111dbacac0b6e1156f744d3f8db9ae24
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '744'
 ht-degree: 8%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 8%
 >id="acw_schema_detail_screen_configuration"
 >title="詳細的畫面設定"
 >abstract="設定哪些自訂欄位會顯示在詳細畫面中，並將它們組織成區段。 新增集合清單，以在設定檔畫面中顯示相關資料。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="新增集合清單"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html?lang=zh-Hant" text="新增集合清單"
 
 自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。
 
