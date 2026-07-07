@@ -6,8 +6,8 @@ audience: end-user
 exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 1%
+source-wordcount: '378'
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 1%
   <tr> 
    <td> 按一下<br/> </td> 
    <td> @clicks<br/> </td> 
-   <td> count(@trackingUrlType=1或10或11)<br/> </td> 
+   <td> count（@trackingUrlType=1或10或11）<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ ht-degree: 1%
   <tr> 
    <td> 硬退信<br/> </td> 
    <td> @hardBounces<br/> </td> 
-   <td> count(@failureType=2且@failureReason=8)<br/> </td> 
+   <td> count（@failureType=2且@failureReason=8）<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 

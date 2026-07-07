@@ -1,12 +1,12 @@
 ---
 title: 元件清單
-description: 您可以在這裡找到每個可用元件的清單，     動態報告及其定義。
+description: 請在此處尋找動態報告中每個可用元件的清單及其定義。
 level: Beginner
 audience: end-user
 exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
