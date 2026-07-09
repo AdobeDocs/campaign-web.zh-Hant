@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
+source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
-source-wordcount: 583
-ht-degree: 19%
+source-wordcount: 637
+ht-degree: 18%
 
 ---
 
@@ -51,6 +51,11 @@ ht-degree: 19%
 ## 資料管理活動 {#data}
 
 這些活動專門用於操控和豐富人口資料。
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_data_loading_rdbms"
+>title="資料載入(RDBMS)活動"
+>abstract="**資料載入(RDBMS)**&#x200B;活動是&#x200B;**資料管理**&#x200B;活動。 使用此活動直接從外部關聯式資料庫將資料載入工作流程，無需切換到使用者端主控台。 擷取的資料可在整個工作流程中使用，並可用於目標定位、擴充或進一步資料處理。"
 
 * [擷取檔案](extract-file.md)：將資料從Adobe Campaign匯出至其他系統，做為外部檔案。
 * [載入檔案](load-file.md)：使用儲存在外部檔案中的設定檔和資料。
