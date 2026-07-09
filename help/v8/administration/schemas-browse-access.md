@@ -1,14 +1,20 @@
 ---
 title: 瀏覽和存取方案
 description: 瞭解如何在介面中瀏覽和存取方案。
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
+source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '463'
 ht-degree: 3%
 
 ---
 
-# 存取和設定方案 {#access}
+# 存取和設定結構描述 {#access}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_action_data"
+>title="針對資料的動作"
+>abstract="設定可用於結構描述詳細資訊和清單畫面的動作。 啟用&#x200B;**[!UICONTROL 唯讀]**，將詳細資訊畫面設定為唯讀，並從清單中移除動作。 啟用&#x200B;**[!UICONTROL 不允許刪除]**&#x200B;以從詳細資訊和清單畫面中移除刪除動作。"
 
 可從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 方案]**&#x200B;功能表存取方案。
 

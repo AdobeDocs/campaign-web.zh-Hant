@@ -4,20 +4,14 @@ title: 使用工作流程活動
 description: 了解如何使用工作流程活動
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 TQID: https://experienceleague.adobe.com/Yt-mvqKULJIMshitpuuU03U7Dl2m0DnhWoP8kdBoaUI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2:
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: d1110311-2ca4-442b-be37-088a6db845eeid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
-source-wordcount: 583
-ht-degree: 19%
+source-wordcount: 637
+ht-degree: 18%
 
 ---
 
@@ -51,6 +45,11 @@ ht-degree: 19%
 ## 資料管理活動 {#data}
 
 這些活動專門用於操控和豐富人口資料。
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_data_loading_rdbms"
+>title="資料載入(RDBMS)活動"
+>abstract="**資料載入(RDBMS)**&#x200B;活動是&#x200B;**資料管理**&#x200B;活動。 使用此活動直接從外部關聯式資料庫將資料載入工作流程，無需切換到使用者端主控台。 擷取的資料可在整個工作流程中使用，並可用於目標定位、擴充或進一步資料處理。"
 
 * [擷取檔案](extract-file.md)：將資料從Adobe Campaign匯出至其他系統，做為外部檔案。
 * [載入檔案](load-file.md)：使用儲存在外部檔案中的設定檔和資料。
