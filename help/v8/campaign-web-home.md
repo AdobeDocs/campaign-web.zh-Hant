@@ -4,16 +4,12 @@ description: Campaign Web 說明中心
 title: Adobe Campaign Web 產品文件
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 TQID: https://experienceleague.adobe.com/MgMH03lZa-uSVm-e1ZN-jvJrbjDUvKBpnmCIzxMmi1A
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e6737eef2f3566d5a62f36e54ae02d81fbb1716c
-workflow-type: ht
-source-wordcount: 523
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1b73c95ac5c6147f71d328772b3988f9417121f2
+workflow-type: tm+mt
+source-wordcount: 707
 ht-degree: 100%
 
 ---
@@ -93,7 +89,7 @@ ht-degree: 100%
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <a href="get-started/get-started.md#web"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
     <div><strong>探索新使用者介面</strong><br/>探索與 Adobe Experience Platform 整合的 Adobe Campaign Web 新介面和導覽體驗。</div>
     </td>
     <td>
@@ -110,7 +106,7 @@ ht-degree: 100%
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="get-started/user-interface.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="get-started/get-started.md#web"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
@@ -124,22 +120,22 @@ ht-degree: 100%
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>開始使用</strong><br/><a href="get-started/user-interface.md">使用者介面</a> - <a href="get-started/connect-to-campaign.md">連線至 Campaign</a> - <a href="get-started/permissions.md">存取權與權限</a>
+      <strong>開始使用</strong><br/><a href="get-started/get-started.md#web">使用者介面</a>，<a href="get-started/connect-to-campaign.md">連線至 Campaign</a>，<a href="get-started/permissions.md">存取權與權限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>客戶體驗</strong><br/><a href="workflows/gs-workflows.md" target="_blank">使用工作流程自動化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">行銷活動協調</a> - <a href="personalization/gs-personalization.md">動態內容</a> - <a href="reporting/gs-reports.md">報告與分析</a>
+      <strong>客戶體驗</strong><br/><a href="workflows/gs-workflows.md" target="_blank">工作流程自動化</a>，<a href="campaigns/gs-campaigns.md" target="_blank">行銷活動協調流程</a>，<a href="personalization/gs-personalization.md">動態內容</a>，<a href="reporting/gs-reports.md">報告與分析</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>傳送訊息</strong><br/><a href="msg/gs-deliveries.md">建立傳遞</a> - <a href="email/create-email.md">電子郵件</a> -  <a href="push/gs-push.md">推播通知</a> - <a href="sms/gs-sms.md">簡訊</a> - <a href="msg/delivery-template.md">傳遞範本</a> - <a href="preview-test/preview-test.md">預覽與測試</a> 
+      <strong>傳送訊息</strong><br/><a href="msg/gs-deliveries.md">建立傳遞</a>，<a href="email/create-email.md">電子郵件</a>，<a href="push/gs-push.md">推播通知</a>，<a href="sms/gs-sms.md">簡訊</a>，<a href="msg/delivery-template.md">傳遞範本</a>，<a href="preview-test/preview-test.md">預覽與測試</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>輪廓與客群</strong><br/><a href="audience/gs-audiences-recipients.md">開始使用</a> - <a href="audience/create-audience.md">建立客群</a> - <a href="audience/test-profiles.md">測試輪廓</a> - <a href="audience/manage-services.md">訂閱服務</a> - <a href="query/query-modeler-overview.md">查詢建模工具</a>
+      <strong>輪廓與客群</strong><br/><a href="audience/gs-audiences-recipients.md">開始使用</a>，<a href="audience/create-audience.md">建立客群</a>，<a href="audience/test-profiles.md">測試輪廓</a>，<a href="audience/manage-services.md">訂閱服務</a>，<a href="query/query-modeler-overview.md">查詢建模工具</a>
     </td>
   </tr>
 </table>
