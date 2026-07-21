@@ -17,7 +17,7 @@ topic_v2:
 source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
 source-wordcount: 637
-ht-degree: 18%
+ht-degree: 26%
 
 ---
 
@@ -54,8 +54,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_data_loading_rdbms"
->title="資料載入(RDBMS)活動"
->abstract="**資料載入(RDBMS)**&#x200B;活動是&#x200B;**資料管理**&#x200B;活動。 使用此活動直接從外部關聯式資料庫將資料載入工作流程，無需切換到使用者端主控台。 擷取的資料可在整個工作流程中使用，並可用於目標定位、擴充或進一步資料處理。"
+>title="資料載入 (RDBMS) 活動"
+>abstract="**資料載入 (RDBMS)** 活動是一項&#x200B;**資料管理**&#x200B;活動。 使用這項活動可將外部關聯式資料庫中的資料直接載入工作流程，無需切換到用戶端主控台。 所擷取的資料可在整個工作流程中使用，並可用於目標市場選擇、擴充或進一步資料處理。"
 
 * [擷取檔案](extract-file.md)：將資料從Adobe Campaign匯出至其他系統，做為外部檔案。
 * [載入檔案](load-file.md)：使用儲存在外部檔案中的設定檔和資料。
