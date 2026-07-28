@@ -4,13 +4,11 @@ title: 篩選清單
 description: 瞭解如何使用內建和自訂篩選器來篩選Adobe Campaign網路清單。
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 TQID: https://experienceleague.adobe.com/a683b5CBnXIK41ltJJeX9cBgMh2drsjlzoAicypOLzA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: 365
 ht-degree: 1%
 
 ---
@@ -33,6 +31,10 @@ Adobe Campaign Web在每個物件清單中提供篩選器，可讓您根據特�
 ![篩選器窗格，顯示清單的可用篩選器](assets/filters-pane.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 若要根據您自己的條件來篩選清單，請建立自訂篩選器。 若要這麼做，請瀏覽至篩選器窗格的底部，然後按一下&#x200B;**新增規則**&#x200B;按鈕。 [瞭解如何建立自訂篩選器](#custom)。
+
+>[!NOTE]
+>
+>對於自訂結構描述，管理員可以在&#x200B;**新增規則**&#x200B;按鈕上方將自己的快速存取欄位新增到篩選器窗格。 如需詳細資訊，請參閱[新增自訂篩選器](../administration/schemas-custom-filters.md)。
 
 篩選器一旦套用至清單，就會顯示在搜尋列下方。 您可以隨時移除個別篩選器，或按一下&#x200B;**全部清除**&#x200B;按鈕以移除所有篩選器。
 

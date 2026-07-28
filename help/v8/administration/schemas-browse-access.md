@@ -2,19 +2,14 @@
 title: 瀏覽和存取方案
 description: 瞭解如何在介面中瀏覽和存取方案。
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 13%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
 # 存取和設定結構描述 {#access}
-
->[!CONTEXTUALHELP]
->id="acw_schema_action_data"
->title="對資料執行的動作"
->abstract="設定可用於結構描述詳細資訊和清單畫面的動作。 啟用「**[!UICONTROL 唯讀]**」，將詳細資訊畫面設定為唯讀，並移除清單中的各項動作。 啟用「**[!UICONTROL 不允許刪除]**」，從詳細資訊和清單畫面中移除刪除動作。"
 
 可從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 方案]**&#x200B;功能表存取方案。
 
@@ -65,5 +60,7 @@ ht-degree: 13%
 從熒幕定義中，您可以：
 
 * [設定預設清單欄](schemas-list-columns.md) — 設定清單檢視中預設顯示的欄。
+* [新增自訂篩選器](schemas-custom-filters.md) — 在清單檢視的篩選器窗格中新增快速存取篩選器欄位。
 * [編輯自訂欄位](schemas-custom-fields.md) — 設定哪些自訂欄位會顯示在詳細畫面中，並將它們組織成區段。
 * [新增集合清單](schemas-collection-lists.md) — 新增集合清單，以在設定檔畫面中顯示相關資料。
+* [控制資料動作](schemas-action-data.md) — 限制自訂結構描述的建立、編輯和刪除動作。

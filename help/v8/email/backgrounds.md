@@ -4,12 +4,11 @@ title: 個人化您的電子郵件背景
 description: 了解如何個人化您的電子郵件背景
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 TQID: https://experienceleague.adobe.com/ssELWLmS9gyORG4JCf-6w5lxyn0UeaC63LBNheBGU8M
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 1fe9a9727557de8bd1b0b2f10c58d89526b64095
 workflow-type: tm+mt
-source-wordcount: 351
-ht-degree: 44%
+source-wordcount: 366
+ht-degree: 43%
 
 ---
 
@@ -30,34 +29,29 @@ ht-degree: 44%
 
 * 設定整個電子郵件的&#x200B;**[!UICONTROL 背景顏色]**。 在可從左窗格存取的導覽樹狀結構中選取內文設定。
 
-  [設定整個電子郵件內文的背景色彩，可透過導覽樹狀結構存取。]\
-  ![](assets/background_1.png){zoomable="yes"}
+  ![設定整個電子郵件內文的背景色彩，可透過導覽樹狀結構存取。](assets/background_1.png){zoomable="yes"}
 
 * 選取「**[!UICONTROL 檢視區背景顏色]**」為所有結構元件設定相同的背景顏色。 此選項可讓您從背景顏色選擇不同的設定。
 
-  [使用檢視區背景顏色選項，為所有結構元件設定統一的背景顏色。]\
-  ![](assets/background_2.png){zoomable="yes"}
+  ![使用檢視區背景顏色選項，為所有結構元件設定統一的背景顏色。](assets/background_2.png){zoomable="yes"}
 
 * 為每個結構元件設定不同的背景顏色。 在左窗格的導覽樹狀目錄中選取結構，以僅將特定背景顏色套用到該結構。
 
-  [透過導覽樹狀結構將唯一的背景顏色套用至個別的結構元件。]\
-  ![](assets/background_3.png){zoomable="yes"}
+  ![透過導覽樹狀結構將唯一的背景顏色套用至個別的結構元件。](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >請勿設定檢視區背景顏色，因為它可能會隱藏結構背景顏色。
 
-* 為結構元件的內容設定&#x200B;**[!UICONTROL 背景影像]**。
+* 為結構元件的內容設定&#x200B;**[!UICONTROL 背景影像]**。 選擇影像使用&#x200B;**[!UICONTROL 選取資產]**、**[!UICONTROL 匯入媒體]**&#x200B;或&#x200B;**[!UICONTROL 匯入公用資源]**。 [了解更多](content-components.md#image)
 
-  [新增背景影像至特定結構元件的內容。]\
-  ![](assets/background_4.png){zoomable="yes"}
+  ![新增背景影像至特定結構元件的內容。](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >某些電子郵件程式不支援背景影像。 若不支援，則改用列背景顏色。 選取適當的後援背景顏色，以防影像無法顯示。
 
 * 在欄層級設定背景顏色。
 
-  [在資料行層級套用背景顏色，以擁有更大的彈性。]\
-  ![](assets/background_5.png){zoomable="yes"}
+  ![在資料行層級套用背景顏色，以擁有更大的彈性。](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >這是最常見的使用案例。 Adobe建議在欄層級設定背景顏色，因為在編輯整個電子郵件內容時，這可提供更大的彈性。

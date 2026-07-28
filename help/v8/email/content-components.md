@@ -4,14 +4,12 @@ title: 使用電子郵件設計工具內容元件
 description: 了解如何在電子郵件中使用內容元件
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
 workflow-type: tm+mt
-source-wordcount: 1402
-ht-degree: 34%
+source-wordcount: 1517
+ht-degree: 30%
 
 ---
 
@@ -116,7 +114,7 @@ ht-degree: 34%
    * **[!UICONTROL 建立清單]**：新增專案符號或數字清單至您的文字。
    * **[!UICONTROL 設定標題]**：為文字新增標題，最多六層。
    * **字型大小**：選取文字的字型大小 (以像素為單位)。
-   * **[!UICONTROL 編輯影像]**：將影像或資產新增到文字元件。
+   * **[!UICONTROL 編輯影像]**：從Adobe Experience Manager Assets資料庫、電腦將影像新增至文字元件，或重複使用Adobe Campaign執行個體上可用的影像。 [了解更多](#image)
    * **[!UICONTROL 顯示原始碼]**：顯示文字的原始碼。 原始碼無法變更。
    * **[!UICONTROL 複製]**：新增文字元件的副本。
    * **[!UICONTROL 刪除]**：從電子郵件刪除選取的文字元件。
@@ -153,27 +151,53 @@ ht-degree: 34%
 
 ## 影像 {#image}
 
->[!IMPORTANT]
->
->Assets功能表的存取權僅限具有有效Adobe Experience Manager as a Cloud Service授權的使用者使用。 如果您未擁有此授權，將無法使用「資產」選單。
-
-使用&#x200B;**[!UICONTROL Image]**&#x200B;元件，將電腦中的影像檔案插入電子郵件中。
+使用&#x200B;**[!UICONTROL Image]**&#x200B;元件將影像插入您的電子郵件。
 
 1. 從&#x200B;**[!UICONTROL Content]**&#x200B;功能表，將&#x200B;**[!UICONTROL Image]**&#x200B;拖放到&#x200B;**[!UICONTROL Structure]**&#x200B;元件中。
 
    ![熒幕擷圖顯示如何拖放電子郵件Designer中的影像元件。](assets/email_designer_9.png){zoomable="yes"}
 
-1. 按一下&#x200B;**[!UICONTROL 瀏覽]**，從您的資產中選擇影像檔案。 您也可以選擇&#x200B;**[!UICONTROL 匯入您的媒體]**。
+1. 選擇下列其中一個選項來新增影像：
 
-   若要進一步瞭解如何在Adobe Experience Manager中上傳和新增資產，請參閱[Adobe Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=zh-Hant)。
+   ![熒幕擷圖顯示電子郵件Designer中影像元件的選項。](assets/email_designer_28.png){zoomable="yes"}
 
-   ![熒幕擷圖顯示電子郵件Designer中影像元件的瀏覽選項。](assets/email_designer_28.png){zoomable="yes"}
+   +++**[!UICONTROL 瀏覽]**
 
-1. 瀏覽資料夾以找出所需的特定資產，或使用搜尋列有效率地尋找資產。
+   選擇此選項可從Adobe Experience Manager Assets資料庫中選取影像。
 
-   找到您要尋找的資產後，請按一下&#x200B;**[!UICONTROL 選取]**。
+   >[!IMPORTANT]
+   >
+   >此選項需要作用中的Adobe Experience Manager as a Cloud Service授權。
+
+   瀏覽資料夾以找出所需的特定資產，或使用搜尋列有效率地尋找資產。 找到資產後，按一下&#x200B;**[!UICONTROL 選取]**。
 
    ![熒幕擷圖顯示電子郵件Designer中的資產選取程式。](assets/email_designer_29.png){zoomable="yes"}
+
+   若要進一步瞭解如何在Adobe Experience Manager中上傳和新增資產，請參閱[Adobe Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html)。
+
+   +++
+
+   +++**[!UICONTROL 匯入]**
+
+   選取此選項，即可從電腦上傳新影像。 檔案會以公用資源的形式上傳至Adobe Campaign執行個體。
+
+   +++
+
+   +++**[!UICONTROL 匯入公用資源]**
+
+   選擇此選項可選取您的Adobe Campaign執行個體上已可用的影像，例如先前在電子郵件Designer中匯入的檔案，或從Client Console作為公用資源。
+
+   ![熒幕擷圖顯示電子郵件Designer中的公用資源選取程式。](assets/email_designer_30.png){zoomable="yes"}
+
+   依名稱搜尋資源。 您也可以使用篩選器並重新組織欄。
+
+   >[!NOTE]
+   >
+   >安全性限制與「使用者端主控台」中的相同：根據您的使用者許可權，您只能選取您有權存取的資源。
+
+   選取資源，然後按一下&#x200B;**[!UICONTROL 確認]**。
+
+   +++
 
 1. 按一下您新新增的元件，並使用&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤來設定影像屬性：
 
