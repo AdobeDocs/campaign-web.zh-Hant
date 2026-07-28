@@ -8,16 +8,20 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
 workflow-type: tm+mt
-source-wordcount: 825
+source-wordcount: 805
 ht-degree: 23%
 
 ---
 
 # 將產品建議新增至您的訊息 {#offers-content}
 
-您可以在Adobe Campaign網路使用者介面中，將優惠方案新增至傳遞。 這些優惠可從左側的&#x200B;**優惠方案**&#x200B;功能表取得，可讓您存取優惠方案清單。 所有這些選件都是唯讀的，必須使用&#x200B;**[!UICONTROL 互動]**&#x200B;模組在Campaign使用者端主控台中建立。 如需互動以及如何管理主控台中的優惠方案目錄的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hant){target="_blank"}。
+您可以直接從Campaign Web UI將優惠方案新增至傳送。 這些優惠可從左側的&#x200B;**優惠方案**&#x200B;功能表取得，可讓您存取優惠方案清單。
+
+從Campaign Web UI，您還可以直接建立和管理優惠方案環境、優惠方案空間和優惠方案，無需切換至使用者端主控台。 [了解更多資訊](../offers/gs-offer-management.md)。
+
+如需進階設定，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hant){target="_blank"}。
 
 透過傳送傳送優惠方案的步驟如下：
 
@@ -46,7 +50,7 @@ Adobe Campaign可讓您在互動期間提出一或多個特定優惠方案，即
 
 1. 設定應向收件者提出的產品建議。
 
-   首先，選取符合您優惠方案環境的&#x200B;**[!UICONTROL 優惠方案空間]**。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=zh-Hant){target="_blank"}中瞭解如何建立優惠方案空間。
+   首先，選取符合您優惠方案環境的&#x200B;**[!UICONTROL 優惠方案空間]**。 在此[小節](../offers/offer-space.md)中瞭解如何直接從Campaign Web UI建立優惠方案空間。
 
    ![熒幕擷圖顯示優惠方案建立內容中的優惠方案空間選擇](assets/offer-create-content.png){zoomable="yes"}
 

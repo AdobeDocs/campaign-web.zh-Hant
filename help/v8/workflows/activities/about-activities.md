@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
+source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 26%
+source-wordcount: 597
+ht-degree: 19%
 
 ---
 
@@ -52,11 +52,7 @@ ht-degree: 26%
 
 這些活動專門用於操控和豐富人口資料。
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_data_loading_rdbms"
->title="資料載入 (RDBMS) 活動"
->abstract="**資料載入 (RDBMS)** 活動是一項&#x200B;**資料管理**&#x200B;活動。 使用這項活動可將外部關聯式資料庫中的資料直接載入工作流程，無需切換到用戶端主控台。 所擷取的資料可在整個工作流程中使用，並可用於目標市場選擇、擴充或進一步資料處理。"
-
+* [資料載入(RDBMS)](data-loading-rdbms.md)：直接從外部關聯式資料庫將資料載入工作流程。
 * [擷取檔案](extract-file.md)：將資料從Adobe Campaign匯出至其他系統，做為外部檔案。
 * [載入檔案](load-file.md)：使用儲存在外部檔案中的設定檔和資料。
 * [傳輸檔案](transfer-file.md)：接收或傳送檔案、測試檔案是否存在，或列出伺服器上的檔案。 使用的通訊協定可以是伺服器對伺服器通訊協定或 HTTP 通訊協定。

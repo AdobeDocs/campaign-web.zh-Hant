@@ -2,10 +2,10 @@
 title: 設定預設清單欄
 description: 瞭解如何設定清單檢視中預設顯示的欄。
 exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
-source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
+source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 17%
+source-wordcount: '247'
+ht-degree: 13%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_schema_inventory_list_configuration"
 >title="庫存清單設定"
->abstract="設定清單檢視中預設顯示的欄。 每一欄會顯示其標籤和對應的屬性。"
+>abstract="設定清單檢視中預設顯示的欄。 每一欄會顯示其標籤和對應的屬性。 新增自訂篩選器，以在清單檢視的篩選器窗格中顯示快速存取篩選器欄位。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="新增自訂篩選器"
 
 **[!UICONTROL 詳細目錄清單組態]**&#x200B;區段可讓您設定哪些欄預設顯示在清單檢視中。 每一欄會顯示其標籤和對應的屬性。
 
@@ -37,3 +38,7 @@ ht-degree: 17%
 1. 瀏覽至&#x200B;**設定檔**&#x200B;功能表以存取設定檔清單檢視。 您會注意到新標籤隨即顯示。 您可以視需要新增更多欄。
 
    ![清單資料行組態](assets/schemas-list-columns3.png)
+
+>[!NOTE]
+>
+>您也可以在清單檢視的篩選窗格中新增快速存取篩選欄位。 如需詳細資訊，請參閱[新增自訂篩選器](schemas-custom-filters.md)。

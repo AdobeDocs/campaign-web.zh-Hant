@@ -11,10 +11,10 @@ subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 33%
+source-wordcount: 348
+ht-degree: 30%
 
 ---
 
@@ -48,8 +48,10 @@ Adobe Campaign中的每個實體都有專屬的結構描述，以確保資料一
 
 * [存取和自訂結構描述](schemas-browse-access.md) — 檢視可用的結構描述、探索其詳細資訊並自訂熒幕顯示
 * [設定清單欄](schemas-list-columns.md) — 設定清單檢視中預設顯示的欄。
+* [新增自訂篩選器](schemas-custom-filters.md) — 在清單檢視的篩選器窗格中新增快速存取篩選器欄位。
 * [編輯自訂欄位](schemas-custom-fields.md) — 設定哪些自訂欄位會顯示在詳細畫面中，並將它們組織成區段。
 * [新增集合清單](schemas-collection-lists.md) — 新增集合清單，以在設定檔畫面中顯示相關資料。
+* [控制資料動作](schemas-action-data.md) — 限制自訂結構描述的建立、編輯和刪除動作。
 * [建立和管理結構描述](schemas-create-publish.md#create-schemas) — 建立新結構描述並擴充現有結構描述
 * [發佈並同步結構描述](schemas-create-publish.md#publish) — 同步結構描述變更與資料庫結構。
 * [使用自訂表單](schemas-custom-forms.md) — 使用資料輸入表單建立、編輯和管理自訂結構描述中的記錄。

@@ -8,10 +8,10 @@ product_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
+source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
-source-wordcount: 611
-ht-degree: 24%
+source-wordcount: 535
+ht-degree: 13%
 
 ---
 
@@ -26,16 +26,6 @@ ht-degree: 24%
 >id="acw_javascript_codes_create"
 >title="建立 JavaScript 程式碼"
 >abstract="定義 JavaScript 程式碼的命名空間、名稱和標籤，然後使用可用於條件判斷和日期格式化的預先定義函式編寫其內容。 命名空間和名稱在建立完成後即無法修改。"
-
->[!CONTEXTUALHELP]
->id="acw_dynamic_javascript_pages_list"
->title="動態 JavaScript 頁面"
->abstract="您可以運用動態 JavaScript 頁面 (JSSP) 建置伺服器端頁面，這些頁面在透過 URL 存取時會產生動態內容，例如自訂 API、匯出或網頁應用程式邏輯。 您可以從這個清單中建立、修改、複製或刪除動態 JavaScript 頁面。"
-
->[!CONTEXTUALHELP]
->id="acw_dynamic_javascript_pages_create"
->title="建立動態 JavaScript 頁面"
->abstract="定義動態 JavaScript 頁面的命名空間、名稱和標籤，然後使用 JavaScript 程式碼編寫其內容。 命名空間和名稱在建立完成後即無法修改。"
 
 ## 關於JavaScript程式碼 {#about}
 

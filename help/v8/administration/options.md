@@ -9,10 +9,10 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 5%
+source-wordcount: 592
+ht-degree: 4%
 
 ---
 
@@ -83,3 +83,17 @@ Adobe Campaign Web使用者介面可讓您建立符合您需求的自訂選項�
 1. 更新的值現在會顯示在&#x200B;**[!UICONTROL 選項]**&#x200B;功能表中。
 
    ![選項功能表顯示自訂選項更新值](assets/options-sample-updated.png)
+
+## 限制傳遞的寄件者電子郵件地址 {#restrict-sender-address}
+
+根據預設，行銷人員可以在電子郵件傳遞的&#x200B;**[!UICONTROL 寄件者電子郵件]**&#x200B;欄位中輸入任何地址。 若要將此欄位限製為預先定義的地址清單，請建立或編輯內建`NmsDelivery_senderAddressMask`選項，並將其值設定為允許的寄件者地址逗號分隔清單，例如`abc@adobe.com,bcd@adobe.com`。
+
+![從功能表限制值的選項](assets/option-restrict-from.png)
+
+一旦此選項有值，**[!UICONTROL 來自電子郵件]**&#x200B;欄位就會變成僅包含這些地址的下拉式清單，而不是任意文字欄位。 如果選項不存在或其值為空白，則欄位仍會維持如前所述的任意文字。
+
+![電子郵件中的可用值](assets/option-restrict-from2.png)
+
+此限制是全域的。 它適用於每個品牌和傳遞範本，不支援個人化欄位，僅支援靜態地址。
+
+如需&#x200B;**[!UICONTROL 來自電子郵件]**&#x200B;欄位的詳細資訊，請參閱[設定電子郵件內容](../email/edit-content.md#edit-content)。

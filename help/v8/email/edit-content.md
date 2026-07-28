@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 36%
+source-wordcount: 728
+ht-degree: 35%
 
 ---
 
@@ -76,6 +76,10 @@ ht-degree: 36%
    >[!NOTE]
    >
    >您可以變更&#39;@&#39;之前的部分，但無法變更網域位址。
+
+   >[!NOTE]
+   >
+   >管理員可以將此欄位限製為預先定義的寄件者地址清單。 在這種情況下，您可從下拉式清單中選取地址，而非輸入地址。 [了解更多](../administration/options.md#restrict-sender-address)
 
 1. 展開&#x200B;**[!UICONTROL 回覆欄位]**&#x200B;區段。 預設會使用寄件者的姓名和地址進行回覆。 不過，Adobe建議使用現有的實際地址，例如您品牌的客戶服務。 在此情況下，如果收件者傳送回覆，客戶服務團隊將能處理。
 
