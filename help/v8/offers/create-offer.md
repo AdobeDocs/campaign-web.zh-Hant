@@ -66,7 +66,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->優惠方案引擎會降低權重來排序合適的優惠方案，並先傳回最高加權建議。 選擇邏輯（稱為&#x200B;**套利**）也會考慮在上層類別和環境上設定的適用規則和權重。 在[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}中進一步瞭解套利原則。
+>優惠方案引擎會降低權重來排序合適的優惠方案，並先傳回最高加權建議。 選擇邏輯（稱為&#x200B;**套利**）也會考慮在上層類別和環境上設定的適用規則和權重。 在[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hant){target="_blank"}中進一步瞭解套利原則。
 
 ### 定義內容 {#content}
 
@@ -136,5 +136,5 @@ ht-degree: 2%
 
 當優惠方案上線時，您可以從任何將目標鎖定於相符優惠方案空間的傳送中選取。 瞭解如何在[新增優惠到您的訊息](../msg/offers.md)中設定傳遞中的優惠。
 
-如需完整的傳出傳送整合，包括如何建立引擎呼叫以及如何將追蹤套用至選件連結，請參閱傳出傳送[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}中的Campaign v8檔案選件。
+如需完整的傳出傳送整合，包括如何建立引擎呼叫以及如何將追蹤套用至選件連結，請參閱傳出傳送[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=zh-Hant){target="_blank"}中的Campaign v8檔案選件。
 

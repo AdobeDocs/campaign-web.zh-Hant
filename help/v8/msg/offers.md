@@ -110,7 +110,7 @@ Adobe Campaign可讓您在互動期間提出一或多個特定優惠方案，即
 
    >[!NOTE]
    >
-   >可用的主張數量取決於引擎呼叫的設定方式，而其順序則取決於優惠方案的優先順序。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}中進一步瞭解。
+   >可用的主張數量取決於引擎呼叫的設定方式，而其順序則取決於優惠方案的優先順序。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 
 1. 儲存您的變更。
 
