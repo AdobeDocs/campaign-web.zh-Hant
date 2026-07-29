@@ -4,10 +4,8 @@ title: 開始使用 AI 助理
 description: 開始使用 AI 助理
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 TQID: https://experienceleague.adobe.com/jpw4u-Vy7M2Q9qRyQ2J3rJ-Mr8UKLUpxhw39tglbbNc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 887
@@ -39,7 +37,7 @@ ht-degree: 24%
 
 隨著行銷產業變得更具競爭力，品牌們開始尋求有效率的方式，以迅速產生具影響力的內容。 Adobe Campaign Web中的AI助理採用Microsoft Azure OpenAI和Adobe Firefly技術，是Adobe的AI內容產生功能，可轉變行銷人員如何跨電子郵件、SMS和推播通知等管道建立專業且品牌一致的內容。 透過進階GenAI模型和對品牌指導方針的深入瞭解，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，針對品牌概述的樣式、版面、色調等最佳化內容。
 
-AI Assistant支援多種語言產生&#x200B;**&#x200B;**，讓您能夠觸及並吸引不同的全球對象。 AI助理提供下列語言版本：
+AI Assistant支援多種語言產生&#x200B;****，讓您能夠觸及並吸引不同的全球對象。 AI助理提供下列語言版本：
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -112,7 +110,7 @@ AI Assistant可簡化跨管道（例如電子郵件、簡訊和推播通知）�
 * 使用[內建電子郵件範本](../content/create-email-templates.md)、品牌特定範本或自訂範本，以使用AI助理建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
 * 選擇變體時，使用向上縮圖、向下縮圖或標幟圖示，報告任何有問題的輸出。
 * 您使用AI Assistant時，必須遵守Adobe Experience Cloud Generative AI使用者指南。 [了解更多資訊](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
-* 作為Adobe承諾在媒體建立中使用創作AI工具時提高透明度的其中一環，Adobe在下載或匯出內容或專案（包含Firefly產生的資產）時套用Content Credentials。 [了解更多資訊](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)。
+* 作為Adobe承諾在媒體建立中使用創作AI工具時提高透明度的其中一環，Adobe在下載或匯出內容或專案（包含Firefly產生的資產）時套用Content Credentials。 [了解更多資訊](https://helpx.adobe.com/firefly/using/content-credentials.html)。
 
 下列限制適用於Adobe Campaign Web中的AI助理：
 

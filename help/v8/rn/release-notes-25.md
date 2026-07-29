@@ -3,21 +3,10 @@ title: Campaign v8 Web 使用者介面先前發行說明
 description: 2025 Campaign Web 使用者介面版本
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 TQID: https://experienceleague.adobe.com/z7Nz4ghVS6vEP7Aa3lgB1fv66coY-MCvyGALfzOn0O0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
 source-wordcount: 3032
@@ -324,7 +313,7 @@ table>
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -436,7 +425,7 @@ table>
 <tr>
 <td>
 <p>您現在可以存取動態報告，該報告提供完全可自訂的即時報告來衡量您行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 動態報告也適用於多語言電子郵件傳遞和交易型訊息。</p>
-<p>此功能僅按需提供。若要取得存取權，請聯絡您的 Adobe 代表。您的伺服器必須至少升級至 8.8.1 版。請參閱用戶端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">發行說明</a>。
+<p>此功能僅按需提供。若要取得存取權，請聯絡您的 Adobe 代表。您的伺服器必須至少升級至 8.8.1 版。請參閱用戶端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">發行說明</a>。
 <p>如需詳細資訊，請參閱<a href="../reporting/dynamic-reporting/get-started-reporting.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -453,7 +442,7 @@ table>
 <tr>
 <td>
 <p>您的技術管理員現在可以定義一個或多個品牌，以集中管理會影響品牌識別的參數。 這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。 您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 品牌化選項適用於所有管道，包括簡訊和直接郵件。</p>
-<p>此功能僅針對新的實作按需提供。若要取得存取權，請聯絡您的 Adobe 代表。您的伺服器必須至少升級至 8.8.1 版。請參閱用戶端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">發行說明</a>。
+<p>此功能僅針對新的實作按需提供。若要取得存取權，請聯絡您的 Adobe 代表。您的伺服器必須至少升級至 8.8.1 版。請參閱用戶端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">發行說明</a>。
 <p>如需詳細資訊，請參閱<a href="../administration/branding/branding-gs.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -462,10 +451,10 @@ table>
 
 除了上方列出的功能外，此版本還隨附一組用戶端主控台中可用的功能：
 
-* [新的簡訊傳送連接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=zh-Hant) (FDA 環境)
-* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant) (隨選，FDA 環境)
+* [新的簡訊傳送連接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA 環境)
+* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (隨選，FDA 環境)
 
-請參閱用戶端主控台[發行說明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant){target="_blank"}。
+請參閱用戶端主控台[發行說明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}。
 
 <!--
 
@@ -473,14 +462,14 @@ table>
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=zh-Hant){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -507,10 +496,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=zh-Hant) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
@@ -694,7 +683,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **多語言動態報告** - 動態報告現可用於多語言電子郵件傳遞。 如需詳細資訊，請參閱[詳細文件](../reporting/global-reports.md)以瞭解詳情。
 
-* **簡訊 REST API 支援 (LA)** - 交易型傳訊 REST API 現在已可用於簡訊管道。 當承載中同時存在 email 和 mobilePhone 時，您可以使用「wishedChannel」欄位來指定管道。 如果未提供，除非 wishedChannel 明確地要求簡訊，否則預設會使用電子郵件。 如需詳細資訊，請參閱[詳細文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant){target=_blank}以瞭解詳情。
+* **簡訊 REST API 支援 (LA)** - 交易型傳訊 REST API 現在已可用於簡訊管道。 當承載中同時存在 email 和 mobilePhone 時，您可以使用「wishedChannel」欄位來指定管道。 如果未提供，除非 wishedChannel 明確地要求簡訊，否則預設會使用電子郵件。 如需詳細資訊，請參閱[詳細文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}以瞭解詳情。
 
 ## 2025 年 2 月版 {#25-2-release}
 
