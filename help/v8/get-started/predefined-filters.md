@@ -3,9 +3,8 @@ title: 使用預先定義的篩選器
 description: 了解如何在 Adobe Campaign Web 中建立和管理預先定義的篩選器
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 TQID: https://experienceleague.adobe.com/KtKT-RQV5D3bLMgzxmMJuwDnMBPTt0JiLsvzvuJhF6E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: a6d831e2fd3abf7701aac09b112baa6c0ef239cb
 workflow-type: tm+mt
 source-wordcount: 1061
 ht-degree: 100%
@@ -86,7 +85,7 @@ ht-degree: 100%
 
 1. 定義篩選器的規則。 例如，年齡超過 30 歲的輪廓。
 
-   ![年齡超過 30 歲的輪廓的篩選器規則](assets/filter-30+.png){zoomable="yes"}
+   ![年齡超過 30 歲的輪廓的篩選器規則](assets/filter-30-plus.png){zoomable="yes"}
 
 1. 儲存您的變更。
 
