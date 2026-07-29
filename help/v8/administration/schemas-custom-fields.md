@@ -15,7 +15,7 @@ ht-degree: 12%
 >id="acw_schema_detail_screen_configuration"
 >title="詳細資料畫面設定"
 >abstract="設定哪些自訂欄位會顯示在詳細資料畫面中，並整理到區段中。 新增集合清單，以在設定檔畫面中顯示相關資料。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html" text="新增集合清單"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html?lang=zh-Hant" text="新增集合清單"
 
 自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。
 
