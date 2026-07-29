@@ -5,8 +5,8 @@ description: 瞭解如何使用加入工作流程活動
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 38%
+source-wordcount: '473'
+ht-degree: 39%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 38%
 >title="連接活動"
 >abstract="「**加入**」活動可讓您合併多個入站轉變。 選擇 (AND) 在所有入站轉變完成時繼續，或選擇 (OR) 在任一入站轉變完成時繼續。"
 
-**加入**&#x200B;活動是&#x200B;**流量控制**&#x200B;活動。 它會同步工作流程的多個執行分支。
+**加入**&#x200B;活動是&#x200B;**流量控制**活動。它會同步工作流程的多個執行分支。
 您可以選擇如何評估入站轉變：
 
 * **AND**：僅在啟動所有選取的入站轉變後繼續。
@@ -38,12 +38,12 @@ ht-degree: 38%
 
 選取&#x200B;**或**&#x200B;時，只要其中一個選取的入站轉變啟動，就會繼續執行。 不會等待每個分支。
 
-## 設定「加入」活動 {#join-configuration}
+## 設定連接活動  {#join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
 >title="合併選項"
->abstract="選取您要參加的活動。 在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變群體。"
+>abstract="選取您要連接的活動。 在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變群體。"
 
 請依照下列步驟設定&#x200B;**加入**&#x200B;活動：
 
