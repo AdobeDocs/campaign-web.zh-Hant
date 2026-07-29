@@ -4,7 +4,8 @@ title: 設定控制組
 description: 瞭解如何在Campaign網頁使用者介面中設定訊息的控制組
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 TQID: https://experienceleague.adobe.com/8MWtEgcsPZRYWGan5rJfho6HVt5KqUySGJMG6sUjIkA
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 800
@@ -121,4 +122,4 @@ ht-degree: 21%
 
 傳送後，擷取傳送記錄檔，以比較未接收通訊的設定檔與有效目標之間的行為。 使用傳送記錄來建置新目標定位。
 
-若要檢視已從目標移除的設定檔，請檢查&#x200B;**傳遞記錄**。 在本節](#check-control-group)瞭解更多[。
+若要檢視已從目標移除的設定檔，請檢查&#x200B;**傳遞記錄**。 在本節[&#128279;](#check-control-group)瞭解更多。

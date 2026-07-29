@@ -4,9 +4,12 @@ title: 管理品牌
 description: 瞭解如何建立和管理您的品牌指引
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 TQID: https://experienceleague.adobe.com/MAYS264-CrLxRFoLLh8Ph0mujglOSxki7tX5iD2a8rM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
-topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+topic_v2:
+  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 542
@@ -40,7 +43,7 @@ ht-degree: 2%
 
 1. 輸入您的使用者名稱、使用者群組或電子郵件地址。
 
-1. 按一下[儲存]以套用變更。****
+1. 按一下[儲存]以套用變更。**&#x200B;**
 
 已指派給此角色的使用者會自動更新其許可權。
 
@@ -74,7 +77,7 @@ ht-degree: 2%
 
 1. 設定之後，按一下&#x200B;**[!UICONTROL 儲存]**，然後按一下&#x200B;**[!UICONTROL 發佈]**，讓您的品牌指引可在AI助理中取得。
 
-1. 若要修改您發佈的品牌，請按一下[編輯品牌]。****
+1. 若要修改您發佈的品牌，請按一下[編輯品牌]。**&#x200B;**
 
    >[!NOTE]
    >

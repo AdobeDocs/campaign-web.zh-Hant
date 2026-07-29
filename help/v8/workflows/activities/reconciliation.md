@@ -4,7 +4,8 @@ title: 使用調解工作流程活動
 description: 瞭解如何使用協調工作流程活動
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 TQID: https://experienceleague.adobe.com/tq8es8g36fkqJOjufSCwi15W4uN27o1FLTrXAJprMaE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 850

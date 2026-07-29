@@ -4,8 +4,10 @@ title: 開始使用外部傳遞
 description: 瞭解如何使用Adobe Campaign Web建立並傳送外部傳遞
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 TQID: https://experienceleague.adobe.com/PssWyAdLFJ02--DZtt2AOjtbyoVcYip-cJvSqrr0aH4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 466
