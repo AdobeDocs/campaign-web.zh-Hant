@@ -3,8 +3,10 @@ audience: end-user
 title: 使用資料載入(RDBMS)工作流程活動
 description: 瞭解如何使用資料載入(RDBMS)工作流程活動
 exl-id: 18c969f7-c94e-4fff-a132-a2114860841f
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
 workflow-type: tm+mt
 source-wordcount: 772
@@ -113,7 +115,7 @@ This activity relies on the [Federated Data Access (FDA)](https://experienceleag
 設定資料表後，**[!UICONTROL 收集到的資訊]**&#x200B;區段可讓您定義從外部資料表收集哪些資料行：
 
 1. 如果您需要收集所選資料表的每個資料行，請核取&#x200B;**[!UICONTROL 保留所有來源資料]**&#x200B;選項（預設）。
-1. 按一下[新增資料行]以擷取&#x200B;]**，改為收集特定資料行，或另外收集。**[!UICONTROL 
+1. 按一下[新增資料行]以擷取&#x200B;**，改為收集特定資料行，或另外收集。**
 
    ![資料載入(RDBMS)活動](../assets/workflow-data-loading-rdbms9.png)
 
