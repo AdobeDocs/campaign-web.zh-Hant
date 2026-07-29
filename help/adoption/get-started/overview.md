@@ -67,14 +67,14 @@ ht-degree: 29%
 
   Adobe Campaign v8運用進階雲端規模的資料庫技術，大幅改善效能和效率。 此重新設計的架構提供數項主要優點：
 
-   * *縮放*：系統現在支援大幅提高處理能力，批次處理處理吞吐量高達每小時&#x200B;**20百萬次作業**。 有了此新架構，甚至更高的設定檔也能以可預測的效能管理。
-   * *速度*：系統已針對任何行銷活動進行改善：異動訊息的分段、傳遞準備或輸送量，目前為每小時&#x200B;**1百萬條**。
+  * *縮放*：系統現在支援大幅提高處理能力，批次處理處理吞吐量高達每小時&#x200B;**20百萬次作業**。 有了此新架構，甚至更高的設定檔也能以可預測的效能管理。
+  * *速度*：系統已針對任何行銷活動進行改善：異動訊息的分段、傳遞準備或輸送量，目前為每小時&#x200B;**1百萬條**。
 
   完全受管理的雲端服務為使用者提供：
 
-   * 即時資料探索：即時存取和分析資料，以獲得快速見解及更明智的決策。
+  * 即時資料探索：即時存取和分析資料，以獲得快速見解及更明智的決策。
 
-   * 快速建立受眾：在數分鐘內輕鬆建立目標受眾，以實現更有效的行銷活動細分。
+  * 快速建立受眾：在數分鐘內輕鬆建立目標受眾，以實現更有效的行銷活動細分。
 
   整體而言，Adobe Campaign v8強大的架構以提升速度和效率，為管理廣泛而複雜的行銷活動提供了強大的基礎。
 
@@ -92,9 +92,9 @@ ht-degree: 29%
 
   您可以根據客戶的系統量身打造通知：
 
-   * 針對[Android](../../v8/push/rich-push.md)範本
+  * 針對[Android](../../v8/push/rich-push.md)範本
 
-   * 針對[iOs](../../v8/push/rich-push.md)範本
+  * 針對[iOs](../../v8/push/rich-push.md)範本
 
   推播通知是吸引行動應用程式使用者的重要工具，即使他們未主動使用您的應用程式，您也可以與他們聯絡。
 
@@ -104,13 +104,13 @@ ht-degree: 29%
 
   以下是透過這項整合啟用的主要功能：
 
-   * *資產管理*：在Adobe Campaign v8中，電子郵件設計工具會提供選取器來存取和管理資產。 此功能可簡化將Adobe Experience Manager中的元素整合至您的傳送作業，讓內容管理更有效率。 [進一步瞭解資產管理](../../v8/integrations/aem-assets.md)
+  * *資產管理*：在Adobe Campaign v8中，電子郵件設計工具會提供選取器來存取和管理資產。 此功能可簡化將Adobe Experience Manager中的元素整合至您的傳送作業，讓內容管理更有效率。 [進一步瞭解資產管理](../../v8/integrations/aem-assets.md)
 
-     ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-   * *電子郵件範本匯入*： Adobe Campaign v8可讓您瀏覽並直接從Adobe Experience Manager將電子郵件範本匯入Campaign。 [進一步瞭解電子郵件範本匯入](../../v8/integrations/aem-content.md)
+  * *電子郵件範本匯入*： Adobe Campaign v8可讓您瀏覽並直接從Adobe Experience Manager將電子郵件範本匯入Campaign。 [進一步瞭解電子郵件範本匯入](../../v8/integrations/aem-content.md)
 
-     ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
 
   Adobe Experience Manager as a Cloud Service提供雲端原生的敏捷性，可讓您加速實現價值的時間，並適應不斷變化的業務需求。 此整合不僅可增強您的內容管理功能，也可讓您透過所有接觸點，將更個人化且吸引人的體驗提供給您的客戶。
 

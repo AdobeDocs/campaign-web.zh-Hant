@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 開始使用自訂頻道
+title: 開始使用自訂管道
 description: 瞭解如何使用Adobe Campaign Web建立並傳送自訂通道傳遞
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
 TQID: https://experienceleague.adobe.com/OJ-3-J3wnbTyQ3qiIYauUtPnhCjk-CgM-tUyVALnVUw
@@ -11,11 +11,11 @@ topic_v2:
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 740
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# 開始使用自訂頻道 {#gs-custom-channel}
+# 開始使用自訂管道 {#gs-custom-channel}
 
 您可以直接從Adobe Campaign Web UI，根據與第三方整合的自訂頻道來協調和執行傳遞。 自訂頻道的設定是在使用者端主控台中執行。
 

@@ -19,7 +19,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 3032
 ht-degree: 100%
 
@@ -526,13 +526,13 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * 下列登陸頁面改進現已提供：
 
-   * 現在，您可以在設定服務時參考預設訂閱/取消訂閱登入頁面。 設計電子郵件時，如果您定義指向該登陸頁面的連結，則提交登陸頁面表單的使用者會自動訂閱或取消訂閱此服務。 [閱讀更多](../audience/manage-services.md#create-service)
-   * 登陸頁面設定中的新選項允許匿名訪客存取登陸頁面。 如果取消選擇此選項，則只有已識別的使用者才能存取並提交表單。 [閱讀更多](../landing-pages/create-lp.md#create-landing-page)
-   * 登陸頁面設定中的新選項允許在提交登陸頁面時儲存其他內部資料。 [閱讀更多](../landing-pages/create-lp.md#create-landing-page)
-   * 新選項允許將登陸頁面用於多個服務，使登陸頁面動態化。 新增連結到電子郵件時，如果您選擇動態登陸頁面，則可以選取任何服務。 如果您選取與特定服務相關的登陸頁面，系統會自動使用該服務 (您無法選取其他服務)。 [閱讀更多](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * 登陸頁面現在支援條件內容。 [閱讀更多](../landing-pages/lp-content.md)
-   * 您可以將登陸頁面連結到服務，並在使用者驗證它後傳送確認訊息。 [了解更多](../landing-pages/lp-content.md#lp-message)
-   * 您可以新增驗證碼，以保護您的登陸頁面免受機器人程式導致的垃圾訊息和濫用侵害。 這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。 [了解更多](../landing-pages/create-lp.md#captcha)
+  * 現在，您可以在設定服務時參考預設訂閱/取消訂閱登入頁面。 設計電子郵件時，如果您定義指向該登陸頁面的連結，則提交登陸頁面表單的使用者會自動訂閱或取消訂閱此服務。 [閱讀更多](../audience/manage-services.md#create-service)
+  * 登陸頁面設定中的新選項允許匿名訪客存取登陸頁面。 如果取消選擇此選項，則只有已識別的使用者才能存取並提交表單。 [閱讀更多](../landing-pages/create-lp.md#create-landing-page)
+  * 登陸頁面設定中的新選項允許在提交登陸頁面時儲存其他內部資料。 [閱讀更多](../landing-pages/create-lp.md#create-landing-page)
+  * 新選項允許將登陸頁面用於多個服務，使登陸頁面動態化。 新增連結到電子郵件時，如果您選擇動態登陸頁面，則可以選取任何服務。 如果您選取與特定服務相關的登陸頁面，系統會自動使用該服務 (您無法選取其他服務)。 [閱讀更多](../landing-pages/create-lp.md#define-actions-on-form-submission)
+  * 登陸頁面現在支援條件內容。 [閱讀更多](../landing-pages/lp-content.md)
+  * 您可以將登陸頁面連結到服務，並在使用者驗證它後傳送確認訊息。 [了解更多](../landing-pages/lp-content.md#lp-message)
+  * 您可以新增驗證碼，以保護您的登陸頁面免受機器人程式導致的垃圾訊息和濫用侵害。 這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。 [了解更多](../landing-pages/create-lp.md#captcha)
 
 ## 2025 年 6 月版 {#25-6-release}
 
@@ -548,9 +548,9 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * 規則產生器中的「人類狀況」已獲得改善。 這是您規則的書面、通俗易懂版本，會顯示在畫面的底部：
 
-   * 現在會醒目標示屬性，並會顯示關聯的結構描述。
-   * 您可以按一下這些元素，以檢視更詳細的資訊。
-   * 您現在可以使用相應的按鈕來複製人類狀況。
+  * 現在會醒目標示屬性，並會顯示關聯的結構描述。
+  * 您可以按一下這些元素，以檢視更詳細的資訊。
+  * 您現在可以使用相應的按鈕來複製人類狀況。
 
 * 對「技術工作流程」和「自動建立的物件」資料夾的存取現在會受到限制，以防止它們遭到檢視。 [了解更多](../get-started/work-with-folders.md#about-folders)
 
@@ -872,10 +872,10 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * 自訂介面中自訂欄位的顯示：
 
-   * 您現在可以選取要在介面中顯示的額外自訂欄位
-   * 您現在可以設定用於顯示連結類型自訂欄位的規則，例如根據另一個欄位的輸入來限制清單值
-   * 您現在可以更靈活地排列介面中的欄位：欄位可以跨越單一欄，或分組為子區段以便更好地組織
-   * 您現在可以將特定欄位設定為唯讀
+  * 您現在可以選取要在介面中顯示的額外自訂欄位
+  * 您現在可以設定用於顯示連結類型自訂欄位的規則，例如根據另一個欄位的輸入來限制清單值
+  * 您現在可以更靈活地排列介面中的欄位：欄位可以跨越單一欄，或分組為子區段以便更好地組織
+  * 您現在可以將特定欄位設定為唯讀
 
 * 最近和我的最愛篩選器：為了快速重複使用常用的屬性，您現在可以將它們新增到我的最愛中。 這可確保它們能夠輕鬆用於未來的任務中。 除了我的最愛之外，您還可以檢視和使用最近選取的屬性。
 

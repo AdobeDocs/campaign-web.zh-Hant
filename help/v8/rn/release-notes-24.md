@@ -18,7 +18,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 2580
 ht-degree: 100%
 
@@ -77,8 +77,8 @@ ht-degree: 100%
 
 * **工作流程擴充活動**
 
-   * 現在，您可以在&#x200B;**擴充**&#x200B;活動中建立新欄位時，定義別名和標籤。 [了解更多](../workflows/activities/enrichment.md#collection-settings)
-   * 您現在可以在&#x200B;**擴充**&#x200B;活動中，為每個客戶輪廓新增產品建議。 [了解更多](../workflows/activities/enrichment.md##add-offers)
+  * 現在，您可以在&#x200B;**擴充**&#x200B;活動中建立新欄位時，定義別名和標籤。 [了解更多](../workflows/activities/enrichment.md#collection-settings)
+  * 您現在可以在&#x200B;**擴充**&#x200B;活動中，為每個客戶輪廓新增產品建議。 [了解更多](../workflows/activities/enrichment.md##add-offers)
 
 * **值的分佈** - 當存取個人化的欄位清單時，您現在可以查看每個欄位的值如何分佈。 專用的快顯視窗會顯示每個值的數字和百分比。 [了解更多](../query/build-query.md#distribution-values-query)
 
@@ -274,11 +274,11 @@ ht-degree: 100%
 
 * **登陸頁面** - 登陸頁面的以下改善僅適用於從 Campaign Standard 轉換的使用者：
 
-   * 現在，您可以在設定服務時參考預設訂閱/取消訂閱登入頁面。 設計電子郵件時，如果您定義指向該登陸頁面的連結，則提交登陸頁面表單的使用者會自動訂閱或取消訂閱此服務。 [閱讀更多](../audience/manage-services.md#create-service)
-   * 登陸頁面設定中的新選項允許匿名訪客存取登陸頁面。 如果取消選擇此選項，則只有已識別的使用者才能存取並提交表單。 [閱讀更多](../landing-pages/create-lp.md#create-landing-page)
-   * 登陸頁面設定中的新選項允許在提交登陸頁面時儲存其他內部資料。 [閱讀更多](../landing-pages/create-lp.md#create-landing-page)
-   * 新選項允許將登陸頁面用於多個服務，使登陸頁面動態化。 新增連結到電子郵件時，如果您選擇動態登陸頁面，則可以選取任何服務。 如果您選取與特定服務相關的登陸頁面，系統會自動使用該服務 (您無法選取其他服務)。 [閱讀更多](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * 登陸頁面現在支援條件內容。 [閱讀更多](../landing-pages/lp-content.md)
+  * 現在，您可以在設定服務時參考預設訂閱/取消訂閱登入頁面。 設計電子郵件時，如果您定義指向該登陸頁面的連結，則提交登陸頁面表單的使用者會自動訂閱或取消訂閱此服務。 [閱讀更多](../audience/manage-services.md#create-service)
+  * 登陸頁面設定中的新選項允許匿名訪客存取登陸頁面。 如果取消選擇此選項，則只有已識別的使用者才能存取並提交表單。 [閱讀更多](../landing-pages/create-lp.md#create-landing-page)
+  * 登陸頁面設定中的新選項允許在提交登陸頁面時儲存其他內部資料。 [閱讀更多](../landing-pages/create-lp.md#create-landing-page)
+  * 新選項允許將登陸頁面用於多個服務，使登陸頁面動態化。 新增連結到電子郵件時，如果您選擇動態登陸頁面，則可以選取任何服務。 如果您選取與特定服務相關的登陸頁面，系統會自動使用該服務 (您無法選取其他服務)。 [閱讀更多](../landing-pages/create-lp.md#define-actions-on-form-submission)
+  * 登陸頁面現在支援條件內容。 [閱讀更多](../landing-pages/lp-content.md)
 
 ### 一般改善 {#improvements-24-4}
 

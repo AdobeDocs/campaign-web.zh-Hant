@@ -5,20 +5,20 @@ description: 瞭解如何在Adobe Campaign中建立和管理資料夾
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 19%
+source-wordcount: '205'
+ht-degree: 42%
 
 ---
 
 # 建立和管理資料夾
 
-在Adobe Campaign中，您可以建立新資料夾來管理導覽樹狀結構。 在&#x200B;**[!UICONTROL Explorer]**&#x200B;中，移至您要建立新資料夾的資料夾。
+在Adobe Campaign中，您可以建立新資料夾來管理導覽樹狀結構。 在&#x200B;**[!UICONTROL 探索工具]**&#x200B;中，前往您想要在其中建立新資料夾的資料夾。
 
 在&#x200B;**[!UICONTROL ...]**&#x200B;按鈕下，選取&#x200B;**[!UICONTROL 建立新資料夾]**。
 
 ![熒幕擷圖顯示……按鈕下的[建立新資料夾]選項](assets/folder_create.png){zoomable="yes"}
 
-當您建立新資料夾時，資料夾型別會預設為父資料夾的型別。\
+建立新資料夾時，資料夾類型預設為父系資料夾的類型。\
 在這個範例中，會在&#x200B;**[!UICONTROL 傳遞]**&#x200B;資料夾中建立一個資料夾。
 
 ![熒幕擷圖顯示在傳遞資料夾](assets/folder_new.png){zoomable="yes"}中建立的新資料夾
@@ -31,4 +31,4 @@ ht-degree: 19%
 
 若要建立不含特定型別的資料夾，請選取&#x200B;**[!UICONTROL 一般資料夾]**&#x200B;型別。
 
-在Adobe Campaign主控台中，建立及管理資料夾的程式會在[這裡](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/configuration/folders-and-views)說明。 您也可以設定檔案夾的許可權。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/folder-permissions)。
+在Adobe Campaign主控台中，建立及管理資料夾的程式會在[這裡](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/configuration/folders-and-views)說明。 您也可以設定檔案夾的許可權。 [了解更多資訊](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/folder-permissions)。

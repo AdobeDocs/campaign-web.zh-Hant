@@ -7,8 +7,8 @@ description: Campaign Standard使用者，瞭解如何開始使用Campaign v8。
 breadcrumb-title: Campaign 採用指南
 source-git-commit: aaf74b9c924c7c0bb3150478e812aec71c579c40
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 32%
+source-wordcount: '87'
+ht-degree: 45%
 
 ---
 

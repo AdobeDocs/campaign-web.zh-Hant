@@ -201,8 +201,8 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 
 * **排程** — 您可以設定傳送訊息的日期和確切時間。 為您的行銷訊息選擇最合適的時間，可以將開啟率提升至最高。
 
-   * 瞭解如何[排程獨立傳遞](../../v8/msg/gs-deliveries.md#gs-schedule)
-   * 瞭解如何[在工作流程中排程傳遞](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
+  * 瞭解如何[排程獨立傳遞](../../v8/msg/gs-deliveries.md#gs-schedule)
+  * 瞭解如何[在工作流程中排程傳遞](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
 
 * **新增優惠方案** — 您可以在Adobe Campaign網頁使用者介面中將優惠方案新增至您的傳送。 這些優惠可從優惠方案左側功能表取得，可讓您存取優惠方案清單。  瞭解如何[新增優惠方案至您的訊息](../../v8/msg/offers.md)
 

@@ -111,7 +111,7 @@ AI Assistant可簡化跨管道（例如電子郵件、簡訊和推播通知）�
 * 已上傳品牌資產的大小上限為50MB。 大型檔案或大量影像可能會增加處理時間。
 * 使用[內建電子郵件範本](../content/create-email-templates.md)、品牌特定範本或自訂範本，以使用AI助理建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
 * 選擇變體時，使用向上縮圖、向下縮圖或標幟圖示，報告任何有問題的輸出。
-* 您使用AI助理須遵守Adobe Experience Cloud Generative AI使用者指南。 [了解更多資訊](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
+* 您使用AI Assistant時，必須遵守Adobe Experience Cloud Generative AI使用者指南。 [了解更多資訊](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
 * 作為Adobe承諾在媒體建立中使用創作AI工具時提高透明度的其中一環，Adobe在下載或匯出內容或專案（包含Firefly產生的資產）時套用Content Credentials。 [了解更多資訊](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)。
 
 下列限制適用於Adobe Campaign Web中的AI助理：

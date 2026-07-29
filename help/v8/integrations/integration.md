@@ -1,6 +1,6 @@
 ---
 title: 合作使用Campaign和其他Adobe解決方案
-description: 瞭解如何使用Adobe Campaign Web使用者介面和Adobe Experience Cloud解決方案與應用程式
+description: 瞭解如何使用Adobe Campaign網頁使用者介面以及Adobe Experience Cloud解決方案和應用程式
 feature: Overview
 role: Admin, User
 level: Beginner

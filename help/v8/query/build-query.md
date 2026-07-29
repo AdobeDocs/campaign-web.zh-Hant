@@ -8,7 +8,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 2946
+source-wordcount: 2867
 ht-degree: 7%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->可以使用全新的查詢建模器介面。 全新的規則產生器擁有簡化的介面，讓您更輕鬆地建立查詢。 若要切換至此體驗，請按一下右上角的切換按鈕。 您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。 您可以在此新介面中套用與查詢建模程式相同的原則。
->![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
+>可以使用全新的查詢建模器介面。全新的規則產生器擁有簡化的介面，讓您更輕鬆地建立查詢。若要切換至此體驗，請按一下右上角的切換按鈕。您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。您可以在此新介面中套用與查詢建模程式相同的原則。
+>![顯示新規則產生器介面切換的影像](assets/query-modeler-toggle.png){zoomable="yes"}
 
 您可以新增兩種型別的元素：
 

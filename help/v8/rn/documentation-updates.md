@@ -10,7 +10,7 @@ product_v2:
 source-git-commit: 057c090eff18a183890d4996b580d74b5aa4732d
 workflow-type: tm+mt
 source-wordcount: 138
-ht-degree: 53%
+ht-degree: 55%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 53%
 
 此頁面列出 Adobe Campaign Web 的所有文件更新。
 
-## 2026年6月 {#june-2026}
+## 2026 年 6 月 {#june-2026}
 
 * 新增以中日韓語言（日文、韓文、簡體中文、繁體中文）為目標的直接郵件傳遞的編碼需求附註。 預設的Latin-1 (1252)編碼不能代表CJK字元，導致空白的檔案預覽。 使用者必須在擷取格式設定中選取UTF-8 (65001)。 [閱讀更多](../direct-mail/content-direct-mail.md)
 * 在CNIL指南中新增一個頁面，說明電子郵件追蹤畫素和相關的Adobe Campaign功能。 [閱讀更多](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}

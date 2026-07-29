@@ -31,7 +31,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="啟用輪廓擴充"
->abstract="選取用於輪廓擴充的欄位。 只有具備索引的欄位才能選取為調和索引鍵。 不支援的欄位會顯示為灰色。"
+>abstract="選取輪廓擴充的欄位。 只有具備索引的欄位才能選取為調和索引鍵。 不支援的欄位會顯示為灰色。"
 
 您可以從「**[!UICONTROL 傳遞]**」左側選單建立獨立的傳遞，或在工作流程的內容中建立傳遞，無論是否在行銷活動之內。
 

@@ -105,16 +105,16 @@ ht-degree: 11%
 
   ![儲存區段，顯示記錄檔的資料表選項](assets/target-mappings-storage.png)
 
-   * **[!UICONTROL 訊息結構描述]**：識別要用來儲存傳送記錄檔的結構描述。
-   * **[!UICONTROL 已排除的郵件]**：指定如何管理傳遞和排除記錄儲存體。
+  * **[!UICONTROL 訊息結構描述]**：識別要用來儲存傳送記錄檔的結構描述。
+  * **[!UICONTROL 已排除的郵件]**：指定如何管理傳遞和排除記錄儲存體。
 
-      * **[!UICONTROL 將排除專案和訊息儲存在相同資料表中]**
-      * **[!UICONTROL 僅儲存郵件]**：不儲存排除專案。
-      * **[!UICONTROL 將排除專案和訊息儲存在不同的資料表]**：選取要用來在&#x200B;**[!UICONTROL 拒絕結構描述]**&#x200B;欄位中儲存排除記錄的結構描述。
+    * **[!UICONTROL 將排除專案和訊息儲存在相同資料表中]**
+    * **[!UICONTROL 僅儲存郵件]**：不儲存排除專案。
+    * **[!UICONTROL 將排除專案和訊息儲存在不同的資料表]**：選取要用來在&#x200B;**[!UICONTROL 拒絕結構描述]**&#x200B;欄位中儲存排除記錄的結構描述。
 
-   * **[!UICONTROL 追蹤記錄]**：選擇儲存追蹤記錄和預設流量來源的位置。
-   * **[!UICONTROL 其他欄位]**：指定要儲存在傳送記錄檔中的其他欄位清單。 這些欄位可永久儲存目標個別成員（例如`recipient/@firstName`）的資訊，或儲存工作流程期間計算的其他資料（例如`[targetData/@offeCode]`）。
+  * **[!UICONTROL 追蹤記錄]**：選擇儲存追蹤記錄和預設流量來源的位置。
+  * **[!UICONTROL 其他欄位]**：指定要儲存在傳送記錄檔中的其他欄位清單。 這些欄位可永久儲存目標個別成員（例如`recipient/@firstName`）的資訊，或儲存工作流程期間計算的其他資料（例如`[targetData/@offeCode]`）。
 
-     若要這麼做，請選取&#x200B;**[!UICONTROL 新增欄位]**。 識別要儲存在&#x200B;**[!UICONTROL Source]**&#x200B;欄位中的資訊，以及要用於傳送記錄檔的屬性，以將此資訊儲存在&#x200B;**[!UICONTROL 目的地]**&#x200B;欄位中。
+    若要這麼做，請選取&#x200B;**[!UICONTROL 新增欄位]**。 識別要儲存在&#x200B;**[!UICONTROL Source]**&#x200B;欄位中的資訊，以及要用於傳送記錄檔的屬性，以將此資訊儲存在&#x200B;**[!UICONTROL 目的地]**&#x200B;欄位中。
 
-     ![其他欄位區段，顯示儲存額外資料的選項](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+    ![其他欄位區段，顯示儲存額外資料的選項](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

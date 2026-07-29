@@ -111,8 +111,8 @@ ht-degree: 28%
   ```
 
   如您所注意的，作業在檔案中指定為「sub」或「unsub」。 此系統需要一個 **Boolean** 或 **Integer** 整數值來識別要執行的操作：&quot;0&quot; 為取消訂閱與 &quot;1&quot; 為訂閱。 若要符合此需求：
-   * 「作業」資料行的&#x200B;**資料型別**&#x200B;已設定為整數。
-   * 必須執行&#x200B;**值重新對應**，以比對&quot;sub&quot;和&quot;unsub&quot;值與&quot;1&quot;和&quot;0&quot;值。
+  * 「作業」資料行的&#x200B;**資料型別**&#x200B;已設定為整數。
+  * 必須執行&#x200B;**值重新對應**，以比對&quot;sub&quot;和&quot;unsub&quot;值與&quot;1&quot;和&quot;0&quot;值。
 
   ![工作流程訂閱服務對應介面的熒幕擷圖。](../assets/workflow-subscription-service-uc2-mapping.png)
 

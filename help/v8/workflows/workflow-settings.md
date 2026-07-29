@@ -44,10 +44,10 @@ ht-degree: 27%
 * 工作流程應儲存的&#x200B;**[!UICONTROL 資料夾]**。
 * 用於工作流程所有活動的預設&#x200B;**[!UICONTROL 時區]**。依預設，工作流程的時區是為目前的Campaign運運算元定義的時區。
 可能的值包括：
-   * **伺服器時區**，以使用Adobe Campaign應用程式伺服器的時區。
-   * **操作員時區**，使用執行工作流程之Adobe Campaign操作員的時區，如使用者端主控台中操作員的設定檔所定義。
-   * **資料庫**&#x200B;的時區，以使用資料庫伺服器的時區。
-   * 特定時區。
+  * **伺服器時區**，以使用Adobe Campaign應用程式伺服器的時區。
+  * **操作員時區**，使用執行工作流程之Adobe Campaign操作員的時區，如使用者端主控台中操作員的設定檔所定義。
+  * **資料庫**&#x200B;的時區，以使用資料庫伺服器的時區。
+  * 特定時區。
 * 當工作流程失敗時，屬於&#x200B;**[!UICONTROL 監督員]**&#x200B;欄位中所選操作員群組的操作員會收到電子郵件通知。
 * 輸入工作流程的&#x200B;**[!UICONTROL 描述]**。
 
@@ -96,9 +96,9 @@ ht-degree: 27%
 
 * **[!UICONTROL 錯誤管理]**：此欄位可讓您定義工作流程任務發生錯誤時要採取的動作。 有三個可能的選項：
 
-   * **[!UICONTROL 暫停處理序]**：工作流程已自動暫停，其狀態變更為&#x200B;**[!UICONTROL 失敗]**。 問題解決後，請使用&#x200B;**[!UICONTROL 繼續]**&#x200B;按鈕繼續工作流程。
-   * **[!UICONTROL 忽略]**：觸發錯誤的工作狀態變更為&#x200B;**[!UICONTROL 失敗]**，但工作流程會保留&#x200B;**[!UICONTROL 已啟動]**&#x200B;狀態。<!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL 中止處理序]**：工作流程已自動停止，其狀態變更為&#x200B;**[!UICONTROL 失敗]**。 問題解決後，請使用&#x200B;**[!UICONTROL 開始]**&#x200B;按鈕重新啟動工作流程。
+  * **[!UICONTROL 暫停處理序]**：工作流程已自動暫停，其狀態變更為&#x200B;**[!UICONTROL 失敗]**。 問題解決後，請使用&#x200B;**[!UICONTROL 繼續]**&#x200B;按鈕繼續工作流程。
+  * **[!UICONTROL 忽略]**：觸發錯誤的工作狀態變更為&#x200B;**[!UICONTROL 失敗]**，但工作流程會保留&#x200B;**[!UICONTROL 已啟動]**&#x200B;狀態。<!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
+  * **[!UICONTROL 中止處理序]**：工作流程已自動停止，其狀態變更為&#x200B;**[!UICONTROL 失敗]**。 問題解決後，請使用&#x200B;**[!UICONTROL 開始]**&#x200B;按鈕重新啟動工作流程。
 
 * **[!UICONTROL 連續錯誤]**：在&#x200B;**[!UICONTROL 發生錯誤]**&#x200B;欄位中選取&#x200B;**[!UICONTROL 忽略]**&#x200B;值時，此欄位將可供使用。 指定程式停止前可忽略的錯誤數目。 一旦達到此數目，工作流程狀態就會變更為&#x200B;**[!UICONTROL 失敗]**。 如果此欄位的值為 0，則無論錯誤數為何，工作流程都不會停止。
 

@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
 source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '667'
 ht-degree: 13%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 13%
 
 若要建立傳遞範本，您可以複製內建範本、將現有傳遞轉換為範本或從頭開始建立傳遞範本。 [了解更多](../../msg/delivery-template.md)
 
-建立範本後，您就可以將其連結至品牌。操作步驟：
+建立範本後，您就可以將其連結至品牌。 操作步驟：
 
 1. 從左側&#x200B;**[!UICONTROL 傳送]**&#x200B;功能表瀏覽至&#x200B;**[!UICONTROL 範本]**&#x200B;索引標籤，並選取傳送範本。
 
@@ -49,7 +49,7 @@ ht-degree: 13%
 
 若要建立傳遞範本，您可以複製內建範本、將現有傳遞轉換為範本或從頭開始建立傳遞範本。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=zh-Hant)
 
-建立範本後，您就可以將其連結至品牌。操作步驟：
+建立範本後，您就可以將其連結至品牌。 操作步驟：
 
 1. 在Adobe Campaign總管中瀏覽至&#x200B;**[!UICONTROL 資源]** `>` **[!UICONTROL 範本]** `>` **[!UICONTROL 傳遞範本]**。
 
