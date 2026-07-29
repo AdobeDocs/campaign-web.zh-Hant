@@ -4,10 +4,8 @@ title: 使用傳遞工作流程活動
 description: 瞭解如何新增傳遞工作流程活動（電子郵件、推播、簡訊、WhatsApp、直接郵件）
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 995
@@ -38,13 +36,13 @@ Adobe Campaign Web可讓您跨電子郵件、SMS、WhatsApp、直接郵件和推
 
 * 插入管道活動之前，請先定義對象。 對象是您傳送的主要目標：接收訊息的設定檔。 在行銷活動工作流程內容中傳送訊息時，訊息對象不會定義在頻道活動中，而是會定義在專用活動中，例如：
 
-   * **建立對象**&#x200B;活動。 [了解更多資訊](build-audience.md)。
+  * **建立對象**&#x200B;活動。 [了解更多資訊](build-audience.md)。
 
-     ![熒幕擷圖顯示已在工作流程中新增傳遞](../../msg/assets/add-delivery-in-wf.png)
+    ![熒幕擷圖顯示已在工作流程中新增傳遞](../../msg/assets/add-delivery-in-wf.png)
 
-   * **載入檔案**&#x200B;活動，接著是&#x200B;**調解**&#x200B;活動。 [了解更多資訊](load-file.md)。
+  * **載入檔案**&#x200B;活動，接著是&#x200B;**調解**&#x200B;活動。 [了解更多資訊](load-file.md)。
 
-     ![顯示工作流程調解條件的熒幕擷圖](../assets/workflow-reconciliation-criteria.png)
+    ![顯示工作流程調解條件的熒幕擷圖](../assets/workflow-reconciliation-criteria.png)
 
 * 若要傳送循環傳遞，請使用&#x200B;**排程器**&#x200B;活動啟動您的工作流程。 針對單次傳送使用&#x200B;**排程器**&#x200B;活動，以設定該傳送的聯絡日期。 您也可以在傳送設定中設定聯絡日期。 請參閱[本節](scheduler.md)。
 

@@ -3,11 +3,8 @@ title: 管理外部帳戶
 description: 瞭解如何設定CRM外部帳戶
 exl-id: b8dd0cef-c2ab-4e3a-9fe4-d44b6c2902a6
 TQID: https://experienceleague.adobe.com/CBkfqiJfkVMtI76CIM9X95EdlhKOFpFVhSrVZQFMMd4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 863
@@ -137,7 +134,7 @@ Microsoft Dynamics CRM外部帳戶可讓您將您的Campaign執行個體連線�
 
 1. 按一下&#x200B;**[!UICONTROL Salesforce連結建立精靈……]**，在Salesforce中產生網頁連結。
 
-   然後，按一下[下一步]&#x200B;**&#x200B;**&#x200B;從Salesforce擷取&#x200B;**潛在客戶**&#x200B;和&#x200B;**連絡人**&#x200B;的網頁連結。
+   然後，按一下[下一步]****&#x200B;從Salesforce擷取&#x200B;**潛在客戶**&#x200B;和&#x200B;**連絡人**&#x200B;的網頁連結。
 
 1. 選取連結以匯出至Salesforce網頁連結清單。
 

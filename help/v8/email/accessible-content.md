@@ -8,20 +8,14 @@ level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
 TQID: https://experienceleague.adobe.com/TdKnrX1xVgdzvOq9npp-UR2GlDYA2RBmCLumqg2cjjY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1687
+source-wordcount: 1690
 ht-degree: 1%
 
 ---
@@ -38,7 +32,6 @@ ht-degree: 1%
 
 此頁面旨在讓您的內容可供所有收件者存取，以確保身心障礙人士可以閱讀、理解並互動您使用[!DNL Adobe Campaign]設計的電子郵件和登入頁面。
  
-
 ## 確保文字可讀性 {#text-readability}
 
 運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 [了解更多](content-components.md#text)
@@ -60,8 +53,8 @@ ht-degree: 1%
 
 **色彩對比**
 
-* 維持文字與背景之間的對比率至少為4.5:1。
-* 對於大型文字（≥24px或粗體18px），請確定至少3:1對比度。
+* 文字和背景之間的對比率至少維持在4.5:1。
+* 對於大型文字（≥24px或粗體18px），請確定至少3:1的對比。
 * 避免白色背景上的淺灰色或淡色文字。
 * 請勿僅仰賴顏色來傳達意義，而是要使用底線、圖示等。
 
@@ -339,40 +332,40 @@ ht-degree: 1%
 
 * 透過鍵盤聚焦
 
-   * 確認所有互動式元素（例如按鈕、核取方塊、連結）皆有`tabindex="0"`，使其以自然索引標籤順序包含。
+  * 確認所有互動式元素（例如按鈕、核取方塊、連結）皆有`tabindex="0"`，使其以自然索引標籤順序包含。
 
-   * 允許使用Tab鍵和方向鍵(↑ ↓ ← →)導覽，這應該會明顯反白標示重點元素。
+  * 允許使用Tab鍵和方向鍵(↑ ↓ ← →)導覽，這應該會明顯反白標示重點元素。
 
 * 自訂焦點樣式
 
-   * 套用清晰且可區分的樣式，以聚焦於可操作的元素：
+  * 套用清晰且可區分的樣式，以聚焦於可操作的元素：
 
-     +++範例(CSS)
+    +++範例(CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     
-     background-color: #20CEFF;   /* Optional background */ 
-     
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    
+    background-color: #20CEFF;   /* Optional background */ 
+    
+    }
+    ```
 
-     +++
+    +++
 
-   * 確保焦點指標符合WCAG 2.2焦點外觀標準，包括：
+  * 確保焦點指標符合WCAG 2.2焦點外觀標準，包括：
 
-      * 最小區域：2個CSS畫素粗輪廓。
+    * 最小區域：2個CSS畫素粗輪廓。
 
-      * 對比率：焦點狀態和非焦點狀態之間的對比≥3:1。
+    * 對比率：焦點狀態與未焦點狀態之間的對比。
 
 * 鍵盤啟動支援
 
-   * 確認核取方塊和按鈕會回應Enter和Space鍵。
+  * 確認核取方塊和按鈕會回應Enter和Space鍵。
 
-   * 僅使用鍵盤驗證互動：
+  * 僅使用鍵盤驗證互動：
 
-      * Enter或Space應該切換核取方塊。
+    * Enter或Space應該切換核取方塊。
 
-      * 輸入或空格應該會觸發按鈕。
+    * 輸入或空格應該會觸發按鈕。

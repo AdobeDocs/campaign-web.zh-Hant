@@ -4,10 +4,8 @@ title: 在您的訊息中新增優惠方案
 description: 瞭解如何新增及傳送優惠方案
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
 workflow-type: tm+mt
 source-wordcount: 805
@@ -110,7 +108,7 @@ Adobe Campaign可讓您在互動期間提出一或多個特定優惠方案，即
 
    >[!NOTE]
    >
-   >可用的主張數量取決於引擎呼叫的設定方式，而其順序則取決於優惠方案的優先順序。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+   >可用的主張數量取決於引擎呼叫的設定方式，而其順序則取決於優惠方案的優先順序。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}中進一步瞭解。
 
 1. 儲存您的變更。
 

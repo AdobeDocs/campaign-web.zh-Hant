@@ -9,17 +9,11 @@ role: User
 level: Beginner, Intermediate
 exl-id: 2835c114-0878-4c41-9071-165d71840941
 TQID: https://experienceleague.adobe.com/VVZGUSYIM0D4uUJh7cB9tcWUdlc-N3HxVf4quW6fLS8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1244
@@ -65,15 +59,15 @@ Adobe Campaign可讓您鎖定電子郵件範本中的內容，鎖定整個範本
 
 * 鎖定結構時：
 
-   * 依預設，該結構內的所有內容也會鎖定。
-   * 無法新增任何內容至結構。
-   * 依預設，您無法刪除結構。 您可以啟用「允許刪除」選項來覆寫此限制。
-   * 可將鎖定結構內的個別內容元件設定為可編輯。
+  * 依預設，該結構內的所有內容也會鎖定。
+  * 無法新增任何內容至結構。
+  * 依預設，您無法刪除結構。 您可以啟用「允許刪除」選項來覆寫此限制。
+  * 可將鎖定結構內的個別內容元件設定為可編輯。
 
 * 當結構可編輯（結構未鎖定）時：
 
-   * 個別內容元件可鎖定在該結構內。
-   * 依預設，如果元件已鎖定，或選取「僅可編輯的內容鎖定」，則無法刪除元件。 您可以啟用「允許刪除」選項來覆寫此限制。
+  * 個別內容元件可鎖定在該結構內。
+  * 依預設，如果元件已鎖定，或選取「僅可編輯的內容鎖定」，則無法刪除元件。 您可以啟用「允許刪除」選項來覆寫此限制。
 
 >[!AVAILABILITY]
 >
@@ -215,5 +209,5 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451618?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
 -->

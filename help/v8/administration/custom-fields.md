@@ -4,15 +4,10 @@ description: 瞭解如何設定自訂欄位，以及這些欄位在介面中的�
 hide: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 TQID: https://experienceleague.adobe.com/Rmo8DFWF59I9rFtnyFHiHmsIzz0PbeMzSf7tFHAF-uY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1043
@@ -30,7 +25,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
 >title="一般"
->abstract="定義自訂欄位的一般設定。 如果沒有提供標籤，則會顯示結構描述中定義的標籤。 使用「**符合條件時可見**」欄位並利用控制何時顯示該欄位的 xtk 運算式來定義條件。 您也可以在介面中將欄位標記為必填或唯讀。"
+>abstract="定義自訂欄位的一般設定。 如果沒有提供標籤，則會顯示結構描述中定義的標籤。 以 xtk 運算式在「**符合下列條件時顯示**」欄位中定義欄位顯示時機的條件。 您也可以在介面中將欄位標記為必填或唯讀。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
@@ -40,7 +35,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
 >title="版面配置"
->abstract="預設情況下，自訂欄位在介面中顯示為兩欄。 將這個選項切換為開啟，以全螢幕的寬度而非兩欄來顯示自訂欄位。"
+>abstract="預設情況下，自訂欄位在介面中顯示為兩欄。 將這個選項切換為開啟，以畫面全寬而非兩欄來顯示自訂欄位。"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_separatorproperties"
@@ -141,7 +136,7 @@ ht-degree: 28%
 
   +++
 
-* **[!UICONTROL 跨越兩欄]**：根據預設，介面中的自訂欄位會以兩欄顯示。 將這個選項切換為開啟，以全螢幕的寬度而非兩欄來顯示自訂欄位。
+* **[!UICONTROL 跨越兩欄]**：根據預設，介面中的自訂欄位會以兩欄顯示。 將這個選項切換為開啟，以畫面全寬而非兩欄來顯示自訂欄位。
 
 ## 組織子區段中的自訂欄位 {#separator}
 

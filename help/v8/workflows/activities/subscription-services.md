@@ -4,10 +4,8 @@ title: 使用訂閱服務活動
 description: 瞭解如何使用訂閱服務工作流程活動
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 TQID: https://experienceleague.adobe.com/uSHKibujGz6C3osE2eVMIjaOIOE4wuHSw1z-N0vGfSY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1135
@@ -111,8 +109,8 @@ ht-degree: 28%
   ```
 
   如您所注意的，作業在檔案中指定為「sub」或「unsub」。 此系統需要一個 **Boolean** 或 **Integer** 整數值來識別要執行的操作：&quot;0&quot; 為取消訂閱與 &quot;1&quot; 為訂閱。 若要符合此需求：
-   * 「作業」資料行的&#x200B;**資料型別**&#x200B;已設定為整數。
-   * 必須執行&#x200B;**值重新對應**，以比對&quot;sub&quot;和&quot;unsub&quot;值與&quot;1&quot;和&quot;0&quot;值。
+  * 「作業」資料行的&#x200B;**資料型別**&#x200B;已設定為整數。
+  * 必須執行&#x200B;**值重新對應**，以比對&quot;sub&quot;和&quot;unsub&quot;值與&quot;1&quot;和&quot;0&quot;值。
 
   ![工作流程訂閱服務對應介面的熒幕擷圖。](../assets/workflow-subscription-service-uc2-mapping.png)
 

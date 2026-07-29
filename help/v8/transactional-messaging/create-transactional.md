@@ -4,11 +4,8 @@ title: 建立異動訊息
 description: 瞭解如何在Campaign網頁使用者介面中建立交易式訊息
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 TQID: https://experienceleague.adobe.com/oUU-QTPEVgYame-X2qxNKw0hE8W8XNORFjVc-yC3-ww
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1334
@@ -22,7 +19,7 @@ ht-degree: 18%
 
 ## 建立異動訊息範本 {#transactional-template}
 
-在Campaign Web使用者介面中，交易式訊息設定的第一步是建立範本或直接建立訊息。 這與使用者端主控台[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/real-time/transactional)上的異動訊息組態不同。
+在Campaign Web使用者介面中，交易式訊息設定的第一步是建立範本或直接建立訊息。 這與使用者端主控台](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional)上的[異動訊息組態不同。
 
 交易式訊息範本可用於在設定檔收到的傳送內容到達最終對象之前進行預覽。 例如，管理員可以設定並設定範本，讓行銷使用者可以隨時使用。
 
@@ -94,14 +91,14 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
 >title="交易型傳訊情境"
->abstract="情境範例可讓您建立測試事件，以預覽使用客戶設定檔個人化接收的交易型訊息。"
+>abstract="情境範例可讓您建立測試事件，以預覽使用輪廓個人化接收的交易型訊息。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
 >title="交易型傳訊情境"
->abstract="情境範例可讓您建立測試事件，以預覽使用客戶設定檔個人化接收的交易型訊息。"
+>abstract="情境範例可讓您建立測試事件，以預覽使用輪廓個人化接收的交易型訊息。"
 
-情境範例可讓您建立測試事件，以預覽使用客戶設定檔個人化接收的交易型訊息。
+情境範例可讓您建立測試事件，以預覽使用輪廓個人化接收的交易型訊息。
 
 此步驟為選填。 您可以使用沒有上下文範例的範本，但缺點在於您無法預覽個人化內容。
 
@@ -175,10 +172,10 @@ ht-degree: 18%
   ![顯示異動訊息設定頁面的熒幕擷圖。](assets/transactional-configuration.png){zoomable="yes"}
 
   將訊息的設定填寫為範本：
-   * [交易型訊息屬性](#transactional-properties)
-   * [情境範例](#context-sample)
-   * [訊息內容](#transactional-content)
-和[設定事件型別](#event-type)，如下所述。
+  * [交易型訊息屬性](#transactional-properties)
+  * [情境範例](#context-sample)
+  * [訊息內容](#transactional-content)
+    和[設定事件型別](#event-type)，如下所述。
 
 * 在[驗證您的交易式訊息](validate-transactional.md)之後，按一下&#x200B;**[!UICONTROL 檢閱並發佈]**&#x200B;按鈕以建立並發佈您的訊息。 觸發器現在可以推送交易式訊息的傳送。
 

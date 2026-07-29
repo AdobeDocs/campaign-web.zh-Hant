@@ -4,11 +4,8 @@ title: 產生式內容
 description: 瞭解如何使用Journey Optimizer中的AI助理產生完整的內容體驗。
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 TQID: https://experienceleague.adobe.com/nXCZiZL0nd7Jso0wMFrBCEZCzzcx83-c0BdI-PxCOp4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1626
@@ -80,7 +77,7 @@ AI Assistant可以為您的電子郵件傳送和登陸頁面產生完整的內�
 
    ![熒幕擷圖顯示Adobe Campaign Web中的品牌設定選項](assets/full-email-3.png){zoomable="yes"}
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#refine-finalize}
 
@@ -128,7 +125,7 @@ AI Assistant也支援行動推播通知的內容產生，讓您為行動應用�
 
 若要使用AI Assistant來推送通知，請先設定推送傳遞，然後開啟內容編輯器。 以下步驟將引導您準備傳遞內容並存取AI助理工具。
 
-1. 建立及設定推播通知傳遞之後，請按一下[編輯內容]。**&#x200B;**
+1. 建立及設定推播通知傳遞之後，請按一下[編輯內容]。****
 
    如需設定推播傳遞的詳細資訊，請參閱[此頁面](../push/create-push.md)。
 
@@ -173,7 +170,7 @@ AI Assistant也支援行動推播通知的內容產生，讓您為行動應用�
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#mobile-refine-finalize}
 

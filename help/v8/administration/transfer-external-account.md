@@ -3,11 +3,8 @@ title: 管理外部帳戶
 description: 瞭解如何設定外部帳戶
 exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
 TQID: https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 743
@@ -19,7 +16,7 @@ ht-degree: 6%
 
 ## Amazon簡單儲存服務(S3) {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service (S3)聯結器可用來匯入或匯出資料至Adobe Campaign。 您可以在工作流程活動中設定它。 如需詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
+Amazon Simple Storage Service (S3)聯結器可用來匯入或匯出資料至Adobe Campaign。 您可以在工作流程活動中設定它。 如需詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
 
 ![顯示Amazon Simple Storage Service S3外部帳戶設定欄位的熒幕擷圖。](assets/external-AWS.png)
 
@@ -49,7 +46,7 @@ Amazon Simple Storage Service (S3)聯結器可用來匯入或匯出資料至Adob
 
 ## Azure Blob 儲存體 {#azure-blob-external-account}
 
-**[!UICONTROL Azure Blob儲存體]**&#x200B;外部帳戶可用來使用&#x200B;**[!UICONTROL 傳輸檔案]**&#x200B;工作流程活動，將資料匯入或匯出至Adobe Campaign。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
+**[!UICONTROL Azure Blob儲存體]**&#x200B;外部帳戶可用來使用&#x200B;**[!UICONTROL 傳輸檔案]**&#x200B;工作流程活動，將資料匯入或匯出至Adobe Campaign。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}。
 
 ![顯示Azure Blob儲存外部帳戶設定欄位的熒幕擷圖。](assets/external-azure.png)
 
@@ -95,9 +92,9 @@ SFTP外部帳戶可讓您設定並測試對Adobe Campaign外部伺服器的存�
 
   選擇要向SFTP伺服器驗證的方法。 選項包括：
 
-   * **[!UICONTROL 密碼]**：使用帳戶的密碼進行驗證。
+  * **[!UICONTROL 密碼]**：使用帳戶的密碼進行驗證。
 
-   * **[!UICONTROL 公開金鑰]**：使用SSH金鑰組（私密金鑰和公開金鑰）進行驗證。
+  * **[!UICONTROL 公開金鑰]**：使用SSH金鑰組（私密金鑰和公開金鑰）進行驗證。
 
 如果選取了&#x200B;**[!UICONTROL 公開金鑰]**&#x200B;驗證，則需要填寫下列欄位：
 
@@ -141,8 +138,8 @@ HTTP外部帳戶可讓您設定並測試對Adobe Campaign外部伺服器的存�
 
   選取連線的驗證型別。 選項包括：
 
-   * 密碼
-   * 公開金鑰
+  * 密碼
+  * 公開金鑰
 
 如果您使用&#x200B;**[!UICONTROL 公開金鑰]**&#x200B;驗證，請從&#x200B;**[!UICONTROL 公開金鑰驗證]**&#x200B;功能表，輸入下列專案的必要值：
 
@@ -180,7 +177,7 @@ FTP外部帳戶可讓您設定並測試對Adobe Campaign外部伺服器的存取
 
   選取連線的加密型別。 選項包括：
 
-   * 依據預設
-   * POP3 + STARTTLS
-   * POP3不安全
-   * POP3安全
+  * 依據預設
+  * POP3 + STARTTLS
+  * POP3不安全
+  * POP3安全

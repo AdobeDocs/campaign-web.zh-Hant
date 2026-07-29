@@ -15,7 +15,7 @@ ht-degree: 12%
 >id="acw_schema_detail_screen_configuration"
 >title="詳細資料畫面設定"
 >abstract="設定哪些自訂欄位會顯示在詳細資料畫面中，並整理到區段中。 新增集合清單，以在設定檔畫面中顯示相關資料。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html?lang=zh-Hant" text="新增集合清單"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html" text="新增集合清單"
 
 自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。
 
@@ -29,7 +29,7 @@ ht-degree: 12%
 
 1. 選取清單中的結構描述名稱以開啟它，然後按一下結構描述詳細資料檢視中的&#x200B;**[!UICONTROL 熒幕版本]**&#x200B;按鈕以存取熒幕定義。
 
-1. 按一下&#x200B;**[!UICONTROL 自訂欄位清單]**&#x200B;表格上方的省略符號圖示，然後選擇&#x200B;**[!UICONTROL 選取屬性]**&#x200B;以選取一或多個自訂欄位以顯示於介面中。
+1. 按一下&#x200B;**[!UICONTROL 自訂欄位清單]**&#x200B;表格上方的省略符號圖示，然後選擇&#x200B;**[!UICONTROL 選取屬性]**以選取一或多個自訂欄位以顯示於介面中。
    ![顯示可編輯屬性的自訂欄位畫面](assets/schemas-custom5.png)
 1. 選取您要新增的自訂欄位並進行確認。
 
@@ -66,7 +66,7 @@ ht-degree: 12%
 
   +++
 
-* **[!UICONTROL 跨越兩欄]**：根據預設，介面中的自訂欄位會以兩欄顯示。 將這個選項切換為開啟，以全螢幕的寬度而非兩欄來顯示自訂欄位。
+* **[!UICONTROL 跨越兩欄]**：根據預設，介面中的自訂欄位會以兩欄顯示。 將這個選項切換為開啟，以畫面全寬而非兩欄來顯示自訂欄位。
 
 ## 預覽自訂欄位 {#preview}
 

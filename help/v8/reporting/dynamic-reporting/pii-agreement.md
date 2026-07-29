@@ -6,7 +6,7 @@ audience: end-user
 exl-id: 9fcef466-f306-480e-b42e-d18daa8bcf06
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '541'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 | 區域 | 動態報告 | Microsoft Dynamics 365聯結器 |
 |---|---|---|
-| 美洲和APAC （亞太） | **功能可用**。 <br>除了ExternalID之外，沒有現成可用的和自訂設定檔資訊推送至美國報表中心。 | **功能可用**。 <br>除了外部ID和收件者ID之外，沒有現成可用的或自訂的設定檔欄位傳送至美國資料中心。 <br>所有Adobe Campaign事件欄位都在美國資料中心處理，但映象頁面ID除外。 |
+| 美洲和APAC （亞太） | **可用功能**。<br> 除了ExternalID，沒有現成可用的和自訂設定檔資訊推送至美國報表中心。 | **功能可用**。 <br>除了外部ID和收件者ID之外，沒有現成可用的或自訂的設定檔欄位傳送至美國資料中心。 <br>所有Adobe Campaign事件欄位都在美國資料中心處理，但映象頁面ID除外。 |
 | EMEA （歐洲、中東及非洲） | **功能可用**。 <br>除了ExternalID之外，沒有現成可用的和自訂設定檔資訊推送至EMEA報告中心。 | **功能可用。** <br>除了外部ID和收件者ID之外，沒有現成可用的或自訂的設定檔欄位傳送至EMEA資料中心。 <br>所有Adobe Campaign事件欄位都在EMEA資料中心處理，但映象頁面ID除外。 |
 
 這個選擇不是最終選擇，您可以隨時變更它，只要在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 平台]** > **[!UICONTROL 選項]**&#x200B;中選取&#x200B;**[!UICONTROL realtimeReporting_collectPII]**&#x200B;選項。

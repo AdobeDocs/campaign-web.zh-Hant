@@ -1,14 +1,15 @@
 ---
-title: 使用自訂表格
+title: 使用自訂表單
 description: 瞭解如何使用資料輸入表單在自訂結構中建立、編輯和管理記錄。
-source-git-commit: be4876090ecaac853aaa88948505c444bef27ec2
+exl-id: c997d676-bfe1-4e28-9e11-41e902a782c1
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 0%
+source-wordcount: '416'
+ht-degree: 1%
 
 ---
 
-# 使用自訂表格 {#custom-forms}
+# 使用自訂表單 {#custom-forms}
 
 自訂表單是資料輸入介面，可讓您直接從Web使用者介面管理自訂結構描述中的記錄。 每個自訂表單都會對應至特定的自訂結構，並提供清單檢視來瀏覽記錄，並提供詳細資料檢視來建立、編輯和刪除記錄。
 
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 ![自訂表格](assets/schemas-forms3.png)
 
-清單檢視會顯示該結構描述的所有記錄。 如果結構描述已設定表單定義，清單便可以編輯，而且您可以建立、編輯和刪除記錄。
+清單檢視會顯示該結構描述的所有記錄。如果結構描述已設定表單定義，清單便可以編輯，而且您可以建立、編輯和刪除記錄。
 ![自訂表格](assets/schemas-forms4.png)
 
 然後，您可以：

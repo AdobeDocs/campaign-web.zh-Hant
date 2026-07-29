@@ -8,14 +8,10 @@ role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 TQID: https://experienceleague.adobe.com/j6PlnXc9WwgLcXPJVHxBWvnbJLMzdJ6inWZP3G--Ejw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 659
@@ -28,7 +24,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_add_current_date"
 >title="新增目前日期"
->abstract="此選單提供與日期格式相關的功能，您可以利用這些功能來個人化您的內容。"
+>abstract="此選單提供與日期格式相關的函數，您可以利用這些函數來個人化您的內容。"
 
 傳遞內容的Personalization是一項關鍵功能，可讓您為個別收件者量身打造訊息，讓通訊更具相關性和吸引力。
 
@@ -63,7 +59,7 @@ Personalization標籤遵循特定語法： `<%= table.field %>`。 例如，若�
    | 選單 | 說明 |
    |------|-------------|
    | ![訂閱者應用程式功能表圖示](assets/do-not-localize/perso-subscribers-menu.png){zoomable="yes"} | **[!UICONTROL 訂閱者應用程式]**&#x200B;功能表會列出與應用程式訂閱者相關的欄位，例如使用的終端機或作業系統。 *此功能表僅適用於推播通知。* |
-   | ![收件者功能表圖示](assets/do-not-localize/perso-recipients-menu.png){zoomable="yes"} | **[!UICONTROL 收件者]**&#x200B;功能表列出在收件者表格中定義的欄位，例如收件者的名稱、年齡或地址。 從外部檔案[&#128279;](../audience/file-audience.md)上傳獨立電子郵件傳遞的連絡人時，此功能表會列出輸入檔案中可用的所有欄位。 |
+   | ![收件者功能表圖示](assets/do-not-localize/perso-recipients-menu.png){zoomable="yes"} | **[!UICONTROL 收件者]**&#x200B;功能表列出在收件者表格中定義的欄位，例如收件者的名稱、年齡或地址。 從外部檔案](../audience/file-audience.md)上傳獨立電子郵件傳遞的連絡人時，此功能表會列出輸入檔案中可用的所有欄位。[ |
    | ![訊息功能表圖示](assets/do-not-localize/perso-message-menu.png){zoomable="yes"} | **[!UICONTROL 訊息]**&#x200B;功能表會列出與傳送記錄檔相關的欄位，包括跨所有通道傳送給收件者或裝置的所有訊息，例如與指定收件者最後一次事件的日期。 |
    | ![傳遞功能表圖示](assets/do-not-localize/perso-delivery-menu.png){zoomable="yes"} | **[!UICONTROL 傳遞]**&#x200B;功能表會列出與執行傳遞所需引數相關的欄位，例如傳遞通道或標籤。 |
 

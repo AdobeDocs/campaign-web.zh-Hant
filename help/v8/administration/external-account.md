@@ -4,7 +4,7 @@ description: 瞭解如何設定外部帳戶
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -30,10 +30,10 @@ ht-degree: 2%
 * **[!UICONTROL 密碼]** — 使用者帳戶密碼。
 
 * **[!UICONTROL 加密]** — 選擇的加密型別，包括：
-   * 依預設（若連線埠110則為POP3，若連線埠995則為POP3）。
-   * 傳送STARTTLS後切換至SSL的POP3。
-   * POP3不安全（預設連線埠110）。
-   * POP3安全於SSL之上（預設連線埠995）。
+  * 依預設（若連線埠110則為POP3，若連線埠995則為POP3）。
+  * 傳送STARTTLS後切換至SSL的POP3。
+  * POP3不安全（預設連線埠110）。
+  * POP3安全於SSL之上（預設連線埠995）。
 
 * **[!UICONTROL 函式]** — 選取&#x200B;**[!UICONTROL 傳入電子郵件]**&#x200B;設定接收傳入電子郵件的帳戶，或選取&#x200B;**[!UICONTROL SOAP路由器]**&#x200B;處理SOAP要求。
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 * **[!UICONTROL Azure使用者端密碼]**
 
-  使用者端密碼識別碼可在Azure入口網站應用程式的「憑證和密碼」功能表的「使用者端密碼」欄中找到。
+  您可以在Azure入口網站應用程式的「憑證和密碼」功能表的「使用者端密碼」欄中找到使用者端密碼識別碼。
 
 * **[!UICONTROL Azure重新導向URL]**
 
@@ -105,6 +105,6 @@ ht-degree: 2%
 
 * **[!UICONTROL 方法]** — 在Web服務或同盟資料存取(FDA)之間選擇。
 
-  針對FDA，請選取您的FDA帳戶。 請注意，與外部系統的Campaign連線僅限於進階使用者，而且只能從使用者端主控台使用。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/connect/fda#_blank)
+  針對FDA，請選取您的FDA帳戶。 請注意，與外部系統的Campaign連線僅限於進階使用者，而且只能從使用者端主控台使用。 [了解更多](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL 建立封存工作流程]** — 對於在訊息中心中註冊的每個執行執行個體，無論您是否有一或多個執行個體，請為與該執行個體相關聯的每個外部帳戶建立個別的封存工作流程。
