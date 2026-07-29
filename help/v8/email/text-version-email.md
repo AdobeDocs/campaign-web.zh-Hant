@@ -4,8 +4,11 @@ title: 建立電子郵件的文字版本
 description: 了解如何建立電子郵件的文字版本
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 TQID: https://experienceleague.adobe.com/L-EicaQ7CH2Glyh-Ikx6d0skrx5vh-lDoA8D4ziH06E
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 198
@@ -39,4 +42,4 @@ ht-degree: 43%
 >
 >* 在&#x200B;**[!UICONTROL 純文字]**&#x200B;檢視中所做的變更不會反映在HTML檢視中。
 >
->* 如果您在更新純文字內容後重新啟用「與HTML同步」****&#x200B;選項，您的變更將會遺失，並以HTML版本產生的文字內容取代。
+>* 如果您在更新純文字內容後重新啟用「與HTML同步」**&#x200B;**&#x200B;選項，您的變更將會遺失，並以HTML版本產生的文字內容取代。

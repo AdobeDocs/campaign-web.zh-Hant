@@ -4,8 +4,10 @@ title: 設計豐富推送通知傳送
 description: 瞭解如何使用Adobe Campaign Web設計Android豐富推送通知傳送
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 TQID: https://experienceleague.adobe.com/QhjmtA9msOTTN5RmYg8a7pE-zY02c4H-aDk5EtStRgg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 3472
@@ -151,7 +153,7 @@ ht-degree: 3%
 
 1. 選取您新增至&#x200B;**[!UICONTROL 點按動作]**&#x200B;欄位之URL的&#x200B;**[!UICONTROL 連結型別]**：
 
-   * **[!UICONTROL 網頁UR]**L：網頁URL會將使用者導向至線上內容。 按一下後，它們會提示裝置的預設網頁瀏覽器開啟並導覽至指定的URL。
+   * **[!UICONTROL 網頁UR]**&#x200B;L：網頁URL會將使用者導向至線上內容。 按一下後，它們會提示裝置的預設網頁瀏覽器開啟並導覽至指定的URL。
 
    * **[!UICONTROL 深層連結]**：深層連結是引導使用者前往應用程式內特定區段的URL，即使應用程式已關閉。 按一下即可顯示對話方塊，讓使用者從能夠處理連結的各種應用程式中進行選擇。
 
@@ -329,7 +331,7 @@ ht-degree: 3%
 
 1. 若要進一步個人化您的推播通知，您可以選擇要新增至推播通知的&#x200B;**[!UICONTROL 影像]** URL，以及要在設定檔裝置上顯示的通知&#x200B;**[!UICONTROL 圖示]**。
 
-1. 新增處於未選取狀態的&#x200B;**[!UICONTROL 評等圖示]**&#x200B;以及處於選取狀態的&#x200B;]**個URL中的**[!UICONTROL &#x200B;評等圖示。
+1. 新增處於未選取狀態的&#x200B;**[!UICONTROL 評等圖示]**&#x200B;以及處於選取狀態的&#x200B;**個URL中的**&#x200B;評等圖示。
 
    ![](assets/rich_push_rating_3.png)
 

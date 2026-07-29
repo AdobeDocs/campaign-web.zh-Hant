@@ -3,8 +3,10 @@ audience: end-user
 title: 開始使用選件管理
 description: 瞭解如何在Adobe Campaign網頁版中管理優惠方案
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
 source-wordcount: 763
@@ -81,7 +83,7 @@ Campaign Web UI中典型的端對端流程如下：
 
 * **優惠追蹤** — 設定優惠方案主張的追蹤，以饋送主張歷程記錄。 檢視[追蹤優惠方案主張](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}。
 
-* **操作員角色** — 指派優惠方案管理員/傳遞管理員許可權。 請參閱互動模組](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}的[運運算元。
+* **操作員角色** — 指派優惠方案管理員/傳遞管理員許可權。 請參閱互動模組[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}的運運算元。
 
 * **互動最佳實務和套利規則**。 請參閱[行銷活動互動最佳實務](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}。
 

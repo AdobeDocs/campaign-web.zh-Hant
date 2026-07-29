@@ -9,9 +9,12 @@ level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
 TQID: https://experienceleague.adobe.com/FtwipSab9w2JtgU-BcdadJDoDhgyh-4-W90u2XHjKHw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1445
@@ -137,7 +140,7 @@ ht-degree: 10%
 
 1. 頁面內容隨即顯示。 選取與登入頁面表單相對應的部分，並展開&#x200B;**[!UICONTROL 核取方塊1]**&#x200B;區段。
 
-1. 在&#x200B;**[!UICONTROL 訂閱與服務]**&#x200B;欄位中，選取您為事件建立的服務。 如果啟用&#x200B;]**選項，請保留**[!UICONTROL &#x200B;訂閱狀態。
+1. 在&#x200B;**[!UICONTROL 訂閱與服務]**&#x200B;欄位中，選取您為事件建立的服務。 如果啟用&#x200B;**選項，請保留**&#x200B;訂閱狀態。
 
    ![顯示訂閱核取方塊介面的熒幕擷圖。](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
