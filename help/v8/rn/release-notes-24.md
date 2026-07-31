@@ -17,10 +17,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 2580
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -94,13 +94,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>AI 助理</strong><br/></th>
+<th><strong>產生內容</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在製作並自訂您的訊息後，請利用 Adobe Campaign Web 的 AI 助理，將訊息提升到新的水準。 這款強大的工具可讓您產生一系列引人入勝的文字、主要標題和吸引人的視覺影像，以最佳化內容的影響力。</p>
+<p>一旦您製作好並量身打造好訊息，請使用「在Adobe Campaign網頁中產生內容」將其提升到全新的境界。 這款強大的工具可讓您產生一系列引人入勝的文字、主要標題和吸引人的視覺影像，以最佳化內容的影響力。</p>
 <p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../content/generative-gs.md">詳細文件</a>以瞭解詳情。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>

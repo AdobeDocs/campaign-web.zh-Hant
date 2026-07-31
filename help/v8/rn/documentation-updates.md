@@ -7,10 +7,10 @@ hide: true
 TQID: https://experienceleague.adobe.com/vmGBr2-v9PG2veid6Tg-TV2r3h-Y2DqcZcBKkCdVu7E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 057c090eff18a183890d4996b580d74b5aa4732d
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 138
-ht-degree: 55%
+ht-degree: 33%
 
 ---
 
@@ -27,5 +27,5 @@ ht-degree: 55%
 
 **日期：2025 年 12 月 1 日**
 
-* 重新編排 AI 助理文件指南的架構，納入關於[產生完整內容](../content/generative-full-content.md)、[產生文字](../content/generative-text.md)和[產生影像](../content/generative-image.md)的整合頁面
-* 新增 [AI 助理提示最佳做法指南](../content/ai-assistant-prompting-guide.md)，協助使用者提供有效的提示
+* 重新組織「產生內容」檔案指南，其中包含用於[完整內容產生](../content/generative-full-content.md)、[文字產生](../content/generative-text.md)和[影像產生](../content/generative-image.md)的整合頁面
+* 新增[產生內容提示最佳實務指南](../content/ai-assistant-prompting-guide.md)，以協助使用者製作有效的提示

@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: 產生式內容
-description: 瞭解如何使用AI助理產生影像
+description: 瞭解如何使用AI產生影像
 exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
 TQID: https://experienceleague.adobe.com/kMFMddQ-ZYGJIZ7-0BfrUMQzJ701fQlpehO15llbJAw
 product_v2:
@@ -10,46 +10,46 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1227
-ht-degree: 3%
+source-wordcount: 1212
+ht-degree: 2%
 
 ---
 
-# 使用AI助理產生影像 {#generative-image}
+# 產生影像 {#generative-image}
 
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Campaign Web中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能使用AI在Adobe Campaign網頁中產生內容。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-在Adobe Campaign網頁中使用AI助理建立吸引人的視覺內容，以增強電子郵件、登陸頁面和推播通知中的訊息。 AI Assistant可協助您產生和最佳化影像，確保您的內容在視覺上吸引人並與您的品牌保持一致。
+在Adobe Campaign Web中使用AI來建立吸引人的視覺內容，以增強電子郵件、登陸頁面和推播通知中的訊息。 AI可協助您產生和最佳化影像，確保您的內容在視覺上吸引人並與您的品牌保持一致。
 
 ## 適用於電子郵件與登陸頁面 {#email-web-channels}
 
-AI助理可以為您的電子郵件傳送和登陸頁面產生完整的視覺體驗。 此功能可讓您在品牌上製作吸引目光的影像，並在數位接觸點與您的對象產生共鳴。
+使用AI為您的電子郵件傳送和登入頁面產生完整的視覺體驗。 此功能可讓您在品牌上製作吸引目光的影像，並在數位接觸點與您的對象產生共鳴。
 
 ### 存取及設定 {#access-configure}
 
-若要開始使用AI助理產生影像，請先設定您的傳送並開啟內容編輯器。 請依照下列步驟準備您的工作區並存取AI Assistant面板。
+若要開始使用AI產生影像，請先設定您的傳送並開啟內容編輯器。 請依照下列步驟準備您的工作區並存取「產生內容」面板。
 
 1. 建立及設定您的傳遞：
 
    * **電子郵件**：建立並設定您的電子郵件傳遞後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../email/create-email-content.md)
    * **登陸頁面**：建立並設定您的登陸頁面後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../landing-pages/create-lp.md)
 
-1. 選取您要使用AI助理變更的資產，並存取&#x200B;**[!UICONTROL AI助理]**&#x200B;功能表。
+1. 選取您要變更的資產，並存取&#x200B;**[!UICONTROL 產生內容]**&#x200B;功能表。
 
    ![熒幕擷圖顯示Adobe Campaign Web中的文字元件選取專案](assets/image-genai-1.png){zoomable="yes"}
 
-### 產生內容 {#generate-content}
+### 產生影像 {#generate-content}
 
-瞭解如何製作有效的提示並設定影像設定，以使用AI Assistant產生吸引人的視覺效果。 自訂引數（例如外觀比例、視覺強度和光線），以建立符合您品牌和促銷活動目標的影像。
+瞭解如何製作有效提示並設定影像設定，以使用AI產生極具視覺吸引力的影像。 自訂引數（例如外觀比例、視覺強度和光線），以建立符合您品牌和促銷活動目標的影像。
 
-1. 啟用AI助理的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據選取的內容個人化新內容。
+1. 啟用&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以使用AI根據選取的內容個人化新內容。
 
 1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。 [進一步瞭解](brands.md)品牌。
 
@@ -71,7 +71,7 @@ AI助理可以為您的電子郵件傳送和登陸頁面產生完整的視覺體
 
      ![顯示Adobe Campaign Web影像設定選項的熒幕擷圖](assets/image-genai-4.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI助理的內容或選取先前上傳的內容。
+1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI的內容或選取先前上傳的內容。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
@@ -105,21 +105,21 @@ AI助理可以為您的電子郵件傳送和登陸頁面產生完整的視覺體
 
 ## 適用於行動裝置頻道 {#mobile-channels}
 
-AI Assistant可讓您產生推送通知的吸引人影像，協助您建立吸引人的視覺行動通訊，吸引觀眾注意並與觀眾產生共鳴。
+使用AI產生吸引人的推播通知影像，協助您建立吸引人的視覺行動通訊，吸引觀眾注意並與觀眾產生共鳴。
 
 ### 存取及設定 {#mobile-access-configure}
 
-若要開始使用AI助理產生推播通知的影像，請先設定您的傳送並開啟AI助理。
+若要開始使用AI產生推播通知的影像，請先設定您的傳送並開啟「產生內容」。
 
 1. 建立及設定推播通知傳遞之後，請按一下[編輯內容]。**&#x200B;** [了解更多](../push/create-push.md)
 
-1. 存取&#x200B;**[!UICONTROL 顯示AI助理]**&#x200B;功能表。
+1. 存取&#x200B;**[!UICONTROL 顯示產生內容]**&#x200B;功能表。
 
-   ![顯示[顯示AI小幫手]功能表的熒幕擷圖](assets/push-img-1.png){zoomable="yes"}
+   ![顯示[產生內容]功能表的熒幕擷圖](assets/push-img-1.png){zoomable="yes"}
 
-### 產生內容 {#mobile-generate-content}
+### 產生影像 {#mobile-generate-content}
 
-存取AI Assistant後，您可以調整產生設定以建立與您的品牌一致的影像，並支援您的推播通知目標。 設定提示和影像引數，以產生針對行動顯示器最佳化的視覺效果。
+存取「產生內容」後，您可以調整產生設定，以建立與您的品牌相符的影像，並支援您的推播通知目標。 設定提示和影像引數，以產生針對行動顯示器最佳化的視覺效果。
 
 1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。 [進一步瞭解](brands.md)品牌。
 
@@ -127,7 +127,7 @@ AI Assistant可讓您產生推送通知的吸引人影像，協助您建立吸�
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。 [進一步瞭解提示最佳實務](ai-assistant-prompting-guide.md)
 
-   ![具有提示欄位和選項的AI小幫手](assets/push-img-2.png){zoomable="yes"}
+   ![產生包含提示欄位和選項的內容](assets/push-img-2.png){zoomable="yes"}
 
 1. 選取&#x200B;**[!UICONTROL 影像]**&#x200B;以僅產生資產。
 
@@ -141,7 +141,7 @@ AI Assistant可讓您產生推送通知的吸引人影像，協助您建立吸�
 
      ![顯示影像設定選項的熒幕擷圖](assets/push-img-3.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI助理的內容或選取先前上傳的內容。
+1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI的內容或選取先前上傳的內容。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 

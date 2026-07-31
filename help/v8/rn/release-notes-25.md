@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 3032
-ht-degree: 100%
+source-wordcount: 3030
+ht-degree: 98%
 
 ---
 
@@ -853,15 +853,15 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <table>
 <thead>
 <tr>
-<th><strong>使用 AI 助理產生登陸頁面</strong><br/></th>
+<th><strong>使用產生內容產生登陸頁面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI 助理現在可用於您的登陸頁面傳遞，讓您能夠產生文字、影像或完整的網頁版面。</p>
+<p>「產生內容」現在可用於您的登入頁面傳送，讓您產生文字、影像或完整頁面配置。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>如需有關 AI 助理的詳細資訊，請參閱<a href="../content/generative-full-content.md">詳細說明文件</a>。</p>
+<p>如需「產生內容」的詳細資訊，請參閱<a href="../content/generative-full-content.md">詳細檔案</a>。</p>
 </td>
 </tr>
 </tbody>

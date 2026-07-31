@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: 產生式內容
-description: 瞭解如何使用Journey Optimizer中的AI助理產生完整的內容體驗。
+description: 瞭解如何在Journey Optimizer中使用AI產生完整的內容體驗。
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 TQID: https://experienceleague.adobe.com/nXCZiZL0nd7Jso0wMFrBCEZCzzcx83-c0BdI-PxCOp4
 product_v2:
@@ -9,44 +9,44 @@ product_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1626
+source-wordcount: 1620
 ht-degree: 2%
 
 ---
 
-# 使用AI助理產生完整內容 {#generative-full-content}
+# 產生完整內容 {#generative-full-content}
 
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Campaign Web中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能使用AI在Adobe Campaign網頁中產生內容。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-在Adobe Campaign網頁中使用AI助理，為您的電子郵件、登陸頁面和推播通知通道產生完整的內容體驗。 AI Assistant可建立與受眾產生共鳴的完整內容，協助您最佳化傳遞的影響。
+在Adobe Campaign Web中使用AI，跨電子郵件、登陸頁面和推播通知通道產生完整的內容體驗。 AI可建立與受眾產生共鳴的完整內容，協助您最佳化傳送影響。
 
 ## 適用於電子郵件與登陸頁面 {#email-web-channels}
 
-AI Assistant可以為您的電子郵件傳送和登陸頁面產生完整的內容體驗，產生文字和影像。 這項強大的功能可協助您建立吸引人的品牌內內容，連結所有數位接觸點的對象。
+使用AI為您的電子郵件傳送和登入頁面產生完整的內容體驗，產生文字和影像。 這項強大的功能可協助您建立吸引人的品牌內內容，連結所有數位接觸點的對象。
 
 ### 存取及設定 {#access-configure}
 
-開始使用AI Assistant建立內容之前，您需要設定傳遞內容並開啟內容編輯器。 使用下列步驟準備您的工作區並存取AI助理面板。
+開始使用AI建立內容之前，您需要設定您的傳送並開啟內容編輯器。 使用下列步驟準備您的工作區並存取「產生內容」面板。
 
 1. 建立及設定您的傳遞：
 
    * **電子郵件**：建立並設定您的電子郵件傳遞後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../email/create-email-content.md)
    * **登陸頁面**：建立並設定您的登陸頁面後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../landing-pages/create-lp.md)
 
-1. 視需要個人化您的版面配置，並存取&#x200B;**[!UICONTROL AI助理]**&#x200B;功能表。
+1. 視需要個人化您的版面配置，並存取&#x200B;**[!UICONTROL 產生內容]**&#x200B;功能表。
 
-   ![AI助理面板顯示品牌選擇和提示欄位](assets/full-email-1.png){zoomable="yes"}
+   ![產生內容面板，顯示品牌選擇和提示欄位](assets/full-email-1.png){zoomable="yes"}
 
-### 產生內容 {#generate-content}
+### 產生完整內容 {#generate-content}
 
-開啟AI助理後，您現在可以設定產生設定，以建立符合您的品牌和行銷活動目標的內容。 自訂文字和影像引數、新增品牌資產，並提供提示以引導AI為您的受眾產生相關變數。
+開啟「產生內容」後，您現在可以設定產生設定，以建立符合您的品牌和促銷活動目標的內容。 自訂文字和影像引數、新增品牌資產，並提供提示以引導AI為您的受眾產生相關變數。
 
 1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。 [進一步瞭解](brands.md)品牌。
 
@@ -62,7 +62,7 @@ AI Assistant可以為您的電子郵件傳送和登陸頁面產生完整的內�
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
    * **[!UICONTROL 語言]**：選擇您產生內容的語言。
-   * **[!UICONTROL 語調]**：確定您的電子郵件語調可與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力的聲音，AI Assistant都會據以調整訊息。
+   * **[!UICONTROL 語調]**：確定您的電子郵件語調可與您的對象產生共鳴。 無論您是要提供資訊、好玩或具有說服力，AI都會據以調整訊息。
 
      ![熒幕擷圖顯示Adobe Campaign Web中的文字設定選項](assets/full-email-4.png){zoomable="yes"}
 
@@ -74,7 +74,7 @@ AI Assistant可以為您的電子郵件傳送和登陸頁面產生完整的內�
    * **[!UICONTROL 光線]**：修改影像中的光線，以調整其氣氛並反白顯示特定元素。
    * **[!UICONTROL 構成]**：在影像框架中排列元素。
 
-1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI助理的內容或選取先前上傳的內容。
+1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI的內容或選取先前上傳的內容。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
@@ -100,7 +100,7 @@ AI Assistant可以為您的電子郵件傳送和登陸頁面產生完整的內�
 
    * **[!UICONTROL 重新寫詞]**：重新寫入郵件，同時保留其意義。 此選項可協助您產生替代用語、改善流量或調整詞句，而不變更核心訊息。
 
-   * **[!UICONTROL 使用較簡單的語言]**：利用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰易懂的語言。
+   * **[!UICONTROL 使用較簡單的語言]**：使用AI編輯/調整您的語言，確保更廣大的受眾擁有清晰易懂的溝通方式。
 
    * **[!UICONTROL 翻譯]**：簡化您的語言，確保更廣大的受眾能清楚無誤地瞭解。
 
@@ -122,11 +122,11 @@ AI Assistant可以為您的電子郵件傳送和登陸頁面產生完整的內�
 
 ## 適用於行動裝置頻道 {#mobile-channels}
 
-AI Assistant也支援行動推播通知的內容產生，讓您為行動應用程式建立吸引人的標題、訊息和影像。 這可協助您在包括行動裝置在內的所有客戶接觸點維持一致的高品質通訊。
+「產生內容」也支援行動推播通知的內容產生，讓您為行動應用程式建立吸引人的標題、訊息和影像。 這可協助您在包括行動裝置在內的所有客戶接觸點維持一致的高品質通訊。
 
 ### 存取及設定 {#mobile-access-configure}
 
-若要使用AI Assistant來推送通知，請先設定推送傳遞，然後開啟內容編輯器。 以下步驟將引導您準備傳遞內容並存取AI助理工具。
+若要使用AI產生推播通知的內容，請先設定推播傳送並開啟內容編輯器。 下列步驟將引導您準備傳送內容並存取產生內容工具。
 
 1. 建立及設定推播通知傳遞之後，請按一下[編輯內容]。**&#x200B;**
 
@@ -134,13 +134,13 @@ AI Assistant也支援行動推播通知的內容產生，讓您為行動應用�
 
 1. 視需要個人化您的推播通知。 [了解更多](../push/content-push.md)
 
-1. 存取&#x200B;**[!UICONTROL 顯示AI助理]**&#x200B;功能表。
+1. 存取&#x200B;**[!UICONTROL 顯示產生內容]**&#x200B;功能表。
 
-   ![顯示[顯示AI小幫手]功能表的熒幕擷圖](assets/push-genai-1.png){zoomable="yes"}
+   ![顯示[產生內容]功能表的熒幕擷圖](assets/push-genai-1.png){zoomable="yes"}
 
-### 產生內容 {#mobile-generate-content}
+### 產生完整內容 {#mobile-generate-content}
 
-存取用於推播通知的AI Assistant後，您可以設定產生設定，以建立吸引人的行動內容。 定義您的文字和影像偏好設定、選取品牌資產，並使用提示產生推播通知變化，以吸引您的行動使用者。
+存取「產生推播通知內容」後，您可以進行產生設定，以建立吸引人的行動內容。 定義您的文字和影像偏好設定、選取品牌資產，並使用提示產生推播通知變化，以吸引您的行動使用者。
 
 1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。 [進一步瞭解](brands.md)品牌。
 
@@ -148,7 +148,7 @@ AI Assistant也支援行動推播通知的內容產生，讓您為行動應用�
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示程式庫]**，它提供各種提示概念，以改進您的傳遞。 [進一步瞭解提示最佳實務](ai-assistant-prompting-guide.md)
 
-   ![具有提示欄位和選項的AI小幫手](assets/push-genai-2.png){zoomable="yes"}
+   ![產生包含提示欄位和選項的內容](assets/push-genai-2.png){zoomable="yes"}
 
 1. 選擇要產生的欄位： **[!UICONTROL 標題]**、**[!UICONTROL 子標題]**、**[!UICONTROL 訊息]**&#x200B;和/或&#x200B;**[!UICONTROL 影像]**。
 
@@ -156,7 +156,7 @@ AI Assistant也支援行動推播通知的內容產生，讓您為行動應用�
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
    * **[!UICONTROL 語言]**：選擇您產生內容的語言。
-   * **[!UICONTROL 音調]**：您的推播通知音調應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
+   * **[!UICONTROL 音調]**：您的推播通知音調應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI都能據以調整訊息。
 
      推播通知的![文字設定面板](assets/push-genai-3.png){zoomable="yes"}
 
@@ -169,7 +169,7 @@ AI Assistant也支援行動推播通知的內容產生，讓您為行動應用�
 
      ![推播通知的影像設定](assets/push-genai-4.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI助理的內容或選取先前上傳的內容。
+1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI的內容或選取先前上傳的內容。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
@@ -210,6 +210,6 @@ AI Assistant也支援行動推播通知的內容產生，讓您為行動應用�
 
 ## 操作說明影片 {#video}
 
-瞭解如何使用AI助理產生完整的電子郵件內容、文字和影像。
+瞭解如何使用AI產生完整的電子郵件內容、文字和影像。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428984)

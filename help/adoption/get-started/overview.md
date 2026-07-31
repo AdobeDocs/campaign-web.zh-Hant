@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -114,19 +114,19 @@ ht-degree: 29%
 
   Adobe Experience Manager as a Cloud Service提供雲端原生的敏捷性，可讓您加速實現價值的時間，並適應不斷變化的業務需求。 此整合不僅可增強您的內容管理功能，也可讓您透過所有接觸點，將更個人化且吸引人的體驗提供給您的客戶。
 
-* **AI 助理**
+* **產生內容**
 
-  Campaign AI Assistant可以讓您在電子郵件、簡訊和推播等管道直觀地建立和執行行銷活動，既簡單又輕鬆，同時還能節省時間、提高效率並帶來更好的結果。
+  Campaign產生內容可讓您在電子郵件、簡訊和推播等管道建立和執行行銷活動，且直覺化、簡單且免費，同時節省時間、改善效率並帶來更好的結果。
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  AI Assistant徹底改變您跨管道建立專業且品牌一致內容的方式。 透過進階GenAI模型並深入瞭解您的品牌方針，AI Assistant會根據行銷目標自動產生個人化、吸引人且有效的內容，其內容針對品牌概述的樣式、版面、色調等內容進行最佳化。
+  產生內容顛覆您跨管道建立專業且品牌一致的內容方式。 透過進階GenAI模型並深入瞭解您的品牌方針，「產生內容」會根據行銷目標自動產生個人化、吸引人且有效的內容，其內容已針對品牌概述的樣式、版面、色調等最佳化。
 
-  AI Assistant可讓您以直覺的方式建立和執行行銷活動，既簡單又輕鬆，同時節省時間、提高效率並帶來更好的結果。
+  產生內容可讓行銷活動的建立和執行直覺化、簡單且免費，同時節省時間、提高效率並帶來更好的結果。
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  它提供電子郵件範本的變體，並產生和重新產生影像。 在[本節](../../v8/content/generative-full-content.md)中進一步瞭解AI助理。 Adobe Campaign v8有AI助理可用於[電子郵件](../../v8/content/generative-full-content.md)、[簡訊](../../v8/content/generative-text.md)和[推播](../../v8/content/generative-full-content.md)。
+  它提供電子郵件範本的變體，並產生和重新產生影像。 在[本節](../../v8/content/generative-full-content.md)中進一步瞭解產生內容。 Adobe Campaign v8已產生[電子郵件](../../v8/content/generative-full-content.md)、[簡訊](../../v8/content/generative-text.md)和[推播](../../v8/content/generative-full-content.md)可用的內容。
 
 * **升級的SMS基礎結構 — SMS v2.0**
 

@@ -10,7 +10,7 @@ feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 542
 ht-degree: 2%
@@ -75,7 +75,7 @@ ht-degree: 2%
 
    ![](assets/brands-15.png)
 
-1. 設定之後，按一下&#x200B;**[!UICONTROL 儲存]**，然後按一下&#x200B;**[!UICONTROL 發佈]**，讓您的品牌指引可在AI助理中取得。
+1. 設定之後，按一下「儲存」**&#x200B;**，然後按一下「發佈」**&#x200B;**，讓您的品牌指引可在「產生內容」中使用。
 
 1. 若要修改您發佈的品牌，請按一下[編輯品牌]。**&#x200B;**
 
@@ -97,7 +97,7 @@ ht-degree: 2%
 
    品牌儀表板中的![進階功能表選項](assets/brands-6.png)
 
-您現在可以從AI助理功能表的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉式清單存取品牌指南。 這可讓AI助理產生符合您規格的內容和資產。 [進一步瞭解AI小幫手](../content/generative-gs.md)
+您現在可以從[產生內容]功能表的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉式清單存取品牌指南。 這可讓AI產生符合您規格的內容和資產。 [深入瞭解產生內容](../content/generative-gs.md)
 
 您也可以使用品牌指引來評估內容品質和品牌一致性。 [進一步瞭解內容品質驗證](brands-score.md#validate-quality)
 

@@ -7,10 +7,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 865
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 +++ 新的 Web 使用者介面有哪些新特點和新功能？
 
-Adobe Campaign v8 的新使用者介面可提供與 Adobe Experience Platform 的一致性，目的在提高行銷效率。 全新工作流程畫布為客群構成、工作流程管理和內容設計提供易用又先進的工作空間，以及與 Adobe Experience Platform 原生應用程式 (例如 Journey Optimizer 和 Real-Time CDP) 整合的使用案例。 透過 AI 助理 (所見即所得訊息設計工具嵌入的原生功能)，激發創造力、提高生產力，並大規模個人化跨管道行銷活動。
+Adobe Campaign v8 的新使用者介面可提供與 Adobe Experience Platform 的一致性，目的在提高行銷效率。 全新工作流程畫布為客群構成、工作流程管理和內容設計提供易用又先進的工作空間，以及與 Adobe Experience Platform 原生應用程式 (例如 Journey Optimizer 和 Real-Time CDP) 整合的使用案例。 透過WYSIWYG訊息設計工具原生內嵌的「產生內容」，激發創意和提高生產力，並大規模個人化跨管道行銷活動。
 
 行銷人員可以使用生成式 AI 取得完整的 HTML 電子郵件構思、文字和影像生成調整，以及變化版本的建議。 您可以在[此頁面](../rn/whats-new.md)了解新特點和功能。 若要了解更多有關新介面並查看其實際運作，請瀏覽[此頁面](../get-started/user-interface.md)。 此外，也能造訪[教學課程](https://experienceleague.adobe.com/zh-hant/docs/campaign-web-learn/tutorials/overview){target="_blank"}，透過一系列作法影片了解更多關於新介面的資訊。
 
