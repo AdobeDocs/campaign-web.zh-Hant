@@ -4,15 +4,12 @@ title: 品牌一致性
 description: 瞭解如何使用品牌分數建立、驗證和管理品牌上內容。
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
 TQID: https://experienceleague.adobe.com/j4YLHVWdNYp0UDaf0CNTKqI-qpO4XjDuOJF9NIAEJK0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 511
+source-wordcount: 510
 ht-degree: 4%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能使用[產生內容]。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 內容檢閱功能提供全面的評估工具，用於評估行銷活動與品牌指引的符合程度，並維護所有通訊的內容品質標準：
 

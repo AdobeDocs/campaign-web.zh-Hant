@@ -4,23 +4,14 @@ title: Campaign Web 使用者介面有哪些新增功能？
 description: 探索 Campaign Web 使用者介面隨附的新增功能
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 TQID: https://experienceleague.adobe.com/pR1iKb30qV4nynpuQ8daJoivMS7HX5DKHzIVFLVDPAY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1327
-ht-degree: 100%
+source-wordcount: 1326
+ht-degree: 96%
 
 ---
 
@@ -85,13 +76,13 @@ Adobe Campaign Web 具有強大的查詢建模工具，可簡化篩選資料庫�
 * 使用內建的報告監控、傳送和測量結果 - [了解更多](../reporting/delivery-reports.md)
 
 
-**使用 AI 助理產生內容**
+產生內容的&#x200B;**內容**
 
 藉助我們由 Microsoft Azure OpenAI 和 Adobe Firefly 支援的創新內容設計工具，免除手動建立內容的麻煩，迎接簡化行銷活動的新時代。
 
-透過我們進階的「所見即所得」拖放編輯器來重新定義內容傳遞，此編輯器是專為實現簡單和高效所設計。 這款全方位工具內含順暢的 AEM 整合、動態內容功能及革新的 AI 助理，讓您直覺、高效且高度個人化地建立傳遞。
+透過我們進階的「所見即所得」拖放編輯器來重新定義內容傳遞，此編輯器是專為實現簡單和高效所設計。 此多合一工具採用AEM緊密整合、動態內容功能及改變遊戲規則的「產生內容」，能以直覺式、有效率且高度個人化的方式建立傳遞。
 
-利用 AI 助理進階演算法的強大功能，製作引人入勝的自訂內容，進而推動成果。 透過 AI 驅動的智慧內容產生，提高開啟率、點進率和轉換率。 若要了解更多資訊，請參閱[此區段](../content/generative-gs.md)。
+利用AI進階演演算法的強大功能，建立吸引人、量身打造的內容來推動結果。 透過 AI 驅動的智慧內容產生，提高開啟率、點進率和轉換率。 若要了解更多資訊，請參閱[此區段](../content/generative-gs.md)。
 
 **全新及重新設計的行銷活動工作流程活動**
 

@@ -1,52 +1,49 @@
 ---
 audience: end-user
 title: 產生式內容
-description: 瞭解如何使用AI助理產生文字內容體驗
+description: 瞭解如何使用AI產生文字內容體驗
 exl-id: da60d57e-d17f-40eb-9c24-0bfea940d236
 TQID: https://experienceleague.adobe.com/yV28iGW0nS-R6ZgQnfOrpfZlCzQu-1Ng1TH6aWD8QOg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1462
+source-wordcount: 1450
 ht-degree: 2%
 
 ---
 
-# 使用AI助理產生文字 {#generative-text}
+# 產生文字 {#generative-text}
 
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄和限制](generative-gs.md#generative-guardrails)。
 ></br>
 >
->您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Campaign Web中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能使用AI在Adobe Campaign網頁中產生內容。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-使用Adobe Campaign網路中的AI助理產生吸引人的文字，與您的對象產生共鳴。 無論您是要增強電子郵件復本、製作有說服力的登陸頁面內容、撰寫推播通知訊息，還是撰寫SMS文字，AI Assistant都能協助您提供清晰、具影響力的通訊。
+在Adobe Campaign網頁中使用人工智慧來產生吸引人的文字，以引起觀眾的共鳴。 無論您是要增強電子郵件復本、製作說服力的登陸頁面內容、撰寫推播通知訊息，還是撰寫SMS文字，AI都能協助您提供清晰、具影響力的通訊。
 
 ## 適用於電子郵件與登陸頁面 {#email-web-channels}
 
-AI助理可以為您的電子郵件傳遞和登陸頁面產生高品質的文字內容。 此功能可讓您建立引人入勝的品牌內傳訊功能，透過數位接觸點與您的對象連結。
+使用AI為您的電子郵件傳送和登入頁面產生高品質的文字內容。 此功能可讓您建立引人入勝的品牌內傳訊功能，透過數位接觸點與您的對象連結。
 
 ### 存取及設定 {#access-configure}
 
-開始使用AI助理產生文字內容之前，您需要設定您的傳送並存取內容編輯器。 按照以下步驟準備您的工作區並開啟AI助理面板。
+開始使用AI產生文字內容之前，您需要設定傳遞並存取內容編輯器。 請依照下列步驟準備您的工作區，並開啟「產生內容」面板。
 
 1. 建立及設定您的傳遞：
 
    * **電子郵件**：建立並設定您的電子郵件傳遞後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../email/create-email-content.md)
    * **登陸頁面**：建立並設定您的登陸頁面後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../landing-pages/create-lp.md)
 
-1. 選取&#x200B;**[!UICONTROL 文字元件]**&#x200B;以鎖定特定內容，並存取&#x200B;**[!UICONTROL AI助理]**&#x200B;功能表。
+1. 選取&#x200B;**[!UICONTROL 文字元件]**&#x200B;以鎖定特定內容，並存取&#x200B;**[!UICONTROL 產生內容]**&#x200B;功能表。
 
    ![熒幕擷圖顯示Adobe Campaign Web中的文字元件選取專案](assets/text-genai-1.png){zoomable="yes"}
 
-### 產生內容 {#generate-content}
+### 產生文字 {#generate-content}
 
-瞭解如何使用AI Assistant製作清晰的提示、微調設定並產生量身打造的文字，以確保您的訊息符合您的品牌和溝通目標。
+瞭解如何使用AI製作清晰的提示、微調設定並產生量身打造的文字，以確保您的訊息符合您的品牌和溝通目標。
 
 1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。 [進一步瞭解](brands.md)品牌。
 
@@ -60,16 +57,16 @@ AI助理可以為您的電子郵件傳遞和登陸頁面產生高品質的文字
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
    * **[!UICONTROL 語言]**：選擇您產生內容的語言。
-   * **[!UICONTROL 語調]**：確定您的電子郵件語調可與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力的聲音，AI Assistant都會據以調整訊息。
+   * **[!UICONTROL 語調]**：確定您的電子郵件語調可與您的對象產生共鳴。 無論您是要提供資訊、好玩或具有說服力，AI都會據以調整訊息。
    * **文字長度**：使用滑桿來選取所要的文字長度。
 
      ![熒幕擷圖顯示Adobe Campaign Web中的文字設定選項](assets/text-genai-4.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI助理的內容或選取先前上傳的內容。
+1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI的內容或選取先前上傳的內容。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#refine-finalize}
 
@@ -110,11 +107,11 @@ AI助理可以為您的電子郵件傳遞和登陸頁面產生高品質的文字
 
 ## 適用於行動裝置頻道 {#mobile-channels}
 
-AI Assistant可以為您的推播通知和SMS訊息產生引人入勝的文字內容，幫助您建立吸引人的行動通訊，在所有行動接觸點與您的受眾連線。
+使用AI為您的推播通知和SMS訊息產生引人入勝的文字內容，協助您建立吸引人的行動通訊，在所有行動接觸點與您的對象連線。
 
 ### 存取及設定 {#mobile-access-configure}
 
-開始使用AI助理為行動裝置頻道產生文字之前，您必須設定您的傳送並存取AI助理。
+在使用AI為行動裝置頻道產生文字之前，您必須設定您的傳送並存取產生內容。
 
 1. 建立及設定您的行動傳送：
    * **推播通知**：建立並設定您的推播通知傳遞後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../push/create-push.md)
@@ -124,13 +121,13 @@ AI Assistant可以為您的推播通知和SMS訊息產生引人入勝的文字�
    * **推播通知**： [深入瞭解](../push/content-push.md)
    * **簡訊**： [深入瞭解](../sms/content-sms.md)
 
-1. 存取&#x200B;**[!UICONTROL 顯示AI助理]**&#x200B;功能表。
+1. 存取&#x200B;**[!UICONTROL 顯示產生內容]**&#x200B;功能表。
 
-   ![顯示[顯示AI小幫手]功能表的熒幕擷圖](assets/sms-genai-1.png){zoomable="yes"}
+   ![顯示[產生內容]功能表的熒幕擷圖](assets/sms-genai-1.png){zoomable="yes"}
 
-### 產生內容 {#mobile-generate-content}
+### 產生文字 {#mobile-generate-content}
 
-存取AI Assistant後，您可以進行產生設定，以建立符合您品牌和傳送目標的行動內容。 自訂文字引數、新增品牌資產，並提供提示以引導AI產生相關變數。
+存取「產生內容」後，您可以進行產生設定，以建立符合您品牌和傳送目標的行動內容。 自訂文字引數、新增品牌資產，並提供提示以引導AI產生相關變數。
 
 1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。 [進一步瞭解](brands.md)品牌。
 
@@ -138,7 +135,7 @@ AI Assistant可以為您的推播通知和SMS訊息產生引人入勝的文字�
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示程式庫]**，它提供各種提示概念，以改進您的傳遞。 [進一步瞭解提示最佳實務](ai-assistant-prompting-guide.md)
 
-   ![具有提示欄位和選項的AI小幫手](assets/sms-genai-2.png){zoomable="yes"}
+   ![產生包含提示欄位和選項的內容](assets/sms-genai-2.png){zoomable="yes"}
 
 1. **針對推播通知**，選擇您要產生的文字欄位： **[!UICONTROL Title]**、**[!UICONTROL Subtitle]**&#x200B;和/或&#x200B;**[!UICONTROL 訊息]**。
 
@@ -146,16 +143,16 @@ AI Assistant可以為您的推播通知和SMS訊息產生引人入勝的文字�
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
    * **[!UICONTROL 語言]**：選擇您產生內容的語言。
-   * **[!UICONTROL 音調]**：音調應該會與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
+   * **[!UICONTROL 音調]**：音調應該會與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI都能據以調整訊息。
    * **[!UICONTROL 長度]**：使用範圍滑桿選取內容的長度。
 
      ![文字設定面板](assets/sms-genai-3.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI助理的內容或選取先前上傳的內容。
+1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI的內容或選取先前上傳的內容。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#mobile-refine-finalize}
 
@@ -177,7 +174,7 @@ AI Assistant可以為您的推播通知和SMS訊息產生引人入勝的文字�
 
    * **[!UICONTROL 重新寫詞]**：重新寫入郵件，同時保留其意義。 此選項可協助您產生替代用語、改善流量或調整詞句，而不變更核心訊息。
 
-   * **[!UICONTROL 使用較簡單的語言]**：利用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰易懂的語言。
+   * **[!UICONTROL 使用較簡單的語言]**：使用AI編輯/調整您的語言，確保更廣大的受眾擁有清晰易懂的溝通方式。
 
    * **[!UICONTROL 翻譯]**：簡化您的語言，確保更廣大的受眾能清楚無誤地瞭解。
 

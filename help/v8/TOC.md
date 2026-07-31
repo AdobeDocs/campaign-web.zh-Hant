@@ -6,10 +6,10 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 nudge: true
-source-git-commit: 68812d0fd77a150e21c40bbae2bb930ddf84a8a0
+source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -134,13 +134,13 @@ ht-degree: 96%
       + [新增自訂 CSS](email/custom-css.md)
       + [管理深色模式內容](email/dark-mode.md)
     + [建立可存取內容](email/accessible-content.md)
-  + AI 助理 {#ai-assistant}
-    + [使用 AI 助理](content/generative-gs.md)
+  + 產生內容 {#ai-assistant}
+    + [使用產生內容](content/generative-gs.md)
     + [AI 提示最佳做法](content/ai-assistant-prompting-guide.md)
     + [運用 AI 產生完整內容](content/generative-full-content.md)
     + [運用 AI 產生文字](content/generative-text.md)
     + [運用 AI 產生影像](content/generative-image.md)
-    + [AI 助理使用案例](content/generative-uc.md)
+    + [產生內容使用案例](content/generative-uc.md)
     + 品牌 {#ai-assistant}
       + [建立和管理您的品牌](content/brands.md)
       + [個人化您的品牌](content/brands-personalize.md)
