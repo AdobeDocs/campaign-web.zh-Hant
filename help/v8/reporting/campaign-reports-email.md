@@ -4,9 +4,13 @@ title: 電子郵件頻道的行銷活動報告
 description: 進一步瞭解電子郵件頻道的行銷活動報告
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 TQID: https://experienceleague.adobe.com/5UyJT1-bkt0XtqVkTQl7VobPRsxG36tJYe35KSk8n5c
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1707
@@ -145,7 +149,7 @@ ht-degree: 23%
 >title="依類型的錯誤劃分"
 >abstract="**依類型的錯誤劃分**&#x200B;資料表和圖表包含發生的每個錯誤類型的可用資料：使用者未知、郵箱已滿、網域無效等。"
 
-每個型別&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分包含每個網域型別可能遇到的錯誤的可用資料。 量度詳情如下。
+每個型別&#x200B;**資料表和圖表的**&#x200B;錯誤劃分包含每個網域型別可能遇到的錯誤的可用資料。 量度詳情如下。
 
 此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -176,7 +180,7 @@ ht-degree: 23%
 >title="依網域的錯誤劃分"
 >abstract="**依網域的錯誤劃分**&#x200B;資料表和圖表顯示根據每個網域發生的每個錯誤類型的可用資料。"
 
-每個網域&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分包含每個網域可能遇到的錯誤的可用資料。 量度通常與上面詳述的每種型別&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分有關。
+每個網域&#x200B;**資料表和圖表的**&#x200B;[!UICONTROL &#x200B;錯誤劃分包含每個網域可能遇到的錯誤的可用資料。 量度通常與上面詳述的每種型別&#x200B;]&#x200B;**資料表和圖表的**&#x200B;錯誤劃分有關。
 
 ## 追蹤指標 {#tracking-indicators-email}
 

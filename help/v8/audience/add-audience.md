@@ -4,8 +4,10 @@ title: 選取現有客群
 description: 了解如何選取客群
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 TQID: https://experienceleague.adobe.com/hYjYD7ofgUpXPUk21C-GqC6BFt-RwPNk3fi--s-iG6w
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 382
@@ -40,7 +42,7 @@ ht-degree: 18%
 
    [此熒幕擷圖顯示已選取AEP Audiences資料夾的篩選區段。](assets/select-audience-folder.png){zoomable="yes"}
 
-1. 篩選區段可讓您存取篩選選項，以調整對象清單。 若要這麼做，請按一下[新增規則] ****&#x200B;以存取查詢模型工具，讓您為對象清單建立進階篩選器。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
+1. 篩選區段可讓您存取篩選選項，以調整對象清單。 若要這麼做，請按一下[新增規則] **&#x200B;**&#x200B;以存取查詢模型工具，讓您為對象清單建立進階篩選器。 [瞭解如何使用查詢模型工具](../query/query-modeler-overview.md)
 
    例如，您可以定義規則以篩選對象的來源，如下所示：
 

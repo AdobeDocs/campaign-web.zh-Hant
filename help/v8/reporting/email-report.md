@@ -4,9 +4,15 @@ title: 以電子郵件傳送報告
 description: 瞭解如何存取及使用電子郵件傳遞報告
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 TQID: https://experienceleague.adobe.com/Pmd2So-q8JbSJs9dMLqpxJv8s0js59AsEJDhvf5kZmQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 2481
@@ -155,7 +161,7 @@ ht-degree: 38%
 >title="依類型的錯誤劃分"
 >abstract="**依類型的錯誤劃分**&#x200B;表格提供每種錯誤類型發生次數的全面劃分。"
 
-每個型別&#x200B;]**資料表和圖表的**[!UICONTROL &#x200B;錯誤劃分包含錯誤型別的可用資料。 量度詳情如下。
+每個型別&#x200B;**資料表和圖表的**&#x200B;錯誤劃分包含錯誤型別的可用資料。 量度詳情如下。
 
 此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}。
 
@@ -191,7 +197,7 @@ ht-degree: 38%
 >title="依網域的錯誤劃分"
 >abstract="**依網域的錯誤劃分** 表格根據所使用網域提供每種錯誤發生次數的全面劃分。"
 
-每個網域&#x200B;]**表格和圖形的**[!UICONTROL &#x200B;錯誤劃分會顯示每個網域可能遇到的錯誤的可用資料。
+每個網域&#x200B;**表格和圖形的**&#x200B;錯誤劃分會顯示每個網域可能遇到的錯誤的可用資料。
 
 ![每個網域的錯誤劃分熒幕擷圖](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
