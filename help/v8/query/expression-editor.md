@@ -4,14 +4,12 @@ title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 TQID: https://experienceleague.adobe.com/o2K9C4wrjB9N85UbQKqA19jdZPFSZW4VDhdyB-4-7NE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: eceffbb89ed4635df723e139bb2dab8b7efc1d30
 workflow-type: tm+mt
-source-wordcount: 2152
-ht-degree: 37%
+source-wordcount: 2205
+ht-degree: 36%
 
 ---
 
@@ -25,8 +23,8 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->有一個全新的查詢建模器介面可供使用，若要切換至這個新的規則產生器體驗，請按一下右上角的切換按鈕。您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。您可以在此新介面中套用與查詢建模程式相同的原則。
->![顯示新規則產生器介面切換的影像](assets/query-modeler-toggle.png){zoomable="yes"}
+>有一個全新的查詢建模器介面可供使用，若要切換至這個新的規則產生器體驗，請按一下右上角的切換按鈕。 您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。 您可以在此新介面中套用與查詢建模程式相同的原則。
+>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
 
 ## 使用運算式編輯器 {#edit}
 
@@ -34,7 +32,7 @@ ht-degree: 37%
 
 | 從&#x200B;**屬性**&#x200B;欄位存取 | 從&#x200B;**值**&#x200B;欄位存取 |
 | --- | --- |
-| 屬性欄位![&#128279;](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的|![運算式編輯器  值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的運算式編輯器 |
+| 屬性欄位](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 | 值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 |
 
 運算式編輯器提供：
 

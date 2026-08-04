@@ -4,12 +4,11 @@ title: 設定工作流程設定
 description: 瞭解如何使用Adobe Campaign Web進行工作流程設定
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1070
-ht-degree: 27%
+source-wordcount: 1087
+ht-degree: 26%
 
 ---
 
@@ -42,7 +41,7 @@ ht-degree: 27%
 * 顯示在清單中的工作流程的&#x200B;**[!UICONTROL 標籤]**。
 * 工作流程的&#x200B;**[!UICONTROL 內部名稱]**。
 * 工作流程應儲存的&#x200B;**[!UICONTROL 資料夾]**。
-* 用於工作流程所有活動的預設&#x200B;**[!UICONTROL 時區]**。依預設，工作流程的時區是為目前的Campaign運運算元定義的時區。
+* 用於工作流程所有活動的預設&#x200B;**[!UICONTROL 時區]**。 依預設，工作流程的時區是為目前的Campaign運運算元定義的時區。
 可能的值包括：
   * **伺服器時區**，以使用Adobe Campaign應用程式伺服器的時區。
   * **操作員時區**，使用執行工作流程之Adobe Campaign操作員的時區，如使用者端主控台中操作員的設定檔所定義。
@@ -51,7 +50,7 @@ ht-degree: 27%
 * 當工作流程失敗時，屬於&#x200B;**[!UICONTROL 監督員]**&#x200B;欄位中所選操作員群組的操作員會收到電子郵件通知。
 * 輸入工作流程的&#x200B;**[!UICONTROL 描述]**。
 
-當工作流程是與行銷活動[&#128279;](create-workflow.md)相關聯的時，會顯示在&#x200B;**[!UICONTROL 連結的行銷活動]**&#x200B;欄位中。 從該欄位開啟關聯的行銷活動。
+當工作流程是與行銷活動](create-workflow.md)相關聯的[時，會顯示在&#x200B;**[!UICONTROL 連結的行銷活動]**&#x200B;欄位中。 從該欄位開啟關聯的行銷活動。
 
 ## 細分設定 {#segmentation-settings}
 

@@ -3,10 +3,8 @@ audience: end-user
 title: 建立和管理優惠方案空間
 description: 瞭解如何在Campaign Web中建立、設定、部署和預覽優惠方案空間
 feature: Offers
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
 source-wordcount: 921
@@ -82,13 +80,13 @@ ht-degree: 0%
 
 ### 設定進階設定 {#advanced}
 
-此區段可讓您定義&#x200B;**[!UICONTROL 目標識別]**。 按一下[新增]&#x200B;**&#x200B;**&#x200B;並選取一或多個&#x200B;**[!UICONTROL 收件者]**&#x200B;屬性，或按一下[編輯運算式]&#x200B;**[!UICONTROL 以定義自訂運算式]**。 此設定對於基本優惠方案空間為選用。 如需其完整參考資料和行為，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}。
+此區段可讓您定義&#x200B;**[!UICONTROL 目標識別]**。 按一下[新增]****&#x200B;並選取一或多個&#x200B;**[!UICONTROL 收件者]**&#x200B;屬性，或按一下[編輯運算式]**[!UICONTROL 以定義自訂運算式]**。 此設定對於基本優惠方案空間為選用。 如需其完整參考資料和行為，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}。
 
 在&#x200B;**傳入Web頻道**&#x200B;上建立的優惠方案空間，也需要設定網站以顯示優惠方案並呼叫優惠方案引擎。 這項整合是在使用者端主控台中執行 — 請參閱[即時提供優惠方案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"}和[在Campaign v8檔案中設定優惠方案引擎整合](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"}。
 
 ## 部署優惠方案空間 {#deploy}
 
-必須先部署優惠方案空間，才能用於傳遞。 儲存您的優惠方案空間，然後按一下[部署]。**&#x200B;** 部署的狀態會反映在優惠方案空間上。
+必須先部署優惠方案空間，才能用於傳遞。 儲存您的優惠方案空間，然後按一下[部署]。**** 部署的狀態會反映在優惠方案空間上。
 
 ![顯示優惠方案部署的熒幕擷圖。](assets/offers-space-2.png){zoomable="yes"}
 

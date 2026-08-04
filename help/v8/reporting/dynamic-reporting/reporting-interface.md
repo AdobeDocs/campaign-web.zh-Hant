@@ -42,7 +42,7 @@ ht-degree: 4%
 * [新增視覺效果](adding-visualizations.md)
 * [新增元件](adding-components.md)
 
-## 索引標籤 {#tabs}
+## 頁籤 {#tabs}
 
 左邊標籤可讓您建立報告，並依需求篩選資料。
 

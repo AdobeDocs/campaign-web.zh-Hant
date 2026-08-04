@@ -5,8 +5,8 @@ description: 瞭解如何使用加入工作流程活動
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 39%
+source-wordcount: '489'
+ht-degree: 38%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 39%
 >title="連接活動"
 >abstract="**連接&#x200B;**&#x200B;活動可讓您合併多個傳入轉變。 選擇在所有傳入轉變完成(AND)時還是任何傳入轉變完成(OR)時繼續。"
 
-**加入**&#x200B;活動是&#x200B;**流量控制**&#x200B;活動。它會同步工作流程的多個執行分支。
+**加入**&#x200B;活動是&#x200B;**流量控制**活動。 它會同步工作流程的多個執行分支。
 您可以選擇如何評估入站轉變：
 
 * **AND**：僅在啟動所有選取的入站轉變後繼續。

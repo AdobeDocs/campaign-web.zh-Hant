@@ -25,7 +25,7 @@ ht-degree: 16%
 
 您可以在Campaign中新增組織的實體，或建立必須在其他子網域下傳送的新電子郵件型別。 若要執行此作業，請依照下列步驟操作：
 
-1. **設定新的子網域** — 對於Adobe要使用的任何新子網域，第一步是進行設定。 您可以透過[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant)執行此工作，或連絡您的Adobe技術連絡人。 在此頁面[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup)中進一步瞭解子網域設定。
+1. **設定新的子網域** — 對於Adobe要使用的任何新子網域，第一步是進行設定。 您可以透過[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant)執行此工作，或連絡您的Adobe技術連絡人。 在此頁面](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup)中進一步瞭解子網域設定[。
 
    >[!NOTE]
    >
@@ -37,7 +37,7 @@ ht-degree: 16%
 
 ## 相容性注意事項 {#compatibility-note}
 
-新的集中式品牌模式與先前在使用者端主控台中使用的[舊版品牌](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=zh-Hant#configuring-multibranding){target="_blank"}設定不相容。
+新的集中式品牌模式與先前在使用者端主控台中使用的[舊版品牌](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#configuring-multibranding){target="_blank"}設定不相容。
 
 在舊版方法中，客戶透過擴充extAccount表單並使用&#x200B;**品牌**&#x200B;標籤來實作品牌。
 

@@ -3,15 +3,9 @@ title: Campaign v8 Web 使用者介面發行說明
 description: 探索最新 Campaign Web 使用者介面版本的新功能
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d9d1733854bceac52d54e02125dac92b74872c77
 workflow-type: tm+mt
 source-wordcount: 716
@@ -44,7 +38,7 @@ _2026年7月28日_
 <tr>
 <td>
 <p>您現在可以直接從Campaign網頁使用者介面端對端管理優惠方案。 設定優惠方案環境和優惠方案空間、建立優惠方案目錄和類別、建立具有適用規則和優先權的優惠方案，並核准和部署它們以用於您的傳送。 Client Console中仍可使用進階設定。</p>
-<p>如需詳細資訊，請參閱<a href="../offers/gs-offer-management.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../offers/gs-offer-management.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -60,7 +54,7 @@ _2026年7月28日_
 <tr>
 <td>
 <p>技術管理員現在可以直接從Campaign Web使用者介面建立及設定品牌，無需使用使用者端主控台。 所有品牌設定，包括身分、子網域和通訊協定、電子郵件標題引數和URL追蹤引數，現在均可在Web UI中使用。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/branding/branding-configure.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/branding/branding-configure.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -76,7 +70,7 @@ _2026年7月28日_
 <tr>
 <td>
 <p>新增影像至電子郵件時，您現在可以選取<strong>公用資源</strong>。 這可讓您選擇Adobe Campaign執行個體上已可用的影像，例如先前在電子郵件Designer中匯入的檔案，或從使用者端主控台上傳的公共資源。</p>
-<p>如需詳細資訊，請參閱<a href="../email/content-components.md#image">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/content-components.md#image">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -92,7 +86,7 @@ _2026年7月28日_
 <tr>
 <td>
 <p><strong>資料載入(RDBMS)</strong>活動現在可在Campaign Web使用者介面中使用。 使用此活動可將資料直接從外部關聯式資料庫載入工作流程。 所擷取的資料可在整個工作流程中使用，並可用於目標市場選擇、擴充或進一步資料處理。</p>
-<p>如需詳細資訊，請參閱<a href="../workflows/activities/data-loading-rdbms.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../workflows/activities/data-loading-rdbms.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
