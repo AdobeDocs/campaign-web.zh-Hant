@@ -37,7 +37,7 @@ Adobe Campaign v8 包括以下傳遞管道：電子郵件、SMS、推播和直�
     </td>
     <td align="center">
     <a href="../push/create-push.md">
-      <img alt="建立推播通知區段" src="assets/do-not-localize/push.jpg">
+      <img alt="建立推播區段" src="assets/do-not-localize/push.jpg">
     </a>
     <div>
     <a href="../push/gs-push.md"><strong>建立推播</strong></a>

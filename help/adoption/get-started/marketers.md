@@ -26,7 +26,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 2803
+source-wordcount: 2860
 ht-degree: 16%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 16%
 
 如需詳細資訊，請參閱[開始使用對象](../../v8/audience/manage-audience.md){target="_blank"}。
 
-如同在Campaign Standard中，您可以新增控制組至您的傳送。您可以定義控制組以避免傳送訊息給部分對象，並將傳送後的行為與主要目標進行比較。此選項可協助您測量行銷活動的影響。
+如同在Campaign Standard中，您可以新增控制組至您的傳送。 您可以定義控制組以避免傳送訊息給部分對象，並將傳送後的行為與主要目標進行比較。 此選項可協助您測量行銷活動的影響。
 瞭解如何[設定控制組](../../v8/audience/control-group.md){target="_blank"}。
 
 >[!AVAILABILITY]

@@ -20,7 +20,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 3030
+source-wordcount: 3118
 ht-degree: 98%
 
 ---
@@ -375,7 +375,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>您現在可以建立並自訂品牌，以便清楚地定義您在所有通訊內容中的視覺和語言識別。透過品牌一致性分數，您可以獲得即時回饋，了解您的內容與品牌基調、風格和準則的契合度，協助您確保傳送的每則訊息都與品牌形象保持一致。
+<p>您現在可以建立和自訂自己的品牌，以在整個通訊過程中清楚地定義您的視覺和語言識別。 透過品牌一致性分數，您可以收到即時回饋，以了解您的內容對您的品牌基調、風格和方針的反映程度，協助您在傳送的每則訊息中始終保持一致的品牌形象。
 </p>
 <p>如需詳細資訊，請參閱<a href="../content/brands.md">詳細文件</a>以瞭解詳情。</p>
 </td>
@@ -436,7 +436,7 @@ table>
 <tr>
 <td>
 <p>您現在可以存取動態報告，該報告提供完全可自訂的即時報告來衡量您行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 動態報告也適用於多語言電子郵件傳遞和交易型訊息。</p>
-<p>此功能僅按需提供。若要取得存取權，請聯絡您的 Adobe 代表。您的伺服器必須至少升級至 8.8.1 版。請參閱用戶端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">發行說明</a>。
+<p>此功能僅以隨選方式提供。 若要取得存取權，請聯絡您的 Adobe 代表。 您的伺服器必須至少升級到 8.8.1 版。 請參閱用戶端主控台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">發行說明</a>。
 <p>如需詳細資訊，請參閱<a href="../reporting/dynamic-reporting/get-started-reporting.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -453,7 +453,7 @@ table>
 <tr>
 <td>
 <p>您的技術管理員現在可以定義一個或多個品牌，以集中管理會影響品牌識別的參數。 這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。 您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 品牌化選項適用於所有管道，包括簡訊和直接郵件。</p>
-<p>此功能僅針對新的實作按需提供。若要取得存取權，請聯絡您的 Adobe 代表。您的伺服器必須至少升級至 8.8.1 版。請參閱用戶端控制台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">發行說明</a>。
+<p>此功能僅針對新實作以隨選方式提供。 若要取得存取權，請聯絡您的 Adobe 代表。 您的伺服器必須至少升級到 8.8.1 版。 請參閱用戶端主控台<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant" target="_blank">發行說明</a>。
 <p>如需詳細資訊，請參閱<a href="../administration/branding/branding-gs.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -649,8 +649,8 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <tbody>
 <tr>
 <td>
-<p>身為 Campaign 管理員，您現在可以透過 Campaign Web 使用者介面來設定與外部系統的新連線。
-您也可以檢視、更新及管理現有的外部帳戶。</p>
+<p>身為 Campaign 管理員，您現在可以從 Campaign Web 使用者介面中設定與外部系統的新連線。
+您也可以檢視、更新和管理現有的外部帳戶。</p>
 <p>如需詳細資訊，請參閱<a href="../administration/external-account.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>

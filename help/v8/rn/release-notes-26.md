@@ -4,7 +4,7 @@ description: 2026 Campaign Web 使用者介面版本
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 2f61ad20f37aab1b89e983ee23fa5182b2ef0f29
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1415'
 ht-degree: 98%
 
 ---
@@ -138,7 +138,7 @@ _2026 年 3 月 24 日_
 
 ### 功能改進 {#26-3-improvements}
 
-* 「**開始**」工作流程活動已新增，從而改善與用戶端控制台的相容性。此活動是選擇性的，依預設不會插入新的工作流程中。不過，它會自動新增至現有的工作流程。
+* 已新增&#x200B;**開始**&#x200B;工作流程活動，以改善與用戶端主控台的相容性。 此活動為選用，預設不會插入新工作流程中。 不過，會自動新增至現有的工作流程。
   [了解更多](../workflows/activities/about-activities.md#flow-control)
 * 傳遞的&#x200B;**排程**&#x200B;設定中的時區選取欄位已移動到&#x200B;**聯絡日期**&#x200B;欄位下方。 [了解更多](../msg/create-deliveries.md#gs-schedule)
 
@@ -240,11 +240,11 @@ _2026 年 1 月 27 日_
 <tbody>
 <tr>
 <td>
-<p>多語言傳遞功能現已開放給所有客戶 (正式推出)。此功能可讓您在 Adobe Campaign Web 使用者介面中以不同語言傳送多則訊息。您可以選擇傳遞內容的預設語言，以及可用來傳送傳遞內容的其他語言。您也可以使用所選的語言來預覽這些傳遞內容。 
+<p>所有客戶現在都能使用多語言傳送功能 (正式推出)。 此功能可以在 Adobe Campaign 網頁使用者介面中，以不同語言傳送多則訊息。 多語言傳遞功能可選擇傳遞的預設語言，並以不同語言傳送傳遞。 您也可以使用您選擇的語言來預覽這些傳遞。 
 <p>如需詳細資訊，請參閱<a href="../msg/multilingual.md">詳細文件</a>以瞭解詳情。</p>
 <p>已為多語言推播通知進行下列改進：</p>
 <ul>
-<li>您現在可以上傳包含多語言內容的 CSV 檔案，快速填入您的所有語言變體。<a href="../msg/multilingual.md#csv-upload">閱讀更多</a>
+<li>您現在可以上傳多語言內容的 CSV 檔案，快速填入您的所有語言變體。 <a href="../msg/multilingual.md#csv-upload">閱讀更多</a>
 </li>
 <li>現在支援富文字推播通知。</li>
 </td>

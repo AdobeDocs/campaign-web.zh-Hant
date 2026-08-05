@@ -44,7 +44,7 @@ _2026年7月28日_
 <tr>
 <td>
 <p>您現在可以直接從Campaign網頁使用者介面端對端管理優惠方案。 設定優惠方案環境和優惠方案空間、建立優惠方案目錄和類別、建立具有適用規則和優先權的優惠方案，並核准和部署它們以用於您的傳送。 Client Console中仍可使用進階設定。</p>
-<p>如需詳細資訊，請參閱<a href="../offers/gs-offer-management.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../offers/gs-offer-management.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -60,7 +60,7 @@ _2026年7月28日_
 <tr>
 <td>
 <p>技術管理員現在可以直接從Campaign Web使用者介面建立及設定品牌，無需使用使用者端主控台。 所有品牌設定，包括身分、子網域和通訊協定、電子郵件標題引數和URL追蹤引數，現在均可在Web UI中使用。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/branding/branding-configure.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/branding/branding-configure.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -76,7 +76,7 @@ _2026年7月28日_
 <tr>
 <td>
 <p>新增影像至電子郵件時，您現在可以選取<strong>公用資源</strong>。 這可讓您選擇Adobe Campaign執行個體上已可用的影像，例如先前在電子郵件Designer中匯入的檔案，或從使用者端主控台上傳的公共資源。</p>
-<p>如需詳細資訊，請參閱<a href="../email/content-components.md#image">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/content-components.md#image">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -92,7 +92,7 @@ _2026年7月28日_
 <tr>
 <td>
 <p><strong>資料載入(RDBMS)</strong>活動現在可在Campaign Web使用者介面中使用。 使用此活動可將資料直接從外部關聯式資料庫載入工作流程。 所擷取的資料可在整個工作流程中使用，並可用於目標市場選擇、擴充或進一步資料處理。</p>
-<p>如需詳細資訊，請參閱<a href="../workflows/activities/data-loading-rdbms.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../workflows/activities/data-loading-rdbms.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>

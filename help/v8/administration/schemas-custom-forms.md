@@ -4,7 +4,7 @@ description: 瞭解如何使用資料輸入表單在自訂結構中建立、編�
 exl-id: c997d676-bfe1-4e28-9e11-41e902a782c1
 source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '442'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 ![自訂表格](assets/schemas-forms3.png)
 
-清單檢視會顯示該結構描述的所有記錄。如果結構描述已設定表單定義，清單便可以編輯，而且您可以建立、編輯和刪除記錄。
+清單檢視會顯示該結構描述的所有記錄。 如果結構描述已設定表單定義，清單便可以編輯，而且您可以建立、編輯和刪除記錄。
 ![自訂表格](assets/schemas-forms4.png)
 
 然後，您可以：

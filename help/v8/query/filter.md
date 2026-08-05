@@ -10,8 +10,8 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 1%
+source-wordcount: 450
+ht-degree: 0%
 
 ---
 
@@ -21,8 +21,8 @@ Adobe Campaign Web在每個物件清單中提供篩選器，可讓您根據特�
 
 >[!IMPORTANT]
 >
->可以使用全新的查詢建模器介面。全新的規則產生器擁有簡化的介面，讓您更輕鬆地建立查詢。若要切換至此體驗，請按一下右上角的切換按鈕。您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。您可以在此新介面中套用與查詢建模程式相同的原則。
->![顯示新規則產生器介面切換的影像](assets/query-modeler-toggle.png){zoomable="yes"}
+>可以使用全新的查詢建模器介面。 全新的規則產生器擁有簡化的介面，讓您更輕鬆地建立查詢。 若要切換至此體驗，請按一下右上角的切換按鈕。 您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。 您可以在此新介面中套用與查詢建模程式相同的原則。
+>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
 
 ## 套用篩選器 {#apply}
 

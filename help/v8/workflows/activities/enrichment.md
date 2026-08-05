@@ -12,8 +12,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 2327
-ht-degree: 31%
+source-wordcount: 2370
+ht-degree: 30%
 
 ---
 
@@ -210,7 +210,7 @@ ht-degree: 31%
 
 在工作流程中，如果您想要使用在傳送中從擴充活動取得的選件，請遵循下列步驟：
 
-1. 開啟傳送活動，然後前往內容版本。按一下&#x200B;**[!UICONTROL 優惠方案設定]**&#x200B;按鈕，然後在下拉式清單中選取與您的優惠方案對應的&#x200B;**[!UICONTROL 優惠方案空間]**。
+1. 開啟傳送活動，然後前往內容版本。 按一下&#x200B;**[!UICONTROL 優惠方案設定]**&#x200B;按鈕，然後在下拉式清單中選取與您的優惠方案對應的&#x200B;**[!UICONTROL 優惠方案空間]**。
 如果您只想檢視擴充活動的優惠方案，請將&#x200B;**[!UICONTROL 建議]**&#x200B;的數目設為0，然後儲存修改。
 
    ![](../assets/offers-settings.png)

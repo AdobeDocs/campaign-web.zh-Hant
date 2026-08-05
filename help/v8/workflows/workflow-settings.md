@@ -8,8 +8,8 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1070
-ht-degree: 27%
+source-wordcount: 1087
+ht-degree: 26%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 27%
 * 顯示在清單中的工作流程的&#x200B;**[!UICONTROL 標籤]**。
 * 工作流程的&#x200B;**[!UICONTROL 內部名稱]**。
 * 工作流程應儲存的&#x200B;**[!UICONTROL 資料夾]**。
-* 用於工作流程所有活動的預設&#x200B;**[!UICONTROL 時區]**。依預設，工作流程的時區是為目前的Campaign運運算元定義的時區。
+* 用於工作流程所有活動的預設&#x200B;**[!UICONTROL 時區]**。 依預設，工作流程的時區是為目前的Campaign運運算元定義的時區。
 可能的值包括：
   * **伺服器時區**，以使用Adobe Campaign應用程式伺服器的時區。
   * **操作員時區**，使用執行工作流程之Adobe Campaign操作員的時區，如使用者端主控台中操作員的設定檔所定義。
