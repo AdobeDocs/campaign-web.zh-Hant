@@ -9,7 +9,7 @@ exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_branding_create"
 >title="建立品牌"
->abstract="按一下&#x200B;**建立品牌**&#x200B;以定義新的品牌識別。 在設定標籤中填寫品牌詳細資訊，然後按一下[建立品牌] **以儲存。**&#x200B;此品牌將可連結至傳遞範本和獨立傳遞。"
+>abstract="按一下「**建立品牌**」以定義新的品牌識別。 在「設定」標記中填寫品牌詳細資訊，然後按一下「**建立品牌**」以儲存。 此品牌將可連結至傳遞範本和獨立傳遞。"
 
 若要建立新品牌，請遵循下列步驟：
 

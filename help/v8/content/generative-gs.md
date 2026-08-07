@@ -4,14 +4,12 @@ title: 開始使用產生內容
 description: 開始使用產生內容
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 TQID: https://experienceleague.adobe.com/jpw4u-Vy7M2Q9qRyQ2J3rJ-Mr8UKLUpxhw39tglbbNc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 887
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
@@ -20,11 +18,11 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="產生內容"
->abstract="精心打造並個人化您的傳遞內容後，請使用AI增強您的內容。 透過此功能，您只要描述想要生成的內容便可以調整內容，使個人化和內容改善的工作變得更簡單。"
+>abstract="在精心製作您的傳遞並進行個人化之後，使用 AI 來增強您的內容。 透過此功能，您只要描述想要產生的內容便可以進行微調，使個人化和內容改善的工作變得更簡單。"
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="使用「在Campaign中產生內容」定義內容"
+>title="使用「在 Campaign 中產生內容」定義內容"
 >abstract="若要將所選取的內容用作內容生成的輸入，請啟動「**使用目前的內容進行增強**」切換。 您也可以上傳您的品牌資產並用作內容來源。 如果您不使用所選取的內容，則必須上傳並選取品牌資產。"
 
 >[!CONTEXTUALHELP]
@@ -39,7 +37,7 @@ ht-degree: 20%
 
 隨著行銷產業變得更具競爭力，品牌們開始尋求有效率的方式，以迅速產生具影響力的內容。 在Adobe Campaign Web中產生內容（由Microsoft Azure OpenAI和Adobe Firefly提供技術支援）是Adobe的AI內容產生功能，可轉變行銷人員如何跨電子郵件、SMS和推播通知等管道建立專業且品牌一致的內容。 透過進階GenAI模型和對品牌指導方針的深入瞭解，「產生內容」會根據行銷目標自動產生個人化、吸引人且有效的內容，針對品牌概述的樣式、版面、色調等最佳化內容。
 
-「產生內容」支援以多種語言產生&#x200B;**&#x200B;**，讓您能夠觸及並吸引不同的全球對象。 產生內容提供下列語言版本：
+「產生內容」支援以多種語言產生&#x200B;****，讓您能夠觸及並吸引不同的全球對象。 產生內容提供下列語言版本：
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -112,7 +110,7 @@ ht-degree: 20%
 * 使用[內建電子郵件範本](../content/create-email-templates.md)、品牌特定範本或自訂範本，以使用AI建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
 * 選擇變體時，使用向上縮圖、向下縮圖或標幟圖示，報告任何有問題的輸出。
 * 您使用「產生內容」時，必須遵守Adobe Experience Cloud Generative AI使用准則。 [了解更多資訊](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
-* 作為Adobe承諾在媒體建立中使用創作AI工具時提高透明度的其中一環，Adobe在下載或匯出內容或專案（包含Firefly產生的資產）時套用Content Credentials。 [了解更多資訊](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)。
+* 作為Adobe承諾在媒體建立中使用創作AI工具時提高透明度的其中一環，Adobe在下載或匯出內容或專案（包含Firefly產生的資產）時套用Content Credentials。 [了解更多資訊](https://helpx.adobe.com/firefly/using/content-credentials.html)。
 
 下列限制適用於Adobe Campaign網頁版中的產生內容：
 
