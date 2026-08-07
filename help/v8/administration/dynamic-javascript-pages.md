@@ -2,8 +2,11 @@
 title: 使用動態 JavaScript 頁面
 description: 瞭解如何使用動態JavaScript頁面。
 exl-id: b7de9f55-2aef-4ba9-a2a1-e9ca15deacfb
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
 source-wordcount: 392
@@ -65,6 +68,6 @@ ht-degree: 29%
 
 1. 按一下&#x200B;**[!UICONTROL 確認]**&#x200B;以儲存您的程式碼。
 
-1. 當您的動態JavaScript頁面準備就緒時，請按一下[建立]。**** 頁面現在可從名稱空間和名稱建立的URL存取，格式為`https://<your-instance>/<namespace>/<name>`。 例如，`cus`名稱空間中名為`recipientAPI.jssp`的頁面可在`https://<your-instance>/cus/recipientAPI.jssp`存取。
+1. 當您的動態JavaScript頁面準備就緒時，請按一下[建立]。**&#x200B;** 頁面現在可從名稱空間和名稱建立的URL存取，格式為`https://<your-instance>/<namespace>/<name>`。 例如，`cus`名稱空間中名為`recipientAPI.jssp`的頁面可在`https://<your-instance>/cus/recipientAPI.jssp`存取。
 
 如需可重複使用JavaScript函式的詳細資訊，請參閱[使用JavaScript程式碼](javascript-codes.md)。
