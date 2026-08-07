@@ -10,7 +10,7 @@ topic_v2:
 source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
 workflow-type: tm+mt
 source-wordcount: 772
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_data_loading_rdbms"
 >title="資料載入 (RDBMS) 活動"
->abstract="**資料載入 (RDBMS)** 活動是一項&#x200B;**資料管理**&#x200B;活動。 使用此活動可將資料直接從外部關聯式資料庫載入工作流程。 所擷取的資料可在整個工作流程中使用，並可用於目標市場選擇、擴充或進一步資料處理。"
+>abstract="**資料載入 (RDBMS)** 活動是一項&#x200B;**資料管理**&#x200B;活動。 使用此活動可將資料直接從外部關聯式資料庫載入到您的工作流程中。 所擷取的資料可在整個工作流程中使用，並可用於目標市場選擇、擴充或進一步資料處理。"
 
-**資料載入 (RDBMS)** 活動是一項&#x200B;**資料管理**&#x200B;活動。 使用此活動可將資料直接從外部關聯式資料庫載入工作流程。 所擷取的資料可在整個工作流程中使用，並可用於目標市場選擇、擴充或進一步資料處理。
+**資料載入 (RDBMS)** 活動是一項&#x200B;**資料管理**&#x200B;活動。 使用此活動可將資料直接從外部關聯式資料庫載入到您的工作流程中。 所擷取的資料可在整個工作流程中使用，並可用於目標市場選擇、擴充或進一步資料處理。
 
 <!--
 This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hant){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.

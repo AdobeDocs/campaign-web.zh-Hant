@@ -11,7 +11,7 @@ feature_v2:
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 887
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="產生內容"
->abstract="精心打造並個人化您的傳遞內容後，請使用AI增強您的內容。 透過此功能，您只要描述想要生成的內容便可以調整內容，使個人化和內容改善的工作變得更簡單。"
+>abstract="在精心製作您的傳遞並進行個人化之後，使用 AI 來增強您的內容。 透過此功能，您只要描述想要產生的內容便可以進行微調，使個人化和內容改善的工作變得更簡單。"
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="使用「在Campaign中產生內容」定義內容"
+>title="使用「在 Campaign 中產生內容」定義內容"
 >abstract="若要將所選取的內容用作內容生成的輸入，請啟動「**使用目前的內容進行增強**」切換。 您也可以上傳您的品牌資產並用作內容來源。 如果您不使用所選取的內容，則必須上傳並選取品牌資產。"
 
 >[!CONTEXTUALHELP]
