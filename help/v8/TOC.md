@@ -7,9 +7,9 @@ description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 nudge: true
 source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -152,11 +152,11 @@ ht-degree: 95%
   + [設計登陸頁面內容](landing-pages/lp-content.md)
   + [透過使用案例了解](landing-pages/lp-use-cases.md)
 + 產品建議管理 {#offers}
-  + [開始使用選件管理](offers/gs-offer-management.md)
-  + [檢閱優惠方案環境設定](offers/offer-environment.md)
-  + [建立和管理優惠方案空間](offers/offer-space.md)
-  + [建立並發佈優惠方案](offers/create-offer.md)
-  + [將可編輯清單新增至選件結構描述](offers/offer-editable-list.md)
+  + [開始使用產品建議管理](offers/gs-offer-management.md)
+  + [審閱產品建議環境設定](offers/offer-environment.md)
+  + [建立及管理產品建議空間](offers/offer-space.md)
+  + [建立及發佈產品建議](offers/create-offer.md)
+  + [將可編輯清單新增至產品建議結構描述](offers/offer-editable-list.md)
 + 輪廓與客群 {#audiences}
   + [開始使用輪廓和客群](audience/gs-audiences-recipients.md)
   + [目標市場選擇維度](audience/targeting-dimensions.md)
@@ -318,5 +318,5 @@ ht-degree: 95%
     + [CRM 外部帳戶](administration/external-crm.md)
   + [管理列舉](administration/enumerations.md)
   + [使用 JavaScript 程式碼](administration/javascript-codes.md)
-  + [使用動態JavaScript頁面](administration/dynamic-javascript-pages.md)
+  + [使用動態 JavaScript 頁面](administration/dynamic-javascript-pages.md)
 + [Campaign v8 (主控台) 文件 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)

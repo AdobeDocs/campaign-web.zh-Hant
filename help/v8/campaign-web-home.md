@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: 703
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 95%
 
 >[!TAB 產生內容]
 
-✨透過[產生內容](../v8/content/generative-gs.md)即時功能預覽，親身體驗親身體驗各項功能，讓您親身體驗各項功能，全面瞭解各項功能。
+✨透過我們的[產生內容](../v8/content/generative-gs.md)即時功能預覽，讓自己沉浸在實作體驗中，以便親身探索並充分了解其功能。
 
 [![了解更多按鈕](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
