@@ -6,10 +6,10 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 nudge: true
-source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: ht
-source-wordcount: '1072'
-ht-degree: 100%
+source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 99%
 
 ---
 
@@ -141,6 +141,7 @@ ht-degree: 100%
     + [運用 AI 產生文字](content/generative-text.md)
     + [運用 AI 產生影像](content/generative-image.md)
     + [產生內容使用案例](content/generative-uc.md)
+    + [電子郵件和登陸頁面Designer中的C2PA中繼資料](content/c2pa-metadata-email-designer.md)
     + 品牌 {#ai-assistant}
       + [建立和管理您的品牌](content/brands.md)
       + [個人化您的品牌](content/brands-personalize.md)
