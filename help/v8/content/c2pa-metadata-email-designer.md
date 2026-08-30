@@ -57,4 +57,4 @@ C2PA中繼資料會隨著影像在Adobe Campaign Web使用者介面中的電子�
 ## 額外資源
 
 * [使用產生內容](generative-gs.md)
-* [Generative AI內容透明度](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [Generative AI內容透明度](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
