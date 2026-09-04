@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 19%
+source-wordcount: 616
+ht-degree: 18%
 
 ---
 
@@ -73,6 +73,7 @@ Adobe Campaign Web可讓您跨多個管道自動執行行銷活動。 將管道�
 
 下列活動僅限於整理和執行工作流程。 這些活動的主要任務是協調其他活動：
 
+* [核准](approval.md)：將任務指派給群組或個別操作員，並根據其答案路由工作流程。
 * [外部訊號](external-signal.md)：從其他工作流程或API呼叫觸發工作流程執行。
 * [分支](fork.md)：建立出站轉變，以同時啟動多個活動。
 * [加入](join.md)：同步處理工作流程的多個執行分支。

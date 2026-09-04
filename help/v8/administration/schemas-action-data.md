@@ -1,10 +1,10 @@
 ---
 title: 控制資料的動作
 description: 瞭解如何限制自訂結構描述記錄的建立、編輯和刪除動作。
-source-git-commit: 75aeccc9878bb0aab7bdaf62113303dbd14f985b
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 11%
+source-wordcount: '423'
+ht-degree: 13%
 
 ---
 
@@ -33,15 +33,17 @@ ht-degree: 11%
 
    畫面定義中的![動作資料區段](assets/schemas-action-data1.png)
 
-1. 選取一個或兩個可用選項：
+1. 選取一或多個可用選項：
 
    * **[!UICONTROL 唯讀]**：所有使用者的詳細資訊畫面會變成唯讀。 清單中沒有可用的建立、複製、更新或刪除動作，而且詳細資訊畫面中會隱藏刪除和複製動作。 選取此選項類似於設定檢視：使用者仍然可以開啟記錄並重複使用記錄，例如在定位傳送時，但無法修改記錄。
 
    * **[!UICONTROL 不允許刪除]**：刪除動作會從詳細資訊畫面和清單中移除，並位於每個資料夾中。 其他動作（例如建立、複製和更新）仍可使用。
 
+   * **[!UICONTROL 不允許重複]**：重複動作會從詳細資訊畫面和清單中移除，並位於每個資料夾中。 其他動作（例如建立、刪除和更新）仍可使用。
+
      >[!NOTE]
      >
-     >啟用&#x200B;**[!UICONTROL 唯讀]**&#x200B;也會自動涵蓋刪除，因此在選取&#x200B;**[!UICONTROL 唯讀]**&#x200B;時，**[!UICONTROL 不允許刪除]**&#x200B;選項會停用。
+     >啟用&#x200B;**[!UICONTROL 唯讀]**&#x200B;也會自動涵蓋刪除和複製，因此在選取&#x200B;**[!UICONTROL 唯讀]**&#x200B;時，**[!UICONTROL 不允許刪除]**&#x200B;和&#x200B;**[!UICONTROL 不允許複製]**&#x200B;選項會停用。
 
 1. 按一下「**[!UICONTROL 儲存]**」。
 

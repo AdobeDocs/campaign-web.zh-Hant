@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 3521
+source-wordcount: 3646
 ht-degree: 40%
 
 ---
@@ -153,6 +153,19 @@ ht-degree: 40%
   >此選項包含檔案的兩個版本。 因此，它會影響傳遞率，因為電子郵件大小較大。
 
 * **[!UICONTROL 以文字格式傳送所有郵件]**：電子郵件是以文字格式傳送。 不會傳送HTML格式，但只有當收件者按一下電子郵件時，才會用於映象頁面。
+
+## 追蹤 {#tracking-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_options"
+>title="編輯追蹤"
+>abstract="預設會啟用傳遞追蹤，這表示系統會追蹤訊息內容中包含的所有連結。 您可以從此處停用此選項。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="新增連結和追蹤訊息"
+
+當追蹤記錄結構描述設定用於傳遞，並且傳遞模式不是外部時，此索引標籤可供使用。
+
+* **[!UICONTROL 啟用追蹤]**：啟用或停用傳遞的追蹤。 停用時，不會收集任何點選或開啟的追蹤資料。
+* **[!UICONTROL 開啟追蹤]** （電子郵件頻道）：啟用或停用使用追蹤畫素來追蹤郵件開啟次數。 此選項僅在&#x200B;**[!UICONTROL 啟用追蹤]**&#x200B;時可用。 這可協助您遵守資料保護規範，例如CNIL或GDPR。
 
 ## 網站分析 {#web-analytics}
 

@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 728
-ht-degree: 35%
+source-wordcount: 734
+ht-degree: 33%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 35%
    * [從頭開始撰寫電子郵件](create-email-content.md)
    * [設定內容樣式](get-started-email-style.md)
 
-1. 依預設，傳遞追蹤會啟用。 您可以從「**[!UICONTROL 選擇性功能]**」區段停用此選項。 [了解如何新增連結和管理追蹤](message-tracking.md)
+1. 依預設，傳遞追蹤會啟用。 您可以從傳遞的&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 追蹤]**&#x200B;索引標籤停用或設定開啟追蹤。 [了解更多](../advanced-settings/delivery-settings.md#tracking-tab)。 [了解如何新增連結和管理追蹤](message-tracking.md)
 
 1. 定義好電子郵件內容後，請使用「**[!UICONTROL 模擬內容]**」按鈕在傳送前檢查其如何顯示。 您也可以驗證內容品質，以評估可讀性、CTA效能和整體品質。 [進一步瞭解內容品質驗證](../content/brands-score.md#validate-quality)
 
