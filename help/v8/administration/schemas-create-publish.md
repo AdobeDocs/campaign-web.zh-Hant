@@ -2,9 +2,9 @@
 title: 建立和發佈結構描述
 description: 瞭解如何建立、擴充和發佈結構描述。
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '537'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,15 @@ ht-degree: 1%
 結構描述預設為空白。 您現在需要使用結構編輯器新增要包含在結構描述中的欄位：
 
 1. 按一下結構描述詳細資訊畫面中&#x200B;**[!UICONTROL 內容]**&#x200B;區段中的鉛筆圖示。
-2. 新增所需元素並儲存。 以下是自訂結構描述結構的範例：
+1. 新增所需元素。 以下是自訂結構描述結構的範例：
 
    ![結構描述建立對話方塊](assets/schemas-create3.png)
 
-系統會自動驗證XML結構並產生架構。
+1. 按一下&#x200B;**[!UICONTROL Check]**&#x200B;按鈕，在儲存之前驗證結構描述的XML結構。 已識別的錯誤會顯示在畫面底部，例如「無效的XML格式」。
+
+   ![結構描述建立對話方塊錯誤](assets/schemas-create3bis.png)
+
+1. 修正任何錯誤，然後儲存變更以產生結構描述。
 
 ### 定義熒幕版本 {#define-attributes}
 
@@ -91,7 +95,7 @@ ht-degree: 1%
 1. 導覽至&#x200B;**[!UICONTROL Explorer]**&#x200B;功能表，並選取您要放置自訂結構描述的資料夾。
 1. 按一下省略符號圖示，然後按一下&#x200B;**[!UICONTROL 建立新資料夾]**。
    ![自訂結構描述的導覽專案建立](assets/schemas-publish3.png)
-1. 新增標籤，並在&#x200B;**[!UICONTROL 資料夾型別]**&#x200B;欄位中選擇您的結構描述。
+1. 新增標籤，並在&#x200B;**[!UICONTROL 資料夾型別]**欄位中選擇您的結構描述。
    ![自訂結構描述的導覽專案建立](assets/schemas-publish5.png)
 1. 現在可從&#x200B;**[!UICONTROL 總管]**&#x200B;檢視存取自訂結構描述。
 

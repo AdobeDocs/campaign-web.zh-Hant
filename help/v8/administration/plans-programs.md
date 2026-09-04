@@ -4,17 +4,13 @@ title: 計劃和專案
 description: 瞭解如何在Adobe Campaign中建立和設定計畫和方案
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 TQID: https://experienceleague.adobe.com/FSiHCjupRlS0zoI9HPdcU--Y2PZot5fQOzWICwmV-oQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 6%
+source-wordcount: 640
+ht-degree: 5%
 
 ---
 
@@ -58,35 +54,35 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 
 ![顯示計畫](assets/plan_customfields.png){zoomable="yes"}自訂欄位設定的熒幕擷圖
 
-## 建立及設定程式
+## 建立及設定程式 {#create-program}
 
-若要在您的計畫中建立方案（[深入瞭解如何建立方案](#create-plan)），請瀏覽至您的計畫，並建立資料夾型別為&#x200B;**[!UICONTROL 方案]**&#x200B;的資料夾。 [進一步瞭解如何建立資料夾](../get-started/work-with-folders.md)。
+可從左側導覽功能表取得方案，類似於行銷活動、傳送和工作流程的清單檢視。 **[!UICONTROL 方案]**&#x200B;專案可讓您在現有方案中建立方案，而不是在計畫底下。
 
-![熒幕擷圖顯示程式資料夾的建立](assets/program_create.png){zoomable="yes"}
+若要在計畫中建立您的第一個最上層方案，請在總管中導覽至您的方案（請參閱此[區段](#create-plan)），然後建立資料夾型別為&#x200B;**[!UICONTROL 方案]**&#x200B;的資料夾。 [進一步瞭解如何建立資料夾](../get-started/work-with-folders.md)。
 
-移至程式的&#x200B;**[!UICONTROL 資料夾設定]**&#x200B;來管理它。
+若要在現有方案中建立方案，請遵循下列步驟：
 
-![熒幕擷圖顯示程式的資料夾設定](assets/program_settings.png){zoomable="yes"}
+1. 瀏覽至左側導覽功能表中的&#x200B;**[!UICONTROL 程式]**&#x200B;專案。 此檢視會列出您的所有程式，並讓您搜尋和篩選。 按一下程式即可在瀏覽器檢視中開啟它。
 
-定義&#x200B;**[!UICONTROL 自訂選項]**，並設定方案的排程日期。
+   ![顯示程式清單檢視的熒幕擷圖](assets/program_view.png){zoomable="yes"}
 
-![熒幕擷圖顯示程式的自訂選項](assets/program_options.png){zoomable="yes"}
+1. 按一下&#x200B;**[!UICONTROL 建立程式]**&#x200B;並設定下列選項：
 
-若要管理&#x200B;**[!UICONTROL 自訂選項]**：
+   ![顯示[建立程式]熒幕的熒幕擷圖](assets/program_create.png){zoomable="yes"}
 
-1. 瀏覽至&#x200B;**[!UICONTROL 結構描述]**。
-1. 選擇篩選器中的&#x200B;**[!UICONTROL 可編輯]**&#x200B;結構描述。
-1. 按一下結構。
+   * 輸入&#x200B;**[!UICONTROL 標籤]**。
+   * 選取現有程式以用作&#x200B;**[!UICONTROL 父資料夾]**。
+   * 選擇性地在&#x200B;**[!UICONTROL 排程]**&#x200B;區段中設定&#x200B;**[!UICONTROL 日期範圍]**。
 
-![熒幕擷圖顯示編輯程式的自訂詳細資料](assets/program_edit.png){zoomable="yes"}
+   >[!TIP]
+   >
+   >如果從「總管」檢視建立程式，則父資料夾會自動設定為目前的程式。
 
-1. 按一下&#x200B;**[!UICONTROL 熒幕版本]**&#x200B;按鈕。
+1. 再按一下&#x200B;**[!UICONTROL 建立方案]**&#x200B;以儲存變更並建立方案。 然後程式會顯示在Explorer檢視中。 您可以像其他資料夾一樣重新命名、刪除和存取其設定。 您也可以在此方案中建立子方案。
 
-   ![](assets/program_edit2.png){zoomable="yes"}
+   ![在總管檢視中顯示程式的熒幕擷圖](assets/program_explorer.png){zoomable="yes"}
 
-設定自訂選項：
-
-![顯示程式自訂欄位設定的熒幕擷圖](assets/program_customfields.png){zoomable="yes"}
+計畫的自訂選項設定方式與計畫的設定方式相同。 請參閱[建立並設定計畫](#create-plan)。
 
 ## 如何將行銷活動連結至方案
 

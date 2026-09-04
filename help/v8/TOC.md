@@ -6,9 +6,9 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 nudge: true
-source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 99%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 99%
     + [開始並監控工作流程](workflows/start-monitor-workflows.md)
   + 使用工作流程活動 {#design-workflows}
     + [關於工作流程活動](workflows/activities/about-activities.md)
+    + [核准](workflows/activities/approval.md)
     + [自動化傳遞](workflows/activities/automated-delivery.md)
     + [建置客群](workflows/activities/build-audience.md)
     + [變更資料來源](workflows/activities/change-data-source.md)

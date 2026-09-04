@@ -4,12 +4,11 @@ title: 使用資料夾
 description: 了解如何在 Adobe Campaign 中管理資料夾
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 TQID: https://experienceleague.adobe.com/VMZuBbHAkU-hffCTjd5QIwXM0c8K3Q9r9tIx4-Ny08s
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 100%
+source-wordcount: 837
+ht-degree: 87%
 
 ---
 
@@ -49,6 +48,11 @@ ht-degree: 100%
 >
 >「**[!UICONTROL 自動建立的物件]**」和「**[!UICONTROL 技術工作流程]**」資料夾會受到限制，且無法在左側面板上檢視。
 
+您可以對資料夾執行的動作取決於您對其授予的許可權。 **[!UICONTROL 資料夾設定]**&#x200B;對話方塊可能會以&#x200B;**唯讀模式**&#x200B;開啟，且視您的許可權而定，某些動作或區段可能無法使用。
+
+如果您缺少資料夾的許可權，請聯絡管理員。 請參閱此[區段](permissions.md#folder-permissions)，瞭解如何管理檔案夾許可權。
+
+已命名的許可權（例如&#x200B;**[!UICONTROL 插入資料夾]**、**[!UICONTROL 編輯資料夾]**&#x200B;和&#x200B;**[!UICONTROL 刪除資料夾]**）也會決定運運算元可以使用哪些資料夾動作。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}。
 
 ## 建立新資料夾 {#create-a-folder}
 

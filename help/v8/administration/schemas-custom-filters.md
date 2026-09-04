@@ -2,10 +2,10 @@
 title: 新增自訂篩選器
 description: 瞭解如何在清單檢視的篩選器窗格中將自訂篩選器新增為快速存取欄位。
 exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
-source-git-commit: c2e627d322937b80cb0bc09e86680757d4867dcd
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 1%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
    ![屬性選擇器顯示直接屬性和連結子屬性](assets/schemas-custom-filters2.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。 您可以使用上下箭頭或拖曳自訂篩選器來重新排序自訂篩選器，並使用其列中的垃圾桶圖示來移除篩選器。
+1. 按一下「**[!UICONTROL 儲存]**」。 您可以使用上下箭頭或拖曳自訂篩選器來重新排序自訂篩選器。 若要移除篩選器，請按一下其列中的省略符號圖示，然後選取&#x200B;**[!UICONTROL 刪除]**。
 
 1. 瀏覽至此結構描述的記錄清單，並開啟篩選器窗格。 您選取的屬性會顯示為&#x200B;**[!UICONTROL 自訂篩選器]**，在&#x200B;**[!UICONTROL 進階篩選器]**&#x200B;規則產生器上方。
 
@@ -47,15 +47,20 @@ ht-degree: 1%
 
 1. 在其中一個自訂篩選條件中輸入或選取值，以調整清單。
 
-<!--
-## Configure a custom filter's settings {#settings}
+## 限制連結型別自訂篩選器的值 {#settings}
 
-To configure specific settings for a custom filter, click the ellipsis icon on its row and select **[!UICONTROL Edit]**.
+對於根據連結屬性的自訂篩選器，您可以限制選取器中可用的值。
 
-![Custom filter settings dialog](assets/schemas-custom-filters5.png)
+>[!NOTE]
+>
+>以下說明的&#x200B;**[!UICONTROL 編輯]**&#x200B;選項僅適用於以連結屬性為基礎的自訂篩選器。 基於其他屬性型別的自訂篩選器只能重新排序或移除。
 
-Available settings are:
+1. 在連結型別自訂篩選的列上，按一下省略符號圖示並選取&#x200B;**[!UICONTROL 編輯]**。
 
-* **[!UICONTROL Label (custom)]**: The label to display for this filter. If no label is provided, the attribute's label defined in the schema is used.
-* **[!UICONTROL Filter settings]** (for link-type custom filters only): Use the query modeler to specify a condition that restricts the values available in the picker. For example, restrict a delivery filter to deliveries using the email channel.
--->
+   ![連結型別自訂篩選器上的編輯選項](assets/schemas-custom-filters4.png)
+
+1. 在&#x200B;**[!UICONTROL 篩選器設定]**&#x200B;索引標籤中，按一下&#x200B;**[!UICONTROL 編輯篩選器]**，然後使用查詢模型工具來定義條件，以限制選取器中可用的值。 例如，使用電子郵件通道將傳送篩選條件限製為傳送。
+
+   ![連結設定對話方塊中的篩選設定索引標籤](assets/schemas-custom-filters5.png)
+
+1. 確認您的變更。

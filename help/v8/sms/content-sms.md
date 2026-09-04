@@ -4,13 +4,11 @@ title: 設計簡訊傳遞
 description: 了解如何設計您的簡訊傳遞
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 TQID: https://experienceleague.adobe.com/CZSfyKVl4NOWhNVcs8ZXj9b9o3EPaVjsDOz-7t2g20s
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 278
 ht-degree: 50%
 
 ---
@@ -41,7 +39,7 @@ ht-degree: 50%
 
    ![熒幕擷圖顯示訊息欄位，其中包含新增動態內容的選項](assets/sms_content_2.png){zoomable="yes"}
 
-1. 依預設，傳遞會啟用追蹤。 如有需要，請從&#x200B;**[!UICONTROL 選用功能區段]**&#x200B;停用此選項。
+1. 依預設，傳遞會啟用追蹤。 視需要從傳遞的&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 追蹤]**&#x200B;索引標籤停用此選項。 [了解更多](../advanced-settings/delivery-settings.md#tracking-tab)
 
 1. 按一下&#x200B;**[!UICONTROL 設定]**&#x200B;以存取與您的傳遞範本相關的進階選項。 [了解更多](../advanced-settings/delivery-settings.md)
 
