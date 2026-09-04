@@ -55,6 +55,6 @@ Adobe Campaign 中的每位使用者在應用程式中都有特定權限和限�
 
 請參閱此[章節](work-with-folders.md#folder-access-rights)，瞭解這些許可權如何影響資料夾中可供您使用的動作。
 
-已命名的許可權也會決定運運算元可使用哪些資料夾動作。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}。
+已命名的許可權也會決定運運算元可使用哪些資料夾動作。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=zh-Hant#use-named-rights){target="_blank"}。
 
 Campaign Web 使用者介面中的所有權限，都會與 Campaign 用戶端主控台權限進行同步。

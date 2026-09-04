@@ -53,7 +53,7 @@ ht-degree: 87%
 
 如果您缺少資料夾的許可權，請聯絡管理員。 請參閱此[區段](permissions.md#folder-permissions)，瞭解如何管理檔案夾許可權。
 
-已命名的許可權（例如&#x200B;**[!UICONTROL 插入資料夾]**、**[!UICONTROL 編輯資料夾]**&#x200B;和&#x200B;**[!UICONTROL 刪除資料夾]**）也會決定運運算元可以使用哪些資料夾動作。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}。
+已命名的許可權（例如&#x200B;**[!UICONTROL 插入資料夾]**、**[!UICONTROL 編輯資料夾]**&#x200B;和&#x200B;**[!UICONTROL 刪除資料夾]**）也會決定運運算元可以使用哪些資料夾動作。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=zh-Hant#use-named-rights){target="_blank"}。
 
 ## 建立新資料夾 {#create-a-folder}
 
