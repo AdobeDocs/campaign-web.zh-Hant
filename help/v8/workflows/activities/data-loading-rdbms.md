@@ -24,7 +24,7 @@ ht-degree: 16%
 **資料載入 (RDBMS)** 活動是一項&#x200B;**資料管理**&#x200B;活動。 使用此活動可將資料直接從外部關聯式資料庫載入到您的工作流程中。 所擷取的資料可在整個工作流程中使用，並可用於目標市場選擇、擴充或進一步資料處理。
 
 <!--
-This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
+This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hant){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
 -->
 
 >[!NOTE]
