@@ -5,7 +5,7 @@ description: 瞭解如何使用核准工作流程活動
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_approval"
 >title="核准活動"
->abstract="**核准**&#x200B;活動需要運運算元的參與。 將任務指派給群組或個別運運算元、自訂通知標題和訊息，並將可能的答案定義為輸出分支。"
+>abstract="**核准**&#x200B;活動需要操作者的參與。 將任務指派給群組或個別操作者、自訂通知標題和訊息，並定義可能的答案作為輸出分支。"
 
 **核准**&#x200B;工作流程活動可讓您將任務指派給群組或個別操作員、自訂通知電子郵件標題和訊息，並將可能的答案（例如「是/否」）定義為輸出分支。
 
