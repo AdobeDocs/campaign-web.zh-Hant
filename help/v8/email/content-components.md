@@ -175,7 +175,7 @@ ht-degree: 30%
 
    ![熒幕擷圖顯示電子郵件Designer中的資產選取程式。](assets/email_designer_29.png){zoomable="yes"}
 
-   若要進一步瞭解如何在Adobe Experience Manager中上傳和新增資產，請參閱[Adobe Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html)。
+   若要進一步瞭解如何在Adobe Experience Manager中上傳和新增資產，請參閱[Adobe Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=zh-Hant)。
 
    +++
 
