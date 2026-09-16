@@ -83,7 +83,7 @@ Campaign Web UI中典型的端對端流程如下：
 
 * **優惠追蹤** — 設定優惠方案主張的追蹤，以饋送主張歷程記錄。 檢視[追蹤優惠方案主張](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}。
 
-* **操作員角色** — 指派優惠方案管理員/傳遞管理員許可權。 請參閱互動模組](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}的[運運算元。
+* **操作員角色** — 指派優惠方案管理員/傳遞管理員許可權。 請參閱互動模組[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}的運運算元。
 
 * **互動最佳實務和套利規則**。 請參閱[行銷活動互動最佳實務](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}。
 

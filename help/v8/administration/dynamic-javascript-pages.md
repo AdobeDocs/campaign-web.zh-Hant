@@ -69,6 +69,6 @@ ht-degree: 29%
 
 1. 按一下&#x200B;**[!UICONTROL 確認]**&#x200B;以儲存您的程式碼。
 
-1. 當您的動態JavaScript頁面準備就緒時，請按一下[建立]。**** 頁面現在可從名稱空間和名稱建立的URL存取，格式為`https://<your-instance>/<namespace>/<name>`。 例如，`cus`名稱空間中名為`recipientAPI.jssp`的頁面可在`https://<your-instance>/cus/recipientAPI.jssp`存取。
+1. 當您的動態JavaScript頁面準備就緒時，請按一下[建立]。**&#x200B;** 頁面現在可從名稱空間和名稱建立的URL存取，格式為`https://<your-instance>/<namespace>/<name>`。 例如，`cus`名稱空間中名為`recipientAPI.jssp`的頁面可在`https://<your-instance>/cus/recipientAPI.jssp`存取。
 
 如需可重複使用JavaScript函式的詳細資訊，請參閱[使用JavaScript程式碼](javascript-codes.md)。

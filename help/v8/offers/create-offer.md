@@ -38,7 +38,7 @@ ht-degree: 3%
 
    ![顯示優惠方案建立的熒幕擷圖。](assets/offers-offer-1.png){zoomable="yes"}
 
-1. 輸入&#x200B;**[!UICONTROL 標籤]**，並選擇性地使用指派給&#x200B;]**的**[!UICONTROL &#x200B;將優惠指派給運運算元，和/或輸入&#x200B;**[!UICONTROL 優惠代碼]**。
+1. 輸入&#x200B;**[!UICONTROL 標籤]**，並選擇性地使用指派給&#x200B;**的**&#x200B;將優惠指派給運運算元，和/或輸入&#x200B;**[!UICONTROL 優惠代碼]**。
 
 1. 展開&#x200B;**[!UICONTROL 其他選項]**&#x200B;以編輯自動產生的&#x200B;**[!UICONTROL 內部名稱]**、選取儲存選件的&#x200B;**[!UICONTROL 類別]**，或新增說明。 此步驟為選填。
 
@@ -136,5 +136,5 @@ ht-degree: 3%
 
 當優惠方案上線時，您可以從任何將目標鎖定於相符優惠方案空間的傳送中選取。 瞭解如何在[新增優惠到您的訊息](../msg/offers.md)中設定傳遞中的優惠。
 
-如需完整的傳出傳送整合，包括如何建立引擎呼叫以及如何將追蹤套用至選件連結，請參閱傳出傳送](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}中的[Campaign v8檔案選件。
+如需完整的傳出傳送整合，包括如何建立引擎呼叫以及如何將追蹤套用至選件連結，請參閱傳出傳送[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}中的Campaign v8檔案選件。
 

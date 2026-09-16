@@ -115,7 +115,7 @@ This activity relies on the [Federated Data Access (FDA)](https://experienceleag
 設定資料表後，**[!UICONTROL 收集到的資訊]**&#x200B;區段可讓您定義從外部資料表收集哪些資料行：
 
 1. 如果您需要收集所選資料表的每個資料行，請核取&#x200B;**[!UICONTROL 保留所有來源資料]**&#x200B;選項（預設）。
-1. 按一下[新增資料行]以擷取&#x200B;]**，改為收集特定資料行，或另外收集。**[!UICONTROL 
+1. 按一下[新增資料行]以擷取&#x200B;**，改為收集特定資料行，或另外收集。**
 
    ![資料載入(RDBMS)活動](../assets/workflow-data-loading-rdbms9.png)
 
