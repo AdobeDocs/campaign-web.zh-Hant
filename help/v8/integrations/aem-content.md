@@ -6,25 +6,27 @@ exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 TQID: https://experienceleague.adobe.com/gzygZHjIMZx5Zq-dnSiaUSUKyYdwhrkxFB4eFUXrS90
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 615
+source-wordcount: '615'
 ht-degree: 5%
-
 ---
-
 # 使用[!DNL Adobe Experience Manager as a Cloud Service]管理範本{#aem-assets}
 
 ## 開始使用 [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem}
 
 Adobe Campaign網頁介面與Adobe Experience Manager的整合，使得直接在Adobe Experience Manager平台中管理電子郵件傳遞內容和表單的工作得以簡化。
 
-![](assets/do-not-localize/book.png) [進一步瞭解Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=zh-Hant)
+![](assets/do-not-localize/book.png)[進一步瞭解Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
 ## 在[!DNL Adobe Experience Manager as a Cloud Service]中建立範本{#create-aem-template}
 
@@ -32,7 +34,7 @@ Adobe Campaign網頁介面與Adobe Experience Manager的整合，使得直接在
 
 1. 存取&#x200B;**[!UICONTROL 行銷活動>品牌名稱>主要區域>頁面名稱]**。
 
-1. 按一下「建立&#x200B;**&#x200B;**」，然後從下拉式功能表中選取「**[!UICONTROL 頁面]**」。
+1. 按一下「建立&#x200B;****」，然後從下拉式功能表中選取「**[!UICONTROL 頁面]**」。
 
    ![在下拉式功能表中顯示[建立]按鈕和[頁面]選項的熒幕擷圖。](assets/aem_1.png)
 
@@ -40,7 +42,7 @@ Adobe Campaign網頁介面與Adobe Experience Manager的整合，使得直接在
 
    ![[顯示「Adobe Campaign電子郵件」範本選取範圍與命名欄位的熒幕擷圖。]](assets/aem_2.png)
 
-1. 透過新增元件來自訂您的電子郵件內容，例如來自Adobe Campaign的個人化欄位。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=zh-Hant#editing-email-content)
+1. 透過新增元件來自訂您的電子郵件內容，例如來自Adobe Campaign的個人化欄位。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=en#editing-email-content)
 
 1. 電子郵件準備就緒後，請瀏覽至&#x200B;**[!UICONTROL 頁面資訊]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 開始工作流程]**。
 

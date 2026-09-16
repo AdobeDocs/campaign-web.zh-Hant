@@ -6,9 +6,7 @@ source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
-
 ---
-
 # 存取和設定結構描述 {#access}
 
 可從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 方案]**&#x200B;功能表存取方案。

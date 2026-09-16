@@ -6,13 +6,12 @@ exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 TQID: https://experienceleague.adobe.com/zDt9wDMvygP9NTWF5c36g-7jzikNEaTPegCJMvN4dec
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 141
+source-wordcount: '141'
 ht-degree: 35%
-
 ---
-
 # 新增內嵌樣式屬性 {#adding-inline-styling-attributes}
 
 在電子郵件Designer介面中，當您選取元素並在右側窗格中顯示其設定時，您可以自訂該特定元素的內嵌屬性及其值。

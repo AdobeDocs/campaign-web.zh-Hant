@@ -6,17 +6,18 @@ exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
 TQID: https://experienceleague.adobe.com/kMFMddQ-ZYGJIZ7-0BfrUMQzJ701fQlpehO15llbJAw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1213
-ht-degree: 3%
-
+source-wordcount: '1212'
+ht-degree: 2%
 ---
-
 # 產生影像 {#generative-image}
 
 >[!IMPORTANT]
@@ -75,7 +76,7 @@ ht-degree: 3%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 在您滿意提示組態之後，請按一下[產生]。**&#x200B;**
+1. 在您滿意提示組態之後，請按一下[產生]。****
 
 ### 精簡並完成 {#refine-finalize}
 
@@ -111,7 +112,7 @@ ht-degree: 3%
 
 若要開始使用AI產生推播通知的影像，請先設定您的傳送並開啟「產生內容」。
 
-1. 建立及設定推播通知傳遞之後，請按一下[編輯內容]。**&#x200B;** [了解更多](../push/create-push.md)
+1. 建立及設定推播通知傳遞之後，請按一下[編輯內容]。**** [了解更多](../push/create-push.md)
 
 1. 存取&#x200B;**[!UICONTROL 顯示產生內容]**&#x200B;功能表。
 
@@ -145,7 +146,7 @@ ht-degree: 3%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#mobile-refine-finalize}
 

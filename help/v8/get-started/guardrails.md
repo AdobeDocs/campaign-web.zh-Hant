@@ -5,13 +5,12 @@ exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 TQID: https://experienceleague.adobe.com/ueMHT8uicRU5nggOtC1xtoSIp8sGd82zlA2hoFrXodc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 382
+source-wordcount: '382'
 ht-degree: 100%
-
 ---
-
 # 工作流程的護欄和限制 {#guardrails-limitations}
 
 當在 Campaign Web 使用者介面使用在 Campaign 用戶端主控台建立或修改的工作流程時，便會套用下方所列的護欄和限制。

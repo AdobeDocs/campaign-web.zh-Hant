@@ -6,13 +6,12 @@ exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 TQID: https://experienceleague.adobe.com/s1-w6QPAcZkFNzkImCJ5RHds9nhbaghxgQLxh07NFEA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 262
+source-wordcount: '262'
 ht-degree: 100%
-
 ---
-
 # 早期發行說明 {#e-release}
 
 Adobe Campaign Web 使用者介面持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每個月月末整合於[發行說明](release-notes.md)中。

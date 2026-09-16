@@ -5,9 +5,7 @@ source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 13%
-
 ---
-
 # 控制資料的動作 {#action-data}
 
 >[!CONTEXTUALHELP]

@@ -6,18 +6,20 @@ exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 TQID: https://experienceleague.adobe.com/QKxR-bOuqjwx6Rmn0ncEESNE-A1-1yH2bDFPhzfDPXE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 576
+source-wordcount: '576'
 ht-degree: 19%
-
 ---
-
 # 外部傳遞管道的行銷活動報告 {#campaign-reports-direct-mail}
 
 每個行銷活動報告都會分成不同的Widget，詳細說明行銷活動的成功和錯誤。 對於外部傳遞管道，報表和量度詳情如下。 在[此頁面](campaign-reports.md)中瞭解如何存取您的行銷活動報告。

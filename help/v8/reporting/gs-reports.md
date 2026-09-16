@@ -6,18 +6,20 @@ exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 TQID: https://experienceleague.adobe.com/YSkF82u-0-DmG1N7SnJwXSdHJdWZwp8A8ZLwkBbYJLg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 233
+source-wordcount: '233'
 ht-degree: 100%
-
 ---
-
 # 開始使用報告 {#get-started-reports}
 
 我們的全方位報告工具&#x200B;&#x200B;套件可提供有關行銷工作效益的寶貴洞察，讓您能夠將行銷活動最佳化，以產生最大的影響力。 從傳遞率到開啟率以及點進率，我們的報告套件擁有您需要的所有資訊，讓您能夠根據資料做出可提升成果的決策。

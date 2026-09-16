@@ -6,16 +6,17 @@ exl-id: da60d57e-d17f-40eb-9c24-0bfea940d236
 TQID: https://experienceleague.adobe.com/yV28iGW0nS-R6ZgQnfOrpfZlCzQu-1Ng1TH6aWD8QOg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1451
+source-wordcount: '1450'
 ht-degree: 2%
-
 ---
-
 # 產生文字 {#generative-text}
 
 >[!IMPORTANT]
@@ -69,7 +70,7 @@ ht-degree: 2%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#refine-finalize}
 
@@ -155,7 +156,7 @@ ht-degree: 2%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#mobile-refine-finalize}
 

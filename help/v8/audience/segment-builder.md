@@ -7,9 +7,7 @@ source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 24%
-
 ---
-
 # 使用規則產生器 {#segment-builder}
 
 規則產生器可讓您透過篩選資料庫中包含的資料，定義傳送所定位的母體。 透過使用&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動的工作流程，或直接在建立傳遞以建立一次性對象時，使用此工具來建立對象。

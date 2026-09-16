@@ -7,27 +7,36 @@ exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
 TQID: https://experienceleague.adobe.com/mzGXV-UDaMU1UlCJPmmP6jPD9jSdRLesXnsHPvUfbRY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1463
+source-wordcount: '1485'
 ht-degree: 3%
-
 ---
-
 # 從Campaign Standard到Campaign v8的使用者存取管理 {#user-management-acs}
 
 Adobe Campaign Standard和Adobe Campaign v8都可讓使用者定義和管理不同使用者/操作者的許可權。 這些許可權包含授予使用者存取產品各種功能的特定許可權。 不過，這兩種產品使用不同的方法和實作來管理使用者存取許可權。
@@ -45,7 +54,7 @@ Adobe Campaign Standard和Campaign v8會使用下列概念，來達成使用者�
 
 >[!IMPORTANT]
 >
->這些角色/已命名許可權的功能在實施中可能會有所不同，這可能會造成授權問題（例如，許可權提升或功能中斷）。 我們建議使用者在轉換後檢閱這些對應，以確保適當的存取控制。 [進一步瞭解許可權](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+>這些角色/已命名許可權的功能在實施中可能會有所不同，這可能會造成授權問題（例如，許可權提升或功能中斷）。 我們建議使用者在轉換後檢閱這些對應，以確保適當的存取控制。 [進一步瞭解許可權](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 下表概述從Adobe Campaign Standard轉換至Campaign v8時，使用者角色群組的移轉方法。 在Campaign Standard中，**安全性群組** （在Campaign v8中稱為&#x200B;**運運算元群組**）是用來指派一組角色給使用者。 雖然有些安全性群組/運運算元群組是現成可用的群組，但使用者可視需要建立新群組或修改現有群組。
 
@@ -53,7 +62,7 @@ Adobe Campaign Standard和Campaign v8會使用下列概念，來達成使用者�
 |---------|----------|---------|
 | **術語**  | 安全性群組 | 操作員群組 |
 
-在Adobe Campaign Standard和Campaign v8中，**安全性群組**&#x200B;和&#x200B;**操作員群組**&#x200B;都會對應到Admin Console中的產品設定檔。 如果您想要將&#x200B;**安全性群組**&#x200B;或&#x200B;**操作員群組**&#x200B;指派給使用者，可以在Admin Console中連結對應的&#x200B;**產品設定檔**。 此關聯會在使用者登入時同步化。 [進一步瞭解產品設定檔](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+在Adobe Campaign Standard和Campaign v8中，**安全性群組**&#x200B;和&#x200B;**操作員群組**&#x200B;都會對應到Admin Console中的產品設定檔。 如果您想要將&#x200B;**安全性群組**&#x200B;或&#x200B;**操作員群組**&#x200B;指派給使用者，可以在Admin Console中連結對應的&#x200B;**產品設定檔**。 此關聯會在使用者登入時同步化。 [進一步瞭解產品設定檔](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **Campaign Standard安全性群組** | **Campaign v8操作員群組** |
 |----------|---------|
@@ -87,7 +96,7 @@ Adobe Campaign Standard和Campaign v8會使用下列概念，來達成使用者�
 
 >[!IMPORTANT]
 >
->Adobe Campaign Standard中沒有&#x200B;**所有（所有）**&#x200B;作為直接或間接父級的組織單位將不會移轉至Campaign v8。
+>Adobe Campaign Standard中沒有&#x200B;**所有（所有）**作為直接或間接父級的組織單位將不會移轉至Campaign v8。
 ></br>
 >系統會為多個安全性群組中的使用者指派最高級別安全性群組的組織單位。 如果多個群組有平行的頂層單位，則系統會為Campaign Standard中的使用者選取組織單位，該使用者將只能存取系統選取的組織單位及其子項。 在移轉後的Campaign v8中，使用者將可存取&#x200B;**所有指派的組織單位及其子項**，可能會增加許可權。 為避免此問題，請避免將使用者指派給具有平行組織單位的安全性群組。 深入瞭解[平行組織單位指派](#parallel-assignments)。
 

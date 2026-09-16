@@ -6,9 +6,7 @@ source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 2%
-
 ---
-
 # 促銷活動特定外部帳戶 {#external-account}
 
 請依照下列步驟，根據您選取的外部帳戶型別進行帳戶設定。
@@ -105,6 +103,6 @@ ht-degree: 2%
 
 * **[!UICONTROL 方法]** — 在Web服務或同盟資料存取(FDA)之間選擇。
 
-  針對FDA，請選取您的FDA帳戶。 請注意，與外部系統的Campaign連線僅限於進階使用者，而且只能從使用者端主控台使用。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/connect/fda#_blank)
+  針對FDA，請選取您的FDA帳戶。 請注意，與外部系統的Campaign連線僅限於進階使用者，而且只能從使用者端主控台使用。 [了解更多](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL 建立封存工作流程]** — 對於在訊息中心中註冊的每個執行執行個體，無論您是否有一或多個執行個體，請為與該執行個體相關聯的每個外部帳戶建立個別的封存工作流程。

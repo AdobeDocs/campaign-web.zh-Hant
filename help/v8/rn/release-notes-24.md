@@ -5,25 +5,33 @@ exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 TQID: https://experienceleague.adobe.com/N4YGqWeKVOfakNNxhRekN1TsH4vyLhYav47axHu5O08
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: ht
-source-wordcount: 2580
+workflow-type: tm+mt
+source-wordcount: '2580'
 ht-degree: 100%
-
 ---
-
 # 2024 年發行說明 {#2024-release}
 
 此頁面列出了 **2024 年版本**&#x200B;的所有變更和改進。 最新的發行說明可以在[此頁面](release-notes.md)找到。
@@ -137,7 +145,7 @@ ht-degree: 100%
 * **登陸頁面中的驗證碼** - 現在您可以新增驗證碼以保護您的登陸頁面，避免受機器人程式導致的垃圾訊息和濫用侵害。 這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。 [了解更多](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant){target="_blank"}.
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 -->
 
 
@@ -268,7 +276,7 @@ ht-degree: 100%
 
 * **品牌化** - 作為 Campaign Standard 移轉使用者，您的技術管理員現可定義一個或多個品牌，以便集中影響品牌識別的參數。 這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。 您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 [閱讀更多](../administration/branding/branding-gs.md)
 
-* **Rest API** - 作為 Campaign Standard 移轉使用者，您可使用 Rest API 來建立 Adobe Campaign 整合，並將 Adobe Campaign 與您使用的技術面板結合，以便建立您自己的生態系統。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant)
+* **Rest API** - 作為 Campaign Standard 移轉使用者，您可使用 Rest API 來建立 Adobe Campaign 整合，並將 Adobe Campaign 與您使用的技術面板結合，以便建立您自己的生態系統。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
 
 * **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 [閱讀更多](../reporting/dynamic-reporting/get-started-reporting.md)
 
@@ -297,7 +305,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->此版本適用於從 [Campaign (主控台) v8.6 發行版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=zh-Hant)開始的所有使用者。 若要了解更多關於 Adobe Campaign 用戶端主控台發行版本和升級的內容，請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hant){target="_blank"}。
+>此版本適用於從 [Campaign (主控台) v8.6 發行版本](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html)開始的所有使用者。 若要了解更多關於 Adobe Campaign 用戶端主控台發行版本和升級的內容，請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=zh-hant){target="_blank"}。
 
 **發行日期**：2024 年 3 月 19-20 日
 

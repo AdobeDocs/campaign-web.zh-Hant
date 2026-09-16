@@ -5,20 +5,23 @@ exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 TQID: https://experienceleague.adobe.com/SKT-mPGrNuXmEQx5NGEZt3tZLM271zg7-85AeC4DpVc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 203
+source-wordcount: '203'
 ht-degree: 100%
-
 ---
-
 # 開始使用輪廓和客群 {#about-profiles}
 
 在 Adobe Campaign Web 中，**輪廓**&#x200B;是儲存在資料庫中的記錄，也是建立傳遞客群並向內容新增個人化資料的關鍵元件。 資料庫中儲存有各種類型的輪廓，例如&#x200B;**測試輪廓**，其用途是讓您先測試傳遞內容，然後再傳送給最終客群。

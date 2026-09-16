@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 4%
-
 ---
-
 # 新增元件{#adding-components}
 
 元件可協助您使用不同的維度、量度和時段來自訂報表。

@@ -6,9 +6,7 @@ source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 8%
-
 ---
-
 # 核准 {#approval}
 
 >[!CONTEXTUALHELP]
@@ -70,7 +68,7 @@ ht-degree: 8%
 
 1. 定義傳送給受指派人之通知的&#x200B;**[!UICONTROL 訊息]**。
 
-這兩個欄位都支援個人化：按一下個人化圖示以插入事件變數，例如已回覆&#x200B;**的**&#x200B;運運算元和&#x200B;**[!UICONTROL 回應]**，您可以在工作流程的其他地方重複使用它們。
+這兩個欄位都支援個人化：按一下個人化圖示以插入事件變數，例如已回覆&#x200B;]**的**[!UICONTROL &#x200B;運運算元和&#x200B;**[!UICONTROL 回應]**，您可以在工作流程的其他地方重複使用它們。
 
 ![熒幕擷圖顯示訊息個人化](../assets/workflow-approval2bis.png){zoomable="yes"}
 

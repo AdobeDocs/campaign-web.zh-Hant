@@ -6,18 +6,17 @@ exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
 TQID: https://experienceleague.adobe.com/B4dcgNoG8uflTmYejb0fPp9NjWPawctMacxjZBxa0zU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1653
+source-wordcount: '1653'
 ht-degree: 4%
-
 ---
-
 # 設計 iOS 豐富的推播傳遞 {#rich-push}
 
 >[!IMPORTANT]
 >
->在設計豐富推送通知之前，您需要設定您的V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)。
+>在設計豐富推送通知之前，您需要設定您的V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)。
 
 ## 定義通知的內容 {#push-message}
 

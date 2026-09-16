@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
-
 ---
-
 # 新增面板{#adding-panels}
 
 ## 新增空白面板 {#adding-a-blank-panel}

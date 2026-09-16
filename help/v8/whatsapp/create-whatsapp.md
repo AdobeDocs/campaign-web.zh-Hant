@@ -12,9 +12,7 @@ source-git-commit: aa1a7c48d1708e73e4d6c6bbe4decd2e5ca69102
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 3%
-
 ---
-
 
 # 建立WhatsApp訊息 {#create-whatsapp}
 

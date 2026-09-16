@@ -3,12 +3,10 @@ title: Campaign v8 Web 使用者介面先前發行說明
 description: 2026 Campaign Web 使用者介面版本
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 100%
-
 ---
-
 # 2026 年發行說明 {#2026-release}
 
 此頁面列出了 **2026 年版本**&#x200B;的所有變更和改進。 最新的發行說明請前往[此頁面](release-notes.md)查閱。
@@ -28,7 +26,7 @@ _2026 年 7 月 28 日_
 <tbody>
 <tr>
 <td>
-<p>您現在可以直接從 Campaign Web 使用者介面端到端管理產品建議。設定產品建議環境和產品建議空間，建立您的產品建議目錄和類別，建立具備資格規則和優先權重的產品建議，然後核准並部署，以便在您的即時傳遞中使用。進階設定仍保留在用戶端主控台中。</p>
+<p>您現在可以直接從 Campaign Web 使用者介面端到端管理產品建議。 設定產品建議環境和產品建議空間，建立您的產品建議目錄和類別，建立具備資格規則和優先權重的產品建議，然後核准並部署，以便在您的即時傳遞中使用。 進階設定仍保留在用戶端主控台中。</p>
 <p>如需詳細資訊，請參閱<a href="../offers/gs-offer-management.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -44,7 +42,7 @@ _2026 年 7 月 28 日_
 <tbody>
 <tr>
 <td>
-<p>技術管理員現在可以直接從 Campaign Web 使用者介面建立和設定品牌，無需使用用戶端主控台。所有品牌設定 (包括身分、子網域和通訊協定、電子郵件標頭參數，以及 URL 追蹤參數) 現在均可於 Web UI 中使用。</p>
+<p>技術管理員現在可以直接從 Campaign Web 使用者介面建立和設定品牌，無需使用用戶端主控台。 所有品牌設定 (包括身分、子網域和通訊協定、電子郵件標頭參數，以及 URL 追蹤參數) 現在均可於 Web UI 中使用。</p>
 <p>如需詳細資訊，請參閱<a href="../administration/branding/branding-configure.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -60,7 +58,7 @@ _2026 年 7 月 28 日_
 <tbody>
 <tr>
 <td>
-<p>在電子郵件中新增影像時，您現在可以選取<strong>公用資源</strong>。這讓您可以選擇 Adobe Campaign 執行個體上已有的影像，例如先前在電子郵件設計工具中匯入的檔案，或從用戶端主控台上傳的公用資源。</p>
+<p>在電子郵件中新增影像時，您現在可以選取<strong>公用資源</strong>。 這讓您可以選擇 Adobe Campaign 執行個體上已有的影像，例如先前在電子郵件設計工具中匯入的檔案，或從用戶端主控台上傳的公用資源。</p>
 <p>如需詳細資訊，請參閱<a href="../email/content-components.md#image">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -76,7 +74,7 @@ _2026 年 7 月 28 日_
 <tbody>
 <tr>
 <td>
-<p>現在 Campaign Web 使用者介面中已提供<strong>資料載入 (RDBMS)</strong>活動。使用此活動可將資料直接從外部關聯式資料庫載入到您的工作流程中。 所擷取的資料可在整個工作流程中使用，並可用於目標市場選擇、擴充或進一步資料處理。</p>
+<p>現在 Campaign Web 使用者介面中已提供<strong>資料載入 (RDBMS)</strong>活動。 使用此活動可將資料直接從外部關聯式資料庫載入到您的工作流程中。 所擷取的資料可在整個工作流程中使用，並可用於目標市場選擇、擴充或進一步資料處理。</p>
 <p>如需詳細資訊，請參閱<a href="../workflows/activities/data-loading-rdbms.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -102,16 +100,16 @@ _2026 年 7 月 28 日_
 ### 功能改進 {#26-7-improvements}
 
 * 已針對&#x200B;**自訂結構描述設定**&#x200B;進行下列改善：
-  * 新的&#x200B;**動作資料**&#x200B;區段可讓您限制自訂結構描述記錄上可用的動作，無論個別資料夾上設定的安全規則為何。[閱讀更多](../administration/schemas-action-data.md)
-  * 已在&#x200B;**庫存清單設定**&#x200B;區段中新增&#x200B;**自訂篩選器**。這些篩選器可讓您選擇哪些屬性在清單檢視的篩選器窗格中顯示為快速存取欄位。[閱讀更多](../administration/schemas-custom-filters.md)
+  * 新的&#x200B;**動作資料**&#x200B;區段可讓您限制自訂結構描述記錄上可用的動作，無論個別資料夾上設定的安全規則為何。 [閱讀更多](../administration/schemas-action-data.md)
+  * 已在&#x200B;**庫存清單設定**&#x200B;區段中新增&#x200B;**自訂篩選器**。 這些篩選器可讓您選擇哪些屬性在清單檢視的篩選器窗格中顯示為快速存取欄位。 [閱讀更多](../administration/schemas-custom-filters.md)
 
 * 已針對&#x200B;**工作流程**&#x200B;進行下列改善：
-  * 刪除工作流程活動現在更具彈性：當活動具有後續活動時，您可以選擇全部刪除、僅刪除所選活動，或在保留其後續活動於新分支中的情況下刪除該活動。[閱讀更多](../workflows/orchestrate-activities.md#delete-activity)
-  * 您現在可以中斷兩個工作流程活動之間的轉換，而無需刪除其中任何一個。這可讓您重新組織工作流程圖表，例如暫時將一組您想保留的活動擱置一旁，而無需刪除和重新建立它們。[閱讀更多](../workflows/orchestrate-activities.md#disconnect-transition)
-  * 工作流程畫布現在會顯示水平和垂直捲軸，讓您可以直接拖曳到要檢視的區域，以便瀏覽大型工作流程。[閱讀更多](../workflows/orchestrate-activities.md)
-  * 儲存或啟動／重新啟動工作流程時，若自您開啟後有其他使用者曾在 Web UI 或用戶端主控台中修改該工作流程，現在會顯示警告。您可以選擇以您的變更覆寫其他變更、重新載入工作流程以取得最新版本，或取消操作。
+  * 刪除工作流程活動現在更具彈性：當活動具有後續活動時，您可以選擇全部刪除、僅刪除所選活動，或在保留其後續活動於新分支中的情況下刪除該活動。 [閱讀更多](../workflows/orchestrate-activities.md#delete-activity)
+  * 您現在可以中斷兩個工作流程活動之間的轉換，而無需刪除其中任何一個。 這可讓您重新組織工作流程圖表，例如暫時將一組您想保留的活動擱置一旁，而無需刪除和重新建立它們。 [閱讀更多](../workflows/orchestrate-activities.md#disconnect-transition)
+  * 工作流程畫布現在會顯示水平和垂直捲軸，讓您可以直接拖曳到要檢視的區域，以便瀏覽大型工作流程。 [閱讀更多](../workflows/orchestrate-activities.md)
+  * 儲存或啟動／重新啟動工作流程時，若自您開啟後有其他使用者曾在 Web UI 或用戶端主控台中修改該工作流程，現在會顯示警告。 您可以選擇以您的變更覆寫其他變更、重新載入工作流程以取得最新版本，或取消操作。
 
-* **寄件者電子郵件地址**：您現在可以使用 **NmsDelivery_senderAddressMask** 選項，將即時傳遞的&#x200B;**寄件者電子郵件**&#x200B;欄位限制為預先定義的地址清單。[閱讀更多](../administration/options.md#restrict-sender-address)
+* **寄件者電子郵件地址**：您現在可以使用 **NmsDelivery_senderAddressMask** 選項，將即時傳遞的&#x200B;**寄件者電子郵件**&#x200B;欄位限制為預先定義的地址清單。 [閱讀更多](../administration/options.md#restrict-sender-address)
 * **登入錯誤訊息**&#x200B;已獲得改善：當登入嘗試失敗時，Web UI 現在會針對多種情境顯示更具體的錯誤訊息 (例如，當使用者未獲指派安全區域或其 IP 位址受到限制時)。
 
 ## 2026 年 6 月版 {#26-6-release}

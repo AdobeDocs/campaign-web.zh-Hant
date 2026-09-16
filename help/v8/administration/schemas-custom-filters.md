@@ -6,9 +6,7 @@ source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 3%
-
 ---
-
 # 新增自訂篩選器 {#custom-filters}
 
 **[!UICONTROL 詳細目錄清單組態]** > **[!UICONTROL 自訂篩選器]**&#x200B;區段可讓您選擇哪些屬性會在結構描述清單檢視的[篩選器窗格](../query/filter.md)中，於&#x200B;**[!UICONTROL 進階篩選器]**&#x200B;規則產生器上方，顯示為快速存取欄位。

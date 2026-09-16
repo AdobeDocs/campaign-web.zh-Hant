@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 8%
-
 ---
-
 # 退回摘要{#bounce-summary}
 
 此報表詳細說明傳送期間遇到的整體硬式和軟式錯誤，以及自動處理退信。

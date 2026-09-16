@@ -6,15 +6,15 @@ exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 TQID: https://experienceleague.adobe.com/PPrenfLb4utuqvAsrSitbtZzDHcCehzrOMK4R7L2EMw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 131
+source-wordcount: '131'
 ht-degree: 16%
-
 ---
-
 # 撰寫您自己電子郵件內容的程式碼 {#code-content}
 
 使用您自己的&#x200B;**[!UICONTROL 編碼模式]**&#x200B;來匯入原始HTML並編碼您的電子郵件內容。

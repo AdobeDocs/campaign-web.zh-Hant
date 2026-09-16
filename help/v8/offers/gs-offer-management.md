@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 開始使用選件管理
+title: 開始使用產品建議管理
 description: 瞭解如何在Adobe Campaign網頁版中管理優惠方案
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 763
-ht-degree: 3%
-
+source-wordcount: '763'
+ht-degree: 4%
 ---
-
-# 開始使用選件管理 {#gs-offer-management}
+# 開始使用產品建議管理 {#gs-offer-management}
 
 此功能可讓您將個人化優惠新增至傳遞，並針對特定內容中的每個設定檔呈現最相關的優惠方案。 優惠方案可以是一或多個產品的簡單通訊訊息或促銷活動。 優惠方案引擎會根據適用性規則和優先順序權重，選取要呈現的最佳主張。
 
@@ -77,14 +77,14 @@ Campaign Web UI中典型的端對端流程如下：
 
 部分選件功能尚未在Web使用者介面中公開，仍須從使用者端主控台進行設定：
 
-* **優惠方案模擬** — **模擬**&#x200B;模組可讓您在傳送之前測試優惠方案的分佈。 請參閱[優惠方案模擬](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=zh-Hant#offer-simulation){target="_blank"}。
+* **優惠方案模擬** — **模擬**&#x200B;模組可讓您在傳送之前測試優惠方案的分佈。 請參閱[優惠方案模擬](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}。
 
 * **預先定義的篩選器**&#x200B;管理 — 可從任何選件參考的可重複使用的篩選器規則。 請參閱[管理預先定義的篩選器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}。
 
-* **優惠追蹤** — 設定優惠方案主張的追蹤，以饋送主張歷程記錄。 檢視[追蹤優惠方案主張](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=zh-Hant){target="_blank"}。
+* **優惠追蹤** — 設定優惠方案主張的追蹤，以饋送主張歷程記錄。 檢視[追蹤優惠方案主張](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}。
 
-* **操作員角色** — 指派優惠方案管理員/傳遞管理員許可權。 請參閱互動模組[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}的運運算元。
+* **操作員角色** — 指派優惠方案管理員/傳遞管理員許可權。 請參閱互動模組](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}的[運運算元。
 
-* **互動最佳實務和套利規則**。 請參閱[行銷活動互動最佳實務](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hant){target="_blank"}。
+* **互動最佳實務和套利規則**。 請參閱[行銷活動互動最佳實務](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}。
 
 * **報告** — Web使用者介面中尚未提供專用的優惠方案和主張報告。

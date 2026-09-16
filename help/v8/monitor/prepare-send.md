@@ -6,13 +6,12 @@ exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 TQID: https://experienceleague.adobe.com/C6e0KNg-R2nMDbliQtciQ8-SHRscbxaC91ol0L-cFfM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 998
+source-wordcount: '998'
 ht-degree: 33%
-
 ---
-
 # 準備並傳送您的電子郵件 {#prepare-send}
 
 ## 準備傳送 {#prepare}
@@ -21,7 +20,7 @@ ht-degree: 33%
 
 在準備傳送期間，會計算目標母體，並針對目標中包含的每個設定檔產生訊息內容。 準備完成後，訊息即可立即傳送，或在排程的日期和時間傳送。
 
-傳遞準備期間使用的驗證規則在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=zh-Hant){target="_blank"}中有說明。
+傳遞準備期間使用的驗證規則在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}中有說明。
 
 準備傳送的主要步驟如下。
 

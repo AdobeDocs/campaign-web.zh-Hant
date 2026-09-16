@@ -6,15 +6,15 @@ exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: '206'
 ht-degree: 98%
-
 ---
-
 # 開始使用推播通知 {#push}
 
 推播是您接觸行動應用程式使用者的重要途徑，即使使用者並未主動使用應用程式也可以。 推播有多種用途，例如提供更新、促使執行特定動作，以及通知使用者相關優惠。 請注意，使用者必須選擇加入才能接收到這些通知。
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 * **獨立傳遞**：透過個別的推播傳遞，直接與客戶立即進行互動，而不需要工作流程或行銷活動。
 
-![](../assets/do-not-localize/book.png)若要了解如何設定推播管道，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=zh-Hant){target="_blank"}。
+![](../assets/do-not-localize/book.png)若要了解如何設定推播管道，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

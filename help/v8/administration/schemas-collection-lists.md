@@ -6,9 +6,7 @@ source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 3%
-
 ---
-
 # 新增集合清單 {#collection-lists}
 
 **自訂清單清單**&#x200B;區段可讓您定義集合連結，例如購買。 然後，相關資料會透過專用索引標籤顯示在設定檔畫面中。
@@ -29,7 +27,7 @@ ht-degree: 3%
 
    ![集合清單建立](assets/schemas-collection1.png)
 
-1. 選取其中一個可用的自訂清單，例如購買專案，然後按一下[確認]。**&#x200B;**
+1. 選取其中一個可用的自訂清單，例如購買專案，然後按一下[確認]。****
 
    ![集合清單建立](assets/schemas-collection2.png)
 

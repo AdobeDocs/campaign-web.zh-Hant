@@ -6,15 +6,15 @@ exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 TQID: https://experienceleague.adobe.com/Bkj-J6OG12-LbMCwv9uankcZCZErylVtZVZtR512H6g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '506'
 ht-degree: 100%
-
 ---
-
 # 選取屬性並將其加入最愛 {#folders}
 
 Campaign Web 使用者介面可讓使用者根據執行的動作，從不同地點的資料庫中選取屬性。 例如，可以在定義直接郵件傳遞或要擷取檔案的輸出資料欄時選取屬性。 同樣地，使用查詢建模工具建立規則、篩選器或建置客群時，也可以選取屬性。

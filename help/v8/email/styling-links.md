@@ -6,13 +6,12 @@ exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 TQID: https://experienceleague.adobe.com/GW1s2IJjSH-7ZygfvRCNzzfMZIIWibjPBvmr69sT6LU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 170
+source-wordcount: '170'
 ht-degree: 43%
-
 ---
-
 # 定義連結樣式 {#styling-links}
 
 您可以為連結加底線，然後在電子郵件設計工具中選取其顏色和目標。

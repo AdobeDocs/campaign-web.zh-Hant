@@ -6,15 +6,15 @@ exl-id: 48c34581-8825-4798-b24e-c462303f7645
 TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '429'
 ht-degree: 4%
-
 ---
-
 # 使用捕捉器群組 {#trap-group}
 
 **[!UICONTROL 陷阱群組]** （也稱為&#x200B;**[!UICONTROL 種子清單]**）可用來在您的傳遞中包含特定地址，以透過鎖定不符合定義的目標條件的設定檔來監控和驗證發佈程式。 如此一來，不在傳遞範圍的收件者可以像任何其他目標收件者一樣接收傳遞。

@@ -8,20 +8,23 @@ exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
 TQID: https://experienceleague.adobe.com/Wwn4Gh2Xgf8A5dHJ-2bWu6DIziufzW7TsAlKDrUgWY4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: '997'
 ht-degree: 1%
-
 ---
-
 # 個人化您的品牌 {#brands-personalize}
 
 若要建立可確保所有內容和管道一致性的全方位品牌套件，請設定下列四個索引標籤，每個索引標籤著重於品牌識別的不同層面：
@@ -181,7 +184,7 @@ ht-degree: 1%
 
    ![](assets/brands-16.png)
 
-1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。**&#x200B;**
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
 1. 如有需要，請選取其中一個准則或排除專案來更新或刪除。
 
 1. 按一下![Dive image alt text](assets/do-not-localize/Smock_Edit_18_N.svg "Edit")以編輯您的範例，或按一下![潛水影像替代文字](assets/do-not-localize/Smock_Delete_18_N.svg "刪除")圖示以刪除範例。
@@ -247,7 +250,7 @@ ht-degree: 1%
 
      ![新增使用內容](assets/brands-17.png)
 
-1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。**&#x200B;**
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
 
 1. 若要新增顯示正確使用方式的影像，請選取&#x200B;**[!UICONTROL 範例]**，然後按一下&#x200B;**[!UICONTROL 選取影像]**。 您也可以新增使用方式不正確的影像，作為排除範例。
 

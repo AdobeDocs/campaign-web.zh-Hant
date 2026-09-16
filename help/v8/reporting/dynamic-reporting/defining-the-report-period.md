@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 3%
-
 ---
-
 # 定義報告期間{#defining-the-report-period}
 
 >[!NOTE]

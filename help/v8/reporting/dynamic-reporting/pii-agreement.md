@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 2%
-
 ---
-
 # 動態報告使用合約 {#pii-agreement}
 
 動態報告使用合約的目的是當做資料處理的快顯同意。 依預設，協定僅可見，且僅能被指派管理許可權的使用者接受或拒絕。

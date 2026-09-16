@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 17%
-
 ---
-
 # 投訴{#complaints}
 
 **[!UICONTROL 「申訴」]**&#x200B;報表可識別收到最多宣告為垃圾訊息的交付項目。

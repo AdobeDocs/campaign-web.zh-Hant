@@ -7,9 +7,7 @@ source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 42%
-
 ---
-
 # 建立和管理資料夾
 
 在Adobe Campaign中，您可以建立新資料夾來管理導覽樹狀結構。 在&#x200B;**[!UICONTROL 探索工具]**&#x200B;中，前往您想要在其中建立新資料夾的資料夾。

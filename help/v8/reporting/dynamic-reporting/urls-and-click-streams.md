@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 6%
-
 ---
-
 # URL 和點擊流量{#urls-and-click-streams}
 
 **URL和點按資料流**&#x200B;會顯示傳遞期間最多點按的URL，或若是連結至行銷活動或方案的多個傳遞。

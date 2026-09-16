@@ -11,17 +11,18 @@ exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 TQID: https://experienceleague.adobe.com/S2m5vtbGYiSLmuxr8-ZV7-UEQmbq4Rm-jatlOm86R30
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: '278'
 ht-degree: 6%
-
 ---
-
 # 使用電子郵件內容範本 {#use-email-templates}
 
 當[建立電子郵件](../email/create-email.md)時，請使用&#x200B;**[!UICONTROL 建立您的電子郵件]**&#x200B;介面的&#x200B;**[!UICONTROL 選取設計範本]**&#x200B;區段，以從範本開始建立您的內容。
@@ -50,7 +51,7 @@ ht-degree: 6%
 
    ![電子郵件Designer中的已儲存範本索引標籤](assets/email_designer-saved-templates-tab.png){zoomable="yes"}
 
-1. 所有[儲存的範本](create-email-templates.md#save-as-template)的清單會顯示。 您可以依名稱&#x200B;**、**&#x200B;[!UICONTROL &#x200B;上次修改時間&#x200B;]&#x200B;**和**&#x200B;[!UICONTROL &#x200B;上次建立時間&#x200B;]&#x200B;**來排序它們**。
+1. 所有[儲存的範本](create-email-templates.md#save-as-template)的清單會顯示。 您可以依名稱&#x200B;]**、**[!UICONTROL &#x200B;上次修改時間&#x200B;]**和**[!UICONTROL &#x200B;上次建立時間&#x200B;]**來排序它們**[!UICONTROL 。
 
    ![電子郵件Designer中已儲存的範本清單](assets/email_designer-saved-templates.png){zoomable="yes"}
 

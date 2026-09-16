@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
-
 ---
-
 # 傳遞摘要{#delivery-summary}
 
 **[!UICONTROL 傳遞摘要]**&#x200B;報告詳細說明與電子郵件或數封電子郵件相關的主要資訊。

@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
-
 ---
-
 # 新增視覺效果{#adding-visualizations}
 
 **視覺效果**&#x200B;索引標籤可讓您拖放視覺效果專案，例如區域、環形圖和圖形。 視覺效果可提供資料的圖形表示。

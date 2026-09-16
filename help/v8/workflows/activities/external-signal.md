@@ -6,15 +6,15 @@ exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
 TQID: https://experienceleague.adobe.com/qsWF6dpzJBCLxrtSd9-3ux-xKOn6wbfMh7oUn-m3w4U
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 source-git-commit: 2fbacd0b6e5c6bb88b7987f151bca514764e59f7
 workflow-type: tm+mt
-source-wordcount: 408
-ht-degree: 8%
-
+source-wordcount: '408'
+ht-degree: 9%
 ---
-
 # 外部訊號 {#external-signal}
 
 <!--External Signal End-->
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->此頁面說明在Campaign網頁使用者介面中設定&#x200B;**[!UICONTROL 外部訊號]**&#x200B;活動，並從其他工作流程或API呼叫觸發該活動的主要步驟。 有關如何觸發工作流程、最佳實務以及如何使用Campaign API的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)。
+>此頁面說明在Campaign網頁使用者介面中設定&#x200B;**[!UICONTROL 外部訊號]**&#x200B;活動，並從其他工作流程或API呼叫觸發該活動的主要步驟。 有關如何觸發工作流程、最佳實務以及如何使用Campaign API的詳細資訊，請參閱[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)。
 
 請依照下列步驟設定&#x200B;**外部訊號**&#x200B;活動並觸發其執行：
 
