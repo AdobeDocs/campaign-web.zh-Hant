@@ -6,15 +6,15 @@ exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
 TQID: https://experienceleague.adobe.com/jAIMH7uI-9k8Fij7eGITONONHDaVMReEOpyZU9X6we0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 370
+source-wordcount: '370'
 ht-degree: 1%
-
 ---
-
 # 工作流程事件變數 {#event-variables}
 
 有些工作流程活動可讓您在運算式編輯器中編輯指令碼以執行特定動作，例如從先前的活動中擷取資料、建置條件或根據事件變數計算檔案名稱。

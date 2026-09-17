@@ -9,9 +9,7 @@ source-git-commit: aaf74b9c924c7c0bb3150478e812aec71c579c40
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 45%
-
 ---
-
 
 # Adobe Campaign採用指南 {#acs-to-ac}
 

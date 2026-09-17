@@ -7,17 +7,18 @@ exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 TQID: https://experienceleague.adobe.com/2iCdY2zsGGy6us4VqszVNGpB1LeVmtZ2D1jKImBUuMA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 273
+source-wordcount: '268'
 ht-degree: 100%
-
 ---
-
 # 開始使用登陸頁面 {#get-sarted-lp}
 
 [!DNL Adobe Campaign] 讓您能夠建立、設計和共用登陸頁面。

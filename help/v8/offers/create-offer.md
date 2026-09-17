@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 建立並發佈優惠方案
+title: 建立及發佈產品建議
 description: 瞭解如何在Campaign Web中建立、設定、核准和部署優惠方案
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: tm+mt
-source-wordcount: 1057
-ht-degree: 2%
-
+source-wordcount: '1057'
+ht-degree: 3%
 ---
-
-# 建立並發佈優惠方案 {#create-offer}
+# 建立及發佈產品建議 {#create-offer}
 
 **優惠方案**&#x200B;是個別主張，有其自己的適用期間、目標篩選器、權重和內容。 優惠方案會透過&#x200B;**類別**&#x200B;在優惠方案目錄中組織，並透過&#x200B;**優惠方案空間**&#x200B;呈現給收件者。
 

@@ -6,15 +6,15 @@ exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 TQID: https://experienceleague.adobe.com/hpwPpLBk28eQ58sahnuBCostJpXhW7PDssUgjxainYY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 202
+source-wordcount: '202'
 ht-degree: 100%
-
 ---
-
 # 開始使用直接郵件傳遞 {#gs-direct-mail}
 
 直接郵件是一種離線管道，可讓您產生檔案以向客戶大量傳遞個人化信件，例如明信片、傳單或目錄。

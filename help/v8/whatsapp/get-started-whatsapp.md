@@ -11,9 +11,7 @@ source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 1%
-
 ---
-
 # 開始使用WhatsApp訊息 {#get-started-whatsapp}
 
 您可以使用Meta的[Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/)，從&#x200B;**Adobe Campaign Web使用者介面**&#x200B;傳送WhatsApp訊息。 將WhatsApp用於獨立傳送、行銷活動工作流程，或行銷活動內，連同您的其他管道。

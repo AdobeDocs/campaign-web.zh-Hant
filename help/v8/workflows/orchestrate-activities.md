@@ -6,13 +6,12 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
 workflow-type: tm+mt
-source-wordcount: 1720
-ht-degree: 8%
-
+source-wordcount: '1720'
+ht-degree: 10%
 ---
-
 # 協調活動 {#orchestrate}
 
 一旦您[建立了工作流程](create-workflow.md)，無論是從工作流程功能表還是在行銷活動中，您都可以開始協調它執行的不同工作。 為此，提供了視覺畫布，可讓您建構工作流程圖表。 在此圖表中，您可以新增各種活動，並依序連線它們。 水平和垂直卷軸會顯示在畫布周圍，讓您直接拖曳至要檢視的區域來導覽大型工作流程。
@@ -128,7 +127,7 @@ Journey Optimizer可讓您將活動及其子節點的全部內容（包括其內
 
 您可以中斷兩個活動的連線，而不刪除其中一個。 在中斷連線轉變之後放置的活動不會被刪除：它們會移至工作流程的一個新的獨立分支中。
 
-這可讓您重新組織工作流程圖表，例如暫時保留一組您要保留的活動，而不需要刪除和重新建立活動。
+這可讓您重新組織工作流程圖表，例如暫時將一組您想保留的活動擱置一旁，而無需刪除和重新建立它們。
 
 您可在單一轉變中執行這項操作：
 

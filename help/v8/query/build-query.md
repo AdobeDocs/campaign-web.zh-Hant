@@ -6,13 +6,12 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxIDgVWQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 2952
+source-wordcount: '2952'
 ht-degree: 7%
-
 ---
-
 # 建置您的第一個查詢 {#build-query}
 
 若要開始建立查詢，請根據您要執行的動作，從您選擇的位置存取查詢建模器。 查詢建模器會以空白畫布開啟。 按一下&#x200B;**+**&#x200B;按鈕，設定查詢的第一個節點。

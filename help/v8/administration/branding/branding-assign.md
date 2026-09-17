@@ -10,9 +10,7 @@ source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 13%
-
 ---
-
 # 指派您的品牌 {#branding-assign}
 
 ## 將品牌連結至範本 {#linking-a-brand-to-a-template}

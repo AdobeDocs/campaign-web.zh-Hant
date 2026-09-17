@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 開始使用選件管理
+title: 開始使用產品建議管理
 description: 瞭解如何在Adobe Campaign網頁版中管理優惠方案
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 763
-ht-degree: 3%
-
+source-wordcount: '763'
+ht-degree: 4%
 ---
-
-# 開始使用選件管理 {#gs-offer-management}
+# 開始使用產品建議管理 {#gs-offer-management}
 
 此功能可讓您將個人化優惠新增至傳遞，並針對特定內容中的每個設定檔呈現最相關的優惠方案。 優惠方案可以是一或多個產品的簡單通訊訊息或促銷活動。 優惠方案引擎會根據適用性規則和優先順序權重，選取要呈現的最佳主張。
 

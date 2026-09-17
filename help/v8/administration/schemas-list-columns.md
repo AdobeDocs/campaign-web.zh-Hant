@@ -5,10 +5,8 @@ exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
 source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 25%
-
+ht-degree: 26%
 ---
-
 # 設定清單欄 {#list-columns}
 
 >[!CONTEXTUALHELP]

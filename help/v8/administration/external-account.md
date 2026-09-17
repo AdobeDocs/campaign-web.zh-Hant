@@ -6,9 +6,7 @@ source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 2%
-
 ---
-
 # 促銷活動特定外部帳戶 {#external-account}
 
 請依照下列步驟，根據您選取的外部帳戶型別進行帳戶設定。

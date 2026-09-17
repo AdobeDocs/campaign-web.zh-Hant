@@ -6,13 +6,12 @@ exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 TQID: https://experienceleague.adobe.com/0cPQ1ZElguYmeDUybrkRyzW0l-ZXxoxSdQTesjPLrps
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: '571'
 ht-degree: 21%
-
 ---
-
 # 新增連結和追蹤訊息 {#tracking}
 
 使用電子郵件Designer新增連結至您的內容並追蹤傳送的訊息，可讓您監控收件者的行為。

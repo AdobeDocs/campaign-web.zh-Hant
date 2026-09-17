@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 6%
-
 ---
-
 # 傳遞失敗和退回次數{#non-deliverables-and-bounces}
 
 **[!UICONTROL 無法傳遞的專案和退信]**&#x200B;報告提供傳遞期間遇到的所有錯誤的詳細資料。

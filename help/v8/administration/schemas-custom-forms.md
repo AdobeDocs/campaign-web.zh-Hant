@@ -6,9 +6,7 @@ source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
-
 ---
-
 # 使用自訂表單 {#custom-forms}
 
 自訂表單是資料輸入介面，可讓您直接從Web使用者介面管理自訂結構描述中的記錄。 每個自訂表單都會對應至特定的自訂結構，並提供清單檢視來瀏覽記錄，並提供詳細資料檢視來建立、編輯和刪除記錄。

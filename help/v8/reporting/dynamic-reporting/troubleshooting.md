@@ -8,9 +8,7 @@ source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1255'
 ht-degree: 3%
-
 ---
-
 # 疑難排解{#troubleshooting}
 
 您可以在本小節中找到與動態報告相關的常見問題。

@@ -6,15 +6,15 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 TQID: https://experienceleague.adobe.com/RJbtR10FIXBaSjXv-HxYIsJg1vpDA71Gwu99Jl9GQh0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 86%
-
+source-wordcount: '342'
+ht-degree: 100%
 ---
-
 # 權限 {#permissions}
 
 Adobe Campaign 中的每位使用者在應用程式中都有特定權限和限制。 使用者可以屬於某個操作者群組並繼承該群組的權限。
@@ -53,8 +53,8 @@ Adobe Campaign 中的每位使用者在應用程式中都有特定權限和限�
 
 如果選取&#x200B;**[!UICONTROL 系統資料夾]**&#x200B;選項，則所有操作者無論權限為何都可以存取。
 
-請參閱此[章節](work-with-folders.md#folder-access-rights)，瞭解這些許可權如何影響資料夾中可供您使用的動作。
+請參閱此[區段](work-with-folders.md#folder-access-rights)，了解這些權限如何影響您可對資料夾執行的動作。
 
-已命名的許可權也會決定運運算元可使用哪些資料夾動作。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=zh-Hant#use-named-rights){target="_blank"}。
+已命名的權限也會決定操作員可使用哪些資料夾動作。 請參閱 [Campaign v8 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=zh-Hant#use-named-rights){target="_blank"}。
 
 Campaign Web 使用者介面中的所有權限，都會與 Campaign 用戶端主控台權限進行同步。

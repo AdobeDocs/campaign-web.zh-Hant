@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 16%
-
 ---
-
 # 取消訂閱次數{#unsubscriptions}
 
 **[!UICONTROL 「取消訂閱」]**&#x200B;報表可識別最多取消訂閱的交付項目。

@@ -6,16 +6,17 @@ exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 TQID: https://experienceleague.adobe.com/oUU-QTPEVgYame-X2qxNKw0hE8W8XNORFjVc-yC3-ww
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1334
+source-wordcount: '1334'
 ht-degree: 18%
-
 ---
-
 # 建立異動訊息
 
 在交易式訊息中，事件會觸發個人化訊息的傳送。 若要啟用此功能，請為每個事件型別建立訊息範本。 這些範本包含個人化交易式訊息的所有必要資訊。

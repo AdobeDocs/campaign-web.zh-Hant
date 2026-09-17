@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 4%
-
 ---
-
 # 傳遞總處理能力{#delivery-throughput}
 
 此報表包含與傳送或數個傳送的傳遞輸送量相關的資料。 它提供：

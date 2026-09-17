@@ -9,10 +9,8 @@ nudge: true
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 99%
-
+ht-degree: 100%
 ---
-
 
 # Adobe Campaign Web 文件 {#v8}
 
@@ -141,7 +139,7 @@ ht-degree: 99%
     + [運用 AI 產生文字](content/generative-text.md)
     + [運用 AI 產生影像](content/generative-image.md)
     + [產生內容使用案例](content/generative-uc.md)
-    + [電子郵件和登陸頁面Designer中的C2PA中繼資料](content/c2pa-metadata-email-designer.md)
+    + [電子郵件和登陸頁面設計工具中的 C2PA 中繼資料](content/c2pa-metadata-email-designer.md)
     + 品牌 {#ai-assistant}
       + [建立和管理您的品牌](content/brands.md)
       + [個人化您的品牌](content/brands-personalize.md)

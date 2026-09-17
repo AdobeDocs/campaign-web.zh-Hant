@@ -6,9 +6,7 @@ source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 1%
-
 ---
-
 # 建立和發佈結構描述 {#create-publish}
 
 ## 建立和管理方案 {#create-schemas}

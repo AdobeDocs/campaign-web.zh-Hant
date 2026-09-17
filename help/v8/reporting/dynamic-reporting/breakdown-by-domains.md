@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 2%
-
 ---
-
 # 依網域劃分{#breakdown-by-domains}
 
 此報表包含電子郵件傳遞對象中代表之每個網域的效能資料。 如果是行銷活動或方案報表，則效能資料可供多個對象使用。 此資料可讓您分析每個網域在回應特定事件時的行為。 例如，連結顯示、封鎖清單上的URL等。

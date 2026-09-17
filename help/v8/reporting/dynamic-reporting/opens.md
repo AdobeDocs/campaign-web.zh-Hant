@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 52%
-
 ---
-
 # 開啟次數{#opens}
 
 **[!UICONTROL 「開啟」]**&#x200B;報表可識別最多收件者檢視的交付項目。

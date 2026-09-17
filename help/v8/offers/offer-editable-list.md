@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 將可編輯清單新增至選件結構描述
+title: 將可編輯清單新增至產品建議結構描述
 description: 瞭解如何直接在優惠方案詳細資訊畫面中將自訂集合連結顯示為可編輯的清單。
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 1%
-
+source-wordcount: '449'
+ht-degree: 5%
 ---
-
-# 將可編輯清單新增至選件結構描述 {#offer-editable-list}
+# 將可編輯清單新增至產品建議結構描述 {#offer-editable-list}
 
 當您使用自訂集合連結（例如連結至優惠方案的一組區段）來[擴充 [!DNL nms:offer] 結構描述](../administration/schemas.md)時，可以直接在優惠方案的&#x200B;**[!UICONTROL 自訂選項]**&#x200B;區段中將其顯示為可編輯清單。 集合不會透過個別畫面管理相關記錄，而是呈現為優惠詳細資料中的清單，您可以透過專用對話方塊內嵌建立新的相關記錄。
 

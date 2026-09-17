@@ -1,7 +1,7 @@
 ---
 audience: end-user
 product: campaign
-title: 電子郵件和登陸頁面Designer中的C2PA中繼資料
+title: 電子郵件和登陸頁面設計工具中的 C2PA 中繼資料
 description: 瞭解已附加至影像的C2PA中繼資料在Adobe Campaign Web使用者介面中的電子郵件和登陸頁面設計工具中移動時會發生什麼事。
 topic: Content Management
 role: User
@@ -9,12 +9,10 @@ level: Beginner
 source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 1%
-
+ht-degree: 4%
 ---
 
-
-# 電子郵件和登陸頁面Designer中的C2PA中繼資料 {#c2pa-email-landing-page-designer}
+# 電子郵件和登陸頁面設計工具中的 C2PA 中繼資料 {#c2pa-email-landing-page-designer}
 
 >[!BEGINSHADEBOX]
 

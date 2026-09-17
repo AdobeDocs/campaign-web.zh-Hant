@@ -6,15 +6,15 @@ exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 TQID: https://experienceleague.adobe.com/96G-USwsSAOJUSeXTpgpCTgeCNfwgIBHorvcxvObcuw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 251
+source-wordcount: '251'
 ht-degree: 13%
-
 ---
-
 # 建立一次性客群 {#one-time}
 
 本節說明如何在建立新傳送時建立對象。 在此案例中，透過使用查詢模組化工具查詢資料庫，以傳送對象中包含的設定檔為目標。 產生的對象只會用於此傳送一次，不會儲存在對象清單中。

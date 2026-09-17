@@ -7,9 +7,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 5%
-
 ---
-
 # 簡訊報告{#sms-report}
 
 **SMS**&#x200B;報告提供有關SMS傳送的詳細資料，例如傳送率和跳出率。

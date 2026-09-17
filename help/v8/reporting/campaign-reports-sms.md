@@ -6,15 +6,15 @@ exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 TQID: https://experienceleague.adobe.com/k-EClMV8DYeD3QZU3zb6fZU4eSy4qyDuw0XtGNMXHLo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: '532'
 ht-degree: 23%
-
 ---
-
 # 簡訊頻道的行銷活動報告 {#campaign-reports-sms-channel}
 
 每個行銷活動報告都會分成不同的Widget，詳細說明行銷活動的成功和錯誤。 SMS頻道的報表和量度詳情如下。 在[此頁面](campaign-reports.md)瞭解如何存取您的行銷活動報告。

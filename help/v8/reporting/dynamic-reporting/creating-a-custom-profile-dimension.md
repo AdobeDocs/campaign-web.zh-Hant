@@ -9,9 +9,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 2%
-
 ---
-
 # 建立設定檔維度{#creating-a-custom-profile-dimension}
 
 您也可以根據在收件者方案擴充功能期間建立的設定檔資料，來建立和管理報表。

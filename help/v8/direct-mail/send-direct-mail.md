@@ -6,15 +6,15 @@ exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 TQID: https://experienceleague.adobe.com/iJ6Y5vUUQbBE-X5B8WVVkjBCiaO2v4PLWoRjp5-uEhU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 1%
-
 ---
-
 # 預覽和傳送直接郵件傳遞 {#send-direct-mail}
 
 設定直接郵件傳送的擷取檔案後，請使用測試設定檔進行預覽。 如果包含個人化內容，使用測試設定檔資料檢查此內容在欄中的顯示方式。 這可確保檔案內容正確呈現，並適當納入個人化元素。

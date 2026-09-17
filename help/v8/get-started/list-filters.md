@@ -6,15 +6,15 @@ exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 TQID: https://experienceleague.adobe.com/GKGmvMJtlQgAftvZuOb33tQSgqHC9s8qlYJMVFnWjz0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
 workflow-type: tm+mt
-source-wordcount: 433
+source-wordcount: '433'
 ht-degree: 100%
-
 ---
-
 # 瀏覽和篩選清單 {#list-screens}
 
 左側導覽功能表中的大部分連結會顯示物件清單，例如&#x200B;**傳遞**&#x200B;或&#x200B;**行銷活動**&#x200B;的清單。 這些清單畫面部分為唯讀。 您可以自訂清單顯示、篩選這些清單，以及將清單資料匯出為 CSV 檔案，如下所述。

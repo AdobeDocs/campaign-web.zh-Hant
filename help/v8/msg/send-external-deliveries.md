@@ -6,15 +6,15 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 TQID: https://experienceleague.adobe.com/PssWyAdLFJ02--DZtt2AOjtbyoVcYip-cJvSqrr0aH4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '466'
 ht-degree: 8%
-
 ---
-
 # 發送外部傳遞 {#gs-direct-mail}
 
 Adobe Campaign可讓您管理在Campaign外部建立的傳送，以透過外部系統大量傳送個人化電子郵件、簡訊或推播通知（iOS和Android）。

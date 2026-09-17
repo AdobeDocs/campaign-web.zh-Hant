@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
-
 ---
-
 # 元件清單 {#list-of-components}
 
 請注意，如果兩個元件不相容，儲存格會顯示值&#x200B;**無**。

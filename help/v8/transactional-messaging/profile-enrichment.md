@@ -7,9 +7,7 @@ source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 11%
-
 ---
-
 # 使用輪廓資料來擴充交易型訊息{#profile-enrichment}
 
 此功能可讓您將Adobe Campaign資料庫欄位連結至訊息內容，以個人化異動訊息。 您可以選取目標對應、擴充欄和調和索引鍵，以確保準確且即時的個人化，同時維持績效臨界值。

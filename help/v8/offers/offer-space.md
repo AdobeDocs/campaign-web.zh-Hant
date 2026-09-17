@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 建立和管理優惠方案空間
+title: 建立及管理產品建議空間
 description: 瞭解如何在Campaign Web中建立、設定、部署和預覽優惠方案空間
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 921
-ht-degree: 0%
-
+source-wordcount: '921'
+ht-degree: 1%
 ---
-
-# 建立和管理優惠方案空間 {#offer-space}
+# 建立及管理產品建議空間 {#offer-space}
 
 **優惠方案空間**&#x200B;定義優惠方案向連絡人公開的位置和方式：它使用哪個管道（電子郵件、直接郵件、簡訊、傳入網路等）、優惠方案可以使用哪些內容欄位，以及如何建立最終呈現。 單一環境可包含多個選件空間 — 每個展示點各一個。
 

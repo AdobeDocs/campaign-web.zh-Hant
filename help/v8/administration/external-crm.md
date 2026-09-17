@@ -5,16 +5,17 @@ exl-id: b8dd0cef-c2ab-4e3a-9fe4-d44b6c2902a6
 TQID: https://experienceleague.adobe.com/CBkfqiJfkVMtI76CIM9X95EdlhKOFpFVhSrVZQFMMd4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 863
+source-wordcount: '863'
 ht-degree: 1%
-
 ---
-
 # CRM 外部帳戶 {#external-crm}
 
 使用外部CRM型別帳戶將Adobe Campaign與協力廠商資料庫連線。
