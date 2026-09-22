@@ -10,10 +10,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 26%
+source-wordcount: '1012'
+ht-degree: 18%
 ---
 # 從檔案載入電子郵件客群 {#audience-from-file}
 
@@ -39,7 +39,7 @@ ht-degree: 26%
 
 Adobe Campaign Web使用者介面可讓您定位儲存在外部檔案中的設定檔。 載入設定檔後，輸入檔案中的所有欄位都可用於個人化您的傳遞[瞭解如何個人化您的內容](../personalization/personalize.md)。
 
-來自輸入檔案的設定檔不會新增至資料庫。 這些範本已載入，僅供此特定獨立電子郵件傳遞使用。
+您可以選擇只載入此特定獨立電子郵件傳遞的設定檔，而不將其新增至資料庫，或將其匯入並調解至資料庫。 [了解更多資訊](#upload)。
 
 >[!NOTE]
 >
@@ -66,7 +66,61 @@ Adobe Campaign Web使用者介面可讓您定位儲存在外部檔案中的設�
    ![顯示中央區段中資料對應預覽的熒幕擷圖](assets/select-from-file-map.png)
 
 1. 從&#x200B;**位址列位**&#x200B;下拉式清單中指定包含電子郵件地址的欄。 如果輸入檔案中有這類資訊，您也可以選取封鎖清單欄。
-1. 調整欄設定並使用可用選項定義資料格式。
+1. 在&#x200B;**[!UICONTROL 欄]**&#x200B;區段中，展開欄以調整其設定並定義如何使用可用選項格式化資料。 對於要用於調解的每個資料行，請使用&#x200B;**[!UICONTROL 選取目的地欄位]**&#x200B;將其對應到收件者結構描述屬性。
+
+1. 使用&#x200B;**[!UICONTROL 不要將收件者匯入資料庫]**&#x200B;引數，以控制是否將檔案的設定檔匯入及調解到資料庫中。 如果您選擇匯入它們，則會顯示&#x200B;**[!UICONTROL 欄位對應與調解]**&#x200B;區段。 設定下列引數：
+
+   ![顯示中央區段中資料對應預覽的熒幕擷圖](assets/select-from-file-map2.png)
+
+   +++**[!UICONTROL 作業]**
+
+   選擇要在資料庫上執行的動作：
+
+   * **[!UICONTROL 更新或插入]**：如果記錄存在於資料庫中，則更新記錄，否則建立記錄。
+   * **[!UICONTROL 插入]**：將記錄插入資料庫。
+   * **[!UICONTROL 更新]**：僅更新現有記錄。
+   * **[!UICONTROL 僅調解]**：在資料庫中尋找記錄，但未執行更新。
+   * **[!UICONTROL 刪除]**：從資料庫刪除記錄。
+
+   +++
+
+   +++**[!UICONTROL 管理重複專案]**
+
+   選擇如何處理同時存在於檔案和資料庫中的記錄：
+
+   * **[!UICONTROL 更新]** （預設）：更新記錄。
+   * **[!UICONTROL 拒絕實體]**：排除它並記錄錯誤。
+   * **[!UICONTROL 忽略]**：排除它而不保留追蹤。
+
+   +++
+
+   +++**[!UICONTROL 雙人管理]**
+
+   選擇如何處理在檔案本身中出現多次的記錄：
+
+   * **[!UICONTROL 更新]** （預設）：沒有重複資料刪除；最後一個相符的記錄優先。
+   * **[!UICONTROL 拒絕實體]**：排除額外的記錄並記錄錯誤。
+   * **[!UICONTROL 忽略]**：排除多餘的記錄，但不保留追蹤。
+
+   +++
+
+   +++**[!UICONTROL 拒絕型別]**
+
+   選擇在調解期間如何處理欄位層級錯誤：
+
+   * **[!UICONTROL 忽略並記錄警告]**：匯入所有其他欄位並記錄錯誤。
+   * **[!UICONTROL 拒絕父元素]**：拒絕整個記錄。
+   * **[!UICONTROL 拒絕所有元素]**：停止匯入並拒絕所有專案。
+
+   +++
+
+   +++**[!UICONTROL 調解金鑰欄位]**
+
+   在&#x200B;**[!UICONTROL 欄]**&#x200B;區段中，您已將某些欄對應到目的地欄位。 在此，選取這些對應欄位中應該使用哪些來識別記錄。
+
+   +++
+
+1. 在&#x200B;**[!UICONTROL 格式]**&#x200B;區段中，指定檔案使用的編碼、字串分隔符號和欄分隔符號。
 1. 當設定正確時，按一下「**確認**」。
 
 建立訊息內容時，運用輸入檔案中的欄位來新增個人化。 [了解如何個人化內容](../personalization/personalize.md)
@@ -86,14 +140,12 @@ Adobe Campaign Web使用者介面可讓您定位儲存在外部檔案中的設�
 * 檔案中的第一行是欄標題。
 * 將檔案格式與下列範例檔案對齊：
 
-  ```javascript
-  {
+  ```
   lastname,firstname,city,birthdate,email,denylist
   Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
   Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
   Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
   Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-  }
   ```
 
 ## 預覽和測試您的電子郵件 {#test}

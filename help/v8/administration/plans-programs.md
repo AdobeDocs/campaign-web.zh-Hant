@@ -15,9 +15,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '630'
 ht-degree: 5%
 ---
 # 計劃和專案 {#plan-and-programs}
@@ -97,8 +97,6 @@ Adobe Campaign 讓您可以為行銷計劃和專案設定資料夾階層。
 ### 方式#1：您已擁有方案，且想要建立與其連結的行銷活動
 
 若要將新行銷活動連結至您的方案，請直接在方案中建立行銷活動。
-
-![熒幕擷圖顯示在方案中建立行銷活動](assets/program_campaign_create.png){zoomable="yes"}
 
 **[!UICONTROL 資料夾]**&#x200B;設定會自動填入您的程式路徑。
 

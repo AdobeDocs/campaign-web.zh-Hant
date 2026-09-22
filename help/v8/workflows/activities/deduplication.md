@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 39%
+source-wordcount: '835'
+ht-degree: 36%
 ---
 # 重複資料刪除 {#deduplication}
 
@@ -69,10 +69,16 @@ ht-degree: 39%
 
 1. 選取要使用的&#x200B;**重複資料刪除方法**：
 
-   * **隨機選取**：隨機選取要保留在重複專案外的記錄。
-   * **使用運算式**：保留輸入運算式的值最小或最大的記錄。
-   * **非空白值**：保留運算式不是空白的記錄。
-   * **依循值清單**：定義一或多個欄位的值優先順序。 若要定義值，請按一下&#x200B;**屬性**&#x200B;來選取欄位或建立運算式，然後將值新增至適當的資料表。 若要定義新欄位，請按一下值清單上方的&#x200B;**新增**&#x200B;按鈕。
+   * **[!UICONTROL 隨機選取]**：隨機選取要保留在重複專案外的記錄。
+   * **[!UICONTROL 使用運算式]**：保留指定運算式具有最小值或最大值的記錄。 輸入&#x200B;**[!UICONTROL 運算式]**，然後選擇&#x200B;**[!UICONTROL 排序]**&#x200B;順序： **[!UICONTROL 遞增（最小值優先）]**&#x200B;或&#x200B;**[!UICONTROL 遞減（最大值優先）]**。
+   * **[!UICONTROL 非空白值]**：保留運算式不是空白的記錄。
+   * **[!UICONTROL 依照值清單]**：比對屬性或運算式的一或多個值來定義記錄優先順序。 按一下&#x200B;**[!UICONTROL 新增屬性]**&#x200B;以新增屬性。 針對每個屬性：
+
+     * 在&#x200B;**[!UICONTROL 屬性]**&#x200B;欄位中，選取屬性或建立運算式。
+     * 按一下&#x200B;**[!UICONTROL 新增值]**&#x200B;以建立要優先處理的排序值清單。
+     * 使用&#x200B;**[!UICONTROL 其他值的排序]**&#x200B;下拉式清單，選擇如何排序不在清單中的值，例如&#x200B;**[!UICONTROL Indifferent (random)]**。
+
+     定義數個屬性時，會依序使用第一個屬性作為主要排序標準，而下列屬性會作為中斷連結。
 
 1. 核取&#x200B;**產生補充**&#x200B;選項，以利用剩餘母體。 補充包含所有重複專案。 然後，會將額外的轉變新增至活動。
 

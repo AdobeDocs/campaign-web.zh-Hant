@@ -2,14 +2,46 @@
 title: Campaign v8 Web 使用者介面先前發行說明
 description: 2026 Campaign Web 使用者介面版本
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2251'
 ht-degree: 100%
 ---
 # 2026 年發行說明 {#2026-release}
 
 此頁面列出了 **2026 年版本**&#x200B;的所有變更和改進。 最新的發行說明請前往[此頁面](release-notes.md)查閱。
+
+## 2026月 8 月版本 {#26-8-release}
+
+_2026 年 8 月 18 日_
+
+### 新功能 {#26-8-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>核准工作流程活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>核准</strong>工作流程活動 (先前僅在用戶端主控台中提供) 現在已於 Campaign Web 使用者介面中推出。 將任務指派給群組或個別操作者，自訂通知標題和訊息，並定義可能的答案 (例如「是／否」) 作為輸出分支。</p>
+<p>如需詳細資訊，請參閱<a href="../workflows/activities/approval.md">詳細文件</a>以瞭解詳情。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 功能改進 {#26-8-improvements}
+
+* **開啟追蹤**：您現在可以直接從 Campaign Web 使用者介面啟用或停用開啟追蹤。 這有助於您遵循資料保護法規。 [閱讀更多](../advanced-settings/delivery-settings.md#tracking-tab)
+* **方案清單檢視**：方案現在會以專屬檢視列出，與行銷活動、即時傳遞和工作流程類似。 您可以從此檢視中瀏覽現有計畫並建立新方案。 [閱讀更多](../administration/plans-programs.md#create-program)
+* **自訂結構描述設定**：在&#x200B;**動作資料**&#x200B;區段中，您現在可以禁止對自訂結構描述記錄執行&#x200B;**複製**&#x200B;動作。 [閱讀更多](../administration/schemas-action-data.md#action-data)
+* **自訂篩選器**：在結構描述編輯器中，您現在可以使用新的&#x200B;**連結設定**&#x200B;對話方塊，限制連結類型自訂篩選器選擇器中可用的值。 [閱讀更多](../administration/schemas-custom-filters.md#settings)
+* **結構描述驗證**：您現在可以直接從結構描述編輯器，使用新的&#x200B;**檢查**&#x200B;按鈕來驗證結構描述的結構。 [閱讀更多](../administration/schemas-create-publish.md#create-new)
+* **資料夾安全性**：資料夾上可用的動作現在會一致地受操作員的權限控制，符合使用者端主控台的行為。 [了解更多資訊](../get-started/work-with-folders.md#about-folders)。
+  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
 
 ## 2026 年 7 月版 {#26-7-release}
 

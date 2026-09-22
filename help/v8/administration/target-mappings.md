@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 11%
+source-wordcount: '918'
+ht-degree: 10%
 ---
 # 管理目標對應 {#target-mappings}
 
@@ -64,6 +64,21 @@ ht-degree: 11%
 1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，輸入目標對應的&#x200B;**[!UICONTROL 標籤]**。
 
 1. 展開&#x200B;**[!UICONTROL 其他選項]**&#x200B;區段以定義進階設定，例如目標對應的內部名稱、儲存資料夾和說明。
+
+1. 如果您要定位行動應用程式收件者，請啟用行動應用程式的&#x200B;**[!UICONTROL 目標對應]**&#x200B;選項。
+
+   ![顯示母體選項的目標對應屬性畫面](assets/target-mappings-properties0.png)
+
+   然後，您可以：
+
+   * 將現有訂閱者應用程式的&#x200B;**[!UICONTROL 結構描述]**&#x200B;欄位保留空白。 Adobe Campaign會根據收件者範本，自動產生您所需的儲存空間結構。 您可以使用&#x200B;**[!UICONTROL 指定其他欄位]**，將自訂欄位新增至產生的結構描述。
+   * 選取現有的訂戶應用程式結構描述。 在此情況下，**[!UICONTROL 指定其他欄位]**&#x200B;已停用，因為結構描述已存在，且&#x200B;**[!UICONTROL 篩選維度]**&#x200B;和&#x200B;**[!UICONTROL 目標維度]**&#x200B;欄位會根據選取的結構描述自動填入。
+
+   行動目標對應一律會使用專屬的儲存空間結構，並將排除記錄檔分開儲存。 以下&#x200B;**[!UICONTROL 儲存體]**&#x200B;區段中說明的&#x200B;**[!UICONTROL 排除專案]**&#x200B;選項不適用於行動目標對應。
+
+   >[!NOTE]
+   >
+   >結構描述尾碼不能包含空格。
 
 1. 選取目標母體。 您可以：
 
