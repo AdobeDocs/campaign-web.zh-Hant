@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2952'
+source-wordcount: '3041'
 ht-degree: 7%
 ---
 # 建置您的第一個查詢 {#build-query}
@@ -71,7 +71,7 @@ ht-degree: 7%
 >
 >* 對於具有許多值的欄位，只會顯示前20個值。 在這種情況下，通知&#x200B;**[!UICONTROL 部分載入]**&#x200B;會警告您。
 >* 每個屬性選擇器中都可以存取&#x200B;**[!UICONTROL 值分佈]**&#x200B;選項。 [瞭解如何選取屬性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[ !A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[!A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
 
 ## 新增篩選元件 {#filtering}
 
@@ -155,9 +155,11 @@ ht-degree: 7%
 
 >[!ENDTABS]
 
-#### 連結表格的自訂條件（1-1和1-N連結）{#links}
+### 連結表格的自訂條件（1-1和1-N連結）{#links}
 
 自訂條件可讓您查詢連結至規則目前使用之表格的表格。 這包括具有1-1基數連結的表格，或集合表格（1-N連結）。
+
+#### 1-1連結
 
 若為&#x200B;**1-1連結**，請瀏覽至連結的資料表，選取所需的屬性並定義預期值。
 
@@ -169,63 +171,51 @@ ht-degree: 7%
 
 1. 在&#x200B;**Brand**&#x200B;資料表中導覽，並選取&#x200B;**標籤**&#x200B;屬性。
 
-   ![品牌資料表的熒幕擷圖](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![品牌資料表的熒幕擷圖](assets/rule-builder-1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. 定義屬性的預期值。
 
-   ![已定義預期值的範例](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![品牌資料表的熒幕擷圖](assets/rule-builder-1-1-attribute-value.png){zoomable="yes"}{width="85%" align="center"}
 
 以下是已直接選取表格連結的查詢範例。 必須從專用選擇器選取此資料表的可用值。
 
-![查詢範例的範例](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![品牌資料表的熒幕擷圖](assets/rule-builder-1-1-attribute-table.png){zoomable="yes"}{width="85%" align="center"}
 
 +++ 
 
-對於&#x200B;**1-N連結**，您可以定義子條件來調整查詢，如下列範例所示。
+#### 1-N連結
 
-+++查詢範例
+對於&#x200B;**1-N連結**，您可以用兩種方式定義條件：
 
-在此，查詢會鎖定進行與BrewMaster產品相關購買的總金額至少為100$的收件者。
+* **選取集合本身**，例如&#x200B;**購買**。 這會建立一個&#x200B;**[!UICONTROL 存在（例如]**&#x200B;條件），您可以在其中新增子條件。
 
-1. 選取&#x200B;**Purchases**&#x200B;資料表並確認。
+  +++查詢範例
 
-   ![購買資料表的熒幕擷圖](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+  在此，查詢會鎖定購買與BrewMaster產品相關且購買金額超過100$的收件者。
 
-1. 會新增出站轉變，讓您建立子條件。
+  1. 選取&#x200B;**Purchases**&#x200B;資料表並確認。
 
-   ![外站轉變的範例](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+  1. 按一下&#x200B;**[!UICONTROL 新增條件]**&#x200B;以定義要套用至所選資料表的子條件。
 
-1. 選取&#x200B;**價格**&#x200B;屬性，並且目標購買為1000$或更多
+     ![購買資料表的熒幕擷圖](assets/rule-builder-1-n-purchase.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![Price屬性的熒幕擷圖](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+  1. 新增子條件以符合您的需求。
 
-1. 新增子條件以符合您的需求。 我們在此處新增條件，以定位購買BrewMaster產品的設定檔。
+     ![購買資料表的熒幕擷圖](assets/rule-builder-1-n-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![子條件的範例](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+  +++
 
-+++ 
+* **從集合**&#x200B;中選取屬性，例如&#x200B;**購買**&#x200B;底下的&#x200B;**價格**。 提供您三個定義條件的選項。
 
-#### 使用彙總資料 {#aggregate}
+  ![顯示集合條件選項的熒幕擷圖](assets/rule-builder-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-自訂條件可讓您執行彙總作業。 若要這麼做，您必須直接從集合表格中選取屬性：
+  * **[!UICONTROL 預設]**：大多數使用案例的建議選項。 它會自動建立集合的&#x200B;**[!UICONTROL 存在，例如]**&#x200B;條件。 這等同於使用上述方法直接選取集合，並產生相同的結果。 例如，從&#x200B;**Purchases**&#x200B;選取&#x200B;**Price**&#x200B;屬性會建立&#x200B;**Purchases存在，例如**&#x200B;條件。 然後，您可以設定運運算元和值，例如&#x200B;**等於** `0`。
 
-1. 在所需的集合表格內導覽，並選取您要執行彙總作業的屬性。
+  * **[!UICONTROL 彙總]**：將彙總函式套用至選取的集合屬性。 例如，選取&#x200B;**Count**&#x200B;以建立條件，例如&#x200B;**Count(Price)等於0**。 您可以使用其他條件來調整彙總中包含的記錄。
 
-   ![屬性清單的熒幕擷圖](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+  * **[!UICONTROL 進階]**：使用集合元素的直接聯結。 直接評估選取的屬性，例如&#x200B;**價格（購買/@price購）**。 此選項適用於收集要素的單一條件。
 
-1. 在屬性窗格中，開啟&#x200B;**彙總資料**&#x200B;選項並選取所需的彙總函式。
-
->[!BEGINTABS]
-
->[!TAB 傳統查詢模型工具]
-
-![彙總資料選項的熒幕擷圖](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
-
->[!TAB 新規則產生器]
-
-![彙總資料選項的熒幕擷圖](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
-
->[!ENDTABS]
+  預設會選取&#x200B;**[!UICONTROL 預設]**&#x200B;選項。 當您需要計數或彙總集合記錄時，請使用&#x200B;**[!UICONTROL 彙總]**，或當您需要直接聯結到一個集合屬性時，請使用&#x200B;**[!UICONTROL 進階]**。
 
 ### 選取客群 {#audiences}
 

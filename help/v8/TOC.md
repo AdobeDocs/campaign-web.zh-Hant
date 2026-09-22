@@ -6,10 +6,10 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 nudge: true
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 100%
+source-wordcount: '1090'
+ht-degree: 99%
 ---
 
 # Adobe Campaign Web 文件 {#v8}
@@ -74,6 +74,9 @@ ht-degree: 100%
     + [建立和傳送呼叫中心傳遞](call-center/create-call-center.md)
   + {hide-from-toc}[開始使用 WhatsApp](whatsapp/get-started-whatsapp.md)
   + {hide-from-toc}[建立 WhatsApp 傳遞](whatsapp/create-whatsapp.md)
+  + LINE {#line}
+    + [開始使用LINE](line/get-started-line.md)
+    + [傳送LINE訊息](line/send-line.md)
   + [自訂管道](call-center/gs-custom-channel.md)
   + 交易型訊息 {#transactional-messages}
     + [開始使用異動訊息](transactional-messaging/transactional.md)

@@ -2,10 +2,10 @@
 title: 瀏覽和存取方案
 description: 瞭解如何在介面中瀏覽和存取方案。
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 4%
+source-wordcount: '531'
+ht-degree: 3%
 ---
 # 存取和設定結構描述 {#access}
 
@@ -62,3 +62,5 @@ ht-degree: 4%
 * [編輯自訂欄位](schemas-custom-fields.md) — 設定哪些自訂欄位會顯示在詳細畫面中，並將它們組織成區段。
 * [新增集合清單](schemas-collection-lists.md) — 新增集合清單，以在設定檔畫面中顯示相關資料。
 * [控制資料動作](schemas-action-data.md) — 限制自訂結構描述的建立、編輯和刪除動作。
+
+對於支援左側導覽中一或多個專案的結構描述，例如&#x200B;**nms:delivery**&#x200B;或&#x200B;**xtk:workflow**，熒幕定義也會顯示&#x200B;**[!UICONTROL 側邊導覽存取]**&#x200B;區段。 選取與功能表專案相對應的&#x200B;**[!UICONTROL 移除]**&#x200B;功能表存取權核取方塊，以在左側導覽中隱藏該專案，供執行個體上的所有使用者使用，無論其個別存取權為何。 某些結構描述可支援數個功能表專案：例如，**nms:delivery**&#x200B;由&#x200B;**[!UICONTROL 傳送]**&#x200B;和&#x200B;**[!UICONTROL 異動訊息]**&#x200B;專案共用，因此每個專案都會顯示核取方塊。

@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrp
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 10%
+source-wordcount: '1791'
+ht-degree: 9%
 ---
 # 協調活動 {#orchestrate}
 
@@ -48,6 +48,12 @@ ht-degree: 10%
 * **顯示地圖**：開啟顯示您位置的畫布快照。
 
 ![工作流程畫布的工具列選項](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+
+## 儲存或捨棄您的變更 {#save-cancel}
+
+使用畫面頂端的&#x200B;**[!UICONTROL 儲存]**&#x200B;按鈕，儲存對工作流程所做的變更。
+
+一旦您進行變更，**[!UICONTROL 儲存]**&#x200B;旁邊也會出現&#x200B;**[!UICONTROL 取消]**&#x200B;按鈕。 按一下以捨棄所有未儲存的變更，並將工作流程還原至其上次儲存的版本。 由於此動作無法復原，在捨棄變更之前會顯示確認訊息。
 
 ## 管理活動 {#manage}
 
