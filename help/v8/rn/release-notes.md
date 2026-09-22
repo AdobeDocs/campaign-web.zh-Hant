@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 38%
 ---
 # 發行說明 {#latest-release}
 
@@ -32,36 +32,36 @@ ht-degree: 100%
 
 Adobe Campaign Web 使用者介面版本會在持續傳遞模型上運作，透過該模型可採用更具擴充性、分階段的方式來部署功能。 因此，這些發行說明每月會更新多次。 請定期進行檢查。
 
-## 2026月 8 月版本 {#26-8-release}
+## 2026年9月發行 {#26-9-release}
 
-_2026 年 8 月 18 日_
+_2026年9月22日_
 
-### 新功能 {#26-8-features}
+### 新功能 {#26-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>核准工作流程活動</strong><br/></th>
+<th><strong>LINE 管道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>核准</strong>工作流程活動 (先前僅在用戶端主控台中提供) 現在已於 Campaign Web 使用者介面中推出。 將任務指派給群組或個別操作者，自訂通知標題和訊息，並定義可能的答案 (例如「是／否」) 作為輸出分支。</p>
-<p>如需詳細資訊，請參閱<a href="../workflows/activities/approval.md">詳細文件</a>以瞭解詳情。</p>
+<p>Adobe Campaign現在支援<strong>LINE</strong>頻道，此為常用的立即訊息應用程式。 使用文字、影像或視訊內容，在獨立傳遞或工作流程中，連同您的其他頻道，建立並傳送LINE訊息。 <a href="../line/get-started-line.md">閱讀更多</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 功能改進 {#26-8-improvements}
+### 功能改進 {#26-9-improvements}
 
-* **開啟追蹤**：您現在可以直接從 Campaign Web 使用者介面啟用或停用開啟追蹤。 這有助於您遵循資料保護法規。 [閱讀更多](../advanced-settings/delivery-settings.md#tracking-tab)
-* **方案清單檢視**：方案現在會以專屬檢視列出，與行銷活動、即時傳遞和工作流程類似。 您可以從此檢視中瀏覽現有計畫並建立新方案。 [閱讀更多](../administration/plans-programs.md#create-program)
-* **自訂結構描述設定**：在&#x200B;**動作資料**&#x200B;區段中，您現在可以禁止對自訂結構描述記錄執行&#x200B;**複製**&#x200B;動作。 [閱讀更多](../administration/schemas-action-data.md#action-data)
-* **自訂篩選器**：在結構描述編輯器中，您現在可以使用新的&#x200B;**連結設定**&#x200B;對話方塊，限制連結類型自訂篩選器選擇器中可用的值。 [閱讀更多](../administration/schemas-custom-filters.md#settings)
-* **結構描述驗證**：您現在可以直接從結構描述編輯器，使用新的&#x200B;**檢查**&#x200B;按鈕來驗證結構描述的結構。 [閱讀更多](../administration/schemas-create-publish.md#create-new)
-* **資料夾安全性**：資料夾上可用的動作現在會一致地受操作員的權限控制，符合使用者端主控台的行為。 [了解更多資訊](../get-started/work-with-folders.md#about-folders)。
-  <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
-  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+* **側邊導覽存取**：管理員現在可以在側邊導覽中隱藏特定的功能表專案。 [閱讀更多](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
+* **其他核准型別**：除了內容和目標核准之外，您現在可以要求行銷活動傳遞的預算與傳遞開始核准。 [閱讀更多](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **以訪客為基礎的SMS目標定位**：訪客目標對應現在可用於SMS傳遞。 [閱讀更多](../sms/create-sms.md)
+* **工作流程取消按鈕**：新的&#x200B;**取消**&#x200B;按鈕可讓您還原工作流程中未儲存的變更。 [閱讀更多](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
+* **重複資料刪除具有多個值**： **在值清單之後**&#x200B;選項現在支援多個屬性。 [閱讀更多](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
+* **行動目標對應**：您現在可以為行動應用程式目標建立目標對應。 [閱讀更多](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **外部資料庫擴充**：您現在可以擴充&#x200B;**擴充**&#x200B;或&#x200B;**建立對象**&#x200B;活動中外部資料庫的資料。 [閱讀更多](../workflows/activities/enrichment.md#external-data)
+* **檔案對象調解**：您現在可以設定在從檔案定位對象時，是否將收件者匯入資料庫。 [閱讀更多](../audience/file-audience.md#select-and-configure-the-input-file-upload)
+* **集合上的直接聯結**：直接從集合選取屬性時，您現在可以選擇如何建立條件：使用建議的預設選項、彙總函式或進階直接聯結。 [閱讀更多](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
 
