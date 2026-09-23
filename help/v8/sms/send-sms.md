@@ -10,7 +10,7 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 12%
@@ -69,7 +69,7 @@ ht-degree: 12%
 
    ![傳送SMS傳遞](assets/sms_send_5.png){zoomable="yes"}
 
-   如果已排程簡訊傳送，請按一下&#x200B;**[!UICONTROL 依排程傳送]**&#x200B;按鈕。 在[本節](../msg/gs-messages.md#schedule-the-delivery-sending)中進一步瞭解傳遞排程。
+   如果已排程簡訊傳送，請按一下&#x200B;**[!UICONTROL 依排程傳送]**&#x200B;按鈕。 在[本節](../msg/create-deliveries.md#gs-schedule)中進一步瞭解傳遞排程。
 
 1. 按一下&#x200B;**[!UICONTROL 傳送]**&#x200B;按鈕以確認傳送動作。
 

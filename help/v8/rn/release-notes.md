@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 38%
@@ -55,13 +55,13 @@ _2026年9月22日_
 
 ### 功能改進 {#26-9-improvements}
 
-* **側邊導覽存取**：管理員現在可以在側邊導覽中隱藏特定的功能表專案。 [閱讀更多](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
-* **其他核准型別**：除了內容和目標核准之外，您現在可以要求行銷活動傳遞的預算與傳遞開始核准。 [閱讀更多](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **側邊導覽存取**：管理員現在可以在側邊導覽中隱藏特定的功能表專案。 [閱讀更多](../administration/schemas-browse-access.md#screen-def)
+* **其他核准型別**：除了內容和目標核准之外，您現在可以要求行銷活動傳遞的預算與傳遞開始核准。 [閱讀更多](../campaigns/campaign-approvals.md#configure-approvals)
 * **以訪客為基礎的SMS目標定位**：訪客目標對應現在可用於SMS傳遞。 [閱讀更多](../sms/create-sms.md)
-* **工作流程取消按鈕**：新的&#x200B;**取消**&#x200B;按鈕可讓您還原工作流程中未儲存的變更。 [閱讀更多](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
-* **重複資料刪除具有多個值**： **在值清單之後**&#x200B;選項現在支援多個屬性。 [閱讀更多](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
-* **行動目標對應**：您現在可以為行動應用程式目標建立目標對應。 [閱讀更多](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **工作流程取消按鈕**：新的&#x200B;**取消**&#x200B;按鈕可讓您還原工作流程中未儲存的變更。 [閱讀更多](../workflows/orchestrate-activities.md#save-cancel)
+* **重複資料刪除具有多個值**： **在值清單之後**&#x200B;選項現在支援多個屬性。 [閱讀更多](../workflows/activities/deduplication.md#deduplication-configuration)
+* **行動目標對應**：您現在可以為行動應用程式目標建立目標對應。 [閱讀更多](../administration/target-mappings.md#create-mapping)
 * **外部資料庫擴充**：您現在可以擴充&#x200B;**擴充**&#x200B;或&#x200B;**建立對象**&#x200B;活動中外部資料庫的資料。 [閱讀更多](../workflows/activities/enrichment.md#external-data)
-* **檔案對象調解**：您現在可以設定在從檔案定位對象時，是否將收件者匯入資料庫。 [閱讀更多](../audience/file-audience.md#select-and-configure-the-input-file-upload)
-* **集合上的直接聯結**：直接從集合選取屬性時，您現在可以選擇如何建立條件：使用建議的預設選項、彙總函式或進階直接聯結。 [閱讀更多](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
+* **檔案對象調解**：您現在可以設定在從檔案定位對象時，是否將收件者匯入資料庫。 [閱讀更多](../audience/file-audience.md#upload)
+* **集合上的直接聯結**：直接從集合選取屬性時，您現在可以選擇如何建立條件：使用建議的預設選項、彙總函式或進階直接聯結。 [閱讀更多](../query/build-query.md#links)
 

@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3B
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 39%
+source-wordcount: '574'
+ht-degree: 38%
 ---
 # 建立簡訊傳送 {#create-sms}
 
@@ -31,7 +31,7 @@ ht-degree: 39%
 >abstract="選取預先定義的範本，以開始進行簡訊傳遞。 傳遞範本讓您能夠在行銷活動和傳遞中重複使用自訂內容和設定。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=zh-hant" text="使用傳遞範本"
 
-您可以建立獨立的SMS傳送，或在行銷活動工作流程的內容中建立SMS。 以下步驟說明獨立（一次性） SMS傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟將在[本節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)中說明。
+您可以建立獨立的SMS傳送，或在行銷活動工作流程的內容中建立SMS。 以下步驟說明獨立（一次性） SMS傳送的程式。 如果您在行銷活動工作流程的內容中工作，建立步驟將在[本節](../workflows/activities/channels.md#create-a-delivery-in-a-workflow)中說明。
 
 若要建立新的獨立SMS傳送，請遵循下列步驟：
 
@@ -55,6 +55,8 @@ ht-degree: 39%
 
 1. 按一下「**[!UICONTROL 選取客群]**」按鈕，以選擇現有客群或建立您自己的客群。 [進一步瞭解對象](../audience/about-recipients.md)。
 
+   除了預設的&#x200B;**[!UICONTROL 收件者]**&#x200B;目標對應之外，SMS傳遞也可以目標&#x200B;**[!UICONTROL 訪客]**&#x200B;或&#x200B;**[!UICONTROL 訪客訂閱]**。 [進一步瞭解目標維度](../audience/targeting-dimensions.md#targeting)。
+
    ![顯示[選取對象]按鈕的熒幕擷圖](assets/sms_create_2.png){zoomable="yes"}
 
    瞭解如何在[此頁面](../audience/add-audience.md)中選取現有對象。
@@ -71,7 +73,7 @@ ht-degree: 39%
 
    從這個熒幕，您也可以[模擬您的內容](../preview-test/preview-test.md)和[設定選件](../msg/offers.md)。
 
-1. 若要將您的傳遞安排在特定的日期和時間，請開啟「**[!UICONTROL 啟用排程]**」選項。 在您啟動傳遞後，訊息會在您為收件者定義的確切日期和時間自動傳送。 在[本節](../msg/gs-deliveries.md#gs-schedule)中進一步瞭解傳遞排程。
+1. 若要將您的傳遞安排在特定的日期和時間，請開啟「**[!UICONTROL 啟用排程]**」選項。 在您啟動傳遞後，訊息會在您為收件者定義的確切日期和時間自動傳送。 在[本節](../msg/create-deliveries.md#gs-schedule)中進一步瞭解傳遞排程。
 
    >[!NOTE]
    >

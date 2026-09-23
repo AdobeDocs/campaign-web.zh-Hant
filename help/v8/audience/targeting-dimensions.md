@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 12%
@@ -43,14 +43,14 @@ ht-degree: 12%
 | 名稱 | 使用傳送至 | 結構描述 |
 |-----------------------|-------------------------------------------------------|-------------------------|
 | 收件者 | 設定檔/收件者（內建收件者表格） | nms:recipient |
-| 訪客 | 透過反向連結收集設定檔的訪客（例如病毒式行銷） | mns:visitor |
+| 訪客 | 透過反向連結收集設定檔的訪客（例如病毒式行銷） | nms:visitor |
 | 訂閱 | 訂閱新聞稿等資訊服務的設定檔 | nms:subscription |
 | 訪客訂閱 | 訂閱資訊服務的訪客 | nms:visitorSub |
 | 運算子 | Adobe Campaign運運算元 | nms:operator |
 | 外部檔案 | 透過包含所有必要資訊的檔案傳遞 | 沒有連結的結構描述，沒有輸入目標 |
 | 訂閱者應用程式 | 訂閱應用程式的設定檔 | nms:appSubscriptionRcp |
 
-此外，根據特定需求建立新的目標對應。 僅從使用者端主控台執行此作業。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=zh-Hant#new-mapping){target="_blank"}中進一步瞭解。
+此外，根據特定需求建立新的目標對應。 僅從使用者端主控台執行此作業。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}中進一步瞭解。
 
 ## 篩選維度 {#filtering}
 
