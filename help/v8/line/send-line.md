@@ -6,7 +6,7 @@ feature: Line App
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 3%
@@ -92,7 +92,7 @@ LINE傳遞最多可包含五則訊息。 按一下&#x200B;**[!UICONTROL 新增�
 
 1. 定義內容後，按一下&#x200B;**儲存**，然後按一下「上一步」圖示以返回傳遞設定畫面。
 
-1. 啟用&#x200B;**[!UICONTROL 啟用排程]**&#x200B;以在特定的日期和時間傳送。 [了解更多資訊](../msg/gs-deliveries.md#gs-schedule)。
+1. 啟用&#x200B;**[!UICONTROL 啟用排程]**&#x200B;以在特定的日期和時間傳送。 [了解更多資訊](../msg/create-deliveries.md#gs-schedule)。
 
    ![Line訊息排程](assets/line-message9.png)
 

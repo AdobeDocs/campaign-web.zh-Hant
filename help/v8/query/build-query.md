@@ -7,7 +7,7 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '3041'
 ht-degree: 7%
@@ -71,7 +71,7 @@ ht-degree: 7%
 >
 >* 對於具有許多值的欄位，只會顯示前20個值。 在這種情況下，通知&#x200B;**[!UICONTROL 部分載入]**&#x200B;會警告您。
 >* 每個屬性選擇器中都可以存取&#x200B;**[!UICONTROL 值分佈]**&#x200B;選項。 [瞭解如何選取屬性](../get-started/attributes.md)
->* 您可以使用&#x200B;**[ !A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-the-values)。
+>* 您可以使用&#x200B;**[ !A進階篩選器]**&#x200B;在結果上新增條件。 [若要了解更多資訊，請參閱此處](../get-started/work-with-folders.md#filter-values)。
 
 ## 新增篩選元件 {#filtering}
 

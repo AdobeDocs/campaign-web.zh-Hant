@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 12%
@@ -43,7 +43,7 @@ ht-degree: 12%
 | 名稱 | 使用傳送至 | 結構描述 |
 |-----------------------|-------------------------------------------------------|-------------------------|
 | 收件者 | 設定檔/收件者（內建收件者表格） | nms:recipient |
-| 訪客 | 透過反向連結收集設定檔的訪客（例如病毒式行銷） | mns:visitor |
+| 訪客 | 透過反向連結收集設定檔的訪客（例如病毒式行銷） | nms:visitor |
 | 訂閱 | 訂閱新聞稿等資訊服務的設定檔 | nms:subscription |
 | 訪客訂閱 | 訂閱資訊服務的訪客 | nms:visitorSub |
 | 運算子 | Adobe Campaign運運算元 | nms:operator |
