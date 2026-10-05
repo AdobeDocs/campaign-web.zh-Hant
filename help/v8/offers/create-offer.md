@@ -6,10 +6,17 @@ feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 3%
@@ -38,7 +45,7 @@ ht-degree: 3%
 
    ![顯示優惠方案建立的熒幕擷圖。](assets/offers-offer-1.png){zoomable="yes"}
 
-1. 輸入&#x200B;**[!UICONTROL 標籤]**，並選擇性地使用指派給&#x200B;**的**&#x200B;將優惠指派給運運算元，和/或輸入&#x200B;**[!UICONTROL 優惠代碼]**。
+1. 輸入&#x200B;**[!UICONTROL 標籤]**，並選擇性地使用指派給&#x200B;]**的**[!UICONTROL &#x200B;將優惠指派給運運算元，和/或輸入&#x200B;**[!UICONTROL 優惠代碼]**。
 
 1. 展開&#x200B;**[!UICONTROL 其他選項]**&#x200B;以編輯自動產生的&#x200B;**[!UICONTROL 內部名稱]**、選取儲存選件的&#x200B;**[!UICONTROL 類別]**，或新增說明。 此步驟為選填。
 
@@ -66,7 +73,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->優惠方案引擎會降低權重來排序合適的優惠方案，並先傳回最高加權建議。 選擇邏輯（稱為&#x200B;**套利**）也會考慮在上層類別和環境上設定的適用規則和權重。 在[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hant){target="_blank"}中進一步瞭解套利原則。
+>優惠方案引擎會降低權重來排序合適的優惠方案，並先傳回最高加權建議。 選擇邏輯（稱為&#x200B;**套利**）也會考慮在上層類別和環境上設定的適用規則和權重。 在[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}中進一步瞭解套利原則。
 
 ### 定義內容 {#content}
 
@@ -136,5 +143,5 @@ ht-degree: 3%
 
 當優惠方案上線時，您可以從任何將目標鎖定於相符優惠方案空間的傳送中選取。 瞭解如何在[新增優惠到您的訊息](../msg/offers.md)中設定傳遞中的優惠。
 
-如需完整的傳出傳送整合，包括如何建立引擎呼叫以及如何將追蹤套用至選件連結，請參閱傳出傳送[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=zh-Hant){target="_blank"}中的Campaign v8檔案選件。
+如需完整的傳出傳送整合，包括如何建立引擎呼叫以及如何將追蹤套用至選件連結，請參閱傳出傳送](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}中的[Campaign v8檔案選件。
 

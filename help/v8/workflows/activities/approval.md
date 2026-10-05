@@ -2,7 +2,14 @@
 audience: end-user
 title: 核准工作流程活動
 description: 瞭解如何使用核准工作流程活動
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 8%
@@ -68,7 +75,7 @@ ht-degree: 8%
 
 1. 定義傳送給受指派人之通知的&#x200B;**[!UICONTROL 訊息]**。
 
-這兩個欄位都支援個人化：按一下個人化圖示以插入事件變數，例如已回覆&#x200B;**的**&#x200B;運運算元和&#x200B;**[!UICONTROL 回應]**，您可以在工作流程的其他地方重複使用它們。
+這兩個欄位都支援個人化：按一下個人化圖示以插入事件變數，例如已回覆&#x200B;]**的**[!UICONTROL &#x200B;運運算元和&#x200B;**[!UICONTROL 回應]**，您可以在工作流程的其他地方重複使用它們。
 
 ![熒幕擷圖顯示訊息個人化](../assets/workflow-approval2bis.png){zoomable="yes"}
 

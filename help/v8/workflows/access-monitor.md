@@ -3,11 +3,15 @@ audience: end-user
 title: 使用 Adobe Campaign Web 建立工作流程
 description: 了解如何使用 Adobe Campaign Web 建置工作流程
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-TQID: https://experienceleague.adobe.com/Xb9IpNhdTmJ3Ho8r8-cWUhVioaSjvMTnFkfk5zexYOA
+TQID: 'https://experienceleague.adobe.com/Xb9IpNhdTmJ3Ho8r8-cWUhVioaSjvMTnFkfk5zexYOA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 16%
@@ -25,7 +29,7 @@ ht-degree: 16%
 
 清單中的每個工作流程都會顯示其目前[狀態](#status)、上次執行或修改的時間，以及下一個排程執行日期和時間的相關資訊。
 
-按一下位於清單右上角的自訂配置&#x200B;**圖示的**&#x200B;設定欄，以自訂顯示的欄。 這可讓您新增其他資訊至清單，例如每個工作流程的最後一個錯誤活動或套用的目標維度。
+按一下位於清單右上角的自訂配置&#x200B;]**圖示的**[!UICONTROL &#x200B;設定欄，以自訂顯示的欄。 這可讓您新增其他資訊至清單，例如每個工作流程的最後一個錯誤活動或套用的目標維度。
 
 此外，搜尋列和篩選器也可用於簡化清單內的搜尋。 例如，篩選工作流程以僅顯示屬於某個行銷活動的行銷活動或是在特定日期範圍內處理的行銷活動。
 

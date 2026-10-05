@@ -2,7 +2,14 @@
 audience: end-user
 title: 使用「結束工作流程」活動
 description: 瞭解如何使用結束工作流程活動
-source-git-commit: a9c701b9c3ac2d16d8a2dda8e851f09ac801a13e
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 54%
@@ -12,7 +19,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
 >title="結束活動"
->abstract="「**結束**」活動可讓您以圖形方式標記工作流程的終點。 若有多個傳入轉變可供使用，請使用「**要加入的集合**」區段以選取要連接到該活動的轉變。"
+>abstract="「**結束**」活動可讓您以圖形方式標記工作流程的終點。 當存在多個傳入轉變時，請使用「**要連接的集合**」區段來選擇要連接到該活動的轉變。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_sets"

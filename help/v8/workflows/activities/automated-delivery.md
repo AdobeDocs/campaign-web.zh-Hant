@@ -3,7 +3,14 @@ audience: end-user
 title: 自動化傳送工作流程活動
 description: 瞭解如何使用自動傳送工作流程活動
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 19%
@@ -50,7 +57,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->轉換&#x200B;**中指定的**&#x200B;和&#x200B;**由指令碼計算**&#x200B;選項（用於進階使用案例）只能在使用者端主控台中設定。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}。
+>轉換&#x200B;**中指定的**&#x200B;和&#x200B;**由指令碼計算**&#x200B;選項（用於進階使用案例）只能在使用者端主控台中設定。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}。
 
 ## 選取要執行的動作 {#action-to-execute}
 

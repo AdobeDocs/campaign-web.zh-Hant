@@ -2,7 +2,14 @@
 title: 設定預設清單欄
 description: 瞭解如何設定清單檢視中預設顯示的欄。
 exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
-source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 26%
@@ -13,7 +20,7 @@ ht-degree: 26%
 >id="acw_schema_inventory_list_configuration"
 >title="庫存清單設定"
 >abstract="設定清單檢視中預設顯示的欄。 每一欄會顯示其標籤和對應的屬性。 新增自訂篩選器，以在清單視圖的篩選器窗格中顯示快速存取篩選器欄位。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html?lang=zh-Hant" text="新增自訂篩選器"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="新增自訂篩選器"
 
 **[!UICONTROL 詳細目錄清單組態]**&#x200B;區段可讓您設定哪些欄預設顯示在清單檢視中。 每一欄會顯示其標籤和對應的屬性。
 

@@ -3,14 +3,18 @@ audience: end-user
 title: 開始使用推播通知
 description: 了解如何使用 Adobe Campaign Web 建立和傳送推播通知
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
+TQID: 'https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 98%
@@ -27,7 +31,7 @@ ht-degree: 98%
 
 * **獨立傳遞**：透過個別的推播傳遞，直接與客戶立即進行互動，而不需要工作流程或行銷活動。
 
-![](../assets/do-not-localize/book.png)若要了解如何設定推播管道，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=zh-Hant){target="_blank"}。
+![](../assets/do-not-localize/book.png)若要了解如何設定推播管道，請參閱 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

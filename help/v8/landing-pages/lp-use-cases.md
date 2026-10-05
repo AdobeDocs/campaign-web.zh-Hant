@@ -8,17 +8,29 @@ role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-TQID: https://experienceleague.adobe.com/FtwipSab9w2JtgU-BcdadJDoDhgyh-4-W90u2XHjKHw
+TQID: 'https://experienceleague.adobe.com/FtwipSab9w2JtgU-BcdadJDoDhgyh-4-W90u2XHjKHw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
+  - id: d4adbfcb-4ec0-5691-b003-d940294aa34c
+    internal-label: Subscriptions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 10%
@@ -34,7 +46,7 @@ ht-degree: 10%
 >id="acw_landingpages_templates"
 >title="請謹慎複製 URL"
 >abstract="建立登陸頁面時，四個現成的範本可讓您實作不同的使用案例：新增或更新設定檔至行銷活動資料庫、為客戶訂閱服務、取消訂閱服務，或選擇將使用者登出。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hant&#create-landing-page" text="設定登陸頁面"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#create-landing-page" text="設定登陸頁面"
 
 若要正確使用登入頁面，請使用專用選項，將其參照為訊息中的連結。 您無法將已發佈傳遞控制面板中顯示的連結直接複製並貼到您的傳遞或網頁中。 請改用&#x200B;**模擬內容**&#x200B;功能來測試。
 
@@ -141,7 +153,7 @@ ht-degree: 10%
 
 1. 頁面內容隨即顯示。 選取與登入頁面表單相對應的部分，並展開&#x200B;**[!UICONTROL 核取方塊1]**&#x200B;區段。
 
-1. 在&#x200B;**[!UICONTROL 訂閱與服務]**&#x200B;欄位中，選取您為事件建立的服務。 如果啟用&#x200B;**選項，請保留**&#x200B;訂閱狀態。
+1. 在&#x200B;**[!UICONTROL 訂閱與服務]**&#x200B;欄位中，選取您為事件建立的服務。 如果啟用&#x200B;]**選項，請保留**[!UICONTROL &#x200B;訂閱狀態。
 
    ![顯示訂閱核取方塊介面的熒幕擷圖。](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--

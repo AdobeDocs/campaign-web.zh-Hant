@@ -2,7 +2,14 @@
 title: 建立和發佈結構描述
 description: 瞭解如何建立、擴充和發佈結構描述。
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 1%
@@ -93,7 +100,7 @@ ht-degree: 1%
 1. 導覽至&#x200B;**[!UICONTROL Explorer]**&#x200B;功能表，並選取您要放置自訂結構描述的資料夾。
 1. 按一下省略符號圖示，然後按一下&#x200B;**[!UICONTROL 建立新資料夾]**。
    ![自訂結構描述的導覽專案建立](assets/schemas-publish3.png)
-1. 新增標籤，並在&#x200B;**[!UICONTROL 資料夾型別]**&#x200B;欄位中選擇您的結構描述。
+1. 新增標籤，並在&#x200B;**[!UICONTROL 資料夾型別]**欄位中選擇您的結構描述。
    ![自訂結構描述的導覽專案建立](assets/schemas-publish5.png)
 1. 現在可從&#x200B;**[!UICONTROL 總管]**&#x200B;檢視存取自訂結構描述。
 

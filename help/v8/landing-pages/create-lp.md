@@ -3,16 +3,26 @@ title: 設定登陸頁面
 description: 瞭解如何在Campaign網頁中設定和發佈登入頁面
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-TQID: https://experienceleague.adobe.com/qoRSCg0-BzcmBJ6-NapGqdg2pUrkXq4QXbb2OPx-new
+TQID: 'https://experienceleague.adobe.com/qoRSCg0-BzcmBJ6-NapGqdg2pUrkXq4QXbb2OPx-new'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 25%
@@ -165,7 +175,7 @@ The main steps to create landing pages are as follows:
 設定驗證碼可協助您保護登陸頁面免受垃圾郵件和濫用。
 
 若要使用，請移至登陸頁面的&#x200B;**[!UICONTROL 屬性]**。
-在&#x200B;**[!UICONTROL 其他選項]**&#x200B;中。 啟動&#x200B;**[!UICONTROL 額外啟用驗證碼解決方案]**&#x200B;切換按鈕。
+在**[!UICONTROL 其他選項]**&#x200B;中。 啟動&#x200B;**[!UICONTROL 額外啟用驗證碼解決方案]**&#x200B;切換按鈕。
 
 ![熒幕擷圖顯示[額外啟用驗證碼]解決方案切換](assets/lp-properties-captcha.png){zoomable="yes"}
 
@@ -214,7 +224,7 @@ The main steps to create landing pages are as follows:
 
 1. 登入頁面的預覽會在新標籤中開啟。 個人化元素會由選取的測試設定檔資料取代。
 
-   如果您在登入頁面設定中選取了表單&#x200B;**中參考資料的**&#x200B;預先填入選項，則表單欄位會自動預先填入對應的測試設定檔資料。<!--TBC-->
+   如果您在登入頁面設定中選取了表單&#x200B;]**中參考資料的**[!UICONTROL &#x200B;預先填入選項，則表單欄位會自動預先填入對應的測試設定檔資料。<!--TBC-->
 
    ![傳遞範例](assets/lp-preview.png){zoomable="yes"}
 

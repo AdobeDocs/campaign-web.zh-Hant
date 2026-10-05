@@ -6,10 +6,17 @@ feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 5%
@@ -40,7 +47,7 @@ ht-degree: 5%
    >
    >集合連結欄位無法設為強制欄位，且不支援子屬性。 依預設，它們會跨越表單中的兩欄。
 
-1. 確認您的選取。 集合連結已新增至自訂欄位&#x200B;**資料表的**&#x200B;清單，並以&#x200B;**[!UICONTROL 集合]**&#x200B;作為其型別。
+1. 確認您的選取。 集合連結已新增至自訂欄位&#x200B;]**資料表的**[!UICONTROL &#x200B;清單，並以&#x200B;**[!UICONTROL 集合]**&#x200B;作為其型別。
 
    ![熒幕擷圖顯示新增的屬性。](assets/offers-editable-list-2.png){zoomable="yes"}
 
@@ -72,7 +79,7 @@ ht-degree: 5%
 
    ![在選件詳細資訊畫面中顯示可編輯清單演算的熒幕擷圖。](assets/offers-editable-list-6.png){zoomable="yes"}
 
-1. 按一下[新增]&#x200B;**&#x200B;**&#x200B;以顯示您設定的屬性，填入這些屬性，然後按一下[確認]&#x200B;**&#x200B;**。 新元素會新增至清單中。
+1. 按一下[新增]****&#x200B;以顯示您設定的屬性，填入這些屬性，然後按一下[確認]****。 新元素會新增至清單中。
 
    您可以將多個元素新增至相同清單，而選件詳細資料可包含多個可編輯清單。
 

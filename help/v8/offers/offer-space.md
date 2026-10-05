@@ -6,10 +6,17 @@ feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 1%
@@ -82,13 +89,13 @@ ht-degree: 1%
 
 ### 設定進階設定 {#advanced}
 
-此區段可讓您定義&#x200B;**[!UICONTROL 目標識別]**。 按一下[新增]&#x200B;**&#x200B;**&#x200B;並選取一或多個&#x200B;**[!UICONTROL 收件者]**&#x200B;屬性，或按一下[編輯運算式]&#x200B;**[!UICONTROL 以定義自訂運算式]**。 此設定對於基本優惠方案空間為選用。 如需其完整參考資料和行為，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}。
+此區段可讓您定義&#x200B;**[!UICONTROL 目標識別]**。 按一下[新增]****&#x200B;並選取一或多個&#x200B;**[!UICONTROL 收件者]**&#x200B;屬性，或按一下[編輯運算式]**[!UICONTROL 以定義自訂運算式]**。 此設定對於基本優惠方案空間為選用。 如需其完整參考資料和行為，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}。
 
 在&#x200B;**傳入Web頻道**&#x200B;上建立的優惠方案空間，也需要設定網站以顯示優惠方案並呼叫優惠方案引擎。 這項整合是在使用者端主控台中執行 — 請參閱[即時提供優惠方案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"}和[在Campaign v8檔案中設定優惠方案引擎整合](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"}。
 
 ## 部署優惠方案空間 {#deploy}
 
-必須先部署優惠方案空間，才能用於傳遞。 儲存您的優惠方案空間，然後按一下[部署]。**&#x200B;** 部署的狀態會反映在優惠方案空間上。
+必須先部署優惠方案空間，才能用於傳遞。 儲存您的優惠方案空間，然後按一下[部署]。**** 部署的狀態會反映在優惠方案空間上。
 
 ![顯示優惠方案部署的熒幕擷圖。](assets/offers-space-2.png){zoomable="yes"}
 

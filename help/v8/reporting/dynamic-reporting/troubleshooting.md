@@ -4,7 +4,17 @@ description: 在此處尋找與動態報告相關的常見問題。
 audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1255'
 ht-degree: 3%
@@ -105,9 +115,9 @@ P1會在第一天開啟電子郵件兩次，然後在第二天開啟樹狀結構
 ## 如何計算週期性/交易式傳送的計數？ {#counts-recurring-deliveries}
 
 處理循環和交易式傳送時，這些計數將同時歸因於父傳送和子傳送。
-我們以名為&#x200B;**R1**&#x200B;的週期性傳遞為例，設定為每天在第1天(RC1)、第2天(RC2)和第3天(RC3)執行。
-假設只有一個人員會多次開啟所有子傳送。 在此情況下，個別週期性子傳遞會分別將&#x200B;**[!UICONTROL Open]**&#x200B;計數顯示為1。
-但是，由於同一人按一下所有傳遞，因此父項循環傳遞也會有&#x200B;**[!UICONTROL 唯一開啟]**&#x200B;為1。
+我們以名為**R1**的週期性傳遞為例，設定為每天在第1天(RC1)、第2天(RC2)和第3天(RC3)執行。
+假設只有一個人員會多次開啟所有子傳送。 在此情況下，個別週期性子傳遞會分別將**[!UICONTROL Open]**計數顯示為1。
+但是，由於同一人按一下所有傳遞，因此父項循環傳遞也會有**[!UICONTROL 唯一開啟]**&#x200B;為1。
 
 報表應如下所示：
 

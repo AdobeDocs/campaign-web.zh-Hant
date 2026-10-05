@@ -6,10 +6,14 @@ exl-id: 18c969f7-c94e-4fff-a132-a2114860841f
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 16%
@@ -24,7 +28,7 @@ ht-degree: 16%
 **資料載入 (RDBMS)** 活動是一項&#x200B;**資料管理**&#x200B;活動。 使用此活動可將資料直接從外部關聯式資料庫載入到您的工作流程中。 所擷取的資料可在整個工作流程中使用，並可用於目標市場選擇、擴充或進一步資料處理。
 
 <!--
-This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hant){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
+This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
 -->
 
 >[!NOTE]
@@ -115,7 +119,7 @@ This activity relies on the [Federated Data Access (FDA)](https://experienceleag
 設定資料表後，**[!UICONTROL 收集到的資訊]**&#x200B;區段可讓您定義從外部資料表收集哪些資料行：
 
 1. 如果您需要收集所選資料表的每個資料行，請核取&#x200B;**[!UICONTROL 保留所有來源資料]**&#x200B;選項（預設）。
-1. 按一下[新增資料行]以擷取&#x200B;**，改為收集特定資料行，或另外收集。**
+1. 按一下[新增資料行]以擷取&#x200B;]**，改為收集特定資料行，或另外收集。**[!UICONTROL 
 
    ![資料載入(RDBMS)活動](../assets/workflow-data-loading-rdbms9.png)
 

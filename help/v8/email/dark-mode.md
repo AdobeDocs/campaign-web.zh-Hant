@@ -7,10 +7,14 @@ role: User
 level: Beginner, Intermediate
 keywords: 深色模式，電子郵件，顏色，編輯器
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
-TQID: https://experienceleague.adobe.com/QE0TMgusTCuEYsVi2Gf8X2cV7tlvAJJw6-D-b8eXylM
+TQID: 'https://experienceleague.adobe.com/QE0TMgusTCuEYsVi2Gf8X2cV7tlvAJJw6-D-b8eXylM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer
@@ -28,7 +32,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 10%
@@ -125,7 +129,7 @@ ht-degree: 10%
 
 * 您可以預覽預設深色模式在大多數支援的電子郵件使用者端中的呈現方式。 [了解更多](#preview-dark-mode)
 
-* 如果您要覆寫支援自訂深色模式[&#128279;](#custom-support)之電子郵件使用者端的預設設定，您可以為正在編輯的電子郵件定義自訂設定。 [了解更多](#define-custom-dark-mode)
+* 如果您要覆寫支援自訂深色模式](#custom-support)之電子郵件使用者端[的預設設定，您可以為正在編輯的電子郵件定義自訂設定。 [了解更多](#define-custom-dark-mode)
 
 ### 預覽預設深色模式 {#preview-dark-mode}
 

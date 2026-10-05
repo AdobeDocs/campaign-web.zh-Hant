@@ -2,7 +2,14 @@
 title: 編輯自訂欄位
 description: 瞭解如何設定自訂欄位，以及這些欄位在介面中的可見度。
 exl-id: 1b531722-0935-4787-a673-60d97f776936
-source-git-commit: 6f835141111dbacac0b6e1156f744d3f8db9ae24
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 12%
@@ -13,7 +20,7 @@ ht-degree: 12%
 >id="acw_schema_detail_screen_configuration"
 >title="詳細資料畫面設定"
 >abstract="設定哪些自訂欄位會顯示在詳細資料畫面中，並整理到區段中。 新增集合清單，以在設定檔畫面中顯示相關資料。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html?lang=zh-Hant" text="新增集合清單"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html" text="新增集合清單"
 
 自訂欄位是透過Adobe Campaign主控台新增至現成可用結構描述的其他屬性。 它們可讓您透過包含新屬性來自訂結構以符合您組織的需求。
 
@@ -27,7 +34,7 @@ ht-degree: 12%
 
 1. 選取清單中的結構描述名稱以開啟它，然後按一下結構描述詳細資料檢視中的&#x200B;**[!UICONTROL 熒幕版本]**&#x200B;按鈕以存取熒幕定義。
 
-1. 按一下&#x200B;**[!UICONTROL 自訂欄位清單]**&#x200B;表格上方的省略符號圖示，然後選擇&#x200B;**[!UICONTROL 選取屬性]**&#x200B;以選取一或多個自訂欄位以顯示於介面中。
+1. 按一下&#x200B;**[!UICONTROL 自訂欄位清單]**&#x200B;表格上方的省略符號圖示，然後選擇&#x200B;**[!UICONTROL 選取屬性]**以選取一或多個自訂欄位以顯示於介面中。
    ![顯示可編輯屬性的自訂欄位畫面](assets/schemas-custom5.png)
 1. 選取您要新增的自訂欄位並進行確認。
 

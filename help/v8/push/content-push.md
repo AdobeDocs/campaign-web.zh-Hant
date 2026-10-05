@@ -3,11 +3,15 @@ audience: end-user
 title: 設計推播通知傳遞
 description: 瞭解如何使用Adobe Campaign Web設計推播通知傳遞
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-TQID: https://experienceleague.adobe.com/G8sMnMSpcXFaVpdkKIkp8Yhmu6fxOiSHdl4icd2z4P8
+TQID: 'https://experienceleague.adobe.com/G8sMnMSpcXFaVpdkKIkp8Yhmu6fxOiSHdl4icd2z4P8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 37%
@@ -51,8 +55,8 @@ ht-degree: 37%
 
 * **[!UICONTROL 資料訊息]**&#x200B;已由使用者端應用程式處理。 這些訊息會直接傳送至行動應用程式，在裝置上產生和顯示Android通知。 資料訊息僅包含您的自訂應用程式變數。
 
-  若要定義內容、個人化資料及新增動態內容，請按一下&#x200B;**[!UICONTROL 訊息]**&#x200B;欄位並使用運算式編輯器。 存取此編輯器以自訂您的訊息。
-  在&#x200B;**[!UICONTROL 應用程式變數]**&#x200B;功能表中，您的應用程式變數會自動新增。 這些變數可讓您定義通知行為。 例如，設定使用者啟動通知時顯示的特定應用程式畫面。
+  若要定義內容、個人化資料及新增動態內容，請按一下&#x200B;**[!UICONTROL 訊息]**欄位並使用運算式編輯器。 存取此編輯器以自訂您的訊息。
+  在**[!UICONTROL 應用程式變數]**&#x200B;功能表中，您的應用程式變數會自動新增。 這些變數可讓您定義通知行為。 例如，設定使用者啟動通知時顯示的特定應用程式畫面。
 
   ![說明：在Android通知中定義資料訊息內容的範例](assets/push_content_4.png){zoomable="yes"}
 
