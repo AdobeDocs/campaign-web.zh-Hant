@@ -118,4 +118,4 @@ Campaign Web可讓您在視覺化工作流程畫布中建立新對象。 除了�
 
 了解如何建立和管理客群、選取用於傳遞的客群，以及定義控制組。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453213?captions=chi_hant&quality=12)
