@@ -20,7 +20,7 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="用於識別重複資料的欄位"
+>title="用於識別重複項目的欄位"
 >abstract="在&#x200B;**用於識別重複項目的欄位**&#x200B;區段，按一下「**新增屬性**」按鈕，指定其相同數值可用來識別重複項目的欄位，例如電子郵件地址、名字和姓氏。 欄位的順序會指定要先處理的項目。"
 
 >[!CONTEXTUALHELP]
