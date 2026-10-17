@@ -57,7 +57,7 @@ ht-degree: 1%
 
 * **Source結構描述稽核軌跡**&#x200B;可讓您在Campaign v8使用者端主控台中監視活動以及最近對結構描述所做的修改。
 
-  如需結構描述的詳細資訊，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas)。
+  如需結構描述的詳細資訊，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/shemas-forms/schemas)。
 
 * **工作流程稽核軌跡**&#x200B;可讓您追蹤活動及最近對工作流程所做的變更，包括其目前狀態，例如：
 

@@ -66,4 +66,4 @@ Adobe Campaign中的每個實體都有專屬的結構描述，以確保資料一
 >
 >您需要有管理員許可權才能管理結構描述。
 
-有關綱要的詳細資訊，請參閱[Campaign主控台檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。
+有關綱要的詳細資訊，請參閱[Campaign主控台檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}。

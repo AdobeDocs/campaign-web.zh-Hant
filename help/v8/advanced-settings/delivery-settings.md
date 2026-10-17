@@ -131,7 +131,7 @@ ht-degree: 40%
 
 在此區段中，您可以選取其中可用的&#x200B;**目標對應**。 目標對應是在 Adobe Campaign v8 主控台中定義的。 目標對應是作業正在處理的資料型別。 它可讓您定義目標母體：收件者、合約受益者、運運算元、訂閱者等。[深入瞭解目標對應](../audience/targeting-dimensions.md)。
 
-在&#x200B;**[!UICONTROL 排除]**&#x200B;欄位中，您可以選取排除不想再聯絡或隔離的設定檔。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+在&#x200B;**[!UICONTROL 排除]**&#x200B;欄位中，您可以選取排除不想再聯絡或隔離的設定檔。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=zh-Hant){target="_blank"}
 
 ## 傳遞 {#delivery}
 
@@ -269,7 +269,7 @@ ht-degree: 40%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}中進一步瞭解傳遞有效期。
+在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=zh-Hant#validity-period){target="_blank"}中進一步瞭解傳遞有效期。
 
 ### 映象頁面管理（電子郵件通道） {#mirror}
 

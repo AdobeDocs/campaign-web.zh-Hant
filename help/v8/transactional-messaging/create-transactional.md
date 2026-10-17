@@ -77,7 +77,7 @@ ht-degree: 18%
 * **[!UICONTROL 執行資料夾]**，在執行後儲存郵件。
 * **[!UICONTROL 傳遞代碼]**，如有需要，此代碼可協助識別要報告的訊息。
 * **[!UICONTROL 描述]**。
-* **[!UICONTROL Nature]**，這是您傳送的性質，列於列舉&#x200B;*deliveryNature*&#x200B;中。 [進一步瞭解列舉](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)。
+* **[!UICONTROL Nature]**，這是您傳送的性質，列於列舉&#x200B;*deliveryNature*&#x200B;中。 [進一步瞭解列舉](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)。
 
 ![顯示異動訊息範本之屬性區段的熒幕擷圖。](assets/template-properties.png){zoomable="yes"}
 
