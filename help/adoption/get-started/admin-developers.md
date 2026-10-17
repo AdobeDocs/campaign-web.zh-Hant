@@ -96,17 +96,17 @@ Campaign使用者端主控台會集中所有功能和設定。 它會與Campaign
 
 ## Campaign v8 架構 {#acs-gs-admi-archi}
 
-Campaign v8 （主控台）檔案中會詳細說明Campaign架構。 在[此頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/general-architecture){target="_blank"}中瞭解基本知識。
+Campaign v8 （主控台）檔案中會詳細說明Campaign架構。 在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/architecture/general-architecture){target="_blank"}中瞭解基本知識。
 
 實用連結可讓您開始：
 
 * 在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/new/ac-components){target="_blank"}中說明Adobe Campaign元件和全域架構。
 
-* 請參閱[開始使用Campaign架構](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"}，瞭解Campaign架構，然後再開始建構您的執行個體。
+* 請參閱[開始使用Campaign架構](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"}，瞭解Campaign架構，然後再開始建構您的執行個體。
 
 <!--Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA)** deployment (P4). As a customer transitioning from Campaign Standard, your deployment model is **Campaign FDA**.-->
 
-* 異動訊息（訊息中心）是專為管理觸發式訊息而設計的Campaign v8模組。 它依賴特定架構模型，此模型在[本節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}中有詳細說明。
+* 異動訊息（訊息中心）是專為管理觸發式訊息而設計的Campaign v8模組。 它依賴特定架構模型，此模型在[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}中有詳細說明。
 
 ## Campaign使用者端主控台 {#acs-gs-console}
 
@@ -188,7 +188,7 @@ MISSING LINKS:
 
 您可以使用幾個選項來自訂使用者端主控台中的使用者介面，例如：
 
-* **清單和資料顯示** — 管理使用者介面設定（例如清單、單位或資料顯示）的准則已在此檔案中提供： [使用者介面設定檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
+* **清單和資料顯示** — 管理使用者介面設定（例如清單、單位或資料顯示）的准則已在此檔案中提供： [使用者介面設定檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
 
 * **資料夾管理** — 資料夾是Adobe Campaign中的物件，可讓您組織元件和資料。 也可用來管理許可權。 瞭解如何[使用資料夾](../../v8/get-started/work-with-folders.md)。
 
@@ -204,7 +204,7 @@ MISSING LINKS:
 
 與Campaign Standard類似，Adobe Campaign v8也隨附預先定義的資料模型。 Adobe Campaign仰賴包含連結在一起之表格的雲端資料庫。 進一步瞭解[資料模型檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}。
 
-綱要是與資料庫表格相關聯的XML檔案。 它會定義資料結構，並描述表格的SQL定義。 請參閱[結構描述建立檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
+綱要是與資料庫表格相關聯的XML檔案。 它會定義資料結構，並描述表格的SQL定義。 請參閱[結構描述建立檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
 
 透過此影片瞭解如何建立方案以及如何延伸Campaign v8中的現有方案：
 
@@ -212,17 +212,17 @@ MISSING LINKS:
 
 與Campaign Standard中的可用功能類似，您可以建立自訂資源。 在Campaign v8中，自訂資源為自訂或延伸&#x200B;**結構描述**。
 
-* 在[此頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}中瞭解如何使用結構描述。
+* 在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}中瞭解如何使用結構描述。
 
-* 瞭解如何在[此頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}中擴充現有結構描述。
+* 瞭解如何在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}中擴充現有結構描述。
 
-* 瞭解如何在[此頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}中建立新的結構描述。
+* 瞭解如何在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}中建立新的結構描述。
 
-* 當您建立或擴充綱要時，需要建立或修改關聯的輸入表單，以使一般使用者可看見這些變更。 輸入表單可讓您從Adobe Campaign使用者端主控台編輯與資料結構描述相關聯的執行個體。 表單由其名稱和名稱空間識別。 請參閱[輸入表單建立檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}。
+* 當您建立或擴充綱要時，需要建立或修改關聯的輸入表單，以使一般使用者可看見這些變更。 輸入表單可讓您從Adobe Campaign使用者端主控台編輯與資料結構描述相關聯的執行個體。 表單由其名稱和名稱空間識別。 請參閱[輸入表單建立檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}。
 
 ## 工作流程和資料管理 {#acs-gs-admin-data-management}
 
-與Adobe Campaign Standard相同，Adobe Campaign v8也包含工作流程模組，可讓您在應用程式伺服器的不同模組間協調所有流程和任務。 使用這個全方位的圖像式環境，您可以設計各式流程，包含細分、行銷活動執行、檔案處理、人力參與等。工作流程引擎將執行並追蹤這些流程。 在[本檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}中瞭解如何開始使用Campaign v8的工作流程。
+與Adobe Campaign Standard相同，Adobe Campaign v8也包含工作流程模組，可讓您在應用程式伺服器的不同模組間協調所有流程和任務。 使用這個全方位的圖像式環境，您可以設計各式流程，包含細分、行銷活動執行、檔案處理、人力參與等。工作流程引擎將執行並追蹤這些流程。 在[本檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/data/workflows){target="_blank"}中瞭解如何開始使用Campaign v8的工作流程。
 
 請參閱下列其他實用資源的連結：
 
@@ -303,7 +303,7 @@ Adobe Campaign v8身為Campaign Standard，可協助您傳送跨頻道行銷活�
 * **電子郵件** — 電子郵件設定全部在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}中詳細說明。
 * **簡訊** — 在[本檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}中瞭解如何設定您的簡訊頻道。
 * **推播通知** — 設定推播通知頻道的步驟已在本節[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}中詳細說明。
-* **異動訊息** — 在Campaign v8中設定[異動訊息](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}的步驟已在本節[&#128279;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)中詳細說明
+* **異動訊息** — 在Campaign v8中設定[異動訊息](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}的步驟已在本節[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)中詳細說明
 
 ### 外部帳戶 {#acs-gs-ext-accounts}
 
@@ -372,7 +372,7 @@ MISSING LINKS:
 
 所有隔離的地址和隔離規則已從Campaign Standard環境移轉至Campaign v8。 隔離管理不需要任何特定動作。
 
-作為管理員，從[此頁面](../../v8/audience/quarantine.md)開始，熟悉Campaign v8中的隔離管理。 另請參閱[本節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}中有關隔離管理的使用者端主控台詳細檔案。
+作為管理員，從[此頁面](../../v8/audience/quarantine.md)開始，熟悉Campaign v8中的隔離管理。 另請參閱[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}中有關隔離管理的使用者端主控台詳細檔案。
 
 
 ## 管理Adobe Campaign整合 {#acs-gs-integrations}

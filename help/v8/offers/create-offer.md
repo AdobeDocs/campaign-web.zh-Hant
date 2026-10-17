@@ -67,7 +67,7 @@ ht-degree: 3%
   >
   >考量資格期間與父類別的交集：即使優惠方案自己的排程較寬，也只會在其父類別也符合資格時顯示優惠方案。
 
-* **[!UICONTROL 目標上的篩選器]** — 按一下&#x200B;**[!UICONTROL 建立篩選器]**&#x200B;以開啟規則產生器，並將選件限制在特定對象。 將篩選器保留為空白，讓優惠方案符合整個環境對象的資格。 若要重複使用在平台層級宣告的&#x200B;**預先定義的篩選器**，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}。 預先定義的篩選器是從使用者端主控台建立。
+* **[!UICONTROL 目標上的篩選器]** — 按一下&#x200B;**[!UICONTROL 建立篩選器]**&#x200B;以開啟規則產生器，並將選件限制在特定對象。 將篩選器保留為空白，讓優惠方案符合整個環境對象的資格。 若要重複使用在平台層級宣告的&#x200B;**預先定義的篩選器**，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html?lang=zh-Hant){target="_blank"}。 預先定義的篩選器是從使用者端主控台建立。
 
 * **[!UICONTROL 管理優惠方案權重]** — 按一下&#x200B;**[!UICONTROL 顯示優惠方案權重]**，然後按一下&#x200B;**[!UICONTROL 新增權重]**，以便在多個優惠方案同時符合資格時影響優惠方案的優先順序。 每個權重都有開始日期、結束日期及選擇性篩選器。
 

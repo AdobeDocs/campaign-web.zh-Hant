@@ -234,7 +234,7 @@ ht-degree: 44%
 
 <!--* When a multilingual delivery contains only one locale,-->
 * 使用已調解的傳遞，
-* 當您的Campaign部署模型為[Adobe Campaign企業完整同盟存取(FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}時
+* 當您的Campaign部署模型為[Adobe Campaign企業完整同盟存取(FFDA)](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}時
 * 未上傳任何檔案時。
 
 ## 傳送並監控電子郵件 {#prepare-send}

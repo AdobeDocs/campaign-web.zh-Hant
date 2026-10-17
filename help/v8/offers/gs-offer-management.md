@@ -48,7 +48,7 @@ and check the [Campaign Web and client console capability matrix](../get-started
 * **優惠方案目錄和類別** — 優惠方案會以&#x200B;**類別**&#x200B;和子類別的階層式目錄來組織。 每個類別都可以共用適用性規則、有效日期和&#x200B;**應用程式主題**。 設計環境中會提供預設類別，用於接收所有選件。
 
 <!--
-To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html){target="_blank"}.
+To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html?lang=zh-Hant){target="_blank"}.
 -->
 
 * **優惠方案** — 具有自己的適用期間、目標篩選器、權重和內容的個別優惠方案。 在向收件者展示優惠方案之前，會先核准並部署優惠方案。 [了解更多](create-offer.md)
@@ -86,11 +86,11 @@ Campaign Web UI中典型的端對端流程如下：
 
 * **優惠方案模擬** — **模擬**&#x200B;模組可讓您在傳送之前測試優惠方案的分佈。 請參閱[優惠方案模擬](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=zh-Hant#offer-simulation){target="_blank"}。
 
-* **預先定義的篩選器**&#x200B;管理 — 可從任何選件參考的可重複使用的篩選器規則。 請參閱[管理預先定義的篩選器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}。
+* **預先定義的篩選器**&#x200B;管理 — 可從任何選件參考的可重複使用的篩選器規則。 請參閱[管理預先定義的篩選器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html?lang=zh-Hant){target="_blank"}。
 
 * **優惠追蹤** — 設定優惠方案主張的追蹤，以饋送主張歷程記錄。 檢視[追蹤優惠方案主張](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=zh-Hant){target="_blank"}。
 
-* **操作員角色** — 指派優惠方案管理員/傳遞管理員許可權。 請參閱互動模組[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}的運運算元。
+* **操作員角色** — 指派優惠方案管理員/傳遞管理員許可權。 請參閱互動模組[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html?lang=zh-Hant){target="_blank"}的運運算元。
 
 * **互動最佳實務和套利規則**。 請參閱[行銷活動互動最佳實務](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=zh-Hant){target="_blank"}。
 

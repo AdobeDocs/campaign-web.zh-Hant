@@ -25,7 +25,7 @@ ht-degree: 1%
 
 **優惠方案空間**&#x200B;定義優惠方案向連絡人公開的位置和方式：它使用哪個管道（電子郵件、直接郵件、簡訊、傳入網路等）、優惠方案可以使用哪些內容欄位，以及如何建立最終呈現。 單一環境可包含多個選件空間 — 每個展示點各一個。
 
-優惠方案空間本身不是管道。 它代表優惠方案在頻道上顯示的特定位置。 相同網頁上的兩個橫幅通常會對應至兩個不同的優惠方案空間。 如需完整的概念模型，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}。
+優惠方案空間本身不是管道。 它代表優惠方案在頻道上顯示的特定位置。 相同網頁上的兩個橫幅通常會對應至兩個不同的優惠方案空間。 如需完整的概念模型，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=zh-Hant){target="_blank"}。
 
 ## 建立或修改優惠方案空間{#create-offer-space}
 
@@ -79,19 +79,19 @@ ht-degree: 1%
 
 * 接受時&#x200B;**[!UICONTROL 狀態]** — 收件者與優惠方案互動時套用的狀態（通常是&#x200B;**[!UICONTROL 已接受]**）。
 
-可用的狀態值符合使用者端主控台使用的清單。 如需詳細資訊，請參閱主控台檔案中的[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#offer-proposition-statuses){target="_blank"}。
+可用的狀態值符合使用者端主控台使用的清單。 如需詳細資訊，請參閱主控台檔案中的[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=zh-Hant#offer-proposition-statuses){target="_blank"}。
 
 <!--
 >[!NOTE]
 >
->Status updates run asynchronously through the tracking workflow. For an outbound delivery containing a tracked link, the status of the proposition is automatically switched to **[!UICONTROL Presented]** when the delivery reaches the **[!UICONTROL Sent]** state. To trigger the **[!UICONTROL Interested]** status from a click, add the `_urlType="11"` attribute to the link. The full **inbound interaction** URL syntax (for example to apply the **[!UICONTROL Rejected]** status from a web app) must be configured in the client console — see [Inbound interaction status update](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#configuring-the-status-when-the-proposition-is-accepted){target="_blank"}.
+>Status updates run asynchronously through the tracking workflow. For an outbound delivery containing a tracked link, the status of the proposition is automatically switched to **[!UICONTROL Presented]** when the delivery reaches the **[!UICONTROL Sent]** state. To trigger the **[!UICONTROL Interested]** status from a click, add the `_urlType="11"` attribute to the link. The full **inbound interaction** URL syntax (for example to apply the **[!UICONTROL Rejected]** status from a web app) must be configured in the client console — see [Inbound interaction status update](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=zh-Hant#configuring-the-status-when-the-proposition-is-accepted){target="_blank"}.
 -->
 
 ### 設定進階設定 {#advanced}
 
-此區段可讓您定義&#x200B;**[!UICONTROL 目標識別]**。 按一下[新增]&#x200B;**&#x200B;**&#x200B;並選取一或多個&#x200B;**[!UICONTROL 收件者]**&#x200B;屬性，或按一下[編輯運算式]&#x200B;**[!UICONTROL 以定義自訂運算式]**。 此設定對於基本優惠方案空間為選用。 如需其完整參考資料和行為，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}。
+此區段可讓您定義&#x200B;**[!UICONTROL 目標識別]**。 按一下[新增]&#x200B;**&#x200B;**&#x200B;並選取一或多個&#x200B;**[!UICONTROL 收件者]**&#x200B;屬性，或按一下[編輯運算式]&#x200B;**[!UICONTROL 以定義自訂運算式]**。 此設定對於基本優惠方案空間為選用。 如需其完整參考資料和行為，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=zh-Hant){target="_blank"}。
 
-在&#x200B;**傳入Web頻道**&#x200B;上建立的優惠方案空間，也需要設定網站以顯示優惠方案並呼叫優惠方案引擎。 這項整合是在使用者端主控台中執行 — 請參閱[即時提供優惠方案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"}和[在Campaign v8檔案中設定優惠方案引擎整合](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"}。
+在&#x200B;**傳入Web頻道**&#x200B;上建立的優惠方案空間，也需要設定網站以顯示優惠方案並呼叫優惠方案引擎。 這項整合是在使用者端主控台中執行 — 請參閱[即時提供優惠方案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html?lang=zh-Hant){target="_blank"}和[在Campaign v8檔案中設定優惠方案引擎整合](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html?lang=zh-Hant){target="_blank"}。
 
 ## 部署優惠方案空間 {#deploy}
 
