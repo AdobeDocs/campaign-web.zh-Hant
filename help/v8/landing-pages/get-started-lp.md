@@ -23,10 +23,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 14f1be5428c2174b63543c11cd2c64a69e33fdd4
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 86%
 ---
 # 開始使用登陸頁面 {#get-sarted-lp}
 
@@ -41,6 +41,10 @@ ht-degree: 100%
 >您在 Campaign Web 使用者介面建立的登陸頁面，與從使用者端主控台建立的網路表單不同。 對於在用戶端主控台建立的網路表單，您無法透過 Campaign Web 使用者介面來顯示或加以編輯。
 >
 >若要了解更多關於網路表單的資訊，請參閱 [Campaign v8 (主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=zh-Hant){target="_blank"}。
+
+>[!NOTE]
+>
+>在Campaign網頁使用者介面中建立的登入頁面不支援隱藏的輸入欄位或自訂JavaScript。 若要計算並儲存未向訪客顯示的值，請改在使用者端主控台中將表單建立為網頁應用程式。
 
 登陸頁面主要功能列示如下：
 
