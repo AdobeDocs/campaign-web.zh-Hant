@@ -18,9 +18,9 @@ feature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: bc86048e548df4c551cde273c6100c6b5450fc5b
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '846'
 ht-degree: 14%
 ---
 # 使用波段傳送 {#send-using-waves}
@@ -61,6 +61,8 @@ ht-degree: 14%
    >請確定最後批次不超過[有效性](delivery-settings.md#validity)標籤中定義的傳遞期限，否則可能無法傳送部分訊息。 特定型別控制規則&#x200B;**[!UICONTROL 波段排程檢查]**&#x200B;可確保最後一個波段是在傳遞有效期限之前計畫。 在[Campaign v8 （使用者端主控台）檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=zh-Hant)中進一步瞭解控制規則。
    >
    >在設定最後一個波段時，您也必須允許足夠的重試時間。 [了解更多](delivery-settings.md#retries)
+   >
+   >從傳遞的聯絡日期開始排程波段。 如果傳送在某些波次的計畫時間後開始，這些波次會一起傳送，而不是彼此隔開。
 
 1. 若要監視您的傳送，請移至[傳遞記錄](../monitor/delivery-logs.md)。 您可以看到已在已處理批次中傳送的傳遞（**[!UICONTROL 已傳送]**&#x200B;狀態）以及將在剩餘批次中傳送的傳遞（**[!UICONTROL 擱置中]**&#x200B;狀態）。
 
