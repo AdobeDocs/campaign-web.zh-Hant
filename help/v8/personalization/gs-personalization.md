@@ -89,4 +89,4 @@ Adobe Campaign Web 會提供運算式編輯器，讓您可以選取、排列、�
 
 了解如何使用運算式編輯器來個人化您的訊息或新增條件內容，藉以製作動態訊息內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3505246?captions=chi_hant&quality=12)
