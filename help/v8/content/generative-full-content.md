@@ -217,4 +217,4 @@ ht-degree: 2%
 
 瞭解如何使用AI產生完整的電子郵件內容、文字和影像。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428984)
+>[!VIDEO](https://video.tv.adobe.com/v/3505102?captions=chi_hant)
