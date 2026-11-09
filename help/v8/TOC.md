@@ -6,10 +6,10 @@ title: Adobe Campaign Web 文件
 description: Campaign Web 文件
 breadcrumb-title: Campaign Web 使用者介面
 nudge: true
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: b1159f7f6d255f739c8344037f1ff1ffa6dc50fa
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 99%
+source-wordcount: '1082'
+ht-degree: 98%
 ---
 
 # Adobe Campaign Web 文件 {#v8}
@@ -24,7 +24,7 @@ ht-degree: 99%
     + [2025 版本](rn/release-notes-25.md)
     + [2024 版本](rn/release-notes-24.md)
   + {hide-from-toc}[文件更新](rn/documentation-updates.md)
-+ 開始使用 Adobe Campaign {#start}
++ 開始使用 {#start}
   + [開始使用](get-started/get-started.md)
   + [連線至 Campaign](get-started/connect-to-campaign.md)
   + {hide-from-toc}[探索介面](get-started/user-interface.md)
@@ -37,7 +37,7 @@ ht-degree: 99%
   + [從 Campaign Standard 至 v8](rn/acs-migration.md)
   + {hide-from-toc}[採用 AI 技術的內容說明](get-started/using-ai.md)
   + [常見問答集](get-started/faq.md)
-+ 訊息和傳遞 {#msg}
++ 訊息 {#msg}
   + [開始使用訊息](msg/gs-messages.md)
   + [存取傳遞內容](msg/gs-deliveries.md)
   + [建立傳遞](msg/create-deliveries.md)
@@ -98,7 +98,7 @@ ht-degree: 99%
     + [開始使用傳遞警報](msg/delivery-alerting.md)
     + [傳遞提醒儀表板](msg/delivery-alerting-dashboards.md)
     + [傳遞提醒條件](msg/delivery-alerting-criteria.md)
-+ 內容管理 {#content}
++ 內容與個人化 {#content}
   + 建立動態內容 {#dynamic-content}
     + [如何製作動態內容？](personalization/gs-personalization.md)
     + [新增個人化](personalization/personalize.md)
@@ -148,18 +148,7 @@ ht-degree: 99%
       + [個人化您的品牌](content/brands-personalize.md)
       + [建立和管理生成模型](content/generative-models.md)
       + [評估您的內容](content/brands-score.md)
-+ 登陸頁面 {#landing-pages}
-  + [開始使用登陸頁面](landing-pages/get-started-lp.md)
-  + [建立並發佈登陸頁面](landing-pages/create-lp.md)
-  + [設計登陸頁面內容](landing-pages/lp-content.md)
-  + [透過使用案例了解](landing-pages/lp-use-cases.md)
-+ 產品建議管理 {#offers}
-  + [開始使用產品建議管理](offers/gs-offer-management.md)
-  + [審閱產品建議環境設定](offers/offer-environment.md)
-  + [建立及管理產品建議空間](offers/offer-space.md)
-  + [建立及發佈產品建議](offers/create-offer.md)
-  + [將可編輯清單新增至產品建議結構描述](offers/offer-editable-list.md)
-+ 輪廓與客群 {#audiences}
++ 設定檔與對象 {#audiences}
   + [開始使用輪廓和客群](audience/gs-audiences-recipients.md)
   + [目標市場選擇維度](audience/targeting-dimensions.md)
   + [隔離](audience/quarantine.md)
@@ -181,7 +170,12 @@ ht-degree: 99%
   + 使用訂閱服務 {#work-with-services}
     + [建立和管理您的訂閱服務](audience/manage-services.md)
     + [管理訂閱者](audience/manage-subscribers.md)
-+ 跨管道行銷活動 {#campaigns}
++ 登陸頁面與表單 {#landing-pages}
+  + [開始使用登陸頁面](landing-pages/get-started-lp.md)
+  + [建立並發佈登陸頁面](landing-pages/create-lp.md)
+  + [設計登陸頁面內容](landing-pages/lp-content.md)
+  + [透過使用案例了解](landing-pages/lp-use-cases.md)
++ 行銷活動 {#campaigns}
   + [開始使用行銷活動](campaigns/gs-campaigns.md)
   + [存取和管理您的行銷活動](campaigns/manage-campaigns.md)
   + [建立您的第一個行銷活動](campaigns/create-campaigns.md)
@@ -229,13 +223,19 @@ ht-degree: 99%
     + [傳輸檔案](workflows/activities/transfer-file.md)
     + [更新資料](workflows/activities/update-data.md)
     + [等待](workflows/activities/wait.md)
-+ 查詢資料庫 {#query-database}
++ 產品建議 {#offers}
+  + [開始使用產品建議管理](offers/gs-offer-management.md)
+  + [審閱產品建議環境設定](offers/offer-environment.md)
+  + [建立及管理產品建議空間](offers/offer-space.md)
+  + [建立及發佈產品建議](offers/create-offer.md)
+  + [將可編輯清單新增至產品建議結構描述](offers/offer-editable-list.md)
++ 查詢和資料 {#query-database}
   + [使用查詢建模工具](query/query-modeler-overview.md)
   + [建置您的第一個查詢](query/build-query.md)
   + [編輯運算式](query/expression-editor.md)
   + {hide-from-toc}[查詢範例](query/query-samples.md)
   + [篩選清單](query/filter.md)
-+ 報告 {#reports}
++ 報告與追蹤 {#reports}
   + [稽核軌跡](reporting/audit-trail.md)
   + [關鍵績效指標](reporting/kpis.md)
   + 標準報告 {#standard-reports}
