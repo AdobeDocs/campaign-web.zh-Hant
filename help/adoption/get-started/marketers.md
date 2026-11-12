@@ -128,27 +128,27 @@ ht-degree: 16%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/audiences/work-with-services/manage-services">
 <img alt="不常使用" src="assets/lp-list.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services"><strong>建立訂閱服務</strong></a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/audiences/work-with-services/manage-services"><strong>建立訂閱服務</strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers">
 <img alt="不常使用" src="assets/workflow-activities.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>管理訂閱者<strong></strong></a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>管理訂閱者<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-to-subscribers">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/send-to-subscribers">
 <img alt="驗證" src="assets/workflow-create.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-to-subscribers"><strong>傳送訊息給服務的訂閱者</strong></a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/send-to-subscribers"><strong>傳送訊息給服務的訂閱者</strong></a>
 </div>
 <p>
 </td>
@@ -233,7 +233,7 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 >
 >* 從Campaign v8傳送的傳遞的追蹤連結、映象頁面URL連結和訂閱/取消訂閱連結均遵循Campaign v8標準。 轉換前從Campaign Standard傳送的傳送映象頁面無法使用。<!-- See [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#admin-tracking).-->
 >
->另請參閱下列章節： Adobe Campaign中的[追蹤與監控](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}、[品牌](../../v8/administration/branding/branding-gs.md)。
+>另請參閱下列章節： Adobe Campaign中的[追蹤與監控](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}、[品牌](../../v8/administration/branding/branding-gs.md)。
 
 ### 電子郵件傳遞 {#acs-gs-marketers-email}
 
@@ -247,7 +247,7 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 
 1. **設計和定義內容**
 
-   Campaign v8電子郵件設計工具類似於Campaign Standard中可用的設計工具。 提醒您，Campaign Standard[舊版電子郵件編輯器在幾年前](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}已被取代。 您應該已經轉換到Campaign電子郵件Designer ，以建立並個人化您的電子郵件內容。
+   Campaign v8電子郵件設計工具類似於Campaign Standard中可用的設計工具。 提醒您，Campaign Standard[舊版電子郵件編輯器在幾年前](https://experienceleague.adobe.com/zh-hant/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}已被取代。 您應該已經轉換到Campaign電子郵件Designer ，以建立並個人化您的電子郵件內容。
 
    了解如何導覽電子郵件設計工具。 透過以下影片，瞭解如何從草稿開始架構和設計電子郵件、如何個人化及測試您的電子郵件：
 
@@ -286,27 +286,27 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/sms/create-sms">
 <img alt="銷售機會" src="assets/create_sms.png">
 </a>
-<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms"><strong>建立簡訊傳遞</strong>
+<div><a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/sms/create-sms"><strong>建立簡訊傳遞</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/content-sms">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/sms/content-sms">
 <img alt="不常使用" src="assets/design_sms.png">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/content-sms"><strong>設計簡訊傳遞<strong></strong></a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/sms/content-sms"><strong>設計簡訊傳遞<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/send-sms">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/sms/send-sms">
 <img alt="驗證" src="assets/send_sms.png">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/send-sms"><strong>預覽並傳送SMS傳遞</strong></a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/sms/send-sms"><strong>預覽並傳送SMS傳遞</strong></a>
 </div>
 <p>
 </td>
@@ -321,36 +321,36 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/create-push">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/push/create-push">
 <img alt="銷售機會" src="assets/push_create.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/create-push"><strong>建立推播傳遞</strong>
+<div><a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/push/create-push"><strong>建立推播傳遞</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/content-push">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/push/content-push">
 <img alt="不常使用" src="assets/push_design.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/content-push"><strong>設計推播傳遞<strong></strong></a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/push/content-push"><strong>設計推播傳遞<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/send-push">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/push/send-push">
 <img alt="驗證" src="assets/push_send.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/send-push"><strong>預覽並傳送推播傳遞</strong></a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/push/send-push"><strong>預覽並傳送推播傳遞</strong></a>
 </div>
 <p>
 </tr></table>
 
 >[!AVAILABILITY]
 >
->* Adobe Campaign v8同時支援Android和iOS推播頻道。 若要使用推播頻道轉換現有工作流程與傳遞，請聯絡您的Adobe Campaign轉換經理。 深入瞭解[頻道設定](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
+>* Adobe Campaign v8同時支援Android和iOS推播頻道。 若要使用推播頻道轉換現有工作流程與傳遞，請聯絡您的Adobe Campaign轉換經理。 深入瞭解[頻道設定](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
 >
->* 請注意，適用於行動應用程式的SDK V4在幾年前[已在Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}中被取代。 您應已轉換至Adobe Experience Platform SDK，此專案與Campaign v8中的專案相同。
+>* 請注意，適用於行動應用程式的SDK V4在幾年前[已在Campaign Standard](https://experienceleague.adobe.com/zh-hant/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}中被取代。 您應已轉換至Adobe Experience Platform SDK，此專案與Campaign v8中的專案相同。
 > 
 
 ### 直接郵件 {#acs-gs-marketers-direct-mail}
@@ -381,28 +381,28 @@ Adobe Campaign v8網頁使用者介面隨附重新想像的登陸頁面使用者
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/create-lp">
 <img alt="銷售機會" src="assets/lp-subscription.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp"><strong>建立登陸頁面</strong>
+<div><a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/create-lp"><strong>建立登陸頁面</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/lp-content">
 <img alt="驗證" src="assets/lp-design.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content"><strong>設計登陸頁面</strong></a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/lp-content"><strong>設計登陸頁面</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-use-cases">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/lp-use-cases">
 <img alt="登陸頁面使用案例與內建範本" src="assets/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>登入頁面使用案例和內建範本</strong></a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>登入頁面使用案例和內建範本</strong></a>
 </div>
 <p>
 </td>
@@ -427,11 +427,11 @@ Adobe Campaign 可提供三種不同的報告：
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
 <img alt="驗證" src="./assets/campaign_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>行銷活動報告</strong></a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>行銷活動報告</strong></a>
 </div>
 <p>
 <div>
@@ -440,10 +440,10 @@ Adobe Campaign 可提供三種不同的報告：
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
 <img alt="銷售機會" src="assets/email_report.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>傳遞報告</strong>
+<div><a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>傳遞報告</strong>
 </div>
 <p>
 <div>
@@ -452,11 +452,11 @@ Adobe Campaign 可提供三種不同的報告：
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports">
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/global-report/global-reports">
 <img alt="全域報告" src="assets/push_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports"><strong>全域報告</strong></a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/global-report/global-reports"><strong>全域報告</strong></a>
 </div>
 <p>
 <div>
