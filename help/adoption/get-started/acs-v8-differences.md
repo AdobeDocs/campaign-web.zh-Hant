@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 25814ce1c70a139c9727b3bfccccd3efe056b441
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '649'
 ht-degree: 2%
 ---
 # Campaign Standard與Campaign v8之間的差異 {#acs-v8-differences}
@@ -52,7 +52,7 @@ Campaign Standard和Campaign v8中的大多數概念相同。 此頁面會收集
 | 若要轉換現有的推播工作流程與傳送，請聯絡您的Adobe Campaign轉換經理。 | [推播通知](marketers.md#acs-gs-marketers-push) |
 | 在Campaign Standard中，測試設定檔可標示為&#x200B;**陷阱**&#x200B;以接收最終傳送。 在Campaign v8中，在傳遞的對象設定中新增&#x200B;**陷阱群組**。 | [設陷群組](../../v8/audience/trap-group.md) |
 | 在Campaign網頁使用者介面中建立的登入頁面不支援隱藏的輸入欄位或自訂JavaScript。 | [登陸頁面](../../v8/landing-pages/get-started-lp.md) |
-| 在Campaign Standard中，直接郵件活動的出站轉變也攜帶了產生的檔案。 在Campaign v8中，僅攜帶目標母體。 若要將檔案傳送至伺服器，請新增&#x200B;**資料擷取**&#x200B;活動，然後新增&#x200B;**檔案傳輸**&#x200B;活動。 | [直接郵件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| 在Campaign Standard中，直接郵件活動的出站轉變也攜帶了產生的檔案。 在Campaign v8中，僅攜帶目標母體。 若要將檔案傳送至伺服器，請新增&#x200B;**資料擷取**&#x200B;活動，然後新增&#x200B;**檔案傳輸**&#x200B;活動。 | [直接郵件](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## 對象、工作流程和傳遞 {#data-and-workflows}
 
@@ -77,16 +77,6 @@ Campaign Standard安全性群組、角色和組織單位會在轉換期間對應
 | 從執行例項存取交易API需要新的產品設定檔。 | [產品設定檔對應](user-management-acs.md#product-profile-mapping-to-access-rest-apis) |
 | 隱私權請求可能會在Campaign Standard環境保持作用中期間同時送達Campaign Standard和Campaign v8。 | [隱私權與同意](admin-developers.md#privacy-and-consent) |
 
-## 管理、追蹤和映象頁面 {#admin-tracking}
-
-這些差異會影響轉換前從Campaign Standard傳送的傳遞，以及未轉存至Campaign v8的管理資訊。
-
-| 哪些變更 | 了解更多 |
-|---|---|
-| 轉換前從Campaign Standard傳送的傳送映象頁面無法使用。 從Campaign v8傳送的傳送映象頁面如常運作。 | [映象頁面](../../v8/email/mirror-page.md) |
-| Campaign v8不會擷取在轉換前從Campaign Standard傳送的即時交易傳遞的追蹤資料。 這些訊息的連結仍會重新導向。 | [監視異動訊息](../../v8/transactional-messaging/monitor-transactional.md) |
-| 無法使用地理單位。 根據地理單位的存取控制會遺失。 | [存取控制](../../v8/get-started/connect-to-campaign.md#access-control) |
-
 ## API和整合 {#apis-and-integrations}
 
 這些差異會影響透過REST API呼叫Campaign的整合功能，以及與其他Adobe解決方案和工具的整合功能。
@@ -95,5 +85,4 @@ Campaign Standard安全性群組、角色和組織單位會在轉換期間對應
 |---|---|
 | PKEY值會在移轉後變更。 如果您將PKEY儲存在Campaign之外，請改為遵循API傳回的href。 | [REST API](admin-developers.md#acs-gs-admin-apis) |
 | 部分已移轉的設定檔欄位（例如時區和`ccpaOptOut`）只會由`profileAndServicesExt/profile` API傳回。 | [REST API](admin-developers.md#acs-gs-admin-apis) |
-| Campaign v8中不提供Campaign Standard的Dreamweaver和Adobe Experience Platform Data Connector整合。 | [使用Campaign和其他Adobe解決方案](../../v8/integrations/integration.md) |
 | Adobe會移轉您的Adobe Analytics和Audience Manager設定。 您必須再次設定觸發器和Adobe Target整合。 | [管理Adobe Campaign整合](admin-developers.md#acs-gs-integrations) |
