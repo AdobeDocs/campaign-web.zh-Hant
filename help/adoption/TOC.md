@@ -15,7 +15,7 @@ ht-degree: 41%
 
 + [Campaign 採用指南](home.md)
 + [從Standard到v8](get-started/overview.md)
-+ {hide-from-toc}[標準和v8](get-started/acs-v8-differences.md)之間的差異
++ {hide-from-toc}[標準和v8之間的差異](get-started/acs-v8-differences.md)
 + {hide-from-toc}[檢查轉換之後](get-started/post-transition-checks.md)
 + [行銷人員快速入門](get-started/marketers.md)
 + [管理員/開發人員快速入門](get-started/admin-developers.md)
