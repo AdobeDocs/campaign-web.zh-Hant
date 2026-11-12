@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2849'
 ht-degree: 16%
 ---
 # 行銷人員快速入門 {#acs-gs-marketers}
@@ -231,7 +231,7 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 >
 >* 處於以下狀態之一的傳遞已移轉為已取消的傳遞：針對已取消/重試進行中。
 >
->* 追蹤連結、映象頁面URL連結、訂閱/取消訂閱連結的運作方式與Campaign Standard中相同。
+>* 從Campaign v8傳送的傳遞的追蹤連結、映象頁面URL連結和訂閱/取消訂閱連結均遵循Campaign v8標準。
 >
 >另請參閱下列章節： Adobe Campaign中的[追蹤與監控](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}、[品牌](../../v8/administration/branding/branding-gs.md)。
 
@@ -375,7 +375,7 @@ Adobe Campaign Web使用者介面在工作流程中提供查詢模型工具，�
 
 Adobe Campaign v8網頁使用者介面隨附重新想像的登陸頁面使用者體驗。 Campaign可讓您建立、設計和共用登入頁面。 登陸頁面可讓您引導使用者至線上表單，他們可在此更新資料、針對接收您的通訊選擇加入/退出，或訂閱電子報等特定服務。
 
-身為Campaign Standard使用者轉換至Campaign v8，您現有的登入頁面已移轉至Campaign Web使用者介面。 您可以存取相同範圍的功能。
+您身為Campaign Standard使用者，正在移轉至Campaign v8，因此現有的登入頁面已移轉至Campaign Web使用者介面。<!-- Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). -->
 
 請在下列章節中進一步瞭解登入頁面：
 

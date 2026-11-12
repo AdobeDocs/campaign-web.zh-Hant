@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1602'
 ht-degree: 28%
 ---
 # 從 Campaign Standard 至 v8 {#ac-acs}
@@ -57,6 +57,8 @@ ht-degree: 28%
 1. 首先瞭解[Adobe Campaign v8](#new)的新增功能。
 
 1. 接下來，根據您的角色[&#128279;](#experiences)，瞭解Adobe Campaign Standard與Adobe Campaign v8之間的體驗差異。
+
+<!-- 1. After your transition, review the [checks and troubleshooting](post-transition-checks.md). -->
 
 ## 新增功能 {#new}
 
@@ -171,7 +173,7 @@ Adobe Campaign v8 可作為 Managed Cloud Services，提供主動預防性監督
 
 * **Rest API**  - 作為 Campaign Standard 移轉使用者，您可以使用 Rest API 為 Adobe Campaign 建立整合，並透過將 Adobe Campaign 與您使用的一組技術結合來建立自己的生態系統。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant){target="_blank"}
 
-* **登陸頁面** - Campaign v8 登陸頁面進行了一些改進，以確保功能與 Campaign Standard 相同。 請參閱[發行說明](../../v8/rn/release-notes.md#new-24-4)和登陸頁面[文件](../../v8/landing-pages/get-started-lp.md)以了解更多資訊。
+* **登陸頁面** — 已對Campaign v8登陸頁面進行改進，使其與Campaign Standard一致。<!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). --> 請參閱[發行說明](../../v8/rn/release-notes.md#new-24-4)和登陸頁面[文件](../../v8/landing-pages/get-started-lp.md)以了解更多資訊。
 
 * **視覺片段**  - 視覺片段是可重複使用的視覺元件，可在一個或多個電子郵件傳遞或在內容範本中進行參考。 修改片段時，使用該片段的所有內容都會隨之更新。 此功能可讓您預先建立多個自訂內容區塊，以便行銷使用者在改進的設計流程中使用這些內容區塊來快速組裝訊息內容。 [了解更多](../../v8//content/use-visual-fragments.md)
 
@@ -195,6 +197,8 @@ Adobe Campaign v8和Adobe Campaign Standard中的大多數概念都類似。 不
 * 傳遞分析現在是&#x200B;**傳遞準備**。 當您需要啟動訊息準備時，按一下「**準備**」按鈕。 [了解更多資訊](../../v8/monitor/prepare-send.md)。
 * 電子郵件預覽現在可透過「**模擬內容**」按鈕取得。 [了解更多](../../v8/preview-test/preview-test.md)
 * 清單現在是&#x200B;**客群**。 [了解更多資訊](../../v8/audience/gs-audiences-recipients.md)。
+
+<!-- For the other differences that affect your transition, see [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md). -->
 
 
 ## 新的使用者體驗

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 97%
 ---
 # Campaign Standard 轉換到 Campaign v8 {#acs-to-ac}
 
@@ -96,7 +96,7 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 
 * **REST API**：從 Campaign Standard 移轉的使用者，可以透過 REST API 為 Adobe Campaign 建立整合，以及將 Adobe Campaign 與其他技術進行連結來建置生態系統。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=zh-Hant){target="_blank"}。
 
-* **登陸頁面**：Campaign v8 登陸頁面已有改進，確保功能與 Campaign Standard 相同。 請參閱[發行說明](../rn/release-notes.md#new-24-4)和登陸頁面[文件](../landing-pages/get-started-lp.md)以了解更多資訊。
+* **登陸頁面**： Campaign v8登陸頁面包含改良功能，以便與Campaign Standard保持一致。<!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](../../adoption/get-started/acs-v8-differences.md#channels). --> 請參閱[發行說明](../rn/release-notes.md#new-24-4)和登陸頁面[文件](../landing-pages/get-started-lp.md)以了解更多資訊。
 
 * **視覺片段**：視覺片段為在一或多個電子郵件傳遞或者內容範本中參照的可重複使用視覺元件。 修改片段會更新使用該片段的所有內容。 透過改進過的設計流程，行銷使用者可以利用這項功能預先建置多個自訂的內容區塊，以便快速組裝訊息內容。 [了解更多資訊](../content/use-visual-fragments.md)。
 
