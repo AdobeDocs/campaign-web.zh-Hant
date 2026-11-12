@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 11cf5f2a6e3e77d0747a0b88758ce3fe871e66fd
+source-git-commit: 25814ce1c70a139c9727b3bfccccd3efe056b441
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '777'
 ht-degree: 2%
 ---
 # Campaign Standard與Campaign v8之間的差異 {#acs-v8-differences}
@@ -50,9 +50,9 @@ Campaign Standard和Campaign v8中的大多數概念相同。 此頁面會收集
 |---|---|
 | 應用程式內頻道在Campaign v8中無法使用。 | [應用程式內頻道](marketers.md#acs-gs-marketers-in-app) |
 | 若要轉換現有的推播工作流程與傳送，請聯絡您的Adobe Campaign轉換經理。 | [推播通知](marketers.md#acs-gs-marketers-push) |
-| 在Campaign Standard中，測試設定檔可標示為&#x200B;**陷阱**&#x200B;以接收最終傳送。 在Campaign v8中，啟用選項以在傳送的主要對象中包含測試設定檔。 | [測試傳遞](../../v8/preview-test/test-deliveries.md) |
+| 在Campaign Standard中，測試設定檔可標示為&#x200B;**陷阱**&#x200B;以接收最終傳送。 在Campaign v8中，在傳遞的對象設定中新增&#x200B;**陷阱群組**。 | [設陷群組](../../v8/audience/trap-group.md) |
 | 在Campaign網頁使用者介面中建立的登入頁面不支援隱藏的輸入欄位或自訂JavaScript。 | [登陸頁面](../../v8/landing-pages/get-started-lp.md) |
-| 在Campaign Standard中，直接郵件活動的出站轉變也攜帶了產生的檔案。 在Campaign v8中，僅攜帶目標母體。 若要將檔案傳送至伺服器，請新增&#x200B;**資料擷取**&#x200B;活動，然後新增&#x200B;**檔案傳輸**&#x200B;活動。 | [直接郵件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| 在Campaign Standard中，直接郵件活動的出站轉變也攜帶了產生的檔案。 在Campaign v8中，僅攜帶目標母體。 若要將檔案傳送至伺服器，請新增&#x200B;**資料擷取**&#x200B;活動，然後新增&#x200B;**檔案傳輸**&#x200B;活動。 | [直接郵件](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## 對象、工作流程和傳遞 {#data-and-workflows}
 
@@ -63,7 +63,6 @@ Campaign Standard和Campaign v8中的大多數概念相同。 此頁面會收集
 | 對象會在轉換期間轉換。 例如，使用「查詢」活動建立的對象會成為預先定義的篩選器，而檔案型別的對象會成為沒有維度的清單型別對象。 | [管理對象](marketers.md#acs-gs-marketers-audiences) |
 | Campaign Standard中執行的工作流程歷史記錄不會移轉。 | [建立工作流程](marketers.md#acs-gs-marketers-wf) |
 | 在Campaign Standard中，您可以選取循環電子郵件的彙總期間。 此選項在Campaign v8中無法使用。 | [頻道活動](../../v8/workflows/activities/channels.md) |
-| 在Campaign Standard中，**檔案傳輸**&#x200B;活動可依字母數字排序檔案。 此選項在Campaign v8中無法使用。 | [傳輸檔案](../../v8/workflows/activities/transfer-file.md) |
 | 動態報告涵蓋電子郵件傳送、具有電子郵件傳送的行銷活動以及異動訊息。 | [報告](marketers.md#acs-gs-marketers-reporting) |
 
 ## 存取與安全性 {#access}
@@ -86,10 +85,7 @@ Campaign Standard安全性群組、角色和組織單位會在轉換期間對應
 |---|---|
 | 轉換前從Campaign Standard傳送的傳送映象頁面無法使用。 從Campaign v8傳送的傳送映象頁面如常運作。 | [映象頁面](../../v8/email/mirror-page.md) |
 | Campaign v8不會擷取在轉換前從Campaign Standard傳送的即時交易傳遞的追蹤資料。 這些訊息的連結仍會重新導向。 | [監視異動訊息](../../v8/transactional-messaging/monitor-transactional.md) |
-| 草稿傳遞的追蹤URL設定不會被保留。 轉換後，追蹤、映象頁面和訂閱連結會遵循Campaign v8標準，而且預設會追蹤連結。 | [新增連結及追蹤訊息](../../v8/email/message-tracking.md) |
 | 無法使用地理單位。 根據地理單位的存取控制會遺失。 | [存取控制](../../v8/get-started/connect-to-campaign.md#access-control) |
-| 轉換後，實體的&#x200B;**建立者**&#x200B;和&#x200B;**修改者**&#x200B;資訊無法使用。 | [稽核軌跡](admin-developers.md#acs-gs-admin-audit-trail) |
-| 品牌化子網域URL會調整為Campaign v8標準。 非標準品牌設定不會移轉，而是透過預設品牌提供。 | [品牌](../../v8/administration/branding/branding-gs.md) |
 
 ## API和整合 {#apis-and-integrations}
 
