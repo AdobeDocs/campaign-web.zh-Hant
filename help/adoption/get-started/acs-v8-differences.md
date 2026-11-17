@@ -29,18 +29,41 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 64a07e65b7e6d933288b10117aae99f48d13a8d8
+source-git-commit: 982fb1a5060db5b4eac6c6f68487116d9a72e109
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 2%
+source-wordcount: '1926'
+ht-degree: 3%
 ---
 # Campaign Standard與Campaign v8之間的差異 {#acs-v8-differences}
 
 Campaign Standard和Campaign v8中的大多數概念相同。 此頁面會收集轉換後對您造成影響的差異，並連結至說明每個差異的頁面。 它可補充[行銷人員](marketers.md)以及[管理員和開發人員](admin-developers.md)的指南。
 
-* 如需術語變更，請參閱[Campaign Standard與Campaign v8](overview.md#experiences)之間的主要差異。
+* 如需術語變更，請參閱[術語](#terminology)。
 * 若要執行檢查以及轉換後回報的問題，請參閱[轉換後的檢查與疑難排解](post-transition-checks.md)。
 * 如需使用者端主控台中才有的功能，請參閱[Campaign Web和Campaign使用者端主控台](../../v8/get-started/capability-matrix.md)。
+
+## 術語 {#terminology}
+
+Adobe Campaign v8和Adobe Campaign Standard中的大多數概念都類似。 不過，從術語開始會有一些差異。
+
+| 在Campaign Standard中 | 在Campaign v8中 |
+|---|---|
+| 自訂資源 | **結構描述** |
+| 訊息 | **傳遞** |
+| 產品使用者 | **運運算元** |
+| 角色 | 已使用&#x200B;**已命名的許可權**&#x200B;進行設定 |
+| 安全性群組 | **運運算元群組** |
+| 組織單位 | 透過&#x200B;**資料夾許可權**&#x200B;管理 |
+
+此外，身為現有的Campaign使用者，請注意有些概念已重新命名，以符合最新的術語標準。 這些變更只會套用至Campaign Web使用者介面，不會反映在使用者端主控台中。
+
+| 在Campaign Standard中 | 在Campaign Web中 | 了解更多 |
+|---|---|---|
+| 收件者 | **設定檔** | [設定檔](../../v8/audience/gs-audiences-recipients.md) |
+| 種子地址 | **測試設定檔** | [測試傳遞](../../v8/preview-test/test-deliveries.md) |
+| 傳遞分析 | **傳遞準備**。 若要啟動訊息準備，請按一下&#x200B;**準備**&#x200B;按鈕。 | [準備並傳送](../../v8/monitor/prepare-send.md) |
+| 電子郵件預覽 | 可透過&#x200B;**模擬內容**&#x200B;按鈕使用。 | [預覽和測試](../../v8/preview-test/preview-test.md) |
+| 清單 | **對象** | [對象](../../v8/audience/gs-audiences-recipients.md) |
 
 ## 管道和內容 {#channels}
 
@@ -52,7 +75,7 @@ Campaign Standard和Campaign v8中的大多數概念相同。 此頁面會收集
 | 若要轉換現有的推播工作流程與傳送，請聯絡您的Adobe Campaign轉換經理。 | [推播通知](marketers.md#acs-gs-marketers-push) |
 | 在Campaign Standard中，測試設定檔可標示為&#x200B;**陷阱**&#x200B;以接收最終傳送。 在Campaign v8中，在傳遞的對象設定中新增&#x200B;**陷阱群組**。 | [設陷群組](../../v8/audience/trap-group.md) |
 | 在Campaign網頁使用者介面中建立的登入頁面不支援隱藏的輸入欄位或自訂JavaScript。 | [登陸頁面](../../v8/landing-pages/get-started-lp.md) |
-| 在Campaign Standard中，直接郵件活動的出站轉變也攜帶了產生的檔案。 在Campaign v8中，僅攜帶目標母體。 若要將檔案傳送至伺服器，請新增&#x200B;**資料擷取**&#x200B;活動，然後新增&#x200B;**檔案傳輸**&#x200B;活動。 | [直接郵件](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| 在Campaign Standard中，直接郵件活動的出站轉變也攜帶了產生的檔案。 在Campaign v8中，僅攜帶目標母體。 若要將檔案傳送至伺服器，請新增&#x200B;**資料擷取**&#x200B;活動，然後新增&#x200B;**檔案傳輸**&#x200B;活動。 | [直接郵件](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## 對象、工作流程和傳遞 {#data-and-workflows}
 
@@ -60,7 +83,10 @@ Campaign Standard和Campaign v8中的大多數概念相同。 此頁面會收集
 
 | 哪些變更 | 了解更多 |
 |---|---|
-| 對象會在轉換期間轉換。 例如，使用「查詢」活動建立的對象會成為預先定義的篩選器，而檔案型別的對象會成為沒有維度的清單型別對象。 | [管理對象](marketers.md#acs-gs-marketers-audiences) |
+| 使用Campaign Standard中的查詢活動建立的對象在Campaign v8中成為[預先定義的篩選器](../../v8/query/build-query.md)。 Campaign v8也支援查詢活動。 | [管理對象](marketers.md#acs-gs-marketers-audiences) |
+| 讀取對象活動會變成具有預先定義篩選器的查詢活動。 | [管理對象](marketers.md#acs-gs-marketers-audiences) |
+| 預先定義的篩選器只接受對象移轉後的最新值。 | [管理對象](marketers.md#acs-gs-marketers-audiences) |
+| 檔案型別對象會變成沒有維度的清單型別對象。 | [管理對象](marketers.md#acs-gs-marketers-audiences) |
 | Campaign Standard中執行的工作流程歷史記錄不會移轉。 | [建立工作流程](marketers.md#acs-gs-marketers-wf) |
 | 在Campaign Standard中，您可以選取循環電子郵件的彙總期間。 此選項在Campaign v8中無法使用。 | [頻道活動](../../v8/workflows/activities/channels.md) |
 | 動態報告涵蓋電子郵件傳送、具有電子郵件傳送的行銷活動以及異動訊息。 | [報告](marketers.md#acs-gs-marketers-reporting) |
@@ -84,7 +110,7 @@ Campaign Standard安全性群組、角色和組織單位會在轉換期間對應
 | 哪些變更 | 了解更多 |
 |---|---|
 | PKEY值會在移轉後變更。 如果您將PKEY儲存在Campaign之外，請改為遵循API傳回的href。 | [金鑰使用方式](#key-usage) |
-| 部分已移轉的設定檔欄位（例如時區和`ccpaOptOut`）只會由`profileAndServicesExt/profile` API傳回。 | [設定檔時區](#profile-timezone) |
+| 部分已移轉的設定檔欄位（例如時區和`ccpaOptOut`）只會由`profileAndServicesExt/profile` API傳回。 | [設定檔時區和ccpaOptOut](#profile-timezone) |
 | Adobe會移轉您的Adobe Analytics和Audience Manager設定。 您必須再次設定觸發器和Adobe Target整合。 | [管理Adobe Campaign整合](admin-developers.md#acs-gs-integrations) |
 
 ## REST API建議和限制 {#rest-api-limitations}
@@ -128,7 +154,7 @@ Campaign Standard和Campaign v8的PKey值管理方式不同。 如果您使用Ca
 
 ### 篩選 {#rest-filtering}
 
-* 若要在REST API裝載中使用篩選器，您需要在Campaign v8中編輯篩選器，並提供要在裝載中使用的名稱。 若要這麼做，請從&#x200B;**[!UICONTROL 引數]**&#x200B;索引標籤存取篩選器的其他引數，並在REST API **欄位的**&#x200B;篩選名稱中提供所需的名稱。
+* 若要在REST API裝載中使用篩選器，您需要在Campaign v8中編輯篩選器，並提供要在裝載中使用的名稱。 若要這麼做，請從&#x200B;**[!UICONTROL 引數]**&#x200B;索引標籤存取篩選器的其他引數，並在REST API ]**欄位的**[!UICONTROL &#x200B;篩選名稱中提供所需的名稱。
 
   ![](assets/api-filtering.png)
 
@@ -190,11 +216,13 @@ Campaign Standard和Campaign v8的PKey值管理方式不同。 如果您使用Ca
 | - | 500 - RST-360011發生錯誤 — 請聯絡您的管理員。 | 500 — 發生錯誤 — 請聯絡您的管理員。 |
 | 插入包含無效性別（或任何）列舉值的設定檔/服務 | 500 - RST-360011發生錯誤 — 請聯絡您的管理員。 &#39;invalid&#39;值對&#39;@gender&#39;欄位的&#39;nms:recipient:gender&#39;列舉無效 | 500 — 發生錯誤 — 請聯絡您的管理員。 |
 
-### 輪廓時區 {#profile-timezone}
+### 設定檔時區和ccpaOptOut {#profile-timezone}
 
 使用Campaign Standard時，時區會顯示為&#x200B;**profileAndServices/profile** REST API呼叫的JSON回應的一部分。
 
 使用Campaign v8時，時區只會顯示為&#x200B;**profileAndServicesExt/profile** REST API呼叫的一部分。 它不是&#x200B;**profileAndServices/profile** REST API呼叫的一部分，因為它已新增至擴充型結構描述。
+
+同樣適用於`ccpaOptOut`欄位：它只會顯示為&#x200B;**profileAndServicesExt/profile** REST API呼叫的一部分，而非&#x200B;**profileAndServices/profile**&#x200B;呼叫，因為它是作為資料移轉的一部分新增到擴充型結構描述中。
 
 ### 工作流程外部訊號 {#workflow-signals}
 
