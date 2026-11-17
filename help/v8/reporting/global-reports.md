@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 27%
+source-wordcount: '509'
+ht-degree: 18%
 ---
 # 開始使用全域報告 {#global-report-gs}
 
@@ -65,3 +65,52 @@ ht-degree: 27%
 1. 從&#x200B;**[!UICONTROL URL並按一下串流]**，選擇&#x200B;**[!UICONTROL 最常造訪的連結]**&#x200B;或&#x200B;**[!UICONTROL 時段]**。
 
    **[!UICONTROL 檢視依據]**&#x200B;選項允許篩選URL、標籤或類別。
+
+## LINE頻道報表 {#line-reports}
+
+可用於LINE頻道的報表如下所述。
+
+### 傳遞概觀 {#line-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_deliveries_overview"
+>title="LINE交貨概要"
+>abstract="檢視LINE要傳遞的訊息、傳遞的訊息及傳遞錯誤。"
+
+**[!UICONTROL 傳遞總覽]**&#x200B;報告會顯示LINE要傳遞的訊息、傳遞的訊息及傳遞錯誤。
+
+### 目標對象 {#line-targeted-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_targeted_audience"
+>title="LINE目標對象"
+>abstract="檢視LINE傳遞所定位的對象以及產生的傳遞結果。"
+
+**[!UICONTROL 目標對象]**&#x200B;圖形與表格會顯示LINE傳遞所目標對象與產生的傳遞結果。
+
+### 傳遞統計資料 {#line-delivery-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_delivery_stats"
+>title="LINE傳遞統計資料"
+>abstract="檢視LINE訊息的主要傳遞結果，包括要傳遞的訊息、傳遞的訊息及傳遞錯誤。"
+
+**[!UICONTROL 傳遞統計資料]**&#x200B;圖表和表格顯示LINE訊息的金鑰傳遞結果，包括要傳遞的訊息、傳遞的訊息以及傳遞錯誤。
+
+### 排除的原因 {#line-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_exclusions"
+>title="LINE排除的原因"
+>abstract="檢視目標設定檔從LINE傳遞排除的原因，例如適用性、驗證或設定規則。"
+
+**[!UICONTROL 排除原因]**&#x200B;圖表和表格顯示目標設定檔從LINE傳遞中排除的原因，例如適用性、驗證或設定規則。
+
+### 傳遞總輸送量 {#line-delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_line"
+>title="LINE傳遞輸送量"
+>abstract="檢視LINE訊息在一段時間內的傳送率。"
+
+**[!UICONTROL 傳遞輸送量]**&#x200B;報告顯示一段時間內的LINE訊息傳送率。
