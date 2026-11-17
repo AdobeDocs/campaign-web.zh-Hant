@@ -14,10 +14,10 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 23%
+source-wordcount: '930'
+ht-degree: 22%
 ---
 # 使用產生內容 {#generative-gs}
 
@@ -124,6 +124,7 @@ ht-degree: 23%
 * 僅適用於電子郵件、推播和簡訊頻道。
 * GenAI內容不一定都是準確的。 分享您的意見回饋，讓工程師可以調整模型。
 * 您可以上傳多個品牌資產，但只能針對特定世代使用一個品牌資產。
+* 指向AI產生之影像的連結是暫時性的，無法用於向收件者提供影像。 當您儲存傳送時，產生的影像會儲存至您的Campaign執行個體，且連結會被取代。 傳送傳遞前請先儲存傳遞。
 
 ## 產生內容功能 {#generative-features}
 

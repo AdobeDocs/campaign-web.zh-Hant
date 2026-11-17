@@ -77,10 +77,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '3256'
-ht-degree: 12%
+source-wordcount: '3253'
+ht-degree: 13%
 ---
 # 管理員與開發人員快速入門 {#acs-gs-admin}
 
@@ -377,7 +377,7 @@ MISSING LINKS:
 
 ## 管理Adobe Campaign整合 {#acs-gs-integrations}
 
-您可以將Campaign執行個體連線至Adobe Experience Cloud解決方案，以便結合功能。 Adobe Campaign隨附數個聯結器，可讓您與外部應用程式通訊、連線至資料庫引擎、共用及同步資料。 在[本檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/connect/integration){target="_blank"}中瞭解如何結合您的解決方案。
+您可以將Campaign執行個體連線至[!DNL Adobe CX Enterprise]個解決方案以結合功能。 Adobe Campaign隨附數個聯結器，可讓您與外部應用程式通訊、連線至資料庫引擎、共用及同步資料。 在[本檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/connect/integration){target="_blank"}中瞭解如何結合您的解決方案。
 
 遷移到Campaign v8後，身為Campaign Standard使用者，以下適用於您：
 

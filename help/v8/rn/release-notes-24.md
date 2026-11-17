@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 100%
+source-wordcount: '2577'
+ht-degree: 99%
 ---
 # 2024 年發行說明 {#2024-release}
 
@@ -241,7 +241,7 @@ ht-degree: 100%
 
 * **資料夾管理** - 現在您可以建立與上層資料夾不同類型的子資料夾。 [閱讀更多](../get-started/permissions.md#folders)
 
-* **全球化** - 鑒於我們持續努力統一使用者體驗，因此我們統一了 Adobe Experience Cloud 產品和應用程式中使用的術語。 這會影響德語術語「Titel」，當與物件名稱相關時，該術語會改為「Label」。 這些變更將在 UI 和文件中逐步推出。
+* **全球化** — 為了提供統一的使用者體驗，我們將[!DNL Adobe CX Enterprise]產品與應用程式中使用的術語統一起來。 這會影響德語術語「Titel」，當與物件名稱相關時，該術語會改為「Label」。 這些變更將在 UI 和文件中逐步推出。
 
 
 ## 4 月發行說明 {#april-24-4-release}

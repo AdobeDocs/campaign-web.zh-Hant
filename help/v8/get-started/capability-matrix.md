@@ -52,9 +52,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 980797ae8e315192d95957fcfd5dbdb68bb6ab32
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2543'
 ht-degree: 99%
 ---
 # Campaign Web 與 Campaign 用戶端主控台 {#capabilities-matrix}
@@ -185,14 +185,14 @@ Adobe Campaign Web 使用者介面隨附全新的電子郵件設計工具，可�
 
 閱讀 [Campaign v8 (用戶端主控台) 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=zh-Hant){target="_blank"}，了解如何管理產品建議目錄。
 
-## 與 Adobe Experience Cloud 解決方案整合 {#exc-capabilities}
+## 與[!DNL Adobe CX Enterprise]解決方案整合 {#exc-capabilities}
 
 新的 Campaign 現代使用者介面簡化了行銷活動的設計與傳遞，並且與其他 Adobe 解決方案 (包括 Adobe Experience Platform 和 Adobe Experience Manager) 的介面保持一致性。
 
 下列整合功能可於 Adobe Campaign 用戶端主控台中使用，但無法在 Campaign Web 使用者介面中使用。 使用提供的連結來瀏覽 Campaign v8 (用戶端主控台) 文件，並深入了解這些整合：
 
 * Adobe Analytics 資料使用情況和 KPI 共用。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=zh-Hant){target="_blank"}
-* 與 Adobe Experience Cloud 共用客群 (Adobe Audience Manager)。 [了解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=zh-Hant){target="_blank"}
+* 與[!DNL Adobe CX Enterprise] (Adobe Audience Manager)共用對象。 [了解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=zh-Hant){target="_blank"}
 * 與 Adobe Target 整合。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-at.html?lang=zh-Hant){target="_blank"}
 * 與 Adobe Experience Cloud 觸發程序整合。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-triggers.html?lang=zh-Hant){target="_blank"}
 

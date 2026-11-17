@@ -10,9 +10,9 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1509'
 ht-degree: 6%
 ---
 # 設定多語言傳遞 {#multilingual-delivery}
@@ -32,6 +32,10 @@ ht-degree: 6%
 在多語言傳遞中，語言管理會根據變體。 每個變體代表一種語言。 在建立傳遞期間，您可以新增多種語言變體，以符合訊息中所需語言的數量。 您也可以在新增這些變體後，隨時變更預設語言。
 
 多語言功能目前可用於電子郵件、推播通知、異動訊息和簡訊。
+
+>[!NOTE]
+>
+>不支援單一變數的多語言傳遞。 如果您的訊息只需要一種語言，請改為建立標準（單一）傳遞。
 
 若要設定多語言傳送，請遵循下列主要步驟：
 

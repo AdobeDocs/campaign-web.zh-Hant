@@ -10,7 +10,7 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 11%
@@ -63,7 +63,7 @@ ht-degree: 11%
    * 若為現有事件型別，請從清單中選取它。
    * 若是新的標籤，請新增標籤和名稱。
 
-1. 然後，在&#x200B;**事件型別**&#x200B;下拉式清單中選擇&#x200B;**設定檔RT**。
+1. 然後，在&#x200B;**事件型別**&#x200B;下拉式清單中選擇&#x200B;**個人化事件**。
 
    ![](assets/profile-enrich1.png){zoomable="yes"}
 
