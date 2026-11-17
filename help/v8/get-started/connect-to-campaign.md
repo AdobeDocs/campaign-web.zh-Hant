@@ -15,42 +15,42 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 81%
 ---
 # 連線至 Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。 閱讀此頁面，了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。
+[!DNL Adobe CX Enterprise]是Adobe的整合式數位行銷應用程式產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。 在此頁面上瞭解如何連線至[!DNL CX Enterprise]並存取Adobe Campaign網頁介面。
 
-## 登入 Adobe Experience Cloud {#sign-in-to-exc}
+## 登入[!DNL Adobe CX Enterprise] {#sign-in-to-exc}
 
-您只能使用單一登入 (SSO) 來連線至 Campaign。 通常 Experience Cloud 管理員會授予存取應用程式和服務的權限。 依照電子郵件邀請中的步驟進行，加入 Experience Cloud。
+您只能使用單一登入 (SSO) 來連線至 Campaign。 通常，[!DNL CX Enterprise]管理員會授予應用程式和服務的存取權。 請依照電子郵件邀請中的步驟前往[!DNL CX Enterprise]。
 
-若要登入 Adobe Experience Cloud，請按照以下基本步驟：
+若要登入[!DNL Adobe CX Enterprise]，請遵循下列基本步驟：
 
-1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}。
+1. 瀏覽至[[!DNL Adobe CX Enterprise]](https://experience.adobe.com/){target="_blank"}。
 
 1. 使用 Adobe ID 或 Enterprise ID 登入。 若要了解更多關於 Adobe 身分類型的資訊，請參閱[此文章](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
 
-   登入 Experience Cloud 後，您便可以快速存取您的所有解決方案和應用程式。
+   登入[!DNL CX Enterprise]後，您可以快速存取所有解決方案和應用程式。
 
-   ![顯示 Adobe Experience Cloud 首頁的螢幕擷圖](assets/exc-home.png){zoomable="yes"}
+   ![顯示Adobe CX Enterprise首頁的熒幕擷圖](assets/exc-home.png){zoomable="yes"}
 
 1. 確認您位於正確的組織。
 
-   ![顯示 Adobe Experience Cloud 中組織選取的螢幕擷圖](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
+   ![熒幕擷圖顯示Adobe CX Enterprise中的組織選取專案](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
 
-   若要了解更多關於 Adobe Experience Cloud 中組織的資訊，請參閱[此文章](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant){target="_blank"}。
+   在[本文](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant){target="_blank"}中進一步瞭解[!DNL Adobe CX Enterprise]中的組織。
 
 ## 存取 Adobe Campaign {#access-to-campaign}
 
-若要存取 Campaign 環境，請從 Adobe Experience Cloud 首頁的「**快速存取**」區段中，選取 **Campaign**。
+若要存取您的行銷活動環境，請從[!DNL Adobe CX Enterprise]首頁的&#x200B;**快速存取**&#x200B;區段中選取&#x200B;**行銷活動**。
 
-如果您已經連線至另一個 Adobe Experience Cloud 解決方案，從螢幕右上角的解決方案切換器瀏覽至您的 Campaign 環境。
+如果您已連線至其他[!DNL Adobe CX Enterprise]解決方案，請從熒幕右上角的解決方案切換器瀏覽至您的Campaign環境。
 
-![顯示 Adobe Experience Cloud 中解決方案切換器的螢幕擷圖](assets/solution-switcher.png){zoomable="yes"}
+![熒幕擷圖顯示Adobe CX Enterprise中的解決方案切換器](assets/solution-switcher.png){zoomable="yes"}
 
 如果您擁有多個環境的存取權，包括 Campaign 控制面板，請按一下正確執行個體的「**啟動**」按鈕。
 
@@ -103,17 +103,17 @@ Campaign Web 中的所有權限都會與 Campaign 用戶端主控台權限進行
 
 您可以[在這裡了解如何檢視和管理權限](permissions.md)。
 
-## Adobe Experience Cloud 頂端導覽 {#top-bar}
+## [!DNL Adobe CX Enterprise]個上層導覽 {#top-bar}
 
-介面的頂端列可讓您快速存取 Experience Cloud 的核心功能。
+介面的頂端列可讓您快速存取核心[!DNL CX Enterprise]功能。
 
-![顯示 Adobe Experience Cloud 頂端導覽列的螢幕擷圖](assets/do-not-localize/unified-shell.png){zoomable="yes"}
+![顯示Adobe CX Enterprise頂端導覽列的熒幕擷圖](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
 此頂端列可用於：
 
 * 提供有關 Campaign Web 使用者介面的意見回饋。
 * 切換至不同的組織。
-* 切換至您不同的 Adobe Experience Cloud 解決方案與應用程式。
+* 在您的[!DNL Adobe CX Enterprise]解決方案與應用程式之間切換。
 * 在 [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=zh-hant){target="_blank"} 上搜尋說明。
 * 檢視您的產品通知。
 * 編輯您的 Adobe 設定檔及管理設定，例如[更新偏好語言](#language-pref)或[在淺色和深色主題之間切換](#dark-theme)。

@@ -17,9 +17,9 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1255'
 ht-degree: 2%
 ---
 # 產生影像 {#generative-image}
@@ -32,6 +32,10 @@ ht-degree: 2%
 >您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能使用AI在Adobe Campaign網頁中產生內容。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 在Adobe Campaign Web中使用AI來建立吸引人的視覺內容，以增強電子郵件、登陸頁面和推播通知中的訊息。 AI可協助您產生和最佳化影像，確保您的內容在視覺上吸引人並與您的品牌保持一致。
+
+>[!IMPORTANT]
+>
+>指向AI產生之影像的連結是暫時性的，無法用於向收件者提供影像。 當您儲存傳送時，產生的影像會儲存至您的Campaign執行個體，且連結會被取代。 傳送傳遞前請先儲存傳遞。
 
 ## 適用於電子郵件與登陸頁面 {#email-web-channels}
 
@@ -80,7 +84,7 @@ ht-degree: 2%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 在您滿意提示組態之後，請按一下[產生]。**&#x200B;**
+1. 在您滿意提示組態之後，請按一下[產生]。****
 
 ### 精簡並完成 {#refine-finalize}
 
@@ -116,7 +120,7 @@ ht-degree: 2%
 
 若要開始使用AI產生推播通知的影像，請先設定您的傳送並開啟「產生內容」。
 
-1. 建立及設定推播通知傳遞之後，請按一下[編輯內容]。**&#x200B;** [了解更多](../push/create-push.md)
+1. 建立及設定推播通知傳遞之後，請按一下[編輯內容]。**** [了解更多](../push/create-push.md)
 
 1. 存取&#x200B;**[!UICONTROL 顯示產生內容]**&#x200B;功能表。
 
@@ -150,7 +154,7 @@ ht-degree: 2%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#mobile-refine-finalize}
 

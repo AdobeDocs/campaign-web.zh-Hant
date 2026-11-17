@@ -11,10 +11,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '330'
+ht-degree: 26%
 ---
 # 匯入您的電子郵件內容 {#existing-content}
 
@@ -31,6 +31,10 @@ ht-degree: 29%
 >[!NOTE]
 >
 >.zip 檔案結構沒有限制。 不過，參照必須是相對參照，而且能放在.zip資料夾的樹狀結構內。
+
+>[!IMPORTANT]
+>
+>請勿在您的電子郵件內容中使用HTML `<base>`標籤。 基於安全理由，此標籤不受支援，且可能會阻止您的內容在內容編輯器中載入。 請改用連結和外部資源的絕對網址。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -62,4 +66,4 @@ ht-degree: 29%
 
 瞭解如何透過上傳HTML建立電子郵件、使其與電子郵件Designer相容，並將其轉換為範本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447043/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

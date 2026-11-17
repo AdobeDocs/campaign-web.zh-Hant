@@ -14,10 +14,10 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 23%
+source-wordcount: '930'
+ht-degree: 22%
 ---
 # 使用產生內容 {#generative-gs}
 
@@ -43,7 +43,7 @@ ht-degree: 23%
 
 隨著行銷產業變得更具競爭力，品牌們開始尋求有效率的方式，以迅速產生具影響力的內容。 在Adobe Campaign Web中產生內容（由Microsoft Azure OpenAI和Adobe Firefly提供技術支援）是Adobe的AI內容產生功能，可轉變行銷人員如何跨電子郵件、SMS和推播通知等管道建立專業且品牌一致的內容。 透過進階GenAI模型和對品牌指導方針的深入瞭解，「產生內容」會根據行銷目標自動產生個人化、吸引人且有效的內容，針對品牌概述的樣式、版面、色調等最佳化內容。
 
-「產生內容」支援以多種語言產生&#x200B;**&#x200B;**，讓您能夠觸及並吸引不同的全球對象。 產生內容提供下列語言版本：
+「產生內容」支援以多種語言產生&#x200B;****，讓您能夠觸及並吸引不同的全球對象。 產生內容提供下列語言版本：
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -116,7 +116,7 @@ ht-degree: 23%
 * 使用[內建電子郵件範本](../content/create-email-templates.md)、品牌特定範本或自訂範本，以使用AI建立您的電子郵件內容。 建議使用最多8至10個影像的電子郵件範本。
 * 選擇變體時，使用向上縮圖、向下縮圖或標幟圖示，報告任何有問題的輸出。
 * 您使用「產生內容」時，必須遵守Adobe Experience Cloud Generative AI使用准則。 [了解更多資訊](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
-* 作為Adobe承諾在媒體建立中使用創作AI工具時提高透明度的其中一環，Adobe在下載或匯出內容或專案（包含Firefly產生的資產）時套用Content Credentials。 [了解更多資訊](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)。
+* 作為Adobe承諾在媒體建立中使用創作AI工具時提高透明度的其中一環，Adobe在下載或匯出內容或專案（包含Firefly產生的資產）時套用Content Credentials。 [了解更多資訊](https://helpx.adobe.com/firefly/using/content-credentials.html)。
 
 下列限制適用於Adobe Campaign網頁版中的產生內容：
 
@@ -124,6 +124,7 @@ ht-degree: 23%
 * 僅適用於電子郵件、推播和簡訊頻道。
 * GenAI內容不一定都是準確的。 分享您的意見回饋，讓工程師可以調整模型。
 * 您可以上傳多個品牌資產，但只能針對特定世代使用一個品牌資產。
+* 指向AI產生之影像的連結是暫時性的，無法用於向收件者提供影像。 當您儲存傳送時，產生的影像會儲存至您的Campaign執行個體，且連結會被取代。 傳送傳遞前請先儲存傳遞。
 
 ## 產生內容功能 {#generative-features}
 

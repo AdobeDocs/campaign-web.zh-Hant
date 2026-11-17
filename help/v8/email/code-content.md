@@ -14,10 +14,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 16%
+source-wordcount: '170'
+ht-degree: 12%
 ---
 # 撰寫您自己電子郵件內容的程式碼 {#code-content}
 
@@ -26,6 +26,10 @@ ht-degree: 16%
 >[!CAUTION]
 >
 >此方法需要具備HTML知識。
+
+>[!IMPORTANT]
+>
+>請勿在您的電子郵件內容中使用HTML `<base>`標籤。 基於安全理由，此標籤不受支援，且可能會阻止您的內容在內容編輯器中載入。 請改用連結和外部資源的絕對網址。
 
 1. 在[電子郵件Designer](get-started-email-designer.md)首頁上，選取&#x200B;**[!UICONTROL 自行編碼]**。
 
