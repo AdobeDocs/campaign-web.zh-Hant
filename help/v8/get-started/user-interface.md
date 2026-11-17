@@ -48,7 +48,7 @@ ht-degree: 98%
 
 新的 Adobe Campaign Web 介面提供直覺易用的現代使用者體驗，可簡化行銷活動的設計和傳遞。 此介面與[!DNL Adobe CX Enterprise]應用程式和解決方案整合。
 
-在本文](connect-to-campaign.md)中瞭解如何連線至Adobe Campaign並探索[!DNL CX Enterprise]導覽基本知識[。
+在本文[&#128279;](connect-to-campaign.md)中瞭解如何連線至Adobe Campaign並探索[!DNL CX Enterprise]導覽基本知識。
 
 >[!NOTE]
 >
