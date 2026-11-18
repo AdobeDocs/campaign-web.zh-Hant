@@ -10,9 +10,9 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 001cd7b1e4d95122acbec01234630963ce58bfeb
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1517'
 ht-degree: 6%
 ---
 # 設定多語言傳遞 {#multilingual-delivery}
@@ -27,7 +27,7 @@ ht-degree: 6%
 >title="匯入語言變化版本"
 >abstract="使用此對話框，匯入 CSV 檔案，新增語言變化版本。 檔案會自動填入所選語言的所有可用欄位。 您可以拖放檔案，或在確認之前從電腦中選擇檔案。"
 
-在Campaign Web UI中，您可以將傳送設定為多語言，這可讓您根據設定檔的偏好語言傳送訊息。 未定義偏好設定時，訊息會以預設語言傳送。
+在Campaign Web UI中，您可以將傳送設定為多語言，這可讓您根據設定檔的偏好語言傳送訊息。 未定義偏好設定，或無變體符合設定檔的語言時，訊息會以預設語言傳送。
 
 在多語言傳遞中，語言管理會根據變體。 每個變體代表一種語言。 在建立傳遞期間，您可以新增多種語言變體，以符合訊息中所需語言的數量。 您也可以在新增這些變體後，隨時變更預設語言。
 
