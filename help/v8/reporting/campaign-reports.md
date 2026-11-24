@@ -17,10 +17,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
+source-git-commit: 01252df5ef63ee2453f94f658da4ddcd42779259
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 10%
+source-wordcount: '377'
+ht-degree: 9%
 ---
 # 開始使用行銷活動報告 {#campaign-reports}
 
@@ -49,7 +49,7 @@ ht-degree: 10%
 
    ![熒幕擷圖顯示左側功能表，其中包含管道資料的報告選項和標籤](assets/manage_campaign_report_4.png){zoomable="yes"}
 
-1. 從您的儀表板，按一下&#x200B;**[!UICONTROL 選取傳遞]**，以您的行銷活動中包含的特定傳遞為目標。
+1. 在儀表板中，按一下&#x200B;**[!UICONTROL Select傳遞]**，以定位行銷活動中包含的特定傳遞。
 
 1. 在&#x200B;**[!UICONTROL 傳遞輸送量]**&#x200B;功能表中，選擇&#x200B;**開始**&#x200B;和&#x200B;**[!UICONTROL 結束時間]**&#x200B;以專注於特定資料。
 
@@ -65,42 +65,22 @@ ht-degree: 10%
 
    **[!UICONTROL 檢視依據]**&#x200B;選項允許依URL、標籤或類別篩選。
 
-## LINE頻道報表 {#line-reports}
-
-可用於LINE頻道的報表如下所述。
-
-### 傳遞摘要 {#line-delivery-summary}
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_line_deliveries_overview"
 >title="傳遞概觀"
 >abstract="檢視LINE要傳遞的訊息、傳遞的訊息及傳遞錯誤。"
-
-**[!UICONTROL 傳遞總覽]**&#x200B;報告顯示要傳遞的訊息、傳遞的訊息，以及您的LINE傳遞的傳遞錯誤。
-
-#### 初始目標對象統計資料 {#line-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_line_target"
 >title="初始目標對象統計資料"
 >abstract="在執行LINE傳遞之前，檢閱初始目標母體以及排除的設定檔。"
 
-**[!UICONTROL 初始目標對象統計資料]**&#x200B;表格會顯示初始目標母體以及在執行LINE傳遞之前排除的設定檔。
-
-#### 執行統計資料 {#line-exec-stats}
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_line_exec_stats"
 >title="執行統計資料"
 >abstract="檢閱LINE訊息的處理和傳遞結果，包括傳遞的訊息和錯誤。"
 
-**[!UICONTROL 執行統計資料]**&#x200B;表格顯示LINE訊息的處理與傳遞結果，包括傳遞的訊息與錯誤。
-
-#### 產生的點按資料流 {#line-click-streams}
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_line_click_streams"
 >title="產生的點按資料流"
 >abstract="檢視由LINE傳遞的收件者產生的追蹤連結活動。"
-
-**[!UICONTROL 產生的點選串流]**&#x200B;表格顯示由LINE傳遞的收件者產生的追蹤連結活動。

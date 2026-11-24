@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 01252df5ef63ee2453f94f658da4ddcd42779259
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 25%
+source-wordcount: '380'
+ht-degree: 19%
 ---
 # 開始使用傳遞報告 {#reports}
 
@@ -57,7 +57,7 @@ Adobe Campaign 提供多種報告類型，每個傳遞均可存取。 這些報�
 
    ![報告選取功能表在左側面板](assets/manage_delivery_report_3.png){zoomable="yes"}
 
-1. 如果您的傳遞是週期性的，請按一下&#x200B;**[!UICONTROL 選取傳遞]**&#x200B;來選取要報告的特定傳遞。
+1. 如果您的傳遞是週期性的，請按一下&#x200B;**[!UICONTROL Select傳遞]**，以選取要報告的特定傳遞。
 
    您也可以選取&#x200B;**[!UICONTROL 聯絡日期]**，將時段套用至報告。
 
@@ -68,3 +68,28 @@ Adobe Campaign 提供多種報告類型，每個傳遞均可存取。 這些報�
    **[!UICONTROL 檢視依據]**&#x200B;選項允許篩選URL、標籤或類別。
 
    ![依篩選URL、標籤或類別的選項檢視](assets/manage_delivery_report_5.png){zoomable="yes"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_deliveries_overview"
+>title="LINE交貨概要"
+>abstract="檢視要傳遞的訊息、傳遞的訊息，以及您的LINE傳遞的傳遞錯誤。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_targeted_population"
+>title="LINE目標母體"
+>abstract="**目標母體**&#x200B;圖表和表格會顯示與您的LINE對象相關的資料：要傳送的訊息和排除專案。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_overall_stats"
+>title="LINE整體統計資料"
+>abstract="**整體統計資料**&#x200B;報告會顯示已傳送LINE訊息的資料：成功與錯誤。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_exclusions"
+>title="LINE排除"
+>abstract="**排除專案**&#x200B;圖表和表格會顯示排除的設定檔無法接收LINE訊息的原因。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_line"
+>title="LINE傳遞輸送量"
+>abstract="**傳遞輸送量**&#x200B;報告會顯示指定時間範圍內之LINE訊息的傳遞速度。"
