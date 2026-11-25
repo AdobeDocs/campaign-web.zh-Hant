@@ -49,7 +49,7 @@ ht-degree: 9%
 
    ![熒幕擷圖顯示左側功能表，其中包含管道資料的報告選項和標籤](assets/manage_campaign_report_4.png){zoomable="yes"}
 
-1. 在儀表板中，按一下&#x200B;**[!UICONTROL Select傳遞]**，以定位行銷活動中包含的特定傳遞。
+1. 從您的儀表板，按一下&#x200B;**[!UICONTROL 選取傳遞]**，以您的行銷活動中包含的特定傳遞為目標。
 
 1. 在&#x200B;**[!UICONTROL 傳遞輸送量]**&#x200B;功能表中，選擇&#x200B;**開始**&#x200B;和&#x200B;**[!UICONTROL 結束時間]**&#x200B;以專注於特定資料。
 

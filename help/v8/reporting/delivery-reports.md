@@ -57,7 +57,7 @@ Adobe Campaign 提供多種報告類型，每個傳遞均可存取。 這些報�
 
    ![報告選取功能表在左側面板](assets/manage_delivery_report_3.png){zoomable="yes"}
 
-1. 如果您的傳遞是週期性的，請按一下&#x200B;**[!UICONTROL Select傳遞]**，以選取要報告的特定傳遞。
+1. 如果您的傳遞是週期性的，請按一下&#x200B;**[!UICONTROL 選取傳遞]**&#x200B;來選取要報告的特定傳遞。
 
    您也可以選取&#x200B;**[!UICONTROL 聯絡日期]**，將時段套用至報告。
 
