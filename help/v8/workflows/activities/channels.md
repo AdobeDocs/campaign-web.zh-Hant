@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: 使用傳遞工作流程活動
-description: 瞭解如何新增傳遞工作流程活動（電子郵件、推播、簡訊、WhatsApp、直接郵件）
+description: 瞭解如何新增傳遞工作流程活動（電子郵件、推播、簡訊、直接郵件）
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: 'https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM'
 product_v2:
@@ -14,14 +14,14 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 40%
+source-wordcount: '987'
+ht-degree: 41%
 ---
-# 電子郵件、簡訊、WhatsApp、推播、直接郵件活動 {#channel}
+# 電子郵件、簡訊、推播、直接郵件活動 {#channel}
 
-Adobe Campaign Web可讓您跨電子郵件、SMS、WhatsApp、直接郵件和推播頻道，自動執行行銷活動。 您可以將管道活動組合到工作流程畫布中，建立根據客戶行為和資料觸發動作的跨管道工作流程。
+Adobe Campaign Web可讓您跨電子郵件、簡訊、直接郵件和推播頻道，自動執行行銷活動。 您可以將管道活動組合到工作流程畫布中，建立根據客戶行為和資料觸發動作的跨管道工作流程。
 
 例如，建立歡迎電子郵件行銷活動，其中包括跨不同頻道的一系列訊息，例如電子郵件、簡訊、推播和直接郵件。 您也可以在客戶完成購買後傳送後續追蹤電子郵件，或透過簡訊向客戶傳送個人化生日訊息。
 
@@ -34,7 +34,6 @@ Adobe Campaign Web可讓您跨電子郵件、SMS、WhatsApp、直接郵件和推
 >* [建立獨立SMS傳遞](../../sms/create-sms.md)
 >* [建立獨立推播傳遞](../../push/create-push.md)
 >* [建立獨立的直接郵件傳遞](../../direct-mail/create-direct-mail.md)
->* [建立獨立的WhatsApp傳遞](../../whatsapp/create-whatsapp.md)
 
 ## 先決條件 {#channel-activity-prereq}
 
@@ -81,9 +80,9 @@ Adobe Campaign Web可讓您跨電子郵件、SMS、WhatsApp、直接郵件和推
 
 若要在工作流程內容中設定傳送，請遵循下列步驟：
 
-1. 新增頻道活動： **[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL WhatsApp]**、**[!UICONTROL 推播通知(Android)]**、**[!UICONTROL 推播通知(iOS)]**&#x200B;或&#x200B;**[!UICONTROL 直接郵件]**。
+1. 新增頻道活動： **[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL 推播通知(Android)]**、**[!UICONTROL 推播通知(iOS)]**&#x200B;或&#x200B;**[!UICONTROL 直接郵件]**。
 
-1. 選取&#x200B;**傳遞型別**：單一或循環。
+1. Select **傳遞型別**：單一或循環。
 
    * **單一傳遞**&#x200B;是隻傳送一次的單次傳遞，例如「黑色星期五」電子郵件。
    * 根據在[排程器活動](scheduler.md)中定義的執行頻率，**週期性傳遞**&#x200B;會多次傳送。 每次執行工作流程時，都會重新計算對象，並將傳送內容傳送給更新後的對象。 這可以是每週電子報或循環生日電子郵件。
@@ -92,7 +91,7 @@ Adobe Campaign Web可讓您跨電子郵件、SMS、WhatsApp、直接郵件和推
 
    ![熒幕擷圖顯示工作流程中的傳遞活動](../assets/delivery-activity-in-wf.png)
 
-   從管道活動設定左窗格中選取範本。 如果先前選取的對象與頻道不相容，則您無法選取範本。 若要解決此問題，請更新「**建置客群**」活動，以選取具有正確目標對應的客群。 在[本節](../../audience/targeting-dimensions.md)中進一步瞭解目標對應。
+   從管道活動設定左窗格Select範本。 如果先前選取的對象與頻道不相容，則您無法選取範本。 若要解決此問題，請更新「**建置客群**」活動，以選取具有正確目標對應的客群。 在[本節](../../audience/targeting-dimensions.md)中進一步瞭解目標對應。
 
 1. 按一下「**建立傳遞**」。 以建立獨立傳遞相同的方式定義訊息設定和內容。 測試及模擬內容。 [了解更多](../../msg/gs-messages.md)
 

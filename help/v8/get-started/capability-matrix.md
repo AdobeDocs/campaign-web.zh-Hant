@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 99%
+source-wordcount: '2498'
+ht-degree: 94%
 ---
 # Campaign Web 與 Campaign 用戶端主控台 {#capabilities-matrix}
 
@@ -85,12 +85,12 @@ Campaign 平台依據企業和資料需求所自訂的內容，以及與其他�
 
 ## 通訊管道 {#channels-capabilities}
 
-您可以使用 Campaign Web 使用者介面來建立、設計及傳送&#x200B;**電子郵件**、**簡訊**、**推播**、**直接郵件**，並使用各種專用報告來衡量其影響，詳細資訊請參閱[此區段](../msg/gs-messages.md)。 然而，目前&#x200B;**不**&#x200B;適用以下頻道：應用程式內、LINE、呼叫中心/自訂頻道、使用 X (Twitter) 進行社交行銷。
+透過Campaign Web使用者介面，您可以建立、設計和傳送&#x200B;**電子郵件**、**簡訊**、**推播通知**、**直接郵件**、**LINE**&#x200B;訊息、**客服中心**&#x200B;傳遞和&#x200B;**自訂頻道**&#x200B;傳遞，並使用各種專用報告來測量其影響，詳情請參閱本節[。 &#x200B;](../msg/gs-messages.md)但是，下列管道目前&#x200B;**無法**&#x200B;使用：應用程式內、使用X (Twitter)的社交行銷。
 
-使用提供的連結來瀏覽 Campaign v8 (用戶端主控台) 文件，進一步了解這些頻道。
+部分通道功能僅在使用者端主控台中提供：
 
-* **LINE 訊息傳遞**。 LINE 是一款應用程式，可免費即時傳送訊息、進行語音通話與視訊通話，適用於所有行動裝置和個人電腦。 Adobe Campaign 僅可從用戶端主控台傳送 LINE 訊息。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=zh-Hant){target="_blank"}
-* **呼叫中心和自訂管道**。 呼叫中心和其他自訂管道可以在您的行銷活動環境中實作。 這些管道只能在用戶端主控台中使用。 [閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=zh-Hant#other-channels){target="_blank"}
+* **客服中心報告**。 在客服中心頻道的網頁UI中不提供報表。 使用使用者端主控台進行存取。 [了解更多](../call-center/gs-call-center.md)
+* **自訂頻道設定**。 您可以在Web UI中建立自訂頻道的傳送，但在使用者端主控台中設定自訂頻道本身。 [了解更多](../call-center/gs-custom-channel.md)
 * 搭配 X (Twitter) 進行&#x200B;**社交行銷**。 透過 X (Twitter) 張貼訊息和傳送直接訊息，來與客戶互動。 此功能隨社交行銷附加元件一併提供，且僅能透過用戶端主控台使用。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=zh-Hant){target="_blank"}
 
 ## 登陸頁面和網頁應用程式 {#Webapps-capabilities}
