@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 99%
+source-wordcount: '2498'
+ht-degree: 94%
 ---
 # Campaign Web 與 Campaign 用戶端主控台 {#capabilities-matrix}
 
@@ -78,19 +78,19 @@ Campaign 平台依據企業和資料需求所自訂的內容，以及與其他�
 
 * **行銷行事曆**。 行銷活動行事曆會以全域時間軸顯示所有方案、計劃、行銷活動與傳遞。 此功能僅適用於用戶端主控台。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=zh-Hant#campaign-calendar){target="_blank"}
 * **方案與計劃**。 每個行銷活動都屬於某項方案，而該方案則隸屬於某個計劃。 在 Campaign Web 使用者介面中，所有行銷活動都會和預設的內建計劃及方案相關聯。 您僅能透過用戶端主控台建立和管理計劃及方案。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=zh-Hant#work-with-plan-and-program){target="_blank"}
-* **提供者、預算與成本管理**。 您可針對行銷活動內所執行的工作設定參與的服務提供者 (包括成本結構)，並管理每個方案與行銷活動內的預算。 此功能僅適用於用戶端主控台。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/campaign-orchestration/providers-stocks-and-budgets){target="_blank"}
+* **提供者、預算與成本管理**。 您可針對行銷活動內所執行的工作設定參與的服務提供者 (包括成本結構)，並管理每個方案與行銷活動內的預算。 此功能僅適用於用戶端主控台。 [了解更多](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/providers-stocks-and-budgets){target="_blank"}
 * **分散式行銷** (中央/地方行銷)。 Adobe Campaign 提供分散式行銷應用程式，可以讓中央實體 (總公司、行銷部門等) 和地方實體 (銷售點、地區代理商等) 合作實施行銷活動。 此功能僅適用於用戶端主控台。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hant){target="_blank"}
 * **行銷資源管理** (MRM)、目標、模擬及成本控制。 Adobe Campaign 提供行銷資源管理 (MRM) 應用程式，對於相關的任務、預算及行銷資源可進行完整的管理與即時追蹤，讓您透過合作模式控制行銷動作。 此功能僅適用於用戶端主控台。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=zh-Hant){target="_blank"}
 * **任務管理**。 在 MRM 應用程式中，可以從行銷活動控制面板建立、指派、追蹤及監控行銷活動工作。 此功能僅適用於用戶端主控台。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=zh-Hant){target="_blank"}
 
 ## 通訊管道 {#channels-capabilities}
 
-您可以使用 Campaign Web 使用者介面來建立、設計及傳送&#x200B;**電子郵件**、**簡訊**、**推播**、**直接郵件**，並使用各種專用報告來衡量其影響，詳細資訊請參閱[此區段](../msg/gs-messages.md)。 然而，目前&#x200B;**不**&#x200B;適用以下頻道：應用程式內、LINE、呼叫中心/自訂頻道、使用 X (Twitter) 進行社交行銷。
+透過Campaign Web使用者介面，您可以建立、設計和傳送&#x200B;**電子郵件**、**簡訊**、**推播通知**、**直接郵件**、**LINE**&#x200B;訊息、**客服中心**&#x200B;傳遞和&#x200B;**自訂頻道**&#x200B;傳遞，並使用各種專用報告來測量其影響，詳情請參閱本節[。 ](../msg/gs-messages.md)但是，下列管道目前&#x200B;**無法**&#x200B;使用：應用程式內、使用X (Twitter)的社交行銷。
 
-使用提供的連結來瀏覽 Campaign v8 (用戶端主控台) 文件，進一步了解這些頻道。
+部分通道功能僅在使用者端主控台中提供：
 
-* **LINE 訊息傳遞**。 LINE 是一款應用程式，可免費即時傳送訊息、進行語音通話與視訊通話，適用於所有行動裝置和個人電腦。 Adobe Campaign 僅可從用戶端主控台傳送 LINE 訊息。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=zh-Hant){target="_blank"}
-* **呼叫中心和自訂管道**。 呼叫中心和其他自訂管道可以在您的行銷活動環境中實作。 這些管道只能在用戶端主控台中使用。 [閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=zh-Hant#other-channels){target="_blank"}
+* **客服中心報告**。 在客服中心頻道的網頁UI中不提供報表。 使用使用者端主控台進行存取。 [了解更多](../call-center/gs-call-center.md)
+* **自訂頻道設定**。 您可以在Web UI中建立自訂頻道的傳送，但在使用者端主控台中設定自訂頻道本身。 [了解更多](../call-center/gs-custom-channel.md)
 * 搭配 X (Twitter) 進行&#x200B;**社交行銷**。 透過 X (Twitter) 張貼訊息和傳送直接訊息，來與客戶互動。 此功能隨社交行銷附加元件一併提供，且僅能透過用戶端主控台使用。 [了解更多](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=zh-Hant){target="_blank"}
 
 ## 登陸頁面和網頁應用程式 {#Webapps-capabilities}
@@ -120,7 +120,7 @@ Adobe Campaign 可讓您建立、設計和共用登陸頁面。 全新介面中�
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=zh-Hant){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -153,16 +153,16 @@ Adobe Campaign Web 使用者介面隨附全新的電子郵件設計工具，可�
 使用提供的連結來瀏覽 Campaign v8 (用戶端主控台) 文件，並深入了解類型規則：
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=zh-Hant){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 -->
-* 建立疲勞/壓力規則。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant){target="_blank"}
+* 建立疲勞/壓力規則。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=zh-Hant){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=zh-Hant){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 -->
-* 模擬行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=zh-Hant){target="_blank"}
+* 模擬行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=zh-Hant#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## 工作流程 {#wf-capabilities}
